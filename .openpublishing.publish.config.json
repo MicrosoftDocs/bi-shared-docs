@@ -17,6 +17,22 @@
       "template_folder": "_themes"
     },
     {
+      "docset_name": "tmsl",
+      "build_source_folder": "tmsl",
+      "build_output_subfolder": "tmsl",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "tom",
       "build_source_folder": "tom",
       "build_output_subfolder": "tom",
