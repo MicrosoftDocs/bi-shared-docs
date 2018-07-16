@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Install, distribute, and reference the Tabular Object Model
 
-This article explains how to download, reference, and redistribute Tabular Object Model (TOM), a C# library for creating and managing tabular models and databases in managed code.  
+This article describes how to download, reference, and redistribute Tabular Object Model (TOM), a C# library for creating and managing tabular models and databases in managed code.  
   
 TOM is an extension of the AMO client library (Microsoft.AnalysisServices.dll). To use TOM, the model and database must be at compatibility level 1200 or higher.  
 
@@ -50,22 +50,16 @@ You'll need both namespaces for tools and applications supporting a mix of datab
 
 Referencing the Core namespace in your code is unnecessary; the classes in Core are base classes created for the purpose of providing common properties, like Name and Description, for major objects.  
    
-## Download SQL_AS_AMO  
+## Download and install SQL_AS_AMO  
   
 1. Go to [Client libraries](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers).  
   
 2. Select and download AMO by using Windows Installer or NuGet packages.  
  
-## Install SQL_AS_AMO  
-  
-1. Double-click **SQL_AS_AMO.msi** and step through the installation.  
-  
-2. Go to **C:\Program Files\Microsoft SQL Server\130\SDK\Assemblies** to confirm the placement of Microsoft.AnalysisServices.Core.dll, Microsoft.AnalysisServices.dll, Microsoft.AnalysisServices.Tabular.dll, and Microsoft.AnalysisServices.Tabular.Json.dll.   
-  
 ## Add references  
   
 1. In **Solution Explorer** > **Add Reference** > **Browse**.  
-2. Go to **C:\Program Files\Microsoft SQL Server\130\SDK\Assemblies** and select:  
+2. Go to **C:\Program Files\Microsoft SQL Server\140\SDK\Assemblies** and select:  
    * Microsoft.AnalysisServices.Core  
    * Microsoft.AnalysisServices.Tabular  
    * Microsoft.AnalysisSerivces.Tabular.Json  

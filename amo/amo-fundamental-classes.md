@@ -1,6 +1,6 @@
 ---
 title: "AMO Fundamental Classes | Microsoft Docs"
-ms.date: 05/02/2018
+ms.date: 07/16/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -15,50 +15,38 @@ manager: kfile
   
  The following illustration shows the relationship of the classes that are explained in this topic.  
   
- ![AMO Fundamental Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/media/amo-fundamentalclasses.gif "AMO Fundamental Classes")  
+ ![AMO Fundamental Classes](media/amo-fundamentalclasses.gif "AMO Fundamental Classes")  
   
- This topic contains the following sections:  
-  
--   [Server Objects](#ServerObjects)  
-  
--   [Database Objects](#DatabaseObjects)  
-  
--   [DataSource and DataSourceView Objects](#DSandDSV)  
-  
-##  <a name="ServerObjects"></a> Server Objects  
+## Server objects
+
  Additionally, you will have access to the following methods:  
   
--   Connection management: Connect, Disconnect, Reconnect, and GetConnectionState.  
+- Connection management: Connect, Disconnect, Reconnect, and GetConnectionState.  
   
--   Transaction management: BeginTransaction, CommitTransaction, and RollbackTransaction.  
+- Transaction management: BeginTransaction, CommitTransaction, and RollbackTransaction.  
   
--   Backup and Restore.  
+- Backup and Restore.  
   
--   DDL execution: Execute, CancelCommand, SendXmlaRequest, StartXmlaRequest.  
+- DDL execution: Execute, CancelCommand, SendXmlaRequest, StartXmlaRequest.  
   
--   Metadata management: UpdateObjects and Validate.  
+- Metadata management: UpdateObjects and Validate.  
   
- To connect to a server, you need a standard connection string, as used in ADOMD.NET and OLEDB. For more information, see <xref:System.Configuration.ConnectionStringSettings.ConnectionString%2A>. The name of the server can be specified as a connection string without having to use a connection string format.  
+ To connect to a server, you need a standard connection string, as used in ADOMD.NET and OLEDB. For more information, see `<xref:System.Configuration.ConnectionStringSettings.ConnectionString>`. The name of the server can be specified as a connection string without having to use a connection string format.  
   
- For more information about methods and properties available, see <xref:Microsoft.AnalysisServices.Server> in the <xref:Microsoft.AnalysisServices>.  
+ For more information about methods and properties available, see `<xref:Microsoft.AnalysisServices.Server>` in the `<xref:Microsoft.AnalysisServices>`.  
   
-##  <a name="DatabaseObjects"></a> Database Objects  
- To work with a <xref:Microsoft.AnalysisServices.Database> object in your application, you must get an instance of the database from the parent server databases collection. To create a database, you add a <xref:Microsoft.AnalysisServices.Database> object to a server databases collection and update the new instance to the server. To delete a database, you drop the <xref:Microsoft.AnalysisServices.Database> object by using its own Drop method.  
+## Database objects
+
+ To work with a `<xref:Microsoft.AnalysisServices.Database>` object in your application, you must get an instance of the database from the parent server databases collection. To create a database, you add a `<xref:Microsoft.AnalysisServices.Database>` object to a server databases collection and update the new instance to the server. To delete a database, you drop the `<xref:Microsoft.AnalysisServices.Database>` object by using its own Drop method.  
   
- Databases can be backed up by using the BackUp method (from the <xref:Microsoft.AnalysisServices.Database> object or from the <xref:Microsoft.AnalysisServices.Server> object), but can only be restored from the <xref:Microsoft.AnalysisServices.Server> object with the Restore method.  
+ Databases can be backed up by using the BackUp method (from the `<xref:Microsoft.AnalysisServices.Database>` object or from the `<xref:Microsoft.AnalysisServices.Server>` object), but can only be restored from the `<xref:Microsoft.AnalysisServices.Server>` object with the Restore method.  
   
- For more information about methods and properties available, see <xref:Microsoft.AnalysisServices.Database> in the <xref:Microsoft.AnalysisServices>.  
+ For more information about methods and properties available, see `<xref:Microsoft.AnalysisServices.Database>` in the `<xref:Microsoft.AnalysisServices>`.  
   
-##  <a name="DSandDSV"></a> DataSource and DataSourceView Objects  
- Data sources are managed by using the <xref:Microsoft.AnalysisServices.DataSourceCollection> from the database class. An instance of <xref:Microsoft.AnalysisServices.DataSource> can be created by using the Add method from a <xref:Microsoft.AnalysisServices.DataSourceCollection> object. An instance of <xref:Microsoft.AnalysisServices.DataSource> can be deleted by using the Remove method from a <xref:Microsoft.AnalysisServices.DataSourceCollection> object.  
+## DataSource and DataSourceView Objects
+
+ Data sources are managed by using the `<xref:Microsoft.AnalysisServices.DataSourceCollection>` from the database class. An instance of `<xref:Microsoft.AnalysisServices.DataSource>` can be created by using the Add method from a `<xref:Microsoft.AnalysisServices.DataSourceCollection>` object. An instance of `<xref:Microsoft.AnalysisServices.DataSource>` can be deleted by using the Remove method from a `<xref:Microsoft.AnalysisServices.DataSourceCollection>` object.  
   
- <xref:Microsoft.AnalysisServices.DataSourceView> objects are managed from the <xref:Microsoft.AnalysisServices.DataSourceViewCollection> object in the database class.  
+ `<xref:Microsoft.AnalysisServices.DataSourceView>` objects are managed from the `<xref:Microsoft.AnalysisServices.DataSourceViewCollection>` object in the database class.  
   
- For more information about methods and properties available, see <xref:Microsoft.AnalysisServices.DataSource> and <xref:Microsoft.AnalysisServices.DataSourceView> in the <xref:Microsoft.AnalysisServices>.  
-  
-## See Also  
- <xref:Microsoft.AnalysisServices>   
- [Introducing AMO Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-classes-introduction.md)   
- [Programming AMO Fundamental Objects](../../../analysis-services/multidimensional-models/analysis-management-objects/programming-amo-fundamental-objects.md)  
-  
-  
+ For more information about methods and properties available, see `<xref:Microsoft.AnalysisServices.DataSource>` and `<xref:Microsoft.AnalysisServices.DataSourceView>` in the `<xref:Microsoft.AnalysisServices>`.
