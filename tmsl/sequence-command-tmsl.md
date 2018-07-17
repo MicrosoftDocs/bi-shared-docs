@@ -16,23 +16,23 @@ manager: kfile
   
  The following commands can be run sequentially, except for the **Refresh** command which runs in parallel to process multiple objects concurrently.  
   
--   [Create command &#40;TMSL&#41;](create-command-tmsl.md)  
+- [Create command &#40;TMSL&#41;](create-command-tmsl.md)  
   
--   [CreateOrReplace command &#40;TMSL&#41;](createorreplace-command-tmsl.md)  
+- [CreateOrReplace command &#40;TMSL&#41;](createorreplace-command-tmsl.md)  
   
--   [Alter command &#40;TMSL&#41;](alter-command-tmsl.md)  
+- [Alter command &#40;TMSL&#41;](alter-command-tmsl.md)  
   
--   [Delete command &#40;TMSL&#41;](delete-command-tmsl.md)  
+- [Delete command &#40;TMSL&#41;](delete-command-tmsl.md)  
   
--   [Refresh command &#40;TMSL&#41;](refresh-command-tmsl.md)  
+- [Refresh command &#40;TMSL&#41;](refresh-command-tmsl.md)  
   
--   [Backup command &#40;TMSL&#41;](backup-command-tmsl.md)  
+- [Backup command &#40;TMSL&#41;](backup-command-tmsl.md)  
   
--   [Restore command &#40;TMSL&#41;](restore-command-tmsl.md)  
+- [Restore command &#40;TMSL&#41;](restore-command-tmsl.md)  
   
--   [Attach command &#40;TMSL&#41;](attach-command-tmsl.md)  
+- [Attach command &#40;TMSL&#41;](attach-command-tmsl.md)  
   
--   [Detach command &#40;TMSL&#41;](detach-command-tmsl.md)  
+- [Detach command &#40;TMSL&#41;](detach-command-tmsl.md)  
   
 ## Request  
 
@@ -45,11 +45,11 @@ manager: kfile
   
  Only **Refresh** runs in parallel. If you modify **maxParallelism** to use a fixed number of threads, be sure to review the properties on the [Refresh command &#40;TMSL&#41;](refresh-command-tmsl.md) to understand the potential impact. It's possible to set properties in a way that undermines parallelism even when you've made multiple threads available. The following sequence of refresh types will give you the best degree of parallelism:  
   
--   First, specify Refresh for all objects using ClearValues  
+- First, specify Refresh for all objects using ClearValues  
   
--   Next, specify Refresh for all objects using DataOnly  
+- Next, specify Refresh for all objects using DataOnly  
   
--   Last specify Refresh for all objects using Full, Calculate, Automatic or Add  
+- Last specify Refresh for all objects using Full, Calculate, Automatic or Add  
   
  Any variation on this will break parallelism.  
   
@@ -94,12 +94,12 @@ manager: kfile
   
 ## Usage (endpoints)  
 
- This command element is used in  a statement of the [Execute Method &#40;XMLA&#41;](../../analysis-services/xmla/xml-elements-methods-execute.md) call over an XMLA endpoint, exposed in the following ways:  
+ This command element is used in  a statement of the Execute Method all over an XMLA endpoint, exposed in the following ways:  
   
--   As an XMLA window in SQL Server Management Studio (SSMS)  
+- As an XMLA window in SQL Server Management Studio (SSMS)  
   
--   As an input file to the **invoke-ascmd** PowerShell cmdlet  
+- As an input file to the **invoke-ascmd** PowerShell cmdlet  
   
--   As an input to an SSIS task or SQL Server Agent job  
+- As an input to an SSIS task or SQL Server Agent job  
   
  You cannot generate a ready-made script  for this command from SSMS. Instead, you can start with an example or write your own.

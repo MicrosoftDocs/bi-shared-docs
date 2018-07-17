@@ -1,1 +1,1 @@
-# Welcome to tmsl!
+# Tabular Model Scripting Language (TMSL)

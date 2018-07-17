@@ -1,1 +1,1 @@
-# Welcome to amo!
+# Analysis Management Objects (AMO)

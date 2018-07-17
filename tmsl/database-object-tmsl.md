@@ -12,7 +12,6 @@ manager: kfile
 ---
 # Database object (TMSL)
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
   Defines a tabular database at compatibility level 1200 or higher, based on a model of the same level. This topic documents the object definition of a database, providing the payload for requests that create, alter, delete, and perform database management tasks.  
   
 > [!NOTE]  

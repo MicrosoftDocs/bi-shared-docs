@@ -1,5 +1,5 @@
 ---
-title: "Understanding Tabular Object Model (TOM) in Analysis Services AMO | Microsoft Docs"
+title: "Overview: Tabular Object Model (TOM) in AMO | Microsoft Docs"
 ms.date: 07/13/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -10,18 +10,19 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# UOverview: Tabular Object Model (TOM) in AMO
+# Overview: Tabular Object Model (TOM) in AMO
 
-  The Tabular Object Model (TOM) is an extension of the Analysis Services Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher. As with AMO, TOM provides a programmatic way to handle administrative functions like creating models, importing and refreshing data, and assigning roles and permissions.  
+  The Tabular Object Model (TOM) is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher. As with AMO, TOM provides a programmatic way to handle administrative functions like creating models, importing and refreshing data, and assigning roles and permissions.  
   
-TOM exposes native tabular metadata, such as **model**, **tables**, **columns**, and **relationships** objects.  A high-level view of the object model tree, provided below, illustrates how the component parts are related.  
+TOM exposes native tabular metadata, such as **model**, **tables**, **columns**, and **relationships** objects. A high-level view of the object model tree, provided below, illustrates how the component parts are related.  
   
- Because TOM is an extension of AMO, all classes representing new Tabular objects are implemented in a new Microsoft.AnalysisServices.Tabular.dll assembly. General-purpose classes of AMO were moved to Microsoft.AnalysisServices.Core assembly. Your code will need to reference both assemblies.
+ Because TOM is an extension of AMO, all classes representing new tabular objects are implemented in a new Microsoft.AnalysisServices.Tabular.dll assembly. General-purpose classes of AMO were moved to Microsoft.AnalysisServices.Core assembly. Your code will need to reference both assemblies.
  See [Install, distribute, and reference the Tabular Object Model &#40;Microsoft.AnalysisServices.Tabular&#41;](install-distribute-and-reference-the-tabular-object-model.md) for details.  
   
  Currently, the API is available only for managed code over the .NET framework. To review the full list of programming options, including script and query language support, see [Tabular Model Programming for Compatibility Level 1200](https://docs.microsoft.com/sql/analysis-services/tabular-model-programming-compatibility-level-1200/tabular-model-programming-for-compatibility-level-1200).  
   
-## Tabular object model hierarchy  
+## Tabular object model hierarchy
+
  From a logical perspective, all Tabular objects form a tree, the root of which is a **Model**, descended from Database. **Server** and **Database** are not considered "tabular" because these objects can also represent a Multidimensional database hosted on a server running in Multidimensional mode, or a Tabular model at a lower compatibility level that does not use Tabular metadata for object definitions. 
   
  With the exception of **AttributeHierarchy**, **KPI**, and **LinguisticMetadata**, each child object can be a member of a collection. For example, the **Model** object contains a collection of **Table** objects (via the **Tables** property), with each **Table** object containing a collection of **Column** objects, and so on.  
@@ -45,7 +46,7 @@ On the wire, TOM uses the XMLA protocol to communicate with the server and to ma
 
 ### TOM and JSON
 
-Tabular metadata, which is structured as JSON documents, has a new command and object model definition syntax via the Tabular Model Scripting Language [TMSL](../tabular-model-scripting-language-tmsl-reference.md). The scripting language uses JSON for the body of requests and responses.
+Tabular metadata, which is structured as JSON documents, has a new command and object model definition syntax via the Tabular Model Scripting Language [TMSL](../tmsl/tabular-model-scripting-language-tmsl-reference.md). The scripting language uses JSON for the body of requests and responses.
 
 Although both TMSL and TOM expose same objects (**Table**, **Column**, and so forth) and the same operations (**Create**, **Delete**, **Refresh**), TOM does not use TMSL on the wire (it uses the MS-SSAS tabular protocol instead, as previously noted).
 

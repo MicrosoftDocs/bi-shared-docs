@@ -1,6 +1,6 @@
 ---
-title: "Programming AMO Complementary Classes and Methods | Microsoft Docs"
-ms.date: 05/02/2018
+title: "Programming AMO complementary classes and methods | Microsoft Docs"
+ms.date: 07/17/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -10,25 +10,17 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Programming AMO Complementary Classes and Methods
-  This topic contains the following sections:  
-  
--   [Assembly Class](#Assembly)  
-  
--   [Backup and Restore](#BU)  
-  
--   [Trace Class](#TRC)  
-  
--   [CaptureLog class and CaptureXML attribute](#CL)  
-  
-##  <a name="Assembly"></a> Assembly Class  
- Assemblies let users extend the functionality of [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] by adding new stored procedures or Multidimensional Expressions (MDX) functions. For more information, see [AMO Other Classes and Methods](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-other-classes-and-methods.md).  
+# Programming AMO complementary classes and methods
+
+## Assembly class
+
+ Assemblies let users extend the functionality of Analysis Services by adding new stored procedures or Multidimensional Expressions (MDX) functions. For more information, see [AMO other classes and methods](amo-other-classes-and-methods.md).  
   
  Adding and dropping assemblies is simple and can be performed online. You must be a database administrator to add an assembly to the database or a server administrator to add the assembly to the server object.  
   
  The following sample adds an assembly to the provided database and assigns the service account to run the assembly. If the assembly exists in the database, the assembly is dropped before trying to add it.  
   
-```  
+```
 static public void CreateStoredProcedures(Database db)  
 {  
     ClrAssembly clrAssembly;  
@@ -55,10 +47,11 @@ static public void CreateStoredProcedures(Database db)
   
 ```  
   
-##  <a name="BU"></a> Backup and Restore Methods  
+## Backup and Restore methods
+
  The Backup and Restore methods let administrators back up databases and restore them.  
   
- The following sample creates backups for all databases in the specified server. If a backup file already exists, then it is overwritten. Backup files are saved in the BackUp folder in the [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] Data folder.  
+ The following sample creates backups for all databases in the specified server. If a backup file already exists, then it is overwritten. Backup files are saved in the BackUp folder in the Analysis Services Data folder.  
   
 ```  
 static public void BackUpAllDatabases(Server svr)  
@@ -82,10 +75,11 @@ static public void RestoreAdventureWorks(Server svr)
 }  
 ```  
   
-##  <a name="TRC"></a> Trace Class  
+##  Trace class
+
  Monitoring the server activity requires using two kinds of traces: Session Traces and Server Traces. Tracing the server can tell you how your current task is performing on the server (Session Traces) or the traces can tell you about the overall activity in the server without you even being connected to the server (Server Traces).  
   
- When tracing current activity (Session Traces), the server sends notifications to the current application about the events that are occurring in the server that are caused by the application. Events are captured using event handlers in the current application. You first assign the event handling routines to the <xref:Microsoft.AnalysisServices.SessionTrace> object and then start the Session Trace.  
+ When tracing current activity (Session Traces), the server sends notifications to the current application about the events that are occurring in the server that are caused by the application. Events are captured using event handlers in the current application. You first assign the event handling routines to the `<xref:Microsoft.AnalysisServices.SessionTrace>` object and then start the Session Trace.  
   
  The following sample shows how to setup a Session Trace to trace current activities. Event handler routines are located at the end of the sample and will output all trace information to the System.Console object. To generate tracing events the "Adventure Works" sample cube will be fully processed after the trace starts.  
   
@@ -139,19 +133,19 @@ static public void DefaultTrace_Stopped(ITrace sender, TraceStoppedEventArgs e)
   
  Creating a server trace requires four steps:  
   
-1.  Create the server trace object and populate basic common attributes.  
+1. Create the server trace object and populate basic common attributes.  
   
      LogFileSize defines the maximum size of the trace file and is defined in MegaBytes; LogFileRollOver enables the logfile to start on a different file if LogFileSize limit is reached, when enabled the file name is appended with a sequence namber; AutoRestart enables the trace to start again if the Service is restarted.  
   
-2.  Create the events and the corresponding data columns.  
+2. Create the events and the corresponding data columns.  
   
-3.  Start and stop the trace as needed.  
+3. Start and stop the trace as needed.  
   
      Even after the trace has been stopped, the trace exists in the server and should start again if the trace was defined as AutoRestart=**true**.  
   
-4.  Drop the trace when no longer needed.  
+4. Drop the trace when no longer needed.  
   
- In the following sample, if the trace already exists, it is dropped and then recreated. Trace files are saved in the Log folder of [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] data folders.  
+ In the following sample, if the trace already exists, it is dropped and then recreated. Trace files are saved in the Log folder of Analysis Services data folders.  
   
 ```  
 static public void TestServerTraces(Server svr)  
@@ -215,20 +209,21 @@ static public void TestServerTraces(Server svr)
 }  
 ```  
   
-##  <a name="CL"></a> CaptureLog and CaptureXml Attributes  
+## CaptureLog and CaptureXml attributes
+
  The CaptureLog attribute enables you to create XMLA batch files from your AMO operations. CaptureLog enables you to script out server objects as databases, cubes, dimensions, mining structures, and others.  
   
  Creating a CaptureLog requires the following steps:  
   
-1.  Start capturing the XMLA log by setting the server attribute CaptureXml to **true**.  
+1. Start capturing the XMLA log by setting the server attribute CaptureXml to **true**.  
   
      This option will start saving all AMO operations to a string collection instead of sending them to the server.  
   
-2.  Start AMO activity as usual, but remember that no action is being sent to the server. Activity can be any operation such as processing, creating, deleting, updating, or any other action over an object.  
+2. Start AMO activity as usual, but remember that no action is being sent to the server. Activity can be any operation such as processing, creating, deleting, updating, or any other action over an object.  
   
-3.  Stop capturing the XMLA log by resetting CaptureXml to **false**.  
+3. Stop capturing the XMLA log by resetting CaptureXml to **false**.  
   
-4.  Review the captured XMLA, either by reviewing each of the strings in the CaptureLog string collection, or by generating a complete string with the ConcatenateCaptureLog method. ConcatenateCaptureLog enables you to generate the XMLA batch as a single transaction and to add the parallel process option to the batch.  
+4. Review the captured XMLA, either by reviewing each of the strings in the CaptureLog string collection, or by generating a complete string with the ConcatenateCaptureLog method. ConcatenateCaptureLog enables you to generate the XMLA batch as a single transaction and to add the parallel process option to the batch.  
   
  The following sample returns a string with the batch commands to do a Full process on all dimensions and on all cubes on the [Adventure Works DW Multidimensional 2012] database.  
   
@@ -257,14 +252,4 @@ static public string TestCaptureLog(Server svr)
   
     return capturedXmla;  
 }  
-```  
-  
-## See Also  
- <xref:Microsoft.AnalysisServices>   
- [Introducing AMO Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-classes-introduction.md)   
- [AMO Other Classes and Methods](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-other-classes-and-methods.md)   
- [Logical Architecture &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/understanding-microsoft-olap-logical-architecture.md)   
- [Database Objects &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/database-objects-analysis-services-multidimensional-data.md)   
- [Processing a multidimensional model &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md)  
-  
-  
+```

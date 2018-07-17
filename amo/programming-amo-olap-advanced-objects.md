@@ -1,6 +1,6 @@
 ---
-title: "Programming AMO OLAP Advanced Objects | Microsoft Docs"
-ms.date: 05/02/2018
+title: "Programming AMO OLAP advanced objects | Microsoft Docs"
+ms.date: 07/17/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -10,41 +10,33 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Programming AMO OLAP Advanced Objects
-  This topic explains the Analysis Management Objects (AMO) programming details of OLAP advanced objects. This topic contains the following sections:  
-  
--   [Action Objects](#Action)  
-  
--   [Kpi Objects](#KPI)  
-  
--   [Perspective Objects](#Persp)  
-  
--   [ProactiveCaching Objects](#PC)  
-  
--   [Translation Objects](#Transl)  
-  
-##  <a name="Action"></a> Action Objects  
+# Programming AMO OLAP advanced objects
+
+  This topic explains the Analysis Management Objects (AMO) programming details of OLAP advanced objects. 
+
+## Action objects
+
  Action classes are used to create an active response when browsing certain areas of the cube. Action objects can be defined by using AMO, but are used from the client application that browses the data. Actions can be of different types and they have to be created according to their type. Actions can be:  
   
--   Drillthrough actions, which return the set of rows that represents the underlying data of the selected cells of the cube where the action occurs.  
+- Drillthrough actions, which return the set of rows that represents the underlying data of the selected cells of the cube where the action occurs.  
   
--   Reporting actions, which return a report from [!INCLUDE[ssRSnoversion](../../../includes/ssrsnoversion-md.md)] that is associated with the selected section of the cube where the action occurs.  
+- Reporting actions, which return a report from that is associated with the selected section of the cube where the action occurs.  
   
--   Standard actions, which return the action element (URL, HTML, DataSet, RowSet, and other elements) that is associated with the selected section of the cube where the action occurs.  
+- Standard actions, which return the action element (URL, HTML, DataSet, RowSet, and other elements) that is associated with the selected section of the cube where the action occurs.  
   
  Creating an action object requires the following steps:  
   
-1.  Create the derived action object and populate basic attributes.  
+1. Create the derived action object and populate basic attributes.  
   
      The following are the basic attributes: type of action, target type or section of the cube, target or specific area of the cube where the action is available, caption and where the caption is an MDX expression.  
   
-2.  Populate the specific attributes of the action type.  
+2. Populate the specific attributes of the action type.  
   
      Attributes are different for the three types of actions, see the code sample that follows for parameters.  
   
-3.  Add the action to the cubes collection and update the cube. The action is not an updatable object.  
+3. Add the action to the cubes collection and update the cube. The action is not an updatable object.  
   
- Testing the action requires a different program application. You can test your action in [!INCLUDE[ssBIDevStudioFull](../../../includes/ssbidevstudiofull-md.md)]. First, you must install [!INCLUDE[ssRSnoversion](../../../includes/ssrsnoversion-md.md)] samples, see [Processing a multidimensional model &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md).  
+ Testing the action requires a different program application. You can test your action in SSDT. 
   
  The following sample code replicates three different actions from the Adventure Works Analysis Services Project sample. You can differentiate the actions because the ones that you introduce by using the following sample, start with "My".  
   
@@ -171,44 +163,45 @@ static public void CreateActions(Cube cube)
 }  
 ```  
   
-##  <a name="KPI"></a> Kpi Objects  
- A key performance indicator (KPI) is a collection of calculations that are associated with a measure group in a cube and are used to evaluate business success. <xref:Microsoft.AnalysisServices.Kpi> objects can be defined by AMO, but are used from the client application that browses the data.  
+## KPI objects
+
+ A key performance indicator (KPI) is a collection of calculations that are associated with a measure group in a cube and are used to evaluate business success. `<xref:Microsoft.AnalysisServices.Kpi>` objects can be defined by AMO, but are used from the client application that browses the data.  
   
- Creating a <xref:Microsoft.AnalysisServices.Kpi> object requires the following steps:  
+ Creating a `<xref:Microsoft.AnalysisServices.Kpi>` object requires the following steps:  
   
-1.  Create the <xref:Microsoft.AnalysisServices.Kpi> object and populate the basic attributes.  
+1. Create the `<xref:Microsoft.AnalysisServices.Kpi>` object and populate the basic attributes.  
   
      The following is a list of basic attributes: Description, Display Folder, Associated Measure Group, and Value. Display Folder tells the client application where the KPI should be located for the end-user to find it. The Associated Measure Group indicates the measure group where all MDX calculations should be referred. Value shows the actual value of the performance indicator as an MDX expression.  
   
-2.  Define KPI Indicators: Goal, Status, and Trend.  
+2. Define KPI Indicators: Goal, Status, and Trend.  
   
      Indicators are MDX expressions that should evaluate between -1 to 1, but is the browsing application which defines the range of values for the indicators.  
   
-3.  When you browse KPIs in [!INCLUDE[ssBIDevStudioFull](../../../includes/ssbidevstudiofull-md.md)], values less than -1 are treated as -1, and values larger than 1 are treated as 1.  
+3. When you browse KPIs, values less than -1 are treated as -1, and values larger than 1 are treated as 1.  
   
-4.  Define graphic images.  
+4. Define graphic images.  
   
      Graphic images are string values, used as reference in the client application to identify the correct set of images to display. The graphic image string also defines the behavior of the display function. Usually the range is split in an odd number of states, from bad to good, and to each state an image, from the set, is assigned.  
   
-     If you use [!INCLUDE[ssBIDevStudioFull](../../../includes/ssbidevstudiofull-md.md)] to browse your KPIs, then depending on names, the indicator range is split into either three states or five states. In addition, there are names where the range is inverted, that is -1 is 'Good' and 1 is 'Bad'. In [!INCLUDE[ssBIDevStudioFull](../../../includes/ssbidevstudiofull-md.md)], three states within the range are as follows:  
+     If you use SSDT to browse your KPIs, then depending on names, the indicator range is split into either three states or five states. In addition, there are names where the range is inverted, that is -1 is 'Good' and 1 is 'Bad'. In SSDT, three states within the range are as follows:  
   
-    -   Bad = -1 to -0.5  
+    - Bad = -1 to -0.5  
   
-    -   OK = -0.4999 to -0.4999  
+    - OK = -0.4999 to -0.4999  
   
-    -   Good = 0.50 to 1  
+    - Good = 0.50 to 1  
   
-     In [!INCLUDE[ssBIDevStudioFull](../../../includes/ssbidevstudiofull-md.md)], five states within the range are as follows:  
+     In SSDT, five states within the range are as follows:  
   
-    -   Bad = -1 to -0.75  
+    - Bad = -1 to -0.75  
   
-    -   Risk = -0.7499 to -0.25  
+    - Risk = -0.7499 to -0.25  
   
-    -   OK = -0.2499 to 0.2499  
+    - OK = -0.2499 to 0.2499  
   
-    -   Raising = 0.25 to 0.7499  
+    - Raising = 0.25 to 0.7499  
   
-    -   Good = 0.75 to 1  
+    - Good = 0.75 to 1  
   
  The following table lists the Usage, Name, and the number of states associated with the image.  
   
@@ -228,9 +221,9 @@ static public void CreateActions(Cube cube)
 |Trend|Reversed status arrow|5|  
 |Trend|Faces|3|  
   
-1.  Add the KPI to the cube collection and update the cube, because the KPI is not an updatable object.  
+1. Add the KPI to the cube collection and update the cube, because the KPI is not an updatable object.  
   
- Testing the KPI requires a different program application. You can test your KPI in [!INCLUDE[ssBIDevStudioFull](../../../includes/ssbidevstudiofull-md.md)].  
+ Testing the KPI requires a different program application. You can test your KPI in SSDT.  
   
  The following sample code creates a KPI in the "Financial Perpective/Grow Revenue" folder for the Adventure Works cube that is included in the Adventure Works Analysis Services Project sample.  
   
@@ -330,22 +323,23 @@ static public void CreateKPIs(Cube cube)
 }.  
 ```  
   
-##  <a name="Persp"></a> Perspective Objects  
- <xref:Microsoft.AnalysisServices.Perspective> objects can be defined by AMO, but are used from the client application that browses the data.  
+## Perspective objects
+
+ `<xref:Microsoft.AnalysisServices.Perspective>` objects can be defined by AMO, but are used from the client application that browses the data.  
   
- Creating a <xref:Microsoft.AnalysisServices.Perspective> object requires the following steps:  
+ Creating a `<xref:Microsoft.AnalysisServices.Perspective>` object requires the following steps:  
   
-1.  Create the <xref:Microsoft.AnalysisServices.Perspective> object and populate the basic attributes.  
+1. Create the `<xref:Microsoft.AnalysisServices.Perspective>` object and populate the basic attributes.  
   
      The following is a list of basic attributes: Name, Default Measure, Description, and annotations.  
   
-2.  Add all objects from the parent cube that should be seen by end user.  
+2. Add all objects from the parent cube that should be seen by end user.  
   
      Add cube dimensions (attributes and hierarchies), measure groups (measure and measure group), actions, KPIs, and calculations.  
   
-3.  Add the perspective to the cube collection and update the cube, because perspective is not an updatable object.  
+3. Add the perspective to the cube collection and update the cube, because perspective is not an updatable object.  
   
- Testing the perspective requires a different program application. You can test your perspective in [!INCLUDE[ssBIDevStudioFull](../../../includes/ssbidevstudiofull-md.md)].  
+ Testing the perspective requires a different program application. 
   
  The following code sample creates a perspective named "Direct Sales" for the supplied cube.  
   
@@ -393,16 +387,17 @@ static public void CreatePerspectives(Cube cube)
 }  
 ```  
   
-##  <a name="PC"></a> ProactiveCaching Objects  
- <xref:Microsoft.AnalysisServices.ProactiveCaching> objects can be defined by AMO.  
+## ProactiveCaching objects
+
+ `<xref:Microsoft.AnalysisServices.ProactiveCaching>` objects can be defined by AMO.  
   
- Creating a <xref:Microsoft.AnalysisServices.ProactiveCaching> object requires the following steps:  
+ Creating a `<xref:Microsoft.AnalysisServices.ProactiveCaching>` object requires the following steps:  
   
-1.  Create the <xref:Microsoft.AnalysisServices.ProactiveCaching> object.  
+1. Create the `<xref:Microsoft.AnalysisServices.ProactiveCaching>` object.  
   
      There are no basic attributes to define.  
   
-2.  Add cache specifications.  
+2. Add cache specifications.  
   
 |Specification|Description|  
 |-------------------|-----------------|  
@@ -413,9 +408,9 @@ static public void CreatePerspectives(Cube cube)
 |ForceRebuildInterval|The time (starting after a fresh MOLAP image is dropped) after which MOLAP imaging starts unconditionally (no notifications).|  
 |OnlineMode|When the MOLAP image is available.<br /><br /> Can be either **Immediate** or **OnCacheComplete**.|  
   
-1.  Add the <xref:Microsoft.AnalysisServices.ProactiveCaching> object to the parent collection. You will need to update the parent, because <xref:Microsoft.AnalysisServices.ProactiveCaching> is not an updatable object.  
+1. Add the `<xref:Microsoft.AnalysisServices.ProactiveCaching>` object to the parent collection. You will need to update the parent, because `<xref:Microsoft.AnalysisServices.ProactiveCaching>` is not an updatable object.  
   
- The following code sample creates a <xref:Microsoft.AnalysisServices.ProactiveCaching> object in all partitions from the Internet Sales measure group in the Adventure Works cube in a specified database.  
+ The following code sample creates a `<xref:Microsoft.AnalysisServices.ProactiveCaching>` object in all partitions from the Internet Sales measure group in the Adventure Works cube in a specified database.  
   
 ```  
 static public void SetProactiveCachingSettings(Database db)  
@@ -450,8 +445,9 @@ static public void SetProactiveCachingSettings(Database db)
 }  
 ```  
   
-##  <a name="Transl"></a> Translation Objects  
- Translation objects can be defined by AMO, but are used from the client application that browses the data. Translation objects are simple objects to code. Translations for object captions are provided by pairs of Locale Identifier and Translated Caption. For any caption, multiple translations can be enabled. Translations can be provided for most [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] objects, such as dimensions, attributes, hierarchies, cubes, measure groups, measures, and others.  
+## Translation objects
+
+ Translation objects can be defined by AMO, but are used from the client application that browses the data. Translation objects are simple objects to code. Translations for object captions are provided by pairs of Locale Identifier and Translated Caption. For any caption, multiple translations can be enabled. Translations can be provided for most objects, such as dimensions, attributes, hierarchies, cubes, measure groups, measures, and others.  
   
  The following code sample provides a Spanish translation for the name of the attribute Product Name.  
   
@@ -467,15 +463,4 @@ static public void CreateTranslations(Database db)
     dim.Update(UpdateOptions.ExpandFull);  
   
 }  
-```  
-  
-## See Also  
- <xref:Microsoft.AnalysisServices>   
- [Introducing AMO Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-classes-introduction.md)   
- [AMO OLAP Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-olap-classes.md)   
- [Logical Architecture &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/understanding-microsoft-olap-logical-architecture.md)   
- [Database Objects &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/database-objects-analysis-services-multidimensional-data.md)   
- [Processing a multidimensional model &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md)   
- [Install Sample Data and Projects for the Analysis Services Multidimensional Modeling Tutorial](../../../analysis-services/install-sample-data-and-projects.md)  
-  
-  
+```

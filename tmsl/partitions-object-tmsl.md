@@ -23,11 +23,11 @@ manager: kfile
  type  
  The type of partition. Valid values are numeric, and include the following:  
   
--   Query (1) – data in this partition is retrieved by executing a query against a **DataSource**. The **DataSource** must be a data source defined in the model.bim file.  
+- Query (1) – data in this partition is retrieved by executing a query against a **DataSource**. The **DataSource** must be a data source defined in the model.bim file.  
   
--   Calculated (2) – data in this partition is populated by executing a calculated expression.  
+- Calculated (2) – data in this partition is populated by executing a calculated expression.  
   
--   None (3) – data in this partition is populated by pushing a rowset of data to the server as part of the Refresh operation.  
+- None (3) – data in this partition is populated by pushing a rowset of data to the server as part of the Refresh operation.  
   
  mode  
  Defines the query mode of the partition. Valid values are **import**, **DirectQuery**, or **default** (inherited). This value is required.  

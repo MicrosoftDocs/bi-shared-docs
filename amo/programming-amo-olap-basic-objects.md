@@ -1,6 +1,6 @@
 ---
-title: "Programming AMO OLAP Basic Objects | Microsoft Docs"
-ms.date: 05/02/2018
+title: "Programming AMO OLAP basic objects | Microsoft Docs"
+ms.date: 07/17/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -10,32 +10,25 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Programming AMO OLAP Basic Objects
-  Creating complex [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] objects is simple and straightforward but requires attention to detail. This topic explains the programming details of OLAP basic objects. This topic contains the following sections:  
+# Programming AMO OLAP basic objects
+
+  Creating complex Analysis Services objects is simple and straightforward but requires attention to detail. This topic explains the programming details of OLAP basic objects. This topic contains the following sections:  
+
+## Dimension objects
+
+ To administer or process a dimension, you program the `<xref:Microsoft.AnalysisServices.Dimension>` object.  
   
--   [Dimension Objects](#Dim)  
+### Creating, dropping, and finding a Dimension
+
+ Creating a `<xref:Microsoft.AnalysisServices.Dimension>` object is accomplished in four steps:  
   
--   [Cube Objects](#Cub)  
-  
--   [MeasureGroup Objects](#MG)  
-  
--   [Partition Objects](#Part)  
-  
--   [Aggregation Objects](#AD)  
-  
-##  <a name="Dim"></a> Dimension Objects  
- To administer or process a dimension, you program the <xref:Microsoft.AnalysisServices.Dimension> object.  
-  
-### Creating, Dropping, and Finding a Dimension  
- Creating a <xref:Microsoft.AnalysisServices.Dimension> object is accomplished in four steps:  
-  
-1.  Create the dimension object and populate basic attributes.  
+1. Create the dimension object and populate basic attributes.  
   
      Basic attributes are Name, Dimension Type, Storage Mode, Data Source Binding, Attribute All Member Name, and other dimension attributes.  
   
      Before creating a dimension, you should verify that the dimension does not already exist. If the dimension exists, then the dimension is dropped and re-created.  
   
-2.  Create the attributes that define the dimension.  
+2. Create the attributes that define the dimension.  
   
      Each attribute has to be added individually to the schema before using it (find CreateDataItem method at the end of the sample code), and then can be added to the attributes collection of the dimension.  
   
@@ -43,11 +36,11 @@ manager: kfile
   
      The primary key attribute of the dimension should be defined as AttributeUsage.Key to make clear that this attribute is the key access to the dimension.  
   
-3.  Create the hierarchies that the user will access to navigate the dimension.  
+3. Create the hierarchies that the user will access to navigate the dimension.  
   
      When you are creating hierarchies, the level order is defined by the order in which levels are created from top to bottom. The highest level is the first added to the levels collection of the hierarchy.  
   
-4.  Update the server by using the Update method of the current dimension.  
+4. Update the server by using the Update method of the current dimension.  
   
  The following sample code creates the Product dimension from the Adventure Works products table in the sample database.  
   
@@ -145,10 +138,11 @@ static DataItem CreateDataItem(DataSourceView dsv, string tableName, string colu
   
 ```  
   
-### Processing a Dimension  
- Processing a dimension is as simple as using the Process method of the <xref:Microsoft.AnalysisServices.Dimension> object.  
+### Processing a dimension
+
+ Processing a dimension is as simple as using the Process method of the `<xref:Microsoft.AnalysisServices.Dimension>` object.  
   
- Processing a dimension can affect all cubes that use the dimension. For more information about processing options, see [Processing a multidimensional model &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md).  
+ Processing a dimension can affect all cubes that use the dimension.
   
  The following code does an incremental update in all dimensions of a supplied database:  
   
@@ -160,29 +154,31 @@ static void UpdateAllDimensions(Database db)
 }  
 ```  
   
-##  <a name="Cub"></a> Cube Objects  
- To administer or process a cube, you program the <xref:Microsoft.AnalysisServices.Cube> object.  
+## Cube objects
+
+ To administer or process a cube, you program the `<xref:Microsoft.AnalysisServices.Cube>` object.  
   
-### Creating, Dropping, and Finding a Cube  
- Managing cubes is similar to managing dimensions. Creating a <xref:Microsoft.AnalysisServices.Cube> object is accomplished in four steps:  
+### Creating, dropping, and finding a cube
+
+ Managing cubes is similar to managing dimensions. Creating a `<xref:Microsoft.AnalysisServices.Cube>` object is accomplished in four steps:  
   
-1.  Create the cube object and populate basic attributes.  
+1. Create the cube object and populate basic attributes.  
   
      Basic attributes are Name, Storage Mode, Data Source Binding, Default Measure, and other cube attributes.  
   
      Before creating a cube you should verify that the cube does not exist. In the sample if the cube exists the cube is dropped and then re-created.  
   
-2.  Add the dimensions of the cube.  
+2. Add the dimensions of the cube.  
   
      Dimensions are added to the current cube dimensions collection from the database; dimensions in the cube are references to the database dimensions collection. Each dimension has to be mapped to the cube individually. In the sample dimensions are mapped providing: the database dimension Internal Identifier, a Name for the dimension in the cube and an Id for the named dimension in the cube.  
   
      In the sample code notice that "Date" dimension is added three times, every time is added by using a different cube dimension name: Date, Ship Date, Delivery Date. These dimensions are called “role playing” dimensions. The base dimension is the same (Date), but in the fact table the dimension is used in different “roles” (Order Date, Ship Date, Delivery Date) -see "Creating, dropping and finding a MeasureGroup" later in this document to understand how "role playing" dimensions are defined.  
   
-3.  Create the Measure Groups that the user will access to browse the data of the cube.  
+3. Create the Measure Groups that the user will access to browse the data of the cube.  
   
      Measure group creation will be explained in "Creating, dropping and finding a MeasureGroup" later in this document. The sample wraps measure group creation in different methods, one for each measure group.  
   
-4.  Update the server by using the Update method of current cube.  
+4. Update the server by using the Update method of current cube.  
   
      The update method is used with the Update option ExpandFull to make sure that all objects are fully updated in the server.  
   
@@ -232,10 +228,9 @@ static void CreateAdventureWorksCube(Database db, string datasourceName)
 }  
 ```  
   
-### Processing a Cube  
- Processing a cube is as simple as using the Process method of the <xref:Microsoft.AnalysisServices.Cube> object. Processing a cube also processes all measure groups in the cube, and all partitions in the measure group. In a cube, partitions are the only objects that can be processed; for the purposes of processing, measure groups are only containers of partitions. The specified type of processing for the cube propagates to the partitions. Processing of cube and measure group internally is resolved to processing of dimensions and partitions.  
-  
- For more information about processing options, see [Processing Objects &#40;XMLA&#41;](../../../analysis-services/multidimensional-models-scripting-language-assl-xmla/processing-objects-xmla.md), and [Processing a multidimensional model &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md).  
+### Processing a cube
+
+ Processing a cube is as simple as using the Process method of the `<xref:Microsoft.AnalysisServices.Cube>` object. Processing a cube also processes all measure groups in the cube, and all partitions in the measure group. In a cube, partitions are the only objects that can be processed; for the purposes of processing, measure groups are only containers of partitions. The specified type of processing for the cube propagates to the partitions. Processing of cube and measure group internally is resolved to processing of dimensions and partitions.
   
  The following code will do a full process on all cubes in a specified database:  
   
@@ -245,31 +240,33 @@ foreach (Cube cube in db.Cubes)
      }  
 ```  
   
-##  <a name="MG"></a> MeasureGroup Objects  
- To administer or process a measure group, you program the <xref:Microsoft.AnalysisServices.MeasureGroup> object.  
+## MeasureGroup objects
+
+ To administer or process a measure group, you program the `<xref:Microsoft.AnalysisServices.MeasureGroup>` object.  
   
-### Creating, Dropping, and Finding a MeasureGroup  
- Managing measure groups is similar to managing dimensions and cubes. Creating a <xref:Microsoft.AnalysisServices.MeasureGroup> object is accomplished in the following steps:  
+### Creating, dropping, and finding a MeasureGroup
+
+ Managing measure groups is similar to managing dimensions and cubes. Creating a `<xref:Microsoft.AnalysisServices.MeasureGroup>` object is accomplished in the following steps:  
   
-1.  Create the measure group object and populate the basic attributes.  
+1. Create the measure group object and populate the basic attributes.  
   
      Basic attributes include Name, Storage Mode, Processing Mode, Default Measure, and other measure group attributes.  
   
      Before creating a measure group, verify that the measure group does not exist. In the sample code that follows, if the measure group exists, then the measure group is dropped and re-created.  
   
-2.  Create the measures of the measure group. For each measure created, the following attributes are assigned: name, aggregation function, source column, format string. Other attributes can also be assigned. Note that in the sample code that follows, the CreateDataItem method adds the column to the schema.  
+2. Create the measures of the measure group. For each measure created, the following attributes are assigned: name, aggregation function, source column, format string. Other attributes can also be assigned. Note that in the sample code that follows, the CreateDataItem method adds the column to the schema.  
   
-3.  Add the dimensions of the measure group.  
+3. Add the dimensions of the measure group.  
   
-4.  Dimensions are added to the current measure group dimensions collection from the parent cube dimensions collection. As soon as the dimension is included in the measure group dimensions collection, a key column from the fact table can be mapped to the dimension so that the measure group can be browsed through the dimension.  
+4. Dimensions are added to the current measure group dimensions collection from the parent cube dimensions collection. As soon as the dimension is included in the measure group dimensions collection, a key column from the fact table can be mapped to the dimension so that the measure group can be browsed through the dimension.  
   
      In the sample code that follows, see the lines under "Mapping dimension and key column from fact table". The role playing dimensions are implemented by linking different surrogate keys to the same dimension under different names. For each one of the role playing dimensions (Date, Ship Date, Delivery Date), a different surrogate key is linked to it (OrderDateKey, ShipDateKey, DueDateKey). All keys are from the fact table FactInternetSales.  
   
-5.  Add the designed partitions of the measure group.  
+5. Add the designed partitions of the measure group.  
   
      The in the sample code that follows, partition creation is wrapped in one method.  
   
-6.  Update the server by using the Update method of current measure group.  
+6. Update the server by using the Update method of current measure group.  
   
      In the sample code that follows, all measure groups are updated when the cube is updated.  
   
@@ -398,11 +395,9 @@ static void CreateInternetSalesMeasureGroup(Cube cube)
     #endregion  
 }  
 ```  
-  
-### Processing a Measure Group  
- Processing a measure group is as simple as using the Process method of the <xref:Microsoft.AnalysisServices.MeasureGroup> object. Processing a measure group will process all partitions that belong to the measure group. Processing a measure group internally is resolved to processing dimensions and partitions. See [Processing a Partition](#ProcPart) in this document.  
-  
- For more information about processing options, see [Processing Objects &#40;XMLA&#41;](../../../analysis-services/multidimensional-models-scripting-language-assl-xmla/processing-objects-xmla.md), and [Processing a multidimensional model &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md).  
+
+### Processing a measure group
+ Processing a measure group is as simple as using the Process method of the `<xref:Microsoft.AnalysisServices.MeasureGroup>` object. Processing a measure group will process all partitions that belong to the measure group. Processing a measure group internally is resolved to processing dimensions and partitions. See [Processing a Partition](#ProcPart) in this document.  
   
  The following code will do a full process in all measure groups of a supplied cube.  
   
@@ -414,19 +409,21 @@ static void FullProcessAllMeasureGroups(Cube cube)
 }  
 ```  
   
-##  <a name="Part"></a> Partition Objects  
- To administer or process a partition, you program a <xref:Microsoft.AnalysisServices.Partition> object.  
+## Partition objects
+
+ To administer or process a partition, you program a `<xref:Microsoft.AnalysisServices.Partition>` object.  
   
-### Creating, Dropping, and Finding a Partition  
+### Creating, dropping, and finding a partition
+
  Partitions are simple objects that can be created in two steps.  
   
-1.  Create the partition object and populate the basic attributes.  
+1. Create the partition object and populate the basic attributes.  
   
      Basic attributes are Name, Storage Mode, partition source, Slice, as well as other measure group attributes. Partition source defines the SQL select statement for current partition. Slice is an MDX expression specifying a tuple or a set that delimits a part of the dimensions from the parent measure group that are contained in the current partition. For MOLAP partitions, slicing is determined automatically every time that the partition is processed.  
   
      Before creating a partition, you should verify that the partition does not exist. In the sample code that follows, if the partition exists, it is dropped and then re-created.  
   
-2.  Update the server by using the Update method of the current partition.  
+2. Update the server by using the Update method of the current partition.  
   
      In the sample code that follows, all partitions are updated when the cube is updated.  
   
@@ -465,10 +462,9 @@ static void CreateInternetSalesMeasureGroupPartitions(MeasureGroup mg)
 }  
 ```  
   
-###  <a name="ProcPart"></a> Processing a Partition  
- Processing a partition is as simple as using the Process method of the <xref:Microsoft.AnalysisServices.Partition> object.  
-  
- For more information about processing options, see [Processing Objects &#40;XMLA&#41;](../../../analysis-services/multidimensional-models-scripting-language-assl-xmla/processing-objects-xmla.md) and [Processing a multidimensional model &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md).  
+### Processing a partition
+
+ Processing a partition is as simple as using the Process method of the `<xref:Microsoft.AnalysisServices.Partition>` object.  
   
  The following code sample does a full process in all partitions of a specified measure group.  
   
@@ -480,10 +476,11 @@ static void FullProcessAllPartitions(MeasureGroup mg)
 }  
 ```  
   
-### Merging Partitions  
+### Merging partitions
+
  Merging partitions means performing any operation that results in two or more partitions becoming one partition.  
   
- Merging partitions is a method of the <xref:Microsoft.AnalysisServices.Partition> object. This command merges the data of one or more source partitions into a target partition and deletes the source partitions.  
+ Merging partitions is a method of the `<xref:Microsoft.AnalysisServices.Partition>` object. This command merges the data of one or more source partitions into a target partition and deletes the source partitions.  
   
  Partitions can be merged only if they meet all the following criteria:  
   
@@ -493,7 +490,7 @@ static void FullProcessAllPartitions(MeasureGroup mg)
   
 -   Partitions reside on the same server; remote partitions can be merged if on the same server.  
   
- Unlike previous versions, in [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] it is not necessary that all source partitions have identical aggregations design.  
+ Unlike previous versions, in Analysis Services, it is not necessary that all source partitions have identical aggregations design.  
   
  The resulting set of aggregations for the target partition is the same set of aggregations as of the state before running merge command.  
   
@@ -513,11 +510,13 @@ static void MergeAllPartitions(MeasureGroup mg)
     }  
 ```  
   
-##  <a name="AD"></a> Aggregation Objects  
- To design an design an aggregation and apply it to one or more partitions, you program <xref:Microsoft.AnalysisServices.Aggregation> object.  
+## Aggregation objects
+
+ To design an design an aggregation and apply it to one or more partitions, you program `<xref:Microsoft.AnalysisServices.Aggregation>` object.  
   
-### Creating and Dropping Aggregations  
- Aggregations can easily be created and assigned to measure groups or to partitions by using the DesignAggregations method from the <xref:Microsoft.AnalysisServices.AggregationDesign> object. The <xref:Microsoft.AnalysisServices.AggregationDesign> object is a separate object from partition, the <xref:Microsoft.AnalysisServices.AggregationDesign> object is contained in the <xref:Microsoft.AnalysisServices.MeasureGroup> object. Aggregations can be designed up to specified level of optimization (0 to 100) or up to specified level of storage (bytes). Multiple partitions can use the same aggregation design.  
+### Creating and dropping aggregations
+
+ Aggregations can easily be created and assigned to measure groups or to partitions by using the DesignAggregations method from the `<xref:Microsoft.AnalysisServices.AggregationDesign>` object. The `<xref:Microsoft.AnalysisServices.AggregationDesign>` object is a separate object from partition, the `<xref:Microsoft.AnalysisServices.AggregationDesign>` object is contained in the `<xref:Microsoft.AnalysisServices.MeasureGroup>` object. Aggregations can be designed up to specified level of optimization (0 to 100) or up to specified level of storage (bytes). Multiple partitions can use the same aggregation design.  
   
  The following code sample creates aggregations for all partitions of a supplied measure group. Any existing aggregations in partitions are dropped.  
   
@@ -547,15 +546,4 @@ static public String DesignAggregationsOnPartitions(MeasureGroup mg, double opti
      }  
      return AggregationsDesigned;  
 }  
-```  
-  
-## See Also  
- <xref:Microsoft.AnalysisServices>   
- [Introducing AMO Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-classes-introduction.md)   
- [AMO OLAP Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-olap-classes.md)   
- [Logical Architecture &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/understanding-microsoft-olap-logical-architecture.md)   
- [Database Objects &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/database-objects-analysis-services-multidimensional-data.md)   
- [Processing a multidimensional model &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md)   
- [Install Sample Data and Projects for the Analysis Services Multidimensional Modeling Tutorial](../../../analysis-services/install-sample-data-and-projects.md)  
-  
-  
+```

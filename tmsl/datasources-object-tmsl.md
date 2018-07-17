@@ -29,17 +29,17 @@ manager: kfile
  **impersonationMode** 
  Specifies whether the server should impersonate the identity of the user requesting the query. This property is a numeric value that specifies the credentials to use for impersonation. The enumeration values are as follows:  
   
--   Default (1) - The server uses the impersonation method that it deems to be appropriate for the context in which impersonation is used.  
+- Default (1) - The server uses the impersonation method that it deems to be appropriate for the context in which impersonation is used.  
   
--   ImpersonateAccount (2) - The server uses the specified user account.  
+- ImpersonateAccount (2) - The server uses the specified user account.  
   
--   ImpersonateAnonymous (3) - The server uses the anonymous user account.  This option is not recommended, but is sometimes used in HTTP access scenarios by custom applications that handle authentication.  
+- ImpersonateAnonymous (3) - The server uses the anonymous user account.  This option is not recommended, but is sometimes used in HTTP access scenarios by custom applications that handle authentication.  
   
--   ImpersonateCurrentUser (4) - The server uses the user account that the client is connecting as.  
+- ImpersonateCurrentUser (4) - The server uses the user account that the client is connecting as.  
   
--   ImpersonateServiceAccount (5) - The server uses the user account that the server is running as.  
+- ImpersonateServiceAccount (5) - The server uses the user account that the server is running as.  
   
--   ImpersonateUnattendedAccount (6) – The server uses an unattended user account. This is used for Power Pivot or tabular models that run in a SharePoint environment.  
+- ImpersonateUnattendedAccount (6) – The server uses an unattended user account. This is used for Power Pivot or tabular models that run in a SharePoint environment.  
   
  DirectQuery mode can use impersonateCurrentuser if the server is configured for trusted delegation, or  
                       impersonateServiceAccount if the query request is made in the security context of the service account. See [Configure Analysis Services for Kerberos constrained delegation](https://docs.microsoft.com/sql/analysis-services/instances/configure-analysis-services-for-kerberos-constrained-delegation).  
