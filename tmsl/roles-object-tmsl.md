@@ -14,7 +14,8 @@ manager: kfile
 
   Defines a role on the model that specifies a collection of permissions. Role membership consists of Windows security principles. You can set filters on a role to restrict access to specific objects.  
   
-## Object definition  
+## Object definition
+
  All objects have a common set of properties, including name, type, description, a properties collection, and annotations. **Role** objects also have the following properties.  
   
  **modelPermission**  

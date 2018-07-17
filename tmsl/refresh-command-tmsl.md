@@ -17,9 +17,9 @@ manager: kfile
   
  You can override some properties of some objects during a data refresh operation:  
   
--   Change the **QueryDefinition** property of a **Partition** object to import data using an on-the-fly filter expression.  
+- Change the **QueryDefinition** property of a **Partition** object to import data using an on-the-fly filter expression.  
   
--   Provide data source credentials as part of a **Refresh** command,  in the **ConnectionString** property of a **DataSource**  object. This  approach could be considered more secure, as credentials are provided and used temporarily for the duration of the operation, rather than stored.  
+- Provide data source credentials as part of a **Refresh** command,  in the **ConnectionString** property of a **DataSource**  object. This  approach could be considered more secure, as credentials are provided and used temporarily for the duration of the operation, rather than stored.  
   
  See the examples in this topic for an illustration of these property overrides.  
   
@@ -216,11 +216,11 @@ manager: kfile
 
  This command element is used in  a statement of the [Execute Method &#40;XMLA&#41;](../../analysis-services/xmla/xml-elements-methods-execute.md) call over an XMLA endpoint, exposed in the following ways:  
   
--   As an XMLA window in SQL Server Management Studio (SSMS)  
+- As an XMLA window in SQL Server Management Studio (SSMS)  
   
--   As an input file to the **invoke-ascmd** PowerShell cmdlet  
+- As an input file to the **invoke-ascmd** PowerShell cmdlet  
   
--   As an input to an SSIS task or SQL Server Agent job  
+- As an input to an SSIS task or SQL Server Agent job  
   
  You can generate a ready-made script  for this command from SSMS.  For example, you can click the **Script** in a Processing dialog box.
   

@@ -24,18 +24,18 @@ manager: kfile
  **crossFilteringBehavior ** 
  Indicates how relationships influence filtering of data. Valid values are:  
   
--   OneDirection (1) - The rows selected in the "To" end of the relationship will automatically filter scans of the table in the "From" end of the relationship.  
+- OneDirection (1) - The rows selected in the "To" end of the relationship will automatically filter scans of the table in the "From" end of the relationship.  
   
--   BothDirections (2) - Filters on either end of the relationship will automatically filter the other table.  
+- BothDirections (2) - Filters on either end of the relationship will automatically filter the other table.  
   
--   Automatic (3) - The engine will analyze the relationships and choose one of the behaviors by using heuristics.  
+- Automatic (3) - The engine will analyze the relationships and choose one of the behaviors by using heuristics.  
   
  joinOnDateBehavior  
  When joining two date time columns, indicates whether to join on date and time parts or on date part only.  
   
--   DateAndTime (1) - When joining two date time columns, join on date and time parts.  
+- DateAndTime (1) - When joining two date time columns, join on date and time parts.  
   
--   DatePartOnly (2) - When joining two date time columns, join on date part only.  
+- DatePartOnly (2) - When joining two date time columns, join on date part only.  
   
  **elyOnReferentialIntegrity**  
  Unused; reserved for future use.  
@@ -43,9 +43,9 @@ manager: kfile
  **securityFilteringBehavior**  
  An enumeration that indicates how relationships influence filtering of data when evaluating row-level security expressions. Valid values are as follows:  
   
--   OneDirection (1) - The rows selected in the "To" end of the relationship will automatically filter scans of the table in the "From" end of the relationship.  
+- OneDirection (1) - The rows selected in the "To" end of the relationship will automatically filter scans of the table in the "From" end of the relationship.  
   
--   BothDirections (2) - Filters on either end of the relationship will automatically filter the other table.  
+- BothDirections (2) - Filters on either end of the relationship will automatically filter the other table.  
   
 ## Usage  
 

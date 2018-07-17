@@ -46,7 +46,7 @@ On the wire, TOM uses the XMLA protocol to communicate with the server and to ma
 
 ### TOM and JSON
 
-Tabular metadata, which is structured as JSON documents, has a new command and object model definition syntax via the Tabular Model Scripting Language [TMSL](../tabular-model-scripting-language-tmsl-reference.md). The scripting language uses JSON for the body of requests and responses.
+Tabular metadata, which is structured as JSON documents, has a new command and object model definition syntax via the Tabular Model Scripting Language [TMSL](../tmsl/tabular-model-scripting-language-tmsl-reference.md). The scripting language uses JSON for the body of requests and responses.
 
 Although both TMSL and TOM expose same objects (**Table**, **Column**, and so forth) and the same operations (**Create**, **Delete**, **Refresh**), TOM does not use TMSL on the wire (it uses the MS-SSAS tabular protocol instead, as previously noted).
 

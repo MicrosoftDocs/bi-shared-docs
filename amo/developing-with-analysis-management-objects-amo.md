@@ -21,6 +21,6 @@ This section explains AMO concepts, focusing on major objects, how and when to u
 
 Beginning in SQL Server 2016, AMO is refactored into multiple assemblies. Generic classes such as Server, Database, and Roles are in the **Microsoft.AnalysisServices.Core** Namespace. Multidimensional-specific APIs remain in [Microsoft.AnalysisServices Namespace](https://msdn.microsoft.com/library/ms146720.aspx). 
 
-If you are programming for tabular models at 1200 or higher compatibility level, use the [Tabular Object Model (TOM)](../tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md). TOM is an extension of the Analysis Services Management Object (AMO) client library.
+If you are programming for tabular models at 1200 or higher compatibility level, use the Tabular Object Model (TOM). TOM is an extension of the Analysis Services Management Object (AMO) client library.
 
-Custom scripts and applications written against earlier versions of AMO will continue to work with no modification. However, if you have script or applications that target SQL Server 2016 specifically, or if you need to rebuild a custom solution, be sure to add the new assembly and namespace to your project.
+Custom scripts and applications written against earlier versions of AMO will continue to work with no modification. However, if you have script or applications that target SQL Server 2016 or later specifically, or if you need to rebuild a custom solution, be sure to add the new assembly and namespace to your project.

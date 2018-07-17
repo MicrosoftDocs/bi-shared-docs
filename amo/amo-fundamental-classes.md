@@ -11,11 +11,11 @@ author: minewiskan
 manager: kfile
 ---
 # AMO Fundamental Classes
-  Fundamental classes are the starting point for working with Analysis Management Objects (AMO). Through these classes you establish your environment for the rest of the objects that will be used in your application. Fundamental classes include the following objects: <xref:Microsoft.AnalysisServices.Server>, <xref:Microsoft.AnalysisServices.Database>, <xref:Microsoft.AnalysisServices.DataSource>, and <xref:Microsoft.AnalysisServices.DataSourceView>.  
+  Fundamental classes are the starting point for working with Analysis Management Objects (AMO). Through these classes you establish your environment for the rest of the objects that will be used in your application. Fundamental classes include the following objects: `<xref:Microsoft.AnalysisServices.Server>`, `<xref:Microsoft.AnalysisServices.Database>`, `<xref:Microsoft.AnalysisServices.DataSource>`, and `<xref:Microsoft.AnalysisServices.DataSourceView>`.  
   
  The following illustration shows the relationship of the classes that are explained in this topic.  
   
- ![AMO Fundamental Classes](media/amo-fundamentalclasses.gif "AMO Fundamental Classes")  
+ ![AMO Fundamental Classes](media/amo-fundamentalclasses.gif)  
   
 ## Server objects
 

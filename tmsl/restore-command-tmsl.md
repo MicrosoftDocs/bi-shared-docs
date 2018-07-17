@@ -83,10 +83,10 @@ manager: kfile
 
  This command element is used in  a statement of the [Execute Method &#40;XMLA&#41;](../../analysis-services/xmla/xml-elements-methods-execute.md) call over an XMLA endpoint, exposed in the following ways:  
   
--   As an XMLA window in SQL Server Management Studio (SSMS)  
+- As an XMLA window in SQL Server Management Studio (SSMS)  
   
--   As an input file to the **invoke-ascmd** PowerShell cmdlet  
+- As an input file to the **invoke-ascmd** PowerShell cmdlet  
   
--   As an input to an SSIS task or SQL Server Agent job  
+- As an input to an SSIS task or SQL Server Agent job  
   
  You can generate a ready-made script  for this command from SSMS by clicking the Script button on the Restore dialog box.

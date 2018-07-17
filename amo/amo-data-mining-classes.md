@@ -20,7 +20,7 @@ manager: kfile
   
  The following illustration shows the relationship of the classes that are explained in this topic.  
   
- ![AMO DataMining Classes](media/amo-dataminingclasses.gif "AMO DataMining Classes")  
+ ![AMO DataMining Classes](media/amo-dataminingclasses.gif)  
   
 ## MiningStructure objects
 

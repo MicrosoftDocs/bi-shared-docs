@@ -18,7 +18,7 @@ manager: kfile
   
  The following illustration shows the relationship of the classes that are explained in this topic.  
   
- ![OLAP Classes  in AMO](media/amo-olapclasses.gif "OLAP Classes  in AMO")  
+ ![OLAP Classes  in AMO](media/amo-olapclasses.gif)  
   
 ## Basic classes  
   

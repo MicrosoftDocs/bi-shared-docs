@@ -14,7 +14,7 @@ manager: kfile
 
 ## Assembly class
 
- Assemblies let users extend the functionality of Analysis Services by adding new stored procedures or Multidimensional Expressions (MDX) functions. For more information, see [AMO other classes and methods](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-other-classes-and-methods.md).  
+ Assemblies let users extend the functionality of Analysis Services by adding new stored procedures or Multidimensional Expressions (MDX) functions. For more information, see [AMO other classes and methods](amo-other-classes-and-methods.md).  
   
  Adding and dropping assemblies is simple and can be performed online. You must be a database administrator to add an assembly to the database or a server administrator to add the assembly to the server object.  
   
@@ -79,7 +79,7 @@ static public void RestoreAdventureWorks(Server svr)
 
  Monitoring the server activity requires using two kinds of traces: Session Traces and Server Traces. Tracing the server can tell you how your current task is performing on the server (Session Traces) or the traces can tell you about the overall activity in the server without you even being connected to the server (Server Traces).  
   
- When tracing current activity (Session Traces), the server sends notifications to the current application about the events that are occurring in the server that are caused by the application. Events are captured using event handlers in the current application. You first assign the event handling routines to the <xref:Microsoft.AnalysisServices.SessionTrace> object and then start the Session Trace.  
+ When tracing current activity (Session Traces), the server sends notifications to the current application about the events that are occurring in the server that are caused by the application. Events are captured using event handlers in the current application. You first assign the event handling routines to the `<xref:Microsoft.AnalysisServices.SessionTrace>` object and then start the Session Trace.  
   
  The following sample shows how to setup a Session Trace to trace current activities. Event handler routines are located at the end of the sample and will output all trace information to the System.Console object. To generate tracing events the "Adventure Works" sample cube will be fully processed after the trace starts.  
   
@@ -133,19 +133,19 @@ static public void DefaultTrace_Stopped(ITrace sender, TraceStoppedEventArgs e)
   
  Creating a server trace requires four steps:  
   
-1.  Create the server trace object and populate basic common attributes.  
+1. Create the server trace object and populate basic common attributes.  
   
      LogFileSize defines the maximum size of the trace file and is defined in MegaBytes; LogFileRollOver enables the logfile to start on a different file if LogFileSize limit is reached, when enabled the file name is appended with a sequence namber; AutoRestart enables the trace to start again if the Service is restarted.  
   
-2.  Create the events and the corresponding data columns.  
+2. Create the events and the corresponding data columns.  
   
-3.  Start and stop the trace as needed.  
+3. Start and stop the trace as needed.  
   
      Even after the trace has been stopped, the trace exists in the server and should start again if the trace was defined as AutoRestart=**true**.  
   
-4.  Drop the trace when no longer needed.  
+4. Drop the trace when no longer needed.  
   
- In the following sample, if the trace already exists, it is dropped and then recreated. Trace files are saved in the Log folder of [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] data folders.  
+ In the following sample, if the trace already exists, it is dropped and then recreated. Trace files are saved in the Log folder of Analysis Services data folders.  
   
 ```  
 static public void TestServerTraces(Server svr)  
@@ -215,15 +215,15 @@ static public void TestServerTraces(Server svr)
   
  Creating a CaptureLog requires the following steps:  
   
-1.  Start capturing the XMLA log by setting the server attribute CaptureXml to **true**.  
+1. Start capturing the XMLA log by setting the server attribute CaptureXml to **true**.  
   
      This option will start saving all AMO operations to a string collection instead of sending them to the server.  
   
-2.  Start AMO activity as usual, but remember that no action is being sent to the server. Activity can be any operation such as processing, creating, deleting, updating, or any other action over an object.  
+2. Start AMO activity as usual, but remember that no action is being sent to the server. Activity can be any operation such as processing, creating, deleting, updating, or any other action over an object.  
   
-3.  Stop capturing the XMLA log by resetting CaptureXml to **false**.  
+3. Stop capturing the XMLA log by resetting CaptureXml to **false**.  
   
-4.  Review the captured XMLA, either by reviewing each of the strings in the CaptureLog string collection, or by generating a complete string with the ConcatenateCaptureLog method. ConcatenateCaptureLog enables you to generate the XMLA batch as a single transaction and to add the parallel process option to the batch.  
+4. Review the captured XMLA, either by reviewing each of the strings in the CaptureLog string collection, or by generating a complete string with the ConcatenateCaptureLog method. ConcatenateCaptureLog enables you to generate the XMLA batch as a single transaction and to add the parallel process option to the batch.  
   
  The following sample returns a string with the batch commands to do a Full process on all dimensions and on all cubes on the [Adventure Works DW Multidimensional 2012] database.  
   

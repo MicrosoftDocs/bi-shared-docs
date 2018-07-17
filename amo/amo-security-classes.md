@@ -13,8 +13,8 @@ manager: kfile
 # AMO Security classes
   
  The following illustration shows the relationship of the classes that are explained in this topic:  
-  
- ![Security classes in AMO covered in this topic](media/amo-securityclasses.gif "Security classes in AMO covered in this topic")  
+
+ ![Security classes in AMO covered in this topic](media/amo-securityclasses.gif)  
   
 ## Role and RoleMember Objects
 

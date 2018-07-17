@@ -16,7 +16,7 @@ manager: kfile
   
  The following illustration shows the relationship of the classes that are explained in this topic.  
   
- ![AMO Other Classes](media/amo-otherclasses.gif "AMO Other Classes")  
+ ![AMO Other Classes](media/amo-otherclasses.gif)  
   
 ## Assembly objects
 
@@ -101,7 +101,7 @@ manager: kfile
   
  Traces, from the traces collection of the server, are defined the following way:  
   
-1. Create a <xref:Microsoft.AnalysisServices.Trace> object and populate its basic data, including trace ID, name, log file name, append|overwrite, and others.  
+1. Create a `<xref:Microsoft.AnalysisServices.Trace>` object and populate its basic data, including trace ID, name, log file name, append|overwrite, and others.  
   
 2. Add Events to be monitored to the Events collection of the trace object. For each event, data columns are added.  
   
