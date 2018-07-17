@@ -1,6 +1,6 @@
 ---
-title: "Programming AMO Fundamental Objects | Microsoft Docs"
-ms.date: 05/02/2018
+title: "Programming AMO fundamental objects | Microsoft Docs"
+ms.date: 07/17/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -10,30 +10,21 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Programming AMO Fundamental Objects
-  Fundamental objects are generally simple and straightforward objects. These objects are usually created and instantiated, then when they are no longer needed, the user disconnects from them. Fundamental classes include the following objects: <xref:Microsoft.AnalysisServices.Server>, <xref:Microsoft.AnalysisServices.Database>, <xref:Microsoft.AnalysisServices.DataSource>, and <xref:Microsoft.AnalysisServices.DataSourceView>. The only complex object in AMO fundamental objects is <xref:Microsoft.AnalysisServices.DataSourceView>, which requires detail to build the abstract model that represents the data source view.  
+# Programming AMO fundamental objects
+
+  Fundamental objects are generally simple and straightforward objects. These objects are usually created and instantiated, then when they are no longer needed, the user disconnects from them. Fundamental classes include the following objects: `<xref:Microsoft.AnalysisServices.Server>`, `<xref:Microsoft.AnalysisServices.Database>`, `<xref:Microsoft.AnalysisServices.DataSource>`, and `<xref:Microsoft.AnalysisServices.DataSourceView>`. The only complex object in AMO fundamental objects is `<xref:Microsoft.AnalysisServices.DataSourceView>`, which requires detail to build the abstract model that represents the data source view.  
   
- <xref:Microsoft.AnalysisServices.Server> and <xref:Microsoft.AnalysisServices.Database> objects are usually required to use the contained objects as OLAP objects or data mining objects.  
+ `<xref:Microsoft.AnalysisServices.Server>` and `<xref:Microsoft.AnalysisServices.Database>` objects are usually required to use the contained objects as OLAP objects or data mining objects.  
   
- This topic contains the following sections:  
+## Server objects
+
+ To use a `<xref:Microsoft.AnalysisServices.Server>` object requires the following steps: connecting to the server, verifying whether the `<xref:Microsoft.AnalysisServices.Server>` object is connected to the server, and if so, disconnecting the `<xref:Microsoft.AnalysisServices.Server>` from the server.  
   
--   [Server Objects](#ServerObjects)  
-  
--   [AMOException Exception Objects](#AMO)  
-  
--   [Database Objects](#DatabaseObjects)  
-  
--   [DataSource Objects](#DataSource)  
-  
--   [DataSourceView Objects](#DSV)  
-  
-##  <a name="ServerObjects"></a> Server Objects  
- To use a <xref:Microsoft.AnalysisServices.Server> object requires the following steps: connecting to the server, verifying whether the <xref:Microsoft.AnalysisServices.Server> object is connected to the server, and if so, disconnecting the <xref:Microsoft.AnalysisServices.Server> from the server.  
-  
-### Connecting to the Server Object  
+### Connecting to the Server object
+
  Connecting to the server consists of having the right connection string.  
   
- The following code sample returns a <xref:Microsoft.AnalysisServices.Server> object if the connection is successful, or returns **null** if an error occurs. Errors during the connection process are handled in a try/catch construct. AMO errors are caught by using the <xref:Microsoft.AnalysisServices.AmoException> exception class. In this example, the error is shown to the user on a message box.  
+ The following code sample returns a `<xref:Microsoft.AnalysisServices.Server>` object if the connection is successful, or returns **null** if an error occurs. Errors during the connection process are handled in a try/catch construct. AMO errors are caught by using the `<xref:Microsoft.AnalysisServices.AmoException>` exception class. In this example, the error is shown to the user on a message box.  
   
 ```  
 static Server ServerConnect( String strStringConnection)  
@@ -65,10 +56,11 @@ static Server ServerConnect( String strStringConnection)
   
  "**Data source=**\<server name>".  
   
- For a more information about connection string, see <xref:Microsoft.SqlServer.Management.Common.OlapConnectionInfo.ConnectionString%2A>.  
+ For a more information about connection string, see `<xref:Microsoft.SqlServer.Management.Common.OlapConnectionInfo.ConnectionString%2A>`.  
   
-### Validating the Connection  
- Before programming the <xref:Microsoft.AnalysisServices.Server> objects, you should verify that you are still connected to the server. The following code sample shows you how to do it. The sample assumes that `svr` is a <xref:Microsoft.AnalysisServices.Server> object that exists in your code.  
+### Validating the connection
+
+ Before programming the `<xref:Microsoft.AnalysisServices.Server>` objects, you should verify that you are still connected to the server. The following code sample shows you how to do it. The sample assumes that `svr` is a `<xref:Microsoft.AnalysisServices.Server>` object that exists in your code.  
   
 ```  
 if ( (svr != null) && ( svr.Connected))  
@@ -77,8 +69,9 @@ if ( (svr != null) && ( svr.Connected))
 }  
 ```  
   
-### Disconnecting from the Server  
- As soon as you are finished, you can disconnect from the server by using the Disconnect method. The following code sample shows you how to do it. The sample assumes that `svr` is a <xref:Microsoft.AnalysisServices.Server> object that exists in your code.  
+### Disconnecting from the server
+
+ As soon as you are finished, you can disconnect from the server by using the Disconnect method. The following code sample shows you how to do it. The sample assumes that `svr` is a `<xref:Microsoft.AnalysisServices.Server>` object that exists in your code.  
   
 ```  
 if ( (svr != null) && ( svr.Connected))  
@@ -87,8 +80,9 @@ if ( (svr != null) && ( svr.Connected))
 }  
 ```  
   
-###  <a name="AMO"></a> AmoException Exception Objects  
- AMO will throw exceptions at different problems found. For a detailed explanation of exceptions, see [AMO Other Classes and Methods](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-other-classes-and-methods.md). The following sample code shows the correct way to capture exceptions in AMO:  
+### AmoException exception objects
+
+ AMO will throw exceptions at different problems found. For a detailed explanation of exceptions, see [AMO Other Classes and Methods](amo-other-classes-and-methods.md). The following sample code shows the correct way to capture exceptions in AMO:  
   
 ```  
 try  
@@ -126,11 +120,13 @@ catch (  AMOException e)
 }  
 ```  
   
-##  <a name="DatabaseObjects"></a> Database Objects  
- Working with a <xref:Microsoft.AnalysisServices.Database> object is very simple and straightforward. You get an existing database from the database collection of the <xref:Microsoft.AnalysisServices.Server> object.  
+## Database objects
   
-### Creating, Dropping, and Finding a Database  
- The following code sample shows how to create a database by using a database name. Before creating the database, query the <xref:Microsoft.AnalysisServices.DatabaseCollection> of the server to see whether the database exists. If the database exists, the database is dropped and afterward created; if the database does not exist then it is created. If the database is to be dropped, then the database is first acquired from the databases collection.  
+ Working with a `<xref:Microsoft.AnalysisServices.Database>` object is very simple and straightforward. You get an existing database from the database collection of the `<xref:Microsoft.AnalysisServices.Server>`  object.  
+  
+### Creating, dropping, and finding a database
+
+ The following code sample shows how to create a database by using a database name. Before creating the database, query the `<xref:Microsoft.AnalysisServices.DatabaseCollection>` of the server to see whether the database exists. If the database exists, the database is dropped and afterward created; if the database does not exist then it is created. If the database is to be dropped, then the database is first acquired from the databases collection.  
   
 ```  
 static Database CreateDatabase(Server svr, String DatabaseName)  
@@ -156,12 +152,13 @@ static Database CreateDatabase(Server svr, String DatabaseName)
   
  To determine whether a database exists in the database collection, the FindByName method is used. If the database exists, then the method returns the found database object, if not it returns a null object.  
   
- As soon as the <xref:Microsoft.AnalysisServices.Database> object is added to the databases collection, the server has to be updated by using its Update method. Failing to update the server will cause the <xref:Microsoft.AnalysisServices.Database> object not to be created in the server.  
+ As soon as the `<xref:Microsoft.AnalysisServices.Database>` object is added to the databases collection, the server has to be updated by using its Update method. Failing to update the server will cause the `<xref:Microsoft.AnalysisServices.Database>` object not to be created in the server.  
   
-### Processing a Database  
- Processing a database, with all the children objects, is very simple because the <xref:Microsoft.AnalysisServices.Database> object includes a Process method.  
+### Processing a database
+
+ Processing a database, with all the children objects, is very simple because the `<xref:Microsoft.AnalysisServices.Database>` object includes a Process method.  
   
- The Process method can include parameters, but they are not required. If no parameters are specified, then all children objects will be processed with their **ProcessDefault** option. For more information about processing options, see <xref:Microsoft.AnalysisServices.Database>.  
+ The Process method can include parameters, but they are not required. If no parameters are specified, then all children objects will be processed with their **ProcessDefault** option. For more information about processing options, see `<xref:Microsoft.AnalysisServices.Database>`.  
   
 1.  The following sample code process a database by its default value.  
   
@@ -173,10 +170,11 @@ static Database ProcessDatabase(Database db, ProcessType pt)
 }  
 ```  
   
-##  <a name="DataSource"></a> DataSource Objects  
- A <xref:Microsoft.AnalysisServices.DataSource> object is the link between [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] and the database where the data resides. The schema that represents the underlying model for [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] is defined by the <xref:Microsoft.AnalysisServices.DataSourceView> object. A <xref:Microsoft.AnalysisServices.DataSource> object can be seen as a connection string to the database where the data resides.  
+## DataSource objects
+
+ A `<xref:Microsoft.AnalysisServices.DataSource>` object is the link between the server and the database where the data resides. The schema that represents the underlying model for is defined by the `<xref:Microsoft.AnalysisServices.DataSourceView>` object. A `<xref:Microsoft.AnalysisServices.DataSource>` object can be seen as a connection string to the database where the data resides.  
   
- The following sample code shows how to create a <xref:Microsoft.AnalysisServices.DataSource> object. The sample verifies that the server still exists, the <xref:Microsoft.AnalysisServices.Server> object is connected, and the database exists. If the <xref:Microsoft.AnalysisServices.DataSource> object exists, then it is dropped are re-created. The <xref:Microsoft.AnalysisServices.DataSource> object is created having the same name and internal ID. In this sample, no checking is performed on the connection string to verify it.  
+ The following sample code shows how to create a `<xref:Microsoft.AnalysisServices.DataSource>` object. The sample verifies that the server still exists, the `<xref:Microsoft.AnalysisServices.Server>` object is connected, and the database exists. If the `<xref:Microsoft.AnalysisServices.DataSource>` object exists, then it is dropped are re-created. The `<xref:Microsoft.AnalysisServices.DataSource>` object is created having the same name and internal ID. In this sample, no checking is performed on the connection string to verify it.  
   
 ```  
 static string CreateDataSource(Database db, string strDataSourceName, string strConnectionString)  
@@ -196,18 +194,19 @@ static string CreateDataSource(Database db, string strDataSourceName, string str
 }  
 ```  
   
-##  <a name="DSV"></a> DataSourceView Objects  
- <xref:Microsoft.AnalysisServices.DataSourceView> object is responsible for holding the schema model for [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)]. For the <xref:Microsoft.AnalysisServices.DataSourceView> object to hold the schema, the schema must first be constructed. Schemas are constructed over DataSet objects, from the System.Data namespace.  
+## DataSourceView objects
+
+ `<xref:Microsoft.AnalysisServices.DataSourceView>` object is responsible for holding the schema model. For the `<xref:Microsoft.AnalysisServices.DataSourceView>` object to hold the schema, the schema must first be constructed. Schemas are constructed over DataSet objects, from the System.Data namespace.  
   
  The following sample code will create part of the schema that is included in the Analysis Services sample project based on AdventureWorks. The sample creates schema definitions for tables, computed columns, relations, and composite relations. Schemas are persisted data sets.  
   
  The sample code does the following:  
   
-1.  Create a <xref:Microsoft.AnalysisServices.DataSourceView> object.  
+1.  Create a `<xref:Microsoft.AnalysisServices.DataSourceView>` object.  
   
-     Verify first if the <xref:Microsoft.AnalysisServices.DataSource> object exists; if **true**, then drop the <xref:Microsoft.AnalysisServices.DataSource> and create it. If the <xref:Microsoft.AnalysisServices.DataSource> does not exist, create it.  
+     Verify first if the `<xref:Microsoft.AnalysisServices.DataSource>` object exists; if **true**, then drop the `<xref:Microsoft.AnalysisServices.DataSource>` and create it. If the `<xref:Microsoft.AnalysisServices.DataSource>` does not exist, create it.  
   
-2.  Open a connection to the database using <xref:Microsoft.AnalysisServices.DataSource> connection string.  
+2.  Open a connection to the database using `<xref:Microsoft.AnalysisServices.DataSource>` connection string.  
   
 3.  Create the schema.  
   
@@ -354,7 +353,7 @@ static string CreateDataSource(Database db, string strDataSourceName, string str
   
 ```  
   
- In the sample code, the `AddTable` and `AddComputedColumn` methods use the `FillSchema` method of the **DataAdapter** object to add a **DataTable** to a **DataSet** and to configure the schema to match that in the data source. The extended properties add required info to configure the schema for [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)].  
+ In the sample code, the `AddTable` and `AddComputedColumn` methods use the `FillSchema` method of the **DataAdapter** object to add a **DataTable** to a **DataSet** and to configure the schema to match that in the data source. The extended properties add required info to configure the schema.  
   
  In the sample code, the `AddRelation` and `AddCompositeRelation` methods add the relation columns, depending on the existing schema and the existing columns on the model. Columns must be part of the tables defined in the schema for these methods to work.  
   
@@ -534,13 +533,4 @@ static void AddCompositeRelation(DataSourceView dsv, String fkTableName, String 
     dsv.Schema.Relations.Add("FK_" + fkTableName + "_" + columnName1  
         + "_" + columnName2, pkColumns, fkColumns, true);  
 }  
-```  
-  
-## See Also  
- <xref:Microsoft.AnalysisServices>   
- [Introducing AMO Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-classes-introduction.md)   
- [AMO Fundamental Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-fundamental-classes.md)   
- [Logical Architecture &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/understanding-microsoft-olap-logical-architecture.md)   
- [Database Objects &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/database-objects-analysis-services-multidimensional-data.md)  
-  
-  
+```

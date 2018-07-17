@@ -1,6 +1,6 @@
 ---
-title: "Programming AMO Complementary Classes and Methods | Microsoft Docs"
-ms.date: 05/02/2018
+title: "Programming AMO complementary classes and methods | Microsoft Docs"
+ms.date: 07/17/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -10,25 +10,17 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Programming AMO Complementary Classes and Methods
-  This topic contains the following sections:  
-  
--   [Assembly Class](#Assembly)  
-  
--   [Backup and Restore](#BU)  
-  
--   [Trace Class](#TRC)  
-  
--   [CaptureLog class and CaptureXML attribute](#CL)  
-  
-##  <a name="Assembly"></a> Assembly Class  
- Assemblies let users extend the functionality of [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] by adding new stored procedures or Multidimensional Expressions (MDX) functions. For more information, see [AMO Other Classes and Methods](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-other-classes-and-methods.md).  
+# Programming AMO complementary classes and methods
+
+## Assembly class
+
+ Assemblies let users extend the functionality of Analysis Services by adding new stored procedures or Multidimensional Expressions (MDX) functions. For more information, see [AMO other classes and methods](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-other-classes-and-methods.md).  
   
  Adding and dropping assemblies is simple and can be performed online. You must be a database administrator to add an assembly to the database or a server administrator to add the assembly to the server object.  
   
  The following sample adds an assembly to the provided database and assigns the service account to run the assembly. If the assembly exists in the database, the assembly is dropped before trying to add it.  
   
-```  
+```
 static public void CreateStoredProcedures(Database db)  
 {  
     ClrAssembly clrAssembly;  
@@ -55,10 +47,11 @@ static public void CreateStoredProcedures(Database db)
   
 ```  
   
-##  <a name="BU"></a> Backup and Restore Methods  
+## Backup and Restore methods
+
  The Backup and Restore methods let administrators back up databases and restore them.  
   
- The following sample creates backups for all databases in the specified server. If a backup file already exists, then it is overwritten. Backup files are saved in the BackUp folder in the [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] Data folder.  
+ The following sample creates backups for all databases in the specified server. If a backup file already exists, then it is overwritten. Backup files are saved in the BackUp folder in the Analysis Services Data folder.  
   
 ```  
 static public void BackUpAllDatabases(Server svr)  
@@ -82,7 +75,8 @@ static public void RestoreAdventureWorks(Server svr)
 }  
 ```  
   
-##  <a name="TRC"></a> Trace Class  
+##  Trace class
+
  Monitoring the server activity requires using two kinds of traces: Session Traces and Server Traces. Tracing the server can tell you how your current task is performing on the server (Session Traces) or the traces can tell you about the overall activity in the server without you even being connected to the server (Server Traces).  
   
  When tracing current activity (Session Traces), the server sends notifications to the current application about the events that are occurring in the server that are caused by the application. Events are captured using event handlers in the current application. You first assign the event handling routines to the <xref:Microsoft.AnalysisServices.SessionTrace> object and then start the Session Trace.  
@@ -215,7 +209,8 @@ static public void TestServerTraces(Server svr)
 }  
 ```  
   
-##  <a name="CL"></a> CaptureLog and CaptureXml Attributes  
+## CaptureLog and CaptureXml attributes
+
  The CaptureLog attribute enables you to create XMLA batch files from your AMO operations. CaptureLog enables you to script out server objects as databases, cubes, dimensions, mining structures, and others.  
   
  Creating a CaptureLog requires the following steps:  
@@ -257,14 +252,4 @@ static public string TestCaptureLog(Server svr)
   
     return capturedXmla;  
 }  
-```  
-  
-## See Also  
- <xref:Microsoft.AnalysisServices>   
- [Introducing AMO Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-classes-introduction.md)   
- [AMO Other Classes and Methods](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-other-classes-and-methods.md)   
- [Logical Architecture &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/understanding-microsoft-olap-logical-architecture.md)   
- [Database Objects &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/database-objects-analysis-services-multidimensional-data.md)   
- [Processing a multidimensional model &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md)  
-  
-  
+```

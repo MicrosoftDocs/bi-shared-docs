@@ -17,4 +17,4 @@
 ### [Programming AMO OLAP Basic Objects](programming-amo-olap-basic-objects.md)
 ### [Programming AMO Security Objects](programming-amo-security-objects.md)
 
-## [Programming AMO Complementary Classes and Methods](programming-amo-complementary-classes-and-methods.md)
+## [Programming AMO complementary classes and methods](programming-amo-complementary-classes-and-methods.md)

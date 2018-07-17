@@ -1,6 +1,6 @@
 ---
-title: "Programming AMO Data Mining Objects | Microsoft Docs"
-ms.date: 05/02/2018
+title: "Programming AMO Data Mining objects | Microsoft Docs"
+ms.date: 07/17/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -10,33 +10,29 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Programming AMO Data Mining Objects
+# Programming AMO Data Mining objects
+
   Programming data mining objects by using AMO is simple and straightforward. The first step is to create the data structure model to support the mining project. Then you create the data mining model that supports the mining algorithm you want to use in order to predict or to find the unseen relationships underlying your data. With your mining project created (including structure and algorithms), you can then process the mining models to obtain the trained models that you will use later when querying and predicting from the client application.  
   
- One thing to remember is that AMO is not for querying; AMO is for managing and administering your mining structures and models. To query your data, use [Developing with ADOMD.NET](../../../analysis-services/multidimensional-models/adomd-net/developing-with-adomd-net.md).  
+ One thing to remember is that AMO is not for querying; AMO is for managing and administering your mining structures and models. To query your data, use [Developing with ADOMD.NET](https://docs.microsoft.com/en-us/sql/analysis-services/multidimensional-models/adomd-net/developing-with-adomd-net).  
   
- This topic contains the following sections:  
-  
--   [MiningStructure Objects](#MiningStructure)  
-  
--   [MiningModel Objects](#MiningModel)  
-  
-##  <a name="MiningStructure"></a> MiningStructure Objects  
+## MiningStructure objects
+
  A mining structure is the definition of the data structure that is used to create all mining models. A mining structure contains a binding to a data source view that is defined in the database, and contains definitions for all columns participating in the mining models. A mining structure can have more than one mining model.  
   
- Creating a <xref:Microsoft.AnalysisServices.MiningStructure> object requires the following steps:  
+ Creating a `<xref:Microsoft.AnalysisServices.MiningStructure>` object requires the following steps:  
   
-1.  Create the <xref:Microsoft.AnalysisServices.MiningStructure> object and populate the basic attributes. Basic attributes include object name, object ID (internal identification), and data source binding.  
+1.  Create the `<xref:Microsoft.AnalysisServices.MiningStructure>` object and populate the basic attributes. Basic attributes include object name, object ID (internal identification), and data source binding.  
   
 2.  Create columns for the model. Columns can be either scalar or table definitions.  
   
      Each column needs a name and internal ID, a type, a content definition, and a binding.  
   
-3.  Update the <xref:Microsoft.AnalysisServices.MiningStructure> object to the server, by using the Update method of the object.  
+3.  Update the `<xref:Microsoft.AnalysisServices.MiningStructure>` object to the server, by using the Update method of the object.  
   
      Mining structures can be processed, and when they are processed, the children mining models are processed or retrained.  
   
- The following sample code creates a mining structure to forecast sales in a time series. Before running the sample code, make sure that the database *db*, passed as parameter for `CreateSalesForecastingMiningStructure`, contains in `db.DataSourceViews[0]` a reference to the view *dbo.vTimeSeries* in the [!INCLUDE[ssAWDWsp](../../../includes/ssawdwsp-md.md)] sample database.  
+ The following sample code creates a mining structure to forecast sales in a time series. Before running the sample code, make sure that the database *db*, passed as parameter for `CreateSalesForecastingMiningStructure`, contains in `db.DataSourceViews[0]` a reference to the view *dbo.vTimeSeries* in the Adventure Works Data Warehouse sample database.  
   
 ```  
 public static MiningStructure CreateSalesForecastingMiningStructure(Database db)  
@@ -74,20 +70,21 @@ public static MiningStructure CreateSalesForecastingMiningStructure(Database db)
 }  
 ```  
   
-##  <a name="MiningModel"></a> MiningModel Objects  
+## MiningModel objects
+
  A mining model is a repository for all columns and column definitions that will be used in a mining algorithm.  
   
- Creating a <xref:Microsoft.AnalysisServices.MiningModel> object requires the following steps:  
+ Creating a `<xref:Microsoft.AnalysisServices.MiningModel>` object requires the following steps:  
   
-1.  Create the <xref:Microsoft.AnalysisServices.MiningModel> object and populate the basic attributes.  
+1.  Create the `<xref:Microsoft.AnalysisServices.MiningModel>` object and populate the basic attributes.  
   
      Basic attributes include object name, object ID (internal identification), and mining algorithm specification.  
   
 2.  Add the columns of the mining model. One of the columns must be defined as the case key.  
   
-3.  Update the <xref:Microsoft.AnalysisServices.MiningModel> object to the server, by using the Update method of the object.  
+3.  Update the `<xref:Microsoft.AnalysisServices.MiningModel>` object to the server, by using the Update method of the object.  
   
-     <xref:Microsoft.AnalysisServices.MiningModel> objects can be processed independently of other models in the parent <xref:Microsoft.AnalysisServices.MiningStructure>.  
+     `<xref:Microsoft.AnalysisServices.MiningModel>` objects can be processed independently of other models in the parent `<xref:Microsoft.AnalysisServices.MiningStructure>`.  
   
  The following sample code creates a Microsoft Time Series forecasting model based on the "Forecasting Sales Structure" mining structure:  
   
@@ -122,14 +119,4 @@ public static MiningModel CreateSalesForecastingMiningModel(MiningStructure ms)
     mm.Process(ProcessType.ProcessFull);  
     return mm;  
 }  
-```  
-  
-## See Also  
- <xref:Microsoft.AnalysisServices>   
- [AMO Fundamental Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-fundamental-classes.md)   
- [Introducing AMO Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-classes-introduction.md)   
- [AMO Data Mining Classes](../../../analysis-services/multidimensional-models/analysis-management-objects/amo-data-mining-classes.md)   
- [Logical Architecture &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/understanding-microsoft-olap-logical-architecture.md)   
- [Database Objects &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models/olap-logical/database-objects-analysis-services-multidimensional-data.md)  
-  
-  
+``` 
