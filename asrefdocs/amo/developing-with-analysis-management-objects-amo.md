@@ -1,5 +1,5 @@
 ---
-title: "Developing with Analysis Management Objects (AMO) | Microsoft Docs"
+title: "Analysis Management Objects (AMO) | Microsoft Docs"
 ms.date: 07/16/2018
 ms.prod: sql
 ms.technology: analysis-services
