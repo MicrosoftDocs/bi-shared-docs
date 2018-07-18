@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Developing with Analysis Management Objects (AMO)
+# Programming with Analysis Management Objects (AMO)
 
 Analysis Management Objects (AMO) is a library of programmatically accessed objects that enables an application to manage an Analysis Services instance.
 

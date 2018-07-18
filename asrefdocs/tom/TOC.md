@@ -1,6 +1,4 @@
-# Tabular Object Model (TOM)
-
-## [Understanding Tabular Object Model (TOM) in AMO](introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md)
+# [Tabular Object Model (TOM)](introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md)
 ## [Add a data source to tabular model (AMO-TOM)](add-a-data-source-to-tabular-model-analysis-services-amo-tom.md)
 ## [Connect to existing server and database (AMO-TOM)](connect-to-existing-analysis-services-tabular-server-and-database.md)
 ## [Create and deploy an empty database (AMO-TOM)](create-and-deploy-an-empty-database-analysis-services-amo-tom.md)

@@ -1,9 +1,9 @@
 # Analysis Management Objects (AMO)
 
 ## [AMO concepts and object model](amo-concepts-and-object-model.md)
-## [Developing with Analysis Management Objects (AMO)](developing-with-analysis-management-objects-amo.md)
+## [Programming with Analysis Management Objects (AMO)](developing-with-analysis-management-objects-amo.md)
 
-## [AMO Classes - Introduction](amo-classes-introduction.md)
+## [AMO Classes](amo-classes-introduction.md)
 ### [AMO Data Mining Classes](amo-data-mining-classes.md)
 ### [AMO Fundamental Classes](amo-fundamental-classes.md)
 ### [AMO OLAP Classes](amo-olap-classes.md)
