@@ -1,1 +1,0 @@
-# Analysis Management Objects (AMO)

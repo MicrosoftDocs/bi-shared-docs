@@ -1,1 +1,0 @@
-# Tabular Model Scripting Language (TMSL)
