@@ -41,7 +41,7 @@ manager: kfile
   
  ![AMO Major Objects highlighted (2)](media/amo-majorobjects-02.gif)  
   
- When programming with AMO, the association between classes and contained classes uses collection type attributes, for example <xref:Microsoft.AnalysisServices.Server> and <xref:Microsoft.AnalysisServices.Dimension>. To work with one instance of a contained class, you first acquire a reference to a collection object that holds or can hold the contained class. Next, you find the specific object that you are looking for in the collection, and then you can obtain a reference to the object to start working with it.  
+ When programming with AMO, the association between classes and contained classes uses collection type attributes, for example `<xref:Microsoft.AnalysisServices.Server>` and `<xref:Microsoft.AnalysisServices.Dimension>`. To work with one instance of a contained class, you first acquire a reference to a collection object that holds or can hold the contained class. Next, you find the specific object that you are looking for in the collection, and then you can obtain a reference to the object to start working with it.  
   
 ### AMO classes  
  AMO is a library of classes designed to manage an instance of Analysis Services from a client application. The AMO library can be thought of as logically-related groups of objects that are used to accomplish a specific task. AMO classes can be categorized in the following way:  

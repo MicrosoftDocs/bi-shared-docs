@@ -20,7 +20,7 @@ You can check the type of database through **Database.StorageEngineUsed** proper
 
 Tabular 1200 and higher databases will return a non-null **Database.Model** property that gives access to all tabular metadata objects: Tables, Columns, Relationships, and so on.  
 
-For multidimensional or tabular 1103 and below, the Database.Model property will be null. In this case, non-tabular metadata will be available under multidimensional properties (such as Database.Cubes and Database.Dimensions), but those properties are only exposed by Microsoft.AnalysisServices.Database class (from AMO), not by Microsoft.AnalysisServices.Tabular.Database (for TOM). For more information about which Database class to use, see [Install, distribute, and reference the TOM client library](../../analysis-services/tabular-model-programming-compatibility-level-1200/install-distribute-and-reference-the-tabular-object-model.md).
+For multidimensional or tabular 1103 and below, the Database.Model property will be null. In this case, non-tabular metadata will be available under multidimensional properties (such as Database.Cubes and Database.Dimensions), but those properties are only exposed by Microsoft.AnalysisServices.Database class (from AMO), not by Microsoft.AnalysisServices.Tabular.Database (for TOM). For more information about which Database class to use, see [Install, distribute, and reference the TOM client library](install-distribute-and-reference-the-tabular-object-model.md).
 
 Unless Database.StorageEngineUsed is set to TabularMetadata, you won't be able to use other classes in the tabular namespace to access or manipulate the model tree. 
 

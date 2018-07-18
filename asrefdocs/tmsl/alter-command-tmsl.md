@@ -97,7 +97,7 @@ manager: kfile
   
 ## Examples  
 
- The following examples demonstrate script that you can run in an XMLA window in Management Studio or use as input in [Invoke-ASCmd cmdlet](../../analysis-services/powershell/invoke-ascmd-cmdlet.md) in AMO PowerShell.  
+ The following examples demonstrate script that you can run in an XMLA window in Management Studio or use as input in Invoke-ASCmd cmdlet in AMO PowerShell.  
   
  **Example 1** - This script changes the name property on a table.  
   
@@ -144,7 +144,7 @@ manager: kfile
   
 ## Usage (endpoints)  
 
- This command element is used in a statement of the [Execute Method &#40;XMLA&#41;](../../analysis-services/xmla/xml-elements-methods-execute.md) call over an XMLA endpoint, exposed in the following ways:  
+ This command element is used in a statement of the Execute Method (XMLA) call over an XMLA endpoint, exposed in the following ways:  
   
 - As an XMLA window in SQL Server Management Studio (SSMS)  
   
