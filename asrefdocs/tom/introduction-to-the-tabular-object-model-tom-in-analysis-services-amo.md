@@ -1,5 +1,5 @@
 ---
-title: "Overview: Tabular Object Model (TOM) in AMO | Microsoft Docs"
+title: "Tabular Object Model (TOM) in AMO | Microsoft Docs"
 ms.date: 07/13/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Overview: Tabular Object Model (TOM) in AMO
+# Tabular Object Model (TOM)
 
   The Tabular Object Model (TOM) is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher. As with AMO, TOM provides a programmatic way to handle administrative functions like creating models, importing and refreshing data, and assigning roles and permissions.  
   
