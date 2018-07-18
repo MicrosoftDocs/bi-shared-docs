@@ -2,7 +2,7 @@
   "docsets_to_publish": [
     {
       "docset_name": "amo",
-      "build_source_folder": "amo",
+      "build_source_folder": "asrefdocs/amo",
       "build_output_subfolder": "amo",
       "locale": "en-us",
       "monikers": [],
@@ -34,7 +34,7 @@
     },
     {
       "docset_name": "tmsl",
-      "build_source_folder": "tmsl",
+      "build_source_folder": "asrefdocs/tmsl",
       "build_output_subfolder": "tmsl",
       "locale": "en-us",
       "monikers": [],
@@ -50,7 +50,7 @@
     },
     {
       "docset_name": "tom",
-      "build_source_folder": "tom",
+      "build_source_folder": "asrefdocs/tom",
       "build_output_subfolder": "tom",
       "locale": "en-us",
       "monikers": [],

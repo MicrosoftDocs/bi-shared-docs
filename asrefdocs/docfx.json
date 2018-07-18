@@ -42,7 +42,6 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "AsRefDocs",
-    "markdownEngineName": "markdig"
+    "dest": "AsRefDocs"
   }
 }
