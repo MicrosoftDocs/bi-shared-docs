@@ -48,7 +48,7 @@ manager: kfile
 |**calculated**|Calculated tables are sourced from an expression specified when the table is created. This expression is considered the source of the partition created for the calculated table.|  
   
  dataview  
- For DirectQuery partitions, an additional dataView property further specifies whether the query that retrieves data is a sample or the full dataset. Valid values are **full**, **sample**, or **default** (inherited). As noted, samples are used only during data modeling and testing. See [Add  sample data to a DirectQuery model in Design Mode](../../analysis-services/tabular-models/add-sample-data-to-a-directquery-model-in-design-mode.md) for more information.  
+ For DirectQuery partitions, an additional dataView property further specifies whether the query that retrieves data is a sample or the full dataset. Valid values are **full**, **sample**, or **default** (inherited). As noted, samples are used only during data modeling and testing.
   
 ## Usage  
 
