@@ -1,6 +1,6 @@
 ---
 title: "Programming AMO complementary classes and methods | Microsoft Docs"
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
