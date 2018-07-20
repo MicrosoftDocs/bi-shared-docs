@@ -2,7 +2,7 @@
   "docsets_to_publish": [
     {
       "docset_name": "amo",
-      "build_source_folder": "reference-docs/amo",
+      "build_source_folder": "amo",
       "build_output_subfolder": "amo",
       "locale": "en-us",
       "monikers": [],
@@ -18,7 +18,7 @@
     },
     {
       "docset_name": "AsRefDocs",
-      "build_source_folder": "reference-docs",
+      "build_source_folder": "asrefdocs",
       "build_output_subfolder": "AsRefDocs",
       "locale": "en-us",
       "monikers": [],
@@ -33,8 +33,24 @@
       "template_folder": "_themes"
     },
     {
+      "docset_name": "bi-reference-docs",
+      "build_source_folder": "reference-docs",
+      "build_output_subfolder": "bi-reference-docs",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "tmsl",
-      "build_source_folder": "reference-docs/tmsl",
+      "build_source_folder": "tmsl",
       "build_output_subfolder": "tmsl",
       "locale": "en-us",
       "monikers": [],
@@ -50,7 +66,7 @@
     },
     {
       "docset_name": "tom",
-      "build_source_folder": "reference-docs/tom",
+      "build_source_folder": "tom",
       "build_output_subfolder": "tom",
       "locale": "en-us",
       "monikers": [],
