@@ -1,6 +1,6 @@
 ---
 title: "Commands in Tabular Model Scripting Language (TMSL) | Microsoft Docs"
-ms.date: 07/13/2018
+ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl

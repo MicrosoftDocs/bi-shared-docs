@@ -1,6 +1,6 @@
 ---
 title: "Analysis Management Objects (AMO) | Microsoft Docs"
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
