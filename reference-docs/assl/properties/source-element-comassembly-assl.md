@@ -46,7 +46,7 @@ manager: kfile
 ## See Also  
  [Assembly Element &#40;ASSL&#41;](../objects/assembly-element-assl.md)   
  [ClrAssembly Data Type &#40;ASSL&#41;](../data-type/clrassembly-data-type-assl.md)   
- [Assemblies Element &#40;ASSL&#41;](collections/assemblies-element-assl.md)   
+ [Assemblies Element &#40;ASSL&#41;](../collections/assemblies-element-assl.md)   
  [Database Element &#40;ASSL&#41;](../objects/database-element-assl.md)   
  [Server Element &#40;ASSL&#41;](../objects/server-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  

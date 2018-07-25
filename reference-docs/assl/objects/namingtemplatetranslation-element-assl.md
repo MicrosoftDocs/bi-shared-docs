@@ -12,7 +12,7 @@ manager: kfile
 ---
 # NamingTemplateTranslation Element (ASSL)
 
-  Provides a localized translation of the [NamingTemplate](../properties/namingtemplate-element-assl.md) element for a parent [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md) data type.  
+  Provides a localized translation of the [NamingTemplate](../properties/namingtemplate-element-assl.md) element for a parent [DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md) data type.  
   
 ## Syntax  
   

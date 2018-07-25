@@ -58,7 +58,7 @@ manager: kfile
  The element that corresponds to the parent of **NamingTemplate** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DimensionAttribute>.  
   
 ## See Also  
- [NamingTemplateTranslations Element &#40;ASSL&#41;](collections/namingtemplatetranslations-element-assl.md)   
+ [NamingTemplateTranslations Element &#40;ASSL&#41;](../collections/namingtemplatetranslations-element-assl.md)   
  [DimensionAttribute Data Type &#40;ASSL&#41;](../data-type/dimensionattribute-data-type-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   

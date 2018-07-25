@@ -36,8 +36,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [MeasureID](properties/measureid-element-assl.md)|  
-|Derived elements|[Measure](objects/measure-element-assl.md) ([Measures](collections/measures-element-assl.md) collection of [PerspectiveMeasureGroup](perspectivemeasuregroup-data-type-assl.md))|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [MeasureID](../properties/measureid-element-assl.md)|  
+|Derived elements|[Measure](../objects/measure-element-assl.md) ([Measures](../collections/measures-element-assl.md) collection of [PerspectiveMeasureGroup](perspectivemeasuregroup-data-type-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PerspectiveMeasure>.  

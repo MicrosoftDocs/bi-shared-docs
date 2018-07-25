@@ -52,7 +52,7 @@ manager: kfile
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
 |[Cube](../objects/cube-element-assl.md)|None|  
-|[Perspective](../objects/perspective-element-assl.md)|[PerspectiveKpi](data-type/perspectivekpi-data-type-assl.md)|  
+|[Perspective](../objects/perspective-element-assl.md)|[PerspectiveKpi](../data-type/perspectivekpi-data-type-assl.md)|  
   
 ## Element Relationships  
   

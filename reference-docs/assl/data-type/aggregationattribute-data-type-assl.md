@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AggregationAttribute Data Type (ASSL)
 
-  Defines a primitive data type that represents the association between an [Aggregation](objects/aggregation-element-assl.md) element and an attribute.  
+  Defines a primitive data type that represents the association between an [Aggregation](../objects/aggregation-element-assl.md) element and an attribute.  
   
 ## Syntax  
   
@@ -36,8 +36,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[AttributeID](properties/attributeid-element-assl.md), [Annotations](collections/annotations-element-assl.md)|  
-|Derived elements|[Attribute](objects/attribute-element-assl.md) ([Attributes](collections/attributes-element-assl.md) collection of [AggregationDimension](aggregationdimension-data-type-assl.md))|  
+|Child elements|[AttributeID](../properties/attributeid-element-assl.md), [Annotations](../collections/annotations-element-assl.md)|  
+|Derived elements|[Attribute](../objects/attribute-element-assl.md) ([Attributes](../collections/attributes-element-assl.md) collection of [AggregationDimension](aggregationdimension-data-type-assl.md))|  
   
 ## Remarks  
  The corresponding class in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationAttribute>.  

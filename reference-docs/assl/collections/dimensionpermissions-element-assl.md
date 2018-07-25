@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DimensionPermissions Element (ASSL)
 
-  Contains the collection of permissions applicable to a [Dimension](objects/dimension-element-assl.md) element or a [CubePermission](objects/cubepermission-element-assl.md) element.  
+  Contains the collection of permissions applicable to a [Dimension](../objects/dimension-element-assl.md) element or a [CubePermission](../objects/cubepermission-element-assl.md) element.  
   
 ## Syntax  
   
@@ -41,8 +41,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubePermission](objects/cubepermission-element-assl.md), [Dimension](objects/dimension-element-assl.md)|  
-|Child elements|[DimensionPermission](objects/dimensionpermission-element-assl.md)|  
+|Parent elements|[CubePermission](../objects/cubepermission-element-assl.md), [Dimension](../objects/dimension-element-assl.md)|  
+|Child elements|[DimensionPermission](../objects/dimensionpermission-element-assl.md)|  
   
 ## Remarks  
  For **CubePermission** elements, **DimensionPermission** elements in this collection override permissions specified in the **DimensionPermissions** collection of each dimension explicitly referenced. If a dimension is not referenced in this collection, then the **CubePermission** element inherits the permissions specified in the **DimensionPermissions** collection of the dimension.  

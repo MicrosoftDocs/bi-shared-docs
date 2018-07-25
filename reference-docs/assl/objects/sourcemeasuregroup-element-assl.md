@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[MeasureGroupBinding](data-type/measuregroupbinding-data-type-assl.md)|  
+|Data type and length|[MeasureGroupBinding](../data-type/measuregroupbinding-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-1: Optional element that can occur once and only once.|  
   
@@ -37,11 +37,11 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningStructureColumn](data-type/miningstructurecolumn-data-type-assl.md) of type [TableMiningStructureColumn](data-type/tableminingstructurecolumn-data-type-assl.md)|  
+|Parent elements|[MiningStructureColumn](../data-type/miningstructurecolumn-data-type-assl.md) of type [TableMiningStructureColumn](../data-type/tableminingstructurecolumn-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- For more information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](data-type/binding-data-type-assl.md).  
+ For more information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](../data-type/binding-data-type-assl.md).  
   
  For an overview of data bindings in ASSL, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
   

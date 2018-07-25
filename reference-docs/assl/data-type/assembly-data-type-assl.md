@@ -44,7 +44,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [CreatedTimestamp](properties/createdtimestamp-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [ImpersonationInfo](properties/impersonationinfo-element-assl.md), [LastSchemaUpdate](properties/lastschemaupdate-element-assl.md), [Name](properties/name-element-assl.md)|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [CreatedTimestamp](../properties/createdtimestamp-element-assl.md), [Description](../properties/description-element-assl.md), [ID](../properties/id-element-assl.md), [ImpersonationInfo](../properties/impersonationinfo-element-assl.md), [LastSchemaUpdate](../properties/lastschemaupdate-element-assl.md), [Name](../properties/name-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  

@@ -54,9 +54,9 @@ manager: kfile
  The elements that correspond to the parents of **DisplayFolder** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CalculationProperty>, <xref:Microsoft.AnalysisServices.Hierarchy>, <xref:Microsoft.AnalysisServices.Kpi>, <xref:Microsoft.AnalysisServices.Measure>, and <xref:Microsoft.AnalysisServices.Translation>.  
   
 ## See Also  
- [CalculationProperties Element &#40;ASSL&#41;](collections/calculationproperties-element-assl.md)   
+ [CalculationProperties Element &#40;ASSL&#41;](../collections/calculationproperties-element-assl.md)   
  [MdxScript Element &#40;ASSL&#41;](../objects/mdxscript-element-assl.md)   
- [MdxScripts Element &#40;ASSL&#41;](collections/mdxscripts-element-assl.md)   
+ [MdxScripts Element &#40;ASSL&#41;](../collections/mdxscripts-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

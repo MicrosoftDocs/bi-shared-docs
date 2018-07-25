@@ -12,7 +12,7 @@ manager: kfile
 ---
 # RowBinding Data Type (ASSL)
 
-  Defines a derived data type that represents a binding to the rows of a table in a [DataSourceView](objects/datasourceview-element-assl.md) element.  
+  Defines a derived data type that represents a binding to the rows of a table in a [DataSourceView](../objects/datasourceview-element-assl.md) element.  
   
 ## Syntax  
   
@@ -36,7 +36,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[TableID](properties/tableid-element-assl.md)|  
+|Child elements|[TableID](../properties/tableid-element-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Hierarchies Element (ASSL)
 
-  Contains the collection of [Hierarchy](objects/hierarchy-element-assl.md) elements associated with the parent element.  
+  Contains the collection of [Hierarchy](../objects/hierarchy-element-assl.md) elements associated with the parent element.  
   
 ## Syntax  
   
@@ -43,14 +43,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubeDimension](data-type/cubedimension-data-type-assl.md), [Dimension](objects/dimension-element-assl.md), [PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|  
+|Parent elements|[CubeDimension](../data-type/cubedimension-data-type-assl.md), [Dimension](../objects/dimension-element-assl.md), [PerspectiveDimension](../data-type/perspectivedimension-data-type-assl.md)|  
 |Child elements|See the table below.|  
   
 |Ancestor or Parent|Child Element|  
 |------------------------|-------------------|  
-|[CubeDimension](data-type/cubedimension-data-type-assl.md)|[Hierarchy](objects/hierarchy-element-assl.md) of type [CubeHierarchy](data-type/cubehierarchy-data-type-assl.md)|  
-|[Dimension](objects/dimension-element-assl.md)|[Hierarchy](objects/hierarchy-element-assl.md)|  
-|[PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|[Hierarchy](objects/hierarchy-element-assl.md) of type [PerspectiveHierarchy](data-type/perspectivehierarchy-data-type-assl.md)|  
+|[CubeDimension](../data-type/cubedimension-data-type-assl.md)|[Hierarchy](../objects/hierarchy-element-assl.md) of type [CubeHierarchy](../data-type/cubehierarchy-data-type-assl.md)|  
+|[Dimension](../objects/dimension-element-assl.md)|[Hierarchy](../objects/hierarchy-element-assl.md)|  
+|[PerspectiveDimension](../data-type/perspectivedimension-data-type-assl.md)|[Hierarchy](../objects/hierarchy-element-assl.md) of type [PerspectiveHierarchy](../data-type/perspectivehierarchy-data-type-assl.md)|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.HierarchyCollection>, <xref:Microsoft.AnalysisServices.CubeHierarchyCollection>, and <xref:Microsoft.AnalysisServices.PerspectiveHierarchyCollection>.  

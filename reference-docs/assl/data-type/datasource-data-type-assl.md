@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSource Data Type (ASSL)
 
-  Defines an abstract primitive data type that represents a data source in a [Database](objects/database-element-assl.md) element.  
+  Defines an abstract primitive data type that represents a data source in a [Database](../objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -48,7 +48,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [ConnectionString](properties/connectionstring-element-assl.md), [ConnectionStringSecurity](properties/connectionstringsecurity-element-assl.md), [CreatedTimestamp](properties/createdtimestamp-element-assl.md), [DataSourcePermission](collections/datasourcepermissions-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [ImpersonationInfo](properties/impersonationinfo-element-assl.md), [Isolation](properties/isolation-element-assl.md), [LastSchemaUpdate](properties/lastschemaupdate-element-assl.md), [ManagedProvider](properties/managedprovider-element-assl.md), [MaxActiveConnections](properties/maxactiveconnections-element-assl.md), [Name](properties/name-element-assl.md), [Timeout](properties/timeout-element-assl.md)|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [ConnectionString](../properties/connectionstring-element-assl.md), [ConnectionStringSecurity](../properties/connectionstringsecurity-element-assl.md), [CreatedTimestamp](../properties/createdtimestamp-element-assl.md), [DataSourcePermission](../collections/datasourcepermissions-element-assl.md), [Description](../properties/description-element-assl.md), [ID](../properties/id-element-assl.md), [ImpersonationInfo](../properties/impersonationinfo-element-assl.md), [Isolation](../properties/isolation-element-assl.md), [LastSchemaUpdate](../properties/lastschemaupdate-element-assl.md), [ManagedProvider](../properties/managedprovider-element-assl.md), [MaxActiveConnections](../properties/maxactiveconnections-element-assl.md), [Name](../properties/name-element-assl.md), [Timeout](../properties/timeout-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  

@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[ClrAssembly](data-type/clrassembly-data-type-assl.md), [ComAssembly](data-type/comassembly-data-type-assl.md)|  
+|Data type and length|[ClrAssembly](../data-type/clrassembly-data-type-assl.md), [ComAssembly](../data-type/comassembly-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur more than once.|  
   

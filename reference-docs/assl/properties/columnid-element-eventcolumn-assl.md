@@ -42,9 +42,9 @@ manager: kfile
  The element that corresponds to the parent of **ColumnID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TraceColumn>.  
   
 ## See Also  
- [Columns Element &#40;ASSL&#41;](collections/columns-element-assl.md)   
+ [Columns Element &#40;ASSL&#41;](../collections/columns-element-assl.md)   
  [Event Element &#40;ASSL&#41;](../objects/event-element-assl.md)   
- [Events Element &#40;ASSL&#41;](collections/events-element-assl.md)   
+ [Events Element &#40;ASSL&#41;](../collections/events-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

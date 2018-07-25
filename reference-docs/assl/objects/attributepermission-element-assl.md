@@ -50,7 +50,7 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributePermission>.  
   
 ## See Also  
- [CubeDimensionPermission Data Type &#40;ASSL&#41;](data-type/cubedimensionpermission-data-type-assl.md)   
+ [CubeDimensionPermission Data Type &#40;ASSL&#41;](../data-type/cubedimensionpermission-data-type-assl.md)   
  [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

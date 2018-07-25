@@ -38,14 +38,14 @@ manager: kfile
 |Characteristic|Description|  
 |--------------------|-----------------|  
 |Base data types|None|  
-|Derived data types|[CubePermission](objects/cubepermission-element-assl.md), [DatabasePermission](objects/databasepermission-element-assl.md), [DimensionPermission](dimensionpermission-data-type-assl.md), [MiningModelPermission](objects/miningmodelpermission-element-assl.md), [MiningStructurePermission](objects/miningstructurepermission-element-assl.md)|  
+|Derived data types|[CubePermission](../objects/cubepermission-element-assl.md), [DatabasePermission](../objects/databasepermission-element-assl.md), [DimensionPermission](dimensionpermission-data-type-assl.md), [MiningModelPermission](../objects/miningmodelpermission-element-assl.md), [MiningStructurePermission](../objects/miningstructurepermission-element-assl.md)|  
   
 ## Data Type Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [CreatedTimestamp](properties/createdtimestamp-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [LastSchemaUpdate](properties/lastschemaupdate-element-assl.md), [Name](properties/name-element-assl.md), [Process](properties/process-element-assl.md), [Read](properties/read-element-assl.md), [ReadDefinition](properties/readdefinition-element-assl.md), [RoleID](properties/roleid-element-assl.md), [Write](properties/write-element-assl.md)|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [CreatedTimestamp](../properties/createdtimestamp-element-assl.md), [Description](../properties/description-element-assl.md), [ID](../properties/id-element-assl.md), [LastSchemaUpdate](../properties/lastschemaupdate-element-assl.md), [Name](../properties/name-element-assl.md), [Process](../properties/process-element-assl.md), [Read](../properties/read-element-assl.md), [ReadDefinition](../properties/readdefinition-element-assl.md), [RoleID](../properties/roleid-element-assl.md), [Write](../properties/write-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  
@@ -64,7 +64,7 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Permission>.  
   
 ## See Also  
- [Role Element &#40;ASSL&#41;](objects/role-element-assl.md)   
+ [Role Element &#40;ASSL&#41;](../objects/role-element-assl.md)   
  [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

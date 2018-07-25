@@ -35,7 +35,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Aliases](collections/aliases-element-assl.md)|  
+|Parent elements|[Aliases](../collections/aliases-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  

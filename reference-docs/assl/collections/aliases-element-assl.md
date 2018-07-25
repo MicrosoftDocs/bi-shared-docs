@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Aliases Element (ASSL)
 
-  Contains the collection of [Alias](properties/alias-element-assl.md) elements associated with an [Account](objects/account-element-assl.md) element  
+  Contains the collection of [Alias](../properties/alias-element-assl.md) elements associated with an [Account](../objects/account-element-assl.md) element  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Account](objects/account-element-assl.md)|  
-|Child elements|[Alias](properties/alias-element-assl.md)|  
+|Parent elements|[Account](../objects/account-element-assl.md)|  
+|Child elements|[Alias](../properties/alias-element-assl.md)|  
   
 ## Remarks  
  The element corresponding to the parent of **Aliases** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Account>.  

@@ -35,7 +35,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ClassifiedColumns](collections/classifiedcolumns-element-assl.md)|  
+|Parent element|[ClassifiedColumns](../collections/classifiedcolumns-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  

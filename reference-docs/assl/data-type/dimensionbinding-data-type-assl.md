@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DimensionBinding Data Type (ASSL)
 
-  Defines a derived data type that represents the binding between a data source and a [Dimension](objects/dimension-element-assl.md) element.  
+  Defines a derived data type that represents the binding between a data source and a [Dimension](../objects/dimension-element-assl.md) element.  
   
 ## Syntax  
   
@@ -40,7 +40,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[DataSourceID](properties/datasourceid-element-assl.md), [DimensionID](properties/dimensionid-element-assl.md), [Persistence](properties/persistence-element-assl.md), [RefreshInterval](properties/refreshinterval-element-assl.md), [RefreshPolicy](properties/refreshpolicy-element-assl.md)|  
+|Child elements|[DataSourceID](../properties/datasourceid-element-assl.md), [DimensionID](../properties/dimensionid-element-assl.md), [Persistence](../properties/persistence-element-assl.md), [RefreshInterval](../properties/refreshinterval-element-assl.md), [RefreshPolicy](../properties/refreshpolicy-element-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

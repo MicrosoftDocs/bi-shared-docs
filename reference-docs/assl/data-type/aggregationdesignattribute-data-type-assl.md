@@ -36,8 +36,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[AttributeID](properties/attributeid-element-assl.md), [EstimatedCount](properties/estimatedcount-element-assl.md)|  
-|Derived elements|[Attribute](objects/attribute-element-assl.md) ([Attributes](collections/attributes-element-assl.md) collection of [AggregationDesignDimension](aggregationdesigndimension-data-type-assl.md))|  
+|Child elements|[AttributeID](../properties/attributeid-element-assl.md), [EstimatedCount](../properties/estimatedcount-element-assl.md)|  
+|Derived elements|[Attribute](../objects/attribute-element-assl.md) ([Attributes](../collections/attributes-element-assl.md) collection of [AggregationDesignDimension](aggregationdesigndimension-data-type-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationDesignAttribute>.  

@@ -37,8 +37,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Columns](collections/columns-element-assl.md), [Default](properties/default-element-assl.md)|  
-|Derived elements|[Action](objects/action-element-assl.md) ([Actions](collections/actions-element-assl.md), collection of [Cube](objects/cube-element-assl.md), or [Perspective](objects/perspective-element-assl.md))|  
+|Child elements|[Columns](../collections/columns-element-assl.md), [Default](../properties/default-element-assl.md)|  
+|Derived elements|[Action](../objects/action-element-assl.md) ([Actions](../collections/actions-element-assl.md), collection of [Cube](../objects/cube-element-assl.md), or [Perspective](../objects/perspective-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DrillThroughAction>.  

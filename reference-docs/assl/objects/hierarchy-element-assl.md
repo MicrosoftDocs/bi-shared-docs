@@ -39,10 +39,10 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[Dimension](../objects/dimension-element-assl.md)|[Hierarchy](data-type/hierarchy-data-type-assl.md)|  
-|[CubeDimension](data-type/cubedimension-data-type-assl.md)|[CubeHierarchy](data-type/cubehierarchy-data-type-assl.md)|  
-|[PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|[PerspectiveHierarchy](data-type/perspectivehierarchy-data-type-assl.md)|  
-|[RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md)|[MeasureGroupHierarchy](data-type/measuregrouphierarchy-data-type-assl.md)|  
+|[Dimension](../objects/dimension-element-assl.md)|[Hierarchy](../data-type/hierarchy-data-type-assl.md)|  
+|[CubeDimension](../data-type/cubedimension-data-type-assl.md)|[CubeHierarchy](../data-type/cubehierarchy-data-type-assl.md)|  
+|[PerspectiveDimension](../data-type/perspectivedimension-data-type-assl.md)|[PerspectiveHierarchy](../data-type/perspectivehierarchy-data-type-assl.md)|  
+|[RegularMeasureGroupDimension](../data-type/regularmeasuregroupdimension-data-type-assl.md)|[MeasureGroupHierarchy](../data-type/measuregrouphierarchy-data-type-assl.md)|  
   
 ## Element Relationships  
   

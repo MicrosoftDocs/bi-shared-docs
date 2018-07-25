@@ -37,8 +37,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[AttributePermissions](collections/attributepermissions-element-assl.md), [AllowedRowsExpression](collections/attributepermissions-element-assl.md)|  
-|Derived elements|[DimensionPermission](objects/dimensionpermission-element-assl.md)|  
+|Child elements|[AttributePermissions](../collections/attributepermissions-element-assl.md), [AllowedRowsExpression](../collections/attributepermissions-element-assl.md)|  
+|Derived elements|[DimensionPermission](../objects/dimensionpermission-element-assl.md)|  
   
 ## Remarks  
  This element has the following validations under DeploymentMode value 2 (tabular server mode).  

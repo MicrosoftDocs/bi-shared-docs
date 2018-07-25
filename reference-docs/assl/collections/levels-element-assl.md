@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Levels Element (ASSL)
 
-  Contains the collection of [Level](objects/level-element-assl.md) elements in a [Hierarchy](objects/hierarchy-element-assl.md) element.  
+  Contains the collection of [Level](../objects/level-element-assl.md) elements in a [Hierarchy](../objects/hierarchy-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Hierarchy](objects/hierarchy-element-assl.md)|  
-|Child elements|[Level](objects/level-element-assl.md)|  
+|Parent elements|[Hierarchy](../objects/hierarchy-element-assl.md)|  
+|Child elements|[Level](../objects/level-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.LevelCollection>.  

@@ -44,7 +44,7 @@ manager: kfile
  The element corresponding to the parent of **EventID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TraceEvent>.  
   
 ## See Also  
- [Events Element &#40;ASSL&#41;](collections/events-element-assl.md)   
+ [Events Element &#40;ASSL&#41;](../collections/events-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

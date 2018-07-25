@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ComAssembly Data Type (ASSL)
 
-  Defines a derived data type that represents a COM library associated with a [Server](objects/server-element-assl.md) or [Database](objects/database-element-assl.md) element.  
+  Defines a derived data type that represents a COM library associated with a [Server](../objects/server-element-assl.md) or [Database](../objects/database-element-assl.md) element.  
   
 > [!IMPORTANT]  
 >  COM assemblies might pose a security risk. Due to this risk and other considerations, COM assemblies are depreceated.
@@ -31,7 +31,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[Assembly](objects/assembly-element-assl.md)|  
+|Base data types|[Assembly](../objects/assembly-element-assl.md)|  
 |Derived data types|None|  
   
 ## Data Type Relationships  
@@ -39,8 +39,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Source](properties/source-element-comassembly-assl.md)|  
-|Derived elements|See [Assembly](objects/assembly-element-assl.md) ([Assemblies](collections/assemblies-element-assl.md) collection of [Database](objects/database-element-assl.md) or [Server](objects/server-element-assl.md))|  
+|Child elements|[Source](../properties/source-element-comassembly-assl.md)|  
+|Derived elements|See [Assembly](../objects/assembly-element-assl.md) ([Assemblies](../collections/assemblies-element-assl.md) collection of [Database](../objects/database-element-assl.md) or [Server](../objects/server-element-assl.md))|  
   
 ## Remarks  
  The **ComAssembly** element contains a reference (either the fully qualified file name or the programmatic identifier) to a COM library associated with an instance of Analysis Services or with a specific database on an instance.  

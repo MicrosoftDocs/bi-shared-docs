@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ProactiveCachingIncrementalProcessingBinding Data Type (ASSL)
 
-  Defines a derived data type that represents a binding to the [ProactiveCaching](objects/proactivecaching-element-assl.md) element about the status of the process of rebuilding the cache.  
+  Defines a derived data type that represents a binding to the [ProactiveCaching](../objects/proactivecaching-element-assl.md) element about the status of the process of rebuilding the cache.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[IncrementalProcessingNotification](objects/incrementalprocessingnotification-element-assl.md), [RefreshInterval](properties/refreshinterval-element-assl.md)|  
+|Child elements|[IncrementalProcessingNotification](../objects/incrementalprocessingnotification-element-assl.md), [RefreshInterval](../properties/refreshinterval-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  

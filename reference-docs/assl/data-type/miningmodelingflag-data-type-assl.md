@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MiningModelingFlag Data Type (ASSL)
 
-  Defines a primitive data type that represents the available modeling flags for a [ModelingFlag](objects/modelingflag-element-assl.md) element.  
+  Defines a primitive data type that represents the available modeling flags for a [ModelingFlag](../objects/modelingflag-element-assl.md) element.  
   
 ## Syntax  
   
@@ -34,7 +34,7 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|None|  
-|Derived elements|[ModelingFlag](objects/modelingflag-element-assl.md) ([ModelingFlags](collections/modelingflags-element-assl.md) collection of [MiningModelColumn](miningmodelcolumn-data-type-assl.md) or [ScalarMiningStructureColumn](scalarminingstructurecolumn-data-type-assl.md))|  
+|Derived elements|[ModelingFlag](../objects/modelingflag-element-assl.md) ([ModelingFlags](../collections/modelingflags-element-assl.md) collection of [MiningModelColumn](miningmodelcolumn-data-type-assl.md) or [ScalarMiningStructureColumn](scalarminingstructurecolumn-data-type-assl.md))|  
   
 ## Remarks  
  The flag name may contain spaces. The natively-supported values are listed in the following table.  

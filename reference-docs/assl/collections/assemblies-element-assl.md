@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Assemblies Element (ASSL)
 
-  Contains the collection of [Assembly](objects/assembly-element-assl.md) elements associated with a [Server](objects/server-element-assl.md) or [Database](objects/database-element-assl.md) element.  
+  Contains the collection of [Assembly](../objects/assembly-element-assl.md) elements associated with a [Server](../objects/server-element-assl.md) or [Database](../objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -40,8 +40,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Database](objects/database-element-assl.md), [Server](objects/server-element-assl.md)|  
-|Child elements|[Assembly](objects/assembly-element-assl.md)|  
+|Parent elements|[Database](../objects/database-element-assl.md), [Server](../objects/server-element-assl.md)|  
+|Child elements|[Assembly](../objects/assembly-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AssemblyCollection>.  

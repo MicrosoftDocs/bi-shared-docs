@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AggregationInstances Element (ASSL)
 
-  Contains the collection of aggregation instances that are defined in a [Partition](objects/partition-element-assl.md) element.  
+  Contains the collection of aggregation instances that are defined in a [Partition](../objects/partition-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Partition](objects/partition-element-assl.md)|  
-|Child elements|[AggregationInstance](objects/aggregationinstance-element-assl.md)|  
+|Parent elements|[Partition](../objects/partition-element-assl.md)|  
+|Child elements|[AggregationInstance](../objects/aggregationinstance-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationInstanceCollection>.  

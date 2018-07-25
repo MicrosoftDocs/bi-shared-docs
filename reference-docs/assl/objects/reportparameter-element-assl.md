@@ -47,7 +47,7 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ReportParameter>.  
   
 ## See Also  
- [ReportAction Data Type &#40;ASSL&#41;](data-type/reportaction-data-type-assl.md)   
+ [ReportAction Data Type &#40;ASSL&#41;](../data-type/reportaction-data-type-assl.md)   
  [Action Element &#40;ASSL&#41;](../objects/action-element-assl.md)   
  [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   

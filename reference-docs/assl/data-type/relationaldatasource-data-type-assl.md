@@ -12,7 +12,7 @@ manager: kfile
 ---
 # RelationalDataSource Data Type (ASSL)
 
-  Defines a derived data type that represents a [DataSource](objects/datasource-element-assl.md) element based on a relational data source.  
+  Defines a derived data type that represents a [DataSource](../objects/datasource-element-assl.md) element based on a relational data source.  
   
 ## Syntax  
   
@@ -36,7 +36,7 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|None|  
-|Derived elements|[DataSource](objects/datasource-element-assl.md) ([DataSources](collections/datasources-element-assl.md) collection of [Database](objects/database-element-assl.md))|  
+|Derived elements|[DataSource](../objects/datasource-element-assl.md) ([DataSources](../collections/datasources-element-assl.md) collection of [Database](../objects/database-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.RelationalDataSource>.  

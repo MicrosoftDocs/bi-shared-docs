@@ -48,7 +48,7 @@ manager: kfile
 |Value|Description|  
 |-----------|-----------------|  
 |*ParentIsBlankSelfOrMissing*|Only members that meet one or more of the conditions described for *ParentIsBlank*, *ParentIsSelf*, or *ParentIsMissing* are treated as root members.|  
-|*ParentIsBlank*|Only members with a null, a zero, or an empty string in the key columns represented by the [KeyColumns](collections/keycolumns-element-assl.md) collection of **DimensionAttribute** are treated as root members.|  
+|*ParentIsBlank*|Only members with a null, a zero, or an empty string in the key columns represented by the [KeyColumns](../collections/keycolumns-element-assl.md) collection of **DimensionAttribute** are treated as root members.|  
 |*ParentIsSelf*|Only members with themselves as parents are treated as root members.|  
 |*ParentIsMissing*|Only members with parents that cannot be found are treated as root members.|  
   

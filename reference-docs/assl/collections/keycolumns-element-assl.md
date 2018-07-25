@@ -12,7 +12,7 @@ manager: kfile
 ---
 # KeyColumns Element (ASSL)
 
-  Contains the collection of [KeyColumn](objects/keycolumn-element-assl.md) element definitions for a parent object.  
+  Contains the collection of [KeyColumn](../objects/keycolumn-element-assl.md) element definitions for a parent object.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AggregationInstanceAttribute](data-type/aggregationinstanceattribute-data-type-assl.md), [AggregationInstanceCubeDimension](data-type/aggregationinstancecubedimension-data-type-assl.md), [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md), [MeasureGroupAttribute](data-type/measuregroupattribute-data-type-assl.md), [ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md)|  
-|Child elements|[KeyColumn](objects/keycolumn-element-assl.md) of type [DataItem](data-type/dataitem-data-type-assl.md)|  
+|Parent elements|[AggregationInstanceAttribute](../data-type/aggregationinstanceattribute-data-type-assl.md), [AggregationInstanceCubeDimension](../data-type/aggregationinstancecubedimension-data-type-assl.md), [DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md), [MeasureGroupAttribute](../data-type/measuregroupattribute-data-type-assl.md), [ScalarMiningStructureColumn](../data-type/scalarminingstructurecolumn-data-type-assl.md)|  
+|Child elements|[KeyColumn](../objects/keycolumn-element-assl.md) of type [DataItem](../data-type/dataitem-data-type-assl.md)|  
   
 ## Remarks  
  The **KeyColumns** collection can contain multiple **KeyColumn** elements that represent a multipart key for an attribute or mining structure column.  

@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AggregationDesignDimension](data-type/aggregationdesigndimension-data-type-assl.md), [AggregationDimension](data-type/aggregationdimension-data-type-assl.md), [AggregationInstanceCubeDimension](data-type/aggregationinstancecubedimension-data-type-assl.md), [CubeDimension](data-type/cubedimension-data-type-assl.md), [Dimension](objects/dimension-element-assl.md), [PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md), [RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md), [RelationshipEnd](data-type/relationshipend-data-type-assl.md)|  
-|Child elements|[Attribute](objects/attribute-element-assl.md)|  
+|Parent elements|[AggregationDesignDimension](../data-type/aggregationdesigndimension-data-type-assl.md), [AggregationDimension](../data-type/aggregationdimension-data-type-assl.md), [AggregationInstanceCubeDimension](../data-type/aggregationinstancecubedimension-data-type-assl.md), [CubeDimension](../data-type/cubedimension-data-type-assl.md), [Dimension](../objects/dimension-element-assl.md), [PerspectiveDimension](../data-type/perspectivedimension-data-type-assl.md), [RegularMeasureGroupDimension](../data-type/regularmeasuregroupdimension-data-type-assl.md), [RelationshipEnd](../data-type/relationshipend-data-type-assl.md)|  
+|Child elements|[Attribute](../objects/attribute-element-assl.md)|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AggregationAttributeCollection>, <xref:Microsoft.AnalysisServices.AggregationDesignAttributeCollection>, <xref:Microsoft.AnalysisServices.AggregationInstanceAttributeCollection>, <xref:Microsoft.AnalysisServices.CubeAttributeCollection>, <xref:Microsoft.AnalysisServices.DimensionAttributeCollection>, <xref:Microsoft.AnalysisServices.MeasureGroupAttributeCollection>, and <xref:Microsoft.AnalysisServices.PerspectiveAttributeCollection>.  

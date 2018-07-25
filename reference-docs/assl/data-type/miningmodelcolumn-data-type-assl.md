@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MiningModelColumn Data Type (ASSL)
 
-  Defines a primitive data type that represents information about a column in a [MiningModel](objects/miningmodel-element-assl.md) element.  
+  Defines a primitive data type that represents information about a column in a [MiningModel](../objects/miningmodel-element-assl.md) element.  
   
 ## Syntax  
   
@@ -43,8 +43,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [Columns](collections/columns-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [ModelingFlags](collections/modelingflags-element-assl.md), [Name](properties/name-element-assl.md), [SourceColumnID](properties/sourcecolumnid-element-assl.md), [Translations](collections/translations-element-assl.md), [Usage](properties/usage-element-dimensionattribute-assl.md)|  
-|Derived elements|[Column](objects/column-element-assl.md) ([Columns](collections/columns-element-assl.md), collection of [MiningModel](objects/miningmodel-element-assl.md))|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [Columns](../collections/columns-element-assl.md), [Description](../properties/description-element-assl.md), [ID](../properties/id-element-assl.md), [ModelingFlags](../collections/modelingflags-element-assl.md), [Name](../properties/name-element-assl.md), [SourceColumnID](../properties/sourcecolumnid-element-assl.md), [Translations](../collections/translations-element-assl.md), [Usage](../properties/usage-element-dimensionattribute-assl.md)|  
+|Derived elements|[Column](../objects/column-element-assl.md) ([Columns](../collections/columns-element-assl.md), collection of [MiningModel](../objects/miningmodel-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModelColumn>.  

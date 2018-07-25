@@ -60,7 +60,7 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **AggregationFunction** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationFunction>.  
   
 ## See Also  
- [Accounts Element &#40;ASSL&#41;](collections/accounts-element-assl.md)   
+ [Accounts Element &#40;ASSL&#41;](../collections/accounts-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

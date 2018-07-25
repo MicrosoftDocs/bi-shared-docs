@@ -39,8 +39,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [Caption](properties/caption-element-assl.md), [Description](properties/description-element-assl.md), [DisplayFolder](properties/displayfolder-element-assl.md), [Language](properties/language-element-assl.md)|  
-|Derived elements|[AllMemberTranslation](objects/allmembertranslation-element-assl.md), [AttributeAllMemberTranslation](objects/attributeallmembertranslation-element-assl.md), [NamingTemplateTranslation](objects/namingtemplatetranslation-element-assl.md), [UnknownMemberTranslation](objects/unknownmembertranslation-element-assl.md)|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [Caption](../properties/caption-element-assl.md), [Description](../properties/description-element-assl.md), [DisplayFolder](../properties/displayfolder-element-assl.md), [Language](../properties/language-element-assl.md)|  
+|Derived elements|[AllMemberTranslation](../objects/allmembertranslation-element-assl.md), [AttributeAllMemberTranslation](../objects/attributeallmembertranslation-element-assl.md), [NamingTemplateTranslation](../objects/namingtemplatetranslation-element-assl.md), [UnknownMemberTranslation](../objects/unknownmembertranslation-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Translation>.  

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # PushedDataSource Data Type (ASSL)
 
-  Defines a primitive data type that represents a data source used for "pushing" data into a [Cube](objects/cube-element-assl.md) element.  
+  Defines a primitive data type that represents a data source used for "pushing" data into a [Cube](../objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -36,7 +36,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[EndOfData](properties/endofdata-element-assl.md), [Root](properties/root-element-assl.md)|  
+|Child elements|[EndOfData](../properties/endofdata-element-assl.md), [Root](../properties/root-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  

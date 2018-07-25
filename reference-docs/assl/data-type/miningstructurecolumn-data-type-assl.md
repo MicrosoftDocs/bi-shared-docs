@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MiningStructureColumn Data Type (ASSL)
 
-  Defines an abstract primitive data type that represents information about a column in a [MiningStructure](objects/miningstructure-element-assl.md) element.  
+  Defines an abstract primitive data type that represents information about a column in a [MiningStructure](../objects/miningstructure-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent element|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [Name](properties/name-element-assl.md), [Type](properties/type-element-miningstructurecolumn-assl.md)|  
-|Derived elements|[Column](objects/column-element-assl.md) ([Columns](collections/columns-element-assl.md) collection of [MiningStructure](objects/miningstructure-element-assl.md))|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [Description](../properties/description-element-assl.md), [ID](../properties/id-element-assl.md), [Name](../properties/name-element-assl.md), [Type](../properties/type-element-miningstructurecolumn-assl.md)|  
+|Derived elements|[Column](../objects/column-element-assl.md) ([Columns](../collections/columns-element-assl.md) collection of [MiningStructure](../objects/miningstructure-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningStructureColumn>.  

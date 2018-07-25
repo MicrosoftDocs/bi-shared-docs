@@ -34,10 +34,10 @@ manager: kfile
 |[Annotation Element &#40;ASSL&#41;](../objects/annotation-element-assl.md)|Contains elements that are used to extend the ASSL schema.|  
 |[Assembly Element &#40;ASSL&#41;](../objects/assembly-element-assl.md)|Represents a Microsoft .NET Framework assembly or a COM dynamic link library (DLL) associated with a [Server](../objects/server-element-assl.md) element or a [Database](../objects/database-element-assl.md) element.|  
 |[Attribute Element &#40;ASSL&#41;](../objects/attribute-element-assl.md)|Contains the description of an attribute.|  
-|[AttributeAllMemberTranslation Element &#40;ASSL&#41;](../objects/attributeallmembertranslation-element-assl.md)|Contains a translation for the caption of the All member of a [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md) element.|  
+|[AttributeAllMemberTranslation Element &#40;ASSL&#41;](../objects/attributeallmembertranslation-element-assl.md)|Contains a translation for the caption of the All member of a [DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md) element.|  
 |[AttributePermission Element &#40;ASSL&#41;](../objects/attributepermission-element-assl.md)|Defines the permissions that members of a [Role](../objects/role-element-assl.md) element have on the attributes of an individual dimension in a [Cube](../objects/cube-element-assl.md) element.|  
 |[AttributeRelationship Element &#40;ASSL&#41;](../objects/attributerelationship-element-assl.md)|Provides details about the relationship between two attributes.|  
-|[Block Element &#40;ASSL&#41;](../objects/block-element-assl.md)|Contains all or a portion of the binary contents of a [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) element.|  
+|[Block Element &#40;ASSL&#41;](../objects/block-element-assl.md)|Contains all or a portion of the binary contents of a [ClrAssemblyFile](../data-type/clrassemblyfile-data-type-assl.md) element.|  
 |[Calculation Element &#40;ASSL&#41;](../objects/calculation-element-assl.md)|Asssociates a calculation with a [Perspective](../objects/perspective-element-assl.md) element.|  
 |[CalculationProperty Element &#40;ASSL&#41;](../objects/calculationproperty-element-assl.md)|Contains a collection of user interface properties for a calculation used in an [MdxScript](../objects/mdxscript-element-assl.md) element.|  
 |[CaptionColumn Element &#40;ASSL&#41;](../objects/captioncolumn-element-assl.md)|Defines the column that provides the caption for the attribute.|  
@@ -48,17 +48,17 @@ manager: kfile
 |[CubePermission Element &#40;ASSL&#41;](../objects/cubepermission-element-assl.md)|Defines the permissions of the members of a particular [Role](../objects/role-element-assl.md) element in a specific [Cube](../objects/cube-element-assl.md) element.|  
 |[CustomRollupColumn Element &#40;ASSL&#41;](../objects/customrollupcolumn-element-assl.md)|Defines the details of the column that provide a custom rollup formula.|  
 |[CustomRollupPropertiesColumn Element &#40;ASSL&#41;](../objects/customrolluppropertiescolumn-element-assl.md)|Defines the details of a column that provide the properties of a custom rollup formula.|  
-|[Data Element &#40;ASSL&#41;](../objects/data-element-assl.md)|Contains (in the collection of child **Block** elements) the binary contents of a [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) element.|  
+|[Data Element &#40;ASSL&#41;](../objects/data-element-assl.md)|Contains (in the collection of child **Block** elements) the binary contents of a [ClrAssemblyFile](../data-type/clrassemblyfile-data-type-assl.md) element.|  
 |[Database Element &#40;ASSL&#41;](../objects/database-element-assl.md)|Defines anAnalysis Services database.|  
 |[DatabasePermission Element &#40;ASSL&#41;](../objects/databasepermission-element-assl.md)|Defines the default permissions in a [Database](../objects/database-element-assl.md) element for a specific [Role](../objects/role-element-assl.md) element.|  
 |[DataSource Element &#40;ASSL&#41;](../objects/datasource-element-assl.md)|Defines a data source in a [Database](../objects/database-element-assl.md) element.|  
-|[DataSourcePermission Element &#40;ASSL&#41;](../objects/datasourcepermission-element-assl.md)|Defines the default permissions in a [DataSource](data-type/datasource-data-type-assl.md) data type for a specific [Role](../objects/role-element-assl.md) element.|  
+|[DataSourcePermission Element &#40;ASSL&#41;](../objects/datasourcepermission-element-assl.md)|Defines the default permissions in a [DataSource](../data-type/datasource-data-type-assl.md) data type for a specific [Role](../objects/role-element-assl.md) element.|  
 |[DataSourceView Element &#40;ASSL&#41;](../objects/datasourceview-element-assl.md)|Defines a data source view used by a [Database](../objects/database-element-assl.md) element.|  
 |[Dimension Element &#40;ASSL&#41;](../objects/dimension-element-assl.md)|Defines a dimension.|  
 |[DimensionPermission Element &#40;ASSL&#41;](../objects/dimensionpermission-element-assl.md)|Defines the permissions that belong to a particular [Role](../objects/role-element-assl.md) element for a specific database dimension or cube dimension.|  
 |[ErrorConfiguration Element &#40;ASSL&#41;](../objects/errorconfiguration-element-assl.md)|Specifies settings for handling errors that can occur when the parent element is processed.|  
 |[Event Element &#40;ASSL&#41;](../objects/event-element-assl.md)|Defines an event to be captured as part of a [Trace](../objects/trace-element-assl.md) element.|  
-|[File Element &#40;ASSL&#41;](../objects/file-element-assl.md)|Defines one of the files that compose a [ClrAssembly](data-type/clrassembly-data-type-assl.md) element.|  
+|[File Element &#40;ASSL&#41;](../objects/file-element-assl.md)|Defines one of the files that compose a [ClrAssembly](../data-type/clrassembly-data-type-assl.md) element.|  
 |[ForeignKeyColumn Element &#40;ASSL&#41;](../objects/foreignkeycolumn-element-assl.md)|Identifies the join to a parent table for a relational data source.|  
 |[Group Element &#40;ASSL&#41;](../objects/group-element-assl.md)|Defines a group of members bound to an attribute.|  
 |[Hierarchy Element &#40;ASSL&#41;](../objects/hierarchy-element-assl.md)|Defines a hierarchy in a dimension.|  
@@ -76,8 +76,8 @@ manager: kfile
 |[MiningStructurePermission Element &#40;ASSL&#41;](../objects/miningstructurepermission-element-assl.md)|Defines the permissions that members of a [Role](../objects/role-element-assl.md) element have on an individual [MiningStructure](../objects/miningstructure-element-assl.md) element.|  
 |[ModelingFlag Element &#40;ASSL&#41;](../objects/modelingflag-element-assl.md)|Contains a modeling flag for a column in a mining structure or a mining model.|  
 |[NameColumn Element &#40;ASSL&#41;](../objects/namecolumn-element-assl.md)|Identifies the column that provides the name of the parent element.|  
-|[NamingTemplateTranslation Element &#40;ASSL&#41;](../objects/namingtemplatetranslation-element-assl.md)|Provides a localized translation of the **NamingTemplate** element for a parent [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md) data type.|  
-|[Partition Element &#40;ASSL&#41;](../objects/partition-element-assl.md)|Defines a partition of a [MeasureGroup](../objects/measuregroup-element-assl.md) element or a partition binding in an out-of-line [MeasureGroupBinding](data-type/measuregroupbinding-data-type-out-of-line-assl.md)element.|  
+|[NamingTemplateTranslation Element &#40;ASSL&#41;](../objects/namingtemplatetranslation-element-assl.md)|Provides a localized translation of the **NamingTemplate** element for a parent [DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md) data type.|  
+|[Partition Element &#40;ASSL&#41;](../objects/partition-element-assl.md)|Defines a partition of a [MeasureGroup](../objects/measuregroup-element-assl.md) element or a partition binding in an out-of-line [MeasureGroupBinding](../data-type/measuregroupbinding-data-type-out-of-line-assl.md)element.|  
 |[Perspective Element &#40;ASSL&#41;](../objects/perspective-element-assl.md)|Defines details for a perspective of a [Cube](../objects/cube-element-assl.md) element.|  
 |[ProactiveCaching Element &#40;ASSL&#41;](../objects/proactivecaching-element-assl.md)|Defines proactive caching settings for the parent element.|  
 |[QueryNotification Element &#40;ASSL&#41;](../objects/querynotification-element-assl.md)|Contains information for the [ProactiveCaching](../objects/proactivecaching-element-assl.md) element about a query to execute to determine whether a data source has been modified.|  

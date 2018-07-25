@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ProactiveCachingObjectNotificationBinding Data Type (ASSL)
 
-  Defines an abstract derived data type that represents information to the [ProactiveCaching](objects/proactivecaching-element-assl.md) element about data source changes, either in specified tables and views or in tables and views identified through existing data bindings that require rebuilding the cache.  
+  Defines an abstract derived data type that represents information to the [ProactiveCaching](../objects/proactivecaching-element-assl.md) element about data source changes, either in specified tables and views or in tables and views identified through existing data bindings that require rebuilding the cache.  
   
 ## Syntax  
   
@@ -36,7 +36,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[NotificationTechnique](properties/notificationtechnique-element-assl.md)|  
+|Child elements|[NotificationTechnique](../properties/notificationtechnique-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  

@@ -43,7 +43,7 @@ manager: kfile
  The element that corresponds to the parent of **StopTime** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Trace>.  
   
 ## See Also  
- [Traces Element &#40;ASSL&#41;](collections/traces-element-assl.md)   
+ [Traces Element &#40;ASSL&#41;](../collections/traces-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

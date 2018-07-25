@@ -38,7 +38,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[IntermediateCubeDimensionID](properties/intermediatecubedimensionid-element-assl.md), [IntermediateGranularityAttributeID](properties/intermediategranularityattributeid-element-assl.md), [Materialization](properties/materialization-element-assl.md)|  
+|Child elements|[IntermediateCubeDimensionID](../properties/intermediatecubedimensionid-element-assl.md), [IntermediateGranularityAttributeID](../properties/intermediategranularityattributeid-element-assl.md), [Materialization](../properties/materialization-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  

@@ -59,7 +59,7 @@ manager: kfile
   
 |DataItem Parent|Allowed Data Types|  
 |---------------------|------------------------|  
-|[DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md)|[AttributeBinding](../data-type/attributebinding-data-type-assl.md), [ColumnBinding](../data-type/columnbinding-data-type-assl.md), [TimeAttributeBinding](../data-type/timeattributebinding-data-type-assl.md) (only for [KeyColumns](collections/keycolumns-element-assl.md)).|  
+|[DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md)|[AttributeBinding](../data-type/attributebinding-data-type-assl.md), [ColumnBinding](../data-type/columnbinding-data-type-assl.md), [TimeAttributeBinding](../data-type/timeattributebinding-data-type-assl.md) (only for [KeyColumns](../collections/keycolumns-element-assl.md)).|  
 |[MeasureGroupAttribute](../data-type/measuregroupattribute-data-type-assl.md)|[AttributeBinding](../data-type/attributebinding-data-type-assl.md), [ColumnBinding](../data-type/columnbinding-data-type-assl.md), [InheritedBinding](../data-type/inheritedbinding-data-type-assl.md).|  
 |[ScalarMiningStructureColumn](../data-type/scalarminingstructurecolumn-data-type-assl.md)|[ColumnBinding](../data-type/columnbinding-data-type-assl.md)|  
   

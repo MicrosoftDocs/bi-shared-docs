@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CellPermissions Element (ASSL)
 
-  Contains the collection of permissions for cells in the associated [Cube](objects/cube-element-assl.md) element.  
+  Contains the collection of permissions for cells in the associated [Cube](../objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,10 +39,10 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubePermission](objects/cubepermission-element-assl.md)|  
-|Child elements|[CellPermission](objects/cellpermission-element-assl.md)|  
+|Parent elements|[CubePermission](../objects/cubepermission-element-assl.md)|  
+|Child elements|[CellPermission](../objects/cellpermission-element-assl.md)|  
   
 ## Remarks  
- The collection can contain up to one **CellPermission** object for each allowed value of the [Access](properties/access-element-assl.md) element.  
+ The collection can contain up to one **CellPermission** object for each allowed value of the [Access](../properties/access-element-assl.md) element.  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CellPermissionCollection>.  

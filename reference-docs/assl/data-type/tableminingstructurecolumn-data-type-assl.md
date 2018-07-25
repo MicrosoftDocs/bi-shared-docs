@@ -39,8 +39,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Columns](collections/columns-element-assl.md), [ForeignKeyColumn](objects/foreignkeycolumn-element-assl.md), [SourceMeasureGroup](objects/sourcemeasuregroup-element-assl.md), [Translations](collections/translations-element-assl.md)|  
-|Derived elements|[Column](objects/column-element-assl.md) ([Columns](collections/columns-element-assl.md) collection of [MiningStructure](objects/miningstructure-element-assl.md))|  
+|Child elements|[Columns](../collections/columns-element-assl.md), [ForeignKeyColumn](../objects/foreignkeycolumn-element-assl.md), [SourceMeasureGroup](../objects/sourcemeasuregroup-element-assl.md), [Translations](../collections/translations-element-assl.md)|  
+|Derived elements|[Column](../objects/column-element-assl.md) ([Columns](../collections/columns-element-assl.md) collection of [MiningStructure](../objects/miningstructure-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TableMiningStructureColumn>.  

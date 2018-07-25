@@ -44,7 +44,7 @@ manager: kfile
  The element corresponding to the parent of **DisplayFlag** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ServerProperty>.  
   
 ## See Also  
- [ServerProperties Element &#40;ASSL&#41;](collections/serverproperties-element-assl.md)   
+ [ServerProperties Element &#40;ASSL&#41;](../collections/serverproperties-element-assl.md)   
  [Server Element &#40;ASSL&#41;](../objects/server-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   

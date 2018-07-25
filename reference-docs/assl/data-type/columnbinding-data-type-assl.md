@@ -37,7 +37,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[ColumnID](properties/columnid-element-eventcolumn-assl.md), [TableID](properties/tableid-element-assl.md)|  
+|Child elements|[ColumnID](../properties/columnid-element-eventcolumn-assl.md), [TableID](../properties/tableid-element-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

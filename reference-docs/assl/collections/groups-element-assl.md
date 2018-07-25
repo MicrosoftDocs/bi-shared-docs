@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Binding](data-type/binding-data-type-assl.md) of type [UserDefinedGroupBinding](data-type/userdefinedgroupbinding-data-type-assl.md)|  
-|Child elements|[Group](objects/group-element-assl.md)|  
+|Parent elements|[Binding](../data-type/binding-data-type-assl.md) of type [UserDefinedGroupBinding](../data-type/userdefinedgroupbinding-data-type-assl.md)|  
+|Child elements|[Group](../objects/group-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.GroupCollection>.  

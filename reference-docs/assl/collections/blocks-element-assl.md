@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Blocks Element (ASSL)
 
-  Contains the collection of blocks of binary data that represent the binary contents of a [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) element.  
+  Contains the collection of blocks of binary data that represent the binary contents of a [ClrAssemblyFile](../data-type/clrassemblyfile-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Data](objects/data-element-assl.md) of type [DataBlock](data-type/datablock-data-type-assl.md)|  
-|Child elements|[Block](objects/block-element-assl.md)|  
+|Parent elements|[Data](../objects/data-element-assl.md) of type [DataBlock](../data-type/datablock-data-type-assl.md)|  
+|Child elements|[Block](../objects/block-element-assl.md)|  
   
 ## Remarks  
  The element that corresponds to the parent of **Blocks** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ClrAssemblyFile>.  

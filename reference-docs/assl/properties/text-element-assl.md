@@ -42,7 +42,7 @@ manager: kfile
  The element that corresponds to the parent of **Text** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Command>.  
   
 ## See Also  
- [Commands Element &#40;ASSL&#41;](collections/commands-element-assl.md)   
+ [Commands Element &#40;ASSL&#41;](../collections/commands-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

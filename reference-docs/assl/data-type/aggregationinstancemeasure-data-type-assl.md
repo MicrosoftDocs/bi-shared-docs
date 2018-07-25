@@ -36,8 +36,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[MeasureID](properties/measureid-element-assl.md), [Source](properties/source-element-binding-assl.md)|  
-|Derived elements|[Measure](objects/measure-element-assl.md)|  
+|Child elements|[MeasureID](../properties/measureid-element-assl.md), [Source](../properties/source-element-binding-assl.md)|  
+|Derived elements|[Measure](../objects/measure-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationInstanceMeasure>.  

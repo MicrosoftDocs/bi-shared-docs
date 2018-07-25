@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Actions Element (ASSL)
 
-  Contains the collection of actions for a [Cube](objects/cube-element-assl.md) or [Perspective](objects/perspective-element-assl.md) element.  
+  Contains the collection of actions for a [Cube](../objects/cube-element-assl.md) or [Perspective](../objects/perspective-element-assl.md) element.  
   
 ## Syntax  
   
@@ -43,13 +43,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Cube](objects/cube-element-assl.md), [Perspective](objects/perspective-element-assl.md)|  
+|Parent elements|[Cube](../objects/cube-element-assl.md), [Perspective](../objects/perspective-element-assl.md)|  
 |Child elements|See the table below.|  
   
 |Ancestor or Parent|Child Elements|  
 |------------------------|--------------------|  
-|[Cube](objects/cube-element-assl.md)|[DrillThroughAction](data-type/drillthroughaction-data-type-assl.md), [ReportAction](data-type/reportaction-data-type-assl.md), [StandardAction](data-type/standardaction-data-type-assl.md)|  
-|[Perspective](objects/perspective-element-assl.md)|[PerspectiveAction](data-type/perspectiveaction-data-type-assl.md)|  
+|[Cube](../objects/cube-element-assl.md)|[DrillThroughAction](../data-type/drillthroughaction-data-type-assl.md), [ReportAction](../data-type/reportaction-data-type-assl.md), [StandardAction](../data-type/standardaction-data-type-assl.md)|  
+|[Perspective](../objects/perspective-element-assl.md)|[PerspectiveAction](../data-type/perspectiveaction-data-type-assl.md)|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.ActionCollection> and <xref:Microsoft.AnalysisServices.PerspectiveActionCollection>.  

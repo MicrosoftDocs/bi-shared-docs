@@ -37,7 +37,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Attributes](collections/attributes-element-assl.md), [CubeDimensionID](properties/cubedimensionid-element-assl.md), [KeyColumns](collections/keycolumns-element-assl.md)|  
-|Derived elements|[Dimension](objects/dimension-element-assl.md)|  
+|Child elements|[Attributes](../collections/attributes-element-assl.md), [CubeDimensionID](../properties/cubedimensionid-element-assl.md), [KeyColumns](../collections/keycolumns-element-assl.md)|  
+|Derived elements|[Dimension](../objects/dimension-element-assl.md)|  
   
 ## Remarks  

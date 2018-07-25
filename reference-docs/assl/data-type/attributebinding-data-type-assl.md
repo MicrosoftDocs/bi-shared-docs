@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AttributeBinding Data Type (ASSL)
 
-  Defines a derived data type that represents a binding for an [Attribute](objects/attribute-element-assl.md) element.  
+  Defines a derived data type that represents a binding for an [Attribute](../objects/attribute-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[AttributeID](properties/attributeid-element-assl.md), [Ordinal](properties/ordinal-element-assl.md), [Type](properties/type-element-binding-assl.md)|  
+|Child elements|[AttributeID](../properties/attributeid-element-assl.md), [Ordinal](../properties/ordinal-element-assl.md), [Type](../properties/type-element-binding-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

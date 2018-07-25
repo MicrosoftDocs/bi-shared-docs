@@ -49,14 +49,14 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[AggregationDesignDimension](data-type/aggregationdesigndimension-data-type-assl.md)|[AggregationDesignAttribute](data-type/aggregationdesignattribute-data-type-assl.md)|  
-|[AggregationDimension](data-type/aggregationdimension-data-type-assl.md)|[AggregationAttribute](data-type/aggregationattribute-data-type-assl.md)|  
-|[AggregationInstanceCubeDimension](data-type/aggregationinstancecubedimension-data-type-assl.md)|[AggregationInstanceAttribute](data-type/aggregationinstanceattribute-data-type-assl.md)|  
-|[CubeDimension](data-type/cubedimension-data-type-assl.md)|[CubeAttribute](data-type/cubeattribute-data-type-assl.md)|  
-|[Dimension](../objects/dimension-element-assl.md)|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
-|[RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md)|[MeasureGroupAttribute](data-type/measuregroupattribute-data-type-assl.md)|  
-|[PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|[PerspectiveAttribute](data-type/perspectiveattribute-data-type-assl.md)|  
-|[RelationshipEnd](data-type/relationshipend-data-type-assl.md)|\<Attribute><br />      \<[AttributeID](../properties/attributeid-element-assl.md)>...\</AttributeID>\</Attribute>|  
+|[AggregationDesignDimension](../data-type/aggregationdesigndimension-data-type-assl.md)|[AggregationDesignAttribute](../data-type/aggregationdesignattribute-data-type-assl.md)|  
+|[AggregationDimension](../data-type/aggregationdimension-data-type-assl.md)|[AggregationAttribute](../data-type/aggregationattribute-data-type-assl.md)|  
+|[AggregationInstanceCubeDimension](../data-type/aggregationinstancecubedimension-data-type-assl.md)|[AggregationInstanceAttribute](../data-type/aggregationinstanceattribute-data-type-assl.md)|  
+|[CubeDimension](../data-type/cubedimension-data-type-assl.md)|[CubeAttribute](../data-type/cubeattribute-data-type-assl.md)|  
+|[Dimension](../objects/dimension-element-assl.md)|[DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md)|  
+|[RegularMeasureGroupDimension](../data-type/regularmeasuregroupdimension-data-type-assl.md)|[MeasureGroupAttribute](../data-type/measuregroupattribute-data-type-assl.md)|  
+|[PerspectiveDimension](../data-type/perspectivedimension-data-type-assl.md)|[PerspectiveAttribute](../data-type/perspectiveattribute-data-type-assl.md)|  
+|[RelationshipEnd](../data-type/relationshipend-data-type-assl.md)|\<Attribute><br />      \<[AttributeID](../properties/attributeid-element-assl.md)>...\</AttributeID>\</Attribute>|  
   
 ## Element Relationships  
   

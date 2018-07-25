@@ -36,10 +36,10 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[DrillThroughAction](data-type/drillthroughaction-data-type-assl.md)|[MeasureBinding](data-type/measurebinding-data-type-assl.md), [CubeAttributeBinding](data-type/cubeattributebinding-data-type-assl.md)|  
-|[Event](../objects/event-element-assl.md)|[EventColumn](data-type/eventcolumn-data-type-assl.md)|  
-|[MiningModel](../objects/miningmodel-element-assl.md), [MiningModelColumn](data-type/miningmodelcolumn-data-type-assl.md)|[MiningModelColumn](data-type/miningmodelcolumn-data-type-assl.md)|  
-|[MiningStructure](../objects/miningstructure-element-assl.md), [TableMiningStructureColumn](data-type/tableminingstructurecolumn-data-type-assl.md)|[MiningStructureColumn](data-type/miningstructurecolumn-data-type-assl.md)|  
+|[DrillThroughAction](../data-type/drillthroughaction-data-type-assl.md)|[MeasureBinding](../data-type/measurebinding-data-type-assl.md), [CubeAttributeBinding](../data-type/cubeattributebinding-data-type-assl.md)|  
+|[Event](../objects/event-element-assl.md)|[EventColumn](../data-type/eventcolumn-data-type-assl.md)|  
+|[MiningModel](../objects/miningmodel-element-assl.md), [MiningModelColumn](../data-type/miningmodelcolumn-data-type-assl.md)|[MiningModelColumn](../data-type/miningmodelcolumn-data-type-assl.md)|  
+|[MiningStructure](../objects/miningstructure-element-assl.md), [TableMiningStructureColumn](../data-type/tableminingstructurecolumn-data-type-assl.md)|[MiningStructureColumn](../data-type/miningstructurecolumn-data-type-assl.md)|  
   
  **Default value**: None  
   

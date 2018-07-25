@@ -36,7 +36,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[CubeDimensionID](properties/cubedimensionid-element-assl.md)|  
+|Child elements|[CubeDimensionID](../properties/cubedimensionid-element-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

@@ -52,7 +52,7 @@ manager: kfile
 |*Discretized*|The values in the column represent groups (or buckets) of values derived from a continuous column.|  
 |*Ordered*|The values for the column define an ordered set.|  
 |*Cyclical*|The values for the column define a cyclical ordered set.|  
-|*Probability*|The values for the column specify a probability for the columns contained in the [ClassifiedColumns](collections/classifiedcolumns-element-assl.md) element of the parent **ScalarMiningStructureColumn**.|  
+|*Probability*|The values for the column specify a probability for the columns contained in the [ClassifiedColumns](../collections/classifiedcolumns-element-assl.md) element of the parent **ScalarMiningStructureColumn**.|  
 |*Variance*|The values for the column specify a variance for the columns contained in the **ClassifiedColumns** element of the parent **ScalarMiningStructureColumn**.|  
 |*StdDev*|The values for the column specify a standard deviation for the columns contained in the **ClassifiedColumns** element of the parent **ScalarMiningStructureColumn**.|  
 |*ProbabilityVariance*|The values for the column specify a probability variance for the columns contained in the **ClassifiedColumns** element of the parent **ScalarMiningStructureColumn**.|  
@@ -72,7 +72,7 @@ manager: kfile
  The enumeration corresponding to the allowed values for **Content** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn>.  
   
 ## See Also  
- [ClassifiedColumns Element &#40;ASSL&#41;](collections/classifiedcolumns-element-assl.md)   
+ [ClassifiedColumns Element &#40;ASSL&#41;](../collections/classifiedcolumns-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

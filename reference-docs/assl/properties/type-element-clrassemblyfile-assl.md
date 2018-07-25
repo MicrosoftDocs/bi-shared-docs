@@ -55,10 +55,10 @@ manager: kfile
   
 ## See Also  
  [File Element &#40;ASSL&#41;](../objects/file-element-assl.md)   
- [Files Element &#40;ASSL&#41;](collections/files-element-assl.md)   
+ [Files Element &#40;ASSL&#41;](../collections/files-element-assl.md)   
  [ClrAssembly Data Type &#40;ASSL&#41;](../data-type/clrassembly-data-type-assl.md)   
  [Assembly Element &#40;ASSL&#41;](../objects/assembly-element-assl.md)   
- [Assemblies Element &#40;ASSL&#41;](collections/assemblies-element-assl.md)   
+ [Assemblies Element &#40;ASSL&#41;](../collections/assemblies-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

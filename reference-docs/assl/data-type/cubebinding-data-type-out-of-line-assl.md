@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CubeBinding Data Type (out-of-line) (ASSL)
 
-  Defines a primitive data type that represents the relationship between a [Cube](objects/cube-element-assl.md) element and a [DataSource](objects/datasource-element-assl.md) element.  
+  Defines a primitive data type that represents the relationship between a [Cube](../objects/cube-element-assl.md) element and a [DataSource](../objects/datasource-element-assl.md) element.  
   
 ## Syntax  
   
@@ -38,8 +38,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[DataSource](objects/datasource-element-assl.md), [DataSourceID](properties/datasourceid-element-assl.md), [ID](properties/id-element-assl.md), [MeasureGroup](objects/measuregroup-element-assl.md)|  
-|Derived elements|[Binding](../../../analysis-services/xmla/xml-elements-properties/binding-element-xmla.md) ([Bindings](../../../analysis-services/xmla/xml-elements-properties/bindings-element-xmla.md) collection of [Process](../../../analysis-services/xmla/xml-elements-commands/process-element-xmla.md) or [Batch](../../../analysis-services/xmla/xml-elements-commands/batch-element-xmla.md) commands)|  
+|Child elements|[DataSource](../objects/datasource-element-assl.md), [DataSourceID](../properties/datasourceid-element-assl.md), [ID](../properties/id-element-assl.md), [MeasureGroup](../objects/measuregroup-element-assl.md)|  
+|Derived elements|[Binding](../../../analysis-services/xmla/xml-elements-../properties/binding-element-xmla.md) ([Bindings](../../../analysis-services/xmla/xml-elements-../properties/bindings-element-xmla.md) collection of [Process](../../../analysis-services/xmla/xml-elements-commands/process-element-xmla.md) or [Batch](../../../analysis-services/xmla/xml-elements-commands/batch-element-xmla.md) commands)|  
   
 ## Remarks  
  For more information about out-of-line bindings, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  

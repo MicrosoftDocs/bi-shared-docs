@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ReportFormatParameters Element (ASSL)
 
-  Contains the collection of [ReportFormatParameter](objects/reportformatparameter-element-asl.md) elements for a [ReportAction](data-type/reportaction-data-type-assl.md) element.  
+  Contains the collection of [ReportFormatParameter](../objects/reportformatparameter-element-asl.md) elements for a [ReportAction](../data-type/reportaction-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Action](objects/action-element-assl.md) of type [ReportAction](data-type/reportaction-data-type-assl.md)|  
-|Child elements|[ReportFormatParameter](objects/reportformatparameter-element-asl.md)|  
+|Parent elements|[Action](../objects/action-element-assl.md) of type [ReportAction](../data-type/reportaction-data-type-assl.md)|  
+|Child elements|[ReportFormatParameter](../objects/reportformatparameter-element-asl.md)|  
   
 ## Remarks  
  The element that corresponds to the parent of **ReportFormatParameters** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ReportAction>.  

@@ -56,7 +56,7 @@ manager: kfile
  The enumeration corresponding to the allowed values for **AccountType** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AccountTypes>.  
   
 ## See Also  
- [Accounts Element &#40;ASSL&#41;](collections/accounts-element-assl.md)   
+ [Accounts Element &#40;ASSL&#41;](../collections/accounts-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

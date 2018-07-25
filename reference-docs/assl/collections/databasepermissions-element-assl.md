@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DatabasePermissions Element (ASSL)
 
-  Contains the collection of [DatabasePermission](objects/databasepermission-element-assl.md) elements associated with a [Database](objects/database-element-assl.md) element.  
+  Contains the collection of [DatabasePermission](../objects/databasepermission-element-assl.md) elements associated with a [Database](../objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Database](objects/database-element-assl.md)|  
-|Child elements|[DatabasePermission](objects/databasepermission-element-assl.md)|  
+|Parent elements|[Database](../objects/database-element-assl.md)|  
+|Child elements|[DatabasePermission](../objects/databasepermission-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DatabasePermissionCollection>.  

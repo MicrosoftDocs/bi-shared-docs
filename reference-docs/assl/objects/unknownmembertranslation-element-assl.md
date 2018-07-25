@@ -27,7 +27,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[Translation](data-type/translation-data-type-assl.md)|  
+|Data type and length|[Translation](../data-type/translation-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-1: Optional element that can occur once and only once.|  
   

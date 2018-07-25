@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MeasureGroupBinding Data Type (ASSL)
 
-  Defines a derived data type that represents a binding to a [MeasureGroup](objects/measuregroup-element-assl.md) element.  
+  Defines a derived data type that represents a binding to a [MeasureGroup](../objects/measuregroup-element-assl.md) element.  
   
 ## Syntax  
   
@@ -42,7 +42,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[CubeID](properties/cubeid-element-assl.md), [DataSourceID](properties/datasourceid-element-assl.md), [Filter](properties/filter-element-binding-assl.md), [MeasureGroupID](properties/measuregroupid-element-assl.md), [Persistence](properties/persistence-element-assl.md), [RefreshInterval](properties/refreshinterval-element-assl.md), [RefreshPolicy](properties/refreshpolicy-element-assl.md)|  
+|Child elements|[CubeID](../properties/cubeid-element-assl.md), [DataSourceID](../properties/datasourceid-element-assl.md), [Filter](../properties/filter-element-binding-assl.md), [MeasureGroupID](../properties/measuregroupid-element-assl.md), [Persistence](../properties/persistence-element-assl.md), [RefreshInterval](../properties/refreshinterval-element-assl.md), [RefreshPolicy](../properties/refreshpolicy-element-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

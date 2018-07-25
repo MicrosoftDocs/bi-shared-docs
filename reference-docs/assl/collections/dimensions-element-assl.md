@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Aggregation](objects/aggregation-element-assl.md), [AggregationDesign](objects/aggregationdesign-element-assl.md), [AggregationInstance](objects/aggregationinstance-element-assl.md), [Cube](objects/cube-element-assl.md), [Database](objects/database-element-assl.md), [MeasureGroup](objects/measuregroup-element-assl.md), [Perspective](objects/perspective-element-assl.md)|  
-|Child elements|[Dimension](objects/dimension-element-assl.md)|  
+|Parent elements|[Aggregation](../objects/aggregation-element-assl.md), [AggregationDesign](../objects/aggregationdesign-element-assl.md), [AggregationInstance](../objects/aggregationinstance-element-assl.md), [Cube](../objects/cube-element-assl.md), [Database](../objects/database-element-assl.md), [MeasureGroup](../objects/measuregroup-element-assl.md), [Perspective](../objects/perspective-element-assl.md)|  
+|Child elements|[Dimension](../objects/dimension-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DimensionCollection>.  

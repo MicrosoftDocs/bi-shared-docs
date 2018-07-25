@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DefaultScript Element (ASSL)
 
-  Identifies the default [MdxScript](../objects/mdxscript-element-assl.md) element in the [MdxScripts](collections/mdxscripts-element-assl.md) collection.  
+  Identifies the default [MdxScript](../objects/mdxscript-element-assl.md) element in the [MdxScripts](../collections/mdxscripts-element-assl.md) collection.  
   
 ## Syntax  
   

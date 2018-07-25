@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AttributeAllMemberTranslation Element (ASSL)
 
-  Contains a translation for the caption of the **All** member of a [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md) element.  
+  Contains a translation for the caption of the **All** member of a [DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -27,7 +27,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[Translation](data-type/translation-data-type-assl.md)|  
+|Data type and length|[Translation](../data-type/translation-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur more than once.|  
   

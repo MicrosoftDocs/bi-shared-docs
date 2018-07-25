@@ -46,8 +46,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[ClassifiedColumnID](properties/classifiedcolumnid-element-assl.md), [Content](properties/content-element-assl.md), [DiscretizationBucketCount](properties/discretizationbucketcount-element-assl.md), [DiscretizationMethod](properties/discretizationmethod-element-assl.md), [Distribution](properties/distribution-element-assl.md), [IsKey](properties/iskey-element-assl.md), [KeyColumns](collections/keycolumns-element-assl.md), [ModelingFlags](collections/modelingflags-element-assl.md), [NameColumn](objects/namecolumn-element-assl.md), [Source](properties/source-element-binding-assl.md), [Translations](collections/translations-element-assl.md)|  
-|Derived elements|[Column](objects/column-element-assl.md) ([Columns](collections/columns-element-assl.md) collection of [MiningStructure](objects/miningstructure-element-assl.md))|  
+|Child elements|[ClassifiedColumnID](../properties/classifiedcolumnid-element-assl.md), [Content](../properties/content-element-assl.md), [DiscretizationBucketCount](../properties/discretizationbucketcount-element-assl.md), [DiscretizationMethod](../properties/discretizationmethod-element-assl.md), [Distribution](../properties/distribution-element-assl.md), [IsKey](../properties/iskey-element-assl.md), [KeyColumns](../collections/keycolumns-element-assl.md), [ModelingFlags](../collections/modelingflags-element-assl.md), [NameColumn](../objects/namecolumn-element-assl.md), [Source](../properties/source-element-binding-assl.md), [Translations](../collections/translations-element-assl.md)|  
+|Derived elements|[Column](../objects/column-element-assl.md) ([Columns](../collections/columns-element-assl.md) collection of [MiningStructure](../objects/miningstructure-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn>.  

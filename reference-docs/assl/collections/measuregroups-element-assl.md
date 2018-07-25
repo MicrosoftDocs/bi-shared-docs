@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MeasureGroups Element (ASSL)
 
-  Contains the collection of [MeasureGroup](objects/measuregroup-element-assl.md) elements associated with the parent element.  
+  Contains the collection of [MeasureGroup](../objects/measuregroup-element-assl.md) elements associated with the parent element.  
   
 ## Syntax  
   
@@ -41,14 +41,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Cube](objects/cube-element-assl.md), [CubeBinding](data-type/cubebinding-data-type-out-of-line-assl.md), [Perspective](objects/perspective-element-assl.md)|  
+|Parent elements|[Cube](../objects/cube-element-assl.md), [CubeBinding](../data-type/cubebinding-data-type-out-of-line-assl.md), [Perspective](../objects/perspective-element-assl.md)|  
 |Child elements|See the table.|  
   
 |Ancestor or Parent|Child Element|  
 |------------------------|-------------------|  
-|[Cube](objects/cube-element-assl.md)|[MeasureGroup](objects/measuregroup-element-assl.md)|  
-|[CubeBinding](data-type/cubebinding-data-type-out-of-line-assl.md)|[MeasureGroup](objects/measuregroup-element-assl.md) of type [MeasureGroupBinding](data-type/measuregroupbinding-data-type-assl.md)|  
-|[Perspective](objects/perspective-element-assl.md)|[MeasureGroup](objects/measuregroup-element-assl.md) of type [PerspectiveMeasureGroup](data-type/perspectivemeasuregroup-data-type-assl.md)|  
+|[Cube](../objects/cube-element-assl.md)|[MeasureGroup](../objects/measuregroup-element-assl.md)|  
+|[CubeBinding](../data-type/cubebinding-data-type-out-of-line-assl.md)|[MeasureGroup](../objects/measuregroup-element-assl.md) of type [MeasureGroupBinding](../data-type/measuregroupbinding-data-type-assl.md)|  
+|[Perspective](../objects/perspective-element-assl.md)|[MeasureGroup](../objects/measuregroup-element-assl.md) of type [PerspectiveMeasureGroup](../data-type/perspectivemeasuregroup-data-type-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MeasureGroupCollection> or <xref:Microsoft.AnalysisServices.PerspectiveMeasureGroupCollection>.  

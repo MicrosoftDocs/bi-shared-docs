@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ProactiveCachingBinding Data Type (ASSL)
 
-  Defines an abstract derived data type that represents information to the [ProactiveCaching](objects/proactivecaching-element-assl.md) element about data source changes that require rebuilding the cache, or about the status of the rebuilding process.  
+  Defines an abstract derived data type that represents information to the [ProactiveCaching](../objects/proactivecaching-element-assl.md) element about data source changes that require rebuilding the cache, or about the status of the rebuilding process.  
   
 ## Syntax  
   

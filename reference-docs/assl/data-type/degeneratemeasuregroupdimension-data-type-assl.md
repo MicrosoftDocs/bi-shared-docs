@@ -39,7 +39,7 @@ manager: kfile
 |Derived elements|None|  
   
 ## Remarks  
- For more information about fact dimensions, see [Dimension Relationships](../../../analysis-services/multidimensional-models-olap-logical-cube-objects/dimension-relationships.md).  
+ For more information about fact dimensions, see [Dimension Relationships](../../../analysis-services/multidimensional-models-olap-logical-cube-../objects/dimension-relationships.md).  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DegenerateMeasureGroupDimension>.  
   

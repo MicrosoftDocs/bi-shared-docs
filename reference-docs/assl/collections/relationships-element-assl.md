@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubeDimension](data-type/cubedimension-data-type-assl.md), [Dimension](objects/dimension-element-assl.md), [PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md), [RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md)|  
-|Child elements|[Relationship](data-type/relationship-data-type-assl.md)|  
+|Parent elements|[CubeDimension](../data-type/cubedimension-data-type-assl.md), [Dimension](../objects/dimension-element-assl.md), [PerspectiveDimension](../data-type/perspectivedimension-data-type-assl.md), [RegularMeasureGroupDimension](../data-type/regularmeasuregroupdimension-data-type-assl.md)|  
+|Child elements|[Relationship](../data-type/relationship-data-type-assl.md)|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.RelationshipCollection>.  

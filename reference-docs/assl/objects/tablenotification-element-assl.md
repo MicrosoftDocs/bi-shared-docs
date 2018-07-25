@@ -45,9 +45,9 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TableNotification>.  
   
 ## See Also  
- [ProactiveCachingTablesBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingtablesbinding-data-type-assl.md)   
- [ProactiveCachingObjectNotificationBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingobjectnotificationbinding-data-type-assl.md)   
- [ProactiveCachingBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingbinding-data-type-assl.md)   
+ [ProactiveCachingTablesBinding Data Type &#40;ASSL&#41;](../data-type/proactivecachingtablesbinding-data-type-assl.md)   
+ [ProactiveCachingObjectNotificationBinding Data Type &#40;ASSL&#41;](../data-type/proactivecachingobjectnotificationbinding-data-type-assl.md)   
+ [ProactiveCachingBinding Data Type &#40;ASSL&#41;](../data-type/proactivecachingbinding-data-type-assl.md)   
  [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

@@ -38,8 +38,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [Attributes](collections/attributes-element-assl.md), [CubeDimensionID](properties/cubedimensionid-element-assl.md), [Hierarchies](collections/hierarchies-element-assl.md)|  
-|Derived elements|[Dimension](objects/dimension-element-assl.md) ([Dimensions](collections/dimensions-element-assl.md) collection of [Perspective](objects/perspective-element-assl.md))|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [Attributes](../collections/attributes-element-assl.md), [CubeDimensionID](../properties/cubedimensionid-element-assl.md), [Hierarchies](../collections/hierarchies-element-assl.md)|  
+|Derived elements|[Dimension](../objects/dimension-element-assl.md) ([Dimensions](../collections/dimensions-element-assl.md) collection of [Perspective](../objects/perspective-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PerspectiveDimension>.  

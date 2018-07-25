@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|The following are valid Parent (or Ancestor): Data Type pairs:<br /><br /> [Dimension](../objects/dimension-element-assl.md):[DimensionPermission](data-type/dimensionpermission-data-type-assl.md)<br /><br /> [CubePermission](../objects/cubepermission-element-assl.md):<br />                        [CubeDimensionPermission](data-type/cubedimensionpermission-data-type-assl.md)|  
+|Data type and length|The following are valid Parent (or Ancestor): Data Type pairs:<br /><br /> [Dimension](../objects/dimension-element-assl.md):[DimensionPermission](../data-type/dimensionpermission-data-type-assl.md)<br /><br /> [CubePermission](../objects/cubepermission-element-assl.md):<br />                        [CubeDimensionPermission](../data-type/cubedimensionpermission-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur once or more than once.|  
   

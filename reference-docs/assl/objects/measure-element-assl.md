@@ -57,10 +57,10 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[AggregationInstance](../objects/aggregationinstance-element-assl.md)|[AggregationInstanceMeasure](data-type/measurebinding-data-type-assl.md)|  
+|[AggregationInstance](../objects/aggregationinstance-element-assl.md)|[AggregationInstanceMeasure](../data-type/measurebinding-data-type-assl.md)|  
 |[MeasureGroup](../objects/measuregroup-element-assl.md)|None|  
-|[MeasureGroupBinding (out-of-line)](data-type/measuregroupbinding-data-type-out-of-line-assl.md)|[MeasureBinding](data-type/measurebinding-data-type-assl.md)|  
-|[PerspectiveMeasureGroup](data-type/perspectivemeasuregroup-data-type-assl.md)|[PerspectiveMeasure](data-type/perspectivemeasure-data-type-assl.md)|  
+|[MeasureGroupBinding (out-of-line)](../data-type/measuregroupbinding-data-type-out-of-line-assl.md)|[MeasureBinding](../data-type/measurebinding-data-type-assl.md)|  
+|[PerspectiveMeasureGroup](../data-type/perspectivemeasuregroup-data-type-assl.md)|[PerspectiveMeasure](../data-type/perspectivemeasure-data-type-assl.md)|  
   
 ## Element Relationships  
   

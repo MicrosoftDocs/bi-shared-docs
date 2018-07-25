@@ -40,7 +40,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[AttributeID](properties/attributeid-element-assl.md), [CubeDimensionID](properties/cubedimensionid-element-assl.md), [CubeID](properties/cubeid-element-assl.md), [Ordinal](properties/ordinal-element-assl.md), [Type](properties/type-element-binding-assl.md)|  
+|Child elements|[AttributeID](../properties/attributeid-element-assl.md), [CubeDimensionID](../properties/cubedimensionid-element-assl.md), [CubeID](../properties/cubeid-element-assl.md), [Ordinal](../properties/ordinal-element-assl.md), [Type](../properties/type-element-binding-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

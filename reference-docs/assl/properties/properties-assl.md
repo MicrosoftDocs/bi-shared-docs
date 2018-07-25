@@ -93,7 +93,7 @@ manager: kfile
 |[Default Element &#40;ASSL&#41;](default-element-assl.md)|Determines whether the **DrillThroughAction** is the default drillthrough action.|  
 |[DefaultMeasure Element &#40;ASSL&#41;](defaultmeasure-element-assl.md)|Contains an MDX language expression that defines the default measure for a **Cube** or **Perspective** element.|  
 |[DefaultMember Element &#40;ASSL&#41;](defaultmember-element-assl.md)|Contains an MDX expression that identifies the default member of the parent element.|  
-|[DefaultScript Element &#40;ASSL&#41;](defaultscript-element-assl.md)|Identifies the default [MdxScript](../objects/mdxscript-element-assl.md) element in the [MdxScripts](collections/mdxscripts-element-assl.md) collection.|  
+|[DefaultScript Element &#40;ASSL&#41;](defaultscript-element-assl.md)|Identifies the default [MdxScript](../objects/mdxscript-element-assl.md) element in the [MdxScripts](../collections/mdxscripts-element-assl.md) collection.|  
 |[DefaultValue Element &#40;ASSL&#41;](defaultvalue-element-assl.md)|Contains the read-only default value of the associated [ServerProperty](../objects/serverproperty-element-assl.md) element.|  
 |[DeniedSet Element &#40;ASSL&#41;](deniedset-element-assl.md)|Contains a set expression that defines the list of permissions that are denied on the associated attribute.|  
 |[DependsOnDimensionID Element &#40;ASSL&#41;](dependsondimensionid-element-assl.md)|Contains the ID of another dimension on which the parent dimension depends.|  

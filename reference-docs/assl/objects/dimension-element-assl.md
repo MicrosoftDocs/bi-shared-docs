@@ -45,13 +45,13 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[Database](../objects/database-element-assl.md)|[Dimension](data-type/dimension-data-type-assl.md)|  
-|[Aggregation](../objects/aggregation-element-assl.md)|[AggregationDimension](data-type/aggregationdimension-data-type-assl.md)|  
-|[AggregationDesign](../objects/aggregationdesign-element-assl.md)|[AggregationDesignDimension](data-type/aggregationdesigndimension-data-type-assl.md)|  
-|[AggregationInstance](../objects/aggregationinstance-element-assl.md)|[AggregationInstanceCubeDimension](data-type/aggregationinstancecubedimension-data-type-assl.md)|  
-|[Cube](../objects/cube-element-assl.md)|[CubeDimension](data-type/cubedimension-data-type-assl.md)|  
-|[MeasureGroup](../objects/measuregroup-element-assl.md)|[MeasureGroupDimension](data-type/measuregroupdimension-data-type-assl.md)|  
-|[Perspective](../objects/perspective-element-assl.md)|[PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|  
+|[Database](../objects/database-element-assl.md)|[Dimension](../data-type/dimension-data-type-assl.md)|  
+|[Aggregation](../objects/aggregation-element-assl.md)|[AggregationDimension](../data-type/aggregationdimension-data-type-assl.md)|  
+|[AggregationDesign](../objects/aggregationdesign-element-assl.md)|[AggregationDesignDimension](../data-type/aggregationdesigndimension-data-type-assl.md)|  
+|[AggregationInstance](../objects/aggregationinstance-element-assl.md)|[AggregationInstanceCubeDimension](../data-type/aggregationinstancecubedimension-data-type-assl.md)|  
+|[Cube](../objects/cube-element-assl.md)|[CubeDimension](../data-type/cubedimension-data-type-assl.md)|  
+|[MeasureGroup](../objects/measuregroup-element-assl.md)|[MeasureGroupDimension](../data-type/measuregroupdimension-data-type-assl.md)|  
+|[Perspective](../objects/perspective-element-assl.md)|[PerspectiveDimension](../data-type/perspectivedimension-data-type-assl.md)|  
   
 ## Element Relationships  
   

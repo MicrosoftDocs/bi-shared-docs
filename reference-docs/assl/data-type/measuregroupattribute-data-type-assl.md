@@ -38,8 +38,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [AttributeID](properties/attributeid-element-assl.md), [KeyColumns](collections/keycolumns-element-assl.md), [Type](properties/type-element-measuregroupattribute-assl.md)|  
-|Derived elements|[Attribute](objects/attribute-element-assl.md) ([Attributes](collections/attributes-element-assl.md) collection of [RegularMeasureGroupDimension](regularmeasuregroupdimension-data-type-assl.md))|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [AttributeID](../properties/attributeid-element-assl.md), [KeyColumns](../collections/keycolumns-element-assl.md), [Type](../properties/type-element-measuregroupattribute-assl.md)|  
+|Derived elements|[Attribute](../objects/attribute-element-assl.md) ([Attributes](../collections/attributes-element-assl.md) collection of [RegularMeasureGroupDimension](regularmeasuregroupdimension-data-type-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MeasureGroupAttribute>.  

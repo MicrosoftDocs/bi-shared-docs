@@ -12,7 +12,7 @@ manager: kfile
 ---
 # PartitionBinding Data Type (ASSL)
 
-  Defines a derived data type that represents a binding to a [Partition](objects/partition-element-assl.md) element.  
+  Defines a derived data type that represents a binding to a [Partition](../objects/partition-element-assl.md) element.  
   
 ## Syntax  
   
@@ -38,7 +38,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[CubeID](../../../analysis-services/xmla/xml-elements-properties/cubeid-element-xmla.md), [DatabaseID](../../../analysis-services/xmla/xml-elements-properties/databaseid-element-xmla.md), [PartitionID](../../../analysis-services/xmla/xml-elements-properties/partitionid-element-xmla.md), [Source](properties/source-element-binding-assl.md)|  
+|Child elements|[CubeID](../../../analysis-services/xmla/xml-elements-../properties/cubeid-element-xmla.md), [DatabaseID](../../../analysis-services/xmla/xml-elements-../properties/databaseid-element-xmla.md), [PartitionID](../../../analysis-services/xmla/xml-elements-../properties/partitionid-element-xmla.md), [Source](../properties/source-element-binding-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

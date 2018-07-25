@@ -12,7 +12,7 @@ manager: kfile
 ---
 # QueryBinding Data Type (ASSL)
 
-  Defines a derived data type that represents the association of a [DataSource](objects/datasource-element-assl.md) element with a [QueryDefinition](properties/querydefinition-element-assl.md) element.  
+  Defines a derived data type that represents the association of a [DataSource](../objects/datasource-element-assl.md) element with a [QueryDefinition](../properties/querydefinition-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[DataSourceID](properties/datasourceid-element-assl.md), [QueryDefinition](properties/querydefinition-element-assl.md)|  
+|Child elements|[DataSourceID](../properties/datasourceid-element-assl.md), [QueryDefinition](../properties/querydefinition-element-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

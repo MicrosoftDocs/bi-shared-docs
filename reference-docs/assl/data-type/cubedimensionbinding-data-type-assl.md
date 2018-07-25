@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CubeDimensionBinding Data Type (ASSL)
 
-  Defines a derived data type that represents the binding of a [Dimension](objects/dimension-element-assl.md), [Measure](objects/measure-element-assl.md), or [MiningModel](objects/miningmodel-element-assl.md) element to a cube dimension.  
+  Defines a derived data type that represents the binding of a [Dimension](../objects/dimension-element-assl.md), [Measure](../objects/measure-element-assl.md), or [MiningModel](../objects/miningmodel-element-assl.md) element to a cube dimension.  
   
 ## Syntax  
   
@@ -39,7 +39,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[CubeDimensionID](properties/cubedimensionid-element-assl.md), [CubeID](properties/cubeid-element-assl.md), [DataSourceID](properties/datasourceid-element-assl.md), [Filter](properties/filter-element-trace-assl.md)|  
+|Child elements|[CubeDimensionID](../properties/cubedimensionid-element-assl.md), [CubeID](../properties/cubeid-element-assl.md), [DataSourceID](../properties/datasourceid-element-assl.md), [Filter](../properties/filter-element-trace-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

@@ -38,7 +38,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[DataSourceID](properties/datasourceid-element-assl.md), [DbSchemaName](properties/dbschemaname-element-assl.md), [DbTableName](properties/dbtablename-element-assl.md)|  
+|Child elements|[DataSourceID](../properties/datasourceid-element-assl.md), [DbSchemaName](../properties/dbschemaname-element-assl.md), [DbTableName](../properties/dbtablename-element-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

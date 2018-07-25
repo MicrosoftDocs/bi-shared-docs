@@ -47,7 +47,7 @@ manager: kfile
   
 ## See Also  
  [AlgorithmParameter Element &#40;ASSL&#41;](../objects/algorithmparameter-element-assl.md)   
- [AlgorithmParameters Element &#40;ASSL&#41;](collections/algorithmparameters-element-assl.md)   
+ [AlgorithmParameters Element &#40;ASSL&#41;](../collections/algorithmparameters-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DSVTableBinding Data Type (ASSL)
 
-  Defines a derived data type that represents the binding between a table and a [DataSourceView](objects/datasourceview-element-assl.md) element.  
+  Defines a derived data type that represents the binding between a table and a [DataSourceView](../objects/datasourceview-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[DataSourceViewID](properties/datasourceviewid-element-assl.md), [TableID](properties/tableid-element-assl.md)|  
+|Child elements|[DataSourceViewID](../properties/datasourceviewid-element-assl.md), [TableID](../properties/tableid-element-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

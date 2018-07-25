@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Kpis Element (ASSL)
 
-  Contains the collection of key performance indicators ([Kpi](objects/kpi-element-assl.md) elements) associated with the parent element.  
+  Contains the collection of key performance indicators ([Kpi](../objects/kpi-element-assl.md) elements) associated with the parent element.  
   
 ## Syntax  
   
@@ -40,13 +40,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Cube](objects/cube-element-assl.md), [Perspective](objects/perspective-element-assl.md)|  
+|Parent elements|[Cube](../objects/cube-element-assl.md), [Perspective](../objects/perspective-element-assl.md)|  
 |Child elements|See the table below.|  
   
 |Ancestor or Parent|Child Element|  
 |------------------------|-------------------|  
-|[Cube](objects/cube-element-assl.md)|[Kpi](objects/kpi-element-assl.md)|  
-|[Perspective](objects/perspective-element-assl.md)|[Kpi](objects/kpi-element-assl.md) of type [PerspectiveKpi](data-type/perspectivekpi-data-type-assl.md)|  
+|[Cube](../objects/cube-element-assl.md)|[Kpi](../objects/kpi-element-assl.md)|  
+|[Perspective](../objects/perspective-element-assl.md)|[Kpi](../objects/kpi-element-assl.md) of type [PerspectiveKpi](../data-type/perspectivekpi-data-type-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.KpiCollection>.  

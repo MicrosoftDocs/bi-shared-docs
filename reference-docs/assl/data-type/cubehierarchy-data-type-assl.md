@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CubeHierarchy Data Type (ASSL)
 
-  Defines a primitive data type that represents information about a [Hierarchy](objects/hierarchy-element-assl.md) element in a [Cube](objects/cube-element-assl.md) element.  
+  Defines a primitive data type that represents information about a [Hierarchy](../objects/hierarchy-element-assl.md) element in a [Cube](../objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -32,8 +32,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [Enabled](properties/enabled-element-assl.md), [HierarchyID](properties/hierarchyid-element-assl.md), [Name](properties/name-element-assl.md), [OptimizedState](properties/optimizedstate-element-assl.md), [Visible](properties/visible-element-assl.md)|  
-|Derived elements|[Hierarchy](objects/hierarchy-element-assl.md) ([Hierarchies](collections/hierarchies-element-assl.md) collection of [CubeDimension](cubedimension-data-type-assl.md))|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [Enabled](../properties/enabled-element-assl.md), [HierarchyID](../properties/hierarchyid-element-assl.md), [Name](../properties/name-element-assl.md), [OptimizedState](../properties/optimizedstate-element-assl.md), [Visible](../properties/visible-element-assl.md)|  
+|Derived elements|[Hierarchy](../objects/hierarchy-element-assl.md) ([Hierarchies](../collections/hierarchies-element-assl.md) collection of [CubeDimension](cubedimension-data-type-assl.md))|  
   
 ## Remarks  
  This data type has no restrictions and can be used under any deployment mode: 0-Multidimensional and Data Mining, 1-SharePoint, and 2-Tabular.  

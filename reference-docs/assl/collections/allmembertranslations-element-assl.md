@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AllMemberTranslations Element (ASSL)
 
-  Contains the collection of [Translation](objects/translation-element-assl.md) elements for the caption of the All member of a [Hierarchy](objects/hierarchy-element-assl.md) element.  
+  Contains the collection of [Translation](../objects/translation-element-assl.md) elements for the caption of the All member of a [Hierarchy](../objects/hierarchy-element-assl.md) element.  
   
 ## Syntax  
   
@@ -40,8 +40,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Hierarchy](objects/hierarchy-element-assl.md)|  
-|Child elements|[AllMemberTranslation](objects/allmembertranslation-element-assl.md)|  
+|Parent element|[Hierarchy](../objects/hierarchy-element-assl.md)|  
+|Child elements|[AllMemberTranslation](../objects/allmembertranslation-element-assl.md)|  
   
 ## Remarks  
  The element corresponding to the parent of **AllMemberTranslations** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Hierarchy>.  

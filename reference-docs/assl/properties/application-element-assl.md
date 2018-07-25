@@ -46,7 +46,7 @@ manager: kfile
  The element that corresponds to the parent of **Application** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Action>.  
   
 ## See Also  
- [Actions Element &#40;ASSL&#41;](collections/actions-element-assl.md)   
+ [Actions Element &#40;ASSL&#41;](../collections/actions-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -36,8 +36,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[CaseCubeDimensionID](properties/casecubedimensionid-element-assl.md)|  
-|Derived elements|See [Dimension](objects/dimension-element-assl.md) ([Dimensions](collections/dimensions-element-assl.md) collection of [MeasureGroup](objects/measuregroup-element-assl.md))|  
+|Child elements|[CaseCubeDimensionID](../properties/casecubedimensionid-element-assl.md)|  
+|Derived elements|See [Dimension](../objects/dimension-element-assl.md) ([Dimensions](../collections/dimensions-element-assl.md) collection of [MeasureGroup](../objects/measuregroup-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataMiningMeasureGroupDimension>.  

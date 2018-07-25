@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Measures Element (ASSL)
 
-  Contains the collection of [Measure](objects/measure-element-assl.md) elements associated with the parent element.  
+  Contains the collection of [Measure](../objects/measure-element-assl.md) elements associated with the parent element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AggregationInstance](objects/aggregationinstance-element-assl.md), [MeasureGroup](objects/measuregroup-element-assl.md), [MeasureGroupBinding (out-of-line)](data-type/measuregroupbinding-data-type-out-of-line-assl.md), [PerspectiveMeasureGroup](data-type/perspectivemeasuregroup-data-type-assl.md)|  
-|Child elements|[Measure](objects/measure-element-assl.md)|  
+|Parent elements|[AggregationInstance](../objects/aggregationinstance-element-assl.md), [MeasureGroup](../objects/measuregroup-element-assl.md), [MeasureGroupBinding (out-of-line)](../data-type/measuregroupbinding-data-type-out-of-line-assl.md), [PerspectiveMeasureGroup](../data-type/perspectivemeasuregroup-data-type-assl.md)|  
+|Child elements|[Measure](../objects/measure-element-assl.md)|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.MeasureCollection> and <xref:Microsoft.AnalysisServices.PerspectiveMeasureCollection>.  

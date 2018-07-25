@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AlgorithmParameters Element (ASSL)
 
-  Contains the collection of parameters for the algorithm used by a [MiningModel](objects/miningmodel-element-assl.md) element.  
+  Contains the collection of parameters for the algorithm used by a [MiningModel](../objects/miningmodel-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningModel](objects/miningmodel-element-assl.md)|  
-|Child elements|[AlgorithmParameter](objects/algorithmparameter-element-assl.md)|  
+|Parent element|[MiningModel](../objects/miningmodel-element-assl.md)|  
+|Child elements|[AlgorithmParameter](../objects/algorithmparameter-element-assl.md)|  
   
 ## Remarks  
  The **AlgorithmParameters** collection contains an extensible set of parameters, represented as name/value pairs, for a mining model algorithm. The set of applicable parameters is algorithm-dependent. For more information about algorithm parameters for a given algorithm, see the appropriate documentation for that algorithm.  

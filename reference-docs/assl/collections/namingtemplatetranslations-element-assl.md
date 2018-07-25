@@ -12,7 +12,7 @@ manager: kfile
 ---
 # NamingTemplateTranslations Element (ASSL)
 
-  Provides a collection of localized translations for the [NamingTemplate](properties/namingtemplate-element-assl.md) element of the parent, [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md).  
+  Provides a collection of localized translations for the [NamingTemplate](../properties/namingtemplate-element-assl.md) element of the parent, [DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md).  
   
 ## Syntax  
   
@@ -39,10 +39,10 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Attribute](objects/attribute-element-assl.md) of type [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
-|Child elements|[NamingTemplateTranslation](objects/namingtemplatetranslation-element-assl.md) of type [Translation](objects/translation-element-assl.md)|  
+|Parent elements|[Attribute](../objects/attribute-element-assl.md) of type [DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md)|  
+|Child elements|[NamingTemplateTranslation](../objects/namingtemplatetranslation-element-assl.md) of type [Translation](../objects/translation-element-assl.md)|  
   
 ## Remarks  
- The value of the **NamingTemplateTranslation** element is used only by parent attributes (in other words, the value of the [Usage](properties/usage-element-dimensionattribute-assl.md) element of the parent **DimensionAttribute** is set to *Parent*.)  
+ The value of the **NamingTemplateTranslation** element is used only by parent attributes (in other words, the value of the [Usage](../properties/usage-element-dimensionattribute-assl.md) element of the parent **DimensionAttribute** is set to *Parent*.)  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DimensionAttribute>.  

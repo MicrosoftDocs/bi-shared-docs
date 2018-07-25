@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Files Element (ASSL)
 
-  Contains the collection of [File](objects/file-element-assl.md) elements that make up a [ClrAssembly](data-type/clrassembly-data-type-assl.md) element.  
+  Contains the collection of [File](../objects/file-element-assl.md) elements that make up a [ClrAssembly](../data-type/clrassembly-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Assembly](objects/assembly-element-assl.md) of type [ClrAssembly](data-type/clrassembly-data-type-assl.md)|  
-|Child elements|[File](objects/file-element-assl.md) of type [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md)|  
+|Parent elements|[Assembly](../objects/assembly-element-assl.md) of type [ClrAssembly](../data-type/clrassembly-data-type-assl.md)|  
+|Child elements|[File](../objects/file-element-assl.md) of type [ClrAssemblyFile](../data-type/clrassemblyfile-data-type-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ClrAssemblyFileCollection>.  

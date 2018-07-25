@@ -36,8 +36,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [HierarchyID](properties/hierarchyid-element-assl.md)|  
-|Derived elements|[Hierarchy](objects/hierarchy-element-assl.md) ([Hierarchies](collections/hierarchies-element-assl.md) collection of [PerspectiveDimension](perspectivedimension-data-type-assl.md))|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [HierarchyID](../properties/hierarchyid-element-assl.md)|  
+|Derived elements|[Hierarchy](../objects/hierarchy-element-assl.md) ([Hierarchies](../collections/hierarchies-element-assl.md) collection of [PerspectiveDimension](perspectivedimension-data-type-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PerspectiveHierarchy>.  

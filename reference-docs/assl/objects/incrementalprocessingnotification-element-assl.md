@@ -27,7 +27,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[IncrementalProcessingNotification](data-type/incrementalprocessingnotification-data-type-assl.md)|  
+|Data type and length|[IncrementalProcessingNotification](../data-type/incrementalprocessingnotification-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|1-n: Required element that can occur more than once.|  
   
@@ -42,7 +42,7 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.IncrementalProcessingNotification>.  
   
 ## See Also  
- [ProactiveCachingQueryBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingquerybinding-data-type-assl.md)   
+ [ProactiveCachingQueryBinding Data Type &#40;ASSL&#41;](../data-type/proactivecachingquerybinding-data-type-assl.md)   
  [ProactiveCaching Element &#40;ASSL&#41;](../objects/proactivecaching-element-assl.md)   
  [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   

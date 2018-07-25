@@ -12,7 +12,7 @@ manager: kfile
 ---
 # TableNotifications Element (ASSL)
 
-  Contains the collection of [TableNotification](objects/tablenotification-element-assl.md) elements that provide information for the [ProactiveCaching](objects/proactivecaching-element-assl.md) element about tables or views in a data source that have been modified.  
+  Contains the collection of [TableNotification](../objects/tablenotification-element-assl.md) elements that provide information for the [ProactiveCaching](../objects/proactivecaching-element-assl.md) element about tables or views in a data source that have been modified.  
   
 ## Syntax  
   
@@ -37,8 +37,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ProactiveCachingTablesBinding](data-type/proactivecachingtablesbinding-data-type-assl.md)|  
-|Child elements|[TableNotification](objects/tablenotification-element-assl.md)|  
+|Parent elements|[ProactiveCachingTablesBinding](../data-type/proactivecachingtablesbinding-data-type-assl.md)|  
+|Child elements|[TableNotification](../objects/tablenotification-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TableNotificationCollection>.  

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MiningModelPermissions Element (ASSL)
 
-  Contains the collection of permissions for a [MiningModel](objects/miningmodel-element-assl.md) element.  
+  Contains the collection of permissions for a [MiningModel](../objects/miningmodel-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningModel](objects/miningmodel-element-assl.md)|  
-|Child elements|[MiningModelPermission](objects/miningmodelpermission-element-assl.md) of type [Permission](data-type/permission-data-type-assl.md)|  
+|Parent elements|[MiningModel](../objects/miningmodel-element-assl.md)|  
+|Child elements|[MiningModelPermission](../objects/miningmodelpermission-element-assl.md) of type [Permission](../data-type/permission-data-type-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModelPermissionCollection>.  

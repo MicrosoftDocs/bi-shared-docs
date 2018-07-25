@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Perspectives Element (ASSL)
 
-  Contains the collection of [Perspective](objects/perspective-element-assl.md) elements associated with a [Cube](objects/cube-element-assl.md) element.  
+  Contains the collection of [Perspective](../objects/perspective-element-assl.md) elements associated with a [Cube](../objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Cube](objects/cube-element-assl.md)|  
-|Child elements|[Perspective](objects/perspective-element-assl.md)|  
+|Parent elements|[Cube](../objects/cube-element-assl.md)|  
+|Child elements|[Perspective](../objects/perspective-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PerspectiveCollection>.  

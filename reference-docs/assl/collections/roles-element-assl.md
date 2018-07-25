@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Roles Element (ASSL)
 
-  Contains the collection of [Role](objects/role-element-assl.md) elements defined under the parent element.  
+  Contains the collection of [Role](../objects/role-element-assl.md) elements defined under the parent element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Database](objects/database-element-assl.md), [Server](objects/server-element-assl.md)|  
-|Child elements|[Role](objects/role-element-assl.md)|  
+|Parent elements|[Database](../objects/database-element-assl.md), [Server](../objects/server-element-assl.md)|  
+|Child elements|[Role](../objects/role-element-assl.md)|  
   
 ## Remarks  
  The **Roles** element associated with a **Server** element contains only one role, named Administrators, which represents the server administrator role. The server administrator role cannot be changed or deleted, nor can additional roles be added to the collection.  

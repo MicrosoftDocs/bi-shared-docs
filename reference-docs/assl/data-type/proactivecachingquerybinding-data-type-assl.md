@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ProactiveCachingQueryBinding Data Type (ASSL)
 
-  Defines a derived data type that represents information to the [ProactiveCaching](objects/proactivecaching-element-assl.md) element about data source changes in tables and views, identified through the execution of the specified queries that require rebuilding the cache.  
+  Defines a derived data type that represents information to the [ProactiveCaching](../objects/proactivecaching-element-assl.md) element about data source changes in tables and views, identified through the execution of the specified queries that require rebuilding the cache.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[QueryNotification](objects/querynotification-element-assl.md), [RefreshInterval](properties/refreshinterval-element-assl.md)|  
+|Child elements|[QueryNotification](../objects/querynotification-element-assl.md), [RefreshInterval](../properties/refreshinterval-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  

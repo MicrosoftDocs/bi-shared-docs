@@ -52,9 +52,9 @@ manager: kfile
  The enumeration corresponding to the allowed values for **CalculationType** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CalculationType>.  
   
 ## See Also  
- [CalculationProperties Element &#40;ASSL&#41;](collections/calculationproperties-element-assl.md)   
+ [CalculationProperties Element &#40;ASSL&#41;](../collections/calculationproperties-element-assl.md)   
  [MdxScript Element &#40;ASSL&#41;](../objects/mdxscript-element-assl.md)   
- [MdxScripts Element &#40;ASSL&#41;](collections/mdxscripts-element-assl.md)   
+ [MdxScripts Element &#40;ASSL&#41;](../collections/mdxscripts-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

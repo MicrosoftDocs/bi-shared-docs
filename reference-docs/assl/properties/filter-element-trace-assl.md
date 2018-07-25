@@ -45,6 +45,6 @@ manager: kfile
   
 ## See Also  
  [Properties &#40;ASSL&#41;](properties-assl.md)   
- [Traces Element &#40;ASSL&#41;](collections/traces-element-assl.md)  
+ [Traces Element &#40;ASSL&#41;](../collections/traces-element-assl.md)  
   
   

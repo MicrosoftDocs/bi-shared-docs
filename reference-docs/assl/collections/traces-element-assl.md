@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Traces Element (ASSL)
 
-  Contains the collection of [Trace](objects/trace-element-assl.md) elements associated with a [Server](objects/server-element-assl.md) element.  
+  Contains the collection of [Trace](../objects/trace-element-assl.md) elements associated with a [Server](../objects/server-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Server](objects/server-element-assl.md)|  
-|Child elements|[Trace](objects/trace-element-assl.md)|  
+|Parent elements|[Server](../objects/server-element-assl.md)|  
+|Child elements|[Trace](../objects/trace-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TraceCollection>.  

@@ -36,7 +36,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[DataSourceViewID](properties/datasourceviewid-element-assl.md)|  
+|Child elements|[DataSourceViewID](../properties/datasourceviewid-element-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  

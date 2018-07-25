@@ -39,5 +39,5 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningStructureColumn](data-type/miningstructurecolumn-data-type-assl.md) of type [TableMiningStructureColumn](data-type/tableminingstructurecolumn-data-type-assl.md)|  
-|Child elements|[ForeignKeyColumn](objects/foreignkeycolumn-element-assl.md) of type [DataItem](data-type/dataitem-data-type-assl.md)|  
+|Parent elements|[MiningStructureColumn](../data-type/miningstructurecolumn-data-type-assl.md) of type [TableMiningStructureColumn](../data-type/tableminingstructurecolumn-data-type-assl.md)|  
+|Child elements|[ForeignKeyColumn](../objects/foreignkeycolumn-element-assl.md) of type [DataItem](../data-type/dataitem-data-type-assl.md)|  

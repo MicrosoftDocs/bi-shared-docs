@@ -37,7 +37,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[DefaultMember](properties/defaultmember-element-assl.md), [MeasureGroupID](properties/measuregroupid-element-assl.md)|  
+|Child elements|[DefaultMember](../properties/defaultmember-element-assl.md), [MeasureGroupID](../properties/measuregroupid-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  

@@ -31,7 +31,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[RelationalDataSource](data-type/relationaldatasource-data-type-assl.md), [OlapDataSource](data-type/olapdatasource-data-type-assl.md), [PushedDataSource](data-type/pusheddatasource-data-type-assl.md)|  
+|Data type and length|[RelationalDataSource](../data-type/relationaldatasource-data-type-assl.md), [OlapDataSource](../data-type/olapdatasource-data-type-assl.md), [PushedDataSource](../data-type/pusheddatasource-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur more than once.|  
   

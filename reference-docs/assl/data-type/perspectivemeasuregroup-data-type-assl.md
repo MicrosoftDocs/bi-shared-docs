@@ -12,7 +12,7 @@ manager: kfile
 ---
 # PerspectiveMeasureGroup Data Type (ASSL)
 
-  Defines a primitive data type that represents information about a measure group in a [Perspective](objects/perspective-element-assl.md) element.  
+  Defines a primitive data type that represents information about a measure group in a [Perspective](../objects/perspective-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,8 +37,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [MeasureGroupID](properties/measuregroupid-element-assl.md), [Measures](collections/measures-element-assl.md)|  
-|Derived elements|[MeasureGroup](objects/measuregroup-element-assl.md) ([MeasureGroups](collections/measuregroups-element-assl.md) collection of [Perspective](objects/perspective-element-assl.md))|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [MeasureGroupID](../properties/measuregroupid-element-assl.md), [Measures](../collections/measures-element-assl.md)|  
+|Derived elements|[MeasureGroup](../objects/measuregroup-element-assl.md) ([MeasureGroups](../collections/measuregroups-element-assl.md) collection of [Perspective](../objects/perspective-element-assl.md))|  
   
 ## Remarks  
  A measure group in a perspective has the same structure as a measure group in the underlying cube.  

@@ -282,7 +282,7 @@ manager: kfile
  The element that corresponds to the parent of **Type** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DimensionAttribute>.  
   
 ## See Also  
- [Attributes Element &#40;ASSL&#41;](collections/attributes-element-assl.md)   
+ [Attributes Element &#40;ASSL&#41;](../collections/attributes-element-assl.md)   
  [Dimension Element &#40;ASSL&#41;](../objects/dimension-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   

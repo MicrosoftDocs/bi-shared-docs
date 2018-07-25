@@ -45,7 +45,7 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Group>.  
   
 ## See Also  
- [UserDefinedGroupBinding Data Type &#40;ASSL&#41;](data-type/userdefinedgroupbinding-data-type-assl.md)   
+ [UserDefinedGroupBinding Data Type &#40;ASSL&#41;](../data-type/userdefinedgroupbinding-data-type-assl.md)   
  [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

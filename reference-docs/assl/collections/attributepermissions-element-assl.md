@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AttributePermissions Element (ASSL)
 
-  Contains the collection of attribute permissions for an individual [Role](objects/role-element-assl.md) element on a specific dimension of a [Cube](objects/cube-element-assl.md) element.  
+  Contains the collection of attribute permissions for an individual [Role](../objects/role-element-assl.md) element on a specific dimension of a [Cube](../objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,8 +37,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubeDimensionPermission](data-type/cubedimensionpermission-data-type-assl.md), [DimensionPermission](objects/dimensionpermission-element-assl.md)|  
-|Child elements|[AttributePermission](objects/attributepermission-element-assl.md)|  
+|Parent elements|[CubeDimensionPermission](../data-type/cubedimensionpermission-data-type-assl.md), [DimensionPermission](../objects/dimensionpermission-element-assl.md)|  
+|Child elements|[AttributePermission](../objects/attributepermission-element-assl.md)|  
   
 ## Remarks  
  For **DimensionPermission**, this collection can contain only one **AttributePermission** per attribute.  

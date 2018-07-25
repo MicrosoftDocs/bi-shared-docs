@@ -37,8 +37,8 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[Cube](../objects/cube-element-assl.md)|[DrillThroughAction](data-type/drillthroughaction-data-type-assl.md), [ReportAction](data-type/reportaction-data-type-assl.md), [StandardAction](data-type/standardaction-data-type-assl.md)|  
-|[Perspective](../objects/perspective-element-assl.md)|[PerspectiveAction](data-type/perspectiveaction-data-type-assl.md)|  
+|[Cube](../objects/cube-element-assl.md)|[DrillThroughAction](../data-type/drillthroughaction-data-type-assl.md), [ReportAction](../data-type/reportaction-data-type-assl.md), [StandardAction](../data-type/standardaction-data-type-assl.md)|  
+|[Perspective](../objects/perspective-element-assl.md)|[PerspectiveAction](../data-type/perspectiveaction-data-type-assl.md)|  
   
 ## Element Relationships  
   
@@ -53,7 +53,7 @@ manager: kfile
 ## See Also  
  [Cube Element &#40;ASSL&#41;](../objects/cube-element-assl.md)   
  [Perspective Element &#40;ASSL&#41;](../objects/perspective-element-assl.md)   
- [PerspectiveAction Data Type &#40;ASSL&#41;](data-type/perspectiveaction-data-type-assl.md)   
+ [PerspectiveAction Data Type &#40;ASSL&#41;](../data-type/perspectiveaction-data-type-assl.md)   
  [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

@@ -37,11 +37,11 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[AttributeID](properties/attributeid-element-assl.md), [Groups](collections/groups-element-assl.md)|  
+|Child elements|[AttributeID](../properties/attributeid-element-assl.md), [Groups](../collections/groups-element-assl.md)|  
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  
- **UserDefinedGroupBinding** is automatically treated as an [AttributeBinding](attributebinding-data-type-assl.md), whose [Type](properties/type-element-binding-assl.md) element is set to *All*.  
+ **UserDefinedGroupBinding** is automatically treated as an [AttributeBinding](attributebinding-data-type-assl.md), whose [Type](../properties/type-element-binding-assl.md) element is set to *All*.  
   
  For more information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](binding-data-type-assl.md).  
   

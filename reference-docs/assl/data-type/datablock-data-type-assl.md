@@ -35,13 +35,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Blocks](collections/blocks-element-assl.md)|  
-|Derived elements|[Data](objects/data-element-assl.md) element of [ClrAssemblyFile](clrassemblyfile-data-type-assl.md) type ([Files](collections/files-element-assl.md) collection of [ClrAssembly](clrassembly-data-type-assl.md) type)|  
+|Child elements|[Blocks](../collections/blocks-element-assl.md)|  
+|Derived elements|[Data](../objects/data-element-assl.md) element of [ClrAssemblyFile](clrassemblyfile-data-type-assl.md) type ([Files](../collections/files-element-assl.md) collection of [ClrAssembly](clrassembly-data-type-assl.md) type)|  
   
 ## See Also  
- [Assembly Element &#40;ASSL&#41;](objects/assembly-element-assl.md)   
- [File Element &#40;ASSL&#41;](objects/file-element-assl.md)   
- [Block Element &#40;ASSL&#41;](objects/block-element-assl.md)   
+ [Assembly Element &#40;ASSL&#41;](../objects/assembly-element-assl.md)   
+ [File Element &#40;ASSL&#41;](../objects/file-element-assl.md)   
+ [Block Element &#40;ASSL&#41;](../objects/block-element-assl.md)   
  [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

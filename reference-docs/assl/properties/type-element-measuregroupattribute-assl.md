@@ -53,7 +53,7 @@ manager: kfile
  The element that corresponds to the parent of **Type** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MeasureGroupAttribute>.  
   
 ## See Also  
- [Attributes Element &#40;ASSL&#41;](collections/attributes-element-assl.md)   
+ [Attributes Element &#40;ASSL&#41;](../collections/attributes-element-assl.md)   
  [RegularMeasureGroupDimension Data Type &#40;ASSL&#41;](../data-type/regularmeasuregroupdimension-data-type-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   

@@ -41,7 +41,7 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- The value of the **SourceColumnID** element matches the identifier of a mining structure column in the [Columns](collections/columns-element-assl.md) collection of the parent **MiningStructure**.  
+ The value of the **SourceColumnID** element matches the identifier of a mining structure column in the [Columns](../collections/columns-element-assl.md) collection of the parent **MiningStructure**.  
   
  The element that corresponds to the parent of **SourceColumnID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModelColumn>.  
   

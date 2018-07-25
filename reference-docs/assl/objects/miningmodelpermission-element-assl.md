@@ -31,7 +31,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[Permission](data-type/permission-data-type-assl.md)|  
+|Data type and length|[Permission](../data-type/permission-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur more than once.|  
   

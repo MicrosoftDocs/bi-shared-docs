@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Data Element (ASSL)
 
-  Contains (in the collection of child [Block Element &#40;ASSL&#41;](../objects/block-element-assl.md) elements) the binary contents of a [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) element.  
+  Contains (in the collection of child [Block Element &#40;ASSL&#41;](../objects/block-element-assl.md) elements) the binary contents of a [ClrAssemblyFile](../data-type/clrassemblyfile-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[DataBlock](data-type/datablock-data-type-assl.md)|  
+|Data type and length|[DataBlock](../data-type/datablock-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|1-1: Required element that occurs once and only once.|  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[File](../objects/file-element-assl.md) of type [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md)|  
+|Parent elements|[File](../objects/file-element-assl.md) of type [ClrAssemblyFile](../data-type/clrassemblyfile-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -45,7 +45,7 @@ manager: kfile
   
 ## See Also  
  [Assembly Element &#40;ASSL&#41;](../objects/assembly-element-assl.md)   
- [ClrAssembly Data Type &#40;ASSL&#41;](data-type/clrassembly-data-type-assl.md)   
+ [ClrAssembly Data Type &#40;ASSL&#41;](../data-type/clrassembly-data-type-assl.md)   
  [Files Element &#40;ASSL&#41;](../collections/files-element-assl.md)   
  [Blocks Element &#40;ASSL&#41;](../collections/blocks-element-assl.md)   
  [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  

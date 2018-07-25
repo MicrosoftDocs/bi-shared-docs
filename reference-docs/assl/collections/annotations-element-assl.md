@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Annotations Element (ASSL)
 
-  Contains the collection of [Annotation](objects/annotation-element-assl.md) elements associated with the parent element.  
+  Contains the collection of [Annotation](../objects/annotation-element-assl.md) elements associated with the parent element.  
   
 ## Syntax  
   
@@ -41,4 +41,4 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|Most objects in the Analysis Services Scripting Language|  
-|Child elements|[Annotation](objects/annotation-element-assl.md)|  
+|Child elements|[Annotation](../objects/annotation-element-assl.md)|  
