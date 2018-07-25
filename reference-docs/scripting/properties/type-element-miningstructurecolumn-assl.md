@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Type Element (MiningStructureColumn) (ASSL)
 
-  Contains the type of the [MiningStructureColumn](../../../analysis-services/scripting/data-type/miningstructurecolumn-data-type-assl.md) element.  
+  Contains the type of the [MiningStructureColumn](../data-type/miningstructurecolumn-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningStructureColumn](../../../analysis-services/scripting/data-type/miningstructurecolumn-data-type-assl.md)|  
+|Parent element|[MiningStructureColumn](../data-type/miningstructurecolumn-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -57,6 +57,6 @@ manager: kfile
  The element that corresponds to the parent of **Type** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningStructureColumn>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

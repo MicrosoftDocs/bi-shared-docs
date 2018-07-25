@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ProductName Element (ASSL)
 
-  Contains the read-only product name of the instance of Microsoft SQL Server Analysis Services that is associated with a [Server](../../../analysis-services/scripting/objects/server-element-assl.md) element.  
+  Contains the read-only product name of the instance of Microsoft SQL Server Analysis Services that is associated with a [Server](../objects/server-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Server](../../../analysis-services/scripting/objects/server-element-assl.md)|  
+|Parent element|[Server](../objects/server-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,6 +46,6 @@ manager: kfile
  The element that corresponds to the parent of **ProductName** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Server>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

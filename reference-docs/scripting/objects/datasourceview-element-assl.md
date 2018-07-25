@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSourceView Element (ASSL)
 
-  Defines a data source view used by a Microsoft SQL Server Analysis Services [Database](../../../analysis-services/scripting/objects/database-element-assl.md) element.  
+  Defines a data source view used by a Microsoft SQL Server Analysis Services [Database](database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -44,14 +44,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DataSourceViews](../../../analysis-services/scripting/collections/datasourceviews-element-assl.md)|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [CreatedTimestamp](../../../analysis-services/scripting/properties/createdtimestamp-element-assl.md), [DataSourceID](../../../analysis-services/scripting/properties/datasourceid-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [LastSchemaUpdate](../../../analysis-services/scripting/properties/lastschemaupdate-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [Schema](../../../analysis-services/scripting/properties/schema-element-assl.md)|  
+|Parent elements|[DataSourceViews](../collections/datasourceviews-element-assl.md)|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [CreatedTimestamp](../properties/createdtimestamp-element-assl.md), [DataSourceID](../properties/datasourceid-element-assl.md), [Description](../properties/description-element-assl.md), [ID](../properties/id-element-assl.md), [LastSchemaUpdate](../properties/lastschemaupdate-element-assl.md), [Name](../properties/name-element-assl.md), [Schema](../properties/schema-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataSourceView>.  
   
 ## See Also  
- [Database Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/database-element-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Database Element &#40;ASSL&#41;](database-element-assl.md)   
+ [Objects &#40;ASSL&#41;](objects-assl.md)  
   
   

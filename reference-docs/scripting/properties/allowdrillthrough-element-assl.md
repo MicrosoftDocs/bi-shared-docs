@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningModel Element](../../../analysis-services/scripting/objects/miningmodel-element-assl.md), [MiningModelPermission](../../../analysis-services/scripting/objects/miningmodelpermission-element-assl.md), [MiningStructurePermission](../../../analysis-services/scripting/objects/miningstructurepermission-element-assl.md)|  
+|Parent elements|[MiningModel Element](../objects/miningmodel-element-assl.md), [MiningModelPermission](../objects/miningmodelpermission-element-assl.md), [MiningStructurePermission](../objects/miningstructurepermission-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -57,7 +57,7 @@ manager: kfile
  `SELECT StructureColumn('<structure-column-name>') FROM <model>.CASES`  
   
 ## See Also  
- [Role Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/role-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Role Element &#40;ASSL&#41;](../objects/role-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

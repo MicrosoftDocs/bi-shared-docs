@@ -45,13 +45,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md)|  
+|Parent element|[MiningModel](../objects/miningmodel-element-assl.md)|  
 |Child elements|*FoldIndex*<br /><br /> *FoldCount*<br /><br /> *MaxCases*<br /><br /> *FoldTargetAttribute*|  
   
 ## Remarks  
  These properties are for internal use only, and are not supported for use in DDL statements.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

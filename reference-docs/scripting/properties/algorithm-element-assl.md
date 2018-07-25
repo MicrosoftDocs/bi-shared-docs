@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Algorithm Element (ASSL)
 
-  Defines the algorithm used by a [MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md) element.  
+  Defines the algorithm used by a [MiningModel](../objects/miningmodel-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md)|  
+|Parent element|[MiningModel](../objects/miningmodel-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,8 +46,8 @@ manager: kfile
  The element that corresponds to the parent of **Algorithm** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModel>. A closely related element in the AMO object model is <xref:Microsoft.AnalysisServices.MiningModelAlgorithms>.  
   
 ## See Also  
- [AlgorithmParameter Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/algorithmparameter-element-assl.md)   
- [AlgorithmParameters Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/algorithmparameters-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [AlgorithmParameter Element &#40;ASSL&#41;](../objects/algorithmparameter-element-assl.md)   
+ [AlgorithmParameters Element &#40;ASSL&#41;](../collections/algorithmparameters-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

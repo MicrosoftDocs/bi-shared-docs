@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DataItem](../../../analysis-services/scripting/data-type/dataitem-data-type-assl.md)|  
+|Parent element|[DataItem](../data-type/dataitem-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,14 +46,14 @@ manager: kfile
 |Value|Description|  
 |-----------|-----------------|  
 |*Preserve*|Preserves the null value.<br /><br /> Note: This value is not supported for distinct count measures.|  
-|*Error*|Raises a null key error. The value of [NullKeyNotAllowed](../../../analysis-services/scripting/properties/nullkeynotallowed-element-assl.md) determines how the instance reacts to the error.<br /><br /> Note: This value is not supported for measures.|  
-|*UnknownMember*|Generates an unknown member and raises a null conversion error. The value of [NullKeyConvertedToUnknown](../../../analysis-services/scripting/properties/nullkeyconvertedtounknown-element-assl.md) determines how the instance reacts to the error.<br /><br /> Note: This value is not supported for columns associated with measures.|  
+|*Error*|Raises a null key error. The value of [NullKeyNotAllowed](nullkeynotallowed-element-assl.md) determines how the instance reacts to the error.<br /><br /> Note: This value is not supported for measures.|  
+|*UnknownMember*|Generates an unknown member and raises a null conversion error. The value of [NullKeyConvertedToUnknown](nullkeyconvertedtounknown-element-assl.md) determines how the instance reacts to the error.<br /><br /> Note: This value is not supported for columns associated with measures.|  
 |*ZeroOrBlank*|Converts the null value to zero (for numeric data items) or a blank string (for string data items).<br /><br /> Note: This value provides compatibility with previous versions of MicrosoftSQL ServerAnalysis Services.|  
 |*Automatic*|Uses the default processing appropriate for the element:<br /><br /> *ZeroOrBlank* for OLAP data items.<br /><br /> *UnknownMember* for data mining data items.|  
   
  The enumeration that corresponds to the allowed values for **NullProcessing** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.NullProcessing>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

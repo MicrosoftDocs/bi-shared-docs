@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ImpersonationMode Element (ASSL)
 
-  Contains a value that indicates the method of impersonation for elements that are derived from the [ImpersonationInfo](../../../analysis-services/scripting/data-type/impersonationinfo-data-type-assl.md) data type.  
+  Contains a value that indicates the method of impersonation for elements that are derived from the [ImpersonationInfo](../data-type/impersonationinfo-data-type-assl.md) data type.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ImpersonationInfo](../../../analysis-services/scripting/data-type/impersonationinfo-data-type-assl.md)|  
+|Parent element|[ImpersonationInfo](../data-type/impersonationinfo-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -54,6 +54,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **ImpersonationMode** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ImpersonationLevel>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

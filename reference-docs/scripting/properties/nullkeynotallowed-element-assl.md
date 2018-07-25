@@ -37,11 +37,11 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ErrorConfiguration](../../../analysis-services/scripting/objects/errorconfiguration-element-assl.md)|  
+|Parent element|[ErrorConfiguration](../objects/errorconfiguration-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- Null key errors occur when a null value is encountered in a key column in which null values are not allowed, forcing the record to be discarded during processing. However, this error occurs only if the [NullProcessing](../../../analysis-services/scripting/properties/nullprocessing-element-assl.md) element for the **DataItem** ancestor of the **ErrorConfiguration** parent element is set to *Error*.  
+ Null key errors occur when a null value is encountered in a key column in which null values are not allowed, forcing the record to be discarded during processing. However, this error occurs only if the [NullProcessing](nullprocessing-element-assl.md) element for the **DataItem** ancestor of the **ErrorConfiguration** parent element is set to *Error*.  
   
  The value of this element is limited to one of the strings in the following table.  
   
@@ -54,6 +54,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **NullKeyNotAllowed** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ErrorOption>.  
   
 ## See Also  
- [ErrorConfiguration Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/errorconfiguration-element-assl.md)  
+ [ErrorConfiguration Element &#40;ASSL&#41;](../objects/errorconfiguration-element-assl.md)  
   
   

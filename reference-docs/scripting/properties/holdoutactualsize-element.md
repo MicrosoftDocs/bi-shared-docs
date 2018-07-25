@@ -12,7 +12,7 @@ manager: kfile
 ---
 # HoldoutActualSize Element
 
-  Indicates the actual size, after processing, of the holdout partition that contains the test set of a [MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md) element. The remaining cases in the data set are used for training. This property is read-only.  
+  Indicates the actual size, after processing, of the holdout partition that contains the test set of a [MiningStructure](../objects/miningstructure-element-assl.md) element. The remaining cases in the data set are used for training. This property is read-only.  
   
 ## Syntax  
   
@@ -37,11 +37,11 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md)|  
+|Parent element|[MiningStructure](../objects/miningstructure-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The value for **HoldoutActualSize** depends on the source data, and on the values for [HoldoutMaxCases](../../../analysis-services/scripting/properties/holdoutmaxcases-element.md), [HoldoutMaxPercent](../../../analysis-services/scripting/properties/holdoutmaxpercent-element.md), and [HoldoutSeed](../../../analysis-services/scripting/properties/holdoutseed-element.md). Therefore, the value for **HoldoutActualSize** is not available until after Analysis Services processes the mining structure.  
+ The value for **HoldoutActualSize** depends on the source data, and on the values for [HoldoutMaxCases](holdoutmaxcases-element.md), [HoldoutMaxPercent](holdoutmaxpercent-element.md), and [HoldoutSeed](holdoutseed-element.md). Therefore, the value for **HoldoutActualSize** is not available until after Analysis Services processes the mining structure.  
   
  The element that corresponds to the parent of **HoldoutActualSize** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningStructure>.  
   
@@ -49,9 +49,9 @@ manager: kfile
 >  In SQL Server 2005, Analysis Services did not support the use of holdout partitions on a mining structure. Therefore, Analysis Services Scripting Language (ASSL) statements that contain one of the holdout parameters, **HoldoutMaxCases**, **HoldoutMaxPercent**, **HoldoutSeed**, or **HoldoutActualSize**, cannot be used in SQL Server 2005. If you use one of these holdout parameters in an ASSL statement in SQL Server 2005, Analysis Services will return an error.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)   
- [HoldoutMaxCases Element](../../../analysis-services/scripting/properties/holdoutmaxcases-element.md)   
- [HoldoutMaxPercent Element](../../../analysis-services/scripting/properties/holdoutmaxpercent-element.md)   
- [HoldoutSeed Element](../../../analysis-services/scripting/properties/holdoutseed-element.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)   
+ [HoldoutMaxCases Element](holdoutmaxcases-element.md)   
+ [HoldoutMaxPercent Element](holdoutmaxpercent-element.md)   
+ [HoldoutSeed Element](holdoutseed-element.md)  
   
   

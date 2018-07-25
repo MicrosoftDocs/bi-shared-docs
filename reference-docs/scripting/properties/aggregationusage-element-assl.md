@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[CubeAttribute](../../../analysis-services/scripting/data-type/cubeattribute-data-type-assl.md)|  
+|Parent element|[CubeAttribute](../data-type/cubeattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -53,7 +53,7 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **AggregationUsage** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationUsage>.  
   
 ## See Also  
- [Cube Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/cube-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Cube Element &#40;ASSL&#41;](../objects/cube-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MasterDatasourceID Element (ASSL)
 
-  Contains the master data source identifier (ID) for a [Database](../../../analysis-services/scripting/objects/database-element-assl.md) element.  
+  Contains the master data source identifier (ID) for a [Database](../objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Database](../../../analysis-services/scripting/objects/database-element-assl.md)|  
+|Parent elements|[Database](../objects/database-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,6 +46,6 @@ manager: kfile
  The element that corresponds to the parent of **MasterDatasourceID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Database>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

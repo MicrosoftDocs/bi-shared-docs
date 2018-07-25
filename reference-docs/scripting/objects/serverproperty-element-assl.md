@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ServerProperty Element (ASSL)
 
-  Defines a server property associated with a [Server](../../../analysis-services/scripting/objects/server-element-assl.md) element.  
+  Defines a server property associated with a [Server](server-element-assl.md) element.  
   
 ## Syntax  
   
@@ -42,8 +42,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ServerProperties](../../../analysis-services/scripting/collections/serverproperties-element-assl.md)|  
-|Child elements|[DefaultValue](../../../analysis-services/scripting/properties/defaultvalue-element-assl.md), [DisplayFlag](../../../analysis-services/scripting/properties/displayflag-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [PendingValue](../../../analysis-services/scripting/properties/pendingvalue-element-assl.md), [RequiresRestart](../../../analysis-services/scripting/properties/requiresrestart-element-assl.md), [Value](../../../analysis-services/scripting/properties/value-element-assl.md)|  
+|Parent elements|[ServerProperties](../collections/serverproperties-element-assl.md)|  
+|Child elements|[DefaultValue](../properties/defaultvalue-element-assl.md), [DisplayFlag](../properties/displayflag-element-assl.md), [Name](../properties/name-element-assl.md), [PendingValue](../properties/pendingvalue-element-assl.md), [RequiresRestart](../properties/requiresrestart-element-assl.md), [Value](../properties/value-element-assl.md)|  
   
 ## Remarks  
  The **ServerProperty** element describes the data and metadata for a server property associated with an instance of Microsoft SQL Server Analysis Services. Unlike elements contained by other collections in the Analysis Services Scripting Language (ASSL), the **ServerProperty** element uses name/value pairs instead of explicitly named elements to describe server properties. The name/value pairs provide for flexibility and extensibility.  
@@ -51,7 +51,7 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ServerProperty>.  
   
 ## See Also  
- [Server Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/server-element-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Server Element &#40;ASSL&#41;](server-element-assl.md)   
+ [Objects &#40;ASSL&#41;](objects-assl.md)  
   
   

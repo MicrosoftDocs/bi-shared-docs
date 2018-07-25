@@ -12,7 +12,7 @@ manager: kfile
 ---
 # HoldoutMaxPercent Element
 
-  Specifies the maximum percentage of cases in the data source that will be used for the holdout partition that contains the test set of a [MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md) element. The remaining cases are used for training. A value of 0 indicates that there is no limit to the number of cases that can be held out as the test set.  
+  Specifies the maximum percentage of cases in the data source that will be used for the holdout partition that contains the test set of a [MiningStructure](../objects/miningstructure-element-assl.md) element. The remaining cases are used for training. A value of 0 indicates that there is no limit to the number of cases that can be held out as the test set.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md)|  
+|Parent element|[MiningStructure](../objects/miningstructure-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -53,9 +53,9 @@ manager: kfile
  The element that corresponds to the parent of **HoldoutMaxPercent** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningStructure>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)   
- [HoldoutMaxCases Element](../../../analysis-services/scripting/properties/holdoutmaxcases-element.md)   
- [HoldoutSeed Element](../../../analysis-services/scripting/properties/holdoutseed-element.md)   
- [HoldoutActualSize Element](../../../analysis-services/scripting/properties/holdoutactualsize-element.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)   
+ [HoldoutMaxCases Element](holdoutmaxcases-element.md)   
+ [HoldoutSeed Element](holdoutseed-element.md)   
+ [HoldoutActualSize Element](holdoutactualsize-element.md)  
   
   

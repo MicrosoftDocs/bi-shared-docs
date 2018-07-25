@@ -35,7 +35,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ProactiveCachingBinding](../../../analysis-services/scripting/data-type/proactivecachingbinding-data-type-assl.md)|  
+|Parent element|[ProactiveCachingBinding](../data-type/proactivecachingbinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,6 +51,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **NotificationTechnique** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.NotificationTechnique>.  
   
 ## See Also  
- [ProactiveCachingBinding Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/proactivecachingbinding-data-type-assl.md)  
+ [ProactiveCachingBinding Data Type &#40;ASSL&#41;](../data-type/proactivecachingbinding-data-type-assl.md)  
   
   

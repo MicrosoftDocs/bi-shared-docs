@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DataItem](../../../analysis-services/scripting/data-type/dataitem-data-type-assl.md), [Measure](../../../analysis-services/scripting/objects/measure-element-assl.md)|  
+|Parent element|[DataItem](../data-type/dataitem-data-type-assl.md), [Measure](../objects/measure-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -58,9 +58,9 @@ manager: kfile
 |*UnsignedInt*|A 32-bit unsigned integer. This data type maps to the **UInt32** data type in the .NET Framework and the DBTYPE_UI4 data type in OLE DB.|  
 |*UnsignedSmallInt*|A 16-bit unsigned integer. This data type maps to the **UInt16** data type in the .NET Framework and the DBTYPE_UI2 data type in OLE DB.|  
 |*WChar*|A null-terminated stream of Unicode characters. This data type maps to the **String** data type in the .NET Framework and the DBTYPE_WSTR data type in OLE DB.|  
-|*Inherited*|The data type of the **DataItem** contained in the [Source](../../../analysis-services/scripting/properties/source-element-measure-assl.md) element of the **Measure** element.<br /><br /> Note: Applicable only to **Measure** elements.|  
+|*Inherited*|The data type of the **DataItem** contained in the [Source](source-element-measure-assl.md) element of the **Measure** element.<br /><br /> Note: Applicable only to **Measure** elements.|  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

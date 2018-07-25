@@ -12,7 +12,7 @@ manager: kfile
 ---
 # LogFileName Element (ASSL)
 
-  Contains the file name of the log file for the [Trace](../../../analysis-services/scripting/objects/trace-element-assl.md) element.  
+  Contains the file name of the log file for the [Trace](../objects/trace-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Trace](../../../analysis-services/scripting/objects/trace-element-assl.md)|  
+|Parent element|[Trace](../objects/trace-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,7 +46,7 @@ manager: kfile
  The element that corresponds to the parent of **LogFileName** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Trace>.  
   
 ## See Also  
- [Traces Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/traces-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Traces Element &#40;ASSL&#41;](../collections/traces-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[CubeAttribute](../../../analysis-services/scripting/data-type/cubeattribute-data-type-assl.md), [DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md)|  
+|Parent element|[CubeAttribute](../data-type/cubeattribute-data-type-assl.md), [DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,7 +46,7 @@ manager: kfile
  The elements that correspond to the parents of **AttributeHierarchyEnabled** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CubeAttribute> and <xref:Microsoft.AnalysisServices.DimensionAttribute>.  
   
 ## See Also  
- [AttributeHierarchyVisible Element &#40;ASSL&#41;](../../../analysis-services/scripting/properties/attributehierarchyvisible-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [AttributeHierarchyVisible Element &#40;ASSL&#41;](attributehierarchyvisible-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

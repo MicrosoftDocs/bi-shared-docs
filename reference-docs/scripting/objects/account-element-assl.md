@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Account Element (ASSL)
 
-  Contains details about an account type within a [Database](../../../analysis-services/scripting/objects/database-element-assl.md) element.  
+  Contains details about an account type within a [Database](database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -40,11 +40,11 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Accounts](../../../analysis-services/scripting/collections/accounts-element-assl.md)|  
-|Child elements|[AccountType](../../../analysis-services/scripting/properties/accounttype-element-assl.md), [AggregationFunction](../../../analysis-services/scripting/properties/aggregationfunction-element-assl.md), [Aliases](../../../analysis-services/scripting/collections/aliases-element-assl.md), [Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md)|  
+|Parent elements|[Accounts](../collections/accounts-element-assl.md)|  
+|Child elements|[AccountType](../properties/accounttype-element-assl.md), [AggregationFunction](../properties/aggregationfunction-element-assl.md), [Aliases](../collections/aliases-element-assl.md), [Annotations](../collections/annotations-element-assl.md)|  
   
 ## Remarks  
- Dimensions, whose [Type](../../../analysis-services/scripting/properties/type-element-dimension-assl.md) element is set to *Accounts,* can have an attribute that specifies the account type, such as Income, Expense, and so on, represented by members in the dimension. The account type is then used by [Measure](../../../analysis-services/scripting/objects/measure-element-assl.md) elements, whose [AggregationFunction](../../../analysis-services/scripting/properties/aggregatefunction-element-assl.md) element is set to *ByAccount*, to determine the aggregation function to use when aggregating the members of that dimension. The **Account** element represents a single account type and the aggregation function that should be used by such measures.  
+ Dimensions, whose [Type](../properties/type-element-dimension-assl.md) element is set to *Accounts,* can have an attribute that specifies the account type, such as Income, Expense, and so on, represented by members in the dimension. The account type is then used by [Measure](measure-element-assl.md) elements, whose [AggregationFunction](../properties/aggregatefunction-element-assl.md) element is set to *ByAccount*, to determine the aggregation function to use when aggregating the members of that dimension. The **Account** element represents a single account type and the aggregation function that should be used by such measures.  
   
  An account type must be listed if the aggregate function is different from the default used by Microsoft SQL Server Analysis Services for each account type.  
   
@@ -53,7 +53,7 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Account>.  
   
 ## See Also  
- [Database Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/database-element-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Database Element &#40;ASSL&#41;](database-element-assl.md)   
+ [Objects &#40;ASSL&#41;](objects-assl.md)  
   
   
