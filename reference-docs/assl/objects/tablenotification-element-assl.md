@@ -12,7 +12,7 @@ manager: kfile
 ---
 # TableNotification Element (ASSL)
 
-  Contains information for the [ProactiveCaching](../../../analysis-services/scripting/objects/proactivecaching-element-assl.md) element about a table or view in a data source that has been modified.  
+  Contains information for the [ProactiveCaching](objects/proactivecaching-element-assl.md) element about a table or view in a data source that has been modified.  
   
 ## Syntax  
   
@@ -38,16 +38,16 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[TableNotifications](../../../analysis-services/scripting/collections/tablenotifications-element-assl.md)|  
-|Child elements|[DbSchemaName](../../../analysis-services/scripting/properties/dbschemaname-element-assl.md), [DbTableName](../../../analysis-services/scripting/properties/dbtablename-element-assl.md)|  
+|Parent elements|[TableNotifications](collections/tablenotifications-element-assl.md)|  
+|Child elements|[DbSchemaName](properties/dbschemaname-element-assl.md), [DbTableName](properties/dbtablename-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TableNotification>.  
   
 ## See Also  
- [ProactiveCachingTablesBinding Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/proactivecachingtablesbinding-data-type-assl.md)   
- [ProactiveCachingObjectNotificationBinding Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/proactivecachingobjectnotificationbinding-data-type-assl.md)   
- [ProactiveCachingBinding Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/proactivecachingbinding-data-type-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [ProactiveCachingTablesBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingtablesbinding-data-type-assl.md)   
+ [ProactiveCachingObjectNotificationBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingobjectnotificationbinding-data-type-assl.md)   
+ [ProactiveCachingBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingbinding-data-type-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "HoldoutSeed Element | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # HoldoutSeed Element
 
-  Specifies the seed for a repeatable holdout partition that contains the test set of a [MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md) element. This seed ensures that the model content remains the same during reprocessing. If unspecified or set to 0,Analysis Services creates a seed by using a hashing algorithm on the name of the mining structure.  
+  Specifies the seed for a repeatable holdout partition that contains the test set of a [MiningStructure](objects/miningstructure-element-assl.md) element. This seed ensures that the model content remains the same during reprocessing. If unspecified or set to 0,Analysis Services creates a seed by using a hashing algorithm on the name of the mining structure.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md)|  
+|Parent element|[MiningStructure](objects/miningstructure-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,9 +52,9 @@ manager: kfile
  The element that corresponds to the parent of **HoldoutSeed** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningStructure>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)   
- [HoldoutActualSize Element](../../../analysis-services/scripting/properties/holdoutactualsize-element.md)   
- [HoldoutMaxPercent Element](../../../analysis-services/scripting/properties/holdoutmaxpercent-element.md)   
- [HoldoutMaxCases Element](../../../analysis-services/scripting/properties/holdoutmaxcases-element.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)   
+ [HoldoutActualSize Element](properties/holdoutactualsize-element.md)   
+ [HoldoutMaxPercent Element](properties/holdoutmaxpercent-element.md)   
+ [HoldoutMaxCases Element](properties/holdoutmaxcases-element.md)  
   
   

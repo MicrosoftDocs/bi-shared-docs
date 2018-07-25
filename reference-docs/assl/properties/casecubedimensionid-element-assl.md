@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DataMiningMeasureGroupDimension](../../../analysis-services/scripting/data-type/dataminingmeasuregroupdimension-data-type-assl.md)|  
+|Parent element|[DataMiningMeasureGroupDimension](data-type/dataminingmeasuregroupdimension-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **CaseCubeDimensionID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataMiningMeasureGroupDimension>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

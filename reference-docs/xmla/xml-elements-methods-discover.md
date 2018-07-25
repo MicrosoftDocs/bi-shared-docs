@@ -1,6 +1,6 @@
 ---
 title: "Discover Method (XMLA) | Microsoft Docs"
-ms.date: 05/30/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla

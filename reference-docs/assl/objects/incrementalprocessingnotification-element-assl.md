@@ -12,7 +12,7 @@ manager: kfile
 ---
 # IncrementalProcessingNotification Element (ASSL)
 
-  Contains information for the [ProactiveCaching](../../../analysis-services/scripting/objects/proactivecaching-element-assl.md) element about a query to execute to determine the progress of incremental processing.  
+  Contains information for the [ProactiveCaching](objects/proactivecaching-element-assl.md) element about a query to execute to determine the progress of incremental processing.  
   
 ## Syntax  
   
@@ -27,7 +27,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[IncrementalProcessingNotification](../../../analysis-services/scripting/data-type/incrementalprocessingnotification-data-type-assl.md)|  
+|Data type and length|[IncrementalProcessingNotification](data-type/incrementalprocessingnotification-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|1-n: Required element that can occur more than once.|  
   
@@ -35,15 +35,15 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[IncrementalProcessingNotifications](../../../analysis-services/scripting/collections/incrementalprocessingnotifications-element-assl.md)|  
+|Parent elements|[IncrementalProcessingNotifications](collections/incrementalprocessingnotifications-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.IncrementalProcessingNotification>.  
   
 ## See Also  
- [ProactiveCachingQueryBinding Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/proactivecachingquerybinding-data-type-assl.md)   
- [ProactiveCaching Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/proactivecaching-element-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [ProactiveCachingQueryBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingquerybinding-data-type-assl.md)   
+ [ProactiveCaching Element &#40;ASSL&#41;](objects/proactivecaching-element-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

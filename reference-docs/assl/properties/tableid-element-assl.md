@@ -1,6 +1,6 @@
 ---
 title: "TableID Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # TableID Element (ASSL)
 
-  Contains the identifier (ID) of the table (from the [DataSourceView](../../../analysis-services/scripting/objects/datasourceview-element-assl.md) element) associated with the parent element.  
+  Contains the identifier (ID) of the table (from the [DataSourceView](objects/datasourceview-element-assl.md) element) associated with the parent element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ColumnBinding](../../../analysis-services/scripting/data-type/columnbinding-data-type-assl.md), [DSVTableBinding](../../../analysis-services/scripting/data-type/dsvtablebinding-data-type-assl.md), [IncrementalProcessingNotification](../../../analysis-services/scripting/objects/incrementalprocessingnotification-element-assl.md), [RowBinding](../../../analysis-services/scripting/data-type/rowbinding-data-type-assl.md)|  
+|Parent elements|[ColumnBinding](data-type/columnbinding-data-type-assl.md), [DSVTableBinding](data-type/dsvtablebinding-data-type-assl.md), [IncrementalProcessingNotification](objects/incrementalprocessingnotification-element-assl.md), [RowBinding](data-type/rowbinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,6 +46,6 @@ manager: kfile
  The elements that correspond to the parents of **TableID** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.ColumnBinding>, <xref:Microsoft.AnalysisServices.DSVTableBinding>, <xref:Microsoft.AnalysisServices.IncrementalProcessingNotification>, and <xref:Microsoft.AnalysisServices.RowBinding>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

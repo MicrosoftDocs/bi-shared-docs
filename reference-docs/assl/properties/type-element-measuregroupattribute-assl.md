@@ -1,6 +1,6 @@
 ---
 title: "Type Element (MeasureGroupAttribute) (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Type Element (MeasureGroupAttribute) (ASSL)
 
-  Contains the type of a [MeasureGroupAttribute](../../../analysis-services/scripting/data-type/measuregroupattribute-data-type-assl.md) element.  
+  Contains the type of a [MeasureGroupAttribute](data-type/measuregroupattribute-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MeasureGroupAttribute](../../../analysis-services/scripting/data-type/measuregroupattribute-data-type-assl.md)|  
+|Parent element|[MeasureGroupAttribute](data-type/measuregroupattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -53,8 +53,8 @@ manager: kfile
  The element that corresponds to the parent of **Type** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MeasureGroupAttribute>.  
   
 ## See Also  
- [Attributes Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/attributes-element-assl.md)   
- [RegularMeasureGroupDimension Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/regularmeasuregroupdimension-data-type-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Attributes Element &#40;ASSL&#41;](collections/attributes-element-assl.md)   
+ [RegularMeasureGroupDimension Data Type &#40;ASSL&#41;](data-type/regularmeasuregroupdimension-data-type-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "RelationshipType Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # RelationshipType Element (ASSL)
 
-  Indicates whether member relationships for an [AttributeRelationship](../../../analysis-services/scripting/objects/attributerelationship-element-assl.md) can be changed.  
+  Indicates whether member relationships for an [AttributeRelationship](objects/attributerelationship-element-assl.md) can be changed.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[AttributeRelationship](../../../analysis-services/scripting/objects/attributerelationship-element-assl.md)|  
+|Parent element|[AttributeRelationship](objects/attributerelationship-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -54,6 +54,6 @@ manager: kfile
   
 ## See Also  
  [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-objects/attributes-and-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

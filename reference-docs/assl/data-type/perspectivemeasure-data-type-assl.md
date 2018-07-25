@@ -12,7 +12,7 @@ manager: kfile
 ---
 # PerspectiveMeasure Data Type (ASSL)
 
-  Defines a primitive data type that represents information about a measure in a [PerspectiveMeasureGroup](../../../analysis-services/scripting/data-type/perspectivemeasuregroup-data-type-assl.md) element.  
+  Defines a primitive data type that represents information about a measure in a [PerspectiveMeasureGroup](data-type/perspectivemeasuregroup-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -36,13 +36,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [MeasureID](../../../analysis-services/scripting/properties/measureid-element-assl.md)|  
-|Derived elements|[Measure](../../../analysis-services/scripting/objects/measure-element-assl.md) ([Measures](../../../analysis-services/scripting/collections/measures-element-assl.md) collection of [PerspectiveMeasureGroup](../../../analysis-services/scripting/data-type/perspectivemeasuregroup-data-type-assl.md))|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [MeasureID](properties/measureid-element-assl.md)|  
+|Derived elements|[Measure](objects/measure-element-assl.md) ([Measures](collections/measures-element-assl.md) collection of [PerspectiveMeasureGroup](data-type/perspectivemeasuregroup-data-type-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PerspectiveMeasure>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

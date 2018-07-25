@@ -35,7 +35,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md), [Partition](../../../analysis-services/scripting/objects/partition-element-assl.md)|  
+|Parent element|[Dimension](objects/dimension-element-assl.md), [Partition](objects/partition-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -47,11 +47,11 @@ manager: kfile
 |-----------|-----------------|  
 |*MOLAP*|The parent uses multidimensional OLAP (MOLAP) storage.|  
 |*ROLAP*|The parent uses relational OLAP (ROLAP) storage.|  
-|*HOLAP*|The parent uses hybrid OLAP (HOLAP) storage.<br /><br /> Note: This value is only valid for [Partition](../../../analysis-services/scripting/objects/partition-element-assl.md) parent elements.|  
+|*HOLAP*|The parent uses hybrid OLAP (HOLAP) storage.<br /><br /> Note: This value is only valid for [Partition](objects/partition-element-assl.md) parent elements.|  
   
  The enumeration corresponding to the allowed values **CurrentStorageMode** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.StorageMode>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

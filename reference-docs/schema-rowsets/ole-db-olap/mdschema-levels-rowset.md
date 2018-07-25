@@ -1,6 +1,6 @@
 ---
 title: "MDSCHEMA_LEVELS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDSCHEMA_LEVELS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Describes each level within a particular hierarchy.  
   
 ## Rowset Columns  
@@ -33,7 +33,7 @@ manager: kfile
 |**LEVEL_TYPE**|**DBTYPE_I4**|Type of the level:<br /><br /> **MDLEVEL_TYPE_GEO_CONTINENT** (**0x2001**)<br /><br /> **MDLEVEL_TYPE_GEO_REGION** (**0x2002**)<br /><br /> **MDLEVEL_TYPE_GEO_COUNTRY** (**0x2003**)<br /><br /> **MDLEVEL_TYPE_GEO_STATE_OR_PROVINCE** (**0x2004**)<br /><br /> **MDLEVEL_TYPE_GEO_COUNTY** (**0x2005**)<br /><br /> **MDLEVEL_TYPE_GEO_CITY** (**0x2006**)<br /><br /> **MDLEVEL_TYPE_GEO_POSTALCODE** (**0x2007**)<br /><br /> **MDLEVEL_TYPE_GEO_POINT** (**0x2008**)<br /><br /> **MDLEVEL_TYPE_ORG_UNIT** (**0x1011**)<br /><br /> **MDLEVEL_TYPE_BOM_RESOURCE** (**0x1012**)<br /><br /> **MDLEVEL_TYPE_QUANTITATIVE** (**0x1013**)<br /><br /> **MDLEVEL_TYPE_ACCOUNT** (**0x1014**)<br /><br /> **MDLEVEL_TYPE_CUSTOMER** (**0x1021**)<br /><br /> **MDLEVEL_TYPE_CUSTOMER_GROUP** (**0x1022**)<br /><br /> **MDLEVEL_TYPE_CUSTOMER_HOUSEHOLD** (**0x1023**)<br /><br /> **MDLEVEL_TYPE_PRODUCT** (**0x1031**)<br /><br /> **MDLEVEL_TYPE_PRODUCT_GROUP** (**0x1032**)<br /><br /> **MDLEVEL_TYPE_SCENARIO** (**0x1015**)<br /><br /> **MDLEVEL_TYPE_UTILITY** (**0x1016**)<br /><br /> **MDLEVEL_TYPE_PERSON** (**0x1041**)<br /><br /> **MDLEVEL_TYPE_COMPANY** (**0x1042**)<br /><br /> **MDLEVEL_TYPE_CURRENCY_SOURCE** (**0x1051**)<br /><br /> **MDLEVEL_TYPE_CURRENCY_DESTINATION** (**0x1052**)<br /><br /> **MDLEVEL_TYPE_CHANNEL** (**0x1061**)<br /><br /> **MDLEVEL_TYPE_REPRESENTATIVE** (**0x1062**)<br /><br /> **MDLEVEL_TYPE_PROMOTION** (**0x1071**)|  
 |**DESCRIPTION**|**DBTYPE_WSTR**|A human-readable description of the level. NULL if no description exists.|  
 |**CUSTOM_ROLLUP_SETTINGS**|**DBTYPE_I4**|A bitmap that specifies the custom rollup options:<br /><br /> **MDLEVELS_CUSTOM_ROLLUP_EXPRESSION** (**0x01**) indicates an expression exists for this level. (Deprecated)<br /><br /> **MDLEVELS_CUSTOM_ROLLUP_COLUMN** (**0x02**) indicates that there is a custom rollup column for this level.<br /><br /> **MDLEVELS_SKIPPED_LEVELS** (**0x04**) indicates that there is a skipped level associated with members of this level.<br /><br /> **MDLEVELS_CUSTOM_MEMBER_PROPERTIES** (**0x08**) indicates that members of the level have custom member properties.<br /><br /> **MDLEVELS_UNARY_OPERATOR** (**0x10**) indicates that members on the level have unary operators.|  
-|**LEVEL_UNIQUE_SETTINGS**|**DBTYPE_I4**|A bitmap that specifies which columns contain unique values, if the level only has members with unique names or keys. The Msmd.h file defines the following bit value constants for this bitmap:<br /><br /> **MDDIMENSIONS_MEMBER_KEY_UNIQUE** (**1**)<br /><br /> **MDDIMENSIONS_MEMBER_NAME_UNIQUE** (**2**)<br /><br /> <br /><br /> Note that the key is always unique in [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)]. The name will be unique if the setting on the attribute is **UniqueInDimension** or **UniqueInAttribute**|  
+|**LEVEL_UNIQUE_SETTINGS**|**DBTYPE_I4**|A bitmap that specifies which columns contain unique values, if the level only has members with unique names or keys. The Msmd.h file defines the following bit value constants for this bitmap:<br /><br /> **MDDIMENSIONS_MEMBER_KEY_UNIQUE** (**1**)<br /><br /> **MDDIMENSIONS_MEMBER_NAME_UNIQUE** (**2**)<br /><br /> <br /><br /> Note that the key is always unique in Analysis Services. The name will be unique if the setting on the attribute is **UniqueInDimension** or **UniqueInAttribute**|  
 |**LEVEL_IS_VISIBLE**|**DBTYPE_BOOL**|A Boolean that indicates whether the level is visible.<br /><br /> Always returns True. If the level is not visible, it will not be included in the schema rowset.|  
 |**LEVEL_ORDERING_PROPERTY**|**DBTYPE_WSTR**|The ID of the attribute that the level is sorted on.|  
 |**LEVEL_DBTYPE**|**DBTYPE_I4**|The **DBTYPE** enumeration of the member key column that is used for the level attribute.<br /><br /> Null if concatenated keys are used as the member key column.|  
@@ -64,6 +64,6 @@ manager: kfile
 |**LEVEL_VISIBILITY**|**DBTYPE_UI2**|(Optional) Default restriction is a value of 1. A bitmap with one of the following values:<br /><br /> 1 Visible<br /><br /> 2 Not visible|  
   
 ## See Also  
- [OLE DB for OLAP Schema Rowsets](../../../analysis-services/schema-rowsets/ole-db-olap/ole-db-for-olap-schema-rowsets.md)  
+ [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
   
   

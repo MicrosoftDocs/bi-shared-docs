@@ -45,13 +45,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AttributeRelationships](../../../analysis-services/scripting/collections/attributerelationships-element-assl.md)|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [AttributeID](../../../analysis-services/scripting/properties/attributeid-element-assl.md), [Cardinality](../../../analysis-services/scripting/properties/cardinality-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [Optionality](../../../analysis-services/scripting/properties/optionality-element-assl.md), [OverrideBehavior](../../../analysis-services/scripting/properties/overridebehavior-element-assl.md), [RelationshipType](../../../analysis-services/scripting/properties/relationshiptype-element-assl.md), [Translations](../../../analysis-services/scripting/collections/translations-element-assl.md), [Visible](../../../analysis-services/scripting/properties/visible-element-assl.md)|  
+|Parent elements|[AttributeRelationships](collections/attributerelationships-element-assl.md)|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [AttributeID](properties/attributeid-element-assl.md), [Cardinality](properties/cardinality-element-assl.md), [Name](properties/name-element-assl.md), [Optionality](properties/optionality-element-assl.md), [OverrideBehavior](properties/overridebehavior-element-assl.md), [RelationshipType](properties/relationshiptype-element-assl.md), [Translations](collections/translations-element-assl.md), [Visible](properties/visible-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributeRelationship>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

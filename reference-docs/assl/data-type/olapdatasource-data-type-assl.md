@@ -12,7 +12,7 @@ manager: kfile
 ---
 # OlapDataSource Data Type (ASSL)
 
-  Defines a derived data type that represents a multidimensional [DataSource](../../../analysis-services/scripting/objects/datasource-element-assl.md) element.  
+  Defines a derived data type that represents a multidimensional [DataSource](objects/datasource-element-assl.md) element.  
   
 ## Syntax  
   
@@ -27,7 +27,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[DataSource](../../../analysis-services/scripting/data-type/datasource-data-type-assl.md)|  
+|Base data types|[DataSource](data-type/datasource-data-type-assl.md)|  
 |Derived data types|None|  
   
 ## Data Type Relationships  
@@ -36,12 +36,12 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|None|  
-|Derived elements|[DataSource](../../../analysis-services/scripting/objects/datasource-element-assl.md) ([DataSources](../../../analysis-services/scripting/collections/datasources-element-assl.md) collection of [Database](../../../analysis-services/scripting/objects/database-element-assl.md))|  
+|Derived elements|[DataSource](objects/datasource-element-assl.md) ([DataSources](collections/datasources-element-assl.md) collection of [Database](objects/database-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.OlapDataSource>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

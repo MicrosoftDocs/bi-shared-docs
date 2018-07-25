@@ -40,13 +40,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Dimensions](../../../analysis-services/scripting/collections/dimensions-element-assl.md), [EstimatedRows](../../../analysis-services/scripting/properties/estimatedrows-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [Measures](../../../analysis-services/scripting/collections/measures-element-assl.md), [Partitions](../../../analysis-services/scripting/collections/partitions-element-assl.md), [Source](../../../analysis-services/scripting/properties/source-element-binding-assl.md)|  
-|Derived elements|See [Binding](../../../analysis-services/scripting/data-type/binding-data-type-assl.md)|  
+|Child elements|[Dimensions](collections/dimensions-element-assl.md), [EstimatedRows](properties/estimatedrows-element-assl.md), [ID](properties/id-element-assl.md), [Measures](collections/measures-element-assl.md), [Partitions](collections/partitions-element-assl.md), [Source](properties/source-element-binding-assl.md)|  
+|Derived elements|See [Binding](data-type/binding-data-type-assl.md)|  
   
 ## Remarks  
  For more information, see the section, Out of Line Bindings, in [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

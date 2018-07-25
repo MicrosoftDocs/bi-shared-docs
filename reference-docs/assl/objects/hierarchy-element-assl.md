@@ -39,22 +39,22 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md)|[Hierarchy](../../../analysis-services/scripting/data-type/hierarchy-data-type-assl.md)|  
-|[CubeDimension](../../../analysis-services/scripting/data-type/cubedimension-data-type-assl.md)|[CubeHierarchy](../../../analysis-services/scripting/data-type/cubehierarchy-data-type-assl.md)|  
-|[PerspectiveDimension](../../../analysis-services/scripting/data-type/perspectivedimension-data-type-assl.md)|[PerspectiveHierarchy](../../../analysis-services/scripting/data-type/perspectivehierarchy-data-type-assl.md)|  
-|[RegularMeasureGroupDimension](../../../analysis-services/scripting/data-type/regularmeasuregroupdimension-data-type-assl.md)|[MeasureGroupHierarchy](../../../analysis-services/scripting/data-type/measuregrouphierarchy-data-type-assl.md)|  
+|[Dimension](objects/dimension-element-assl.md)|[Hierarchy](data-type/hierarchy-data-type-assl.md)|  
+|[CubeDimension](data-type/cubedimension-data-type-assl.md)|[CubeHierarchy](data-type/cubehierarchy-data-type-assl.md)|  
+|[PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|[PerspectiveHierarchy](data-type/perspectivehierarchy-data-type-assl.md)|  
+|[RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md)|[MeasureGroupHierarchy](data-type/measuregrouphierarchy-data-type-assl.md)|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Hierarchies](../../../analysis-services/scripting/collections/hierarchies-element-assl.md)|  
+|Parent elements|[Hierarchies](collections/hierarchies-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Hierarchy>, <xref:Microsoft.AnalysisServices.CubeHierarchy>, and <xref:Microsoft.AnalysisServices.PerspectiveHierarchy>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

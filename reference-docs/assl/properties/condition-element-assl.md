@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Condition Element (ASSL)
 
-  Contains a Multidimensional Expressions (MDX) expression that determines whether the [Action](../../../analysis-services/scripting/objects/action-element-assl.md) parent element applies to the target.  
+  Contains a Multidimensional Expressions (MDX) expression that determines whether the [Action](objects/action-element-assl.md) parent element applies to the target.  
   
 ## Syntax  
   
@@ -37,15 +37,15 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Action](../../../analysis-services/scripting/objects/action-element-assl.md)|  
+|Parent element|[Action](objects/action-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The **Condition** element contains an MDX expression that evaluates to a Boolean value. If the expression returns **True**, then the **Action** applies to the target specified in the [Target](../../../analysis-services/scripting/properties/target-element-assl.md) element. Otherwise, the **Action** is not applicable.  
+ The **Condition** element contains an MDX expression that evaluates to a Boolean value. If the expression returns **True**, then the **Action** applies to the target specified in the [Target](properties/target-element-assl.md) element. Otherwise, the **Action** is not applicable.  
   
  The element that corresponds to the parent of **Condition** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Action>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

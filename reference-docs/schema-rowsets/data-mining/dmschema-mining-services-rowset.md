@@ -1,6 +1,6 @@
 ---
 title: "DMSCHEMA_MINING_SERVICES Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DMSCHEMA_MINING_SERVICES Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Provides a description of each data mining algorithm that the provider supports.  
   
 ## Rowset Columns  
@@ -20,7 +20,7 @@ manager: kfile
 |Column name|Type indicator|Description|  
 |-----------------|--------------------|-----------------|  
 |**SERVICE_NAME**|**DBTYPE_WSTR**|The name of the algorithm. This column is provider-specific.|  
-|**SERVICE_TYPE_ID**|**DBTYPE_UI4**|This column contains a bitmap that describes the mining service. [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] populates this column with one of the following values:<br /><br /> **DM_SERVICETYPE_CLASSIFICATION** (**1**)<br /><br /> **DM_SERVICETYPE_CLUSTERING** (**2**)|  
+|**SERVICE_TYPE_ID**|**DBTYPE_UI4**|This column contains a bitmap that describes the mining service. Analysis Services populates this column with one of the following values:<br /><br /> **DM_SERVICETYPE_CLASSIFICATION** (**1**)<br /><br /> **DM_SERVICETYPE_CLUSTERING** (**2**)|  
 |**SERVICE_DISPLAY_NAME**|**DBTYPE_WSTR**|A localizable display name for the algorithm.|  
 |**SERVICE_GUID**|**DBTYPE_GUID**|The GUID for the algorithm.|  
 |**DESCRIPTION**|**DBTYPE_WSTR**|A user-friendly description of the algorithm.|  
@@ -55,6 +55,6 @@ manager: kfile
 |**SERVICE_TYPE_ID**|**DBTYPE_UI4**|Optional.|  
   
 ## See Also  
- [Data Mining Schema Rowsets](../../../analysis-services/schema-rowsets/data-mining/data-mining-schema-rowsets.md)  
+ [Data Mining Schema Rowsets](data-mining-schema-rowsets.md)  
   
   

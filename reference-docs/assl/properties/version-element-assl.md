@@ -1,6 +1,6 @@
 ---
 title: "Version Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Version Element (ASSL)
 
-  Contains the read-only version number of the instance of Analysis Services represented by the [Server](../../../analysis-services/scripting/objects/server-element-assl.md) element.  
+  Contains the read-only version number of the instance of Analysis Services represented by the [Server](objects/server-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Server](../../../analysis-services/scripting/objects/server-element-assl.md)|  
+|Parent element|[Server](objects/server-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,7 +46,7 @@ manager: kfile
  The element that corresponds to the parent of **Version** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Server>.  
   
 ## See Also  
- [Edition Element &#40;ASSL&#41;](../../../analysis-services/scripting/properties/edition-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Edition Element &#40;ASSL&#41;](properties/edition-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

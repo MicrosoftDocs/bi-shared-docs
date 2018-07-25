@@ -1,6 +1,6 @@
 ---
 title: "OrderByAttributeID Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # OrderByAttributeID Element (ASSL)
 
-  Identifies another attribute by which to order the members of the [Dimension](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md) attribute.  
+  Identifies another attribute by which to order the members of the [Dimension](data-type/dimensionattribute-data-type-assl.md) attribute.  
   
 ## Syntax  
   
@@ -37,15 +37,15 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md)|  
+|Parent element|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The **OrderByAttributeID** element is only used when the value of the [OrderBy](../../../analysis-services/scripting/properties/orderby-element-assl.md) element for the **DimensionAttribute** is set to *AttributeKey* or *AttributeName*.  
+ The **OrderByAttributeID** element is only used when the value of the [OrderBy](properties/orderby-element-assl.md) element for the **DimensionAttribute** is set to *AttributeKey* or *AttributeName*.  
   
  The element that corresponds to the parent of **OrderByAttributeID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DimensionAttribute>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

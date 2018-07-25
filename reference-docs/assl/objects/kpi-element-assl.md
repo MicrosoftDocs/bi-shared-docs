@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Kpi Element (ASSL)
 
-  Defines a key performance indicator (KPI) within a [Cube](../../../analysis-services/scripting/objects/cube-element-assl.md) element or a [Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md) element.  
+  Defines a key performance indicator (KPI) within a [Cube](objects/cube-element-assl.md) element or a [Perspective](objects/perspective-element-assl.md) element.  
   
 ## Syntax  
   
@@ -51,25 +51,25 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[Cube](../../../analysis-services/scripting/objects/cube-element-assl.md)|None|  
-|[Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md)|[PerspectiveKpi](../../../analysis-services/scripting/data-type/perspectivekpi-data-type-assl.md)|  
+|[Cube](objects/cube-element-assl.md)|None|  
+|[Perspective](objects/perspective-element-assl.md)|[PerspectiveKpi](data-type/perspectivekpi-data-type-assl.md)|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Kpis](../../../analysis-services/scripting/collections/kpis-element-assl.md)|  
+|Parent elements|[Kpis](collections/kpis-element-assl.md)|  
 |Child elements|See the table below.|  
   
 |Ancestor or Parent|Child elements|  
 |------------------------|--------------------|  
-|[Cube](../../../analysis-services/scripting/objects/cube-element-assl.md)|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [AssociatedMeasureGroupID](../../../analysis-services/scripting/properties/associatedmeasuregroupid-element-assl.md), [CurrentTimeMember](../../../analysis-services/scripting/properties/currenttimemember-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [DisplayFolder](../../../analysis-services/scripting/properties/displayfolder-element-assl.md), [Goal](../../../analysis-services/scripting/properties/goal-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [Status](../../../analysis-services/scripting/properties/status-element-assl.md), [StatusGraphic](../../../analysis-services/scripting/properties/statusgraphic-element-assl.md), [Translations](../../../analysis-services/scripting/collections/translations-element-assl.md), [Trend](../../../analysis-services/scripting/properties/trend-element-assl.md), [TrendGraphic](../../../analysis-services/scripting/properties/trendgraphic-element-assl.md), [Value](../../../analysis-services/scripting/properties/value-element-assl.md)|  
-|[Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md)|None|  
+|[Cube](objects/cube-element-assl.md)|[Annotations](collections/annotations-element-assl.md), [AssociatedMeasureGroupID](properties/associatedmeasuregroupid-element-assl.md), [CurrentTimeMember](properties/currenttimemember-element-assl.md), [Description](properties/description-element-assl.md), [DisplayFolder](properties/displayfolder-element-assl.md), [Goal](properties/goal-element-assl.md), [ID](properties/id-element-assl.md), [Name](properties/name-element-assl.md), [Status](properties/status-element-assl.md), [StatusGraphic](properties/statusgraphic-element-assl.md), [Translations](collections/translations-element-assl.md), [Trend](properties/trend-element-assl.md), [TrendGraphic](properties/trendgraphic-element-assl.md), [Value](properties/value-element-assl.md)|  
+|[Perspective](objects/perspective-element-assl.md)|None|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Kpi> and <xref:Microsoft.AnalysisServices.PerspectiveKpi>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

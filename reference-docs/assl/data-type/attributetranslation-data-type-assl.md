@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AttributeTranslation Data Type (ASSL)
 
-  Defines a derived data type that represents a translation associated with an [Attribute](../../../analysis-services/scripting/objects/attribute-element-assl.md) element  
+  Defines a derived data type that represents a translation associated with an [Attribute](objects/attribute-element-assl.md) element  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[Translation](../../../analysis-services/scripting/data-type/translation-data-type-assl.md)|  
+|Base data types|[Translation](data-type/translation-data-type-assl.md)|  
 |Derived data types|None|  
   
 ## Data Type Relationships  
@@ -37,13 +37,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[CaptionColumn](../../../analysis-services/scripting/objects/captioncolumn-element-assl.md), [MembersWithDataCaption](../../../analysis-services/scripting/properties/memberswithdatacaption-element-assl.md)|  
-|Derived elements|See [Translation](../../../analysis-services/scripting/objects/translation-element-assl.md) ([Translations](../../../analysis-services/scripting/collections/translations-element-assl.md) collection of [DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md) or [ScalarMiningStructureColumn](../../../analysis-services/scripting/data-type/scalarminingstructurecolumn-data-type-assl.md))|  
+|Child elements|[CaptionColumn](objects/captioncolumn-element-assl.md), [MembersWithDataCaption](properties/memberswithdatacaption-element-assl.md)|  
+|Derived elements|See [Translation](objects/translation-element-assl.md) ([Translations](collections/translations-element-assl.md) collection of [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md) or [ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributeTranslation>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

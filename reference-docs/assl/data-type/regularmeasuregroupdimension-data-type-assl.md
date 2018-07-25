@@ -29,21 +29,21 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[MeasureGroupDimension](../../../analysis-services/scripting/data-type/measuregroupdimension-data-type-assl.md)|  
-|Derived data types|[ReferenceMeasureGroupDimension](../../../analysis-services/scripting/data-type/referencemeasuregroupdimension-data-type-assl.md), [DegenerateMeasureGroupDimension](../../../analysis-services/scripting/data-type/degeneratemeasuregroupdimension-data-type-assl.md)|  
+|Base data types|[MeasureGroupDimension](data-type/measuregroupdimension-data-type-assl.md)|  
+|Derived data types|[ReferenceMeasureGroupDimension](data-type/referencemeasuregroupdimension-data-type-assl.md), [DegenerateMeasureGroupDimension](data-type/degeneratemeasuregroupdimension-data-type-assl.md)|  
   
 ## Data Type Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Attributes](../../../analysis-services/scripting/collections/attributes-element-assl.md), [Cardinality](../../../analysis-services/scripting/properties/cardinality-element-assl.md)|  
-|Derived elements|[Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md) ([Dimensions](../../../analysis-services/scripting/collections/dimensions-element-assl.md) collection)|  
+|Child elements|[Attributes](collections/attributes-element-assl.md), [Cardinality](properties/cardinality-element-assl.md)|  
+|Derived elements|[Dimension](objects/dimension-element-assl.md) ([Dimensions](collections/dimensions-element-assl.md) collection)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.RegularMeasureGroupDimension>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

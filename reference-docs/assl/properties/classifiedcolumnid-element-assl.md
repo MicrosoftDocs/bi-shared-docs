@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ClassifiedColumnID Element (ASSL)
 
-  Contains the identifier (ID) of a related column that is classified by the [ScalarMiningStructureColumn](../../../analysis-services/scripting/data-type/scalarminingstructurecolumn-data-type-assl.md) element.  
+  Contains the identifier (ID) of a related column that is classified by the [ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -35,14 +35,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ClassifiedColumns](../../../analysis-services/scripting/collections/classifiedcolumns-element-assl.md)|  
+|Parent element|[ClassifiedColumns](collections/classifiedcolumns-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of the **ClassifiedColumns** collection in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn>.  
   
 ## See Also  
- [Content Element &#40;ASSL&#41;](../../../analysis-services/scripting/properties/content-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Content Element &#40;ASSL&#41;](properties/content-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

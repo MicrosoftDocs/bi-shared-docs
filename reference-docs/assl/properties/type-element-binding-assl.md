@@ -1,6 +1,6 @@
 ---
 title: "Type Element (Binding) (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AttributeBinding](../../../analysis-services/scripting/data-type/attributebinding-data-type-assl.md), [CubeAttributeBinding](../../../analysis-services/scripting/data-type/cubeattributebinding-data-type-assl.md)|  
+|Parent elements|[AttributeBinding](data-type/attributebinding-data-type-assl.md), [CubeAttributeBinding](data-type/cubeattributebinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -58,7 +58,7 @@ manager: kfile
  The elements that correspond to the parents of **Type** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AttributeBinding> and <xref:Microsoft.AnalysisServices.CubeAttributeBinding>.  
   
 ## See Also  
- [Binding Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/binding-data-type-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Binding Data Type &#40;ASSL&#41;](data-type/binding-data-type-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

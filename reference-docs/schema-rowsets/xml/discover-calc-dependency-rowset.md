@@ -1,6 +1,6 @@
 ---
 title: "DISCOVER_CALC_DEPENDENCY Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DISCOVER_CALC_DEPENDENCY Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Reports on the dependencies between calculations and on the objects referenced in those calculations. You can use this information in a client application to report on problems with complex formulas, or to warn when related objects are deleted or modified. You can also use the rowset to extract the DAX expressions used in measures or calculated columns.  
   
  **Applies to:** tabular models  
@@ -106,7 +106,7 @@ SELECT * from $system.DISCOVER_CALC_DEPENDENCY WHERE QUERY = 'EVALUATE CALCULATE
 ```  
   
 ## Using ADOMD.NET to return the rowset  
- When using ADOMD.NET and the schema rowset to retrieve metadata, you can use either the GUID or string to reference a schema rowset object in the GetSchemaDataSet method. For more information, see [Working with Schema Rowsets in ADOMD.NET](../../../analysis-services/multidimensional-models-adomd-net-client/retrieving-metadata-working-with-schema-rowsets.md).  
+ When using ADOMD.NET and the schema rowset to retrieve metadata, you can use either the GUID or string to reference a schema rowset object in the GetSchemaDataSet method.
   
  The following table provides the GUID and string values that identify this rowset.  
   

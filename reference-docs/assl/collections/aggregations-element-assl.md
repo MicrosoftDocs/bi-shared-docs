@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Aggregations Element (ASSL)
 
-  Contains the collection of aggregations defined for an [AggregationDesign](../../../analysis-services/scripting/objects/aggregationdesign-element-assl.md) element.  
+  Contains the collection of aggregations defined for an [AggregationDesign](objects/aggregationdesign-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,15 +39,11 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[AggregationDesign](../../../analysis-services/scripting/objects/aggregationdesign-element-assl.md)|  
-|Child elements|[Aggregation](../../../analysis-services/scripting/objects/aggregation-element-assl.md)|  
+|Parent element|[AggregationDesign](objects/aggregationdesign-element-assl.md)|  
+|Child elements|[Aggregation](objects/aggregation-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationCollection>.  
-  
-## See Also  
- [MeasureGroup Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/measuregroup-element-assl.md)   
- [Partition Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/partition-element-assl.md)   
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
+
   
   

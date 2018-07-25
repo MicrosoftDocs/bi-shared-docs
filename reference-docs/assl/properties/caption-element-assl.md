@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Action](../../../analysis-services/scripting/objects/action-element-assl.md), [Translation](../../../analysis-services/scripting/objects/translation-element-assl.md)|  
+|Parent element|[Action](objects/action-element-assl.md), [Translation](objects/translation-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **Caption** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Action> and <xref:Microsoft.AnalysisServices.Translation>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

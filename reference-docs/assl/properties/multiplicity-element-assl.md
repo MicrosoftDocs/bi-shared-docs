@@ -1,6 +1,6 @@
 ---
 title: "Multiplicity Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[RelationshipEnd](../../../analysis-services/scripting/data-type/relationshipend-data-type-assl.md)|  
+|Parent element|[RelationshipEnd](data-type/relationshipend-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  

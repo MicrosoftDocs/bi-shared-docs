@@ -1,6 +1,6 @@
 ---
 title: "ReportServer Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ReportServer Element (ASSL)
 
-  Contains the name of the  [!INCLUDE[ssRSnoversion](../../../includes/ssrsnoversion-md.md)] instance that is used by the [ReportAction](../../../analysis-services/scripting/data-type/reportaction-data-type-assl.md).  
+  Contains the name of the  [!INCLUDE[ssRSnoversion](../../../includes/ssrsnoversion-md.md)] instance that is used by the [ReportAction](data-type/reportaction-data-type-assl.md).  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ReportAction](../../../analysis-services/scripting/data-type/reportaction-data-type-assl.md)|  
+|Parent element|[ReportAction](data-type/reportaction-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **ReportServer** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ReportAction>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

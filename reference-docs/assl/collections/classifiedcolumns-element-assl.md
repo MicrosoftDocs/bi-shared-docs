@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ClassifiedColumns Element (ASSL)
 
-  Contains the collection of related columns that are classified by the [ScalarMiningStructureColumn](../../../analysis-services/scripting/data-type/scalarminingstructurecolumn-data-type-assl.md) element.  
+  Contains the collection of related columns that are classified by the [ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -39,15 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningStructureColumn](../../../analysis-services/scripting/data-type/miningstructurecolumn-data-type-assl.md) of type[ScalarMiningStructureColumn](../../../analysis-services/scripting/data-type/scalarminingstructurecolumn-data-type-assl.md)|  
-|Child elements|[ClassifiedColumnID](../../../analysis-services/scripting/properties/classifiedcolumnid-element-assl.md)|  
+|Parent elements|[MiningStructureColumn](data-type/miningstructurecolumn-data-type-assl.md) of type[ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md)|  
+|Child elements|[ClassifiedColumnID](properties/classifiedcolumnid-element-assl.md)|  
   
 ## Remarks  
  The element that corresponds to the parent of **ClassifiedColumns** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn>.  
-  
-## See Also  
- [MiningStructureColumn Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/miningstructurecolumn-data-type-assl.md)   
- [MiningStructure Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/miningstructure-element-assl.md)   
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

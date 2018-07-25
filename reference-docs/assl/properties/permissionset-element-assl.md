@@ -1,6 +1,6 @@
 ---
 title: "PermissionSet Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ClrAssembly](../../../analysis-services/scripting/data-type/clrassembly-data-type-assl.md)|  
+|Parent element|[ClrAssembly](data-type/clrassembly-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,10 +52,10 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **PermissionSet** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PermissionSet>.  
   
 ## See Also  
- [ComAssembly Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/comassembly-data-type-assl.md)   
- [Assemblies Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/assemblies-element-assl.md)   
- [Database Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/database-element-assl.md)   
- [Server Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/server-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [ComAssembly Data Type &#40;ASSL&#41;](data-type/comassembly-data-type-assl.md)   
+ [Assemblies Element &#40;ASSL&#41;](collections/assemblies-element-assl.md)   
+ [Database Element &#40;ASSL&#41;](objects/database-element-assl.md)   
+ [Server Element &#40;ASSL&#41;](objects/server-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

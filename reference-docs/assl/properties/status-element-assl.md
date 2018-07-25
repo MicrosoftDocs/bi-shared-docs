@@ -1,6 +1,6 @@
 ---
 title: "Status Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Status Element (ASSL)
 
-  Contains a Multidimensional Expressions (MDX) expression that returns a status indicator for a [Kpi](../../../analysis-services/scripting/objects/kpi-element-assl.md) element.  
+  Contains a Multidimensional Expressions (MDX) expression that returns a status indicator for a [Kpi](objects/kpi-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Kpi](../../../analysis-services/scripting/objects/kpi-element-assl.md)|  
+|Parent element|[Kpi](objects/kpi-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,6 +46,6 @@ manager: kfile
  The element that corresponds to the parent of **Status** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Kpi>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

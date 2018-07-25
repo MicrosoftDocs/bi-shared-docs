@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DSVTableBinding Data Type (ASSL)
 
-  Defines a derived data type that represents the binding between a table and a [DataSourceView](../../../analysis-services/scripting/objects/datasourceview-element-assl.md) element.  
+  Defines a derived data type that represents the binding between a table and a [DataSourceView](objects/datasourceview-element-assl.md) element.  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[TabularBinding](../../../analysis-services/scripting/data-type/tabularbinding-data-type-assl.md)|  
+|Base data types|[TabularBinding](data-type/tabularbinding-data-type-assl.md)|  
 |Derived data types|None|  
   
 ## Data Type Relationships  
@@ -37,17 +37,17 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[DataSourceViewID](../../../analysis-services/scripting/properties/datasourceviewid-element-assl.md), [TableID](../../../analysis-services/scripting/properties/tableid-element-assl.md)|  
-|Derived elements|See [Binding](../../../analysis-services/scripting/data-type/binding-data-type-assl.md)|  
+|Child elements|[DataSourceViewID](properties/datasourceviewid-element-assl.md), [TableID](properties/tableid-element-assl.md)|  
+|Derived elements|See [Binding](data-type/binding-data-type-assl.md)|  
   
 ## Remarks  
- For additional information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding](../../../analysis-services/scripting/data-type/binding-data-type-assl.md) element.  
+ For additional information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding](data-type/binding-data-type-assl.md) element.  
   
  For an overview of data bindings in ASSL, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DSVTableBinding>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

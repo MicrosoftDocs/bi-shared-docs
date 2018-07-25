@@ -12,7 +12,7 @@ manager: kfile
 ---
 # QueryNotification Element (ASSL)
 
-  Contains information for the [ProactiveCaching](../../../analysis-services/scripting/objects/proactivecaching-element-assl.md) element about the query to execute to determine whether a data source has been modified.  
+  Contains information for the [ProactiveCaching](objects/proactivecaching-element-assl.md) element about the query to execute to determine whether a data source has been modified.  
   
 ## Syntax  
   
@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[QueryNotifications](../../../analysis-services/scripting/collections/querynotifications-element-assl.md)|  
-|Child elements|[Query](../../../analysis-services/scripting/properties/query-element-assl.md)|  
+|Parent elements|[QueryNotifications](collections/querynotifications-element-assl.md)|  
+|Child elements|[Query](properties/query-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.QueryNotification>.  
   
 ## See Also  
- [ProactiveCachingQueryBinding Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/proactivecachingquerybinding-data-type-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [ProactiveCachingQueryBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingquerybinding-data-type-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "FontName Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # FontName Element (ASSL)
 
-  Describes font-related display characteristics of the [CalculationProperty](../../../analysis-services/scripting/objects/calculationproperty-element-assl.md) or [Measure](../../../analysis-services/scripting/objects/measure-element-assl.md) parent element.  
+  Describes font-related display characteristics of the [CalculationProperty](objects/calculationproperty-element-assl.md) or [Measure](objects/measure-element-assl.md) parent element.  
   
 ## Syntax  
   
@@ -37,18 +37,18 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CalculationProperty](../../../analysis-services/scripting/objects/calculationproperty-element-assl.md), [Measure](../../../analysis-services/scripting/objects/measure-element-assl.md)|  
+|Parent elements|[CalculationProperty](objects/calculationproperty-element-assl.md), [Measure](objects/measure-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The **FontName** property contains a Multidimensional Expressions (MDX) expression and applies to **CalculationProperty** elements that have a [CalculationType](../../../analysis-services/scripting/properties/calculationtype-element-assl.md) of *Member* or *Cells*.  
+ The **FontName** property contains a Multidimensional Expressions (MDX) expression and applies to **CalculationProperty** elements that have a [CalculationType](properties/calculationtype-element-assl.md) of *Member* or *Cells*.  
   
  The elements that correspond to the parents of **FontName** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CalculationProperty> and <xref:Microsoft.AnalysisServices.Measure>.  
   
 ## See Also  
- [CalculationProperties Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/calculationproperties-element-assl.md)   
- [MdxScript Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/mdxscript-element-assl.md)   
- [MdxScripts Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/mdxscripts-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [CalculationProperties Element &#40;ASSL&#41;](collections/calculationproperties-element-assl.md)   
+ [MdxScript Element &#40;ASSL&#41;](objects/mdxscript-element-assl.md)   
+ [MdxScripts Element &#40;ASSL&#41;](collections/mdxscripts-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

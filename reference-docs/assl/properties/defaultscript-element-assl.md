@@ -1,6 +1,6 @@
 ---
 title: "DefaultScript Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DefaultScript Element (ASSL)
 
-  Identifies the default [MdxScript](../../../analysis-services/scripting/objects/mdxscript-element-assl.md) element in the [MdxScripts](../../../analysis-services/scripting/collections/mdxscripts-element-assl.md) collection.  
+  Identifies the default [MdxScript](objects/mdxscript-element-assl.md) element in the [MdxScripts](collections/mdxscripts-element-assl.md) collection.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MdxScript](../../../analysis-services/scripting/objects/mdxscript-element-assl.md)|  
+|Parent elements|[MdxScript](objects/mdxscript-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,6 +46,6 @@ manager: kfile
  The element that corresponds to the parent of **DefaultScript** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MdxScript>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

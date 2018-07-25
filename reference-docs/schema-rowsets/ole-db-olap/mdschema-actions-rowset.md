@@ -1,6 +1,6 @@
 ---
 title: "MDSCHEMA_ACTIONS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDSCHEMA_ACTIONS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Describes the actions that may be available to the client application.  
   
 ## Rowset Columns  
@@ -30,7 +30,7 @@ manager: kfile
 |**DESCRIPTION**|**DBTYPE_WSTR**||A user-friendly description of the action.|  
 |**CONTENT**|**DBTYPE_WSTR**||The expression or content of the action that is to be run.|  
 |**APPLICATION**|**DBTYPE_WSTR**||The name of the application that is to be used to run the action.|  
-|**INVOCATION**|**DBTYPE_I4**||Information about how the action should be invoked:<br /><br /> **MDACTION_INVOCATION_INTERACTIVE** (**1**) indicates a regular action used during normal operations. This is the default value for this column.<br /><br /> **MDACTION_INVOCATION_ON_OPEN** (**2**) indicates that the action should be performed when the cube is first opened.<br /><br /> **MDACTION_INVOCATION_BATCH** (**4**) indicates that the action is performed as part of a batch operation or [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssISnoversion](../../../includes/ssisnoversion-md.md)] task.<br /><br /> <br /><br /> Note that these enumeration values are defined in the file, Msmd.h.|  
+|**INVOCATION**|**DBTYPE_I4**||Information about how the action should be invoked:<br /><br /> **MDACTION_INVOCATION_INTERACTIVE** (**1**) indicates a regular action used during normal operations. This is the default value for this column.<br /><br /> **MDACTION_INVOCATION_ON_OPEN** (**2**) indicates that the action should be performed when the cube is first opened.<br /><br /> **MDACTION_INVOCATION_BATCH** (**4**) indicates that the action is performed as part of a batch operation or Microsoft SQL Server [!INCLUDE[ssISnoversion](../../../includes/ssisnoversion-md.md)] task.<br /><br /> <br /><br /> Note that these enumeration values are defined in the file, Msmd.h.|  
   
  The rowset is sorted on **CATALOG_NAME**, **SCHEMA_NAME**, **CUBE_NAME**, **ACTION_NAME**.  
   
@@ -71,6 +71,6 @@ manager: kfile
 |**cell**|**MDACTION_COORDINATE_CELL**|  
   
 ## See Also  
- [OLE DB for OLAP Schema Rowsets](../../../analysis-services/schema-rowsets/ole-db-olap/ole-db-for-olap-schema-rowsets.md)  
+ [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
   
   

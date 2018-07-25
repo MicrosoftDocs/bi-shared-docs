@@ -1,6 +1,6 @@
 ---
 title: "MDSCHEMA_MEASUREGROUPS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDSCHEMA_MEASUREGROUPS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Describes the measure groups within a database.  
   
 ## Rowset Columns  
@@ -40,6 +40,6 @@ manager: kfile
 |**MEASUREGROUP_NAME**|**DBTYPE_WSTR**|Optional.|  
   
 ## See Also  
- [OLE DB for OLAP Schema Rowsets](../../../analysis-services/schema-rowsets/ole-db-olap/ole-db-for-olap-schema-rowsets.md)  
+ [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
   
   

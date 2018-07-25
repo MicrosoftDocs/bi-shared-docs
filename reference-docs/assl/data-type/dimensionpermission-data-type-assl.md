@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[Permission](../../../analysis-services/scripting/data-type/permission-data-type-assl.md)|  
+|Base data types|[Permission](data-type/permission-data-type-assl.md)|  
 |Derived data types|None|  
   
 ## Data Type Relationships  
@@ -37,8 +37,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[AttributePermissions](../../../analysis-services/scripting/collections/attributepermissions-element-assl.md), [AllowedRowsExpression](../../../analysis-services/scripting/collections/attributepermissions-element-assl.md)|  
-|Derived elements|[DimensionPermission](../../../analysis-services/scripting/objects/dimensionpermission-element-assl.md)|  
+|Child elements|[AttributePermissions](collections/attributepermissions-element-assl.md), [AllowedRowsExpression](collections/attributepermissions-element-assl.md)|  
+|Derived elements|[DimensionPermission](objects/dimensionpermission-element-assl.md)|  
   
 ## Remarks  
  This element has the following validations under DeploymentMode value 2 (tabular server mode).  
@@ -52,6 +52,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DimensionPermission>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

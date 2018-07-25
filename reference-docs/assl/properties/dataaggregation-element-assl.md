@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataAggregation Element (ASSL)
 
-  Determines whether the instance can aggregate persisted data or cached data for the [MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md).  
+  Determines whether the instance can aggregate persisted data or cached data for the [MeasureGroup](objects/measuregroup-element-assl.md).  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md)|  
+|Parent elements|[MeasureGroup](objects/measuregroup-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -53,8 +53,8 @@ manager: kfile
  The element that corresponds to the parent of **DataAggregation** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MeasureGroup>.  
   
 ## See Also  
- [Cube Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/cube-element-assl.md)   
- [Dimension Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/dimension-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Cube Element &#40;ASSL&#41;](objects/cube-element-assl.md)   
+ [Dimension Element &#40;ASSL&#41;](objects/dimension-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

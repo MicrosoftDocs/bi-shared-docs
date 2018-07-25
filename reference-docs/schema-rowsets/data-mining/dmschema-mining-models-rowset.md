@@ -1,6 +1,6 @@
 ---
 title: "DMSCHEMA_MINING_MODELS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DMSCHEMA_MINING_MODELS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Enumerates the data mining models in the current catalog. The **DMSCHEMA_MINING_MODELS** rowset includes information such as model names, processing date, and the mining algorithm associated with each mining model.  
   
  . The **DMSCHEMA_MINING_MODELS** schema rowset is very similar to the [DBSCHEMA_TABLES](../../../analysis-services/schema-rowsets/ole-db/dbschema-tables-rowset.md) schema rowset and can be used the same way.  
@@ -22,12 +22,12 @@ manager: kfile
 |Column name|Type indicator|Description|  
 |-----------------|--------------------|-----------------|  
 |**MODEL_CATALOG**|**DBTYPE_WSTR**|The catalog name. Populated with the name of the database of which the model is a member.|  
-|**MODEL_SCHEMA**|**DBTYPE_WSTR**|The unqualified schema name. This column is not supported by [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)]; it always contains **NULL**.|  
+|**MODEL_SCHEMA**|**DBTYPE_WSTR**|The unqualified schema name. This column is not supported by Analysis Services; it always contains **NULL**.|  
 |**MODEL_NAME**|**DBTYPE_WSTR**|The mining model name. This column contains the name of the mining model, and it is never empty.|  
 |**MODEL_TYPE**|**DBTYPE_WSTR**|The model type.|  
 |**MODEL_GUID**|**DBTYPE_GUID**|The GUID of the model.|  
 |**DESCRIPTION**|**DBTYPE_WSTR**|A user-friendly description of the model.|  
-|**MODEL_PROPID**|**DBTYPE_UI4**|The property ID of the model. This column is not supported by [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)]; it always contains **NULL**.|  
+|**MODEL_PROPID**|**DBTYPE_UI4**|The property ID of the model. This column is not supported by Analysis Services; it always contains **NULL**.|  
 |**DATE_CREATED**|**DBTYPE_DBTIMESTAMP**|The date on which the model was created.|  
 |**DATE_MODIFIED**|**DBTYPE_DBTIMESTAMP**|The date on which the model definition was last modified.|  
 |**SERVICE_TYPE_ID**|**DBTYPE_UI4**|An enumeration that identifies the type of data mining algorithm that is used by the model. This type can be one of the following values:<br /><br /> **DM_SERVICETYPE_CLASSIFICATION** (1)<br /><br /> **DM_SERVICETYPE_SEGMENTATION**(2)<br /><br /> **DM_SERVICETYPE_ ASSOCIATION**(4)<br /><br /> **DM_SERVICETYPE_ DENSITY_ESTIMATE**(8)<br /><br /> **DM_SERVICETYPE_SEQUENCE**(16)|  
@@ -58,6 +58,6 @@ manager: kfile
  For examples of how to query this rowset, see [Query the Parameters Used to Create a Mining Model](../../../analysis-services/data-mining/query-the-parameters-used-to-create-a-mining-model.md).  
   
 ## See Also  
- [Data Mining Schema Rowsets](../../../analysis-services/schema-rowsets/data-mining/data-mining-schema-rowsets.md)  
+ [Data Mining Schema Rowsets](data-mining-schema-rowsets.md)  
   
   

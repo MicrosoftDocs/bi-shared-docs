@@ -1,6 +1,6 @@
 ---
 title: "Edition Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Edition Element (ASSL)
 
-  Contains the read-only edition of the instance of  represented by the [Server](../../../analysis-services/scripting/objects/server-element-assl.md) element.  
+  Contains the read-only edition of the instance of  represented by the [Server](objects/server-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Server](../../../analysis-services/scripting/objects/server-element-assl.md)|  
+|Parent elements|[Server](objects/server-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -63,7 +63,7 @@ manager: kfile
  The enumeration corresponding to the allowed values for **ServerEdition** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ServerEdition>.  
   
 ## See Also  
- [Version Element &#40;ASSL&#41;](../../../analysis-services/scripting/properties/version-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Version Element &#40;ASSL&#41;](properties/version-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

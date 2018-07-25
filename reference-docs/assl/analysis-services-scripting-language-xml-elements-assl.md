@@ -23,18 +23,12 @@ manager: kfile
 -   Data types, such as **Binding** and **Permission**, that are used to define the child elements and properties of other objects.  
   
     > [!NOTE]  
-    >  This section does not cover data type elements. For more information, see, [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md).  
+    >  This section does not cover data type elements. For more information, see, [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md).  
   
 ## In This Section  
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[Objects &#40;ASSL&#41;](../../analysis-services/scripting/objects/objects-assl.md)|Contains syntax and usage information for each element that acts as an object in the ASSL schema.|  
-|[Collections &#40;ASSL&#41;](../../analysis-services/scripting/collections/collections-assl.md)|Contains syntax and usage information for each element that acts as a collection in the ASSL schema.|  
-|[Properties &#40;ASSL&#41;](../../analysis-services/scripting/properties/properties-assl.md)|Contains syntax and usage information for each element that acts as an object property in the ASSL schema.|  
-  
-## See Also  
- [Analysis Services Scripting Language XML Element Hierarchy &#40;ASSL&#41;](../../analysis-services/scripting/analysis-services-scripting-language-xml-element-hierarchy-assl.md)   
- [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](../../analysis-services/scripting/analysis-services-scripting-language-assl-for-xmla.md)  
-  
-  
+|[Objects &#40;ASSL&#41;](objects/objects-assl.md)|Contains syntax and usage information for each element that acts as an object in the ASSL schema.|  
+|[Collections &#40;ASSL&#41;](collections/collections-assl.md)|Contains syntax and usage information for each element that acts as a collection in the ASSL schema.|  
+|[Properties &#40;ASSL&#41;](properties/properties-assl.md)|Contains syntax and usage information for each element that acts as an object property in the ASSL schema.|  

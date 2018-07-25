@@ -1,6 +1,6 @@
 ---
 title: "DMSCHEMA_MINING_FUNCTIONS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # DMSCHEMA_MINING_FUNCTIONS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  Describes the data mining functions that are supported by the data mining algorithms available on a server that is running [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)].  
+
+  Describes the data mining functions that are supported by the data mining algorithms available on a server that is running Analysis Services.  
   
 ## Rowset Columns  
  The **DMSCHEMA_MINING_FUNCTIONS** rowset contains the following columns.  
@@ -36,6 +36,6 @@ manager: kfile
 |**FUNCTION_NAME**|**DBTYPE_WSTR**|Optional.|  
   
 ## See Also  
- [Data Mining Schema Rowsets](../../../analysis-services/schema-rowsets/data-mining/data-mining-schema-rowsets.md)  
+ [Data Mining Schema Rowsets](data-mining-schema-rowsets.md)  
   
   

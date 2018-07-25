@@ -38,14 +38,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Groups](../../../analysis-services/scripting/collections/groups-element-assl.md)|  
-|Child elements|[Members](../../../analysis-services/scripting/collections/members-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md)|  
+|Parent elements|[Groups](collections/groups-element-assl.md)|  
+|Child elements|[Members](collections/members-element-assl.md), [Name](properties/name-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Group>.  
   
 ## See Also  
- [UserDefinedGroupBinding Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/userdefinedgroupbinding-data-type-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [UserDefinedGroupBinding Data Type &#40;ASSL&#41;](data-type/userdefinedgroupbinding-data-type-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

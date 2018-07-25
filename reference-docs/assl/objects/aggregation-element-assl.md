@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Aggregation Element (ASSL)
 
-  Defines a single aggregation for a [Partition](../../../analysis-services/scripting/objects/partition-element-assl.md) element.  
+  Defines a single aggregation for a [Partition](objects/partition-element-assl.md) element.  
   
 ## Syntax  
   
@@ -41,16 +41,16 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Aggregations](../../../analysis-services/scripting/collections/aggregations-element-assl.md)|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [Dimensions](../../../analysis-services/scripting/collections/dimensions-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md)|  
+|Parent element|[Aggregations](collections/aggregations-element-assl.md)|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [Description](properties/description-element-assl.md), [Dimensions](collections/dimensions-element-assl.md), [ID](properties/id-element-assl.md), [Name](properties/name-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Aggregation>.  
   
 ## See Also  
- [Partition Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/partition-element-assl.md)   
- [AggregationDesign Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/aggregationdesign-element-assl.md)   
- [MeasureGroup Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/measuregroup-element-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Partition Element &#40;ASSL&#41;](objects/partition-element-assl.md)   
+ [AggregationDesign Element &#40;ASSL&#41;](objects/aggregationdesign-element-assl.md)   
+ [MeasureGroup Element &#40;ASSL&#41;](objects/measuregroup-element-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

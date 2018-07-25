@@ -45,25 +45,25 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[Database](../../../analysis-services/scripting/objects/database-element-assl.md)|[Dimension](../../../analysis-services/scripting/data-type/dimension-data-type-assl.md)|  
-|[Aggregation](../../../analysis-services/scripting/objects/aggregation-element-assl.md)|[AggregationDimension](../../../analysis-services/scripting/data-type/aggregationdimension-data-type-assl.md)|  
-|[AggregationDesign](../../../analysis-services/scripting/objects/aggregationdesign-element-assl.md)|[AggregationDesignDimension](../../../analysis-services/scripting/data-type/aggregationdesigndimension-data-type-assl.md)|  
-|[AggregationInstance](../../../analysis-services/scripting/objects/aggregationinstance-element-assl.md)|[AggregationInstanceCubeDimension](../../../analysis-services/scripting/data-type/aggregationinstancecubedimension-data-type-assl.md)|  
-|[Cube](../../../analysis-services/scripting/objects/cube-element-assl.md)|[CubeDimension](../../../analysis-services/scripting/data-type/cubedimension-data-type-assl.md)|  
-|[MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md)|[MeasureGroupDimension](../../../analysis-services/scripting/data-type/measuregroupdimension-data-type-assl.md)|  
-|[Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md)|[PerspectiveDimension](../../../analysis-services/scripting/data-type/perspectivedimension-data-type-assl.md)|  
+|[Database](objects/database-element-assl.md)|[Dimension](data-type/dimension-data-type-assl.md)|  
+|[Aggregation](objects/aggregation-element-assl.md)|[AggregationDimension](data-type/aggregationdimension-data-type-assl.md)|  
+|[AggregationDesign](objects/aggregationdesign-element-assl.md)|[AggregationDesignDimension](data-type/aggregationdesigndimension-data-type-assl.md)|  
+|[AggregationInstance](objects/aggregationinstance-element-assl.md)|[AggregationInstanceCubeDimension](data-type/aggregationinstancecubedimension-data-type-assl.md)|  
+|[Cube](objects/cube-element-assl.md)|[CubeDimension](data-type/cubedimension-data-type-assl.md)|  
+|[MeasureGroup](objects/measuregroup-element-assl.md)|[MeasureGroupDimension](data-type/measuregroupdimension-data-type-assl.md)|  
+|[Perspective](objects/perspective-element-assl.md)|[PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Dimensions](../../../analysis-services/scripting/collections/dimensions-element-assl.md)|  
+|Parent elements|[Dimensions](collections/dimensions-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Dimension>, <xref:Microsoft.AnalysisServices.AggregationDimension>, <xref:Microsoft.AnalysisServices.AggregationDesignDimension>, <xref:Microsoft.AnalysisServices.CubeDimension>, <xref:Microsoft.AnalysisServices.MeasureGroupDimension>, and <xref:Microsoft.AnalysisServices.PerspectiveDimension>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MiningModelingFlag Data Type (ASSL)
 
-  Defines a primitive data type that represents the available modeling flags for a [ModelingFlag](../../../analysis-services/scripting/objects/modelingflag-element-assl.md) element.  
+  Defines a primitive data type that represents the available modeling flags for a [ModelingFlag](objects/modelingflag-element-assl.md) element.  
   
 ## Syntax  
   
@@ -34,7 +34,7 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|None|  
-|Derived elements|[ModelingFlag](../../../analysis-services/scripting/objects/modelingflag-element-assl.md) ([ModelingFlags](../../../analysis-services/scripting/collections/modelingflags-element-assl.md) collection of [MiningModelColumn](../../../analysis-services/scripting/data-type/miningmodelcolumn-data-type-assl.md) or [ScalarMiningStructureColumn](../../../analysis-services/scripting/data-type/scalarminingstructurecolumn-data-type-assl.md))|  
+|Derived elements|[ModelingFlag](objects/modelingflag-element-assl.md) ([ModelingFlags](collections/modelingflags-element-assl.md) collection of [MiningModelColumn](data-type/miningmodelcolumn-data-type-assl.md) or [ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md))|  
   
 ## Remarks  
  The flag name may contain spaces. The natively-supported values are listed in the following table.  
@@ -50,6 +50,6 @@ manager: kfile
  A closely related element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModelingFlags>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

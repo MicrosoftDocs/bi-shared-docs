@@ -1,6 +1,6 @@
 ---
 title: "MDSCHEMA_KPIS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDSCHEMA_KPIS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Describes the key performance indicators (KPIs) within a database.  
   
 ## Rowset Columns  
@@ -26,7 +26,7 @@ manager: kfile
 |**KPI_NAME**|**DBTYPE_WSTR**|The name of the KPI.|  
 |**KPI_CAPTION**|**DBTYPE_WSTR**|A label or caption associated with the KPI. Used primarily for display purposes. If a caption does not exist, **KPI_NAME** is returned.|  
 |**KPI_DESCRIPTION**|**DBTYPE_WSTR**|A human-readable description of the KPI.|  
-|**KPI_DISPLAY_FOLDER**|**DBTYPE_WSTR**|A string that identifies the path of the display folder that the client application uses to show the member. The folder level separator is defined by the client application. For the tools and clients supplied by [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)], the backslash (\\) is the level separator. To provide multiple display folders, use a semicolon (;) to separate the folders.|  
+|**KPI_DISPLAY_FOLDER**|**DBTYPE_WSTR**|A string that identifies the path of the display folder that the client application uses to show the member. The folder level separator is defined by the client application. For the tools and clients supplied by Analysis Services, the backslash (\\) is the level separator. To provide multiple display folders, use a semicolon (;) to separate the folders.|  
 |**KPI_VALUE**|**DBTYPE_WSTR**|The unique name of the member in the measures dimension for the KPI Value.|  
 |**KPI_GOAL**|**DBTYPE_WSTR**|The unique name of the member in the measures dimension for the KPI Goal.<br /><br /> Returns **NULL** if there is no Goal defined.|  
 |**KPI_STATUS**|**DBTYPE_WSTR**|The unique name of the member in the measures dimension for the KPI Status.<br /><br /> Returns **NULL** if there is no Status defined.|  
@@ -53,6 +53,6 @@ manager: kfile
 |**CUBE_SOURCE**|**DBTYPE_UI2**|(Optional) Default restriction is a value of **1**. A bitmap with one of the following valid values:<br /><br /> **1** CUBE<br /><br /> **2** DIMENSION|  
   
 ## See Also  
- [OLE DB for OLAP Schema Rowsets](../../../analysis-services/schema-rowsets/ole-db-olap/ole-db-for-olap-schema-rowsets.md)  
+ [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
   
   

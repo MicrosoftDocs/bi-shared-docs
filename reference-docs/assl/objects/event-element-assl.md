@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Event Element (ASSL)
 
-  Defines an **Event** to be captured as part of a [Trace](../../../analysis-services/scripting/objects/trace-element-assl.md) element.  
+  Defines an **Event** to be captured as part of a [Trace](objects/trace-element-assl.md) element.  
   
 ## Syntax  
   
@@ -38,14 +38,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Events](../../../analysis-services/scripting/collections/events-element-assl.md)|  
-|Child elements|[Columns](../../../analysis-services/scripting/collections/columns-element-assl.md), [EventID](../../../analysis-services/scripting/properties/eventid-element-assl.md)|  
+|Parent elements|[Events](collections/events-element-assl.md)|  
+|Child elements|[Columns](collections/columns-element-assl.md), [EventID](properties/eventid-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TraceEvent>.  
   
 ## See Also  
- [Trace Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/trace-element-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Trace Element &#40;ASSL&#41;](objects/trace-element-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

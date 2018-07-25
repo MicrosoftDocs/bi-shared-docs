@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AllMemberName Element (ASSL)
 
-  Contains the caption in the default language for the All member of a [Hierarchy](../../../analysis-services/scripting/objects/hierarchy-element-assl.md) element.  
+  Contains the caption in the default language for the All member of a [Hierarchy](objects/hierarchy-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Hierarchy](../../../analysis-services/scripting/objects/hierarchy-element-assl.md)|  
+|Parent element|[Hierarchy](objects/hierarchy-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **AllMemberName** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Hierarchy>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

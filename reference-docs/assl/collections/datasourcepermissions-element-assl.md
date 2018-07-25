@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSourcePermissions Element (ASSL)
 
-  Contains the collection of [DataSourcePermission](../../../analysis-services/scripting/objects/datasourcepermission-element-assl.md) elements associated with a [DataSource](../../../analysis-services/scripting/data-type/datasource-data-type-assl.md) data type.  
+  Contains the collection of [DataSourcePermission](objects/datasourcepermission-element-assl.md) elements associated with a [DataSource](data-type/datasource-data-type-assl.md) data type.  
   
 ## Syntax  
   
@@ -39,13 +39,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DataSource](../../../analysis-services/scripting/data-type/datasource-data-type-assl.md)|  
-|Child elements|[DataSourcePermission](../../../analysis-services/scripting/objects/datasourcepermission-element-assl.md)|  
+|Parent elements|[DataSource](data-type/datasource-data-type-assl.md)|  
+|Child elements|[DataSourcePermission](objects/datasourcepermission-element-assl.md)|  
   
 ## Remarks  
-  
-## See Also  
- [Permission Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/permission-data-type-assl.md)   
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

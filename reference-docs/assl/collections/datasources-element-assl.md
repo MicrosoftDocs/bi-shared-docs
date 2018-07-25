@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSources Element (ASSL)
 
-  Contains the collection of [DataSource](../../../analysis-services/scripting/objects/datasource-element-assl.md) elements associated with a [Database](../../../analysis-services/scripting/objects/database-element-assl.md) element.  
+  Contains the collection of [DataSource](objects/datasource-element-assl.md) elements associated with a [Database](objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,13 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Database](../../../analysis-services/scripting/objects/database-element-assl.md)|  
-|Child elements|[DataSource](../../../analysis-services/scripting/objects/datasource-element-assl.md)|  
+|Parent elements|[Database](objects/database-element-assl.md)|  
+|Child elements|[DataSource](objects/datasource-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataSourceCollection>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

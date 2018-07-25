@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DatabaseID Element (ASSL)
 
-  Identifies the [Database](../../../analysis-services/scripting/objects/database-element-assl.md) element associated with an out-of-line [Binding](../../../analysis-services/scripting/data-type/binding-data-type-assl.md) element.  
+  Identifies the [Database](objects/database-element-assl.md) element associated with an out-of-line [Binding](data-type/binding-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DimensionAttributeBinding](../../../analysis-services/scripting/data-type/dimensionattributebinding-data-type-out-of-line-assl.md), [MeasureGroupAttributeBinding](../../../analysis-services/scripting/data-type/measuregroupattributebinding-data-type-out-of-line-assl.md)|  
+|Parent element|[DimensionAttributeBinding](data-type/dimensionattributebinding-data-type-out-of-line-assl.md), [MeasureGroupAttributeBinding](data-type/measuregroupattributebinding-data-type-out-of-line-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  For more information about out-of-line bindings, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

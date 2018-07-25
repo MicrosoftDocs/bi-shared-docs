@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSourcePermission Element (ASSL)
 
-  Defines the default permissions in a [DataSource](../../../analysis-services/scripting/data-type/datasource-data-type-assl.md) data type for a specific [Role](../../../analysis-services/scripting/objects/role-element-assl.md) element.  
+  Defines the default permissions in a [DataSource](data-type/datasource-data-type-assl.md) data type for a specific [Role](objects/role-element-assl.md) element.  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[Permission](../../../analysis-services/scripting/data-type/permission-data-type-assl.md)|  
+|Data type and length|[Permission](data-type/permission-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur once or more than once.|  
   
@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DataSourcePermissions](../../../analysis-services/scripting/collections/datasourcepermissions-element-assl.md)|  
+|Parent elements|[DataSourcePermissions](collections/datasourcepermissions-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  **DataSourcePermission** objects can exist only for roles owned by the database, and only one **DataSourcePermission** object can exist for any role.  
   
 ## See Also  
- [Role Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/role-element-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Role Element &#40;ASSL&#41;](objects/role-element-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

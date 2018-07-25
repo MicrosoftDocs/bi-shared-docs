@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Account Element (ImpersonationInfo) (ASSL)
 
-  Contains the name of the user account for the [ImpersonationInfo](../../../analysis-services/scripting/data-type/impersonationinfo-data-type-assl.md) data type.  
+  Contains the name of the user account for the [ImpersonationInfo](data-type/impersonationinfo-data-type-assl.md) data type.  
   
 ## Syntax  
   
@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ImpersonationInfo](../../../analysis-services/scripting/data-type/impersonationinfo-data-type-assl.md)|  
+|Parent elements|[ImpersonationInfo](data-type/impersonationinfo-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The value of the **Account** element, as well as the value of the [Password](../../../analysis-services/scripting/properties/password-element-assl.md) element, is used for impersonation purposes if the value of the [ImpersonationMode](../../../analysis-services/scripting/properties/impersonationmode-element-assl.md) element for any element derived from the **ImpersonationInfo** data type is set to *ImpersonateAccount*.  
+ The value of the **Account** element, as well as the value of the [Password](properties/password-element-assl.md) element, is used for impersonation purposes if the value of the [ImpersonationMode](properties/impersonationmode-element-assl.md) element for any element derived from the **ImpersonationInfo** data type is set to *ImpersonateAccount*.  
   
 ## See Also  
- [DataSourceImpersonationInfo Element &#40;ASSL&#41;](../../../analysis-services/scripting/properties/datasourceimpersonationinfo-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [DataSourceImpersonationInfo Element &#40;ASSL&#41;](properties/datasourceimpersonationinfo-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "EventID Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # EventID Element (ASSL)
 
-  Uniquely identifies an [Event](../../../analysis-services/scripting/objects/event-element-assl.md) element that is to be captured as part of a [Trace](../../../analysis-services/scripting/objects/trace-element-assl.md) element.  
+  Uniquely identifies an [Event](objects/event-element-assl.md) element that is to be captured as part of a [Trace](objects/trace-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Event](../../../analysis-services/scripting/objects/event-element-assl.md)|  
+|Parent elements|[Event](objects/event-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element corresponding to the parent of **EventID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TraceEvent>.  
   
 ## See Also  
- [Events Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/events-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Events Element &#40;ASSL&#41;](collections/events-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

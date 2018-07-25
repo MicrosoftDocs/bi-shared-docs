@@ -22,13 +22,8 @@ manager: kfile
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[Analysis Services Scripting Language XML Element Hierarchy &#40;ASSL&#41;](../../analysis-services/scripting/analysis-services-scripting-language-xml-element-hierarchy-assl.md)|A detailed diagram of the hierarchy of elements in ASSL.|  
-|[Analysis Services Scripting Language XML Data Type Hierarchy &#40;ASSL&#41;](../../analysis-services/scripting/analysis-services-scripting-language-xml-data-type-hierarchy-assl.md)|A detailed diagram of the inheritance hierarchy of data types in ASSL.|  
-|[Analysis Services Scripting Language XML Elements &#40;ASSL&#41;](../../analysis-services/scripting/analysis-services-scripting-language-xml-elements-assl.md)|Syntax reference for each element in the ASSL schema.|  
-|[Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)|Syntax reference for each data type in the ASSL schema.|  
-  
-## See Also  
- [Developing with Analysis Services Scripting Language &#40;ASSL&#41;](../../analysis-services/multidimensional-models/scripting-language-assl/developing-with-analysis-services-scripting-language-assl.md)   
- [Developing with Analysis Management Objects &#40;AMO&#41;](../../analysis-services/multidimensional-models/analysis-management-objects/developing-with-analysis-management-objects-amo.md)  
-  
-  
+|[Analysis Services Scripting Language XML Element Hierarchy &#40;ASSL&#41;](analysis-services-scripting-language-xml-element-hierarchy-assl.md)|A detailed diagram of the hierarchy of elements in ASSL.|  
+|[Analysis Services Scripting Language XML Data Type Hierarchy &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-type-hierarchy-assl.md)|A detailed diagram of the inheritance hierarchy of data types in ASSL.|  
+|[Analysis Services Scripting Language XML Elements &#40;ASSL&#41;](analysis-services-scripting-language-xml-elements-assl.md)|Syntax reference for each element in the ASSL schema.|  
+|[Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)|Syntax reference for each data type in the ASSL schema.|  
+

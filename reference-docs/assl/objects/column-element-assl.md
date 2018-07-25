@@ -36,10 +36,10 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[DrillThroughAction](../../../analysis-services/scripting/data-type/drillthroughaction-data-type-assl.md)|[MeasureBinding](../../../analysis-services/scripting/data-type/measurebinding-data-type-assl.md), [CubeAttributeBinding](../../../analysis-services/scripting/data-type/cubeattributebinding-data-type-assl.md)|  
-|[Event](../../../analysis-services/scripting/objects/event-element-assl.md)|[EventColumn](../../../analysis-services/scripting/data-type/eventcolumn-data-type-assl.md)|  
-|[MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md), [MiningModelColumn](../../../analysis-services/scripting/data-type/miningmodelcolumn-data-type-assl.md)|[MiningModelColumn](../../../analysis-services/scripting/data-type/miningmodelcolumn-data-type-assl.md)|  
-|[MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md), [TableMiningStructureColumn](../../../analysis-services/scripting/data-type/tableminingstructurecolumn-data-type-assl.md)|[MiningStructureColumn](../../../analysis-services/scripting/data-type/miningstructurecolumn-data-type-assl.md)|  
+|[DrillThroughAction](data-type/drillthroughaction-data-type-assl.md)|[MeasureBinding](data-type/measurebinding-data-type-assl.md), [CubeAttributeBinding](data-type/cubeattributebinding-data-type-assl.md)|  
+|[Event](objects/event-element-assl.md)|[EventColumn](data-type/eventcolumn-data-type-assl.md)|  
+|[MiningModel](objects/miningmodel-element-assl.md), [MiningModelColumn](data-type/miningmodelcolumn-data-type-assl.md)|[MiningModelColumn](data-type/miningmodelcolumn-data-type-assl.md)|  
+|[MiningStructure](objects/miningstructure-element-assl.md), [TableMiningStructureColumn](data-type/tableminingstructurecolumn-data-type-assl.md)|[MiningStructureColumn](data-type/miningstructurecolumn-data-type-assl.md)|  
   
  **Default value**: None  
   
@@ -47,17 +47,17 @@ manager: kfile
   
 |Ancestor or Parent|Cardinality|  
 |------------------------|-----------------|  
-|[Event](../../../analysis-services/scripting/objects/event-element-assl.md)|1-n: Required element that can occur more than once.|  
+|[Event](objects/event-element-assl.md)|1-n: Required element that can occur more than once.|  
 |All others|0-1: Optional element that can occur once and only once.|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Columns](../../../analysis-services/scripting/collections/columns-element-assl.md)|  
+|Parent elements|[Columns](collections/columns-element-assl.md)|  
 |Child elements|None|  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

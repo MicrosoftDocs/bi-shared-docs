@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Block Element (ASSL)
 
-  Contains all or a portion of the binary contents of a [ClrAssemblyFile](../../../analysis-services/scripting/data-type/clrassemblyfile-data-type-assl.md) element.  
+  Contains all or a portion of the binary contents of a [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -35,17 +35,17 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Blocks](../../../analysis-services/scripting/collections/blocks-element-assl.md)|  
+|Parent elements|[Blocks](collections/blocks-element-assl.md)|  
 |Child elements|None|  
   
 ## See Also  
- [Assembly Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/assembly-element-assl.md)   
- [ClrAssembly Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/clrassembly-data-type-assl.md)   
- [Files Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/files-element-assl.md)   
- [File Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/file-element-assl.md)   
- [ClrAssemblyFile Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/clrassemblyfile-data-type-assl.md)   
- [Data Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/data-element-assl.md)   
- [DataBlock Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/datablock-data-type-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Assembly Element &#40;ASSL&#41;](objects/assembly-element-assl.md)   
+ [ClrAssembly Data Type &#40;ASSL&#41;](data-type/clrassembly-data-type-assl.md)   
+ [Files Element &#40;ASSL&#41;](collections/files-element-assl.md)   
+ [File Element &#40;ASSL&#41;](objects/file-element-assl.md)   
+ [ClrAssemblyFile Data Type &#40;ASSL&#41;](data-type/clrassemblyfile-data-type-assl.md)   
+ [Data Element &#40;ASSL&#41;](objects/data-element-assl.md)   
+ [DataBlock Data Type &#40;ASSL&#41;](data-type/datablock-data-type-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

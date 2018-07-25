@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Calculation Element (ASSL)
 
-  Asssociates a calculation with a [Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md) element.  
+  Asssociates a calculation with a [Perspective](objects/perspective-element-assl.md) element.  
   
 ## Syntax  
   
@@ -28,7 +28,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[PerspectiveCalculation](../../../analysis-services/scripting/data-type/perspectivecalculation-data-type-assl.md)|  
+|Data type and length|[PerspectiveCalculation](data-type/perspectivecalculation-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur more than once.|  
   
@@ -36,13 +36,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Calculations](../../../analysis-services/scripting/collections/calculations-element-assl.md)|  
+|Parent elements|[Calculations](collections/calculations-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CalculationType> and <xref:Microsoft.AnalysisServices.PerspectiveCalculationType>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

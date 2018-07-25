@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSource Data Type (ASSL)
 
-  Defines an abstract primitive data type that represents a data source in a [Database](../../../analysis-services/scripting/objects/database-element-assl.md) element.  
+  Defines an abstract primitive data type that represents a data source in a [Database](objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -41,14 +41,14 @@ manager: kfile
 |Characteristic|Description|  
 |--------------------|-----------------|  
 |Base data types|None|  
-|Derived data types|[RelationalDataSource](../../../analysis-services/scripting/data-type/relationaldatasource-data-type-assl.md), [OlapDataSource](../../../analysis-services/scripting/data-type/olapdatasource-data-type-assl.md), [PushedDataSource](../../../analysis-services/scripting/data-type/pusheddatasource-data-type-assl.md)|  
+|Derived data types|[RelationalDataSource](data-type/relationaldatasource-data-type-assl.md), [OlapDataSource](data-type/olapdatasource-data-type-assl.md), [PushedDataSource](data-type/pusheddatasource-data-type-assl.md)|  
   
 ## Data Type Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [ConnectionString](../../../analysis-services/scripting/properties/connectionstring-element-assl.md), [ConnectionStringSecurity](../../../analysis-services/scripting/properties/connectionstringsecurity-element-assl.md), [CreatedTimestamp](../../../analysis-services/scripting/properties/createdtimestamp-element-assl.md), [DataSourcePermission](../../../analysis-services/scripting/collections/datasourcepermissions-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [ImpersonationInfo](../../../analysis-services/scripting/properties/impersonationinfo-element-assl.md), [Isolation](../../../analysis-services/scripting/properties/isolation-element-assl.md), [LastSchemaUpdate](../../../analysis-services/scripting/properties/lastschemaupdate-element-assl.md), [ManagedProvider](../../../analysis-services/scripting/properties/managedprovider-element-assl.md), [MaxActiveConnections](../../../analysis-services/scripting/properties/maxactiveconnections-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [Timeout](../../../analysis-services/scripting/properties/timeout-element-assl.md)|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [ConnectionString](properties/connectionstring-element-assl.md), [ConnectionStringSecurity](properties/connectionstringsecurity-element-assl.md), [CreatedTimestamp](properties/createdtimestamp-element-assl.md), [DataSourcePermission](collections/datasourcepermissions-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [ImpersonationInfo](properties/impersonationinfo-element-assl.md), [Isolation](properties/isolation-element-assl.md), [LastSchemaUpdate](properties/lastschemaupdate-element-assl.md), [ManagedProvider](properties/managedprovider-element-assl.md), [MaxActiveConnections](properties/maxactiveconnections-element-assl.md), [Name](properties/name-element-assl.md), [Timeout](properties/timeout-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  
@@ -59,6 +59,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataSource>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

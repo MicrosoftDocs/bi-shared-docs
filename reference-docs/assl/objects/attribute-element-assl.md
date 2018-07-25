@@ -49,26 +49,26 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[AggregationDesignDimension](../../../analysis-services/scripting/data-type/aggregationdesigndimension-data-type-assl.md)|[AggregationDesignAttribute](../../../analysis-services/scripting/data-type/aggregationdesignattribute-data-type-assl.md)|  
-|[AggregationDimension](../../../analysis-services/scripting/data-type/aggregationdimension-data-type-assl.md)|[AggregationAttribute](../../../analysis-services/scripting/data-type/aggregationattribute-data-type-assl.md)|  
-|[AggregationInstanceCubeDimension](../../../analysis-services/scripting/data-type/aggregationinstancecubedimension-data-type-assl.md)|[AggregationInstanceAttribute](../../../analysis-services/scripting/data-type/aggregationinstanceattribute-data-type-assl.md)|  
-|[CubeDimension](../../../analysis-services/scripting/data-type/cubedimension-data-type-assl.md)|[CubeAttribute](../../../analysis-services/scripting/data-type/cubeattribute-data-type-assl.md)|  
-|[Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md)|[DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md)|  
-|[RegularMeasureGroupDimension](../../../analysis-services/scripting/data-type/regularmeasuregroupdimension-data-type-assl.md)|[MeasureGroupAttribute](../../../analysis-services/scripting/data-type/measuregroupattribute-data-type-assl.md)|  
-|[PerspectiveDimension](../../../analysis-services/scripting/data-type/perspectivedimension-data-type-assl.md)|[PerspectiveAttribute](../../../analysis-services/scripting/data-type/perspectiveattribute-data-type-assl.md)|  
-|[RelationshipEnd](../../../analysis-services/scripting/data-type/relationshipend-data-type-assl.md)|\<Attribute><br />      \<[AttributeID](../../../analysis-services/scripting/properties/attributeid-element-assl.md)>...\</AttributeID>\</Attribute>|  
+|[AggregationDesignDimension](data-type/aggregationdesigndimension-data-type-assl.md)|[AggregationDesignAttribute](data-type/aggregationdesignattribute-data-type-assl.md)|  
+|[AggregationDimension](data-type/aggregationdimension-data-type-assl.md)|[AggregationAttribute](data-type/aggregationattribute-data-type-assl.md)|  
+|[AggregationInstanceCubeDimension](data-type/aggregationinstancecubedimension-data-type-assl.md)|[AggregationInstanceAttribute](data-type/aggregationinstanceattribute-data-type-assl.md)|  
+|[CubeDimension](data-type/cubedimension-data-type-assl.md)|[CubeAttribute](data-type/cubeattribute-data-type-assl.md)|  
+|[Dimension](objects/dimension-element-assl.md)|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
+|[RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md)|[MeasureGroupAttribute](data-type/measuregroupattribute-data-type-assl.md)|  
+|[PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|[PerspectiveAttribute](data-type/perspectiveattribute-data-type-assl.md)|  
+|[RelationshipEnd](data-type/relationshipend-data-type-assl.md)|\<Attribute><br />      \<[AttributeID](properties/attributeid-element-assl.md)>...\</AttributeID>\</Attribute>|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Attributes](../../../analysis-services/scripting/collections/attributes-element-assl.md)|  
+|Parent elements|[Attributes](collections/attributes-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AggregationDesignAttribute>, <xref:Microsoft.AnalysisServices.AggregationAttribute>, <xref:Microsoft.AnalysisServices.CubeAttribute>, <xref:Microsoft.AnalysisServices.DimensionAttribute>, <xref:Microsoft.AnalysisServices.MeasureGroupAttribute>, and <xref:Microsoft.AnalysisServices.PerspectiveAttribute>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

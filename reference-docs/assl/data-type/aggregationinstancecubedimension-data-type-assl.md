@@ -37,12 +37,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Attributes](../../../analysis-services/scripting/collections/attributes-element-assl.md), [CubeDimensionID](../../../analysis-services/scripting/properties/cubedimensionid-element-assl.md), [KeyColumns](../../../analysis-services/scripting/collections/keycolumns-element-assl.md)|  
-|Derived elements|[Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md)|  
+|Child elements|[Attributes](collections/attributes-element-assl.md), [CubeDimensionID](properties/cubedimensionid-element-assl.md), [KeyColumns](collections/keycolumns-element-assl.md)|  
+|Derived elements|[Dimension](objects/dimension-element-assl.md)|  
   
 ## Remarks  
-  
-## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
-  
-  

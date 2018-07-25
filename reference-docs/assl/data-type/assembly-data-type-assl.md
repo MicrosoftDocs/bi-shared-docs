@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Assembly Data Type (ASSL)
 
-  Defines an abstract primitive data type that represents a  [!INCLUDE[dnprdnshort](../../../includes/dnprdnshort-md.md)] assembly or a COM dynamic link library (DLL) associated with a [Server](../../../analysis-services/scripting/objects/server-element-assl.md) or [Database](../../../analysis-services/scripting/objects/database-element-assl.md) element.  
+  Defines an abstract primitive data type that represents a  [!INCLUDE[dnprdnshort](../../../includes/dnprdnshort-md.md)] assembly or a COM dynamic link library (DLL) associated with a [Server](objects/server-element-assl.md) or [Database](objects/database-element-assl.md) element.  
   
 > [!IMPORTANT]  
 >  COM assemblies might pose a security risk. Due to this risk and other considerations, COM assemblies were deprecated in [!INCLUDE[ssASversion10](../../../includes/ssasversion10-md.md)]. COM assemblies might not be supported in future releases.  
@@ -37,14 +37,14 @@ manager: kfile
 |Characteristic|Description|  
 |--------------------|-----------------|  
 |Base data types|None|  
-|Derived data types|[ClrAssembly](../../../analysis-services/scripting/data-type/clrassembly-data-type-assl.md), [ComAssembly](../../../analysis-services/scripting/data-type/comassembly-data-type-assl.md)|  
+|Derived data types|[ClrAssembly](data-type/clrassembly-data-type-assl.md), [ComAssembly](data-type/comassembly-data-type-assl.md)|  
   
 ## Data Type Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [CreatedTimestamp](../../../analysis-services/scripting/properties/createdtimestamp-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [ImpersonationInfo](../../../analysis-services/scripting/properties/impersonationinfo-element-assl.md), [LastSchemaUpdate](../../../analysis-services/scripting/properties/lastschemaupdate-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md)|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [CreatedTimestamp](properties/createdtimestamp-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [ImpersonationInfo](properties/impersonationinfo-element-assl.md), [LastSchemaUpdate](properties/lastschemaupdate-element-assl.md), [Name](properties/name-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  
@@ -53,8 +53,8 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Assembly>.  
   
 ## See Also  
- [Server Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/server-element-assl.md)   
- [Database Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/database-element-assl.md)   
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Server Element &#40;ASSL&#41;](objects/server-element-assl.md)   
+ [Database Element &#40;ASSL&#41;](objects/database-element-assl.md)   
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Blocks Element (ASSL)
 
-  Contains the collection of blocks of binary data that represent the binary contents of a [ClrAssemblyFile](../../../analysis-services/scripting/data-type/clrassemblyfile-data-type-assl.md) element.  
+  Contains the collection of blocks of binary data that represent the binary contents of a [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -39,22 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Data](../../../analysis-services/scripting/objects/data-element-assl.md) of type [DataBlock](../../../analysis-services/scripting/data-type/datablock-data-type-assl.md)|  
-|Child elements|[Block](../../../analysis-services/scripting/objects/block-element-assl.md)|  
+|Parent elements|[Data](objects/data-element-assl.md) of type [DataBlock](data-type/datablock-data-type-assl.md)|  
+|Child elements|[Block](objects/block-element-assl.md)|  
   
 ## Remarks  
  The element that corresponds to the parent of **Blocks** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ClrAssemblyFile>.  
-  
-## See Also  
- [Assembly Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/assembly-element-assl.md)   
- [ClrAssembly Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/clrassembly-data-type-assl.md)   
- [Files Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/files-element-assl.md)   
- [File Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/file-element-assl.md)   
- [ClrAssemblyFile Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/clrassemblyfile-data-type-assl.md)   
- [Data Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/data-element-assl.md)   
- [DataBlock Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/datablock-data-type-assl.md)   
- [Blocks Element](../../../analysis-services/scripting/collections/blocks-element-assl.md)   
- [Block Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/block-element-assl.md)   
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

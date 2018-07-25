@@ -45,19 +45,19 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[AllMemberAggregationUsage](../../../analysis-services/scripting/properties/allmemberaggregationusage-element-assl.md), [Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [Attributes](../../../analysis-services/scripting/collections/attributes-element-assl.md), [DimensionID](../../../analysis-services/scripting/properties/dimensionid-element-assl.md), [Hierarchies](../../../analysis-services/scripting/collections/hierarchies-element-assl.md), [HierarchyUniqueNameStyle](../../../analysis-services/scripting/properties/hierarchyuniquenamestyle-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [MemberUniqueNameStyle](../../../analysis-services/scripting/properties/memberuniquenamestyle-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [Visible](../../../analysis-services/scripting/properties/visible-element-assl.md), [Translations](../../../analysis-services/scripting/collections/translations-element-assl.md)|  
-|Derived elements|[Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md) ([Dimensions](../../../analysis-services/scripting/collections/dimensions-element-assl.md) collection of [Cube](../../../analysis-services/scripting/objects/cube-element-assl.md))|  
+|Child elements|[AllMemberAggregationUsage](properties/allmemberaggregationusage-element-assl.md), [Annotations](collections/annotations-element-assl.md), [Attributes](collections/attributes-element-assl.md), [DimensionID](properties/dimensionid-element-assl.md), [Hierarchies](collections/hierarchies-element-assl.md), [HierarchyUniqueNameStyle](properties/hierarchyuniquenamestyle-element-assl.md), [ID](properties/id-element-assl.md), [MemberUniqueNameStyle](properties/memberuniquenamestyle-element-assl.md), [Name](properties/name-element-assl.md), [Visible](properties/visible-element-assl.md), [Translations](collections/translations-element-assl.md)|  
+|Derived elements|[Dimension](objects/dimension-element-assl.md) ([Dimensions](collections/dimensions-element-assl.md) collection of [Cube](objects/cube-element-assl.md))|  
   
 ## Remarks  
  There is one **CubeDimension** for each dimension relationship on a **Cube**. The **CubeDimension** covers all the **MeasureGroups** of the cube.  
   
- A **CubeDimension** must include a [CubeHierarchy](../../../analysis-services/scripting/data-type/cubehierarchy-data-type-assl.md) if the dimension has something specific to say about the hierarchy, including disabling the hierarchy (thereby, allowing selection of which hierarchies apply to a particular dimension usage), or making the hierarchy invisible.  
+ A **CubeDimension** must include a [CubeHierarchy](data-type/cubehierarchy-data-type-assl.md) if the dimension has something specific to say about the hierarchy, including disabling the hierarchy (thereby, allowing selection of which hierarchies apply to a particular dimension usage), or making the hierarchy invisible.  
   
- Similarly, a **CubeDimension** must include a [CubeAttribute](../../../analysis-services/scripting/data-type/cubeattribute-data-type-assl.md) only if the dimension has something specific to say about the attribute. (There is no way to select which attributes apply to a particular dimension usage, though attributes can be made invisible).  
+ Similarly, a **CubeDimension** must include a [CubeAttribute](data-type/cubeattribute-data-type-assl.md) only if the dimension has something specific to say about the attribute. (There is no way to select which attributes apply to a particular dimension usage, though attributes can be made invisible).  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CubeDimension>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

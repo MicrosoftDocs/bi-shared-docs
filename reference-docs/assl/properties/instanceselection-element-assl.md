@@ -1,6 +1,6 @@
 ---
 title: "InstanceSelection Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md)|  
+|Parent element|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -54,6 +54,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **InstanceSelection** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.InstanceSelection>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

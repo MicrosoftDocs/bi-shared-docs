@@ -1,6 +1,6 @@
 ---
 title: "StorageMode Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Cube Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/cube-element-assl.md), [Dimension Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/dimension-element-assl.md), [MeasureGroup Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/measuregroup-element-assl.md), [Partition Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/partition-element-assl.md)|  
+|Parent elements|[Cube Element &#40;ASSL&#41;](objects/cube-element-assl.md), [Dimension Element &#40;ASSL&#41;](objects/dimension-element-assl.md), [MeasureGroup Element &#40;ASSL&#41;](objects/measuregroup-element-assl.md), [Partition Element &#40;ASSL&#41;](objects/partition-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -47,7 +47,7 @@ manager: kfile
 |-----------|-----------------|  
 |*MOLAP*|The parent uses multidimensional OLAP (MOLAP) storage.|  
 |*ROLAP*|The parent uses relational OLAP (ROLAP) storage.|  
-|*HOLAP*|The parent uses hybrid OLAP (HOLAP) storage.<br /><br /> Note: This value is not valid for [Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md) parent elements.|  
+|*HOLAP*|The parent uses hybrid OLAP (HOLAP) storage.<br /><br /> Note: This value is not valid for [Dimension](objects/dimension-element-assl.md) parent elements.|  
 |*InMemory*|The parent uses IMBI storage.|  
   
  The enumeration that corresponds to the allowed values for **StorageMode** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.StorageMode>.  
@@ -55,6 +55,6 @@ manager: kfile
  The elements that correspond to the parents of **StorageMode** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Cube>, <xref:Microsoft.AnalysisServices.Dimension>, <xref:Microsoft.AnalysisServices.MeasureGroup>, and <xref:Microsoft.AnalysisServices.Partition>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

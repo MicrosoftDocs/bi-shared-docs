@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ReportParameters Element (ASSL)
 
-  Contains the collection of [ReportParameter](../../../analysis-services/scripting/objects/reportparameter-element-assl.md) elements for a [ReportAction](../../../analysis-services/scripting/data-type/reportaction-data-type-assl.md) element.  
+  Contains the collection of [ReportParameter](objects/reportparameter-element-assl.md) elements for a [ReportAction](data-type/reportaction-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -39,13 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Action](../../../analysis-services/scripting/objects/action-element-assl.md) of type [ReportAction](../../../analysis-services/scripting/data-type/reportaction-data-type-assl.md)|  
-|Child elements|[ReportParameter](../../../analysis-services/scripting/objects/reportparameter-element-assl.md)|  
+|Parent elements|[Action](objects/action-element-assl.md) of type [ReportAction](data-type/reportaction-data-type-assl.md)|  
+|Child elements|[ReportParameter](objects/reportparameter-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ReportParameterCollection>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

@@ -1,6 +1,6 @@
 ---
 title: "MeasureGroupID Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MeasureGroupID Element (ASSL)
 
-  Associates a [MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md) with the parent element, binding, or out-of-line binding.  
+  Associates a [MeasureGroup](objects/measuregroup-element-assl.md) with the parent element, binding, or out-of-line binding.  
   
 ## Syntax  
   
@@ -35,20 +35,20 @@ manager: kfile
   
 |Ancestor or Parent|Cardinality|  
 |------------------------|-----------------|  
-|[ManyToManyMeasureGroupDimension](../../../analysis-services/scripting/data-type/manytomanymeasuregroupdimension-data-type-assl.md)|0-1: Optional element that can occur once and only once.|  
-|[MeasureGroupAttributeBinding](../../../analysis-services/scripting/data-type/measuregroupattributebinding-data-type-out-of-line-assl.md), [MeasureGroupBinding](../../../analysis-services/scripting/data-type/measuregroupbinding-data-type-assl.md) and [PerspectiveMeasureGroup](../../../analysis-services/scripting/data-type/perspectivemeasuregroup-data-type-assl.md)|1-1: Required element that occurs once and only once.|  
+|[ManyToManyMeasureGroupDimension](data-type/manytomanymeasuregroupdimension-data-type-assl.md)|0-1: Optional element that can occur once and only once.|  
+|[MeasureGroupAttributeBinding](data-type/measuregroupattributebinding-data-type-out-of-line-assl.md), [MeasureGroupBinding](data-type/measuregroupbinding-data-type-assl.md) and [PerspectiveMeasureGroup](data-type/perspectivemeasuregroup-data-type-assl.md)|1-1: Required element that occurs once and only once.|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ManyToManyMeasureGroupDimension](../../../analysis-services/scripting/data-type/manytomanymeasuregroupdimension-data-type-assl.md), [MeasureGroupAttributeBinding](../../../analysis-services/scripting/data-type/measuregroupattributebinding-data-type-out-of-line-assl.md), [MeasureGroupBinding](../../../analysis-services/scripting/data-type/measuregroupbinding-data-type-assl.md), [PerspectiveMeasureGroup](../../../analysis-services/scripting/data-type/perspectivemeasuregroup-data-type-assl.md)|  
+|Parent elements|[ManyToManyMeasureGroupDimension](data-type/manytomanymeasuregroupdimension-data-type-assl.md), [MeasureGroupAttributeBinding](data-type/measuregroupattributebinding-data-type-out-of-line-assl.md), [MeasureGroupBinding](data-type/measuregroupbinding-data-type-assl.md), [PerspectiveMeasureGroup](data-type/perspectivemeasuregroup-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **MeasureGroupID** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.ManyToManyMeasureGroupDimension>, <xref:Microsoft.AnalysisServices.MeasureGroupBinding>, and <xref:Microsoft.AnalysisServices.PerspectiveMeasureGroup>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

@@ -39,13 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AggregationDesignDimension](../../../analysis-services/scripting/data-type/aggregationdesigndimension-data-type-assl.md), [AggregationDimension](../../../analysis-services/scripting/data-type/aggregationdimension-data-type-assl.md), [AggregationInstanceCubeDimension](../../../analysis-services/scripting/data-type/aggregationinstancecubedimension-data-type-assl.md), [CubeDimension](../../../analysis-services/scripting/data-type/cubedimension-data-type-assl.md), [Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md), [PerspectiveDimension](../../../analysis-services/scripting/data-type/perspectivedimension-data-type-assl.md), [RegularMeasureGroupDimension](../../../analysis-services/scripting/data-type/regularmeasuregroupdimension-data-type-assl.md), [RelationshipEnd](../../../analysis-services/scripting/data-type/relationshipend-data-type-assl.md)|  
-|Child elements|[Attribute](../../../analysis-services/scripting/objects/attribute-element-assl.md)|  
+|Parent elements|[AggregationDesignDimension](data-type/aggregationdesigndimension-data-type-assl.md), [AggregationDimension](data-type/aggregationdimension-data-type-assl.md), [AggregationInstanceCubeDimension](data-type/aggregationinstancecubedimension-data-type-assl.md), [CubeDimension](data-type/cubedimension-data-type-assl.md), [Dimension](objects/dimension-element-assl.md), [PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md), [RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md), [RelationshipEnd](data-type/relationshipend-data-type-assl.md)|  
+|Child elements|[Attribute](objects/attribute-element-assl.md)|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AggregationAttributeCollection>, <xref:Microsoft.AnalysisServices.AggregationDesignAttributeCollection>, <xref:Microsoft.AnalysisServices.AggregationInstanceAttributeCollection>, <xref:Microsoft.AnalysisServices.CubeAttributeCollection>, <xref:Microsoft.AnalysisServices.DimensionAttributeCollection>, <xref:Microsoft.AnalysisServices.MeasureGroupAttributeCollection>, and <xref:Microsoft.AnalysisServices.PerspectiveAttributeCollection>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

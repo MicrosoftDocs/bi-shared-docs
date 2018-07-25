@@ -1,6 +1,6 @@
 ---
 title: "MeasureID Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MeasureID Element (ASSL)
 
-  Associates a [Measure](../../../analysis-services/scripting/objects/measure-element-assl.md) element with the parent element.  
+  Associates a [Measure](objects/measure-element-assl.md) element with the parent element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AggregationInstanceMeasure](../../../analysis-services/scripting/data-type/aggregationinstancemeasure-data-type-assl.md), [MeasureBinding](../../../analysis-services/scripting/data-type/measurebinding-data-type-assl.md), [PerspectiveMeasure](../../../analysis-services/scripting/data-type/perspectivemeasure-data-type-assl.md)|  
+|Parent elements|[AggregationInstanceMeasure](data-type/aggregationinstancemeasure-data-type-assl.md), [MeasureBinding](data-type/measurebinding-data-type-assl.md), [PerspectiveMeasure](data-type/perspectivemeasure-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **MeasureID** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AggregationInstanceMeasure>, <xref:Microsoft.AnalysisServices.MeasureBinding>, and <xref:Microsoft.AnalysisServices.PerspectiveMeasure>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # TableMiningStructureColumn Data Type (ASSL)
 
-  Defines a derived data type that represents a [MiningStructureColumn](../../../analysis-services/scripting/data-type/miningstructurecolumn-data-type-assl.md) element that contains nested tables, as opposed to the scalar values associated with the [ScalarMiningStructureColumn](../../../analysis-services/scripting/data-type/scalarminingstructurecolumn-data-type-assl.md) element that contains scalar values.  
+  Defines a derived data type that represents a [MiningStructureColumn](data-type/miningstructurecolumn-data-type-assl.md) element that contains nested tables, as opposed to the scalar values associated with the [ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md) element that contains scalar values.  
   
 ## Syntax  
   
@@ -31,7 +31,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[MiningStructureColumn](../../../analysis-services/scripting/data-type/miningstructurecolumn-data-type-assl.md)|  
+|Base data types|[MiningStructureColumn](data-type/miningstructurecolumn-data-type-assl.md)|  
 |Derived data types|None|  
   
 ## Data Type Relationships  
@@ -39,13 +39,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Columns](../../../analysis-services/scripting/collections/columns-element-assl.md), [ForeignKeyColumn](../../../analysis-services/scripting/objects/foreignkeycolumn-element-assl.md), [SourceMeasureGroup](../../../analysis-services/scripting/objects/sourcemeasuregroup-element-assl.md), [Translations](../../../analysis-services/scripting/collections/translations-element-assl.md)|  
-|Derived elements|[Column](../../../analysis-services/scripting/objects/column-element-assl.md) ([Columns](../../../analysis-services/scripting/collections/columns-element-assl.md) collection of [MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md))|  
+|Child elements|[Columns](collections/columns-element-assl.md), [ForeignKeyColumn](objects/foreignkeycolumn-element-assl.md), [SourceMeasureGroup](objects/sourcemeasuregroup-element-assl.md), [Translations](collections/translations-element-assl.md)|  
+|Derived elements|[Column](objects/column-element-assl.md) ([Columns](collections/columns-element-assl.md) collection of [MiningStructure](objects/miningstructure-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TableMiningStructureColumn>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

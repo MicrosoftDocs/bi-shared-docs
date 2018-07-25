@@ -1,6 +1,6 @@
 ---
 title: "Name Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Action](../../../analysis-services/scripting/objects/action-element-assl.md), [Aggregation](../../../analysis-services/scripting/objects/aggregation-element-assl.md), [AggregationDesign](../../../analysis-services/scripting/objects/aggregationdesign-element-assl.md), [AlgorithmParameter](../../../analysis-services/scripting/objects/algorithmparameter-element-assl.md), [Annotation](../../../analysis-services/scripting/objects/annotation-element-assl.md), [Assembly](../../../analysis-services/scripting/objects/assembly-element-assl.md), [ClrAssemblyFile](../../../analysis-services/scripting/data-type/clrassemblyfile-data-type-assl.md), [Cube](../../../analysis-services/scripting/objects/cube-element-assl.md), [CubeDimension](../../../analysis-services/scripting/data-type/cubedimension-data-type-assl.md), [CubeHierarchy](../../../analysis-services/scripting/data-type/cubehierarchy-data-type-assl.md), [Database](../../../analysis-services/scripting/objects/database-element-assl.md), [DataSource](../../../analysis-services/scripting/objects/datasource-element-assl.md), [DataSourceView](../../../analysis-services/scripting/objects/datasourceview-element-assl.md), [Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md), [DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md), [Group](../../../analysis-services/scripting/objects/group-element-assl.md), [Hierarchy](../../../analysis-services/scripting/objects/hierarchy-element-assl.md), [Kpi](../../../analysis-services/scripting/objects/kpi-element-assl.md), [Level](../../../analysis-services/scripting/objects/level-element-assl.md), [MdxScript](../../../analysis-services/scripting/objects/mdxscript-element-assl.md), [Measure](../../../analysis-services/scripting/objects/measure-element-assl.md), [MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md), [MemberProperty](../../../analysis-services/scripting/objects/attributerelationship-element-assl.md), [MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md), [MiningModelColumn](../../../analysis-services/scripting/data-type/miningmodelcolumn-data-type-assl.md), [MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md), [MiningStructureColumn](../../../analysis-services/scripting/data-type/miningstructurecolumn-data-type-assl.md), [Partition](../../../analysis-services/scripting/objects/partition-element-assl.md), [Permission](../../../analysis-services/scripting/data-type/permission-data-type-assl.md), [Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md), [PerspectiveCalculation](../../../analysis-services/scripting/data-type/perspectivecalculation-data-type-assl.md), [ReportFormatParameter](../../../analysis-services/scripting/objects/reportformatparameter-element-asl.md), [ReportParameter](../../../analysis-services/scripting/objects/reportparameter-element-assl.md), [Role](../../../analysis-services/scripting/objects/role-element-assl.md), [Server](../../../analysis-services/scripting/objects/server-element-assl.md), [ServerProperty](../../../analysis-services/scripting/objects/serverproperty-element-assl.md), [Trace](../../../analysis-services/scripting/objects/trace-element-assl.md)|  
+|Parent elements|[Action](objects/action-element-assl.md), [Aggregation](objects/aggregation-element-assl.md), [AggregationDesign](objects/aggregationdesign-element-assl.md), [AlgorithmParameter](objects/algorithmparameter-element-assl.md), [Annotation](objects/annotation-element-assl.md), [Assembly](objects/assembly-element-assl.md), [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md), [Cube](objects/cube-element-assl.md), [CubeDimension](data-type/cubedimension-data-type-assl.md), [CubeHierarchy](data-type/cubehierarchy-data-type-assl.md), [Database](objects/database-element-assl.md), [DataSource](objects/datasource-element-assl.md), [DataSourceView](objects/datasourceview-element-assl.md), [Dimension](objects/dimension-element-assl.md), [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md), [Group](objects/group-element-assl.md), [Hierarchy](objects/hierarchy-element-assl.md), [Kpi](objects/kpi-element-assl.md), [Level](objects/level-element-assl.md), [MdxScript](objects/mdxscript-element-assl.md), [Measure](objects/measure-element-assl.md), [MeasureGroup](objects/measuregroup-element-assl.md), [MemberProperty](objects/attributerelationship-element-assl.md), [MiningModel](objects/miningmodel-element-assl.md), [MiningModelColumn](data-type/miningmodelcolumn-data-type-assl.md), [MiningStructure](objects/miningstructure-element-assl.md), [MiningStructureColumn](data-type/miningstructurecolumn-data-type-assl.md), [Partition](objects/partition-element-assl.md), [Permission](data-type/permission-data-type-assl.md), [Perspective](objects/perspective-element-assl.md), [PerspectiveCalculation](data-type/perspectivecalculation-data-type-assl.md), [ReportFormatParameter](objects/reportformatparameter-element-asl.md), [ReportParameter](objects/reportparameter-element-assl.md), [Role](objects/role-element-assl.md), [Server](objects/server-element-assl.md), [ServerProperty](objects/serverproperty-element-assl.md), [Trace](objects/trace-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -73,13 +73,13 @@ manager: kfile
   
 |Parent element|Invalid Characters|  
 |--------------------|------------------------|  
-|[Server](../../../analysis-services/scripting/objects/server-element-assl.md)|The name must follow the rules for  Windows computer names. IP addresses are not valid.|  
-|[DataSource](../../../analysis-services/scripting/objects/datasource-element-assl.md)|:/\\*&#124;?"()[]{}<>|  
-|[Level](../../../analysis-services/scripting/objects/level-element-assl.md), [Attribute Element](../../../analysis-services/scripting/objects/attribute-element-assl.md)|.,;'`:/\\*&#124;?"&%$!+=[]{}<>|  
+|[Server](objects/server-element-assl.md)|The name must follow the rules for  Windows computer names. IP addresses are not valid.|  
+|[DataSource](objects/datasource-element-assl.md)|:/\\*&#124;?"()[]{}<>|  
+|[Level](objects/level-element-assl.md), [Attribute Element](objects/attribute-element-assl.md)|.,;'`:/\\*&#124;?"&%$!+=[]{}<>|  
 |All other parent elements|.,;'`:/\\*&#124;?"&%$!+=()[]{}<>|  
   
 ## See Also  
- [ID Element &#40;ASSL&#41;](../../../analysis-services/scripting/properties/id-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [ID Element &#40;ASSL&#41;](properties/id-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSource Element (ASSL)
 
-  Defines a data source in a Analysis Services [Database](../../../analysis-services/scripting/objects/database-element-assl.md) element.  
+  Defines a data source in a Analysis Services [Database](objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -31,7 +31,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[RelationalDataSource](../../../analysis-services/scripting/data-type/relationaldatasource-data-type-assl.md), [OlapDataSource](../../../analysis-services/scripting/data-type/olapdatasource-data-type-assl.md), [PushedDataSource](../../../analysis-services/scripting/data-type/pusheddatasource-data-type-assl.md)|  
+|Data type and length|[RelationalDataSource](data-type/relationaldatasource-data-type-assl.md), [OlapDataSource](data-type/olapdatasource-data-type-assl.md), [PushedDataSource](data-type/pusheddatasource-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur more than once.|  
   
@@ -39,14 +39,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DataSources](../../../analysis-services/scripting/collections/datasources-element-assl.md)|  
+|Parent elements|[DataSources](collections/datasources-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataSource>.  
   
 ## See Also  
- [Database Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/database-element-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Database Element &#40;ASSL&#41;](objects/database-element-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

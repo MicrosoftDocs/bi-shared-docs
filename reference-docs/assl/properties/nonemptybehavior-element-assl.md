@@ -1,6 +1,6 @@
 ---
 title: "NonEmptyBehavior Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # NonEmptyBehavior Element (ASSL)
 
-  Determines the non-empty behavior associated with the parent of the [CalculationProperty](../../../analysis-services/scripting/objects/calculationproperty-element-assl.md) element.  
+  Determines the non-empty behavior associated with the parent of the [CalculationProperty](objects/calculationproperty-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,18 +37,18 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[CalculationProperty](../../../analysis-services/scripting/objects/calculationproperty-element-assl.md)|  
+|Parent element|[CalculationProperty](objects/calculationproperty-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The **NonEmptyBehavior** property applies to **CalculationProperty** elements with a [CalculationType](../../../analysis-services/scripting/properties/calculationtype-element-assl.md) set to *Member*.  
+ The **NonEmptyBehavior** property applies to **CalculationProperty** elements with a [CalculationType](properties/calculationtype-element-assl.md) set to *Member*.  
   
  The element that corresponds to the parent of **NonEmptyBehavior** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CalculationProperty>.  
   
 ## See Also  
- [CalculationProperties Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/calculationproperties-element-assl.md)   
- [MdxScript Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/mdxscript-element-assl.md)   
- [MdxScripts Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/mdxscripts-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [CalculationProperties Element &#40;ASSL&#41;](collections/calculationproperties-element-assl.md)   
+ [MdxScript Element &#40;ASSL&#41;](objects/mdxscript-element-assl.md)   
+ [MdxScripts Element &#40;ASSL&#41;](collections/mdxscripts-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

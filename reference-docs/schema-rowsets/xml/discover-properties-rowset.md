@@ -1,6 +1,6 @@
 ---
 title: "DISCOVER_PROPERTIES Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,10 +11,10 @@ author: minewiskan
 manager: kfile
 ---
 # DISCOVER_PROPERTIES Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  Returns a list of information and values about the standard and provider-specific properties that are supported by the [!INCLUDE[msCoName](../../../includes/msconame-md.md)] XML for Analysis (XMLA) provider for the specified data source. Unsupported properties are not listed in the returned result set.  
+
+  Returns a list of information and values about the standard and provider-specific properties that are supported by the Microsoft XML for Analysis (XMLA) provider for the specified data source. Unsupported properties are not listed in the returned result set.  
   
- If you call the [Discover](../../../analysis-services/xmla/xml-elements-methods-discover.md) method with the **DISCOVER_PROPERTIES** enumeration value in the [RequestType](../../../analysis-services/xmla/xml-elements-properties/requesttype-element-xmla.md) element, the **Discover** method returns the **DISCOVER_PROPERTIES** rowset..  
+ If you call the [Discover](../../xmla/xml-elements-methods-discover.md) method with the **DISCOVER_PROPERTIES** enumeration value in the [RequestType](../../xmla/xml-elements-properties/requesttype-element-xmla.md) element, the **Discover** method returns the **DISCOVER_PROPERTIES** rowset..  
   
 ## Rowset Columns  
  The **DISCOVER_PROPERTIES** rowset contains the following columns.  
@@ -38,6 +38,6 @@ manager: kfile
 |**PropertyName**|**DBTYPE_WSTR**||  
   
 ## See Also  
- [XML for Analysis Schema Rowsets](../../../analysis-services/schema-rowsets/xml/xml-for-analysis-schema-rowsets.md)  
+ [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
   
   

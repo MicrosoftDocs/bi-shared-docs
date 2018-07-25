@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataBlock Data Type (ASSL)
 
-  Defines a primitive data type that represents a collection of data blocks used to store the binary contents of a [ClrAssemblyFile](../../../analysis-services/scripting/data-type/clrassemblyfile-data-type-assl.md) element.  
+  Defines a primitive data type that represents a collection of data blocks used to store the binary contents of a [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -35,13 +35,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Blocks](../../../analysis-services/scripting/collections/blocks-element-assl.md)|  
-|Derived elements|[Data](../../../analysis-services/scripting/objects/data-element-assl.md) element of [ClrAssemblyFile](../../../analysis-services/scripting/data-type/clrassemblyfile-data-type-assl.md) type ([Files](../../../analysis-services/scripting/collections/files-element-assl.md) collection of [ClrAssembly](../../../analysis-services/scripting/data-type/clrassembly-data-type-assl.md) type)|  
+|Child elements|[Blocks](collections/blocks-element-assl.md)|  
+|Derived elements|[Data](objects/data-element-assl.md) element of [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) type ([Files](collections/files-element-assl.md) collection of [ClrAssembly](data-type/clrassembly-data-type-assl.md) type)|  
   
 ## See Also  
- [Assembly Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/assembly-element-assl.md)   
- [File Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/file-element-assl.md)   
- [Block Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/block-element-assl.md)   
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Assembly Element &#40;ASSL&#41;](objects/assembly-element-assl.md)   
+ [File Element &#40;ASSL&#41;](objects/file-element-assl.md)   
+ [Block Element &#40;ASSL&#41;](objects/block-element-assl.md)   
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "DiscretizationMethod Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md), [ScalarMiningStructureColumn](../../../analysis-services/scripting/data-type/scalarminingstructurecolumn-data-type-assl.md)|  
+|Parent elements|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md), [ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -56,6 +56,6 @@ manager: kfile
  The enumeration corresponding to the allowed values for **DiscretizationMethod** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DiscretizationMethod>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

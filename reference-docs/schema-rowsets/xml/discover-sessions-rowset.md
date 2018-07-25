@@ -1,6 +1,6 @@
 ---
 title: "DISCOVER_SESSIONS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DISCOVER_SESSIONS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Provides resource usage and activity information about the currently opened sessions on the server.  
   
 ## Rowset Columns  
@@ -60,6 +60,6 @@ manager: kfile
 |SESSION_STATUS|DBTYPE_I4|Optional.|  
   
 ## See Also  
- [XML for Analysis Schema Rowsets](../../../analysis-services/schema-rowsets/xml/xml-for-analysis-schema-rowsets.md)  
+ [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
   
   

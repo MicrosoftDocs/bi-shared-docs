@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CurrentTimeMember Element (ASSL)
 
-  Defines the current member of a time dimension associated with a [Kpi](../../../analysis-services/scripting/objects/kpi-element-assl.md) element.  
+  Defines the current member of a time dimension associated with a [Kpi](objects/kpi-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Kpi](../../../analysis-services/scripting/objects/kpi-element-assl.md)|  
+|Parent element|[Kpi](objects/kpi-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,6 +46,6 @@ manager: kfile
  The element that corresponds to the parent of **CurrentTimeMember** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Kpi>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

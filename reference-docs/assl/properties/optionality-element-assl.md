@@ -1,6 +1,6 @@
 ---
 title: "Optionality Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Optionality Element (ASSL)
 
-  Indicates the optionality of the members for an [AttributeRelationship](../../../analysis-services/scripting/objects/attributerelationship-element-assl.md) element.  
+  Indicates the optionality of the members for an [AttributeRelationship](objects/attributerelationship-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[AttributeRelationship](../../../analysis-services/scripting/objects/attributerelationship-element-assl.md)|  
+|Parent element|[AttributeRelationship](objects/attributerelationship-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,6 +52,6 @@ manager: kfile
   
 ## See Also  
  [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-objects/attributes-and-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

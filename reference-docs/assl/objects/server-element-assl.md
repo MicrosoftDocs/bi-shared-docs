@@ -54,7 +54,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Name](../../../analysis-services/scripting/properties/name-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [CreatedTimestamp](../../../analysis-services/scripting/properties/createdtimestamp-element-assl.md), [LastSchemaUpdate](../../../analysis-services/scripting/properties/lastschemaupdate-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [ProductName](../../../analysis-services/scripting/properties/productname-element-assl.md), [Edition](../../../analysis-services/scripting/properties/edition-element-assl.md), [EditionId](../../../analysis-services/xmla/xml-elements-properties/editionid-element.md), [Version](../../../analysis-services/scripting/properties/version-element-assl.md), [ServerMode](../../../analysis-services/xmla/xml-elements-properties/editionid-element.md), [ProductLevel](../../../analysis-services/xmla/xml-elements-properties/productlabel-element.md), [Databases](../../../analysis-services/scripting/collections/databases-element-assl.md), [Assemblies](../../../analysis-services/scripting/collections/assemblies-element-assl.md), [Traces](../../../analysis-services/scripting/collections/traces-element-assl.md), [Roles](../../../analysis-services/scripting/collections/roles-element-assl.md), [ServerProperties](../../../analysis-services/scripting/collections/serverproperties-element-assl.md)>|  
+|Child elements|[Name](properties/name-element-assl.md), [ID](properties/id-element-assl.md), [CreatedTimestamp](properties/createdtimestamp-element-assl.md), [LastSchemaUpdate](properties/lastschemaupdate-element-assl.md), [Description](properties/description-element-assl.md), [Annotations](collections/annotations-element-assl.md), [ProductName](properties/productname-element-assl.md), [Edition](properties/edition-element-assl.md), [EditionId](../../../analysis-services/xmla/xml-elements-properties/editionid-element.md), [Version](properties/version-element-assl.md), [ServerMode](../../../analysis-services/xmla/xml-elements-properties/editionid-element.md), [ProductLevel](../../../analysis-services/xmla/xml-elements-properties/productlabel-element.md), [Databases](collections/databases-element-assl.md), [Assemblies](collections/assemblies-element-assl.md), [Traces](collections/traces-element-assl.md), [Roles](collections/roles-element-assl.md), [ServerProperties](collections/serverproperties-element-assl.md)>|  
   
 ## Remarks  
  The **Server** element represents an instance ofAnalysis Services, and serves as the topmost node in the Analysis Services Scripting Language (ASSL) node hierarchy.  
@@ -62,6 +62,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Server>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

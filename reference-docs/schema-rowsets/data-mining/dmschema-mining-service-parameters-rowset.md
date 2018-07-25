@@ -1,6 +1,6 @@
 ---
 title: "DMSCHEMA_MINING_SERVICE_PARAMETERS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DMSCHEMA_MINING_SERVICE_PARAMETERS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Describes the parameters for the algorithms on the server.  
   
 ## Rowset Columns  
@@ -39,6 +39,6 @@ manager: kfile
 |**PARAMETER_NAME**|**DBTYPE_WSTR**|Optional.|  
   
 ## See Also  
- [Data Mining Schema Rowsets](../../../analysis-services/schema-rowsets/data-mining/data-mining-schema-rowsets.md)  
+ [Data Mining Schema Rowsets](data-mining-schema-rowsets.md)  
   
   

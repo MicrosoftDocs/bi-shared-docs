@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Annotations Element (ASSL)
 
-  Contains the collection of [Annotation](../../../analysis-services/scripting/objects/annotation-element-assl.md) elements associated with the parent element.  
+  Contains the collection of [Annotation](objects/annotation-element-assl.md) elements associated with the parent element.  
   
 ## Syntax  
   
@@ -41,9 +41,4 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|Most objects in the Analysis Services Scripting Language|  
-|Child elements|[Annotation](../../../analysis-services/scripting/objects/annotation-element-assl.md)|  
-  
-## Remarks  
- The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AnnotationCollection>.  
-  
-  
+|Child elements|[Annotation](objects/annotation-element-assl.md)|  

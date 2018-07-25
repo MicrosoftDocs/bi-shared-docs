@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Account](../../../analysis-services/scripting/objects/account-element-assl.md)|  
+|Parent elements|[Account](objects/account-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -60,7 +60,7 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **AggregationFunction** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationFunction>.  
   
 ## See Also  
- [Accounts Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/accounts-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Accounts Element &#40;ASSL&#41;](collections/accounts-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "MimeType Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MimeType Element (ASSL)
 
-  Contains the Multipurpose Internet Mail Extensions (MIME) type, if applicable, of the data represented by the [DataItem](../../../analysis-services/scripting/data-type/dataitem-data-type-assl.md) element.  
+  Contains the Multipurpose Internet Mail Extensions (MIME) type, if applicable, of the data represented by the [DataItem](data-type/dataitem-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,12 +37,12 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DataItem](../../../analysis-services/scripting/data-type/dataitem-data-type-assl.md)|  
+|Parent element|[DataItem](data-type/dataitem-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
   
 ## See Also  
- [DataItem Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/dataitem-data-type-assl.md)  
+ [DataItem Data Type &#40;ASSL&#41;](data-type/dataitem-data-type-assl.md)  
   
   

@@ -1914,11 +1914,4 @@ manager: kfile
       </Annotation>  
    </Annotations>  
 </Server>  
-```  
-  
-## See Also  
- [Analysis Services Scripting Language XML Elements &#40;ASSL&#41;](../../analysis-services/scripting/analysis-services-scripting-language-xml-elements-assl.md)   
- [Analysis Services Scripting Language XML Data Type Hierarchy &#40;ASSL&#41;](../../analysis-services/scripting/analysis-services-scripting-language-xml-data-type-hierarchy-assl.md)   
- [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](../../analysis-services/scripting/analysis-services-scripting-language-assl-for-xmla.md)  
-  
-  
+``` 

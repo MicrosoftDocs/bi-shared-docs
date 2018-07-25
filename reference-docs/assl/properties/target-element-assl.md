@@ -1,6 +1,6 @@
 ---
 title: "Target Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Target Element (ASSL)
 
-  Identifies the target of the [Action](../../../analysis-services/scripting/objects/action-element-assl.md) element.  
+  Identifies the target of the [Action](objects/action-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,11 +37,11 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Action](../../../analysis-services/scripting/objects/action-element-assl.md)|  
+|Parent element|[Action](objects/action-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The expected value of this element depends on the value of the [TargetType](../../../analysis-services/scripting/properties/targettype-element-assl.md) element for the parent **Action**. The following table describes the expected values of **Target** based on the value of **TargetType**.  
+ The expected value of this element depends on the value of the [TargetType](properties/targettype-element-assl.md) element for the parent **Action**. The following table describes the expected values of **Target** based on the value of **TargetType**.  
   
 |TargetType value|Expected value|  
 |----------------------|--------------------|  
@@ -56,6 +56,6 @@ manager: kfile
  The element that corresponds to the parent of **Target** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Action>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

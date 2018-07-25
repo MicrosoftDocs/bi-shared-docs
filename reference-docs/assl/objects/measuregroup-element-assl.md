@@ -65,22 +65,22 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[Cube](../../../analysis-services/scripting/objects/cube-element-assl.md)|None|  
-|[CubeBinding](../../../analysis-services/scripting/data-type/cubebinding-data-type-out-of-line-assl.md)|[MeasureGroupBinding](../../../analysis-services/scripting/data-type/measuregroupbinding-data-type-assl.md)|  
-|[Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md)|[PerspectiveMeasureGroup](../../../analysis-services/scripting/data-type/perspectivemeasuregroup-data-type-assl.md)|  
+|[Cube](objects/cube-element-assl.md)|None|  
+|[CubeBinding](data-type/cubebinding-data-type-out-of-line-assl.md)|[MeasureGroupBinding](data-type/measuregroupbinding-data-type-assl.md)|  
+|[Perspective](objects/perspective-element-assl.md)|[PerspectiveMeasureGroup](data-type/perspectivemeasuregroup-data-type-assl.md)|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MeasureGroups](../../../analysis-services/scripting/collections/measuregroups-element-assl.md)|  
+|Parent elements|[MeasureGroups](collections/measuregroups-element-assl.md)|  
 |Child elements|See the table below.|  
   
 |Ancestor or Parent|Child elements|  
 |------------------------|--------------------|  
-|[Cube](../../../analysis-services/scripting/objects/cube-element-assl.md)|[AggregationDesigns](../../../analysis-services/scripting/collections/aggregationdesigns-element-assl.md), [AggregationPrefix](../../../analysis-services/scripting/properties/aggregationprefix-element-assl.md), [Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [CreatedTimestamp](../../../analysis-services/scripting/properties/createdtimestamp-element-assl.md), [DataAggregation](../../../analysis-services/scripting/properties/dataaggregation-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [Dimensions](../../../analysis-services/scripting/collections/dimensions-element-assl.md), [ErrorConfiguration](../../../analysis-services/scripting/objects/errorconfiguration-element-assl.md), [EstimatedRows](../../../analysis-services/scripting/properties/estimatedrows-element-assl.md), [EstimatedSize](../../../analysis-services/scripting/properties/estimatedsize-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [IgnoreUnrelatedDimensions](../../../analysis-services/scripting/properties/ignoreunrelateddimensions-element-assl.md), [LastProcessed](../../../analysis-services/scripting/properties/lastprocessed-element-assl.md), [LastSchemaUpdate](../../../analysis-services/scripting/properties/lastschemaupdate-element-assl.md), [MeasureQualification](../../../analysis-services/scripting/properties/measurequalificaton-element-assl.md), [Measures](../../../analysis-services/scripting/collections/measures-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [Partitions](../../../analysis-services/scripting/collections/partitions-element-assl.md), [ProactiveCaching](../../../analysis-services/scripting/objects/proactivecaching-element-assl.md), [ProcessingMode](../../../analysis-services/scripting/properties/processingmode-element-assl.md), [ProcessingPriority](../../../analysis-services/scripting/properties/processingpriority-element-assl.md), [Source](../../../analysis-services/scripting/properties/source-element-measure-assl.md), [State](../../../analysis-services/scripting/properties/state-element-assl.md), [StorageLocation](../../../analysis-services/scripting/properties/storagelocation-element-assl.md), [StorageMode](../../../analysis-services/scripting/properties/storagemode-element-assl.md), [Translations](../../../analysis-services/scripting/collections/translations-element-assl.md), [Type](../../../analysis-services/scripting/properties/type-element-measuregroup-assl.md)|  
-|[CubeBinding](../../../analysis-services/scripting/data-type/cubebinding-data-type-out-of-line-assl.md)|None|  
-|[Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md)|None|  
+|[Cube](objects/cube-element-assl.md)|[AggregationDesigns](collections/aggregationdesigns-element-assl.md), [AggregationPrefix](properties/aggregationprefix-element-assl.md), [Annotations](collections/annotations-element-assl.md), [CreatedTimestamp](properties/createdtimestamp-element-assl.md), [DataAggregation](properties/dataaggregation-element-assl.md), [Description](properties/description-element-assl.md), [Dimensions](collections/dimensions-element-assl.md), [ErrorConfiguration](objects/errorconfiguration-element-assl.md), [EstimatedRows](properties/estimatedrows-element-assl.md), [EstimatedSize](properties/estimatedsize-element-assl.md), [ID](properties/id-element-assl.md), [IgnoreUnrelatedDimensions](properties/ignoreunrelateddimensions-element-assl.md), [LastProcessed](properties/lastprocessed-element-assl.md), [LastSchemaUpdate](properties/lastschemaupdate-element-assl.md), [MeasureQualification](properties/measurequalificaton-element-assl.md), [Measures](collections/measures-element-assl.md), [Name](properties/name-element-assl.md), [Partitions](collections/partitions-element-assl.md), [ProactiveCaching](objects/proactivecaching-element-assl.md), [ProcessingMode](properties/processingmode-element-assl.md), [ProcessingPriority](properties/processingpriority-element-assl.md), [Source](properties/source-element-measure-assl.md), [State](properties/state-element-assl.md), [StorageLocation](properties/storagelocation-element-assl.md), [StorageMode](properties/storagemode-element-assl.md), [Translations](collections/translations-element-assl.md), [Type](properties/type-element-measuregroup-assl.md)|  
+|[CubeBinding](data-type/cubebinding-data-type-out-of-line-assl.md)|None|  
+|[Perspective](objects/perspective-element-assl.md)|None|  
   
 ## Remarks  
  All the measures of a measure group must be sourced from a single table. A measure group can define default bindings that can be overridden for each partition.  
@@ -98,6 +98,6 @@ manager: kfile
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.MeasureGroup> and <xref:Microsoft.AnalysisServices.PerspectiveMeasureGroup>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

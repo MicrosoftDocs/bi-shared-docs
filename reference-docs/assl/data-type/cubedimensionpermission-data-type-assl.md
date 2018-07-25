@@ -40,13 +40,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [AttributePermissions](../../../analysis-services/scripting/collections/attributepermissions-element-assl.md), [CubeDimensionID](../../../analysis-services/scripting/properties/cubedimensionid-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [Read](../../../analysis-services/scripting/properties/read-element-assl.md), [Write](../../../analysis-services/scripting/properties/write-element-assl.md)|  
-|Derived elements|[DimensionPermission](../../../analysis-services/scripting/objects/dimensionpermission-element-assl.md) ([DimensionPermissions](../../../analysis-services/scripting/collections/dimensionpermissions-element-assl.md) collection of [Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md) or [CubePermission](../../../analysis-services/scripting/objects/cubepermission-element-assl.md))|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [AttributePermissions](collections/attributepermissions-element-assl.md), [CubeDimensionID](properties/cubedimensionid-element-assl.md), [Description](properties/description-element-assl.md), [Read](properties/read-element-assl.md), [Write](properties/write-element-assl.md)|  
+|Derived elements|[DimensionPermission](objects/dimensionpermission-element-assl.md) ([DimensionPermissions](collections/dimensionpermissions-element-assl.md) collection of [Dimension](objects/dimension-element-assl.md) or [CubePermission](objects/cubepermission-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CubeDimensionPermission>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

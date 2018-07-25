@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Command Element (ASSL)
 
-  Defines a command that is available for use within the context of the parent element of the [Commands](../../../analysis-services/scripting/collections/commands-element-assl.md) collection.  
+  Defines a command that is available for use within the context of the parent element of the [Commands](collections/commands-element-assl.md) collection.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Commands](../../../analysis-services/scripting/collections/commands-element-assl.md)|  
-|Child elements|[Text](../../../analysis-services/scripting/properties/text-element-assl.md)|  
+|Parent elements|[Commands](collections/commands-element-assl.md)|  
+|Child elements|[Text](properties/text-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Command>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

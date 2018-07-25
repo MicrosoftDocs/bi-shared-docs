@@ -12,7 +12,7 @@ manager: kfile
 ---
 # IncrementalProcessingNotifications Element (ASSL)
 
-  Contains the collection of [IncrementalProcessingNotification](../../../analysis-services/scripting/objects/incrementalprocessingnotification-element-assl.md) elements that provide information to the [ProactiveCaching](../../../analysis-services/scripting/objects/proactivecaching-element-assl.md) element about queries to execute to determine the progress of incremental processing.  
+  Contains the collection of [IncrementalProcessingNotification](objects/incrementalprocessingnotification-element-assl.md) elements that provide information to the [ProactiveCaching](objects/proactivecaching-element-assl.md) element about queries to execute to determine the progress of incremental processing.  
   
 ## Syntax  
   
@@ -38,13 +38,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ProactiveCachingIncrementalProcessingBinding](../../../analysis-services/scripting/data-type/proactivecachingincrementalprocessingbinding-data-type-assl.md)|  
-|Child elements|[IncrementalProcessingNotification](../../../analysis-services/scripting/objects/incrementalprocessingnotification-element-assl.md)|  
+|Parent elements|[ProactiveCachingIncrementalProcessingBinding](data-type/proactivecachingincrementalprocessingbinding-data-type-assl.md)|  
+|Child elements|[IncrementalProcessingNotification](objects/incrementalprocessingnotification-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.IncrementalProcessingNotificationCollection>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

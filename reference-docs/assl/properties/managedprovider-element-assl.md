@@ -1,6 +1,6 @@
 ---
 title: "ManagedProvider Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ManagedProvider Element (ASSL)
 
-  Contains the name of the managed provider used by an element that is derived from the [DataSource](../../../analysis-services/scripting/data-type/datasource-data-type-assl.md) data type.  
+  Contains the name of the managed provider used by an element that is derived from the [DataSource](data-type/datasource-data-type-assl.md) data type.  
   
 ## Syntax  
   
@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DataSource](../../../analysis-services/scripting/data-type/datasource-data-type-assl.md)|  
+|Parent element|[DataSource](data-type/datasource-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  If a data source uses a managed provider, the **ManagedProvider** element contains the name of the managed provider.  
   
 ## See Also  
- [Name Element &#40;ASSL&#41;](../../../analysis-services/scripting/properties/name-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Name Element &#40;ASSL&#41;](properties/name-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

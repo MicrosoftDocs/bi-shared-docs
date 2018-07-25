@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md)|  
+|Parent element|[Dimension](objects/dimension-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -45,6 +45,6 @@ manager: kfile
   
 ## See Also  
  [Configure the &#40;All&#41; Level for Attribute Hierarchies](../../../analysis-services/multidimensional-models/database-dimensions-configure-the-all-level-for-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

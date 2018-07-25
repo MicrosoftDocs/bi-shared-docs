@@ -1,6 +1,6 @@
 ---
 title: "Visibility Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Visibility Element (ASSL)
 
-  Defines the visibility of an [Annotation](../../../analysis-services/scripting/objects/annotation-element-assl.md) element.  
+  Defines the visibility of an [Annotation](objects/annotation-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Annotation](../../../analysis-services/scripting/objects/annotation-element-assl.md)|  
+|Parent element|[Annotation](objects/annotation-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,6 +51,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **Visibility** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Annotation>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

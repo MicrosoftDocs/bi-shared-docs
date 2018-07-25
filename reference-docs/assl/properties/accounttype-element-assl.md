@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AccountType Element (ASSL)
 
-  Contains the name of an account type defined in a [Database](../../../analysis-services/scripting/objects/database-element-assl.md) element.  
+  Contains the name of an account type defined in a [Database](objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Account](../../../analysis-services/scripting/objects/account-element-assl.md)|  
+|Parent elements|[Account](objects/account-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -56,7 +56,7 @@ manager: kfile
  The enumeration corresponding to the allowed values for **AccountType** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AccountTypes>.  
   
 ## See Also  
- [Accounts Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/accounts-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Accounts Element &#40;ASSL&#41;](collections/accounts-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

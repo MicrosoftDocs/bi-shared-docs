@@ -12,7 +12,7 @@ manager: kfile
 ---
 # PerspectiveCalculation Data Type (ASSL)
 
-  Defines a primitive data type that represents the relationship between a calculation and a [Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md) element.  
+  Defines a primitive data type that represents the relationship between a calculation and a [Perspective](objects/perspective-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [Type](../../../analysis-services/scripting/properties/type-element-perspectivecalculation-assl.md)|  
-|Derived elements|[Calculation](../../../analysis-services/scripting/objects/calculation-element-assl.md) ([Calculations](../../../analysis-services/scripting/collections/calculations-element-assl.md) collection of [Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md))|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [Name](properties/name-element-assl.md), [Type](properties/type-element-perspectivecalculation-assl.md)|  
+|Derived elements|[Calculation](objects/calculation-element-assl.md) ([Calculations](collections/calculations-element-assl.md) collection of [Perspective](objects/perspective-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PerspectiveCalculation>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

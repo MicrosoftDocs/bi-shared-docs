@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Cardinality Element (ASSL)
 
-  Indicates the cardinality of the relationship described by an [AttributeRelationship](../../../analysis-services/scripting/objects/attributerelationship-element-assl.md) or [RegularMeasureGroupDimension](../../../analysis-services/scripting/data-type/regularmeasuregroupdimension-data-type-assl.md).  
+  Indicates the cardinality of the relationship described by an [AttributeRelationship](objects/attributerelationship-element-assl.md) or [RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md).  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[AttributeRelationship](../../../analysis-services/scripting/objects/attributerelationship-element-assl.md), [RegularMeasureGroupDimension](../../../analysis-services/scripting/data-type/regularmeasuregroupdimension-data-type-assl.md)|  
+|Parent element|[AttributeRelationship](objects/attributerelationship-element-assl.md), [RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,6 +52,6 @@ manager: kfile
   
 ## See Also  
  [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-objects/attributes-and-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

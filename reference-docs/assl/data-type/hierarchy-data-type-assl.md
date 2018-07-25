@@ -45,8 +45,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[AllMemberName](../../../analysis-services/scripting/properties/allmembername-element-assl.md), [AllMemberTranslations](../../../analysis-services/scripting/collections/allmembertranslations-element-assl.md), [AllowDuplicateNames](../../../analysis-services/scripting/properties/allowduplicatenames-element-assl.md), [Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [DisplayFolder](../../../analysis-services/scripting/properties/displayfolder-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [Levels](../../../analysis-services/scripting/collections/levels-element-assl.md), [MemberNamesUnique](../../../analysis-services/scripting/properties/membernamesunique-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [Translations](../../../analysis-services/scripting/collections/translations-element-assl.md)|  
-|Derived elements|[Hierarchy](../../../analysis-services/scripting/objects/hierarchy-element-assl.md)|  
+|Child elements|[AllMemberName](properties/allmembername-element-assl.md), [AllMemberTranslations](collections/allmembertranslations-element-assl.md), [AllowDuplicateNames](properties/allowduplicatenames-element-assl.md), [Annotations](collections/annotations-element-assl.md), [Description](properties/description-element-assl.md), [DisplayFolder](properties/displayfolder-element-assl.md), [ID](properties/id-element-assl.md), [Levels](collections/levels-element-assl.md), [MemberNamesUnique](properties/membernamesunique-element-assl.md), [Name](properties/name-element-assl.md), [Translations](collections/translations-element-assl.md)|  
+|Derived elements|[Hierarchy](objects/hierarchy-element-assl.md)|  
   
 ## Remarks  
  The *MemberNamesUnique* element is not supported under DevelopmentMode 1 or 2 for SharePoint or Tabular server modes, respectively.  
@@ -58,6 +58,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Hierarchy>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

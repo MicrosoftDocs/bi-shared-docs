@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Administer Element (ASSL)
 
-  Indicates whether the associated permission includes the right to administer a [Database](../../../analysis-services/scripting/objects/database-element-assl.md) element.  
+  Indicates whether the associated permission includes the right to administer a [Database](objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DatabasePermission](../../../analysis-services/scripting/objects/databasepermission-element-assl.md)|  
+|Parent elements|[DatabasePermission](objects/databasepermission-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,8 +46,8 @@ manager: kfile
  The element that corresponds to the parent of **Administer** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DatabasePermission>.  
   
 ## See Also  
- [Permission Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/permission-data-type-assl.md)   
- [Role Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/role-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Permission Data Type &#40;ASSL&#41;](data-type/permission-data-type-assl.md)   
+ [Role Element &#40;ASSL&#41;](objects/role-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

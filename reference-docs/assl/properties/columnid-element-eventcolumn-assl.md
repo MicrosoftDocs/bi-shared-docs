@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ColumnID Element (EventColumn) (ASSL)
 
-  Contains the identifier (ID) of the column of information to be captured for an event as part of a [Trace](../../../analysis-services/scripting/objects/trace-element-assl.md) element.  
+  Contains the identifier (ID) of the column of information to be captured for an event as part of a [Trace](objects/trace-element-assl.md) element.  
   
 ## Syntax  
   
@@ -35,16 +35,16 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[EventColumn](../../../analysis-services/scripting/data-type/eventcolumn-data-type-assl.md)|  
+|Parent element|[EventColumn](data-type/eventcolumn-data-type-assl.md)|  
 |Child elements|None.|  
   
 ## Remarks  
  The element that corresponds to the parent of **ColumnID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TraceColumn>.  
   
 ## See Also  
- [Columns Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/columns-element-assl.md)   
- [Event Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/event-element-assl.md)   
- [Events Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/events-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Columns Element &#40;ASSL&#41;](collections/columns-element-assl.md)   
+ [Event Element &#40;ASSL&#41;](objects/event-element-assl.md)   
+ [Events Element &#40;ASSL&#41;](collections/events-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

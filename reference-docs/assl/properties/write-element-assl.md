@@ -1,6 +1,6 @@
 ---
 title: "Write Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Write Element (ASSL)
 
-  Determines whether data or metadata can be written for a given [CubeDimensionPermission](../../../analysis-services/scripting/data-type/cubedimensionpermission-data-type-assl.md) or [Permission](../../../analysis-services/scripting/data-type/permission-data-type-assl.md) element.  
+  Determines whether data or metadata can be written for a given [CubeDimensionPermission](data-type/cubedimensionpermission-data-type-assl.md) or [Permission](data-type/permission-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubeDimensionPermission](../../../analysis-services/scripting/objects/cubepermission-element-assl.md), [Permission](../../../analysis-services/scripting/data-type/permission-data-type-assl.md)|  
+|Parent elements|[CubeDimensionPermission](objects/cubepermission-element-assl.md), [Permission](data-type/permission-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,8 +52,8 @@ manager: kfile
  The elements that correspond to the parents of **Write** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CubeDimensionPermission> and <xref:Microsoft.AnalysisServices.Permission>.  
   
 ## See Also  
- [Cube Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/cube-element-assl.md)   
- [Dimension Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/dimension-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Cube Element &#40;ASSL&#41;](objects/cube-element-assl.md)   
+ [Dimension Element &#40;ASSL&#41;](objects/dimension-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

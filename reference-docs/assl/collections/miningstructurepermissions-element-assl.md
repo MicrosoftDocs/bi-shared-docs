@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MiningStructurePermissions Element (ASSL)
 
-  Contains the collection of permissions on a [MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md) element.  
+  Contains the collection of permissions on a [MiningStructure](objects/miningstructure-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,14 +39,9 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md)|  
-|Child elements|[MiningStructurePermission](../../../analysis-services/scripting/objects/miningstructurepermission-element-assl.md) of type [Permission](../../../analysis-services/scripting/data-type/permission-data-type-assl.md)|  
+|Parent element|[MiningStructure](objects/miningstructure-element-assl.md)|  
+|Child elements|[MiningStructurePermission](objects/miningstructurepermission-element-assl.md) of type [Permission](data-type/permission-data-type-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningStructurePermissionCollection>.  
-  
-## See Also  
- [Permission Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/permission-data-type-assl.md)   
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  
+

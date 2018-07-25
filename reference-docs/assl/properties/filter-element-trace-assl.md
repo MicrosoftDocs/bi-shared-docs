@@ -1,6 +1,6 @@
 ---
 title: "Filter Element (Trace) (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Filter Element (Trace) (ASSL)
 
-  Contains an XML document fragment that describes the [Trace](../../../analysis-services/scripting/objects/trace-element-assl.md) filter.  
+  Contains an XML document fragment that describes the [Trace](objects/trace-element-assl.md) filter.  
   
 ## Syntax  
   
@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Trace](../../../analysis-services/scripting/objects/trace-element-assl.md)|  
+|Parent element|[Trace](objects/trace-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **Filter** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Trace>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)   
- [Traces Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/traces-element-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)   
+ [Traces Element &#40;ASSL&#41;](collections/traces-element-assl.md)  
   
   

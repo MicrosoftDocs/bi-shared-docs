@@ -46,13 +46,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Cube](../../../analysis-services/scripting/objects/cube-element-assl.md), [Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md), [MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md), [Partition](../../../analysis-services/scripting/objects/partition-element-assl.md)|  
-|Child elements|[AggregationStorage](../../../analysis-services/scripting/properties/aggregationstorage-element-assl.md), [Enabled](../../../analysis-services/scripting/properties/enabled-element-assl.md), [ForceRebuildInterval](../../../analysis-services/scripting/properties/forcerebuildinterval-element-assl.md), [Latency](../../../analysis-services/scripting/properties/latency-element-assl.md), [OnlineMode](../../../analysis-services/scripting/properties/onlinemode-element-assl.md), [SilenceInterval](../../../analysis-services/scripting/properties/silenceinterval-element-assl.md), [SilenceOverrideInterval](../../../analysis-services/scripting/properties/silenceoverrideinterval-element-assl.md), [Source](../../../analysis-services/scripting/properties/source-element-binding-assl.md)|  
+|Parent elements|[Cube](objects/cube-element-assl.md), [Dimension](objects/dimension-element-assl.md), [MeasureGroup](objects/measuregroup-element-assl.md), [Partition](objects/partition-element-assl.md)|  
+|Child elements|[AggregationStorage](properties/aggregationstorage-element-assl.md), [Enabled](properties/enabled-element-assl.md), [ForceRebuildInterval](properties/forcerebuildinterval-element-assl.md), [Latency](properties/latency-element-assl.md), [OnlineMode](properties/onlinemode-element-assl.md), [SilenceInterval](properties/silenceinterval-element-assl.md), [SilenceOverrideInterval](properties/silenceoverrideinterval-element-assl.md), [Source](properties/source-element-binding-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ProactiveCaching>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

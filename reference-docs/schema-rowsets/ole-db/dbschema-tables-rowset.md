@@ -1,6 +1,6 @@
 ---
 title: "DBSCHEMA_TABLES Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # DBSCHEMA_TABLES Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  Identifies the measure groups and dimensions exposed as tables within [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)].  
+
+  Identifies the measure groups and dimensions exposed as tables within Analysis Services.  
   
 ## Rowset Columns  
  The **DBSCHEMA_TABLES** rowset contains the following columns.  
@@ -44,6 +44,6 @@ manager: kfile
 |**TABLE_OLAP_TYPE**|**DBTYPE_WSTR**|Optional|  
   
 ## See Also  
- [OLE DB Schema Rowsets](../../../analysis-services/schema-rowsets/ole-db/ole-db-schema-rowsets.md)  
+ [OLE DB Schema Rowsets](ole-db-schema-rowsets.md)  
   
   

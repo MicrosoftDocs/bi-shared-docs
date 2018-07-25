@@ -1,6 +1,6 @@
 ---
 title: "FoldingParameters Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -45,7 +45,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md)|  
+|Parent element|[MiningModel](objects/miningmodel-element-assl.md)|  
 |Child elements|*FoldIndex*<br /><br /> *FoldCount*<br /><br /> *MaxCases*<br /><br /> *FoldTargetAttribute*|  
   
 ## Remarks  
@@ -56,6 +56,6 @@ manager: kfile
  For information about how to perform cross-validation by usingAnalysis Services stored procedures, see [Data Mining Stored Procedures &#40;Analysis Services - Data Mining&#41;](../../../analysis-services/data-mining/data-mining-stored-procedures-analysis-services-data-mining.md).  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

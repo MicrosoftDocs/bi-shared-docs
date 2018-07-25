@@ -38,8 +38,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ReportParameters](../../../analysis-services/scripting/collections/reportparameters-element-assl.md)|  
-|Child elements|[Name](../../../analysis-services/scripting/properties/name-element-assl.md), [Value](../../../analysis-services/scripting/properties/value-element-assl.md)|  
+|Parent elements|[ReportParameters](collections/reportparameters-element-assl.md)|  
+|Child elements|[Name](properties/name-element-assl.md), [Value](properties/value-element-assl.md)|  
   
 ## Remarks  
  The **Value** element must contain a Multidimensional Expressions (MDX) expression.  
@@ -47,8 +47,8 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ReportParameter>.  
   
 ## See Also  
- [ReportAction Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/reportaction-data-type-assl.md)   
- [Action Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/action-element-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [ReportAction Data Type &#40;ASSL&#41;](data-type/reportaction-data-type-assl.md)   
+ [Action Element &#40;ASSL&#41;](objects/action-element-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

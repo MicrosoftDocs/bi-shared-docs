@@ -1,6 +1,6 @@
 ---
 title: "DBSCHEMA_COLUMNS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DBSCHEMA_COLUMNS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Provides column information for all columns meeting the provided restriction criteria.  
   
 ## Rowset Columns  
@@ -63,6 +63,6 @@ manager: kfile
 |**COLUMN_OLAP_TYPE**|**DBTYPE_WSTR**|Optional|  
   
 ## See Also  
- [OLE DB Schema Rowsets](../../../analysis-services/schema-rowsets/ole-db/ole-db-schema-rowsets.md)  
+ [OLE DB Schema Rowsets](ole-db-schema-rowsets.md)  
   
   

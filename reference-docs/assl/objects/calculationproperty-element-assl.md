@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CalculationProperty Element (ASSL)
 
-  Contains a collection of user interface properties for a calculation used in an [MdxScript](../../../analysis-services/scripting/objects/mdxscript-element-assl.md) element.  
+  Contains a collection of user interface properties for a calculation used in an [MdxScript](objects/mdxscript-element-assl.md) element.  
   
 ## Syntax  
   
@@ -51,13 +51,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CalculationProperties](../../../analysis-services/scripting/collections/calculationproperties-element-assl.md)|  
-|Child elements|[AssociatedMeasureGroupID](../../../analysis-services/scripting/properties/associatedmeasuregroupid-element-assl.md), [BackColor](../../../analysis-services/scripting/properties/backcolor-element-assl.md), [CalculationReference](../../../analysis-services/scripting/properties/calculationreference-element-assl.md), [CalculationType](../../../analysis-services/scripting/properties/calculationtype-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [DisplayFolder](../../../analysis-services/scripting/properties/displayfolder-element-assl.md), [FontFlags](../../../analysis-services/scripting/properties/fontflags-element-assl.md), [FontName](../../../analysis-services/scripting/properties/fontname-element-assl.md), [FontSize](../../../analysis-services/scripting/properties/fontsize-element-assl.md), [ForeColor](../../../analysis-services/scripting/properties/forecolor-element-assl.md), [FormatString](../../../analysis-services/scripting/properties/formatstring-element-assl.md), [NonEmptyBehavior](../../../analysis-services/scripting/properties/nonemptybehavior-element-assl.md), [SolveOrder](../../../analysis-services/scripting/properties/solveorder-element-assl.md), [Translations](../../../analysis-services/scripting/collections/translations-element-assl.md), [Visible](../../../analysis-services/scripting/properties/visible-element-assl.md)|  
+|Parent elements|[CalculationProperties](collections/calculationproperties-element-assl.md)|  
+|Child elements|[AssociatedMeasureGroupID](properties/associatedmeasuregroupid-element-assl.md), [BackColor](properties/backcolor-element-assl.md), [CalculationReference](properties/calculationreference-element-assl.md), [CalculationType](properties/calculationtype-element-assl.md), [Description](properties/description-element-assl.md), [DisplayFolder](properties/displayfolder-element-assl.md), [FontFlags](properties/fontflags-element-assl.md), [FontName](properties/fontname-element-assl.md), [FontSize](properties/fontsize-element-assl.md), [ForeColor](properties/forecolor-element-assl.md), [FormatString](properties/formatstring-element-assl.md), [NonEmptyBehavior](properties/nonemptybehavior-element-assl.md), [SolveOrder](properties/solveorder-element-assl.md), [Translations](collections/translations-element-assl.md), [Visible](properties/visible-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CalculationProperty>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

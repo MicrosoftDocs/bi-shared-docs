@@ -1,6 +1,6 @@
 ---
 title: "DefaultMember Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[AttributePermission](../../../analysis-services/scripting/objects/attributepermission-element-assl.md), [DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md), [ManyToManyMeasureGroupDimension](../../../analysis-services/scripting/data-type/manytomanymeasuregroupdimension-data-type-assl.md), [PerspectiveAttribute](../../../analysis-services/scripting/data-type/perspectiveattribute-data-type-assl.md)|  
+|Parent element|[AttributePermission](objects/attributepermission-element-assl.md), [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md), [ManyToManyMeasureGroupDimension](data-type/manytomanymeasuregroupdimension-data-type-assl.md), [PerspectiveAttribute](data-type/perspectiveattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -50,6 +50,6 @@ manager: kfile
  The elements that correspond to the parents of **DefaultMember** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AttributePermission>, <xref:Microsoft.AnalysisServices.DimensionAttribute>, and <xref:Microsoft.AnalysisServices.PerspectiveAttribute>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

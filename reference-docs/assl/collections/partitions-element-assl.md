@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Partitions Element (ASSL)
 
-  Contains the collection of [Partition](../../../analysis-services/scripting/objects/partition-element-assl.md) elements used by a [MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md) element, or the collection of partition bindings that make up an out-of-line [MeasureGroupBinding](../../../analysis-services/scripting/data-type/measuregroupbinding-data-type-out-of-line-assl.md) element.  
+  Contains the collection of [Partition](objects/partition-element-assl.md) elements used by a [MeasureGroup](objects/measuregroup-element-assl.md) element, or the collection of partition bindings that make up an out-of-line [MeasureGroupBinding](data-type/measuregroupbinding-data-type-out-of-line-assl.md) element.  
   
 ## Syntax  
   
@@ -41,18 +41,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md), [MeasureGroupBinding](../../../analysis-services/scripting/data-type/measuregroupbinding-data-type-out-of-line-assl.md)|  
+|Parent elements|[MeasureGroup](objects/measuregroup-element-assl.md), [MeasureGroupBinding](data-type/measuregroupbinding-data-type-out-of-line-assl.md)|  
 |Child elements|See the table below.|  
   
 |Ancestor or Parent|Child Element|  
 |------------------------|-------------------|  
-|[MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md)|[Partition](../../../analysis-services/scripting/objects/partition-element-assl.md)|  
-|[MeasureGroupBinding](../../../analysis-services/scripting/data-type/measuregroupbinding-data-type-out-of-line-assl.md)|[Partition](../../../analysis-services/scripting/objects/partition-element-assl.md) of type [PartitionBinding](../../../analysis-services/scripting/data-type/partitionbinding-data-type-assl.md)|  
+|[MeasureGroup](objects/measuregroup-element-assl.md)|[Partition](objects/partition-element-assl.md)|  
+|[MeasureGroupBinding](data-type/measuregroupbinding-data-type-out-of-line-assl.md)|[Partition](objects/partition-element-assl.md) of type [PartitionBinding](data-type/partitionbinding-data-type-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PartitionCollection>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

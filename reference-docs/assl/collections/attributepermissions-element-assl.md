@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AttributePermissions Element (ASSL)
 
-  Contains the collection of attribute permissions for an individual [Role](../../../analysis-services/scripting/objects/role-element-assl.md) element on a specific dimension of a [Cube](../../../analysis-services/scripting/objects/cube-element-assl.md) element.  
+  Contains the collection of attribute permissions for an individual [Role](objects/role-element-assl.md) element on a specific dimension of a [Cube](objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,16 +37,10 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubeDimensionPermission](../../../analysis-services/scripting/data-type/cubedimensionpermission-data-type-assl.md), [DimensionPermission](../../../analysis-services/scripting/objects/dimensionpermission-element-assl.md)|  
-|Child elements|[AttributePermission](../../../analysis-services/scripting/objects/attributepermission-element-assl.md)|  
+|Parent elements|[CubeDimensionPermission](data-type/cubedimensionpermission-data-type-assl.md), [DimensionPermission](objects/dimensionpermission-element-assl.md)|  
+|Child elements|[AttributePermission](objects/attributepermission-element-assl.md)|  
   
 ## Remarks  
  For **DimensionPermission**, this collection can contain only one **AttributePermission** per attribute.  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributePermissionCollection>.  
-  
-## See Also  
- [Permission Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/permission-data-type-assl.md)   
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

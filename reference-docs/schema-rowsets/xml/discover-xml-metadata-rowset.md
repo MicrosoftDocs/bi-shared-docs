@@ -1,6 +1,6 @@
 ---
 title: "DISCOVER_XML_METADATA Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,10 +11,10 @@ author: minewiskan
 manager: kfile
 ---
 # DISCOVER_XML_METADATA Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Returns an XML document describing a requested object. The rowset that is returned always consists of one row and one column.  
   
- If you call the [Discover](../../../analysis-services/xmla/xml-elements-methods-discover.md) method with the **DISCOVER_XML_METATDATA** enumeration value in the [RequestType](../../../analysis-services/xmla/xml-elements-properties/requesttype-element-xmla.md) element, the **Discover** method returns the **DISCOVER_XML_METATDATA** rowset.  
+ If you call the [Discover](../../xmla/xml-elements-methods-discover.md) method with the **DISCOVER_XML_METATDATA** enumeration value in the [RequestType](../../xmla/xml-elements-properties/requesttype-element-xmla.md) element, the **Discover** method returns the **DISCOVER_XML_METATDATA** rowset.  
   
 ## Rowset Columns  
  The **DISCOVER_XML_METADATA** rowset contains the following column.  
@@ -56,7 +56,7 @@ manager: kfile
 |**DataSourcePermissionID**|**DBTYPE_WSTR**|Optional.|  
 |**ObjectExpansion**|**DBTYPE_WSTR**|Optional.|  
   
- The restriction, **ObjectExpansion**, is available for every major object of [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)]. The client typically uses restrictions to describe the OLAP objects for which the DDL is to be returned, and uses the **ObjectExpansion** restriction to define the degree of expansion in the returned DDL. The following table indicates whether the enumeration value is allowed for [Alter Element &#40;XMLA&#41;](../../../analysis-services/xmla/xml-elements-commands/alter-element-xmla.md) commands.  
+ The restriction, **ObjectExpansion**, is available for every major object of Analysis Services. The client typically uses restrictions to describe the OLAP objects for which the DDL is to be returned, and uses the **ObjectExpansion** restriction to define the degree of expansion in the returned DDL. The following table indicates whether the enumeration value is allowed for [Alter Element &#40;XMLA&#41;](../../xmla/xml-elements-commands/alter-element-xmla.md) commands.  
   
 |Enumeration Value|Description|  
 |-----------------------|-----------------|  
@@ -66,6 +66,6 @@ manager: kfile
 |**ExpandFull**|Fully expands the requested object recursively to the bottom of every contained object.|  
   
 ## See Also  
- [XML for Analysis Schema Rowsets](../../../analysis-services/schema-rowsets/xml/xml-for-analysis-schema-rowsets.md)  
+ [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
   
   

@@ -39,14 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md)|  
-|Child elements|[AttributeAllMemberTranslation](../../../analysis-services/scripting/objects/attributeallmembertranslation-element-assl.md)|  
+|Parent elements|[Dimension](objects/dimension-element-assl.md)|  
+|Child elements|[AttributeAllMemberTranslation](objects/attributeallmembertranslation-element-assl.md)|  
   
 ## Remarks  
  The element that corresponds to the parent of **AttributeAllMemberTranslations** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Dimension>.  
-  
-## See Also  
- [Translation Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/translation-element-assl.md)   
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # UnknownMemberTranslations Element (ASSL)
 
-  Contains the collection of translations for the caption of the [UnknownMember](../../../analysis-services/scripting/properties/unknownmember-element-assl.md) element of a dimension.  
+  Contains the collection of translations for the caption of the [UnknownMember](properties/unknownmember-element-assl.md) element of a dimension.  
   
 ## Syntax  
   
@@ -39,14 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md)|  
-|Child elements|[UnknownMemberTranslation](../../../analysis-services/scripting/objects/unknownmembertranslation-element-assl.md) of type [Translation](../../../analysis-services/scripting/data-type/translation-data-type-assl.md)|  
+|Parent elements|[Dimension](objects/dimension-element-assl.md)|  
+|Child elements|[UnknownMemberTranslation](objects/unknownmembertranslation-element-assl.md) of type [Translation](data-type/translation-data-type-assl.md)|  
   
 ## Remarks  
  The element that corresponds to the parent of **UnknownMemberTranslations** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Dimension>.  
-  
-## See Also  
- [Translation Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/translation-data-type-assl.md)   
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

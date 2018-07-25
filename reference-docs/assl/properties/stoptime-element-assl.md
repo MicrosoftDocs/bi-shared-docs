@@ -1,6 +1,6 @@
 ---
 title: "StopTime Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # StopTime Element (ASSL)
 
-  Specifies the date and time at which a [Trace](../../../analysis-services/scripting/objects/trace-element-assl.md) element should stop.  
+  Specifies the date and time at which a [Trace](objects/trace-element-assl.md) element should stop.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Trace](../../../analysis-services/scripting/objects/trace-element-assl.md)|  
+|Parent element|[Trace](objects/trace-element-assl.md)|  
 |Child elements|None|  
   
  The element that corresponds to the parent of **StopTime** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Trace>.  
   
 ## See Also  
- [Traces Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/traces-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Traces Element &#40;ASSL&#41;](collections/traces-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

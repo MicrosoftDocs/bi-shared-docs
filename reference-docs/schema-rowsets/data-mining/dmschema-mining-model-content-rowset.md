@@ -1,6 +1,6 @@
 ---
 title: "DMSCHEMA_MINING_MODEL_CONTENT Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DMSCHEMA_MINING_MODEL_CONTENT Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Allows the client application to browse the content of a data mining model. Client applications can use the special tree operation restrictions described at the end of this topic to navigate the content of the mining model.  
   
 ## Rowset Columns  
@@ -19,14 +19,14 @@ manager: kfile
   
 |Column name|Type indicator|Length|Description|  
 |-----------------|--------------------|------------|-----------------|  
-|**MODEL_CATALOG**|**DBTYPE_WSTR**||The catalog name. [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] populates this column with the name of the database of which the model is a member.|  
-|**MODEL_SCHEMA**|**DBTYPE_WSTR**||The unqualified schema name. This column is not supported by [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)]; it always contains **VT_NULL**.|  
+|**MODEL_CATALOG**|**DBTYPE_WSTR**||The catalog name. Analysis Services populates this column with the name of the database of which the model is a member.|  
+|**MODEL_SCHEMA**|**DBTYPE_WSTR**||The unqualified schema name. This column is not supported by Analysis Services; it always contains **VT_NULL**.|  
 |**MODEL_NAME**|**DBTYPE_WSTR**||The name of the model with which the content described by this row is associated.|  
 |**ATTRIBUTE_NAME**|**DBTYPE_WSTR**||The names of the attributes that correspond to this node.|  
 |**NODE_NAME**|**DBTYPE_WSTR**||The name of the node. Currently, this column contains the same value as **NODE_UNIQUE_NAME**, though this may change in future releases.|  
 |**NODE_UNIQUE_NAME**|**DBTYPE_WSTR**||The unique name of the node.|  
 |**NODE_TYPE**|**DBTYPE_I4**||The type of the node. Will generate one of the following values (3rd party data mining algorithms can extend this list):<br /><br /> **DM_NODE_TYPE_CLASSIFICATION_TREE_ROOT** (**2**)<br /><br /> **DM_NODE_TYPE_TREE_INTERIOR** (**3**)<br /><br /> **DM_NODE_TYPE_TREE_DISTRIBUTION** (**4**)<br /><br /> **DM_NODE_TYPE_CLUSTER** (**5**)<br /><br /> **DM_NODE_TYPE_UNKNOWN** (**6**)<br /><br /> **DM_NODE_TYPE_ITEMSET** (**7**)<br /><br /> **DM_NODE_TYPE_ASSOCIATION_RULE** (**8**)<br /><br /> **DM_NODE_TYPE_NB_PREDICTABLE_ATTRIBUTE** (**9**)<br /><br /> **DM_NODE_TYPE_NB_INPUT_ATTRIBUTE** (**10**)<br /><br /> **DM_NODE_TYPE_NB_INPUT_ATTRIBUTE_STATE** (**11**)<br /><br /> **DM_NODE_TYPE_SEQUENCE** (**13**)<br /><br /> **DM_NODE_TYPE_TRANSITION** (**14**)<br /><br /> **DM_NODE_TYPE_TIME_SERIES** (**15**)<br /><br /> **DM_NODE_TYPE_TS_TREE** (**16**)<br /><br /> **DM_NODE_TYPE_NN_SUBNETWORK** (**17**)  Neural network, subnetwork<br /><br /> **DM_NODE_TYPE_NN_INPUT_LAYER** (**18**)  Neural network, input layer (parent of input nodes)<br /><br /> **DM_NODE_TYPE_NN_HIDDEN_LAYER** (**19**) Neural network, hidden layer (parent of hidden nodes)<br /><br /> **DM_NODE_TYPE_NN_OUTPUT_LAYER** (**20**) Neural network, output layer (parent of output nodes)<br /><br /> **DM_NODE_TYPE_NN_INPUT_NODE** (**21**) Neural network, input node<br /><br /> **DM_NODE_TYPE_NN_HIDDEN_NODE** (**22**) Neural network, hidden node<br /><br /> **DM_NODE_TYPE_NN_OUTPUT_NODE** (**23**) Neural network, output node<br /><br /> **DM_NODE_TYPE_NN_MARGINAL_STAT_NODE** (**24**) Neural network, marginal stat node<br /><br /> **DM_NODE_TYPE_REGRESSION_TREE_ROOT** (**25**)<br /><br /> **DM_NODE_TYPE_NB_MARGINAL_STAT_NODE** (**26**) Neural network, marginal stat node|  
-|**NODE_GUID**|**DBTYPE_GUID**||The node GUID. This column is not supported by [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)]; it always contains **NULL**.|  
+|**NODE_GUID**|**DBTYPE_GUID**||The node GUID. This column is not supported by Analysis Services; it always contains **NULL**.|  
 |**NODE_CAPTION**|**DBTYPE_WSTR**||A label or a caption associated with the node. This property is primarily for display purposes.|  
 |**CHILDREN_CARDINALITY**|**DBTYPE_UI4**||An estimate of the number of children that the node has.|  
 |**PARENT_UNIQUE_NAME**|**DBTYPE_WSTR**||The unique name of the node's parent. **NULL** is returned for any nodes at the root level.|  
@@ -69,6 +69,6 @@ manager: kfile
 |**DMTREEOP_DESCENDANTS**|**0x00000010**|  
   
 ## See Also  
- [Data Mining Schema Rowsets](../../../analysis-services/schema-rowsets/data-mining/data-mining-schema-rowsets.md)  
+ [Data Mining Schema Rowsets](data-mining-schema-rowsets.md)  
   
   

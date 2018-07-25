@@ -39,11 +39,5 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningStructureColumn](../../../analysis-services/scripting/data-type/miningstructurecolumn-data-type-assl.md) of type [TableMiningStructureColumn](../../../analysis-services/scripting/data-type/tableminingstructurecolumn-data-type-assl.md)|  
-|Child elements|[ForeignKeyColumn](../../../analysis-services/scripting/objects/foreignkeycolumn-element-assl.md) of type [DataItem](../../../analysis-services/scripting/data-type/dataitem-data-type-assl.md)|  
-  
-## See Also  
- [MiningStructure Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/miningstructure-element-assl.md)   
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  
+|Parent elements|[MiningStructureColumn](data-type/miningstructurecolumn-data-type-assl.md) of type [TableMiningStructureColumn](data-type/tableminingstructurecolumn-data-type-assl.md)|  
+|Child elements|[ForeignKeyColumn](objects/foreignkeycolumn-element-assl.md) of type [DataItem](data-type/dataitem-data-type-assl.md)|  

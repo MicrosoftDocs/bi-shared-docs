@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ProactiveCaching](../../../analysis-services/scripting/objects/proactivecaching-element-assl.md)|  
+|Parent element|[ProactiveCaching](objects/proactivecaching-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -48,11 +48,11 @@ manager: kfile
 |*Regular*|Aggregation data is stored in the default manner.|  
 |*MolapOnly*|Aggregation data is stored using multidimensional OLAP (MOLAP) storage only.|  
   
- The *MolapOnly* option is available only for the [Partition](../../../analysis-services/scripting/objects/partition-element-assl.md) element.  
+ The *MolapOnly* option is available only for the [Partition](objects/partition-element-assl.md) element.  
   
  The enumeration that corresponds to the allowed values for **AggregationStorage** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ProactiveCachingAggregationStorage>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

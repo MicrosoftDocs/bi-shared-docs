@@ -1,6 +1,6 @@
 ---
 title: "MDSCHEMA_HIERARCHIES Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDSCHEMA_HIERARCHIES Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Describes each hierarchy within a particular dimension.  
   
 ## Rowset Columns  
@@ -23,7 +23,7 @@ manager: kfile
 |**SCHEMA_NAME**|**DBTYPE_WSTR**|Not supported|  
 |**CUBE_NAME**|**DBTYPE_WSTR**|(Required) The name of the cube to which this hierarchy belongs.|  
 |**DIMENSION_UNIQUE_NAME**|**DBTYPE_WSTR**|The unique name of the dimension to which this hierarchy belongs. For providers that generate unique names by qualification, each component of this name is delimited.|  
-|**HIERARCHY_NAME**|**DBTYPE_WSTR**|The name of the hierarchy. Blank if there is only a single hierarchy in the dimension. This will always have a value in [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)].|  
+|**HIERARCHY_NAME**|**DBTYPE_WSTR**|The name of the hierarchy. Blank if there is only a single hierarchy in the dimension. This will always have a value in Analysis Services.|  
 |**HIERARCHY_UNIQUE_NAME**|**DBTYPE_WSTR**|The unique name of the hierarchy.|  
 |**HIERARCHY_GUID**|**DBTYPE_GUID**|Not supported|  
 |**HIERARCHY_CAPTION**|**DBTYPE_WSTR**|A label or a caption associated with the hierarchy. Used primarily for display purposes. If a caption does not exist, **HIERARCHY_NAME** is returned. If the dimension either does not contain a hierarchy or has just one hierarchy, this column will contain the name of the dimension.|  
@@ -65,6 +65,6 @@ manager: kfile
 |**HIERARCHY_VISIBILITY**|**DBTYPE_UI2**|(Optional) Default restriction is a value of 1. A bitmap with one of the following valid values:<br /><br /> 1 Visible<br /><br /> 2 Not visible|  
   
 ## See Also  
- [OLE DB for OLAP Schema Rowsets](../../../analysis-services/schema-rowsets/ole-db-olap/ole-db-for-olap-schema-rowsets.md)  
+ [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
   
   

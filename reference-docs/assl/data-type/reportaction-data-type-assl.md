@@ -31,7 +31,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[Action](../../../analysis-services/scripting/data-type/action-data-type-assl.md)|  
+|Base data types|[Action](data-type/action-data-type-assl.md)|  
 |Derived data types|None|  
   
 ## Data Type Relationships  
@@ -39,8 +39,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Path](../../../analysis-services/scripting/properties/path-element-assl.md), [ReportFormatParameters](../../../analysis-services/scripting/collections/reportformatparameters-element-assl.md), [ReportParameters](../../../analysis-services/scripting/collections/reportparameters-element-assl.md), [ReportServer](../../../analysis-services/scripting/properties/reportserver-element-assl.md)|  
-|Derived elements|[Action](../../../analysis-services/scripting/objects/action-element-assl.md) ([Actions](../../../analysis-services/scripting/collections/actions-element-assl.md) collection of [Cube](../../../analysis-services/scripting/objects/cube-element-assl.md) or [Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md))|  
+|Child elements|[Path](properties/path-element-assl.md), [ReportFormatParameters](collections/reportformatparameters-element-assl.md), [ReportParameters](collections/reportparameters-element-assl.md), [ReportServer](properties/reportserver-element-assl.md)|  
+|Derived elements|[Action](objects/action-element-assl.md) ([Actions](collections/actions-element-assl.md) collection of [Cube](objects/cube-element-assl.md) or [Perspective](objects/perspective-element-assl.md))|  
   
 ## Remarks  
  The report server responds to URL-based requests for reports. The report action is defined with a type *Report*. The resources and parameters are sent to the server when the action is created. The server exposes the action as an action of type rowset.  
@@ -48,6 +48,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ReportAction>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

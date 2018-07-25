@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CubeDimensionID Element (ASSL)
 
-  Identifies the [CubeDimension](../../../analysis-services/scripting/data-type/cubedimension-data-type-assl.md) element associated with the parent element.  
+  Identifies the [CubeDimension](data-type/cubedimension-data-type-assl.md) element associated with the parent element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AggregationDesignDimension](../../../analysis-services/scripting/data-type/aggregationdesigndimension-data-type-assl.md), [AggregationDimension](../../../analysis-services/scripting/data-type/aggregationdimension-data-type-assl.md), [AggregationInstanceCubeDimension](../../../analysis-services/scripting/data-type/aggregationinstancecubedimension-data-type-assl.md), [CubeAttributeBinding](../../../analysis-services/scripting/data-type/cubeattributebinding-data-type-assl.md), [CubeDimensionBinding](../../../analysis-services/scripting/data-type/cubedimensionbinding-data-type-assl.md), [CubeDimensionPermission](../../../analysis-services/scripting/data-type/cubedimensionpermission-data-type-assl.md), [MeasureGroupDimension](../../../analysis-services/scripting/data-type/measuregroupdimension-data-type-assl.md), [MeasureGroupDimensionBinding](../../../analysis-services/scripting/data-type/measuregroupdimensionbinding-data-type-assl.md), [PerspectiveDimension](../../../analysis-services/scripting/data-type/perspectivedimension-data-type-assl.md)|  
+|Parent elements|[AggregationDesignDimension](data-type/aggregationdesigndimension-data-type-assl.md), [AggregationDimension](data-type/aggregationdimension-data-type-assl.md), [AggregationInstanceCubeDimension](data-type/aggregationinstancecubedimension-data-type-assl.md), [CubeAttributeBinding](data-type/cubeattributebinding-data-type-assl.md), [CubeDimensionBinding](data-type/cubedimensionbinding-data-type-assl.md), [CubeDimensionPermission](data-type/cubedimensionpermission-data-type-assl.md), [MeasureGroupDimension](data-type/measuregroupdimension-data-type-assl.md), [MeasureGroupDimensionBinding](data-type/measuregroupdimensionbinding-data-type-assl.md), [PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **CubeDimensionID** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AggregationDesignDimension>, <xref:Microsoft.AnalysisServices.AggregationDimension>, <xref:Microsoft.AnalysisServices.CubeAttributeBinding>, <xref:Microsoft.AnalysisServices.CubeDimensionBinding>, <xref:Microsoft.AnalysisServices.CubeDimensionPermission>, <xref:Microsoft.AnalysisServices.MeasureGroupDimension>, <xref:Microsoft.AnalysisServices.MeasureGroupDimensionBinding>, and <xref:Microsoft.AnalysisServices.PerspectiveDimension>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

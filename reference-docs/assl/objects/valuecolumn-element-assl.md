@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[DataItem](../../../analysis-services/scripting/data-type/dataitem-data-type-assl.md)|  
+|Data type and length|[DataItem](data-type/dataitem-data-type-assl.md)|  
 |Default value|Varies (see Remarks)|  
 |Cardinality|0-1: Optional element that can occur once and only once.|  
   
@@ -37,17 +37,17 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md)|  
+|Parent elements|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- If the [NameColumn](../../../analysis-services/scripting/objects/namecolumn-element-assl.md) element of **DimensionAttribute** is specified, the same **DataItem** values are used as default values for the **ValueColumn** element. If the **NameColumn** element of **DimensionAttribute** is not specified and the [KeyColumns](../../../analysis-services/scripting/collections/keycolumns-element-assl.md) collection of **DimensionAttribute** contains a single [KeyColumn](../../../analysis-services/scripting/objects/keycolumn-element-assl.md) element representing a key column with a string data type, the same **DataItem** values are used as default values for the **ValueColumn** element.  
+ If the [NameColumn](objects/namecolumn-element-assl.md) element of **DimensionAttribute** is specified, the same **DataItem** values are used as default values for the **ValueColumn** element. If the **NameColumn** element of **DimensionAttribute** is not specified and the [KeyColumns](collections/keycolumns-element-assl.md) collection of **DimensionAttribute** contains a single [KeyColumn](objects/keycolumn-element-assl.md) element representing a key column with a string data type, the same **DataItem** values are used as default values for the **ValueColumn** element.  
   
- For more information about the **DataItem** type, including a table of Analysis Services Scripting Language (ASSL) objects and properties of the **DataItem** type, see [DataItem Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/dataitem-data-type-assl.md).  
+ For more information about the **DataItem** type, including a table of Analysis Services Scripting Language (ASSL) objects and properties of the **DataItem** type, see [DataItem Data Type &#40;ASSL&#41;](data-type/dataitem-data-type-assl.md).  
   
  The elements that correspond to the parents of **NameColumn** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.DimensionAttribute> and <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CaptionIsMdx Element (ASSL)
 
-  Defines whether the caption for the [Action](../../../analysis-services/scripting/objects/action-element-assl.md) element is a Multidimensional Expressions (MDX) expression.  
+  Defines whether the caption for the [Action](objects/action-element-assl.md) element is a Multidimensional Expressions (MDX) expression.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Action](../../../analysis-services/scripting/objects/action-element-assl.md)|  
+|Parent element|[Action](objects/action-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **CaptionIsMdx** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Action>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

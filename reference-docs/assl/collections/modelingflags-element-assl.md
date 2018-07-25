@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ModelingFlags Element (ASSL)
 
-  Contains the collection of [ModelingFlag](../../../analysis-services/scripting/objects/modelingflag-element-assl.md) elements for a column in a [MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md) or a [MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md).  
+  Contains the collection of [ModelingFlag](objects/modelingflag-element-assl.md) elements for a column in a [MiningStructure](objects/miningstructure-element-assl.md) or a [MiningModel](objects/miningmodel-element-assl.md).  
   
 ## Syntax  
   
@@ -39,13 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningModelColumn](../../../analysis-services/scripting/data-type/miningmodelcolumn-data-type-assl.md), [ScalarMiningStructureColumn](../../../analysis-services/scripting/data-type/scalarminingstructurecolumn-data-type-assl.md)|  
-|Child elements|[ModelingFlag](../../../analysis-services/scripting/objects/modelingflag-element-assl.md)|  
+|Parent elements|[MiningModelColumn](data-type/miningmodelcolumn-data-type-assl.md), [ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md)|  
+|Child elements|[ModelingFlag](objects/modelingflag-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModelingFlags>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

@@ -1,6 +1,6 @@
 ---
 title: "DISCOVER_LOCKS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DISCOVER_LOCKS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Provides information about the current standing locks on the server.  
   
 ## Rowset Columns  
@@ -59,6 +59,6 @@ manager: kfile
 |LOCK_INVALID|0x0000080|Invalid lock.|  
   
 ## See Also  
- [XML for Analysis Schema Rowsets](../../../analysis-services/schema-rowsets/xml/xml-for-analysis-schema-rowsets.md)  
+ [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
   
   

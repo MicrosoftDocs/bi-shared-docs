@@ -1,6 +1,6 @@
 ---
 title: "LogFileRollover Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # LogFileRollover Element (ASSL)
 
-  Specifies whether logging of [Trace](../../../analysis-services/scripting/objects/trace-element-assl.md) output should roll over to a new file or should stop when the maximum log file size that is specified in [LogFileSize](../../../analysis-services/scripting/properties/logfilesize-element-assl.md) is reached.  
+  Specifies whether logging of [Trace](objects/trace-element-assl.md) output should roll over to a new file or should stop when the maximum log file size that is specified in [LogFileSize](properties/logfilesize-element-assl.md) is reached.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Trace](../../../analysis-services/scripting/objects/trace-element-assl.md)|  
+|Parent element|[Trace](objects/trace-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,7 +46,7 @@ manager: kfile
  The element that corresponds to the parent of **LogFileRollover** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Trace>.  
   
 ## See Also  
- [Traces Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/traces-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Traces Element &#40;ASSL&#41;](collections/traces-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

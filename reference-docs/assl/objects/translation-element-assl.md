@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Translation Element (ASSL)
 
-  Provides a localized translation for the parent of the [Translations](../../../analysis-services/scripting/collections/translations-element-assl.md) collection.  
+  Provides a localized translation for the parent of the [Translations](collections/translations-element-assl.md) collection.  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[Translation](../../../analysis-services/scripting/data-type/translation-data-type-assl.md), [AttributeTranslation](../../../analysis-services/scripting/data-type/attributetranslation-data-type-assl.md)|  
+|Data type and length|[Translation](data-type/translation-data-type-assl.md), [AttributeTranslation](data-type/attributetranslation-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur more than once.|  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Translations](../../../analysis-services/scripting/collections/translations-element-assl.md)|  
+|Parent elements|[Translations](collections/translations-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Translation>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

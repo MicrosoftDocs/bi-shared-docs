@@ -36,13 +36,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[AttributeID](../../../analysis-services/scripting/properties/attributeid-element-assl.md), [KeyColumns](../../../analysis-services/scripting/collections/keycolumns-element-assl.md)|  
-|Derived elements|[Attribute](../../../analysis-services/scripting/objects/attribute-element-assl.md)|  
+|Child elements|[AttributeID](properties/attributeid-element-assl.md), [KeyColumns](collections/keycolumns-element-assl.md)|  
+|Derived elements|[Attribute](objects/attribute-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationInstanceAttribute>.  
-  
-## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
-  
-  

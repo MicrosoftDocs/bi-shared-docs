@@ -1,6 +1,6 @@
 ---
 title: "Text Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Text Element (ASSL)
 
-  Contains the text of a [Command](../../../analysis-services/scripting/objects/command-element-assl.md) element.  
+  Contains the text of a [Command](objects/command-element-assl.md) element.  
   
 ## Syntax  
   
@@ -35,14 +35,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Command](../../../analysis-services/scripting/objects/command-element-assl.md)|  
+|Parent element|[Command](objects/command-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **Text** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Command>.  
   
 ## See Also  
- [Commands Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/commands-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Commands Element &#40;ASSL&#41;](collections/commands-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

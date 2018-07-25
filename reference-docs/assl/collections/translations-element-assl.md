@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Translations Element (ASSL)
 
-  Contains the collection of [Translation](../../../analysis-services/scripting/objects/translation-element-assl.md) elements associated with the parent element.  
+  Contains the collection of [Translation](objects/translation-element-assl.md) elements associated with the parent element.  
   
 ## Syntax  
   
@@ -43,19 +43,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Action](../../../analysis-services/scripting/objects/action-element-assl.md), [AttributeRelationship](../../../analysis-services/scripting/objects/attributerelationship-element-assl.md), [CalculationProperty](../../../analysis-services/scripting/objects/calculationproperty-element-assl.md), [Cube](../../../analysis-services/scripting/objects/cube-element-assl.md), [CubeDimension](../../../analysis-services/scripting/data-type/cubedimension-data-type-assl.md), [Database](../../../analysis-services/scripting/objects/database-element-assl.md), [Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md), [DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md), [Hierarchy](../../../analysis-services/scripting/objects/hierarchy-element-assl.md), [Kpi](../../../analysis-services/scripting/objects/kpi-element-assl.md), [Level](../../../analysis-services/scripting/objects/level-element-assl.md), [Measure](../../../analysis-services/scripting/objects/measure-element-assl.md), [MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md), [MiningModelColumn](../../../analysis-services/scripting/data-type/miningmodelcolumn-data-type-assl.md), [MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md), [Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md), [RelationshipEnd](../../../analysis-services/scripting/data-type/relationshipend-data-type-assl.md), [ScalarMiningStructureColumn](../../../analysis-services/scripting/data-type/scalarminingstructurecolumn-data-type-assl.md), [TableMiningStructureColumn](../../../analysis-services/scripting/data-type/tableminingstructurecolumn-data-type-assl.md)|  
+|Parent elements|[Action](objects/action-element-assl.md), [AttributeRelationship](objects/attributerelationship-element-assl.md), [CalculationProperty](objects/calculationproperty-element-assl.md), [Cube](objects/cube-element-assl.md), [CubeDimension](data-type/cubedimension-data-type-assl.md), [Database](objects/database-element-assl.md), [Dimension](objects/dimension-element-assl.md), [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md), [Hierarchy](objects/hierarchy-element-assl.md), [Kpi](objects/kpi-element-assl.md), [Level](objects/level-element-assl.md), [Measure](objects/measure-element-assl.md), [MiningModel](objects/miningmodel-element-assl.md), [MiningModelColumn](data-type/miningmodelcolumn-data-type-assl.md), [MiningStructure](objects/miningstructure-element-assl.md), [Perspective](objects/perspective-element-assl.md), [RelationshipEnd](data-type/relationshipend-data-type-assl.md), [ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md), [TableMiningStructureColumn](data-type/tableminingstructurecolumn-data-type-assl.md)|  
 |Child elements|See the table below.|  
   
 |Ancestor or Parent|Child Element|  
 |------------------------|-------------------|  
-|[DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md) or [ScalarMiningStructureColumn](../../../analysis-services/scripting/data-type/scalarminingstructurecolumn-data-type-assl.md)|[Translation](../../../analysis-services/scripting/objects/translation-element-assl.md) of type [AttributeTranslation](../../../analysis-services/scripting/data-type/attributetranslation-data-type-assl.md)|  
-|[RelationshipEnd](../../../analysis-services/scripting/data-type/relationshipend-data-type-assl.md)|[Translation](../../../analysis-services/scripting/data-type/relationshipendtranslation-element-assl.md) of type [RelationshipEndTranslation](../../../analysis-services/scripting/data-type/relationshipendtranslation-element-assl.md)|  
-|All others|[Translation](../../../analysis-services/scripting/objects/translation-element-assl.md)|  
+|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md) or [ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md)|[Translation](objects/translation-element-assl.md) of type [AttributeTranslation](data-type/attributetranslation-data-type-assl.md)|  
+|[RelationshipEnd](data-type/relationshipend-data-type-assl.md)|[Translation](data-type/relationshipendtranslation-element-assl.md) of type [RelationshipEndTranslation](data-type/relationshipendtranslation-element-assl.md)|  
+|All others|[Translation](objects/translation-element-assl.md)|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.TranslationCollection> and <xref:Microsoft.AnalysisServices.AttributeTranslationCollection>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

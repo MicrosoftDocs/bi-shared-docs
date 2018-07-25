@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Roles Element (ASSL)
 
-  Contains the collection of [Role](../../../analysis-services/scripting/objects/role-element-assl.md) elements defined under the parent element.  
+  Contains the collection of [Role](objects/role-element-assl.md) elements defined under the parent element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Database](../../../analysis-services/scripting/objects/database-element-assl.md), [Server](../../../analysis-services/scripting/objects/server-element-assl.md)|  
-|Child elements|[Role](../../../analysis-services/scripting/objects/role-element-assl.md)|  
+|Parent elements|[Database](objects/database-element-assl.md), [Server](objects/server-element-assl.md)|  
+|Child elements|[Role](objects/role-element-assl.md)|  
   
 ## Remarks  
  The **Roles** element associated with a **Server** element contains only one role, named Administrators, which represents the server administrator role. The server administrator role cannot be changed or deleted, nor can additional roles be added to the collection.  
@@ -48,8 +48,3 @@ manager: kfile
  The **Roles** element associate with a **Database** element contains the roles defined for that database.  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.RoleCollection>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

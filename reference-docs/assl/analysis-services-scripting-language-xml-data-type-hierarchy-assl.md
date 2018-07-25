@@ -92,11 +92,4 @@ RegularMeasureGroupDimension
 RelationalDataSource  
 ScalarMiningStructureColumn  
 TableMiningStructureColumn  
-```  
-  
-## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)   
- [Analysis Services Scripting Language XML Element Hierarchy &#40;ASSL&#41;](../../analysis-services/scripting/analysis-services-scripting-language-xml-element-hierarchy-assl.md)   
- [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](../../analysis-services/scripting/analysis-services-scripting-language-assl-for-xmla.md)  
-  
-  
+```

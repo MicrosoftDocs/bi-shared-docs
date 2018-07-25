@@ -12,7 +12,7 @@ manager: kfile
 ---
 # PerspectiveMeasureGroup Data Type (ASSL)
 
-  Defines a primitive data type that represents information about a measure group in a [Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md) element.  
+  Defines a primitive data type that represents information about a measure group in a [Perspective](objects/perspective-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,8 +37,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [MeasureGroupID](../../../analysis-services/scripting/properties/measuregroupid-element-assl.md), [Measures](../../../analysis-services/scripting/collections/measures-element-assl.md)|  
-|Derived elements|[MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md) ([MeasureGroups](../../../analysis-services/scripting/collections/measuregroups-element-assl.md) collection of [Perspective](../../../analysis-services/scripting/objects/perspective-element-assl.md))|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [MeasureGroupID](properties/measuregroupid-element-assl.md), [Measures](collections/measures-element-assl.md)|  
+|Derived elements|[MeasureGroup](objects/measuregroup-element-assl.md) ([MeasureGroups](collections/measuregroups-element-assl.md) collection of [Perspective](objects/perspective-element-assl.md))|  
   
 ## Remarks  
  A measure group in a perspective has the same structure as a measure group in the underlying cube.  
@@ -46,6 +46,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PerspectiveMeasureGroup>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

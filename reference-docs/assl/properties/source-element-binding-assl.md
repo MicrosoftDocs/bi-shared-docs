@@ -1,6 +1,6 @@
 ---
 title: "Source Element (Binding) (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -35,23 +35,23 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[AggregationInstance](../../../analysis-services/scripting/objects/aggregationinstance-element-assl.md)|[TabularBinding](../../../analysis-services/scripting/data-type/tabularbinding-data-type-assl.md)|  
-|[AggregationInstanceMeasure](../../../analysis-services/scripting/data-type/aggregationinstancemeasure-data-type-assl.md)|[ColumnBinding](../../../analysis-services/scripting/data-type/columnbinding-data-type-assl.md)|  
-|[Cube](../../../analysis-services/scripting/objects/cube-element-assl.md)|[DataSourceViewBinding](../../../analysis-services/scripting/data-type/datasourceviewbinding-data-type-assl.md)|  
-|[DataItem](../../../analysis-services/scripting/data-type/dataitem-data-type-assl.md)|Any data type derived from [Binding](../../../analysis-services/scripting/data-type/binding-data-type-assl.md), depending on the parent of **DataItem**. For more information, see Remarks.|  
-|[Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md)|[CubeDimensionBinding](../../../analysis-services/scripting/data-type/cubedimensionbinding-data-type-assl.md), [DataSourceViewBinding](../../../analysis-services/scripting/data-type/datasourceviewbinding-data-type-assl.md), [DimensionBinding](../../../analysis-services/scripting/data-type/dimensionbinding-data-type-assl.md), [TimeBinding](../../../analysis-services/scripting/data-type/timebinding-data-type-assl.md)|  
-|[DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md)|[AttributeBinding](../../../analysis-services/scripting/data-type/attributebinding-data-type-assl.md), [UserDefinedGroupBinding](../../../analysis-services/scripting/data-type/userdefinedgroupbinding-data-type-assl.md)|  
-|[MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md)|[MeasureGroupBinding](../../../analysis-services/scripting/data-type/measuregroupbinding-data-type-assl.md)|  
-|[MeasureGroupDimension](../../../analysis-services/scripting/data-type/measuregroupdimension-data-type-assl.md)|[MeasureGroupDimensionBinding](../../../analysis-services/scripting/data-type/measuregroupdimensionbinding-data-type-assl.md)|  
-|[MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md)|[CubeDimensionBinding](../../../analysis-services/scripting/data-type/cubedimensionbinding-data-type-assl.md), [DataSourceViewBinding](../../../analysis-services/scripting/data-type/datasourceviewbinding-data-type-assl.md), [DimensionBinding](../../../analysis-services/scripting/data-type/dimensionbinding-data-type-assl.md)|  
-|[Partition](../../../analysis-services/scripting/objects/partition-element-assl.md)|[TabularBinding](../../../analysis-services/scripting/data-type/tabularbinding-data-type-assl.md)|  
-|[ProactiveCaching](../../../analysis-services/scripting/objects/proactivecaching-element-assl.md)|Any data type derived from [ProactiveCachingBinding](../../../analysis-services/scripting/data-type/proactivecachingbinding-data-type-assl.md), depending on the processing and notification options used by the parent of the **ProactiveCaching** element.|  
+|[AggregationInstance](objects/aggregationinstance-element-assl.md)|[TabularBinding](data-type/tabularbinding-data-type-assl.md)|  
+|[AggregationInstanceMeasure](data-type/aggregationinstancemeasure-data-type-assl.md)|[ColumnBinding](data-type/columnbinding-data-type-assl.md)|  
+|[Cube](objects/cube-element-assl.md)|[DataSourceViewBinding](data-type/datasourceviewbinding-data-type-assl.md)|  
+|[DataItem](data-type/dataitem-data-type-assl.md)|Any data type derived from [Binding](data-type/binding-data-type-assl.md), depending on the parent of **DataItem**. For more information, see Remarks.|  
+|[Dimension](objects/dimension-element-assl.md)|[CubeDimensionBinding](data-type/cubedimensionbinding-data-type-assl.md), [DataSourceViewBinding](data-type/datasourceviewbinding-data-type-assl.md), [DimensionBinding](data-type/dimensionbinding-data-type-assl.md), [TimeBinding](data-type/timebinding-data-type-assl.md)|  
+|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|[AttributeBinding](data-type/attributebinding-data-type-assl.md), [UserDefinedGroupBinding](data-type/userdefinedgroupbinding-data-type-assl.md)|  
+|[MeasureGroup](objects/measuregroup-element-assl.md)|[MeasureGroupBinding](data-type/measuregroupbinding-data-type-assl.md)|  
+|[MeasureGroupDimension](data-type/measuregroupdimension-data-type-assl.md)|[MeasureGroupDimensionBinding](data-type/measuregroupdimensionbinding-data-type-assl.md)|  
+|[MiningStructure](objects/miningstructure-element-assl.md)|[CubeDimensionBinding](data-type/cubedimensionbinding-data-type-assl.md), [DataSourceViewBinding](data-type/datasourceviewbinding-data-type-assl.md), [DimensionBinding](data-type/dimensionbinding-data-type-assl.md)|  
+|[Partition](objects/partition-element-assl.md)|[TabularBinding](data-type/tabularbinding-data-type-assl.md)|  
+|[ProactiveCaching](objects/proactivecaching-element-assl.md)|Any data type derived from [ProactiveCachingBinding](data-type/proactivecachingbinding-data-type-assl.md), depending on the processing and notification options used by the parent of the **ProactiveCaching** element.|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AggregationInstance](../../../analysis-services/scripting/objects/aggregationinstance-element-assl.md), [AggregationInstanceMeasure](../../../analysis-services/scripting/data-type/aggregationinstancemeasure-data-type-assl.md), [Cube](../../../analysis-services/scripting/objects/cube-element-assl.md), [DataItem](../../../analysis-services/scripting/data-type/dataitem-data-type-assl.md), [Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md), [DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md), [MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md), [MeasureGroupDimension](../../../analysis-services/scripting/data-type/measuregroupdimension-data-type-assl.md), [MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md), [Partition](../../../analysis-services/scripting/objects/partition-element-assl.md), [ProactiveCaching](../../../analysis-services/scripting/objects/proactivecaching-element-assl.md).|  
+|Parent elements|[AggregationInstance](objects/aggregationinstance-element-assl.md), [AggregationInstanceMeasure](data-type/aggregationinstancemeasure-data-type-assl.md), [Cube](objects/cube-element-assl.md), [DataItem](data-type/dataitem-data-type-assl.md), [Dimension](objects/dimension-element-assl.md), [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md), [MeasureGroup](objects/measuregroup-element-assl.md), [MeasureGroupDimension](data-type/measuregroupdimension-data-type-assl.md), [MiningStructure](objects/miningstructure-element-assl.md), [Partition](objects/partition-element-assl.md), [ProactiveCaching](objects/proactivecaching-element-assl.md).|  
 |Child elements|None|  
   
 ## Remarks  
@@ -59,15 +59,15 @@ manager: kfile
   
 |DataItem Parent|Allowed Data Types|  
 |---------------------|------------------------|  
-|[DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md)|[AttributeBinding](../../../analysis-services/scripting/data-type/attributebinding-data-type-assl.md), [ColumnBinding](../../../analysis-services/scripting/data-type/columnbinding-data-type-assl.md), [TimeAttributeBinding](../../../analysis-services/scripting/data-type/timeattributebinding-data-type-assl.md) (only for [KeyColumns](../../../analysis-services/scripting/collections/keycolumns-element-assl.md)).|  
-|[MeasureGroupAttribute](../../../analysis-services/scripting/data-type/measuregroupattribute-data-type-assl.md)|[AttributeBinding](../../../analysis-services/scripting/data-type/attributebinding-data-type-assl.md), [ColumnBinding](../../../analysis-services/scripting/data-type/columnbinding-data-type-assl.md), [InheritedBinding](../../../analysis-services/scripting/data-type/inheritedbinding-data-type-assl.md).|  
-|[ScalarMiningStructureColumn](../../../analysis-services/scripting/data-type/scalarminingstructurecolumn-data-type-assl.md)|[ColumnBinding](../../../analysis-services/scripting/data-type/columnbinding-data-type-assl.md)|  
+|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|[AttributeBinding](data-type/attributebinding-data-type-assl.md), [ColumnBinding](data-type/columnbinding-data-type-assl.md), [TimeAttributeBinding](data-type/timeattributebinding-data-type-assl.md) (only for [KeyColumns](collections/keycolumns-element-assl.md)).|  
+|[MeasureGroupAttribute](data-type/measuregroupattribute-data-type-assl.md)|[AttributeBinding](data-type/attributebinding-data-type-assl.md), [ColumnBinding](data-type/columnbinding-data-type-assl.md), [InheritedBinding](data-type/inheritedbinding-data-type-assl.md).|  
+|[ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md)|[ColumnBinding](data-type/columnbinding-data-type-assl.md)|  
   
- For more information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/binding-data-type-assl.md).  
+ For more information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](data-type/binding-data-type-assl.md).  
   
  For more information about data bindings in ASSL, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

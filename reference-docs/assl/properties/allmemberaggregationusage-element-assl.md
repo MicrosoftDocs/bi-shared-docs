@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubeDimension](../../../analysis-services/scripting/data-type/cubedimension-data-type-assl.md)|  
+|Parent elements|[CubeDimension](data-type/cubedimension-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -54,8 +54,8 @@ manager: kfile
  The element that corresponds to the parent of **AllMemberAggregationUsage** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CubeDimension>.  
   
 ## See Also  
- [Cube Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/cube-element-assl.md)   
- [Dimension Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/dimension-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Cube Element &#40;ASSL&#41;](objects/cube-element-assl.md)   
+ [Dimension Element &#40;ASSL&#41;](objects/dimension-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

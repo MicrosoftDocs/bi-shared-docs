@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MiningStructurePermission Element (ASSL)
 
-  Defines the permissions that members of a [Role](../../../analysis-services/scripting/objects/role-element-assl.md) element have on an individual [MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md) element.  
+  Defines the permissions that members of a [Role](objects/role-element-assl.md) element have on an individual [MiningStructure](objects/miningstructure-element-assl.md) element.  
   
 ## Syntax  
   
@@ -31,7 +31,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[Permission](../../../analysis-services/scripting/data-type/permission-data-type-assl.md)|  
+|Data type and length|[Permission](data-type/permission-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur more than once.|  
   
@@ -39,7 +39,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningStructurePermissions](../../../analysis-services/scripting/collections/miningstructurepermissions-element-assl.md)|  
+|Parent elements|[MiningStructurePermissions](collections/miningstructurepermissions-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -66,6 +66,6 @@ SELECT StructureColumn('<structure column name>' FROM <model>.CASES
 ## See Also  
  <xref:Microsoft.AnalysisServices.MiningModel.AllowDrillThrough%2A>   
  <xref:Microsoft.AnalysisServices.AdomdClient.MiningModel.AllowDrillThrough%2A>   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DimensionPermission Element (ASSL)
 
-  Defines the permissions that belong to a particular [Role](../../../analysis-services/scripting/objects/role-element-assl.md) element for a specific database dimension or cube dimension.  
+  Defines the permissions that belong to a particular [Role](objects/role-element-assl.md) element for a specific database dimension or cube dimension.  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|The following are valid Parent (or Ancestor): Data Type pairs:<br /><br /> [Dimension](../../../analysis-services/scripting/objects/dimension-element-assl.md):[DimensionPermission](../../../analysis-services/scripting/data-type/dimensionpermission-data-type-assl.md)<br /><br /> [CubePermission](../../../analysis-services/scripting/objects/cubepermission-element-assl.md):<br />                        [CubeDimensionPermission](../../../analysis-services/scripting/data-type/cubedimensionpermission-data-type-assl.md)|  
+|Data type and length|The following are valid Parent (or Ancestor): Data Type pairs:<br /><br /> [Dimension](objects/dimension-element-assl.md):[DimensionPermission](data-type/dimensionpermission-data-type-assl.md)<br /><br /> [CubePermission](objects/cubepermission-element-assl.md):<br />                        [CubeDimensionPermission](data-type/cubedimensionpermission-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur once or more than once.|  
   
@@ -37,12 +37,12 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DimensionPermissions](../../../analysis-services/scripting/collections/dimensionpermissions-element-assl.md)|  
+|Parent element|[DimensionPermissions](collections/dimensionpermissions-element-assl.md)|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.DimensionPermission> and <xref:Microsoft.AnalysisServices.CubeDimensionPermission>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

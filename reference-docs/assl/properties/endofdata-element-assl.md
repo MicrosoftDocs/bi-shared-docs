@@ -1,6 +1,6 @@
 ---
 title: "EndOfData Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # EndOfData Element (ASSL)
 
-  Indicates the end of data received from a [PushedDataSource](../../../analysis-services/scripting/data-type/pusheddatasource-data-type-assl.md) element.  
+  Indicates the end of data received from a [PushedDataSource](data-type/pusheddatasource-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[PushedDataSource](../../../analysis-services/scripting/data-type/pusheddatasource-data-type-assl.md)|  
+|Parent elements|[PushedDataSource](data-type/pusheddatasource-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The last data packet from the **PushedDataSource** must set the **EndOfData** element to **True**.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

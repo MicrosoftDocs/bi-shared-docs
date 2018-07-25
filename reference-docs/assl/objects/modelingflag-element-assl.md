@@ -27,7 +27,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[MiningModelingFlag](../../../analysis-services/scripting/data-type/miningmodelingflag-data-type-assl.md)|  
+|Data type and length|[MiningModelingFlag](data-type/miningmodelingflag-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur more than once.|  
   
@@ -35,15 +35,15 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ModelingFlags](../../../analysis-services/scripting/collections/modelingflags-element-assl.md)|  
+|Parent elements|[ModelingFlags](collections/modelingflags-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  A closely related element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModelingFlags>.  
   
 ## See Also  
- [MiningModel Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/miningmodel-element-assl.md)   
- [MiningStructure Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/miningstructure-element-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [MiningModel Element &#40;ASSL&#41;](objects/miningmodel-element-assl.md)   
+ [MiningStructure Element &#40;ASSL&#41;](objects/miningstructure-element-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

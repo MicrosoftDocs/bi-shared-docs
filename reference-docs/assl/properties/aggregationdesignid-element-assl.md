@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AggregationDesignID Element (ASSL)
 
-  Identifies the [AggregationDesign](../../../analysis-services/scripting/objects/aggregationdesign-element-assl.md) element associated with the [Partition](../../../analysis-services/scripting/objects/partition-element-assl.md) element.  
+  Identifies the [AggregationDesign](objects/aggregationdesign-element-assl.md) element associated with the [Partition](objects/partition-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Partition](../../../analysis-services/scripting/objects/partition-element-assl.md)|  
+|Parent elements|[Partition](objects/partition-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **AggregationDesignID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Partition>. See also <xref:Microsoft.AnalysisServices.AggregationDesign>.  
   
 ## See Also  
- [AggregationDesign Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/aggregationdesign-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [AggregationDesign Element &#40;ASSL&#41;](objects/aggregationdesign-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

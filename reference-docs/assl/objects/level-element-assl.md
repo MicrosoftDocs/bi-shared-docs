@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Level Element (ASSL)
 
-  Defines a level in a [Hierarchy](../../../analysis-services/scripting/objects/hierarchy-element-assl.md) element.  
+  Defines a level in a [Hierarchy](objects/hierarchy-element-assl.md) element.  
   
 ## Syntax  
   
@@ -43,8 +43,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Levels](../../../analysis-services/scripting/collections/levels-element-assl.md)|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [HideMemberIf](../../../analysis-services/scripting/properties/hidememberif-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [SourceAttributeID](../../../analysis-services/scripting/properties/sourceattributeid-element-assl.md), [Translations](../../../analysis-services/scripting/collections/translations-element-assl.md)|  
+|Parent element|[Levels](collections/levels-element-assl.md)|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [Description](properties/description-element-assl.md), [HideMemberIf](properties/hidememberif-element-assl.md), [ID](properties/id-element-assl.md), [Name](properties/name-element-assl.md), [SourceAttributeID](properties/sourceattributeid-element-assl.md), [Translations](collections/translations-element-assl.md)|  
   
 ## Remarks  
  This data type has no restrictions under any deployment mode (1-Multidimensional and Data Mining, 2-SharePoint, and 3-Tabular).  
@@ -52,6 +52,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Level>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "DMSCHEMA_MINING_STRUCTURES Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DMSCHEMA_MINING_STRUCTURES Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Enumerates information about the mining structures in the current catalog.  
   
 ## Rowset Columns  
@@ -47,6 +47,6 @@ manager: kfile
 |**STRUCTURE_NAME**|**DBTYPE_WSTR**|Optional.|  
   
 ## See Also  
- [Data Mining Schema Rowsets](../../../analysis-services/schema-rowsets/data-mining/data-mining-schema-rowsets.md)  
+ [Data Mining Schema Rowsets](data-mining-schema-rowsets.md)  
   
   

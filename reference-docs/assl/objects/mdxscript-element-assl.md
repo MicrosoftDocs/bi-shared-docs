@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MdxScript Element (ASSL)
 
-  Contains information about a Multidimensional Expressions (MDX) script that is associated with a [Cube](../../../analysis-services/scripting/objects/cube-element-assl.md) element.  
+  Contains information about a Multidimensional Expressions (MDX) script that is associated with a [Cube](objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -45,8 +45,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MdxScripts](../../../analysis-services/scripting/collections/mdxscripts-element-assl.md)|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [CalculationProperties](../../../analysis-services/scripting/collections/calculationproperties-element-assl.md), [Commands](../../../analysis-services/scripting/collections/commands-element-assl.md), [CreatedTimestamp](../../../analysis-services/scripting/properties/createdtimestamp-element-assl.md), [DefaultScript](../../../analysis-services/scripting/properties/defaultscript-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [LastSchemaUpdate](../../../analysis-services/scripting/properties/lastschemaupdate-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md)|  
+|Parent elements|[MdxScripts](collections/mdxscripts-element-assl.md)|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [CalculationProperties](collections/calculationproperties-element-assl.md), [Commands](collections/commands-element-assl.md), [CreatedTimestamp](properties/createdtimestamp-element-assl.md), [DefaultScript](properties/defaultscript-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [LastSchemaUpdate](properties/lastschemaupdate-element-assl.md), [Name](properties/name-element-assl.md)|  
   
 ## Remarks  
  A script's **DefaultScript** element is set to **True** by default. Setting **DefaultScript** to **True** for a particular script sets **DefaultScript** to **False** for all other scripts.  
@@ -54,6 +54,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MdxScript>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

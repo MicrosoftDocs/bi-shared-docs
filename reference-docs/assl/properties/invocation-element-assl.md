@@ -1,6 +1,6 @@
 ---
 title: "Invocation Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Invocation Element (ASSL)
 
-  Specifies how an [Action](../../../analysis-services/scripting/objects/action-element-assl.md) should be invoked.  
+  Specifies how an [Action](objects/action-element-assl.md) should be invoked.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Action](../../../analysis-services/scripting/objects/action-element-assl.md)|  
+|Parent element|[Action](objects/action-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -54,6 +54,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **Invocation** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Action>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

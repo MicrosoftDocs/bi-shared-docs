@@ -35,7 +35,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[RelationshipEndTranslation](../../../analysis-services/scripting/data-type/relationshipendtranslation-element-assl.md)|  
+|Parent elements|[RelationshipEndTranslation](data-type/relationshipendtranslation-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  

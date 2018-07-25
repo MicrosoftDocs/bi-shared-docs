@@ -12,7 +12,7 @@ manager: kfile
 ---
 # PerspectiveAttribute Data Type (ASSL)
 
-  Defines a primitive data type that represents information about an attribute in a [PerspectiveDimension](../../../analysis-services/scripting/data-type/perspectivedimension-data-type-assl.md) element.  
+  Defines a primitive data type that represents information about an attribute in a [PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -38,13 +38,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [AttributeHierarchyVisible](../../../analysis-services/scripting/properties/attributehierarchyvisible-element-assl.md), [AttributeID](../../../analysis-services/scripting/properties/attributeid-element-assl.md), [DefaultMember](../../../analysis-services/scripting/properties/defaultmember-element-assl.md)|  
-|Derived elements|[Attribute](../../../analysis-services/scripting/objects/attribute-element-assl.md) ([Attributes](../../../analysis-services/scripting/collections/attributes-element-assl.md) collection of [PerspectiveDimension](../../../analysis-services/scripting/data-type/perspectivedimension-data-type-assl.md))|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [AttributeHierarchyVisible](properties/attributehierarchyvisible-element-assl.md), [AttributeID](properties/attributeid-element-assl.md), [DefaultMember](properties/defaultmember-element-assl.md)|  
+|Derived elements|[Attribute](objects/attribute-element-assl.md) ([Attributes](collections/attributes-element-assl.md) collection of [PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PerspectiveAttribute>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

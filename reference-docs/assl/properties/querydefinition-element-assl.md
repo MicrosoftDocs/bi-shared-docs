@@ -1,6 +1,6 @@
 ---
 title: "QueryDefinition Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # QueryDefinition Element (ASSL)
 
-  Contains an opaque expression for a query associated with a [DataSource](../../../analysis-services/scripting/objects/datasource-element-assl.md) element in a [QueryBinding](../../../analysis-services/scripting/data-type/querybinding-data-type-assl.md) element.  
+  Contains an opaque expression for a query associated with a [DataSource](objects/datasource-element-assl.md) element in a [QueryBinding](data-type/querybinding-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[QueryBinding](../../../analysis-services/scripting/data-type/querybinding-data-type-assl.md)|  
+|Parent element|[QueryBinding](data-type/querybinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **QueryDefinition** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.QueryBinding>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

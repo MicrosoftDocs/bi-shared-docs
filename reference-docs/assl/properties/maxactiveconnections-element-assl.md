@@ -1,6 +1,6 @@
 ---
 title: "MaxActiveConnections Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MaxActiveConnections Element (ASSL)
 
-  Contains the maximum number of concurrent connections allowed by an element that is derived from the [DataSource](../../../analysis-services/scripting/data-type/datasource-data-type-assl.md) data type.  
+  Contains the maximum number of concurrent connections allowed by an element that is derived from the [DataSource](data-type/datasource-data-type-assl.md) data type.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DataSource](../../../analysis-services/scripting/data-type/datasource-data-type-assl.md)|  
+|Parent element|[DataSource](data-type/datasource-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  If the value of this element is set to zero, the maximum number of concurrent connections is determined by the data cartridge that is used to access the data source. If the value of this element is set to a negative value, the maximum number of concurrent connections is unlimited.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

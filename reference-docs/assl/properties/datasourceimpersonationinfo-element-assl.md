@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSourceImpersonationInfo Element (ASSL)
 
-  Contains the information used to determine impersonation behavior when connecting to the data source for a [Database](../../../analysis-services/scripting/objects/database-element-assl.md) element.  
+  Contains the information used to determine impersonation behavior when connecting to the data source for a [Database](objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[ImpersonationInfo Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/impersonationinfo-data-type-assl.md)|  
+|Data type and length|[ImpersonationInfo Data Type &#40;ASSL&#41;](data-type/impersonationinfo-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-1: Optional element that can occur once and only once.|  
   
@@ -37,12 +37,12 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Database](../../../analysis-services/scripting/objects/database-element-assl.md)|  
+|Parent elements|[Database](objects/database-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

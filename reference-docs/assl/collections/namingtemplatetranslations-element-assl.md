@@ -12,7 +12,7 @@ manager: kfile
 ---
 # NamingTemplateTranslations Element (ASSL)
 
-  Provides a collection of localized translations for the [NamingTemplate](../../../analysis-services/scripting/properties/namingtemplate-element-assl.md) element of the parent, [DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md).  
+  Provides a collection of localized translations for the [NamingTemplate](properties/namingtemplate-element-assl.md) element of the parent, [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md).  
   
 ## Syntax  
   
@@ -39,15 +39,10 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Attribute](../../../analysis-services/scripting/objects/attribute-element-assl.md) of type [DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md)|  
-|Child elements|[NamingTemplateTranslation](../../../analysis-services/scripting/objects/namingtemplatetranslation-element-assl.md) of type [Translation](../../../analysis-services/scripting/objects/translation-element-assl.md)|  
+|Parent elements|[Attribute](objects/attribute-element-assl.md) of type [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
+|Child elements|[NamingTemplateTranslation](objects/namingtemplatetranslation-element-assl.md) of type [Translation](objects/translation-element-assl.md)|  
   
 ## Remarks  
- The value of the **NamingTemplateTranslation** element is used only by parent attributes (in other words, the value of the [Usage](../../../analysis-services/scripting/properties/usage-element-dimensionattribute-assl.md) element of the parent **DimensionAttribute** is set to *Parent*.)  
+ The value of the **NamingTemplateTranslation** element is used only by parent attributes (in other words, the value of the [Usage](properties/usage-element-dimensionattribute-assl.md) element of the parent **DimensionAttribute** is set to *Parent*.)  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DimensionAttribute>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

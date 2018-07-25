@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Default Element (ASSL)
 
-  Determines whether the [DrillThroughAction](../../../analysis-services/scripting/data-type/drillthroughaction-data-type-assl.md) is the default drillthrough action.  
+  Determines whether the [DrillThroughAction](data-type/drillthroughaction-data-type-assl.md) is the default drillthrough action.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DrillThroughAction](../../../analysis-services/scripting/data-type/drillthroughaction-data-type-assl.md)|  
+|Parent elements|[DrillThroughAction](data-type/drillthroughaction-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **Default** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DrillThroughAction>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

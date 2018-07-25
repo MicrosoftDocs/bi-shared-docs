@@ -1,6 +1,6 @@
 ---
 title: "DISCOVER_DB_CONNECTIONS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DISCOVER_DB_CONNECTIONS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Provides resource usage and activity information about the currently opened connections from the server to a database.  
   
 ## Rowset Columns  
@@ -47,6 +47,6 @@ manager: kfile
 |CONNECTION_SPID|DBTYPE_I4|Optional.|  
   
 ## See Also  
- [XML for Analysis Schema Rowsets](../../../analysis-services/schema-rowsets/xml/xml-for-analysis-schema-rowsets.md)  
+ [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
   
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MiningModelColumn Data Type (ASSL)
 
-  Defines a primitive data type that represents information about a column in a [MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md) element.  
+  Defines a primitive data type that represents information about a column in a [MiningModel](objects/miningmodel-element-assl.md) element.  
   
 ## Syntax  
   
@@ -43,13 +43,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [Columns](../../../analysis-services/scripting/collections/columns-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [ModelingFlags](../../../analysis-services/scripting/collections/modelingflags-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [SourceColumnID](../../../analysis-services/scripting/properties/sourcecolumnid-element-assl.md), [Translations](../../../analysis-services/scripting/collections/translations-element-assl.md), [Usage](../../../analysis-services/scripting/properties/usage-element-dimensionattribute-assl.md)|  
-|Derived elements|[Column](../../../analysis-services/scripting/objects/column-element-assl.md) ([Columns](../../../analysis-services/scripting/collections/columns-element-assl.md), collection of [MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md))|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [Columns](collections/columns-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [ModelingFlags](collections/modelingflags-element-assl.md), [Name](properties/name-element-assl.md), [SourceColumnID](properties/sourcecolumnid-element-assl.md), [Translations](collections/translations-element-assl.md), [Usage](properties/usage-element-dimensionattribute-assl.md)|  
+|Derived elements|[Column](objects/column-element-assl.md) ([Columns](collections/columns-element-assl.md), collection of [MiningModel](objects/miningmodel-element-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModelColumn>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

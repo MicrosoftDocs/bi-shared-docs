@@ -1,6 +1,6 @@
 ---
 title: "ImpersonationInfo Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[ImpersonationInfo](../../../analysis-services/scripting/data-type/impersonationinfo-data-type-assl.md)|  
+|Data type and length|[ImpersonationInfo](data-type/impersonationinfo-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-1: Optional element that can occur once and only once.|  
   
@@ -37,12 +37,12 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Assembly](../../../analysis-services/scripting/data-type/assembly-data-type-assl.md), [DataSource](../../../analysis-services/scripting/data-type/datasource-data-type-assl.md)|  
+|Parent elements|[Assembly](data-type/assembly-data-type-assl.md), [DataSource](data-type/datasource-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

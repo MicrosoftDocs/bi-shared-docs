@@ -1,6 +1,6 @@
 ---
 title: "NamingTemplate Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # NamingTemplate Element (ASSL)
 
-  Defines how levels are named in a parent-child hierarchy constructed from the [DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md) parent element.  
+  Defines how levels are named in a parent-child hierarchy constructed from the [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md) parent element.  
   
 ## Syntax  
   
@@ -37,11 +37,11 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md)|  
+|Parent element|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The value of the **NamingTemplate** element is used only by parent attributes (in other words, the value of the [Usage](../../../analysis-services/scripting/properties/usage-element-dimensionattribute-assl.md) element of the **DimensionAttribute** parent element is set to *Parent*).  
+ The value of the **NamingTemplate** element is used only by parent attributes (in other words, the value of the [Usage](properties/usage-element-dimensionattribute-assl.md) element of the **DimensionAttribute** parent element is set to *Parent*).  
   
  When a parent attribute is used to construct a hierarchy, the levels of the hierarchy are determined by the parent-child relationships between members contained by the parent attribute. Therefore, unlike other dimensions, the level names cannot be drawn from the attribute names used for the hierarchy.  
   
@@ -58,8 +58,8 @@ manager: kfile
  The element that corresponds to the parent of **NamingTemplate** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DimensionAttribute>.  
   
 ## See Also  
- [NamingTemplateTranslations Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/namingtemplatetranslations-element-assl.md)   
- [DimensionAttribute Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [NamingTemplateTranslations Element &#40;ASSL&#41;](collections/namingtemplatetranslations-element-assl.md)   
+ [DimensionAttribute Data Type &#40;ASSL&#41;](data-type/dimensionattribute-data-type-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

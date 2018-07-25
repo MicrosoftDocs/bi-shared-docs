@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AttributePermission Element (ASSL)
 
-  Defines the permissions that members of a [Role](../../../analysis-services/scripting/objects/role-element-assl.md) element have on the attributes of an individual dimension in a [Cube](../../../analysis-services/scripting/objects/cube-element-assl.md) element.  
+  Defines the permissions that members of a [Role](objects/role-element-assl.md) element have on the attributes of an individual dimension in a [Cube](objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -43,14 +43,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AttributePermissions](../../../analysis-services/scripting/collections/attributepermissions-element-assl.md)|  
-|Child elements|[AllowedSet](../../../analysis-services/scripting/properties/allowedset-element-assl.md), [Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [AttributeID](../../../analysis-services/scripting/properties/attributeid-element-assl.md), [DefaultMember](../../../analysis-services/scripting/properties/defaultmember-element-assl.md), [DeniedSet](../../../analysis-services/scripting/properties/deniedset-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [VisualTotals](../../../analysis-services/scripting/properties/visualtotals-element-assl.md)|  
+|Parent elements|[AttributePermissions](collections/attributepermissions-element-assl.md)|  
+|Child elements|[AllowedSet](properties/allowedset-element-assl.md), [Annotations](collections/annotations-element-assl.md), [AttributeID](properties/attributeid-element-assl.md), [DefaultMember](properties/defaultmember-element-assl.md), [DeniedSet](properties/deniedset-element-assl.md), [Description](properties/description-element-assl.md), [VisualTotals](properties/visualtotals-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributePermission>.  
   
 ## See Also  
- [CubeDimensionPermission Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/cubedimensionpermission-data-type-assl.md)   
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [CubeDimensionPermission Data Type &#40;ASSL&#41;](data-type/cubedimensionpermission-data-type-assl.md)   
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

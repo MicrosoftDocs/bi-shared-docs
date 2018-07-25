@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AllowedSet Element (ASSL)
 
-  Contains a set expression that defines the set of allowed permissions for a [Role](../../../analysis-services/scripting/objects/role-element-assl.md) element on an attribute.  
+  Contains a set expression that defines the set of allowed permissions for a [Role](objects/role-element-assl.md) element on an attribute.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AttributePermission](../../../analysis-services/scripting/objects/attributepermission-element-assl.md)|  
+|Parent elements|[AttributePermission](objects/attributepermission-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **AllowedSet** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributePermission>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

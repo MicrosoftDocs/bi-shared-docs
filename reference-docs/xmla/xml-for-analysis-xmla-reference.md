@@ -1,6 +1,6 @@
 ---
 title: "XML for Analysis (XMLA) Reference | Microsoft Docs"
-ms.date: 05/30/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# XML for Analysis  (XMLA) Reference
+# XML for Analysis (XMLA) Reference
    
 
 Azure Analysis Services and SQL Server Analysis Services use XML for Analysis (XMLA) protocol for communications between client applications and an Analysis Services instance. At their most basic level, other client libraries such as ADOMD.NET and AMO construct requests and decode responses in XMLA, serving as an intermediary to an Analysis Services instance, which uses XMLA exclusively.  

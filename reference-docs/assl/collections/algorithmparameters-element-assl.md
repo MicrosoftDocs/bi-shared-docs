@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AlgorithmParameters Element (ASSL)
 
-  Contains the collection of parameters for the algorithm used by a [MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md) element.  
+  Contains the collection of parameters for the algorithm used by a [MiningModel](objects/miningmodel-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md)|  
-|Child elements|[AlgorithmParameter](../../../analysis-services/scripting/objects/algorithmparameter-element-assl.md)|  
+|Parent element|[MiningModel](objects/miningmodel-element-assl.md)|  
+|Child elements|[AlgorithmParameter](objects/algorithmparameter-element-assl.md)|  
   
 ## Remarks  
  The **AlgorithmParameters** collection contains an extensible set of parameters, represented as name/value pairs, for a mining model algorithm. The set of applicable parameters is algorithm-dependent. For more information about algorithm parameters for a given algorithm, see the appropriate documentation for that algorithm.  
@@ -48,10 +48,5 @@ manager: kfile
  Available algorithm parameters, including validation and display information, can be retrieved from the DMSCHEMA_MINING_SERVICE_PARAMETERS schema rowset.  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AlgorithmParameterCollection>.  
-  
-## See Also  
- [Algorithm Element &#40;ASSL&#41;](../../../analysis-services/scripting/properties/algorithm-element-assl.md)   
- [DMSCHEMA_MINING_SERVICE_PARAMETERS Rowset](../../../analysis-services/schema-rowsets/data-mining/dmschema-mining-service-parameters-rowset.md)   
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
+
   

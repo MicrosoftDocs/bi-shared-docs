@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AttributeRelationships Element (ASSL)
 
-  Contains the collection of [AttributeRelationship](../../../analysis-services/scripting/objects/attributerelationship-element-assl.md) elements for the attribute.  
+  Contains the collection of [AttributeRelationship](objects/attributerelationship-element-assl.md) elements for the attribute.  
   
 ## Syntax  
   
@@ -39,13 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Attribute](../../../analysis-services/scripting/objects/attribute-element-assl.md) of type [DimensionAttribute](../../../analysis-services/scripting/data-type/dimensionattribute-data-type-assl.md)|  
-|Child elements|[AttributeRelationship](../../../analysis-services/scripting/objects/attributerelationship-element-assl.md)|  
+|Parent elements|[Attribute](objects/attribute-element-assl.md) of type [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
+|Child elements|[AttributeRelationship](objects/attributerelationship-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributeRelationshipCollection>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CalculationType Element (ASSL)
 
-  Describes the type of calculation defined in the associated [CalculationProperty](../../../analysis-services/scripting/objects/calculationproperty-element-assl.md) element.  
+  Describes the type of calculation defined in the associated [CalculationProperty](objects/calculationproperty-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CalculationProperty](../../../analysis-services/scripting/objects/calculationproperty-element-assl.md)|  
+|Parent elements|[CalculationProperty](objects/calculationproperty-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,9 +52,9 @@ manager: kfile
  The enumeration corresponding to the allowed values for **CalculationType** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CalculationType>.  
   
 ## See Also  
- [CalculationProperties Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/calculationproperties-element-assl.md)   
- [MdxScript Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/mdxscript-element-assl.md)   
- [MdxScripts Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/mdxscripts-element-assl.md)   
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [CalculationProperties Element &#40;ASSL&#41;](collections/calculationproperties-element-assl.md)   
+ [MdxScript Element &#40;ASSL&#41;](objects/mdxscript-element-assl.md)   
+ [MdxScripts Element &#40;ASSL&#41;](collections/mdxscripts-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   

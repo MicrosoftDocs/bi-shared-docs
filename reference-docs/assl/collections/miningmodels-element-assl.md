@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MiningModels Element (ASSL)
 
-  Contains the collection of [MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md) elements associated with a [MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md).  
+  Contains the collection of [MiningModel](objects/miningmodel-element-assl.md) elements associated with a [MiningStructure](objects/miningstructure-element-assl.md).  
   
 ## Syntax  
   
@@ -39,13 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningStructure](../../../analysis-services/scripting/objects/miningstructure-element-assl.md)|  
-|Child elements|[MiningModel](../../../analysis-services/scripting/objects/miningmodel-element-assl.md)|  
+|Parent elements|[MiningStructure](objects/miningstructure-element-assl.md)|  
+|Child elements|[MiningModel](objects/miningmodel-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModelCollection>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

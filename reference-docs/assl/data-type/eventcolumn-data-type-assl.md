@@ -12,7 +12,7 @@ manager: kfile
 ---
 # EventColumn Data Type (ASSL)
 
-  Defines a primitive data type that represents a column of information to be captured for an [Event](../../../analysis-services/scripting/objects/event-element-assl.md) element as part of a [Trace](../../../analysis-services/scripting/objects/trace-element-assl.md) element.  
+  Defines a primitive data type that represents a column of information to be captured for an [Event](objects/event-element-assl.md) element as part of a [Trace](objects/trace-element-assl.md) element.  
   
 ## Syntax  
   
@@ -35,11 +35,11 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[ColumnID](../../../analysis-services/scripting/properties/columnid-element-eventcolumn-assl.md)|  
-|Derived elements|[Column](../../../analysis-services/scripting/objects/column-element-assl.md) ([Columns](../../../analysis-services/scripting/collections/columns-element-assl.md) collection of [Trace](../../../analysis-services/scripting/objects/trace-element-assl.md))|  
+|Child elements|[ColumnID](properties/columnid-element-eventcolumn-assl.md)|  
+|Derived elements|[Column](objects/column-element-assl.md) ([Columns](collections/columns-element-assl.md) collection of [Trace](objects/trace-element-assl.md))|  
   
 ## See Also  
- [Events Element &#40;ASSL&#41;](../../../analysis-services/scripting/collections/events-element-assl.md)   
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Events Element &#40;ASSL&#41;](collections/events-element-assl.md)   
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

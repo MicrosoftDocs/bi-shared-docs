@@ -1,6 +1,6 @@
 ---
 title: "DISCOVER_STORAGE_TABLES Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DISCOVER_STORAGE_TABLES Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Allows the client to determine the tables that are included in an Analysis Services database running in Tabular or SharePoint mode.  
   
 ## Rowset Columns  

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Partition Element (ASSL)
 
-  Defines a partition of a [MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md) element or a partition binding in an out-of-line [MeasureGroupBinding](../../../analysis-services/scripting/data-type/measuregroupbinding-data-type-out-of-line-assl.md) element.  
+  Defines a partition of a [MeasureGroup](objects/measuregroup-element-assl.md) element or a partition binding in an out-of-line [MeasureGroupBinding](data-type/measuregroupbinding-data-type-out-of-line-assl.md) element.  
   
 ## Syntax  
   
@@ -62,61 +62,61 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md)|None|  
-|[MeasureGroupBinding](../../../analysis-services/scripting/data-type/measuregroupbinding-data-type-out-of-line-assl.md)|[PartitionBinding](../../../analysis-services/scripting/data-type/partitionbinding-data-type-assl.md)|  
+|[MeasureGroup](objects/measuregroup-element-assl.md)|None|  
+|[MeasureGroupBinding](data-type/measuregroupbinding-data-type-out-of-line-assl.md)|[PartitionBinding](data-type/partitionbinding-data-type-assl.md)|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Partitions](../../../analysis-services/scripting/collections/partitions-element-assl.md)|  
+|Parent elements|[Partitions](collections/partitions-element-assl.md)|  
 |Child elements|See the table below.|  
   
 |Ancestor or Parent|Child elements|  
 |------------------------|--------------------|  
-|[MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md)|[AggregationDesignID](../../../analysis-services/scripting/properties/aggregationdesignid-element-assl.md), [AggregationInstances](../../../analysis-services/scripting/collections/aggregationinstances-element-assl.md), [AggregationInstanceSource](../../../analysis-services/scripting/properties/aggregationinstancesource-element-assl.md), [AggregationPrefix](../../../analysis-services/scripting/properties/aggregationprefix-element-assl.md), [Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [CreatedTimestamp](../../../analysis-services/scripting/properties/createdtimestamp-element-assl.md), [CurrentStorageMode](../../../analysis-services/scripting/properties/currentstoragemode-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [ErrorConfiguration](../../../analysis-services/scripting/objects/errorconfiguration-element-assl.md), [EstimatedRows](../../../analysis-services/scripting/properties/estimatedrows-element-assl.md), [EstimatedSize](../../../analysis-services/scripting/properties/estimatedsize-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [LastProcessed](../../../analysis-services/scripting/properties/lastprocessed-element-assl.md), [LastSchemaUpdate](../../../analysis-services/scripting/properties/lastschemaupdate-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [ProactiveCaching](../../../analysis-services/scripting/objects/proactivecaching-element-assl.md), [ProcessingMode](../../../analysis-services/scripting/properties/processingmode-element-assl.md), [ProcessingPriority](../../../analysis-services/scripting/properties/processingpriority-element-assl.md), [RemoteDatasourceID](../../../analysis-services/scripting/properties/remotedatasourceid-element-assl.md), [Slice](../../../analysis-services/scripting/properties/slice-element-assl.md), [Source](../../../analysis-services/scripting/properties/source-element-binding-assl.md), [State](../../../analysis-services/scripting/properties/state-element-assl.md), [StorageLocation](../../../analysis-services/scripting/properties/storagelocation-element-assl.md), [StorageMode](../../../analysis-services/scripting/properties/storagemode-element-assl.md), [Type](../../../analysis-services/scripting/properties/type-element-partition-assl.md)|  
-|[MeasureGroupBinding](../../../analysis-services/scripting/data-type/measuregroupbinding-data-type-out-of-line-assl.md)|None|  
+|[MeasureGroup](objects/measuregroup-element-assl.md)|[AggregationDesignID](properties/aggregationdesignid-element-assl.md), [AggregationInstances](collections/aggregationinstances-element-assl.md), [AggregationInstanceSource](properties/aggregationinstancesource-element-assl.md), [AggregationPrefix](properties/aggregationprefix-element-assl.md), [Annotations](collections/annotations-element-assl.md), [CreatedTimestamp](properties/createdtimestamp-element-assl.md), [CurrentStorageMode](properties/currentstoragemode-element-assl.md), [Description](properties/description-element-assl.md), [ErrorConfiguration](objects/errorconfiguration-element-assl.md), [EstimatedRows](properties/estimatedrows-element-assl.md), [EstimatedSize](properties/estimatedsize-element-assl.md), [ID](properties/id-element-assl.md), [LastProcessed](properties/lastprocessed-element-assl.md), [LastSchemaUpdate](properties/lastschemaupdate-element-assl.md), [Name](properties/name-element-assl.md), [ProactiveCaching](objects/proactivecaching-element-assl.md), [ProcessingMode](properties/processingmode-element-assl.md), [ProcessingPriority](properties/processingpriority-element-assl.md), [RemoteDatasourceID](properties/remotedatasourceid-element-assl.md), [Slice](properties/slice-element-assl.md), [Source](properties/source-element-binding-assl.md), [State](properties/state-element-assl.md), [StorageLocation](properties/storagelocation-element-assl.md), [StorageMode](properties/storagemode-element-assl.md), [Type](properties/type-element-partition-assl.md)|  
+|[MeasureGroupBinding](data-type/measuregroupbinding-data-type-out-of-line-assl.md)|None|  
   
 ## Remarks  
  This element has the following validations under DeploymentMode value 2 (tabular server mode):  
   
 -   The following children elements are not supported and should not be used:  
   
-    -   [ProcessingPriority](../../../analysis-services/scripting/properties/processingpriority-element-assl.md)  
+    -   [ProcessingPriority](properties/processingpriority-element-assl.md)  
   
-    -   [AggregationPrefix](../../../analysis-services/scripting/properties/aggregationprefix-element-assl.md)  
+    -   [AggregationPrefix](properties/aggregationprefix-element-assl.md)  
   
-    -   [StorageLocation](../../../analysis-services/scripting/properties/storagelocation-element-assl.md)  
+    -   [StorageLocation](properties/storagelocation-element-assl.md)  
   
-    -   [ProcessingMode](../../../analysis-services/scripting/properties/processingmode-element-assl.md)  
+    -   [ProcessingMode](properties/processingmode-element-assl.md)  
   
-    -   [ErrorConfiguration](../../../analysis-services/scripting/objects/errorconfiguration-element-assl.md)  
+    -   [ErrorConfiguration](objects/errorconfiguration-element-assl.md)  
   
-    -   [StorageLocation](../../../analysis-services/scripting/properties/storagelocation-element-assl.md)  
+    -   [StorageLocation](properties/storagelocation-element-assl.md)  
   
-    -   [RemoteDatasourceID](../../../analysis-services/scripting/properties/remotedatasourceid-element-assl.md)  
+    -   [RemoteDatasourceID](properties/remotedatasourceid-element-assl.md)  
   
-    -   [Slice](../../../analysis-services/scripting/properties/slice-element-assl.md)  
+    -   [Slice](properties/slice-element-assl.md)  
   
-    -   [ProactiveCaching](../../../analysis-services/scripting/objects/proactivecaching-element-assl.md)  
+    -   [ProactiveCaching](objects/proactivecaching-element-assl.md)  
   
-    -   [Type](../../../analysis-services/scripting/properties/type-element-partition-assl.md)  
+    -   [Type](properties/type-element-partition-assl.md)  
   
-    -   [CurrentStorageMode](../../../analysis-services/scripting/properties/currentstoragemode-element-assl.md)  
+    -   [CurrentStorageMode](properties/currentstoragemode-element-assl.md)  
   
-    -   [AggregationDesignID](../../../analysis-services/scripting/properties/aggregationdesignid-element-assl.md)  
+    -   [AggregationDesignID](properties/aggregationdesignid-element-assl.md)  
   
-    -   [AggregationInstances](../../../analysis-services/scripting/collections/aggregationinstances-element-assl.md)  
+    -   [AggregationInstances](collections/aggregationinstances-element-assl.md)  
   
-    -   [AggregationInstanceSource](../../../analysis-services/scripting/properties/aggregationinstancesource-element-assl.md)  
+    -   [AggregationInstanceSource](properties/aggregationinstancesource-element-assl.md)  
   
      An error might be thrown if any of the above elements is used.  
   
--   The [Source](../../../analysis-services/scripting/properties/source-element-binding-assl.md) element only accepts **Query** binding.  
+-   The [Source](properties/source-element-binding-assl.md) element only accepts **Query** binding.  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Partition>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

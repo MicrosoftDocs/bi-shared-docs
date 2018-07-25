@@ -1,6 +1,6 @@
 ---
 title: "DBSCHEMA_CATALOGS Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DBSCHEMA_CATALOGS Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Identifies the physical attributes associated with catalogs accessible from the database management system (DBMS).  
   
 ## Rowset Columns  
@@ -34,6 +34,6 @@ manager: kfile
 |**CATALOG_NAME**|**DBTYPE_WSTR**|Optional|  
   
 ## See Also  
- [OLE DB Schema Rowsets](../../../analysis-services/schema-rowsets/ole-db/ole-db-schema-rowsets.md)  
+ [OLE DB Schema Rowsets](ole-db-schema-rowsets.md)  
   
   

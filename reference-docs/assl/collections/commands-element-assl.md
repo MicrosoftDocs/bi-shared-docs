@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Commands Element (ASSL)
 
-  Contains the collection of [Command](../../../analysis-services/scripting/objects/command-element-assl.md) elements associated with an [MdxScript](../../../analysis-services/scripting/objects/mdxscript-element-assl.md) element.  
+  Contains the collection of [Command](objects/command-element-assl.md) elements associated with an [MdxScript](objects/mdxscript-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,13 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MdxScript](../../../analysis-services/scripting/objects/mdxscript-element-assl.md)|  
-|Child elements|[Command](../../../analysis-services/scripting/objects/command-element-assl.md)|  
+|Parent element|[MdxScript](objects/mdxscript-element-assl.md)|  
+|Child elements|[Command](objects/command-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CommandCollection>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

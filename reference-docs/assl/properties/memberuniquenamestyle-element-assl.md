@@ -1,6 +1,6 @@
 ---
 title: "MemberUniqueNameStyle Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MemberUniqueNameStyle Element (ASSL)
 
-  Determines how unique names are generated for members of hierarchies contained within the [CubeDimension](../../../analysis-services/scripting/data-type/cubedimension-data-type-assl.md) element.  
+  Determines how unique names are generated for members of hierarchies contained within the [CubeDimension](data-type/cubedimension-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[CubeDimension](../../../analysis-services/scripting/data-type/cubedimension-data-type-assl.md)|  
+|Parent element|[CubeDimension](data-type/cubedimension-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,8 +52,8 @@ manager: kfile
  The element that corresponds to the parent of **MemberUniqueNameStyle** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CubeDimension>.  
   
 ## See Also  
- [Cube Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/cube-element-assl.md)   
- [Dimension Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/dimension-element-assl.md)   
- [CubeDimension Data Type &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/cubedimension-data-type-assl.md)  
+ [Cube Element &#40;ASSL&#41;](objects/cube-element-assl.md)   
+ [Dimension Element &#40;ASSL&#41;](objects/dimension-element-assl.md)   
+ [CubeDimension Data Type &#40;ASSL&#41;](data-type/cubedimension-data-type-assl.md)  
   
   

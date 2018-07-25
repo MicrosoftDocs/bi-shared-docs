@@ -1,6 +1,6 @@
 ---
 title: "StorageEngineUsed Element (XMLA) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -62,7 +62,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[database](../../../analysis-services/scripting/objects/database-element-assl.md)|  
+|Parent elements|[database](objects/database-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  

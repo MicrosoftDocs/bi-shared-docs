@@ -12,7 +12,7 @@ manager: kfile
 ---
 # PerspectiveHierarchy Data Type (ASSL)
 
-  Defines a primitive data type that represents information about a hierarchy in a [PerspectiveDimension](../../../analysis-services/scripting/data-type/perspectivedimension-data-type-assl.md) element.  
+  Defines a primitive data type that represents information about a hierarchy in a [PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -36,13 +36,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [HierarchyID](../../../analysis-services/scripting/properties/hierarchyid-element-assl.md)|  
-|Derived elements|[Hierarchy](../../../analysis-services/scripting/objects/hierarchy-element-assl.md) ([Hierarchies](../../../analysis-services/scripting/collections/hierarchies-element-assl.md) collection of [PerspectiveDimension](../../../analysis-services/scripting/data-type/perspectivedimension-data-type-assl.md))|  
+|Child elements|[Annotations](collections/annotations-element-assl.md), [HierarchyID](properties/hierarchyid-element-assl.md)|  
+|Derived elements|[Hierarchy](objects/hierarchy-element-assl.md) ([Hierarchies](collections/hierarchies-element-assl.md) collection of [PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PerspectiveHierarchy>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

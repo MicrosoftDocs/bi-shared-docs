@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Member Element (ASSL)
 
-  Contains the name of a member of a [Group](../../../analysis-services/scripting/objects/group-element-assl.md) element or of a [Role](../../../analysis-services/scripting/objects/role-element-assl.md) element.  
+  Contains the name of a member of a [Group](objects/group-element-assl.md) element or of a [Role](objects/role-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Members](../../../analysis-services/scripting/collections/members-element-assl.md)|  
-|Child elements|[Name](../../../analysis-services/scripting/properties/name-element-assl.md)|  
+|Parent elements|[Members](collections/members-element-assl.md)|  
+|Child elements|[Name](properties/name-element-assl.md)|  
   
 ## Remarks  
  The elements that correspond to the parents of **Member** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Group> and <xref:Microsoft.AnalysisServices.Role>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

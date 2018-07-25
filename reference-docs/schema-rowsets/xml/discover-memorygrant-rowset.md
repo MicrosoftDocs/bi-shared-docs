@@ -1,6 +1,6 @@
 ---
 title: "DISCOVER_MEMORYGRANT Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DISCOVER_MEMORYGRANT Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Returns a list of internal memory quota grants that are taken by jobs that are currently running on the server. To find out whether a job is running on the server, use `Select * from $System.Discover_Jobs`.  
   
  **Applies to:** tabular models, multidimensional models  
@@ -32,7 +32,7 @@ manager: kfile
  This schema rowset is not sorted.  
   
 ## Using ADOMD.NET to return the rowset  
- When using ADOMD.NET and the schema rowset to retrieve metadata, you can use either the GUID or string to reference a schema rowset object in the GetSchemaDataSet method. For more information, see [Working with Schema Rowsets in ADOMD.NET](../../../analysis-services/multidimensional-models-adomd-net-client/retrieving-metadata-working-with-schema-rowsets.md).  
+ When using ADOMD.NET and the schema rowset to retrieve metadata, you can use either the GUID or string to reference a schema rowset object in the GetSchemaDataSet method.
   
  The following table provides the GUID and string values that identify this rowset.  
   
@@ -42,6 +42,6 @@ manager: kfile
 |ADOMDNAME|MemoryGrant|  
   
 ## See Also  
- [XML for Analysis Schema Rowsets](../../../analysis-services/schema-rowsets/xml/xml-for-analysis-schema-rowsets.md)  
+ [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
   
   

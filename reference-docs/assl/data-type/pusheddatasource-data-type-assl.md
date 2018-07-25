@@ -12,7 +12,7 @@ manager: kfile
 ---
 # PushedDataSource Data Type (ASSL)
 
-  Defines a primitive data type that represents a data source (such as a  [!INCLUDE[ssISnoversion](../../../includes/ssisnoversion-md.md)] package) used for "pushing" data into a [Cube](../../../analysis-services/scripting/objects/cube-element-assl.md) element.  
+  Defines a primitive data type that represents a data source (such as a  [!INCLUDE[ssISnoversion](../../../includes/ssisnoversion-md.md)] package) used for "pushing" data into a [Cube](objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -36,13 +36,13 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[EndOfData](../../../analysis-services/scripting/properties/endofdata-element-assl.md), [Root](../../../analysis-services/scripting/properties/root-element-assl.md)|  
+|Child elements|[EndOfData](properties/endofdata-element-assl.md), [Root](properties/root-element-assl.md)|  
 |Derived elements|None|  
   
 ## Remarks  
  **PushedDataSource** is used only within a processing command as an out-of-line data source. Persisted data sources are never of this type.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](../../../analysis-services/scripting/data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

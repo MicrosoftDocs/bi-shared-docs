@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CellPermission Element (ASSL)
 
-  Describes the permissions that members of a [Role](../../../analysis-services/scripting/objects/role-element-assl.md) element have on individual cells within a [Cube](../../../analysis-services/scripting/objects/cube-element-assl.md) element.  
+  Describes the permissions that members of a [Role](objects/role-element-assl.md) element have on individual cells within a [Cube](objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -40,13 +40,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CellPermissions](../../../analysis-services/scripting/collections/cellpermissions-element-assl.md)|  
-|Child elements|[Access](../../../analysis-services/scripting/properties/access-element-assl.md), [Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [Expression](../../../analysis-services/scripting/properties/expression-element-assl.md)|  
+|Parent elements|[CellPermissions](collections/cellpermissions-element-assl.md)|  
+|Child elements|[Access](properties/access-element-assl.md), [Annotations](collections/annotations-element-assl.md), [Description](properties/description-element-assl.md), [Expression](properties/expression-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CellPermission>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

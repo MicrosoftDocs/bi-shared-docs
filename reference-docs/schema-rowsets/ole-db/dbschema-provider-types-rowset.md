@@ -1,6 +1,6 @@
 ---
 title: "DBSCHEMA_PROVIDER_TYPES Rowset | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # DBSCHEMA_PROVIDER_TYPES Rowset
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+
   Identifies the (base) data types supported by the data provider.  
   
 ## Rowset Columns  
@@ -52,6 +52,6 @@ manager: kfile
 |**BEST_MATCH**|**DBTYPE_BOOL**|  
   
 ## See Also  
- [OLE DB Schema Rowsets](../../../analysis-services/schema-rowsets/ole-db/ole-db-schema-rowsets.md)  
+ [OLE DB Schema Rowsets](ole-db-schema-rowsets.md)  
   
   

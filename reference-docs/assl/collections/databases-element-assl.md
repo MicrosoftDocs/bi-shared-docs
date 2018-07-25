@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Databases Element (ASSL)
 
-  Contains the collection of [Database](../../../analysis-services/scripting/objects/database-element-assl.md) elements associated with a [Server](../../../analysis-services/scripting/objects/server-element-assl.md) element.  
+  Contains the collection of [Database](objects/database-element-assl.md) elements associated with a [Server](objects/server-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,13 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Server](../../../analysis-services/scripting/objects/server-element-assl.md)|  
-|Child elements|[Database](../../../analysis-services/scripting/objects/database-element-assl.md)|  
+|Parent elements|[Server](objects/server-element-assl.md)|  
+|Child elements|[Database](objects/database-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DatabaseCollection>.  
-  
-## See Also  
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
-  
-  

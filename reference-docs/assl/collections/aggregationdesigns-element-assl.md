@@ -39,14 +39,11 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md)|  
-|Child elements|[AggregationDesign](../../../analysis-services/scripting/objects/aggregationdesign-element-assl.md)|  
+|Parent elements|[MeasureGroup](objects/measuregroup-element-assl.md)|  
+|Child elements|[AggregationDesign](objects/aggregationdesign-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationDesignCollection>.  
-  
-## See Also  
- [Partition Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/partition-element-assl.md)   
- [Collections &#40;ASSL&#41;](../../../analysis-services/scripting/collections/collections-assl.md)  
+
   
   

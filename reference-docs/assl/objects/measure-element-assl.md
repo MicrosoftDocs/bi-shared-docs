@@ -57,21 +57,21 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[AggregationInstance](../../../analysis-services/scripting/objects/aggregationinstance-element-assl.md)|[AggregationInstanceMeasure](../../../analysis-services/scripting/data-type/measurebinding-data-type-assl.md)|  
-|[MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md)|None|  
-|[MeasureGroupBinding (out-of-line)](../../../analysis-services/scripting/data-type/measuregroupbinding-data-type-out-of-line-assl.md)|[MeasureBinding](../../../analysis-services/scripting/data-type/measurebinding-data-type-assl.md)|  
-|[PerspectiveMeasureGroup](../../../analysis-services/scripting/data-type/perspectivemeasuregroup-data-type-assl.md)|[PerspectiveMeasure](../../../analysis-services/scripting/data-type/perspectivemeasure-data-type-assl.md)|  
+|[AggregationInstance](objects/aggregationinstance-element-assl.md)|[AggregationInstanceMeasure](data-type/measurebinding-data-type-assl.md)|  
+|[MeasureGroup](objects/measuregroup-element-assl.md)|None|  
+|[MeasureGroupBinding (out-of-line)](data-type/measuregroupbinding-data-type-out-of-line-assl.md)|[MeasureBinding](data-type/measurebinding-data-type-assl.md)|  
+|[PerspectiveMeasureGroup](data-type/perspectivemeasuregroup-data-type-assl.md)|[PerspectiveMeasure](data-type/perspectivemeasure-data-type-assl.md)|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Measures](../../../analysis-services/scripting/collections/measures-element-assl.md)|  
+|Parent elements|[Measures](collections/measures-element-assl.md)|  
 |Child elements|See the table below.|  
   
 |Ancestor or Parent|Child elements|  
 |------------------------|--------------------|  
-|[MeasureGroup](../../../analysis-services/scripting/objects/measuregroup-element-assl.md)|[AggregateFunction](../../../analysis-services/scripting/properties/aggregatefunction-element-assl.md), [Annotations](../../../analysis-services/scripting/collections/annotations-element-assl.md), [BackColor](../../../analysis-services/scripting/properties/backcolor-element-assl.md), [DataType](../../../analysis-services/scripting/properties/datatype-element-assl.md), [Description](../../../analysis-services/scripting/properties/description-element-assl.md), [DisplayFolder](../../../analysis-services/scripting/properties/displayfolder-element-assl.md), [FontFlags](../../../analysis-services/scripting/properties/fontflags-element-assl.md), [FontName](../../../analysis-services/scripting/properties/fontname-element-assl.md), [FontSize](../../../analysis-services/scripting/properties/fontsize-element-assl.md), [ForeColor](../../../analysis-services/scripting/properties/forecolor-element-assl.md), [FormatString](../../../analysis-services/scripting/properties/formatstring-element-assl.md), [ID](../../../analysis-services/scripting/properties/id-element-assl.md), [MeasureExpression](../../../analysis-services/scripting/properties/measureexpression-element-assl.md), [Name](../../../analysis-services/scripting/properties/name-element-assl.md), [Source](../../../analysis-services/scripting/properties/source-element-measure-assl.md), [Translations](../../../analysis-services/scripting/collections/translations-element-assl.md), [Visible](../../../analysis-services/scripting/properties/visible-element-assl.md)|  
+|[MeasureGroup](objects/measuregroup-element-assl.md)|[AggregateFunction](properties/aggregatefunction-element-assl.md), [Annotations](collections/annotations-element-assl.md), [BackColor](properties/backcolor-element-assl.md), [DataType](properties/datatype-element-assl.md), [Description](properties/description-element-assl.md), [DisplayFolder](properties/displayfolder-element-assl.md), [FontFlags](properties/fontflags-element-assl.md), [FontName](properties/fontname-element-assl.md), [FontSize](properties/fontsize-element-assl.md), [ForeColor](properties/forecolor-element-assl.md), [FormatString](properties/formatstring-element-assl.md), [ID](properties/id-element-assl.md), [MeasureExpression](properties/measureexpression-element-assl.md), [Name](properties/name-element-assl.md), [Source](properties/source-element-measure-assl.md), [Translations](collections/translations-element-assl.md), [Visible](properties/visible-element-assl.md)|  
 |All others|None|  
   
 ## Remarks  
@@ -90,6 +90,6 @@ manager: kfile
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Measure> and <xref:Microsoft.AnalysisServices.PerspectiveMeasure>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](../../../analysis-services/scripting/objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "ProcessingQuery Element (ASSL) | Microsoft Docs"
-ms.date: 5/8/2018
+ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -37,15 +37,15 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[IncrementalProcessingNotification](../../../analysis-services/scripting/objects/incrementalprocessingnotification-element-assl.md)|  
+|Parent element|[IncrementalProcessingNotification](objects/incrementalprocessingnotification-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The table in the [DataSourceView](../../../analysis-services/scripting/objects/datasourceview-element-assl.md) that is referenced by the **ProcessingQuery** is identified by the sibling element, [TableID](../../../analysis-services/scripting/properties/tableid-element-assl.md).  
+ The table in the [DataSourceView](objects/datasourceview-element-assl.md) that is referenced by the **ProcessingQuery** is identified by the sibling element, [TableID](properties/tableid-element-assl.md).  
   
  The element that corresponds to the parent of **ProcessingQuery** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.IncrementalProcessingNotification>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](../../../analysis-services/scripting/properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
   
   
