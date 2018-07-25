@@ -1,3 +1,3 @@
 ---
-redirect_url: /sql/analysis-services/schema-rowsets/data-mining/data-mining-schema-rowsets
+redirect_url: /bi-ref/schema-rowsets/data-mining/data-mining-schema-rowsets
 ---

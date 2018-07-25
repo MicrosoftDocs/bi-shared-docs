@@ -1,3 +1,3 @@
 ---
-redirect_url: /sql/analysis-services/schema-rowsets/ole-db/dbschema-catalogs-rowset
+redirect_url: /bi-ref/schema-rowsets/ole-db/ole-db-schema-rowsets
 ---

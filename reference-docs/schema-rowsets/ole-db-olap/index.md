@@ -1,3 +1,3 @@
 ---
-redirect_url: /sql/analysis-services/schema-rowsets/ole-db-olap/discover-instances-rowset
+redirect_url: /bi-ref/schema-rowsets/ole-db-olap/ole-db-for-olap-schema-rowsets
 ---

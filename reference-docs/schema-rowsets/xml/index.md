@@ -1,3 +1,3 @@
 ---
-redirect_url: /sql/analysis-services/schema-rowsets/xml/discover-calc-dependency-rowset
+redirect_url: /bi-ref/schema-rowsets/xml/xml-for-analysis-schema-rowsets
 ---
