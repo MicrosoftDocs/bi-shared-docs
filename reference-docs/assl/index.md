@@ -1,3 +1,3 @@
 ---
-[Analysis Services Scripting Language (ASSL)](analysis-services-scripting-language-assl-for-xmla.md)
+redirect_url: /bi-ref/assl/properties/properties-assl
 ---

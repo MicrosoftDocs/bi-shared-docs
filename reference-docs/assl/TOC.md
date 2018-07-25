@@ -4,7 +4,7 @@
 ## [Analysis Services Scripting Language XML Element Hierarchy (ASSL)](analysis-services-scripting-language-xml-element-hierarchy-assl.md)
 ## [Analysis Services Scripting Language XML Elements (ASSL)](analysis-services-scripting-language-xml-elements-assl.md)
 
-## [Collections](collections/accounts-element-assl.md)
+## [Collections (ASSL)](collections/collections-assl.md)
 ### [Accounts Element (ASSL)](collections/accounts-element-assl.md)
 ### [Actions Element (ASSL)](collections/actions-element-assl.md)
 ### [AggregationDesigns Element (ASSL)](collections/aggregationdesigns-element-assl.md)
@@ -24,7 +24,6 @@
 ### [Calculations Element (ASSL)](collections/calculations-element-assl.md)
 ### [CellPermissions Element (ASSL)](collections/cellpermissions-element-assl.md)
 ### [ClassifiedColumns Element (ASSL)](collections/classifiedcolumns-element-assl.md)
-### [Collections (ASSL)](collections/collections-assl.md)
 ### [Columns Element (ASSL)](collections/columns-element-assl.md)
 ### [Commands Element (ASSL)](collections/commands-element-assl.md)
 ### [CubePermissions Element (ASSL)](collections/cubepermissions-element-assl.md)
@@ -68,7 +67,7 @@
 ### [Translations Element (ASSL)](collections/translations-element-assl.md)
 ### [UnknownMemberTranslations Element (ASSL)](collections/unknownmembertranslations-element-assl.md)
 
-## [Data type](data-type/action-data-type-assl.md)
+## [Data type (ASSL)](data-type/analysis-services-scripting-language-xml-data-types-assl.md)
 ### [Action Data Type (ASSL)](data-type/action-data-type-assl.md)
 ### [AggregationAttribute Data Type (ASSL)](data-type/aggregationattribute-data-type-assl.md)
 ### [AggregationDesignAttribute Data Type (ASSL)](data-type/aggregationdesignattribute-data-type-assl.md)
@@ -77,7 +76,6 @@
 ### [AggregationInstanceAttribute Data Type (ASSL)](data-type/aggregationinstanceattribute-data-type-assl.md)
 ### [AggregationInstanceCubeDimension Data Type (ASSL)](data-type/aggregationinstancecubedimension-data-type-assl.md)
 ### [AggregationInstanceMeasure Data Type (ASSL)](data-type/aggregationinstancemeasure-data-type-assl.md)
-### [Analysis Services Scripting Language XML Data Types (ASSL)](data-type/analysis-services-scripting-language-xml-data-types-assl.md)
 ### [Assembly Data Type (ASSL)](data-type/assembly-data-type-assl.md)
 ### [AttributeBinding Data Type (ASSL)](data-type/attributebinding-data-type-assl.md)
 ### [AttributeTranslation Data Type (ASSL)](data-type/attributetranslation-data-type-assl.md)
@@ -162,7 +160,7 @@
 ### [UserDefinedGroupBinding Data Type (ASSL)](data-type/userdefinedgroupbinding-data-type-assl.md)
 
 
-## [Objects](objects/account-element-assl.md)
+## [Objects (ASSL)](objects/objects-assl.md)
 ### [Account Element (ASSL)](objects/account-element-assl.md)
 ### [Action Element (ASSL)](objects/action-element-assl.md)
 ### [Aggregation Element (ASSL)](objects/aggregation-element-assl.md)
@@ -216,7 +214,6 @@
 ### [ModelingFlag Element (ASSL)](objects/modelingflag-element-assl.md)
 ### [NameColumn Element (ASSL)](objects/namecolumn-element-assl.md)
 ### [NamingTemplateTranslation Element (ASSL)](objects/namingtemplatetranslation-element-assl.md)
-### [Objects (ASSL)](objects/objects-assl.md)
 ### [Partition Element (ASSL)](objects/partition-element-assl.md)
 ### [Perspective Element (ASSL)](objects/perspective-element-assl.md)
 ### [ProactiveCaching Element (ASSL)](objects/proactivecaching-element-assl.md)
@@ -236,7 +233,7 @@
 ### [ValueColumn Element (ASSL)](objects/valuecolumn-element-assl.md)
 
 
-## [Properties](properties/access-element-assl.md)
+## [Properties (ASSL)](properties/properties-assl.md)
 ### [Access Element (ASSL)](properties/access-element-assl.md)
 ### [Account Element (ImpersonationInfo) (ASSL)](properties/account-element-impersonationinfo-assl.md)
 ### [AccountType Element (ASSL)](properties/accounttype-element-assl.md)
@@ -425,7 +422,6 @@
 ### [ProcessingPriority Element (ASSL)](properties/processingpriority-element-assl.md)
 ### [ProcessingQuery Element (ASSL)](properties/processingquery-element-assl.md)
 ### [ProductName Element (ASSL)](properties/productname-element-assl.md)
-### [Properties (ASSL)](properties/properties-assl.md)
 ### [Query Element (ASSL)](properties/query-element-assl.md)
 ### [QueryDefinition Element (ASSL)](properties/querydefinition-element-assl.md)
 ### [Read Element (ASSL)](properties/read-element-assl.md)
