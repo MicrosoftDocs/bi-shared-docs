@@ -1,4 +1,8 @@
-# [Analysis Services Scripting Language (ASSL for XMLA)](analysis-services-scripting-language-assl-for-xmla.md)
+# [Analysis Services Scripting Language (ASSL)](analysis-services-scripting-language-assl-for-xmla.md)
+
+## [Analysis Services Scripting Language XML Data Type Hierarchy (ASSL)](analysis-services-scripting-language-xml-data-type-hierarchy-assl.md)
+## [Analysis Services Scripting Language XML Element Hierarchy (ASSL)](analysis-services-scripting-language-xml-element-hierarchy-assl.md)
+## [Analysis Services Scripting Language XML Elements (ASSL)](analysis-services-scripting-language-xml-elements-assl.md)
 
 ## [Collections](collections/accounts-element-assl.md)
 ### [Accounts Element (ASSL)](collections/accounts-element-assl.md)
@@ -487,6 +491,4 @@
 ### [Write Element (ASSL)](properties/write-element-assl.md)
 ### [WriteEnabled Element (ASSL)](properties/writeenabled-element-assl.md)
 
-## [Analysis Services Scripting Language XML Data Type Hierarchy (ASSL)](analysis-services-scripting-language-xml-data-type-hierarchy-assl.md)
-## [Analysis Services Scripting Language XML Element Hierarchy (ASSL)](analysis-services-scripting-language-xml-element-hierarchy-assl.md)
-## [Analysis Services Scripting Language XML Elements (ASSL)](analysis-services-scripting-language-xml-elements-assl.md)
+

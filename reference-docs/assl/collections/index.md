@@ -1,3 +1,3 @@
 ---
-redirect_url: /sql/analysis-services/scripting/collections/accounts-element-assl
+redirect_url: /bi-ref/assl/collections/collections-assl
 ---

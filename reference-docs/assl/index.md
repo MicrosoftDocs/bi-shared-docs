@@ -1,3 +1,3 @@
 ---
-[Analysis Services Scripting Language (ASSL for XMLA)](analysis-services-scripting-language-assl-for-xmla.md)
+[Analysis Services Scripting Language (ASSL)](analysis-services-scripting-language-assl-for-xmla.md)
 ---
