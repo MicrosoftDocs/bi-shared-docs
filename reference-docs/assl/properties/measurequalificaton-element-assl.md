@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MeasureQualificaton Element (ASSL)
 
-  Determines whether a prefix is applied to measures in the [MeasureGroup](objects/measuregroup-element-assl.md).  
+  Determines whether a prefix is applied to measures in the [MeasureGroup](../objects/measuregroup-element-assl.md).  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MeasureGroup](objects/measuregroup-element-assl.md)|  
+|Parent element|[MeasureGroup](../objects/measuregroup-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,9 +52,9 @@ manager: kfile
  The element that corresponds to the parent of **MeasureQualification** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MeasureGroup>.  
   
 ## See Also  
- [Cube Element &#40;ASSL&#41;](objects/cube-element-assl.md)   
- [Dimension Element &#40;ASSL&#41;](objects/dimension-element-assl.md)   
- [MeasureGroup Element &#40;ASSL&#41;](objects/measuregroup-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Cube Element &#40;ASSL&#41;](../objects/cube-element-assl.md)   
+ [Dimension Element &#40;ASSL&#41;](../objects/dimension-element-assl.md)   
+ [MeasureGroup Element &#40;ASSL&#41;](../objects/measuregroup-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

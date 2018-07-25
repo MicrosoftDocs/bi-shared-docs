@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Filter Element (Trace) (ASSL)
 
-  Contains an XML document fragment that describes the [Trace](objects/trace-element-assl.md) filter.  
+  Contains an XML document fragment that describes the [Trace](../objects/trace-element-assl.md) filter.  
   
 ## Syntax  
   
@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Trace](objects/trace-element-assl.md)|  
+|Parent element|[Trace](../objects/trace-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **Filter** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Trace>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)   
  [Traces Element &#40;ASSL&#41;](collections/traces-element-assl.md)  
   
   

@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubeHierarchy](data-type/cubehierarchy-data-type-assl.md), [ProactiveCaching](objects/proactivecaching-element-assl.md)|  
+|Parent elements|[CubeHierarchy](../data-type/cubehierarchy-data-type-assl.md), [ProactiveCaching](../objects/proactivecaching-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **Enabled** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CubeHierarchy> and <xref:Microsoft.AnalysisServices.ProactiveCaching>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ProactiveCaching](objects/proactivecaching-element-assl.md)|  
+|Parent element|[ProactiveCaching](../objects/proactivecaching-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,6 +51,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **OnlineMode** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ProactiveCaching>.  
   
 ## See Also  
- [ProactiveCaching Element &#40;ASSL&#41;](objects/proactivecaching-element-assl.md)  
+ [ProactiveCaching Element &#40;ASSL&#41;](../objects/proactivecaching-element-assl.md)  
   
   

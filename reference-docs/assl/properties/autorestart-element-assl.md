@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AutoRestart Element (ASSL)
 
-  Determines whether a [Trace](objects/trace-element-assl.md) element should automatically restart if the Analysis Services service stops and restarts.  
+  Determines whether a [Trace](../objects/trace-element-assl.md) element should automatically restart if the Analysis Services service stops and restarts.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Trace](objects/trace-element-assl.md)|  
+|Parent element|[Trace](../objects/trace-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -45,6 +45,6 @@ manager: kfile
   
 ## See Also  
  [Traces Element &#40;ASSL&#41;](collections/traces-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

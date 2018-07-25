@@ -12,7 +12,7 @@ manager: kfile
 ---
 # FormatString Element (ASSL)
 
-  Describes the display format for a [CalculationProperty](objects/calculationproperty-element-assl.md) element or a [Measure](objects/measure-element-assl.md) element.  
+  Describes the display format for a [CalculationProperty](../objects/calculationproperty-element-assl.md) element or a [Measure](../objects/measure-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,18 +37,18 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CalculationProperty](objects/calculationproperty-element-assl.md), [Measure](objects/measure-element-assl.md)|  
+|Parent elements|[CalculationProperty](../objects/calculationproperty-element-assl.md), [Measure](../objects/measure-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The **FormatString** property contains a Multidimensional Expressions (MDX) expression. In the case of **CalculationProperty** elements, it applies to elements with a [CalculationType](properties/calculationtype-element-assl.md) of *Member* or *Cells*.  
+ The **FormatString** property contains a Multidimensional Expressions (MDX) expression. In the case of **CalculationProperty** elements, it applies to elements with a [CalculationType](calculationtype-element-assl.md) of *Member* or *Cells*.  
   
  The elements that correspond to the parents of **FormatString** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CalculationProperty> and <xref:Microsoft.AnalysisServices.Measure>.  
   
 ## See Also  
  [CalculationProperties Element &#40;ASSL&#41;](collections/calculationproperties-element-assl.md)   
- [MdxScript Element &#40;ASSL&#41;](objects/mdxscript-element-assl.md)   
+ [MdxScript Element &#40;ASSL&#41;](../objects/mdxscript-element-assl.md)   
  [MdxScripts Element &#40;ASSL&#41;](collections/mdxscripts-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

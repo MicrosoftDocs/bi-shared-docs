@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningModel Element](objects/miningmodel-element-assl.md), [MiningModelPermission](objects/miningmodelpermission-element-assl.md), [MiningStructurePermission](objects/miningstructurepermission-element-assl.md)|  
+|Parent elements|[MiningModel Element](../objects/miningmodel-element-assl.md), [MiningModelPermission](../objects/miningmodelpermission-element-assl.md), [MiningStructurePermission](../objects/miningstructurepermission-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **AllowDrillThrough** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.MiningModel>, <xref:Microsoft.AnalysisServices.MiningModelPermission>, and <xref:Microsoft.AnalysisServices.MiningStructurePermission>.  
   
 ## Drillthrough on Mining Structures  
- In [!INCLUDE[ssCurrent](../../../includes/sscurrent-md.md)], you can define **AllowDrillthrough** permissions for mining structures as well as mining models. When you assign this permission to a role, any member of that role can query the data mining model, and return structure columns that were not included in the model. For example, you create a model that uses only these columns: customer key, customer income, and customer purchases. If you enable drillthrough on the model, users can return information in other columns of the mining structure, such as customer e-mails or names.  
+ In SQL Server, you can define **AllowDrillthrough** permissions for mining structures as well as mining models. When you assign this permission to a role, any member of that role can query the data mining model, and return structure columns that were not included in the model. For example, you create a model that uses only these columns: customer key, customer income, and customer purchases. If you enable drillthrough on the model, users can return information in other columns of the mining structure, such as customer e-mails or names.  
   
  Therefore, to protect sensitive data, use caution when you add columns to the mining structure. Also, grant **AllowDrillthrough** permission on a structure only when it is required.  
   
@@ -57,7 +57,7 @@ manager: kfile
  `SELECT StructureColumn('<structure-column-name>') FROM <model>.CASES`  
   
 ## See Also  
- [Role Element &#40;ASSL&#41;](objects/role-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Role Element &#40;ASSL&#41;](../objects/role-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

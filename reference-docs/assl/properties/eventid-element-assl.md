@@ -12,7 +12,7 @@ manager: kfile
 ---
 # EventID Element (ASSL)
 
-  Uniquely identifies an [Event](objects/event-element-assl.md) element that is to be captured as part of a [Trace](objects/trace-element-assl.md) element.  
+  Uniquely identifies an [Event](../objects/event-element-assl.md) element that is to be captured as part of a [Trace](../objects/trace-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Event](objects/event-element-assl.md)|  
+|Parent elements|[Event](../objects/event-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -45,6 +45,6 @@ manager: kfile
   
 ## See Also  
  [Events Element &#40;ASSL&#41;](collections/events-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

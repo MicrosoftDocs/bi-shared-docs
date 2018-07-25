@@ -1,6 +1,6 @@
 ---
 title: "Block Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -35,17 +35,17 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Blocks](collections/blocks-element-assl.md)|  
+|Parent elements|[Blocks](../collections/blocks-element-assl.md)|  
 |Child elements|None|  
   
 ## See Also  
- [Assembly Element &#40;ASSL&#41;](objects/assembly-element-assl.md)   
+ [Assembly Element &#40;ASSL&#41;](../objects/assembly-element-assl.md)   
  [ClrAssembly Data Type &#40;ASSL&#41;](data-type/clrassembly-data-type-assl.md)   
- [Files Element &#40;ASSL&#41;](collections/files-element-assl.md)   
- [File Element &#40;ASSL&#41;](objects/file-element-assl.md)   
+ [Files Element &#40;ASSL&#41;](../collections/files-element-assl.md)   
+ [File Element &#40;ASSL&#41;](../objects/file-element-assl.md)   
  [ClrAssemblyFile Data Type &#40;ASSL&#41;](data-type/clrassemblyfile-data-type-assl.md)   
- [Data Element &#40;ASSL&#41;](objects/data-element-assl.md)   
+ [Data Element &#40;ASSL&#41;](../objects/data-element-assl.md)   
  [DataBlock Data Type &#40;ASSL&#41;](data-type/datablock-data-type-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

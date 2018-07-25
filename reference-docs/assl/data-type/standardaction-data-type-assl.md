@@ -1,6 +1,6 @@
 ---
 title: "StandardAction Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # StandardAction Data Type (ASSL)
 
-  Defines a derived data type that represents any [Action](objects/action-element-assl.md) element other than a [DrillThroughAction](data-type/drillthroughaction-data-type-assl.md) element or a [ReportAction](data-type/reportaction-data-type-assl.md) element.  
+  Defines a derived data type that represents any [Action](objects/action-element-assl.md) element other than a [DrillThroughAction](drillthroughaction-data-type-assl.md) element or a [ReportAction](reportaction-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -28,7 +28,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[Action](data-type/action-data-type-assl.md)|  
+|Base data types|[Action](action-data-type-assl.md)|  
 |Derived data types|None|  
   
 ## Data Type Relationships  
@@ -43,6 +43,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.StandardAction>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

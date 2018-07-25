@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AttributeBinding](data-type/attributebinding-data-type-assl.md), [CubeAttributeBinding](data-type/cubeattributebinding-data-type-assl.md)|  
+|Parent elements|[AttributeBinding](../data-type/attributebinding-data-type-assl.md), [CubeAttributeBinding](../data-type/cubeattributebinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -58,7 +58,7 @@ manager: kfile
  The elements that correspond to the parents of **Type** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AttributeBinding> and <xref:Microsoft.AnalysisServices.CubeAttributeBinding>.  
   
 ## See Also  
- [Binding Data Type &#40;ASSL&#41;](data-type/binding-data-type-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Binding Data Type &#40;ASSL&#41;](../data-type/binding-data-type-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

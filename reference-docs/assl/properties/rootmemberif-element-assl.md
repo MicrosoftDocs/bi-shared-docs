@@ -37,11 +37,11 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
+|Parent element|[DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The value of the **RootMemberIf** element is used only by parent attributes (in other words, the value of the [Usage](properties/usage-element-dimensionattribute-assl.md) element of the **DimensionAttribute** parent element is set to *Parent*) to determine the root (topmost) members of a parent-child hierarchy.  
+ The value of the **RootMemberIf** element is used only by parent attributes (in other words, the value of the [Usage](usage-element-dimensionattribute-assl.md) element of the **DimensionAttribute** parent element is set to *Parent*) to determine the root (topmost) members of a parent-child hierarchy.  
   
  The value of this element is limited to one of the strings listed in the following table.  
   
@@ -55,6 +55,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **RootMemberIf** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.RootIfValue>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

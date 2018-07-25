@@ -1,6 +1,6 @@
 ---
 title: "SourceMeasureGroup Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -48,6 +48,6 @@ manager: kfile
  The elements that correspond to the parents of **SourceMeasureGroup** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.MiningStructureColumn> and <xref:Microsoft.AnalysisServices.TableMiningStructureColumn>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

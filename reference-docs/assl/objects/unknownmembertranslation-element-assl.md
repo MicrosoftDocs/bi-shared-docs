@@ -1,6 +1,6 @@
 ---
 title: "UnknownMemberTranslation Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # UnknownMemberTranslation Element (ASSL)
 
-  Contains a translation for the caption of the [UnknownMember](properties/unknownmember-element-assl.md) element for a [Dimension](objects/dimension-element-assl.md) element.  
+  Contains a translation for the caption of the [UnknownMember](../properties/unknownmember-element-assl.md) element for a [Dimension](../objects/dimension-element-assl.md) element.  
   
 ## Syntax  
   
@@ -35,14 +35,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[UnknownMemberTranslations](collections/unknownmembertranslations-element-assl.md)|  
+|Parent elements|[UnknownMemberTranslations](../collections/unknownmembertranslations-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **UnknownMemberTranslation** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Dimension>.  
   
 ## See Also  
- [Translation Element &#40;ASSL&#41;](objects/translation-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Translation Element &#40;ASSL&#41;](../objects/translation-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

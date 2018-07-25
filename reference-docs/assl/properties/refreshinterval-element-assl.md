@@ -30,20 +30,20 @@ manager: kfile
 |Characteristic|Description|  
 |--------------------|-----------------|  
 |Data type and length|XML duration|  
-|Default value|When the Ancestor or Parent is [ProactiveCachingIncrementalProcessingBinding](data-type/proactivecachingincrementalprocessingbinding-data-type-assl.md) or [ProactiveCachingQueryBinding](data-type/proactivecachingquerybinding-data-type-assl.md), the default value is PT-1s. In all other cases, it is PT1m.|  
+|Default value|When the Ancestor or Parent is [ProactiveCachingIncrementalProcessingBinding](../data-type/proactivecachingincrementalprocessingbinding-data-type-assl.md) or [ProactiveCachingQueryBinding](../data-type/proactivecachingquerybinding-data-type-assl.md), the default value is PT-1s. In all other cases, it is PT1m.|  
 |Cardinality|0-1: Optional element that can occur once and only once.|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DimensionBinding](data-type/dimensionbinding-data-type-assl.md), [MeasureGroupBinding](data-type/measuregroupbinding-data-type-assl.md), [ProactiveCachingIncrementalProcessingBinding](data-type/proactivecachingincrementalprocessingbinding-data-type-assl.md), [ProactiveCachingQueryBinding](data-type/proactivecachingquerybinding-data-type-assl.md)|  
+|Parent elements|[DimensionBinding](../data-type/dimensionbinding-data-type-assl.md), [MeasureGroupBinding](../data-type/measuregroupbinding-data-type-assl.md), [ProactiveCachingIncrementalProcessingBinding](../data-type/proactivecachingincrementalprocessingbinding-data-type-assl.md), [ProactiveCachingQueryBinding](../data-type/proactivecachingquerybinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **RefreshInterval** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.DimensionBinding>, <xref:Microsoft.AnalysisServices.MeasureGroupBinding>, <xref:Microsoft.AnalysisServices.ProactiveCachingIncrementalProcessingBinding>, and <xref:Microsoft.AnalysisServices.ProactiveCachingQueryBinding>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

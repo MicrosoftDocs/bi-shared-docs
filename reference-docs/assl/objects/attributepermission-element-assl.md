@@ -1,6 +1,6 @@
 ---
 title: "AttributePermission Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AttributePermission Element (ASSL)
 
-  Defines the permissions that members of a [Role](objects/role-element-assl.md) element have on the attributes of an individual dimension in a [Cube](objects/cube-element-assl.md) element.  
+  Defines the permissions that members of a [Role](../objects/role-element-assl.md) element have on the attributes of an individual dimension in a [Cube](../objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -43,14 +43,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AttributePermissions](collections/attributepermissions-element-assl.md)|  
-|Child elements|[AllowedSet](properties/allowedset-element-assl.md), [Annotations](collections/annotations-element-assl.md), [AttributeID](properties/attributeid-element-assl.md), [DefaultMember](properties/defaultmember-element-assl.md), [DeniedSet](properties/deniedset-element-assl.md), [Description](properties/description-element-assl.md), [VisualTotals](properties/visualtotals-element-assl.md)|  
+|Parent elements|[AttributePermissions](../collections/attributepermissions-element-assl.md)|  
+|Child elements|[AllowedSet](../properties/allowedset-element-assl.md), [Annotations](../collections/annotations-element-assl.md), [AttributeID](../properties/attributeid-element-assl.md), [DefaultMember](../properties/defaultmember-element-assl.md), [DeniedSet](../properties/deniedset-element-assl.md), [Description](../properties/description-element-assl.md), [VisualTotals](../properties/visualtotals-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributePermission>.  
   
 ## See Also  
  [CubeDimensionPermission Data Type &#40;ASSL&#41;](data-type/cubedimensionpermission-data-type-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

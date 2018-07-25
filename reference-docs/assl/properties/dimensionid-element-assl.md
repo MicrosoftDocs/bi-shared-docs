@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubeDimension](data-type/cubedimension-data-type-assl.md), [DimensionBinding](data-type/dimensionbinding-data-type-assl.md), [DimensionAttributeBinding](data-type/dimensionattributebinding-data-type-out-of-line-assl.md)|  
+|Parent elements|[CubeDimension](../data-type/cubedimension-data-type-assl.md), [DimensionBinding](../data-type/dimensionbinding-data-type-assl.md), [DimensionAttributeBinding](../data-type/dimensionattributebinding-data-type-out-of-line-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **DimensionID** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CubeDimension> and <xref:Microsoft.AnalysisServices.DimensionBinding>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

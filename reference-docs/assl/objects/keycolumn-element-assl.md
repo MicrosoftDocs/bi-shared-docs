@@ -1,6 +1,6 @@
 ---
 title: "KeyColumn Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -35,7 +35,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[KeyColumns](collections/keycolumns-element-assl.md)|  
+|Parent elements|[KeyColumns](../collections/keycolumns-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -49,6 +49,6 @@ manager: kfile
  [DimensionAttribute Data Type &#40;ASSL&#41;](data-type/dimensionattribute-data-type-assl.md)   
  [MeasureGroupAttribute Data Type &#40;ASSL&#41;](data-type/measuregroupattribute-data-type-assl.md)   
  [ScalarMiningStructureColumn Data Type &#40;ASSL&#41;](data-type/scalarminingstructurecolumn-data-type-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

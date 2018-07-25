@@ -1,6 +1,6 @@
 ---
 title: "DataItem Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -56,22 +56,22 @@ manager: kfile
   
 |Parent Element|Element of type **DataItem**|Comments|  
 |--------------------|----------------------------------|--------------|  
-|[AttributeTranslation](data-type/attributetranslation-data-type-assl.md)|[CaptionColumn](objects/captioncolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](data-type/columnbinding-data-type-assl.md) or [AttributeBinding](data-type/attributebinding-data-type-assl.md)|  
-|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|[CustomRollupColumn](objects/customrollupcolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](data-type/columnbinding-data-type-assl.md) or [AttributeBinding](data-type/attributebinding-data-type-assl.md)|  
-|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|[CustomRollupPropertiesColumn](objects/customrolluppropertiescolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](data-type/columnbinding-data-type-assl.md) or [AttributeBinding](data-type/attributebinding-data-type-assl.md)|  
-|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|[KeyColumn](objects/keycolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](data-type/columnbinding-data-type-assl.md), [AttributeBinding](data-type/attributebinding-data-type-assl.md) or [TimeBinding](data-type/timebinding-data-type-assl.md)|  
-|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|[NameColumn](objects/namecolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](data-type/columnbinding-data-type-assl.md) or [AttributeBinding](data-type/attributebinding-data-type-assl.md)|  
-|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|[SkippedLevelsColumn](objects/skippedlevelscolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](data-type/columnbinding-data-type-assl.md) or [AttributeBinding](data-type/attributebinding-data-type-assl.md)|  
-|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|[UnaryOperatorColumn](objects/unaryoperatorcolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](data-type/columnbinding-data-type-assl.md) or [AttributeBinding](data-type/attributebinding-data-type-assl.md)|  
-|[Measure](objects/measure-element-assl.md)|[Source](properties/source-element-binding-assl.md)|**Source** element of the **DataItem** must be of type [RowBinding](data-type/rowbinding-data-type-assl.md), [ColumnBinding](data-type/columnbinding-data-type-assl.md), [MeasureBinding](data-type/measurebinding-data-type-assl.md), or [CubeDimensionBinding](data-type/cubedimensionbinding-data-type-assl.md)|  
-|[MeasureGroupAttribute](data-type/measuregroupattribute-data-type-assl.md)|[KeyColumn](objects/keycolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](data-type/columnbinding-data-type-assl.md), [AttributeBinding](data-type/attributebinding-data-type-assl.md) or [InheritedBinding](data-type/inheritedbinding-data-type-assl.md)|  
-|[ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md)|[KeyColumn](objects/keycolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](data-type/columnbinding-data-type-assl.md)|  
-|[ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md)|[NameColumn](objects/namecolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](data-type/columnbinding-data-type-assl.md)|  
-|[TableMiningStructureColumn](data-type/tableminingstructurecolumn-data-type-assl.md)|[ForeignKeyColumn](objects/foreignkeycolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](data-type/columnbinding-data-type-assl.md)|  
+|[AttributeTranslation](attributetranslation-data-type-assl.md)|[CaptionColumn](objects/captioncolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](columnbinding-data-type-assl.md) or [AttributeBinding](attributebinding-data-type-assl.md)|  
+|[DimensionAttribute](dimensionattribute-data-type-assl.md)|[CustomRollupColumn](objects/customrollupcolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](columnbinding-data-type-assl.md) or [AttributeBinding](attributebinding-data-type-assl.md)|  
+|[DimensionAttribute](dimensionattribute-data-type-assl.md)|[CustomRollupPropertiesColumn](objects/customrolluppropertiescolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](columnbinding-data-type-assl.md) or [AttributeBinding](attributebinding-data-type-assl.md)|  
+|[DimensionAttribute](dimensionattribute-data-type-assl.md)|[KeyColumn](objects/keycolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](columnbinding-data-type-assl.md), [AttributeBinding](attributebinding-data-type-assl.md) or [TimeBinding](timebinding-data-type-assl.md)|  
+|[DimensionAttribute](dimensionattribute-data-type-assl.md)|[NameColumn](objects/namecolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](columnbinding-data-type-assl.md) or [AttributeBinding](attributebinding-data-type-assl.md)|  
+|[DimensionAttribute](dimensionattribute-data-type-assl.md)|[SkippedLevelsColumn](objects/skippedlevelscolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](columnbinding-data-type-assl.md) or [AttributeBinding](attributebinding-data-type-assl.md)|  
+|[DimensionAttribute](dimensionattribute-data-type-assl.md)|[UnaryOperatorColumn](objects/unaryoperatorcolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](columnbinding-data-type-assl.md) or [AttributeBinding](attributebinding-data-type-assl.md)|  
+|[Measure](objects/measure-element-assl.md)|[Source](properties/source-element-binding-assl.md)|**Source** element of the **DataItem** must be of type [RowBinding](rowbinding-data-type-assl.md), [ColumnBinding](columnbinding-data-type-assl.md), [MeasureBinding](measurebinding-data-type-assl.md), or [CubeDimensionBinding](cubedimensionbinding-data-type-assl.md)|  
+|[MeasureGroupAttribute](measuregroupattribute-data-type-assl.md)|[KeyColumn](objects/keycolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](columnbinding-data-type-assl.md), [AttributeBinding](attributebinding-data-type-assl.md) or [InheritedBinding](inheritedbinding-data-type-assl.md)|  
+|[ScalarMiningStructureColumn](scalarminingstructurecolumn-data-type-assl.md)|[KeyColumn](objects/keycolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](columnbinding-data-type-assl.md)|  
+|[ScalarMiningStructureColumn](scalarminingstructurecolumn-data-type-assl.md)|[NameColumn](objects/namecolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](columnbinding-data-type-assl.md)|  
+|[TableMiningStructureColumn](tableminingstructurecolumn-data-type-assl.md)|[ForeignKeyColumn](objects/foreignkeycolumn-element-assl.md)|**Source** element of the **DataItem** must be of type [ColumnBinding](columnbinding-data-type-assl.md)|  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataItem>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

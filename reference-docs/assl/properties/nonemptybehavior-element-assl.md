@@ -12,7 +12,7 @@ manager: kfile
 ---
 # NonEmptyBehavior Element (ASSL)
 
-  Determines the non-empty behavior associated with the parent of the [CalculationProperty](objects/calculationproperty-element-assl.md) element.  
+  Determines the non-empty behavior associated with the parent of the [CalculationProperty](../objects/calculationproperty-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,18 +37,18 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[CalculationProperty](objects/calculationproperty-element-assl.md)|  
+|Parent element|[CalculationProperty](../objects/calculationproperty-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The **NonEmptyBehavior** property applies to **CalculationProperty** elements with a [CalculationType](properties/calculationtype-element-assl.md) set to *Member*.  
+ The **NonEmptyBehavior** property applies to **CalculationProperty** elements with a [CalculationType](calculationtype-element-assl.md) set to *Member*.  
   
  The element that corresponds to the parent of **NonEmptyBehavior** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CalculationProperty>.  
   
 ## See Also  
  [CalculationProperties Element &#40;ASSL&#41;](collections/calculationproperties-element-assl.md)   
- [MdxScript Element &#40;ASSL&#41;](objects/mdxscript-element-assl.md)   
+ [MdxScript Element &#40;ASSL&#41;](../objects/mdxscript-element-assl.md)   
  [MdxScripts Element &#40;ASSL&#41;](collections/mdxscripts-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

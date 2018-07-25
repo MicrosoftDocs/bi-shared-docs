@@ -1,6 +1,6 @@
 ---
 title: "DataSourcePermission Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSourcePermission Element (ASSL)
 
-  Defines the default permissions in a [DataSource](data-type/datasource-data-type-assl.md) data type for a specific [Role](objects/role-element-assl.md) element.  
+  Defines the default permissions in a [DataSource](data-type/datasource-data-type-assl.md) data type for a specific [Role](../objects/role-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DataSourcePermissions](collections/datasourcepermissions-element-assl.md)|  
+|Parent elements|[DataSourcePermissions](../collections/datasourcepermissions-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  **DataSourcePermission** objects can exist only for roles owned by the database, and only one **DataSourcePermission** object can exist for any role.  
   
 ## See Also  
- [Role Element &#40;ASSL&#41;](objects/role-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Role Element &#40;ASSL&#41;](../objects/role-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "CubePermission Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CubePermission Element (ASSL)
 
-  Defines the permissions of the members of a particular [Role](objects/role-element-assl.md) element in a specific [Cube](objects/cube-element-assl.md) element.  
+  Defines the permissions of the members of a particular [Role](../objects/role-element-assl.md) element in a specific [Cube](../objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -40,14 +40,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubePermissions](collections/cubepermissions-element-assl.md)|  
-|Child elements|[CellPermissions](collections/cellpermissions-element-assl.md), [DimensionPermissions](collections/dimensionpermissions-element-assl.md), [ReadSourceData](properties/readsourcedata-element-assl.md)|  
+|Parent elements|[CubePermissions](../collections/cubepermissions-element-assl.md)|  
+|Child elements|[CellPermissions](../collections/cellpermissions-element-assl.md), [DimensionPermissions](../collections/dimensionpermissions-element-assl.md), [ReadSourceData](../properties/readsourcedata-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CubePermission>.  
   
 ## See Also  
- [Cube Element &#40;ASSL&#41;](objects/cube-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Cube Element &#40;ASSL&#41;](../objects/cube-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

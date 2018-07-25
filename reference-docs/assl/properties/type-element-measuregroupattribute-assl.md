@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Type Element (MeasureGroupAttribute) (ASSL)
 
-  Contains the type of a [MeasureGroupAttribute](data-type/measuregroupattribute-data-type-assl.md) element.  
+  Contains the type of a [MeasureGroupAttribute](../data-type/measuregroupattribute-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MeasureGroupAttribute](data-type/measuregroupattribute-data-type-assl.md)|  
+|Parent element|[MeasureGroupAttribute](../data-type/measuregroupattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -54,7 +54,7 @@ manager: kfile
   
 ## See Also  
  [Attributes Element &#40;ASSL&#41;](collections/attributes-element-assl.md)   
- [RegularMeasureGroupDimension Data Type &#40;ASSL&#41;](data-type/regularmeasuregroupdimension-data-type-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [RegularMeasureGroupDimension Data Type &#40;ASSL&#41;](../data-type/regularmeasuregroupdimension-data-type-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

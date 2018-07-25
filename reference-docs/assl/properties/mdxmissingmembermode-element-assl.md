@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Dimension](data-type/dimension-data-type-assl.md)|  
+|Parent element|[Dimension](../data-type/dimension-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -53,6 +53,6 @@ manager: kfile
   
 ## See Also  
  [Multidimensional Expressions &#40;MDX&#41; Reference](../../../mdx/multidimensional-expressions-mdx-reference.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

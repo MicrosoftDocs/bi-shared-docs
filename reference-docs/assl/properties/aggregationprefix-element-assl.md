@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Cube](objects/cube-element-assl.md), [Database](objects/database-element-assl.md), [MeasureGroup](objects/measuregroup-element-assl.md), [Partition](objects/partition-element-assl.md)|  
+|Parent elements|[Cube](../objects/cube-element-assl.md), [Database](../objects/database-element-assl.md), [MeasureGroup](../objects/measuregroup-element-assl.md), [Partition](../objects/partition-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -62,6 +62,6 @@ manager: kfile
  The elements that correspond to the parents of **AggregationPrefix** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Cube>, <xref:Microsoft.AnalysisServices.Database>, <xref:Microsoft.AnalysisServices.MeasureGroup>, and <xref:Microsoft.AnalysisServices.Partition>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

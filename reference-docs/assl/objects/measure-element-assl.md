@@ -1,6 +1,6 @@
 ---
 title: "Measure Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -57,8 +57,8 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[AggregationInstance](objects/aggregationinstance-element-assl.md)|[AggregationInstanceMeasure](data-type/measurebinding-data-type-assl.md)|  
-|[MeasureGroup](objects/measuregroup-element-assl.md)|None|  
+|[AggregationInstance](../objects/aggregationinstance-element-assl.md)|[AggregationInstanceMeasure](data-type/measurebinding-data-type-assl.md)|  
+|[MeasureGroup](../objects/measuregroup-element-assl.md)|None|  
 |[MeasureGroupBinding (out-of-line)](data-type/measuregroupbinding-data-type-out-of-line-assl.md)|[MeasureBinding](data-type/measurebinding-data-type-assl.md)|  
 |[PerspectiveMeasureGroup](data-type/perspectivemeasuregroup-data-type-assl.md)|[PerspectiveMeasure](data-type/perspectivemeasure-data-type-assl.md)|  
   
@@ -66,12 +66,12 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Measures](collections/measures-element-assl.md)|  
+|Parent elements|[Measures](../collections/measures-element-assl.md)|  
 |Child elements|See the table below.|  
   
 |Ancestor or Parent|Child elements|  
 |------------------------|--------------------|  
-|[MeasureGroup](objects/measuregroup-element-assl.md)|[AggregateFunction](properties/aggregatefunction-element-assl.md), [Annotations](collections/annotations-element-assl.md), [BackColor](properties/backcolor-element-assl.md), [DataType](properties/datatype-element-assl.md), [Description](properties/description-element-assl.md), [DisplayFolder](properties/displayfolder-element-assl.md), [FontFlags](properties/fontflags-element-assl.md), [FontName](properties/fontname-element-assl.md), [FontSize](properties/fontsize-element-assl.md), [ForeColor](properties/forecolor-element-assl.md), [FormatString](properties/formatstring-element-assl.md), [ID](properties/id-element-assl.md), [MeasureExpression](properties/measureexpression-element-assl.md), [Name](properties/name-element-assl.md), [Source](properties/source-element-measure-assl.md), [Translations](collections/translations-element-assl.md), [Visible](properties/visible-element-assl.md)|  
+|[MeasureGroup](../objects/measuregroup-element-assl.md)|[AggregateFunction](../properties/aggregatefunction-element-assl.md), [Annotations](../collections/annotations-element-assl.md), [BackColor](../properties/backcolor-element-assl.md), [DataType](../properties/datatype-element-assl.md), [Description](../properties/description-element-assl.md), [DisplayFolder](../properties/displayfolder-element-assl.md), [FontFlags](../properties/fontflags-element-assl.md), [FontName](../properties/fontname-element-assl.md), [FontSize](../properties/fontsize-element-assl.md), [ForeColor](../properties/forecolor-element-assl.md), [FormatString](../properties/formatstring-element-assl.md), [ID](../properties/id-element-assl.md), [MeasureExpression](../properties/measureexpression-element-assl.md), [Name](../properties/name-element-assl.md), [Source](../properties/source-element-measure-assl.md), [Translations](../collections/translations-element-assl.md), [Visible](../properties/visible-element-assl.md)|  
 |All others|None|  
   
 ## Remarks  
@@ -90,6 +90,6 @@ manager: kfile
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Measure> and <xref:Microsoft.AnalysisServices.PerspectiveMeasure>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

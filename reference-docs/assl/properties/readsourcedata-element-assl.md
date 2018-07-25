@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ReadSourceData Element (ASSL)
 
-  Determines how unique names are generated for hierarchies that are contained within the [CubePermission](objects/cubepermission-element-assl.md).  
+  Determines how unique names are generated for hierarchies that are contained within the [CubePermission](../objects/cubepermission-element-assl.md).  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[CubePermission](objects/cubepermission-element-assl.md)|  
+|Parent element|[CubePermission](../objects/cubepermission-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,8 +52,8 @@ manager: kfile
  The element that corresponds to the parent of **ReadSourceData** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CubePermission>.  
   
 ## See Also  
- [Cube Element &#40;ASSL&#41;](objects/cube-element-assl.md)   
- [Dimension Element &#40;ASSL&#41;](objects/dimension-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Cube Element &#40;ASSL&#41;](../objects/cube-element-assl.md)   
+ [Dimension Element &#40;ASSL&#41;](../objects/dimension-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

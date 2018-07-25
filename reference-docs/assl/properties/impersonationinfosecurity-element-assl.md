@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ImpersonationInfoSecurity Element (ASSL)
 
-  Contains a read-only value that indicates if any changes were made to the security credentials that are supplied in the [ImpersonationInfo](data-type/impersonationinfo-data-type-assl.md) data type.  
+  Contains a read-only value that indicates if any changes were made to the security credentials that are supplied in the [ImpersonationInfo](../data-type/impersonationinfo-data-type-assl.md) data type.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ImpersonationInfo](data-type/impersonationinfo-data-type-assl.md)|  
+|Parent element|[ImpersonationInfo](../data-type/impersonationinfo-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,6 +51,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **ImpersonationInfoSecurity** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ImpersonationInfoSecurity>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

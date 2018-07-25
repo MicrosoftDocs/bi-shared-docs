@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services Scripting Language (ASSL for XMLA) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl

@@ -1,6 +1,6 @@
 ---
 title: "DegenerateMeasureGroupDimension Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -27,7 +27,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md)|  
+|Base data types|[RegularMeasureGroupDimension](regularmeasuregroupdimension-data-type-assl.md)|  
 |Derived data types|None|  
   
 ## Data Type Relationships  
@@ -44,6 +44,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DegenerateMeasureGroupDimension>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

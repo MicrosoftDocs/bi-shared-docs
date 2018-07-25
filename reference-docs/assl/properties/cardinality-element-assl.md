@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Cardinality Element (ASSL)
 
-  Indicates the cardinality of the relationship described by an [AttributeRelationship](objects/attributerelationship-element-assl.md) or [RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md).  
+  Indicates the cardinality of the relationship described by an [AttributeRelationship](../objects/attributerelationship-element-assl.md) or [RegularMeasureGroupDimension](../data-type/regularmeasuregroupdimension-data-type-assl.md).  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[AttributeRelationship](objects/attributerelationship-element-assl.md), [RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md)|  
+|Parent element|[AttributeRelationship](../objects/attributerelationship-element-assl.md), [RegularMeasureGroupDimension](../data-type/regularmeasuregroupdimension-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,7 +51,7 @@ manager: kfile
  The enumeration corresponding to the allowed values for **Cardinality** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Cardinality>.  
   
 ## See Also  
- [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-objects/attributes-and-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-../objects/attributes-and-attribute-hierarchies.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

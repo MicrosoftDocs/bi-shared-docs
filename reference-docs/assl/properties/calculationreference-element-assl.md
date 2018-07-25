@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CalculationReference Element (ASSL)
 
-  Contains the name of the named set or calculated cell referenced by the [CalculationProperty](objects/calculationproperty-element-assl.md).  
+  Contains the name of the named set or calculated cell referenced by the [CalculationProperty](../objects/calculationproperty-element-assl.md).  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[CalculationProperty](objects/calculationproperty-element-assl.md)|  
+|Parent element|[CalculationProperty](../objects/calculationproperty-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -47,8 +47,8 @@ manager: kfile
   
 ## See Also  
  [CalculationProperties Element &#40;ASSL&#41;](collections/calculationproperties-element-assl.md)   
- [MdxScript Element &#40;ASSL&#41;](objects/mdxscript-element-assl.md)   
+ [MdxScript Element &#40;ASSL&#41;](../objects/mdxscript-element-assl.md)   
  [MdxScripts Element &#40;ASSL&#41;](collections/mdxscripts-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

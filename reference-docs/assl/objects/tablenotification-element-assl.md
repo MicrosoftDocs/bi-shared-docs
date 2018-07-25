@@ -1,6 +1,6 @@
 ---
 title: "TableNotification Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # TableNotification Element (ASSL)
 
-  Contains information for the [ProactiveCaching](objects/proactivecaching-element-assl.md) element about a table or view in a data source that has been modified.  
+  Contains information for the [ProactiveCaching](../objects/proactivecaching-element-assl.md) element about a table or view in a data source that has been modified.  
   
 ## Syntax  
   
@@ -38,8 +38,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[TableNotifications](collections/tablenotifications-element-assl.md)|  
-|Child elements|[DbSchemaName](properties/dbschemaname-element-assl.md), [DbTableName](properties/dbtablename-element-assl.md)|  
+|Parent elements|[TableNotifications](../collections/tablenotifications-element-assl.md)|  
+|Child elements|[DbSchemaName](../properties/dbschemaname-element-assl.md), [DbTableName](../properties/dbtablename-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TableNotification>.  
@@ -48,6 +48,6 @@ manager: kfile
  [ProactiveCachingTablesBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingtablesbinding-data-type-assl.md)   
  [ProactiveCachingObjectNotificationBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingobjectnotificationbinding-data-type-assl.md)   
  [ProactiveCachingBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingbinding-data-type-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

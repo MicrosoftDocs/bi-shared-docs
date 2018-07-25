@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AccountType Element (ASSL)
 
-  Contains the name of an account type defined in a [Database](objects/database-element-assl.md) element.  
+  Contains the name of an account type defined in a [Database](../objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Account](objects/account-element-assl.md)|  
+|Parent elements|[Account](../objects/account-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -57,6 +57,6 @@ manager: kfile
   
 ## See Also  
  [Accounts Element &#40;ASSL&#41;](collections/accounts-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

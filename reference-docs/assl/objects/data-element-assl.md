@@ -1,6 +1,6 @@
 ---
 title: "Data Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Data Element (ASSL)
 
-  Contains (in the collection of child [Block Element &#40;ASSL&#41;](objects/block-element-assl.md) elements) the binary contents of a [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) element.  
+  Contains (in the collection of child [Block Element &#40;ASSL&#41;](../objects/block-element-assl.md) elements) the binary contents of a [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,17 +37,17 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[File](objects/file-element-assl.md) of type [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md)|  
+|Parent elements|[File](../objects/file-element-assl.md) of type [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **Data** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ClrAssemblyFile>.  
   
 ## See Also  
- [Assembly Element &#40;ASSL&#41;](objects/assembly-element-assl.md)   
+ [Assembly Element &#40;ASSL&#41;](../objects/assembly-element-assl.md)   
  [ClrAssembly Data Type &#40;ASSL&#41;](data-type/clrassembly-data-type-assl.md)   
- [Files Element &#40;ASSL&#41;](collections/files-element-assl.md)   
- [Blocks Element &#40;ASSL&#41;](collections/blocks-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Files Element &#40;ASSL&#41;](../collections/files-element-assl.md)   
+ [Blocks Element &#40;ASSL&#41;](../collections/blocks-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MeasureID Element (ASSL)
 
-  Associates a [Measure](objects/measure-element-assl.md) element with the parent element.  
+  Associates a [Measure](../objects/measure-element-assl.md) element with the parent element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AggregationInstanceMeasure](data-type/aggregationinstancemeasure-data-type-assl.md), [MeasureBinding](data-type/measurebinding-data-type-assl.md), [PerspectiveMeasure](data-type/perspectivemeasure-data-type-assl.md)|  
+|Parent elements|[AggregationInstanceMeasure](../data-type/aggregationinstancemeasure-data-type-assl.md), [MeasureBinding](../data-type/measurebinding-data-type-assl.md), [PerspectiveMeasure](../data-type/perspectivemeasure-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **MeasureID** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AggregationInstanceMeasure>, <xref:Microsoft.AnalysisServices.MeasureBinding>, and <xref:Microsoft.AnalysisServices.PerspectiveMeasure>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

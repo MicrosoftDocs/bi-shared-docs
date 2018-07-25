@@ -45,17 +45,17 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningModel](objects/miningmodel-element-assl.md)|  
+|Parent element|[MiningModel](../objects/miningmodel-element-assl.md)|  
 |Child elements|*FoldIndex*<br /><br /> *FoldCount*<br /><br /> *MaxCases*<br /><br /> *FoldTargetAttribute*|  
   
 ## Remarks  
  These properties are for internal use only, and are not supported for use in DDL statements.  
   
- For information about how to use cross-validation in [!INCLUDE[ssBIDevStudioFull](../../../includes/ssbidevstudiofull-md.md)], see [Measures in the Cross-Validation Report](../../../analysis-services/data-mining/measures-in-the-cross-validation-report.md).  
+ For information about how to use cross-validation in BIDS, see [Measures in the Cross-Validation Report](../../../analysis-services/data-mining/measures-in-the-cross-validation-report.md).  
   
  For information about how to perform cross-validation by usingAnalysis Services stored procedures, see [Data Mining Stored Procedures &#40;Analysis Services - Data Mining&#41;](../../../analysis-services/data-mining/data-mining-stored-procedures-analysis-services-data-mining.md).  
   
-## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+## See Als
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

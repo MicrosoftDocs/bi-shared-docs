@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Dimension](objects/dimension-element-assl.md)|  
+|Parent element|[Dimension](../objects/dimension-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,8 +52,8 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **UnknownMember** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.UnknownMemberBehavior>.  
   
 ## See Also  
- [UnknownMemberName Element &#40;ASSL&#41;](properties/unknownmembername-element-assl.md)   
- [UnknownMemberTranslation Element &#40;ASSL&#41;](objects/unknownmembertranslation-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [UnknownMemberName Element &#40;ASSL&#41;](unknownmembername-element-assl.md)   
+ [UnknownMemberTranslation Element &#40;ASSL&#41;](../objects/unknownmembertranslation-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

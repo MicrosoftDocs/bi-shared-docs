@@ -1,6 +1,6 @@
 ---
 title: "DataSource Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSource Element (ASSL)
 
-  Defines a data source in a Analysis Services [Database](objects/database-element-assl.md) element.  
+  Defines a data source in a Analysis Services [Database](../objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,14 +39,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DataSources](collections/datasources-element-assl.md)|  
+|Parent elements|[DataSources](../collections/datasources-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataSource>.  
   
 ## See Also  
- [Database Element &#40;ASSL&#41;](objects/database-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Database Element &#40;ASSL&#41;](../objects/database-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

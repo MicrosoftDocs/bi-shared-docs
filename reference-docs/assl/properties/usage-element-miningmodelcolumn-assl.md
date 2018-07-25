@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Usage Element (MiningModelColumn) (ASSL)
 
-  Describes how the associated column in the parent [MiningStructure](objects/miningstructure-element-assl.md) is used.  
+  Describes how the associated column in the parent [MiningStructure](../objects/miningstructure-element-assl.md) is used.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[MiningModelColumn](data-type/miningmodelcolumn-data-type-assl.md)|  
+|Parent element|[MiningModelColumn](../data-type/miningmodelcolumn-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -54,6 +54,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **Usage** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModelColumnUsages>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

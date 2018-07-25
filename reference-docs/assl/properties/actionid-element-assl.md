@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ActionID Element (ASSL)
 
-  Contains the name of an [Action](objects/action-element-assl.md) element defined on a [Cube](objects/cube-element-assl.md) element that is made available in a [Perspective](objects/perspective-element-assl.md) element as a [PerspectiveAction](data-type/perspectiveaction-data-type-assl.md) element.  
+  Contains the name of an [Action](../objects/action-element-assl.md) element defined on a [Cube](../objects/cube-element-assl.md) element that is made available in a [Perspective](../objects/perspective-element-assl.md) element as a [PerspectiveAction](../data-type/perspectiveaction-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -35,7 +35,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[PerspectiveAction](data-type/perspectiveaction-data-type-assl.md)|  
+|Parent elements|[PerspectiveAction](../data-type/perspectiveaction-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -43,6 +43,6 @@ manager: kfile
   
 ## See Also  
  [Actions Element &#40;ASSL&#41;](collections/actions-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

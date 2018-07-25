@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubePermission](objects/cubepermission-element-assl.md), [DatabasePermission](objects/databasepermission-element-assl.md), [DimensionPermission](objects/dimensionpermission-element-assl.md), [MiningModelPermission](objects/miningmodelpermission-element-assl.md), [MiningStructurePermission](objects/miningstructurepermission-element-assl.md), [Permission](data-type/permission-data-type-assl.md)|  
+|Parent elements|[CubePermission](../objects/cubepermission-element-assl.md), [DatabasePermission](../objects/databasepermission-element-assl.md), [DimensionPermission](../objects/dimensionpermission-element-assl.md), [MiningModelPermission](../objects/miningmodelpermission-element-assl.md), [MiningStructurePermission](../objects/miningstructurepermission-element-assl.md), [Permission](../data-type/permission-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **Process** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CubePermission>, <xref:Microsoft.AnalysisServices.DatabasePermission>, <xref:Microsoft.AnalysisServices.DimensionPermission>, <xref:Microsoft.AnalysisServices.MiningModelPermission>, <xref:Microsoft.AnalysisServices.MiningStructurePermission>, and <xref:Microsoft.AnalysisServices.Permission>.  
   
 ## See Also  
- [Role Element &#40;ASSL&#41;](objects/role-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Role Element &#40;ASSL&#41;](../objects/role-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

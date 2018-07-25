@@ -1,6 +1,6 @@
 ---
 title: "AggregationAttribute Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -37,7 +37,7 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|[AttributeID](properties/attributeid-element-assl.md), [Annotations](collections/annotations-element-assl.md)|  
-|Derived elements|[Attribute](objects/attribute-element-assl.md) ([Attributes](collections/attributes-element-assl.md) collection of [AggregationDimension](data-type/aggregationdimension-data-type-assl.md))|  
+|Derived elements|[Attribute](objects/attribute-element-assl.md) ([Attributes](collections/attributes-element-assl.md) collection of [AggregationDimension](aggregationdimension-data-type-assl.md))|  
   
 ## Remarks  
  The corresponding class in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationAttribute>.  

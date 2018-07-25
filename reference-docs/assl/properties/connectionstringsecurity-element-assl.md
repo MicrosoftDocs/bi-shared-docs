@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DataSource](objects/datasource-element-assl.md)|  
+|Parent element|[DataSource](../objects/datasource-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,6 +51,6 @@ manager: kfile
  The enumeration corresponding to the allowed values for **ConnectionStringSecurity** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ConnectionStringSecurity>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

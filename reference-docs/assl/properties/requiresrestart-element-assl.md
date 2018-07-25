@@ -12,7 +12,7 @@ manager: kfile
 ---
 # RequiresRestart Element (ASSL)
 
-  Contains a read-only value associated with a [ServerProperty](objects/serverproperty-element-assl.md) element that determines whether changing the value of the server property requires that the instance be restarted for the change to take effect.  
+  Contains a read-only value associated with a [ServerProperty](../objects/serverproperty-element-assl.md) element that determines whether changing the value of the server property requires that the instance be restarted for the change to take effect.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ServerProperty](objects/serverproperty-element-assl.md)|  
+|Parent element|[ServerProperty](../objects/serverproperty-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -45,7 +45,7 @@ manager: kfile
   
 ## See Also  
  [ServerProperties Element &#40;ASSL&#41;](collections/serverproperties-element-assl.md)   
- [Server Element &#40;ASSL&#41;](objects/server-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Server Element &#40;ASSL&#41;](../objects/server-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

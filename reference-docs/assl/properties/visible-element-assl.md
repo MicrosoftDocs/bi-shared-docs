@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CalculationProperty](objects/calculationproperty-element-assl.md), [Cube](objects/cube-element-assl.md), [CubeDimension](data-type/cubedimension-data-type-assl.md), [CubeHierarchy](data-type/cubehierarchy-data-type-assl.md), [Database](objects/database-element-assl.md), [Measure](objects/measure-element-assl.md), [MemberProperty](objects/attributerelationship-element-assl.md)|  
+|Parent elements|[CalculationProperty](../objects/calculationproperty-element-assl.md), [Cube](../objects/cube-element-assl.md), [CubeDimension](../data-type/cubedimension-data-type-assl.md), [CubeHierarchy](../data-type/cubehierarchy-data-type-assl.md), [Database](../objects/database-element-assl.md), [Measure](../objects/measure-element-assl.md), [MemberProperty](../objects/attributerelationship-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,6 +46,6 @@ manager: kfile
  The elements that correspond to the parents of **Visible** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CalculationProperty>, <xref:Microsoft.AnalysisServices.Cube>, <xref:Microsoft.AnalysisServices.CubeDimension>, <xref:Microsoft.AnalysisServices.CubeHierarchy>, <xref:Microsoft.AnalysisServices.Database>, and <xref:Microsoft.AnalysisServices.Measure>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "AlgorithmParameter Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AlgorithmParameter Element (ASSL)
 
-  Defines a parameter for the algorithm used by a [MiningModel](objects/miningmodel-element-assl.md) element.  
+  Defines a parameter for the algorithm used by a [MiningModel](../objects/miningmodel-element-assl.md) element.  
   
 ## Syntax  
   
@@ -38,8 +38,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AlgorithmParameters](collections/algorithmparameters-element-assl.md)|  
-|Child elements|[Name](properties/name-element-assl.md), [Value](properties/value-element-assl.md)|  
+|Parent elements|[AlgorithmParameters](../collections/algorithmparameters-element-assl.md)|  
+|Child elements|[Name](../properties/name-element-assl.md), [Value](../properties/value-element-assl.md)|  
   
 ## Remarks  
  An **AlgorithmParameter** is a parameter for a mining model algorithm. The **AlgorithmParameter** represents this parameter as a name/value pair. The set of applicable parameters that an **AlgorithmParameter** can represent is algorithm-dependent. For more information about algorithm parameters for a given algorithm, see the appropriate documentation for that algorithm.  
@@ -49,8 +49,8 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AlgorithmParameter>.  
   
 ## See Also  
- [MiningModel Element &#40;ASSL&#41;](objects/miningmodel-element-assl.md)   
- [Algorithm Element &#40;ASSL&#41;](properties/algorithm-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [MiningModel Element &#40;ASSL&#41;](../objects/miningmodel-element-assl.md)   
+ [Algorithm Element &#40;ASSL&#41;](../properties/algorithm-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

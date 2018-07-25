@@ -37,14 +37,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Dimension](objects/dimension-element-assl.md)|  
+|Parent element|[Dimension](../objects/dimension-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **MiningModelID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Dimension>.  
   
 ## See Also  
- [MiningModel Element &#40;ASSL&#41;](objects/miningmodel-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [MiningModel Element &#40;ASSL&#41;](../objects/miningmodel-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -35,7 +35,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ProactiveCachingBinding](data-type/proactivecachingbinding-data-type-assl.md)|  
+|Parent element|[ProactiveCachingBinding](../data-type/proactivecachingbinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -44,13 +44,13 @@ manager: kfile
 |Value|Description|  
 |-----------|-----------------|  
 |*Client*|External client application processes the notification.|  
-|*Server*|[!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] processes the notification.|  
+|*Server*|Processes the notification.|  
   
  The element that corresponds to the parent of **NotificationTechnique** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ProactiveCachingBinding>.  
   
  The enumeration that corresponds to the allowed values for **NotificationTechnique** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.NotificationTechnique>.  
   
 ## See Also  
- [ProactiveCachingBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingbinding-data-type-assl.md)  
+ [ProactiveCachingBinding Data Type &#40;ASSL&#41;](../data-type/proactivecachingbinding-data-type-assl.md)  
   
   

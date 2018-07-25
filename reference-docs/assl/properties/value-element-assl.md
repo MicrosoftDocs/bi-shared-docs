@@ -35,15 +35,15 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[AlgorithmParameter](objects/algorithmparameter-element-assl.md)|Any simpleType|  
-|[ServerProperty](objects/serverproperty-element-assl.md)|Any simpleType|  
+|[AlgorithmParameter](../objects/algorithmparameter-element-assl.md)|Any simpleType|  
+|[ServerProperty](../objects/serverproperty-element-assl.md)|Any simpleType|  
 |All others|String|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AlgorithmParameter](objects/algorithmparameter-element-assl.md), [Annotation](objects/annotation-element-assl.md), [Kpi](objects/kpi-element-assl.md), [ReportFormatParameter](objects/reportformatparameter-element-asl.md), [ReportParameter](objects/reportparameter-element-assl.md), [ServerProperty](objects/serverproperty-element-assl.md)|  
+|Parent elements|[AlgorithmParameter](../objects/algorithmparameter-element-assl.md), [Annotation](../objects/annotation-element-assl.md), [Kpi](../objects/kpi-element-assl.md), [ReportFormatParameter](../objects/reportformatparameter-element-asl.md), [ReportParameter](../objects/reportparameter-element-assl.md), [ServerProperty](../objects/serverproperty-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,16 +51,16 @@ manager: kfile
   
 |Parent element|Expected value|  
 |--------------------|--------------------|  
-|[AlgorithmParameter](objects/algorithmparameter-element-assl.md)|The value of the algorithm parameter.|  
-|[Annotation](objects/annotation-element-assl.md)|The value of the annotation.|  
-|[Kpi](objects/kpi-element-assl.md)|A Multidimensional Expressions (MDX) expression used to calculate the value of the key performance indicator (KPI).|  
-|[ReportFormatParameter](objects/reportformatparameter-element-asl.md)|The value of the report format parameter.|  
-|[ReportParameter](objects/reportparameter-element-assl.md)|An MDX expression used to calculate the value of the report parameter.|  
-|[ServerProperty](objects/serverproperty-element-assl.md)|The value of the server property for the currently running instance.|  
+|[AlgorithmParameter](../objects/algorithmparameter-element-assl.md)|The value of the algorithm parameter.|  
+|[Annotation](../objects/annotation-element-assl.md)|The value of the annotation.|  
+|[Kpi](../objects/kpi-element-assl.md)|A Multidimensional Expressions (MDX) expression used to calculate the value of the key performance indicator (KPI).|  
+|[ReportFormatParameter](../objects/reportformatparameter-element-asl.md)|The value of the report format parameter.|  
+|[ReportParameter](../objects/reportparameter-element-assl.md)|An MDX expression used to calculate the value of the report parameter.|  
+|[ServerProperty](../objects/serverproperty-element-assl.md)|The value of the server property for the currently running instance.|  
   
  The elements that correspond to the parents of **Value** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AlgorithmParameter>, <xref:Microsoft.AnalysisServices.Annotation>, <xref:Microsoft.AnalysisServices.Kpi>, <xref:Microsoft.AnalysisServices.ReportParameter>, and <xref:Microsoft.AnalysisServices.ServerProperty>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

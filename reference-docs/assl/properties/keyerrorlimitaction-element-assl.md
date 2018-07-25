@@ -12,7 +12,7 @@ manager: kfile
 ---
 # KeyErrorLimitAction Element (ASSL)
 
-  Specifies the action Analysis Services takes when the key error count that is specified in the [KeyErrorLimit](properties/keyerrorlimit-element-assl.md) element is reached.  
+  Specifies the action Analysis Services takes when the key error count that is specified in the [KeyErrorLimit](keyerrorlimit-element-assl.md) element is reached.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ErrorConfiguration](objects/errorconfiguration-element-assl.md)|  
+|Parent element|[ErrorConfiguration](../objects/errorconfiguration-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,6 +51,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **KeyErrorLimitAction** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.KeyErrorLimitAction>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

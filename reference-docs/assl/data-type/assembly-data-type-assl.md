@@ -1,6 +1,6 @@
 ---
 title: "Assembly Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,10 +12,10 @@ manager: kfile
 ---
 # Assembly Data Type (ASSL)
 
-  Defines an abstract primitive data type that represents a  [!INCLUDE[dnprdnshort](../../../includes/dnprdnshort-md.md)] assembly or a COM dynamic link library (DLL) associated with a [Server](objects/server-element-assl.md) or [Database](objects/database-element-assl.md) element.  
+  Defines an abstract primitive data type that represents a Microsoft .NET Framework assembly or a COM dynamic link library (DLL) associated with a [Server](../objects/server-element-assl.md) or [Database](../objects/database-element-assl.md) element.  
   
 > [!IMPORTANT]  
->  COM assemblies might pose a security risk. Due to this risk and other considerations, COM assemblies were deprecated in [!INCLUDE[ssASversion10](../../../includes/ssasversion10-md.md)]. COM assemblies might not be supported in future releases.  
+>  COM assemblies might pose a security risk. Due to this risk and other considerations, COM assemblies are depreceated.
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
 |Characteristic|Description|  
 |--------------------|-----------------|  
 |Base data types|None|  
-|Derived data types|[ClrAssembly](data-type/clrassembly-data-type-assl.md), [ComAssembly](data-type/comassembly-data-type-assl.md)|  
+|Derived data types|[ClrAssembly](../../clrassembly-data-type-assl.md), [ComAssembly](../../comassembly-data-type-assl.md)|  
   
 ## Data Type Relationships  
   
@@ -48,13 +48,9 @@ manager: kfile
 |Derived elements|None|  
   
 ## Remarks  
- The **Assembly** data type serves as the base data type for the **ComAssembly** element, which represents COM libraries associated with the instance or database, and the **ClrAssembly** element, which represents [!INCLUDE[dnprdnshort](../../../includes/dnprdnshort-md.md)] assemblies associated with the instance or database. For more information about assemblies, see [Multidimensional Model Assemblies Management](../../../analysis-services/multidimensional-models/multidimensional-model-assemblies-management.md).  
+ The **Assembly** data type serves as the base data type for the **ComAssembly** element, which represents COM libraries associated with the instance or database, and the **ClrAssembly** element, which represents assemblies associated with the instance or database.  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Assembly>.  
-  
-## See Also  
- [Server Element &#40;ASSL&#41;](objects/server-element-assl.md)   
- [Database Element &#40;ASSL&#41;](objects/database-element-assl.md)   
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+
   
   

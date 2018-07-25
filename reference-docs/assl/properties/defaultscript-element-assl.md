@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DefaultScript Element (ASSL)
 
-  Identifies the default [MdxScript](objects/mdxscript-element-assl.md) element in the [MdxScripts](collections/mdxscripts-element-assl.md) collection.  
+  Identifies the default [MdxScript](../objects/mdxscript-element-assl.md) element in the [MdxScripts](collections/mdxscripts-element-assl.md) collection.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MdxScript](objects/mdxscript-element-assl.md)|  
+|Parent elements|[MdxScript](../objects/mdxscript-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,6 +46,6 @@ manager: kfile
  The element that corresponds to the parent of **DefaultScript** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MdxScript>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

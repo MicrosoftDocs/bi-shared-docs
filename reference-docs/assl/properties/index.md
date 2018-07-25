@@ -1,3 +1,3 @@
 ---
-redirect_url: /sql/analysis-services/scripting/properties/access-element-assl
+redirect_url: /sql/analysis-services/scripting/access-element-assl
 ---

@@ -1,6 +1,6 @@
 ---
 title: "PushedDataSource Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # PushedDataSource Data Type (ASSL)
 
-  Defines a primitive data type that represents a data source (such as a  [!INCLUDE[ssISnoversion](../../../includes/ssisnoversion-md.md)] package) used for "pushing" data into a [Cube](objects/cube-element-assl.md) element.  
+  Defines a primitive data type that represents a data source used for "pushing" data into a [Cube](objects/cube-element-assl.md) element.  
   
 ## Syntax  
   
@@ -43,6 +43,6 @@ manager: kfile
  **PushedDataSource** is used only within a processing command as an out-of-line data source. Persisted data sources are never of this type.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

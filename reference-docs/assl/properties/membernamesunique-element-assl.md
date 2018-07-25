@@ -37,10 +37,10 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md),.[Hierarchy](objects/hierarchy-element-assl.md)|  
+|Parent elements|[DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md),.[Hierarchy](../objects/hierarchy-element-assl.md)|  
 |Child elements|None|  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

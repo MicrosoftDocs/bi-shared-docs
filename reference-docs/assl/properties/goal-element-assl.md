@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Goal Element (ASSL)
 
-  Identifies the desired goal in a [Kpi](objects/kpi-element-assl.md) element.  
+  Identifies the desired goal in a [Kpi](../objects/kpi-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Kpi](objects/kpi-element-assl.md)|  
+|Parent element|[Kpi](../objects/kpi-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,9 +46,9 @@ manager: kfile
  The element that corresponds to the parent of **Goal** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Kpi>.  
   
 ## See Also  
- [Status Element &#40;ASSL&#41;](properties/status-element-assl.md)   
- [Trend Element &#40;ASSL&#41;](properties/trend-element-assl.md)   
- [Value Element &#40;ASSL&#41;](properties/value-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Status Element &#40;ASSL&#41;](status-element-assl.md)   
+ [Trend Element &#40;ASSL&#41;](trend-element-assl.md)   
+ [Value Element &#40;ASSL&#41;](value-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

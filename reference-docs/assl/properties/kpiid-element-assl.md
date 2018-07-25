@@ -12,7 +12,7 @@ manager: kfile
 ---
 # KpiID Element (ASSL)
 
-  Contains an identifier (ID) that associates a [Kpi](objects/kpi-element-assl.md) element with a [Perspective](objects/perspective-element-assl.md) element.  
+  Contains an identifier (ID) that associates a [Kpi](../objects/kpi-element-assl.md) element with a [Perspective](../objects/perspective-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[PerspectiveKpi](data-type/perspectivekpi-data-type-assl.md)|  
+|Parent element|[PerspectiveKpi](../data-type/perspectivekpi-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **KpiID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PerspectiveKpi>.  
   
 ## See Also  
- [Properties (ASSL)](properties/properties-assl.md)  
+ [Properties (ASSL)](properties-assl.md)  
   
   

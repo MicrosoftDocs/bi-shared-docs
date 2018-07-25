@@ -1,6 +1,6 @@
 ---
 title: "AttributeBinding Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[Binding](data-type/binding-data-type-assl.md)|  
+|Base data types|[Binding](binding-data-type-assl.md)|  
 |Derived data types|None|  
   
 ## Data Type Relationships  
@@ -38,16 +38,16 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|[AttributeID](properties/attributeid-element-assl.md), [Ordinal](properties/ordinal-element-assl.md), [Type](properties/type-element-binding-assl.md)|  
-|Derived elements|See [Binding](data-type/binding-data-type-assl.md)|  
+|Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  
- For additional information about the **Binding** data type, including tables of Analysis Services Scripting Language (ASSL) objects derived from the **Binding** data type, see [Binding Data Type &#40;ASSL&#41;](data-type/binding-data-type-assl.md).  
+ For additional information about the **Binding** data type, including tables of Analysis Services Scripting Language (ASSL) objects derived from the **Binding** data type, see [Binding Data Type &#40;ASSL&#41;](binding-data-type-assl.md).  
   
  For an overview of data bindings in ASSL, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributeBinding>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

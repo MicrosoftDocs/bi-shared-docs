@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Cube](objects/cube-element-assl.md)|  
+|Parent element|[Cube](../objects/cube-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -53,6 +53,6 @@ manager: kfile
  The element that corresponds to the parent of **ScriptCacheProcessingMode** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Cube>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

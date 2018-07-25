@@ -1,6 +1,6 @@
 ---
 title: "Dimension Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -45,25 +45,25 @@ manager: kfile
   
 |Ancestor or Parent|Data Type|  
 |------------------------|---------------|  
-|[Database](objects/database-element-assl.md)|[Dimension](data-type/dimension-data-type-assl.md)|  
-|[Aggregation](objects/aggregation-element-assl.md)|[AggregationDimension](data-type/aggregationdimension-data-type-assl.md)|  
-|[AggregationDesign](objects/aggregationdesign-element-assl.md)|[AggregationDesignDimension](data-type/aggregationdesigndimension-data-type-assl.md)|  
-|[AggregationInstance](objects/aggregationinstance-element-assl.md)|[AggregationInstanceCubeDimension](data-type/aggregationinstancecubedimension-data-type-assl.md)|  
-|[Cube](objects/cube-element-assl.md)|[CubeDimension](data-type/cubedimension-data-type-assl.md)|  
-|[MeasureGroup](objects/measuregroup-element-assl.md)|[MeasureGroupDimension](data-type/measuregroupdimension-data-type-assl.md)|  
-|[Perspective](objects/perspective-element-assl.md)|[PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|  
+|[Database](../objects/database-element-assl.md)|[Dimension](data-type/dimension-data-type-assl.md)|  
+|[Aggregation](../objects/aggregation-element-assl.md)|[AggregationDimension](data-type/aggregationdimension-data-type-assl.md)|  
+|[AggregationDesign](../objects/aggregationdesign-element-assl.md)|[AggregationDesignDimension](data-type/aggregationdesigndimension-data-type-assl.md)|  
+|[AggregationInstance](../objects/aggregationinstance-element-assl.md)|[AggregationInstanceCubeDimension](data-type/aggregationinstancecubedimension-data-type-assl.md)|  
+|[Cube](../objects/cube-element-assl.md)|[CubeDimension](data-type/cubedimension-data-type-assl.md)|  
+|[MeasureGroup](../objects/measuregroup-element-assl.md)|[MeasureGroupDimension](data-type/measuregroupdimension-data-type-assl.md)|  
+|[Perspective](../objects/perspective-element-assl.md)|[PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Dimensions](collections/dimensions-element-assl.md)|  
+|Parent elements|[Dimensions](../collections/dimensions-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Dimension>, <xref:Microsoft.AnalysisServices.AggregationDimension>, <xref:Microsoft.AnalysisServices.AggregationDesignDimension>, <xref:Microsoft.AnalysisServices.CubeDimension>, <xref:Microsoft.AnalysisServices.MeasureGroupDimension>, and <xref:Microsoft.AnalysisServices.PerspectiveDimension>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

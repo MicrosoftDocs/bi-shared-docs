@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DisplayFlag Element (ASSL)
 
-  Contains a read-only hint that indicates whether user interface components should display the associated [ServerProperty](objects/serverproperty-element-assl.md) element.  
+  Contains a read-only hint that indicates whether user interface components should display the associated [ServerProperty](../objects/serverproperty-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ServerProperty](objects/serverproperty-element-assl.md)|  
+|Parent elements|[ServerProperty](../objects/serverproperty-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -45,7 +45,7 @@ manager: kfile
   
 ## See Also  
  [ServerProperties Element &#40;ASSL&#41;](collections/serverproperties-element-assl.md)   
- [Server Element &#40;ASSL&#41;](objects/server-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Server Element &#40;ASSL&#41;](../objects/server-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

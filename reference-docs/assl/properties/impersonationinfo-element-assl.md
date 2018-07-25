@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[ImpersonationInfo](data-type/impersonationinfo-data-type-assl.md)|  
+|Data type and length|[ImpersonationInfo](../data-type/impersonationinfo-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-1: Optional element that can occur once and only once.|  
   
@@ -37,12 +37,12 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Assembly](data-type/assembly-data-type-assl.md), [DataSource](data-type/datasource-data-type-assl.md)|  
+|Parent elements|[Assembly](../data-type/assembly-data-type-assl.md), [DataSource](../data-type/datasource-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

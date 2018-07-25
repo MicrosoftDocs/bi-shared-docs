@@ -1,6 +1,6 @@
 ---
 title: "MeasureGroupHierarchy Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -37,9 +37,9 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|[Annotations](collections/annotations-element-assl.md), [HierarchyID](properties/hierarchyid-element-assl.md)|  
-|Derived elements|[Hierarchy](objects/hierarchy-element-assl.md) ([Hierarchies](collections/hierarchies-element-assl.md) collection of [RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md))|  
+|Derived elements|[Hierarchy](objects/hierarchy-element-assl.md) ([Hierarchies](collections/hierarchies-element-assl.md) collection of [RegularMeasureGroupDimension](regularmeasuregroupdimension-data-type-assl.md))|  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

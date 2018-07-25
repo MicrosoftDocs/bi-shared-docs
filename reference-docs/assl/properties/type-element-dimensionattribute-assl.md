@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
+|Parent element|[DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -283,7 +283,7 @@ manager: kfile
   
 ## See Also  
  [Attributes Element &#40;ASSL&#41;](collections/attributes-element-assl.md)   
- [Dimension Element &#40;ASSL&#41;](objects/dimension-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Dimension Element &#40;ASSL&#41;](../objects/dimension-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

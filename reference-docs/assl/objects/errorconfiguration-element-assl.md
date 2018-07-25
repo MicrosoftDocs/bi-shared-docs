@@ -1,6 +1,6 @@
 ---
 title: "ErrorConfiguration Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -46,13 +46,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Cube](objects/cube-element-assl.md), [Dimension](objects/dimension-element-assl.md), [MeasureGroup](objects/measuregroup-element-assl.md), [MiningStructure](objects/miningstructure-element-assl.md), [Partition](objects/partition-element-assl.md)|  
-|Child elements|[KeyDuplicate](properties/keyduplicate-element-assl.md), [KeyErrorAction](properties/keyerroraction-element-assl.md), [KeyErrorLimit](properties/keyerrorlimit-element-assl.md), [KeyErrorLimitAction](properties/keyerrorlimitaction-element-assl.md), [KeyErrorLogFile](properties/keyerrorlogfile-element-assl.md), [KeyNotFound](properties/keynotfound-element-assl.md), [NullKeyConvertedToUnknown](properties/nullkeyconvertedtounknown-element-assl.md), [NullKeyNotAllowed](properties/nullkeynotallowed-element-assl.md)|  
+|Parent elements|[Cube](../objects/cube-element-assl.md), [Dimension](../objects/dimension-element-assl.md), [MeasureGroup](../objects/measuregroup-element-assl.md), [MiningStructure](../objects/miningstructure-element-assl.md), [Partition](../objects/partition-element-assl.md)|  
+|Child elements|[KeyDuplicate](../properties/keyduplicate-element-assl.md), [KeyErrorAction](../properties/keyerroraction-element-assl.md), [KeyErrorLimit](../properties/keyerrorlimit-element-assl.md), [KeyErrorLimitAction](../properties/keyerrorlimitaction-element-assl.md), [KeyErrorLogFile](../properties/keyerrorlogfile-element-assl.md), [KeyNotFound](../properties/keynotfound-element-assl.md), [NullKeyConvertedToUnknown](../properties/nullkeyconvertedtounknown-element-assl.md), [NullKeyNotAllowed](../properties/nullkeynotallowed-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ErrorConfiguration>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

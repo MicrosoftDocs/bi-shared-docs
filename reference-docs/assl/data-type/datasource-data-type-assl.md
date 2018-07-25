@@ -1,6 +1,6 @@
 ---
 title: "DataSource Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -41,7 +41,7 @@ manager: kfile
 |Characteristic|Description|  
 |--------------------|-----------------|  
 |Base data types|None|  
-|Derived data types|[RelationalDataSource](data-type/relationaldatasource-data-type-assl.md), [OlapDataSource](data-type/olapdatasource-data-type-assl.md), [PushedDataSource](data-type/pusheddatasource-data-type-assl.md)|  
+|Derived data types|[RelationalDataSource](relationaldatasource-data-type-assl.md), [OlapDataSource](olapdatasource-data-type-assl.md), [PushedDataSource](pusheddatasource-data-type-assl.md)|  
   
 ## Data Type Relationships  
   
@@ -59,6 +59,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataSource>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

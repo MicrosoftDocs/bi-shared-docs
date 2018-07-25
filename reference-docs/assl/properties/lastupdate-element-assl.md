@@ -12,7 +12,7 @@ manager: kfile
 ---
 # LastUpdate Element (ASSL)
 
-  Contains a read-only timestamp that indicates the last time that the associated [Database](objects/database-element-assl.md) or any of the major objects that the database contains were altered.  
+  Contains a read-only timestamp that indicates the last time that the associated [Database](../objects/database-element-assl.md) or any of the major objects that the database contains were altered.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Database](objects/database-element-assl.md)|  
+|Parent element|[Database](../objects/database-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **LastUpdate** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Dimension>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

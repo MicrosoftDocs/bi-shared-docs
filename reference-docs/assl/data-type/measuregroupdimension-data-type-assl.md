@@ -1,6 +1,6 @@
 ---
 title: "MeasureGroupDimension Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -30,7 +30,7 @@ manager: kfile
 |Characteristic|Description|  
 |--------------------|-----------------|  
 |Base data types|None|  
-|Derived data types|[DataMiningMeasureGroupDimension](data-type/dataminingmeasuregroupdimension-data-type-assl.md), [DegenerateMeasureGroupDimension](data-type/degeneratemeasuregroupdimension-data-type-assl.md), [ManyToManyMeasureGroupDimension](data-type/manytomanymeasuregroupdimension-data-type-assl.md), [ReferenceMeasureGroupDimension](data-type/referencemeasuregroupdimension-data-type-assl.md), [RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md)|  
+|Derived data types|[DataMiningMeasureGroupDimension](dataminingmeasuregroupdimension-data-type-assl.md), [DegenerateMeasureGroupDimension](degeneratemeasuregroupdimension-data-type-assl.md), [ManyToManyMeasureGroupDimension](manytomanymeasuregroupdimension-data-type-assl.md), [ReferenceMeasureGroupDimension](referencemeasuregroupdimension-data-type-assl.md), [RegularMeasureGroupDimension](regularmeasuregroupdimension-data-type-assl.md)|  
   
 ## Data Type Relationships  
   
@@ -47,13 +47,13 @@ manager: kfile
   
  If no attribute is provided, it is as if only the key attribute for the dimension were listed (defining the lowest level of granularity). Each partition of a measure group must have the same granularity. The set of attributes listed should not be redundant with respect to the relationships between attributes. For example, if Month implies Year, the granularity is defined as Month, not Month and Year.  
   
- A **MeasureGroupDimension** needs to include a hierarchy only if it has something specific to indicate about it. (There is no way to select which hierarchies apply to a particular measure group). Similarly, it needs to include a [MeasureGroupAttribute](data-type/measuregroupattribute-data-type-assl.md) only if it has something specific to indicate about it.  
+ A **MeasureGroupDimension** needs to include a hierarchy only if it has something specific to indicate about it. (There is no way to select which hierarchies apply to a particular measure group). Similarly, it needs to include a [MeasureGroupAttribute](measuregroupattribute-data-type-assl.md) only if it has something specific to indicate about it.  
   
- Each hierarchy must be a subset of the hierarchies included on the [CubeDimension](data-type/cubedimension-data-type-assl.md). It is not possible to select the levels, though some levels might automatically be disabled depending upon the granularity of the measure group.  
+ Each hierarchy must be a subset of the hierarchies included on the [CubeDimension](cubedimension-data-type-assl.md). It is not possible to select the levels, though some levels might automatically be disabled depending upon the granularity of the measure group.  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MeasureGroupDimension>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

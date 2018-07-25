@@ -1,6 +1,6 @@
 ---
 title: "RelationshipEnd Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -39,14 +39,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Relationship](data-type/relationship-data-type-assl.md)|  
-|Child elements|[Role](../../../analysis-services/xmla/xml-elements-properties/role-element-xmla.md), [Multiplicity](properties/multiplicity-element-assl.md), [DimensionID](properties/dimensionid-element-assl.md), [Attributes](collections/attributes-element-assl.md), [Translations](collections/translations-element-assl.md), [VisualizationProperties](data-type/relationshipendvisualizationproperties-data-type-assl.md)|  
+|Parent elements|[Relationship](relationship-data-type-assl.md)|  
+|Child elements|[Role](../../../analysis-services/xmla/xml-elements-properties/role-element-xmla.md), [Multiplicity](properties/multiplicity-element-assl.md), [DimensionID](properties/dimensionid-element-assl.md), [Attributes](collections/attributes-element-assl.md), [Translations](collections/translations-element-assl.md), [VisualizationProperties](relationshipendvisualizationproperties-data-type-assl.md)|  
 |Derived elements||  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.RelationshipEnd>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

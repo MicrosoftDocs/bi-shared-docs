@@ -35,14 +35,14 @@ manager: kfile
   
 |Ancestor or Parent|Cardinality|  
 |------------------------|-----------------|  
-|[Translation](objects/translation-element-assl.md)|1-1: Required element that occurs once and only once.|  
+|[Translation](../objects/translation-element-assl.md)|1-1: Required element that occurs once and only once.|  
 |All others|0-1: Optional element that can occur once and only once.|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Cube](objects/cube-element-assl.md), [Database](objects/database-element-assl.md), [Dimension](objects/dimension-element-assl.md), [MiningModel](objects/miningmodel-element-assl.md), [MiningStructure](objects/miningstructure-element-assl.md), [Translation](objects/translation-element-assl.md)|  
+|Parent elements|[Cube](../objects/cube-element-assl.md), [Database](../objects/database-element-assl.md), [Dimension](../objects/dimension-element-assl.md), [MiningModel](../objects/miningmodel-element-assl.md), [MiningStructure](../objects/miningstructure-element-assl.md), [Translation](../objects/translation-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,6 +51,6 @@ manager: kfile
  The elements that correspond to the parents of the **Language** element in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Cube>, <xref:Microsoft.AnalysisServices.Database>, <xref:Microsoft.AnalysisServices.Dimension>, <xref:Microsoft.AnalysisServices.MiningModel>, <xref:Microsoft.AnalysisServices.MiningStructure>, and <xref:Microsoft.AnalysisServices.Translation>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

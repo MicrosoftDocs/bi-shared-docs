@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AggregationInstanceSource Element (ASSL)
 
-  Identifies the source of data for user-defined aggregation instances bound to a [Partition](objects/partition-element-assl.md) element.  
+  Identifies the source of data for user-defined aggregation instances bound to a [Partition](../objects/partition-element-assl.md) element.  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[DataSourceViewBinding](data-type/datasourceviewbinding-data-type-assl.md)|  
+|Data type and length|[DataSourceViewBinding](../data-type/datasourceviewbinding-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-1: Optional element that can occur once and only once.|  
   
@@ -37,17 +37,17 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Partition](objects/partition-element-assl.md)|  
+|Parent elements|[Partition](../objects/partition-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  If this element is missing or set to a blank string, the data source view of the cube that owns the partition is used by default.  
   
- For additional information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](data-type/binding-data-type-assl.md).  
+ For additional information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](../data-type/binding-data-type-assl.md).  
   
  For an overview of data bindings in ASSL, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

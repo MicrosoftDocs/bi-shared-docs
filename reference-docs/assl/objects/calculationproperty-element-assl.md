@@ -1,6 +1,6 @@
 ---
 title: "CalculationProperty Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CalculationProperty Element (ASSL)
 
-  Contains a collection of user interface properties for a calculation used in an [MdxScript](objects/mdxscript-element-assl.md) element.  
+  Contains a collection of user interface properties for a calculation used in an [MdxScript](../objects/mdxscript-element-assl.md) element.  
   
 ## Syntax  
   
@@ -51,13 +51,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CalculationProperties](collections/calculationproperties-element-assl.md)|  
-|Child elements|[AssociatedMeasureGroupID](properties/associatedmeasuregroupid-element-assl.md), [BackColor](properties/backcolor-element-assl.md), [CalculationReference](properties/calculationreference-element-assl.md), [CalculationType](properties/calculationtype-element-assl.md), [Description](properties/description-element-assl.md), [DisplayFolder](properties/displayfolder-element-assl.md), [FontFlags](properties/fontflags-element-assl.md), [FontName](properties/fontname-element-assl.md), [FontSize](properties/fontsize-element-assl.md), [ForeColor](properties/forecolor-element-assl.md), [FormatString](properties/formatstring-element-assl.md), [NonEmptyBehavior](properties/nonemptybehavior-element-assl.md), [SolveOrder](properties/solveorder-element-assl.md), [Translations](collections/translations-element-assl.md), [Visible](properties/visible-element-assl.md)|  
+|Parent elements|[CalculationProperties](../collections/calculationproperties-element-assl.md)|  
+|Child elements|[AssociatedMeasureGroupID](../properties/associatedmeasuregroupid-element-assl.md), [BackColor](../properties/backcolor-element-assl.md), [CalculationReference](../properties/calculationreference-element-assl.md), [CalculationType](../properties/calculationtype-element-assl.md), [Description](../properties/description-element-assl.md), [DisplayFolder](../properties/displayfolder-element-assl.md), [FontFlags](../properties/fontflags-element-assl.md), [FontName](../properties/fontname-element-assl.md), [FontSize](../properties/fontsize-element-assl.md), [ForeColor](../properties/forecolor-element-assl.md), [FormatString](../properties/formatstring-element-assl.md), [NonEmptyBehavior](../properties/nonemptybehavior-element-assl.md), [SolveOrder](../properties/solveorder-element-assl.md), [Translations](../collections/translations-element-assl.md), [Visible](../properties/visible-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CalculationProperty>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

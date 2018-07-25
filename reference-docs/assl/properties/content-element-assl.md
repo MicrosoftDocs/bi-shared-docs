@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Content Element (ASSL)
 
-  Describes the content of the column in the [MiningStructure](objects/miningstructure-element-assl.md) element.  
+  Describes the content of the column in the [MiningStructure](../objects/miningstructure-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md)|  
+|Parent element|[ScalarMiningStructureColumn](../data-type/scalarminingstructurecolumn-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -73,6 +73,6 @@ manager: kfile
   
 ## See Also  
  [ClassifiedColumns Element &#40;ASSL&#41;](collections/classifiedcolumns-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

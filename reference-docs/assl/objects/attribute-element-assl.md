@@ -1,6 +1,6 @@
 ---
 title: "Attribute Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -53,22 +53,22 @@ manager: kfile
 |[AggregationDimension](data-type/aggregationdimension-data-type-assl.md)|[AggregationAttribute](data-type/aggregationattribute-data-type-assl.md)|  
 |[AggregationInstanceCubeDimension](data-type/aggregationinstancecubedimension-data-type-assl.md)|[AggregationInstanceAttribute](data-type/aggregationinstanceattribute-data-type-assl.md)|  
 |[CubeDimension](data-type/cubedimension-data-type-assl.md)|[CubeAttribute](data-type/cubeattribute-data-type-assl.md)|  
-|[Dimension](objects/dimension-element-assl.md)|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
+|[Dimension](../objects/dimension-element-assl.md)|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
 |[RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md)|[MeasureGroupAttribute](data-type/measuregroupattribute-data-type-assl.md)|  
 |[PerspectiveDimension](data-type/perspectivedimension-data-type-assl.md)|[PerspectiveAttribute](data-type/perspectiveattribute-data-type-assl.md)|  
-|[RelationshipEnd](data-type/relationshipend-data-type-assl.md)|\<Attribute><br />      \<[AttributeID](properties/attributeid-element-assl.md)>...\</AttributeID>\</Attribute>|  
+|[RelationshipEnd](data-type/relationshipend-data-type-assl.md)|\<Attribute><br />      \<[AttributeID](../properties/attributeid-element-assl.md)>...\</AttributeID>\</Attribute>|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Attributes](collections/attributes-element-assl.md)|  
+|Parent elements|[Attributes](../collections/attributes-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AggregationDesignAttribute>, <xref:Microsoft.AnalysisServices.AggregationAttribute>, <xref:Microsoft.AnalysisServices.CubeAttribute>, <xref:Microsoft.AnalysisServices.DimensionAttribute>, <xref:Microsoft.AnalysisServices.MeasureGroupAttribute>, and <xref:Microsoft.AnalysisServices.PerspectiveAttribute>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "Calculation Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Calculation Element (ASSL)
 
-  Asssociates a calculation with a [Perspective](objects/perspective-element-assl.md) element.  
+  Asssociates a calculation with a [Perspective](../objects/perspective-element-assl.md) element.  
   
 ## Syntax  
   
@@ -36,13 +36,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Calculations](collections/calculations-element-assl.md)|  
+|Parent elements|[Calculations](../collections/calculations-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding elements in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CalculationType> and <xref:Microsoft.AnalysisServices.PerspectiveCalculationType>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

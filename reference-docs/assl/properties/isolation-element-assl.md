@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Isolation Element (ASSL)
 
-  Indicates the isolation level for an element that is derived from the [DataSource](data-type/datasource-data-type-assl.md) data type.  
+  Indicates the isolation level for an element that is derived from the [DataSource](../data-type/datasource-data-type-assl.md) data type.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DataSource](data-type/datasource-data-type-assl.md)|  
+|Parent element|[DataSource](../data-type/datasource-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -49,6 +49,6 @@ manager: kfile
 |*Snapshot*|Specifies that the data that is read by any statement in a transaction will be the transactionally consistent version of the data that existed at the start of the transaction. The transaction can only see data modifications that were committed before the start of the transaction. Data modifications that are made by other transactions after the start of the current transaction are not visible to statements that are executing in the current transaction. The effect is as if the statements in a transaction get a snapshot of the committed data as it existed at the start of the transaction.|  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

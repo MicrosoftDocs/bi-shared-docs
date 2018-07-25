@@ -1,6 +1,6 @@
 ---
 title: "ProactiveCaching Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -46,13 +46,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Cube](objects/cube-element-assl.md), [Dimension](objects/dimension-element-assl.md), [MeasureGroup](objects/measuregroup-element-assl.md), [Partition](objects/partition-element-assl.md)|  
-|Child elements|[AggregationStorage](properties/aggregationstorage-element-assl.md), [Enabled](properties/enabled-element-assl.md), [ForceRebuildInterval](properties/forcerebuildinterval-element-assl.md), [Latency](properties/latency-element-assl.md), [OnlineMode](properties/onlinemode-element-assl.md), [SilenceInterval](properties/silenceinterval-element-assl.md), [SilenceOverrideInterval](properties/silenceoverrideinterval-element-assl.md), [Source](properties/source-element-binding-assl.md)|  
+|Parent elements|[Cube](../objects/cube-element-assl.md), [Dimension](../objects/dimension-element-assl.md), [MeasureGroup](../objects/measuregroup-element-assl.md), [Partition](../objects/partition-element-assl.md)|  
+|Child elements|[AggregationStorage](../properties/aggregationstorage-element-assl.md), [Enabled](../properties/enabled-element-assl.md), [ForceRebuildInterval](../properties/forcerebuildinterval-element-assl.md), [Latency](../properties/latency-element-assl.md), [OnlineMode](../properties/onlinemode-element-assl.md), [SilenceInterval](../properties/silenceinterval-element-assl.md), [SilenceOverrideInterval](../properties/silenceoverrideinterval-element-assl.md), [Source](../properties/source-element-binding-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ProactiveCaching>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

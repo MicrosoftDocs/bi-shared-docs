@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Read Element (ASSL)
 
-  Determines whether data or metadata can be read for a given [CubeDimensionPermission](data-type/cubedimensionpermission-data-type-assl.md) or [Permission](data-type/permission-data-type-assl.md) element.  
+  Determines whether data or metadata can be read for a given [CubeDimensionPermission](../data-type/cubedimensionpermission-data-type-assl.md) or [Permission](../data-type/permission-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CubeDimensionPermission](objects/cubepermission-element-assl.md), [Permission](data-type/permission-data-type-assl.md)|  
+|Parent elements|[CubeDimensionPermission](../objects/cubepermission-element-assl.md), [Permission](../data-type/permission-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,10 +52,10 @@ manager: kfile
  The elements that correspond to the parents of **Read** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CubeDimensionPermission> and <xref:Microsoft.AnalysisServices.Permission>.  
   
 ## See Also  
- [Cube Element &#40;ASSL&#41;](objects/cube-element-assl.md)   
- [Dimension Element &#40;ASSL&#41;](objects/dimension-element-assl.md)   
- [CubePermission Element &#40;ASSL&#41;](objects/cubepermission-element-assl.md)   
- [Permission Data Type &#40;ASSL&#41;](data-type/permission-data-type-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Cube Element &#40;ASSL&#41;](../objects/cube-element-assl.md)   
+ [Dimension Element &#40;ASSL&#41;](../objects/dimension-element-assl.md)   
+ [CubePermission Element &#40;ASSL&#41;](../objects/cubepermission-element-assl.md)   
+ [Permission Data Type &#40;ASSL&#41;](../data-type/permission-data-type-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

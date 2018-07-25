@@ -1,6 +1,6 @@
 ---
 title: "DataSourceView Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSourceView Element (ASSL)
 
-  Defines a data source view used by a Analysis Services [Database](objects/database-element-assl.md) element.  
+  Defines a data source view used by a Analysis Services [Database](../objects/database-element-assl.md) element.  
   
 ## Syntax  
   
@@ -44,14 +44,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DataSourceViews](collections/datasourceviews-element-assl.md)|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [CreatedTimestamp](properties/createdtimestamp-element-assl.md), [DataSourceID](properties/datasourceid-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [LastSchemaUpdate](properties/lastschemaupdate-element-assl.md), [Name](properties/name-element-assl.md), [Schema](properties/schema-element-assl.md)|  
+|Parent elements|[DataSourceViews](../collections/datasourceviews-element-assl.md)|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [CreatedTimestamp](../properties/createdtimestamp-element-assl.md), [DataSourceID](../properties/datasourceid-element-assl.md), [Description](../properties/description-element-assl.md), [ID](../properties/id-element-assl.md), [LastSchemaUpdate](../properties/lastschemaupdate-element-assl.md), [Name](../properties/name-element-assl.md), [Schema](../properties/schema-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataSourceView>.  
   
 ## See Also  
- [Database Element &#40;ASSL&#41;](objects/database-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Database Element &#40;ASSL&#41;](../objects/database-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

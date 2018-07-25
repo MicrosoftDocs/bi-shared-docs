@@ -1,6 +1,6 @@
 ---
 title: "Annotation Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -39,8 +39,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Annotations](collections/annotations-element-assl.md)|  
-|Child elements|[Name](properties/name-element-assl.md), [Value](properties/value-element-assl.md), [Visibility](properties/visibility-element-assl.md)|  
+|Parent elements|[Annotations](../collections/annotations-element-assl.md)|  
+|Child elements|[Name](../properties/name-element-assl.md), [Value](../properties/value-element-assl.md), [Visibility](../properties/visibility-element-assl.md)|  
   
 ## Remarks  
  The **Annotation** element provides extensibility of the ASSL schema for all objects other than those used solely to define a complex data type. The **Value** element of the **Annotation** element can contain valid XML from any XML namespace other than ASSL, subject to the following rules:  
@@ -56,6 +56,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Annotation>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

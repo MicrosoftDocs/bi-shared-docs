@@ -1,6 +1,6 @@
 ---
 title: "Permission Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -38,7 +38,7 @@ manager: kfile
 |Characteristic|Description|  
 |--------------------|-----------------|  
 |Base data types|None|  
-|Derived data types|[CubePermission](objects/cubepermission-element-assl.md), [DatabasePermission](objects/databasepermission-element-assl.md), [DimensionPermission](data-type/dimensionpermission-data-type-assl.md), [MiningModelPermission](objects/miningmodelpermission-element-assl.md), [MiningStructurePermission](objects/miningstructurepermission-element-assl.md)|  
+|Derived data types|[CubePermission](objects/cubepermission-element-assl.md), [DatabasePermission](objects/databasepermission-element-assl.md), [DimensionPermission](dimensionpermission-data-type-assl.md), [MiningModelPermission](objects/miningmodelpermission-element-assl.md), [MiningStructurePermission](objects/miningstructurepermission-element-assl.md)|  
   
 ## Data Type Relationships  
   
@@ -65,6 +65,6 @@ manager: kfile
   
 ## See Also  
  [Role Element &#40;ASSL&#41;](objects/role-element-assl.md)   
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

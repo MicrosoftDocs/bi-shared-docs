@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DataItem](data-type/dataitem-data-type-assl.md)|  
+|Parent element|[DataItem](../data-type/dataitem-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -55,6 +55,6 @@ manager: kfile
  The element that corresponds to the parent of **Trimming** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataItem>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

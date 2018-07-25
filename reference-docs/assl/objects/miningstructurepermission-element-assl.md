@@ -1,6 +1,6 @@
 ---
 title: "MiningStructurePermission Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MiningStructurePermission Element (ASSL)
 
-  Defines the permissions that members of a [Role](objects/role-element-assl.md) element have on an individual [MiningStructure](objects/miningstructure-element-assl.md) element.  
+  Defines the permissions that members of a [Role](../objects/role-element-assl.md) element have on an individual [MiningStructure](../objects/miningstructure-element-assl.md) element.  
   
 ## Syntax  
   
@@ -39,13 +39,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningStructurePermissions](collections/miningstructurepermissions-element-assl.md)|  
+|Parent elements|[MiningStructurePermissions](../collections/miningstructurepermissions-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningStructurePermission>.  
   
- In [!INCLUDE[ssCurrent](../../../includes/sscurrent-md.md)], the permission **AllowDrillthrough** has been extended to apply to a mining structure. When you assign this permission to a role, any user who is a member of that role can directly query the mining structure by using the following syntax:  
+ In SQL Server, the permission **AllowDrillthrough** has been extended to apply to a mining structure. When you assign this permission to a role, any user who is a member of that role can directly query the mining structure by using the following syntax:  
   
 ```  
 SELECT <structure column list> FROM <structure>.CASES  
@@ -66,6 +66,6 @@ SELECT StructureColumn('<structure column name>' FROM <model>.CASES
 ## See Also  
  <xref:Microsoft.AnalysisServices.MiningModel.AllowDrillThrough%2A>   
  <xref:Microsoft.AnalysisServices.AdomdClient.MiningModel.AllowDrillThrough%2A>   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

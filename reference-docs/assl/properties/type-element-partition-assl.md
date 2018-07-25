@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Type Element (Partition) (ASSL)
 
-  Contains the type of the [Partition](objects/partition-element-assl.md) element.  
+  Contains the type of the [Partition](../objects/partition-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Partition](objects/partition-element-assl.md)|  
+|Parent element|[Partition](../objects/partition-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -53,6 +53,6 @@ manager: kfile
  The element that corresponds to the parent of **Type** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Partition>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ConnectionString Element (ASSL)
 
-  Contains the encrypted connection string for a [DataSource](objects/datasource-element-assl.md) element.  
+  Contains the encrypted connection string for a [DataSource](../objects/datasource-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DataSource](objects/datasource-element-assl.md)|  
+|Parent element|[DataSource](../objects/datasource-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **ConnectionString** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataSource>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

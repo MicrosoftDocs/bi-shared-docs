@@ -1,6 +1,6 @@
 ---
 title: "SkippedLevelsColumn Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -45,15 +45,15 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- The **SkippedLevelsColumn** element is applicable only to parent attributes (in other words, the value of the [Usage](properties/usage-element-dimensionattribute-assl.md) element for the **DimensionAttribute** parent is set to *Parent*). The **SkippedLevelsColumn** element contains the column or attribute for the parent attribute that stores the number of skipped levels between each member and its parent member. This allows parent-child hierarchies that are based on the parent attribute to skip levels between members. The values contained in this column or attribute must be nonnegative integers; otherwise, a processing error occurs. If the **SkippedLevelsColumn** element is not specified or contains no value, the current member has a level depth one below its parent member.  
+ The **SkippedLevelsColumn** element is applicable only to parent attributes (in other words, the value of the [Usage](../properties/usage-element-dimensionattribute-assl.md) element for the **DimensionAttribute** parent is set to *Parent*). The **SkippedLevelsColumn** element contains the column or attribute for the parent attribute that stores the number of skipped levels between each member and its parent member. This allows parent-child hierarchies that are based on the parent attribute to skip levels between members. The values contained in this column or attribute must be nonnegative integers; otherwise, a processing error occurs. If the **SkippedLevelsColumn** element is not specified or contains no value, the current member has a level depth one below its parent member.  
   
  For more information about the **DataItem** type, including a table of Analysis Services Scripting Language (ASSL) objects and properties of the **DataItem** table, see [DataItem Data Type &#40;ASSL&#41;](data-type/dataitem-data-type-assl.md).  
   
  The element that corresponds to the parent of **SkippedLevelsColumn** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DimensionAttribute>.  
   
 ## See Also  
- [Attributes Element &#40;ASSL&#41;](collections/attributes-element-assl.md)   
- [Dimension Element &#40;ASSL&#41;](objects/dimension-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Attributes Element &#40;ASSL&#41;](../collections/attributes-element-assl.md)   
+ [Dimension Element &#40;ASSL&#41;](../objects/dimension-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

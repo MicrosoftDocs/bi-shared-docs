@@ -12,7 +12,7 @@ manager: kfile
 ---
 # NamingTemplate Element (ASSL)
 
-  Defines how levels are named in a parent-child hierarchy constructed from the [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md) parent element.  
+  Defines how levels are named in a parent-child hierarchy constructed from the [DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md) parent element.  
   
 ## Syntax  
   
@@ -37,11 +37,11 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DimensionAttribute](data-type/dimensionattribute-data-type-assl.md)|  
+|Parent element|[DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- The value of the **NamingTemplate** element is used only by parent attributes (in other words, the value of the [Usage](properties/usage-element-dimensionattribute-assl.md) element of the **DimensionAttribute** parent element is set to *Parent*).  
+ The value of the **NamingTemplate** element is used only by parent attributes (in other words, the value of the [Usage](usage-element-dimensionattribute-assl.md) element of the **DimensionAttribute** parent element is set to *Parent*).  
   
  When a parent attribute is used to construct a hierarchy, the levels of the hierarchy are determined by the parent-child relationships between members contained by the parent attribute. Therefore, unlike other dimensions, the level names cannot be drawn from the attribute names used for the hierarchy.  
   
@@ -59,7 +59,7 @@ manager: kfile
   
 ## See Also  
  [NamingTemplateTranslations Element &#40;ASSL&#41;](collections/namingtemplatetranslations-element-assl.md)   
- [DimensionAttribute Data Type &#40;ASSL&#41;](data-type/dimensionattribute-data-type-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [DimensionAttribute Data Type &#40;ASSL&#41;](../data-type/dimensionattribute-data-type-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

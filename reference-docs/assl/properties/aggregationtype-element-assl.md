@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AggregationType Element (ASSL)
 
-  Defines the type of aggregation stored by the [Partition](objects/partition-element-assl.md) element.  
+  Defines the type of aggregation stored by the [Partition](../objects/partition-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[AggregationInstance](objects/aggregationinstance-element-assl.md)|  
+|Parent element|[AggregationInstance](../objects/aggregationinstance-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,6 +52,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **AggregationType** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationInstance>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

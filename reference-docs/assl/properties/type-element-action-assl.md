@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Type Element (Action) (ASSL)
 
-  Contains the type of the [Action](objects/action-element-assl.md) element.  
+  Contains the type of the [Action](../objects/action-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Action](objects/action-element-assl.md)|  
+|Parent element|[Action](../objects/action-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -48,7 +48,7 @@ manager: kfile
 |*Url*|Displays a variable page in an Internet browser.|  
 |*Html*|Executes an HTML script in an Internet browser.|  
 |*Statement*|Executes an OLE DB command.|  
-|*DrillThrough*|Retrieves a rowset for drillthrough.<br /><br /> This value is identical to *Rowset* and identifies drillthrough actions. It can only be used on actions whose [TargetType](properties/targettype-element-assl.md) value is set to *Cells*.|  
+|*DrillThrough*|Retrieves a rowset for drillthrough.<br /><br /> This value is identical to *Rowset* and identifies drillthrough actions. It can only be used on actions whose [TargetType](targettype-element-assl.md) value is set to *Cells*.|  
 |*DataSet*|Retrieves a dataset.|  
 |*Rowset*|Retrieves a rowset.|  
 |*CommandLine*|Executes a command at a command prompt.|  
@@ -58,8 +58,8 @@ manager: kfile
  The element that corresponds to the parent of **Type** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Action>.  
   
 ## See Also  
- [DrillThroughAction Data Type &#40;ASSL&#41;](data-type/drillthroughaction-data-type-assl.md)   
- [ReportAction Data Type &#40;ASSL&#41;](data-type/reportaction-data-type-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [DrillThroughAction Data Type &#40;ASSL&#41;](../data-type/drillthroughaction-data-type-assl.md)   
+ [ReportAction Data Type &#40;ASSL&#41;](../data-type/reportaction-data-type-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

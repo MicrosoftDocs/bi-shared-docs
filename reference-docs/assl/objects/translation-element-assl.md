@@ -1,6 +1,6 @@
 ---
 title: "Translation Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Translation Element (ASSL)
 
-  Provides a localized translation for the parent of the [Translations](collections/translations-element-assl.md) collection.  
+  Provides a localized translation for the parent of the [Translations](../collections/translations-element-assl.md) collection.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Translations](collections/translations-element-assl.md)|  
+|Parent elements|[Translations](../collections/translations-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Translation>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

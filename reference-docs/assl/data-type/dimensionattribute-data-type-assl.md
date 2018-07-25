@@ -1,6 +1,6 @@
 ---
 title: "DimensionAttribute Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -74,7 +74,7 @@ manager: kfile
 |Derived elements|[Attribute](objects/attribute-element-assl.md) ([Attributes](collections/attributes-element-assl.md) collection of [Dimension](objects/dimension-element-assl.md))|  
   
 ## Remarks  
- The following restrictions apply when running the service in DeploymentMode configuration property values of 1 and 2 (SharePoint and Tabular modes, used to run [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] and tabular model databases):  
+ The following restrictions apply when running the service in DeploymentMode configuration property values of 1 and 2 (SharePoint and Tabular modes, used to run Power Pivot and tabular model databases):  
   
 -   Usage element only accepts KEY or REGULAR values.  
   
@@ -104,7 +104,7 @@ manager: kfile
   
 -   Bindings cannot be set to ‘Value’.  
   
- The following elements are unsupported when running the service in DeploymentMode configuration property values of 1 and 2 (SharePoint and Tabular modes, used to run [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] and tabular model databases):  
+ The following elements are unsupported when running the service in DeploymentMode configuration property values of 1 and 2 (SharePoint and Tabular modes, used to run Power Pivot and tabular model databases):  
   
 -   AttributeHierarchyOptimizedState  
   
@@ -127,6 +127,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DimensionAttribute>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

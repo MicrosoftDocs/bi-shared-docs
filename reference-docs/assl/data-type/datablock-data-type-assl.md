@@ -1,6 +1,6 @@
 ---
 title: "DataBlock Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataBlock Data Type (ASSL)
 
-  Defines a primitive data type that represents a collection of data blocks used to store the binary contents of a [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) element.  
+  Defines a primitive data type that represents a collection of data blocks used to store the binary contents of a [ClrAssemblyFile](clrassemblyfile-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -36,12 +36,12 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|[Blocks](collections/blocks-element-assl.md)|  
-|Derived elements|[Data](objects/data-element-assl.md) element of [ClrAssemblyFile](data-type/clrassemblyfile-data-type-assl.md) type ([Files](collections/files-element-assl.md) collection of [ClrAssembly](data-type/clrassembly-data-type-assl.md) type)|  
+|Derived elements|[Data](objects/data-element-assl.md) element of [ClrAssemblyFile](clrassemblyfile-data-type-assl.md) type ([Files](collections/files-element-assl.md) collection of [ClrAssembly](clrassembly-data-type-assl.md) type)|  
   
 ## See Also  
  [Assembly Element &#40;ASSL&#41;](objects/assembly-element-assl.md)   
  [File Element &#40;ASSL&#41;](objects/file-element-assl.md)   
  [Block Element &#40;ASSL&#41;](objects/block-element-assl.md)   
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "ProactiveCachingBinding Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -27,8 +27,8 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[Binding](data-type/binding-data-type-assl.md)|  
-|Derived data types|[ProactiveCachingIncrementalProcessingBinding](data-type/proactivecachingincrementalprocessingbinding-data-type-assl.md), [ProactiveCachingObjectNotificationBinding](data-type/proactivecachingobjectnotificationbinding-data-type-assl.md), [ProactiveCachingQueryBinding](data-type/proactivecachingquerybinding-data-type-assl.md)|  
+|Base data types|[Binding](binding-data-type-assl.md)|  
+|Derived data types|[ProactiveCachingIncrementalProcessingBinding](proactivecachingincrementalprocessingbinding-data-type-assl.md), [ProactiveCachingObjectNotificationBinding](proactivecachingobjectnotificationbinding-data-type-assl.md), [ProactiveCachingQueryBinding](proactivecachingquerybinding-data-type-assl.md)|  
   
 ## Data Type Relationships  
   
@@ -39,7 +39,7 @@ manager: kfile
 |Derived elements|None|  
   
 ## Remarks  
- For more information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](data-type/binding-data-type-assl.md).  
+ For more information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](binding-data-type-assl.md).  
   
  For an overview of data bindings in ASSL, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
   
@@ -48,21 +48,21 @@ manager: kfile
 ## Inheritance Hierarchy of ProactiveCachingBinding Types  
  The following hierarchy shows the inheritance of **ProactiveCachingBinding** types.  
   
- [Binding](data-type/binding-data-type-assl.md) element  
+ [Binding](binding-data-type-assl.md) element  
   
  **ProactiveCachingBinding** element  
   
- [ProactiveCachingObjectNotificationBinding](data-type/proactivecachingobjectnotificationbinding-data-type-assl.md) element  
+ [ProactiveCachingObjectNotificationBinding](proactivecachingobjectnotificationbinding-data-type-assl.md) element  
   
- [ProactiveCachingInheritedBinding](data-type/proactivecachinginheritedbinding-data-type-assl.md) element  
+ [ProactiveCachingInheritedBinding](proactivecachinginheritedbinding-data-type-assl.md) element  
   
- [ProactiveCachingTablesBinding](data-type/proactivecachingtablesbinding-data-type-assl.md) element  
+ [ProactiveCachingTablesBinding](proactivecachingtablesbinding-data-type-assl.md) element  
   
- [ProactiveCachingQueryBinding](data-type/proactivecachingquerybinding-data-type-assl.md) element  
+ [ProactiveCachingQueryBinding](proactivecachingquerybinding-data-type-assl.md) element  
   
- [ProactiveCachingIncrementalProcessingBinding](data-type/proactivecachingincrementalprocessingbinding-data-type-assl.md) element  
+ [ProactiveCachingIncrementalProcessingBinding](proactivecachingincrementalprocessingbinding-data-type-assl.md) element  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

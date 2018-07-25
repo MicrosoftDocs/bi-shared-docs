@@ -1,6 +1,6 @@
 ---
 title: "MiningModel Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -53,8 +53,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[MiningModels](collections/miningmodels-element-assl.md)|  
-|Child elements|[Algorithm](properties/algorithm-element-assl.md), [AlgorithmParameters](objects/algorithmparameter-element-assl.md), [AllowDrillThrough](properties/allowdrillthrough-element-assl.md), [Annotations](collections/annotations-element-assl.md), [Collation](properties/collation-element-assl.md), [Columns](collections/columns-element-assl.md), [CreatedTimestamp](properties/createdtimestamp-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [Language](properties/language-element-assl.md), [LastProcessed](properties/lastprocessed-element-assl.md), [LastSchemaUpdate](properties/lastschemaupdate-element-assl.md), [MiningModelPermissions](collections/miningmodelpermissions-element-assl.md), [Name](properties/name-element-assl.md), [State](properties/state-element-assl.md), [Translations](collections/translations-element-assl.md),<br /><br /> [FoldingParameters](properties/foldingparameters-element-assl.md)|  
+|Parent elements|[MiningModels](../collections/miningmodels-element-assl.md)|  
+|Child elements|[Algorithm](../properties/algorithm-element-assl.md), [AlgorithmParameters](../objects/algorithmparameter-element-assl.md), [AllowDrillThrough](../properties/allowdrillthrough-element-assl.md), [Annotations](../collections/annotations-element-assl.md), [Collation](../properties/collation-element-assl.md), [Columns](../collections/columns-element-assl.md), [CreatedTimestamp](../properties/createdtimestamp-element-assl.md), [Description](../properties/description-element-assl.md), [ID](../properties/id-element-assl.md), [Language](../properties/language-element-assl.md), [LastProcessed](../properties/lastprocessed-element-assl.md), [LastSchemaUpdate](../properties/lastschemaupdate-element-assl.md), [MiningModelPermissions](../collections/miningmodelpermissions-element-assl.md), [Name](../properties/name-element-assl.md), [State](../properties/state-element-assl.md), [Translations](../collections/translations-element-assl.md),<br /><br /> [FoldingParameters](../properties/foldingparameters-element-assl.md)|  
   
 ## Remarks  
  The **FoldingParameters** element of the mining model is for internal use by the server, and is not supported for use in DDL statements.  
@@ -62,6 +62,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModel>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

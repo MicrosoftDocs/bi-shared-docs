@@ -1,6 +1,6 @@
 ---
 title: "CubeHierarchy Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -33,7 +33,7 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|[Annotations](collections/annotations-element-assl.md), [Enabled](properties/enabled-element-assl.md), [HierarchyID](properties/hierarchyid-element-assl.md), [Name](properties/name-element-assl.md), [OptimizedState](properties/optimizedstate-element-assl.md), [Visible](properties/visible-element-assl.md)|  
-|Derived elements|[Hierarchy](objects/hierarchy-element-assl.md) ([Hierarchies](collections/hierarchies-element-assl.md) collection of [CubeDimension](data-type/cubedimension-data-type-assl.md))|  
+|Derived elements|[Hierarchy](objects/hierarchy-element-assl.md) ([Hierarchies](collections/hierarchies-element-assl.md) collection of [CubeDimension](cubedimension-data-type-assl.md))|  
   
 ## Remarks  
  This data type has no restrictions and can be used under any deployment mode: 0-Multidimensional and Data Mining, 1-SharePoint, and 2-Tabular.  
@@ -44,6 +44,6 @@ manager: kfile
   
 ## See Also  
  [Discover Method &#40;XMLA&#41;](../../../analysis-services/xmla/xml-elements-methods-discover.md)   
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "AttributeAllMemberTranslation Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -35,14 +35,14 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AttributeAllMemberTranslations](collections/attributeallmembertranslations-element-assl.md)|  
+|Parent elements|[AttributeAllMemberTranslations](../collections/attributeallmembertranslations-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of the **AttributeAllMemberTranslations** collection in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Dimension>.  
   
 ## See Also  
- [Translation Element &#40;ASSL&#41;](objects/translation-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Translation Element &#40;ASSL&#41;](../objects/translation-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

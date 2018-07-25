@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ReportingFirstMonth Element (ASSL)
 
-  Defines the first reporting month for the [TimeBinding](data-type/timebinding-data-type-assl.md) element.  
+  Defines the first reporting month for the [TimeBinding](../data-type/timebinding-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[TimeBinding](data-type/timebinding-data-type-assl.md)|  
+|Parent element|[TimeBinding](../data-type/timebinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **ReportingFirstMonth** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TimeBinding>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "MeasureGroupBinding Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -34,7 +34,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Base data types|[Binding](data-type/binding-data-type-assl.md)|  
+|Base data types|[Binding](binding-data-type-assl.md)|  
 |Derived data types|None|  
   
 ## Data Type Relationships  
@@ -43,16 +43,16 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|[CubeID](properties/cubeid-element-assl.md), [DataSourceID](properties/datasourceid-element-assl.md), [Filter](properties/filter-element-binding-assl.md), [MeasureGroupID](properties/measuregroupid-element-assl.md), [Persistence](properties/persistence-element-assl.md), [RefreshInterval](properties/refreshinterval-element-assl.md), [RefreshPolicy](properties/refreshpolicy-element-assl.md)|  
-|Derived elements|See [Binding](data-type/binding-data-type-assl.md)|  
+|Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  
- For additional information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the Binding type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](data-type/binding-data-type-assl.md).  
+ For additional information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the Binding type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](binding-data-type-assl.md).  
   
  For an overview of data bindings in ASSL, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MeasureGroupBinding>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

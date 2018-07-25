@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DefaultMeasure Element (ASSL)
 
-  Contains a Multidimensional Expressions (MDX) expression that defines the default measure for a [Cube](objects/cube-element-assl.md) or [Perspective](objects/perspective-element-assl.md) element.  
+  Contains a Multidimensional Expressions (MDX) expression that defines the default measure for a [Cube](../objects/cube-element-assl.md) or [Perspective](../objects/perspective-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Cube](objects/cube-element-assl.md), [Perspective](objects/perspective-element-assl.md)|  
+|Parent element|[Cube](../objects/cube-element-assl.md), [Perspective](../objects/perspective-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **DefaultMeasure** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Cube> and <xref:Microsoft.AnalysisServices.Perspective>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -37,10 +37,10 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[PushedDataSource](data-type/pusheddatasource-data-type-assl.md)|  
+|Parent element|[PushedDataSource](../data-type/pusheddatasource-data-type-assl.md)|  
 |Child elements|None|  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

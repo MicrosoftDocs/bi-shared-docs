@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Persistence Element (ASSL)
 
-  Determines which parts of the bound source data are dynamic and are checked for updates using the frequency specified by the [RefreshPolicy](properties/refreshpolicy-element-assl.md) element.  
+  Determines which parts of the bound source data are dynamic and are checked for updates using the frequency specified by the [RefreshPolicy](refreshpolicy-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DimensionBinding](data-type/dimensionbinding-data-type-assl.md), [MeasureGroupBinding](data-type/measuregroupbinding-data-type-assl.md)|  
+|Parent element|[DimensionBinding](../data-type/dimensionbinding-data-type-assl.md), [MeasureGroupBinding](../data-type/measuregroupbinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,6 +52,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **Persistence** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.PersistenceType>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

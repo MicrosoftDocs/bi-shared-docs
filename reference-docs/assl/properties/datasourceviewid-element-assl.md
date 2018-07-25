@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DataSourceViewID Element (ASSL)
 
-  Identifies the [DataSourceView](objects/datasourceview-element-assl.md) element associated with the [Binding](data-type/binding-data-type-assl.md) parent element.  
+  Identifies the [DataSourceView](../objects/datasourceview-element-assl.md) element associated with the [Binding](../data-type/binding-data-type-assl.md) parent element.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[DataSourceViewBinding](data-type/datasourceviewbinding-data-type-assl.md), [DSVTableBinding](data-type/dsvtablebinding-data-type-assl.md)|  
+|Parent element|[DataSourceViewBinding](../data-type/datasourceviewbinding-data-type-assl.md), [DSVTableBinding](../data-type/dsvtablebinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **DataSourceViewID** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.DataSourceViewBinding> and <xref:Microsoft.AnalysisServices.DSVTableBinding>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

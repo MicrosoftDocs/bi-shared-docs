@@ -12,7 +12,7 @@ manager: kfile
 ---
 # FiscalYearName Element (ASSL)
 
-  Defines the naming convention for the name of the fiscal year for a [TimeBinding](data-type/timebinding-data-type-assl.md) element.  
+  Defines the naming convention for the name of the fiscal year for a [TimeBinding](../data-type/timebinding-data-type-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[TimeBinding](data-type/timebinding-data-type-assl.md)|  
+|Parent element|[TimeBinding](../data-type/timebinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,6 +51,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **FiscalYearName** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.FiscalYearName>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

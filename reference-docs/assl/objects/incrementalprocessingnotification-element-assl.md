@@ -1,6 +1,6 @@
 ---
 title: "IncrementalProcessingNotification Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # IncrementalProcessingNotification Element (ASSL)
 
-  Contains information for the [ProactiveCaching](objects/proactivecaching-element-assl.md) element about a query to execute to determine the progress of incremental processing.  
+  Contains information for the [ProactiveCaching](../objects/proactivecaching-element-assl.md) element about a query to execute to determine the progress of incremental processing.  
   
 ## Syntax  
   
@@ -35,7 +35,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[IncrementalProcessingNotifications](collections/incrementalprocessingnotifications-element-assl.md)|  
+|Parent elements|[IncrementalProcessingNotifications](../collections/incrementalprocessingnotifications-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -43,7 +43,7 @@ manager: kfile
   
 ## See Also  
  [ProactiveCachingQueryBinding Data Type &#40;ASSL&#41;](data-type/proactivecachingquerybinding-data-type-assl.md)   
- [ProactiveCaching Element &#40;ASSL&#41;](objects/proactivecaching-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [ProactiveCaching Element &#40;ASSL&#41;](../objects/proactivecaching-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

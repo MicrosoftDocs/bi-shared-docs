@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AggregateFunction Element (ASSL)
 
-  Defines the type of aggregate function used by a [Measure](objects/measure-element-assl.md) element.  
+  Defines the type of aggregate function used by a [Measure](../objects/measure-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Measure](objects/measure-element-assl.md)|  
+|Parent elements|[Measure](../objects/measure-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -61,6 +61,6 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **AggregateFunction** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationFunction>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

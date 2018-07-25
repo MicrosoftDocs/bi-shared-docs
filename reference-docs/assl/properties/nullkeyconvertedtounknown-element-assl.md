@@ -37,11 +37,11 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ErrorConfiguration](objects/errorconfiguration-element-assl.md)|  
+|Parent element|[ErrorConfiguration](../objects/errorconfiguration-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
- Null conversion errors occur when a null value is encountered in a key column and interpreted as the **Unknown** member. However, this error occurs only if the [NullProcessing](properties/nullprocessing-element-assl.md) element for the [DataItem](data-type/dataitem-data-type-assl.md) ancestor of the **ErrorConfiguration** parent element is set to *UnknownMember*.  
+ Null conversion errors occur when a null value is encountered in a key column and interpreted as the **Unknown** member. However, this error occurs only if the [NullProcessing](nullprocessing-element-assl.md) element for the [DataItem](../data-type/dataitem-data-type-assl.md) ancestor of the **ErrorConfiguration** parent element is set to *UnknownMember*.  
   
  The value of this element is limited to one of the strings listed in the following table.  
   
@@ -54,7 +54,7 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **NullKeyConvertedToUnknown** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ErrorOption>.  
   
 ## See Also  
- [ErrorConfiguration Element &#40;ASSL&#41;](objects/errorconfiguration-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [ErrorConfiguration Element &#40;ASSL&#41;](../objects/errorconfiguration-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

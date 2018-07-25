@@ -1,6 +1,6 @@
 ---
 title: "Action Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -40,7 +40,7 @@ manager: kfile
 |Characteristic|Description|  
 |--------------------|-----------------|  
 |Base data types|None|  
-|Derived data types|[DrillThroughAction](data-type/drillthroughaction-data-type-assl.md), [ReportAction](data-type/reportaction-data-type-assl.md), [StandardAction](data-type/standardaction-data-type-assl.md)|  
+|Derived data types|[DrillThroughAction](drillthroughaction-data-type-assl.md), [ReportAction](reportaction-data-type-assl.md), [StandardAction](standardaction-data-type-assl.md)|  
   
 ## Data Type Relationships  
   
@@ -48,7 +48,7 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|[Actions](collections/actions-element-assl.md)|  
 |Child elements|[Annotations](collections/annotations-element-assl.md), [Application](properties/application-element-assl.md), [Caption](properties/caption-element-assl.md), [CaptionIsMdx](properties/captionismdx-element-assl.md), [Condition](properties/condition-element-assl.md), [Description](properties/description-element-assl.md), [ID](properties/id-element-assl.md), [Invocation](properties/invocation-element-assl.md), [Name](properties/name-element-assl.md), [Target](properties/target-element-assl.md), [TargetType](properties/targettype-element-assl.md), [Translations](collections/translations-element-assl.md), [Type](properties/type-element-action-assl.md)|  
-|Derived elements|[DrillThroughAction](data-type/drillthroughaction-data-type-assl.md), [ReportAction](data-type/reportaction-data-type-assl.md), [StandardAction](data-type/standardaction-data-type-assl.md)|  
+|Derived elements|[DrillThroughAction](drillthroughaction-data-type-assl.md), [ReportAction](reportaction-data-type-assl.md), [StandardAction](standardaction-data-type-assl.md)|  
   
 ## Remarks  
 

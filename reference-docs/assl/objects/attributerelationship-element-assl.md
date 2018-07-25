@@ -1,6 +1,6 @@
 ---
 title: "AttributeRelationship Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -45,13 +45,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AttributeRelationships](collections/attributerelationships-element-assl.md)|  
-|Child elements|[Annotations](collections/annotations-element-assl.md), [AttributeID](properties/attributeid-element-assl.md), [Cardinality](properties/cardinality-element-assl.md), [Name](properties/name-element-assl.md), [Optionality](properties/optionality-element-assl.md), [OverrideBehavior](properties/overridebehavior-element-assl.md), [RelationshipType](properties/relationshiptype-element-assl.md), [Translations](collections/translations-element-assl.md), [Visible](properties/visible-element-assl.md)|  
+|Parent elements|[AttributeRelationships](../collections/attributerelationships-element-assl.md)|  
+|Child elements|[Annotations](../collections/annotations-element-assl.md), [AttributeID](../properties/attributeid-element-assl.md), [Cardinality](../properties/cardinality-element-assl.md), [Name](../properties/name-element-assl.md), [Optionality](../properties/optionality-element-assl.md), [OverrideBehavior](../properties/overridebehavior-element-assl.md), [RelationshipType](../properties/relationshiptype-element-assl.md), [Translations](../collections/translations-element-assl.md), [Visible](../properties/visible-element-assl.md)|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributeRelationship>.  
   
 ## See Also  
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

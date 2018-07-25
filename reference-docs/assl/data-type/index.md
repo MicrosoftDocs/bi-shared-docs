@@ -1,3 +1,3 @@
 ---
-redirect_url: /sql/analysis-services/scripting/data-type/action-data-type-assl
+redirect_url: /sql/analysis-services/scripting/action-data-type-assl
 ---

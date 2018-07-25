@@ -1,6 +1,6 @@
 ---
 title: "ForeignKeyColumn Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -35,7 +35,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ForeignKeyColumns](collections/foreignkeycolumns-element-assl.md)|  
+|Parent elements|[ForeignKeyColumns](../collections/foreignkeycolumns-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,7 +46,7 @@ manager: kfile
 ## See Also  
  [TableMiningStructureColumn Data Type &#40;ASSL&#41;](data-type/tableminingstructurecolumn-data-type-assl.md)   
  [MiningStructureColumn Data Type &#40;ASSL&#41;](data-type/miningstructurecolumn-data-type-assl.md)   
- [MiningStructure Element &#40;ASSL&#41;](objects/miningstructure-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [MiningStructure Element &#40;ASSL&#41;](../objects/miningstructure-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

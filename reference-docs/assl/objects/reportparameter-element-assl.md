@@ -1,6 +1,6 @@
 ---
 title: "ReportParameter Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ReportParameter Element - ASSL
 
-  Contains the name and value of a parameter that is passed to a  [!INCLUDE[ssRSnoversion](../../../includes/ssrsnoversion-md.md)] report at run time.  
+  Contains the name and value of a parameter that is passed to a  Reporting Service report at run time.  
   
 ## Syntax  
   
@@ -38,8 +38,8 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ReportParameters](collections/reportparameters-element-assl.md)|  
-|Child elements|[Name](properties/name-element-assl.md), [Value](properties/value-element-assl.md)|  
+|Parent elements|[ReportParameters](../collections/reportparameters-element-assl.md)|  
+|Child elements|[Name](../properties/name-element-assl.md), [Value](../properties/value-element-assl.md)|  
   
 ## Remarks  
  The **Value** element must contain a Multidimensional Expressions (MDX) expression.  
@@ -48,7 +48,7 @@ manager: kfile
   
 ## See Also  
  [ReportAction Data Type &#40;ASSL&#41;](data-type/reportaction-data-type-assl.md)   
- [Action Element &#40;ASSL&#41;](objects/action-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [Action Element &#40;ASSL&#41;](../objects/action-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

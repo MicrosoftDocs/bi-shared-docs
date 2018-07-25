@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[AggregationDesign](objects/aggregationdesign-element-assl.md)|  
+|Parent element|[AggregationDesign](../objects/aggregationdesign-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element corresponding to the parent of **EstimatedPerformanceGain** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationDesign>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

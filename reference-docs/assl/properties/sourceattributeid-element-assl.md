@@ -12,7 +12,7 @@ manager: kfile
 ---
 # SourceAttributeID Element (ASSL)
 
-  Contains the identifier (ID) of the source attribute on which the [Level](objects/level-element-assl.md) element is based.  
+  Contains the identifier (ID) of the source attribute on which the [Level](../objects/level-element-assl.md) element is based.  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Level](objects/level-element-assl.md)|  
+|Parent element|[Level](../objects/level-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element corresponding to the parent of **SourceAttributeID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Level>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

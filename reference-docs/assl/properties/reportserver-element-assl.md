@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ReportServer Element (ASSL)
 
-  Contains the name of the  [!INCLUDE[ssRSnoversion](../../../includes/ssrsnoversion-md.md)] instance that is used by the [ReportAction](data-type/reportaction-data-type-assl.md).  
+  Contains the name of the  Reporting Servicesinstance that is used by the [ReportAction](../data-type/reportaction-data-type-assl.md).  
   
 ## Syntax  
   
@@ -37,13 +37,13 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[ReportAction](data-type/reportaction-data-type-assl.md)|  
+|Parent element|[ReportAction](../data-type/reportaction-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The element that corresponds to the parent of **ReportServer** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ReportAction>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "ModelingFlag Element (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -35,15 +35,15 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[ModelingFlags](collections/modelingflags-element-assl.md)|  
+|Parent elements|[ModelingFlags](../collections/modelingflags-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  A closely related element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModelingFlags>.  
   
 ## See Also  
- [MiningModel Element &#40;ASSL&#41;](objects/miningmodel-element-assl.md)   
- [MiningStructure Element &#40;ASSL&#41;](objects/miningstructure-element-assl.md)   
- [Objects &#40;ASSL&#41;](objects/objects-assl.md)  
+ [MiningModel Element &#40;ASSL&#41;](../objects/miningmodel-element-assl.md)   
+ [MiningStructure Element &#40;ASSL&#41;](../objects/miningstructure-element-assl.md)   
+ [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
   
   

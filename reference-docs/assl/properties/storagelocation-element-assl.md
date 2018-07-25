@@ -35,21 +35,21 @@ manager: kfile
   
 |Ancestor or Parent|Default Value|  
 |------------------------|-------------------|  
-|[Cube](objects/cube-element-assl.md)|None|  
-|[MeasureGroup](objects/measuregroup-element-assl.md)|Value of **StorageLocation** from the **Cube** parent element.|  
-|[Partition](objects/partition-element-assl.md)|Value of **StorageLocation** from the **MeasureGroup** parent element.|  
+|[Cube](../objects/cube-element-assl.md)|None|  
+|[MeasureGroup](../objects/measuregroup-element-assl.md)|Value of **StorageLocation** from the **Cube** parent element.|  
+|[Partition](../objects/partition-element-assl.md)|Value of **StorageLocation** from the **MeasureGroup** parent element.|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Cube](objects/cube-element-assl.md), [MeasureGroup](objects/measuregroup-element-assl.md), [Partition](objects/partition-element-assl.md)|  
+|Parent elements|[Cube](../objects/cube-element-assl.md), [MeasureGroup](../objects/measuregroup-element-assl.md), [Partition](../objects/partition-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
  The elements that correspond to the parents of **StorageLocation** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.Cube>, <xref:Microsoft.AnalysisServices.MeasureGroup>, and <xref:Microsoft.AnalysisServices.Partition>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

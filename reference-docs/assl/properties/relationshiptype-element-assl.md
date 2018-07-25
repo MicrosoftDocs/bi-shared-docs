@@ -12,7 +12,7 @@ manager: kfile
 ---
 # RelationshipType Element (ASSL)
 
-  Indicates whether member relationships for an [AttributeRelationship](objects/attributerelationship-element-assl.md) can be changed.  
+  Indicates whether member relationships for an [AttributeRelationship](../objects/attributerelationship-element-assl.md) can be changed.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[AttributeRelationship](objects/attributerelationship-element-assl.md)|  
+|Parent element|[AttributeRelationship](../objects/attributerelationship-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -53,7 +53,7 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **RelationshipType** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.RelationshipType>.  
   
 ## See Also  
- [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-objects/attributes-and-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-../objects/attributes-and-attribute-hierarchies.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

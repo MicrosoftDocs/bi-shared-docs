@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Optionality Element (ASSL)
 
-  Indicates the optionality of the members for an [AttributeRelationship](objects/attributerelationship-element-assl.md) element.  
+  Indicates the optionality of the members for an [AttributeRelationship](../objects/attributerelationship-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[AttributeRelationship](objects/attributerelationship-element-assl.md)|  
+|Parent element|[AttributeRelationship](../objects/attributerelationship-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,7 +51,7 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **Cardinality** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Optionality>.  
   
 ## See Also  
- [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-objects/attributes-and-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-../objects/attributes-and-attribute-hierarchies.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

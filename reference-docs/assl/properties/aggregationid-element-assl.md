@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AggregationID Element (ASSL)
 
-  Identifies the aggregation definition from the [AggregationDesign](objects/aggregationdesign-element-assl.md) element used to create the aggregation instance.  
+  Identifies the aggregation definition from the [AggregationDesign](../objects/aggregationdesign-element-assl.md) element used to create the aggregation instance.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[AggregationInstance](objects/aggregationinstance-element-assl.md)|  
+|Parent elements|[AggregationInstance](../objects/aggregationinstance-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -46,6 +46,6 @@ manager: kfile
  The element that corresponds to the parent of **AggregationID** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AggregationInstance>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

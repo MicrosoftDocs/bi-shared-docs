@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Account](objects/account-element-assl.md)|  
+|Parent elements|[Account](../objects/account-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -61,6 +61,6 @@ manager: kfile
   
 ## See Also  
  [Accounts Element &#40;ASSL&#41;](collections/accounts-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

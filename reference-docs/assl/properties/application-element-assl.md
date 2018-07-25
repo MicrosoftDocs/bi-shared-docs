@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Application Element (ASSL)
 
-  Identifies the application associated with an [Action](objects/action-element-assl.md) element.  
+  Identifies the application associated with an [Action](../objects/action-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Action](objects/action-element-assl.md) or one of its derived elements: [DrillThroughAction](data-type/drillthroughaction-data-type-assl.md), [ReportAction](data-type/reportaction-data-type-assl.md), [StandardAction](data-type/standardaction-data-type-assl.md)|  
+|Parent element|[Action](../objects/action-element-assl.md) or one of its derived elements: [DrillThroughAction](../data-type/drillthroughaction-data-type-assl.md), [ReportAction](../data-type/reportaction-data-type-assl.md), [StandardAction](../data-type/standardaction-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -47,6 +47,6 @@ manager: kfile
   
 ## See Also  
  [Actions Element &#40;ASSL&#41;](collections/actions-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

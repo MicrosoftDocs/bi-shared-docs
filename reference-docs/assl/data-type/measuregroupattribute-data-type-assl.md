@@ -1,6 +1,6 @@
 ---
 title: "MeasureGroupAttribute Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -39,12 +39,12 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|[Annotations](collections/annotations-element-assl.md), [AttributeID](properties/attributeid-element-assl.md), [KeyColumns](collections/keycolumns-element-assl.md), [Type](properties/type-element-measuregroupattribute-assl.md)|  
-|Derived elements|[Attribute](objects/attribute-element-assl.md) ([Attributes](collections/attributes-element-assl.md) collection of [RegularMeasureGroupDimension](data-type/regularmeasuregroupdimension-data-type-assl.md))|  
+|Derived elements|[Attribute](objects/attribute-element-assl.md) ([Attributes](collections/attributes-element-assl.md) collection of [RegularMeasureGroupDimension](regularmeasuregroupdimension-data-type-assl.md))|  
   
 ## Remarks  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MeasureGroupAttribute>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   

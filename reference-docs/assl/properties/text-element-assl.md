@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Text Element (ASSL)
 
-  Contains the text of a [Command](objects/command-element-assl.md) element.  
+  Contains the text of a [Command](../objects/command-element-assl.md) element.  
   
 ## Syntax  
   
@@ -35,7 +35,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[Command](objects/command-element-assl.md)|  
+|Parent element|[Command](../objects/command-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -43,6 +43,6 @@ manager: kfile
   
 ## See Also  
  [Commands Element &#40;ASSL&#41;](collections/commands-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

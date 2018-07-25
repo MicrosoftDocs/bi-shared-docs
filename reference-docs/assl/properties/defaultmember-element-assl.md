@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent element|[AttributePermission](objects/attributepermission-element-assl.md), [DimensionAttribute](data-type/dimensionattribute-data-type-assl.md), [ManyToManyMeasureGroupDimension](data-type/manytomanymeasuregroupdimension-data-type-assl.md), [PerspectiveAttribute](data-type/perspectiveattribute-data-type-assl.md)|  
+|Parent element|[AttributePermission](../objects/attributepermission-element-assl.md), [DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md), [ManyToManyMeasureGroupDimension](../data-type/manytomanymeasuregroupdimension-data-type-assl.md), [PerspectiveAttribute](../data-type/perspectiveattribute-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -50,6 +50,6 @@ manager: kfile
  The elements that correspond to the parents of **DefaultMember** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AttributePermission>, <xref:Microsoft.AnalysisServices.DimensionAttribute>, and <xref:Microsoft.AnalysisServices.PerspectiveAttribute>.  
   
 ## See Also  
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

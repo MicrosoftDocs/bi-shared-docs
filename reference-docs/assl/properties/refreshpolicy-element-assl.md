@@ -12,7 +12,7 @@ manager: kfile
 ---
 # RefreshPolicy Element (ASSL)
 
-  Determines how often the dynamic part of the dimension or measure group (as specified by the [Persistence](properties/persistence-element-assl.md) element) is checked for changes.  
+  Determines how often the dynamic part of the dimension or measure group (as specified by the [Persistence](persistence-element-assl.md) element) is checked for changes.  
   
 ## Syntax  
   
@@ -35,14 +35,14 @@ manager: kfile
   
 |Ancestor or Parent|Default Value|  
 |------------------------|-------------------|  
-|[DimensionBinding](data-type/dimensionbinding-data-type-assl.md)|*ByQuery*|  
-|[MeasureGroupBinding](data-type/measuregroupbinding-data-type-assl.md)|None|  
+|[DimensionBinding](../data-type/dimensionbinding-data-type-assl.md)|*ByQuery*|  
+|[MeasureGroupBinding](../data-type/measuregroupbinding-data-type-assl.md)|None|  
   
 ## Element Relationships  
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[DimensionBinding](data-type/dimensionbinding-data-type-assl.md), [MeasureGroupBinding](data-type/measuregroupbinding-data-type-assl.md)|  
+|Parent elements|[DimensionBinding](../data-type/dimensionbinding-data-type-assl.md), [MeasureGroupBinding](../data-type/measuregroupbinding-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -51,12 +51,12 @@ manager: kfile
 |Value|Description|  
 |-----------|-----------------|  
 |*ByQuery*|Every query checks to see whether the source data has changed.|  
-|*ByInterval*|Source data is only checked for changes at the interval specified by [RefreshInterval](properties/refreshinterval-element-assl.md).|  
+|*ByInterval*|Source data is only checked for changes at the interval specified by [RefreshInterval](refreshinterval-element-assl.md).|  
   
  The enumeration that corresponds to the allowed values for **RefreshPolicy** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.RefreshPolicy>.  
   
 ## See Also  
- [Persistence Element &#40;ASSL&#41;](properties/persistence-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Persistence Element &#40;ASSL&#41;](persistence-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

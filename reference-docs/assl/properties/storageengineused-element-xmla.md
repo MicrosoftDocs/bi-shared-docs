@@ -62,7 +62,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[database](objects/database-element-assl.md)|  
+|Parent elements|[database](../objects/database-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  

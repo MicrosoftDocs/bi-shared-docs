@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Access Element (ASSL)
 
-  Indicates the level of access given to a [CellPermission](objects/cellpermission-element-assl.md) element.  
+  Indicates the level of access given to a [CellPermission](../objects/cellpermission-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[CellPermission](objects/cellpermission-element-assl.md)|  
+|Parent elements|[CellPermission](../objects/cellpermission-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  
@@ -52,7 +52,7 @@ manager: kfile
  The enumeration that corresponds to the allowed values for **Access** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CellPermissionAccess>.  
   
 ## See Also  
- [Role Element &#40;ASSL&#41;](objects/role-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties/properties-assl.md)  
+ [Role Element &#40;ASSL&#41;](../objects/role-element-assl.md)   
+ [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "MiningStructureColumn Data Type (ASSL) | Microsoft Docs"
-ms.date: 05/03/2018
+ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -32,7 +32,7 @@ manager: kfile
 |Characteristic|Description|  
 |--------------------|-----------------|  
 |Base data types|None|  
-|Derived data types|[ScalarMiningStructureColumn](data-type/scalarminingstructurecolumn-data-type-assl.md), [TableMiningStructureColumn](data-type/tableminingstructurecolumn-data-type-assl.md)|  
+|Derived data types|[ScalarMiningStructureColumn](scalarminingstructurecolumn-data-type-assl.md), [TableMiningStructureColumn](tableminingstructurecolumn-data-type-assl.md)|  
   
 ## Data Type Relationships  
   
@@ -46,6 +46,6 @@ manager: kfile
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningStructureColumn>.  
   
 ## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](data-type/analysis-services-scripting-language-xml-data-types-assl.md)  
+ [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
   
   
