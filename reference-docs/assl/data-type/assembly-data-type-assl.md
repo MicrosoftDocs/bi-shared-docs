@@ -37,7 +37,7 @@ manager: kfile
 |Characteristic|Description|  
 |--------------------|-----------------|  
 |Base data types|None|  
-|Derived data types|[ClrAssembly](../../clrassembly-data-type-assl.md), [ComAssembly](../../comassembly-data-type-assl.md)|  
+|Derived data types|ClrAssembly, ComAssembly|  
   
 ## Data Type Relationships  
   
