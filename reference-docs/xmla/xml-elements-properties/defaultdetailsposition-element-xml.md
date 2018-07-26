@@ -38,7 +38,7 @@ manager: "kfile"
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[RelationshipEndVisualizationProperties](../../scripting/data-type/relationshipendvisualizationproperties-data-type-assl.md)|  
+|Parent elements|[RelationshipEndVisualizationProperties](../../assl/data-type/relationshipendvisualizationproperties-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  

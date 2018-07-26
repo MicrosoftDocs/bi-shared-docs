@@ -267,8 +267,4 @@ manager: kfile
 |[VisualTotals Element &#40;ASSL&#41;](visualtotals-element-assl.md)|Contains an MDX expression that determines whether visual totals are displayed for members of this attribute.|  
 |[Write Element &#40;ASSL&#41;](write-element-assl.md)|Determines whether data or metadata can be written for a given **CubeDimensionPermission** or **Permission** element.|  
 |[WriteEnabled Element &#40;ASSL&#41;](writeenabled-element-assl.md)|Indicates whether dimension writebacks are available (subject to security permissions).|  
-  
-## See Also  
- [Analysis Services Scripting Language XML Element Hierarchy &#40;ASSL&#41;](analysis-services-scripting-language-xml-element-hierarchy-assl.md)  
-  
-  
+

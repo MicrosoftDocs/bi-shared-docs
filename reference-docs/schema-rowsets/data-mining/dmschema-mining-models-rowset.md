@@ -14,7 +14,7 @@ manager: kfile
 
   Enumerates the data mining models in the current catalog. The **DMSCHEMA_MINING_MODELS** rowset includes information such as model names, processing date, and the mining algorithm associated with each mining model.  
   
- . The **DMSCHEMA_MINING_MODELS** schema rowset is very similar to the [DBSCHEMA_TABLES](../../../analysis-services/schema-rowsets/ole-db/dbschema-tables-rowset.md) schema rowset and can be used the same way.  
+ . The **DMSCHEMA_MINING_MODELS** schema rowset is very similar to the [DBSCHEMA_TABLES](../ole-db/dbschema-tables-rowset.md) schema rowset and can be used the same way.  
   
 ## Rowset Columns  
  The **DMSCHEMA_MINING_MODELS** rowset contains the following columns.  

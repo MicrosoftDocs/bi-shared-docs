@@ -47,7 +47,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|[Batch](../xml-elements-commands/batch-element-xmla.md), [Process](../xml-elements-commands/process-element-xmla.md)|  
-|Child elements|[KeyDuplicate](../../scripting/properties/keyduplicate-element-assl.md), [KeyErrorAction](../../scripting/properties/keyerroraction-element-assl.md), [KeyErrorLimit](../../scripting/properties/keyerrorlimit-element-assl.md), [KeyErrorLimitAction](../../scripting/properties/keyerrorlimitaction-element-assl.md), [KeyErrorLogFile](../../scripting/properties/keyerrorlogfile-element-assl.md), [KeyNotFound](../../scripting/properties/keynotfound-element-assl.md), [NullKeyConvertedToUnknown](../../scripting/properties/nullkeyconvertedtounknown-element-assl.md), [NullKeyNotAllowed](../../scripting/properties/nullkeynotallowed-element-assl.md)|  
+|Child elements|[KeyDuplicate](../../assl/properties/keyduplicate-element-assl.md), [KeyErrorAction](../../assl/properties/keyerroraction-element-assl.md), [KeyErrorLimit](../../assl/properties/keyerrorlimit-element-assl.md), [KeyErrorLimitAction](../../assl/properties/keyerrorlimitaction-element-assl.md), [KeyErrorLogFile](../../assl/properties/keyerrorlogfile-element-assl.md), [KeyNotFound](../../assl/properties/keynotfound-element-assl.md), [NullKeyConvertedToUnknown](../../assl/properties/nullkeyconvertedtounknown-element-assl.md), [NullKeyNotAllowed](../../assl/properties/nullkeynotallowed-element-assl.md)|  
   
 ## Remarks  
  The structure of this element is identical to the structure of the **ErrorConfiguration** element in Analysis Services Scripting Language (ASSL).

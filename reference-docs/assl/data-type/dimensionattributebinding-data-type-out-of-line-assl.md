@@ -41,8 +41,8 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|None|  
-|Child elements|[AttributeID](../properties/attributeid-element-assl.md), [DatabaseID](../../xmla/xml-elements-../properties/databaseid-element-xmla.md), [DimensionID](../properties/dimensionid-element-assl.md), [KeyColumns](../collections/keycolumns-element-assl.md), [NameColumn](../objects/namecolumn-element-assl.md), [Translations](../collections/translations-element-assl.md)|  
-|Derived elements|[Binding](../../xmla/xml-elements-../properties/binding-element-xmla.md) ([Bindings](../collections/attributes-element-assl.md) collection of XML for Analysis (XMLA) [Batch](../../xmla/xml-elements-commands/batch-element-xmla.md) and [Process](../../xmla/xml-elements-commands/process-element-xmla.md) commands)|  
+|Child elements|[AttributeID](../properties/attributeid-element-assl.md), [DatabaseID](../../xmla/xml-elements-properties/databaseid-element-xmla.md), [DimensionID](../properties/dimensionid-element-assl.md), [KeyColumns](../collections/keycolumns-element-assl.md), [NameColumn](../objects/namecolumn-element-assl.md), [Translations](../collections/translations-element-assl.md)|  
+|Derived elements|[Binding](../../xmla/xml-elements-properties/binding-element-xmla.md) ([Bindings](../collections/attributes-element-assl.md) collection of XML for Analysis (XMLA) [Batch](../../xmla/xml-elements-commands/batch-element-xmla.md) and [Process](../../xmla/xml-elements-commands/process-element-xmla.md) commands)|  
   
 ## Remarks  
   

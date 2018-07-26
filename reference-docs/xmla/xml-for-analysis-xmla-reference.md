@@ -30,7 +30,6 @@ ASSL is the command and object model definition syntax for  multidimensional mod
 |Topic|Description|  
 |-----------|-----------------|  
 |[XML Data Types (XMLA)](xml-data-types/xml-data-types-xmla.md)|Describes data types in the XMLA specification.|  
-|[XML Elements - Commands (XMLA)](xmla/xml-elements-commands/xml-elements-commands.md)|Elements that can be used within the Command element during an Execute method call.|  
 |[XML Elements - Commands (XMLA)](xml-elements-commands/xml-elements-commands.md)|Elements that can be used within the Command element during an Execute method call.|  
 |[XML Elements - Headers (XMLA)](xml-elements-headers/xml-elements-headers.md)| Header elements implemented by Microsoft  Analysis Services.|  
 |[XML Elements - Properties (XMLA)](xml-elements-properties/xml-elements-properties.md)| Elements to represent property information and values for XMLA headers, methods, objects, commands, and data types.|  

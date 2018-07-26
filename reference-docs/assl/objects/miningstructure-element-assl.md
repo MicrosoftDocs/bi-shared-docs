@@ -73,9 +73,4 @@ manager: kfile
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningStructure>.  
   
-## See Also  
- [MiningModel Element &#40;ASSL&#41;](../objects/miningmodel-element-assl.md)   
- [Objects &#40;ASSL&#41;](../objects/objects-assl.md)   
- [SELECT &#40;DMX&#41;](../../../dmx/select-dmx.md)  
-  
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Data Mining Schema Rowsets
 
-  A server that is running Analysis Services supports the following data mining schema rowsets. To check whether a particular XML/A provider supports a specific rowset, use the [DISCOVER_ENUMERATORS](../../../analysis-services/schema-rowsets/xml/discover-enumerators-rowset.md) rowset with the [Discover](../../xmla/xml-elements-methods-discover.md) method.  
+  A server that is running Analysis Services supports the following data mining schema rowsets. To check whether a particular XML/A provider supports a specific rowset, use the [DISCOVER_ENUMERATORS](../xml/discover-enumerators-rowset.md) rowset with the [Discover](../../xmla/xml-elements-methods-discover.md) method.  
   
  In SQL Server, the data mining schema rowsets are exposed as tables in the Transact-SQL language, in the $SYSTEM schema. For example, the following query on an Analysis Services instance returns a list of the schemas that are available on the current instance.  
   

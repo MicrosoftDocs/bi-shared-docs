@@ -12,7 +12,7 @@ manager: kfile
 ---
 # DISCOVER_CSDL_METADATA Rowset
 
-  Returns information about an Analysis Services data model (either tabular or multidimensional), providing the definition of the model in the CSDLBI format (Conceptual Schema Definition Language with BI annotations). CSDLBI is based on CSDL, an XML schema used by the Entity Data Framework that is used for communication between an Analysis Services server and the client. The Business Intelligence (BI) annotations provide additional metadata about tabular models and the objects in them. For more information about tabular data models, see [CSDL Annotations for Business Intelligence &#40;CSDLBI&#41;](../../../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdl-annotations-for-business-intelligence-csdlbi.md).  
+  Returns information about an Analysis Services data model (either tabular or multidimensional), providing the definition of the model in the CSDLBI format (Conceptual Schema Definition Language with BI annotations). CSDLBI is based on CSDL, an XML schema used by the Entity Data Framework that is used for communication between an Analysis Services server and the client. The Business Intelligence (BI) annotations provide additional metadata about tabular models and the objects in them.
   
  The security context of the command affects the rowset that is returned. Read permissions on the Analysis Services instance are required to obtain the CSDL definition from the server.  
   

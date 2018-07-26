@@ -39,7 +39,7 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|[DataSource](../objects/datasource-element-assl.md), [DataSourceID](../properties/datasourceid-element-assl.md), [ID](../properties/id-element-assl.md), [MeasureGroup](../objects/measuregroup-element-assl.md)|  
-|Derived elements|[Binding](../../xmla/xml-elements-../properties/binding-element-xmla.md) ([Bindings](../../xmla/xml-elements-properties/bindings-element-xmla.md) collection of [Process](../../xmla/xml-elements-commands/process-element-xmla.md) or [Batch](../../xmla/xml-elements-commands/batch-element-xmla.md) commands)|  
+|Derived elements|[Binding](../../xmla/xml-elements-properties/binding-element-xmla.md) ([Bindings](../../xmla/xml-elements-properties/bindings-element-xmla.md) collection of [Process](../../xmla/xml-elements-commands/process-element-xmla.md) or [Batch](../../xmla/xml-elements-commands/batch-element-xmla.md) commands)|  
   
 ## Remarks  
   

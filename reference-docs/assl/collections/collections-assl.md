@@ -27,7 +27,7 @@ manager: kfile
 |[Accounts Element &#40;ASSL&#41;](accounts-element-assl.md)|Contains the collection of account types that are defined in a [Database](../objects/database-element-assl.md) element.|  
 |[Actions Element &#40;ASSL&#41;](actions-element-assl.md)|Contains the collection of actions for a [Cube](../objects/cube-element-assl.md) or [Perspective](../objects/perspective-element-assl.md) element.|  
 |[AggregationDesigns Element &#40;ASSL&#41;](aggregationdesigns-element-assl.md)|Contains the collection of aggregation designs that can be shared across multiple partitions in a database.|  
-|[AggregationInstances Element &#40;ASSL&#41;](aggregationinstances-element-assl.md)|Contains the collection of aggregation instances that are defined in a [Partition](../../objects/partition-element-assl.md) element.|  
+|[AggregationInstances Element &#40;ASSL&#41;](aggregationinstances-element-assl.md)|Contains the collection of aggregation instances that are defined in a [Partition](../objects/partition-element-assl.md) element.|  
 |[Aggregations Element &#40;ASSL&#41;](aggregations-element-assl.md)|Contains the collection of aggregations defined for an [AggregationDesign](../objects/aggregationdesign-element-assl.md) element.|  
 |[AlgorithmParameters Element &#40;ASSL&#41;](algorithmparameters-element-assl.md)|Contains the collection of parameters for the algorithm used by a [MiningModel](../objects/miningmodel-element-assl.md) element.|  
 |[Aliases Element &#40;ASSL&#41;](aliases-element-assl.md)|Contains the collection of [Alias](../properties/alias-element-assl.md) elements associated with an [Account](../objects/account-element-assl.md) element|  

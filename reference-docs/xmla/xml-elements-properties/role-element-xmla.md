@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Role Element  (XMLA)
 
-  Identifies one end of a one-to-many relationship to be used by the parent [RelationshipEnd](../../scripting/data-type/relationshipend-data-type-assl.md).  
+  Identifies one end of a one-to-many relationship to be used by the parent [RelationshipEnd](../../assl/data-type/relationshipend-data-type-assl.md).  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[RelationshipEnd](../../scripting/data-type/relationshipend-data-type-assl.md)|  
+|Parent elements|[RelationshipEnd](../../assl/data-type/relationshipend-data-type-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  

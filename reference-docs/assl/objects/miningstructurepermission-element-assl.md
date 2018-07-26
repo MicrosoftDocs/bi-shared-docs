@@ -60,12 +60,5 @@ SELECT StructureColumn('<structure column name>' FROM <model>.CASES
  For example, you create a model using only columns for customer key, customer income, and customer purchases. By using drillthrough, a user can return other structure columns that were not included in the mining model, such as customer contact information.  
   
  Therefore, to protect sensitive data or personal information, you should construct your data source view to mask personal information and grant **AllowDrillthrough** permission on a structure only when necessary.  
-  
- For more information, see [Drillthrough Queries &#40;Data Mining&#41;](../../../analysis-services/data-mining/drillthrough-queries-data-mining.md).  
-  
-## See Also  
- <xref:Microsoft.AnalysisServices.MiningModel.AllowDrillThrough%2A>   
- <xref:Microsoft.AnalysisServices.AdomdClient.MiningModel.AllowDrillThrough%2A>   
- [Objects &#40;ASSL&#41;](../objects/objects-assl.md)  
-  
+ 
   

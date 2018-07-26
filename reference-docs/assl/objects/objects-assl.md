@@ -95,7 +95,3 @@ manager: kfile
 |[UnknownMemberTranslation Element &#40;ASSL&#41;](../objects/unknownmembertranslation-element-assl.md)|Contains a translation for the caption of the [UnknownMember](../properties/unknownmember-element-assl.md) element for a [Dimension](../objects/dimension-element-assl.md) element.|  
 |[ValueColumn Element &#40;ASSL&#41;](../objects/valuecolumn-element-assl.md)|Identifies the column that provides the value of the parent element.|  
   
-## See Also  
- [Analysis Services Scripting Language XML Element Hierarchy &#40;ASSL&#41;](analysis-services-scripting-language-xml-element-hierarchy-assl.md)  
-  
-  

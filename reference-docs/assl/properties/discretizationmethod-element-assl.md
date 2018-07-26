@@ -41,7 +41,7 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- The value of the **DiscretizationMethod** element determines how values for the **DimensionAttribute** or **ScalarMiningStructureColumn** are discretized, or organized into a specific set of groups. For more information about discretization methods, see [Discretization Methods &#40;Data Mining&#41;](../../../analysis-services/data-mining/discretization-methods-data-mining.md).  
+ The value of the **DiscretizationMethod** element determines how values for the **DimensionAttribute** or **ScalarMiningStructureColumn** are discretized, or organized into a specific set of groups. 
   
  The value of this element is limited to one of the strings in the following table.  
   
@@ -54,8 +54,5 @@ manager: kfile
 |*EqualRanges*|Equivalent to the EQUAL_RANGES discretization method for mining structure columns.|  
   
  The enumeration corresponding to the allowed values for **DiscretizationMethod** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DiscretizationMethod>.  
-  
-## See Also  
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
+
   

@@ -41,12 +41,8 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- The value of the **DiscretizationBucketCount** element determines how many groups or "buckets" are created when values for the **DimensionAttribute** or **ScalarMiningStructureColumn** are discretized, or organized into a specific set of groups. If the element is not specified, or if zero is specified for the value of the element, Analysis Services creates an appropriate number of groups depending on the discretization method. For more information about discretization methods, see [Discretization Methods &#40;Data Mining&#41;](../../../analysis-services/data-mining/discretization-methods-data-mining.md).  
+ The value of the **DiscretizationBucketCount** element determines how many groups or "buckets" are created when values for the **DimensionAttribute** or **ScalarMiningStructureColumn** are discretized, or organized into a specific set of groups. If the element is not specified, or if zero is specified for the value of the element, Analysis Services creates an appropriate number of groups depending on the discretization method. 
   
  The elements that correspond to the parents of **DiscretizationBucketCount** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.DimensionAttribute> and <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn>.  
-  
-## See Also  
- [DiscretizationMethod Element &#40;ASSL&#41;](discretizationmethod-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
+
   

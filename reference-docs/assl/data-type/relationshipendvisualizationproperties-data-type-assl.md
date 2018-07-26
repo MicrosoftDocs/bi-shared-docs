@@ -42,7 +42,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|[RelationshipEnd](relationshipend-data-type-assl.md)|  
-|Child elements|[FolderPosition](../../xmla/xml-elements-../properties/folderposition-element-xml.md), [ContextualNameRule](../../xmla/xml-elements-../properties/contextualnamerule-element-xml.md), [DefaultDetailsPosition](../../xmla/xml-elements-../properties/defaultdetailsposition-element-xml.md), [DisplayKeyPosition](../../xmla/xml-elements-../properties/displaykeyposition-element-xml.md), [CommonIdentifierPosition](../../xmla/xml-elements-../properties/commonidentifierposition-element-xml.md), [IsDefaultMeasure](../../xmla/xml-elements-../properties/isdefaultmeasure-element-xml.md), [IsDefaultImage](../../xmla/xml-elements-../properties/isdefaultimage-element-xml.md), [SortPropertiesPosition](../../xmla/xml-elements-../properties/sortpropertiesposition-element-xml.md)|  
+|Child elements|[FolderPosition](../../xmla/xml-elements-properties/folderposition-element-xml.md), [ContextualNameRule](../../xmla/xml-elements-properties/contextualnamerule-element-xml.md), [DefaultDetailsPosition](../../xmla/xml-elements-properties/defaultdetailsposition-element-xml.md), [DisplayKeyPosition](../../xmla/xml-elements-properties/displaykeyposition-element-xml.md), [CommonIdentifierPosition](../../xmla/xml-elements-properties/commonidentifierposition-element-xml.md), [IsDefaultMeasure](../../xmla/xml-elements-properties/isdefaultmeasure-element-xml.md), [IsDefaultImage](../../xmla/xml-elements-properties/isdefaultimage-element-xml.md), [SortPropertiesPosition](../../xmla/xml-elements-properties/sortpropertiesposition-element-xml.md)|  
 |Derived elements||  
   
 ## Remarks  

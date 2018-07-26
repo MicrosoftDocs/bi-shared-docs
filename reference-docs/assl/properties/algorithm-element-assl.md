@@ -41,13 +41,8 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- The value of the **Algorithm** element is a string that identifies the algorithm. For example, the string could be *Microsoft_Naive_Bayes*, *Microsoft_Decision_Trees*, or *Microsoft_Clustering.* The string identifies algorithms supplied by  and custom algorithms supplied by the user. Available values for the **Algorithm** element can be retrieved from the SERVICE_NAME column of the [DMSCHEMA_MINING_SERVICES](../../../analysis-services/schema-rowsets/data-mining/dmschema-mining-services-rowset.md) schema rowset.  
+ The value of the **Algorithm** element is a string that identifies the algorithm. For example, the string could be *Microsoft_Naive_Bayes*, *Microsoft_Decision_Trees*, or *Microsoft_Clustering.* The string identifies algorithms supplied by  and custom algorithms supplied by the user. Available values for the **Algorithm** element can be retrieved from the SERVICE_NAME column of the [DMSCHEMA_MINING_SERVICES](../../schema-rowsets/data-mining/dmschema-mining-services-rowset.md) schema rowset.  
   
  The element that corresponds to the parent of **Algorithm** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningModel>. A closely related element in the AMO object model is <xref:Microsoft.AnalysisServices.MiningModelAlgorithms>.  
-  
-## See Also  
- [AlgorithmParameter Element &#40;ASSL&#41;](../objects/algorithmparameter-element-assl.md)   
- [AlgorithmParameters Element &#40;ASSL&#41;](../collections/algorithmparameters-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
+
   

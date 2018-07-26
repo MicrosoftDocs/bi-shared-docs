@@ -41,7 +41,7 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- This enumeration describes the type of content represented by a mining structure column, and can be extended as needed by mining algorithm providers. For more information about content types, see [Content Types &#40;Data Mining&#41;](../../../analysis-services/data-mining/content-types-data-mining.md).  
+ This enumeration describes the type of content represented by a mining structure column, and can be extended as needed by mining algorithm providers. 
   
  The values listed in the following table are typically supported by all mining algorithm providers.  
   
@@ -70,9 +70,6 @@ manager: kfile
 |*Time*|The values for the column represent time measurement units.|  
   
  The enumeration corresponding to the allowed values for **Content** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn>.  
-  
-## See Also  
- [ClassifiedColumns Element &#40;ASSL&#41;](../collections/classifiedcolumns-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
+
   
   

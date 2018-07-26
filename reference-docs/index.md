@@ -14,7 +14,7 @@
 |Reference  |Description  |Applies to  |
 |---------|---------|---------|
 |  [Tabular Object Model (TOM)](tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md)  |     An extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher.   |   Azure Analysis Services, SQL Server Analysis Services, Power BI Premium       |
-|  [Analysis Management Objects (AMO)](amo/developing-with-analysis-management-objects-amo.md)  |    Analysis Management Objects (AMO) is a library of programmatically accessed objects that enables an application to manage an Analysis Services instance.      |     SQL Server Analysis Services    |
+|  [Analysis Management Objects (AMO)](amo/developing-with-analysis-management-objects-amo.md)  |    Analysis Management Objects (AMO) is a library of programmatically accessed objects that enables an application to manage an Analysis Services instance.      |     Azure Analysis Services, SQL Server Analysis Services, Power BI Premium     |
 
 
 ## Protocol
