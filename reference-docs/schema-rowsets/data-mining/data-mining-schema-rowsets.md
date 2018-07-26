@@ -36,9 +36,3 @@ SELECT * FROM [$system].[DBSCHEMA_TABLES]
 |[DMSCHEMA_MINING_STRUCTURES Rowset](dmschema-mining-structures-rowset.md)|Enumerates information on mining structures.|  
   
  All the schema rowsets listed here are supported by the server that is running SQL Server Analysis Services.  
-  
-## See Also  
- [Analysis Services Schema Rowsets](../../../analysis-services/schema-rowsets/analysis-services-schema-rowsets.md)   
- [Data Mining Schema Rowsets &#40;SSAs&#41;](../../../analysis-services/data-mining/data-mining-schema-rowsets-ssas.md)  
-  
-  

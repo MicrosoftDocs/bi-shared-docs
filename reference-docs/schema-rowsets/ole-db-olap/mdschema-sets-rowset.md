@@ -45,8 +45,3 @@ manager: kfile
 |**SCOPE**|**DBTYPE_I4**|Optional.|  
 |**HIERARCHY_UNIQUE_NAME**|**DBTYPE_WSTR**|Optional.|  
 |**CUBE_SOURCE**|**DBTYPE_UI2**|Optional.<br /><br /> Note: Only one hierarchy can be included, and only those named sets whose hierarchies exactly match the restriction are returned.|  
-  
-## See Also  
- [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
-  
-  

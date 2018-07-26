@@ -54,9 +54,4 @@ SELECT *
 FROM $System.DISCOVER_STORAGE_TABLE_COLUMNS  
 ORDER BY TABLE_ID DESC  
   
-```  
-  
-## See Also  
- [Analysis Services Schema Rowsets](../../../analysis-services/schema-rowsets/analysis-services-schema-rowsets.md)  
-  
-  
+``` 

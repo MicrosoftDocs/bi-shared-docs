@@ -41,7 +41,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|[Batch](../xml-elements-commands/batch-element-xmla.md), [Process](../xml-elements-commands/process-element-xmla.md)|  
-|Child elements|[DatabaseID](../xml-elements-properties/databaseid-element-xmla.md), [DataSourceViewID](../../../analysis-services/scripting/properties/datasourceviewid-element-assl.md)|  
+|Child elements|[DatabaseID](../xml-elements-properties/databaseid-element-xmla.md), [DataSourceViewID](../../scripting/properties/datasourceviewid-element-assl.md)|  
   
 ## Remarks  
  The **DataSourceView** element represents an out-of-line binding to a data source view, used by the **Batch** or **Process** command to temporarily override the data source view binding for Analysis Services objects processed by the command.

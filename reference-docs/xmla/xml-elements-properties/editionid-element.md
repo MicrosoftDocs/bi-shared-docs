@@ -12,7 +12,7 @@ manager: kfile
 ---
 # EditionId Element
 
-  Contains the numeric edition identifier code of the parent [Server Element (ASSL)](../../../analysis-services/scripting/objects/server-element-assl.md) element.  
+  Contains the numeric edition identifier code of the parent [Server Element (ASSL)](../../assl/objects/server-element-assl.md) element.  
   
 ## Syntax  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Server Element (ASSL)](../../../analysis-services/scripting/objects/server-element-assl.md)|  
+|Parent elements|[Server Element (ASSL)](../../assl/objects/server-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  

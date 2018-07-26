@@ -37,7 +37,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[Server](../../../analysis-services/scripting/objects/server-element-assl.md)|  
+|Parent elements|[Server](../../assl/objects/server-element-assl.md)|  
 |Child elements|None|  
   
 ## Remarks  

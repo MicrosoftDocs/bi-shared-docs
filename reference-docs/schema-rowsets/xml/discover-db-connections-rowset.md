@@ -45,8 +45,3 @@ manager: kfile
 |CONNECTION_SERVER_NAME|DBTYPE_WSTR|Optional.|  
 |CONNECTION_CATALOG_NAME|DBTYPE_WSTR|Required.|  
 |CONNECTION_SPID|DBTYPE_I4|Optional.|  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  

@@ -45,8 +45,3 @@ manager: kfile
 |**STRUCTURE_CATALOG**|**DBTYPE_WSTR**|Optional.|  
 |**STRUCTURE_SCHEMA**|**DBTYPE_WSTR**|Optional.|  
 |**STRUCTURE_NAME**|**DBTYPE_WSTR**|Optional.|  
-  
-## See Also  
- [Data Mining Schema Rowsets](data-mining-schema-rowsets.md)  
-  
-  

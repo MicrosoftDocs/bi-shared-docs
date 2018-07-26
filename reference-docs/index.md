@@ -2,6 +2,13 @@
 
 ## Scripting
 
+
+|Reference  |Description  |Applies to  |
+|---------|---------|---------|
+|[Tabular Model Scripting Language (TMSL)](tmsl/tabular-model-scripting-language-tmsl-reference.md)    |   Command and object model definition syntax for tabular model databases at compatibility level 1200 or higher.      |   Azure Analysis Services, SQL Server Analysis Services, Power BI Premium       |
+|[Analysis Services Scripting Language (ASSL for XMLA)](assl/analysis-services-scripting-language-assl-for-xmla.md)    |    Applications communicate with Analysis Services using XML commands and object descriptions. Analysis Services Scripting Language (ASSL) represents the object definition language portion of this XML dialect.     |     SQL Server Analysis Services    |
+
+
 ### [Tabular Model Scripting Language (TMSL)](tmsl/tabular-model-scripting-language-tmsl-reference.md)
 
 **Description:** Command and object model definition syntax for tabular model databases at compatibility level 1200 or higher.

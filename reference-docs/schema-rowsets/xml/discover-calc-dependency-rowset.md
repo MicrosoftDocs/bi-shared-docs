@@ -114,9 +114,6 @@ SELECT * from $system.DISCOVER_CALC_DEPENDENCY WHERE QUERY = 'EVALUATE CALCULATE
 |--------------|-----------|  
 |GUID|a07ccd46-8148-11d0-87bb-00c04fc33942|  
 |ADOMDNAME|DependencyGraph|  
-  
-## See Also  
- [Analysis Services Schema Rowsets](../../../analysis-services/schema-rowsets/analysis-services-schema-rowsets.md)   
- [Use Dynamic Management Views &#40;DMVs&#41; to Monitor Analysis Services](../../../analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md)  
+
   
   

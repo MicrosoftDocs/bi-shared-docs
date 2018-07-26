@@ -50,8 +50,3 @@ manager: kfile
 |**CUBE_NAME**|**DBTYPE_WSTR**|Optional.|  
 |**CUBE_SOURCE**|**DBTYPE_UI2**|(Optional) Default restriction is a value of 1. A bitmap with one of these valid values:<br /><br /> 1 CUBE<br /><br /> 2 DIMENSION|  
 |**Base Cube_Name**|**DBTYPE_WSTR**|Optional.|  
-  
-## See Also  
- [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
-  
-  

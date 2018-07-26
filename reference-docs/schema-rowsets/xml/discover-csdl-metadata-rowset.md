@@ -113,9 +113,3 @@ manager: kfile
 |--------------|-----------|  
 |GUID|3444B255-171E-4cb9-AD98-19E57888A75F|  
 |ADOMDNAME|Csdl|  
-  
-## See Also  
- [Analysis Services Schema Rowsets](../../../analysis-services/schema-rowsets/analysis-services-schema-rowsets.md)   
- [CSDL Annotations for Business Intelligence &#40;CSDLBI&#41;](../../../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdl-annotations-for-business-intelligence-csdlbi.md)  
-  
-  

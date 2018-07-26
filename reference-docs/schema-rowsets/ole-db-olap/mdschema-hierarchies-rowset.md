@@ -63,8 +63,3 @@ manager: kfile
 |**HIERARCHY_ORIGIN**|**DBTYPE_UI2**|(Optional) A default restriction is in effect on MD_USER_DEFINED and MD_SYSTEM_ENABLED.|  
 |**CUBE_SOURCE**|**DBTYPE_UI2**|(Optional) Default restriction is a value of 1. A bitmap with one of the following valid values:<br /><br /> 1 CUBE<br /><br /> 2 DIMENSION|  
 |**HIERARCHY_VISIBILITY**|**DBTYPE_UI2**|(Optional) Default restriction is a value of 1. A bitmap with one of the following valid values:<br /><br /> 1 Visible<br /><br /> 2 Not visible|  
-  
-## See Also  
- [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
-  
-  

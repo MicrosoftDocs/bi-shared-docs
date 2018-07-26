@@ -47,8 +47,3 @@ manager: kfile
 |--------------|-----------|  
 |GUID|06c03d41-f66d-49f3-b1b8-987f7af4cf18|  
 |ADOMDNAME|DataSources|  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  

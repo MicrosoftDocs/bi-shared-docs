@@ -41,9 +41,3 @@ manager: kfile
 |[MDSCHEMA_SETS Rowset](mdschema-sets-rowset.md)|Describes any sets that are currently defined in a database, including session-scoped sets.|  
   
  <sup>1</sup> All the schema rowsets listed here are supported by the MSOLAP data source provider for the Microsoft XMLA provider.  
-  
-## See Also  
- [DISCOVER_ENUMERATORS Rowset](../../../analysis-services/schema-rowsets/xml/discover-enumerators-rowset.md)   
- [Analysis Services Schema Rowsets](../../../analysis-services/schema-rowsets/analysis-services-schema-rowsets.md)  
-  
-  

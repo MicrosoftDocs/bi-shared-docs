@@ -47,4 +47,4 @@ manager: kfile
   
  For **Restore** commands, the **File** element determines the name of the backup file to be restored by the **Restore** command.  
   
- For **Location** elements, the **File** element describes a remote backup file for an Analysis Services instance that contains remote partitions. For more information about backing up and restoring remote partitions, see [Backing Up, Restoring, and Synchronizing Databases &#40;XMLA&#41;](../../../analysis-services/multidimensional-models-scripting-language-assl-xmla/backing-up-restoring-and-synchronizing-databases-xmla.md).  
+ For **Location** elements, the **File** element describes a remote backup file for an Analysis Services instance that contains remote partitions. 

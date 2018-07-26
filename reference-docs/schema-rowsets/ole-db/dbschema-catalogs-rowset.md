@@ -32,8 +32,3 @@ manager: kfile
 |Column name|Type indicator|Restriction State|  
 |-----------------|--------------------|-----------------------|  
 |**CATALOG_NAME**|**DBTYPE_WSTR**|Optional|  
-  
-## See Also  
- [OLE DB Schema Rowsets](ole-db-schema-rowsets.md)  
-  
-  

@@ -43,8 +43,3 @@ manager: kfile
 |**INTERFACE_NAME**|**DBTYPE_WSTR**|Optional.|  
 |**FUNCTION_NAME**|**DBTYPE_WSTR**|Optional.|  
 |**ORIGIN**|**DBTYPE_I4**|Optional.|  
-  
-## See Also  
- [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
-  
-  

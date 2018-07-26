@@ -36,8 +36,3 @@ manager: kfile
 |Column name|Type indicator|Restriction State|  
 |-----------------|--------------------|-----------------------|  
 |**PropertyName**|**DBTYPE_WSTR**||  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  

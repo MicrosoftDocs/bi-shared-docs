@@ -48,7 +48,7 @@ manager: kfile
  [AttributeName Element &#40;XMLA&#41;](../xml-elements-properties/attributename-element-xmla.md)   
  [Drop Element &#40;XMLA&#41;](../xml-elements-commands/drop-element-xmla.md)   
  [Insert Element &#40;XMLA&#41;](../xml-elements-commands/insert-element-xmla.md)   
- [KeyColumn Element &#40;ASSL&#41;](../../../analysis-services/scripting/objects/keycolumn-element-assl.md)   
+ [KeyColumn Element &#40;ASSL&#41;](../../assl/objects/keycolumn-element-assl.md)   
  [Update Element &#40;XMLA&#41;](../xml-elements-commands/update-element-xmla.md)   
  [Where Element &#40;XMLA&#41;](../xml-elements-properties/where-element-xmla.md)   
  [Properties &#40;XMLA&#41;](../xml-elements-properties/xml-elements-properties.md)  

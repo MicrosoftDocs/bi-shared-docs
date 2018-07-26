@@ -69,8 +69,3 @@ manager: kfile
 |**Member**|**MDACTION_COORDINATE_MEMBER**|  
 |**Set**|**MDACTION_COORDINATE_SET**|  
 |**cell**|**MDACTION_COORDINATE_CELL**|  
-  
-## See Also  
- [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
-  
-  

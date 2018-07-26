@@ -40,8 +40,3 @@ manager: kfile
 |JOB_DESCRIPTION|DBTYPE_WSTR|Optional.|  
 |JOB_THREADPOOL_ID|DBTYPE_I4|Optional.|  
 |JOB_MIN TOTAL_TIME_MS|DBTYPE_I8|Optional.|  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  

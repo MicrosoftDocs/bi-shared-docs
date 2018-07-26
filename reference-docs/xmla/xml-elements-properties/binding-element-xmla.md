@@ -31,7 +31,7 @@ manager: kfile
   
 |Characteristic|Description|  
 |--------------------|-----------------|  
-|Data type and length|[DimensionAttributeBinding](../../../analysis-services/scripting/data-type/dimensionattributebinding-data-type-out-of-line-assl.md), [MeasureGroupAttributeBinding](../../../analysis-services/scripting/data-type/measuregroupattributebinding-data-type-out-of-line-assl.md), [PartitionBinding](../../../analysis-services/scripting/data-type/partitionbinding-data-type-assl.md)|  
+|Data type and length|[DimensionAttributeBinding](../../scripting/data-type/dimensionattributebinding-data-type-out-of-line-assl.md), [MeasureGroupAttributeBinding](../../scripting/data-type/measuregroupattributebinding-data-type-out-of-line-assl.md), [PartitionBinding](../../scripting/data-type/partitionbinding-data-type-assl.md)|  
 |Default value|None|  
 |Cardinality|0-n: Optional element that can occur more than once.|  
   

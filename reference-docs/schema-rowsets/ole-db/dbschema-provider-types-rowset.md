@@ -50,8 +50,3 @@ manager: kfile
 |-----------------|--------------------|  
 |**DATA_TYPE**|**DBTYPE_UI2**|  
 |**BEST_MATCH**|**DBTYPE_BOOL**|  
-  
-## See Also  
- [OLE DB Schema Rowsets](ole-db-schema-rowsets.md)  
-  
-  

@@ -29,8 +29,3 @@ manager: kfile
 |Column name|Type indicator|Restriction State|  
 |-----------------|--------------------|-----------------------|  
 |**Keyword**|**DBTYPE_WSTR**|Optional.|  
-  
-## See Also  
- [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
-  
-  

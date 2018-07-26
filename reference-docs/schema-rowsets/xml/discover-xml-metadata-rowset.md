@@ -64,8 +64,3 @@ manager: kfile
 |**ObjectProperties**|Expands the requested object with no references to contained objects (includes expanded minor contained objects).|  
 |**ExpandObject**|Same as *ObjectProperties*, but also returns the name, ID, and timestamp for contained major objects.|  
 |**ExpandFull**|Fully expands the requested object recursively to the bottom of every contained object.|  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  

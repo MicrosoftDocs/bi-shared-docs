@@ -57,10 +57,3 @@ manager: kfile
 |[DISCOVER_XML_METADATA Rowset](discover-xml-metadata-rowset.md)|Returns an XML document describing a requested object.|  
   
  <sup>1</sup> All the schema rowsets listed here are supported by the MSOLAP data source provider for the Microsoft XMLA Provider.  
-  
-## See Also  
- [Developing with XMLA in Analysis Services](../../../analysis-services/multidimensional-models-scripting-language-assl-xmla/developing-with-xmla-in-analysis-services.md)   
- [Use Dynamic Management Views &#40;DMVs&#41; to Monitor Analysis Services](../../../analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md)   
- [Retrieving Metadata from an Analytical Data Source](../../../analysis-services/multidimensional-models-adomd-net-client/retrieving-metadata-from-an-analytical-data-source.md)  
-  
-  

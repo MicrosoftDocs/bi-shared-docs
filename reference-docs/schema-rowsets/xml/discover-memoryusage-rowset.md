@@ -51,8 +51,3 @@ manager: kfile
 |--------------|-----------|  
 |GUID|A07CCD21-8148-11D0-87BB-00C04FC33942|  
 |ADOMDNAME|MemoryUsage|  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  

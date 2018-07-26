@@ -55,9 +55,3 @@ manager: kfile
 |**SERVICE_TYPE_ID**|**DBTYPE_UI4**|Optional.|  
 |**MINING_STRUCTURE**|**DBTYPE_WSTR**|Optional.|  
   
- For examples of how to query this rowset, see [Query the Parameters Used to Create a Mining Model](../../../analysis-services/data-mining/query-the-parameters-used-to-create-a-mining-model.md).  
-  
-## See Also  
- [Data Mining Schema Rowsets](data-mining-schema-rowsets.md)  
-  
-  

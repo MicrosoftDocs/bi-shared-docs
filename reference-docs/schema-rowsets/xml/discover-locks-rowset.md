@@ -57,8 +57,3 @@ manager: kfile
 |LOCK_COMMIT_ABORTABLE|0x0000020|Abort at commit progress.|  
 |LOCK_COMMIT_INPROGRESS|0x0000040|Commit in progress.|  
 |LOCK_INVALID|0x0000080|Invalid lock.|  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  

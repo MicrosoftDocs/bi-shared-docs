@@ -46,8 +46,3 @@ manager: kfile
 |--------------|-----------|  
 |GUID|a07ccd28-8148-11d0-87bb-00c04fc33942|  
 |String|DISCOVER_TRANSACTIONS|  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  

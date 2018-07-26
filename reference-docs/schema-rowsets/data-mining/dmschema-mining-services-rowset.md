@@ -53,8 +53,3 @@ manager: kfile
 |-----------------|--------------------|-----------------------|  
 |**SERVICE_NAME**|**DBTYPE_WSTR**|Optional.|  
 |**SERVICE_TYPE_ID**|**DBTYPE_UI4**|Optional.|  
-  
-## See Also  
- [Data Mining Schema Rowsets](data-mining-schema-rowsets.md)  
-  
-  

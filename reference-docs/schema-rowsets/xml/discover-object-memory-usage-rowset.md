@@ -37,8 +37,3 @@ manager: kfile
 |-----------------|--------------------|-----------------------|  
 |**OBJECT_PARENT_PATH**|**DBTYPE_WSTR**|Optional.|  
 |**OBJECT_ID**|**DBTYPE_WSTR**|Optional|  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  

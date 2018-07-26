@@ -64,8 +64,3 @@ manager: kfile
 |**MEMBER_TYPE**|**DBTYPE_I4**|Optional.|  
 |**TREE_OP**|**DBTYPE_I4**|(Optional) Only applies to a single member:<br /><br /> **MDTREEOP_ANCESTORS** (**0x20**) returns all of the ancestors.<br /><br /> **MDTREEOP_CHILDREN** (**0x01**) returns only the immediate children.<br /><br /> **MDTREEOP_SIBLINGS** (**0x02**) returns members on the same level.<br /><br /> **MDTREEOP_PARENT** (**0x04**) returns only the immediate parent.<br /><br /> **MDTREEOP_SELF** (**0x08**) returns itself in the list of returned rows.<br /><br /> **MDTREEOP_DESCENDANTS** (**0x10**) returns all of the descendants.|  
 |**CUBE_SOURCE**|**DBTYPE_UI2**|(Optional) Default restriction is a value of 1. A bitmap with one of the following valid values:<br /><br /> 1 CUBE<br /><br /> 2 DIMENSION|  
-  
-## See Also  
- [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
-  
-  

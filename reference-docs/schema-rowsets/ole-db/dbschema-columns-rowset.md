@@ -61,8 +61,3 @@ manager: kfile
 |**TABLE_NAME**|**DBTYPE_WSTR**|Optional|  
 |**COLUMN_NAME**|**DBTYPE_WSTR**|Optional|  
 |**COLUMN_OLAP_TYPE**|**DBTYPE_WSTR**|Optional|  
-  
-## See Also  
- [OLE DB Schema Rowsets](ole-db-schema-rowsets.md)  
-  
-  

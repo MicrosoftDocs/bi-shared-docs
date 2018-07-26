@@ -38,8 +38,3 @@ manager: kfile
 |**SCHEMA_NAME**|**DBTYPE_WSTR**|Optional.|  
 |**CUBE_NAME**|**DBTYPE_WSTR**|Optional.|  
 |**MEASUREGROUP_NAME**|**DBTYPE_WSTR**|Optional.|  
-  
-## See Also  
- [OLE DB for OLAP Schema Rowsets](ole-db-for-olap-schema-rowsets.md)  
-  
-  

@@ -68,7 +68,3 @@ manager: kfile
 |**DMTREEOP_SELF**|**0x00000008**|  
 |**DMTREEOP_DESCENDANTS**|**0x00000010**|  
   
-## See Also  
- [Data Mining Schema Rowsets](data-mining-schema-rowsets.md)  
-  
-  

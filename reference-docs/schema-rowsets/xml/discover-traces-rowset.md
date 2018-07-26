@@ -50,8 +50,3 @@ manager: kfile
 |--------------|-----------|  
 |GUID|a07ccd1a-8148-11d0-87bb-00c04fc33942|  
 |String|DISCOVER_TRACES|  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  

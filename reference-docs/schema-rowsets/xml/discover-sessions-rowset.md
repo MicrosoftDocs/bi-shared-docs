@@ -58,8 +58,3 @@ manager: kfile
 |SESSION_CPU_TIME_MS|DBTYPE_UI8|Optional.|  
 |SESSION_IDLE_TIME_MS|DBTYPE_UI8|Optional.|  
 |SESSION_STATUS|DBTYPE_I4|Optional.|  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  

@@ -58,8 +58,3 @@ WHERE COLUMN_ID = 'LastName'
 ORDER BY TABLE_ID  
   
 ```  
-  
-## See Also  
- [Analysis Services Schema Rowsets](../../../analysis-services/schema-rowsets/analysis-services-schema-rowsets.md)  
-  
-  

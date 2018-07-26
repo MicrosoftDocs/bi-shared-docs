@@ -40,8 +40,3 @@ manager: kfile
 |--------------|-----------|  
 |GUID|a07ccd23-8148-11d0-87bb-00c04fc33942|  
 |ADOMDNAME|MemoryGrant|  
-  
-## See Also  
- [XML for Analysis Schema Rowsets](xml-for-analysis-schema-rowsets.md)  
-  
-  
