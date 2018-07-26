@@ -24,7 +24,7 @@ manager: kfile
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Action Data Type &#40;ASSL&#41;](action-data-type-assl.md)|Defines an abstract primitive data type that represents an action in a [Cube](../../objects/cube-element-assl.md) element or a [Perspective](../objects/perspective-element-assl.md) element.|  
+|[Action Data Type &#40;ASSL&#41;](action-data-type-assl.md)|Defines an abstract primitive data type that represents an action in a [Cube](../objects/cube-element-assl.md) element or a [Perspective](../objects/perspective-element-assl.md) element.|  
 |[AggregationAttribute Data Type &#40;ASSL&#41;](../aggregationattribute-data-type-assl.md)|Defines a primitive data type that represents the association between an [Aggregation](../objects/aggregation-element-assl.md) element and an attribute.|  
 |[AggregationDesignAttribute Data Type &#40;ASSL&#41;](../aggregationdesignattribute-data-type-assl.md)|Defines a primitive data type that represents the association between an attribute and an [AggregationDesignDimension](../aggregationdesigndimension-data-type-assl.md) element.|  
 |[AggregationDesignDimension Data Type &#40;ASSL&#41;](../aggregationdesigndimension-data-type-assl.md)|Defines a primitive data type that represents the relationship between a cube dimension and an [AggregationDesign](../objects/aggregationdesign-element-assl.md) element.|  

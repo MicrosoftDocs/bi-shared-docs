@@ -50,10 +50,7 @@ manager: kfile
 |*Strong*|Indicates the override behavior of the relationship described by an AttributeRelationship element. Dictates how positioning on one attribute affects the position of the other.|  
 |*None*|No effect.|  
   
- The enumeration that corresponds to the allowed values for **OverrideBehavior** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.OverrideBehavior>.  
-  
-## See Also  
- [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-../objects/attributes-and-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
+ The enumeration that corresponds to the allowed values for **OverrideBehavior** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.OverrideBehavior>`.  
+
   
   

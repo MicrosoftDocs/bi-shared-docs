@@ -44,9 +44,3 @@ manager: kfile
 |Derived elements|See [Binding](binding-data-type-assl.md)|  
   
 ## Remarks  
- For more information, see the section, Out of Line Bindings, in [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
-  
-## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
-  
-  

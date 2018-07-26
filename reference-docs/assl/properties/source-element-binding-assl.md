@@ -64,10 +64,3 @@ manager: kfile
 |[ScalarMiningStructureColumn](../data-type/scalarminingstructurecolumn-data-type-assl.md)|[ColumnBinding](../data-type/columnbinding-data-type-assl.md)|  
   
  For more information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](../data-type/binding-data-type-assl.md).  
-  
- For more information about data bindings in ASSL, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
-  
-## See Also  
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
-  

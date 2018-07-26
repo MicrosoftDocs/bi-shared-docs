@@ -39,13 +39,8 @@ manager: kfile
 |------------------|-------------|  
 |Parent elements|None|  
 |Child elements|[DataSource](../objects/datasource-element-assl.md), [DataSourceID](../properties/datasourceid-element-assl.md), [ID](../properties/id-element-assl.md), [MeasureGroup](../objects/measuregroup-element-assl.md)|  
-|Derived elements|[Binding](../../../analysis-services/xmla/xml-elements-../properties/binding-element-xmla.md) ([Bindings](../../../analysis-services/xmla/xml-elements-../properties/bindings-element-xmla.md) collection of [Process](../../../analysis-services/xmla/xml-elements-commands/process-element-xmla.md) or [Batch](../../../analysis-services/xmla/xml-elements-commands/batch-element-xmla.md) commands)|  
+|Derived elements|[Binding](../../xmla/xml-elements-../properties/binding-element-xmla.md) ([Bindings](../../xmla/xml-elements-properties/bindings-element-xmla.md) collection of [Process](../../xmla/xml-elements-commands/process-element-xmla.md) or [Batch](../../xmla/xml-elements-commands/batch-element-xmla.md) commands)|  
   
 ## Remarks  
- For more information about out-of-line bindings, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
   
-## See Also  
- [Binding Data Type &#40;ASSL&#41;](binding-data-type-assl.md)   
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
-  
-  
+

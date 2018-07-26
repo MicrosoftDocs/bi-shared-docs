@@ -48,11 +48,11 @@ manager: kfile
   
  An attribute cannot be added as a level of a hierarchy when the property, *AtttributeHierarchyEnabled*, is set to FALSE and the instance is operating under DeploymentMode 1 or 2 (SharePoint or Tabular server mode).  
   
- Attributes in the [CubeDimension](cubedimension-data-type-assl.md) element that are not explicitly included in the [Attributes](../collections/attributes-element-assl.md) collection become part of the collection with default values assigned to them. After attributes are added to the collection, the attributes can be returned by the [Discover](../../../analysis-services/xmla/xml-elements-methods-discover.md) method.  
+ Attributes in the [CubeDimension](cubedimension-data-type-assl.md) element that are not explicitly included in the [Attributes](../collections/attributes-element-assl.md) collection become part of the collection with default values assigned to them. After attributes are added to the collection, the attributes can be returned by the [Discover](../../xmla/xml-elements-methods-discover.md) method.  
   
  The [AggregationUsage](../properties/aggregationusage-element-assl.md) element controls how Analysis Services automatically designs aggregations for the attribute. The **AggregationUsage** element does not constrain any aggregations that are manually created for the cube.  
   
- The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CubeAttribute>.  
+ The corresponding element in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.CubeAttribute>`.  
   
 ## See Also  
  [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  

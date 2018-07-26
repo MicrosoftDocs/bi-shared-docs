@@ -41,13 +41,7 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- The value of the **MembersWithDataCaption** element is used only by parent attributes (in other words, the value of the [Usage](usage-element-dimensionattribute-assl.md) element of the **DimensionAttribute** parent element is set to *Parent*) to determine the caption of data members in the parent attribute. For more information about data members, see [Attributes in Parent-Child Hierarchies](../../../analysis-services/multidimensional-models/parent-child-dimension-attributes.md).  
+ The value of the **MembersWithDataCaption** element is used only by parent attributes (in other words, the value of the [Usage](usage-element-dimensionattribute-assl.md) element of the **DimensionAttribute** parent element is set to *Parent*) to determine the caption of data members in the parent attribute.
   
- The elements that correspond to the parents of **MembersWithDataCaption** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AttributeTranslation> and <xref:Microsoft.AnalysisServices.DimensionAttribute>.  
-  
-## See Also  
- [MembersWithData Element &#40;ASSL&#41;](memberswithdata-element-assl.md)   
- [AttributeTranslation Data Type &#40;ASSL&#41;](../data-type/attributetranslation-data-type-assl.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
-  
+ The elements that correspond to the parents of **MembersWithDataCaption** in the Analysis Management Objects (AMO) object model are `<xref:Microsoft.AnalysisServices.AttributeTranslation>` and `<xref:Microsoft.AnalysisServices.DimensionAttribute>`.  
+

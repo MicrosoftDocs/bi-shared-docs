@@ -58,7 +58,7 @@ manager: kfile
 |[ReportParameter](../objects/reportparameter-element-assl.md)|An MDX expression used to calculate the value of the report parameter.|  
 |[ServerProperty](../objects/serverproperty-element-assl.md)|The value of the server property for the currently running instance.|  
   
- The elements that correspond to the parents of **Value** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.AlgorithmParameter>, <xref:Microsoft.AnalysisServices.Annotation>, <xref:Microsoft.AnalysisServices.Kpi>, <xref:Microsoft.AnalysisServices.ReportParameter>, and <xref:Microsoft.AnalysisServices.ServerProperty>.  
+ The elements that correspond to the parents of **Value** in the Analysis Management Objects (AMO) object model are `<xref:Microsoft.AnalysisServices.AlgorithmParameter>`, `<xref:Microsoft.AnalysisServices.Annotation>`, `<xref:Microsoft.AnalysisServices.Kpi>`, `<xref:Microsoft.AnalysisServices.ReportParameter>`, and `<xref:Microsoft.AnalysisServices.ServerProperty>`.  
   
 ## See Also  
  [Properties &#40;ASSL&#41;](properties-assl.md)  

@@ -41,7 +41,7 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- The value of the **MembersWithData** element is used only by parent attributes (in other words, the value of the [Usage](usage-element-dimensionattribute-assl.md) element of the **DimensionAttribute** parent element is set to *Parent*) to determine whether to display data members for non-leaf members in the parent attribute. For more information about data members, see [Attributes in Parent-Child Hierarchies](../../../analysis-services/multidimensional-models/parent-child-dimension-attributes.md).  
+ The value of the **MembersWithData** element is used only by parent attributes (in other words, the value of the [Usage](usage-element-dimensionattribute-assl.md) element of the **DimensionAttribute** parent element is set to *Parent*) to determine whether to display data members for non-leaf members in the parent attribute. 
   
  The value of this element is limited to one of the strings listed in the following table.  
   
@@ -50,11 +50,5 @@ manager: kfile
 |*NonLeafDataHidden*|Non-leaf data is hidden.|  
 |*NonLeafDataVisible*|Non-leaf data is visible.|  
   
- The enumeration that corresponds to the allowed values for **MembersWithData** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MembersWithData>.  
-  
-## See Also  
- [MembersWithDataCaption Element &#40;ASSL&#41;](memberswithdatacaption-element-assl.md)   
- [DimensionAttribute Data Type &#40;ASSL&#41;](../data-type/dimensionattribute-data-type-assl.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
+ The enumeration that corresponds to the allowed values for **MembersWithData** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.MembersWithData>`.  
   

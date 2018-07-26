@@ -48,10 +48,6 @@ manager: kfile
 |*Mandatory*|Each member in the related attribute has to be associated with at least one member in the attribute that owns the **AttributeRelationship** element.|  
 |*Optional*|Each member in the related attribute does not have to be associated with at least one member in the attribute that owns the **AttributeRelationship** element.|  
   
- The enumeration that corresponds to the allowed values for **Cardinality** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Optionality>.  
-  
-## See Also  
- [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-../objects/attributes-and-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
+ The enumeration that corresponds to the allowed values for **Cardinality** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.Optionality>`.  
+
   

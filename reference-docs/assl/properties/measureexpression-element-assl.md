@@ -41,9 +41,4 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- The element that corresponds to the parent of **MeasureExpression** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Measure>.  
-  
-## See Also  
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
-  
+ The element that corresponds to the parent of **MeasureExpression** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.Measure>`.  

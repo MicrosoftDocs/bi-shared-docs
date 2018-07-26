@@ -43,12 +43,6 @@ manager: kfile
 ## Remarks  
  The **FormatString** property contains a Multidimensional Expressions (MDX) expression. In the case of **CalculationProperty** elements, it applies to elements with a [CalculationType](calculationtype-element-assl.md) of *Member* or *Cells*.  
   
- The elements that correspond to the parents of **FormatString** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CalculationProperty> and <xref:Microsoft.AnalysisServices.Measure>.  
-  
-## See Also  
- [CalculationProperties Element &#40;ASSL&#41;](../collections/calculationproperties-element-assl.md)   
- [MdxScript Element &#40;ASSL&#41;](../objects/mdxscript-element-assl.md)   
- [MdxScripts Element &#40;ASSL&#41;](../collections/mdxscripts-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
+ The elements that correspond to the parents of **FormatString** in the Analysis Management Objects (AMO) object model are `<xref:Microsoft.AnalysisServices.CalculationProperty>` and `<xref:Microsoft.AnalysisServices.Measure>`.  
+
   

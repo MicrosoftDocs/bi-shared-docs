@@ -41,9 +41,5 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- For more information about bindings and out-of-line bindings, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
-  
-## See Also  
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
+
   

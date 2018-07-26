@@ -48,10 +48,4 @@ manager: kfile
 |*Many*|Many-to-one relationship|  
 |*One*|One-to-one relationship|  
   
- The enumeration corresponding to the allowed values for **Cardinality** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Cardinality>.  
-  
-## See Also  
- [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-../objects/attributes-and-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
-  
+ The enumeration corresponding to the allowed values for **Cardinality** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.Cardinality>`.

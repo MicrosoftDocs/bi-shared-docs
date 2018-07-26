@@ -43,12 +43,6 @@ manager: kfile
 ## Remarks  
  The **Goal** element contains a Multidimensional Expressions (MDX) expression.  
   
- The element that corresponds to the parent of **Goal** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Kpi>.  
-  
-## See Also  
- [Status Element &#40;ASSL&#41;](status-element-assl.md)   
- [Trend Element &#40;ASSL&#41;](trend-element-assl.md)   
- [Value Element &#40;ASSL&#41;](value-element-assl.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
-  
+ The element that corresponds to the parent of **Goal** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.Kpi>`.  
+
   

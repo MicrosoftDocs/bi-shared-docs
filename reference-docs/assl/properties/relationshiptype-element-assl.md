@@ -50,10 +50,7 @@ manager: kfile
   
  For example, if **ZipCode** cannot change from one **City** to another, the relationship from **ZipCode** to **City** is marked as *Rigid*.  
   
- The enumeration that corresponds to the allowed values for **RelationshipType** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.RelationshipType>.  
-  
-## See Also  
- [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-../objects/attributes-and-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
+ The enumeration that corresponds to the allowed values for **RelationshipType** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.RelationshipType>`.  
+
   
   

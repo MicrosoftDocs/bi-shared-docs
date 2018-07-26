@@ -41,9 +41,7 @@ manager: kfile
 ## Remarks  
  For more information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](binding-data-type-assl.md).  
   
- For an overview of data bindings in ASSL, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
-  
- The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.ProactiveCachingBinding>.  
+ The corresponding element in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.ProactiveCachingBinding>`.  
   
 ## Inheritance Hierarchy of ProactiveCachingBinding Types  
  The following hierarchy shows the inheritance of **ProactiveCachingBinding** types.  
@@ -61,8 +59,6 @@ manager: kfile
  [ProactiveCachingQueryBinding](proactivecachingquerybinding-data-type-assl.md) element  
   
  [ProactiveCachingIncrementalProcessingBinding](proactivecachingincrementalprocessingbinding-data-type-assl.md) element  
-  
-## See Also  
- [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  
+
   
   

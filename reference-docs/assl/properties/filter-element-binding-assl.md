@@ -43,13 +43,6 @@ manager: kfile
 ## Remarks  
  For more information about the **Binding** type, including tables ofAnalysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](../data-type/binding-data-type-assl.md).  
   
- For an overview of data bindings in ASSL, see [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md).  
-  
- The elements that correspond to the parents of **Filter** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CubeDimensionBinding> and <xref:Microsoft.AnalysisServices.MeasureGroupBinding>.  
-  
-## See Also  
- [Binding Data Type &#40;ASSL&#41;](../data-type/binding-data-type-assl.md)   
- [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
+ The elements that correspond to the parents of **Filter** in the Analysis Management Objects (AMO) object model are `<xref:Microsoft.AnalysisServices.CubeDimensionBinding>` and `<xref:Microsoft.AnalysisServices.MeasureGroupBinding>`.  
   
   

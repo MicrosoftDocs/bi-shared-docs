@@ -54,8 +54,6 @@ manager: kfile
 ## Remarks  
  When defining out-of-line bindings, the **Name** element is optional. Not having to specify a **Name** element allows data sources to be defined within the binding for cubes, partitions, and so on. For data sources contained by a **Database** element, **Name** is a required element.  
   
- For more information about data sources, see [Data Sources in Multidimensional Models](../../../analysis-services/multidimensional-models/data-sources-in-multidimensional-models.md).  
-  
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DataSource>.  
   
 ## See Also  

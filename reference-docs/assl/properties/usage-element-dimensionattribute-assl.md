@@ -49,10 +49,7 @@ manager: kfile
 |*Key*|The attribute is a key attribute.|  
 |*Parent*|The attribute is a parent attribute.|  
   
- The enumeration that corresponds to the allowed values for **Usage** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributeUsage>.  
-  
-## See Also  
- [Attributes and Attribute Hierarchies](../../../analysis-services/multidimensional-models-olap-logical-dimension-../objects/attributes-and-attribute-hierarchies.md)   
- [Properties &#40;ASSL&#41;](properties-assl.md)  
+ The enumeration that corresponds to the allowed values for **Usage** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.AttributeUsage>`.  
+
   
   

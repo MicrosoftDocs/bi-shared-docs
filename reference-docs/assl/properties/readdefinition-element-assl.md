@@ -47,7 +47,7 @@ manager: kfile
 |-----------|-----------------|  
 |*None*|Access to the object definition is not allowed.|  
 |*Basic*|Basic access to the object definition is allowed.<br /><br /> Note: This permission is required for creating local cubes, linking measure groups, and linking dimensions.|  
-|*Allowed*|Full access to the object definition is allowed.<br /><br /> Note: This permission is required for executing a [Discover](../../../analysis-services/xmla/xml-elements-methods-discover.md) XML for Analysis (XMLA) call using the DISCOVER_XML_METADATA parameter.|  
+|*Allowed*|Full access to the object definition is allowed.<br /><br /> Note: This permission is required for executing a [Discover](../../xmla/xml-elements-methods-discover.md) XML for Analysis (XMLA) call using the DISCOVER_XML_METADATA parameter.|  
   
  The elements that correspond to the parents of **ReadDefinition** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CubePermission>, <xref:Microsoft.AnalysisServices.DatabasePermission>, <xref:Microsoft.AnalysisServices.DimensionPermission>, <xref:Microsoft.AnalysisServices.MiningModelPermission>, <xref:Microsoft.AnalysisServices.MiningStructurePermission>, and <xref:Microsoft.AnalysisServices.Permission>.  
   

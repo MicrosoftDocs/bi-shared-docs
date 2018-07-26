@@ -40,7 +40,7 @@ manager: kfile
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|[Relationship](relationship-data-type-assl.md)|  
-|Child elements|[Role](../../../analysis-services/xmla/xml-elements-../properties/role-element-xmla.md), [Multiplicity](../properties/multiplicity-element-assl.md), [DimensionID](../properties/dimensionid-element-assl.md), [Attributes](../collections/attributes-element-assl.md), [Translations](../collections/translations-element-assl.md), [VisualizationProperties](relationshipendvisualizationproperties-data-type-assl.md)|  
+|Child elements|[Role](../../xmla/xml-elements-../properties/role-element-xmla.md), [Multiplicity](../properties/multiplicity-element-assl.md), [DimensionID](../properties/dimensionid-element-assl.md), [Attributes](../collections/attributes-element-assl.md), [Translations](../collections/translations-element-assl.md), [VisualizationProperties](relationshipendvisualizationproperties-data-type-assl.md)|  
 |Derived elements||  
   
 ## Remarks  
