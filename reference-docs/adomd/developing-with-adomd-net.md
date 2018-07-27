@@ -21,6 +21,6 @@ manager: kfile
 |-----------|-----------------|  
 |[ADOMD.NET Client Programming](multidimensional-models-adomd-net-client/adomd-net-client-programming.md)|Describes how to use ADOMD.NET client objects to retrieve data and metadata from analytical data sources.|  
 |[ADOMD.NET Server Programming](multidimensional-models-adomd-net-server/adomd-net-server-programming.md)|Describes how to use ADOMD.NET server objects to create stored procedures and user-defined functions.|  
-|[Redistributing ADOMD.NET](multidimensional-models/adomd-net/redistributing-adomd-net.md)|Describes the process of redistributing ADOMD.NET.|  
+|[Redistributing ADOMD.NET](redistributing-adomd-net.md)|Describes the process of redistributing ADOMD.NET.|  
 |`<xref:Microsoft.AnalysisServices.AdomdClient>`|Details the objects that are contained in the **Microsoft.AnalysisServices.AdomdClient** namespace.|  
  

@@ -24,9 +24,3 @@ manager: kfile
  [Feature Pack for Microsoft SQL Server](http://go.microsoft.com/fwlink/?LinkId=389949)  
   
  [Microsoft Connect: ADOMD.NET Dependencies](http://go.microsoft.com/fwlink/?LinkId=389950)  
-  
-## See Also  
- [ADOMD.NET Client Programming](../../../analysis-services/multidimensional-models-adomd-net-client/adomd-net-client-programming.md)   
- [ADOMD.NET Server Programming](../../../analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-programming.md)  
-  
-  
