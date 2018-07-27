@@ -33,7 +33,7 @@ manager: kfile
 ## Typical Process Flow  
  Traditional ADOMD.NET applications usually follow the same workflow when working with an analytical database:  
   
-1.  First, a connection is made to the database, using the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>` object. When you open the connection, the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection> object exposes metadata about the server to which you have connected. In a dynamic application, some of this information is typically shown to the user so that the user can make a selection, such as which cube to query. The connection created during this step can be reused multiple times by the application, reducing overhead.  
+1.  First, a connection is made to the database, using the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>` object. When you open the connection, the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>` object exposes metadata about the server to which you have connected. In a dynamic application, some of this information is typically shown to the user so that the user can make a selection, such as which cube to query. The connection created during this step can be reused multiple times by the application, reducing overhead.  
   
      For more information: [Establishing Connections in ADOMD.NET](connections-in-adomd-net.md)  
   
