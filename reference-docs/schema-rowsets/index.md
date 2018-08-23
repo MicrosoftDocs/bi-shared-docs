@@ -1,3 +1,3 @@
 ---
-redirect_url: /sql/analysis-services/schema-rowsets/analysis-services-schema-rowsets
+redirect_url: /bi-ref/schema-rowsets/analysis-services-schema-rowsets
 ---
