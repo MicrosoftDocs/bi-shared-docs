@@ -20,7 +20,7 @@ manager: kfile
   
 ## AMO in the Analysis Services architecture
 
- By design, AMO is only intended for object management and not for querying data. If the user needs to query data from a client application, the client application should use [ADOMD.NET](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/adomd-net/developing-with-adomd-net).  
+ By design, AMO is only intended for object management and not for querying data. If the user needs to query data from a client application, the client application should use [ADOMD.NET](../adomd/developing-with-adomd-net.md).  
   
 ## AMO architecture
 
@@ -99,6 +99,6 @@ manager: kfile
  Automatic backup management can be done by using Integration Services tasks, or by creating specialized AMO applications that run automatically. By using AMO you can develop Backup interfaces for operators that help them in their daily jobs.  
   
 ##### Tasks AMO is not intended for querying data
- AMO cannot be used to query the data. To query data, including cubes and mining models, use ADOMD.NET from a user application. For more information, see [Developing with ADOMD.NET](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/adomd-net/developing-with-adomd-net).  
+ AMO cannot be used to query the data. To query data, including cubes and mining models, use ADOMD.NET from a user application. For more information, see [Developing with ADOMD.NET](../adomd/developing-with-adomd-net.md).  
   
   

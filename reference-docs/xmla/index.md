@@ -1,2 +1,5 @@
-[XML for Analysis (XMLA) Reference](xml-for-analysis-xmla-reference.md)
+---
+redirect_url: /bi-ref/xmla/xml-for-analysis-xmla-reference
+---
+
 
