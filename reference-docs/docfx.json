@@ -36,7 +36,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/ref-docs/breadcrumb/toc.json",
+      "breadcrumb_path": "/bi-ref/breadcrumb/toc.yml",
       "extendBreadcrumb": true,
       "feedback_system": "None"
     },
