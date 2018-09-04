@@ -1,3 +1,3 @@
 ---
-redirect_url: /bi-ref/assl/analysis-services-scripting-language-assl-for-xmla
+redirect_url: /bi-reference/assl/analysis-services-scripting-language-assl-for-xmla
 ---

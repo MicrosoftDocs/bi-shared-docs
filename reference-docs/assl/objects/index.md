@@ -1,3 +1,3 @@
 ---
-redirect_url: /bi-ref/assl/objects/objects-assl
+redirect_url: /bi-reference/assl/objects/objects-assl
 ---

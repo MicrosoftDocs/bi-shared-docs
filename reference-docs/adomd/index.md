@@ -1,3 +1,3 @@
 ---
-redirect_url: /bi-ref/adomd/developing-with-adomd-net
+redirect_url: /bi-reference/adomd/developing-with-adomd-net
 ---

@@ -1,3 +1,3 @@
 ---
-redirect_url: /bi-ref/trace-events/analysis-services-trace-events
+redirect_url: /bi-reference/trace-events/analysis-services-trace-events
 ---

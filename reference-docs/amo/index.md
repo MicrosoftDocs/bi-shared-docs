@@ -1,3 +1,3 @@
 ---
-redirect_url: /bi-ref/amo/developing-with-analysis-management-objects-amo
+redirect_url: /bi-reference/amo/developing-with-analysis-management-objects-amo
 ---
