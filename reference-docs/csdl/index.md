@@ -1,3 +1,3 @@
 ---
-redirect_url: /bi-ref/csdl/csdl-annotations-for-business-intelligence-csdlbi
+redirect_url: /bi-reference/csdl/csdl-annotations-for-business-intelligence-csdlbi
 ---

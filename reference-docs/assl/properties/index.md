@@ -1,3 +1,3 @@
 ---
-redirect_url: /bi-ref/assl/properties/properties-assl
+redirect_url: /bi-reference/assl/properties/properties-assl
 ---

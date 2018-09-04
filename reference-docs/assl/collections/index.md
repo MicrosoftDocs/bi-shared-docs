@@ -1,3 +1,3 @@
 ---
-redirect_url: /bi-ref/assl/collections/collections-assl
+redirect_url: /bi-reference/assl/collections/collections-assl
 ---
