@@ -1,0 +1,9 @@
+{
+    "redirections": [
+        {
+            "source_path": "schema-rowsets/data-mining-schema-rowsets.md",
+            "redirect_url": "https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services",
+            "redirect_document_id": false
+        }
+    ]
+}
