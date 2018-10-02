@@ -201,11 +201,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "schema-rowsets/xml/discover-enumerators-rowset.md",
-            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "schema-rowsets/xml/discover-dimension-stat-rowset.md",
             "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
@@ -296,22 +291,12 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "schema-rowsets/xml/discover-schema-rowsets-rowset.md",
-            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "schema-rowsets/xml/discover-sessions-rowset.md",
-            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "schema-rowsets/xml/discover-storage-table-column-segments-rowset.md",
-            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "schema-rowsets/xml/discover-storage-table-columns-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-storage-tables-rowset.md",
             "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
