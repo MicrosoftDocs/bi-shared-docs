@@ -21,6 +21,6 @@ manager: kfile
   
  For more information:  
   
- [Feature Pack for Microsoft SQL Server](http://go.microsoft.com/fwlink/?LinkId=389949)  
+ [Feature Pack for Microsoft SQL Server](https://go.microsoft.com/fwlink/?LinkId=389949)  
   
- [Microsoft Connect: ADOMD.NET Dependencies](http://go.microsoft.com/fwlink/?LinkId=389950)  
+ [Microsoft Connect: ADOMD.NET Dependencies](https://go.microsoft.com/fwlink/?LinkId=389950)  
