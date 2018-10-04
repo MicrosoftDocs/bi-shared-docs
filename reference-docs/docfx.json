@@ -2,16 +2,13 @@
   "build": {
     "content": [
       {
-            "files": ["breadcrumb/toc.yml"]
-      },
-      {
         "files": [
           "**/*.md",
-          "**/*.yml"
+          "**/*.yml",
+          "**/includes/**"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
           "_themes/**",
           "_themes.pdf/**",
           "README.md",
@@ -25,12 +22,13 @@
       {
         "files": [
           "**/*.png",
+          "**/*.jpg",
           "**/*.gif",
-          "**/*.jpg"
+          "**/*.svg",
+          "**/includes/media/**"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
           "_themes/**",
           "_themes.pdf/**"
         ]
