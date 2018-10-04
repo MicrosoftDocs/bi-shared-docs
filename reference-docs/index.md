@@ -136,6 +136,26 @@ description: Analysis Services shared pro BI references
                                 </a>
                             </li>
                             <li>
+                                <a href="assl/analysis-services-scripting-language-assl-for-xmla.md">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Analysis Services Scripting Language (ASSL for XMLA)</h3>
+                                                    <p>Applications communicate with Analysis Services using XML commands and object descriptions. Analysis Services Scripting Language (ASSL) represents the object definition language portion of this XML dialect.</p>
+                                                    <p>Applies to: SQL Server Analysis Services</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="adomd/developing-with-adomd-net.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -147,7 +167,7 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>ADOMD.NET</h3>
-                                                    <p>Microsoft .NET Framework data provider that is designed to communicate with Microsoft SQL Server Analysis Services. ADOMD.NET uses the XML for Analysis protocol to communicate with analytical data sources by using either TCP/IP or HTTP connections to transmit and receive SOAP requests and responses that are compliant with the XML for Analysis specification.</p>
+                                                    <p>Microsoft .NET Framework data provider that is designed to communicate with Microsoft SQL Server Analysis Services. ADOMD.NET uses the XML for Analysis protocol to communicate with analytical data sources by using either TCP/IP or HTTP.</p>
                                                     <p>**Applies to:** SQL Server Analysis Services (Multidimensional)</p>
                                                 </div>
                                             </div>
