@@ -27,7 +27,7 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Tabular Model Scripting Language (TMSL)</h3>
-                                                    <p>Command and object model definition syntax for tabular model databases at compatibility level 1200 or higher.</p>
+                                                    <p>Command and object model definition syntax for tabular model databases at compatibility level 1200 or higher.</p><br>
                                                     <p>Applies to: Azure Analysis Services, SQL Server Analysis Services, Power BI Premium</p>
                                                 </div>
                                             </div>
@@ -87,7 +87,7 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>XML for Analysis (XMLA)</h3>
-                                                    <p>Power BI offers a wide range of options for developers, from embedding to custom visuals and streaming datasets.</p>
+                                                    <p>Power BI offers a wide range of options for developers, from embedding to custom visuals and streaming datasets.</p><br>
                                                     <p>Applies to: Azure Analysis Services, SQL Server Analysis Services, Power BI Premium</p>
                                                 </div>
                                             </div>
@@ -147,7 +147,7 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Analysis Services Scripting Language (ASSL for XMLA)</h3>
-                                                    <p>Applications communicate with Analysis Services using XML commands and object descriptions. Analysis Services Scripting Language (ASSL) represents the object definition language portion of this XML dialect.</p>
+                                                    <p>Applications communicate with Analysis Services using XML commands and object descriptions. Analysis Services Scripting Language (ASSL) represents the object definition language portion of this XML dialect.</p><br>
                                                     <p>Applies to: SQL Server Analysis Services</p>
                                                 </div>
                                             </div>
