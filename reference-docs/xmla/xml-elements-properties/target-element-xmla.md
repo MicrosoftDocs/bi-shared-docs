@@ -49,7 +49,7 @@ manager: kfile
 ## Example  
  The following example combines all four partitions of the Internet Sales measure group into the `Internet_Sales_2004` target partition. The example refers to the cube of the sample database.  
   
-```  
+```xml  
 <MergePartitions xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">  
   <Sources>  
      <Source>  

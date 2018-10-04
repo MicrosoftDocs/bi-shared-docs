@@ -16,7 +16,7 @@ manager: kfile
   
 ## Syntax  
   
-```  
+```xml  
   
       Profiler syntax  
 <Traces>  
@@ -40,7 +40,7 @@ manager: kfile
 </Traces>  
 ```  
   
-```  
+```xml  
   
       Extended Events syntax  
 <Traces>  

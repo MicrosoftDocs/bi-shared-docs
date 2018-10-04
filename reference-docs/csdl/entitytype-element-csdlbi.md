@@ -58,7 +58,7 @@ manager: kfile
   
  The following sample shows part of the CSDLBI version 1.1 representation of the Geography table used in the AdventureWorks tabular model. The RowNumber column is a hidden column that is generated automatically as a row identifier in tabular models, and hence has the Contents attribute, **RowNumber**.  
   
-```  
+```xml   
   
 <EntityType   
      Name="DimGeography">  
@@ -82,7 +82,7 @@ manager: kfile
   
  The following sample shows the EntityType elements in CSDLBI version 1.1 that represent a portion of a time dimension from the Contoso Operations cube.  
   
-```  
+```xml   
 <EntityType   
        Name="CalendarQuarter">  
     <Key>  

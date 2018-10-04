@@ -44,7 +44,7 @@ True if the Table is treated as hidden; otherwise false.
 
  Table object definitions are complex. This syntax collapses interior properties and objects to give you a high-level look at the main parts.  
   
-```  
+```json   
 "tables": {  
           "type": "array",  
           "items": {  
@@ -65,7 +65,7 @@ True if the Table is treated as hidden; otherwise false.
 
  Below is the schema representation of a tables object of a model. To reduce the size of this definition, Partition objects are described elsewhere. See [Partitions object &#40;TMSL&#41;](partitions-object-tmsl.md).  
   
-```  
+```json   
 "tables": {  
           "type": "array",  
           "items": {  

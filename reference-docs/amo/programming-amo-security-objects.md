@@ -34,7 +34,7 @@ manager: kfile
   
  Readers can read on the supplied cube, and cell access is limited to the 'United States' in the customer dimension.  
   
-```  
+```csharp  
 static public void CreateRolesAndPermissions(Database db, Cube cube)  
 {  
     Role role;  

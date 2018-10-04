@@ -47,13 +47,13 @@ manager: kfile
   
  In SQL Server, the permission **AllowDrillthrough** has been extended to apply to a mining structure. When you assign this permission to a role, any user who is a member of that role can directly query the mining structure by using the following syntax:  
   
-```  
+```sql  
 SELECT <structure column list> FROM <structure>.CASES  
 ```  
   
  Moreover, if **AllowDrillthrough** is enabled on both the mining structure and the mining model, users can query structure columns that were not included in the mining model by using the following syntax:  
   
-```  
+```sql  
 SELECT StructureColumn('<structure column name>' FROM <model>.CASES  
 ```  
   

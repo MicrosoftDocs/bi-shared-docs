@@ -47,7 +47,7 @@ manager: kfile
   
  The following syntax describes a cell property definition:  
   
-```  
+```xml  
 <CellPropertyDefinition name="string" type"string" />  
 ```  
   
@@ -58,7 +58,7 @@ manager: kfile
 ## Example  
  The following example demonstrates how the VALUE, FORMATTED_VALUE, and FORMAT_STRING cell properties are represented in the **CellInfo** element.  
   
-```  
+```xml  
 <OlapInfo>  
    ...  
       <CellInfo>  

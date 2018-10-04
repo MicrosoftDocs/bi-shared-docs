@@ -29,7 +29,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows a column in the AdventureWorks sample data model that has been designated as the DisplayKey for the table.  
   
-```  
+```xml   
 <sample in progress>  
 ```  
   
@@ -38,7 +38,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows an excerpt from the representation of the Contoso Operations cube. In this model, the Color column has been marked as the display key for the Bikes table.  
   
-```  
+```xml   
   
 <EntityType   
     Name="Bike">  

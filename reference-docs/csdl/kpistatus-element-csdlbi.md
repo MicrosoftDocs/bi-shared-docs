@@ -26,7 +26,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the AdventureWorks tabular model sample. The KpiStatus element refers to a column (represented as a PropertyRef) that contains the value.  
   
-```  
+```xml   
   
 <Property Name="InternetCurrSalesPerf" Type="Double">  
    <bi:Measure>  
@@ -48,7 +48,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the Contoso Operations cube. The KpiStatus element references a measure that calculates the value for the KPI status.  
   
-```  
+```xml   
 <bi:Measure   
        Caption="Sum of SalesAmount"   
        ReferenceName="Sum of SalesAmount"   

@@ -24,9 +24,9 @@ manager: kfile
 ## Example  
  **Tabular**  
   
- The following example, in CSDLBI version 1.1, shows an excerpt from the AdventureWorks sample data model. There I sonly one default column set for the Employees table (Title). However, three columns have been defined as the default field set for the Products table.  
+ The following example, in CSDLBI version 1.1, shows an excerpt from the AdventureWorks sample data model. There Is only one default column set for the Employees table (Title). However, three columns have been defined as the default field set for the Products table.  
   
-```  
+```xml   
   
 <EntityType   
     Name="DimEmployee">  
@@ -51,7 +51,7 @@ manager: kfile
   
  The following example, in CSDLBI version 1.1, shows an excerpt from the definition of the Bike table in the Contoso Operations cube. This annotation indicates that the Color column should be displayed by default if no other display column is specified.  
   
-```  
+```xml   
   
 <EntityType Name="Bike">  
    <Key>  

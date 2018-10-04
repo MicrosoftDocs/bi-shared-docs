@@ -16,7 +16,7 @@ manager: kfile
   
 ## Syntax  
   
-```  
+```xml  
   
 <Discover> <!-- or Execute -->  
 ...  
@@ -49,7 +49,7 @@ manager: kfile
   
 ## Example  
   
-```  
+```xml  
 <Properties>  
    <PropertyList>  
       <DataSourceInfo>  

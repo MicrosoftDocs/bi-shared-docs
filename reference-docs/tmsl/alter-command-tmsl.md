@@ -24,7 +24,7 @@ manager: kfile
   
  The following example illustrates the syntax for changing a property on a partition object. The object path establishes which partition object is to be altered via name-value pairs of parent objects. The second input is a partition object that specifies the new property value.  
   
-```  
+```json  
 {   
   "alter": {   
     "object": {   
@@ -44,7 +44,7 @@ manager: kfile
   
  [Database object &#40;TMSL&#41;](database-object-tmsl.md) Rename a database.  
   
-```  
+```json   
 "alter": {   
     "object": {   
       "database": "\<database-name>"  
@@ -57,7 +57,7 @@ manager: kfile
   
  [DataSources object &#40;TMSL&#41;](datasources-object-tmsl.md) Rename a connection, which is a child object of database.  
   
-```  
+```json   
 {   
    "alter":{   
       "object":{   
@@ -77,7 +77,7 @@ manager: kfile
   
  [Roles object &#40;TMSL&#41;](roles-object-tmsl.md) Change a property on a role object.  
   
-```  
+```json   
 {   
    "alter":{   
       "object":{   
@@ -101,7 +101,7 @@ manager: kfile
   
  **Example 1** - This script changes the name property on a table.  
   
-```  
+```json   
 {   
   "alter": {   
     "object": {   
@@ -123,7 +123,7 @@ manager: kfile
   
  Unless you are creating, replacing, or altering the  data source object itself, any data source referenced in your script (such as in the partition script below) must be an existing **DataSource** object in your model. If you need to change the data source, do so as a separate step.  
   
-```  
+```json   
 {   
   "alter": {   
     "object": {   

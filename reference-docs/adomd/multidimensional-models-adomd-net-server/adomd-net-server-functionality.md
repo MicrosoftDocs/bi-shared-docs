@@ -29,7 +29,7 @@ manager: kfile
   
  The following example uses the fictional UDF, `FinalSalesNumber`:  
   
-```  
+```sql  
 SELECT SalesPerson.Name ON ROWS,  
        FinalSalesNumber() ON COLUMNS  
 FROM SalesModel  
@@ -46,6 +46,6 @@ FROM SalesModel
   
  The following example uses the fictional stored procedure, `FinalSalesNumbers`:  
   
-```  
+```sql 
 CALL FinalSalesNumbers()  
 ```  

@@ -51,7 +51,7 @@ manager: kfile
 ## Example  
  The following query returns the storage table segments associated with the model attribute LastName, in the current database.  
   
-```  
+```sql  
 SELECT DISTINCT TABLE_ID, COLUMN_ID   
 FROM $system.DISCOVER_STORAGE_TABLE_COLUMN_SEGMENTS  
 WHERE COLUMN_ID = 'LastName'  

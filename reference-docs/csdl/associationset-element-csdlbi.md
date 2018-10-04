@@ -41,7 +41,7 @@ manager: kfile
   
  The following sample shows a relationship in the AdventureWorks tabular model) (in CSDLBI version 1.1). The association is marked as Inactive, because there is an existing relationship (between OrderKey and Date).  
   
-```  
+```xml  
 <AssociationSet   
     Name="InternetSales_Date_Date_Date"  
     Association="Sandbox.InternetSales_Date_Date_Date">  
@@ -57,7 +57,7 @@ manager: kfile
   
  The following sample shows the relationship that is defined between the Sales and Currency tables, in the Contoso Operations cube.  
   
-```  
+```xml  
 <AssociationSet   
     Name ="Sales_Currency_Currency_Currency_Name2"  
     Association ="Sandbox.Sales_Currency_Currency_Currency_Name2">  

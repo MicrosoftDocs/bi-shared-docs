@@ -48,7 +48,7 @@ manager: kfile
 ## Example  
  The following example creates the **Market Basket** mining structure, included in the sample Analysis Services database.  
   
-```  
+```xml  
 <Create xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">  
     <ParentObject>  
         <DatabaseID>database</DatabaseID>  

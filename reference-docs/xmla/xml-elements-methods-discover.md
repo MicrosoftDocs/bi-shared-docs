@@ -55,7 +55,7 @@ manager: kfile
 
  In the following code sample, the client sends the **Discover** call to request a list of cubes from the Adventure Works DW Multidimensional 2012 sample Analysis Services database:  
   
-```  
+```xml  
 <Discover xmlns="urn:schemas-microsoft-com:xml-analysis">  
    <RequestType>MDSCHEMA_CUBES</RequestType>  
    <Restrictions>  

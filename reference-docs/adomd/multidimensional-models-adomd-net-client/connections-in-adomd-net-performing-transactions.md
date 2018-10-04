@@ -23,7 +23,7 @@ manager: kfile
 ## Starting a Transaction  
  You create an instance of an `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdTransaction>` object by calling the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.BeginTransaction%2A>` method of the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>` object. The following example shows how to create an instance of the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdTransaction>` object:  
   
-```  
+```vb  
 Dim objTransaction As AdomdTransaction = objConnection.BeginTransaction()  
 AdomdTransaction objTransaction = objConnection.BeginTransaction();  
 ```  

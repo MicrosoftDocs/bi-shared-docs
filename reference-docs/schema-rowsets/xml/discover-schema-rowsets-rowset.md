@@ -31,7 +31,7 @@ manager: kfile
   
  For a provider that supports three restrictions for the DBSCHEMA_MEMBERS schema rowset, the **Restrictions** array might return the following result. The elements in the result refer to column names in the schema.  
   
-```  
+```sql  
 <Restrictions>  
       <CATALOG_NAME type="string" />   
       <SCHEMA_NAME type="string" />   

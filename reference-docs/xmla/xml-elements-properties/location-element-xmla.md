@@ -23,7 +23,7 @@ manager: kfile
    <Location>  
 ```  
   
-```  
+```xml  
   
 <File>...</File> <!-- for Backup and Restore only -->  
 <DataSourceID>...</DataSourceID>  
@@ -32,7 +32,7 @@ manager: kfile
 <Folders>...</Folders> <!-- for Restore and Synchronize only -->  
 ```  
   
-```  
+```xml  
   
    </Location>  
    ...  

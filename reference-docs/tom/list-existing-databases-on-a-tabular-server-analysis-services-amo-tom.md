@@ -36,7 +36,7 @@ Multidimensional | Returns null | StorageEngineUsed.Traditional
 
 The code below illustrates how to connect to the server and list databases hosted by server. 
 
-```
+```csharp
 using System; using Microsoft.AnalysisServices; 
 using Microsoft.AnalysisServices.Tabular; 
 
@@ -90,7 +90,7 @@ namespace TOMSamples
 
 The following code snippet shows how to get a tabular or column from a database. 
 
-```
+```csharp
 var db = srv.Databases.GetByName("abc"); 
 
 Column c1 = db.Model.Tables["foo"].Columns["bar"]; 

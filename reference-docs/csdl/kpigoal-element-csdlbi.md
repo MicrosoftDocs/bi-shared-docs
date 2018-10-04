@@ -28,7 +28,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the Adventureworks sample model.  
   
-```  
+```xml   
   
 <Property Name="InternetCurrentSalesPerformance" Type="Double">  
   <bi:Measure>  
@@ -50,7 +50,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the Contoso Operations cube.  
   
-```  
+```xml   
 <bi:Measure   
        Caption="Sum of SalesAmount"   
        ReferenceName="Sum of SalesAmount"   

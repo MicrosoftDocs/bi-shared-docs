@@ -24,7 +24,7 @@ manager: kfile
   
  Replaces an existing database with a renamed, minimal database definition that specifies its name, modified model properties, and a connection. Because the object definition does not include tables, partitions, or relationships, all of those objects are deleted.  
   
-```  
+```json   
 {  
   "createOrReplace": {  
     "object": {  
@@ -59,7 +59,7 @@ manager: kfile
   
  [DataSources object &#40;TMSL&#41;](datasources-object-tmsl.md) Replaces a connection name.  
   
-```  
+```json   
 {  
   "createOrReplace": {  
     "object": {  
@@ -84,7 +84,7 @@ manager: kfile
   
  [Tables object &#40;TMSL&#41;](tables-object-tmsl.md) Overwrites any existing tables, leaving just the one specified.  
   
-```  
+```json   
 {  
   "createOrReplace": {  
     "object": {  
@@ -175,7 +175,7 @@ manager: kfile
   
  Unless you are creating, replacing, or altering the  data source object itself, any data source referenced in your script (such as in the partition script below) must be an existing **DataSource** object in your model. If you need to change the data source, add it to  
   
-```  
+```json   
 {  
   "createOrReplace": {  
     "object": {  
@@ -203,7 +203,7 @@ manager: kfile
   
  [Roles object &#40;TMSL&#41;](roles-object-tmsl.md) Replaces a role definition with one that includes members.  
   
-```  
+```json   
 {  
   "createOrReplace": {  
     "object": {  
@@ -231,7 +231,7 @@ manager: kfile
 
  **Example 1** - Creates a new database, overwriting an existing database of the same name.  
   
-```  
+```json   
 {  
   "createOrReplace": {  
     "object": {  

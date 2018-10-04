@@ -16,7 +16,7 @@ manager: kfile
   
  In SQL Server, the data mining schema rowsets are exposed as tables in the Transact-SQL language, in the $SYSTEM schema. For example, the following query on an Analysis Services instance returns a list of the schemas that are available on the current instance.  
   
-```  
+```sql  
 SELECT * FROM [$system].[DBSCHEMA_TABLES]  
 ```  
   

@@ -61,7 +61,7 @@ manager: kfile
   
  The following XMLA query returns the CSDL representation of the AdventureWorks 2012 tabular model sample. Each tabular solution can contain only one model, so the PERSPECTIVE_NAME restriction can be left blank. However, this model contains several perspectives.  
   
-```  
+```xml  
   
 <Discover  xmlns="urn:schemas-microsoft-com:xml-analysis">  
      <RequestType>DISCOVER_CSDL_METADATA</RequestType>  
@@ -85,7 +85,7 @@ manager: kfile
   
  The following XMLA query returns the CSDLBI representations of the Contoso Operations cube. The VERSION restriction is required to query a multidimensional database. The Contoso Retail database contains two cubes, so the Operations cube is referenced by using the PERSPECTIVE_NAME restriction.  
   
-```  
+```xml  
   
 <Discover  xmlns="urn:schemas-microsoft-com:xml-analysis">  
      <RequestType>DISCOVER_CSDL_METADATA</RequestType>  

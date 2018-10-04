@@ -16,14 +16,14 @@ manager: kfile
   
 TOM exposes native tabular metadata, such as **model**, **tables**, **columns**, and **relationships** objects. A high-level view of the object model tree, provided below, illustrates how the component parts are related.  
   
- Because TOM is an extension of AMO, all classes representing new tabular objects are implemented in a new Microsoft.AnalysisServices.Tabular.dll assembly. General-purpose classes of AMO were moved to Microsoft.AnalysisServices.Core assembly. Your code will need to reference both assemblies.
+ Because TOM is an extension of AMO, all classes representing new tabular objects are implemented in a new **Microsoft.AnalysisServices.Tabular.dll** assembly. General-purpose classes of AMO were moved to **Microsoft.AnalysisServices.Core** assembly. Your code will need to reference both assemblies.
  See [Install, distribute, and reference the Tabular Object Model &#40;Microsoft.AnalysisServices.Tabular&#41;](install-distribute-and-reference-the-tabular-object-model.md) for details.  
   
  Currently, the API is available only for managed code over the .NET framework. To review the full list of programming options, including script and query language support, see [Tabular Model Programming for Compatibility Level 1200](https://docs.microsoft.com/sql/analysis-services/tabular-model-programming-compatibility-level-1200/tabular-model-programming-for-compatibility-level-1200).  
   
 ## Tabular object model hierarchy
 
- From a logical perspective, all Tabular objects form a tree, the root of which is a **Model**, descended from Database. **Server** and **Database** are not considered "tabular" because these objects can also represent a Multidimensional database hosted on a server running in Multidimensional mode, or a Tabular model at a lower compatibility level that does not use Tabular metadata for object definitions. 
+ From a logical perspective, all tabular objects form a tree, the root of which is a **Model**, descended from Database. **Server** and **Database** are not considered tabular because these objects can also represent a multidimensional database hosted on a server running in Multidimensional mode, or a tabular model at a lower compatibility level that does not use tabular metadata for object definitions. 
   
  With the exception of **AttributeHierarchy**, **KPI**, and **LinguisticMetadata**, each child object can be a member of a collection. For example, the **Model** object contains a collection of **Table** objects (via the **Tables** property), with each **Table** object containing a collection of **Column** objects, and so on.  
   
@@ -33,22 +33,19 @@ TOM exposes native tabular metadata, such as **model**, **tables**, **columns**,
   
 ## TOM and other related technologies
 
-TOM is built on top of the AMO infrastructure, which also accommodates Multidimensional and Tabular databases at compatibility levels below 1200.
+TOM is built on top of the AMO infrastructure, which also accommodates multidimensional and tabular databases at compatibility levels below 1200. This has some practical implications. When you manage objects not specified in tabular metadata (such as a **Server** or **Database**), you need to leverage parts of the existing AMO stack that describe those objects. Along with the legacy API is the concept of major and minor objects that provide granular descriptions of object state as discovered from the server, or when saved to the server. The MajorObject class under Microsoft.AnalysisServices namespace exposes methods for **Refresh** and **Update**. Minor objects are only refresh or saved via the major object that contains them.
 
-This has some practical implications.
-First of all, when you manage objects that are not specified in Tabular metadata (such as a **Server** or **Database**), you'll need to leverage parts of the existing AMO stack that describe those objects. Along with the legacy API is the concept of major and minor objects that provide granular descriptions of object state as discovered from the server, or when saved to the server. The MajorObject class under Microsoft.AnalysisServices namespace exposes methods for **Refresh** and **Update**. Minor objects are only refresh or saved via the major object that contains them.
-
-In contrast, when you manage objects that are part of Tabular metadata (such as **Model** or **Table**), you leverage a completely new Tabular stack. Within this stack, updates are fine-grained, which means every metadata object (derived from the **MetadataObject** class under the Microsoft.AnalysisServices.Tabular namespace) can be individually saved to the server. Typically, you would discover the entire **Model**, then make changes to individual metadata objects under it (such as **Table** or **Column**), then call **Model.SaveChanges()** method (which understands changes made by you at fine-grained level), sending commands to the server to update only those objects that changed.
+In contrast, when you manage objects that are part of tabular metadata, such as **Model** or **Table**, you leverage a completely new tabular stack. Within this stack, updates are fine-grained, which means every metadata object, derived from the **MetadataObject** class under the Microsoft.AnalysisServices.Tabular namespace, can be individually saved to the server. Typically, you would discover the entire **Model**. You then make changes to individual metadata objects under it, such as **Table** or **Column**. You then call **Model.SaveChanges()** method which understands changes made by you at fine-grained level, sending commands to the server to update only those objects that changed.
 
 ### TOM and XMLA
 
-On the wire, TOM uses the XMLA protocol to communicate with the server and to manage objects. When managing non-tabular objects, TOM uses [ASSL](../assl/analysis-services-scripting-language-assl-for-xmla.md), the Analysis Services Scripting Language extension of XMLA. When managing tabular objects, TOM uses the MS-SSAS tabular protocol, also an extension of XMLA. See [MS-SSAS-T SQL Server Analysis Services Tabular protocol documentation](https://msdn.microsoft.com/library/mt719260.aspx) for more information.
+On the wire, TOM uses the XMLA protocol to communicate with the server and to manage objects. When managing non-tabular objects, TOM uses [ASSL](../assl/analysis-services-scripting-language-assl-for-xmla.md), the Analysis Services Scripting Language extension of XMLA. When managing tabular objects, TOM uses the MS-SSAS-T tabular protocol, also an extension of XMLA. To learn more, see [MS-SSAS-T SQL Server Analysis Services Tabular protocol documentation](https://msdn.microsoft.com/library/mt719260.aspx).
 
 ### TOM and JSON
 
 Tabular metadata, which is structured as JSON documents, has a new command and object model definition syntax via the Tabular Model Scripting Language (TMSL). The scripting language uses JSON for the body of requests and responses.
 
-Although both TMSL and TOM expose the same objects (**Table**, **Column**, and so forth) and the same operations (**Create**, **Delete**, **Refresh**), TOM does not use TMSL on the wire (it uses the MS-SSAS tabular protocol instead, as previously noted).
+Although both TMSL and TOM expose the same objects, **Table**, **Column** and so forth, and the same operations, **Create**, **Delete**, **Refresh**, TOM does not use TMSL on the wire. TOM uses the MS-SSAS-T tabular protocol instead, as previously noted.
 
 As a user, you can choose whether to manage tabular databases through the TOM library from your C# program or PowerShell script, or through TMSL script executed through PowerShell, SQL Server Management Studio (SSMS), or a SQL Server Agent Job.
 

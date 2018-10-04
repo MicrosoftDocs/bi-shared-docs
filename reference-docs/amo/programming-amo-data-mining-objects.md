@@ -34,7 +34,7 @@ manager: kfile
   
  The following sample code creates a mining structure to forecast sales in a time series. Before running the sample code, make sure that the database *db*, passed as parameter for `CreateSalesForecastingMiningStructure`, contains in `db.DataSourceViews[0]` a reference to the view *dbo.vTimeSeries* in the Adventure Works Data Warehouse sample database.  
   
-```  
+```csharp  
 public static MiningStructure CreateSalesForecastingMiningStructure(Database db)  
 {  
     MiningStructure ms = db.MiningStructures.FindByName("Forecasting Sales Structure");  
@@ -88,7 +88,7 @@ public static MiningStructure CreateSalesForecastingMiningStructure(Database db)
   
  The following sample code creates a Microsoft Time Series forecasting model based on the "Forecasting Sales Structure" mining structure:  
   
-```  
+```csharp  
 public static MiningModel CreateSalesForecastingMiningModel(MiningStructure ms)  
 {  
     if (ms.MiningModels.ContainsName("Sales Forecasting Model"))  

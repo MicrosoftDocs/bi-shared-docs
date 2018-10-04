@@ -54,7 +54,7 @@ manager: kfile
 ## Example  
  The following example creates an empty database named **Test Database** on an Analysis Services instance.  
   
-```  
+```xml  
   
       <Create xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">  
    <ObjectDefinition>  

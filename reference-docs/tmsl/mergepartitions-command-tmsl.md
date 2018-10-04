@@ -18,7 +18,7 @@ manager: kfile
 
  You must specify the database, table, and source and target partitions. You can only merge partitions from the same table.  
   
-```  
+```json   
 {   
   "mergePartitions": {   
     "object": {   

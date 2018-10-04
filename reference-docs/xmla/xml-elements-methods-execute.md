@@ -20,7 +20,7 @@ manager: kfile
   
 ## Syntax  
   
-```  
+```xml  
   
 <Execute>  
    <Command>...</Command>  
@@ -52,7 +52,7 @@ manager: kfile
 
  The following code sample is an example of an **Execute** method call that contains an Multidimensional Expressions (MDX) SELECT statement.  
   
-```  
+```xml  
 <Execute xmlns="urn:schemas-microsoft-com:xml-analysis">  
    <Command>  
       <Statement>  

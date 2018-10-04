@@ -53,7 +53,7 @@ manager: kfile
 |**Time** hierarchy|1999|1999|2000|  
 |**Category** hierarchy|Actual|Budget|Budget|  
   
-```  
+```xml  
 <Axes>  
    <Axis name="Axis0">  
       <Tuples>  

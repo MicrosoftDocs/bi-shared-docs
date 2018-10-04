@@ -40,7 +40,7 @@ manager: kfile
   
  The following sample code replicates three different actions from the Adventure Works Analysis Services Project sample. You can differentiate the actions because the ones that you introduce by using the following sample, start with "My".  
   
-```  
+```csharp  
 static public void CreateActions(Cube cube)  
 {  
     #region Adding a drillthrough action  
@@ -227,7 +227,7 @@ static public void CreateActions(Cube cube)
   
  The following sample code creates a KPI in the "Financial Perpective/Grow Revenue" folder for the Adventure Works cube that is included in the Adventure Works Analysis Services Project sample.  
   
-```  
+```csharp  
 static public void CreateKPIs(Cube cube)  
 {  
     Kpi kpi = cube.Kpis.Add("My Internet Revenue", "My Internet Revenue");  
@@ -343,7 +343,7 @@ static public void CreateKPIs(Cube cube)
   
  The following code sample creates a perspective named "Direct Sales" for the supplied cube.  
   
-```  
+```csharp  
 static public void CreatePerspectives(Cube cube)  
 {  
     Perspective perspective = cube.Perspectives.Add("Direct Sales", "Direct Sales");  
@@ -412,7 +412,7 @@ static public void CreatePerspectives(Cube cube)
   
  The following code sample creates a `<xref:Microsoft.AnalysisServices.ProactiveCaching>` object in all partitions from the Internet Sales measure group in the Adventure Works cube in a specified database.  
   
-```  
+```csharp  
 static public void SetProactiveCachingSettings(Database db)  
 {  
     ProactiveCaching pc;  
@@ -451,7 +451,7 @@ static public void SetProactiveCachingSettings(Database db)
   
  The following code sample provides a Spanish translation for the name of the attribute Product Name.  
   
-```  
+```csharp  
 static public void CreateTranslations(Database db)  
 {  
     //Spanish Tranlations for Product Category in Product Dimension  

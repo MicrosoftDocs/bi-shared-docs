@@ -57,7 +57,7 @@ manager: kfile
 
  Below is the schema representation of a relationship object.  
   
-```  
+```json   
 "relationships": {  
           "type": "array",  
           "items": {  

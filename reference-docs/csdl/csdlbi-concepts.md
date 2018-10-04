@@ -39,7 +39,7 @@ manager: kfile
 ### Entities, EntitySets, and EntityTypes  
  The notion of an entity in the Entity Data Framework is extended to represent columns and tables from the data model. The following excerpt shows the list of **EntitySet** elements in a simple model containing only three tables.  
   
-```  
+```xml  
 <EntityContainer Name="SimpleModel">  
 <EntitySet Name="DimCustomer"EntityType="SimpleModel.DimCustomer">  
      <bi:EntitySet />  
@@ -57,7 +57,7 @@ manager: kfile
   
  The **EntitySet** element for each entity (table) includes a collection of properties that define the key column, the data type and length of the column, nullability, sorting behavior, and so forth. For example, the following CSDL excerpt describes three columns in the Customer table. The first column is a special hidden column used internally by the model.  
   
-```  
+```xml  
 <EntityType Name="Customer">  
   <Key>  
      <PropertyRef Name="RowNumber" />  
@@ -86,7 +86,7 @@ manager: kfile
   
  The following sample represents the CSDLBI output for a relationship between the tables, Date and ProductInventory, where the two tables are joined on the column DateAlternateKey. Notice that, by default, the name of the **AssociationSet** is the fully qualified name of the columns that are involved in the relationship. However, you can change this behavior when you design the model, to use a different naming format.  
   
-```  
+```xml   
 <AssociationSet Name="ProductInventory_Date_DateKey" Association="Model.ProductInventory_Date_DateKey">  
               <End EntitySet="ProductInventory" />  
               <End EntitySet="Date" />  

@@ -23,7 +23,7 @@ manager: kfile
 ### Returning a Node Description  
  The following example creates a UDF that returns the node description for a specified node. The UDF uses the current context in which it is being run, and uses a DMX FROM clause to retrieve the node from the current mining model.  
   
-```  
+```sql  
 public string GetNodeDescription(string nodeUniqueName)  
 {  
    return Context.CurrentMiningModel.GetNodeFromUniqueName(nodeUniqueName).Description;  
@@ -32,14 +32,14 @@ public string GetNodeDescription(string nodeUniqueName)
   
  Once deployed, the previous UDF example can be called by the following DMX expression, which retrieves the most-likely prediction node. The description contains information that describes the conditions that make up the prediction node.  
   
-```  
+```sql  
 select Cluster(), SampleAssembly.GetNodeDescription( PredictNodeId(Cluster()) ) FROM [Customer Clusters]  
 ```  
   
 ### Returning Tuples  
  The following example takes a set and a return count, and randomly retrieves tuples from the set, returning a final subset:  
   
-```  
+```sql  
 public Set RandomSample(Set set, int returnCount)  
 {  
    //Return the original set if there are fewer tuples  
@@ -70,7 +70,7 @@ public Set RandomSample(Set set, int returnCount)
   
  The previous example is called in the following MDX example. In this MDX example, five random states or provinces are retrieved from the **Adventure Works** database.  
   
-```  
+```sql  
 SELECT SampleAssembly.RandomSample([Geography].[State-Province].Members, 5) on ROWS,   
 [Date].[Calendar].[Calendar Year] on COLUMNS  
 FROM [Adventure Works]  
@@ -84,7 +84,7 @@ WHERE [Measures].[Reseller Freight Cost]
   
  The previous example is called in the following MDX example, which filters the set to cities with names beginning with 'A'.  
   
-```  
+```sql  
 Select Measures.Members on Rows,  
 SampleAssembly.FilterSet([Customer].[Customer Geography].[City], "[Customer].[Customer Geography].[City].CurrentMember.Name < 'B'") on Columns  
 From [Adventure Works]  

@@ -37,7 +37,7 @@ manager: kfile
   
  The following query is a simple DMV query that returns values for all of the columns in this rowset, using the default database on the current connection. You can run this query in an MDX query window and view its results in SQL Server Management Studio. You can also follow the techniques described in [Querying Power Pivot DMVs from Excel](http://go.microsoft.com/fwlink/?LinkID=235146) to view DMV query results in Excel.  
   
-```  
+```sql  
 SELECT * FROM $System.DISCOVER_CALC_DEPENDENCY  
 ```  
   
@@ -46,7 +46,7 @@ SELECT * FROM $System.DISCOVER_CALC_DEPENDENCY
   
  Add an ORDER BY to sort the rowset by table or another column.  
   
-```  
+```sql  
 SELECT * FROM $System.DISCOVER_CALC_DEPENDENCY ORDER BY [TABLE] ASC  
 ```  
   
@@ -55,7 +55,7 @@ SELECT * FROM $System.DISCOVER_CALC_DEPENDENCY ORDER BY [TABLE] ASC
   
  The next query shows how to add a restriction using the WHERE clause. The following columns can be used as query filters in a WHERE clause: **Database_Name**, **Object_Type**, and **Query**.  
   
-```  
+```sql  
 SELECT * From $SYSTEM.DISCOVER_CALC_DEPENDENCY WHERE OBJECT_TYPE = 'RELATIONSHIP' OR OBJECT_TYPE = 'ACTIVE_RELATIONSHIP'  
 ```  
   
@@ -64,7 +64,7 @@ SELECT * From $SYSTEM.DISCOVER_CALC_DEPENDENCY WHERE OBJECT_TYPE = 'RELATIONSHIP
   
  In this query, you can select just the measure or calculated column, and then view the DAX expression used in the calculation. The EXPRESSION column contains the DAX expressions. If you are using DISCOVER_CALC_DEPENDENCY to extract DAX expression used in the model, this query is sufficient for that purpose. It returns all expressions used in the model, in ascending order.  
   
-```  
+```sql  
 SELECT * From $SYSTEM.DISCOVER_CALC_DEPENDENCY WHERE OBJECT_TYPE = 'MEASURE' OR OBJECT_TYPE = 'CALC_COLUMN' ORDER BY [EXPRESSION] ASC  
 ```  
   
@@ -80,11 +80,11 @@ SELECT * From $SYSTEM.DISCOVER_CALC_DEPENDENCY WHERE OBJECT_TYPE = 'MEASURE' OR 
 > [!NOTE]  
 >  Although the queries appear to use double-quotes, in fact only single quotes are used. One pair of single quotation marks encloses ‘Evaluate \<Tablename>’, and single quotation marks used around the table name need to be escaped by doubling them up. Single quotation marks around a table name are needed only for table names that include a space.  
   
-```  
+```sql  
 SELECT * From $SYSTEM.DISCOVER_CALC_DEPENDENCY WHERE QUERY = 'EVALUATE ''Reseller Sales'''  
 ```  
   
-```  
+```sql  
 SELECT * from $system.DISCOVER_CALC_DEPENDENCY WHERE QUERY = 'EVALUATE CALCULATETABLE(VALUES(''Product Subcategory''[Product Subcategory Name]), ''Product Category''[Product Category Name] = "Bikes")'  
 ```  
   
@@ -93,7 +93,7 @@ SELECT * from $system.DISCOVER_CALC_DEPENDENCY WHERE QUERY = 'EVALUATE CALCULATE
   
  You can use an XMLA Discover command to return the query objects in a table. XMLA returns results as raw XML. You can use ADOMD.NET to parse the results in a more readable format.  
   
-```  
+```xml  
 <Discover xmlns="urn:schemas-microsoft-com:xml-analysis">  
    <RequestType>DISCOVER_CALC_DEPENDENCY</RequestType>  
      <Restrictions>  

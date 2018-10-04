@@ -49,7 +49,7 @@ manager: kfile
 ## Example  
  The following example combines all four partitions of the `Internet Sales` measure group into the `Internet_Sales_2004` target partition. The example refers to the **Adventure Works** cube of the sample database.  
   
-```  
+```xml  
 <MergePartitions xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">  
   <Sources>  
      <Source>        <DatabaseID>Adventure Works DW Multidimensional 2012</DatabaseID>        <CubeID>Adventure Works</CubeID>        <MeasureGroupID>Fact Internet Sales 1</MeasureGroupID>        <PartitionID>Internet_Sales_2001</PartitionID>     </Source>     <Source>        <DatabaseID>Adventure Works DW Multidimensional 2012</DatabaseID>        <CubeID>Adventure Works</CubeID>      <MeasureGroupID>Fact Internet Sales 1</MeasureGroupID>      <PartitionID>Internet_Sales_2002</PartitionID>    </Source>    <Source>      <MeasureGroupID>Fact Internet Sales 1</MeasureGroupID>      <PartitionID>Internet_Sales_2003</PartitionID>    </Source>  

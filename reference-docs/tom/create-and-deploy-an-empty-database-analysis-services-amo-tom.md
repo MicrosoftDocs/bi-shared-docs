@@ -26,7 +26,7 @@ Creating and deploying a new database is a three-part task:
 
 ## Code example: create empty database 
 
-```
+```csharp
 using System; 
 using Microsoft.AnalysisServices; 
 using Microsoft.AnalysisServices.Tabular; 

@@ -53,7 +53,7 @@ manager: kfile
   
  Any variation on this will break parallelism.  
   
-```  
+```json   
 {   
   "sequence":    
     {   

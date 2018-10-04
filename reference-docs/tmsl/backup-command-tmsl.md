@@ -16,7 +16,7 @@ manager: kfile
   
 ## Request  
   
-```  
+```json   
     {  
         "backup": {  
             "description": "Parameters of Backup command of Analysis Services JSON API",  
@@ -59,7 +59,7 @@ manager: kfile
 
  **Example 1** - Backup a file to the default backup folder.  
   
-```  
+```json   
 {   
    "backup": {   
       "database":"AS_AdventureWorksDW2014",  

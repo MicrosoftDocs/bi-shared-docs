@@ -46,7 +46,7 @@ manager: kfile
 ## Example  
  The following example represents a **root** element returned for an empty result.  
   
-```  
+```xml  
 <return>  
    <root xmlns="urn:schemas-microsoft-com:xml-analysis:empty"/>  
 </return>  

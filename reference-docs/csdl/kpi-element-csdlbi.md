@@ -34,7 +34,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.0, shows a KPI that measures sales, from the AdventureWorks tabular model sample.  
   
-```  
+```xml   
   
 <Property Name="InternetCurrSalesPerf" Type="Double">  
   <bi:Measure>  
@@ -56,7 +56,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the Contoso Operations cube.  
   
-```  
+```xml   
 <Property Name="Sum_of_SalesAmount" Type="Decimal" Precision="19" Scale="4">  
    <Documentation>  
      <Summary>KPI Description</Summary>  

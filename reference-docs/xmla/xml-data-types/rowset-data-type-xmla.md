@@ -47,7 +47,7 @@ manager: kfile
   
  Encoding can make Extensible Style Language (XSL) transformations difficult. To support a quick lookup of the actual, unencoded column names, add the **sql:field**attribute to the XML rowset schema for each column, as shown in the following example:  
   
-```  
+```xml  
 <xsd:element name="Order_x0020_Details" type="string" sql:field="Order Details" />  
 ```  
   
@@ -63,7 +63,7 @@ manager: kfile
   
  For example, a row has a single column called, Store_Name, and the value of that column is NULL. The value of the Store_Name column can be represented as a missing column element:Or, the value of the Store_Name column can be represented using the `xsi:nil='true'` attribute:  
   
-```  
+```xml  
 <row>  
    <Store_name xsi:nil='true'/>  
 </row>  
@@ -76,7 +76,7 @@ manager: kfile
   
  The following example shows the XMLA rowset format for flat data.  
   
-```  
+```xml  
 <return>  
    <root xmlns="urn:schemas-microsoft-com:xml-analysis:rowset">  
    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:sql="urn:schemas-microsoft-com:xml-sql">  
@@ -105,7 +105,7 @@ manager: kfile
   
  The following example shows the XMLA rowset format for hierarchical data. In this example, the element subtype that contains the nested data is `<NODE_DISTRIBUTION>`.  
   
-```  
+```xml  
 <?xml version="1.0" encoding="UTF-8"?>  
 <root xmlns="urn:schemas-microsoft-com:xml-analysis:rowset">  
    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"  

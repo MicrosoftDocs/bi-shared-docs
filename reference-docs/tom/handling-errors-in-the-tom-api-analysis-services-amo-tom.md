@@ -28,7 +28,7 @@ Note that the server will not accept changes that are invalid. If this occurs, r
 
 ## Code Example: handle exceptions 
  
-```
+```csharp
  try 
  { 
   // Change the Model, for example create a table. 

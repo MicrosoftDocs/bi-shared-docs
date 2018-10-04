@@ -35,7 +35,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, represents a portion of the AdventureWorks sample data model that defines the Products table. Here the MemberRef element is used for each column that is included in the default field set for the model.  
   
-```  
+```xml   
   
 <bi:EntityType>  
    <bi:DefaultDetails>  
@@ -51,7 +51,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, represents a portion of the Contoso Operations cube that defines the Bikes table. In this sample, a MemberRef element is used to specify the name of the column that is used as the default field set in reports, and another MemberRef element is used to reference the column that provides the sort order.  
   
-```  
+```xml   
   
 <bi:DefaultDetails>  
    <bi:MemberRef Name="Color" />  
