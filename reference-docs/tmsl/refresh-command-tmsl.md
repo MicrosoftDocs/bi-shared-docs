@@ -31,7 +31,7 @@ manager: kfile
 
  **Refresh** takes a type parameter and object definition.  
   
-```  
+```json   
     {  
         "refresh": {  
             "description": "Parameters of Refresh command of Analysis Services JSON API",  
@@ -68,7 +68,7 @@ manager: kfile
   
  [Database object &#40;TMSL&#41;](database-object-tmsl.md) Process a database.  
   
-```  
+```json   
 {  
   "refresh": {  
     "type": "automatic",  
@@ -83,7 +83,7 @@ manager: kfile
   
  [Tables object &#40;TMSL&#41;](tables-object-tmsl.md) Process a single table.  
   
-```  
+```json   
 {  
   "refresh": {  
     "type": "automatic",  
@@ -99,7 +99,7 @@ manager: kfile
   
  [Partitions object &#40;TMSL&#41;](partitions-object-tmsl.md) Process a single partition within a table.  
   
-```  
+```json   
 {  
   "refresh": {  
     "type": "automatic",  
@@ -127,7 +127,7 @@ manager: kfile
 
  Override both the **ConnectionString** and query definition of a partition.  
   
-```  
+```json   
 {   
     "refresh": {   
         "type": "data",   
@@ -182,7 +182,7 @@ manager: kfile
   
  Scope particular overrides by setting the type parameter to a **dataOnly** refresh, metadata stays intact.  
   
-```  
+```json   
 {   
         "refresh" : {   
             "type" : "dataOnly",   

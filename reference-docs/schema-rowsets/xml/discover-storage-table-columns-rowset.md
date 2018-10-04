@@ -49,7 +49,7 @@ manager: kfile
 ## Example  
  The following code sample uses a DMV query to return the result set.  
   
-```  
+```sql  
 SELECT *  
 FROM $System.DISCOVER_STORAGE_TABLE_COLUMNS  
 ORDER BY TABLE_ID DESC  

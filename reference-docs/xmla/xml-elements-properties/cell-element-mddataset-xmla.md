@@ -53,7 +53,7 @@ manager: kfile
   
  The following syntax describes a cell property value:  
   
-```  
+```xml  
 <CellProperty xsi:type="string">value</CellProperty>  
 ```  
   
@@ -62,7 +62,7 @@ manager: kfile
 ## Cell Property Errors  
  If a cell property cannot be returned due to an error that occurs on the instance of Analysis Services, such as a calculation error that prevents the value from being returned for a given cell, an **Error** element replaces the contents of the cell property in question. The following XML example describes a cell property error:  
   
-```  
+```xml  
 <Cell CellOrdinal="0">  
    <Value xsi:type="xsd:double">  
       <Error>  
@@ -100,7 +100,7 @@ manager: kfile
 ## Example  
  The following example demonstrates the structure of the **Cell** element, including the VALUE, FORMATTED_VALUE, and FORMAT_STRING cell property values for each cell.  
   
-```  
+```xml  
 <CellData>  
    <Cell CellOrdinal="0">  
       <Value xsi:type="xsd:double">16890</Value>  

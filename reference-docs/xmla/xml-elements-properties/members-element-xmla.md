@@ -59,7 +59,7 @@ manager: kfile
 |**Category** hierarchy|Actual|Budget|Budget|Budget|  
 |Clusters|Cluster 1|Cluster 1|Cluster 1|Cluster 2|  
   
-```  
+```xml  
 <Axes>  
    <Axis name="Axis0">  
       <CrossProduct Size = "4">  

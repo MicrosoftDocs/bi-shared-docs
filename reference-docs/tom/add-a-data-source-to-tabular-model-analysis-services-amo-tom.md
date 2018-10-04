@@ -22,7 +22,7 @@ Tabular models support data import only from relational data sources, where the 
 
 This example demonstrate how to instantiate a **ProviderDataSource** and add it to a data model. 
 
-```
+```csharp
 using System; 
 using Microsoft.AnalysisServices; 
 using Microsoft.AnalysisServices.Tabular; 

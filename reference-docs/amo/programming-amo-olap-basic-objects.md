@@ -44,7 +44,7 @@ manager: kfile
   
  The following sample code creates the Product dimension from the Adventure Works products table in the sample database.  
   
-```  
+```csharp  
 static void CreateProductDimension(Database db, string datasourceName)  
 {  
     // Create the Product dimension  
@@ -146,7 +146,7 @@ static DataItem CreateDataItem(DataSourceView dsv, string tableName, string colu
   
  The following code does an incremental update in all dimensions of a supplied database:  
   
-```  
+```csharp  
 static void UpdateAllDimensions(Database db)  
 {  
     foreach (Dimension dim in db.Dimensions)  
@@ -184,7 +184,7 @@ static void UpdateAllDimensions(Database db)
   
  The following code sample creates the parts of the Adventure Works cube. The code sample does not create all dimensions or measure groups that are included in the Adventure Works Analysis Services Project sample.  
   
-```  
+```csharp  
 static void CreateAdventureWorksCube(Database db, string datasourceName)  
 {  
     // Create the Adventure Works cube  
@@ -234,7 +234,7 @@ static void CreateAdventureWorksCube(Database db, string datasourceName)
   
  The following code will do a full process on all cubes in a specified database:  
   
-```  
+```csharp  
 foreach (Cube cube in db.Cubes)  
              cube.Process(ProcessType.ProcessFull);  
      }  
@@ -272,7 +272,7 @@ foreach (Cube cube in db.Cubes)
   
  The following sample code will create the InternetSales measure group of the Adventure Works Analysis Services Project sample.  
   
-```  
+```csharp  
 static void CreateInternetSalesMeasureGroup(Cube cube)  
 {  
     // Create the Internet Sales measure group  
@@ -401,7 +401,7 @@ static void CreateInternetSalesMeasureGroup(Cube cube)
   
  The following code will do a full process in all measure groups of a supplied cube.  
   
-```  
+```csharp  
 static void FullProcessAllMeasureGroups(Cube cube)  
 {  
     foreach (MeasureGroup mg in cube.MeasureGroups)  
@@ -429,7 +429,7 @@ static void FullProcessAllMeasureGroups(Cube cube)
   
  The following code sample creates partitions for the 'InternetSales' measure group.  
   
-```  
+```csharp  
 static void CreateInternetSalesMeasureGroupPartitions(MeasureGroup mg)  
 {  
     Partition part;  
@@ -468,7 +468,7 @@ static void CreateInternetSalesMeasureGroupPartitions(MeasureGroup mg)
   
  The following code sample does a full process in all partitions of a specified measure group.  
   
-```  
+```csharp  
 static void FullProcessAllPartitions(MeasureGroup mg)  
 {  
     foreach (Partition part in mg.Partitions)  
@@ -496,7 +496,7 @@ static void FullProcessAllPartitions(MeasureGroup mg)
   
  The following code sample merges all partitions of a specified measure group. The partitions are merged into the first partition of the measure group.  
   
-```  
+```csharp  
 static void MergeAllPartitions(MeasureGroup mg)  
 {  
     if (mg.Partitions.Count > 1)  
@@ -520,7 +520,7 @@ static void MergeAllPartitions(MeasureGroup mg)
   
  The following code sample creates aggregations for all partitions of a supplied measure group. Any existing aggregations in partitions are dropped.  
   
-```  
+```csharp  
 static public String DesignAggregationsOnPartitions(MeasureGroup mg, double optimizationWanted, double maxStorageBytes)  
 {  
     double optimization = 0;  

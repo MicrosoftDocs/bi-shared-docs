@@ -51,14 +51,14 @@ manager: kfile
   
  For example, if a row has a single column called, Store_Name, and its value is NULL, it can be represented as either:  
   
-```  
+```xml  
 <row>  
 </row>  
 ```  
   
  Or:  
   
-```  
+```xml  
 <row>  
    <Store_name xsi:nil='true'/>  
 </row>  
@@ -66,7 +66,7 @@ manager: kfile
   
  If a column element contains an error, an **Error** element provides information about an error, as described in the following example:  
   
-```  
+```xml  
 <row>   <Store_name>  
       <Error xmlns="urn:schemas-microsoft-com:xml-analysis:exception">  
          <ErrorCode>3238658054</ErrorCode>  

@@ -35,7 +35,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows a PropertyRef element that specifies the source of a formula that is used in a measure, from the AdventureWorks tabular model sample.  
   
-```  
+```xml   
 <bi:Measure Caption="Total Current Quarter Margin Performance" ReferenceName="Total Current Quarter Margin Performance" Width="0" IsSimpleMeasure="false">  
   <bi:Kpi StatusGraphic="Three Symbols UnCircled Colored">  
     <bi:KpiGoal>  
@@ -53,7 +53,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the Contoso Operations cube. The PropertyRef elements point to the columns that contains the formula or values that are used to define the KPI’s goal and status relative to that goal.  
   
-```  
+```xml   
 <Property Name="Sum_of_SalesAmount" Type="Decimal" Precision="19" Scale="4">  
    <Documentation>  
      <Summary>KPI Description</Summary>  

@@ -16,7 +16,7 @@ manager: kfile
   
 ## Syntax  
   
-```  
+```xml  
   
 <Properties>  
    <PropertyList>  
@@ -47,7 +47,7 @@ manager: kfile
   
 ## Example  
   
-```  
+```xml  
 <Properties>  
    <PropertyList>  
       <DataSourceInfo>  

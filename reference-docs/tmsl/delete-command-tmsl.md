@@ -19,7 +19,7 @@ It deletes the specified object and all child objects and collections. If the ob
 
  The object being deleted is specified by using the object path. For example, deleting a partition requires that you specify the table and database objects that precede it.  
   
-```  
+```json   
 {   
   "delete": {   
     "object": {   
@@ -35,7 +35,7 @@ It deletes the specified object and all child objects and collections. If the ob
   
  [Database object &#40;TMSL&#41;](database-object-tmsl.md)  
   
-```  
+```json   
 {   
   "delete": {   
     "object": {   
@@ -47,7 +47,7 @@ It deletes the specified object and all child objects and collections. If the ob
   
  [DataSources object &#40;TMSL&#41;](datasources-object-tmsl.md)  
   
-```  
+```json   
 {  
   "delete": {  
     "object": {  
@@ -60,7 +60,7 @@ It deletes the specified object and all child objects and collections. If the ob
   
  [Tables object &#40;TMSL&#41;](tables-object-tmsl.md)  
   
-```  
+```json   
 {   
   "delete": {   
     "object": {   
@@ -73,7 +73,7 @@ It deletes the specified object and all child objects and collections. If the ob
   
  [Partitions object &#40;TMSL&#41;](partitions-object-tmsl.md)  
   
-```  
+```json   
 {   
   "delete": {   
     "object": {   
@@ -87,7 +87,7 @@ It deletes the specified object and all child objects and collections. If the ob
   
  [Roles object &#40;TMSL&#41;](roles-object-tmsl.md)  
   
-```  
+```json   
 {   
   "delete": {   
     "object": {   
@@ -106,7 +106,7 @@ It deletes the specified object and all child objects and collections. If the ob
 
  **Example 1** - Delete a database.  
   
-```  
+```json   
 {  
   "delete": {  
     "object": {  
@@ -118,7 +118,7 @@ It deletes the specified object and all child objects and collections. If the ob
   
  **Example 2** - Delete a connection.  
   
-```  
+```json   
 {  
   "delete": {  
     "object": {  

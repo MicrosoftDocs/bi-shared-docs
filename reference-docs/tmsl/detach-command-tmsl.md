@@ -16,7 +16,7 @@ manager: kfile
   
 ## Request  
   
-```  
+```json   
 {   
    "detach": {    
       "database":"AdventureWorksDW2014",  

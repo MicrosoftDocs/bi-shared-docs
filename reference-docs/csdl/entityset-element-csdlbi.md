@@ -33,7 +33,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows the definitions of the Date and Geography tables, from the AdventureWorks tabular model.  
   
-```  
+```xml   
   
 <EntitySet   
    Name="Date"   
@@ -53,7 +53,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1 shows several EntitySet elements from the Contoso Retail Operations cube.  
   
-```  
+```xml   
   
 <EntitySet Name="Outage" EntityType="Sandbox.Outage">  
        <bi:EntitySet />  

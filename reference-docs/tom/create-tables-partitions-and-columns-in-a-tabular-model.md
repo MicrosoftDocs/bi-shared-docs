@@ -35,7 +35,7 @@ Tables are represented by Table class (in Microsoft.AnalysisServices.Tabular nam
 In the example below, we’ll define a regular table having one partition linked to a relational data source and a few regular columns. We will also submit the changes to the server and trigger a data refresh that brings the data into the model. This represents the most typical scenario when you want to load data from a SQL Server relational database into a Tabular solution. 
 
 
-```
+```csharp
 using System; 
 using Microsoft.AnalysisServices; 
 using Microsoft.AnalysisServices.Tabular; 

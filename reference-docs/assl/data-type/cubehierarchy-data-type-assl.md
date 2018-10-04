@@ -16,7 +16,7 @@ manager: kfile
   
 ## Syntax  
   
-```  
+```xml  
 <CubeHierarchy>   <HierarchyID>...</HierarchyID>   <Name>...</Name>   <OptimizedState>...</OptimizedState>   <Visible>...</Visible>   <Enabled>...</Enabled>   <Annotations>...</Annotations></CubeHierarchy>  
 ```  
   

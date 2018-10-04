@@ -45,7 +45,7 @@ manager: kfile
 ## Remarks  
  You can enable drillthrough on mining structures by adding the **AllowDrillthrough** permission to the [MiningStructurePermissions](../collections/miningstructurepermissions-element-assl.md) collection. If **AllowDrillthrough** is enabled on both the mining structure and the mining model, any member of a role that has [AllowDrillThrough Element &#40;ASSL&#41;](../properties/allowdrillthrough-element-assl.md) permissions on the model can query the data mining model, and return structure columns that were not included in the model, by using the following syntax:  
   
-```  
+```sql  
 SELECT StructureColumn('<column name>') FROM <model>.CASES  
 ```  
   

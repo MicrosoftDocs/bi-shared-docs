@@ -16,7 +16,7 @@ manager: kfile
   
 ## Syntax  
   
-```  
+```xml  
   
 <Discover>  
 ...  
@@ -47,7 +47,7 @@ manager: kfile
   
 ## Example  
   
-```  
+```xml  
 <Discover xmlns="urn:schemas-microsoft-com:xml-analysis">  
    <RequestType>DISCOVER_PROPERTIES</RequestType>  
    <Restrictions>  

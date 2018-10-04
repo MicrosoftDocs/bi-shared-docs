@@ -50,7 +50,7 @@ manager: kfile
   
  The effective query is:  
   
-```  
+```sql  
 SELECT Date, Product ID, Qty, Price, Qty * Price AS Amount   
    FROM Sales97 As Sales  
    WHERE Year(Sales.Date) = 97  

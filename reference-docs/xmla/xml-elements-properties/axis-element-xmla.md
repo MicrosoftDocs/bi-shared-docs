@@ -69,7 +69,7 @@ manager: kfile
   
 ### Code  
   
-```  
+```xml  
 <Axes>  
    <Axis name="Axis0">  
       <Tuples>  
@@ -120,7 +120,7 @@ manager: kfile
   
 ### Code  
   
-```  
+```xml  
 <Axes>  
    <Axis name="Axis0">  
       <CrossProduct Size = "4">  

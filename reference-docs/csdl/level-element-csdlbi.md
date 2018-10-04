@@ -30,7 +30,7 @@ manager: kfile
   
  The following example, in CSDLBI version 1.1, shows the definition of multiple levels in a hierarchy from the AdventureWorks tabular model sample.  
   
-```  
+```xml   
   
 <bi:Hierarchy Name="Category">  
    <bi:Level Name="CategoryName">  
@@ -51,7 +51,7 @@ manager: kfile
   
  The following example, in CSDLBI version 1.1, shows a hierarchy with multiple levels, from the Contoso Operations cube.  
   
-```  
+```xml   
 <bi:Hierarchy   
    Name="Product_Hierarchy"   
    Caption="Product Hierarchy"   

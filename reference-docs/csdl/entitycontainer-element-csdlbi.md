@@ -58,7 +58,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, represents a portion of the AdventureWorks tabular data model.  
   
-```  
+```xml   
   
 <EntityContainer   
      Name="Sandbox">  
@@ -83,7 +83,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, is an excerpt from the Contoso Operations cube.  
   
-```  
+```xml   
   
 <EntityContainer   
      Name="Sandbox">  

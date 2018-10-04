@@ -26,7 +26,7 @@ manager: kfile
   
  The following code sample returns a `<xref:Microsoft.AnalysisServices.Server>` object if the connection is successful, or returns **null** if an error occurs. Errors during the connection process are handled in a try/catch construct. AMO errors are caught by using the `<xref:Microsoft.AnalysisServices.AmoException>` exception class. In this example, the error is shown to the user on a message box.  
   
-```  
+```csharp  
 static Server ServerConnect( String strStringConnection)  
 {  
     string methodCaption = "ServerConnect method";  
@@ -62,7 +62,7 @@ static Server ServerConnect( String strStringConnection)
 
  Before programming the `<xref:Microsoft.AnalysisServices.Server>` objects, you should verify that you are still connected to the server. The following code sample shows you how to do it. The sample assumes that `svr` is a `<xref:Microsoft.AnalysisServices.Server>` object that exists in your code.  
   
-```  
+```csharp  
 if ( (svr != null) && ( svr.Connected))  
 {  
     // Do what it is needed if connection is good  
@@ -73,7 +73,7 @@ if ( (svr != null) && ( svr.Connected))
 
  As soon as you are finished, you can disconnect from the server by using the Disconnect method. The following code sample shows you how to do it. The sample assumes that `svr` is a `<xref:Microsoft.AnalysisServices.Server>` object that exists in your code.  
   
-```  
+```csharp  
 if ( (svr != null) && ( svr.Connected))  
 {  
     svr.Disconnect()  
@@ -84,7 +84,7 @@ if ( (svr != null) && ( svr.Connected))
 
  AMO will throw exceptions at different problems found. For a detailed explanation of exceptions, see [AMO Other Classes and Methods](amo-other-classes-and-methods.md). The following sample code shows the correct way to capture exceptions in AMO:  
   
-```  
+```csharp  
 try  
 {  
    //... some AMO code in here  
@@ -128,7 +128,7 @@ catch (  AMOException e)
 
  The following code sample shows how to create a database by using a database name. Before creating the database, query the `<xref:Microsoft.AnalysisServices.DatabaseCollection>` of the server to see whether the database exists. If the database exists, the database is dropped and afterward created; if the database does not exist then it is created. If the database is to be dropped, then the database is first acquired from the databases collection.  
   
-```  
+```csharp  
 static Database CreateDatabase(Server svr, String DatabaseName)  
 {  
     Database db = null;  
@@ -162,7 +162,7 @@ static Database CreateDatabase(Server svr, String DatabaseName)
   
 1.  The following sample code process a database by its default value.  
   
-```  
+```csharp  
 static Database ProcessDatabase(Database db, ProcessType pt)  
 {  
     db.Process( pt);  
@@ -176,7 +176,7 @@ static Database ProcessDatabase(Database db, ProcessType pt)
   
  The following sample code shows how to create a `<xref:Microsoft.AnalysisServices.DataSource>` object. The sample verifies that the server still exists, the `<xref:Microsoft.AnalysisServices.Server>` object is connected, and the database exists. If the `<xref:Microsoft.AnalysisServices.DataSource>` object exists, then it is dropped are re-created. The `<xref:Microsoft.AnalysisServices.DataSource>` object is created having the same name and internal ID. In this sample, no checking is performed on the connection string to verify it.  
   
-```  
+```csharp  
 static string CreateDataSource(Database db, string strDataSourceName, string strConnectionString)  
 {  
         Server svr = db.Parent;  
@@ -231,7 +231,7 @@ static string CreateDataSource(Database db, string strDataSourceName, string str
 > [!NOTE]  
 >  The clause `'WHERE 1=0'` is to avoid the query from returning rows to the **DataSet** object.  
   
-```  
+```csharp  
         static DataSourceView CreateDataSourceView(Database db, string strDataSourceName)  
         {  
             // Create the data source view  
@@ -359,7 +359,7 @@ static string CreateDataSource(Database db, string strDataSourceName, string str
   
  The following is the complete code sample:  
   
-```  
+```csharp  
 static DataSourceView CreateDataSourceView(Database db, string strDataSourceName)  
 {  
     // Create the data source view  

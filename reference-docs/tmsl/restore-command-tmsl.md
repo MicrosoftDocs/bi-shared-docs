@@ -16,7 +16,7 @@ manager: kfile
   
 ## Request  
   
-```  
+```json   
     {  
 "restore": {  
             "description": "Parameters of Restore command of Analysis Services JSON API",  
@@ -65,7 +65,7 @@ manager: kfile
 
  **Example 1** - Restore a database from a local folder.  
   
-```  
+```json   
 {   
    "restore": {   
       "database":"AdventureWorksDW2014",  

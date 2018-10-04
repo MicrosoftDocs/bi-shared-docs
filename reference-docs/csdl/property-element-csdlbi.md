@@ -53,7 +53,7 @@ manager: kfile
   
  The following XML shows the representation, in CSDLBI version 1.1, of some properties in the AdventureWorks tabular model sample.  
   
-```  
+```xml   
   
 <EntityType   
    Name="DimEmployee">  
@@ -88,7 +88,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows some properties for columns in the data model representing the Contoso Operations cube. Note that BI annotations are not required or applied to most columns, only those that require special handling in the presentation layer.  
   
-```  
+```xml   
   
 <EntityType   
    Name="Bike">  

@@ -74,7 +74,7 @@ manager: kfile
 
  **Example 1** - a connection to a *FoodMart* database on a remote named instance of *Sales* on a network server named *Server01*.  
   
-```  
+```json   
 "dataSources": [  
       {  
         "name": "SqlServer Server01 FoodMart",  
@@ -88,7 +88,7 @@ manager: kfile
 
  Below is the schema representation of a data source object of a model.  
   
-```  
+```json   
 "dataSources": {  
           "type": "array",  
           "items": {  

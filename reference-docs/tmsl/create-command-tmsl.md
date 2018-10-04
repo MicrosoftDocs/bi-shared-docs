@@ -20,7 +20,7 @@ manager: kfile
   
  [Database object &#40;TMSL&#41;](database-object-tmsl.md) Add a database to a server.  
   
-```  
+```json   
 {   
   "create": {   
     "database": {   
@@ -42,7 +42,7 @@ manager: kfile
   
  [DataSources object &#40;TMSL&#41;](datasources-object-tmsl.md)  
   
-```  
+```json   
 {  
   "create": {  
     "parentObject": {  
@@ -66,7 +66,7 @@ manager: kfile
   
  [Tables object &#40;TMSL&#41;](tables-object-tmsl.md) Add columns to a table.  
   
-```  
+```json   
 {   
   "create": {   
     "parentObject": {   
@@ -84,7 +84,7 @@ manager: kfile
   
  [Partitions object &#40;TMSL&#41;](partitions-object-tmsl.md) Add a partition to a parent table object.  
   
-```  
+```json   
 {  
   "create": {  
     "parentObject": {  
@@ -104,7 +104,7 @@ manager: kfile
   
  [Roles object &#40;TMSL&#41;](roles-object-tmsl.md) Minimally add a role to a database, but without membership or filters.  
   
-```  
+```json   
 {  
   "create": {  
     "parentObject": {  
@@ -130,7 +130,7 @@ manager: kfile
 
  **Example 1** - Add a role that specifies membership and a filter.  
   
-```  
+```json   
 {   
    "create":{   
       "parentObject":{   

@@ -30,7 +30,7 @@ manager: kfile
   
  The following example, in CSDLBI version 1.0, shows a hierarchy in the AdventureWorks sample model that has been added to the Products table.  
   
-```  
+```xml   
   
 <bi:Hierarchy Name="Categoryy">  
     <bi:Level Name="CategoryName">  
@@ -52,7 +52,7 @@ manager: kfile
   
  The following example, in CSDLBI version 1.1, shows a hierarchy from the Contoso Retail Operations cube.  
   
-```  
+```xml   
   
 <bi:Hierarchy Name="Product_Hierarchy" Caption="Product Hierarchy" ReferenceName="Product Hierarchy">  
    <bi:Documentation>  

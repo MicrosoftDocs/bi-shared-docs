@@ -63,7 +63,7 @@ manager: kfile
   
 -   Retrieves the metadata and data from the **Position** object, retrieved from the **Cellset** object.  
   
-```  
+```vb  
 Private Sub cmdCellSettoDebugWindow_Click()  
 Dim cat As New ADOMD.Catalog  
 Dim cst As New ADOMD.Cellset  
@@ -164,7 +164,7 @@ End Sub
   
 -   Retrieves the metadata and data from the **Set** object, retrieved from the **Cellset** object.  
   
-```  
+```vb  
 Private Sub DisplayCellSetInOutputWindow()  
     Dim conn As AdomdConnection  
     Dim cmd As AdomdCommand  

@@ -18,7 +18,7 @@ manager: kfile
 
  The properties accepted by the JSON synchronize command are as follows.  
   
-```  
+```json   
 {   
    "synchronize":{   
       "database":"AdventureWorksDW_Production",  

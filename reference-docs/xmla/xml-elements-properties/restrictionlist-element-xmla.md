@@ -16,7 +16,7 @@ manager: kfile
   
 ## Syntax  
   
-```  
+```xml  
   
 <Restrictions>  
    <RestrictionList>  

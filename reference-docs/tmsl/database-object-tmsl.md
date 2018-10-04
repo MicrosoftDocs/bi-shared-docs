@@ -40,7 +40,7 @@ manager: kfile
 
  Because this object definition is so large, only direct properties are listed. The **Model** object provides the bulk of the database definition. See [Model object &#40;TMSL&#41;](model-object-tmsl.md) to learn more about how the object is defined.  
   
-```  
+```json   
     "database": {  
       "type": "object",  
       "properties": {  

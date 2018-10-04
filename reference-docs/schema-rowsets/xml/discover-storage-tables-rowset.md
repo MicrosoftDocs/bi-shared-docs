@@ -43,7 +43,7 @@ manager: kfile
 ## Example  
  The following code sample returns a list of the storage tables and the number of rows in each, from the default database on the current connection.  
   
-```  
+```sql  
 SELECT TABLE_ID, ROWS_COUNT  
 FROM $system.DISCOVER_STORAGE_TABLES  
 ORDER BY TABLE_ID DESC  

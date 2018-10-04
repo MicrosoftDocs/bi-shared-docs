@@ -60,7 +60,7 @@ manager: kfile
 
  **Example 1** - A simple partition structure of a table (not a fact table).  
   
-```  
+```json   
 "partitions": [  
           {  
             "name": "Customer",  
@@ -73,7 +73,7 @@ manager: kfile
   
  **Example 2** - Partitioned fact data is typically based on a WHERE clause that  creates non-overlapping partitions for data from the same table.  
   
-```  
+```json   
 "partitions": [  
           {  
             "name": "sales_fact_2015",  
@@ -87,7 +87,7 @@ manager: kfile
   
  **Example 3** - A calculated table based on a DAX expression.  
   
-```  
+```json   
 "partitions": [  
           {  
             "name": "CalcTable1",  
@@ -103,7 +103,7 @@ manager: kfile
 
  Below is the schema representation of a partition object.  
   
-```  
+```json   
 "partitions": {  
                 "type": "array",  
                 "items": {  

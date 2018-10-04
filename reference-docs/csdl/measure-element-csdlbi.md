@@ -27,7 +27,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows two measures from the AdventureWorks tabular model sample. The second measure has been converted to a KPI, by adding KPI elements.  
   
-```  
+```xml   
   
 <Property   
     Name="Order_Lines_Count"   
@@ -65,7 +65,7 @@ manager: kfile
   
  The following sample, in CSDLBI version 1.1, shows a measure from the Contoso Operations cube that is being used as a KPI.  
   
-```  
+```xml   
   
 <Property   
     Name="Sum_of_SalesAmount"   

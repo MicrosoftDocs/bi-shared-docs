@@ -16,7 +16,7 @@ manager: kfile
   
 ## Request  
   
-```  
+```json   
 {   
    "attach":{   
       "folder":"C:\\Program Files\\Microsoft SQL Server\\MSAS13.Tabular\\OLAP\\Data\\",  

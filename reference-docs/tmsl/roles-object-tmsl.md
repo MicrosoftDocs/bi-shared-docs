@@ -43,7 +43,7 @@ manager: kfile
 
  Below is the schema representation of a role object of a model.  
   
-```  
+```json   
 "roles": {  
           "type": "array",  
           "items": {  

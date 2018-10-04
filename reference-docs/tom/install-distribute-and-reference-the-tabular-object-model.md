@@ -68,7 +68,7 @@ Referencing the Core namespace in your code is unnecessary; the classes in Core 
   
 4. In your code page, add the Microsoft.AnalysisServces.Tabular namespace if databases and models are Tabular 1200 or higher compatibility level. 
   
-   ```   
+   ```csharp   
    using Microsoft.AnalysisServices; 
    using Microsoft.AnalysisServices.Tabular;
    ```  

@@ -18,7 +18,7 @@ manager: kfile
   
 ## Syntax  
   
-```  
+```xml  
   
 <Execute>  
 ...  

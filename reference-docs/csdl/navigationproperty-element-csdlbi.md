@@ -29,7 +29,7 @@ manager: kfile
   
  The following example shows a navigation property in CSDLBI version 1.1 that describes the link between the Product SubCategory table and the Product table in a tabular model.  
   
-```  
+```xml   
   
 <NavigationProperty   
     Name="Product_Sub_Category_ProductSubcategoryKey"      
@@ -46,7 +46,7 @@ manager: kfile
   
  The following example shows a navigation property in CSDLBI version 1.1 that describes the relationship between two tables in the Contoso Operations cube. The relationship connects the Bike Category table and the Product Subcategory table.  
   
-```  
+```xml   
   
 <NavigationProperty   
      Name="BikeSubcategory_ProductSubcategoryKey"   

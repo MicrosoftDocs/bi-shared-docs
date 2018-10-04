@@ -20,7 +20,7 @@ manager: kfile
   
  The following sample adds an assembly to the provided database and assigns the service account to run the assembly. If the assembly exists in the database, the assembly is dropped before trying to add it.  
   
-```
+```csharp
 static public void CreateStoredProcedures(Database db)  
 {  
     ClrAssembly clrAssembly;  
@@ -53,7 +53,7 @@ static public void CreateStoredProcedures(Database db)
   
  The following sample creates backups for all databases in the specified server. If a backup file already exists, then it is overwritten. Backup files are saved in the BackUp folder in the Analysis Services Data folder.  
   
-```  
+```csharp  
 static public void BackUpAllDatabases(Server svr)  
 {  
     string fileName;  
@@ -68,7 +68,7 @@ static public void BackUpAllDatabases(Server svr)
   
  The following sample restores the "Adventure Works" backup from the previous sample. If the "My Adventure WorksDW" database already exists, then the database is overwritten.  
   
-```  
+```csharp  
 static public void RestoreAdventureWorks(Server svr)  
 {  
     svr.Restore("Adventure Works DW_20051025.abf", "My Adventure WorksDW", true);  
@@ -83,7 +83,7 @@ static public void RestoreAdventureWorks(Server svr)
   
  The following sample shows how to setup a Session Trace to trace current activities. Event handler routines are located at the end of the sample and will output all trace information to the System.Console object. To generate tracing events the "Adventure Works" sample cube will be fully processed after the trace starts.  
   
-```  
+```csharp  
 static public void TestSessionTraces(Server svr)  
 {  
     // Start the default trace  
@@ -147,7 +147,7 @@ static public void DefaultTrace_Stopped(ITrace sender, TraceStoppedEventArgs e)
   
  In the following sample, if the trace already exists, it is dropped and then recreated. Trace files are saved in the Log folder of Analysis Services data folders.  
   
-```  
+```csharp  
 static public void TestServerTraces(Server svr)  
 {  
     Trace trc;  
@@ -227,7 +227,7 @@ static public void TestServerTraces(Server svr)
   
  The following sample returns a string with the batch commands to do a Full process on all dimensions and on all cubes on the [Adventure Works DW Multidimensional 2012] database.  
   
-```  
+```csharp  
 static public string TestCaptureLog(Server svr)  
 {  
     String capturedXmla = "";  
