@@ -39,7 +39,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/bi-reference/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "titleSuffix": "BI"
     },
     "fileMetadata": {},
     "template": [],
