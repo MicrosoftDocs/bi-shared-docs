@@ -4,11 +4,11 @@
       {
         "files": [
           "**/*.md",
-          "**/*.yml"
+          "**/*.yml",
+          "**/includes/**"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
           "_themes/**",
           "_themes.pdf/**",
           "README.md",
@@ -22,11 +22,13 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg",
+          "**/includes/media/**"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
           "_themes/**",
           "_themes.pdf/**"
         ]
@@ -35,13 +37,13 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/bi-ref/breadcrumb/toc.json",
+      "breadcrumb_path": "/bi-reference/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "titleSuffix": "BI"
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "bi-reference-docs",
-    "markdownEngineName": "markdig"
+    "dest": "AsRefDocs"
   }
 }
