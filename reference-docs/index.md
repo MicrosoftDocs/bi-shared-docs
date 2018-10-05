@@ -22,7 +22,7 @@ description: Analysis Services shared pro BI references
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
+                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="less-than-forward-slash-greater-than" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -42,7 +42,7 @@ description: Analysis Services shared pro BI references
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
+                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="less-than-forward-slash-greater-than" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -62,7 +62,7 @@ description: Analysis Services shared pro BI references
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
+                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="less-than-forward-slash-greater-than" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -82,7 +82,7 @@ description: Analysis Services shared pro BI references
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
+                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="less-than-forward-slash-greater-than" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -102,7 +102,7 @@ description: Analysis Services shared pro BI references
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
+                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="less-than-forward-slash-greater-than" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -122,7 +122,7 @@ description: Analysis Services shared pro BI references
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
+                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="less-than-forward-slash-greater-than" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -142,7 +142,7 @@ description: Analysis Services shared pro BI references
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
+                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="less-than-forward-slash-greater-than" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -162,7 +162,7 @@ description: Analysis Services shared pro BI references
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
+                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="less-than-forward-slash-greater-than" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -182,7 +182,7 @@ description: Analysis Services shared pro BI references
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
+                                                       <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="less-than-forward-slash-greater-than" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
