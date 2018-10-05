@@ -53,13 +53,13 @@ manager: kfile
   
  This set of tuples can be represented either as a collection of two-dimensional tuples:  
   
-```  
+```xml  
 { ( 1999, Actual ), ( 1999, Budget ), ( 2000, Actual ), ( 2000, Budget ) }  
 ```  
   
  This set can also be represented as a Cartesian product of two one-dimensional sets:  
   
-```  
+```xml  
 { 1999, 2000 } x { Actual, Budget }  
 ```  
   
@@ -80,7 +80,7 @@ manager: kfile
   
 ## Two-dimensional tuples  
   
-```  
+```xml  
 Tuples (  
    Tuple( Member(1999), Member(Actual) ),  
    Tuple( Member(1999), Member(Budget) ),  
@@ -90,7 +90,7 @@ Tuples (
   
 ## Cartesian product of one-dimensional sets  
   
-```  
+```xml  
 CrossProduct (  
    Members( Member(1999), Member(2000) ),  
    Members( Member(Actual), Member(Budget) )  

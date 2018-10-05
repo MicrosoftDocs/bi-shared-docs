@@ -176,7 +176,7 @@ description: Analysis Services shared pro BI references
                                 </a>
                             </li>
                             <li>
-                                <a href="csdl/csdl-annotations-for-business-intelligence-csdlbi.md">
+                                <a href="schema-rowsets/analysis-services-schema-rowsets.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

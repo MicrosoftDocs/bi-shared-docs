@@ -397,7 +397,7 @@ static void CreateInternetSalesMeasureGroup(Cube cube)
 ```  
 
 ### Processing a measure group
- Processing a measure group is as simple as using the Process method of the `<xref:Microsoft.AnalysisServices.MeasureGroup>` object. Processing a measure group will process all partitions that belong to the measure group. Processing a measure group internally is resolved to processing dimensions and partitions. See [Processing a Partition](#ProcPart) in this document.  
+ Processing a measure group is as simple as using the Process method of the `<xref:Microsoft.AnalysisServices.MeasureGroup>` object. Processing a measure group will process all partitions that belong to the measure group. Processing a measure group internally is resolved to processing dimensions and partitions. See Processing a Partition in this document.  
   
  The following code will do a full process in all measure groups of a supplied cube.  
   
