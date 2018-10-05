@@ -35,7 +35,7 @@ manager: kfile
 ## Example  
  **Basic syntax**  
   
- The following query is a simple DMV query that returns values for all of the columns in this rowset, using the default database on the current connection. You can run this query in an MDX query window and view its results in SQL Server Management Studio. You can also follow the techniques described in [Querying Power Pivot DMVs from Excel](http://go.microsoft.com/fwlink/?LinkID=235146) to view DMV query results in Excel.  
+ The following query is a simple DMV query that returns values for all of the columns in this rowset, using the default database on the current connection. You can run this query in an MDX query window and view its results in SQL Server Management Studio. You can also follow the techniques described in [Querying Power Pivot DMVs from Excel](https://go.microsoft.com/fwlink/?LinkID=235146) to view DMV query results in Excel.  
   
 ```sql  
 SELECT * FROM $System.DISCOVER_CALC_DEPENDENCY  
@@ -75,7 +75,7 @@ SELECT * From $SYSTEM.DISCOVER_CALC_DEPENDENCY WHERE OBJECT_TYPE = 'MEASURE' OR 
   
  The next set of queries demonstrates syntax for the QUERY restriction. You can run these queries against the [AdventureWorks Tabular Model SQL Server 2012](http://msftdbprodsamples.codeplex.com/releases/view/55330) to view the result set.  
   
- The first query shows how to specify a QUERY restriction for object names that include spaces. The second query, borrowed from [Execute DAX queries through OLE DB and ADOMD.NET](http://go.microsoft.com/fwlink/?LinkId=254329), is a more complex query that includes objects from multiple tables.  
+ The first query shows how to specify a QUERY restriction for object names that include spaces. The second query, borrowed from [Execute DAX queries through OLE DB and ADOMD.NET](https://go.microsoft.com/fwlink/?LinkId=254329), is a more complex query that includes objects from multiple tables.  
   
 > [!NOTE]  
 >  Although the queries appear to use double-quotes, in fact only single quotes are used. One pair of single quotation marks encloses ‘Evaluate \<Tablename>’, and single quotation marks used around the table name need to be escaped by doubling them up. Single quotation marks around a table name are needed only for table names that include a space.  

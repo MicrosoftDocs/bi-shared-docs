@@ -16,7 +16,7 @@ Analysis Management Objects (AMO) is a library of programmatically accessed obje
 
 This section explains AMO concepts, focusing on major objects, how and when to use them, and the way they are interrelated. For more information about specific objects or classes, see:
 
-- [Microsoft.AnalysisServices Namespace](http://msdn.microsoft.com/library/microsoft.analysisservices.aspx), for reference documentation.
+- [Microsoft.AnalysisServices Namespace](https://msdn.microsoft.com/library/microsoft.analysisservices.aspx), for reference documentation.
 - [Analysis Services Management Objects (AMO)](http://www.bing.com/search?q=Analysis+Services+Management+Objects+%28AMO%29), as a Bing.com general search.
 
 Beginning in SQL Server 2016, AMO is refactored into multiple assemblies. Generic classes such as Server, Database, and Roles are in the **Microsoft.AnalysisServices.Core** Namespace. Multidimensional-specific APIs remain in [Microsoft.AnalysisServices Namespace](https://msdn.microsoft.com/library/ms146720.aspx). 

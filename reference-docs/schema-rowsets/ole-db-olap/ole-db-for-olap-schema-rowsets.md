@@ -17,7 +17,7 @@ manager: kfile
 > [!NOTE]  
 >  To check whether a particular data source provider supports a rowset, use the **DISCOVER_ENUMERATIONS** rowset with the [Discover](../../xmla/xml-elements-methods-discover.md) method.  
   
- You can also find detailed information about these rowsets by searching for the topic, "OLAP Schema Rowsets," in the MSDN Library at this [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=15426).  
+ You can also find detailed information about these rowsets by searching for the topic, "OLAP Schema Rowsets," in the MSDN Library at this [Microsoft Web site](https://go.microsoft.com/fwlink/?LinkId=15426).  
   
 ## In This Section  
   

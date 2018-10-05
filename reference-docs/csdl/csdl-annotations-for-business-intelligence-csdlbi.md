@@ -58,7 +58,7 @@ manager: kfile
   
 -   Support for perspectives.  
   
- For detailed information about individual elements in the CSDLBI annotations, see [Technical Reference for BI Annotations to CSDL](technical-reference-for-bi-annotations-to-csdl.md). For information about the core CSDL specification, see the [CSDL specification](http://go.microsoft.com/fwlink/?LinkId=205855) on MSDN.  
+ For detailed information about individual elements in the CSDLBI annotations, see [Technical Reference for BI Annotations to CSDL](technical-reference-for-bi-annotations-to-csdl.md). For information about the core CSDL specification, see the [CSDL specification](https://go.microsoft.com/fwlink/?LinkId=205855) on MSDN.  
   
 
   
