@@ -16,7 +16,7 @@ manager: kfile
  With ADOMD.NET server objects, you can create a user defined function (UDF) or a stored procedure for Microsoft SQL Server Analysis Services. These in-process methods are called through query statements created in languages such as Multidimensional Expressions (MDX), Data Mining Extensions (DMX), or SQL. These in-process methods also provide added functionality without the latencies associated with network communications.  
   
 > [!NOTE]  
->  The `<xref:Microsoft.AnalysisServices.AdomdServer.AdomdCommand>` object only supports DMX.  
+>  The <xref:Microsoft.AnalysisServices.AdomdServer.AdomdCommand> object only supports DMX.  
   
 ## What is a UDF?  
  A *UDF* is a method that has the following characteristics:  

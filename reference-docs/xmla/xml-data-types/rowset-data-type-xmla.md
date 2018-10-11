@@ -72,7 +72,7 @@ manager: kfile
 ## Example  
   
 ## XMLA Rowset for Flat Data  
- For flat data, column names that are specific to the query are defined in the schema as the element names. Also, a pair of `<row>` tags encapsulates each row.  
+ For flat data, column names that are specific to the query are defined in the schema as the element names. Also, a pair of `<row> tags encapsulates each row.  
   
  The following example shows the XMLA rowset format for flat data.  
   
@@ -103,7 +103,7 @@ manager: kfile
 ## XMLA Rowset for Hierarchical Data  
  Some rowsets contain hierarchical data (or nested rowsets). Rowsets returned by data mining queries are hierarchical. For hierarchical data, the structure of the rows is not changed, but the data-specific schema defines an element subtype that contains the nested data.  
   
- The following example shows the XMLA rowset format for hierarchical data. In this example, the element subtype that contains the nested data is `<NODE_DISTRIBUTION>`.  
+ The following example shows the XMLA rowset format for hierarchical data. In this example, the element subtype that contains the nested data is `<NODE_DISTRIBUTION>.  
   
 ```xml  
 <?xml version="1.0" encoding="UTF-8"?>  

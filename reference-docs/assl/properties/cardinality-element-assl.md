@@ -48,4 +48,4 @@ manager: kfile
 |*Many*|Many-to-one relationship|  
 |*One*|One-to-one relationship|  
   
- The enumeration corresponding to the allowed values for **Cardinality** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.Cardinality>`.
+ The enumeration corresponding to the allowed values for **Cardinality** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Cardinality>.

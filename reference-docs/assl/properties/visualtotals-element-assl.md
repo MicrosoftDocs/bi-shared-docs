@@ -41,4 +41,4 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- The element that corresponds to the parent of **VisualTotals** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.AttributePermission>`.  
+ The element that corresponds to the parent of **VisualTotals** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AttributePermission>.  

@@ -43,5 +43,5 @@ manager: kfile
 ## Remarks  
  For more information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](../data-type/binding-data-type-assl.md).  
   
- The elements that correspond to the parents of **SourceMeasureGroup** in the Analysis Management Objects (AMO) object model are `<xref:Microsoft.AnalysisServices.MiningStructureColumn>` and `<xref:Microsoft.AnalysisServices.TableMiningStructureColumn>`.  
+ The elements that correspond to the parents of **SourceMeasureGroup** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.MiningStructureColumn> and <xref:Microsoft.AnalysisServices.TableMiningStructureColumn>.  
   

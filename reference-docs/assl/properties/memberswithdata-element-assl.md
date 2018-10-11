@@ -50,5 +50,5 @@ manager: kfile
 |*NonLeafDataHidden*|Non-leaf data is hidden.|  
 |*NonLeafDataVisible*|Non-leaf data is visible.|  
   
- The enumeration that corresponds to the allowed values for **MembersWithData** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.MembersWithData>`.  
+ The enumeration that corresponds to the allowed values for **MembersWithData** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MembersWithData>.  
   

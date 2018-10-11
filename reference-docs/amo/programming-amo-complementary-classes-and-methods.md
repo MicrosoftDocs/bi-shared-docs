@@ -79,7 +79,7 @@ static public void RestoreAdventureWorks(Server svr)
 
  Monitoring the server activity requires using two kinds of traces: Session Traces and Server Traces. Tracing the server can tell you how your current task is performing on the server (Session Traces) or the traces can tell you about the overall activity in the server without you even being connected to the server (Server Traces).  
   
- When tracing current activity (Session Traces), the server sends notifications to the current application about the events that are occurring in the server that are caused by the application. Events are captured using event handlers in the current application. You first assign the event handling routines to the `<xref:Microsoft.AnalysisServices.SessionTrace>` object and then start the Session Trace.  
+ When tracing current activity (Session Traces), the server sends notifications to the current application about the events that are occurring in the server that are caused by the application. Events are captured using event handlers in the current application. You first assign the event handling routines to the <xref:Microsoft.AnalysisServices.SessionTrace> object and then start the Session Trace.  
   
  The following sample shows how to setup a Session Trace to trace current activities. Event handler routines are located at the end of the sample and will output all trace information to the System.Console object. To generate tracing events the "Adventure Works" sample cube will be fully processed after the trace starts.  
   
