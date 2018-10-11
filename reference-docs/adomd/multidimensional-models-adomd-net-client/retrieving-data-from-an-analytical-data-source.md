@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Retrieving Data from an Analytical Data Source
-  Once you make a connection and create the query, you can retrieve any data. In ADOMD.NET, you can retrieve data using three different objects (`<xref:Microsoft.AnalysisServices.AdomdClient.CellSet>`, `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader>`, and `<xref:System.Xml.XmlReader>`) by calling one of the **Execute** methods of the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdCommand>` object.  
+  Once you make a connection and create the query, you can retrieve any data. In ADOMD.NET, you can retrieve data using three different objects (<xref:Microsoft.AnalysisServices.AdomdClient.CellSet>, <xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader>, and <xref:System.Xml.XmlReader>) by calling one of the **Execute** methods of the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdCommand> object.  
   
  Each of these three objects balances interactivity and overhead:  
   
@@ -23,7 +23,7 @@ manager: kfile
   
 |Object|Interactivity|Overhead|Retains dimensionality|Usage Information|  
 |------------|-------------------|--------------|----------------------------|-----------------------|  
-|`<xref:Microsoft.AnalysisServices.AdomdClient.CellSet>`|Highest|Moderately high, which results in slowest retrieval of data|Yes|[Retrieving Data Using the CellSet](retrieving-data-using-the-cellset.md)|  
-|`<xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataAdapter>`|Moderate|Moderate|No|[Populating a DataSet from a DataAdapter](http://go.microsoft.com/fwlink/?LinkId=70016)|  
-|`<xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader>`|Moderate|Moderate|No|[Retrieving Data Using the AdomdDataReader](retrieving-data-using-the-adomddatareader.md)|  
-|`<xref:System.Xml.XmlReader>`|Lowest|Lowest, which results in fastest data retrieval|Yes|[Retrieving Data Using the XmlReader](retrieving-data-using-the-xmlreader.md)|  
+|<xref:Microsoft.AnalysisServices.AdomdClient.CellSet>|Highest|Moderately high, which results in slowest retrieval of data|Yes|[Retrieving Data Using the CellSet](retrieving-data-using-the-cellset.md)|  
+|<xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataAdapter>|Moderate|Moderate|No|[Populating a DataSet from a DataAdapter](http://go.microsoft.com/fwlink/?LinkId=70016)|  
+|<xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader>|Moderate|Moderate|No|[Retrieving Data Using the AdomdDataReader](retrieving-data-using-the-adomddatareader.md)|  
+|<xref:System.Xml.XmlReader>|Lowest|Lowest, which results in fastest data retrieval|Yes|[Retrieving Data Using the XmlReader](retrieving-data-using-the-xmlreader.md)|  

@@ -20,34 +20,34 @@ manager: kfile
 |------------|---------------|  
 |Requires references to both Adodb.dll and Adomd.dll.|Requires a single reference to Microsoft.AnalysisServices.AdomdClient.dll.|  
   
- The `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>` class provides connectivity support, in addition to access to metadata.  
+ The <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection> class provides connectivity support, in addition to access to metadata.  
   
  **To retrieve metadata for multidimensional objects**  
  |ADO MD|ADOMD.NET|  
 |------------|---------------|  
-|Use the Catalog class.|Use the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.Cubes%2A>` property of the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>`.|  
+|Use the Catalog class.|Use the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.Cubes%2A> property of the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>.|  
   
  **To run queries and return cellset objects**  
  |ADO MD|ADOMD.NET|  
 |------------|---------------|  
-|Use the CellSet class.|Use the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdCommand>` class.|  
+|Use the CellSet class.|Use the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdCommand> class.|  
   
  **To access the metadata that is used to display a cellset**  
  |ADO MD|ADOMD.NET|  
 |------------|---------------|  
-|Use the Position class.|Use the `<xref:Microsoft.AnalysisServices.AdomdClient.Set>` and `<xref:Microsoft.AnalysisServices.AdomdClient.Tuple>` objects.|  
+|Use the Position class.|Use the <xref:Microsoft.AnalysisServices.AdomdClient.Set> and <xref:Microsoft.AnalysisServices.AdomdClient.Tuple> objects.|  
   
 > [!NOTE]  
->  The `<xref:Microsoft.AnalysisServices.AdomdClient.Position>` class is supported for backward compatibility.  
+>  The <xref:Microsoft.AnalysisServices.AdomdClient.Position> class is supported for backward compatibility.  
   
  **To retrieve mining model metadata**  
  In ADO MD there are no classes available. In  ADOMD.NET use one of the data mining collections:  
   
--   The `<xref:Microsoft.AnalysisServices.AdomdClient.MiningModelCollection>` contains a list of every mining model in the data source.  
+-   The <xref:Microsoft.AnalysisServices.AdomdClient.MiningModelCollection> contains a list of every mining model in the data source.  
   
--   The `<xref:Microsoft.AnalysisServices.AdomdClient.MiningServiceCollection>` provides information about the available mining algorithms.  
+-   The <xref:Microsoft.AnalysisServices.AdomdClient.MiningServiceCollection> provides information about the available mining algorithms.  
   
--   The `<xref:Microsoft.AnalysisServices.AdomdClient.MiningStructureCollection>` exposes information about the mining structures on the server.  
+-   The <xref:Microsoft.AnalysisServices.AdomdClient.MiningStructureCollection> exposes information about the mining structures on the server.  
   
  To highlight these differences the following migration example compares an existing ADO MD application to an equivalent ADOMD.NET application.  
   

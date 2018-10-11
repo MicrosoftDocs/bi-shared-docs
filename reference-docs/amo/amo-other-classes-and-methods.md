@@ -20,18 +20,18 @@ manager: kfile
   
 ## Assembly objects
 
- An `<xref:Microsoft.AnalysisServices.Assembly>` object is created by adding it to the assemblies collection of the server, and then updating the `<xref:Microsoft.AnalysisServices.Assembly>` object to the server, by using the Update method.  
+ An <xref:Microsoft.AnalysisServices.Assembly> object is created by adding it to the assemblies collection of the server, and then updating the <xref:Microsoft.AnalysisServices.Assembly> object to the server, by using the Update method.  
   
- To remove an `<xref:Microsoft.AnalysisServices.Assembly>` object, it has to be dropped by using the Drop method of the `<xref:Microsoft.AnalysisServices.Assembly>` object. Removing an `<xref:Microsoft.AnalysisServices.Assembly>` object from the assemblies collection of the database does not drop the assembly, it only prevents you from seeing it in your application until the next time that you run your application.  
+ To remove an <xref:Microsoft.AnalysisServices.Assembly> object, it has to be dropped by using the Drop method of the <xref:Microsoft.AnalysisServices.Assembly> object. Removing an <xref:Microsoft.AnalysisServices.Assembly> object from the assemblies collection of the database does not drop the assembly, it only prevents you from seeing it in your application until the next time that you run your application.  
   
- For more information about methods and properties available, see `<xref:Microsoft.AnalysisServices.Assembly>` in `<xref:Microsoft.AnalysisServices>` .  
+ For more information about methods and properties available, see <xref:Microsoft.AnalysisServices.Assembly> in <xref:Microsoft.AnalysisServices> .  
   
 > [!IMPORTANT]  
 >  COM assemblies might pose a security risk. Due to this risk and other considerations, COM assemblies are no longer supported.
   
 ## Backup and restore methods
 
- Backup and Restore are methods that can be used to create copies of a  database and recover the database by using the copy. The Backup method belongs to the `<xref:Microsoft.AnalysisServices.Database>` object, and the Restore method belongs to the `<xref:Microsoft.AnalysisServices.Server>` object.  
+ Backup and Restore are methods that can be used to create copies of a  database and recover the database by using the copy. The Backup method belongs to the <xref:Microsoft.AnalysisServices.Database> object, and the Restore method belongs to the <xref:Microsoft.AnalysisServices.Server> object.  
   
  Only server and database administrators are permitted to perform a backup of a database. Only server administrators can restore a database onto a different server than it was backed up from. Database administrators can restore a database by overwriting the existing database only if they own the database that is to be overwritten. After a restore, the database administrator may lose access to the restored database if the database is restored with its original security definitions.  
   
@@ -101,7 +101,7 @@ manager: kfile
   
  Traces, from the traces collection of the server, are defined the following way:  
   
-1. Create a `<xref:Microsoft.AnalysisServices.Trace>` object and populate its basic data, including trace ID, name, log file name, append|overwrite, and others.  
+1. Create a <xref:Microsoft.AnalysisServices.Trace> object and populate its basic data, including trace ID, name, log file name, append|overwrite, and others.  
   
 2. Add Events to be monitored to the Events collection of the trace object. For each event, data columns are added.  
   
@@ -139,14 +139,14 @@ manager: kfile
 
  You can use AMOException exception class to easily catch exceptions in your application that are thrown by AMO.  
   
- AMO will throw exceptions at different problems found. The following table lists the kind of exceptions that are handled by AMO. Exceptions are derived from the `<xref:Microsoft.AnalysisServices.AmoException>` class.  
+ AMO will throw exceptions at different problems found. The following table lists the kind of exceptions that are handled by AMO. Exceptions are derived from the <xref:Microsoft.AnalysisServices.AmoException> class.  
   
 |Exception|Origin|Description|  
 |---------------|------------|-----------------|  
-|`<xref:Microsoft.AnalysisServices.AmoException>`|Base class|Application receives this exception when a required parent object is missing, or when a requested item is not found in a collection.|  
-|`<xref:Microsoft.AnalysisServices.OutOfSyncException>`|Derived from AMOException|Application receives this exception when AMO is out of synchronization with the engine and the engine returns an object reference that AMO does not know about.|  
-|`<xref:Microsoft.AnalysisServices.OperationException>`|Derived from AMOException|This an important exception that is frequently received by applications. This exception contains the details of an error coming from the server, probably because of a faulty AMO operation like Update or Process or Drop.|  
-|`<xref:Microsoft.AnalysisServices.ResponseFormatException>`|Derived from AMOException|This exception occurs when the engine returns a message in a format that AMO does not understand.|  
-|`<xref:Microsoft.AnalysisServices.ConnectionException>`|Derived from AMOException|This exception occurs when a connection cannot be established (with Server.Connect) or when the connection is lost while AMO is communicating with the engine (for example, during an Update or Process or Drop).|  
+|<xref:Microsoft.AnalysisServices.AmoException>|Base class|Application receives this exception when a required parent object is missing, or when a requested item is not found in a collection.|  
+|<xref:Microsoft.AnalysisServices.OutOfSyncException>|Derived from AMOException|Application receives this exception when AMO is out of synchronization with the engine and the engine returns an object reference that AMO does not know about.|  
+|<xref:Microsoft.AnalysisServices.OperationException>|Derived from AMOException|This an important exception that is frequently received by applications. This exception contains the details of an error coming from the server, probably because of a faulty AMO operation like Update or Process or Drop.|  
+|<xref:Microsoft.AnalysisServices.ResponseFormatException>|Derived from AMOException|This exception occurs when the engine returns a message in a format that AMO does not understand.|  
+|<xref:Microsoft.AnalysisServices.ConnectionException>|Derived from AMOException|This exception occurs when a connection cannot be established (with Server.Connect) or when the connection is lost while AMO is communicating with the engine (for example, during an Update or Process or Drop).|  
   
   

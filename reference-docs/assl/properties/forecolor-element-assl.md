@@ -43,4 +43,4 @@ manager: kfile
 ## Remarks  
  The **ForeColor** property contains a Multidimensional Expressions (MDX) expression and applies to **CalculationProperty** elements that have a [CalculationType](calculationtype-element-assl.md) of *Member* or *Cells*.  
   
- The elements that correspond to the parents of **ForeColor** in the Analysis Management Objects (AMO) object model are `<xref:Microsoft.AnalysisServices.CalculationProperty>` and `<xref:Microsoft.AnalysisServices.Measure>`.  
+ The elements that correspond to the parents of **ForeColor** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.CalculationProperty> and <xref:Microsoft.AnalysisServices.Measure>.  

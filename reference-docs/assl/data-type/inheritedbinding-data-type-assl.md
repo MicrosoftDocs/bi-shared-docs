@@ -39,7 +39,7 @@ manager: kfile
 ## Remarks  
  For additional information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](binding-data-type-assl.md) element.  
  
- The corresponding element in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.InheritedBinding>`.  
+ The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.InheritedBinding>.  
   
   
   

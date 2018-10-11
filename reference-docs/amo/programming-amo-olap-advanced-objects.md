@@ -165,11 +165,11 @@ static public void CreateActions(Cube cube)
   
 ## KPI objects
 
- A key performance indicator (KPI) is a collection of calculations that are associated with a measure group in a cube and are used to evaluate business success. `<xref:Microsoft.AnalysisServices.Kpi>` objects can be defined by AMO, but are used from the client application that browses the data.  
+ A key performance indicator (KPI) is a collection of calculations that are associated with a measure group in a cube and are used to evaluate business success. <xref:Microsoft.AnalysisServices.Kpi> objects can be defined by AMO, but are used from the client application that browses the data.  
   
- Creating a `<xref:Microsoft.AnalysisServices.Kpi>` object requires the following steps:  
+ Creating a <xref:Microsoft.AnalysisServices.Kpi> object requires the following steps:  
   
-1. Create the `<xref:Microsoft.AnalysisServices.Kpi>` object and populate the basic attributes.  
+1. Create the <xref:Microsoft.AnalysisServices.Kpi> object and populate the basic attributes.  
   
      The following is a list of basic attributes: Description, Display Folder, Associated Measure Group, and Value. Display Folder tells the client application where the KPI should be located for the end-user to find it. The Associated Measure Group indicates the measure group where all MDX calculations should be referred. Value shows the actual value of the performance indicator as an MDX expression.  
   
@@ -325,11 +325,11 @@ static public void CreateKPIs(Cube cube)
   
 ## Perspective objects
 
- `<xref:Microsoft.AnalysisServices.Perspective>` objects can be defined by AMO, but are used from the client application that browses the data.  
+ <xref:Microsoft.AnalysisServices.Perspective> objects can be defined by AMO, but are used from the client application that browses the data.  
   
- Creating a `<xref:Microsoft.AnalysisServices.Perspective>` object requires the following steps:  
+ Creating a <xref:Microsoft.AnalysisServices.Perspective> object requires the following steps:  
   
-1. Create the `<xref:Microsoft.AnalysisServices.Perspective>` object and populate the basic attributes.  
+1. Create the <xref:Microsoft.AnalysisServices.Perspective> object and populate the basic attributes.  
   
      The following is a list of basic attributes: Name, Default Measure, Description, and annotations.  
   
@@ -389,11 +389,11 @@ static public void CreatePerspectives(Cube cube)
   
 ## ProactiveCaching objects
 
- `<xref:Microsoft.AnalysisServices.ProactiveCaching>` objects can be defined by AMO.  
+ <xref:Microsoft.AnalysisServices.ProactiveCaching> objects can be defined by AMO.  
   
- Creating a `<xref:Microsoft.AnalysisServices.ProactiveCaching>` object requires the following steps:  
+ Creating a <xref:Microsoft.AnalysisServices.ProactiveCaching> object requires the following steps:  
   
-1. Create the `<xref:Microsoft.AnalysisServices.ProactiveCaching>` object.  
+1. Create the <xref:Microsoft.AnalysisServices.ProactiveCaching> object.  
   
      There are no basic attributes to define.  
   
@@ -408,9 +408,9 @@ static public void CreatePerspectives(Cube cube)
 |ForceRebuildInterval|The time (starting after a fresh MOLAP image is dropped) after which MOLAP imaging starts unconditionally (no notifications).|  
 |OnlineMode|When the MOLAP image is available.<br /><br /> Can be either **Immediate** or **OnCacheComplete**.|  
   
-1. Add the `<xref:Microsoft.AnalysisServices.ProactiveCaching>` object to the parent collection. You will need to update the parent, because `<xref:Microsoft.AnalysisServices.ProactiveCaching>` is not an updatable object.  
+1. Add the <xref:Microsoft.AnalysisServices.ProactiveCaching> object to the parent collection. You will need to update the parent, because <xref:Microsoft.AnalysisServices.ProactiveCaching> is not an updatable object.  
   
- The following code sample creates a `<xref:Microsoft.AnalysisServices.ProactiveCaching>` object in all partitions from the Internet Sales measure group in the Adventure Works cube in a specified database.  
+ The following code sample creates a <xref:Microsoft.AnalysisServices.ProactiveCaching> object in all partitions from the Internet Sales measure group in the Adventure Works cube in a specified database.  
   
 ```csharp  
 static public void SetProactiveCachingSettings(Database db)  

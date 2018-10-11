@@ -33,7 +33,7 @@ manager: kfile
 ## Typical Process Flow  
  Traditional ADOMD.NET applications usually follow the same workflow when working with an analytical database:  
   
-1.  First, a connection is made to the database, using the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>` object. When you open the connection, the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>` object exposes metadata about the server to which you have connected. In a dynamic application, some of this information is typically shown to the user so that the user can make a selection, such as which cube to query. The connection created during this step can be reused multiple times by the application, reducing overhead.  
+1.  First, a connection is made to the database, using the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection> object. When you open the connection, the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection> object exposes metadata about the server to which you have connected. In a dynamic application, some of this information is typically shown to the user so that the user can make a selection, such as which cube to query. The connection created during this step can be reused multiple times by the application, reducing overhead.  
   
      For more information: [Establishing Connections in ADOMD.NET](connections-in-adomd-net.md)  
   
@@ -45,7 +45,7 @@ manager: kfile
   
      For more information: [Retrieving Metadata from an Analytical Data Source](retrieving-metadata-from-an-analytical-data-source.md), [Retrieving Data from an Analytical Data Source](retrieving-data-from-an-analytical-data-source.md), [Executing Commands Against an Analytical Data Source](executing-commands-against-an-analytical-data-source.md)  
   
-4.  Once the command has been sent to the server, the server begins to return the metadata or data to the client. This information can be viewed by using a `<xref:Microsoft.AnalysisServices.AdomdClient.CellSet>` object, an `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader>` object, or a **System.XmlReader** object.  
+4.  Once the command has been sent to the server, the server begins to return the metadata or data to the client. This information can be viewed by using a <xref:Microsoft.AnalysisServices.AdomdClient.CellSet> object, an <xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader> object, or a **System.XmlReader** object.  
   
  To illustrate this traditional workflow, the following example contains a method that opens a connection to the database, executes a command against a known cube, and retrieves the results into a cellset. The cellset then returns a tab-delimited string containing column headers, row headers, and cell data.  
   
