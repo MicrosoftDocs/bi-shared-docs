@@ -44,6 +44,7 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "AsRefDocs"
+    "dest": "AsRefDocs",
+    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
   }
 }
