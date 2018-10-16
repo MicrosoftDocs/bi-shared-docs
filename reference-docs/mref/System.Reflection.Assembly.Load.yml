@@ -1,4 +1,4 @@
-### YamlMime:XRefMap
+### YamlMime:ManagedReference
 references:
 - uid: System.Reflection.Assembly.Load*
   name: Load
