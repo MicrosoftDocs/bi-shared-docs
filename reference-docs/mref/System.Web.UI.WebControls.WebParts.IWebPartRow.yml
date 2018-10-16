@@ -1,4 +1,4 @@
-### YamlMime:ManagedReference
+### YamlMime:XRefMap
 references:
 - uid: System.Web.UI.WebControls.WebParts.IWebPartRow
   name: IWebPartRow
