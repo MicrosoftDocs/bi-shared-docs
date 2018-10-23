@@ -50,4 +50,4 @@ Other relevant exceptions include the following:
 
 - [TomInternalException Class](https://msdn.microsoft.com/library/microsoft.analysisservices.tabular.tominternalexception.aspx)
 - [TomValidationException Class](https://msdn.microsoft.com/library/microsoft.analysisservices.tabular.tomvalidationexception.aspx)
-- [JsonSerializationException class](http://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_JsonSerializationException.htm)
+- [JsonSerializationException class](https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_JsonSerializationException.htm)
