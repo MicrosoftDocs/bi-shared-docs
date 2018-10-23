@@ -27,7 +27,7 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Tabular Model Scripting Language (TMSL)</h3>
-                                                    <p>TMSL is a command and object model definition syntax for tabular model databases at compatibility level 1200 or higher. TMSL communicates through the XMLA protocol, where the XMLA.Execute method accepts both JSON-based statement scripts as well as XML-based scripts using ASSL.</p>
+                                                    <p>A command and object model definition syntax for tabular models at compatibility level 1200 or higher. TMSL communicates through the XMLA protocol, where the XMLA.Execute method accepts both JSON-based and ASSL-based scripts.</p>
                                                     <p>**Applies to:** Azure Analysis Services, SQL Server Analysis Services</p>
                                                 </div>
                                             </div>
@@ -67,7 +67,8 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Analysis Management Objects (AMO)</h3>
-                                                    <p>Analysis Management Objects (AMO) is a library of programmatically accessed objects that enables an application to manage an Analysis Services instance. <br></p>
+                                                    <p>Analysis Management Objects (AMO) is a library of programmatically accessed objects that enables an application to manage an Analysis Services instance.</p>
+                                                    <p> </p>
                                                     <p>Applies to: Azure Analysis Services, SQL Server Analysis Services</p>
                                                 </div>
                                             </div>
@@ -87,7 +88,7 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>XML for Analysis (XMLA)</h3>
-                                                    <p>XMLA is a SOAP-based XML protocol designed specifically for tabular and multidimensional data sources. Analysis Services uses XMLA as its only protocol when communicating with client applications. Fundamentally, all client libraries supported by Analysis Services formulate requests and responses in XMLA.</p>
+                                                    <p>A SOAP-based XML protocol for tabular and multidimensional data sources. Fundamentally, all client libraries supported by Analysis Services formulate requests and responses in XMLA.</p>
                                                     <p>**Applies to:** Azure Analysis Services, SQL Server Analysis Services</p>
                                                 </div>
                                             </div>
@@ -127,7 +128,7 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Conceptual schema definition language (CSDL)</h3>
-                                                    <p>CSDL is An XML-based language that describes entities, relationships, and functions in multidimensional and tabulat models at the 1103 and lower compatibility levels. CSDL is defined as part of the Entity Data Framework. The BI annotations are an extension designed to support data modeling using Analysis Services.</p>
+                                                    <p>An XML-based language that describes entities, relationships, and functions in tabular models 1103 and lower compatibility levels and multidimensional models. Defined as part of the Entity Data Framework.</p>
                                                     <p>**Applies to:** SQL Server Analysis Services</p>
                                                 </div>
                                             </div>
@@ -147,7 +148,7 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Analysis Services Scripting Language (ASSL for XMLA)</h3>
-                                                    <p>Applications communicate with Analysis Services using XML commands and object descriptions. Analysis Services Scripting Language (ASSL) represents the object definition language portion of this XML dialect. <br></p>
+                                                    <p>Client applications can communicate with Analysis Services using XML commands and object descriptions. ASSL represents the object definition language portion of this XML dialect.</p>
                                                     <p>**Applies to:** SQL Server Analysis Services</p>
                                                 </div>
                                             </div>
@@ -167,7 +168,7 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>ADOMD.NET</h3>
-                                                    <p>Microsoft .NET Framework data provider designed to communicate with SQL Server Analysis Services. ADOMD.NET uses the XML for Analysis protocol to communicate with analytical data sources by using either TCP/IP or HTTP. <br></p>
+                                                    <p>.NET Framework data provider designed to communicate with Analysis Services. ADOMD.NET uses the XMLA protocol to communicate with analytical data sources by using either TCP/IP or HTTP.</p>
                                                     <p>**Applies to:** SQL Server Analysis Services (Multidimensional)</p>
                                                 </div>
                                             </div>
@@ -187,7 +188,7 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Schema Rowsets</h3>
-                                                    <p>These are predefined tables that contain information about model database objects and server state, including database schema, active sessions, connections, commands, and jobs that are executing on the server. <br></p>
+                                                    <p>Predefined tables that contain information about model database objects and server state, including schema, active sessions, connections, commands, and jobs executing on the server.</p>
                                                     <p>**Applies to:** Azure Analysis Services, SQL Server Analysis Services</p>
                                                 </div>
                                             </div>
