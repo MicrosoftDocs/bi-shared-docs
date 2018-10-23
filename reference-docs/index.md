@@ -4,6 +4,9 @@ hide_bc: true
 title: Analysis Services References
 description: Analysis Services shared pro BI references
 ms.author: owend
+ms.prod: sql
+ms.topic: overview
+ms.date: 10/23/2018
 ---
 <div id="main" class="v2">
     <div class="container">
