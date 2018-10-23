@@ -47,7 +47,7 @@ description: Analysis Services shared pro BI references
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Tabular Object Model (TOM)</h3>
-                                                    <p>An extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher.</p>
+                                                    <p>TOM is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models at compatibility level 1200 and higher.</p>
                                                     <p>**Applies to:** Azure Analysis Services, SQL Server Analysis Services</p>
                                                 </div>
                                             </div>
