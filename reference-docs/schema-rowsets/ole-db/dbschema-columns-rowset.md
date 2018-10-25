@@ -28,7 +28,7 @@ manager: kfile
 |**ORDINAL_POSITION**|**DBTYPE_UI4**||The position of the column, beginning with 1.|  
 |**COLUMN_HAS_DEFAULT**|**DBTYPE_BOOL**||Not supported.|  
 |**COLUMN_DEFAULT**|**DBTYPE_WSTR**||Not supported.|  
-|**COLUMN_FLAGS**|**DBTYPE_UI4**||A **DBCOLUMNFLAGS** bitmask indicating column properties. See 'DBCOLUMNFLAGS Enumerated Type' in [IColumnsInfo::GetColumnInfo](https://msdn2.microsoft.com/library/ms722704.aspx)|  
+|**COLUMN_FLAGS**|**DBTYPE_UI4**||A **DBCOLUMNFLAGS** bitmask indicating column properties. See 'DBCOLUMNFLAGS Enumerated Type' in [IColumnsInfo::GetColumnInfo](https://msdn.microsoft.com/library/ms722704.aspx)|  
 |**IS_NULLABLE**|**DBTYPE_BOOL**||Always returns **false**.|  
 |**DATA_TYPE**|**DBTYPE_WSTR**<br /><br /> **DBTYPE_VARIANT**||The data type of the column. Returns a string for dimension columns and a variant for measures.|  
 |**TYPE_GUID**|**DBTYPE_GUID**||Not supported.|  

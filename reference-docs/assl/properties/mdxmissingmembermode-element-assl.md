@@ -49,7 +49,7 @@ manager: kfile
 |*Error*|An error is raised if missing members are encountered.|  
 |*Default*|Missing members are ignored.|  
   
- The element that corresponds to the parent of **MdxMissingMemberMode** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.Dimension>`.  
+ The element that corresponds to the parent of **MdxMissingMemberMode** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Dimension>.  
 
   
   

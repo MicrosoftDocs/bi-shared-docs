@@ -1,8 +1,338 @@
 {
     "redirections": [
         {
-            "source_path": "schema-rowsets/data-mining-schema-rowsets.md",
-            "redirect_url": "https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services",
+            "source_path": "schema-rowsets/data-mining/data-mining-schema-rowsets.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/data-mining/dmschema-mining-columns-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/data-mining/dmschema-mining-functions-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/data-mining/dmschema-mining-model-content-pmml-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/data-mining/dmschema-mining-model-content-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/data-mining/dmschema-mining-model-xml-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/data-mining/dmschema-mining-models-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/data-mining/dmschema-mining-service-parameters-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/data-mining/dmschema-mining-services-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/data-mining/dmschema-mining-structure-columns-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/data-mining/dmschema-mining-structures-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db/dbschema-catalogs-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db/dbschema-columns-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db/dbschema-provider-types-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db/dbschema-tables-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db/ole-db-schema-rowsets.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/discover-instances-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/discover-keywords-rowset-ole-db-for-olap.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-actions-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-cubes-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-dimensions-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-functions-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-hierarchies-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-input-datasources-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-kpis-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-levels-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-measuregroup-dimensions-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-measuregroups-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-measures-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-members-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-properties-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/mdschema-sets-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/ole-db-olap/ole-db-for-olap-schema-rowsets.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-calc-dependency-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-command-objects-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-commands-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-connections-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-csdl-metadata-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-datasources-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-db-connections-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-dimension-stat-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-enumerators-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-jobs-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-keywords-rowset-xmla.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-literals-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-locations-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-locks-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-memorygrant-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-memoryusage-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-object-activity-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-object-memory-usage-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-partition-dimension-stat-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-partition-stat-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-performance-counters-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-properties-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-schema-rowsets-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-sessions-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-storage-table-column-segments-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-storage-table-columns-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-storage-tables-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-trace-columns-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-trace-definition-providerinfo-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-trace-event-categories-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-traces-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-transactions-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/discover-xml-metadata-rowset.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "schema-rowsets/xml/xml-for-analysis-schema-rowsets.md",
+            "redirect_url": "schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         }
     ]

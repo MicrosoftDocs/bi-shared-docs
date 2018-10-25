@@ -40,7 +40,7 @@ manager: kfile
   
 ## Remarks  
   
- The corresponding element in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.DegenerateMeasureGroupDimension>`.  
+ The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DegenerateMeasureGroupDimension>.  
   
 ## See Also  
  [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  

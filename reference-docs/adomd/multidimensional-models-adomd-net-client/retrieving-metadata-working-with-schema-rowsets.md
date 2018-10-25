@@ -33,14 +33,14 @@ manager: kfile
   
  For more information: [Data Mining Schema Rowsets](../../schema-rowsets/data-mining/data-mining-schema-rowsets.md)  
   
- For each of these various schema rowsets, you retrieve metadata from the rowset by passing either a GUID or XMLA name with the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>` method of the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>` object.  
+ For each of these various schema rowsets, you retrieve metadata from the rowset by passing either a GUID or XMLA name with the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A> method of the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection> object.  
   
 ## Retrieving Metadata by Passing GUIDS  
- The `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdSchemaGuid>` class contains a list of fields that represent the schema rowsets most commonly supported by providers and analytical data sources. To retrieve both general and provider-specific metadata from a provider or analytical data source, you use the GUIDs contained within the `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdSchemaGuid>` object with the either of the following methods:  
+ The <xref:Microsoft.AnalysisServices.AdomdClient.AdomdSchemaGuid> class contains a list of fields that represent the schema rowsets most commonly supported by providers and analytical data sources. To retrieve both general and provider-specific metadata from a provider or analytical data source, you use the GUIDs contained within the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdSchemaGuid> object with the either of the following methods:  
   
--   `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>`  
+-   <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>  
   
--   `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>`  
+-   <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>  
   
 > [!NOTE]  
 >  The ADOMD.NET data provider exposes schema information through functionality made available by your specific provider and analytical data source. Each provider and data source may provide different metadata.  
@@ -48,13 +48,13 @@ manager: kfile
 ## Retrieving Metadata by Passing XMLA Names  
  The following methods take as arguments the XMLA schema name that identifies which schema information to return, and an array of restrictions on those returned columns:  
   
--   `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>`
+-   <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>
   
--   `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>`  
+-   <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>  
   
--   `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>`  
+-   <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>  
   
--   `<xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>`  
+-   <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>  
   
  Each of these methods returns an instance of a **DataSet** object that is populated with the schema information. The **DataSet** object is from the **System.Data** namespace of the Microsoft .NET Framework Class Library.  
   

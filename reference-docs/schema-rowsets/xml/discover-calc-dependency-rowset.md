@@ -73,7 +73,7 @@ SELECT * From $SYSTEM.DISCOVER_CALC_DEPENDENCY WHERE OBJECT_TYPE = 'MEASURE' OR 
   
  Using the QUERY restriction, you can provide a DAX query to view all of the objects used in that query. Consider a simple query like ‘Evaluate Customer’. As written, this query returns rows of customer data, where row composition is based on the columns in the Customer table. If you now run DISCOVER_CALC_DEPENDENCY with a QUERY restriction of ‘Evaluate Customer’, you will get the columns (or objects) used in that query. In this case, it’s a list of the columns in the Customer table.  
   
- The next set of queries demonstrates syntax for the QUERY restriction. You can run these queries against the [AdventureWorks Tabular Model SQL Server 2012](http://msftdbprodsamples.codeplex.com/releases/view/55330) to view the result set.  
+ The next set of queries demonstrates syntax for the QUERY restriction. You can run these queries against the [AdventureWorks Tabular Model SQL Server 2012](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks) to view the result set.  
   
  The first query shows how to specify a QUERY restriction for object names that include spaces. The second query, borrowed from [Execute DAX queries through OLE DB and ADOMD.NET](https://go.microsoft.com/fwlink/?LinkId=254329), is a more complex query that includes objects from multiple tables.  
   

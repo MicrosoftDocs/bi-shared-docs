@@ -16,11 +16,11 @@ manager: kfile
 
 ## Dimension objects
 
- To administer or process a dimension, you program the `<xref:Microsoft.AnalysisServices.Dimension>` object.  
+ To administer or process a dimension, you program the <xref:Microsoft.AnalysisServices.Dimension> object.  
   
 ### Creating, dropping, and finding a Dimension
 
- Creating a `<xref:Microsoft.AnalysisServices.Dimension>` object is accomplished in four steps:  
+ Creating a <xref:Microsoft.AnalysisServices.Dimension> object is accomplished in four steps:  
   
 1. Create the dimension object and populate basic attributes.  
   
@@ -140,7 +140,7 @@ static DataItem CreateDataItem(DataSourceView dsv, string tableName, string colu
   
 ### Processing a dimension
 
- Processing a dimension is as simple as using the Process method of the `<xref:Microsoft.AnalysisServices.Dimension>` object.  
+ Processing a dimension is as simple as using the Process method of the <xref:Microsoft.AnalysisServices.Dimension> object.  
   
  Processing a dimension can affect all cubes that use the dimension.
   
@@ -156,11 +156,11 @@ static void UpdateAllDimensions(Database db)
   
 ## Cube objects
 
- To administer or process a cube, you program the `<xref:Microsoft.AnalysisServices.Cube>` object.  
+ To administer or process a cube, you program the <xref:Microsoft.AnalysisServices.Cube> object.  
   
 ### Creating, dropping, and finding a cube
 
- Managing cubes is similar to managing dimensions. Creating a `<xref:Microsoft.AnalysisServices.Cube>` object is accomplished in four steps:  
+ Managing cubes is similar to managing dimensions. Creating a <xref:Microsoft.AnalysisServices.Cube> object is accomplished in four steps:  
   
 1. Create the cube object and populate basic attributes.  
   
@@ -230,7 +230,7 @@ static void CreateAdventureWorksCube(Database db, string datasourceName)
   
 ### Processing a cube
 
- Processing a cube is as simple as using the Process method of the `<xref:Microsoft.AnalysisServices.Cube>` object. Processing a cube also processes all measure groups in the cube, and all partitions in the measure group. In a cube, partitions are the only objects that can be processed; for the purposes of processing, measure groups are only containers of partitions. The specified type of processing for the cube propagates to the partitions. Processing of cube and measure group internally is resolved to processing of dimensions and partitions.
+ Processing a cube is as simple as using the Process method of the <xref:Microsoft.AnalysisServices.Cube> object. Processing a cube also processes all measure groups in the cube, and all partitions in the measure group. In a cube, partitions are the only objects that can be processed; for the purposes of processing, measure groups are only containers of partitions. The specified type of processing for the cube propagates to the partitions. Processing of cube and measure group internally is resolved to processing of dimensions and partitions.
   
  The following code will do a full process on all cubes in a specified database:  
   
@@ -242,11 +242,11 @@ foreach (Cube cube in db.Cubes)
   
 ## MeasureGroup objects
 
- To administer or process a measure group, you program the `<xref:Microsoft.AnalysisServices.MeasureGroup>` object.  
+ To administer or process a measure group, you program the <xref:Microsoft.AnalysisServices.MeasureGroup> object.  
   
 ### Creating, dropping, and finding a MeasureGroup
 
- Managing measure groups is similar to managing dimensions and cubes. Creating a `<xref:Microsoft.AnalysisServices.MeasureGroup>` object is accomplished in the following steps:  
+ Managing measure groups is similar to managing dimensions and cubes. Creating a <xref:Microsoft.AnalysisServices.MeasureGroup> object is accomplished in the following steps:  
   
 1. Create the measure group object and populate the basic attributes.  
   
@@ -397,7 +397,7 @@ static void CreateInternetSalesMeasureGroup(Cube cube)
 ```  
 
 ### Processing a measure group
- Processing a measure group is as simple as using the Process method of the `<xref:Microsoft.AnalysisServices.MeasureGroup>` object. Processing a measure group will process all partitions that belong to the measure group. Processing a measure group internally is resolved to processing dimensions and partitions. See Processing a Partition in this document.  
+ Processing a measure group is as simple as using the Process method of the <xref:Microsoft.AnalysisServices.MeasureGroup> object. Processing a measure group will process all partitions that belong to the measure group. Processing a measure group internally is resolved to processing dimensions and partitions. See Processing a Partition in this document.  
   
  The following code will do a full process in all measure groups of a supplied cube.  
   
@@ -411,7 +411,7 @@ static void FullProcessAllMeasureGroups(Cube cube)
   
 ## Partition objects
 
- To administer or process a partition, you program a `<xref:Microsoft.AnalysisServices.Partition>` object.  
+ To administer or process a partition, you program a <xref:Microsoft.AnalysisServices.Partition> object.  
   
 ### Creating, dropping, and finding a partition
 
@@ -464,7 +464,7 @@ static void CreateInternetSalesMeasureGroupPartitions(MeasureGroup mg)
   
 ### Processing a partition
 
- Processing a partition is as simple as using the Process method of the `<xref:Microsoft.AnalysisServices.Partition>` object.  
+ Processing a partition is as simple as using the Process method of the <xref:Microsoft.AnalysisServices.Partition> object.  
   
  The following code sample does a full process in all partitions of a specified measure group.  
   
@@ -480,7 +480,7 @@ static void FullProcessAllPartitions(MeasureGroup mg)
 
  Merging partitions means performing any operation that results in two or more partitions becoming one partition.  
   
- Merging partitions is a method of the `<xref:Microsoft.AnalysisServices.Partition>` object. This command merges the data of one or more source partitions into a target partition and deletes the source partitions.  
+ Merging partitions is a method of the <xref:Microsoft.AnalysisServices.Partition> object. This command merges the data of one or more source partitions into a target partition and deletes the source partitions.  
   
  Partitions can be merged only if they meet all the following criteria:  
   
@@ -512,11 +512,11 @@ static void MergeAllPartitions(MeasureGroup mg)
   
 ## Aggregation objects
 
- To design an design an aggregation and apply it to one or more partitions, you program `<xref:Microsoft.AnalysisServices.Aggregation>` object.  
+ To design an design an aggregation and apply it to one or more partitions, you program <xref:Microsoft.AnalysisServices.Aggregation> object.  
   
 ### Creating and dropping aggregations
 
- Aggregations can easily be created and assigned to measure groups or to partitions by using the DesignAggregations method from the `<xref:Microsoft.AnalysisServices.AggregationDesign>` object. The `<xref:Microsoft.AnalysisServices.AggregationDesign>` object is a separate object from partition, the `<xref:Microsoft.AnalysisServices.AggregationDesign>` object is contained in the `<xref:Microsoft.AnalysisServices.MeasureGroup>` object. Aggregations can be designed up to specified level of optimization (0 to 100) or up to specified level of storage (bytes). Multiple partitions can use the same aggregation design.  
+ Aggregations can easily be created and assigned to measure groups or to partitions by using the DesignAggregations method from the <xref:Microsoft.AnalysisServices.AggregationDesign> object. The <xref:Microsoft.AnalysisServices.AggregationDesign> object is a separate object from partition, the <xref:Microsoft.AnalysisServices.AggregationDesign> object is contained in the <xref:Microsoft.AnalysisServices.MeasureGroup> object. Aggregations can be designed up to specified level of optimization (0 to 100) or up to specified level of storage (bytes). Multiple partitions can use the same aggregation design.  
   
  The following code sample creates aggregations for all partitions of a supplied measure group. Any existing aggregations in partitions are dropped.  
   

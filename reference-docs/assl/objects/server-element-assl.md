@@ -59,7 +59,7 @@ manager: kfile
 ## Remarks  
  The **Server** element represents an instance ofAnalysis Services, and serves as the topmost node in the Analysis Services Scripting Language (ASSL) node hierarchy.  
   
- The corresponding element in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.Server>`.  
+ The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Server>.  
 
   
   

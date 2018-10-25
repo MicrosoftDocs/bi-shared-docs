@@ -60,5 +60,5 @@ SELECT Date, Product ID, Qty, Price, Qty * Price AS Amount
   
  For more information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of type **Binding** and the inheritance hierarchy of **Binding** types, see [Binding Data Type &#40;ASSL&#41;](binding-data-type-assl.md).  
   
- The corresponding element in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.TableBinding>`.  
+ The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.TableBinding>.  
   

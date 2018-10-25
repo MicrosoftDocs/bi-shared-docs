@@ -12,19 +12,19 @@ manager: kfile
 ---
 # Programming AMO fundamental objects
 
-  Fundamental objects are generally simple and straightforward objects. These objects are usually created and instantiated, then when they are no longer needed, the user disconnects from them. Fundamental classes include the following objects: `<xref:Microsoft.AnalysisServices.Server>`, `<xref:Microsoft.AnalysisServices.Database>`, `<xref:Microsoft.AnalysisServices.DataSource>`, and `<xref:Microsoft.AnalysisServices.DataSourceView>`. The only complex object in AMO fundamental objects is `<xref:Microsoft.AnalysisServices.DataSourceView>`, which requires detail to build the abstract model that represents the data source view.  
+  Fundamental objects are generally simple and straightforward objects. These objects are usually created and instantiated, then when they are no longer needed, the user disconnects from them. Fundamental classes include the following objects: <xref:Microsoft.AnalysisServices.Server>, <xref:Microsoft.AnalysisServices.Database>, <xref:Microsoft.AnalysisServices.DataSource>, and <xref:Microsoft.AnalysisServices.DataSourceView>. The only complex object in AMO fundamental objects is <xref:Microsoft.AnalysisServices.DataSourceView>, which requires detail to build the abstract model that represents the data source view.  
   
- `<xref:Microsoft.AnalysisServices.Server>` and `<xref:Microsoft.AnalysisServices.Database>` objects are usually required to use the contained objects as OLAP objects or data mining objects.  
+ <xref:Microsoft.AnalysisServices.Server> and <xref:Microsoft.AnalysisServices.Database> objects are usually required to use the contained objects as OLAP objects or data mining objects.  
   
 ## Server objects
 
- To use a `<xref:Microsoft.AnalysisServices.Server>` object requires the following steps: connecting to the server, verifying whether the `<xref:Microsoft.AnalysisServices.Server>` object is connected to the server, and if so, disconnecting the `<xref:Microsoft.AnalysisServices.Server>` from the server.  
+ To use a <xref:Microsoft.AnalysisServices.Server> object requires the following steps: connecting to the server, verifying whether the <xref:Microsoft.AnalysisServices.Server> object is connected to the server, and if so, disconnecting the <xref:Microsoft.AnalysisServices.Server> from the server.  
   
 ### Connecting to the Server object
 
  Connecting to the server consists of having the right connection string.  
   
- The following code sample returns a `<xref:Microsoft.AnalysisServices.Server>` object if the connection is successful, or returns **null** if an error occurs. Errors during the connection process are handled in a try/catch construct. AMO errors are caught by using the `<xref:Microsoft.AnalysisServices.AmoException>` exception class. In this example, the error is shown to the user on a message box.  
+ The following code sample returns a <xref:Microsoft.AnalysisServices.Server> object if the connection is successful, or returns **null** if an error occurs. Errors during the connection process are handled in a try/catch construct. AMO errors are caught by using the <xref:Microsoft.AnalysisServices.AmoException> exception class. In this example, the error is shown to the user on a message box.  
   
 ```csharp  
 static Server ServerConnect( String strStringConnection)  
@@ -56,11 +56,11 @@ static Server ServerConnect( String strStringConnection)
   
  "**Data source=**\<server name>".  
   
- For a more information about connection string, see `<xref:Microsoft.SqlServer.Management.Common.OlapConnectionInfo.ConnectionString%2A>`.  
+ For a more information about connection string, see <xref:Microsoft.SqlServer.Management.Common.OlapConnectionInfo.ConnectionString%2A>.  
   
 ### Validating the connection
 
- Before programming the `<xref:Microsoft.AnalysisServices.Server>` objects, you should verify that you are still connected to the server. The following code sample shows you how to do it. The sample assumes that `svr` is a `<xref:Microsoft.AnalysisServices.Server>` object that exists in your code.  
+ Before programming the <xref:Microsoft.AnalysisServices.Server> objects, you should verify that you are still connected to the server. The following code sample shows you how to do it. The sample assumes that `svr` is a <xref:Microsoft.AnalysisServices.Server> object that exists in your code.  
   
 ```csharp  
 if ( (svr != null) && ( svr.Connected))  
@@ -71,7 +71,7 @@ if ( (svr != null) && ( svr.Connected))
   
 ### Disconnecting from the server
 
- As soon as you are finished, you can disconnect from the server by using the Disconnect method. The following code sample shows you how to do it. The sample assumes that `svr` is a `<xref:Microsoft.AnalysisServices.Server>` object that exists in your code.  
+ As soon as you are finished, you can disconnect from the server by using the Disconnect method. The following code sample shows you how to do it. The sample assumes that `svr` is a <xref:Microsoft.AnalysisServices.Server> object that exists in your code.  
   
 ```csharp  
 if ( (svr != null) && ( svr.Connected))  
@@ -122,11 +122,11 @@ catch (  AMOException e)
   
 ## Database objects
   
- Working with a `<xref:Microsoft.AnalysisServices.Database>` object is very simple and straightforward. You get an existing database from the database collection of the `<xref:Microsoft.AnalysisServices.Server>`  object.  
+ Working with a <xref:Microsoft.AnalysisServices.Database> object is very simple and straightforward. You get an existing database from the database collection of the <xref:Microsoft.AnalysisServices.Server>  object.  
   
 ### Creating, dropping, and finding a database
 
- The following code sample shows how to create a database by using a database name. Before creating the database, query the `<xref:Microsoft.AnalysisServices.DatabaseCollection>` of the server to see whether the database exists. If the database exists, the database is dropped and afterward created; if the database does not exist then it is created. If the database is to be dropped, then the database is first acquired from the databases collection.  
+ The following code sample shows how to create a database by using a database name. Before creating the database, query the <xref:Microsoft.AnalysisServices.DatabaseCollection> of the server to see whether the database exists. If the database exists, the database is dropped and afterward created; if the database does not exist then it is created. If the database is to be dropped, then the database is first acquired from the databases collection.  
   
 ```csharp  
 static Database CreateDatabase(Server svr, String DatabaseName)  
@@ -152,13 +152,13 @@ static Database CreateDatabase(Server svr, String DatabaseName)
   
  To determine whether a database exists in the database collection, the FindByName method is used. If the database exists, then the method returns the found database object, if not it returns a null object.  
   
- As soon as the `<xref:Microsoft.AnalysisServices.Database>` object is added to the databases collection, the server has to be updated by using its Update method. Failing to update the server will cause the `<xref:Microsoft.AnalysisServices.Database>` object not to be created in the server.  
+ As soon as the <xref:Microsoft.AnalysisServices.Database> object is added to the databases collection, the server has to be updated by using its Update method. Failing to update the server will cause the <xref:Microsoft.AnalysisServices.Database> object not to be created in the server.  
   
 ### Processing a database
 
- Processing a database, with all the children objects, is very simple because the `<xref:Microsoft.AnalysisServices.Database>` object includes a Process method.  
+ Processing a database, with all the children objects, is very simple because the <xref:Microsoft.AnalysisServices.Database> object includes a Process method.  
   
- The Process method can include parameters, but they are not required. If no parameters are specified, then all children objects will be processed with their **ProcessDefault** option. For more information about processing options, see `<xref:Microsoft.AnalysisServices.Database>`.  
+ The Process method can include parameters, but they are not required. If no parameters are specified, then all children objects will be processed with their **ProcessDefault** option. For more information about processing options, see <xref:Microsoft.AnalysisServices.Database>.  
   
 1.  The following sample code process a database by its default value.  
   
@@ -172,9 +172,9 @@ static Database ProcessDatabase(Database db, ProcessType pt)
   
 ## DataSource objects
 
- A `<xref:Microsoft.AnalysisServices.DataSource>` object is the link between the server and the database where the data resides. The schema that represents the underlying model for is defined by the `<xref:Microsoft.AnalysisServices.DataSourceView>` object. A `<xref:Microsoft.AnalysisServices.DataSource>` object can be seen as a connection string to the database where the data resides.  
+ A <xref:Microsoft.AnalysisServices.DataSource> object is the link between the server and the database where the data resides. The schema that represents the underlying model for is defined by the <xref:Microsoft.AnalysisServices.DataSourceView> object. A <xref:Microsoft.AnalysisServices.DataSource> object can be seen as a connection string to the database where the data resides.  
   
- The following sample code shows how to create a `<xref:Microsoft.AnalysisServices.DataSource>` object. The sample verifies that the server still exists, the `<xref:Microsoft.AnalysisServices.Server>` object is connected, and the database exists. If the `<xref:Microsoft.AnalysisServices.DataSource>` object exists, then it is dropped are re-created. The `<xref:Microsoft.AnalysisServices.DataSource>` object is created having the same name and internal ID. In this sample, no checking is performed on the connection string to verify it.  
+ The following sample code shows how to create a <xref:Microsoft.AnalysisServices.DataSource> object. The sample verifies that the server still exists, the <xref:Microsoft.AnalysisServices.Server> object is connected, and the database exists. If the <xref:Microsoft.AnalysisServices.DataSource> object exists, then it is dropped are re-created. The <xref:Microsoft.AnalysisServices.DataSource> object is created having the same name and internal ID. In this sample, no checking is performed on the connection string to verify it.  
   
 ```csharp  
 static string CreateDataSource(Database db, string strDataSourceName, string strConnectionString)  
@@ -196,17 +196,17 @@ static string CreateDataSource(Database db, string strDataSourceName, string str
   
 ## DataSourceView objects
 
- `<xref:Microsoft.AnalysisServices.DataSourceView>` object is responsible for holding the schema model. For the `<xref:Microsoft.AnalysisServices.DataSourceView>` object to hold the schema, the schema must first be constructed. Schemas are constructed over DataSet objects, from the System.Data namespace.  
+ <xref:Microsoft.AnalysisServices.DataSourceView> object is responsible for holding the schema model. For the <xref:Microsoft.AnalysisServices.DataSourceView> object to hold the schema, the schema must first be constructed. Schemas are constructed over DataSet objects, from the System.Data namespace.  
   
  The following sample code will create part of the schema that is included in the Analysis Services sample project based on AdventureWorks. The sample creates schema definitions for tables, computed columns, relations, and composite relations. Schemas are persisted data sets.  
   
  The sample code does the following:  
   
-1.  Create a `<xref:Microsoft.AnalysisServices.DataSourceView>` object.  
+1.  Create a <xref:Microsoft.AnalysisServices.DataSourceView> object.  
   
-     Verify first if the `<xref:Microsoft.AnalysisServices.DataSource>` object exists; if **true**, then drop the `<xref:Microsoft.AnalysisServices.DataSource>` and create it. If the `<xref:Microsoft.AnalysisServices.DataSource>` does not exist, create it.  
+     Verify first if the <xref:Microsoft.AnalysisServices.DataSource> object exists; if **true**, then drop the <xref:Microsoft.AnalysisServices.DataSource> and create it. If the <xref:Microsoft.AnalysisServices.DataSource> does not exist, create it.  
   
-2.  Open a connection to the database using `<xref:Microsoft.AnalysisServices.DataSource>` connection string.  
+2.  Open a connection to the database using <xref:Microsoft.AnalysisServices.DataSource> connection string.  
   
 3.  Create the schema.  
   

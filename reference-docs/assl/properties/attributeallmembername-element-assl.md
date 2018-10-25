@@ -41,7 +41,7 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- The element that corresponds to the parent of **AttributeAllMemberName** in the Analysis Management Objects (AMO) object model is `<xref:Microsoft.AnalysisServices.Dimension>`.  
+ The element that corresponds to the parent of **AttributeAllMemberName** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.Dimension>.  
 
   
   
