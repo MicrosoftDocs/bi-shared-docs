@@ -1,6 +1,6 @@
 ---
 title: "DataAggregation Element (ASSL) | Microsoft Docs"
-ms.date: 05/08/2018
+ms.date: 10/25/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -13,6 +13,9 @@ manager: kfile
 # DataAggregation Element (ASSL)
 
   Determines whether the instance can aggregate persisted data or cached data for the [MeasureGroup](../objects/measuregroup-element-assl.md).  
+  
+> [!IMPORTANT]
+> Do not modify this property. This property is currently ignored by the engine. 
   
 ## Syntax  
   
