@@ -1,6 +1,6 @@
 ---
 title: "Analysis Management Objects (AMO) | Microsoft Docs"
-ms.date: 07/20/2018
+ms.date: 11/26/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Programming with Analysis Management Objects (AMO)
+# Analysis Management Objects (AMO)
 
 [!INCLUDE[ssasyes-aasyes](../includes/ssasyes-aasyes.md)]
 
