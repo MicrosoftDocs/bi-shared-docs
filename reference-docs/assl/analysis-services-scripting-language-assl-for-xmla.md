@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Analysis Services Scripting Language (ASSL for XMLA)
 
+[!INCLUDE[ssasyes-aasno](../includes/ssasyes-aasno.md)]
+
   Applications communicate with Analysis Services using XML commands and object descriptions. Analysis Services Scripting Language (ASSL) represents the object definition language portion of this XML dialect.  
   
  This reference section contains syntax and usage information for each element in the ASSL schema.  

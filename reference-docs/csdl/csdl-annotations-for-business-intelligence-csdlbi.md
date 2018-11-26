@@ -12,6 +12,8 @@ manager: kfile
 ---
 # CSDL Annotations for Business Intelligence (CSDLBI)
 
+[!INCLUDE[ssasyes-aasno](../includes/ssasyes-aasno.md)]
+
   Analysis Services supports the presentation of the definition of a tabular model in an XML format called Conceptual Schema Definition Language with Business Intelligence annotations (CSDLBI). This topic provides an overview of CSDLBI and how it is used with Analysis Services data models.  
   
 ## Understanding the Role of CSDL
