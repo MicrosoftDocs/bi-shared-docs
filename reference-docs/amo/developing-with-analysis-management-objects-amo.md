@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Programming with Analysis Management Objects (AMO)
 
+[!INCLUDE[ssasyes-aasyes](../includes/ssasyes-aasyes.md)]
+
 Analysis Management Objects (AMO) is a library of programmatically accessed objects that enables an application to manage an Analysis Services instance.
 
 This section explains AMO concepts, focusing on major objects, how and when to use them, and the way they are interrelated. For more information about specific objects or classes, see:
