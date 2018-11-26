@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Tabular Object Model (TOM)
 
+[!INCLUDE[ssas2016-lateryes-aasyes](../includes/ssas2016-lateryes-aasyes.md)]
+
   The Tabular Object Model (TOM) is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher. As with AMO, TOM provides a programmatic way to handle administrative functions like creating models, importing and refreshing data, and assigning roles and permissions.  
   
 TOM exposes native tabular metadata, such as **model**, **tables**, **columns**, and **relationships** objects. A high-level view of the object model tree, provided below, illustrates how the component parts are related.  
