@@ -1,1 +1,1 @@
-**APPLIES TO:** ![yes](media/yes.png)SQL Server Analysis Services ![no](media/no.png)Azure Analysis Services ![no](media/no.png)Power BI
+**APPLIES TO:** ![no](media/no.png)Power BI ![yes](media/yes.png)SQL Server Analysis Services ![no](media/no.png)Azure Analysis Services
