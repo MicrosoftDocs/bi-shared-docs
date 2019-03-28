@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services Schema Rowsets | Microsoft Docs"
-ms.date: 03/27/2019
+ms.date: 03/29/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets

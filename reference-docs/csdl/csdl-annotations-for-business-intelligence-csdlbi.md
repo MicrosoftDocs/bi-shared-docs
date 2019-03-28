@@ -1,6 +1,6 @@
 ---
 title: "CSDL Annotations for Business Intelligence (CSDLBI) | Microsoft Docs"
-ms.date: 03/27/2019
+ms.date: 03/29/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
