@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services Scripting Language (ASSL for XMLA) | Microsoft Docs"
-ms.date: 07/25/2018
+ms.date: 03/29/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Analysis Services Scripting Language (ASSL for XMLA)
 
-[!INCLUDE[ssasyes-aasno](../includes/ssasyes-aasno.md)]
+[!INCLUDE[ssasyes-aasno-pbino](../includes/ssasyes-aasno-pbino.md)]
 
   Applications communicate with Analysis Services using XML commands and object descriptions. Analysis Services Scripting Language (ASSL) represents the object definition language portion of this XML dialect.  
   
