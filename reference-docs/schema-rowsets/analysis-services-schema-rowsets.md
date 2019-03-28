@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services Schema Rowsets | Microsoft Docs"
-ms.date: 10/01/2018
+ms.date: 03/27/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: schema-rowsets
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Analysis Services Schema Rowsets
 
-[!INCLUDE[ssasyes-aasyes](../includes/ssasyes-aasyes.md)]
+[!INCLUDE[ssasyes-aasyes-pbiyes](../includes/ssasyes-aasyes-pbiyes.md)]
 
   Schema rowsets are predefined tables that contain information about Analysis Services objects and server state, including database schema, active sessions, connections, commands, and jobs that are executing on the server. You can query schema rowset tables in an XML/A script window in SQL Server Management Studio, run a DMV query against a schema rowset, or create a custom application that incorporates schema rowset information (for example, a reporting application that retrieves the list of available dimensions that can be used to create a report).  
   
