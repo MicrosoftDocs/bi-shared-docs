@@ -1,6 +1,6 @@
 ---
 title: "CSDL Annotations for Business Intelligence (CSDLBI) | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 03/27/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CSDL Annotations for Business Intelligence (CSDLBI)
 
-[!INCLUDE[ssasyes-aasno](../includes/ssasyes-aasno.md)]
+[!INCLUDE[ssasyes-aasno-pbino](../includes/ssasyes-aasno-pbino.md)]
 
   Analysis Services supports the presentation of the definition of a tabular model in an XML format called Conceptual Schema Definition Language with Business Intelligence annotations (CSDLBI). This topic provides an overview of CSDLBI and how it is used with Analysis Services data models.  
   

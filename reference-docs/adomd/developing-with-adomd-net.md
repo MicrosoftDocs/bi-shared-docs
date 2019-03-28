@@ -1,6 +1,6 @@
 ---
 title: "Developing with ADOMD.NET | Microsoft Docs"
-ms.date: 05/02/2018
+ms.date: 03/27/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: adomd
@@ -12,7 +12,7 @@ manager: kfile
 ---
 # ADOMD.NET
 
-[!INCLUDE[ssasyes-aasno](../includes/ssasyes-aasno.md)]
+[!INCLUDE[ssasyes-aasno-pbino](../includes/ssasyes-aasno-pbino.md)]
 
   ADOMD.NET is a Microsoft .NET Framework data provider designed to communicate with Microsoft SQL Server Analysis Services. ADOMD.NET uses the XML for Analysis protocol to communicate with analytical data sources by using either TCP/IP or HTTP connections to transmit and receive SOAP requests and responses that are compliant with the XML for Analysis specification. Commands can be sent in Multidimensional Expressions (MDX), Data Mining Extensions (DMX), Analysis Services Scripting Language (ASSL), or even a limited syntax of SQL, and may not return a result. Analytical data, key performance indicators (KPIs), and mining models can be queried and manipulated by using the ADOMD.NET object model. By using ADOMD.NET, you can also view and work with metadata either by retrieving OLE DB-compliant schema rowsets or by using the ADOMD.NET object model.  
   
