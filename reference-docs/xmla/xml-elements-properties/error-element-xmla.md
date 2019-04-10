@@ -1,6 +1,6 @@
 ---
 title: "Error Element (XMLA) | Microsoft Docs"
-ms.date: 07/24/2018
+ms.date: 04/10/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -31,10 +31,10 @@ manager: kfile
 <Cell><!-- or row -->  
    <!-- A child element -->  
       <Error xmlns="urn:schemas-microsoft-com:xml-analysis:exception"  
-         < ErrorCode>...</ErrorCode>  
-         < Description>...</Description>  
-         < Source>...</Source>  
-         < HelpFile>...</HelpFile>  
+         <ErrorCode>...</ErrorCode>  
+         <Description>...</Description>  
+         <Source>...</Source>  
+         <HelpFile>...</HelpFile>  
       </Error>  
    <!-- /A child element -- >  
 </Cell>  
