@@ -1,6 +1,6 @@
 ---
 title: "Commands (XMLA) | Microsoft Docs"
-ms.date: 07/24/2018
+ms.date: 04/16/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -34,7 +34,7 @@ manager: kfile
 |[Process Element](../xml-elements-commands/process-element-xmla.md)|Processes objects on an Analysis Services instance.|  
 |[Restore Element](../xml-elements-commands/restore-element-xmla.md)|Restores an Analysis Services database from a backup file.|  
 |[RollbackTransaction Element](../xml-elements-commands/rollbacktransaction-element-xmla.md)|Rolls back a transaction on the current session with an Analysis Services instance.|  
-|[Statement Element](../xml-elements-commands/statement-element-xmla.md)|Ccontains a query or statement to be sent using the [Execute](../xml-elements-methods-execute.md) method to an instance of Analysis Services.|  
+|[Statement Element](../xml-elements-commands/statement-element-xmla.md)|Contains a query or statement to be sent using the [Execute](../xml-elements-methods-execute.md) method to an instance of Analysis Services.|  
 |[Subscribe Element](../xml-elements-commands/subscribe-element-xmla.md)|Subscribes to a trace and returns a rowset containing the trace events from an Analysis Services instance.|  
 |[Synchronize Element](../xml-elements-commands/synchronize-element-xmla.md)|Synchronizes an Analysis Services database with another existing database.|  
 |[Unlock Element](../xml-elements-commands/unlock-element-xmla.md)|Unlocks a specified lock on an Analysis Services instance.|  

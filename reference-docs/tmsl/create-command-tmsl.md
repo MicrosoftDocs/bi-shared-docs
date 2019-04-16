@@ -25,16 +25,7 @@ manager: kfile
   "create": {   
     "database": {   
       "name": "AdventureworksDW2016",   
-      "description": "<description>",   
-      "tables": [   
-        { },   
-        { },   
-        { }   
-      ],   
-      "relationships": [   
-        { },   
-        { }   
-      ]   
+      "description": "<description>"   
     }   
   }   
 }  
