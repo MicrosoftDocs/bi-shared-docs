@@ -1,6 +1,6 @@
 ---
 title: "Create command (TMSL) | Microsoft Docs"
-ms.date: 07/20/2018
+ms.date: 04/16/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
@@ -25,16 +25,7 @@ manager: kfile
   "create": {   
     "database": {   
       "name": "AdventureworksDW2016",   
-      "description": "<description>",   
-      "tables": [   
-        { },   
-        { },   
-        { }   
-      ],   
-      "relationships": [   
-        { },   
-        { }   
-      ]   
+      "description": "<description>"   
     }   
   }   
 }  
