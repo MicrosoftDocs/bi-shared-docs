@@ -4,7 +4,8 @@
       {
         "files": [
           "**/*.md",
-          "**/*.yml"
+          "**/*.yml",
+          "breadcrumb/toc.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -23,7 +24,8 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif"
         ],
         "exclude": [
           "**/obj/**",
@@ -37,6 +39,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "layout": "Conceptual",
       "breadcrumb_path": "/analysis-services/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None"
