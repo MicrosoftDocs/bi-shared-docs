@@ -46,8 +46,8 @@ The following features were deprecated in an earlier release and are no longer s
 |||  
 |-|-|  
 |**Feature**|**Replacment or workaround**|  
-|[CalculationPassValue &#40;MDX&#41;](../mdx/calculationpassvalue-mdx.md)|None. This feature was deprecated in SQL Server 2005.|  
-|[CalculationCurrentPass &#40;MDX&#41;](../mdx/calculationcurrentpass-mdx.md)|None. This feature was deprecated in SQL Server 2005.|  
+|CalculationPassValue &#40;MDX&#41;|None. This feature was deprecated in SQL Server 2005.|  
+|CalculationCurrentPass &#40;MDX&#41;|None. This feature was deprecated in SQL Server 2005.|  
 |NON_EMPTY_BEHAVIOR query optimizer hint|None. This feature was deprecated in SQL Server 2008.|  
 |COM assemblies|None. This feature was deprecated in SQL Server 2008.|  
 |CELL_EVALUATION_LIST intrinsic cell property|None. This feature was deprecated in SQL Server 2005.|  

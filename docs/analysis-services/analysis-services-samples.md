@@ -26,7 +26,7 @@ While no longer officially supported, Adventure Works remains one of the most in
 
 [Download Adventure Works sample projects and databases on GitHub](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks).
 
-A new collection of sample data, Wide World Importers, was introduced for SQL Server 2016. You can use Wide World Importers sample data to learn about and test Analysis Services; however, no tutorials, examples, or documentation are provided. The Wide World Importers dataset and schema do not support many of the features in Analysis Services. To learn more, see [Wide World Importers](../sample/world-wide-importers/wide-world-importers-documentation.md).
+A new collection of sample data, Wide World Importers, was introduced for SQL Server 2016. You can use Wide World Importers sample data to learn about and test Analysis Services; however, no tutorials, examples, or documentation are provided. The Wide World Importers dataset and schema do not support many of the features in Analysis Services.
 
 
   
