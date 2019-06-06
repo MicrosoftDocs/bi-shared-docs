@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# What&#39;s New in Analysis Services
+# What&#39;s New in SQL Server 2016 Analysis Services
 [!INCLUDE[ssas-appliesto-sql2016](../includes/ssas-appliesto-sql2016.md)]
 
 SQL Server 2016 Analysis Services includes many new enhancements providing improved performance, easier solution authoring, automated database management, enhanced relationships with bi-directional cross filtering, parallel partition processing, and much more. At the heart of most enhancements for this release is the new 1200 compatibility level for tabular model databases.     
@@ -84,7 +84,7 @@ A *calculated table* is a model-only construction based on a DAX expression or q
  ### SSMS scripting database operations    
  In the [latest SQL Server Management Studio (SSMS)](http://msdn.microsoft.com/library/mt238290.aspx), script is now enabled for database commands, including Create, Alter, Delete, Backup, Restore, Attach, Detach. Output is Tabular Model Scripting Language (TMSL) in JSON. See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](https://docs.microsoft.com/bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference) for more information.    
  ### Analysis Services Execute DDL Task    
- [Analysis Services Execute DDL Task](../integration-services/control-flow/analysis-services-execute-ddl-task.md) now also accepts Tabular Model Scripting Language (TMSL) commands.     
+ Analysis Services Execute DDL Task now also accepts Tabular Model Scripting Language (TMSL) commands.     
  ### SSAS PowerShell cmdlet    
  SSAS PowerShell cmdlet **Invoke-ASCmd** now accepts Tabular Model Scripting Language (TMSL) commands. Other SSAS PowerShell cmdlets may be updated in a future release to use the new tabular metadata (exceptions will be called out in the release notes).    
 See Analysis Services PowerShell Reference for details.    
@@ -189,8 +189,6 @@ This release sees significant enhancements in DirectQuery for tabular 1200 model
     
 To learn more, see [DirectQuery Mode](../analysis-services/tabular-models/directquery-mode-ssas-tabular.md).    
 
-## See Also
-[Analysis Services team blog](http://blogs.msdn.microsoft.com/analysisservices/)    
-[What's New in SQL Server 2016](../sql-server/what-s-new-in-sql-server-2016.md)    
+
      
 

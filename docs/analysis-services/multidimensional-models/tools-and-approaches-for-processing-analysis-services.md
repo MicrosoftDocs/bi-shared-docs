@@ -138,7 +138,7 @@ Starting in this release of SQL Server, you can use Analysis Services PowerShell
   
 2.  In the **SSIS Toolbox**, double-click **Analysis Services Processing** to add it to the package.  
   
-3.  Edit the task to specify a connection to the database, which objects to process, and the process option. For more information about how to implement this task, see [Analysis Services Processing Task](../../integration-services/control-flow/analysis-services-processing-task.md).  
+3.  Edit the task to specify a connection to the database, which objects to process, and the process option. For more information about how to implement this task, see [Analysis Services Processing Task](/sql/integration-services/control-flow/analysis-services-processing-task).  
   
 ## See Also  
  [Processing a multidimensional model &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md)  
