@@ -109,6 +109,6 @@ This topic provides details of features supported by the different editions of S
   
  ## See also  
  [Product Specifications for SQL Server 2016](http://msdn.microsoft.com/library/6445fd53-6844-4170-a86b-7fe76a9f64cb)   
- [Installation for SQL Server](../database-engine/install-windows/installation-for-sql-server-2016.md)  
+ [Installation for SQL Server](/sql/database-engine/install-windows/installation-for-sql-server-2016)  
 
 
