@@ -1,0 +1,1 @@
+<Token>![Need help?](media/needhelp_person_icon.png)  **Need help?** [MSDN Forum](https://social.msdn.microsoft.com/Forums/sqlserver/home?category=sqlserver&filter=alltypes&sort=lastpostdesc), [Stackoverflow](https://stackoverflow.com/questions/tagged/sql-server), [SQL Server on the Azure Feedback Forums](https://feedback.azure.com/forums/908035-sql-server)</Token>
