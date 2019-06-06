@@ -141,7 +141,7 @@ manager: kfile
 3.  In Manage Views, in Current View, select the view you want to use from the list. Predesigned views include Gallery, Theater, and Carousel. Alternatively, you can choose All Documents if you want to move, delete, or manage documents in the library.  
   
 ## See Also  
- [Troubleshoot a Power Pivot for SharePoint Installation](../../analysis-services/troubleshoot-a-power-pivot-for-sharepoint-installation.md)   
+
  [Use Power Pivot Gallery](../../analysis-services/power-pivot-sharepoint/use-power-pivot-gallery.md)   
  [Create a trusted location for Power Pivot sites in Central Administration](../../analysis-services/power-pivot-sharepoint/create-a-trusted-location-for-power-pivot-sites-in-central-administration.md)   
  [Delete Power Pivot Gallery](../../analysis-services/power-pivot-sharepoint/delete-power-pivot-gallery.md)  

@@ -41,6 +41,6 @@ manager: kfile
   
 ## See also  
  [DirectQuery Mode](../../analysis-services/tabular-models/directquery-mode-ssas-tabular.md)   
- [Process Data](../../analysis-services/tabular-models/process-data-ssas-tabular.md)  
+ [Process Data](../../analysis-services/tabular-models/process-database-table-or-partition-analysis-services.md)  
   
   

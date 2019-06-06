@@ -38,7 +38,7 @@ manager: kfile
   
      By default, permissions are set to **Read**.  
   
-     Although **Read/Write** is available, we recommend that you do not use this permission. **Read/Write** is used for dimension writeback scenarios, which have been deprecated. See [Deprecated Analysis Services Features in SQL Server 2016](../../analysis-services/deprecated-analysis-services-features-in-sql-server-2016.md).  
+     Although **Read/Write** is available, we recommend that you do not use this permission. **Read/Write** is used for dimension writeback scenarios, which have been deprecated.  
   
      Optionally, you can set **Read Definition** and **Process** permissions on individual dimension objects, as long as those permissions are not already set at the database level. See [Grant process permissions &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-process-permissions-analysis-services.md) and [Grant read definition permissions on object metadata &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-read-definition-permissions-on-object-metadata-analysis-services.md) for details.  
   

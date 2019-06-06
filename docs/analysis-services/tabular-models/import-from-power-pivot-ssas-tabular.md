@@ -40,6 +40,5 @@ manager: kfile
   
 ## See Also  
  [Workspace Database](../../analysis-services/tabular-models/workspace-database-ssas-tabular.md)   
- [Copy and Paste Data](../../analysis-services/tabular-models/ssas-import-data-copy-and-paste-data.md)  
   
   
