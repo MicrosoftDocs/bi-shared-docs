@@ -14,11 +14,7 @@ manager: kfile
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
   The tasks in this topic describe how to process a tabular model database, table, or partitions manually by using the **Process \<object>** dialog box in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)].  
   
- For more information about tabular model processing, see [Process Data](../../analysis-services/tabular-models/process-data-ssas-tabular.md).  
-  
-##  <a name="bkmk_process_tasks"></a> Tasks  
-  
-###  <a name="bkmk_process_db"></a> To process a database  
+##  <a name="bkmk_process_db"></a> To process a database  
   
 1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], right-click on the database you want to process, and then click **Process Database**.  
   
@@ -33,7 +29,7 @@ manager: kfile
   
 3.  In the **Process** checkbox column, select the partitions you want to process with the selected mode, and then click **Ok**.  
   
-###  <a name="bkmk_process_table"></a> To process a table  
+##  <a name="bkmk_process_table"></a> To process a table  
   
 1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], in the tabular model database which contains the table you want to process, expand the **Tables** node, then right-click on the table you want to process, and then click **Process Table**.  
   
@@ -49,7 +45,7 @@ manager: kfile
   
 3.  In the table checkbox column, verify the table and optionally select any additional tables you want to process, and then click **Ok**.  
   
-###  <a name="bkmk_process_partition"></a> To process one or more partitions  
+##  <a name="bkmk_process_partition"></a> To process one or more partitions  
   
 1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], right-click on the table that has the partitions you want to process, and then click **Partitions**.  
   

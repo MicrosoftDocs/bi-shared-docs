@@ -40,7 +40,6 @@ manager: kfile
  ![Small File Folder Icon](../../../analysis-services/media/filefolder-small.png "Small File Folder Icon") **International Considerations**  
  [Globalization scenarios for Analysis Services](../../../analysis-services/globalization-scenarios-for-analysis-services.md)  
   
-## See Also  
- [Technical Reference](../../../analysis-services/powershell/technical-reference-ssas.md)  
+
   
   

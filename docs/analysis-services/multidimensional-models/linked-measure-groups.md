@@ -14,7 +14,7 @@ manager: kfile
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   A linked measure group is based on another measure group in a different cube within the same database or a different Analysis Services database. You might use a linked measure group if you want to reuse a set of measures, and the corresponding data values, in multiple cubes.  
   
- Microsoft recommends that the original and linked measure groups reside in solutions that run on the same server. Linking to a measure group on a remote server is scheduled for deprecation in a future release (see [Deprecated Analysis Services Features in SQL Server 2016](../../analysis-services/deprecated-analysis-services-features-in-sql-server-2016.md)).  
+ Microsoft recommends that the original and linked measure groups reside in solutions that run on the same server. Linking to a measure group on a remote server is scheduled for deprecation in a future release.  
   
 > [!IMPORTANT]  
 >  Linked measure groups are read-only. To pick up the latest changes, you must delete and recreate all linked measure groups based on the modified source object. For this reason, copy and pasting measure groups between projects is an alternative approach that you should consider in case future modifications to the measure group are required.  

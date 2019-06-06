@@ -43,7 +43,7 @@ manager: kfile
   
 -   A combination of both relational data and tabular (HTML) data copy and pasted into the table.  
   
- When you import data, each table or view, sheet, or file of data is added as a table in the model designer. You typically add data from various sources onto separate tabs, but you can combine data in a single table by using **Paste** and **Paste Append**. For more information, see [Copy and Paste Data](../../analysis-services/tabular-models/ssas-import-data-copy-and-paste-data.md).  
+ When you import data, each table or view, sheet, or file of data is added as a table in the model designer. You typically add data from various sources onto separate tabs, but you can combine data in a single table by using **Paste** and **Paste Append**.
   
  After you have added the data that you need, you can create additional relationships between the tables, look up or reference related values in other tables, or create derived values by adding new calculated columns.  
   

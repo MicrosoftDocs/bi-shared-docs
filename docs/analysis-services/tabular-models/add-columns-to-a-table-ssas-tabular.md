@@ -45,7 +45,7 @@ manager: kfile
 2.  In the formula bar, type a DAX formula to add attributes for each row.  
   
 ## Add a blank column  
- You can create a named, blank column in a model table. Blank columns can be useful if you want to paste data from another source. Keep in-mind that pasted data is stored differently than imported data. For more information, see [Copy and Paste Data](../../analysis-services/tabular-models/ssas-import-data-copy-and-paste-data.md).  
+ You can create a named, blank column in a model table. Blank columns can be useful if you want to paste data from another source. Keep in-mind that pasted data is stored differently than imported data.  
   
 #### To create a named, blank column  
   
