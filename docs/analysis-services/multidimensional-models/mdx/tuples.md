@@ -1,6 +1,6 @@
 ---
 title: "Tuples | Microsoft Docs"
-ms.date: 05/02/2018
+ms.date: 06/06/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: mdx
@@ -15,7 +15,7 @@ manager: kfile
   A tuple uniquely identifies a slice of data from a cube. The tuple is formed by a combination of dimension members, as long as there are no two or more members that belong to the same hierarchy.  
   
 ## Implicit or default attribute members in a tuple  
- When defining a tuple in an MDX query or expression, you do not need to explicitly include the attribute member from every attribute hierarchy. If a member from an attribute hierarchy is not explicitly included in a query or an expression, the default member for that attribute hierarchy is the attribute member implicitly included in the tuple. Unless otherwise explicitly defined in a cube, the default member for every attribute hierarchy is the (All) member, if an (All) member exists. If an (All) member does not exist within an attribute hierarchy, the default member is a member of the attribute hierarchy's top level. The default measure is the first measure specified in the cube, unless a default measure is explicitly defined. For more information, see [Define a Default Member](../../../analysis-services/multidimensional-models/attribute-properties-define-a-default-member.md) and [DefaultMember &#40;MDX&#41;](../../../mdx/defaultmember-mdx.md).  
+ When defining a tuple in an MDX query or expression, you do not need to explicitly include the attribute member from every attribute hierarchy. If a member from an attribute hierarchy is not explicitly included in a query or an expression, the default member for that attribute hierarchy is the attribute member implicitly included in the tuple. Unless otherwise explicitly defined in a cube, the default member for every attribute hierarchy is the (All) member, if an (All) member exists. If an (All) member does not exist within an attribute hierarchy, the default member is a member of the attribute hierarchy's top level. The default measure is the first measure specified in the cube, unless a default measure is explicitly defined. For more information, see [Define a Default Member](../../../analysis-services/multidimensional-models/attribute-properties-define-a-default-member.md) and [DefaultMember &#40;MDX&#41;](/sql/mdx/defaultmember-mdx).  
   
  For example, the following tuple identifies a single cell in the Adventure Works database by explicitly defining only a single member of the Measures dimension.  
   
