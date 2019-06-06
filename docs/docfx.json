@@ -9,7 +9,6 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
           "_themes/**",
           "_themes.pdf/**",
           "**/docfx.json",
@@ -29,10 +28,8 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
           "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json"
+          "_themes.pdf/**"
         ]
       }
     ],
