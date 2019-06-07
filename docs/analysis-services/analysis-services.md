@@ -1,6 +1,6 @@
 ---
-title: "About SQL Server Analysis Services | Microsoft Docs"
-ms.date: 12/05/2018
+title: "Analysis Services | Microsoft Docs"
+ms.date: 06/07/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# About SQL Server Analysis Services
+# Analysis Services
 
 Analysis Services is an analytical data engine used in decision support and business analytics. It provides enterprise-grade semantic data models for business reports and client applications such as Power BI, Excel, Reporting Services reports, and other data visualization tools.
 
