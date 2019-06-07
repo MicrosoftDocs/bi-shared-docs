@@ -1,4 +1,4 @@
-- name: About SQL Server Analysis Services
+- name: Analysis Services
   href: ../analysis-services/analysis-services.md
 - name: Overview
   items:
