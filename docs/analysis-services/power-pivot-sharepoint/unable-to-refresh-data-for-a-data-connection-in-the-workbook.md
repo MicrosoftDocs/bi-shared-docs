@@ -38,13 +38,13 @@ manager: kfile
   
  To determine the version of the workbook, open it in Excel and check which data provider is specified in the connection string. A SQL Server 2008 R2 workbook uses MSOLAP.4 as its data provider.  
   
- To work around this issue, you can upgrade the workbook. Alternatively, you can install client libraries from the SQL Server 2008 R2 version of Analysis Services on the physical computers running [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint or Excel Services, [Install the Analysis Services OLE DB Provider on SharePoint Servers](http://msdn.microsoft.com/2c62daf9-1f2d-4508-a497-af62360ee859).  
+ To work around this issue, you can upgrade the workbook. Alternatively, you can install client libraries from the SQL Server 2008 R2 version of Analysis Services on the physical computers running [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint or Excel Services, [Install the Analysis Services OLE DB Provider on SharePoint Servers](https://msdn.microsoft.com/2c62daf9-1f2d-4508-a497-af62360ee859).  
   
  **Scenario 2b: Excel Services is running on an application server that has the wrong version of the client libraries**  
   
  By default, SharePoint Server 2010 installs the SQL Server 2008 version of the Analysis Services OLE DB provider on application servers that run Excel Services. In a farm that supports [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data access, all physical servers running applications that request [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data, such as Excel Services and [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint, must use a later version of the data provider.  
   
- Servers that run [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint get the updated OLE DB data provider automatically. Other servers, such as those running a standalone instance Excel Services without [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint on the same computer, must be patched to use the newer client libraries. For more information, see [Install the Analysis Services OLE DB Provider on SharePoint Servers](http://msdn.microsoft.com/2c62daf9-1f2d-4508-a497-af62360ee859).  
+ Servers that run [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint get the updated OLE DB data provider automatically. Other servers, such as those running a standalone instance Excel Services without [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint on the same computer, must be patched to use the newer client libraries. For more information, see [Install the Analysis Services OLE DB Provider on SharePoint Servers](https://msdn.microsoft.com/2c62daf9-1f2d-4508-a497-af62360ee859).  
   
  **Scenario 3: Domain controller is unavailable**  
   
@@ -54,7 +54,7 @@ manager: kfile
   
  To work around this problem, join the computer to the same domain as the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] server, or install a domain controller on your local computer. The second solution, installing the domain controller, will require you to create local domain accounts for all services and users. You will need to configure service accounts and SharePoint permissions for the accounts you define.  
   
- Installing a domain controller on your computer is useful if your objective is to use [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint in an offline state. For detailed instructions on how to use [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] offline, see the blog entry for "Taking your [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] server off the network" on [http://www.powerpivotgeek.com](http://go.microsoft.com/fwlink/?LinkId=184241).  
+ Installing a domain controller on your computer is useful if your objective is to use [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint in an offline state. For detailed instructions on how to use [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] offline, see the blog entry for "Taking your [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] server off the network" on [http://www.powerpivotgeek.com](https://go.microsoft.com/fwlink/?LinkId=184241).  
   
  **Scenario 4: Unstable server**  
   

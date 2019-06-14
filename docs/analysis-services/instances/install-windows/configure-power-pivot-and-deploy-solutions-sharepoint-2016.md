@@ -45,7 +45,7 @@ manager: kfile
   
     4.  Click **Create Site Collection** in the left window. Note **Site URL** so you can reference it in later steps. If the SharePoint server is not already configured, then the configuration wizard defaults the web application, and site collection URLs to the root of `http://[ServerName]`. To modify the defaults review the following pages in the left window: **Create Default Web application** and **Deploy Web Application Solution**  
   
-5.  Optionally, review the remaining input values used to complete each action. Click each action in the left window to see and review the details of the action. For more information about each one, see the section "Input values used to configure the server in [Configure or Repair Power Pivot for SharePoint 2010 (Power Pivot Configuration Tool)](http://msdn.microsoft.com/d61f49c5-efaa-4455-98f2-8c293fa50046) in this topic.  
+5.  Optionally, review the remaining input values used to complete each action. Click each action in the left window to see and review the details of the action. For more information about each one, see the section "Input values used to configure the server in [Configure or Repair Power Pivot for SharePoint 2010 (Power Pivot Configuration Tool)](https://msdn.microsoft.com/d61f49c5-efaa-4455-98f2-8c293fa50046) in this topic.  
   
 6.  Optionally, remove any actions that you do not want to process at this time. For example, if you want to configure Secure Store Service later, select **Configure Secure Store Service**, and then clear the checkbox **Include this action in the task list**.  
   
@@ -53,7 +53,7 @@ manager: kfile
   
 8.  Select **Run** to process all of the actions in the task list. Note that **Run** becomes available after you validate the actions. If **Run** is not enabled, select **Validate** first.  
   
- For more information, see [Configure or Repair Power Pivot for SharePoint 2010 (Power Pivot Configuration Tool)](http://msdn.microsoft.com/d61f49c5-efaa-4455-98f2-8c293fa50046)  
+ For more information, see [Configure or Repair Power Pivot for SharePoint 2010 (Power Pivot Configuration Tool)](https://msdn.microsoft.com/d61f49c5-efaa-4455-98f2-8c293fa50046)  
   
 ##  <a name="bkmk_verify_powerpivot"></a> Verify Power Pivot Configuration  
  **Services:**  
@@ -111,7 +111,7 @@ manager: kfile
   
 5.  Select **OK**.  
   
- For more information on trouble shooting data refresh, see [Troubleshooting Power Pivot Data Refresh](http://social.technet.microsoft.com/wiki/contents/articles/3870.troubleshooting-powerpivot-data-refresh.aspx) (http://social.technet.microsoft.com/wiki/contents/articles/3870.troubleshooting-powerpivot-data-refresh.aspx).  
+ For more information on trouble shooting data refresh, see [Troubleshooting Power Pivot Data Refresh](https://social.technet.microsoft.com/wiki/contents/articles/3870.troubleshooting-powerpivot-data-refresh.aspx) (https://social.technet.microsoft.com/wiki/contents/articles/3870.troubleshooting-powerpivot-data-refresh.aspx).  
   
  For more information on the configuration tool, see [Power Pivot Configuration Tools](../../../analysis-services/power-pivot-sharepoint/power-pivot-configuration-tools.md).  
   

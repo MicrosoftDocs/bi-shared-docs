@@ -40,7 +40,7 @@ manager: kfile
  [Create User-Defined Hierarchies](../../analysis-services/multidimensional-models/user-defined-hierarchies-create.md)  
  Describes how to define, modify, and configure a user-defined hierarchy of dimension attributes by using Dimension Designer.  
   
- [Use the Business Intelligence Wizard to Enhance Dimensions](http://msdn.microsoft.com/library/12d995d1-75ca-4890-bf4b-a2656910b8d0)  
+ [Use the Business Intelligence Wizard to Enhance Dimensions](https://msdn.microsoft.com/library/12d995d1-75ca-4890-bf4b-a2656910b8d0)  
  Describes how to enhance a database dimension by using the Business Intelligence Wizard.  
   
 ## See Also  

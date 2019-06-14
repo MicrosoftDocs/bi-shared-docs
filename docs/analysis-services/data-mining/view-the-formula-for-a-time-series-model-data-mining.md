@@ -27,7 +27,7 @@ manager: kfile
 3.  If the model contains multiple trees, select a single tree from the **Tree** drop-down list.  
   
     > [!NOTE]  
-    >  A model will always have multiple trees if you have more than one data series. However, you will not see as many trees in the **Time Series viewer** as you will see in the [Microsoft Generic Content Tree Viewer](http://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c). That is because the Time Series viewer combines the ARIMA and ARTXP information for each data series into a single representation.  
+    >  A model will always have multiple trees if you have more than one data series. However, you will not see as many trees in the **Time Series viewer** as you will see in the [Microsoft Generic Content Tree Viewer](https://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c). That is because the Time Series viewer combines the ARIMA and ARTXP information for each data series into a single representation.  
   
 4.  Click any leaf node in the tree.  
   
@@ -66,7 +66,7 @@ manager: kfile
   
      For more information, see [Time Series Model Query Examples](../../analysis-services/data-mining/time-series-model-query-examples.md)  
   
-2.  You can also browse the time series models and find the terms and coefficients by using the [Microsoft Generic Content Tree Viewer](http://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c).  
+2.  You can also browse the time series models and find the terms and coefficients by using the [Microsoft Generic Content Tree Viewer](https://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c).  
   
      For more information, see [Mining Model Content for Time Series Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-for-time-series-models-analysis-services-data-mining.md).  
   

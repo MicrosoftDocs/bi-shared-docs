@@ -62,7 +62,7 @@ manager: kfile
 -   When you move a model, the same requirements apply: you must set up appropriate access to the location of the old data source, copy the data sources, or configure a new data source. Also, you must transfer logins and roles, or set up permissions to allow data mining objects to be processed and updated in the new location.  
   
 ## Configuring Permissions and Server Properties  
- Data mining requires additional permissions on an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database. Most data mining properties can be set by using the [Analysis Server Properties Dialog Box &#40;Analysis Services&#41;](http://msdn.microsoft.com/library/b01ec658-c191-49c9-a6cb-549b21a368ab).  
+ Data mining requires additional permissions on an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database. Most data mining properties can be set by using the [Analysis Server Properties Dialog Box &#40;Analysis Services&#41;](https://msdn.microsoft.com/library/b01ec658-c191-49c9-a6cb-549b21a368ab).  
   
  For more information about the properties that you can configure, see [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
   
@@ -82,7 +82,7 @@ manager: kfile
  You can also set properties that let you tune the server and control security for client usage. For more information, see [Feature Properties](../../analysis-services/server-properties/feature-properties.md).  
   
 > [!NOTE]  
->  For more information about Support for plug-in algorithms by the editions of [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)], see [Features Supported by the Editions of SQL Server 2012](http://go.microsoft.com/fwlink/?linkid=232473) (http://go.microsoft.com/fwlink/?linkid=232473).  
+>  For more information about Support for plug-in algorithms by the editions of [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)], see [Features Supported by the Editions of SQL Server 2012](https://go.microsoft.com/fwlink/?linkid=232473) (https://go.microsoft.com/fwlink/?linkid=232473).  
   
 ## Programmatic Access to Data Mining Objects  
  You can use the following object models to create a connection to an Analysis Services database and work with data mining objects:  

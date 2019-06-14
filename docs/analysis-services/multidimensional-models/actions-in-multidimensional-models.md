@@ -90,8 +90,7 @@ manager: kfile
   
  The report server URL is constructed as follows:  
   
-```  
-  
+```
 http://  
 host  
 /  

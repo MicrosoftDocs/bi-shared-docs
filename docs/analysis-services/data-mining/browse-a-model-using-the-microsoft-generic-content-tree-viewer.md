@@ -41,7 +41,7 @@ SELECT * FROM [<mining model name>].CONTENT
  For more information, see [Data Mining Queries](../../analysis-services/data-mining/data-mining-queries.md).  
   
 ## See Also  
- [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](http://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c)   
+ [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](https://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c)   
  [Data Mining Algorithms &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining.md)  
   
   

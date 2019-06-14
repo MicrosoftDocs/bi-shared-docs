@@ -173,6 +173,6 @@ manager: kfile
   
 ## See also  
  [Tables and Columns](../../analysis-services/tabular-models/tables-and-columns-ssas-tabular.md)   
- [Import Data](http://msdn.microsoft.com/library/6617b2a2-9f69-433e-89e0-4c5dc92982cf)  
+ [Import Data](https://msdn.microsoft.com/library/6617b2a2-9f69-433e-89e0-4c5dc92982cf)  
   
   

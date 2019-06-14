@@ -24,7 +24,7 @@ manager: kfile
 > [!NOTE]  
 >  You do not need to iterate through the nodes to get a count or description of the clusters; the model parent node also counts and lists the clusters.  
   
- The parent node contains useful statistics that describe the actual distribution of all the training cases. These statistics are found in the nested table column, NODE_DISTRIBUTION. For example, the following table shows several rows from the NODE_DISTRIBUTION table that describe the distribution of customer demographics for the clustering model, `TM_Clustering`, that you create in the [Basic Data Mining Tutorial](http://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c):  
+ The parent node contains useful statistics that describe the actual distribution of all the training cases. These statistics are found in the nested table column, NODE_DISTRIBUTION. For example, the following table shows several rows from the NODE_DISTRIBUTION table that describe the distribution of customer demographics for the clustering model, `TM_Clustering`, that you create in the [Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c):  
   
 |ATTRIBUTE_NAME|ATRIBUTE_VALUE|SUPPORT|PROBABILITY|VARIANCE|VALUE_TYPE|  
 |---------------------|---------------------|-------------|-----------------|--------------|-----------------|  

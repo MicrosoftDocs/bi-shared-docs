@@ -82,7 +82,7 @@ AND (NOT Measures.CurrentMember IS [Measures].[Reseller Total Product Cost])
  Read/write permissions on a cell are used to enable writeback, provided that members have read/write permissions to the cube itself. Permissions that are granted at the cell level cannot be greater than the permissions that are granted at the cube level. See [Set Partition Writeback](../../analysis-services/multidimensional-models/set-partition-writeback.md) for details.  
   
 ## See Also  
- [MDX Builder &#40;Analysis Services - Multidimensional Data&#41;](http://msdn.microsoft.com/library/fecbf093-65ea-4e1b-b637-f04876f1cb0f)   
+ [MDX Builder &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/fecbf093-65ea-4e1b-b637-f04876f1cb0f)   
  [The Basic MDX Script &#40;MDX&#41;](../../analysis-services/multidimensional-models/mdx/the-basic-mdx-script-mdx.md)   
  [Grant process permissions &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-process-permissions-analysis-services.md)   
  [Grant permissions on a dimension &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-permissions-on-a-dimension-analysis-services.md)   

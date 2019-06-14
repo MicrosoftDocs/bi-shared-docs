@@ -12,10 +12,10 @@ manager: kfile
 ---
 # Upgrade Workbooks and Scheduled Data Refresh (SharePoint 2013)
 [!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  This topic explains the user experience of workbooks created in previous [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] environments and how to upgrade [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] workbooks so that you can take advantage of new features introduced in this release. To learn more about new features, see [What's New in Power Pivot](http://go.microsoft.com/fwlink/?LinkID=203917).  
+  This topic explains the user experience of workbooks created in previous [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] environments and how to upgrade [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] workbooks so that you can take advantage of new features introduced in this release. To learn more about new features, see [What's New in Power Pivot](https://go.microsoft.com/fwlink/?LinkID=203917).  
   
 > [!WARNING]  
->  You cannot rollback upgrade for workbooks that are upgraded automatically on the server. Once a workbook is upgraded, it remains upgraded. To use a previous version, you can republish the previous workbook to SharePoint, restore a previous version, or recycle the workbook. For more information about restoring or recycling a document in SharePoint, see [Plan to protect content by using recycle bins and versioning](http://go.microsoft.com/fwlink/?LinkId=238669).  
+>  You cannot rollback upgrade for workbooks that are upgraded automatically on the server. Once a workbook is upgraded, it remains upgraded. To use a previous version, you can republish the previous workbook to SharePoint, restore a previous version, or recycle the workbook. For more information about restoring or recycling a document in SharePoint, see [Plan to protect content by using recycle bins and versioning](https://go.microsoft.com/fwlink/?LinkId=238669).  
   
   
 ##  <a name="bkmk_overview"></a> Overview of Upgrading Workbooks  

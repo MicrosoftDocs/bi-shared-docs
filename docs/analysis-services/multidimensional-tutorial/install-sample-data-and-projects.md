@@ -29,7 +29,7 @@ The lessons in this tutorial assume that you have the following software install
 ## Step 2: Download and install developer and management tools
 SQL Server Data Tools (SSDT) for Visual Studio is downloaded and installed separately from other SQL Server features. The designers and project templates used to create BI models and reports are included in SSDT for Visual Studio 2015 or as [Nuget packages](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) for Visual Studio 2017.  
   
-[Download SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=827542).   
+[Download SQL Server Data Tools](https://go.microsoft.com/fwlink/?LinkID=827542).   
 
 SQL Server Management Studio (SSMS) is downloaded and installed separately from other SQL Server features.  
 

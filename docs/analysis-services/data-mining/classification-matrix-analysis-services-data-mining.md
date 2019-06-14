@@ -52,7 +52,7 @@ manager: kfile
 |1|2|123|17|  
 |2|19|0|20|  
   
- Although the addition of more columns makes the report look more complex, the additional detail can be very useful when you want to assess the cumulative cost of making the wrong prediction. To create sums on the diagonals or to compare the results for different combinations of rows, you can click the **Copy** button provided in the **Classification Matrix** tab and paste the report into Excel. Alternatively, you can use a client such as the Data Mining Client for Excel, which supports [!INCLUDE[ssVersion2005](../../includes/ssversion2005-md.md)] and later versions, to create a classification report directly in Excel that includes both counts and percentages. For more information, see [SQL Server Data Mining](http://go.microsoft.com/fwlink/?LinkID=77733).  
+ Although the addition of more columns makes the report look more complex, the additional detail can be very useful when you want to assess the cumulative cost of making the wrong prediction. To create sums on the diagonals or to compare the results for different combinations of rows, you can click the **Copy** button provided in the **Classification Matrix** tab and paste the report into Excel. Alternatively, you can use a client such as the Data Mining Client for Excel, which supports [!INCLUDE[ssVersion2005](../../includes/ssversion2005-md.md)] and later versions, to create a classification report directly in Excel that includes both counts and percentages. For more information, see [SQL Server Data Mining](https://go.microsoft.com/fwlink/?LinkID=77733).  
   
 ## Restrictions on the Classification Matrix  
  A classification matrix can be used only with discrete predictable attributes.  
@@ -64,7 +64,7 @@ manager: kfile
   
 |Topics|Links|  
 |------------|-----------|  
-|Provides a walkthrough of how to create a lift chart for the Targeted Mailing model.|[Basic Data Mining Tutorial](http://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c)<br /><br /> [Testing Accuracy with Lift Charts &#40;Basic Data Mining Tutorial&#41;](http://msdn.microsoft.com/library/822d414b-4a39-473f-80c3-53476e30655a)|  
+|Provides a walkthrough of how to create a lift chart for the Targeted Mailing model.|[Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c)<br /><br /> [Testing Accuracy with Lift Charts &#40;Basic Data Mining Tutorial&#41;](https://msdn.microsoft.com/library/822d414b-4a39-473f-80c3-53476e30655a)|  
 |Explains related chart types.|[Lift Chart &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/lift-chart-analysis-services-data-mining.md)<br /><br /> [Profit Chart &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/profit-chart-analysis-services-data-mining.md)<br /><br /> [Scatter Plot &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/scatter-plot-analysis-services-data-mining.md)|  
 |Describes uses of cross-validation for mining models and mining structures.|[Cross-Validation &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/cross-validation-analysis-services-data-mining.md)|  
 |Describes steps for creating lift charts and other accuracy charts.|[Testing and Validation Tasks and How-tos &#40;Data Mining&#41;](../../analysis-services/data-mining/testing-and-validation-tasks-and-how-tos-data-mining.md)|  

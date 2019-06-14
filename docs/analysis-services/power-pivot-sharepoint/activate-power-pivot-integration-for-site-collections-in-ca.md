@@ -25,7 +25,7 @@ manager: kfile
   
 1.  On a SharePoint site, click **Site Actions**.  
   
-     By default, SharePoint web applications are accessed through port 80. This means that you can often access a SharePoint site by entering http://\<computer name> to open the root site collection.  
+     By default, SharePoint web applications are accessed through port 80. This means that you can often access a SharePoint site by entering `http://\<computer name>` to open the root site collection.  
   
 2.  Click **Site Settings**.  
   
@@ -39,7 +39,7 @@ manager: kfile
   
 ## See Also  
  [Power Pivot Server Administration and Configuration in Central Administration](../../analysis-services/power-pivot-sharepoint/power-pivot-server-administration-and-configuration-in-central-administration.md)   
- [Initial Configuration (Power Pivot for SharePoint)](http://msdn.microsoft.com/3a0ec2eb-017a-40db-b8d4-8aa8f4cdc146)   
- [Power Pivot for SharePoint 2010 Installation](http://msdn.microsoft.com/8d47dde7-c941-4280-a934-e2fe3f9a938f)  
+ [Initial Configuration (Power Pivot for SharePoint)](https://msdn.microsoft.com/3a0ec2eb-017a-40db-b8d4-8aa8f4cdc146)   
+ [Power Pivot for SharePoint 2010 Installation](https://msdn.microsoft.com/8d47dde7-c941-4280-a934-e2fe3f9a938f)  
   
   

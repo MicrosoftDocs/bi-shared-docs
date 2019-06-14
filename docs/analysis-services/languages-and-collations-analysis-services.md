@@ -50,7 +50,7 @@ manager: kfile
 ###  <a name="bkmk_lcid"></a> Value of the Language property is a Locale Identifier (LCID)  
  Valid values include any LCID that appears in the drop-down list. In Management Studio and SQL Server Data Tools, LCIDs are represented in string equivalents. The same languages show up wherever the **Language** property is exposed, regardless of the tool. Having an identical list of languages ensures that you can implement and test translations consistently throughout the model.  
   
- Although Analysis Services lists the languages by name, the actual value stored for the property is an LCID. When setting a language property programmatically or through the msmdsrv.ini file, use the [locale identifier (LCID)](http://en.wikipedia.org/wiki/Locale) as the value. An LCID is a 32-bit value consisting of a language ID, sort ID, and reserved bits that identify a particular language. [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses LCIDs to specify the selected language for [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instances and objects.  
+ Although Analysis Services lists the languages by name, the actual value stored for the property is an LCID. When setting a language property programmatically or through the msmdsrv.ini file, use the [locale identifier (LCID)](https://en.wikipedia.org/wiki/Locale) as the value. An LCID is a 32-bit value consisting of a language ID, sort ID, and reserved bits that identify a particular language. [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses LCIDs to specify the selected language for [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instances and objects.  
   
  You can set the LCID using either hexadecimal or decimal formats. A few examples of valid values for the **Language** property include:  
   
@@ -62,7 +62,7 @@ manager: kfile
   
 -   0x0416 or 1046 for **Portuguese (Brazil)**.  
   
- To view a longer list, see [Locale IDs Assigned by Microsoft](http://msdn.microsoft.com/goglobal/bb964664.aspx). For more background, see [Encoding and Code Pages](/globalization/encoding/encoding-overview).  
+ To view a longer list, see [Locale IDs Assigned by Microsoft](https://msdn.microsoft.com/goglobal/bb964664.aspx). For more background, see [Encoding and Code Pages](/globalization/encoding/encoding-overview).  
   
 > [!NOTE]  
 >  The **Language** property does not determine the language for returning system messages, or which strings appear in the user interface. Errors, warnings, and messages are localized into all languages supported in Office and Office 365 and are used automatically when the client connection specifies one of the supported locales.  
@@ -72,7 +72,7 @@ manager: kfile
   
  Collations control the case-sensitivity of all strings in a bicameral language script, with the exception of object identifiers. If you use upper and lower case characters in an object identifier, be forewarned that the case-sensitivity of object identifiers is determined not by the collation, but by [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. For object identifiers composed in English script, object identifiers are always case-insensitive, regardless of collation. Cyrillic and other bicameral languages do the opposite (always case-sensitive). See [Globalization Tips and Best Practices &#40;Analysis Services&#41;](../analysis-services/globalization-tips-and-best-practices-analysis-services.md) for details.  
   
- Collation in Analysis Services is compatible with that of the SQL Server relational database engine, assuming you maintain parity in the sort options you select for each service. For example, if the relational database is accent sensitive, you should configure the cube the same way. Problems can occur when collations settings diverge. For an example and workarounds, see [Blanks in a Unicode string have different processing outcomes based on collation](http://social.technet.microsoft.com/wiki/contents/articles/23979.ssas-processing-error-blanks-in-a-unicode-string-have-different-processing-outcomes-based-on-collation-and-character-set.aspx). To learn more about collation and the database engine, see [Collation and Unicode Support](../relational-databases/collations/collation-and-unicode-support.md).  
+ Collation in Analysis Services is compatible with that of the SQL Server relational database engine, assuming you maintain parity in the sort options you select for each service. For example, if the relational database is accent sensitive, you should configure the cube the same way. Problems can occur when collations settings diverge. For an example and workarounds, see [Blanks in a Unicode string have different processing outcomes based on collation](https://social.technet.microsoft.com/wiki/contents/articles/23979.ssas-processing-error-blanks-in-a-unicode-string-have-different-processing-outcomes-based-on-collation-and-character-set.aspx). To learn more about collation and the database engine, see [Collation and Unicode Support](../relational-databases/collations/collation-and-unicode-support.md).  
   
 ###  <a name="bkmk_collationtype"></a> Collation Types  
  Analysis Services supports two collation types:  

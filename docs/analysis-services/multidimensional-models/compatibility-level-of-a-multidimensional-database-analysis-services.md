@@ -17,7 +17,7 @@ manager: kfile
  This topic describes compatibility level for multidimensional databases only. For more information about tabular solutions, see [Compatibility Level for Tabular models in Analysis Services](../../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md).  
   
 > [!NOTE]  
->  Tabular models have additional database compatibility levels that are not applicable to multidimensional models. Compatibility level **1103** does not exist for multidimensional models. See [What is new for the Tabular model in SQL Server 2012 SP1 and compatibility level](http://go.microsoft.com/fwlink/?LinkId=301727) for more information about **1103** for tabular solutions.  
+>  Tabular models have additional database compatibility levels that are not applicable to multidimensional models. Compatibility level **1103** does not exist for multidimensional models. See [What is new for the Tabular model in SQL Server 2012 SP1 and compatibility level](https://go.microsoft.com/fwlink/?LinkId=301727) for more information about **1103** for tabular solutions.  
   
  **Compatibility Levels for multidimensional databases**  
   

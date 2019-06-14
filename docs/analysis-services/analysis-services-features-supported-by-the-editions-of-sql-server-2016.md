@@ -108,7 +108,7 @@ This topic provides details of features supported by the different editions of S
 |Multiple prediction targets for naïve Bayes, neural network and logistic regression|Yes||||||Yes|  
   
  ## See also  
- [Product Specifications for SQL Server 2016](http://msdn.microsoft.com/library/6445fd53-6844-4170-a86b-7fe76a9f64cb)   
+ [Product Specifications for SQL Server 2016](https://msdn.microsoft.com/library/6445fd53-6844-4170-a86b-7fe76a9f64cb)   
  [Installation for SQL Server](/sql/database-engine/install-windows/installation-for-sql-server-2016)  
 
 

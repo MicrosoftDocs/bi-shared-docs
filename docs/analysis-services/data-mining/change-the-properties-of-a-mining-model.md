@@ -16,9 +16,9 @@ manager: kfile
   
  The following model properties have advanced editors that you can use to create expressions or configure complex model properties. The following properties provide:  
   
--   **Filter** property: Opens the [Data Set Filter or Model Filter Dialog Box](http://msdn.microsoft.com/library/a9602174-b7e2-4e16-8ded-dfd8eb9264d7).  
+-   **Filter** property: Opens the [Data Set Filter or Model Filter Dialog Box](https://msdn.microsoft.com/library/a9602174-b7e2-4e16-8ded-dfd8eb9264d7).  
   
--   **AlgorithmParameters** property: Opens the [Algorithm Parameters Dialog Box &#40;Mining Models View&#41;](http://msdn.microsoft.com/library/57f9f6f8-8ca4-4a6e-8f18-85f0571b7060).  
+-   **AlgorithmParameters** property: Opens the [Algorithm Parameters Dialog Box &#40;Mining Models View&#41;](https://msdn.microsoft.com/library/57f9f6f8-8ca4-4a6e-8f18-85f0571b7060).  
   
  For information about how to set the properties in a mining model, see [Mining Model Columns](../../analysis-services/data-mining/mining-model-columns.md).  
   

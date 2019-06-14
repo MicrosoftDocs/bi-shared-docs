@@ -42,7 +42,7 @@ manager: kfile
 2.  Click on the **Column** menu, and then click **Clear All Filters**.  
   
 ## See Also  
- [Filter and Sort Data](http://msdn.microsoft.com/library/55ebd7a6-2458-4398-911f-fcfeb2413f1b)   
+ [Filter and Sort Data](https://msdn.microsoft.com/library/55ebd7a6-2458-4398-911f-fcfeb2413f1b)   
  [Perspectives](../../analysis-services/tabular-models/perspectives-ssas-tabular.md)   
  [Roles](../../analysis-services/tabular-models/roles-ssas-tabular.md)  
   
