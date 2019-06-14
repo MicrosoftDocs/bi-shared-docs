@@ -19,7 +19,7 @@ manager: kfile
  All related measure groups and dimensions must come from the same source database. You cannot create new relationships between local measure groups and the linked dimensions you add to your cube. After linked dimensions and measure groups have been added to the current cube, the relationships between them must be maintained in their source database.  
   
 > [!NOTE]  
->  Because refresh is not available, most Analysis Services developers copy dimensions rather than link them. You can copy dimensions across projects within the same solution. For more information, see [Refresh of a linked dimension in SSAS](http://sqlblog.com/blogs/marco_russo/archive/2006/09/12/refresh-of-a-linked-dimension-in-ssas.aspx).  
+>  Because refresh is not available, most Analysis Services developers copy dimensions rather than link them. You can copy dimensions across projects within the same solution. 
   
 ## Prerequisites  
  The source database that provides the dimension and the current database that uses it must be at the same version and compatibility level. For more information, see [Compatibility Level of a Multidimensional Database &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/compatibility-level-of-a-multidimensional-database-analysis-services.md).  

@@ -25,7 +25,7 @@ To further elaborate on the last point about creating new object types: while yo
 ## Choose a platform or approach to development
 Analysis Services provides many ways to customize a solution through code, but most developers use the managed APIs or script.
 
-- Managed APIs include [AMO and TOM](http://msdn.microsoft.com/library/mt436122.aspx) for data definition and administrative tasks, and [ADOMD.NET](http://msdn.microsoft.com/library/mt465769.aspx) for query support from client code. In SQL Server 2016, AMO is updated to use the new Tabular metadata for models created or upgraded to compatibility level 1200 and higher.
+- Managed APIs include [AMO and TOM](https://msdn.microsoft.com/library/mt436122.aspx) for data definition and administrative tasks, and [ADOMD.NET](https://msdn.microsoft.com/library/mt465769.aspx) for query support from client code. In SQL Server 2016, AMO is updated to use the new Tabular metadata for models created or upgraded to compatibility level 1200 and higher.
 
 - Script can often achieve the same results as a program executable, with possibly less work.
 
@@ -57,7 +57,7 @@ This documentation is intended for developers who support tabular models at earl
 [Analysis Services Management Objects (AMO)](https://msdn.microsoft.com/library/mt436122.aspx)
 Developer reference documentation for the managed provider, Analysis Services Management Objects (AMO), for data definition and administration, including processing.
 
-[ADOMD.NET](http://msdn.microsoft.com/library/mt465769.aspx)
+[ADOMD.NET](https://msdn.microsoft.com/library/mt465769.aspx)
 Developer reference documentation for the managed provider, ADOMD.NET, used for programmatic data access and query workloads.
 
 [Analysis Services Schema Rowsets](https://docs.microsoft.com/bi-reference/schema-rowsets/analysis-services-schema-rowsets)
@@ -77,4 +77,4 @@ Documents the cmdlets used for administrative functions, plus the general-purpos
 
 ## See Also
 [Technical Reference](../analysis-services/powershell/analysis-services-powershell-reference.md)
-[Query and Expression Language Reference &#40;Analysis Services&#41;](http://msdn.microsoft.com/library/gg492188.aspx)
+[Query and Expression Language Reference &#40;Analysis Services&#41;](https://msdn.microsoft.com/library/gg492188.aspx)

@@ -51,7 +51,7 @@ manager: kfile
 2.  Set **Default filter direction** to either **Single direction** or **Both directions**.  
   
 ## Walkthrough an example  
- The best way to appreciate the value of bi-directional cross filtering is through an  example. Consider the following dataset from [ContosoRetailDW](http://www.microsoft.com/en-us/download/details.aspx?id=18279), reflecting the cardinality and cross-filters that are created by default.  
+ The best way to appreciate the value of bi-directional cross filtering is through an  example. Consider the following dataset from [ContosoRetailDW](https://www.microsoft.com/en-us/download/details.aspx?id=18279), reflecting the cardinality and cross-filters that are created by default.  
   
  ![SSAS-BIDI-2-Model](../../analysis-services/tabular-models/media/ssas-bidi-2-model.PNG "SSAS-BIDI-2-Model")  
   
@@ -81,9 +81,9 @@ manager: kfile
   
 -   SQL Server 2016 Analysis Services instance, tabular mode, latest CTP release  
   
--   [SQL Server Data Tools for Visual Studio 2015 (SSDT)](http://go.microsoft.com/fwlink/p/?LinkID=627574), co-released with the latest CTP.  
+-   [SQL Server Data Tools for Visual Studio 2015 (SSDT)](https://go.microsoft.com/fwlink/p/?LinkID=627574), co-released with the latest CTP.  
   
--   [ContosoRetailDW](http://www.microsoft.com/en-us/download/details.aspx?id=18279)  
+-   [ContosoRetailDW](https://www.microsoft.com/en-us/download/details.aspx?id=18279)  
   
 -   Read permissions on this data.  
   
@@ -192,8 +192,8 @@ manager: kfile
   
 ## See also  
  [Create and manage relationships in Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/464155-create-and-manage-relationships-in-power-bi-desktop)   
- [A practical example of how to handle simple many-to-manay relationships in Power Pivot and tabular models](http://social.technet.microsoft.com/wiki/contents/articles/22202.a-practical-example-of-how-to-handle-simple-many-to-many-relationships-in-power-pivotssas-tabular-models.aspx)   
- [Resolving many-to-many relationships leveraging DAX cross-table filtering](http://blog.gbrueckl.at/2012/05/resolving-many-to-many-relationships-leveraging-dax-cross-table-filtering/)   
- [Many to many revolution (SQLBI blog)](http://www.sqlbi.com/articles/many2many/)  
+ [A practical example of how to handle simple many-to-manay relationships in Power Pivot and tabular models](https://social.technet.microsoft.com/wiki/contents/articles/22202.a-practical-example-of-how-to-handle-simple-many-to-many-relationships-in-power-pivotssas-tabular-models.aspx)   
+ [Resolving many-to-many relationships leveraging DAX cross-table filtering](https://blog.gbrueckl.at/2012/05/resolving-many-to-many-relationships-leveraging-dax-cross-table-filtering/)   
+ [Many to many revolution (SQLBI blog)](https://www.sqlbi.com/articles/many2many/)  
   
   

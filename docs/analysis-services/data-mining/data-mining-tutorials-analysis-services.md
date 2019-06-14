@@ -28,8 +28,8 @@ manager: kfile
   
 ## See Also  
 [Data Mining Solutions](../data-mining/data-mining-solutions.md)  
-[Microsoft SQL Server Data Mining resources](http://go.microsoft.com/fwlink/?LinkId=97965)  
-[Creating and Querying Data Mining Models with DMX: Tutorials &#40;Analysis Services - Data Mining&#41;](http://msdn.microsoft.com/library/145b81a7-c0c3-4ca3-bb32-0b482423b9a0)  
+[Microsoft SQL Server Data Mining resources](https://go.microsoft.com/fwlink/?LinkId=97965)  
+[Creating and Querying Data Mining Models with DMX: Tutorials &#40;Analysis Services - Data Mining&#41;](https://msdn.microsoft.com/library/145b81a7-c0c3-4ca3-bb32-0b482423b9a0)  
   
   
   

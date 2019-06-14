@@ -26,7 +26,7 @@ manager: kfile
   
  The space character is a 'special case' because it can be represented as a single-byte (SBCS) or double-byte character set (DBCS) in Unicode. In the relational engine, two compound strings separated by a space -- one using SBCS, the other in DBCS -- are considered identical. In Analysis Services, during processing, the same two compound strings are not identical, and the second instance will be flagged as a duplicate.  
   
- For more details and suggested workarounds, see [Blanks in a Unicode string have different processing outcomes based on collation](http://social.technet.microsoft.com/wiki/contents/articles/23979.ssas-processing-error-blanks-in-a-unicode-string-have-different-processing-outcomes-based-on-collation-and-character-set.aspx).  
+ For more details and suggested workarounds, see [Blanks in a Unicode string have different processing outcomes based on collation](https://social.technet.microsoft.com/wiki/contents/articles/23979.ssas-processing-error-blanks-in-a-unicode-string-have-different-processing-outcomes-based-on-collation-and-character-set.aspx).  
   
 ##  <a name="bkmk_recos"></a> Common collation recommendations  
  Analysis Services always presents the full list of all available languages and collations; it does not filter the collations based on the language you selected. Be sure to choose a workable combination.  
@@ -35,7 +35,7 @@ manager: kfile
   
  You should consider this list to be a starting point for further investigation, rather than a definitive recommendation that excludes other options. You might find that a collation not specifically recommended is the one that works best for your data. Thorough testing is the only way to verify whether data values are sorted and compared appropriately. As always, be sure to run both processing and query workloads when testing collation.  
   
--   Latin1_General_100_AS is often used for applications that use the 26 characters of the [ISO basic Latin alphabet](http://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet).  
+-   Latin1_General_100_AS is often used for applications that use the 26 characters of the [ISO basic Latin alphabet](https://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet).  
   
 -   North European languages that include Scandinavian letters (such as ø) can use Finnish_Swedish_100.  
   
@@ -49,7 +49,7 @@ manager: kfile
   
      Other regions (such as Hong Kong and Macau) also use Traditional Chinese. For collations, in Hong Kong, it's not unusual to see Chinese_Hong_Kong_Stroke_90 (on SQL Server 2005). In Macau, Chinese_Traditional_Stroke_Count_100 (on SQL Server 2008 and later) is used fairly often.  
   
--   For Japanese, the most commonly used collation is Japanese_CI_AS. Japanese_XJIS_100 is used in installations supporting [JIS2004](http://en.wikipedia.org/wiki/JIS_X_0213). Japanese_BIN2 is typically seen in data migration projects, with data originating from non-Windows platforms, or from data sources other than the SQL Server relational database engine.  
+-   For Japanese, the most commonly used collation is Japanese_CI_AS. Japanese_XJIS_100 is used in installations supporting [JIS2004](https://en.wikipedia.org/wiki/JIS_X_0213). Japanese_BIN2 is typically seen in data migration projects, with data originating from non-Windows platforms, or from data sources other than the SQL Server relational database engine.  
   
      Japanese_Bushu_Kakusu_100 is rarely seen in servers that run Analysis Services workloads.  
   
@@ -71,7 +71,7 @@ manager: kfile
 >  Code changes related to case-sensitivity have been a breaking change for some applications. See [Breaking Changes to Analysis Services Features in SQL Server 2016](../analysis-services/breaking-changes-to-analysis-services-features-in-sql-server-2016.md) for more information.  
   
 ##  <a name="bkmk_test"></a> Locale testing using Excel, SQL Server Profiler and SQL Server Management Studio  
- When testing translations, the connection must specify the LCID of the translation. As documented in [Get Different Language from SSAS into Excel](http://extremeexperts.com/sql/Tips/ExcelDiffLocale.aspx), you can use Excel to test your translations.  
+ When testing translations, the connection must specify the LCID of the translation. 
   
  You can do this by hand editing the .odc file to include the locale identifier connection string property. Try this out with the Adventure Works sample multidimensional database.  
   

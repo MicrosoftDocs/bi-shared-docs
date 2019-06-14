@@ -25,7 +25,7 @@ manager: kfile
   
  Tables and columns referenced in the SQL query should not be qualified or should be qualified by the table name only. For example, to refer to the SaleAmount column in a table, `SaleAmount` or `Sales.SaleAmount` is valid, but `dbo.Sales.SaleAmount` generates an error.  
   
- **Note** When defining a named query that queries a [!INCLUDE[ssVersion2000](../../includes/ssversion2000-md.md)] or [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] 7.0 data source, a named query that contains a correlated subquery and a GROUP BY clause will fail. For more information, see [Internal Error with SELECT Statement Containing Correlated Subquery and GROUP BY](http://support.microsoft.com/kb/274729) in the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Knowledge Base.  
+ **Note** When defining a named query that queries a [!INCLUDE[ssVersion2000](../../includes/ssversion2000-md.md)] or [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] 7.0 data source, a named query that contains a correlated subquery and a GROUP BY clause will fail. For more information, see [Internal Error with SELECT Statement Containing Correlated Subquery and GROUP BY](https://support.microsoft.com/kb/274729) in the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Knowledge Base.  
   
 ## Add or Edit a Named Query  
   
@@ -46,7 +46,7 @@ manager: kfile
     4.  Type the query in the bottom pane, or use the graphical query building tools to create a query.  
   
     > [!NOTE]  
-    >  The query-building user interface (UI) depends on the data source. Instead of getting a graphical UI, you can get a generic UI, which is text-based. You can accomplish the same things with these different UIs, but you must do so in different ways. For more information, see [Create or Edit Named Query Dialog Box &#40;Analysis Services - Multidimensional Data&#41;](http://msdn.microsoft.com/library/8e192ad6-a0b1-4e21-bb3f-087c93e62941).  
+    >  The query-building user interface (UI) depends on the data source. Instead of getting a graphical UI, you can get a generic UI, which is text-based. You can accomplish the same things with these different UIs, but you must do so in different ways. For more information, see [Create or Edit Named Query Dialog Box &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/8e192ad6-a0b1-4e21-bb3f-087c93e62941).  
   
 5.  Click **OK**. An icon showing two overlapping tables appears in the table header to indicate that the table has been replaced by a named query.  
   

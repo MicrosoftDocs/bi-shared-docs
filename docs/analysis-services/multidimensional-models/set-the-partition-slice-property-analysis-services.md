@@ -16,7 +16,7 @@ manager: kfile
   
  You can specify a data slice after you create a partition, but before processing it, using the Slice property. On the Partitions tab, expand a measure group, right-click a partition, and select **Properties**.  
   
- For an explanation of data slice benefits, see [Set the Slice on your SSAS Cube Partition](http://go.microsoft.com/fwlink/?LinkId=317783).  
+ For an explanation of data slice benefits, see [Set the Slice on your SSAS Cube Partition](https://go.microsoft.com/fwlink/?LinkId=317783).  
   
 ## Defining a Slice  
  Valid values for a slice property are an MDX member, set, or tuple. The following examples illustrate valid slice syntax:  

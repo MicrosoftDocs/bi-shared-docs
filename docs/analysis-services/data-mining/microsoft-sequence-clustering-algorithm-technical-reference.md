@@ -39,7 +39,7 @@ manager: kfile
 |Sequence Clustering|Not used|Feature selection is not invoked; however, you can control the behavior of the algorithm by setting the value of the parameters MINIMUM_SUPPORT and MINIMUM_PROBABILIITY.|  
 |Clustering|Interestingness score|Although the clustering algorithm may use discrete or discretized algorithms, the score of each attribute is calculated as a distance and is continuous; therefore the interestingness score is used.|  
   
- For more information, see [Feature Selection](http://msdn.microsoft.com/library/73182088-153b-4634-a060-d14d1fd23b70).  
+ For more information, see [Feature Selection](https://msdn.microsoft.com/library/73182088-153b-4634-a060-d14d1fd23b70).  
   
 ### Optimizing Performance  
  The Microsoft Sequence Clustering algorithm supports various ways to optimize processing:  
@@ -124,7 +124,7 @@ manager: kfile
   
 ## Remarks  
   
--   Use the [PredictSequence &#40;DMX&#41;](../../dmx/predictsequence-dmx.md) function for Prediction of Sequences. For more information about the editions of [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] that support Sequence Prediction, see [Features Supported by the Editions of SQL Server 2012](http://go.microsoft.com/fwlink/?linkid=232473) (http://go.microsoft.com/fwlink/?linkid=232473).  
+-   Use the [PredictSequence &#40;DMX&#41;](../../dmx/predictsequence-dmx.md) function for Prediction of Sequences. For more information about the editions of [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] that support Sequence Prediction, see [Features Supported by the Editions of SQL Server 2012](https://go.microsoft.com/fwlink/?linkid=232473) (https://go.microsoft.com/fwlink/?linkid=232473).  
   
 -   The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Sequence Clustering algorithm does not support using the Predictive Model Markup Language (PMML) to create mining models.  
   

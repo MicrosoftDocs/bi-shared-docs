@@ -85,7 +85,7 @@ manager: kfile
   
 -   You can configure partitions on the cache in such a way that the primary partition used for DirectQuery mode is never processed and must always reference the relational source. There are many ways to use partitions to optimize the model design and reporting experience. For more information, see [Define partitions in DirectQuery models](../../analysis-services/tabular-models/define-partitions-in-directquery-models-ssas-tabular.md).  
   
--   After the model has been deployed, you can change the preferred connection method. For example, you might use a hybrid mode for testing, and switch the model over to **DirectQuery only** mode only after thoroughly testing any reports or queries that use the model. For more information, see [Set or Change the Preferred Connection Method for DirectQuery](http://msdn.microsoft.com/library/f10d5678-d678-4251-8cce-4e30cfe15751).  
+-   After the model has been deployed, you can change the preferred connection method. For example, you might use a hybrid mode for testing, and switch the model over to **DirectQuery only** mode only after thoroughly testing any reports or queries that use the model. For more information, see [Set or Change the Preferred Connection Method for DirectQuery](https://msdn.microsoft.com/library/f10d5678-d678-4251-8cce-4e30cfe15751).  
   
 ## Step 3: Check the connection properties on the database  
  Depending on how the data source connection is set up, switching to DirectQuery could change the security context of the connection. When changing the data access mode, review impersonation and connection string properties to verify the login is valid for ongoing connections to the backend database.  

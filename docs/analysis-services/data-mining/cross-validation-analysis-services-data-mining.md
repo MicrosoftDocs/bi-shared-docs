@@ -170,7 +170,7 @@ manager: kfile
   
 |Topics|Links|  
 |------------|-----------|  
-|Describes how to set cross-validation parameters in SQL Server Development Studio.|[Cross-Validation Tab &#40;Mining Accuracy Chart View&#41;](http://msdn.microsoft.com/library/bd215a68-1ad7-4046-9c44-ec8e2be13a64)|  
+|Describes how to set cross-validation parameters in SQL Server Development Studio.|[Cross-Validation Tab &#40;Mining Accuracy Chart View&#41;](https://msdn.microsoft.com/library/bd215a68-1ad7-4046-9c44-ec8e2be13a64)|  
 |Describes the metrics that are provided by cross-validation|[Cross-Validation Formulas](../../analysis-services/data-mining/cross-validation-formulas.md)|  
 |Explains the cross-validation report format and defines the statistical measures provided for each model type.|[Measures in the Cross-Validation Report](../../analysis-services/data-mining/measures-in-the-cross-validation-report.md)|  
 |Lists the stored procedures for computing cross-validation statistics.|[Data Mining Stored Procedures &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-stored-procedures-analysis-services-data-mining.md)|  

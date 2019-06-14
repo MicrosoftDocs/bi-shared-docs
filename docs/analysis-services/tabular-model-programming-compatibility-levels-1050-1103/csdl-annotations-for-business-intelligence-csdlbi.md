@@ -57,7 +57,7 @@ manager: kfile
   
 -   Support for perspectives.  
   
- For detailed information about individual elements in the CSDLBI annotations, see [Technical Reference for BI Annotations to CSDL](https://docs.microsoft.com/bi-reference/csdl/technical-reference-for-bi-annotations-to-csdl). For information about the core CSDL specification, see the [CSDL specification](http://go.microsoft.com/fwlink/?LinkId=205855) on MSDN.  
+ For detailed information about individual elements in the CSDLBI annotations, see [Technical Reference for BI Annotations to CSDL](https://docs.microsoft.com/bi-reference/csdl/technical-reference-for-bi-annotations-to-csdl). For information about the core CSDL specification, see the [CSDL specification](https://go.microsoft.com/fwlink/?LinkId=205855) on MSDN.  
   
 ## See Also  
  [Understanding the Tabular Object Model at Compatibility Levels 1050 through 1103](../../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/understanding-tabular-object-model-at-levels-1050-through-1103.md)   

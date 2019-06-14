@@ -153,7 +153,7 @@ DIVIDE(
 )
 ```
 
-To test this calculation group, you can execute a DAX query in SSMS or the open-source [DAX Studio](http://daxstudio.org/). Note: YOY and YOY% are omitted from this query example.
+To test this calculation group, you can execute a DAX query in SSMS or the open-source [DAX Studio](https://daxstudio.org/). Note: YOY and YOY% are omitted from this query example.
 
 #### Time Intelligence query
 

@@ -33,7 +33,7 @@ manager: kfile
 >  When importing multiple tables at the same time from a single data source, any relationships between those tables at the source will automatically be created in the model. When adding a table later; however, you may need to manually create relationships in the model between newly added tables and the tables that were previously imported.  
   
 ## See also  
- [Import Data](http://msdn.microsoft.com/library/6617b2a2-9f69-433e-89e0-4c5dc92982cf)   
+ [Import Data](https://msdn.microsoft.com/library/6617b2a2-9f69-433e-89e0-4c5dc92982cf)   
  [Delete a Table](../../analysis-services/tabular-models/delete-a-table-ssas-tabular.md)  
   
   

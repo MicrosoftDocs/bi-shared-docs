@@ -17,7 +17,7 @@ manager: kfile
 > [!NOTE]  
 >  Some properties are set automatically when the cube is created and cannot be changed.  
   
- For more information about how to set cube properties, see [Cube Designer &#40;Analysis Services - Multidimensional Data&#41;](http://msdn.microsoft.com/library/a6692467-da88-4312-8b03-d812f2ae5a96).  
+ For more information about how to set cube properties, see [Cube Designer &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/a6692467-da88-4312-8b03-d812f2ae5a96).  
   
 |Property|Description|  
 |--------------|-----------------|  
@@ -41,7 +41,7 @@ manager: kfile
 |**Visible**|Determines the visibility of the cube.|  
   
 > [!NOTE]  
->  For more information about setting values for the ErrorConfiguration property when working with null values and other data integrity issues, see [Handling Data Integrity Issues in Analysis Services 2005](http://go.microsoft.com/fwlink/?LinkId=81891).  
+>  For more information about setting values for the ErrorConfiguration property when working with null values and other data integrity issues, see [Handling Data Integrity Issues in Analysis Services 2005](https://go.microsoft.com/fwlink/?LinkId=81891).  
   
 ## See Also  
  [Proactive Caching &#40;Partitions&#41;](../../analysis-services/multidimensional-models-olap-logical-cube-objects/partitions-proactive-caching.md)  

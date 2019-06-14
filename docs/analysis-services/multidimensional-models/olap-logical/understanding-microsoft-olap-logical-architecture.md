@@ -39,7 +39,7 @@ manager: kfile
  [Cube Objects &#40;Analysis Services - Multidimensional Data&#41;](../../../analysis-services/multidimensional-models-olap-logical-cube-objects/cube-objects-analysis-services-multidimensional-data.md)  
   
  **User Access Security**  
- [User Access Security Architecture](http://msdn.microsoft.com/library/71b44e10-2bd0-44f7-8de9-7c8f5b7ac082)  
+ [User Access Security Architecture](https://msdn.microsoft.com/library/71b44e10-2bd0-44f7-8de9-7c8f5b7ac082)  
   
 ## See Also  
  [Understanding Microsoft OLAP Architecture](../../../analysis-services/multidimensional-models/olap-physical/understanding-microsoft-olap-architecture.md)   

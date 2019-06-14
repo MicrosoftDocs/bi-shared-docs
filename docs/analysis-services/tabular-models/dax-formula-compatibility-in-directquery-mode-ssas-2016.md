@@ -111,7 +111,7 @@ In DirectQuery mode, casts from string representations of dates and times to act
 Models that use the in-memory data store support a more limited range of text formats for dates than the string formats for dates that are supported by SQL Server. However, DAX supports custom date and time formats.  
   
 **Cast from string to other non Boolean values**  
-When casting from strings to non-Boolean values, DirectQuery mode behaves the same as SQL Server. For more information, see [CAST and CONVERT (Transact-SQL)](http://msdn.microsoft.com/a87d0850-c670-4720-9ad5-6f5a22343ea8).  
+When casting from strings to non-Boolean values, DirectQuery mode behaves the same as SQL Server. For more information, see [CAST and CONVERT (Transact-SQL)](https://msdn.microsoft.com/a87d0850-c670-4720-9ad5-6f5a22343ea8).  
   
 **Cast from numbers to string not allowed**  
 EXAMPLE: `CONCATENATE(102,",345")`  
@@ -336,7 +336,7 @@ In an in-memory model, the result terminates at the last string character, with 
 
 
 ## See also  
-[DirectQuery Mode](http://msdn.microsoft.com/45ad2965-05ec-4fb1-a164-d8060b562ea5)  
+[DirectQuery Mode](https://msdn.microsoft.com/45ad2965-05ec-4fb1-a164-d8060b562ea5)  
   
 
 

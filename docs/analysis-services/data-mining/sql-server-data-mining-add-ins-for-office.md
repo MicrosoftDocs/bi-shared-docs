@@ -50,7 +50,7 @@ manager: kfile
      Power users will appreciate the **Trace** functionality, that lets you see the XMLA and DMX statements sent to the server.  
   
 ## Getting Started  
- For more information, see [What's Included in the Data Mining Add-Ins for Office](http://go.microsoft.com/fwlink/p/?LinkId=616849)  
+ For more information, see [What's Included in the Data Mining Add-Ins for Office](https://go.microsoft.com/fwlink/p/?LinkId=616849)  
   
 ## Support and Requirements  
  The SQL Server Data Mining Add-Ins for Office is a free download. You must have one of the following versions of Office already installed to use these tools:  
@@ -72,6 +72,6 @@ manager: kfile
   
  Depending on the edition of SQL Server Analysis Services that you connect to, some of the advanced algorithms might not be available. For information, see [Features Supported by the Editions of SQL Server 2016](../../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md).  
   
- For additional help with installation, see this page on the Download Center: [http://www.microsoft.com/download/details.aspx?id=29061](http://www.microsoft.com/download/details.aspx?id=29061)  
+ For additional help with installation, see this page on the Download Center: [https://www.microsoft.com/download/details.aspx?id=29061](https://www.microsoft.com/download/details.aspx?id=29061)  
   
   

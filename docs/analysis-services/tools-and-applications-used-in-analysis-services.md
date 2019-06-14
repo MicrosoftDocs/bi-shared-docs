@@ -40,9 +40,6 @@ manager: kfile
 ### PowerShell  
  You can use PowerShell commands to perform many administrative tasks. See [PowerShell reference](../analysis-services/powershell/analysis-services-powershell-reference.md) for more information.  
   
-### Community and Third-party tools  
- Check the [Analysis Services codeplex page](http://sqlsrvanalysissrvcs.codeplex.com/) for community code samples. [Forums](http://social.msdn.microsoft.com/Forums/sqlserver/home?forum=sqlanalysisservices) can be helpful when seeking recommendations for third-party tools that support Analysis Services.  
-  
 ## See Also  
  [Compatibility Level of a Multidimensional Database](../analysis-services/multidimensional-models/compatibility-level-of-a-multidimensional-database-analysis-services.md)   
  [Compatibility Level for Tabular models](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md)  

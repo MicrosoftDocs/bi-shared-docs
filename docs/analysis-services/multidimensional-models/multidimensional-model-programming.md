@@ -27,7 +27,7 @@ manager: kfile
   
  [Extending OLAP functionality](../../analysis-services/multidimensional-models/extending-olap/extending-olap-functionality.md)  
   
- [Analysis Services OLE DB Provider &#40;Analysis Services - Multidimensional Data&#41;](http://msdn.microsoft.com/library/cdeecd50-1d91-4162-a4a2-01c7799b02a8)  
+ [Analysis Services OLE DB Provider &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/cdeecd50-1d91-4162-a4a2-01c7799b02a8)  
   
 ## See Also  
  [Tabular Model Programming for Compatibility Levels 1050 through 1103](../../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/tabular-model-programming-for-compatibility-levels-1050-through-1103.md)   

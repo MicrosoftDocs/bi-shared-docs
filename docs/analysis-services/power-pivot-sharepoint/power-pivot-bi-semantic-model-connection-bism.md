@@ -27,12 +27,12 @@ manager: kfile
   
 -   A multidimensional data model on an Analysis Services instance.  
   
- For a comparison of the data sources, see the community content [Understanding the SQL Server 2012 BI Semantic Model (BISM)](http://www.mssqltips.com/sqlservertip/2818/understanding-the-sql-server-2012-bi-semantic-model-bism/).  
+ For a comparison of the data sources, see the community content [Understanding the SQL Server 2012 BI Semantic Model (BISM)](https://www.mssqltips.com/sqlservertip/2818/understanding-the-sql-server-2012-bi-semantic-model-bism/).  
   
 ## Understanding the Connection Sequence for BI Semantic Connections  
  This section explains the connection behavior between various client applications, such as the Excel desktop application or the Power View reporting client on SharePoint, and a tabular model database inside or outside the SharePoint farm.  
   
- All connections to a tabular model database are made using the credentials of the user who is requesting the data. However, the mechanics of that connection will vary depending on whether the connection is an in-farm connection, a single or double-hop connection, and whether Kerberos is enabled. For more information about authenticated connections between SharePoint and backend data sources, see [Double-hop authentication: Why NTLM fails and Kerberos works](http://go.microsoft.com/fwlink/?LinkId=237137).  
+ All connections to a tabular model database are made using the credentials of the user who is requesting the data. However, the mechanics of that connection will vary depending on whether the connection is an in-farm connection, a single or double-hop connection, and whether Kerberos is enabled. For more information about authenticated connections between SharePoint and backend data sources, see [Double-hop authentication: Why NTLM fails and Kerberos works](https://go.microsoft.com/fwlink/?LinkId=237137).  
   
  **Connecting from Excel to tabular data on a network**  
   
