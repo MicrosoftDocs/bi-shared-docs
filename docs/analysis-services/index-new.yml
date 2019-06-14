@@ -1,0 +1,43 @@
+### YamlMime:Hub
+title: Analysis Services documentation
+summary: Learn how to use Microsoft SQL Server to address your database needs, both on-premises, and in the cloud!
+brand: sql
+metadata:
+   title: Microsoft SQL documentation | Microsoft Docs
+   description: Learn how to use Microsoft SQL Server to manage your database needs, both on-premises, and in the cloud!
+   ms.topic: hub-page
+
+highlightedContent:
+  items:
+  - title: Learn about the different versions of Analysis Services
+    itemType: overview
+    url: analysis-services/analysis-services.md
+  - title: Try SQL Server 2019 Analysis Services (Preview)
+    itemType: download
+    url: https://www.microsoft.com/evalcenter/evaluate-sql-server-2019-ctp
+  - title: Download tools
+    itemType: download
+    url: analysis-services/analysis-services-tools.md
+
+productDirectory:
+  items:
+  - title: SQL Server Analysis Services 
+    imageSrc: media/index/azure.png
+    links:
+      - url: https://docs.microsoft.com/azure/sql-database/
+        text: Learn about SQL Server Analysis Services
+  - title: Azure Analysis Services
+    imageSrc: media/index/azure-as-icon.png
+    links:
+      - url: https://docs.microsoft.com/sql/sql-server/sql-server-technical-documentation?toc=../toc/toc.json
+        text: Learn about Azure Analysis Services
+  - title: Analysis Services in Power BI Premium
+    imageSrc:  media/index/power-bi-icon.png
+    links:
+      - url: analysis-services/overview-analysis-services-power-bi.md
+        text: Learn about Analysis Services in Power BI Premium
+
+
+
+
+
