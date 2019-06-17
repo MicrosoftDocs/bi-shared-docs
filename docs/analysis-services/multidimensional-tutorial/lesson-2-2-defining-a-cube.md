@@ -1,5 +1,5 @@
 ---
-title: "Defining a Cube | Microsoft Docs"
+title: "Defining a Cube (Analysis Services) | Microsoft Docs"
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,5 @@
 ---
-title: "Analysis Services tabular model programming for compatibility levels 1050 - 1103 | Microsoft Docs"
+title: "Analysis Services tabular model programming for levels 1050 - 1103 | Microsoft Docs"
 ms.date: 05/14/2019
 ms.prod: sql
 ms.technology: analysis-services

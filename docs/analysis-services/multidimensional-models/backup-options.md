@@ -1,5 +1,5 @@
 ---
-title: "Backup Options | Microsoft Docs"
+title: "Backup Options (Analysis Services multidimensional) | Microsoft Docs"
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

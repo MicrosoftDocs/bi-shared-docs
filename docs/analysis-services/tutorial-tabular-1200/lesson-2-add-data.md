@@ -1,5 +1,5 @@
 ---
-title: "Lesson 2: Add Data | Microsoft Docs"
+title: "Lesson 2: Add Data (Analysis Services tutorial) | Microsoft Docs"
 ms.date: 05/07/2019
 ms.prod: sql
 ms.technology: analysis-services

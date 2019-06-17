@@ -1,5 +1,5 @@
 ---
-title: "Plugin Algorithms | Microsoft Docs"
+title: "Plugin Algorithms in Analysis Services Data Mining | Microsoft Docs"
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

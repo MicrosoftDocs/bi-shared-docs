@@ -1,5 +1,5 @@
 ---
-title: "Tuples | Microsoft Docs"
+title: "Tuples (Analysis Services multidimensional) | Microsoft Docs"
 ms.date: 06/06/2019
 ms.prod: sql
 ms.technology: analysis-services

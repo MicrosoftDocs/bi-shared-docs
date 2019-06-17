@@ -1,5 +1,5 @@
 ---
-title: "Modifying Measures | Microsoft Docs"
+title: "Modifying Measures (Analysis Services multidimensional) | Microsoft Docs"
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,5 @@
 ---
-title: "Data Mining Queries | Microsoft Docs"
+title: "Data Mining Queries (Analysis Services) | Microsoft Docs"
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,5 @@
 ---
-title: "Supported MDX (MDX) | Microsoft Docs"
+title: "Supported MDX (Analysis Services MDX) | Microsoft Docs"
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

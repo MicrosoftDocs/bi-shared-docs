@@ -1,5 +1,5 @@
 ---
-title: "Data Mining (SSAS) | Microsoft Docs"
+title: "Data Mining (Analysis Services) | Microsoft Docs"
 ms.date: 01/09/2019
 ms.prod: sql
 ms.technology: analysis-services

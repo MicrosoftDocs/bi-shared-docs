@@ -1,5 +1,5 @@
 ---
-title: "Perspectives | Microsoft Docs"
+title: "Perspectives (Analysis Services OLAP cube objects)| Microsoft Docs"
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
