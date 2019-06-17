@@ -1,5 +1,5 @@
 ---
-title: "Defining Named Sets | Microsoft Docs"
+title: "Defining Named Sets (Analysis Services) | Microsoft Docs"
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

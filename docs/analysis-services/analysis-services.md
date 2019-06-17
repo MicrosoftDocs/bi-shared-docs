@@ -1,5 +1,5 @@
 ---
-title: "Analysis Services | Microsoft Docs"
+title: "Microsoft Analysis Services | Microsoft Docs"
 ms.date: 06/07/2019
 ms.prod: sql
 ms.technology: analysis-services

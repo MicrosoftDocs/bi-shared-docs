@@ -1,5 +1,5 @@
 ---
-title: "Dimension Types | Microsoft Docs"
+title: "Dimension Types (Analysis Services)| Microsoft Docs"
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

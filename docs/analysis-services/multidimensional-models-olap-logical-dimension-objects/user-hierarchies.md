@@ -1,5 +1,5 @@
 ---
-title: "User Hierarchies | Microsoft Docs"
+title: "User Hierarchies (Analysis Services OLAP)| Microsoft Docs"
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
