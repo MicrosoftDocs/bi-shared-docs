@@ -34,7 +34,7 @@ manager: kfile
 >   
 >  For example, rather than using the range operator (:) to define a range, you would need to enumerate each member by the specific years.  
 >   
->  If you need to define a complex slice, we recommend that you define the tuples in the slice by using an XMLA Alter script. Then, you can use either the ascmd command-line tool or the [Analysis Services Execute DDL Task](../../integration-services/control-flow/analysis-services-execute-ddl-task.md) in Integration Services to run the script and create the specified set of members immediately before you process the partition.  
+>  If you need to define a complex slice, we recommend that you define the tuples in the slice by using an XMLA Alter script. Then, you can use either the ascmd command-line tool or the [Analysis Services Execute DDL Task](/sql/integration-services/control-flow/analysis-services-execute-ddl-task.md) in Integration Services to run the script and create the specified set of members immediately before you process the partition.  
   
 ## See Also  
  [Create and Manage a Local Partition &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/create-and-manage-a-local-partition-analysis-services.md)  

@@ -1779,707 +1779,707 @@
   - name: Trace events >
     href: /bi-reference/trace-events/analysis-services-trace-events
   - name: Data Mining Extensions (DMX) Reference
-    href: ../dmx/data-mining-extensions-dmx-reference.md
+    href: /sql/dmx/data-mining-extensions-dmx-reference.md
     items:
     - name: Data Mining Extensions (DMX) Statements
-      href: ../dmx/data-mining-extensions-dmx-statements.md
+      href: /sql/dmx/data-mining-extensions-dmx-statements.md
       items:
       - name: DMX Statements - Data Definition
-        href: ../dmx/dmx-statements-data-definition.md
+        href: /sql/dmx/dmx-statements-data-definition.md
         items:
         - name: CREATE MINING STRUCTURE
-          href: ../dmx/create-mining-structure-dmx.md
+          href: /sql/dmx/create-mining-structure-dmx.md
         - name: ALTER MINING STRUCTURE
-          href: ../dmx/alter-mining-structure-dmx.md
+          href: /sql/dmx/alter-mining-structure-dmx.md
         - name: CREATE MINING MODEL
-          href: ../dmx/create-mining-model-dmx.md
+          href: /sql/dmx/create-mining-model-dmx.md
         - name: DROP MINING STRUCTURE
-          href: ../dmx/drop-mining-structure-dmx.md
+          href: /sql/dmx/drop-mining-structure-dmx.md
         - name: DROP MINING MODEL
-          href: ../dmx/drop-mining-model-dmx.md
+          href: /sql/dmx/drop-mining-model-dmx.md
         - name: EXPORT
-          href: ../dmx/export-dmx.md
+          href: /sql/dmx/export-dmx.md
         - name: IMPORT
-          href: ../dmx/import-dmx.md
+          href: /sql/dmx/import-dmx.md
         - name: SELECT INTO
-          href: ../dmx/select-into-dmx.md
+          href: /sql/dmx/select-into-dmx.md
       - name: DMX Statements - Data Manipulation
-        href: ../dmx/dmx-statements-data-manipulation.md
+        href: /sql/dmx/dmx-statements-data-manipulation.md
         items:
         - name: <source data query> - OPENQUERY
-          href: ../dmx/source-data-query-openquery.md
+          href: /sql/dmx/source-data-query-openquery.md
         - name: <source data query> - OPENROWSET
-          href: ../dmx/source-data-query-openrowset.md
+          href: /sql/dmx/source-data-query-openrowset.md
         - name: <source data query> - SHAPE
-          href: ../dmx/source-data-query-shape.md
+          href: /sql/dmx/source-data-query-shape.md
         - name: SELECT DISTINCT FROM <model >
-          href: ../dmx/select-distinct-from-model-dmx.md
+          href: /sql/dmx/select-distinct-from-model-dmx.md
         - name: SELECT FROM <model>.CONTENT
-          href: ../dmx/select-from-model-content-dmx.md
+          href: /sql/dmx/select-from-model-content-dmx.md
         - name: SELECT FROM <model>.CASES
-          href: ../dmx/select-from-model-cases-dmx.md
+          href: /sql/dmx/select-from-model-cases-dmx.md
         - name: SELECT FROM <model>.SAMPLE_CASES
-          href: ../dmx/select-from-model-sample-cases-dmx.md
+          href: /sql/dmx/select-from-model-sample-cases-dmx.md
         - name: SELECT FROM <model>.DIMENSION_CONTENT
-          href: ../dmx/select-from-model-dimension-content-dmx.md
+          href: /sql/dmx/select-from-model-dimension-content-dmx.md
         - name: SELECT FROM <model> PREDICTION JOIN
-          href: ../dmx/select-from-model-prediction-join-dmx.md
+          href: /sql/dmx/select-from-model-prediction-join-dmx.md
         - name: SELECT FROM <model>
-          href: ../dmx/select-from-model-dmx.md
+          href: /sql/dmx/select-from-model-dmx.md
         - name: SELECT FROM <structure>.CASES
-          href: ../dmx/select-from-structure-cases.md
+          href: /sql/dmx/select-from-structure-cases.md
         - name: DELETE
-          href: ../dmx/delete-dmx.md
+          href: /sql/dmx/delete-dmx.md
         - name: INSERT INTO
-          href: ../dmx/insert-into-dmx.md
+          href: /sql/dmx/insert-into-dmx.md
         - name: SELECT
-          href: ../dmx/select-dmx.md
+          href: /sql/dmx/select-dmx.md
         - name: <source data query>
-          href: ../dmx/source-data-query.md
+          href: /sql/dmx/source-data-query.md
         - name: UPDATE
-          href: ../dmx/update-dmx.md
+          href: /sql/dmx/update-dmx.md
     - name: Structure and Usage of DMX Prediction Queries
-      href: ../dmx/structure-and-usage-of-dmx-prediction-queries.md
+      href: /sql/dmx/structure-and-usage-of-dmx-prediction-queries.md
     - name: Understanding the DMX Select Statement
-      href: ../dmx/understanding-the-dmx-select-statement.md
+      href: /sql/dmx/understanding-the-dmx-select-statement.md
     - name: General Prediction Functions (DMX)
-      href: ../dmx/general-prediction-functions-dmx.md
+      href: /sql/dmx/general-prediction-functions-dmx.md
     - name: DMX Syntax Elements
-      href: ../dmx/data-mining-extensions-dmx-syntax-elements.md
+      href: /sql/dmx/data-mining-extensions-dmx-syntax-elements.md
       items:
       - name: Operators - Arithmetic
-        href: ../dmx/operators-arithmetic.md
+        href: /sql/dmx/operators-arithmetic.md
       - name: Operators - Comparison
-        href: ../dmx/operators-comparison.md
+        href: /sql/dmx/operators-comparison.md
       - name: Operators - Logical
-        href: ../dmx/operators-logical.md
+        href: /sql/dmx/operators-logical.md
       - name: Operators - Unary
-        href: ../dmx/operators-unary.md
+        href: /sql/dmx/operators-unary.md
       - name: Identifiers (DMX)
-        href: ../dmx/identifiers-dmx.md
+        href: /sql/dmx/identifiers-dmx.md
       - name: Data Types (DMX)
-        href: ../dmx/data-types-dmx.md
+        href: /sql/dmx/data-types-dmx.md
       - name: Expressions (DMX)
-        href: ../dmx/expressions-dmx.md
+        href: /sql/dmx/expressions-dmx.md
       - name: Operators (DMX)
-        href: ../dmx/operators-dmx.md
+        href: /sql/dmx/operators-dmx.md
       - name: Functions (DMX)
-        href: ../dmx/functions-dmx.md
+        href: /sql/dmx/functions-dmx.md
       - name: Comments (DMX)
-        href: ../dmx/comments-dmx.md
+        href: /sql/dmx/comments-dmx.md
       - name: Reserved Keywords (DMX)
-        href: ../dmx/reserved-keywords-dmx.md
+        href: /sql/dmx/reserved-keywords-dmx.md
       - name: Content Types (DMX)
-        href: ../dmx/content-types-dmx.md
+        href: /sql/dmx/content-types-dmx.md
       - name: Distributions (DMX)
-        href: ../dmx/distributions-dmx.md
+        href: /sql/dmx/distributions-dmx.md
       - name: Usage (DMX)
-        href: ../dmx/usage-dmx.md
+        href: /sql/dmx/usage-dmx.md
       - name: Modeling Flags (DMX)
-        href: ../dmx/modeling-flags-dmx.md
+        href: /sql/dmx/modeling-flags-dmx.md
     - name: DMX Function Reference
-      href: ../dmx/data-mining-extensions-dmx-function-reference.md
+      href: /sql/dmx/data-mining-extensions-dmx-function-reference.md
       items:
       - name: BottomCount
-        href: ../dmx/bottomcount-dmx.md
+        href: /sql/dmx/bottomcount-dmx.md
       - name: BottomPercent
-        href: ../dmx/bottompercent-dmx.md
+        href: /sql/dmx/bottompercent-dmx.md
       - name: BottomSum
-        href: ../dmx/bottomsum-dmx.md
+        href: /sql/dmx/bottomsum-dmx.md
       - name: Cluster
-        href: ../dmx/cluster-dmx.md
+        href: /sql/dmx/cluster-dmx.md
       - name: ClusterDistance
-        href: ../dmx/clusterdistance-dmx.md
+        href: /sql/dmx/clusterdistance-dmx.md
       - name: ClusterProbability
-        href: ../dmx/clusterprobability-dmx.md
+        href: /sql/dmx/clusterprobability-dmx.md
       - name: Exists
-        href: ../dmx/exists-dmx.md
+        href: /sql/dmx/exists-dmx.md
       - name: IsDescendant
-        href: ../dmx/isdescendant-dmx.md
+        href: /sql/dmx/isdescendant-dmx.md
       - name: IsInNode
-        href: ../dmx/isinnode-dmx.md
+        href: /sql/dmx/isinnode-dmx.md
       - name: IsTestCase
-        href: ../dmx/istestcase-dmx.md
+        href: /sql/dmx/istestcase-dmx.md
       - name: IsTrainingCase
-        href: ../dmx/istrainingcase-dmx.md
+        href: /sql/dmx/istrainingcase-dmx.md
       - name: Lag
-        href: ../dmx/lag-dmx.md
+        href: /sql/dmx/lag-dmx.md
       - name: Predict
-        href: ../dmx/predict-dmx.md
+        href: /sql/dmx/predict-dmx.md
       - name: PredictAdjustedProbability
-        href: ../dmx/predictadjustedprobability-dmx.md
+        href: /sql/dmx/predictadjustedprobability-dmx.md
       - name: PredictAssociation
-        href: ../dmx/predictassociation-dmx.md
+        href: /sql/dmx/predictassociation-dmx.md
       - name: PredictCaseLikelihood
-        href: ../dmx/predictcaselikelihood-dmx.md
+        href: /sql/dmx/predictcaselikelihood-dmx.md
       - name: PredictHistogram
-        href: ../dmx/predicthistogram-dmx.md
+        href: /sql/dmx/predicthistogram-dmx.md
       - name: PredictNodeId
-        href: ../dmx/predictnodeid-dmx.md
+        href: /sql/dmx/predictnodeid-dmx.md
       - name: PredictProbability
-        href: ../dmx/predictprobability-dmx.md
+        href: /sql/dmx/predictprobability-dmx.md
       - name: PredictSequence
-        href: ../dmx/predictsequence-dmx.md
+        href: /sql/dmx/predictsequence-dmx.md
       - name: PredictStdev
-        href: ../dmx/predictstdev-dmx.md
+        href: /sql/dmx/predictstdev-dmx.md
       - name: PredictSupport
-        href: ../dmx/predictsupport-dmx.md
+        href: /sql/dmx/predictsupport-dmx.md
       - name: PredictTimeSeries
-        href: ../dmx/predicttimeseries-dmx.md
+        href: /sql/dmx/predicttimeseries-dmx.md
       - name: PredictVariance
-        href: ../dmx/predictvariance-dmx.md
+        href: /sql/dmx/predictvariance-dmx.md
       - name: RangeMax
-        href: ../dmx/rangemax-dmx.md
+        href: /sql/dmx/rangemax-dmx.md
       - name: RangeMid
-        href: ../dmx/rangemid-dmx.md
+        href: /sql/dmx/rangemid-dmx.md
       - name: RangeMin
-        href: ../dmx/rangemin-dmx.md
+        href: /sql/dmx/rangemin-dmx.md
       - name: StructureColumn
-        href: ../dmx/structurecolumn-dmx.md
+        href: /sql/dmx/structurecolumn-dmx.md
       - name: TopCount
-        href: ../dmx/topcount-dmx.md
+        href: /sql/dmx/topcount-dmx.md
       - name: TopPercent
-        href: ../dmx/toppercent-dmx.md
+        href: /sql/dmx/toppercent-dmx.md
       - name: TopSum
-        href: ../dmx/topsum-dmx.md
+        href: /sql/dmx/topsum-dmx.md
       - name: DMX Operator Reference
-        href: ../dmx/data-mining-extensions-dmx-operator-reference.md
+        href: /sql/dmx/data-mining-extensions-dmx-operator-reference.md
         items:
         - name: "+ (Add)"
-          href: ../dmx/add-dmx.md
+          href: /sql/dmx/add-dmx.md
         - name: "- (Subtract)"
-          href: ../dmx/subtract-dmx.md
+          href: /sql/dmx/subtract-dmx.md
         - name: "* (Multiply)"
-          href: ../dmx/multiply-dmx.md
+          href: /sql/dmx/multiply-dmx.md
         - name: (Divide) (DMX)
-          href: ../dmx/divide-dmx.md
+          href: /sql/dmx/divide-dmx.md
         - name: "< (Less Than)"
-          href: ../dmx/less-than-dmx.md
+          href: /sql/dmx/less-than-dmx.md
         - name: "> (Greater Than)"
-          href: ../dmx/greater-than-dmx.md
+          href: /sql/dmx/greater-than-dmx.md
         - name: "= (Equal To)"
-          href: ../dmx/equal-to-dmx.md
+          href: /sql/dmx/equal-to-dmx.md
         - name: "<> (Not Equal To)"
-          href: ../dmx/not-equal-to-dmx.md
+          href: /sql/dmx/not-equal-to-dmx.md
         - name: "<= (Less Than or Equal To)"
-          href: ../dmx/less-than-or-equal-to-dmx.md
+          href: /sql/dmx/less-than-or-equal-to-dmx.md
         - name: ">= (Greater Than or Equal To)"
-          href: ../dmx/greater-than-or-equal-to-dmx.md
+          href: /sql/dmx/greater-than-or-equal-to-dmx.md
         - name: AND
-          href: ../dmx/and-dmx.md
+          href: /sql/dmx/and-dmx.md
         - name: NOT
-          href: ../dmx/not-dmx.md
+          href: /sql/dmx/not-dmx.md
         - name: OR
-          href: ../dmx/or-dmx.md
+          href: /sql/dmx/or-dmx.md
         - name: "+ (Positive)"
-          href: ../dmx/positive-dmx.md
+          href: /sql/dmx/positive-dmx.md
         - name: "- (Negative)"
-          href: ../dmx/negative-dmx.md
+          href: /sql/dmx/negative-dmx.md
         - name: "// (Comment)"
-          href: ../dmx/double-slash-comment-dmx.md
+          href: /sql/dmx/double-slash-comment-dmx.md
         - name: "-- (Comment)"
-          href: ../dmx/comment-dmx-summary.md
+          href: /sql/dmx/comment-dmx-summary.md
         - name: "/*...*/ (Comment)"
-          href: ../dmx/slash-star-comment-dmx.md
+          href: /sql/dmx/slash-star-comment-dmx.md
     - name: DMX Syntax Conventions
-      href: ../dmx/data-mining-extensions-dmx-syntax-conventions.md
+      href: /sql/dmx/data-mining-extensions-dmx-syntax-conventions.md
     - name: DMX Tutorials
-      href: ../dmx/dmx-tutorials-analysis-services-data-mining.md
+      href: /sql/dmx/dmx-tutorials-analysis-services-data-mining.md
   - name: Multidimensional Expressions (MDX)
-    href: ../mdx/analysis-services-language-reference.md
+    href: /sql/mdx/analysis-services-language-reference.md
     items:
     - name: Multidimensional Expressions (MDX) Reference
-      href: ../mdx/multidimensional-expressions-mdx-reference.md
+      href: /sql/mdx/multidimensional-expressions-mdx-reference.md
       items:
       - name: MDX Syntax Elements
-        href: ../mdx/mdx-syntax-elements-mdx.md
+        href: /sql/mdx/mdx-syntax-elements-mdx.md
         items:
         - name: Identifiers
-          href: ../mdx/identifiers-mdx.md
+          href: /sql/mdx/identifiers-mdx.md
         - name: Expressions
-          href: ../mdx/expressions-mdx.md
+          href: /sql/mdx/expressions-mdx.md
           items:
           - name: Using Cube and Subcube Expressions
-            href: ../mdx/using-cube-and-subcube-expressions.md
+            href: /sql/mdx/using-cube-and-subcube-expressions.md
           - name: Using Dimension Expressions
-            href: ../mdx/using-dimension-expressions.md
+            href: /sql/mdx/using-dimension-expressions.md
           - name: Using Member Expressions
-            href: ../mdx/using-member-expressions.md
+            href: /sql/mdx/using-member-expressions.md
           - name: Using Tuple Expressions
-            href: ../mdx/using-tuple-expressions.md
+            href: /sql/mdx/using-tuple-expressions.md
           - name: Using Set Expressions
-            href: ../mdx/using-set-expressions.md
+            href: /sql/mdx/using-set-expressions.md
           - name: Using Scalar Expressions
-            href: ../mdx/using-scalar-expressions.md
+            href: /sql/mdx/using-scalar-expressions.md
           - name: Working with Empty Values
-            href: ../mdx/working-with-empty-values.md
+            href: /sql/mdx/working-with-empty-values.md
         - name: Operators (MDX Syntax)
-          href: ../mdx/operators-mdx-syntax.md
+          href: /sql/mdx/operators-mdx-syntax.md
           items:
           - name: Arithmetic Operators
-            href: ../mdx/arithmetic-operators.md
+            href: /sql/mdx/arithmetic-operators.md
           - name: Bitwise Operators
-            href: ../mdx/bitwise-operators.md
+            href: /sql/mdx/bitwise-operators.md
           - name: Comparison Operators
-            href: ../mdx/comparison-operators.md
+            href: /sql/mdx/comparison-operators.md
           - name: Concatenation Operators
-            href: ../mdx/concatenation-operators.md
+            href: /sql/mdx/concatenation-operators.md
           - name: Set Operators
-            href: ../mdx/set-operators.md
+            href: /sql/mdx/set-operators.md
           - name: Unary Operators
-            href: ../mdx/unary-operators.md
+            href: /sql/mdx/unary-operators.md
           - name: Assignment Operators
-            href: ../mdx/assignment-operators.md
+            href: /sql/mdx/assignment-operators.md
         - name: Functions (MDX Syntax)
-          href: ../mdx/functions-mdx-syntax.md
+          href: /sql/mdx/functions-mdx-syntax.md
           items:
           - name: Using String Functions
-            href: ../mdx/using-string-functions.md
+            href: /sql/mdx/using-string-functions.md
           - name: Using Mathematical Functions
-            href: ../mdx/using-mathematical-functions.md
+            href: /sql/mdx/using-mathematical-functions.md
           - name: Using Logical Functions
-            href: ../mdx/using-logical-functions.md
+            href: /sql/mdx/using-logical-functions.md
           - name: Using Member Functions
-            href: ../mdx/using-member-functions.md
+            href: /sql/mdx/using-member-functions.md
           - name: Using Tuple Functions
-            href: ../mdx/using-tuple-functions.md
+            href: /sql/mdx/using-tuple-functions.md
           - name: Using Set Functions
-            href: ../mdx/using-set-functions.md
+            href: /sql/mdx/using-set-functions.md
           - name: Using Dimension, Hierarchy, and Level Functions
-            href: ../mdx/using-dimension-hierarchy-and-level-functions.md
+            href: /sql/mdx/using-dimension-hierarchy-and-level-functions.md
           - name: Using Stored Procedures (MDX)
-            href: ../mdx/using-stored-procedures-mdx.md
+            href: /sql/mdx/using-stored-procedures-mdx.md
         - name: Comments (MDX Syntax)
-          href: ../mdx/comments-mdx-syntax.md
+          href: /sql/mdx/comments-mdx-syntax.md
         - name: Reserved Keywords (MDX Syntax)
-          href: ../mdx/reserved-keywords-mdx-syntax.md
+          href: /sql/mdx/reserved-keywords-mdx-syntax.md
       - name: MDX Language Reference
-        href: ../mdx/mdx-language-reference-mdx.md
+        href: /sql/mdx/mdx-language-reference-mdx.md
         items:
         - name: MDX Syntax Conventions
-          href: ../mdx/mdx-syntax-conventions-mdx.md
+          href: /sql/mdx/mdx-syntax-conventions-mdx.md
         - name: MDX Statement Reference
-          href: ../mdx/mdx-statement-reference-mdx.md
+          href: /sql/mdx/mdx-statement-reference-mdx.md
           items:
           - name: MDX Data Manipulation - CALL
-            href: ../mdx/mdx-data-manipulation-call.md
+            href: /sql/mdx/mdx-data-manipulation-call.md
           - name: MDX Data Manipulation - CLEAR CALCULATIONS
-            href: ../mdx/mdx-data-manipulation-clear-calculations.md
+            href: /sql/mdx/mdx-data-manipulation-clear-calculations.md
           - name: MDX Data Manipulation - DRILLTHROUGH
-            href: ../mdx/mdx-data-manipulation-drillthrough.md
+            href: /sql/mdx/mdx-data-manipulation-drillthrough.md
           - name: MDX Data Manipulation - SELECT
-            href: ../mdx/mdx-data-manipulation-select.md
+            href: /sql/mdx/mdx-data-manipulation-select.md
           - name: MDX Data Manipulation - UPDATE CUBE
-            href: ../mdx/mdx-data-manipulation-update-cube.md
+            href: /sql/mdx/mdx-data-manipulation-update-cube.md
           - name: MDX Data Definition - ALTER CUBE
-            href: ../mdx/mdx-data-definition-alter-cube.md
+            href: /sql/mdx/mdx-data-definition-alter-cube.md
           - name: MDX Data Definition - CREATE ACTION
-            href: ../mdx/mdx-data-definition-create-action.md
+            href: /sql/mdx/mdx-data-definition-create-action.md
           - name: MDX Data Definition - CREATE CELL CALCULATION
-            href: ../mdx/mdx-data-definition-create-cell-calculation.md
+            href: /sql/mdx/mdx-data-definition-create-cell-calculation.md
           - name: MDX Data Definition - CREATE GLOBAL CUBE
-            href: ../mdx/mdx-data-definition-create-global-cube.md
+            href: /sql/mdx/mdx-data-definition-create-global-cube.md
           - name: MDX Data Definition - CREATE KPI
-            href: ../mdx/mdx-data-definition-create-kpi.md
+            href: /sql/mdx/mdx-data-definition-create-kpi.md
           - name: MDX Data Definition - CREATE MEASURE
-            href: ../mdx/mdx-data-definition-create-measure.md
+            href: /sql/mdx/mdx-data-definition-create-measure.md
           - name: MDX Data Definition - CREATE MEMBER
-            href: ../mdx/mdx-data-definition-create-member.md
+            href: /sql/mdx/mdx-data-definition-create-member.md
           - name: MDX Data Definition - CREATE SESSION CUBE
-            href: ../mdx/mdx-data-definition-create-session-cube.md
+            href: /sql/mdx/mdx-data-definition-create-session-cube.md
           - name: MDX Data Definition - CREATE SET
-            href: ../mdx/mdx-data-definition-create-set.md
+            href: /sql/mdx/mdx-data-definition-create-set.md
           - name: MDX Data Definition - CREATE SUBCUBE
-            href: ../mdx/mdx-data-definition-create-subcube.md
+            href: /sql/mdx/mdx-data-definition-create-subcube.md
           - name: MDX Data Definition - DROP ACTION
-            href: ../mdx/mdx-data-definition-drop-action.md
+            href: /sql/mdx/mdx-data-definition-drop-action.md
           - name: MDX Data Definition - DROP CELL CALCULATION
-            href: ../mdx/mdx-data-definition-drop-cell-calculation.md
+            href: /sql/mdx/mdx-data-definition-drop-cell-calculation.md
           - name: MDX Data Definition - DROP KPI
-            href: ../mdx/mdx-data-definition-drop-kpi.md
+            href: /sql/mdx/mdx-data-definition-drop-kpi.md
           - name: MDX Data Definition - DROP MEMBER
-            href: ../mdx/mdx-data-definition-drop-member.md
+            href: /sql/mdx/mdx-data-definition-drop-member.md
           - name: MDX Data Definition - DROP SET
-            href: ../mdx/mdx-data-definition-drop-set.md
+            href: /sql/mdx/mdx-data-definition-drop-set.md
           - name: MDX Data Definition - DROP SUBCUBE
-            href: ../mdx/mdx-data-definition-drop-subcube.md
+            href: /sql/mdx/mdx-data-definition-drop-subcube.md
           - name: MDX Data Definition - REFRESH CUBE
-            href: ../mdx/mdx-data-definition-refresh-cube.md
+            href: /sql/mdx/mdx-data-definition-refresh-cube.md
           - name: MDX Data Definition - UPDATE MEMBER
-            href: ../mdx/mdx-data-definition-update-member.md
+            href: /sql/mdx/mdx-data-definition-update-member.md
           - name: MDX Scripting - CALCULATE
-            href: ../mdx/mdx-scripting-calculate.md
+            href: /sql/mdx/mdx-scripting-calculate.md
           - name: MDX Scripting - FREEZE
-            href: ../mdx/mdx-scripting-freeze.md
+            href: /sql/mdx/mdx-scripting-freeze.md
           - name: MDX Scripting - IF
-            href: ../mdx/mdx-scripting-if.md
+            href: /sql/mdx/mdx-scripting-if.md
           - name: MDX Scripting - SCOPE
-            href: ../mdx/mdx-scripting-scope.md
+            href: /sql/mdx/mdx-scripting-scope.md
           - name: MDX Scripting Statements
-            href: ../mdx/mdx-scripting-statements-mdx.md
+            href: /sql/mdx/mdx-scripting-statements-mdx.md
           - name: MDX Data Definition Statements
-            href: ../mdx/mdx-data-definition-statements-mdx.md
+            href: /sql/mdx/mdx-data-definition-statements-mdx.md
           - name: MDX Data Manipulation Statements
-            href: ../mdx/mdx-data-manipulation-statements-mdx.md
+            href: /sql/mdx/mdx-data-manipulation-statements-mdx.md
         - name: MDX Operator Reference
-          href: ../mdx/mdx-operator-reference-mdx.md
+          href: /sql/mdx/mdx-operator-reference-mdx.md
           items:
           - name: "-- (Comment)"
-            href: ../mdx/comment-mdx-operator-reference.md
+            href: /sql/mdx/comment-mdx-operator-reference.md
           - name: "- (Except)"
-            href: ../mdx/except-mdx-operator.md
+            href: /sql/mdx/except-mdx-operator.md
           - name: "- (Negative)"
-            href: ../mdx/negative-mdx.md
+            href: /sql/mdx/negative-mdx.md
           - name: "- (Subtract)"
-            href: ../mdx/subtract-mdx.md
+            href: /sql/mdx/subtract-mdx.md
           - name: "* (Crossjoin)"
-            href: ../mdx/crossjoin-mdx-operator-reference.md
+            href: /sql/mdx/crossjoin-mdx-operator-reference.md
           - name: "* (Multiply)"
-            href: ../mdx/multiply-mdx.md
+            href: /sql/mdx/multiply-mdx.md
           - name: (Divide)
-            href: ../mdx/divide-mdx-operator-reference.md
+            href: /sql/mdx/divide-mdx-operator-reference.md
           - name: "^ (Power) (MDX)"
-            href: ../mdx/power-mdx.md
+            href: /sql/mdx/power-mdx.md
           - name: "/*...*/ (Comment)"
-            href: ../mdx/comment-mdx.md
+            href: /sql/mdx/comment-mdx.md
           - name: "// (Comment)"
-            href: ../mdx/comment-mdx-double-slash.md
+            href: /sql/mdx/comment-mdx-double-slash.md
           - name: ": (Range)"
-            href: ../mdx/range-mdx.md
+            href: /sql/mdx/range-mdx.md
           - name: "+ (Add)"
-            href: ../mdx/add-mdx.md
+            href: /sql/mdx/add-mdx.md
           - name: "+ (Positive)"
-            href: ../mdx/positive-mdx.md
+            href: /sql/mdx/positive-mdx.md
           - name: "+ (String Concatenation)"
-            href: ../mdx/string-concatenation-mdx.md
+            href: /sql/mdx/string-concatenation-mdx.md
           - name: "+ (Union)"
-            href: ../mdx/union-mdx-operator-reference.md
+            href: /sql/mdx/union-mdx-operator-reference.md
           - name: "< (Less Than)"
-            href: ../mdx/less-than-mdx.md
+            href: /sql/mdx/less-than-mdx.md
           - name: "<= (Less Than or Equal To)"
-            href: ../mdx/less-than-or-equal-to-mdx.md
+            href: /sql/mdx/less-than-or-equal-to-mdx.md
           - name: "<> (Not Equal To)"
-            href: ../mdx/not-equal-to-mdx.md
+            href: /sql/mdx/not-equal-to-mdx.md
           - name: "= (Equal To)"
-            href: ../mdx/equal-to-mdx.md
+            href: /sql/mdx/equal-to-mdx.md
           - name: "> (Greater Than)"
-            href: ../mdx/greater-than-mdx.md
+            href: /sql/mdx/greater-than-mdx.md
           - name: ">= (Greater Than or Equal To)"
-            href: ../mdx/greater-than-or-equal-to-mdx.md
+            href: /sql/mdx/greater-than-or-equal-to-mdx.md
           - name: AND
-            href: ../mdx/and-mdx.md
+            href: /sql/mdx/and-mdx.md
           - name: IS
-            href: ../mdx/is-mdx.md
+            href: /sql/mdx/is-mdx.md
           - name: NOT
-            href: ../mdx/not-mdx.md
+            href: /sql/mdx/not-mdx.md
           - name: OR
-            href: ../mdx/or-mdx.md
+            href: /sql/mdx/or-mdx.md
           - name: XOR
-            href: ../mdx/xor-mdx.md
+            href: /sql/mdx/xor-mdx.md
         - name: MDX Function Reference
-          href: ../mdx/mdx-function-reference-mdx.md
+          href: /sql/mdx/mdx-function-reference-mdx.md
           items:
           - name: AddCalculatedMembers
-            href: ../mdx/addcalculatedmembers-mdx.md
+            href: /sql/mdx/addcalculatedmembers-mdx.md
           - name: Aggregate
-            href: ../mdx/aggregate-mdx.md
+            href: /sql/mdx/aggregate-mdx.md
           - name: AllMembers
-            href: ../mdx/allmembers-mdx.md
+            href: /sql/mdx/allmembers-mdx.md
           - name: Ancestor
-            href: ../mdx/ancestor-mdx.md
+            href: /sql/mdx/ancestor-mdx.md
           - name: Ancestors
-            href: ../mdx/ancestors-mdx.md
+            href: /sql/mdx/ancestors-mdx.md
           - name: Ascendants
-            href: ../mdx/ascendants-mdx.md
+            href: /sql/mdx/ascendants-mdx.md
           - name: Avg
-            href: ../mdx/avg-mdx.md
+            href: /sql/mdx/avg-mdx.md
           - name: Axis
-            href: ../mdx/axis-mdx.md
+            href: /sql/mdx/axis-mdx.md
           - name: BottomCount
-            href: ../mdx/bottomcount-mdx.md
+            href: /sql/mdx/bottomcount-mdx.md
           - name: BottomPercent
-            href: ../mdx/bottompercent-mdx.md
+            href: /sql/mdx/bottompercent-mdx.md
           - name: BottomSum
-            href: ../mdx/bottomsum-mdx.md
+            href: /sql/mdx/bottomsum-mdx.md
           - name: CalculationCurrentPass
-            href: ../mdx/calculationcurrentpass-mdx.md
+            href: /sql/mdx/calculationcurrentpass-mdx.md
           - name: CalculationPassValue
-            href: ../mdx/calculationpassvalue-mdx.md
+            href: /sql/mdx/calculationpassvalue-mdx.md
           - name: CASE Statement
-            href: ../mdx/case-statement-mdx.md
+            href: /sql/mdx/case-statement-mdx.md
           - name: Children
-            href: ../mdx/children-mdx.md
+            href: /sql/mdx/children-mdx.md
           - name: ClosingPeriod
-            href: ../mdx/closingperiod-mdx.md
+            href: /sql/mdx/closingperiod-mdx.md
           - name: CoalesceEmpty
-            href: ../mdx/coalesceempty-mdx.md
+            href: /sql/mdx/coalesceempty-mdx.md
           - name: Correlation
-            href: ../mdx/correlation-mdx.md
+            href: /sql/mdx/correlation-mdx.md
           - name: Count (Dimension)
-            href: ../mdx/count-dimension-mdx.md
+            href: /sql/mdx/count-dimension-mdx.md
           - name: Count (Hierarchy Levels)
-            href: ../mdx/count-hierarchy-levels-mdx.md
+            href: /sql/mdx/count-hierarchy-levels-mdx.md
           - name: Count (Set)
-            href: ../mdx/count-set-mdx.md
+            href: /sql/mdx/count-set-mdx.md
           - name: Count (Tuple)
-            href: ../mdx/count-tuple-mdx.md
+            href: /sql/mdx/count-tuple-mdx.md
           - name: Cousin
-            href: ../mdx/cousin-mdx.md
+            href: /sql/mdx/cousin-mdx.md
           - name: Covariance
-            href: ../mdx/covariance-mdx.md
+            href: /sql/mdx/covariance-mdx.md
           - name: CovarianceN
-            href: ../mdx/covariancen-mdx.md
+            href: /sql/mdx/covariancen-mdx.md
           - name: Crossjoin
-            href: ../mdx/crossjoin-mdx.md
+            href: /sql/mdx/crossjoin-mdx.md
           - name: Current
-            href: ../mdx/current-mdx.md
+            href: /sql/mdx/current-mdx.md
           - name: CurrentMember
-            href: ../mdx/currentmember-mdx.md
+            href: /sql/mdx/currentmember-mdx.md
           - name: CurrentOrdinal
-            href: ../mdx/currentordinal-mdx.md
+            href: /sql/mdx/currentordinal-mdx.md
           - name: CustomData
-            href: ../mdx/customdata-mdx.md
+            href: /sql/mdx/customdata-mdx.md
           - name: DataMember
-            href: ../mdx/datamember-mdx.md
+            href: /sql/mdx/datamember-mdx.md
           - name: DefaultMember
-            href: ../mdx/defaultmember-mdx.md
+            href: /sql/mdx/defaultmember-mdx.md
           - name: Descendants
-            href: ../mdx/descendants-mdx.md
+            href: /sql/mdx/descendants-mdx.md
           - name: Dimension
-            href: ../mdx/dimension-mdx.md
+            href: /sql/mdx/dimension-mdx.md
           - name: Dimensions
-            href: ../mdx/dimensions-mdx.md
+            href: /sql/mdx/dimensions-mdx.md
           - name: Distinct
-            href: ../mdx/distinct-mdx.md
+            href: /sql/mdx/distinct-mdx.md
           - name: DistinctCount
-            href: ../mdx/distinctcount-mdx.md
+            href: /sql/mdx/distinctcount-mdx.md
           - name: Divide
-            href: ../mdx/divide-mdx.md
+            href: /sql/mdx/divide-mdx.md
           - name: DrilldownLevel
-            href: ../mdx/drilldownlevel-mdx.md
+            href: /sql/mdx/drilldownlevel-mdx.md
           - name: DrilldownLevelBottom
-            href: ../mdx/drilldownlevelbottom-mdx.md
+            href: /sql/mdx/drilldownlevelbottom-mdx.md
           - name: DrilldownLevelTop
-            href: ../mdx/drilldownleveltop-mdx.md
+            href: /sql/mdx/drilldownleveltop-mdx.md
           - name: DrilldownMember
-            href: ../mdx/drilldownmember-mdx.md
+            href: /sql/mdx/drilldownmember-mdx.md
           - name: DrilldownMemberBottom
-            href: ../mdx/drilldownmemberbottom-mdx.md
+            href: /sql/mdx/drilldownmemberbottom-mdx.md
           - name: DrilldownMemberTop
-            href: ../mdx/drilldownmembertop-mdx.md
+            href: /sql/mdx/drilldownmembertop-mdx.md
           - name: DrillupLevel
-            href: ../mdx/drilluplevel-mdx.md
+            href: /sql/mdx/drilluplevel-mdx.md
           - name: DrillupMember
-            href: ../mdx/drillupmember-mdx.md
+            href: /sql/mdx/drillupmember-mdx.md
           - name: Error
-            href: ../mdx/error-mdx.md
+            href: /sql/mdx/error-mdx.md
           - name: Except
-            href: ../mdx/except-mdx-function.md
+            href: /sql/mdx/except-mdx-function.md
           - name: Exists
-            href: ../mdx/exists-mdx.md
+            href: /sql/mdx/exists-mdx.md
           - name: Extract
-            href: ../mdx/extract-mdx.md
+            href: /sql/mdx/extract-mdx.md
           - name: Filter
-            href: ../mdx/filter-mdx.md
+            href: /sql/mdx/filter-mdx.md
           - name: FirstChild
-            href: ../mdx/firstchild-mdx.md
+            href: /sql/mdx/firstchild-mdx.md
           - name: FirstSibling
-            href: ../mdx/firstsibling-mdx.md
+            href: /sql/mdx/firstsibling-mdx.md
           - name: Generate
-            href: ../mdx/generate-mdx.md
+            href: /sql/mdx/generate-mdx.md
           - name: Head
-            href: ../mdx/head-mdx.md
+            href: /sql/mdx/head-mdx.md
           - name: Hierarchize
-            href: ../mdx/hierarchize-mdx.md
+            href: /sql/mdx/hierarchize-mdx.md
           - name: Hierarchy
-            href: ../mdx/hierarchy-mdx.md
+            href: /sql/mdx/hierarchy-mdx.md
           - name: IIf
-            href: ../mdx/iif-mdx.md
+            href: /sql/mdx/iif-mdx.md
           - name: Instr
-            href: ../mdx/instr-mdx.md
+            href: /sql/mdx/instr-mdx.md
           - name: Intersect
-            href: ../mdx/intersect-mdx.md
+            href: /sql/mdx/intersect-mdx.md
           - name: IsAncestor
-            href: ../mdx/isancestor-mdx.md
+            href: /sql/mdx/isancestor-mdx.md
           - name: IsEmpty
-            href: ../mdx/isempty-mdx.md
+            href: /sql/mdx/isempty-mdx.md
           - name: IsGeneration
-            href: ../mdx/isgeneration-mdx.md
+            href: /sql/mdx/isgeneration-mdx.md
           - name: IsLeaf
-            href: ../mdx/isleaf-mdx.md
+            href: /sql/mdx/isleaf-mdx.md
           - name: IsSibling
-            href: ../mdx/issibling-mdx.md
+            href: /sql/mdx/issibling-mdx.md
           - name: Item (Member)
-            href: ../mdx/item-member-mdx.md
+            href: /sql/mdx/item-member-mdx.md
           - name: Item (Tuple)
-            href: ../mdx/item-tuple-mdx.md
+            href: /sql/mdx/item-tuple-mdx.md
           - name: KPIGoal
-            href: ../mdx/kpigoal-mdx.md
+            href: /sql/mdx/kpigoal-mdx.md
           - name: KPIStatus
-            href: ../mdx/kpistatus-mdx.md
+            href: /sql/mdx/kpistatus-mdx.md
           - name: KPITrend
-            href: ../mdx/kpitrend-mdx.md
+            href: /sql/mdx/kpitrend-mdx.md
           - name: KPIWeight
-            href: ../mdx/kpiweight-mdx.md
+            href: /sql/mdx/kpiweight-mdx.md
           - name: KPICurrentTimeMember
-            href: ../mdx/kpicurrenttimemember-mdx.md
+            href: /sql/mdx/kpicurrenttimemember-mdx.md
           - name: KPIValue
-            href: ../mdx/kpivalue-mdx.md
+            href: /sql/mdx/kpivalue-mdx.md
           - name: Lag
-            href: ../mdx/lag-mdx.md
+            href: /sql/mdx/lag-mdx.md
           - name: LastChild
-            href: ../mdx/lastchild-mdx.md
+            href: /sql/mdx/lastchild-mdx.md
           - name: LastPeriods
-            href: ../mdx/lastperiods-mdx.md
+            href: /sql/mdx/lastperiods-mdx.md
           - name: LastSibling
-            href: ../mdx/lastsibling-mdx.md
+            href: /sql/mdx/lastsibling-mdx.md
           - name: Lead
-            href: ../mdx/lead-mdx.md
+            href: /sql/mdx/lead-mdx.md
           - name: Leaves
-            href: ../mdx/leaves-mdx.md
+            href: /sql/mdx/leaves-mdx.md
           - name: Level
-            href: ../mdx/level-mdx.md
+            href: /sql/mdx/level-mdx.md
           - name: Levels
-            href: ../mdx/levels-mdx.md
+            href: /sql/mdx/levels-mdx.md
           - name: LinkMember
-            href: ../mdx/linkmember-mdx.md
+            href: /sql/mdx/linkmember-mdx.md
           - name: LinRegIntercept
-            href: ../mdx/linregintercept-mdx.md
+            href: /sql/mdx/linregintercept-mdx.md
           - name: LinRegPoint
-            href: ../mdx/linregpoint-mdx.md
+            href: /sql/mdx/linregpoint-mdx.md
           - name: LinRegR2
-            href: ../mdx/linregr2-mdx.md
+            href: /sql/mdx/linregr2-mdx.md
           - name: LinRegSlope
-            href: ../mdx/linregslope-mdx.md
+            href: /sql/mdx/linregslope-mdx.md
           - name: LinRegVariance
-            href: ../mdx/linregvariance-mdx.md
+            href: /sql/mdx/linregvariance-mdx.md
           - name: LookupCube
-            href: ../mdx/lookupcube-mdx.md
+            href: /sql/mdx/lookupcube-mdx.md
           - name: Max
-            href: ../mdx/max-mdx.md
+            href: /sql/mdx/max-mdx.md
           - name: MeasureGroupMeasures
-            href: ../mdx/measuregroupmeasures-mdx.md
+            href: /sql/mdx/measuregroupmeasures-mdx.md
           - name: Median
-            href: ../mdx/median-mdx.md
+            href: /sql/mdx/median-mdx.md
           - name: Members (Set)
-            href: ../mdx/members-set-mdx.md
+            href: /sql/mdx/members-set-mdx.md
           - name: Members (String)
-            href: ../mdx/members-string-mdx.md
+            href: /sql/mdx/members-string-mdx.md
           - name: MemberToStr
-            href: ../mdx/membertostr-mdx.md
+            href: /sql/mdx/membertostr-mdx.md
           - name: MemberValue
-            href: ../mdx/membervalue-mdx.md
+            href: /sql/mdx/membervalue-mdx.md
           - name: Min
-            href: ../mdx/min-mdx.md
+            href: /sql/mdx/min-mdx.md
           - name: Mtd
-            href: ../mdx/mtd-mdx.md
+            href: /sql/mdx/mtd-mdx.md
           - name: Name
-            href: ../mdx/name-mdx.md
+            href: /sql/mdx/name-mdx.md
           - name: NameToSet
-            href: ../mdx/nametoset-mdx.md
+            href: /sql/mdx/nametoset-mdx.md
           - name: NextMember
-            href: ../mdx/nextmember-mdx.md
+            href: /sql/mdx/nextmember-mdx.md
           - name: NonEmpty
-            href: ../mdx/nonempty-mdx.md
+            href: /sql/mdx/nonempty-mdx.md
           - name: NonEmptyCrossjoin
-            href: ../mdx/nonemptycrossjoin-mdx.md
+            href: /sql/mdx/nonemptycrossjoin-mdx.md
           - name: OpeningPeriod
-            href: ../mdx/openingperiod-mdx.md
+            href: /sql/mdx/openingperiod-mdx.md
           - name: Order
-            href: ../mdx/order-mdx.md
+            href: /sql/mdx/order-mdx.md
           - name: Ordinal
-            href: ../mdx/ordinal-mdx.md
+            href: /sql/mdx/ordinal-mdx.md
           - name: ParallelPeriod
-            href: ../mdx/parallelperiod-mdx.md
+            href: /sql/mdx/parallelperiod-mdx.md
           - name: Parent
-            href: ../mdx/parent-mdx.md
+            href: /sql/mdx/parent-mdx.md
           - name: PeriodsToDate
-            href: ../mdx/periodstodate-mdx.md
+            href: /sql/mdx/periodstodate-mdx.md
           - name: Predict
-            href: ../mdx/predict-mdx.md
+            href: /sql/mdx/predict-mdx.md
           - name: PrevMember
-            href: ../mdx/prevmember-mdx.md
+            href: /sql/mdx/prevmember-mdx.md
           - name: Properties
-            href: ../mdx/properties-mdx.md
+            href: /sql/mdx/properties-mdx.md
           - name: Qtd
-            href: ../mdx/qtd-mdx.md
+            href: /sql/mdx/qtd-mdx.md
           - name: Rank
-            href: ../mdx/rank-mdx.md
+            href: /sql/mdx/rank-mdx.md
           - name: RollupChildren
-            href: ../mdx/rollupchildren-mdx.md
+            href: /sql/mdx/rollupchildren-mdx.md
           - name: Root
-            href: ../mdx/root-mdx.md
+            href: /sql/mdx/root-mdx.md
           - name: SetToArray
-            href: ../mdx/settoarray-mdx.md
+            href: /sql/mdx/settoarray-mdx.md
           - name: SetToStr
-            href: ../mdx/settostr-mdx.md
+            href: /sql/mdx/settostr-mdx.md
           - name: Siblings
-            href: ../mdx/siblings-mdx.md
+            href: /sql/mdx/siblings-mdx.md
           - name: Stddev
-            href: ../mdx/stddev-mdx.md
+            href: /sql/mdx/stddev-mdx.md
           - name: StddevP
-            href: ../mdx/stddevp-mdx.md
+            href: /sql/mdx/stddevp-mdx.md
           - name: Stdev
-            href: ../mdx/stdev-mdx.md
+            href: /sql/mdx/stdev-mdx.md
           - name: StdevP
-            href: ../mdx/stdevp-mdx.md
+            href: /sql/mdx/stdevp-mdx.md
           - name: StripCalculatedMembers
-            href: ../mdx/stripcalculatedmembers-mdx.md
+            href: /sql/mdx/stripcalculatedmembers-mdx.md
           - name: StrToMember
-            href: ../mdx/strtomember-mdx.md
+            href: /sql/mdx/strtomember-mdx.md
           - name: StrToSet
-            href: ../mdx/strtoset-mdx.md
+            href: /sql/mdx/strtoset-mdx.md
           - name: StrToTuple
-            href: ../mdx/strtotuple-mdx.md
+            href: /sql/mdx/strtotuple-mdx.md
           - name: StrToValue
-            href: ../mdx/strtovalue-mdx.md
+            href: /sql/mdx/strtovalue-mdx.md
           - name: Subset
-            href: ../mdx/subset-mdx.md
+            href: /sql/mdx/subset-mdx.md
           - name: Sum
-            href: ../mdx/sum-mdx.md
+            href: /sql/mdx/sum-mdx.md
           - name: Tail
-            href: ../mdx/tail-mdx.md
+            href: /sql/mdx/tail-mdx.md
           - name: This
-            href: ../mdx/this-mdx.md
+            href: /sql/mdx/this-mdx.md
           - name: ToggleDrillState
-            href: ../mdx/toggledrillstate-mdx.md
+            href: /sql/mdx/toggledrillstate-mdx.md
           - name: TopCount
-            href: ../mdx/topcount-mdx.md
+            href: /sql/mdx/topcount-mdx.md
           - name: TopPercent
-            href: ../mdx/toppercent-mdx.md
+            href: /sql/mdx/toppercent-mdx.md
           - name: TopSum
-            href: ../mdx/topsum-mdx.md
+            href: /sql/mdx/topsum-mdx.md
           - name: TupleToStr
-            href: ../mdx/tupletostr-mdx.md
+            href: /sql/mdx/tupletostr-mdx.md
           - name: Union
-            href: ../mdx/union-mdx.md
+            href: /sql/mdx/union-mdx.md
           - name: UniqueName
-            href: ../mdx/uniquename-mdx.md
+            href: /sql/mdx/uniquename-mdx.md
           - name: UnknownMember
-            href: ../mdx/unknownmember-mdx.md
+            href: /sql/mdx/unknownmember-mdx.md
           - name: Unorder
-            href: ../mdx/unorder-mdx.md
+            href: /sql/mdx/unorder-mdx.md
           - name: UserName
-            href: ../mdx/username-mdx.md
+            href: /sql/mdx/username-mdx.md
           - name: ValidMeasure
-            href: ../mdx/validmeasure-mdx.md
+            href: /sql/mdx/validmeasure-mdx.md
           - name: Value
-            href: ../mdx/value-mdx.md
+            href: /sql/mdx/value-mdx.md
           - name: Var
-            href: ../mdx/var-mdx.md
+            href: /sql/mdx/var-mdx.md
           - name: Variance
-            href: ../mdx/variance-mdx.md
+            href: /sql/mdx/variance-mdx.md
           - name: VarianceP
-            href: ../mdx/variancep-mdx.md
+            href: /sql/mdx/variancep-mdx.md
           - name: VarP
-            href: ../mdx/varp-mdx.md
+            href: /sql/mdx/varp-mdx.md
           - name: VisualTotals
-            href: ../mdx/visualtotals-mdx.md
+            href: /sql/mdx/visualtotals-mdx.md
           - name: Wtd
-            href: ../mdx/wtd-mdx.md
+            href: /sql/mdx/wtd-mdx.md
           - name: Ytd
-            href: ../mdx/ytd-mdx.md
+            href: /sql/mdx/ytd-mdx.md
         - name: MDX Reserved Words
-          href: ../mdx/mdx-reserved-words.md
+          href: /sql/mdx/mdx-reserved-words.md
   - name: VBA functions in MDX and DAX
-    href: ../mdx/vba-functions-in-mdx-and-dax.md
+    href: /sql/mdx/vba-functions-in-mdx-and-dax.md

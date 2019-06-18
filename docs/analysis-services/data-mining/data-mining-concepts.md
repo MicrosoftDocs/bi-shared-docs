@@ -90,9 +90,9 @@ manager: kfile
   
 -   [Integration Services in Business Intelligence Development Studio](https://technet.microsoft.com/library/ms174181\(v=sql.110\).aspx)  
   
--   [Master Data Services Overview &#40;MDS&#41;](../../master-data-services/master-data-services-overview-mds.md)  
+-   [Master Data Services Overview &#40;MDS&#41;](/sql/master-data-services/master-data-services-overview-mds.md)  
   
--   [Data Quality Services](../../data-quality-services/data-quality-services.md)  
+-   [Data Quality Services](/sql/data-quality-services/data-quality-services.md)  
   
  It is important to note that the data you use for data mining does not need to be stored in an Online Analytical Processing (OLAP) cube, or even in a relational database, although you can use both of these as data sources. You can conduct data mining using any source of data that has been defined as an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] data source. These can include text files, Excel workbooks, or data from other external providers. For more information, see [Supported Data Sources &#40;SSAS - Multidimensional&#41;](../../analysis-services/multidimensional-models/supported-data-sources-ssas-multidimensional.md).  
   
@@ -154,7 +154,7 @@ manager: kfile
   
 -   Use [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] to create a package in which a mining model is used to intelligently separate incoming data into multiple tables. For example, if a database is continually updated with potential customers, you could use a mining model together with [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] to split the incoming data into customers who are likely to purchase a product and customers who are likely to not purchase a product. For more information, see [Typical Uses of Integration Services](https://msdn.microsoft.com/3b97897a-d418-4ef4-b5a4-5aabf4fa6bca).  
   
--   Create a report that lets users directly query against an existing mining model. For more information, see [Reporting Services in SQL Server Data Tools &#40;SSDT&#41;](../../reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt.md).  
+-   Create a report that lets users directly query against an existing mining model. For more information, see [Reporting Services in SQL Server Data Tools &#40;SSDT&#41;](/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt.md).  
   
 -   Update the models after review and analysis. Any update requires that you reprocess the models. For more information, see [Processing Data Mining Objects](../../analysis-services/data-mining/processing-data-mining-objects.md).  
   
