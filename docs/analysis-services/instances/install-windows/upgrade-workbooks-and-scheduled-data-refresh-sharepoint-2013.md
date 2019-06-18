@@ -66,8 +66,6 @@ manager: kfile
   
      Then save the workbook and republish it to the SharePoint server.  
   
- For more information on Changes to Analysis Services features, see [Behavior Changes to Analysis Services Features in SQL Server 2016](../../../analysis-services/behavior-changes-to-analysis-services-features-in-sql-server-2016.md)  
-  
  For more information on refresh history, see [View Data Refresh History &#40;Power Pivot for SharePoint&#41;](../../../analysis-services/power-pivot-sharepoint/view-data-refresh-history-power-pivot-for-sharepoint.md).  
   
 ##  <a name="bkmk_to_2012sp1_from_2012"></a> Upgrade to Office 2013 workbooks from Versions created by using the 2012 Power Pivot Add-In for Excel  
