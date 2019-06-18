@@ -80,7 +80,7 @@ manager: kfile
  Databases can have a ModelType of default. Default is equivalent to multidimensional, and thus does not support the use of reserved characters in column names.  
   
 ## See Also  
- [MDX Reserved Words](/sql/mdx/mdx-reserved-words.md)   
+ [MDX Reserved Words](/sql/mdx/mdx-reserved-words)   
  [Translation support in Analysis Services](../../../analysis-services/translation-support-in-analysis-services.md)   
  [XML for Analysis Compliance &#40;XMLA&#41;](https://docs.microsoft.com/bi-reference/xmla/xml-for-analysis-compliance-xmla)  
   

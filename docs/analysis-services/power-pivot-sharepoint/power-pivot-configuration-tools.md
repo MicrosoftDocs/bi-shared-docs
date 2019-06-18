@@ -80,7 +80,7 @@ manager: kfile
 > [!NOTE]
 >  The tool does not configure Reporting Services. If you are adding Reporting Services to your SharePoint environment, you need to install and configure Reporting Services separately. For more information, see the following:  
 > 
->  -   [Install The First Report Server in SharePoint Mode](/sql/reporting-services/install-windows/install-the-first-report-server-in-sharepoint-mode.md).  
+>  -   [Install The First Report Server in SharePoint Mode](/sql/reporting-services/install-windows/install-the-first-report-server-in-sharepoint-mode).  
 > -   [Install Reporting Services SharePoint Mode for SharePoint 2010](https://msdn.microsoft.com/47efa72e-1735-4387-8485-f8994fb08c8c).  
   
 ##  <a name="bmkm_start_tool"></a> Start One of the Power Pivot Configuration Tools  
@@ -118,9 +118,9 @@ manager: kfile
  When you click Run , the tool processes all actions in batch mode. Although each action appears as a separate item in the task list, all actions that are included in the task process together. Only actions that pass a validation check are processed. You might need to add or change some of the input values to pass the validation check.  
   
 ## Related Content  
- [Upgrade Power Pivot for SharePoint](/sql/database-engine/install-windows/upgrade-power-pivot-for-sharepoint.md) Describes the workflow that upgrades an existing installation that is already in a farm.  
+ [Upgrade Power Pivot for SharePoint](/sql/database-engine/install-windows/upgrade-power-pivot-for-sharepoint) Describes the workflow that upgrades an existing installation that is already in a farm.  
   
- [Uninstall Power Pivot for SharePoint](/sql/sql-server/install/uninstall-power-pivot-for-sharepoint.md) Describes the workflow that removes [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint services, solutions, and application pages from a farm.  
+ [Uninstall Power Pivot for SharePoint](/sql/sql-server/install/uninstall-power-pivot-for-sharepoint) Describes the workflow that removes [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint services, solutions, and application pages from a farm.  
   
  [Power Pivot Configuration using Windows PowerShell](../../analysis-services/power-pivot-sharepoint/power-pivot-configuration-using-windows-powershell.md)  
   

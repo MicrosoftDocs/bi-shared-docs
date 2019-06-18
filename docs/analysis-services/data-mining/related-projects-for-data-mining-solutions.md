@@ -51,37 +51,37 @@ manager: kfile
   
  **Control Flow Components**  
   
--   [Analysis Services Execute DDL Task](/sql/integration-services/control-flow/analysis-services-execute-ddl-task.md)  
+-   [Analysis Services Execute DDL Task](/sql/integration-services/control-flow/analysis-services-execute-ddl-task)  
   
--   [Analysis Services Processing Task](/sql/integration-services/control-flow/analysis-services-processing-task.md)  
+-   [Analysis Services Processing Task](/sql/integration-services/control-flow/analysis-services-processing-task)  
   
--   [CDC Control Task](/sql/integration-services/control-flow/cdc-control-task.md)  
+-   [CDC Control Task](/sql/integration-services/control-flow/cdc-control-task)  
   
--   [Data Cleansing](/sql/data-quality-services/data-cleansing.md)  
+-   [Data Cleansing](/sql/data-quality-services/data-cleansing)  
   
--   [Data Mining Query Task](/sql/integration-services/control-flow/data-mining-query-task.md)  
+-   [Data Mining Query Task](/sql/integration-services/control-flow/data-mining-query-task)  
   
--   [Data Profiling Task](/sql/integration-services/control-flow/data-profiling-task.md)  
+-   [Data Profiling Task](/sql/integration-services/control-flow/data-profiling-task)  
   
  **Data Flow Components**  
   
--   [CDC Flow Components](/sql/integration-services/data-flow/cdc-flow-components.md)  
+-   [CDC Flow Components](/sql/integration-services/data-flow/cdc-flow-components)  
   
--   [Conditional Split Transformation](/sql/integration-services/data-flow/transformations/conditional-split-transformation.md)  
+-   [Conditional Split Transformation](/sql/integration-services/data-flow/transformations/conditional-split-transformation)  
   
--   [Data Conversion Transformation](/sql/integration-services/data-flow/transformations/data-conversion-transformation.md)  
+-   [Data Conversion Transformation](/sql/integration-services/data-flow/transformations/data-conversion-transformation)  
   
--   [Data Mining Model Training Destination](/sql/integration-services/data-flow/data-mining-model-training-destination.md)  
+-   [Data Mining Model Training Destination](/sql/integration-services/data-flow/data-mining-model-training-destination)  
   
--   [Data Mining Query Transformation](/sql/integration-services/data-flow/transformations/data-mining-query-transformation.md)  
+-   [Data Mining Query Transformation](/sql/integration-services/data-flow/transformations/data-mining-query-transformation)  
   
--   [Derived Column Transformation](/sql/integration-services/data-flow/transformations/derived-column-transformation.md)  
+-   [Derived Column Transformation](/sql/integration-services/data-flow/transformations/derived-column-transformation)  
   
--   [Percentage Sampling Transformation](/sql/integration-services/data-flow/transformations/percentage-sampling-transformation.md)  
+-   [Percentage Sampling Transformation](/sql/integration-services/data-flow/transformations/percentage-sampling-transformation)  
   
--   [Term Extraction Transformation](/sql/integration-services/data-flow/transformations/term-extraction-transformation.md)  
+-   [Term Extraction Transformation](/sql/integration-services/data-flow/transformations/term-extraction-transformation)  
   
--   [Term Lookup Transformation](/sql/integration-services/data-flow/transformations/term-lookup-transformation.md)  
+-   [Term Lookup Transformation](/sql/integration-services/data-flow/transformations/term-lookup-transformation)  
   
 ##  <a name="bkmk_SSRS"></a> SQL Server Reporting Services  
  Although [!INCLUDE[ssRSnoversion](../../includes/ssrsnoversion-md.md)] is typically not seen as a critical component of data mining solutions, it provides the following features that are useful for presentation of data mining solutions.  
@@ -96,15 +96,15 @@ manager: kfile
   
  For more information about how to use Reporting Services with DMX queries as a data source, see these links:  
   
- [Retrieve Data from a Data Mining Model &#40;DMX&#41; &#40;SSRS&#41;](/sql/reporting-services/report-data/retrieve-data-from-a-data-mining-model-dmx-ssrs.md)  
+ [Retrieve Data from a Data Mining Model &#40;DMX&#41; &#40;SSRS&#41;](/sql/reporting-services/report-data/retrieve-data-from-a-data-mining-model-dmx-ssrs)  
   
- [Analysis Services DMX Query Designer User Interface](/sql/reporting-services/report-data/analysis-services-dmx-query-designer-user-interface.md)  
+ [Analysis Services DMX Query Designer User Interface](/sql/reporting-services/report-data/analysis-services-dmx-query-designer-user-interface)  
   
- [Analysis Services Connection Type for DMX &#40;SSRS&#41;](/sql/reporting-services/report-data/analysis-services-connection-type-for-dmx-ssrs.md)  
+ [Analysis Services Connection Type for DMX &#40;SSRS&#41;](/sql/reporting-services/report-data/analysis-services-connection-type-for-dmx-ssrs)  
   
  However, it is not necessary to use DMX as the data source. The [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] components for data mining also support saving the results of a prediction query to a relational database. If you have an established workflow for updating models using [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)], persisting predictions and other data mining query results to SQL Server enable you to use [!INCLUDE[ssCrescent](../../includes/sscrescent-md.md)] for reporting, as well as other tools that do not interface with DMX.  
   
- For more information about using Reporting Services as the presentation layer for data sources, see [Integrating Reporting Services into Applications](/sql/reporting-services/application-integration/integrating-reporting-services-into-applications.md).  
+ For more information about using Reporting Services as the presentation layer for data sources, see [Integrating Reporting Services into Applications](/sql/reporting-services/application-integration/integrating-reporting-services-into-applications).  
   
 ##  <a name="bkmk_DQSetc"></a> Data Quality Services  
  Data Quality Services (DQS) is new in [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)]. Because data problems can make data mining impossible, data miners who perform repeated analysis or who work in large organizations with complex data sources are expected to find that a well-planned data project using DQS is a more reliable solution for support of data mining than ad hoc cleansing of data using [!INCLUDE[tsql](../../includes/tsql-md.md)] or other scripts.  
@@ -118,7 +118,7 @@ manager: kfile
   
  The outcome of the process is a knowledge base that you can continuously improve, or reuse in multiple data-enhancement phases.  
   
- For more information, see [Data Cleansing](/sql/data-quality-services/data-cleansing.md).  
+ For more information, see [Data Cleansing](/sql/data-quality-services/data-cleansing).  
   
  **A computer-assisted matching process that analyzes source data and proposes changes.**  
  To prevent data duplication, you can perform addition cleansing of the data source, to identify exact and approximate matches. These components let you specify the matching rules, and the thresholds at which to apply them.  
@@ -127,9 +127,9 @@ manager: kfile
   
  After you have created the initial DQS project, you can automate many of the tasks by using [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] components.  
   
- For more information, see [Data Matching](/sql/data-quality-services/data-matching.md).  
+ For more information, see [Data Matching](/sql/data-quality-services/data-matching).  
   
- While performing cleansing and matching activities in a data quality project, you can get real-time statistics and information about the data that is being processed by DQS. Data profiling helps you assess the extent to which data cleansing or matching helped improve the data quality, and understand the changes that were made. For information about data profiling and notifications, see [Data Profiling and Notifications in DQS](/sql/data-quality-services/data-profiling-and-notifications-in-dqs.md).  
+ While performing cleansing and matching activities in a data quality project, you can get real-time statistics and information about the data that is being processed by DQS. Data profiling helps you assess the extent to which data cleansing or matching helped improve the data quality, and understand the changes that were made. For information about data profiling and notifications, see [Data Profiling and Notifications in DQS](/sql/data-quality-services/data-profiling-and-notifications-in-dqs).  
   
  **A knowledge base that represents three types of knowledge: out-of-the-box knowledge, knowledge generated by the DQS server, and knowledge generated by the user.**  
  Once you have created a knowledge base, you can use it iteratively to cleanse and verify other data.  
@@ -140,24 +140,24 @@ manager: kfile
   
  You can also apply the knowledge in the knowledge base to other sources, to perform data cleansing within other processes. Such data cleansing can help identify user entry errors, corruption in transmission or storage, or mismatched data dictionary definitions.  
   
- For more information, see [DQS Knowledge Bases and Domains](/sql/data-quality-services/dqs-knowledge-bases-and-domains.md).  
+ For more information, see [DQS Knowledge Bases and Domains](/sql/data-quality-services/dqs-knowledge-bases-and-domains).  
   
 ##  <a name="bkmk_FTSetc"></a> Full-Text Search  
  Full-Text Search in SQL Server lets applications and users run full-text queries against character-based data in SQL Server tables. When full-text search is enabled, you can perform searches against text data that are enhanced by language-specific rules about the multiple forms of a word or phrase. You can also configure search conditions, such as the distance between multiple terms, and use functions to constrain the results that are returned in order of likelihood.  
   
  Because full-text queries are a feature provided by the SQL Server engine, you can create parameterized queries, generate custom data sets or term vectors by using full-text search features on a text data source, and use these sources in data mining.  
   
- For more information about how full-text queries interact with the full-text index, see [Query with Full-Text Search](/sql/relational-databases/search/query-with-full-text-search.md).  
+ For more information about how full-text queries interact with the full-text index, see [Query with Full-Text Search](/sql/relational-databases/search/query-with-full-text-search).  
   
  An advantage of using the full-text search features of SQL Server is that you can leverage the linguistic intelligence that is contained in the word breakers and stemmers shipped for all SQL Server languages. By using the supplied word breakers and stemmers, you can ensure that words are separated using the characters appropriate for each language, and that synonyms based on diacritics or orthographic variations (such as the multiple number formats in Japanese) are not overlooked.  
   
  In addition to linguistic intelligence that governs word boundaries, the stemmers for each language can reduce variants of a word to a single term, based on knowledge of the rules for conjugation and orthographic variation in that language. The rules for linguistic analysis differ for each language and are developed based on extensive research on real-life corpora.  
   
- For more information, see [Configure and Manage Word Breakers and Stemmers for Search](/sql/relational-databases/search/configure-and-manage-word-breakers-and-stemmers-for-search.md).  
+ For more information, see [Configure and Manage Word Breakers and Stemmers for Search](/sql/relational-databases/search/configure-and-manage-word-breakers-and-stemmers-for-search).  
   
  The version of a word that is stored after full-text indexing is a token in compressed form. Subsequent queries to the full-text index generate multiple inflectional forms of a particular word based on the rules of that language, to ensure that all probable matches are made. For example, although the token that is stored might be "run", the query engine also looks for the terms "running", "ran", and "runner," because these are regularly derived morphological variations of the root word "run".  
   
- You can also create and build a user thesaurus to store synonyms and enable better search results, or categorization of terms. By developing a thesaurus tailored to your full-text data, you can effectively broaden the scope of full-text queries on that data. For more information, see [Configure and Manage Thesaurus Files for Full-Text Search](/sql/relational-databases/search/configure-and-manage-thesaurus-files-for-full-text-search.md).  
+ You can also create and build a user thesaurus to store synonyms and enable better search results, or categorization of terms. By developing a thesaurus tailored to your full-text data, you can effectively broaden the scope of full-text queries on that data. For more information, see [Configure and Manage Thesaurus Files for Full-Text Search](/sql/relational-databases/search/configure-and-manage-thesaurus-files-for-full-text-search).  
   
  Requirements for using full-text search include the following:  
   
@@ -180,9 +180,9 @@ manager: kfile
   
 -   Return similarity scores, and the terms that contribute to the score.  
   
- For more information, see [Find Key Phrases in Documents with Semantic Search](/sql/relational-databases/search/find-key-phrases-in-documents-with-semantic-search.md) and [Find Similar and Related Documents with Semantic Search](/sql/relational-databases/search/find-similar-and-related-documents-with-semantic-search.md).  
+ For more information, see [Find Key Phrases in Documents with Semantic Search](/sql/relational-databases/search/find-key-phrases-in-documents-with-semantic-search) and [Find Similar and Related Documents with Semantic Search](/sql/relational-databases/search/find-similar-and-related-documents-with-semantic-search).  
   
- For more information about the database objects that support semantic indexing, see [Enable Semantic Search on Tables and Columns](/sql/relational-databases/search/enable-semantic-search-on-tables-and-columns.md).  
+ For more information about the database objects that support semantic indexing, see [Enable Semantic Search on Tables and Columns](/sql/relational-databases/search/enable-semantic-search-on-tables-and-columns).  
   
  Requirements for using semantic search include the following:  
   
@@ -192,7 +192,7 @@ manager: kfile
   
 -   Documents that you index using the service must be stored in SQL Server, in any of the database objects that are supported for full-text indexing, including tables and indexed views.  
   
--   Not all of the full-text languages support semantic indexing. For a list of supported languages, see [sys.fulltext_semantic_languages &#40;Transact-SQL&#41;](/sql/relational-databases/system-catalog-views/sys-fulltext-semantic-languages-transact-sql.md).  
+-   Not all of the full-text languages support semantic indexing. For a list of supported languages, see [sys.fulltext_semantic_languages &#40;Transact-SQL&#41;](/sql/relational-databases/system-catalog-views/sys-fulltext-semantic-languages-transact-sql).  
   
 ## See Also  
  [Multidimensional Model Solutions](../../analysis-services/multidimensional-models/multidimensional-model-solutions-ssas.md)   

@@ -30,7 +30,7 @@ manager: kfile
   
  The type of prediction functions that are available depend on the type of model you are working with. For example, prediction functions applied to decision tree models can return rules and node descriptions; prediction functions for time series models can return  the lag and other information specific to time series.  
   
- For a list of the prediction functions that are supported for almost all model types, see [General Prediction Functions &#40;DMX&#41;](/sql/dmx/general-prediction-functions-dmx.md).  
+ For a list of the prediction functions that are supported for almost all model types, see [General Prediction Functions &#40;DMX&#41;](/sql/dmx/general-prediction-functions-dmx).  
   
  For examples of how to query a specific type of mining model, see the algorithm reference topic, in [Data Mining Algorithms &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining.md).  
   
@@ -61,7 +61,7 @@ manager: kfile
     |-|-|  
     |**\<model name>**|Select this option to include values from the mining model in the output. You can only add predictable columns.<br /><br /> When you add a column from the model, the result returned is the non-distinct list of values in that column.<br /><br /> The columns that you add with this option are included in the SELECT portion of the resulting DMX statement.|  
     |**Prediction Function**|Select this option to browse a list of prediction functions.<br /><br /> The values or functions you select are added to the SELECT portion of the resulting DMX statement.<br /><br /> The list of prediction functions is not filtered or constrained by the type of model you have selected. Therefore, if you have any doubt about whether the function is supported for the current model type, you can just add the function to the list and see if there is an error.<br /><br /> List items that are preceded by $ (such as $AdjustedProbability) represent columns from the nested table that is output when you use the function, **PredictHistogram**. These are shortcuts that you can use to return a single column and not a nested table.|  
-    |**Custom Expression**|Select this option to type a custom expression and then assign an alias to the output.<br /><br /> The custom expression is added to the SELECT portion of the resulting DMX prediction query.<br /><br /> This option is useful if you want to add text for output with each row, to call VB functions, or to call custom stored procedures.<br /><br /> For information about using VBA and Excel functions from DMX, see [VBA functions in MDX and DAX](/sql/mdx/vba-functions-in-mdx-and-dax.md).|  
+    |**Custom Expression**|Select this option to type a custom expression and then assign an alias to the output.<br /><br /> The custom expression is added to the SELECT portion of the resulting DMX prediction query.<br /><br /> This option is useful if you want to add text for output with each row, to call VB functions, or to call custom stored procedures.<br /><br /> For information about using VBA and Excel functions from DMX, see [VBA functions in MDX and DAX](/sql/mdx/vba-functions-in-mdx-and-dax).|  
   
 3.  After adding each function or expression, switch to DMX view to see how the function is added within the DMX statement.  
   

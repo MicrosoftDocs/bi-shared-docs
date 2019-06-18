@@ -22,7 +22,7 @@ manager: kfile
 ## Using the CALCULATE Statement  
  The CALCULATE statement populates each cell in the cube with aggregated data. For example, the default MDX script has a single CALCULATE statement at the beginning of the script.  
   
- For more information on the syntax of the CALCULATE statement, see [CALCULATE Statement &#40;MDX&#41;](/sql/mdx/mdx-scripting-calculate.md).  
+ For more information on the syntax of the CALCULATE statement, see [CALCULATE Statement &#40;MDX&#41;](/sql/mdx/mdx-scripting-calculate).  
   
 > [!NOTE]  
 >  If the script contains a SCOPE statement that contains a CALCULATE statement, MDX evaluates the CALCULATE statement within the context of the subcube defined by the SCOPE statement, not against the whole cube.  
@@ -45,7 +45,7 @@ SCOPE([Customer].&[Redmond].MEMBERS,
 END SCOPE;  
 ```  
   
- For more information on the syntax of the **This** function, see [This &#40;MDX&#41;](/sql/mdx/this-mdx.md).  
+ For more information on the syntax of the **This** function, see [This &#40;MDX&#41;](/sql/mdx/this-mdx).  
   
 ## Using the SCOPE Statement  
  The SCOPE statement defines the current subcube that contains, and specifies the scope of, other MDX expressions and statements within an MDX script. MDX evaluates this other MDX expressions and statements, including the **This** function and the CALCULATE statement, within the context of the subcube.  
@@ -98,10 +98,10 @@ SCOPE([Customer].&[Redmond].MEMBERS,
 END SCOPE;  
 ```  
   
- For more information on the syntax of the SCOPE statement, see [SCOPE Statement &#40;MDX&#41;](/sql/mdx/mdx-scripting-scope.md).  
+ For more information on the syntax of the SCOPE statement, see [SCOPE Statement &#40;MDX&#41;](/sql/mdx/mdx-scripting-scope).  
   
 ## See Also  
- [MDX Language Reference &#40;MDX&#41;](/sql/mdx/mdx-language-reference-mdx.md)   
+ [MDX Language Reference &#40;MDX&#41;](/sql/mdx/mdx-language-reference-mdx)   
  [The Basic MDX Script &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/the-basic-mdx-script-mdx.md)   
  [MDX Query Fundamentals &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-query-fundamentals-analysis-services.md)  
   

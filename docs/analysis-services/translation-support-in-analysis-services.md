@@ -34,7 +34,7 @@ manager: kfile
 ## See also  
  [Globalization scenarios for Analysis Services](../analysis-services/globalization-scenarios-for-analysis-services.md)   
  [Languages and Collations &#40;Analysis Services&#41;](../analysis-services/languages-and-collations-analysis-services.md)   
- [Set or Change the Column Collation](/sql/relational-databases/collations/set-or-change-the-column-collation.md)   
+ [Set or Change the Column Collation](/sql/relational-databases/collations/set-or-change-the-column-collation)   
  [Globalization Tips and Best Practices &#40;Analysis Services&#41;](../analysis-services/globalization-tips-and-best-practices-analysis-services.md)  
   
   

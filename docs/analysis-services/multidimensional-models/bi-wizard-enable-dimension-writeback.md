@@ -35,7 +35,7 @@ manager: kfile
 >   
 >  `"MultipleActiveResultSets=True"`  
 >   
->  For more information see [Using Multiple Active Result Sets &#40;MARS&#41;](/sql/relational-databases/native-client/features/using-multiple-active-result-sets-mars.md).  
+>  For more information see [Using Multiple Active Result Sets &#40;MARS&#41;](/sql/relational-databases/native-client/features/using-multiple-active-result-sets-mars).  
   
 ## See Also  
  [Write-Enabled Dimensions](../../analysis-services/multidimensional-models-olap-logical-dimension-objects/write-enabled-dimensions.md)  

@@ -137,6 +137,6 @@ manager: kfile
   
 ## See Also  
  [Globalization scenarios for Analysis Services](../analysis-services/globalization-scenarios-for-analysis-services.md)   
- [Write International Transact-SQL Statements](/sql/relational-databases/collations/write-international-transact-sql-statements.md)  
+ [Write International Transact-SQL Statements](/sql/relational-databases/collations/write-international-transact-sql-statements)  
   
   

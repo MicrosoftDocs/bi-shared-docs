@@ -18,8 +18,8 @@ manager: kfile
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[Using DRILLTHROUGH to Retrieve Source Data &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-data-manipulation-retrieve-source-data-using-drillthrough.md)|Discusses the use of the MDX [DRILLTHROUGH](/sql/mdx/mdx-data-manipulation-drillthrough.md) statement to retrieve the rowsets of source data applicable to a cell in a multidimensional data source|  
-|[Working with the RollupChildren Function &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-data-manipulation-rollupchildren-function.md)|Discusses the impact of the MDX [RollupChildren](/sql/mdx/rollupchildren-mdx.md)function on the analysis of multidimensional data.|  
+|[Using DRILLTHROUGH to Retrieve Source Data &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-data-manipulation-retrieve-source-data-using-drillthrough.md)|Discusses the use of the MDX [DRILLTHROUGH](/sql/mdx/mdx-data-manipulation-drillthrough) statement to retrieve the rowsets of source data applicable to a cell in a multidimensional data source|  
+|[Working with the RollupChildren Function &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-data-manipulation-rollupchildren-function.md)|Discusses the impact of the MDX [RollupChildren](/sql/mdx/rollupchildren-mdx)function on the analysis of multidimensional data.|  
 |[Understanding Pass Order and Solve Order &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-data-manipulation-understanding-pass-order-and-solve-order.md)|Details the concepts of solve order, and how this feature affects MDX expressions, statements, and scripts.|  
   
 ## See Also  

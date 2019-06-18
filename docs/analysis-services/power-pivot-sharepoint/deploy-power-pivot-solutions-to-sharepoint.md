@@ -142,7 +142,7 @@ Get-spwebapplication http://<top-level site name> | format-list UseClaimsAuthent
 |Powerpivotwebapp.wsp|Adds Microsoft.AnalysisServices.SharePoint.Integration.dll resources files to the web server extensions folder on the Web front-end.<br /><br /> Adds [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Web service to the Web-front end.<br /><br /> Adds thumbnail image generation for [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Gallery.|  
   
 ## See Also  
- [Upgrade Power Pivot for SharePoint](/sql/database-engine/install-windows/upgrade-power-pivot-for-sharepoint.md)   
+ [Upgrade Power Pivot for SharePoint](/sql/database-engine/install-windows/upgrade-power-pivot-for-sharepoint)   
  [Power Pivot Server Administration and Configuration in Central Administration](../../analysis-services/power-pivot-sharepoint/power-pivot-server-administration-and-configuration-in-central-administration.md)   
  [Power Pivot Configuration using Windows PowerShell](../../analysis-services/power-pivot-sharepoint/power-pivot-configuration-using-windows-powershell.md)  
   

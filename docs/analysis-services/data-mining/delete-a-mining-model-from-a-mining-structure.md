@@ -36,7 +36,7 @@ manager: kfile
   
 ### Delete a mining model using DMX  
   
--   [DROP MINING MODEL &#40;DMX&#41;](/sql/dmx/drop-mining-model-dmx.md)  
+-   [DROP MINING MODEL &#40;DMX&#41;](/sql/dmx/drop-mining-model-dmx)  
   
 ## See Also  
  [Mining Model Tasks and How-tos](../../analysis-services/data-mining/mining-model-tasks-and-how-tos.md)  

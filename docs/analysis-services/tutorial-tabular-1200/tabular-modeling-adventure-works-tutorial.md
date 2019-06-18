@@ -53,9 +53,9 @@ This tutorial does not provide lessons or information about managing a deployed 
 ## Prerequisites  
 In order to complete this tutorial, you need the following prerequisites:  
   
--   The latest version of [SSDT](/sql/ssdt/download-sql-server-data-tools-ssdt.md).
+-   The latest version of [SSDT](/sql/ssdt/download-sql-server-data-tools-ssdt).
 
--   The latest version of SQL Server Management Studio. [Get the latest version](/sql/ssms/download-sql-server-management-studio-ssms.md). 
+-   The latest version of SQL Server Management Studio. [Get the latest version](/sql/ssms/download-sql-server-management-studio-ssms). 
   
 -   A client application such as [Power BI Desktop](https://powerbi.microsoft.com/desktop/) or Excel.    
   

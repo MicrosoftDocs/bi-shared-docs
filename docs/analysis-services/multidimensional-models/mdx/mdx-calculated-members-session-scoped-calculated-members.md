@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MDX Calculated Members - Session-Scoped Calculated Members
 [!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  To create a calculated member that is available throughout a Multidimensional Expressions (MDX) session, you use the [CREATE MEMBER](/sql/mdx/mdx-data-definition-create-member.md) statement. A calculated member that is created by using the CREATE MEMBER statement will not be removed until after the MDX session closes.  
+  To create a calculated member that is available throughout a Multidimensional Expressions (MDX) session, you use the [CREATE MEMBER](/sql/mdx/mdx-data-definition-create-member) statement. A calculated member that is created by using the CREATE MEMBER statement will not be removed until after the MDX session closes.  
   
  As discussed in this topic, the syntax of the CREATE MEMBER statement is straightforward and easy to use.  
   

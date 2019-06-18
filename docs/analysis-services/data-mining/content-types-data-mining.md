@@ -90,9 +90,9 @@ manager: kfile
  In addition to the preceding content types that are in common use with all models, for some data types you can use classified columns to define content types. For more information about classified columns, see [Classified Columns &#40;Data Mining&#41;](../../analysis-services/data-mining/classified-columns-data-mining.md).  
   
 ## See Also  
- [Content Types &#40;DMX&#41;](/sql/dmx/content-types-dmx.md)   
+ [Content Types &#40;DMX&#41;](/sql/dmx/content-types-dmx)   
  [Data Types &#40;Data Mining&#41;](../../analysis-services/data-mining/data-types-data-mining.md)   
- [Data Types &#40;DMX&#41;](/sql/dmx/data-types-dmx.md)   
+ [Data Types &#40;DMX&#41;](/sql/dmx/data-types-dmx)   
  [Change the Properties of a Mining Structure](../../analysis-services/data-mining/change-the-properties-of-a-mining-structure.md)   
  [Mining Structure Columns](../../analysis-services/data-mining/mining-structure-columns.md)  
   

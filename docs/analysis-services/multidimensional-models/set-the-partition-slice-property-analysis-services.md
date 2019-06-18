@@ -30,11 +30,11 @@ manager: kfile
  A data slice of a partition should reflect, as closely as possible, the data in the partition. For example, if a partition is limited to 2012 data, the partition's data slice should specify the 2012 member of the Time dimension. It is not always possible to specify a data slice that reflects the exact contents of a partition. For example, if a partition contains data for only January and February, but the levels of the Time dimension are Year, Quarter, and Month, the Partition Wizard cannot select both the January and February members. In such cases, select the parent of the members that reflect the partition's contents. In this example, select Quarter 1.  
   
 > [!NOTE]  
->  Note that dynamic MDX functions (such as [Generate &#40;MDX&#41;](/sql/mdx/generate-mdx.md) or [Except &#40;MDX&#41;](/sql/mdx/except-mdx-function.md)) are not supported in the Slice property for partitions. You must define the slice by using explicit tuples or member references.  
+>  Note that dynamic MDX functions (such as [Generate &#40;MDX&#41;](/sql/mdx/generate-mdx) or [Except &#40;MDX&#41;](/sql/mdx/except-mdx-function)) are not supported in the Slice property for partitions. You must define the slice by using explicit tuples or member references.  
 >   
 >  For example, rather than using the range operator (:) to define a range, you would need to enumerate each member by the specific years.  
 >   
->  If you need to define a complex slice, we recommend that you define the tuples in the slice by using an XMLA Alter script. Then, you can use either the ascmd command-line tool or the [Analysis Services Execute DDL Task](/sql/integration-services/control-flow/analysis-services-execute-ddl-task.md) in Integration Services to run the script and create the specified set of members immediately before you process the partition.  
+>  If you need to define a complex slice, we recommend that you define the tuples in the slice by using an XMLA Alter script. Then, you can use either the ascmd command-line tool or the [Analysis Services Execute DDL Task](/sql/integration-services/control-flow/analysis-services-execute-ddl-task) in Integration Services to run the script and create the specified set of members immediately before you process the partition.  
   
 ## See Also  
  [Create and Manage a Local Partition &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/create-and-manage-a-local-partition-analysis-services.md)  

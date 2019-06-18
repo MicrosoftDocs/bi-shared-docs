@@ -26,7 +26,7 @@ manager: kfile
     > [!NOTE]  
     >  The Always On feature of the relational database engine does not extend to Analysis Services.  You cannot configure an Analysis Services instance to run in an Always On availability group.  
     >   
-    >  Although Analysis Services does not run in Always On Availability Groups, it can both retrieve and process data from Always On relational databases. For instructions on how to configure a highly available relational database so that it can be used by Analysis Services, see [Analysis Services with Always On Availability Groups](/sql/database-engine/availability-groups/windows/analysis-services-with-always-on-availability-groups.md).  
+    >  Although Analysis Services does not run in Always On Availability Groups, it can both retrieve and process data from Always On relational databases. For instructions on how to configure a highly available relational database so that it can be used by Analysis Services, see [Analysis Services with Always On Availability Groups](/sql/database-engine/availability-groups/windows/analysis-services-with-always-on-availability-groups).  
   
 -   High availability, as a sole objective, can be achieved via server redundancy in a failover cluster Replacement nodes are assumed to have identical hardware and software configuration as the active node.  By itself, WSFC gives you high availability, but without scale.  
   
