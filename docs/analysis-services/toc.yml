@@ -1437,15 +1437,8 @@
       items:
       - name: Tabular model programming for compatibility level 1103 and lower
         href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/tabular-model-programming-for-compatibility-levels-1050-through-1103.md
-      - name: CSDL Annotations for Business Intelligence (CSDLBI)
-        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdl-annotations-for-business-intelligence-csdlbi.md
-        items:
-        - name: CSDLBI Attributes for Report Design
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdlbi-attributes-for-report-design.md
-        - name: CSDLBI Concepts
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdlbi-concepts.md
-        - name: Conceptual Schema Definition Language (CSDL) Reference >
-          href: /bi-reference/csdl/csdl-annotations-for-business-intelligence-csdlbi
+      - name: Conceptual Schema Definition Language (CSDL) Reference >
+        href: /bi-reference/csdl/csdl-annotations-for-business-intelligence-csdlbi
       - name: Representation
         items:
         - name: Connection Representation (Tabular)
@@ -1526,18 +1519,8 @@
         href: ../analysis-services/multidimensional-models/scripting-language-assl/assl-xml-conventions.md
     - name: XML for Analysis (XMLA) reference >
       href: /bi-reference/xmla/xml-for-analysis-xmla-reference
-    - name: ADOMD.NET
-      items:
-      - name: ADOMD.NET reference >
-        href: /bi-reference/adomd/developing-with-adomd-net
-      - name: ADOMD.NET Server programming
-        href: ../analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-programming.md
-      - name: ADOMD.NET Server Functionality
-        href: ../analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-functionality.md
-      - name: ADOMD.NET Server Object Architecture
-        href: ../analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-object-architecture.md
-      - name: User Defined Functions and Stored Procedures
-        href: ../analysis-services/multidimensional-models-adomd-net-server/user-defined-functions-and-stored-procedures.md
+    - name: ADOMD.NET reference >
+      href: /bi-reference/adomd/developing-with-adomd-net
     - name: OLAP
       items:
       - name: OLAP logical
