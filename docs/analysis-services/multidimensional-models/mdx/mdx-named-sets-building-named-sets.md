@@ -27,8 +27,8 @@ manager: kfile
      For more information about how to use the CREATE SET statement to create named sets in a session, see [Creating Session-Scoped Named Sets &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-named-sets-creating-session-scoped-named-sets.md).  
   
 ## See Also  
- [SELECT Statement &#40;MDX&#41;](../../../mdx/mdx-data-manipulation-select.md)   
- [CREATE SET Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-create-set.md)   
+ [SELECT Statement &#40;MDX&#41;](/sql/mdx/mdx-data-manipulation-select.md)   
+ [CREATE SET Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-set.md)   
  [MDX Query Fundamentals &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-query-fundamentals-analysis-services.md)  
   
   

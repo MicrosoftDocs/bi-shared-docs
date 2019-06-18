@@ -120,7 +120,7 @@ manager: kfile
 ## Related Content  
  [Upgrade Power Pivot for SharePoint](../../database-engine/install-windows/upgrade-power-pivot-for-sharepoint.md) Describes the workflow that upgrades an existing installation that is already in a farm.  
   
- [Uninstall Power Pivot for SharePoint](../../sql-server/install/uninstall-power-pivot-for-sharepoint.md) Describes the workflow that removes [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint services, solutions, and application pages from a farm.  
+ [Uninstall Power Pivot for SharePoint](/sql/sql-server/install/uninstall-power-pivot-for-sharepoint.md) Describes the workflow that removes [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint services, solutions, and application pages from a farm.  
   
  [Power Pivot Configuration using Windows PowerShell](../../analysis-services/power-pivot-sharepoint/power-pivot-configuration-using-windows-powershell.md)  
   

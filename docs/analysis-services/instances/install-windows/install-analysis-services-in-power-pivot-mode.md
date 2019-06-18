@@ -45,10 +45,10 @@ manager: kfile
   
 5.  Review [Hardware and Software Requirements for Analysis Services Server in SharePoint Mode](https://msdn.microsoft.com/library/fb86ca0a-518c-4c61-ae78-7680c57fae1f).  
   
-6.  Review the release notes at [SQL Server 2016 Release Notes](../../../sql-server/sql-server-2016-release-notes.md).  
+6.  Review the release notes at [SQL Server 2016 Release Notes](/sql/sql-server/sql-server-2016-release-notes.md).  
   
 ###  <a name="bkmk_sqleditions"></a> SQL Server Edition Requirements  
- Business intelligence features are not all available in all editions of [!INCLUDE[ssCurrent](../../../includes/sscurrent-md.md)]. For details, see [Analysis Services Features Supported by the Editions of SQL Server 2016](../../../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md) and [Editions and Components of SQL Server 2016](../../../sql-server/editions-and-components-of-sql-server-2016.md).  
+ Business intelligence features are not all available in all editions of [!INCLUDE[ssCurrent](../../../includes/sscurrent-md.md)]. For details, see [Analysis Services Features Supported by the Editions of SQL Server 2016](../../../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md) and [Editions and Components of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016.md).  
   
 ##  <a name="InstallSQL"></a> Step 1: Install Power Pivot for SharePoint  
  In this step, you run SQL Server Setup to install an [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] server in [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] mode. In a subsequent step, you configure Excel Services to use this server for workbook data models.  
@@ -59,7 +59,7 @@ manager: kfile
   
 3.  select **New SQL Server stand-alone installation or add features to an existing installation**.  
   
-4.  If you see the **Product Key** page, specify the evaluation edition or enter a product key for a licensed copy of the enterprise edition. select **Next**. For more information on editions, see [Editions and Components of SQL Server 2016](../../../sql-server/editions-and-components-of-sql-server-2016.md).  
+4.  If you see the **Product Key** page, specify the evaluation edition or enter a product key for a licensed copy of the enterprise edition. select **Next**. For more information on editions, see [Editions and Components of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016.md).  
   
 5.  Review and accept the Microsoft Software License Terms of agreement, and then select **Next**.  
   

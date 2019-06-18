@@ -29,8 +29,8 @@ manager: kfile
      For more information about how to use either the CREATE CELL CALCULATION or ALTER CUBE statement to create calculated cells in a session, see [Creating Session-Scoped Calculated Cells](../../../analysis-services/multidimensional-models/mdx/mdx-cell-calculations-session-scoped-calculated-cells.md)  
   
 ## See Also  
- [ALTER CUBE Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-alter-cube.md)   
- [CREATE CELL CALCULATION Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-create-cell-calculation.md)   
+ [ALTER CUBE Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-alter-cube.md)   
+ [CREATE CELL CALCULATION Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-cell-calculation.md)   
  [Creating Query-Scoped Cell Calculations &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-cell-calculations-query-scoped-cell-calculations.md)   
  [MDX Query Fundamentals &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-query-fundamentals-analysis-services.md)  
   

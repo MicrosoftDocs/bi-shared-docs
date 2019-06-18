@@ -38,7 +38,7 @@ manager: kfile
   
     -   [Install Analysis Services in Power Pivot Mode](../../../analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode.md)  
   
-    -   [Uninstall Power Pivot for SharePoint](../../../sql-server/install/uninstall-power-pivot-for-sharepoint.md)  
+    -   [Uninstall Power Pivot for SharePoint](/sql/sql-server/install/uninstall-power-pivot-for-sharepoint.md)  
   
 ##  <a name="bkmk_where_to_install"></a> Where to Install spPowerPivot16.msi?  
  A recommended best practice is to install **spPowerPivot16.msi** on all servers in the SharePoint farm for configuration consistency, including application servers and web-front end servers. The installer package includes the Analysis Services data providers as well as the [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] configuration tool. When you install **spPowerPivot16.msi** you can customize the installation by excluding individual components.  

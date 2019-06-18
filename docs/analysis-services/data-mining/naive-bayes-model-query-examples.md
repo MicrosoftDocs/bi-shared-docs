@@ -179,7 +179,7 @@ NATURAL PREDICTION JOIN
  The prediction function returns the most likely value, in this case, 0, which means this type of customer is unlikely to purchase a bike.  
   
 ###  <a name="bkmk_Query6"></a> Sample Query 6: Getting Predictions with Probability and Support Values  
- In addition to predicting an outcome, you often want to know how strong the prediction is. The following query uses the same singleton query as the previous example, but adds the prediction function, [PredictHistogram &#40;DMX&#41;](../../dmx/predicthistogram-dmx.md), to return a nested table that contains statistics in support of the prediction.  
+ In addition to predicting an outcome, you often want to know how strong the prediction is. The following query uses the same singleton query as the previous example, but adds the prediction function, [PredictHistogram &#40;DMX&#41;](/sql/dmx/predicthistogram-dmx.md), to return a nested table that contains statistics in support of the prediction.  
   
 ```  
 SELECT  
@@ -234,15 +234,15 @@ AS t
 |||  
 |-|-|  
 |Prediction Function|Usage|  
-|[IsDescendant &#40;DMX&#41;](../../dmx/isdescendant-dmx.md)|Determines whether one node is a child of another node in the model.|  
-|[Predict &#40;DMX&#41;](../../dmx/predict-dmx.md)|Returns a predicted value, or set of values, for a specified column.|  
-|[PredictAdjustedProbability &#40;DMX&#41;](../../dmx/predictadjustedprobability-dmx.md)|Returns the weighted probability.|  
-|[PredictAssociation &#40;DMX&#41;](../../dmx/predictassociation-dmx.md)|Predicts membership in an associative dataset.|  
-|[PredictNodeId &#40;DMX&#41;](../../dmx/predictnodeid-dmx.md)|Returns the Node_ID for each case.|  
-|[PredictProbability &#40;DMX&#41;](../../dmx/predictprobability-dmx.md)|Returns probability for the predicted value.|  
-|[PredictSupport &#40;DMX&#41;](../../dmx/predictsupport-dmx.md)|Returns the support value for a specified state.|  
+|[IsDescendant &#40;DMX&#41;](/sql/dmx/isdescendant-dmx.md)|Determines whether one node is a child of another node in the model.|  
+|[Predict &#40;DMX&#41;](/sql/dmx/predict-dmx.md)|Returns a predicted value, or set of values, for a specified column.|  
+|[PredictAdjustedProbability &#40;DMX&#41;](/sql/dmx/predictadjustedprobability-dmx.md)|Returns the weighted probability.|  
+|[PredictAssociation &#40;DMX&#41;](/sql/dmx/predictassociation-dmx.md)|Predicts membership in an associative dataset.|  
+|[PredictNodeId &#40;DMX&#41;](/sql/dmx/predictnodeid-dmx.md)|Returns the Node_ID for each case.|  
+|[PredictProbability &#40;DMX&#41;](/sql/dmx/predictprobability-dmx.md)|Returns probability for the predicted value.|  
+|[PredictSupport &#40;DMX&#41;](/sql/dmx/predictsupport-dmx.md)|Returns the support value for a specified state.|  
   
- To see  the syntax of specific functions, see [Data Mining Extensions &#40;DMX&#41; Function Reference](../../dmx/data-mining-extensions-dmx-function-reference.md).  
+ To see  the syntax of specific functions, see [Data Mining Extensions &#40;DMX&#41; Function Reference](/sql/dmx/data-mining-extensions-dmx-function-reference.md).  
   
 ## See Also  
  [Microsoft Naive Bayes Algorithm Technical Reference](../../analysis-services/data-mining/microsoft-naive-bayes-algorithm-technical-reference.md)   

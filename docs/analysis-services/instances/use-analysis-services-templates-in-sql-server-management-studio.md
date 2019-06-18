@@ -60,7 +60,7 @@ manager: kfile
   
     4.  Replace \<where_clause, mdx_set> with **[Measures].[Internet Total Sales]**.  
   
-4.  You can execute the query as is, but you will probably want to make some changes, such as adding a function to return specific members. For example, type **.members** after **[Product Category].[Product Category Name]**. For more information, see [Using Member Expressions](../../mdx/using-member-expressions.md).  
+4.  You can execute the query as is, but you will probably want to make some changes, such as adding a function to return specific members. For example, type **.members** after **[Product Category].[Product Category Name]**. For more information, see [Using Member Expressions](/sql/mdx/using-member-expressions.md).  
   
 ##  <a name="bkmk_backup"></a> Create XMLA Script from a Template  
  The XMLA command templates that are provided in Template Explorer can be used to create scripts for monitoring and updating [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] objects, regardless of whether the instance is in multidimensional and data mining mode, or tabular mode. The **XMLA** templates include samples for the following types of scripts:  
@@ -208,8 +208,8 @@ SELECT * FROM $system.DISCOVER_SCHEMA_ROWSETS
 ||Transactions|Demonstrates how to use the XMLA **Discover** method to retrieve the contents of the DISCOVER_TRANSACTIONS schema rowset.|  
   
 ## See Also  
- [Multidimensional Expressions &#40;MDX&#41; Reference](../../mdx/multidimensional-expressions-mdx-reference.md)   
- [Data Mining Extensions &#40;DMX&#41; Reference](../../dmx/data-mining-extensions-dmx-reference.md)   
+ [Multidimensional Expressions &#40;MDX&#41; Reference](/sql/mdx/multidimensional-expressions-mdx-reference.md)   
+ [Data Mining Extensions &#40;DMX&#41; Reference](/sql/dmx/data-mining-extensions-dmx-reference.md)   
  [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/bi-reference/assl/analysis-services-scripting-language-assl-for-xmla)   
  [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/bi-reference/assl/analysis-services-scripting-language-assl-for-xmla)  
   

@@ -12,7 +12,7 @@ manager: kfile
 ---
 # MDX Data Manipulation - RollupChildren Function
 [!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  The Multidimensional Expressions (MDX) [RollupChildren](../../../mdx/rollupchildren-mdx.md) function rolls up the children of a member, applying a different unary operator to each child, and returns the value of this rollup as a number. The unary operator can be supplied by a member property associated with the child member, or the operator can be a string expression provided directly to the function.  
+  The Multidimensional Expressions (MDX) [RollupChildren](/sql/mdx/rollupchildren-mdx.md) function rolls up the children of a member, applying a different unary operator to each child, and returns the value of this rollup as a number. The unary operator can be supplied by a member property associated with the child member, or the operator can be a string expression provided directly to the function.  
   
 ## RollupChildren Function Examples  
  The use of the **RollupChildren** function in Multidimensional Expressions (MDX) statements is simple to explain, but the effect of this function on MDX queries can be wide-ranging.  
@@ -53,7 +53,7 @@ RollupChildren([Net Sales], [Net Sales].CurrentMember.Properties("SALES_OPERATOR
  When the function is called, the value of each child is applied to a total using the operator stored in the member property. The members for domestic and foreign returns are ignored, and the rollup total returned by the **RollupChildren** function is multiplied by 1.1.  
   
 ### Using the IIf Function  
- If the example operation is not commonplace or if the operation applies only to one MDX query, the [IIf](../../../mdx/iif-mdx.md) function can be used with the **RollupChildren** function to provide the same result. The following MDX query provides the same result as the earlier MDX example, but does so without resorting to the use of a custom member property:  
+ If the example operation is not commonplace or if the operation applies only to one MDX query, the [IIf](/sql/mdx/iif-mdx.md) function can be used with the **RollupChildren** function to provide the same result. The following MDX query provides the same result as the earlier MDX example, but does so without resorting to the use of a custom member property:  
   
 ```  
 RollupChildren([Net Sales], IIf([Net Sales].CurrentMember.Properties("UNARY_OPERATOR") = "-", "~", [Net Sales].CurrentMember.Properties("UNARY_OPERATOR))) * 1.1  

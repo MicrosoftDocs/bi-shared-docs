@@ -83,7 +83,7 @@ manager: kfile
   
  The following list provides a summary of the functions that you can use in queries:  
   
--   **General prediction functions:** The **Predict** function is polymorphic, meaning it works with all model types. This function will automatically detect the type of model you are working with and prompt you for additional parameters. For more information, see [Predict &#40;DMX&#41;](../../dmx/predict-dmx.md).  
+-   **General prediction functions:** The **Predict** function is polymorphic, meaning it works with all model types. This function will automatically detect the type of model you are working with and prompt you for additional parameters. For more information, see [Predict &#40;DMX&#41;](/sql/dmx/predict-dmx.md).  
   
     > [!WARNING]  
     >  Not all models are used to make predictions. For example, you can create a clustering model that does not have a predictable attribute. However, even if a model does not have a predictable attribute, you can create prediction queries that return other types of useful information from the model.  
@@ -102,13 +102,13 @@ manager: kfile
     |[Linear Regression Model Query Examples](../../analysis-services/data-mining/linear-regression-model-query-examples.md)|[Time Series Model Query Examples](../../analysis-services/data-mining/time-series-model-query-examples.md)|  
     |[Logistic Regression Model Query Examples](../../analysis-services/data-mining/logistic-regression-model-query-examples.md)||  
   
-     You can also call VBA functions, or create your own functions. For more information, see [Functions &#40;DMX&#41;](../../dmx/functions-dmx.md).  
+     You can also call VBA functions, or create your own functions. For more information, see [Functions &#40;DMX&#41;](/sql/dmx/functions-dmx.md).  
   
 -   **General statistics:** There are a number of functions that can be used with almost any model type, which return a standard set of descriptive statistics, such as standard deviation.  
   
      For example, the **PredictHistogram** function returns a table that lists all the states of the specified column.  
   
-     For more information, see [General Prediction Functions &#40;DMX&#41;](../../dmx/general-prediction-functions-dmx.md).  
+     For more information, see [General Prediction Functions &#40;DMX&#41;](/sql/dmx/general-prediction-functions-dmx.md).  
   
 -   **Custom statistics:** Additional supporting functions are provided for each model type, to generate statistics that are relevant to the specific analytical task.  
   

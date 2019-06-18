@@ -44,7 +44,7 @@ manager: kfile
   
 -   [Use a fixed port for a default or named instance of Analysis Services](#bkmk_fixed)  
   
- For more information about the default Windows firewall settings, and a description of the TCP ports that affect the Database Engine, Analysis Services, Reporting Services, and Integration Services, see [Configure the Windows Firewall to Allow SQL Server Access](../../sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access.md).  
+ For more information about the default Windows firewall settings, and a description of the TCP ports that affect the Database Engine, Analysis Services, Reporting Services, and Integration Services, see [Configure the Windows Firewall to Allow SQL Server Access](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access.md).  
   
 ##  <a name="bkmk_checkport"></a> Check port and firewall settings for Analysis Services  
  On the Microsoft Windows operating systems that are supported by [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)], Windows Firewall is on by default and is blocking remote connections. You must manually open a port in the firewall to allow inbound requests to Analysis Services. SQL Server Setup does not perform this step for you.  
