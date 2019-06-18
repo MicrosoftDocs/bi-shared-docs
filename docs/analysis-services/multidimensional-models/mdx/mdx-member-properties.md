@@ -29,10 +29,10 @@ manager: kfile
   
  For more information, see [User-Defined Member Properties &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-member-properties-user-defined-member-properties.md).  
   
- Both intrinsic and user-defined member properties can be retrieved through the use of the **PROPERTIES** keyword or the [Properties](../../../mdx/properties-mdx.md) function.  
+ Both intrinsic and user-defined member properties can be retrieved through the use of the **PROPERTIES** keyword or the [Properties](/sql/mdx/properties-mdx) function.  
   
 ## Using the PROPERTIES Keyword  
- The **PROPERTIES** keyword specifies the member properties that are to be used for a given axis dimension. The **PROPERTIES** keyword is buried within the `<axis specification>` clause of the MDX [SELECT](../../../mdx/mdx-data-manipulation-select.md) statement:  
+ The **PROPERTIES** keyword specifies the member properties that are to be used for a given axis dimension. The **PROPERTIES** keyword is buried within the `<axis specification>` clause of the MDX [SELECT](/sql/mdx/mdx-data-manipulation-select) statement:  
   
 ```  
 SELECT [<axis_specification>  

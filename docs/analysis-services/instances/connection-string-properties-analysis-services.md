@@ -122,7 +122,7 @@ manager: kfile
   
  `Provider=MSOLAP.5;Integrated Security=SSPI;Persist Security Info=True;Initial Catalog=Adventure Works DW 2008R2;Data Source=AW-SRV01;MDX Compatibility=1;Safety Options=2;MDX Missing Member Mode=Error`  
   
- For more information, see [Data Connections, Data Sources, and Connection Strings &#40;Report Builder and SSRS&#41;](../../reporting-services/report-data/data-connections-data-sources-and-connection-strings-report-builder-and-ssrs.md) and [Data Authentication for Excel Services in SharePoint Server 2013](https://go.microsoft.com/fwlink/?LinkId=296350).  
+ For more information, see [Data Connections, Data Sources, and Connection Strings &#40;Report Builder and SSRS&#41;](/sql/reporting-services/report-data/data-connections-data-sources-and-connection-strings-report-builder-and-ssrs) and [Data Authentication for Excel Services in SharePoint Server 2013](https://go.microsoft.com/fwlink/?LinkId=296350).  
   
 ##  <a name="bkmk_supportedstrings"></a> Connection string formats used in Analysis Services  
  This section lists all of the connection string formats supported by Analysis Services. With the exception of connections to [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] databases, you can specify these connections strings in applications that connect to Analysis Services.  

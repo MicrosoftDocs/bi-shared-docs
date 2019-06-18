@@ -91,7 +91,7 @@ WHERE MODEL_NAME = '<model name>'
 |See the modeling flags supported by specific algorithms (in the Modeling Flags section for each algorithm reference topic)|[Data Mining Algorithms &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining.md)|  
 |Learn more about mining structure columns and the properties that you can set on them|[Mining Structure Columns](../../analysis-services/data-mining/mining-structure-columns.md)|  
 |Learn about mining model columns and modeling flags that can be applied at the model level|[Mining Model Columns](../../analysis-services/data-mining/mining-model-columns.md)|  
-|See syntax for  working with modeling  flags in DMX statements|[Modeling Flags &#40;DMX&#41;](../../dmx/modeling-flags-dmx.md)|  
+|See syntax for  working with modeling  flags in DMX statements|[Modeling Flags &#40;DMX&#41;](/sql/dmx/modeling-flags-dmx)|  
 |Understand missing values and how to work with  them|[Missing Values &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/missing-values-analysis-services-data-mining.md)|  
 |Learn about managing models and structures and setting usage properties|[Moving Data Mining Objects](../../analysis-services/data-mining/moving-data-mining-objects.md)|  
   

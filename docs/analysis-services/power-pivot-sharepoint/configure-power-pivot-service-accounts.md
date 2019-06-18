@@ -171,7 +171,7 @@ manager: kfile
   
 8.  Type the password, and then click **OK**.  
   
- If Reporting Services is installed, use the Reporting Services Configuration Manager to update passwords for the report server and the connection to the report server database. For more information, see [Configuration and Administration of a Report Server &#40;Reporting Services SharePoint Mode&#41;](../../reporting-services/report-server-sharepoint/configuration-and-administration-of-a-report-server.md).  
+ If Reporting Services is installed, use the Reporting Services Configuration Manager to update passwords for the report server and the connection to the report server database. For more information, see [Configuration and Administration of a Report Server &#40;Reporting Services SharePoint Mode&#41;](/sql/reporting-services/report-server-sharepoint/configuration-and-administration-of-a-report-server).  
   
 ## See Also  
  [Start or Stop a Power Pivot for SharePoint Server](../../analysis-services/power-pivot-sharepoint/start-or-stop-a-power-pivot-for-sharepoint-server.md)   

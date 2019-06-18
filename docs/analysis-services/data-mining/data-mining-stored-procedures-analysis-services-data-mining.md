@@ -36,6 +36,6 @@ manager: kfile
 ## See Also  
  [Cross-Validation &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/cross-validation-analysis-services-data-mining.md)   
  [Cross-Validation Tab &#40;Mining Accuracy Chart View&#41;](https://msdn.microsoft.com/library/bd215a68-1ad7-4046-9c44-ec8e2be13a64)   
- [Calling a Stored Procedure](../../relational-databases/native-client-odbc-stored-procedures/calling-a-stored-procedure.md)  
+ [Calling a Stored Procedure](/sql/relational-databases/native-client-odbc-stored-procedures/calling-a-stored-procedure)  
   
   

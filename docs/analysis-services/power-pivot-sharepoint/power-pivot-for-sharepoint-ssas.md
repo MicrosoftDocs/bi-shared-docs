@@ -68,7 +68,7 @@ manager: kfile
  **In other sections**  
   
 ## Additional topics  
- [Upgrade Power Pivot for SharePoint](../../database-engine/install-windows/upgrade-power-pivot-for-sharepoint.md)  
+ [Upgrade Power Pivot for SharePoint](/sql/database-engine/install-windows/upgrade-power-pivot-for-sharepoint)  
   
  [Install Analysis Services in Power Pivot Mode](../../analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode.md)  
   

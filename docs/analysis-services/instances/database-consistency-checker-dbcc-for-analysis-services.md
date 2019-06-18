@@ -29,7 +29,7 @@ The command takes an object definition and returns either an empty result set or
  DBCC for Analysis Services will execute on any Analysis Services database at any compatibility level, as long as the database is running on a  SQL Server 2016 instance. Just make sure you're using the right command syntax for each database type.  
   
 > [!NOTE]  
->  If you're familiar with [DBCC &#40;Transact-SQL&#41;](../../t-sql/database-console-commands/dbcc-transact-sql.md), you'll quickly notice that the DBCC in Analysis Services has a much narrower scope. DBCC in Analysis Services is a single command that reports exclusively on data corruption across the database or on individual objects. If you have other tasks in mind, such as collecting information, try using AMO PowerShell or XMLA scripts instead.
+>  If you're familiar with [DBCC &#40;Transact-SQL&#41;](/sql/t-sql/database-console-commands/dbcc-transact-sql), you'll quickly notice that the DBCC in Analysis Services has a much narrower scope. DBCC in Analysis Services is a single command that reports exclusively on data corruption across the database or on individual objects. If you have other tasks in mind, such as collecting information, try using AMO PowerShell or XMLA scripts instead.
   
 ## Permission requirements  
  You must be an Analysis Services database or server administrator (a member of the server role) to run the command. See [Grant database permissions &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-database-permissions-analysis-services.md) or [Grant server admin rights to an  Analysis Services instance](../../analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance.md) for instructions.  

@@ -31,7 +31,7 @@ manager: kfile
   
  **Client Requirements**  
   
--   Power View client functionality requires Microsoft Silverlight 5. For more information, see [Browser Support for Reporting Services and Power View](../../reporting-services/browser-support-for-reporting-services-and-power-view.md).  
+-   Power View client functionality requires Microsoft Silverlight 5. For more information, see [Browser Support for Reporting Services and Power View](/sql/reporting-services/browser-support-for-reporting-services-and-power-view).  
   
 ## Features  
  **Native support for Power View**  

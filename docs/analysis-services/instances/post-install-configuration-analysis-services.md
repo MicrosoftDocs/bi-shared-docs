@@ -35,7 +35,7 @@ manager: kfile
  Learn how to connect to Analysis Services from Microsoft applications or custom applications using the client libraries. Depending on your solution requirements, you might also need to configure the service for Kerberos authentication. Connections that must cross domain boundaries will require HTTP access. See [Connect to Analysis Services](../../analysis-services/instances/connect-to-analysis-services.md) for instructions about the next steps.  
   
 ## See Also  
- [Installation for SQL Server 2016](../../database-engine/install-windows/installation-for-sql-server-2016.md)   
+ [Installation for SQL Server 2016](/sql/database-engine/install-windows/installation-for-sql-server-2016)   
  [Install Analysis Services in Multidimensional and Data Mining Mode](https://msdn.microsoft.com/library/8a1f33e8-2bd6-4fb8-bd46-c86f2a067f60)   
  [Install Analysis Services](../../analysis-services/instances/install-windows/install-analysis-services.md)   
  [Install Analysis Services in Power Pivot Mode](../../analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode.md)  

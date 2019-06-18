@@ -61,7 +61,7 @@ manager: kfile
   
  The result of training is a set of summary data, contained within the *model content*, which describes the patterns that were found and provides rules by which to generate predictions. For more information, see [Mining Model Content &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-analysis-services-data-mining.md).  
   
- In limited cases, the logical structure of the model can also be exported into a file that represents model formulas and data bindings according to a standard format, the Predictive Modeling Markup Language (PMML). This logical structure can be imported into other systems that utilize PMML and the model so described can then be used for prediction. For more information, see [Understanding the DMX Select Statement](../../dmx/understanding-the-dmx-select-statement.md).  
+ In limited cases, the logical structure of the model can also be exported into a file that represents model formulas and data bindings according to a standard format, the Predictive Modeling Markup Language (PMML). This logical structure can be imported into other systems that utilize PMML and the model so described can then be used for prediction. For more information, see [Understanding the DMX Select Statement](/sql/dmx/understanding-the-dmx-select-statement).  
   
   
 ##  <a name="bkmk_CustomObjects"></a> Custom Data Mining Objects  
@@ -95,6 +95,6 @@ manager: kfile
   
 ## See Also  
  [Processing a multidimensional model &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md)   
- [Data Mining Extensions &#40;DMX&#41; Reference](../../dmx/data-mining-extensions-dmx-reference.md)  
+ [Data Mining Extensions &#40;DMX&#41; Reference](/sql/dmx/data-mining-extensions-dmx-reference)  
   
   
