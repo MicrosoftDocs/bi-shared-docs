@@ -19,7 +19,7 @@ manager: kfile
 |Topic|Description|  
 |-----------|-----------------|  
 |[Understanding DAX in Tabular Models](../../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md)|Describes the Data Analysis Expressions (DAX) formula language used to create calculations for calculated columns, measures, and row filters in tabular models.|  
-|[DAX formula compatibility in DirectQuery mode](../../analysis-services/tabular-models/dax-formula-compatibility-in-directquery-mode-ssas-2016)|Describes the differences, lists the functions that are not supported in DirectQuery mode, and lists the functions that are supported but could return different results.|  
+|[DAX formula compatibility in DirectQuery mode](dax-formula-compatibility-in-directquery-mode-ssas-2016.md)|Describes the differences, lists the functions that are not supported in DirectQuery mode, and lists the functions that are supported but could return different results.|  
 |[Data Analysis Expressions (DAX) Reference](/dax/data-analysis-expressions-dax-reference)|This section provides detailed descriptions of DAX syntax, operators, and functions.|  
   
 > [!NOTE]  
