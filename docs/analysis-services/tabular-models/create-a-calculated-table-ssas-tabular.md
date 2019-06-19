@@ -63,7 +63,7 @@ At least one table must already exist before you can create a calculated table. 
   
 ## See also  
  [Compatibility level](../../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md)   
- [Data Analysis Expressions &#40;DAX&#41; in Analysis Services](https://msdn.microsoft.com/library/abb336c9-3346-4cab-b91b-90f93f4575e5)   
+ [Data Analysis Expressions &#40;DAX&#41; in Analysis Services](/dax/dax-operator-reference)   
  [Understanding DAX in tabular models](../../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md)  
   
   
