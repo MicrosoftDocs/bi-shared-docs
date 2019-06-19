@@ -164,7 +164,7 @@ Days in Current Quarter:=COUNTROWS( DATESBETWEEN( 'Date'[Date], STARTOFQUARTER( 
 >  Some limits are applied within measures on nesting of functions to ensure that performance is not affected by the many calculations required by dependencies among columns.  
   
 ##  <a name="bkmk_DAX_functions"></a> DAX functions  
- This section provides an overview of the *types* of functions supported in DAX. For more detailed information, see [DAX Function Reference](https://msdn.microsoft.com/4dbb28a1-dd1a-4fca-bcd5-e90f74864a7b).  
+ This section provides an overview of the *types* of functions supported in DAX. For more detailed information, see [DAX Function Reference](/dax/data-analysis-expressions-dax-reference).  
   
  DAX provides a variety of functions you can use perform calculations using dates and times, create conditional values, work with strings, perform lookups based on relationships, and the ability to iterate over a table to perform recursive calculations. If you are familiar with Excel formulas, many of these functions will appear very similar; however, DAX formulas are different in the following important ways:  
   
