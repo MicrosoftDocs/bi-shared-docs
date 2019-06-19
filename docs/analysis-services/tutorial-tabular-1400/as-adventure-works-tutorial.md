@@ -45,9 +45,9 @@ To complete this tutorial, you need:
 
     **Important:** If you install the sample database to an on-premises SQL Server Data Warehouse, and deploy your model to an Azure Analysis Services server, an [On-premises data gateway](https://docs.microsoft.com/azure/analysis-services/analysis-services-gateway) is required.
 
--   The latest version of [SQL Server Data Tools (SSDT)](https://msdn.microsoft.com/library/mt204009.aspx). Or, if you already have Visual Studio 2017, you can download and install [Microsoft Analysis Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) (VSIX) package. For this tutorial, references to SSDT and Visual Studio are synonymous. 
+-   The latest version of [SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt). Or, if you already have Visual Studio 2017, you can download and install [Microsoft Analysis Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) (VSIX) package. For this tutorial, references to SSDT and Visual Studio are synonymous. 
 
--   The latest version of [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms).    
+-   The latest version of [SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms).    
 
 -   A client application such as [Power BI Desktop](https://powerbi.microsoft.com/desktop/) or Excel. 
 
