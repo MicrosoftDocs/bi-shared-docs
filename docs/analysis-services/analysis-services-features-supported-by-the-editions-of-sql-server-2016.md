@@ -13,7 +13,7 @@ manager: kfile
 # Analysis Services features supported by SQL Server editions
 [!INCLUDE[ssas-appliesto-sql2016-later](../includes/ssas-appliesto-sql2016-later.md)]
 
-This topic provides details of features supported by the different editions of SQL Server 2016 Analysis Services. For features supported by Evaluation and Developer editions, see Enterprise edition.
+This article describes features supported by different editions of SQL Server 2016, 2017, 2019 Analysis Services. Evaluation edition supports Enterprise edition features.
 
 ## Analysis Services (servers)
   
@@ -36,8 +36,9 @@ This topic provides details of features supported by the different editions of S
 |DAX calculations, DAX queries, MDX queries|Yes|Yes|||||Yes|  
 |Row-level security|Yes|Yes|||||Yes|  
 |Multiple partitions|Yes||||||Yes|  
+|Calculation groups|Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|||||Yes (beginning with SQL Server 2019)|  
 |In-memory storage mode|Yes|Yes|||||Yes|  
-|DirectQuery storage mode|Yes||||||Yes|  
+|DirectQuery mode|Yes|Yes (beginning with SQL Server 2019)|||||Yes|  
 
 ## Multidimensional models 
   
@@ -71,7 +72,6 @@ This topic provides details of features supported by the different editions of S
 |MOLAP, ROLAP, and HOLAP storage models|Yes|Yes|||||Yes|  
 |Binary and compressed XML transport|Yes|Yes|||||Yes|  
 |Push-mode processing|Yes||||||Yes|  
-|Direct writeback|Yes||||||Yes|  
 |Measure expressions|Yes||||||Yes|  
   
  <sup>1</sup> The LastChild semi-additive measure is supported in Standard edition, but other semi-additive measures, such as None, FirstChild, FirstNonEmpty, LastNonEmpty, AverageOfChildren, and ByAccount, are not. Additive measures, such as Sum, Count, Min, Max, and non-additive measures (DistinctCount) are supported on all editions.  
