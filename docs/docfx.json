@@ -16,7 +16,9 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "src": "analysis-services",
+        "dest": "."
       }
     ],
     "resource": [
