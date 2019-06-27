@@ -1,5 +1,5 @@
 - name: Analysis Services
-  href: ../analysis-services/analysis-services.md
+  href: ../analysis-services/analysis-services-overview.md
 - name: Overview
   items:
   - name: What's new in SQL Server Analysis Services 2016
