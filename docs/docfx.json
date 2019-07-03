@@ -45,7 +45,7 @@
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "SQL.sql-content",
-          "folder_relative_path_in_docset": "analysis-services"
+          "folder_relative_path_in_docset": "/docs/analysis-services"
         }
       }        
     },
