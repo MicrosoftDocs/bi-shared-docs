@@ -43,9 +43,8 @@
       "extendBreadcrumb": true,
       "feedback_system": "None",
       "_op_documentIdPathDepotMapping": {
-        "./": {
-          "depot_name": "SQL.sql-content",
-          "folder_relative_path_in_docset": "analysis-services/"
+        "analysis-services/": {
+          "depot_name": "SQL.sql-content"          
         }
       }        
     },
