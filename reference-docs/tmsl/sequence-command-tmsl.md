@@ -1,6 +1,6 @@
 ---
 title: "Sequence command (TMSL) | Microsoft Docs"
-ms.date: 07/12/2019
+ms.date: 07/11/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
