@@ -1,6 +1,6 @@
 ---
 title: "Sequence command (TMSL) | Microsoft Docs"
-ms.date: 07/20/2018
+ms.date: 07/12/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
@@ -78,9 +78,11 @@ manager: kfile
         {   
           "refresh": {   
             "type": "calculate",   
-            "objects": {   
-             "database": "salesdatabase"   
-            }   
+            "objects": [
+              {   
+              "database": "salesdatabase"   
+              }
+            ] 
           }   
         }   
       ]   
