@@ -51,6 +51,6 @@ manager: kfile
 ## See Also  
  [Mining Model Viewer Tasks and How-tos](../../analysis-services/data-mining/mining-model-viewer-tasks-and-how-tos.md)   
  [Browse a Model Using the Microsoft Association Rules Viewer](../../analysis-services/data-mining/browse-a-model-using-the-microsoft-association-rules-viewer.md)   
- [Lesson 3: Building a Market Basket Scenario &#40;Intermediate Data Mining Tutorial&#41;](http://msdn.microsoft.com/library/651eef38-772e-4d97-af51-075b1b27fc5a)  
+ [Lesson 3: Building a Market Basket Scenario &#40;Intermediate Data Mining Tutorial&#41;](https://msdn.microsoft.com/library/651eef38-772e-4d97-af51-075b1b27fc5a)  
   
   

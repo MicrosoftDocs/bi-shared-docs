@@ -68,7 +68,7 @@ manager: kfile
 |Administer<br /><br /> Note: Only in Database permissions|{**true**, **false**}<br /><br /> Default=**false**|Specifies whether members can administer a database.<br /><br /> **true** grants members access to all objects in a database.<br /><br /> A member can have Administer permissions for a specific database, but not for others.|  
   
 ## See Also  
- [Permissions and Access Rights &#40;Analysis Services - Multidimensional Data&#41;](http://msdn.microsoft.com/library/59fa3573-f985-46cb-8042-7da71bd59a7b)   
+ [Permissions and Access Rights &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/59fa3573-f985-46cb-8042-7da71bd59a7b)   
  [Authorizing access to objects and operations &#40;Analysis Services&#41;](../../../analysis-services/multidimensional-models/authorizing-access-to-objects-and-operations-analysis-services.md)  
   
   

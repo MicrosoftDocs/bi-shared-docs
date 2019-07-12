@@ -24,7 +24,7 @@ manager: kfile
   
 -   For [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)] 2010, do not open ports in Windows Firewall. As an add-in to SharePoint, the service uses ports configured for SharePoint and makes only local connections to the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance that loads and queries [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data models.  
   
--   For [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instances running on Windows Azure Virtual Machines, use alternate instructions for configuring server access. See [SQL Server Business Intelligence in Windows Azure Virtual Machines](http://msdn.microsoft.com/library/windowsazure/jj992719.aspx).  
+-   For [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instances running on Windows Azure Virtual Machines, use alternate instructions for configuring server access. See [SQL Server Business Intelligence in Windows Azure Virtual Machines](https://msdn.microsoft.com/library/windowsazure/jj992719.aspx).  
   
  Although the default instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] listens on TCP port 2383, you can configure the server to listen on a different fixed port, connecting to the server in this format: \<servername>:\<portnumber>.  
   
@@ -44,7 +44,7 @@ manager: kfile
   
 -   [Use a fixed port for a default or named instance of Analysis Services](#bkmk_fixed)  
   
- For more information about the default Windows firewall settings, and a description of the TCP ports that affect the Database Engine, Analysis Services, Reporting Services, and Integration Services, see [Configure the Windows Firewall to Allow SQL Server Access](../../sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access.md).  
+ For more information about the default Windows firewall settings, and a description of the TCP ports that affect the Database Engine, Analysis Services, Reporting Services, and Integration Services, see [Configure the Windows Firewall to Allow SQL Server Access](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access).  
   
 ##  <a name="bkmk_checkport"></a> Check port and firewall settings for Analysis Services  
  On the Microsoft Windows operating systems that are supported by [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)], Windows Firewall is on by default and is blocking remote connections. You must manually open a port in the firewall to allow inbound requests to Analysis Services. SQL Server Setup does not perform this step for you.  
@@ -193,7 +193,7 @@ manager: kfile
   
 1.  Determine an available TCP/IP port to use.  
   
-     To view a list of reserved and registered ports that you should avoid using, see [Port Numbers (IANA)](http://go.microsoft.com/fwlink/?LinkID=198469). To view a list of ports that are already in use on your system, open a command prompt window and type **netstat -a -p TCP** to display a list of the TCP ports that are open on the system.  
+     To view a list of reserved and registered ports that you should avoid using, see [Port Numbers (IANA)](https://go.microsoft.com/fwlink/?LinkID=198469). To view a list of ports that are already in use on your system, open a command prompt window and type **netstat -a -p TCP** to display a list of the TCP ports that are open on the system.  
   
 2.  After you determine which port to use, specify the port by either editing the **Port** configuration setting in the msmdsrv.ini file or in the General properties page of an Analysis Services instance in SQL Server Management Studio.  
   
@@ -204,7 +204,7 @@ manager: kfile
 5.  Verify by connecting locally (in Management Studio) and then remotely from a client application on another computer. To use Management Studio, connect to an Analysis Services default instance by specifying a server name in this format: \<servername>:\<portnumber>. For a named instance, specify the server name as \<servername>\\<instancename\>.  
   
 ##  <a name="bkmk_cluster"></a> Port configuration for an Analysis Services cluster  
- An [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] failover cluster always listens on TCP port 2383, regardless of whether you installed it as a default instance or named instance. Dynamic port assignments are not used by [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] when it is installed on a Windows failover cluster. Be sure to open TCP 2383 on every node running [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] in the cluster. For more information about clustering [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], see [How to Cluster SQL Server Analysis Services](http://go.microsoft.com/fwlink/p/?LinkId=396548).  
+ An [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] failover cluster always listens on TCP port 2383, regardless of whether you installed it as a default instance or named instance. Dynamic port assignments are not used by [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] when it is installed on a Windows failover cluster. Be sure to open TCP 2383 on every node running [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] in the cluster. For more information about clustering [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], see [How to Cluster SQL Server Analysis Services](https://go.microsoft.com/fwlink/p/?LinkId=396548).  
   
 ##  <a name="bkmk_powerpivot"></a> Port configuration for Power Pivot for SharePoint  
  Server architecture for [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)] is fundamentally different depending on which version of SharePoint you are using.  
@@ -222,8 +222,8 @@ manager: kfile
  If you are using SharePoint 2010, you do not need to open ports in Windows Firewall. SharePoint opens the ports that it requires, and add-ins such as [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint operate within the SharePoint environment. In a [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint 2010 installation, the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] System Service has exclusive use of the local SQL Server Analysis Services ( [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)]) service instance that is installed with it on the same computer. It uses local connections, not network connections, to access the local Analysis Services engine service that loads, queries, and processes [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data on the SharePoint server. To request [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data from client applications, requests are routed through ports that are opened by SharePoint Setup (specifically, inbound rules are defined to allow access to SharePoint - 80, SharePoint Central Administration v4, SharePoint Web Services, and SPUserCodeV4). Because [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] web services run within a SharePoint farm, the SharePoint firewall rules are sufficient for remote access to [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data in a SharePoint farm.  
   
 ## See Also  
- [SQL Server Browser Service &#40;Database Engine and SSAS&#41;](../../database-engine/configure-windows/sql-server-browser-service-database-engine-and-ssas.md)   
- [Start, Stop, Pause, Resume, Restart the Database Engine, SQL Server Agent, or SQL Server Browser Service](../../database-engine/configure-windows/start-stop-pause-resume-restart-sql-server-services.md)   
- [Configure a Windows Firewall for Database Engine Access](../../database-engine/configure-windows/configure-a-windows-firewall-for-database-engine-access.md)  
+ [SQL Server Browser Service &#40;Database Engine and SSAS&#41;](/sql/database-engine/configure-windows/sql-server-browser-service-database-engine-and-ssas)   
+ [Start, Stop, Pause, Resume, Restart the Database Engine, SQL Server Agent, or SQL Server Browser Service](/sql/database-engine/configure-windows/start-stop-pause-resume-restart-sql-server-services)   
+ [Configure a Windows Firewall for Database Engine Access](/sql/database-engine/configure-windows/configure-a-windows-firewall-for-database-engine-access)  
   
   

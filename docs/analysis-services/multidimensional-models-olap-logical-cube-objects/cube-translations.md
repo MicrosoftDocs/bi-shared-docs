@@ -1,5 +1,5 @@
 ---
-title: "Cube Translations | Microsoft Docs"
+title: "Cube Translations (Analysis Services) | Microsoft Docs"
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

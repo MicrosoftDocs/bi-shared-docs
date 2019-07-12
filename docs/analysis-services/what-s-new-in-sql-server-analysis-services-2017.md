@@ -18,7 +18,7 @@ SQL Server 2017 Analysis Services see some of the most important enhancements si
 
 Multidimensional mode and Power Pivot for SharePoint mode are a staple for many Analysis Services deployments. In the Analysis Services product lifecycle, these modes are mature. There are no new features for either of these modes in this release. However, bug fixes and performance improvements are included.
 
-The features described here are included in SQL Server 2017 Analysis Services. But in order to take advantage of them, you must also use the latest versions of [SQL Server Data Tools](../ssdt/download-sql-server-data-tools-ssdt.md) (SSDT) and [SQL Server Management Studio](../ssms/download-sql-server-management-studio-ssms.md) (SSMS). SSDT and SSMS are updated monthly with new and improved features that typically coincide with new functionality in SQL Server.  
+The features described here are included in SQL Server 2017 Analysis Services. But in order to take advantage of them, you must also use the latest versions of [SQL Server Data Tools](/sql/ssdt/download-sql-server-data-tools-ssdt) (SSDT) and [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) (SSMS). SSDT and SSMS are updated monthly with new and improved features that typically coincide with new functionality in SQL Server.  
 
 While it's important to learn about all the new features, it's also important to know what is being deprecated and discontinued in this release and future releases. Be sure to check out [Backward compatibility (SQL Server 2017 Analysis Services)](analysis-services-backward-compatibility-sql2017.md).
 
@@ -105,7 +105,7 @@ The **Detail Rows Expression** property for measures allows model authors to cus
 
 ![AS_Detail_Rows_Expression_Property](../analysis-services/media/as-detail-rows-expression-property.png)
 
-The [SELECTCOLUMNS](https://msdn.microsoft.com/library/mt761759.aspx) DAX function is commonly used in a Detail Rows Expression. The following example defines the columns to be returned for rows in the Internet Sales table in the sample Adventure Works tabular model:
+The [SELECTCOLUMNS](/dax/selectcolumns-function-dax) DAX function is commonly used in a Detail Rows Expression. The following example defines the columns to be returned for rows in the Internet Sales table in the sample Adventure Works tabular model:
 
 ```
 SELECTCOLUMNS(
@@ -175,9 +175,9 @@ Now works with tabular 1200 and 1400 models. Tabular 1400 models show dependenci
 Improvements are included for this DMV, which is used by various client tools to show measure dimensionality. For example, the Explore feature in Excel Pivot Tables allows the user to cross-drill to dimensions related to the selected measures. This release corrects the cardinality columns, which were previously showing incorrect values.
 
 ## DAX enhancements
-This release includes support for new DAX functions and functionality. In order to take advantage, you need to use the latest version of SSDT. To learn more, see [New DAX functions](https://msdn.microsoft.com/library/mt704075.aspx).
+This release includes support for new DAX functions and functionality. In order to take advantage, you need to use the latest version of SSDT. To learn more, see [New DAX functions](/dax/new-dax-functions).
 
-One of the most important pieces of new DAX functionality is the new [IN Operator / CONTAINSROW Function](https://msdn.microsoft.com/library/mt842621.aspx) for DAX expressions. This is similar to the [`TSQL IN`](https://msdn.microsoft.com/library/ms177682.aspx) operator commonly used to specify multiple values in a `WHERE` clause.
+One of the most important pieces of new DAX functionality is the new [IN Operator / CONTAINSROW Function](/dax/in-operator-containsrow-function) for DAX expressions. This is similar to the `TSQL IN` operator commonly used to specify multiple values in a `WHERE` clause.
 
 Previously, it was common to specify multi-value filters using the logical `OR` operator, like in the following measure expression:
 
@@ -243,5 +243,5 @@ In addition to all the new features, Analysis Services, SSDT, and SSMS also incl
 
 
 ## See also
-[SQL Server 2017 Release Notes](../sql-server/sql-server-2017-release-notes.md)   
-[What's new in SQL Server 2017](../sql-server/what-s-new-in-sql-server-2017.md)
+[SQL Server 2017 Release Notes](/sql/sql-server/sql-server-2017-release-notes)   
+[What's new in SQL Server 2017](/sql/sql-server/what-s-new-in-sql-server-2017)

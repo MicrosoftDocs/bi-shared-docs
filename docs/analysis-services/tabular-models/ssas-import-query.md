@@ -16,7 +16,7 @@ For tabular 1400 models, the new Get Data experience in Visual Studio Analysis S
 
 In order to complete the tasks described in this article, make sure you're using the latest version of SSDT. If you're using Visual Studio 2017, make sure you've downloaded and installed the September 2017 or later Microsoft Analysis Services Projects VSIX.
 
-[Download and install SSDT](../../ssdt/download-sql-server-data-tools-ssdt.md)
+[Download and install SSDT](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 [Download Microsoft Analysis Services Projects VSIX](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects)
 
@@ -52,7 +52,7 @@ After importing, a table named Employees is created in the model.
 
 
 ## See also  
- [Value.NativeQuery](https://msdn.microsoft.com/library/mt736917.aspx)   
+
  [Impersonation](../../analysis-services/tabular-models/impersonation-ssas-tabular.md)   
 
   

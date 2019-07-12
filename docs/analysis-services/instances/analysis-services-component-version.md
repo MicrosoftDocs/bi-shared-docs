@@ -28,7 +28,7 @@ To verify component file version,
 
 ## See also  
 
-[Install SQL Server Servicing Updates](../../database-engine/install-windows/install-sql-server-servicing-updates.md)  
+[Install SQL Server Servicing Updates](/sql/database-engine/install-windows/install-sql-server-servicing-updates)  
 
 [Update Center for Microsoft SQL Server](https://msdn.microsoft.com/library/ff803383.aspx)
   

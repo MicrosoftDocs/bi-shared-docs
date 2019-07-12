@@ -33,7 +33,7 @@ manager: kfile
  When starting the service, [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] loads the required assemblies and determines which classes have the <xref:Microsoft.AnalysisServices.AdomdServer.PlugInAttribute> custom attribute.  
   
 > [!NOTE]  
->  The [!INCLUDE[dnprdnshort](../../../includes/dnprdnshort-md.md)] defines custom attributes as a way to describe your code and affect run-time behavior. For more information, see the topic, "[Attributes Overview](http://go.microsoft.com/fwlink/?LinkId=82929)," in the [!INCLUDE[dnprdnshort](../../../includes/dnprdnshort-md.md)] Developer's Guide on MSDN.  
+>  The [!INCLUDE[dnprdnshort](../../../includes/dnprdnshort-md.md)] defines custom attributes as a way to describe your code and affect run-time behavior. For more information, see the topic, "[Attributes Overview](https://go.microsoft.com/fwlink/?LinkId=82929)," in the [!INCLUDE[dnprdnshort](../../../includes/dnprdnshort-md.md)] Developer's Guide on MSDN.  
   
  For all classes with the <xref:Microsoft.AnalysisServices.AdomdServer.PlugInAttribute> custom attribute, [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] invokes their default constructors. Invoking all the constructors at startup provides a common location from which to build new objects and that is independent of any user activity.  
   
@@ -107,19 +107,19 @@ manager: kfile
 #### AdomdCommand class  
  The <xref:Microsoft.AnalysisServices.AdomdServer.AdomdCommand> class now supports of the following MDX commands:  
   
--   [CREATE MEMBER Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-create-member.md)  
+-   [CREATE MEMBER Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-member)  
   
--   [UPDATE MEMBER Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-update-member.md)  
+-   [UPDATE MEMBER Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-update-member)  
   
--   [DROP MEMBER Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-drop-member.md)  
+-   [DROP MEMBER Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-drop-member)  
   
--   [CREATE SET Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-create-set.md)  
+-   [CREATE SET Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-set)  
   
--   [DROP SET Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-drop-set.md)  
+-   [DROP SET Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-drop-set)  
   
--   [CREATE KPI Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-create-kpi.md)  
+-   [CREATE KPI Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-kpi)  
   
--   [DROP KPI Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-drop-kpi.md)  
+-   [DROP KPI Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-drop-kpi)  
   
 ### MDX extensions and enhancements  
  The CREATE MEMBER command is enhanced with the **caption** property, the **display_folder** property, and the **associated_measure_group** property.  

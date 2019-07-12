@@ -44,7 +44,7 @@ manager: kfile
   
  The Microsoft implementation provides two options: scalable and non-scalable EM. By default, in scalable EM, the first 50,000 records are used to seed the initial scan. If this is successful, the model uses this data only. If the model cannot be fit using 50,000 records, an additional 50,000 records are read. In non-scalable EM, the entire dataset is read regardless of its size. This method might create more accurate clusters, but the memory requirements can be significant. Because scalable EM operates on a local buffer, iterating through the data is much faster, and the algorithm makes much better use of the CPU memory cache than non-scalable EM. Moreover, scalable EM is three times faster than non-scalable EM, even if all the data can fit in main memory. In the majority of cases, the performance improvement does not lead to lower quality of the complete model.  
   
- For a technical report that describes the implementation of EM in the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Clustering algorithm, see [Scaling EM (Expectation Maximization) Clustering to Large Databases](http://go.microsoft.com/fwlink/?LinkId=45964).  
+ For a technical report that describes the implementation of EM in the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Clustering algorithm, see [Scaling EM (Expectation Maximization) Clustering to Large Databases](https://go.microsoft.com/fwlink/?LinkId=45964).  
   
 ### K-Means Clustering  
  K-means clustering is a well-known method of assigning cluster membership by minimizing the differences among items in a cluster while maximizing the distance between clusters. The "means" in k-means refers to the *centroid* of the cluster, which is a data point that is chosen arbitrarily and then refined iteratively until it represents the true mean of all data points in the cluster. The "k" refers to an arbitrary number of points that are used to seed the clustering process. The k-means algorithm calculates the squared Euclidean distances between data records in a cluster and the vector that represents the cluster mean, and converges on a final set of k clusters when that sum reaches its minimum value.  
@@ -56,7 +56,7 @@ manager: kfile
  1 - P(data point, cluster)  
   
 > [!NOTE]  
->  The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Clustering algorithm does not expose the distance function used in computing k-means, and measures of distance are not available in the completed model. However, you can use a prediction function to return a value that corresponds to distance, where distance is computed as the probability of a data point belonging to the cluster. For more information, see [ClusterProbability &#40;DMX&#41;](../../dmx/clusterprobability-dmx.md).  
+>  The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Clustering algorithm does not expose the distance function used in computing k-means, and measures of distance are not available in the completed model. However, you can use a prediction function to return a value that corresponds to distance, where distance is computed as the probability of a data point belonging to the cluster. For more information, see [ClusterProbability &#40;DMX&#41;](/sql/dmx/clusterprobability-dmx).  
   
  The k-means algorithm provides two methods of sampling the data set: non-scalable K-means, which loads the entire data set and makes one clustering pass, or scalable k-means, where the algorithm uses the first 50,000 cases and reads more cases only if it needs more data to achieve a good fit of model to data.  
   

@@ -43,7 +43,7 @@ manager: kfile
   
      For a named instance, the server name must be specified in this format: servername\instance name. An example of this naming convention might be ADV-SRV062\Finance for a server that has a network name of ADV-SRV062, where Analysis Services was installed as a named instance entitled Finance.  
   
-     For servers deployed in a failover cluster, connect using the network name of the SSAS cluster. This name is specified during SQL Server setup, as **SQL Server Network Name**. Note that if you installed SSAS as a named instance onto a Windows Server Failover Cluster (WSFC), you never add the instance name on the connection. This practice is unique to SSAS; in contrast, a named instance of a clustered relational database engine does include the instance name. For example, if you installed both SSAS and the database engine as named instance (Contoso-Accounting) with a SQL Server Network Name of SQL-CLU, you would connect to SSAS using "SQL-CLU" and to the database engine as "SQL-CLU\Contoso-Accounting". See [How to Cluster SQL Server Analysis Services](http://go.microsoft.com/fwlink/p/?LinkId=396548) for more information and examples.  
+     For servers deployed in a failover cluster, connect using the network name of the SSAS cluster. This name is specified during SQL Server setup, as **SQL Server Network Name**. Note that if you installed SSAS as a named instance onto a Windows Server Failover Cluster (WSFC), you never add the instance name on the connection. This practice is unique to SSAS; in contrast, a named instance of a clustered relational database engine does include the instance name. For example, if you installed both SSAS and the database engine as named instance (Contoso-Accounting) with a SQL Server Network Name of SQL-CLU, you would connect to SSAS using "SQL-CLU" and to the database engine as "SQL-CLU\Contoso-Accounting". See [How to Cluster SQL Server Analysis Services](https://go.microsoft.com/fwlink/p/?LinkId=396548) for more information and examples.  
   
      For servers deployed in a network load balanced cluster, connect using the virtual server name of the NLB.  
   
@@ -80,16 +80,16 @@ manager: kfile
   
      Avoid using **None**. Analysis Services does not let you specify a user name and password on the connection string unless you are connecting to a server that has been configured for HTTP access. Similarly, do not use SSS unless you already know that the SSS target application ID is mapped to a set of Windows user credentials that have user access to the Analysis Services databases. For most scenarios, using the default option of Windows authentication is the best choice for an Analysis Services connection from Excel.  
   
- For more information, see [Connect to or import data from SQL Server Analysis Services](http://go.microsoft.com/fwlink/?linkID=215150).  
+ For more information, see [Connect to or import data from SQL Server Analysis Services](https://go.microsoft.com/fwlink/?linkID=215150).  
   
 ##  <a name="bkmk_SSDT"></a> Connect using SQL Server Data Tools  
  SQL Server Data Tools is used for building BI solutions, including Analysis Services models, Reporting Services reports, and SSIS packages. When building reports or packages, you might need to specify a connection to Analysis Services.  
   
  The following links explain how to connect to Analysis Services from a Report Server project or an Integration Services project:  
   
--   [Analysis Services Connection Type for MDX &#40;SSRS&#41;](../../reporting-services/report-data/analysis-services-connection-type-for-mdx-ssrs.md)  
+-   [Analysis Services Connection Type for MDX &#40;SSRS&#41;](/sql/reporting-services/report-data/analysis-services-connection-type-for-mdx-ssrs)  
   
--   [Analysis Services Connection Manager](../../integration-services/connection-manager/analysis-services-connection-manager.md)  
+-   [Analysis Services Connection Manager](/sql/integration-services/connection-manager/analysis-services-connection-manager)  
   
 > [!NOTE]  
 >  When using SQL Server Data Tools to work on an existing Analysis Services project, remember that you can connect offline using a local or version controlled project, or connect in online mode to update Analysis Services objects while the database is running. For more information, see [Connect in Online Mode to an Analysis Services Database](../../analysis-services/multidimensional-models/connect-in-online-mode-to-an-analysis-services-database.md). More commonly, connections from [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] are in project mode, where changes are deployed to the database only when you explicitly deploy the project.  
@@ -119,7 +119,7 @@ manager: kfile
   
  Resources that can help you resolve connection failures include the following:  
   
- [Resolving Common Connectivity Issues in SQL Server 2005 Analysis Services Connectivity Scenarios](http://technet.microsoft.com/library/cc917670.aspx). This document is a few years old, but the information and methodologies still apply.  
+ [Resolving Common Connectivity Issues in SQL Server 2005 Analysis Services Connectivity Scenarios](https://technet.microsoft.com/library/cc917670.aspx). This document is a few years old, but the information and methodologies still apply.  
   
 ## See Also  
  [Connect to Analysis Services](../../analysis-services/instances/connect-to-analysis-services.md)   

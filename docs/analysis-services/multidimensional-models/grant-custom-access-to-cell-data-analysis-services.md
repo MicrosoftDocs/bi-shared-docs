@@ -43,7 +43,7 @@ manager: kfile
     (Measures.CurrentMember IS [Measures].[Reseller Sales Amount]) OR (Measures.CurrentMember IS [Measures].[Reseller Total Product Cost])  
     ```  
   
-     This expression explicitly identifies which measures are visible to users. No other measures will be available to users connecting through this role. Notice that [CurrentMember &#40;MDX&#41;](../../mdx/currentmember-mdx.md) sets the context and is followed by the measure that is allowed. The effect of this expression is, if the current member includes either the **Reseller Sales Amount** or the **Reseller Total Product Cost**, show the value. Otherwise, deny access. The expression has multiple parts, with each part enclosed in parentheses. The **OR** operator is used to specify multiple measures.  
+     This expression explicitly identifies which measures are visible to users. No other measures will be available to users connecting through this role. Notice that [CurrentMember &#40;MDX&#41;](/sql/mdx/currentmember-mdx) sets the context and is followed by the measure that is allowed. The effect of this expression is, if the current member includes either the **Reseller Sales Amount** or the **Reseller Total Product Cost**, show the value. Otherwise, deny access. The expression has multiple parts, with each part enclosed in parentheses. The **OR** operator is used to specify multiple measures.  
   
 ## Deny access to specific measures  
  The following MDX expression, also specified in **Create Role** | **Cell Data** | **Allow reading of cube content**, has the opposite effect, making certain measures unavailable. In this example, **Discount Amount** and **Discount Percentage** are made unavailable using the **NOT** and **AND** operators. All other measures will be visible to users connecting through this role.  
@@ -82,7 +82,7 @@ AND (NOT Measures.CurrentMember IS [Measures].[Reseller Total Product Cost])
  Read/write permissions on a cell are used to enable writeback, provided that members have read/write permissions to the cube itself. Permissions that are granted at the cell level cannot be greater than the permissions that are granted at the cube level. See [Set Partition Writeback](../../analysis-services/multidimensional-models/set-partition-writeback.md) for details.  
   
 ## See Also  
- [MDX Builder &#40;Analysis Services - Multidimensional Data&#41;](http://msdn.microsoft.com/library/fecbf093-65ea-4e1b-b637-f04876f1cb0f)   
+ [MDX Builder &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/fecbf093-65ea-4e1b-b637-f04876f1cb0f)   
  [The Basic MDX Script &#40;MDX&#41;](../../analysis-services/multidimensional-models/mdx/the-basic-mdx-script-mdx.md)   
  [Grant process permissions &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-process-permissions-analysis-services.md)   
  [Grant permissions on a dimension &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-permissions-on-a-dimension-analysis-services.md)   

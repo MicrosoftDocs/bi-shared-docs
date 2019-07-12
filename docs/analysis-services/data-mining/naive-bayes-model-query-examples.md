@@ -57,7 +57,7 @@ WHERE MODEL_NAME = 'TM_NaiveBayes_Filtered'
 |PREDICTION_ENTITY|Bike Buyer,Yearly Income|  
 |FILTER|[Region] = 'Europe' OR [Region] = 'North America'|  
   
- The model used for this example is based on the Naive Bayes model you create in the [Basic Data Mining Tutorial](http://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c), but was modified by adding a second predictable attribute and applying a filter to the training data.  
+ The model used for this example is based on the Naive Bayes model you create in the [Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c), but was modified by adding a second predictable attribute and applying a filter to the training data.  
   
 ###  <a name="bkmk_Query2"></a> Sample Query 2: Retrieving a Summary of Training Data  
  In a Naive Bayes model, the marginal statistics node stores aggregated information about the distribution of values in the training data. This summary is convenient and saves you from having to create SQL queries against the training data to find the same information.  
@@ -179,7 +179,7 @@ NATURAL PREDICTION JOIN
  The prediction function returns the most likely value, in this case, 0, which means this type of customer is unlikely to purchase a bike.  
   
 ###  <a name="bkmk_Query6"></a> Sample Query 6: Getting Predictions with Probability and Support Values  
- In addition to predicting an outcome, you often want to know how strong the prediction is. The following query uses the same singleton query as the previous example, but adds the prediction function, [PredictHistogram &#40;DMX&#41;](../../dmx/predicthistogram-dmx.md), to return a nested table that contains statistics in support of the prediction.  
+ In addition to predicting an outcome, you often want to know how strong the prediction is. The following query uses the same singleton query as the previous example, but adds the prediction function, [PredictHistogram &#40;DMX&#41;](/sql/dmx/predicthistogram-dmx), to return a nested table that contains statistics in support of the prediction.  
   
 ```  
 SELECT  
@@ -203,7 +203,7 @@ NATURAL PREDICTION JOIN
  The final row in the table shows the adjustments to support and probability for the missing value. Variance and standard deviation values are always 0, because Naive Bayes models cannot model continuous values.  
   
 ###  <a name="bkmk_Query7"></a> Sample Query 7: Predicting Associations  
- The Microsoft Naive Bayes algorithm can be used for association analysis, if the mining structure contains a nested table with the predictable attribute as the key. For example, you could build a Naive Bayes model by using the mining structure created in [Lesson 3: Building a Market Basket Scenario &#40;Intermediate Data Mining Tutorial&#41;](http://msdn.microsoft.com/library/651eef38-772e-4d97-af51-075b1b27fc5a) of the data mining tutorial. The model used in this example was modified to add information about income and customer region in the case table.  
+ The Microsoft Naive Bayes algorithm can be used for association analysis, if the mining structure contains a nested table with the predictable attribute as the key. For example, you could build a Naive Bayes model by using the mining structure created in [Lesson 3: Building a Market Basket Scenario &#40;Intermediate Data Mining Tutorial&#41;](https://msdn.microsoft.com/library/651eef38-772e-4d97-af51-075b1b27fc5a) of the data mining tutorial. The model used in this example was modified to add information about income and customer region in the case table.  
   
  The following query example shows a singleton query that predicts products that are related to purchases of the product, `'Road Tire Tube'`. You might use this information to recommend products to a specific type of customer.  
   
@@ -234,15 +234,15 @@ AS t
 |||  
 |-|-|  
 |Prediction Function|Usage|  
-|[IsDescendant &#40;DMX&#41;](../../dmx/isdescendant-dmx.md)|Determines whether one node is a child of another node in the model.|  
-|[Predict &#40;DMX&#41;](../../dmx/predict-dmx.md)|Returns a predicted value, or set of values, for a specified column.|  
-|[PredictAdjustedProbability &#40;DMX&#41;](../../dmx/predictadjustedprobability-dmx.md)|Returns the weighted probability.|  
-|[PredictAssociation &#40;DMX&#41;](../../dmx/predictassociation-dmx.md)|Predicts membership in an associative dataset.|  
-|[PredictNodeId &#40;DMX&#41;](../../dmx/predictnodeid-dmx.md)|Returns the Node_ID for each case.|  
-|[PredictProbability &#40;DMX&#41;](../../dmx/predictprobability-dmx.md)|Returns probability for the predicted value.|  
-|[PredictSupport &#40;DMX&#41;](../../dmx/predictsupport-dmx.md)|Returns the support value for a specified state.|  
+|[IsDescendant &#40;DMX&#41;](/sql/dmx/isdescendant-dmx)|Determines whether one node is a child of another node in the model.|  
+|[Predict &#40;DMX&#41;](/sql/dmx/predict-dmx)|Returns a predicted value, or set of values, for a specified column.|  
+|[PredictAdjustedProbability &#40;DMX&#41;](/sql/dmx/predictadjustedprobability-dmx)|Returns the weighted probability.|  
+|[PredictAssociation &#40;DMX&#41;](/sql/dmx/predictassociation-dmx)|Predicts membership in an associative dataset.|  
+|[PredictNodeId &#40;DMX&#41;](/sql/dmx/predictnodeid-dmx)|Returns the Node_ID for each case.|  
+|[PredictProbability &#40;DMX&#41;](/sql/dmx/predictprobability-dmx)|Returns probability for the predicted value.|  
+|[PredictSupport &#40;DMX&#41;](/sql/dmx/predictsupport-dmx)|Returns the support value for a specified state.|  
   
- To see  the syntax of specific functions, see [Data Mining Extensions &#40;DMX&#41; Function Reference](../../dmx/data-mining-extensions-dmx-function-reference.md).  
+ To see  the syntax of specific functions, see [Data Mining Extensions &#40;DMX&#41; Function Reference](/sql/dmx/data-mining-extensions-dmx-function-reference).  
   
 ## See Also  
  [Microsoft Naive Bayes Algorithm Technical Reference](../../analysis-services/data-mining/microsoft-naive-bayes-algorithm-technical-reference.md)   

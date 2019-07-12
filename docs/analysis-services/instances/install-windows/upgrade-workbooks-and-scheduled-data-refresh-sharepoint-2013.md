@@ -12,10 +12,10 @@ manager: kfile
 ---
 # Upgrade Workbooks and Scheduled Data Refresh (SharePoint 2013)
 [!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  This topic explains the user experience of workbooks created in previous [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] environments and how to upgrade [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] workbooks so that you can take advantage of new features introduced in this release. To learn more about new features, see [What's New in Power Pivot](http://go.microsoft.com/fwlink/?LinkID=203917).  
+  This topic explains the user experience of workbooks created in previous [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] environments and how to upgrade [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] workbooks so that you can take advantage of new features introduced in this release. To learn more about new features, see [What's New in Power Pivot](https://go.microsoft.com/fwlink/?LinkID=203917).  
   
 > [!WARNING]  
->  You cannot rollback upgrade for workbooks that are upgraded automatically on the server. Once a workbook is upgraded, it remains upgraded. To use a previous version, you can republish the previous workbook to SharePoint, restore a previous version, or recycle the workbook. For more information about restoring or recycling a document in SharePoint, see [Plan to protect content by using recycle bins and versioning](http://go.microsoft.com/fwlink/?LinkId=238669).  
+>  You cannot rollback upgrade for workbooks that are upgraded automatically on the server. Once a workbook is upgraded, it remains upgraded. To use a previous version, you can republish the previous workbook to SharePoint, restore a previous version, or recycle the workbook. For more information about restoring or recycling a document in SharePoint, see [Plan to protect content by using recycle bins and versioning](https://go.microsoft.com/fwlink/?LinkId=238669).  
   
   
 ##  <a name="bkmk_overview"></a> Overview of Upgrading Workbooks  
@@ -65,8 +65,6 @@ manager: kfile
      Open the [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] window and upgrade the [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] model.  
   
      Then save the workbook and republish it to the SharePoint server.  
-  
- For more information on Changes to Analysis Services features, see [Behavior Changes to Analysis Services Features in SQL Server 2016](../../../analysis-services/behavior-changes-to-analysis-services-features-in-sql-server-2016.md)  
   
  For more information on refresh history, see [View Data Refresh History &#40;Power Pivot for SharePoint&#41;](../../../analysis-services/power-pivot-sharepoint/view-data-refresh-history-power-pivot-for-sharepoint.md).  
   
@@ -154,7 +152,7 @@ PS C:\Windows\system32> Set-PowerPivotSystemService -WorkbookUpgradeOnDataRefres
   
 ## See Also  
  [Migrate Power Pivot to SharePoint 2013](../../../analysis-services/instances/install-windows/migrate-power-pivot-to-sharepoint-2013.md)   
- [Upgrade Power Pivot for SharePoint](../../../database-engine/install-windows/upgrade-power-pivot-for-sharepoint.md)   
+ [Upgrade Power Pivot for SharePoint](/sql/database-engine/install-windows/upgrade-power-pivot-for-sharepoint)   
  [What's New in Analysis Services](../../../analysis-services/what-s-new-in-analysis-services.md)   
  [View Data Refresh History &#40;Power Pivot for SharePoint&#41;](../../../analysis-services/power-pivot-sharepoint/view-data-refresh-history-power-pivot-for-sharepoint.md)  
   

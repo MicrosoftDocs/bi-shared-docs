@@ -75,7 +75,7 @@ manager: kfile
 #### Bayesian with K2 Prior  
  [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] Data Mining provides two feature selection scores that are based on Bayesian networks. A Bayesian network is a *directed* or *acyclic* graph of states and transitions between states, meaning that some states are always prior to the current state, some states are posterior, and the graph does not repeat or loop. By definition, Bayesian networks allow the use of prior knowledge. However, the question of which prior states to use in calculating probabilities of later states is important for algorithm design, performance, and accuracy.  
   
- The K2 algorithm for learning from a Bayesian network was developed by Cooper and Herskovits and is often used in data mining. It is scalable and can analyze multiple variables, but requires ordering on variables used as input. For more information, see [Learning Bayesian Networks](http://research.microsoft.com/en-us/um/people/heckerman/hgc94uai.pdf) by Chickering, Geiger, and Heckerman.  
+ The K2 algorithm for learning from a Bayesian network was developed by Cooper and Herskovits and is often used in data mining. It is scalable and can analyze multiple variables, but requires ordering on variables used as input. For more information, see [Learning Bayesian Networks](https://research.microsoft.com/en-us/um/people/heckerman/hgc94uai.pdf) by Chickering, Geiger, and Heckerman.  
   
  This scoring method is available for discrete and discretized attributes.  
   
@@ -84,7 +84,7 @@ manager: kfile
   
  The Bayesian Dirichlet Equivalent with Uniform Prior (BDEU) method assumes a special case of the Dirichlet distribution, in which a mathematical constant is used to create a fixed or uniform distribution of prior states. The BDE score also assumes likelihood equivalence, which means that the data cannot be expected to discriminate equivalent structures. In other words, if the score for If A Then B is the same as the score for If B Then A, the structures cannot be distinguished based on the data, and causation cannot be inferred.  
   
- For more information about Bayesian networks and the implementation of these scoring methods, see [Learning Bayesian Networks](http://research.microsoft.com/en-us/um/people/heckerman/hgc94uai.pdf).  
+ For more information about Bayesian networks and the implementation of these scoring methods, see [Learning Bayesian Networks](https://research.microsoft.com/en-us/um/people/heckerman/hgc94uai.pdf).  
   
 ### Feature Selection Methods per Algorithm  
  The following table lists the algorithms that support feature selection, the feature selection methods used by the algorithm, and the parameters that you set to control feature selection behavior:  

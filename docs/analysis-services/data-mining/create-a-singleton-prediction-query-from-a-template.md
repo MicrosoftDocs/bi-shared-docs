@@ -85,6 +85,6 @@ AS [t]
 11. Click **Execute**.  
   
 ## See Also  
- [Creating Predictions &#40;Basic Data Mining Tutorial&#41;](http://msdn.microsoft.com/library/a8410ed2-bb98-4d51-a9eb-b239be1201c2)  
+ [Creating Predictions &#40;Basic Data Mining Tutorial&#41;](https://msdn.microsoft.com/library/a8410ed2-bb98-4d51-a9eb-b239be1201c2)  
   
   

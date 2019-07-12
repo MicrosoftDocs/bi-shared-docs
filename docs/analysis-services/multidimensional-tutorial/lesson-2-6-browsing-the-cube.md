@@ -1,5 +1,5 @@
 ---
-title: "Browsing the Cube | Microsoft Docs"
+title: "Browsing the Cube (Analysis Services) | Microsoft Docs"
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services
@@ -37,7 +37,7 @@ Excel generally offers a better browsing experience because you can explore cube
 [Lesson 3: Modifying Measures, Attributes and Hierarchies](lesson-3-modifying-measures-attributes-and-hierarchies.md)  
   
 ## See Also  
-[MDX Query Editor &#40;Analysis Services - Multidimensional Data&#41;](http://msdn.microsoft.com/library/777f2c23-1c1c-4b72-9d19-48a4866551f8)  
+[MDX Query Editor &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/777f2c23-1c1c-4b72-9d19-48a4866551f8)  
   
   
   

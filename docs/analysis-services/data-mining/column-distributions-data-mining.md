@@ -37,7 +37,7 @@ manager: kfile
  [Content Types &#40;Data Mining&#41;](../../analysis-services/data-mining/content-types-data-mining.md)   
  [Mining Structures &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-structures-analysis-services-data-mining.md)   
  [Discretization Methods &#40;Data Mining&#41;](../../analysis-services/data-mining/discretization-methods-data-mining.md)   
- [Distributions &#40;DMX&#41;](../../dmx/distributions-dmx.md)   
+ [Distributions &#40;DMX&#41;](/sql/dmx/distributions-dmx)   
  [Mining Structure Columns](../../analysis-services/data-mining/mining-structure-columns.md)  
   
   

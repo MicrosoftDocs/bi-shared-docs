@@ -1,5 +1,5 @@
 ---
-title: "Lesson 13: Deploy | Microsoft Docs"
+title: "Lesson 13: Deploy Analysis Services model | Microsoft Docs"
 ms.date: 05/07/2019
 ms.prod: sql
 ms.technology: analysis-services

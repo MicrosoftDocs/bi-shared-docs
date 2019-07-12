@@ -36,7 +36,7 @@ manager: kfile
 2.  Click **New Document** > **Report Data Source**.  
   
     > [!NOTE]  
-    >  If you do not see the **Report Data Source** item on the menu, the report data source content type has not been enabled for this library. For more information, see [Add Reporting Services Content Types to a SharePoint Library](../../reporting-services/report-server-sharepoint/add-reporting-services-content-types-to-a-sharepoint-library.md).  
+    >  If you do not see the **Report Data Source** item on the menu, the report data source content type has not been enabled for this library. For more information, see [Add Reporting Services Content Types to a SharePoint Library](/sql/reporting-services/report-server-sharepoint/add-reporting-services-content-types-to-a-sharepoint-library).  
   
 3.  On the **Data Source Properties** page, in **Name**, type a name for the connection .rsds file.  
   

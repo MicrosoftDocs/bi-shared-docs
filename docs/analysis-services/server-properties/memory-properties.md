@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services Memory Properties | Microsoft Docs"
-ms.date: 03/15/2019
+ms.date: 06/17/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -16,8 +16,6 @@ manager: kfile
   Analysis Services pre-allocates a modest amount of memory at startup so requests can be handled immediately. Additional memory is allocated as query and processing workloads increase. 
   
   By specifying configuration settings, you can control the thresholds at which memory is released. For example, the **HardMemoryLimit** setting specifies a self-imposed out-of-memory condition (by default, this threshold is not enabled), where new requests are rejected outright until more resources become available.
-
-To learn more about maximum memory utilized per SQL Server Analysis Services instance by edition, see [Editions and supported features of SQL Server](../../sql-server/editions-and-components-of-sql-server-2017.md#Cross-BoxScaleLimits).
   
  The following settings apply to both tabular and multidimensional servers unless noted otherwise.  
  

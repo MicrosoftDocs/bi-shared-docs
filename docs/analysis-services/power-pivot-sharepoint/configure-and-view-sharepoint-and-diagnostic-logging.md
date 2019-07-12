@@ -79,7 +79,7 @@ manager: kfile
   
  The following instructions include links to popular SharePoint ULS Log Viewers that you can download from Codeplex.  
   
-1.  Go to [SharePoint LogViewer](http://sharepointlogviewer.codeplex.com) or [SharePoint ULS Log Viewer](http://go.microsoft.com/fwlink/?LinkId=150052) on the Codeplex site.  
+1.  Go to [SharePoint LogViewer](https://sharepointlogviewer.codeplex.com) or [SharePoint ULS Log Viewer](https://go.microsoft.com/fwlink/?LinkId=150052) on the Codeplex site.  
   
 2.  Click the **Downloads** tab.  
   
@@ -120,7 +120,7 @@ manager: kfile
   
 ## See Also  
  [Power Pivot Usage Data Collection](../../analysis-services/power-pivot-sharepoint/power-pivot-usage-data-collection.md)   
- [View and Read SQL Server Setup Log Files](../../database-engine/install-windows/view-and-read-sql-server-setup-log-files.md)   
+ [View and Read SQL Server Setup Log Files](/sql/database-engine/install-windows/view-and-read-sql-server-setup-log-files)   
  [Configure Usage Data Collection for &#40;Power Pivot for SharePoint](../../analysis-services/power-pivot-sharepoint/configure-usage-data-collection-for-power-pivot-for-sharepoint.md)  
   
   

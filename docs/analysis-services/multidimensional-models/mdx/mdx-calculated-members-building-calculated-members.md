@@ -27,8 +27,8 @@ manager: kfile
      For more information about how to use the CREATE MEMBER statement to create calculated members in a session, see [Creating Session-Scoped Calculated Members &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-calculated-members-session-scoped-calculated-members.md).  
   
 ## See Also  
- [CREATE MEMBER Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-create-member.md)   
- [MDX Function Reference &#40;MDX&#41;](../../../mdx/mdx-function-reference-mdx.md)   
- [SELECT Statement &#40;MDX&#41;](../../../mdx/mdx-data-manipulation-select.md)  
+ [CREATE MEMBER Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-member)   
+ [MDX Function Reference &#40;MDX&#41;](/sql/mdx/mdx-function-reference-mdx)   
+ [SELECT Statement &#40;MDX&#41;](/sql/mdx/mdx-data-manipulation-select)  
   
   

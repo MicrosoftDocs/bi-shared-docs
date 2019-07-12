@@ -31,9 +31,9 @@ manager: kfile
 ##  <a name="bkmk_top"></a> Getting Information about the Logistic Regression Model  
  Logistic regression models are created by using the Microsoft Neural Network algorithm with a special set of parameters; therefore, a logistic regression model has some of the same information as a neural networks model, but is less complex. To understand the structure of the model content, and which node types store what kind of information, see [Mining Model Content for Logistic Regression Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-for-logistic-regression-models.md).  
   
- To follow along in the query scenarios, you can create a logistic regression model as described in the following section of the Intermediate Data Mining Tutorial: [Lesson 5: Building Neural Network and Logistic Regression Models &#40;Intermediate Data Mining Tutorial&#41;](http://msdn.microsoft.com/library/42c3701a-1fd2-44ff-b7de-377345bbbd6b).  
+ To follow along in the query scenarios, you can create a logistic regression model as described in the following section of the Intermediate Data Mining Tutorial: [Lesson 5: Building Neural Network and Logistic Regression Models &#40;Intermediate Data Mining Tutorial&#41;](https://msdn.microsoft.com/library/42c3701a-1fd2-44ff-b7de-377345bbbd6b).  
   
- You can also use the mining structure, Targeted Mailing, from the [Basic Data Mining Tutorial](http://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c).  
+ You can also use the mining structure, Targeted Mailing, from the [Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c).  
   
 ```  
 ALTER MINING STRUCTURE [Targeted Mailing]  
@@ -96,12 +96,12 @@ FROM [TM_Logistic Regression].CONTENT
 >  The results have been flattened for easier viewing, but you can return the nested table in a single column if your provider supports hierarchical rowsets.  
   
 ## Prediction Queries on a Logistic Regression Model  
- You can use the [Predict &#40;DMX&#41;](../../dmx/predict-dmx.md) function with every kind of mining model to provide new data to the model and make predictions based on the new values. You can also use functions to return additional information about the prediction, such as the probability that a prediction is correct. This section provides some examples of prediction queries on a logistic regression model.  
+ You can use the [Predict &#40;DMX&#41;](/sql/dmx/predict-dmx) function with every kind of mining model to provide new data to the model and make predictions based on the new values. You can also use functions to return additional information about the prediction, such as the probability that a prediction is correct. This section provides some examples of prediction queries on a logistic regression model.  
   
 ###  <a name="bkmk_Query3"></a> Sample Query 3: Making Predictions for a Continuous Value  
  Because logistic regression supports the use of continuous attributes for both input and prediction, it is easy to create models that correlate various factors in your data. You can use prediction queries to explore the relationship among these factors.  
   
- The following query sample is based on the Call Center model, from the Intermediate Tutorial, and creates a singleton query that predicts service grade for the Friday AM shift. The [PredictHistogram (DMX)](../../dmx/predicthistogram-dmx.md) function returns a nested table that provides statistics relevant to understanding the validity of the predicted value.  
+ The following query sample is based on the Call Center model, from the Intermediate Tutorial, and creates a singleton query that predicts service grade for the Friday AM shift. The [PredictHistogram (DMX)](/sql/dmx/predicthistogram-dmx) function returns a nested table that provides statistics relevant to understanding the validity of the predicted value.  
   
 ```  
 SELECT  
@@ -181,24 +181,24 @@ NATURAL PREDICTION JOIN
 |||  
 |-|-|  
 |Prediction Function|Usage|  
-|[IsDescendant &#40;DMX&#41;](../../dmx/isdescendant-dmx.md)|Determines whether one node is a child of another node in the model.|  
-|[PredictAdjustedProbability &#40;DMX&#41;](../../dmx/predictadjustedprobability-dmx.md)|Returns the adjusted probability of a specified state.|  
-|[PredictHistogram &#40;DMX&#41;](../../dmx/predicthistogram-dmx.md)|Returns a predicted value, or set of values, for a specified column.|  
-|[PredictProbability &#40;DMX&#41;](../../dmx/predictprobability-dmx.md)|Returns the probability for a specified state.|  
-|[PredictStdev &#40;DMX&#41;](../../dmx/predictstdev-dmx.md)|Returns standard deviation for the predicted value.|  
-|[PredictSupport &#40;DMX&#41;](../../dmx/predictsupport-dmx.md)|Returns the support value for a specified state.|  
-|[PredictVariance &#40;DMX&#41;](../../dmx/predictvariance-dmx.md)|Returns the variance of a specified column.|  
+|[IsDescendant &#40;DMX&#41;](/sql/dmx/isdescendant-dmx)|Determines whether one node is a child of another node in the model.|  
+|[PredictAdjustedProbability &#40;DMX&#41;](/sql/dmx/predictadjustedprobability-dmx)|Returns the adjusted probability of a specified state.|  
+|[PredictHistogram &#40;DMX&#41;](/sql/dmx/predicthistogram-dmx)|Returns a predicted value, or set of values, for a specified column.|  
+|[PredictProbability &#40;DMX&#41;](/sql/dmx/predictprobability-dmx)|Returns the probability for a specified state.|  
+|[PredictStdev &#40;DMX&#41;](/sql/dmx/predictstdev-dmx)|Returns standard deviation for the predicted value.|  
+|[PredictSupport &#40;DMX&#41;](/sql/dmx/predictsupport-dmx)|Returns the support value for a specified state.|  
+|[PredictVariance &#40;DMX&#41;](/sql/dmx/predictvariance-dmx)|Returns the variance of a specified column.|  
   
- For a list of the functions that are common to all [!INCLUDE[msCoName](../../includes/msconame-md.md)] algorithms, see [General Prediction Functions &#40;DMX&#41;](../../dmx/general-prediction-functions-dmx.md). For the syntax of specific functions, see [Data Mining Extensions &#40;DMX&#41; Function Reference](../../dmx/data-mining-extensions-dmx-function-reference.md).  
+ For a list of the functions that are common to all [!INCLUDE[msCoName](../../includes/msconame-md.md)] algorithms, see [General Prediction Functions &#40;DMX&#41;](/sql/dmx/general-prediction-functions-dmx). For the syntax of specific functions, see [Data Mining Extensions &#40;DMX&#41; Function Reference](/sql/dmx/data-mining-extensions-dmx-function-reference).  
   
 > [!NOTE]  
->  For neural network and logistic regression models, the [PredictSupport &#40;DMX&#41;](../../dmx/predictsupport-dmx.md) function returns a single value that represents the size of the training set for the entire model.  
+>  For neural network and logistic regression models, the [PredictSupport &#40;DMX&#41;](/sql/dmx/predictsupport-dmx) function returns a single value that represents the size of the training set for the entire model.  
   
 ## See Also  
  [Data Mining Queries](../../analysis-services/data-mining/data-mining-queries.md)   
  [Microsoft Logistic Regression Algorithm](../../analysis-services/data-mining/microsoft-logistic-regression-algorithm.md)   
  [Microsoft Logistic Regression Algorithm Technical Reference](../../analysis-services/data-mining/microsoft-logistic-regression-algorithm-technical-reference.md)   
  [Mining Model Content for Logistic Regression Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-for-logistic-regression-models.md)   
- [Lesson 5: Building Neural Network and Logistic Regression Models &#40;Intermediate Data Mining Tutorial&#41;](http://msdn.microsoft.com/library/42c3701a-1fd2-44ff-b7de-377345bbbd6b)  
+ [Lesson 5: Building Neural Network and Logistic Regression Models &#40;Intermediate Data Mining Tutorial&#41;](https://msdn.microsoft.com/library/42c3701a-1fd2-44ff-b7de-377345bbbd6b)  
   
   

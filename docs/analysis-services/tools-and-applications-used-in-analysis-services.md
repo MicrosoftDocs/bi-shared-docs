@@ -30,7 +30,7 @@ manager: kfile
   
  SQL Server Management Studio (SSMS) is the primary administration tool for all SQL Server features, including Analysis Services. SSMS is a free web download updated monthly. 
   
-**[Download SQL Server Management Studio](../ssms/download-sql-server-management-studio-ssms.md)** 
+**[Download SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms)** 
   
  SSMS includes extended events (xEvents), providing a lightweight alternative to SQL Server Profiler traces used for monitoring activity and diagnosing problems on SQL Server 2016 and Azure Analysis Services servers. See [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md) to learn more.  
   
@@ -39,9 +39,6 @@ manager: kfile
   
 ### PowerShell  
  You can use PowerShell commands to perform many administrative tasks. See [PowerShell reference](../analysis-services/powershell/analysis-services-powershell-reference.md) for more information.  
-  
-### Community and Third-party tools  
- Check the [Analysis Services codeplex page](http://sqlsrvanalysissrvcs.codeplex.com/) for community code samples. [Forums](http://social.msdn.microsoft.com/Forums/sqlserver/home?forum=sqlanalysisservices) can be helpful when seeking recommendations for third-party tools that support Analysis Services.  
   
 ## See Also  
  [Compatibility Level of a Multidimensional Database](../analysis-services/multidimensional-models/compatibility-level-of-a-multidimensional-database-analysis-services.md)   

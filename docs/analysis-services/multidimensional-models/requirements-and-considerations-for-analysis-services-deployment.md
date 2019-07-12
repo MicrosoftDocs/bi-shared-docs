@@ -29,9 +29,9 @@ manager: kfile
   
  The amount of memory and processor resources that are available to [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] varies depending on the edition of SQL Server, operating system, hardware capability, and whether you are using virtual or physical processors. For more information, follow these links:  
   
- [Hardware and Software Requirements for Installing SQL Server 2016](../../sql-server/install/hardware-and-software-requirements-for-installing-sql-server.md)  
+ [Hardware and Software Requirements for Installing SQL Server 2016](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server)  
   
- [Compute Capacity Limits by Edition of SQL Server](../../sql-server/compute-capacity-limits-by-edition-of-sql-server.md)  
+ [Compute Capacity Limits by Edition of SQL Server](/sql/sql-server/compute-capacity-limits-by-edition-of-sql-server)  
   
  [Features Supported by the Editions of SQL Server 2016](../../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md)  
   
@@ -58,7 +58,7 @@ manager: kfile
 ### Providing Availability in the Event of Hardware or Software Failures  
  Hardware or software may fail for various reasons. However, maintaining availability of your [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] installation is not only about troubleshooting the source of those failures, but also about providing alternative resources that enable the user to continue using the system if a failure occurs. Clustering and load balancing servers are typically used to provide the alternative resources that are necessary to maintain availability when hardware or software failures occur.  
   
- To provide availability in the event of a hardware or software failure, consider deploying [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] into a failover cluster. In a failover cluster, if the primary node fails for any reason or if it must be rebooted, [!INCLUDE[msCoName](../../includes/msconame-md.md)] Windows Clustering fails over to a secondary node. After the failover, which occurs very quickly, when users run query they are accessing the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] that is running on the secondary node. For more information about failover clusters, see [Windows Server Technologies:  Failover Clusters](http://technet.microsoft.com/library/cc732488\(v=WS.10\).aspx).  
+ To provide availability in the event of a hardware or software failure, consider deploying [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] into a failover cluster. In a failover cluster, if the primary node fails for any reason or if it must be rebooted, [!INCLUDE[msCoName](../../includes/msconame-md.md)] Windows Clustering fails over to a secondary node. After the failover, which occurs very quickly, when users run query they are accessing the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] that is running on the secondary node. For more information about failover clusters, see [Windows Server Technologies:  Failover Clusters](https://technet.microsoft.com/library/cc732488\(v=WS.10\).aspx).  
   
  Another solution for availability issues is to deploy your [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project onto two or more production servers. You can then use the Network Load Balancing (NLB) feature of Windows servers to combine the production servers into a single cluster. In an NLB cluster, if a server in the cluster is unavailable due to hardware or software issues, the NLB service directs user queries to those servers that are still available.  
   

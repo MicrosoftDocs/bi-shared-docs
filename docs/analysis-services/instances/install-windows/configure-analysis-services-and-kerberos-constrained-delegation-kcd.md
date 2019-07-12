@@ -47,7 +47,7 @@ manager: kfile
 ### Domain Controller  
  The following is a summary of what to install for the domain controller (DC).  
   
--   **Role:** Active Directory Domain Services. For an overview, see [Configuring Active Directory (AD DS) in Windows Server 2012](http://sharepointgeorge.com/2012/configuring-active-directory-ad-ds-in-windows-server-2012/).  
+-   **Role:** Active Directory Domain Services.   
   
 -   **Role:** DNS Server  
   
@@ -79,7 +79,7 @@ manager: kfile
   
     10. Repeat the steps for IPv4.  
   
--   **Note:** you can join computers to the domain from Windows Control panel, in the System settings. For more information, see [How To Join Windows Server 2012 to a Domain](http://social.technet.microsoft.com/wiki/contents/articles/20260.how-to-join-windows-server-2012-to-a-domain.aspx).  
+-   **Note:** you can join computers to the domain from Windows Control panel, in the System settings. For more information, see [How To Join Windows Server 2012 to a Domain](https://social.technet.microsoft.com/wiki/contents/articles/20260.how-to-join-windows-server-2012-to-a-domain.aspx).  
   
  ![ssas server in powerpivot mode](../../../analysis-services/instances/install-windows/media/ssas-kcd-powerpivotserver-icon.png "ssas server in powerpivot mode")  
   
@@ -198,16 +198,16 @@ manager: kfile
 6.  Configure SharePoint Authentication providers for Kerberos. **This is needed for scenario 1**. For more information, see [Plan for Kerberos authentication in SharePoint 2013](https://technet.microsoft.com/library/ee806870.aspx).  
   
 ##  <a name="bkmk_moreinfo"></a> More Information and community content  
- [Kerberos for the Busy Admin](http://blogs.technet.com/b/askds/archive/2008/03/06/kerberos-for-the-busy-admin.aspx)  
+ [Kerberos for the Busy Admin](https://blogs.technet.com/b/askds/archive/2008/03/06/kerberos-for-the-busy-admin.aspx)  
   
- [Understanding Kerberos Double Hop](http://blogs.technet.com/b/askds/archive/2008/06/13/understanding-kerberos-double-hop.aspx)  
+ [Understanding Kerberos Double Hop](https://blogs.technet.com/b/askds/archive/2008/06/13/understanding-kerberos-double-hop.aspx)  
   
  [ALL things .Net and SharePoint](http://sbrickey.com/Tech/Blog/Post/Kerberos_Primer)  
   
- [Resource Based Kerberos Constrained Delegation](http://blog.kloud.com.au/2013/07/11/kerberos-constrained-delegation/)  
+ [Resource Based Kerberos Constrained Delegation](https://blog.kloud.com.au/2013/07/11/kerberos-constrained-delegation/)  
   
- [KERBEROS PRIMER - videos](http://blog.martinlund.it/kerberos-primer/)  
+ [KERBEROS PRIMER - videos](https://blog.martinlund.it/kerberos-primer/)  
   
- [Microsoft® Kerberos Configuration Manager for SQL Server®](http://www.microsoft.com/en-us/download/details.aspx?id=39046)  
+ [Microsoft® Kerberos Configuration Manager for SQL Server®](https://www.microsoft.com/en-us/download/details.aspx?id=39046)  
   
   

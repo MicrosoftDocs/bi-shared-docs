@@ -1,1 +1,0 @@
-Publisher and distributor databases on Azure SQL Database require [Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance) for more information, see [Replication with Azure SQL Database](http://docs.microsoft.com/sql/relational-databases/replication/replication-to-sql-database).

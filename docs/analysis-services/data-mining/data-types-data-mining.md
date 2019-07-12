@@ -42,10 +42,10 @@ manager: kfile
   
 ## See Also  
  [Content Types &#40;Data Mining&#41;](../../analysis-services/data-mining/content-types-data-mining.md)   
- [Content Types &#40;DMX&#41;](../../dmx/content-types-dmx.md)   
+ [Content Types &#40;DMX&#41;](/sql/dmx/content-types-dmx)   
  [Data Mining Algorithms &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining.md)   
  [Mining Structures &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-structures-analysis-services-data-mining.md)   
- [Data Types &#40;DMX&#41;](../../dmx/data-types-dmx.md)   
+ [Data Types &#40;DMX&#41;](/sql/dmx/data-types-dmx)   
  [Mining Model Columns](../../analysis-services/data-mining/mining-model-columns.md)   
  [Mining Structure Columns](../../analysis-services/data-mining/mining-structure-columns.md)  
   

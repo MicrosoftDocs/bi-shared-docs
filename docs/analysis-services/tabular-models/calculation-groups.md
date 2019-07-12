@@ -27,8 +27,6 @@ This article describes:
 > * Tools
 > * Limitations
 
-
-
 ## Benefits
 
 Calculation groups address an issue in complex models where there can be a proliferation of redundant measures using the same calculations - most common with time-intelligence calculations. For example, a sales analyst wants to view sales totals and orders by month-to-date (MTD), quarter-to-date (QTD), year-to-date (YTD), orders year-to-date for the previous year (PY), and so on. The data modeler has to create separate measures for each calculation, which can lead to dozens of measures. For the user, this can mean having to sort through just as many measures, and apply them individually to their report. 
@@ -41,7 +39,7 @@ In the following animation, a user is analyzing sales data for years 2012 and 20
 
 With a calculation group, in this example named **Time Intelligence**, when the user drags the **Time Calculation** item to the **Columns** filter area, each calculation item appears as a separate column. Values for each row are calculated from the base measure, **Sales**.  
 
-![Calculation group being applied in Power BI](media/as-calculation-groups/as-calc-groups-pbi.gif)
+![Calculation group being applied in Power BI](media/calculation-groups/calc-groups-pbi.gif)
 
 
 Calculation groups work with **explicit** DAX measures. In this example, **Sales** is an explicit measure already created in the model. Calculation groups do not work with implicit DAX measures. For example, in Power BI implicit measures are created when a user drags columns onto visuals to view aggregated values, without creating an explicit measure. At this time, Power BI generates DAX for implicit measures written as inline DAX calculations - meaning implicit measures cannot work with calculation groups. A new model property visible in the Tabular Object Model (TOM) has been introduced, **DiscourageImplicitMeasures**. Currently, in order to create calculation groups this property must be set to **true**. When set to true, Power BI Desktop in Live Connect mode disables creation of implicit measures.
@@ -58,7 +56,7 @@ Before we go into the details, let's introduce some new DAX functions specifical
 
 [ISSELECTEDMEASURE](https://docs.microsoft.com/dax/isselectedmeasure-function-dax) - Used by expressions for calculation items to determine the measure that is in context is specified in a list of measures.
 
-[SELECTEDMEASUREFORMATSTRING](https://docs.microsoft.com/dax/selectedmeasurefromatstring-function-dax) - Used by expressions for calculation items to retrieve the format string of the measure that is in context.
+[SELECTEDMEASUREFORMATSTRING](https://docs.microsoft.com/dax/selectedmeasureformatstring-function-dax) - Used by expressions for calculation items to retrieve the format string of the measure that is in context.
 
 ### Time Intelligence example
 
@@ -153,7 +151,7 @@ DIVIDE(
 )
 ```
 
-To test this calculation group, you can execute a DAX query in SSMS or the open-source [DAX Studio](http://daxstudio.org/). Note: YOY and YOY% are omitted from this query example.
+To test this calculation group, you can execute a DAX query in SSMS or the open-source [DAX Studio](https://daxstudio.org/). Note: YOY and YOY% are omitted from this query example.
 
 #### Time Intelligence query
 
@@ -178,7 +176,7 @@ CALCULATETABLE (
 
 The return table shows calculations for each calculation item applied. For example, you can see QTD for March 2012 is the sum of January, February and March 2012.
 
-![Query return](media/as-calculation-groups/as-calc-groups-query-return.png)
+![Query return](media/calculation-groups/calc-groups-query-return.png)
 
 
 ## Dynamic format strings
@@ -195,17 +193,17 @@ For **YOY%**, we can override the format string by setting the format string exp
 
 In this matrix visual in Power BI, you see **Sales Current/YOY** and **Orders Current/YOY** retain their respective base measure format strings. **Sales YOY%** and **Orders YOY%**, however, overrides the format string to use *percentage* format.
 
-![Time intelligence in matrix visual](media/as-calculation-groups/as-calc-groups-dynamicstring-timeintel.png)
+![Time intelligence in matrix visual](media/calculation-groups/calc-groups-dynamicstring-timeintel.png)
 
 ### Dynamic format strings for currency conversion
 
 Dynamic format strings provide easy currency conversion. Consider the following Adventure Works data model. It's modeled for *one-to-many* currency conversion as defined by  [Conversion types](../currency-conversions-analysis-services.md#conversion-types).
 
-![Currency rate in tabular model](media/as-calculation-groups/as-calc-groups-currency-conversion.png)
+![Currency rate in tabular model](media/calculation-groups/calc-groups-currency-conversion.png)
 
 A **FormatString** column is added to the **DimCurrency** table and populated with format strings for the respective currencies.
 
-![Format string column](media/as-calculation-groups/as-calc-groups-formatstringcolumn.png)
+![Format string column](media/calculation-groups/calc-groups-formatstringcolumn.png)
 
 For this example, the following calculation group is then defined as:
 
@@ -245,11 +243,11 @@ SELECTEDVALUE(
     SELECTEDMEASUREFORMATSTRING()
 )
 ```
-The format string expression must return a scalar string. It uses the new [SELECTEDMEASUREFORMATSTRING](https://docs.microsoft.com/dax/selectedmeasurefromatstring-function-dax) function to revert to the base measure format string if there are multiple currencies in filter context.
+The format string expression must return a scalar string. It uses the new [SELECTEDMEASUREFORMATSTRING](https://docs.microsoft.com/dax/selectedmeasureformatstring-function-dax) function to revert to the base measure format string if there are multiple currencies in filter context.
 
 The following animation shows the dynamic format currency conversion of the **Sales** measure in a report.
 
-![Currency conversion dynamic format string applied](media/as-calculation-groups/as-calc-groups-dynamic-format-string.gif)
+![Currency conversion dynamic format string applied](media/calculation-groups/calc-groups-dynamic-format-string.gif)
 
 ## Precedence
 
@@ -318,7 +316,7 @@ EVALUATE
 
 #### Averages query return
 
-![Query return](media/as-calculation-groups/as-calc-groups-ytd-daily-avg.png)
+![Query return](media/calculation-groups/calc-groups-ytd-daily-avg.png)
 
 The following table shows how the March 2012 values are calculated.
 

@@ -1,5 +1,5 @@
 ---
-title: "Data Mining (SSAS) | Microsoft Docs"
+title: "Data Mining (Analysis Services) | Microsoft Docs"
 ms.date: 01/09/2019
 ms.prod: sql
 ms.technology: analysis-services
@@ -66,6 +66,6 @@ manager: kfile
 -   [Security Overview &#40;Data Mining&#41;](../../analysis-services/data-mining/security-overview-data-mining.md)  
   
 ## See Also  
- [SQL Server R Services](../../advanced-analytics/r-services/sql-server-r-services.md)  
+ [SQL Server R Services](/sql/advanced-analytics/r-services/sql-server-r-services)  
   
   

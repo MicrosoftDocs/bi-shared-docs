@@ -29,11 +29,11 @@ The lessons in this tutorial assume that you have the following software install
 ## Step 2: Download and install developer and management tools
 SQL Server Data Tools (SSDT) for Visual Studio is downloaded and installed separately from other SQL Server features. The designers and project templates used to create BI models and reports are included in SSDT for Visual Studio 2015 or as [Nuget packages](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) for Visual Studio 2017.  
   
-[Download SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=827542).   
+[Download SQL Server Data Tools](https://go.microsoft.com/fwlink/?LinkID=827542).   
 
 SQL Server Management Studio (SSMS) is downloaded and installed separately from other SQL Server features.  
 
-[Download SQL Server Management Studio](../../ssms/download-sql-server-management-studio-ssms.md)  
+[Download SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms)  
 
 Optionally, consider installing Excel to browse your multidimensional data as you proceed through the tutorial. Installing Excel enables the **Analyze in Excel** feature that starts Excel using a PivotTable field list that is connected to the cube you are building. Using Excel to browse data is recommended because you can quickly build a pivot report that lets you interact with the data.  
   
@@ -107,6 +107,6 @@ You are now ready to use the tutorial. For more information about how to get sta
   
 ## See also  
 [Configure the Windows Firewall to Allow Analysis Services Access](../instances/configure-the-windows-firewall-to-allow-analysis-services-access.md)  
-[Configure the Windows Firewall to Allow SQL Server Access](../../sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access.md)  
+[Configure the Windows Firewall to Allow SQL Server Access](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access)  
   
   

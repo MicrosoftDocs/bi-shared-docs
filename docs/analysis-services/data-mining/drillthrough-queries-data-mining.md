@@ -50,7 +50,7 @@ manager: kfile
   
 ##  <a name="bkmk_Considerations"></a> Considerations When Using Drillthrough  
   
--   If you use the Data Mining Wizard, the option to enable drillthrough to the model cases is on the final page of the wizard. Drillthrough is disabled by default. For more information, see [Completing the Wizard &#40;Data Mining Wizard&#41;](http://msdn.microsoft.com/library/6aef1548-35eb-42fd-ae87-63650a79eda1).  
+-   If you use the Data Mining Wizard, the option to enable drillthrough to the model cases is on the final page of the wizard. Drillthrough is disabled by default. For more information, see [Completing the Wizard &#40;Data Mining Wizard&#41;](https://msdn.microsoft.com/library/6aef1548-35eb-42fd-ae87-63650a79eda1).  
   
 -   You can add the ability to drill through on an existing mining model, but if you do, the model must be reprocessed before you can drill through to the data.  
   
@@ -59,9 +59,9 @@ manager: kfile
 -   If the mining structure does not allow drillthrough but the mining model does, you can view information only from the model cases, and not from the mining structure.  
   
 ###  <a name="bkmk_Security"></a> Security Issues for Drillthrough  
- If you want to drill through to structure cases from the model, you must verify that both the mining structure and the mining model have the [AllowDrillThrough](https://docs.microsoft.com/bi-reference/assl/properties/allowdrillthrough-element-assl) property set to **True**. Moreover, you must be a member of a role that has drillthrough permissions on both the structure and the model. For information about how to create roles, see [Role Designer &#40;Analysis Services - Multidimensional Data&#41;](http://msdn.microsoft.com/library/e8ba42db-0565-4d68-b3ab-0c63d8d07192). see.  
+ If you want to drill through to structure cases from the model, you must verify that both the mining structure and the mining model have the [AllowDrillThrough](https://docs.microsoft.com/bi-reference/assl/properties/allowdrillthrough-element-assl) property set to **True**. Moreover, you must be a member of a role that has drillthrough permissions on both the structure and the model. For information about how to create roles, see [Role Designer &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/e8ba42db-0565-4d68-b3ab-0c63d8d07192). see.  
   
- Drillthrough permissions are set separately on the structure and model. The model permission lets you drill through from the model, even if you do not have permissions on the structure. Drillthrough permissions on the structure provide the additional ability to include structure columns in drillthrough queries from the model, by using the [StructureColumn &#40;DMX&#41;](../../dmx/structurecolumn-dmx.md) function.  
+ Drillthrough permissions are set separately on the structure and model. The model permission lets you drill through from the model, even if you do not have permissions on the structure. Drillthrough permissions on the structure provide the additional ability to include structure columns in drillthrough queries from the model, by using the [StructureColumn &#40;DMX&#41;](/sql/dmx/structurecolumn-dmx) function.  
   
 > [!NOTE]  
 >  If you enable drillthrough on both the mining structure and the mining model, any user who is a member of a role that has drillthrough permissions on the mining model can also view columns in the mining structure, even if those columns are not included in the mining model. Therefore, to protect sensitive data, you should set up the data source view to mask personal information, and allow drillthrough access on the mining structure only when necessary.  
@@ -76,7 +76,7 @@ manager: kfile
 |Microsoft Neural Network algorithm|Not supported. These algorithms do not assign cases to specific nodes in the content.|  
 |Microsoft Logistic Regression algorithm|Not supported. These algorithms do not assign cases to specific nodes in the content.|  
 |Microsoft Linear Regression algorithm|Supported. However, because the model creates a single node, **All**, drilling through returns all the training cases for the model. If the training set is large, loading the results may take a very long time.|  
-|Microsoft Time Series algorithm|Supported. However, you cannot drill through to structure or case data by using the **Mining Model Viewer** in Data Mining Designer. You must create a DMX query instead.<br /><br /> Also, you cannot drill through to specific nodes, or write a DMX query to retrieve cases in specific nodes of a time series model. You can retrieve case data from either the model or the structure by using other criteria, such as date or attribute values.<br /><br /> You can also return the dates from the cases in the model, by using the [Lag &#40;DMX&#41;](../../dmx/lag-dmx.md) function.<br /><br /> If you wish to view details of the ARTXP and ARIMA nodes created by the Microsoft Time Series algorithm, you can use the [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](http://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c).|  
+|Microsoft Time Series algorithm|Supported. However, you cannot drill through to structure or case data by using the **Mining Model Viewer** in Data Mining Designer. You must create a DMX query instead.<br /><br /> Also, you cannot drill through to specific nodes, or write a DMX query to retrieve cases in specific nodes of a time series model. You can retrieve case data from either the model or the structure by using other criteria, such as date or attribute values.<br /><br /> You can also return the dates from the cases in the model, by using the [Lag &#40;DMX&#41;](/sql/dmx/lag-dmx) function.<br /><br /> If you wish to view details of the ARTXP and ARIMA nodes created by the Microsoft Time Series algorithm, you can use the [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](https://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c).|  
   
 ##  <a name="bkmk_Tasks"></a> Related Tasks  
  Use the following links to work with drillthrough in specific scenarios.  
@@ -85,7 +85,7 @@ manager: kfile
 |----------|----------|  
 |Procedure describing use of drillthrough in the Data Mining Designer|[Drill Through to Case Data from a Mining Model](../../analysis-services/data-mining/drill-through-to-case-data-from-a-mining-model.md)|  
 |To alter an existing mining model to allow drillthrough|[Enable Drillthrough for a Mining Model](../../analysis-services/data-mining/enable-drillthrough-for-a-mining-model.md)|  
-|Enabling drillthrough on a mining structure by using the DMX WITH DRILLTHROUGH clause|[CREATE MINING STRUCTURE &#40;DMX&#41;](../../dmx/create-mining-structure-dmx.md)|  
+|Enabling drillthrough on a mining structure by using the DMX WITH DRILLTHROUGH clause|[CREATE MINING STRUCTURE &#40;DMX&#41;](/sql/dmx/create-mining-structure-dmx)|  
 |For information about assigning permissions that apply to drillthrough on mining structures and mining models|[Grant permissions on data mining structures and models &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-permissions-on-data-mining-structures-and-models-analysis-services.md)|  
   
 ## See Also  

@@ -42,7 +42,7 @@ manager: kfile
 3.  Press F5, or click **Execute**.  
   
 ## Example  
- The following code returns a list of the parameters that were used to create the mining model that you build in the [Basic Data Mining Tutorial](http://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c). These parameters include the explicit values for any defaults used by the mining services available from providers on the server.  
+ The following code returns a list of the parameters that were used to create the mining model that you build in the [Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c). These parameters include the explicit values for any defaults used by the mining services available from providers on the server.  
   
 ```  
 SELECT MINING_PARAMETERS   

@@ -1,5 +1,5 @@
 ---
-title: "Data Mining Tools | Microsoft Docs"
+title: "Data Mining Tools (Analysis Services) | Microsoft Docs"
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -77,7 +77,7 @@ manager: kfile
  **For More Information:** [Related Projects for Data Mining Solutions](../../analysis-services/data-mining/related-projects-for-data-mining-solutions.md)  
   
 ## See Also  
- [Data Mining Extensions &#40;DMX&#41; Reference](../../dmx/data-mining-extensions-dmx-reference.md)   
+ [Data Mining Extensions &#40;DMX&#41; Reference](/sql/dmx/data-mining-extensions-dmx-reference)   
  [Mining Model Tasks and How-tos](../../analysis-services/data-mining/mining-model-tasks-and-how-tos.md)   
  [Mining Model Viewer Tasks and How-tos](../../analysis-services/data-mining/mining-model-viewer-tasks-and-how-tos.md)   
  [Data Mining Solutions](../../analysis-services/data-mining/data-mining-solutions.md)  

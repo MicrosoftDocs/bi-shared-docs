@@ -52,9 +52,6 @@ manager: kfile
 ## Solve Order Examples  
  To illustrate the potential complexities of solve order, the following series of MDX queries starts with two queries that each individually have no solve order issues. These two queries are then combined into a query that requires solve order.  
   
-> [!NOTE]  
->  You can run these MDX queries against the Adventure Works sample multidimensional database. You can download the [AdventureWorks Multidimensional Models SQL Server 2012](http://msftdbprodsamples.codeplex.com/releases/view/55330) sample from the codeplex site.  
-  
 ### Query 1-Differences in Income and Expenses  
  For the first MDX query, calculate the difference in sales and costs for each year by constructing a simple MDX query similar to the following example:  
   
@@ -199,9 +196,9 @@ FROM [Adventure Works]
  Solve order can be a very complex issue to deal with, especially in cubes with a high number of dimensions involving calculated member, custom rollup formulas, or calculated cells. When [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] evaluates an MDX query, [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] takes into account the solve order values for everything involved within a given pass, including the dimensions of the cube specified in the MDX query.  
   
 ## See Also  
- [CalculationCurrentPass &#40;MDX&#41;](../../../mdx/calculationcurrentpass-mdx.md)   
- [CalculationPassValue &#40;MDX&#41;](../../../mdx/calculationpassvalue-mdx.md)   
- [CREATE MEMBER Statement &#40;MDX&#41;](../../../mdx/mdx-data-definition-create-member.md)   
+ [CalculationCurrentPass &#40;MDX&#41;](/sql/mdx/calculationcurrentpass-mdx)   
+ [CalculationPassValue &#40;MDX&#41;](/sql/mdx/calculationpassvalue-mdx)   
+ [CREATE MEMBER Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-member)   
  [Manipulating Data &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-data-manipulation-manipulating-data.md)  
   
   

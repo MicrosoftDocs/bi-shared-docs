@@ -55,7 +55,7 @@ manager: kfile
   
  [Power Pivot Management Dashboard and Usage Data](../../analysis-services/power-pivot-sharepoint/power-pivot-management-dashboard-and-usage-data.md)  
   
- [Power Pivot Gallery](http://msdn.microsoft.com/library/2a0db616-e08e-4062-aac8-979f8cad7794)  
+ [Power Pivot Gallery](https://msdn.microsoft.com/library/2a0db616-e08e-4062-aac8-979f8cad7794)  
   
  [Power Pivot Data Access](../../analysis-services/power-pivot-sharepoint/power-pivot-data-access.md)  
   
@@ -68,16 +68,16 @@ manager: kfile
  **In other sections**  
   
 ## Additional topics  
- [Upgrade Power Pivot for SharePoint](../../database-engine/install-windows/upgrade-power-pivot-for-sharepoint.md)  
+ [Upgrade Power Pivot for SharePoint](/sql/database-engine/install-windows/upgrade-power-pivot-for-sharepoint)  
   
  [Install Analysis Services in Power Pivot Mode](../../analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode.md)  
   
  [PowerShell Reference for Power Pivot for SharePoint](../../analysis-services/powershell/powershell-reference-for-power-pivot-for-sharepoint.md)  
   
- [Example License Topologies and Costs  for SQL Server 2016 Business Intelligence](http://msdn.microsoft.com/library/682b8711-407a-48d1-9807-415d4c24dad6)  
+ [Example License Topologies and Costs  for SQL Server 2016 Business Intelligence](https://msdn.microsoft.com/library/682b8711-407a-48d1-9807-415d4c24dad6)  
   
 ## See Also  
- [Power Pivot Planning and Deployment](http://go.microsoft.com/fwlink/?linkID=220972)   
- [Disaster Recovery for Power Pivot for SharePoint](http://go.microsoft.com/fwlink/p/?LinkId=389570)  
+ [Power Pivot Planning and Deployment](https://go.microsoft.com/fwlink/?linkID=220972)   
+ [Disaster Recovery for Power Pivot for SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=389570)  
   
   

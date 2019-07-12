@@ -35,7 +35,7 @@ manager: kfile
     5.  Click **Close**, and then click **OK**.  
   
         > [!NOTE]  
-        >  SharePoint installation documentation includes additional instructions for working around proxy server errors and for disabling Internet Explorer Enhanced Security Configuration so that you can download and install updates. For more information, see the **Perform additional tasks** section in [Deploy a single server with SQL Server](http://go.microsoft.com/fwlink/?LinkId=177754) on the Microsoft web site.  
+        >  SharePoint installation documentation includes additional instructions for working around proxy server errors and for disabling Internet Explorer Enhanced Security Configuration so that you can download and install updates. For more information, see the **Perform additional tasks** section in [Deploy a single server with SQL Server](https://go.microsoft.com/fwlink/?LinkId=177754) on the Microsoft web site.  
   
 3.  In Central Administration, in System Settings, click **Manage farm features**.  
   
@@ -56,7 +56,7 @@ manager: kfile
 ## Verify Integration at the Site Level  
  To verify [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] integration with a SharePoint site, do the following:  
   
-1.  In a browser, open the Web application you created. If you used default values, you can specify http://\<your computer name> in the URL address.  
+1.  In a browser, open the Web application you created. If you used default values, you can specify `http://\<your computer name>` in the URL address.  
   
 2.  Verify that [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] data access and processing features are available in the application. You can do this by verifying the presence of [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)]-provided library templates:  
   
@@ -67,7 +67,7 @@ manager: kfile
 ## Verify Data Access on the Server  
  To verify [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] data access on the server, do the following:  
   
-1.  [Download](http://go.microsoft.com/fwlink/?LinkID=219108) the Picnic data sample that accompanies a Reporting Services tutorial. You will use the sample workbook in this download to verify [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] data access. Extract the files.  
+1.  [Download](https://go.microsoft.com/fwlink/?LinkID=219108) the Picnic data sample that accompanies a Reporting Services tutorial. You will use the sample workbook in this download to verify [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] data access. Extract the files.  
   
 2.  Upload the Excel workbook (.xlsx) to Shared Documents. The workbook contains embedded [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] data.  
   
