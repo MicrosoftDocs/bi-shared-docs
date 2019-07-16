@@ -1,6 +1,6 @@
 ---
 title: "Refresh command (TMSL) | Microsoft Docs"
-ms.date: 07/20/2018
+ms.date: 07/11/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
@@ -47,7 +47,7 @@ manager: kfile
                 "defragment"  
                 ]  
             },  
-            "objects": {  
+            "objects": [  
 . . .   
 ```  
   
