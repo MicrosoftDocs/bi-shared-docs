@@ -1,6 +1,6 @@
 ---
 title: "Enable in Analysis Services DirectQuery mode in SSDT | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 08/06/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -27,7 +27,7 @@ In SSDT, in the **Properties** pane for the **Model.bim** file, change the prope
   
 If your model already has a connection to a data source and existing data, you'll be prompted to enter database credentials used to connect to the relational database. Any data already existing within the model will be removed from the in-memory cache.  
   
-If your model is partially or fully complete prior ti enabling DirectQuery mode, you might get errors about incompatible features. In Visual Studio, open the **Error List** and resolve any problems that would prevent the model from being switched to DirectQuery mode.  
+If your model is partially or fully complete prior to enabling DirectQuery mode, you might get errors about incompatible features. In Visual Studio, open the **Error List** and resolve any problems that would prevent the model from being switched to DirectQuery mode.  
 
 
 ### What's next? 
