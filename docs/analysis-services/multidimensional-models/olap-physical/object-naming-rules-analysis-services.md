@@ -1,6 +1,6 @@
 ---
 title: "Object Naming Rules (Analysis Services) | Microsoft Docs"
-ms.date: 05/02/2018
+ms.date: 08/06/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: olap
@@ -61,10 +61,10 @@ manager: kfile
 |Object|Invalid characters|  
 |------------|------------------------|  
 |**Server**|Follow Windows server naming conventions when naming a server object. See [Naming Conventions (Windows)](/windows/desktop/DNS/naming-conventions) for details.|  
-|**DataSource**|: / \ * &#124; ? " () [] {} <>|  
-|**Level** or **Attribute**|. , ; ' ` : / \ * &#124; ? " & % $ ! + = [] {} < >|  
-|**Dimension** or **Hierarchy**|. , ; ' ` : / \ * &#124; ? " & % $ ! + = () [] {} \<,>|  
-|All other objects|. , ; ' ` : / \ * &#124; ? " & % $ ! + = () [] {} < >|  
+|**DataSource**|: / \\ \* &#124; \? " () \[] {} \<\>|  
+|**Level** or **Attribute**|. , ; ' \` : / \\ \* &#124; \? " & % $ ! + = \[] {} \< \>|  
+|**Dimension** or **Hierarchy**|. , ; ' \` : / \\ \* &#124; \? " & % $ ! + = () \[] {} \<,\>|
+|All other objects|. , ; ' \` : / \\ \* &#124; \? " & % $ ! + = () \[] {} \< \>|
   
  **Exceptions: When Reserved Characters are Allowed**  
   
@@ -82,6 +82,6 @@ manager: kfile
 ## See Also  
  [MDX Reserved Words](/sql/mdx/mdx-reserved-words)   
  [Translation support in Analysis Services](../../../analysis-services/translation-support-in-analysis-services.md)   
- [XML for Analysis Compliance &#40;XMLA&#41;](https://docs.microsoft.com/bi-reference/xmla/xml-for-analysis-compliance-xmla)  
+ 
   
   
