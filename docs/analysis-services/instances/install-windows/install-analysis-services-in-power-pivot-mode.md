@@ -127,7 +127,7 @@ manager: kfile
 ### Verify the SQL Server Installation  
  Verify that the Analysis Services Service is running.  
   
-1.  In Microsoft Windows click **Start**, select **All Programs**, and select the **Microsoft SQL Server 2016** group.  
+1.  In Microsoft Windows click **Start**, select **All Programs**, and select the **Microsoft SQL Server** group.  
   
 2.  Select **SQL Server Management Studio**.  
   
