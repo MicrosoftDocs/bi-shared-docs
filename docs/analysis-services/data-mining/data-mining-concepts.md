@@ -14,7 +14,7 @@ manager: kfile
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
 
 > [!IMPORTANT]
-> Data mining is deprecated in SQL Server Analysis Services 2017. Documentation is not updated for deprecated features. To learn more, see [Analysis Services backward compatibility (SQL 2017)](../analysis-services-backward-compatibility-sql2017.md).
+> Data mining is deprecated in SQL Server Analysis Services 2017. Documentation is not updated for deprecated features. [Analysis Services backward compatibility](../analysis-services-backward-compatibility.md#sql-server-2017).
 
   Data mining is the process of discovering actionable information from large sets of data. Data mining uses mathematical analysis to derive patterns and trends that exist in data. Typically, these patterns cannot be discovered by traditional data exploration because the relationships are too complex or because there is too much data.  
   

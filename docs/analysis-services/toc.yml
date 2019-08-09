@@ -2,12 +2,14 @@
   href: ../analysis-services/analysis-services-overview.md
 - name: Overview
   items:
-  - name: What's new in SQL Server Analysis Services
-    href: ../analysis-services/what-s-new-in-analysis-services.md
-  - name: Analysis Services features supported by SQL Server editions
-    href: ../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
-  - name: Backward compatibility (SQL Server 2016 Analysis Services)
-    href: ../analysis-services/analysis-services-backward-compatibility.md
+  - name: SQL Server Analysis Services
+    items:
+    - name: What's new in SQL Server Analysis Services
+      href: ../analysis-services/what-s-new-in-analysis-services.md
+    - name: Analysis Services features supported by SQL Server editions
+      href: ../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
+    - name: Backward compatibility
+      href: ../analysis-services/analysis-services-backward-compatibility.md
   - name: Tools and applications
     href: ../analysis-services/tools-and-applications-used-in-analysis-services.md
   - name: Comparing Tabular and Multidimensional solutions

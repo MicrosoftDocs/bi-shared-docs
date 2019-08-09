@@ -27,7 +27,7 @@ Multidimensional mode and Power Pivot for SharePoint mode are a staple for many 
 
 The features described here are included in SQL Server 2017 Analysis Services. But in order to take advantage of them, you must also use the latest versions of [SQL Server Data Tools](/sql/ssdt/download-sql-server-data-tools-ssdt) (SSDT) and [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) (SSMS). SSDT and SSMS are updated monthly with new and improved features that typically coincide with new functionality in SQL Server.  
 
-While it's important to learn about all the new features, it's also important to know what is being deprecated and discontinued in this release and future releases. Be sure to check out [Backward compatibility (SQL Server 2017 Analysis Services)](analysis-services-backward-compatibility-sql2017.md).
+While it's important to learn about all the new features, it's also important to know what is being deprecated and discontinued in this release and future releases. Be sure to check out [Analysis Services backward compatibility)](analysis-services-backward-compatibility.md).
 
 Let's take a look at some of the key new features in this release.
 
