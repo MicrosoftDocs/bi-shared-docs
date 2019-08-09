@@ -95,7 +95,7 @@ This article describes features supported by different editions of SQL Server 20
 ## Data Mining  
 
 > [!NOTE]
-> Data mining is [deprecated](analysis-services-backward-compatibility-sql2017.md#deprecated-features) in SQL Server Analysis Services 2017.
+> Data mining is [deprecated](analysis-services-backward-compatibility.md#deprecated-features) in SQL Server Analysis Services 2017.
   
 |Feature Name|Enterprise|Standard|Web|Express with Advanced Services|Express with Tools|Express|Developer|  
 |------------------|----------------|--------------|---------|------------------------------------|------------------------|-------------|---------------|  
