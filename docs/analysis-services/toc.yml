@@ -2,20 +2,18 @@
   href: ../analysis-services/analysis-services-overview.md
 - name: Overview
   items:
-  - name: What's new in SQL Server Analysis Services 2016
-    href: ../analysis-services/what-s-new-in-analysis-services.md
-  - name: What's new in SQL Server Analysis Services 2017
-    href: ../analysis-services/what-s-new-in-sql-server-analysis-services-2017.md
+  - name: SQL Server Analysis Services
+    items:
+    - name: What's new in SQL Server Analysis Services
+      href: ../analysis-services/what-s-new-in-analysis-services.md
+    - name: Analysis Services features supported by SQL Server editions
+      href: ../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
+    - name: Backward compatibility
+      href: ../analysis-services/analysis-services-backward-compatibility.md
   - name: Tools and applications
     href: ../analysis-services/tools-and-applications-used-in-analysis-services.md
   - name: Comparing Tabular and Multidimensional solutions
     href: ../analysis-services/comparing-tabular-and-multidimensional-solutions-ssas.md
-  - name: Analysis Services features supported by SQL Server editions
-    href: ../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
-  - name: Backward compatibility (SQL Server 2016 Analysis Services)
-    href: ../analysis-services/analysis-services-backward-compatibility.md
-  - name: Backward compatibility (SQL Server 2017 Analysis Services)
-    href: ../analysis-services/analysis-services-backward-compatibility-sql2017.md
   - name: Globalization and translation
     href: ../analysis-services/globalization-scenarios-for-analysis-services.md
     items:
@@ -213,7 +211,7 @@
   items:
   - name: Install and configure
     items:
-    - name: Overview
+    - name: Install SQL Server Analysis Services
       href: ../analysis-services/instances/install-windows/install-analysis-services.md
     - name: Install Analysis Services in Power Pivot Mode
       href: ../analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode.md
