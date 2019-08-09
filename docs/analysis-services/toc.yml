@@ -213,7 +213,7 @@
   items:
   - name: Install and configure
     items:
-    - name: Overview
+    - name: Install SQL Server Analysis Services
       href: ../analysis-services/instances/install-windows/install-analysis-services.md
     - name: Install Analysis Services in Power Pivot Mode
       href: ../analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode.md
