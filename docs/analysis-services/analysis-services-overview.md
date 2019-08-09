@@ -3,7 +3,6 @@ title: "Analysis Services documentation | Microsoft Docs"
 ms.date: 08/09/2019
 ms.prod: sql
 ms.technology: analysis-services
-ms.custom:
 ms.topic: landing-page
 ms.author: owend
 ms.reviewer: owend
@@ -18,7 +17,9 @@ Analysis Services is an analytical data engine (Vertipaq) used in decision suppo
 
 **SQL Server Analysis Services** - Installed as an on-premises server instance, SQL Server Analysis Services supports tabular models at all compatibility levels (depending on version), multidimensional models, data mining, and Power Pivot for SharePoint.
 
-**Azure Analysis Services** - Created as an Azure resource, Azure Analysis Services server resources support tabular models at the 1200 and higher compatibility levels. DirectQuery, partitions, row-level security, bi-directional relationships, and translations are all supported. To learn more, see [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/).
+**Azure Analysis Services** - Created as an Azure resource, Azure Analysis Services server resources support tabular models at the 1200 and higher compatibility levels. DirectQuery, partitions, row-level security, bi-directional relationships, and translations are all supported.
+
+**Power BI Premium (Preview)** - The Analysis Services Vertipaq engine provides programmability, client application, and tool support for Power BI Premium datasets through client libraries and APIs that support the open-standard XMLA protocol. Currently, Power BI Premium datasets support connect and *read-only* operations from Microsoft and third-party [client applications and tools](https://docs.microsoft.com/power-bi/service-premium-connect-tools) through XMLA endpoints.
 
 ## Documentation
 
@@ -34,5 +35,3 @@ Looking for **SQL Server 2014 Analysis Services** documentation? - SQL Server 20
 
 [Azure Analysis Services documentation](https://docs.microsoft.com/azure/analysis-services/)   
 [What is Power BI Premium?](https://docs.microsoft.com/power-bi/service-premium-what-is)   
-[Analysis Services language references](https://docs.microsoft.com/bi-reference/)
-

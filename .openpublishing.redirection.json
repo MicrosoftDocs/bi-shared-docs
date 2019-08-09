@@ -374,6 +374,11 @@
             "source_path": "analysis-services/what-s-new-in-sql-server-analysis-services-2017.md",
             "redirect_url": "analysis-services/what-s-new-in-sql-server-analysis-services",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/analysis-services-backward-compatibility-sql2017.md",
+            "redirect_url": "analysis-services/analysis-services-backward-compatibility",
+            "redirect_document_id": false
         }
     ]
 }
