@@ -1,6 +1,6 @@
 ---
 title: "Tools and applications used in Analysis Services | Microsoft Docs"
-ms.date: 05/08/2018
+ms.date: 08/10/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -30,7 +30,7 @@ manager: kfile
   
  SQL Server Management Studio (SSMS) is the primary administration tool for all SQL Server features, including Analysis Services. SSMS is a free web download updated monthly. 
   
-**[Download SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms)** 
+**[Download SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)** 
   
  SSMS includes extended events (xEvents), providing a lightweight alternative to SQL Server Profiler traces used for monitoring activity and diagnosing problems on SQL Server 2016 and Azure Analysis Services servers. See [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md) to learn more.  
   
