@@ -369,6 +369,11 @@
             "source_path": "analysis-services/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdlbi-attributes-for-report-design.md",
             "redirect_url": "bi-reference/csdl/csdlbi-attributes-for-report-design",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/what-s-new-in-sql-server-analysis-services-2017.md",
+            "redirect_url": "analysis-services/what-s-new-in-sql-server-analysis-services",
+            "redirect_document_id": false
         }
     ]
 }
