@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services features supported by SQL Server edition | Microsoft Docs"
-ms.date: 07/10/2019
+ms.date: 08/12/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -23,7 +23,7 @@ This article describes features supported by different editions of SQL Server 20
 |Scalable shared databases|Yes||||||Yes|  
 |Backup/Restore & Attach/Detach databases|Yes|Yes|||||Yes|  
 |Synchronize databases|Yes||||||Yes|  
-|Always On failover cluster instances|Yes<br /><br /> Number of nodes is the operating system maximum|Yes<br /><br /> Support for 2 nodes|||||Yes<br /><br /> Number of nodes is the operating system maximum|  
+|Failover cluster instances|Yes<br /><br /> Number of nodes is the operating system maximum|Yes<br /><br /> Support for 2 nodes|||||Yes<br /><br /> Number of nodes is the operating system maximum|  
 |Programmability (AMO, ADOMD.Net, OLEDB, XML/A, ASSL, TMSL)|Yes|Yes|||||Yes|  
   
 ## Tabular models 

@@ -1,6 +1,6 @@
 ---
 title: "Tools and applications used in Analysis Services | Microsoft Docs"
-ms.date: 05/08/2018
+ms.date: 08/10/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -30,7 +30,7 @@ manager: kfile
   
  SQL Server Management Studio (SSMS) is the primary administration tool for all SQL Server features, including Analysis Services. SSMS is a free web download updated monthly. 
   
-**[Download SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms)** 
+**[Download SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)** 
   
  SSMS includes extended events (xEvents), providing a lightweight alternative to SQL Server Profiler traces used for monitoring activity and diagnosing problems on SQL Server 2016 and Azure Analysis Services servers. See [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md) to learn more.  
   
@@ -38,10 +38,6 @@ manager: kfile
  Although it's officially deprecated in favor of xEvents, SQL Server Profiler provides a familiar approach for monitoring connections, MDX query execution, and other server operations. SQL Server Profiler is installed by default. You can find it with SQL Server applications on Apps in Windows.  
   
 ### PowerShell  
- You can use PowerShell commands to perform many administrative tasks. See [PowerShell reference](../analysis-services/powershell/analysis-services-powershell-reference.md) for more information.  
-  
-## See Also  
- [Compatibility Level of a Multidimensional Database](../analysis-services/multidimensional-models/compatibility-level-of-a-multidimensional-database-analysis-services.md)   
- [Compatibility Level for Tabular models](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md)  
-  
+ You can use PowerShell commands to perform many administrative tasks. See [PowerShell reference](../analysis-services/powershell/analysis-services-powershell-reference.md) for more information.
+ 
   
