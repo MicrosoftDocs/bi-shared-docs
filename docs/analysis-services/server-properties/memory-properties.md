@@ -50,7 +50,7 @@ The following properties apply to both tabular and multidimensional modes unless
  Specifies a memory threshold after which the instance aggressively terminates active user sessions to reduce memory usage. All terminated sessions will receive an error about being canceled by memory pressure. The default value, zero (0), means the **HardMemoryLimit** will be set to a midway value between **TotalMemoryLimit** and the total physical memory of the system; if the physical memory of the system is larger than the virtual address space of the process, then virtual address space will be used instead to calculate **HardMemoryLimit**.  
 
 **QueryMemoryLimit**   
-An advanced property to control how much memory can be used by temporary results during a query. Applies only to DAX measures and queries. It does not account for general memory allocations used by the query. Specified in percentage up to 100. Beyond that, it's in bytes. Setting a value of 0 means no limit is specified. For Azure Analysis, the default value is determined by your plan. 
+ Applies to Azure Analysis Services and SQL Server 2019 and later only. An advanced property to control how much memory can be used by temporary results during a query. Applies only to DAX measures and queries. It does not account for general memory allocations used by the query. Specified in percentage up to 100. Beyond that, it's in bytes. Setting a value of 0 means no limit is specified. For Azure Analysis, the default value is determined by your plan. 
 
 |Plan  |Default  |
 |---------|---------|
