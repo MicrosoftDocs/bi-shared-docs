@@ -1332,6 +1332,8 @@
       href: ../analysis-services/instances/analysis-services-instance-management.md
     - name: High availability and scalability
       href: ../analysis-services/instances/high-availability-and-scalability-in-analysis-services.md
+    - name: Query interleaving
+      href: ../analysis-services/tabular-models/query-interleaving.md
     - name: Server properties
       items:
       - name: Server properties overview

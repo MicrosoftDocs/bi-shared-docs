@@ -1,6 +1,6 @@
 ---
 title: "What's new in SQL Server Analysis Services | Microsoft Docs"
-ms.date: 08/09/2018
+ms.date: 08/20/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -9,15 +9,72 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# What's New in SQL Server Analysis Services
+# What's New in SQL Server Analysis Services 
 
 [!INCLUDE[ssas-appliesto-sql2016-later](../includes/ssas-appliesto-sql2016-later.md)]
 
-This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services. Improvements are cumulative. The latest version includes improvements from previous versions.
+This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS). New features and improvements are cumulative.
 
-## SQL Server 2019 Analysis Services
+## SQL Server 2019 (RC1) Analysis Services
 
-What's new for SQL Server 2019 Analysis Services is now included in the all-up [What's new in SQL Server 2019](https://docs.microsoft.com/sql/sql-server/what-s-new-in-sql-server-ver15).
+### Tabular model compatibility level
+
+This release introduces the 1500 [compatibility level](tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) for tabular models. 
+
+### Query interleaving
+
+Introduced in RC1, Query interleaving is a tabular mode system configuration that can improve user query response times in high-concurrency scenarios. Query interleaving with *short query bias* allows concurrent queries to share CPU resources. To learn more, see [Query interleaving](tabular-models/query-interleaving.md).
+
+### Calculation groups in tabular models
+
+First introduced in CTP 2.3, with subsequent improvements in CTP 3.0 and 3.2, Calculation groups can significantly reduce the number of redundant measures by grouping common measure expressions as *calculation items*. Calculation groups are shown in reporting clients as a table with a single column. Each value in the column represents a reusable calculation, or calculation item, that can be applied to any of the measures. A calculation group can have any number of calculation items. Each calculation item is defined by a DAX expression. To learn more, see [Calculation groups](tabular-models/calculation-groups.md).
+
+### Governance setting for Power BI cache refreshes
+
+Introduced in CTP 3.2, the **ClientCacheRefreshPolicy** property setting is supported in SSAS 2019 and later. This property setting is already available for Azure Analysis Services. The Power BI service caches dashboard tile data and report data for initial load of Live Connect report, causing an excessive number of cache queries being submitted to the engine, and in extreme cases overload the server. The **ClientCacheRefreshPolicy** property allows you to override this behavior at the server level.  To learn more, see [General Properties](../analysis-services/server-properties/general-properties.md).
+
+### Online attach
+
+Introduced in CTP 3.2, this feature provides the ability to attach a tabular model as an online operation. Online attach can be used for synchronization of read-only replicas in on-premises query scale-out environments. To perform an online-attach operation, use the **AllowOverwrite** option of the Attach XMLA command. 
+
+```xmla
+<Attach xmlns="http://schemas.microsoft.com/analysisservices/2003/engine"> 
+  <Folder>C:\Program Files\Microsoft SQL Server\MSAS15\OLAP\Data\AdventureWorks.0.db\</Folder> 
+  <AllowOverwrite>True</AllowOverwrite> 
+</Attach> 
+```
+
+This operation may require *double the model memory* to keep the old version online while loading the new version. 
+
+A typical usage pattern could be as follows: 
+
+1. DB1 (version 1) is already attached on read-only server B. 
+
+2. DB1 (version 2) is processed on the write server A. 
+
+3. DB1 (version 2) is detached and placed on a location accessible to server B (either via a shared location, or using robocopy, etc.). 
+
+4. The <Attach> command with AllowOverwrite=True is executed on server B with the new location of DB1 (version 2). 
+
+Without this feature, admins are first required to detach the database and then attach the new version of the database. This leads to downtime when the database is unavailable to users, and queries against it will fail. 
+
+When this new flag is specified, version 1 of the database is deleted atomically within the same transaction with no downtime. However, it comes at the cost of having both databases loaded into memory simultaneously. 
+
+### Many-to-many relationships in tabular models
+
+Introduced in CTP 2.4, this improvement allows many-to-many relationships between tables where both columns are non-unique. A relationship can be defined between a dimension and fact table at a granularity higher than the key column of the dimension. This avoids having to normalize dimension tables and can improve the user experience because the resulting model has a smaller number of tables with logically grouped columns. 
+
+Many-to-many relationships require models be at the 1470 and higher compatibility level, which is currently supported only in SSAS CTP 2.3 and later. Currently, many-to-many relationships can be created by using the Tabular Object Model (TOM) API, Tabular Model Scripting Language (TMSL), and the open-source Tabular Editor tool. Support in SQL Server Data Tools (SSDT) will be included in a future release, as will documentation. 
+
+### Memory settings for resource governance
+
+Introduced in CTP 2.4, the following property settings provide improved resource governance:
+
+- **Memory\QueryMemoryLimit** - This memory property can be used to limit memory spools built by DAX queries submitted to the model. 
+- **DbpropMsmdRequestMemoryLimit** - This XMLA property can be used to override the Memory\QueryMemoryLimit server property value for a connection.
+- **OLAP\Query\RowsetSerializationLimit** - This server property limits the number of rows returned in a rowset, protecting server resources from extensive data export usage. This property applies to both applies to both DAX and MDX queries.
+
+These properties can be set by using the latest version of SQL Server Management Studio (SSMS). These settings are already available for Azure Analysis Services.
 
 ## SQL Server 2017 Analysis Services
 

@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services General Properties | Microsoft Docs"
-ms.date: 04/04/2019
+ms.date: 08/20/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -30,7 +30,7 @@ manager: kfile
  A string property that identifies the name of the directory where backup files are stored by default, in the event a path is not specified as part of the Backup command.  
  
 **ClientCacheRefreshPolicy**
-Applies to Azure Analysis Services only. Overrides the **Scheduled cache refresh** setting for all Power BI datasets. All Live Connect reports will observe the server-level setting irrespective of the dataset-level setting, or which workspace they reside on.
+Overrides the **Scheduled cache refresh** setting for all Power BI datasets. All Live Connect reports will observe the server-level setting irrespective of the dataset-level setting, or which workspace they reside on.
 
 The default value for this property is -1, which allows all background cache refreshes as specified in the Scheduled cache refresh setting for the dataset. To discourage all background cache refreshes, specify zero (0).
 
