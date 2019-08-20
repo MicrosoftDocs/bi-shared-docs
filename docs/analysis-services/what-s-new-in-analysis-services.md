@@ -1,6 +1,6 @@
 ---
 title: "What's new in SQL Server Analysis Services | Microsoft Docs"
-ms.date: 08/09/2018
+ms.date: 08/21/2018
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
