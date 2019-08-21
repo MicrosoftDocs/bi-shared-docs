@@ -36,7 +36,7 @@ manager: kfile
   
 |Relationship|Element|  
 |------------------|-------------|  
-|Parent elements|[TableNotification](../xml-elements-properties/propertylist-element-xmla.md)|  
+|Parent elements|[PropertyList](../xml-elements-properties/propertylist-element-xmla.md)|  
 |Child elements|None|  
   
 ## Remarks  
