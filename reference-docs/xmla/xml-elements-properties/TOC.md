@@ -40,6 +40,7 @@
 ## [DataSourceID Element (XMLA)](datasourceid-element-xmla.md)
 ## [DataSourceType Element (XMLA)](datasourcetype-element-xmla.md)
 ## [DataSourceView Element (XMLA)](datasourceview-element-xmla.md)
+## [DbpropMsmdRequestMemoryLimit](dbpropmsmdrequestmemorylimit-element-xmla.md)
 ## [DbSchemaName Element (XMLA)](dbschemaname-element-xmla.md)
 ## [DbStorageLocation Element](dbstoragelocation-element.md)
 ## [DbTableName Element (XMLA)](dbtablename-element-xmla.md)
