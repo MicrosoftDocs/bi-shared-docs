@@ -34,6 +34,7 @@
     ],
     "overwrite": [],
     "externalReference": [],
+    "markdownEngineName": "markdig",
     "globalMetadata": {
       "breadcrumb_path": "/bi-reference/breadcrumb/toc.json",
       "extendBreadcrumb": true,
@@ -43,6 +44,7 @@
     "fileMetadata": {},
     "template": [],
     "dest": "AsRefDocs",
+    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ],
     "xref":["mref/sql130.zip","mref/System.Reflection.Assembly.Load.yml","mref/System.Web.UI.WebControls.WebParts.IWebPartRow.yml"]
   }
 }
