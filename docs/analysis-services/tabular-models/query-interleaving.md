@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular query interleaving | Microsoft Docs"
-ms.date: 08/20/2019
+ms.date: 08/27/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -54,7 +54,7 @@ At this time, the SchedulingBehavior property can be set only by using XMLA. In 
       <Name>myserver</Name>
       <ServerProperties>
         <ServerProperty>
-          <Name>SchedulingBehavior</Name>
+          <Name>ThreadPool\SchedulingBehavior</Name>
           <Value>1</Value>
         </ServerProperty>
       </ServerProperties>
