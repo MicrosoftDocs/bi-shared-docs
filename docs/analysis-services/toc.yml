@@ -1,30 +1,33 @@
 - name: Analysis Services documentation
-  href: ../analysis-services/analysis-services-overview.md
+  href: analysis-services-overview.md
 - name: Overview
   items:
   - name: SQL Server Analysis Services
     items:
     - name: What's new in SQL Server Analysis Services
-      href: ../analysis-services/what-s-new-in-analysis-services.md
+      href: what-s-new-in-analysis-services.md
     - name: Analysis Services features supported by SQL Server editions
-      href: ../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
+      href: analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
     - name: Backward compatibility
-      href: ../analysis-services/analysis-services-backward-compatibility.md
+      href: analysis-services-backward-compatibility.md
+  - name Azure Analysis Services
+    href: https://docs.microsoft.com/azure/analysis-services/
   - name: Tools and applications
-    href: ../analysis-services/tools-and-applications-used-in-analysis-services.md
+    href: tools-and-applications-used-in-analysis-services.md
   - name: Comparing Tabular and Multidimensional solutions
-    href: ../analysis-services/comparing-tabular-and-multidimensional-solutions-ssas.md
+    href: comparing-tabular-and-multidimensional-solutions-ssas.md
   - name: Globalization and translation
-    href: ../analysis-services/globalization-scenarios-for-analysis-services.md
     items:
+    - name: Globalization scenarios for Analysis Services
+      href: globalization-scenarios-for-analysis-services.md
     - name: Languages and collations
-      href: ../analysis-services/languages-and-collations-analysis-services.md
+      href: languages-and-collations-analysis-services.md
     - name: Translations
-      href: ../analysis-services/translation-support-in-analysis-services.md
+      href: translation-support-in-analysis-services.md
     - name: Currency conversions
-      href: ../analysis-services/currency-conversions-analysis-services.md
+      href: currency-conversions-analysis-services.md
     - name: Tips and best practices
-      href: ../analysis-services/globalization-tips-and-best-practices-analysis-services.md
+      href: globalization-tips-and-best-practices-analysis-services.md
 - name: Tutorials
   items:
   - name: Analysis Services tutorials overview
@@ -99,8 +102,6 @@
         href: ../analysis-services/tutorial-tabular-1200/lesson-13-deploy.md
       - name: Supplemental Lesson - Implement dynamic security by using row filters
         href: ../analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters.md
-      - name: Supplemental Lesson - Configure reporting properties for Power View reports
-        href: ../analysis-services/tutorial-tabular-1200/supplemental-lesson-configure-reporting-properties-for-power-view-reports.md
   - name: Multidimensional models
     items:
     - name: Adventure works tutorial
@@ -813,25 +814,6 @@
         href: ../analysis-services/multidimensional-models/grant-permissions-on-a-data-source-object-analysis-services.md
       - name: Data Mining permissions
         href: ../analysis-services/multidimensional-models/grant-permissions-on-data-mining-structures-and-models-analysis-services.md
-    - name: Power View for Multidimensional Models
-      href: ../analysis-services/multidimensional-models/power-view-for-multidimensional-models.md
-      items:
-      - name: Understanding Power View for Multidimensional Models
-        href: ../analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models.md
-      - name: Create a Report Data Source
-        href: ../analysis-services/multidimensional-models/create-a-report-data-source.md
-      - name: Create a Power View Report
-        href: ../analysis-services/multidimensional-models/create-a-power-view-report-with-a-multidimensional-data-source.md
-      - name: ADOMD.NET Server Functionality >
-        href: /bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-functionality
-      - name: ADOMD.NET Server Object Architecture >
-        href: /bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-object-architecture
-      - name: ADOMD.NET Server Programming >
-        href: /bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-programming
-      - name: User Defined Functions and Stored Procedures >
-        href: /bi-reference/adomd/multidimensional-models-adomd-net-server/user-defined-functions-and-stored-procedures
-    - name: Assemblies Management
-      href: ../analysis-services/multidimensional-models/multidimensional-model-assemblies-management.md
   - name: Data Mining
     items:
     - name: Data Mining overview
@@ -1471,6 +1453,8 @@
     items:
     - name: Multidimensional model programming
       href: ../analysis-services/multidimensional-models/multidimensional-model-programming.md
+    - name: Assemblies Management
+      href: ../analysis-services/multidimensional-models/multidimensional-model-assemblies-management.md
     - name: Analysis Management Objects (AMO) >
       href: /bi-reference/amo/developing-with-analysis-management-objects-amo
     - name: Analysis Services Scripting Language (ASSL)
@@ -1757,9 +1741,9 @@
   - name: PowerShell for Power Pivot for SharePoint
     href: ../analysis-services/powershell/powershell-reference-for-power-pivot-for-sharepoint.md
   - name: Data Analysis Expressions (DAX) >
-    href: /dax/data-analysis-expressions-dax-reference   # https://msdn.microsoft.com/library/gg413422.aspx
+    href: /dax/data-analysis-expressions-dax-reference
   - name: Power Query M >
-    href: /powerquery-m/power-query-m-reference   # https://msdn.microsoft.com/library/mt211003.aspx
+    href: /powerquery-m/power-query-m-reference
   - name: Tabular Model Scripting Language (TMSL) >
     href: /bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference
   - name: Tabular Object Model (TOM) >
