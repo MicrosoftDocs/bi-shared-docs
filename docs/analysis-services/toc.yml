@@ -10,7 +10,7 @@
       href: analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
     - name: Backward compatibility
       href: analysis-services-backward-compatibility.md
-  - name Azure Analysis Services
+  - name: Azure Analysis Services
     href: https://docs.microsoft.com/azure/analysis-services/
   - name: Tools and applications
     href: tools-and-applications-used-in-analysis-services.md
