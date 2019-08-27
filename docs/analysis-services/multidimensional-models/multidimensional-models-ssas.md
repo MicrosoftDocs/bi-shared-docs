@@ -28,8 +28,6 @@ manager: kfile
   
  [Roles and Permissions &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/roles-and-permissions-analysis-services.md)  
   
- [Power View for Multidimensional Models](../../analysis-services/multidimensional-models/power-view-for-multidimensional-models.md)  
-  
  [Multidimensional Model Assemblies Management](../../analysis-services/multidimensional-models/multidimensional-model-assemblies-management.md)  
   
   

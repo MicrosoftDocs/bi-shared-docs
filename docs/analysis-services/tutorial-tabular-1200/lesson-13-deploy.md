@@ -68,4 +68,3 @@ Congratulations! You're finished authoring and deploying your first Analysis Ser
   ## What's next?
 *  [Supplemental Lesson - Implement Dynamic Security by Using Row Filters](supplemental-lesson-implement-dynamic-security-by-using-row-filters.md).
 
-*  [Supplemental Lesson - Configure Reporting Properties for Power View Reports](supplemental-lesson-configure-reporting-properties-for-power-view-reports.md).
