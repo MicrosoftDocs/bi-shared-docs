@@ -379,6 +379,31 @@
             "source_path": "analysis-services/analysis-services-backward-compatibility-sql2017.md",
             "redirect_url": "analysis-services/analysis-services-backward-compatibility",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/multidimensional-models/power-view-for-multidimensional-models.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/multidimensional-models/create-a-report-data-source.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/multidimensional-models/create-a-power-view-report-with-a-multidimensional-data-source.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/tutorial-tabular-1200/supplemental-lesson-configure-reporting-properties-for-power-view-reports.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
         }
     ]
 }

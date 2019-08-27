@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services Internet Sales tutorial (1200 compatibility level) | Microsoft Docs"
-ms.date: 05/08/2019
+ms.date: 08/28/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -15,7 +15,7 @@ manager: kfile
 
 This tutorial provides lessons on how to create an Analysis Services tabular model at the [1200 compatibility level](../tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) by using [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt), and deploy your model to an Analysis Services server on-premises or in Azure.  
  
-If you're using SQL Server 2017 or Azure Analysis Services, and you want to create your model at the 1400 compatibility level, use the [Tabular modeling (1400 compatibility level)](../tutorial-tabular-1400/as-adventure-works-tutorial.md). This updated version uses the modern Get Data feature to connect and import source data, uses the M language to configure partitions, and includes additional supplemental lessons.
+If you're using SQL Server 2017 or Azure Analysis Services and you want to create your model at the 1400 compatibility level, use the [Tabular modeling (1400 compatibility level)](../tutorial-tabular-1400/as-adventure-works-tutorial.md). This updated version uses the modern Get Data feature to connect and import source data, uses the M language to configure partitions, and includes additional supplemental lessons.
 
 > [!IMPORTANT]
 > You should create your tabular models at the latest compatibility level supported by your server. Later compatibility level models provide improved performance, additional features, and will upgrade to future compatibility levels more seamlessly.
@@ -89,9 +89,7 @@ This tutorial also includes Supplemental Lessons. Topics in this section are not
 |Lesson|Estimated time to complete|  
 |----------|------------------------------|  
 |[Implement Dynamic Security by Using Row Filters](supplemental-lesson-implement-dynamic-security-by-using-row-filters.md)|30 minutes|  
-|[Configure Reporting Properties for Power View Reports](supplemental-lesson-configure-reporting-properties-for-power-view-reports.md)|30 minutes| 
 
-  
 ## Next steps  
 To begin the tutorial, continue to the first lesson: [Lesson 1: Create a New Tabular Model Project](lesson-1-create-a-new-tabular-model-project.md).  
   
