@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular model table properties | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 08/28/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -12,13 +12,8 @@ manager: kfile
 ---
 # Table Properties 
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
-  This article describes tabular model table properties. The properties described here are different from those in the Edit Table Properties dialog box, which define which columns from the source are imported.  
-  
- Sections in this topic:  
-  
--   [Table Properties](#bkmk_properties)  
-  
--   [Configure table property settings](#bkmk_config_prop)  
+
+The properties described here are different from those in the Edit Table Properties dialog box, which define which columns from the source are imported.  
   
 ##  <a name="bkmk_properties"></a> Table Properties  
  **Basic**  
@@ -33,8 +28,6 @@ manager: kfile
 |**Table Name**|\<friendly name>|Specifies the table's friendly name. The table name can be specified when a table is imported using the Table Import Wizard or at any time after import. The table name in the model can be different from the associated table at the source. The table friendly name appears in the reporting client application field list as well as in the model database in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)].|  
   
  **Reporting Properties**  
-  
- For detailed descriptions and configuration information for reporting properties, see [Power View reporting properties](../../analysis-services/tabular-models/power-view-reporting-properties-ssas-tabular.md).  
   
 |Property|Default Setting|Description|  
 |--------------|---------------------|-----------------|  

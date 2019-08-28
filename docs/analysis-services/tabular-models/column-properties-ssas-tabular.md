@@ -1,6 +1,6 @@
 ---
 title: "Column properties in Analysis Services tabular models | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 08/28/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -61,7 +61,7 @@ manager: kfile
 2.  In the **Properties** window, click on a property, and then type a value or click the down arrow to select a setting option.  
   
 ## See also  
- [Power View reporting properties](../../analysis-services/tabular-models/power-view-reporting-properties-ssas-tabular.md)   
+
  [Hide or freeze columns](../../analysis-services/tabular-models/hide-or-freeze-columns-ssas-tabular.md)   
  [Add columns to a table](../../analysis-services/tabular-models/add-columns-to-a-table-ssas-tabular.md)  
   

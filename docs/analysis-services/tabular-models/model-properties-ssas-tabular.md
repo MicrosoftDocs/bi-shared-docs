@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular model properties | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 08/28/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -12,13 +12,8 @@ manager: kfile
 ---
 # Model properties 
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
-  This article describes tabular model properties. Each tabular model project has model properties that affect how the model you are authoring in SQL Server Development Tools is built, how it is backed up, and how the workspace database is stored. Model properties described here do not apply to models that have already been deployed.  
-  
- Sections in this topic:  
-  
--   [Model properties](#bkmk_model_properties)  
-  
--   [Configure model property settings](#bkmk_conf_model_prop)  
+
+  Each tabular model project has model properties that affect how the model you are authoring in SQL Server Development Tools is built, how it is backed up, and how the workspace database is stored. Model properties described here do not apply to models that have already been deployed.  
   
 ##  <a name="bkmk_model_properties"></a> Model properties  
  **Advanced**  

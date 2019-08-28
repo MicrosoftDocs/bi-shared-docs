@@ -237,7 +237,7 @@
         href: ../analysis-services/instances/install-windows/upgrade-workbooks-and-scheduled-data-refresh-sharepoint-2013.md
       - name: Configure Analysis Services and Kerberos Constrained Delegation (KCD)
         href: ../analysis-services/instances/install-windows/configure-analysis-services-and-kerberos-constrained-delegation-kcd.md
-      - name: "CheckList: Use PowerShell to Verify Power Pivot for SharePoint"
+      - name: CheckList - Use PowerShell to Verify Power Pivot for SharePoint
         href: ../analysis-services/instances/install-windows/checklist-use-powershell-to-verify-power-pivot-for-sharepoint.md
       - name: Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016
         href: ../analysis-services/instances/install-windows/deploying-sql-server-2016-powerpivot-and-power-view-in-sharepoint-2016.md
@@ -286,12 +286,8 @@
           href: ../analysis-services/tabular-models/import-from-power-pivot-ssas-tabular.md
       - name: Properties
         items:
-        - name: Power View - Reporting Properties
-          href: ../analysis-services/tabular-models/power-view-reporting-properties-ssas-tabular.md
-        - name: Power View - Configure Default Field Set
-          href: ../analysis-services/tabular-models/power-view-configure-default-field-set-for-reports.md
-        - name: Power View - Configure Table Behavior Properties
-          href: ../analysis-services/tabular-models/power-view-configure-table-behavior-properties-for-reports.md
+        - name: Default data modeling and deployment properties
+          href: ../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md
         - name: Project properties
           href: ../analysis-services/tabular-models/project-properties-ssas-tabular.md
         - name: Model properties
@@ -300,8 +296,6 @@
           href: ../analysis-services/tabular-models/table-properties-ssas-tabular.md
         - name: Column Properties
           href: ../analysis-services/tabular-models/column-properties-ssas-tabular.md
-        - name: Configure default data modeling and deployment properties
-          href: ../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md
       - name: Import Data
         items:
         - name: Data sources supported in tabular 1400 models
