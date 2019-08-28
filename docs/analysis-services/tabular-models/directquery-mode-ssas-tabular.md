@@ -1,6 +1,6 @@
 ---
 title: "DirectQuery mode in Analysis Services | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 08/28/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -68,6 +68,10 @@ If you've already turned on DirectQuery but haven't yet connected to a data sour
 ![DirectQuery import success](../../analysis-services/tabular-models/media/directquery-import-success.png)
 
 If you've already used Table Import Wizard to import data, but haven't yet turned on DirectQuery mode, when you do, the in-memory cache will be cleared.
+
+## Deploying DirectQuery models
+
+DirectQuery models are deployed the same as import models. However, unlike import models, if a DirectQuery model contains calculated items, calculated columns, calculated tables, after being deployed you must perform a **Process Recalc** on the database. To learn more about processing a model database from SSMS, see [Process Database, Table, or Partition](process-database-table-or-partition-analysis-services.md).
 
   
 ## Additional articles in this section
