@@ -404,6 +404,21 @@
             "source_path": "analysis-services/tutorial-tabular-1200/supplemental-lesson-configure-reporting-properties-for-power-view-reports.md",
             "redirect_url": "analysis-services/analysis-services-overview",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/tabular-models/power-view-configure-default-field-set-for-reports.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/tabular-models/power-view-configure-table-behavior-properties-for-reports.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/tabular-models/power-view-reporting-properties-ssas-tabular.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
         }
     ]
 }
