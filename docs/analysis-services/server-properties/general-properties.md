@@ -26,8 +26,8 @@ manager: kfile
  **AllowedBrowsingFolders**  
  A string property that specifies in a delimited list the folders that can be browsed when saving, opening, and finding files in Analysis Services dialog boxes. The Analysis Services service account must have read and write permissions to any folders that you add to the list.  
  
- **AutoSetDefaultInitialCatalog**
- A boolean property. When set to true, new client connections automatically default to the first database (default catalog) the user has permissions to connect to. When set to false, no default catalog is specified. Clients are forced to select a default catalog prior to running queries against a database on the server. If InitialCatalog is specified in the connection string, the connection will overide the default catalog.
+ **AutoSetDefaultInitialCatalog**   
+ A boolean property when set to true, new client connections automatically default to the first catalog (database) the user has permissions to connect to. When set to false, no initial catalog is specified. Clients are forced to select a default catalog prior to running queries against a database on the server. If InitialCatalog is specified in the connection string, the connection will overide the default initial catalog.
  
 The default value for this property is true.
   
