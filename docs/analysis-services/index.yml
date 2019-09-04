@@ -1,0 +1,107 @@
+### YamlMime:Landing
+
+title: SQL Server Analysis Services documentation
+summary: Analysis Services is an enterprise-grade analytical data engine (Vertipaq) available on-premises and in the cloud.
+
+metadata:
+  title: SQL Server Analysis Services documentation | Microsoft Docs
+  description: Learn how to use SQL Server Analysis Services to provide enterprise grade semantic data models on-premises and in the cloud!
+  ms.topic: landing-page
+  author: minewiskan
+  ms.author: owend
+  manager: mtillman
+  ms.date: 09/05/2019
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card
+  - title: About Analysis Services
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is SQL Server Analysis Services?
+            url: analysis-services-overview.md
+          - text: Features supported by SQL Server editions
+            url: analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
+          - text: What is Azure Analysis Services?
+            url: https://docs.microsoft.com/azure/analysis-services/analysis-services-overview
+      - linkListType: whats-new
+        links:      
+          - text: What's new in SQL Server Analysis Services
+            url: what-s-new-in-analysis-services.md
+
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Install SQL Server Analysis Services
+            url: analysis-services-create-server.md
+          - text: Install SQL Server evaluation editions
+            url: https://www.microsoft.com/evalcenter/evaluate-sql-server-2019-rc/
+      - linkListType: download
+        links:
+          - text: SQL Server Data Tools (SSDT) for Visual Studio
+            url: https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt
+          - text: SQL Server Management Studio (SSMS)
+            url: https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms
+
+  # Card
+  - title: Data modeling
+    linkLists:
+      - linkListType: concept
+        links:
+        - url: tabular-models/tabular-models-ssas.md
+          text: Tabular models
+        - url: multidimensional-models/multidimensional-models-ssas.md
+          text: Multidimensional models
+        - url: comparing-tabular-and-multidimensional-solutions-ssas.md
+          text: Comparing tabular and multidimensional solutions
+      - linkListType: tutorial
+        links:
+          - text: Tabular modeling
+            url: tutorial-tabular-1400/as-adventure-works-tutorial.md
+          - text: Multidimensional modeling
+            url: analysis-services-create-server.md
+
+  # Card
+  - title: Manage servers
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Server management
+            url: instances/analysis-services-instance-management.md
+          - text: Monitor
+            url: analysis-services/instances/monitor-an-analysis-services-instance.md
+          - text: Configure Windows Firewall
+            url: instances/configure-the-windows-firewall-to-allow-analysis-services-access.md
+
+  # Card
+  - title: Connect to servers
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Connect to Analysis Services
+            url: instances/connect-to-analysis-services.md
+          - text: Client libraries
+            url: instances/data-providers-used-for-analysis-services-connections.md
+
+  # Card
+  - title: Reference
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: PowerShell
+            url: powershell/analysis-services-powershell-reference.md
+          - text: Analysis Services API and scripting references
+            url: https://docs.microsoft.com/bi-reference/
+          - text: Data Analysis Expressions (DAX)
+            url: https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference
+          - text: Power Query M formula language
+            url: https://docs.microsoft.com/powerquery-m/power-query-m-reference
+
+
+

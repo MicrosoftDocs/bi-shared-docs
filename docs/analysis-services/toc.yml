@@ -1,7 +1,9 @@
 - name: Analysis Services documentation
-  href: analysis-services-overview.md
+  href: index.yml
 - name: Overview
   items:
+  - name: About Analysis Services documentation
+    href: analysis-services-overview.md
   - name: SQL Server Analysis Services
     items:
     - name: What's new in SQL Server Analysis Services
