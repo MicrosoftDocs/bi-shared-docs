@@ -29,6 +29,7 @@ manager: kfile
  **AutoSetDefaultInitialCatalog**   
 A Boolean property. When set to true, new client connections automatically default to the first catalog (database) the user has permissions to connect to.   
 When set to false, no initial catalog is specified. Clients must select a default catalog prior to running queries or discover operations against a database on the server. If no default catalog is specified, an error is returned. If Initial Catalog property is specified in the connection string, the default catalog will be applied from this property.   
+
 The default value for this property is true.
   
  **BackupDir**  
