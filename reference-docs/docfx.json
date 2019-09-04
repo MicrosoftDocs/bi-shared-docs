@@ -34,6 +34,7 @@
     ],
     "overwrite": [],
     "externalReference": [],
+    "markdownEngineName": "markdig",
     "globalMetadata": {
       "breadcrumb_path": "/bi-reference/breadcrumb/toc.json",
       "extendBreadcrumb": true,

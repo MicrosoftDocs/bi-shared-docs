@@ -1,20 +1,23 @@
 ---
-title: "Performance Counters (SSAS) | Microsoft Docs"
-ms.date: 05/02/2018
+title: "Analysis Services performance counters  | Microsoft Docs"
+ms.date: 08/08/2019
 ms.prod: sql
 ms.technology: analysis-services
-ms.custom:
 ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Performance Counters (SSAS)
+# Performance counters
+
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  Using Performance Monitor, you can monitor the performance of a Microsoft SQL Server Analysis Services (SSAS) instance by using performance counters.  
+
+  By using Performance Monitor, you can monitor the performance of an Analysis Services instance with performance counters.  
+
+Azure Analysis Services uses Azure Metrics Explorer in the portal. To learn more, see [Monitor Azure Analysis Services server metrics](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor).
   
- Performance Monitor is a [!INCLUDE[msCoName](../../includes/msconame-md.md)] Management Control (MMC) snap-in that tracks resource usage. You can start this MMC snap-in by typing in **PerfMon** at the command prompt or from Control Panel by clicking **Administrative Tools**, then **Performance Monitor**. Performance Monitor lets you track server and process performance and activity by using predefined objects and counters, and monitor events by using user-defined counters. Performance Monitor collects counts instead of data about the events, for example, memory usage, number of active transactions, or CPU activity. You can also set thresholds on specific counters to generate alerts that notify operators.  
+ Performance Monitor is a [!INCLUDE[msCoName](../../includes/msconame-md.md)] Management Control (MMC) snap-in that tracks resource usage. You can start the MMC snap-in by typing in **PerfMon** at the command prompt or from Control Panel by clicking **Administrative Tools**, then **Performance Monitor**. Performance Monitor lets you track server and process performance and activity by using predefined objects and counters, and monitor events by using user-defined counters. Performance Monitor collects counts instead of data about the events, for example, memory usage, number of active transactions, or CPU activity. You can also set thresholds on specific counters to generate alerts that notify operators.  
   
  Performance Monitor can monitor remote and local instances of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] or [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)]. For more information, see [Using Performance Monitor](https://technet.microsoft.com/library/cc749115.aspx).  
   

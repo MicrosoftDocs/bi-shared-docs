@@ -369,6 +369,56 @@
             "source_path": "analysis-services/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdlbi-attributes-for-report-design.md",
             "redirect_url": "bi-reference/csdl/csdlbi-attributes-for-report-design",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/what-s-new-in-sql-server-analysis-services-2017.md",
+            "redirect_url": "analysis-services/what-s-new-in-sql-server-analysis-services",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/analysis-services-backward-compatibility-sql2017.md",
+            "redirect_url": "analysis-services/analysis-services-backward-compatibility",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/multidimensional-models/power-view-for-multidimensional-models.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/multidimensional-models/create-a-report-data-source.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/multidimensional-models/create-a-power-view-report-with-a-multidimensional-data-source.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/tutorial-tabular-1200/supplemental-lesson-configure-reporting-properties-for-power-view-reports.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/tabular-models/power-view-configure-default-field-set-for-reports.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/tabular-models/power-view-configure-table-behavior-properties-for-reports.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "analysis-services/tabular-models/power-view-reporting-properties-ssas-tabular.md",
+            "redirect_url": "analysis-services/analysis-services-overview",
+            "redirect_document_id": false
         }
     ]
 }

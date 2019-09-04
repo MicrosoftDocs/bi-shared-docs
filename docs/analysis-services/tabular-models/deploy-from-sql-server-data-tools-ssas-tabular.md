@@ -1,6 +1,6 @@
 ---
 title: "Deploy Analysis Services tabular models from SQL Server Data Tools | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 08/28/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -53,7 +53,11 @@ manager: kfile
   
  **Stop Deploy**  
  Click to halt the Deploy operation. This option is useful if the Deploy operation is taking too long, or if there are too many errors.  
-  
+ 
+
+> [!NOTE]
+> For DirectQuery models, if the model contains calculated items, calculated columns, calculated tables, after being deployed you must perform a **Process Recalc** on the database. To learn more about processing a model database from SSMS, see [Process Database, Table, or Partition](process-database-table-or-partition-analysis-services.md).
+
 ## See also  
  [Tabular model solution deployment](../../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md)   
  [Configure default data modeling and deployment properties](../../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md)  

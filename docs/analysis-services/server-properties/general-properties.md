@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services General Properties | Microsoft Docs"
-ms.date: 04/04/2019
+ms.date: 09/04/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -25,12 +25,18 @@ manager: kfile
   
  **AllowedBrowsingFolders**  
  A string property that specifies in a delimited list the folders that can be browsed when saving, opening, and finding files in Analysis Services dialog boxes. The Analysis Services service account must have read and write permissions to any folders that you add to the list.  
+ 
+ **AutoSetDefaultInitialCatalog**   
+A Boolean property. When set to true, new client connections automatically default to the first catalog (database) the user has permissions to connect to.   
+When set to false, no initial catalog is specified. Clients must select a default catalog prior to running queries or discover operations against a database on the server. If no default catalog is specified, an error is returned. If Initial Catalog property is specified in the connection string, the default catalog will be applied from this property.   
+
+The default value for this property is true.
   
  **BackupDir**  
  A string property that identifies the name of the directory where backup files are stored by default, in the event a path is not specified as part of the Backup command.  
  
 **ClientCacheRefreshPolicy**
-Applies to Azure Analysis Services only. Overrides the **Scheduled cache refresh** setting for all Power BI datasets. All Live Connect reports will observe the server-level setting irrespective of the dataset-level setting, or which workspace they reside on.
+ Applies to Azure Analysis Services and SQL Server 2019 and later only. Overrides the **Scheduled cache refresh** setting for all Power BI datasets. All Live Connect reports will observe the server-level setting irrespective of the dataset-level setting, or which workspace they reside on.
 
 The default value for this property is -1, which allows all background cache refreshes as specified in the Scheduled cache refresh setting for the dataset. To discourage all background cache refreshes, specify zero (0).
 

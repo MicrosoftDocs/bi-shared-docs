@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services samples | Microsoft Docs"
-ms.date: 03/29/2019
+ms.date: 08/09/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -11,10 +11,10 @@ author: minewiskan
 manager: kfile
 ---
 # Analysis Services samples
+
 [!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]
 
-  Use the information here to find sample databases and projects to help you learn about and test your Analysis Services solutions.
-  
+Use the information here to find sample databases and projects to help you learn about and test your Analysis Services solutions.
 
 ## Samples on GitHub
 
@@ -28,10 +28,6 @@ While no longer officially supported, Adventure Works remains one of the most in
 
 A new collection of sample data, Wide World Importers, was introduced for SQL Server 2016. You can use Wide World Importers sample data to learn about and test Analysis Services; however, no tutorials, examples, or documentation are provided. The Wide World Importers dataset and schema do not support many of the features in Analysis Services.
 
+## See also
 
-  
-## See also  
-*   [Analysis Services tutorials](../analysis-services/analysis-services-tutorials-ssas.md)
-
-  
-  
+[Analysis Services tutorials](../analysis-services/analysis-services-tutorials-ssas.md)

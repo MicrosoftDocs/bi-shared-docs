@@ -1,6 +1,6 @@
 ---
 title: "Compatibility level for tabular models in Analysis Services | Microsoft Docs"
-ms.date: 05/23/2019
+ms.date: 08/20/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -10,29 +10,26 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Compatibility level for Analysis Services tabular models
+# Compatibility level for tabular models
+
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
 
   The *compatibility level* refers to release-specific behaviors in the Analysis Services engine. For example, DirectQuery and tabular object metadata have different implementations depending on the compatibility level. In-general, you should choose the latest compatibility level supported by your servers.
 
-  **The latest supported compatibility level is 1400** 
+  **The latest supported compatibility level is 1500** 
   
-Major features in the 1400 compatibility level include:
+Major features in the 1500 compatibility level include:
 
-*  New infrastructure for data connectivity and import into tabular models with support for TOM APIs and TMSL scripting. This enables support for additional data sources such as Azure Blob storage. Additional data sources will be included in future updates.
-*  Data transformation and data mashup capabilities by using Get Data and M expressions in SSDT.
-*  Measures now support a Detail Rows property with a DAX expression, enabling BI tools such as Microsoft Excel drill-down to detailed data from an aggregated report. For example, when end-users view total sales for a region and month, they can view the associated order details. 
-*  Object-level security for table and column names, in addition to the data within them.
-*  Enhanced support for ragged hierarchies.
-*  Performance and monitoring improvements.
-
+*  [Calculation groups](calculation-groups.md)
+*  [Many-to-many relationships](../what-s-new-in-analysis-services.md#many-to-many-relationships-in-tabular-models)
   
 ## Supported compatibility levels by version
   
 |||  
 |-|-|- 
 |**Compatibility level**|**Server version**| 
-|1470|SQL Server 2019 (CTP 2.3 and higher) | 
+|1500|SQL Server 2019 (RC1 and later)  | 
+|1470|SQL Server 2019 (CTP 2.3 - 3.2)  | 
 |1400|Azure Analysis Services, SQL Server 2019, SQL Server 2017 |  
 |1200|Azure Analysis Services, SQL Server 2019, SQL Server 2017, SQL Server 2016| 
 |1103|SQL Server 2017*, SQL Server 2016, SQL Server 2014, SQL Server 2012 SP1|  
@@ -41,6 +38,10 @@ Major features in the 1400 compatibility level include:
 \* 1100 and 1103 compatibility levels are deprecated in SQL Server 2017.
   
 ## Set compatibility level 
+
+> [!NOTE]
+> Setting the 1500 compatibility level is not yet supported in SSDT.
+
  When creating a new tabular model project in SQL Server Data Tools (SSDT), you can specify the compatibility level on the **Tabular model designer** dialog. 
   
  ![ssas_tabularproject_compat1200](../../analysis-services/tabular-models/media/ssas-tabularproject-compat1200.png)  
@@ -49,10 +50,12 @@ Major features in the 1400 compatibility level include:
   
  To upgrade a tabular model project in SSDT, set  the **Compatibility Level** property in the model **Properties** window. Keep in-mind, upgrading the compatibility level is irreversible.
   
-## Check compatibility level for a database in SSMS  
+## Check compatibility level for a tabular database in SSMS 
+
  In SSMS, right-click the database name > **Properties** > **Compatibility Level**.  
   
-## Check supported compatibility level for a server in SSMS  
+## Check supported compatibility level for a server in SSMS
+
  In SSMS, right-click the server name>  **Properties** > **Supported Compatibility Level**.  
 
  This property specifies the highest compatibility level of a database that will run on the server. The supported compatibility level is read-only cannot be changed.

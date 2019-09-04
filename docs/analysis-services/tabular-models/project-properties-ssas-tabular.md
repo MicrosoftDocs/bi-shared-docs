@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular model project properties | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 08/28/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -12,13 +12,9 @@ manager: kfile
 ---
 # Project properties 
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
-  This article describes model project properties. Each tabular model project has deployment options and deployment server properties that specify how the project and model is deployed. For example, the server the model will be deployed to and the deployed model database name. These settings are different from model properties, which affect the model workspace database. The project properties described here are in a modal properties dialog box, different from the properties window used to display other types of properties. To display the modal project properties, in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], in **Solution Explorer**, right-click the project, and then click **Properties**.  
+
+  Each tabular model project has deployment options and deployment server properties that specify how the project and model is deployed. For example, the server the model will be deployed to and the deployed model database name. These settings are different from model properties, which affect the model workspace database. The project properties described here are in a modal properties dialog box, different from the properties window used to display other types of properties. To display the modal project properties, in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], in **Solution Explorer**, right-click the project, and then click **Properties**.  
   
- Sections in this topic:  
-  
--   [Project properties](#bkmk_proj_properties)  
-  
--   [Configure Deployment Options and Deployment Server property settings](#bkmk_conf_proj_settings)  
   
 ##  <a name="bkmk_proj_properties"></a> Project properties  
  **Deployment Options**  
