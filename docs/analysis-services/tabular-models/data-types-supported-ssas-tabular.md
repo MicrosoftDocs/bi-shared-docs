@@ -1,6 +1,6 @@
 ---
 title: "Data types supported in Analysis Services tabular models | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 09/06/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -25,7 +25,7 @@ When you import data or use a value in a formula, even if the original data sour
 ||||  
 |-|-|-|  
 |**Data type in model**|**Data type in DAX**|**Description**|  
-|Whole Number|A 64 bit (eight-bytes) integer value*<br /><br /> Note:<br />         DAX formulas do not support data types that are too small to hold the minimum value listed in the description.|Numbers that have no decimal places. Integers can be positive or negative numbers, but must be whole numbers between -9,223,372,036,854,775,808 (-2^63) and 9,223,372,036,854,775,807 (2^63-1).|  
+|Whole Number|A 64 bit (eight-bytes) integer value*<br /><br /> Note:<br />         DAX formulas do not support data types that are too small to hold the minimum value listed in the description.|Numbers that have no decimal places. Integers can be positive or negative numbers, but must be whole numbers between -9,223,372,036,854,775,807 (-2^63+1) and 9,223,372,036,854,775,806 (2^63-2).|  
 |Decimal Number|A 64 bit (eight-bytes) real number*<br /><br /> Note:<br />         DAX formulas do not support data types that are too small to hold the minimum value listed in the description.|Real numbers are numbers that can have decimal places. Real numbers cover a wide range of values:<br /><br /> Negative values from -1.79E +308 through -2.23E -308<br /><br /> Zero<br /><br /> Positive values from 2.23E -308 through 1.79E + 308<br /><br /> However, the number of significant digits is limited to 17 decimal digits.|  
 |Boolean|Boolean|Either a True or False value.|  
 |Text|String|A Unicode character data string. Can be strings, numbers, or dates represented in a text format.|  
