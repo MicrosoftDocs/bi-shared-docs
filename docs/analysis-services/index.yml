@@ -1,10 +1,10 @@
 ### YamlMime:Landing
 
-title: SQL Server Analysis Services documentation
-summary: Analysis Services is an enterprise-grade analytical data engine (Vertipaq) available on-premises and in the cloud.
+title: Analysis Services documentation
+summary: Analysis Services is an enterprise-grade analytical data engine available on-premises with SQL Server and in the cloud on Azure.
 
 metadata:
-  title: SQL Server Analysis Services documentation | Microsoft Docs
+  title: Analysis Services core documentation | Microsoft Docs
   description: Learn how to use SQL Server Analysis Services to provide enterprise grade semantic data models on-premises and in the cloud!
   ms.topic: landing-page
   author: minewiskan
@@ -24,8 +24,6 @@ landingContent:
         links:
           - text: What is Analysis Services?
             url: analysis-services-overview.md
-          - text: Features supported by SQL Server editions
-            url: analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
       - linkListType: whats-new
         links:      
           - text: What's new in SQL Server Analysis Services
