@@ -1,7 +1,9 @@
 - name: Analysis Services documentation
-  href: analysis-services-overview.md
+  href: index.yml
 - name: Overview
   items:
+  - name: What is Analysis Services?
+    href: analysis-services-overview.md
   - name: SQL Server Analysis Services
     items:
     - name: What's new in SQL Server Analysis Services
@@ -10,7 +12,7 @@
       href: analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
     - name: Backward compatibility
       href: analysis-services-backward-compatibility.md
-  - name: Azure Analysis Services (Azure docs)
+  - name: Azure Analysis Services documentation
     href: https://docs.microsoft.com/azure/analysis-services/
   - name: Tools and applications
     href: tools-and-applications-used-in-analysis-services.md

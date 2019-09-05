@@ -1,6 +1,6 @@
 ---
 title: "Tabular Models in Analysis Services  | Microsoft Docs"
-ms.date: 09/17/2018
+ms.date: 09/06/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -21,5 +21,5 @@ manager: kfile
   
  Tabular models can be deployed to Azure Analysis Services or an instance of SQL Server Analysis Services configured for Tabular server mode. Deployed tabular models can be managed in SQL Server Management Studio. 
 
-Tabular modeling documentation included here applies, in most cases, to both SQL Server Analysis Services and Azure Analysis Services. Articles specific to Azure Analysis Services are published along with other Azure documentation. To learn more, see [Azure Analysis Services documentation](https://docs.microsoft.com/azure/analysis-services/).
+
   

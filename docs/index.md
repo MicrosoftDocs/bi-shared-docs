@@ -1,1 +1,3 @@
-# Welcome to analysis-services!
+---
+redirect_url: /analysis-services/index
+---
