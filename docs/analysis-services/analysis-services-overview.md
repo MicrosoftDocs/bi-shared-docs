@@ -1,5 +1,5 @@
 ---
-title: "Analysis Services documentation | Microsoft Docs"
+title: "What is Analysis Services? | Microsoft Docs"
 ms.date: 09/06/2019
 ms.prod: sql
 ms.technology: analysis-services
@@ -9,7 +9,7 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Analysis Services documentation
+# What is Analysis Services?
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
 
