@@ -1,6 +1,6 @@
 ---
-title: "Analysis Services documentation | Microsoft Docs"
-ms.date: 08/09/2019
+title: "What is Analysis Services? | Microsoft Docs"
+ms.date: 09/06/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: landing-page
@@ -9,9 +9,9 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Analysis Services documentation
+# What is Analysis Services?
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
 Analysis Services is an analytical data engine (Vertipaq) used in decision support and business analytics. It provides enterprise-grade semantic data models for business reports and client applications such as Power BI, Excel, Reporting Services reports, and other data visualization tools. Analysis Services is available in different platforms:
 
@@ -27,7 +27,7 @@ Analysis Services documentation is located at different places in docs.microsoft
 
 Documentation you see in the Table of Contents to the left is known as the core Analysis Services documentation. Core documentation can apply to just one platform, like SQL Server Analysis Services, or to all Analysis Services platforms including Azure Analysis Services. This is because how you create and deploy a tabular model, or manage certain server properties or databases is much the same, regardless of platform.
 
-In the core documentation, at the top of each article an **Applies To** banner indicates the Analysis Services platforms the article applies to. Keep in mind, feature and functionality changes are happening to each platform all the time. When they do, we make every effort to update the documentation.
+In the core documentation, at the top of each article an **Applies To** banner indicates the platforms the article applies to. Keep in mind, feature and functionality changes are happening to each platform all the time. When they do, we make every effort to update the documentation.
 
 Looking for **SQL Server 2014 Analysis Services** documentation? - SQL Server 2014 Analysis Services documentation is kept separate from later version documentation. This is due to changing documentation models used on docs.microsoft.com compared to MSDN, where SQL Server 2014 and earlier Books Online documentation was originally published. Go to [SQL Server 2014 Analysis Services documentation](https://docs.microsoft.com/sql/analysis-services/analysis-services?view=sql-server-2014). Need to go back even further? See [SQL Server previous versions documentation](https://docs.microsoft.com/previous-versions/sql/).
 
