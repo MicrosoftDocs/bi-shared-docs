@@ -1,6 +1,6 @@
 ---
-title: "Analysis Services Thread Pool Properties | Microsoft Docs"
-ms.date: 06/07/2018
+title: "Analysis Services thread pool properties | Microsoft Docs"
+ms.date: 09/07/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -10,28 +10,28 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Thread Pool Properties
+# Thread pool properties
+
 [!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
 
-  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] uses multi-threading for many operations, improving overall server performance by running multiple jobs in parallel. To manage threads more efficiently, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] uses thread pools to preallocate threads and facilitate thread availability for the next job.  
+[!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] uses multi-threading for many operations, improving overall server performance by running multiple jobs in parallel. To manage threads more efficiently, the engine uses thread pools to pre-allocate threads and facilitate thread availability for the next job.  
   
- Each instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] maintains its own set of thread pools. There are differences in how tabular and multidimensional instances use thread pools. For example, only multidimensional instances use the **IOProcess** thread pool. As such, the **PerNumaNode** property, described in this article, is not meaningful for Tabular instances. In the [Property Reference](#bkmk_propref) section below, mode requirements are called out for each property.
+Each instance maintains its own set of thread pools. There are differences in how tabular and multidimensional instances use thread pools. For example, only multidimensional instances use the **IOProcess** thread pool. As such, the **PerNumaNode** property, described in this article, is not meaningful for Tabular instances. In the [Property reference](#bkmk_propref) section below, mode requirements are called out for each property.
   
 > [!NOTE]  
 >  Tabular deployment on NUMA systems is out of scope for this topic. Although tabular solutions can be successfully deployed on NUMA systems, the performance characteristics of the in-memory database technology used by tabular models may show limited benefits on a highly scaled up architectures. For more information, see [Analysis Services Case Study: Using Tabular Models in Large-scale Commercial Solutions](https://msdn.microsoft.com/library/dn751533.aspx) and [Hardware Sizing a Tabular Solution](https://go.microsoft.com/fwlink/?LinkId=330359).  
   
-##  <a name="bkmk_threadarch"></a> Thread Management in Analysis Services  
+##  <a name="bkmk_threadarch"></a> Thread management
+
  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] uses multi-threading to take advantage of the available CPU resources by increasing the number of tasks executing in parallel. The storage engine is multi-threaded. Examples of multi-threaded jobs that execute within the storage engine include processing objects in parallel or handling discrete queries that have been pushed to the storage engine, or returning data values requested by a query. The formula engine, due to the serial nature of the calculations it evaluates, is single threaded. Each query executes primarily on a single thread, requesting and often waiting for data returned by the storage engine. Query threads have longer executions, and are released only after the entire query is completed.  
   
- By default, on versions [!INCLUDE[ssSQL11](../../includes/sssql11-md.md)] and later, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] will use all available logical processors, up to 640 on systems running higher editions of Windows and SQL Server. Upon start up, the msmdsrv.exe process will be assigned to a specific processor group, but over time threads can be scheduled on any logical processor, in any processor group.  
+ By default, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] will use all available logical processors. Upon start up, the msmdsrv.exe process will be assigned to a specific processor group, but over time threads can be scheduled on any logical processor, in any processor group.  
   
  One side-effect of using a large number of processors is that you can sometimes experience performance degradation as query and processing loads are spread out across a large number of processors and contention for shared data structures increase. This can occur particularly on high-end systems that use NUMA architecture, but also on non-NUMA systems running multiple data intensive applications on the same hardware.  
   
- To alleviate this problem, you can set affinity between types of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] operations and a specific set of logical processors. The **GroupAffinity** property lets you create custom affinity masks that specify which system resource to use for each of the thread pool types managed by [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)].
- 
-We recommend SQL Server 2016 Cumulative Update 1 (CU1) or later for setting **GroupAffinity** in tabular instances. 
+You can set affinity between types of operations and a specific set of logical processors. The **GroupAffinity** property lets you create custom affinity masks that specify which system resource to use for each of the thread pool types managed by [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)].
   
- **GroupAffinity** is a property that can be set on any of the thread pools used for various [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] workloads:  
+ **GroupAffinity** is a property that can be set on any of the thread pools used for various workloads:  
   
 -   **ThreadPool \ Parsing \ Short**  is a parsing pool for short requests. Requests that fit within a single network message are considered short. 
   
@@ -53,9 +53,9 @@ We recommend SQL Server 2016 Cumulative Update 1 (CU1) or later for setting **Gr
 > [!NOTE]  
 >  Exceeding the maximum thread pool count is a protection invoked only when certain deadlock conditions arise. To prevent runaway thread creation beyond the maximum, threads are created gradually (after a short delay) after the maximum limit has been reached. Exceeding maximum thread count can lead to a slowdown in task execution. If the performance counters show the thread counts are regularly beyond the thread pool maximum size, you might consider that as an indicator that thread pool sizes are too small for the degree of concurrency being requested from the system.  
   
- By default, thread pool size is determined by [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], and is based on the number of cores. You can observe the selected default values by examining the msmdsrv.log file after server startup. As a performance tuning exercise, you might choose to increase the size of the thread pool, as well as other properties, to improve query or processing performance.  
+ By default, thread pool size is determined by [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], and is based on the number of cores. For SSAS, you can observe the selected default values by examining the msmdsrv.log file after server startup. As a performance tuning exercise, you might choose to increase the size of the thread pool, as well as other properties, to improve query or processing performance.  
   
-##  <a name="bkmk_propref"></a> Thread Pool Property Reference  
+##  <a name="bkmk_propref"></a> Thread pool property reference  
  This section describes the thread pool properties found in the msmdsrv.ini file of each [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance. A subset of these properties also appears in SQL Server Management Studio.  
   
  Properties are listed in alphabetical order.  
@@ -94,7 +94,8 @@ We recommend SQL Server 2016 Cumulative Update 1 (CU1) or later for setting **Gr
 |**VertiPaq** \ **CPUs**|int|A signed 32-bit integer that specifies the maximum number of processors to use for tabular queries.|0|0 indicates the server determines the defaults. By default, the server either sets this value to an absolute value of 10, or 2 times the number of logical processors, whichever is higher. For example, on a 4-core system with hyperthreading, the maximum thread count is 16.<br /><br /> If you set this value to a negative value, the server multiples that value by the number of logical processors. For example, when set to -10 on a server having 32 logical processors, the maximum is 320 threads.<br /><br /> The maximum value is subject to available processors per any custom affinity masks that you previously defined. For example, if you already set thread pool affinity to use 8 out of 32 processors, and you now set MaxThreads to -10, then the upper bound on the thread pool would 10 times 8, or 80 threads.<br /><br /> The actual values used for this thread pool property are written to the msmdsrv log file upon service start up.|  
   |**VertiPaq** \ **GroupAffinity**|string|An array of hexadecimal values that correspond to processor groups on the system, used to set affinity of processing threads to logical processors in each processor group.|none|You can use this property to create custom affinities. The property is empty by default.<br /><br /> See [Set GroupAffinity to affinitize threads to processors in a processor group](#bkmk_groupaffinity) for details. Applies to Tabular only.| 
     
-##  <a name="bkmk_groupaffinity"></a> Set GroupAffinity to affinitize threads to processors in a processor group  
+##  <a name="bkmk_groupaffinity"></a> Set GroupAffinity to affinitize threads to processors in a processor group
+
  **GroupAffinity** is provided for advanced tuning purposes. You can use the **GroupAffinity** property to set affinity between [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] thread pools and specific processors; however, for most installations, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] performs best when it can use all available logical processors. Accordingly, group affinity is unspecified by default.  
   
  Should performance testing indicate a need for CPU optimization, you might consider a higher level approach, such as using Windows Server Resource Manager to set affinity between logical processors and a server process. Such an approach can be simpler to implement and manage than defining custom affinities for individual thread pools.  
@@ -104,20 +105,21 @@ We recommend SQL Server 2016 Cumulative Update 1 (CU1) or later for setting **Gr
 > [!NOTE]  
 >  **GroupAffinity** is constrained by editions that limit the number of cores used by [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. At startup, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] uses edition information and the **GroupAffinity** properties to compute affinity masks for each thread pool managed by [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. Standard edition can use a maximum of 24 cores. If you install [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] standard edition on a large multi-core system that has more than 24 cores, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] will only use 24 of them. For more information about processor maximums, see the cross-box scale limits in [Features by editions in SQL Server](https://msdn.microsoft.com/library/cc645993.aspx).  
   
-### Syntax  
+### Syntax
+
  The value is hexadecimal for each processor group, with the hexadecimal representing the logical processors that [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] attempts to use first when allocating threads for a given thread pool.  
   
- **Bitmask for Logical Processors**  
+ **Bitmask for Logical Processors**
   
  You can have up to 64 logical processors within a single processor group. The bitmask is 1 (or 0) for each logical processor in the group that is used (or not used) by a thread pool. Once you compute the bitmask, you then calculate the hexadecimal value as the value for **GroupAffinity**.  
   
- **Multiple processor groups**  
+ **Multiple processor groups**
   
  Processor groups are determined on system startup. **GroupAffinity** accepts hexadecimal values for each processor group in a comma delimited list. Given multiple processor groups (up to 10 on higher end systems), you can bypass individual groups by specifying 0x0. For example, on a system with four processor groups (0, 1, 2, 3), you could exclude groups 0 and 2 by entering 0x0 for the first and third values.  
   
  `<GroupAffinity>0x0, 0xFF, 0x0, 0xFF</GroupAffinity>`  
   
-### Steps for computing the processor affinity mask  
+### Steps for computing the processor affinity mask
  You can set **GroupAffinity** in msmdsrv.ini or in server property pages in SQL Server Management Studio.  
   
 1.  **Determine the number of processors and processor groups**  
@@ -149,35 +151,34 @@ We recommend SQL Server 2016 Cumulative Update 1 (CU1) or later for setting **Gr
 > [!IMPORTANT]  
 >  Setting **GroupAffinity** is a manual task encompassing multiple steps. When computing **GroupAffinity**, check your calculations carefully. Although [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] will return an error if the entire mask is invalid, a combination of valid and invalid settings results in [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] ignoring the property. For example, if the bitmask includes extra values, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] ignores the setting, using all processors on the system. There is no error or warning to alert you when this action occurs, but you can check the msmdsrv.log file to learn how the affinities are actually set.  
   
-##  <a name="bkmk_pernumanode"></a> Set PerNumaNode to affinitize IO threads to processors in a NUMA node  
+##  <a name="bkmk_pernumanode"></a> Set PerNumaNode to affinitize IO threads to processors in a NUMA node
  For multidimensional Analysis Services instances, you can set **PerNumaNode** on the **IOProcess** thread pool to further optimize thread scheduling and execution. Whereas **GroupAffinity** identifies which set of logical processors to use for a given thread pool, **PerNumaNode** goes one step further by specifying whether to create multiple thread pools, further affinitized to some subset of the allowed logical processors.  
-  
-> [!NOTE]  
->  On Windows Server 2012, use Task Manager to view the number of NUMA nodes on the computer. In Task Manager, on the Performance tab, select **CPU** and then right-click the graph area to view NUMA nodes. Alternatively, [download](https://technet.microsoft.com/sysinternals/cc835722.aspx) the Coreinfo utility from Windows Sysinternals and run `coreinfo -n` to return NUMA nodes and logical processors in each node.  
   
  Valid values for **PerNumaNode** are -1, 0, 1, 2, as described in the [Thread Pool Property Reference](#bkmk_propref) section in this topic.  
   
-### Default (Recommended)  
+### Default (Recommended)
+
  On systems having NUMA nodes, we recommend using the default setting of PerNumaNode=-1, allowing [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] to adjust the number of thread pools and their thread affinity based on node count. If the system has fewer than 4 nodes, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] implements the behaviors described by **PerNumaNode**=0, whereas **PerNumaNode**=1 is used on systems having 4 or more nodes.  
   
-### Choosing a value  
+### Choosing a value
+
  You can also override the default to use another valid value.  
   
- **Setting PerNumaNode=0**  
+ **Setting PerNumaNode=0**
   
  NUMA nodes are ignored. There will be just one IOProcess thread pool, and all threads in that thread pool will be affinitized to all logical processors. By default (where PerNumaNode=-1), this is the operative setting if the computer has fewer than 4 NUMA nodes.  
   
  ![Numa, processor and thread pool correspondence](../../analysis-services/server-properties/media/ssas-threadpool-numaex0.PNG "Numa, processor and thread pool correspondence")  
   
- **Setting PerNumaNode=1**  
+ **Setting PerNumaNode=1**
   
  IOProcess thread pools are created for each NUMA node. Having separate thread pools improves coordinated access to local resources, such as local cache on a NUMA node.  
   
  ![Numa, processor and thread pool correspondence](../../analysis-services/server-properties/media/ssas-threadpool-numaex1.PNG "Numa, processor and thread pool correspondence")  
   
- **Setting PerNumaNode=2**  
+ **Setting PerNumaNode=2**
   
- This setting is for very high-end systems running intensive [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] workloads. This property sets IOProcess thread pool affinity at its most granular level, creating and affinitizing separate thread pools at the logical processor level.  
+ This setting is for very high-end systems running intensive workloads. This property sets IOProcess thread pool affinity at its most granular level, creating and affinitizing separate thread pools at the logical processor level.  
   
  In the following example, on a system having 4 NUMA nodes and 32 logical processors, setting **PerNumaNode** to 2 would result in 32 IOProcess thread pools. The threads in the first 8 thread pools would be affinitized to all the logical processors in the NUMA node 0, but with the ideal processor set to 0, 1, 2, up to 7. The next 8 thread pools would be affinitized to all the logical processors in NUMA node 1, with the ideal processor set to 8, 9, 10, up to 15, and so on.  
   
@@ -185,7 +186,8 @@ We recommend SQL Server 2016 Cumulative Update 1 (CU1) or later for setting **Gr
   
  At this level of affinity, the scheduler always attempts to use the ideal logical processor first, within the preferred NUMA node. If the logical processor is unavailable, the scheduler chooses another processor within the same node, or within the same processor group if no other threads are available. For more information and examples, see [Analysis Services 2012 Configuration settings (Wordpress Blog)](https://go.microsoft.com/fwlink/?LinkId=330387).  
   
-###  <a name="bkmk_workdistrib"></a> Work distribution among IOProcess threads  
+###  <a name="bkmk_workdistrib"></a> Work distribution among IOProcess threads
+
  As you consider whether to set the **PerNumaNode** property, knowing how **IOProcess** threads are used can help you make a more informed decision.  
   
  Recall that **IOProcess** is used for IO jobs associated with storage engine queries in the multidimensional engine.  
@@ -205,11 +207,12 @@ We recommend SQL Server 2016 Cumulative Update 1 (CU1) or later for setting **Gr
  Although both partition and dimension scans use the **IOProcess** thread pool, dimension scans only use thread pool 0. This can result in a slightly uneven load on that thread pool, but the imbalance should be temporary, as dimension scans tend to be very fast and infrequent.  
   
 > [!NOTE]  
->  When changing a server property, remember that the configuration option applies to all databases running on the current instance. Choose settings that benefit the most important databases, or the greatest number of databases. You cannot set processor affinity at the database level, nor can you set affinity between individual partitions and specific processors.  
+>  When changing a server property, remember that the configuration option applies to all databases running on the instance. Choose settings that benefit the most important databases, or the greatest number of databases. You cannot set processor affinity at the database level, nor can you set affinity between individual partitions and specific processors.  
   
  For more information about job architecture, see section 2.2 in [SQL Server Analysis Services Performance Guide](https://www.microsoft.com/download/details.aspx?id=17303).  
   
-##  <a name="bkmk_related"></a> Dependent or Related Properties  
+##  <a name="bkmk_related"></a> Dependent or related properties
+
  As explained in section 2.4 of the [Analysis Services Operations Guide](https://msdn.microsoft.com/library/hh226085.aspx), if you increase the processing thread pool, you should make sure that the **CoordinatorExecutionMode** settings, as well as the **CoordinatorQueryMaxThreads** settings, have values that enable you to make full use of the increased thread pool size.  
   
  Analysis Services uses a coordinator thread for gathering the data needed to complete a processing or query request. The coordinator first queues up one job for each partition that must be touched. Each of those jobs then continues to queue up more jobs, depending on the total number of segments that must be scanned in the partition.  
@@ -218,7 +221,8 @@ We recommend SQL Server 2016 Cumulative Update 1 (CU1) or later for setting **Gr
   
  The default value for **CoordinatorQueryMaxThreads** is 16, which limits the number of segment jobs that can be executed in parallel for each partition.  
   
-##  <a name="bkmk_currentsettings"></a> Determine current thread pool settings  
+##  <a name="bkmk_currentsettings"></a> Determine current thread pool settings
+
  At each service startup, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] outputs the current thread pool settings into the msmdsrv.log file, including minimum and maximum threads, processor affinity mask, and concurrency.  
   
  The following example is an excerpt from the log file, showing the default settings for the Query thread pool (MinThread=0, MaxThread=0, Concurrency=2), on a 4-core system with hyper-threading enabled. The affinity mask is 0xFF, indicating 8 logical processors. Notice that leading zeros are prepended to the mask. You can ignore the leading zeros.  
@@ -239,23 +243,16 @@ We recommend SQL Server 2016 Cumulative Update 1 (CU1) or later for setting **Gr
   
  Recall that on systems having multiple processor groups, a separate affinity mask is generated for each group, in a comma separated list.  
   
-##  <a name="bkmk_msmdrsrvini"></a> About MSMDSRV.INI  
- The msmdsrv.ini file contains configuration settings for an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance, affecting all databases running on that instance. You cannot use server configuration properties to optimize performance of just one database to the exclusion of all others. However, you can install multiple instances of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] and configure each instance to use properties that benefit databases sharing similar characteristics or workloads.  
+##  <a name="bkmk_msmdrsrvini"></a> About msmdsrv.ini
+
+ The msmdsrv.ini file in SQL Server Analysis Services contains configuration settings for an instance, affecting all databases running on that instance. You cannot use server configuration properties to optimize performance of just one database to the exclusion of all others. However, you can install multiple instances of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] and configure each instance to use properties that benefit databases sharing similar characteristics or workloads.  
   
- All server configuration properties are included in the msmdsrv.ini file. Subsets of the properties more likely to be modified also appear in administration tools, such as SSMS.  
-  
- The contents of msmdsrv.ini are identical for both Tabular and Multidimensional instances of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. However, some settings apply to one mode only. Differences in behavior based on server mode are noted in property reference documentation.  
-  
-> [!NOTE]  
->  For instructions on how to set properties, see [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
-  
-## See Also  
- [About Processes and Threads](/windows/desktop/ProcThread/about-processes-and-threads)   
+ All server configuration properties are included in the msmdsrv.ini file. Subsets of the properties more likely to be modified also appear in administration tools, such as SSMS. The contents of msmdsrv.ini are identical for both tabular and multidimensional instances, however, some settings apply to one mode only. Differences in behavior based on server mode are noted in property reference documentation.  
+
+## See also
+ [About processes and threads](/windows/desktop/ProcThread/about-processes-and-threads)   
  [Multiple Processors](/windows/desktop/ProcThread/multiple-processors)   
  [Processor Groups](/windows/desktop/ProcThread/processor-groups)   
- [Analysis Services Thread Pool Changes in SQL Server 2012](https://blogs.msdn.com/b/psssql/archive/2012/01/31/analysis-services-thread-pool-changes-in-sql-server-2012.aspx)   
- [Analysis Services 2012 Configuration settings (Wordpress Blog)](https://go.microsoft.com/fwlink/?LinkId=330387)   
- [Supporting Systems That Have More Than 64 Processors](https://msdn.microsoft.com/library/windows/hardware/gg463349.aspx)   
  [SQL Server Analysis Services Operations Guide](https://go.microsoft.com/fwlink/?LinkID=225539)  
   
   

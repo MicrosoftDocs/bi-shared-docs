@@ -43,7 +43,7 @@ manager: kfile
  We highly recommend the following link for additional information resources not covered in this topic: [Initial data collection tips from Microsoft Support](https://blogs.msdn.com/b/as_emea/archive/2012/01/02/initial-data-collection-for-troubleshooting-analysis-services-issues.aspx).  
   
 ##  <a name="bkmk_general"></a> General information on log file configuration settings  
- You can find sections for each log in the msmdsrv.ini server configuration file, located in the \Program Files\Microsoft SQL Server\MSAS13.MSSQLSERVER\OLAP\Config folder. See [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md) for instructions on editing the file.  
+ You can find sections for each log in the msmdsrv.ini server configuration file, located in the \Program Files\Microsoft SQL Server\MSAS13.MSSQLSERVER\OLAP\Config folder. See [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md) for instructions on editing the file.  
   
  Where possible, we suggest that you set logging properties in the server properties page of Management Studio. Although in some cases, you must edit the msmdsrv.ini file directly to configure settings that are not visible in the administrative tools.  
   
@@ -174,6 +174,6 @@ manager: kfile
 ## See Also  
  [Analysis Services Instance Management](../../analysis-services/instances/analysis-services-instance-management.md)   
  [Introduction to Monitoring Analysis Services with SQL Server Profiler](../../analysis-services/instances/introduction-to-monitoring-analysis-services-with-sql-server-profiler.md)   
- [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)  
+ [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)  
   
   

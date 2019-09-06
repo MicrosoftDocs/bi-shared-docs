@@ -1,6 +1,6 @@
 ---
-title: "Analysis Services General Properties | Microsoft Docs"
-ms.date: 09/04/2019
+title: "Analysis Services general properties | Microsoft Docs"
+ms.date: 09/07/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -10,14 +10,16 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# General Properties
+# General properties
+
 [!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
 
-  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the server properties listed in the following tables. This topic documents those server properties in the msmdsrv.ini file that are not otherwise included in a specific section, such as Security, Network, or ThreadPool. For more information about additional server properties and how to set them, see [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
+[!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following server properties. This articles describes those server properties in the msmdsrv.ini file that are not otherwise included in a specific section, such as Security, Network, or ThreadPool.
   
- **Applies to:** Multidimensional and Tabular server mode, unless noted otherwise  
+**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
   
-## Non-Specific Category  
+## Non-specific category
+
  **AdminTimeout**  
  A signed 32-bit integer property that defines the administrator timeout in seconds. This is an advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
@@ -144,15 +146,16 @@ The default value for this property is -1, which allows all background cache ref
  **TempDir**  
  A string property that specifies the location for storing temporary files used during processing, restoring, and other operations. The default value for this property is determined by setup. If not specified, the default is the Data directory.  
   
-## RequestPrioritization Category  
+## RequestPrioritization category  
  **Enabled**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
  **StatisticsStoreSize**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## See Also  
- [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
+## See also
+  
+ [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
   
   

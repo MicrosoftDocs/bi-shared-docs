@@ -1,6 +1,6 @@
 ---
-title: "Analysis Services Network Properties | Microsoft Docs"
-ms.date: 06/07/2018
+title: "Analysis Services network properties | Microsoft Docs"
+ms.date: 09/07/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -10,18 +10,21 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Network Properties
+# Network properties
+
 [!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
 
-  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the server properties listed in the following tables. For more information about additional server properties and how to set them, see [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
+[!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following server properties. Not all properties apply to Azure Analysis Services.
+
+**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
   
- **Applies to:** Multidimensional and Tabular server mode  
-  
-## General  
+## General
+
  **ListenOnlyOnLocalConnections**  
  A Boolean property that identifies whether to listen only on local connections, for example localhost.  
   
-## Listener  
+## Listener
+
  **IPV4Support**  
  A signed 32-bit integer property that defines support for IPv4 protocol. This property has one of the values listed in the following table:  
   
@@ -52,14 +55,16 @@ manager: kfile
  **ServerSendTimeout**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## Requests  
+## Requests
+
  **EnableBinaryXML**  
  A Boolean property that specifies whether the server will recognize requests binary xml format.  
   
  **EnableCompression**  
  A Boolean property that specifies whether compression is enabled for requests.  
   
-## Responses  
+## Responses
+
  **CompressionLevel**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
@@ -69,7 +74,8 @@ manager: kfile
  **EnableCompression**  
  A Boolean property that specifies whether compression is enabled for responses to client requests.  
   
-## TCP  
+## TCP
+
  **InitialConnectTimeout**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
@@ -112,8 +118,9 @@ manager: kfile
  **SocketOptions\ SendBufferSize**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## See Also  
- [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
+## See also
+
+ [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
   
   

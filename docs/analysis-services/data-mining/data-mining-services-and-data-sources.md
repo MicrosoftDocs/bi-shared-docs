@@ -64,7 +64,7 @@ manager: kfile
 ## Configuring Permissions and Server Properties  
  Data mining requires additional permissions on an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database. Most data mining properties can be set by using the [Analysis Server Properties Dialog Box &#40;Analysis Services&#41;](https://msdn.microsoft.com/library/b01ec658-c191-49c9-a6cb-549b21a368ab).  
   
- For more information about the properties that you can configure, see [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
+ For more information about the properties that you can configure, see [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
   
  The following server properties are of particular relevance to data mining:  
   

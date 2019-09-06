@@ -1,6 +1,6 @@
 ---
-title: "Analysis Services Memory Properties | Microsoft Docs"
-ms.date: 08/20/2019
+title: "Analysis Services memory properties | Microsoft Docs"
+ms.date: 09/07/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -10,22 +10,15 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Memory Properties
+# Memory properties
+
 [!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
 
-  Analysis Services pre-allocates a modest amount of memory at startup so requests can be handled immediately. Additional memory is allocated as query and processing workloads increase. 
-  
-  By specifying configuration settings, you can control the thresholds at which memory is released. For example, the **HardMemoryLimit** setting specifies a self-imposed out-of-memory condition (by default, this threshold is not enabled), where new requests are rejected outright until more resources become available.
-  
- The following settings apply to both tabular and multidimensional servers unless noted otherwise.  
+Analysis Services pre-allocates a modest amount of memory at startup so requests can be handled immediately. Additional memory is allocated as query and processing workloads increase. By specifying configuration settings, you can control the thresholds at which memory is released. For example, the **HardMemoryLimit** setting specifies a self-imposed out-of-memory condition (by default, this threshold is not enabled), where new requests are rejected outright until more resources become available. The following settings apply to both tabular and multidimensional servers unless noted otherwise.  
  
 ## Default memory configuration
 
-Under the default configuration, each Analysis Services instance allocates a small amount of RAM (40 MB to 50 MB) at startup, even if the instance is idle. 
-
-Recall that configuration settings are per instance. If you are running multiple instances of Analysis Services, such as a tabular and multidimensional instance on the same hardware, each instance will allocate its own memory independently of other instances.
-
-The table below briefly describes the more commonly used memory settings (with more detail in the reference section). Configure these settings only if Analysis Services is competing for memory with other applications on the same server:
+Under the default configuration, each instance allocates a small amount of RAM (40 MB to 50 MB) at startup, even if the instance is idle. Configuration settings are per instance. If you are running multiple instances, such as a tabular and multidimensional instance on the same hardware, each instance will allocate its own memory independently of other instances.
 
 Setting | Description
 --------|------------
@@ -126,6 +119,7 @@ When set to 1, processing is less likely to fail due to memory constraints becau
  **WaitCountIfHighMemory**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## See Also  
- [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
+## See also
+
+ [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
