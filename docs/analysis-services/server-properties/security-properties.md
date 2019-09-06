@@ -1,5 +1,5 @@
 ---
-title: "Analysis Services Security Properties | Microsoft Docs"
+title: "Analysis Services security properties | Microsoft Docs"
 ms.date: 06/07/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -10,21 +10,23 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Security Properties
+# Security properties
+
 [!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
 
-  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the security server properties listed in the following table. For more information about additional server properties and how to set them, see [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
+An [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following security properties. Not all properties apply to Azure Analysis Services. 
+
+**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
   
- **Applies to:** Multidimensional and Tabular server mode  
-  
-## Properties  
+## Properties
+
  **RequireClientAuthentication**  
  A Boolean property that indicates whether client authentication is required.  
   
  The default value for this property is True, which indicates that client authentication is required.  
   
  **SecurityPackageList**  
- A string property that contains a comma-separated list of SSPI packages used by server for client authentication.  
+ A string property that contains a comma-separated list of SSPI packages used by the server for client authentication.  
   
  **DisableClientImpersonation**  
  A Boolean property that indicates whether client impersonation (for example, from stored procedures) is disabled.  
@@ -32,7 +34,7 @@ manager: kfile
  The default value for this property is False, which indicates that client impersonation is enabled.  
   
  **BuiltinAdminsAreServerAdmins**  
- A Boolean property that indicates whether members of the local machine administrators group are [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] administrators.  
+ A Boolean property that indicates whether members of the local machine administrators group are administrators.  
   
  **ServiceAccountIsServerAdmin**  
  A Boolean property that indicates whether the service account is a server administrator.  
@@ -54,8 +56,9 @@ manager: kfile
  **AdministrativeDataProtection\ RequiredProtectionLevel**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## See Also  
- [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
+## See also
+
+ [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
   
   

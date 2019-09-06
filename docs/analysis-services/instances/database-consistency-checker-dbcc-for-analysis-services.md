@@ -294,6 +294,6 @@ Execution complete
  [Process Database, Table, or Partition &#40;Analysis Services&#41;](../../analysis-services/tabular-models/process-database-table-or-partition-analysis-services.md)   
  [Processing a multidimensional model &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md)   
  [Compatibility Level for Tabular models in Analysis Services](../../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md)   
- [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)  
+ [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)  
   
   

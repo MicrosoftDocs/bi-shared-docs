@@ -1,6 +1,6 @@
 ---
-title: "Analysis Services OLAP Properties | Microsoft Docs"
-ms.date: 08/20/2019
+title: "Analysis Services OLAP properties | Microsoft Docs"
+ms.date: 09/07/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -10,14 +10,16 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# OLAP Properties
+# OLAP properties
+
 [!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
 
-  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the OLAP server properties listed in the following tables. For more information about additional server properties and how to set them, see [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
-  
- **Applies to:** Multidimensional server mode only  
-  
-## Memory  
+[!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following OLAP server properties. Not all properties apply to Azure Analysis Services. 
+
+**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
+
+## Memory
+
  **DefaultPageSizeForData**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
@@ -39,7 +41,8 @@ manager: kfile
  **DefaultPageSizeForProp**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## LazyProcessing  
+## LazyProcessing
+
  **Enabled**  
  A Boolean property that specifies whether lazy aggregation processing is enabled.  
   
@@ -57,7 +60,8 @@ manager: kfile
  **MaxRetries**  
  A signed 32-bit integer property that defines the number of retries in the event that lazy processing fails before an error is raised.  
   
-## ProcessPlan  
+## ProcessPlan
+
  **CacheRowsetRows**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
@@ -96,7 +100,8 @@ manager: kfile
  **OptimizeSchema**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## ProactiveCaching  
+## ProactiveCaching
+
  **DefaultRefreshInterval**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
@@ -106,7 +111,8 @@ manager: kfile
  **PartitionLatencyAccuracy**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## Process  
+## Process
+
  **AggregationMemoryLimitMax**  
  A signed 64-bit double-precision floating-point number property that defines the maximum amount of memory that can be devoted to aggregation processing, expressed as a percentage of physical memory.  
   
@@ -197,7 +203,8 @@ manager: kfile
  **ROLAPDimensionProcessingEffort**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## Query  
+## Query
+
  **AggregationsUseEnabled**  
  A Boolean property that defines whether stored aggregations are used at runtime. This property allows aggregations to be disabled without changing the aggregation design or re-processing, for informational and benchmarking purposes.  
   
@@ -345,7 +352,8 @@ Approach for estimating dimension cache requirements:
  **DataCache\ MemoryModel\ Tax**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## Jobs  
+## Jobs
+
  **ProcessAggregation\ MemoryModel\ Income**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
@@ -391,8 +399,9 @@ Approach for estimating dimension cache requirements:
  **ProcessAggregation\ ProcessProperty\ Tax**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## See Also  
- [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
+## See also
+
+ [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
   
   

@@ -1,6 +1,6 @@
 ---
 title: "Server Properties in Analysis Services | Microsoft Docs"
-ms.date: 06/07/2018
+ms.date: 09/07/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -10,30 +10,23 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Server Properties in Analysis Services
+# Server properties in Analysis Services
+
 [!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
 
-  An [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] administrator can modify default server configuration properties of an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance. Each instance has its own configuration properties, which are set independently of other instances on the same server.  
+Administrators can modify default server configuration properties of an Azure Analysis Services (Azure AS) or SQL Server Analysis Services (SSAS) instance. To configure server properties, use SQL Server Management Studio.
+
+Properties pages in SQL Server Management Studio show a subset of the properties most likely to be modified.  For SSAS, all properties are in the msmdsrv.ini file. In a default installation, msmdsrv.ini can be found in the \Program Files\Microsoft SQL Server\MSAS13.MSSQLSERVER\OLAP\Config folder.
   
- To configure the server, use SQL Server Management Studio or edit the msmdsrv.ini file of a specific SQL Server Analysis Services instance.  
- 
-Property pages in SQL Server Management Studio show a subset of the properties most likely to be modified. The full list of properties is found in the msmdsrv.ini file.   
+## Configure properties by using SQL Server Management Studio 
   
-> [!NOTE]  
->  In a default SQL Server Analysis Services installation, msmdsrv.ini can be found in the \Program Files\Microsoft SQL Server\MSAS13.MSSQLSERVER\OLAP\Config folder.
-> 
-> Other properties affecting server configuration include deployment configuration properties in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)]. For more information about those properties, see [Specifying Configuration Settings for Solution Deployment](../../analysis-services/multidimensional-models/deployment-script-files-solution-deployment-config-settings.md).
- 
-## Configure properties in Management Studio 
+1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], connect to an Azure AS or SSAS instance.  
   
-1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], connect to an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance.  
-  
-2. In Object Explorer, right-click the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance, and then click **Properties**. The General page appears, displaying the more commonly used properties.  
+2. In Object Explorer, right-click the instance, and then click **Properties**. The General page appears, displaying the more commonly used properties.  
 
 3.  To view additional properties, click the **Show Advanced (All) Properties** checkbox at the bottom of the page.  
   
      Modifying server properties is supported only for tabular mode and multidimensional mode servers. If you installed [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)], always use the default values unless otherwise directed otherwise by Microsoft Support.  
-  
   
 ## Configure properties in msmdsrv.ini
   
@@ -51,8 +44,13 @@ If the property you want to set is not visible even after you show advanced prop
 4.  Use a text editor to view or edit the msmdsrv.ini file.  
   
 5.  Save the file and restart the service.  
-  
-##  Server Property Reference  
+
+
+## Configure properties by using XMLA
+
+Properties that cannot be set by using Properties in SSMS or in msmdrsrv.ini file can be set by using the [XMLA Alter Element](https://docs.microsoft.com/bi-reference/xmla/xml-elements-commands/alter-element-xmla) in an XMLA script in SSMS. 
+
+## Server property categories  
   
  The following topics describe the various [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] configuration properties:  
   
@@ -72,7 +70,8 @@ If the property you want to set is not visible even after you show advanced prop
 |[Security Properties](../../analysis-services/server-properties/security-properties.md)|The security section contains both basic and advanced properties that define access permissions. This includes settings pertaining to administrators and users.|  
 |[Thread Pool Properties](../../analysis-services/server-properties/thread-pool-properties.md)|The thread pool properties control how many threads the server creates. These are primarily advanced properties.|  
   
-## See Also  
+## See also
+
  [Analysis Services Instance Management](../../analysis-services/instances/analysis-services-instance-management.md)   
  [Specifying Configuration Settings for Solution Deployment](../../analysis-services/multidimensional-models/deployment-script-files-solution-deployment-config-settings.md)  
   

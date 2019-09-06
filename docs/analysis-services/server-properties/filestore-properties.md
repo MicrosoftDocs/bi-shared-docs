@@ -1,5 +1,5 @@
 ---
-title: "Analysis Services Filestore Properties | Microsoft Docs"
+title: "Analysis Services filestore properties | Microsoft Docs"
 ms.date: 06/07/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -10,14 +10,16 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Filestore Properties
+# Filestore properties
+
 [!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
 
-  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the `filestore` server properties listed in the following tables. These are all advanced properties that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support. For more information about additional server properties and how to set them, see [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
+[!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following filestore properties. These are all advanced properties that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.
+
+**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
   
- **Applies to:** Multidimensional and Tabular server mode  
-  
-## Properties  
+## Properties
+
  **MemoryLimit**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
@@ -42,7 +44,8 @@ manager: kfile
  **UnbufferedThreshold**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## Memory Model Category  
+## Memory Model category
+
  **MemoryModel\Tax**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
@@ -58,8 +61,9 @@ manager: kfile
  **MemoryModel\InitialBonus**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## See Also  
- [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
+## See also
+
+ [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
   
   
