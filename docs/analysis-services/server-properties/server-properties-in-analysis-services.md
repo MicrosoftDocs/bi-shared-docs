@@ -50,7 +50,7 @@ If the property you want to set is not visible even after you show advanced prop
 
 Properties that cannot be set by using Properties in SSMS or in msmdrsrv.ini file can be set by using the [XMLA Alter Element](https://docs.microsoft.com/bi-reference/xmla/xml-elements-commands/alter-element-xmla) in an XMLA script in SSMS. 
 
-## Server property reference  
+## Server property categories  
   
  The following topics describe the various [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] configuration properties:  
   
