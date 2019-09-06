@@ -110,4 +110,4 @@ If the system is under CPU pressure, each query will be assigned no more cores t
 
 ## See also  
 
-[Server Properties in Analysis Services](../server-properties/server-properties-in-analysis-services.md)
+[Server properties in Analysis Services](../server-properties/server-properties-in-analysis-services.md)

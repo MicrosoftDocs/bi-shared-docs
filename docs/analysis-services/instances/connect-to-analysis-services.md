@@ -36,6 +36,6 @@ To learn about connecting to Azure Analysis Services, see [Connect to a server](
   
 ## See Also  
  [Post-install Configuration &#40;Analysis Services&#41;](../../analysis-services/instances/post-install-configuration-analysis-services.md)   
- [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
+ [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
   
   

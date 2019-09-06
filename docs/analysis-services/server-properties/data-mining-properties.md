@@ -1,6 +1,6 @@
 ---
-title: "Analysis Services Data Mining Properties | Microsoft Docs"
-ms.date: 06/07/2018
+title: "Analysis Services Data mining properties | Microsoft Docs"
+ms.date: 09/07/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -10,14 +10,16 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Data Mining Properties
+# Data mining properties
+
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
 
-  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the data mining server properties listed in the following tables. For more information about additional server properties and how to set them, see [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
+  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the data mining server properties listed in the following tables. For more information about additional server properties and how to set them, see [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
   
  **Applies to:** Multidimensional server mode only  
   
-## Non-Specific Category  
+## Non-specific category
+
  **AllowSessionMiningModels**  
  A Boolean property that indicates whether session mining models can be created.  
   
@@ -34,7 +36,8 @@ manager: kfile
  **MaxConcurrentPredictionQueries**  
  A signed 32-bit integer property that defines the maximum number of concurrent prediction queries.  
   
-## Algorithms Category  
+## Algorithms category
+
  **Microsoft_Association_Rules\ Enabled**  
  A Boolean property that indicates whether the Microsoft_Association_Rules algorithm is enabled.  
   
@@ -65,9 +68,10 @@ manager: kfile
 > [!NOTE]  
 >  In addition to properties that define the data mining services available on the server, there are data mining properties that define the behavior of specific algorithms. You configure these properties when you create an individual data mining model, not at the server level. For more information, see [Data Mining Algorithms &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining.md).  
   
-## See Also  
+## See also
+
  [Physical Architecture &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/physical-architecture-analysis-services-data-mining.md)   
- [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
+ [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
   
   

@@ -1316,29 +1316,29 @@
       items:
       - name: Server properties overview
         href: ../analysis-services/server-properties/server-properties-in-analysis-services.md
-      - name: Data Mining Properties
+      - name: Data mining properties
         href: ../analysis-services/server-properties/data-mining-properties.md
-      - name: DAX Properties
+      - name: DAX properties
         href: ../analysis-services/server-properties/dax-properties.md
-      - name: Feature Properties
+      - name: Feature properties
         href: ../analysis-services/server-properties/feature-properties.md
-      - name: Filestore Properties
+      - name: Filestore properties
         href: ../analysis-services/server-properties/filestore-properties.md
-      - name: General Properties
+      - name: General properties
         href: ../analysis-services/server-properties/general-properties.md
-      - name: Lock Manager Properties
+      - name: Lock manager properties
         href: ../analysis-services/server-properties/lock-manager-properties.md
-      - name: Log Properties
+      - name: Log properties
         href: ../analysis-services/server-properties/log-properties.md
-      - name: Memory Properties
+      - name: Memory properties
         href: ../analysis-services/server-properties/memory-properties.md
-      - name: Network Properties
+      - name: Network properties
         href: ../analysis-services/server-properties/network-properties.md
-      - name: OLAP Properties
+      - name: OLAP properties
         href: ../analysis-services/server-properties/olap-properties.md
-      - name: Security Properties
+      - name: Security properties
         href: ../analysis-services/server-properties/security-properties.md
-      - name: Thread Pool Properties
+      - name: Thread pool properties
         href: ../analysis-services/server-properties/thread-pool-properties.md
     - name: Monitor Analysis Services
       items:

@@ -39,7 +39,7 @@ SQL Server Analysis Services is installed by using the [SQL Server Installation 
   
 
   
- Memory management and IO settings can be adjusted to get better performance when using non-default storage modes. See [Server Properties in Analysis Services](../../../analysis-services/server-properties/server-properties-in-analysis-services.md) for more information.  
+ Memory management and IO settings can be adjusted to get better performance when using non-default storage modes. See [Server properties in Analysis Services](../../../analysis-services/server-properties/server-properties-in-analysis-services.md) for more information.  
   
 ## Command Line Setup
 

@@ -1,6 +1,6 @@
 ---
-title: "Analysis Services Lock Manager Properties | Microsoft Docs"
-ms.date: 06/07/2018
+title: "Analysis Services lock manager properties | Microsoft Docs"
+ms.date: 09/07/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -10,14 +10,16 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Lock Manager Properties
+# Lock manager properties
+
 [!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
 
-  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the lock manager server properties listed in the following table. For more information about additional server properties and how to set them, see [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
+[!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following lock manager server properties.  
   
- **Applies to:** Multidimensional and Tabular server mode  
+ **Applies to:** Multidimensional and tabular server mode  
   
-## Properties  
+## Properties
+
  **DefaultLockTimeoutMS**  
  A signed 32-bit integer property that defines default lock timeout in milliseconds for internal lock requests.  
   
@@ -29,8 +31,9 @@ manager: kfile
  **DeadlockDetectionGranularityMS**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
   
-## See Also  
- [Server Properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
+## See also
+
+ [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
   
   
