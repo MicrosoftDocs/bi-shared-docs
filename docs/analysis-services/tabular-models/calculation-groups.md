@@ -1,6 +1,6 @@
 ---
 title: "Calculation groups in Analysis Services tabular models | Microsoft Docs"
-ms.date: 08/12/2019
+ms.date: 09/10/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -15,7 +15,7 @@ monikerRange: ">=sql-server-ver15||=sqlallproducts-allversions"
  
 [!INCLUDE[ssas-appliesto-sql2019-aas](../../includes/ssas-appliesto-sql2019-aas.md)]
 
-Calculation groups can significantly reduce the number of redundant measures by grouping common measure expressions as *calculation items*. Calculation groups are supported in SQL Server Analysis Services 2019 tabular models at the 1470 and higher [compatibility level](compatibility-level-for-tabular-models-in-analysis-services.md). Models at the 1470 compatibility level are currently in **Preview**.  
+Calculation groups can significantly reduce the number of redundant measures by grouping common measure expressions as *calculation items*. Calculation groups are supported in tabular models at the 1500 and higher [compatibility level](compatibility-level-for-tabular-models-in-analysis-services.md).  
 
 This article describes: 
 
@@ -392,7 +392,7 @@ Calculation groups support Multidimensional Data Expressions (MDX) queries. This
 
 ## Tools
 
-Calculation groups  are not yet supported in SQL Server Data Tools, Visual Studio with Analysis Services extensions. However, calculation groups can be created by using Tabular Model Scripting Language (TMSL) or the open source [Tabular Editor](https://github.com/otykier/TabularEditor).
+Calculation groups are not yet supported in SQL Server Data Tools, Visual Studio with Analysis Services extensions. However, calculation groups can be created by using Tabular Model Scripting Language (TMSL) or the open source [Tabular Editor](https://github.com/otykier/TabularEditor).
 
 ## Limitations
 
