@@ -216,9 +216,12 @@
     items:
     - name: Install SQL Server Analysis Services
       href: ../analysis-services/instances/install-windows/install-analysis-services.md
-    - name: Install Analysis Services in Power Pivot Mode
-      href: ../analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode.md
+    - name: Install Analysis Services in Power Pivot mode
       items:
+      - name: Power Pivot for Sharepoint
+        href: ../analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas.md
+      - name: Install an Analysis Services server in Power Pivot mode
+        href: ../analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode.md
       - name: Verify a Power Pivot for SharePoint installation
         href: ../analysis-services/instances/install-windows/verify-a-power-pivot-for-sharepoint-installation.md
       - name: Example of a Minimum-Privilege Configuration for Power Pivot for SharePoint 2016
@@ -1279,8 +1282,6 @@
       href: ../analysis-services/instances/data-providers-used-for-analysis-services-connections.md
     - name: Disconnect users and sessions
       href: ../analysis-services/instances/disconnect-users-and-sessions-on-analysis-services-server.md
-  - name: Power Pivot for Sharepoint
-    href: power-pivot-for-sharepoint-ssas.md
 - name: Developer
   items:
   - name: Developer documentation overview
