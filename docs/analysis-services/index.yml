@@ -27,7 +27,7 @@ landingContent:
       - linkListType: whats-new
         links:      
           - text: What's new in SQL Server Analysis Services
-            url: what-s-new-in-analysis-services.md
+            url: what-s-new-in-sql-server-analysis-services.md
 
   # Card
   - title: Get started
