@@ -427,257 +427,257 @@
         },
         {
             "source_path": "docs/analysis-services/power-pivot-sharepoint/activate-power-pivot-integration-for-site-collections-in-ca.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/add-bi-semantic-model-connection-content-type-to-library.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/add-msolap-5-as-a-trusted-data-provider-in-excel-services.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/an-error-occurred-during-an-attempt-to-establish-a-connection.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/comments-shapes-other-objects-not-supported-by-excel-services.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/configuration-setting-reference-power-pivot-for-sharepoint.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/configure-and-view-sharepoint-and-diagnostic-logging.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/configure-disk-space-usage-power-pivot-for-sharepoint.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/configure-maximum-file-upload-size-power-pivot-for-sharepoint.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/configure-or-repair-power-pivot-for-sharepoint-2013.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		        {
             "source_path": "docs/analysis-services/power-pivot-sharepoint/configure-power-pivot-health-rules.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/configure-power-pivot-service-accounts.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/configure-usage-data-collection-for-power-pivot-for-sharepoint.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/connect-power-pivot-service-app-to-sharepoint-web-app-in-ca.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/could-not-load-file-or-assembly-microsoft-data-services.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/could-not-load-microsoft-analysisservices-sharepoint-integration.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/create-a-bi-semantic-model-connection-to-a-power-pivot-workbook.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/create-a-bi-semantic-model-connection-to-a-tabular-model-database.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/create-a-trusted-location-for-power-pivot-sites-in-central-administration.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/create-and-configure-power-pivot-service-application-in-ca.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/create-and-customize-power-pivot-gallery.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/create-or-customize-a-data-feed-library-power-pivot-for-sharepoint.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/delete-a-power-pivot-data-feed-library.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/delete-power-pivot-gallery.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/deploy-power-pivot-solutions-to-sharepoint.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/errors-and-events-reference-power-pivot-for-sharepoint.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/health-rules-reference-power-pivot-for-sharepoint.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-authentication-and-authorization.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-availability-and-disaster-recovery.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-bi-semantic-model-connection-bism.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-configuration-tools.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-configuration-using-windows-powershell.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-data-access.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-data-feeds.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-data-refresh-with-sharepoint-2013.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-data-refresh.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-management-dashboard-and-usage-data.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-server-administration-and-configuration-in-central-administration.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/power-pivot-usage-data-collection.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/schedule-data-refresh-and-data-sources-no-windows-authentication.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/share-data-feeds-using-a-data-feed-library-power-pivot-for-sharepoint.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/start-or-stop-a-power-pivot-for-sharepoint-server.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/the-data-connection-path-is-invalid.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/the-data-connection-user-could-not-be-delegated.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		        {
             "source_path": "docs/analysis-services/power-pivot-sharepoint/this-workbook-contains-one-or-more-queries-that-refresh-external-data.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/trusted-location-does-not-allow-external-data-connections.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/unable-to-refresh-data-for-a-data-connection-in-the-workbook.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/use-a-bi-semantic-model-connection-in-excel-or-reporting-services.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/use-data-feeds-power-pivot-for-sharepoint.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/use-power-pivot-gallery.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         },
 		{
             "source_path": "docs/analysis-services/power-pivot-sharepoint/view-data-refresh-history-power-pivot-for-sharepoint.md",
-            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_url": "/analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
         }
     ]
