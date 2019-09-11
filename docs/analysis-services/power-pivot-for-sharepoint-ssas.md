@@ -12,11 +12,11 @@ manager: kfile
 ---
 # Power Pivot for SharePoint (SSAS)
 
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
   
-Analysis Services in Power Pivot mode provides server hosting of Power Pivot data in a SharePoint farm. Power Pivot data is an analytical data model users create with Power Pivot in Excel.  
-  
-Server hosting of workbooks requires SharePoint, Excel Services, and an installation of Power Pivot for SharePoint. Data is loaded on Power Pivot for SharePoint instances where it can be refreshed at scheduled intervals using the Power Pivot data refresh capability.
+Analysis Services in Power Pivot mode provides server hosting of Power Pivot data in a SharePoint farm. Power Pivot data is an analytical data model users create with Power Pivot in Excel. Server hosting of workbooks requires SharePoint, Excel Services, and an installation of Power Pivot for SharePoint. Data is loaded on Power Pivot for SharePoint instances where it can be refreshed at scheduled intervals using the Power Pivot data refresh capability.
+> [!IMPORTANT]
+> SQL Server Analysis Services Power Pivot for SharePoint mode remains supported for SharePoint 2016 and SharePoint 2013. However, Microsoft's BI strategy has shifted away from Power Pivot in Excel integration with SharePoint. [Power BI](https://powerbi.com/) and [Power BI Report Server](https://powerbi.microsoft.com/report-server/) are now the recommended platforms to host Excel workbooks with Power Pivot models. With exception to this article describing support for different versions of SharePoint, Power Pivot for SharePoint documentation is available in the [SQL Server 2014 Analysis Services documentation](https://docs.microsoft.com/en-us/sql/analysis-services/power-pivot-sharepoint/power-pivot-for-sharepoint-ssas?view=sql-server-2014). Documentation necessary to implement a Power Pivot for SharePoint solution, regardless of version, can be found there. Keep in mind, due to the low number of organizations implementing Power Pivot for SharePoint solutions, documentation for it is no longer maintained.  
   
 ## Power Pivot for SharePoint 2019
 
@@ -35,7 +35,7 @@ Deploying the Power Pivot for SharePoint 2016 add-in enables additional function
   
 ## Power Pivot for SharePoint 2013
 
-SQL Server 2017 Power Pivot for SharePoint supports Microsoft SharePoint 2013 Excel Services usage of Excel workbooks containing data models and Reporting Services Power View reports.
+SQL Server 2017 Analysis Services Power Pivot for SharePoint mode  supports Microsoft SharePoint 2013 Excel Services usage of Excel workbooks containing data models and Reporting Services Power View reports.
   
 Excel Services in SharePoint 2013 includes data model functionality to enable interaction with a Power Pivot workbook in the browser. You do not need to deploy the Power Pivot for SharePoint 2013 add-in into the farm. You only need to install an Analysis Services server in SharePoint mode and register the server within the Excel Services **Data Model** settings.  
   
