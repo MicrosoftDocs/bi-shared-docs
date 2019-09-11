@@ -21,7 +21,7 @@ manager: kfile
 Major features in the 1500 compatibility level include:
 
 *  [Calculation groups](calculation-groups.md)
-*  [Many-to-many relationships](../what-s-new-in-analysis-services.md#many-to-many-relationships-in-tabular-models)
+*  [Many-to-many relationships](../what-s-new-in-sql-server-analysis-services.md#many-to-many-relationships-in-tabular-models)
   
 ## Supported compatibility levels by version
   
@@ -64,7 +64,6 @@ Major features in the 1500 compatibility level include:
   
 ## See also  
  [Compatibility Level of a multidimensional database](../../analysis-services/multidimensional-models/compatibility-level-of-a-multidimensional-database-analysis-services.md)   
- [What's new in Analysis Services](../../analysis-services/what-s-new-in-analysis-services.md)   
  [Create a new tabular model project](../../analysis-services/tabular-models/create-a-new-tabular-model-project-analysis-services.md)  
   
   
