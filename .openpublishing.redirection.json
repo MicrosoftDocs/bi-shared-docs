@@ -2,421 +2,421 @@
     "redirections": [
         {
             "source_path": "bi-reference/schema-rowsets/data-mining/data-mining-schema-rowsets.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/data-mining/dmschema-mining-columns-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/data-mining/dmschema-mining-functions-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/data-mining/dmschema-mining-model-content-pmml-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/data-mining/dmschema-mining-model-content-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/data-mining/dmschema-mining-model-xml-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/data-mining/dmschema-mining-models-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/data-mining/dmschema-mining-service-parameters-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/data-mining/dmschema-mining-services-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/data-mining/dmschema-mining-structure-columns-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/data-mining/dmschema-mining-structures-rowset.md",
-            "redirect_url": "bi-reference/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db/dbschema-catalogs-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db/dbschema-columns-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db/dbschema-provider-types-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db/dbschema-tables-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db/ole-db-schema-rowsets.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/discover-instances-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/discover-keywords-rowset-ole-db-for-olap.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-actions-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-cubes-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-dimensions-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-functions-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-hierarchies-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-input-datasources-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-kpis-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-levels-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "schema-rowsets/ole-db-olap/mdschema-measuregroup-dimensions-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-measuregroups-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "schema-rowsets/ole-db-olap/mdschema-measures-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-members-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-properties-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/mdschema-sets-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/ole-db-olap/ole-db-for-olap-schema-rowsets.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-calc-dependency-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-command-objects-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "schema-rowsets/xml/discover-commands-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-connections-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-csdl-metadata-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-datasources-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-db-connections-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-dimension-stat-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-enumerators-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-jobs-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-keywords-rowset-xmla.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-literals-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-locations-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-locks-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-memorygrant-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-memoryusage-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-object-activity-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-object-memory-usage-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-partition-dimension-stat-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-partition-stat-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-performance-counters-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-properties-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-schema-rowsets-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-sessions-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-storage-table-column-segments-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-storage-table-columns-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-storage-tables-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-trace-columns-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-trace-definition-providerinfo-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-trace-event-categories-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-traces-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-transactions-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/discover-xml-metadata-rowset.md",
-            "redirect_url": "bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
             "source_path": "bi-reference/schema-rowsets/xml/xml-for-analysis-schema-rowsets.md",
-            "redirect_url": "bi-reference/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
+            "redirect_url": "/bi-reference/bi-reference/schema-rowsets/analysis-services-schema-rowsets",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-functionality.md",
-            "redirect_url": "bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-functionality",
+            "source_path": "docs/analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-functionality.md",
+            "redirect_url": "/bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-functionality",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-object-architecture.md",
-            "redirect_url": "bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-object-architecture",
+            "source_path": "docs/analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-object-architecture.md",
+            "redirect_url": "/bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-object-architecture",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-programming.md",
-            "redirect_url": "bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-programming",
+            "source_path": "docs/analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-programming.md",
+            "redirect_url": "/bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-programming",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/multidimensional-models-adomd-net-server/user-defined-functions-and-stored-procedures.md",
-            "redirect_url": "bi-reference/adomd/multidimensional-models-adomd-net-server/user-defined-functions-and-stored-procedures",
+            "source_path": "docs/analysis-services/multidimensional-models-adomd-net-server/user-defined-functions-and-stored-procedures.md",
+            "redirect_url": "/bi-reference/adomd/multidimensional-models-adomd-net-server/user-defined-functions-and-stored-procedures",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdl-annotations-for-business-intelligence-csdlbi.md",
-            "redirect_url": "bi-reference/csdl/csdl-annotations-for-business-intelligence-csdlbi",
+            "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdl-annotations-for-business-intelligence-csdlbi.md",
+            "redirect_url": "/bi-reference/csdl/csdl-annotations-for-business-intelligence-csdlbi",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdlbi-concepts.md",
-            "redirect_url": "bi-reference/csdl/csdlbi-concepts",
+            "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdlbi-concepts.md",
+            "redirect_url": "/bi-reference/csdl/csdlbi-concepts",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdlbi-attributes-for-report-design.md",
-            "redirect_url": "bi-reference/csdl/csdlbi-attributes-for-report-design",
+            "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/csdlbi-attributes-for-report-design.md",
+            "redirect_url": "/bi-reference/csdl/csdlbi-attributes-for-report-design",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/what-s-new-in-sql-server-analysis-services-2017.md",
+            "source_path": "docs/analysis-services/what-s-new-in-sql-server-analysis-services-2017.md",
             "redirect_url": "/analysis-services/what-s-new-in-sql-server-analysis-services",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/analysis-services-backward-compatibility-sql2017.md",
+            "source_path": "docs/analysis-services/analysis-services-backward-compatibility-sql2017.md",
             "redirect_url": "/analysis-services/analysis-services-backward-compatibility",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/multidimensional-models/power-view-for-multidimensional-models.md",
+            "source_path": "docs/analysis-services/multidimensional-models/power-view-for-multidimensional-models.md",
             "redirect_url": "/analysis-services/analysis-services-overview",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models.md",
+            "source_path": "docs/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models.md",
             "redirect_url": "/analysis-services/analysis-services-overview",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/multidimensional-models/create-a-report-data-source.md",
+            "source_path": "docs/analysis-services/multidimensional-models/create-a-report-data-source.md",
             "redirect_url": "/analysis-services/analysis-services-overview",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/multidimensional-models/create-a-power-view-report-with-a-multidimensional-data-source.md",
+            "source_path": "docs/analysis-services/multidimensional-models/create-a-power-view-report-with-a-multidimensional-data-source.md",
             "redirect_url": "/analysis-services/analysis-services-overview",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/tutorial-tabular-1200/supplemental-lesson-configure-reporting-properties-for-power-view-reports.md",
+            "source_path": "docs/analysis-services/tutorial-tabular-1200/supplemental-lesson-configure-reporting-properties-for-power-view-reports.md",
             "redirect_url": "/analysis-services/analysis-services-overview",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/tabular-models/power-view-configure-default-field-set-for-reports.md",
+            "source_path": "docs/analysis-services/tabular-models/power-view-configure-default-field-set-for-reports.md",
             "redirect_url": "/analysis-services/analysis-services-overview",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/tabular-models/power-view-configure-table-behavior-properties-for-reports.md",
+            "source_path": "docs/analysis-services/tabular-models/power-view-configure-table-behavior-properties-for-reports.md",
             "redirect_url": "/analysis-services/analysis-services-overview",
             "redirect_document_id": false
         },
         {
-            "source_path": "analysis-services/tabular-models/power-view-reporting-properties-ssas-tabular.md",
+            "source_path": "docs/analysis-services/tabular-models/power-view-reporting-properties-ssas-tabular.md",
             "redirect_url": "/analysis-services/analysis-services-overview",
             "redirect_document_id": false
         }
