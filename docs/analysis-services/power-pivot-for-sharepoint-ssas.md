@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Power Pivot for SharePoint (SSAS)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
   
 Analysis Services in Power Pivot mode provides server hosting of Power Pivot data in a SharePoint farm. Power Pivot data is an analytical data model users create with Power Pivot in Excel. Server hosting of workbooks requires SharePoint, Excel Services, and an installation of Power Pivot for SharePoint. Data is loaded on Power Pivot for SharePoint instances where it can be refreshed at scheduled intervals using the Power Pivot data refresh capability.
 > [!IMPORTANT]
@@ -31,8 +31,8 @@ Excel, within Office Online Server includes data model functionality to enable i
   
 Deploying the Power Pivot for SharePoint 2016 add-in enables additional functionality and features in your SharePoint farm. The additional features include Power Pivot Gallery and Schedule Data Refresh.  
   
- ![SSAS Power Pivot Mode 3 Server with Office Online Server](../../analysis-services/power-pivot-sharepoint/media/as-powerpivot-mode-3server-oos-deploy.png)  
-  
+ ![SSAS Power Pivot Mode 3 Server with Office Online Server](media/power-pivot-for-sharepoint-ssas/as-powerpivot-mode-3server-oos-deploy.png)  
+
 ## Power Pivot for SharePoint 2013
 
 SQL Server 2017 Analysis Services Power Pivot for SharePoint mode  supports Microsoft SharePoint 2013 Excel Services usage of Excel workbooks containing data models and Reporting Services Power View reports.
@@ -41,4 +41,4 @@ Excel Services in SharePoint 2013 includes data model functionality to enable in
   
  Deploying the Power Pivot for SharePoint 2013 add-in enables additional functionality and features in your SharePoint farm. The additional features include Power Pivot Gallery, Schedule Data Refresh, and the Power Pivot Management Dashboard.  
   
- ![SSAS PowerPivot Mode 2 Server Deployment](../../analysis-services/power-pivot-sharepoint/media/as-powerpivot-mode-2server-deployment.gif "SSAS PowerPivot Mode 2 Server Deployment")
+ ![SSAS PowerPivot Mode 2 Server Deployment](media/power-pivot-for-sharepoint-ssas/as-powerpivot-mode-2server-deployment.gif "SSAS PowerPivot Mode 2 Server Deployment")
