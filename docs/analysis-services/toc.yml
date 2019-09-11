@@ -7,7 +7,7 @@
   - name: SQL Server Analysis Services
     items:
     - name: What's new in SQL Server Analysis Services
-      href: what-s-new-in-analysis-services.md
+      href: what-s-new-in-sql-server-analysis-services.md
     - name: Analysis Services features supported by SQL Server editions
       href: analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
     - name: Backward compatibility
