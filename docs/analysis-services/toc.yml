@@ -12,6 +12,8 @@
       href: analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
     - name: Backward compatibility
       href: analysis-services-backward-compatibility.md
+    - name: Power Pivot for Sharepoint
+      href: power-pivot-for-sharepoint-ssas.md
   - name: Azure Analysis Services documentation
     href: https://docs.microsoft.com/azure/analysis-services/
   - name: Tools and applications
@@ -216,12 +218,9 @@
     items:
     - name: Install SQL Server Analysis Services
       href: ../analysis-services/instances/install-windows/install-analysis-services.md
-    - name: Install Analysis Services in Power Pivot mode
+    - name: Install Analysis Services in Power Pivot Mode
+      href: ../analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode.md
       items:
-      - name: Power Pivot for Sharepoint
-        href: ../analysis-services/instances/install-windows/power-pivot-for-sharepoint-ssas.md
-      - name: Install an Analysis Services server in Power Pivot mode
-        href: ../analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode.md
       - name: Verify a Power Pivot for SharePoint installation
         href: ../analysis-services/instances/install-windows/verify-a-power-pivot-for-sharepoint-installation.md
       - name: Example of a Minimum-Privilege Configuration for Power Pivot for SharePoint 2016
