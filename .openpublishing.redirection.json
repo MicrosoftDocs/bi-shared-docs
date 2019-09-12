@@ -679,6 +679,36 @@
             "source_path": "docs/analysis-services/power-pivot-sharepoint/view-data-refresh-history-power-pivot-for-sharepoint.md",
             "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/analysis-services/instances/install-windows/power-pivot-minimum-privilege-example-sharepoint-2016.md",
+            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/analysis-services/instances/install-windows/power-pivot-minimum-privilege-example-sharepoint-2013.md",
+            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/analysis-services/instances/install-windows/migrate-power-pivot-to-sharepoint-2013.md",
+            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/analysis-services/instances/install-windows/upgrade-workbooks-and-scheduled-data-refresh-sharepoint-2013.md",
+            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/analysis-services/instances/install-windows/deploying-sql-server-2016-powerpivot-and-power-view-in-sharepoint-2016.md",
+            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/analysis-services/instances/install-windows/deploy-powerpivot-and-power-view-multi-tier-sharepoint-2016-farm.md",
+            "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
+            "redirect_document_id": false
         }
     ]
 }
