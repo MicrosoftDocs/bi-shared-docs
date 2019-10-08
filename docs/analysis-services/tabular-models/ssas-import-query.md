@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Import data by using a native query (Analysis Services) | Microsoft Docs"
 ms.date: 05/07/2018
 ms.prod: sql
