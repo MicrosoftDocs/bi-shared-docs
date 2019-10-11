@@ -29,7 +29,7 @@ OLE DB error: OLE DB or ODBC error: Query timeout expired;HYT00.
 Errors in the OLAP storage engine: An error occurred while the dimension, with the ID of '<Some ID>', Name of '<Dimension Name>' was being processed.
 ```
 
-![SQL Server Management Studio process progress showing an error](media\analysis-services-cube-processing-fails-with-error\8741.image_thumb_39C769A7.png)
+![SQL Server Management Studio process progress showing an error](media/analysis-services-cube-processing-fails-with-error/8741.image_thumb_39C769A7.png)
 
 `HYT00` means `DB_E_ABORTLIMITREACHED (0x80040E31)` or a timeout expired. The timeout expired due to the SQL_QUERY_TIMEOUT setting. The command timeout or query timeout kicked in to kill the running query and cancel the work.
 
@@ -86,11 +86,11 @@ These processing queries can take minutes to hours, depending on how many joins 
 
 To connect to the relational data source, there are connection strings stored in the cube design to point to the data warehouse in the database server.
 
-![Analysis Services Data Sources](media\analysis-services-cube-processing-fails-with-error\5125.image_thumb_4986FEAB.png)
+![Analysis Services Data Sources](media/analysis-services-cube-processing-fails-with-error/5125.image_thumb_4986FEAB.png)
 
 This is a connection string that gets saved into the AS database design. It can point to SQL Server, or it can point to other third-party relational databases (Teradata, Oracle, etc.) In the following screenshot, the SQL Server 2012 OLE DB provider named **SQLNCLI11.1** is shown.
 
-![Analysis Services Data Source Properties](media\analysis-services-cube-processing-fails-with-error\1884.image_thumb_15725F58.png)
+![Analysis Services Data Source Properties](media/analysis-services-cube-processing-fails-with-error/1884.image_thumb_15725F58.png)
 
 ## Background on Command and Connection Timeouts
 
@@ -120,9 +120,9 @@ If you expect the processing queries to take more than 1 hour, then you might ra
 
 Right click on the server name in Management Studio > Properties. Then check “Show Advanced (All) Properties”. Then adjust the **ExternalCommandTimeout **setting, as shown in the following images:
 
-![Analysis Services Server Properties](media\analysis-services-cube-processing-fails-with-error\5125.image_thumb_538B7A09.png)
+![Analysis Services Server Properties](media/analysis-services-cube-processing-fails-with-error/5125.image_thumb_538B7A09.png)
 
-![Analysis Services Properties](media\analysis-services-cube-processing-fails-with-error\2068.image_thumb_7BDAAC5D.png)
+![Analysis Services Properties](media/analysis-services-cube-processing-fails-with-error/2068.image_thumb_7BDAAC5D.png)
   
 Now when it runs external queries to talk to the relational database, it will set the Command Timeout to the value specified so that it can run a long time without failure.
 
@@ -219,7 +219,7 @@ If memory is the culprit, gather a profiler trace and these performance counters
 Analysis Services Processing commands can be run in parallel or sequentially. On the processing command syntax, check if you are specifying to run in Sequential order, or running Parallel? Check the SSIS package or XMLA job that runs the processing.
 
 This image shows the settings for SSIS Analysis Services Processing task:
-![SSIS Analysis Services Processing Task settings](media\analysis-services-cube-processing-fails-with-error\1067.image_thumb_38AF2E30.png)
+![SSIS Analysis Services Processing Task settings](media/analysis-services-cube-processing-fails-with-error/1067.image_thumb_38AF2E30.png)
 
 This example shows an XMLA command that runs up to eight tasks in parallel:
 
@@ -259,7 +259,7 @@ To achieve more parallelism for processing, you could take this advice to tune t
 
 **Query Timeout** is another setting on the Data Source. This setting that seems not to apply readily to processing. This setting applies to the connection pool and will help expire idle connections that are no longer needed. However, this setting doesn't apply to the commands that are run during processing or ROLAP commands.
 
-![Analysis Services processing failure](media\analysis-services-cube-processing-fails-with-error\4617.image_thumb_618A1D6C.png)
+![Analysis Services processing failure](media/analysis-services-cube-processing-fails-with-error/4617.image_thumb_618A1D6C.png)
 
 There are many other timeouts in Analysis Services, such as:
 
