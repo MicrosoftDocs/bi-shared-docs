@@ -778,6 +778,10 @@
         href: ../analysis-services/multidimensional-models/remote-processing-analysis-services.md
       - name: Error Configuration
         href: ../analysis-services/multidimensional-models/error-configuration-for-cube-partition-and-dimension-processing.md
+      - name: Troubleshoot processing OLE DB or ODBC error Operation canceled; HY008
+        href: ../analysis-services/multidimensional-models/blog-analysis-services-cube-processing-fails-with-error.md
+      - name: Troubleshoot Analysis Services stops accepting new connections
+        href: ../analysis-services/multidimensional-models/blog-analysis-services-stop-accept-new-connection.md
     - name: Roles and Permissions
       href: ../analysis-services/multidimensional-models/roles-and-permissions-analysis-services.md
       items:
