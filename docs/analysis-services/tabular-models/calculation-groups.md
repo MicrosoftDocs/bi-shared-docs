@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 monikerRange: ">=sql-server-ver15||=sqlallproducts-allversions"
 ---
-# Calculation groups (Preview)
+# Calculation groups
  
 [!INCLUDE[ssas-appliesto-sql2019-aas](../../includes/ssas-appliesto-sql2019-aas.md)]
 
@@ -405,13 +405,11 @@ To learn more, see [To create a calculation group](#to-create-a-calculation-grou
 
 Calculation groups support Multidimensional Data Expressions (MDX) queries. This means, Microsoft Excel users, which query tabular data models by using MDX, can take full advantage of calculation groups in worksheet PivotTables and charts.
 
-## Tools
+## Create a calculation group
 
 Calculation groups are supported in Visual Studio with Analysis Services Projects VSIX update 2.9.2 and later. Calculation groups can also be created by using Tabular Model Scripting Language (TMSL) or the open source [Tabular Editor](https://github.com/otykier/TabularEditor).
 
-## Create a calculation group in Visual Studio
-
-### To create a calculation group
+### To create a calculation group by using Visual Studio
 
 1. In Tabular Model Explorer, right-click **Calculation Groups**, and then click **New Calculation Group**. By default, a new calculation group will have a single column and a single calculation item.
 
