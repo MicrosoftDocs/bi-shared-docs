@@ -24,7 +24,9 @@ This article describes:
 > * How calculation groups work
 > * Dynamic format strings
 > * Precedence
-> * Tools
+> * Sideways recursion
+> * Ordering
+> * How to create
 > * Limitations
 
 ## Benefits
