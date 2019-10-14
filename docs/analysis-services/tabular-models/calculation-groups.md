@@ -1,6 +1,6 @@
 ---
 title: "Calculation groups in Analysis Services tabular models | Microsoft Docs"
-ms.date: 10/14/2019
+ms.date: 10/15/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -398,7 +398,7 @@ After a second column is added to the calculation group, you can specify the Ord
 
 :::image type="content" source="media/calculation-groups/calc-groups-calcitem-ordinal.png" alt-text="Ordinal property":::
 
-To learn more, see [To create a calculation group](#to-create-a-calculation-group).
+To learn more, see [To create a calculation group](#create-a-calculation-group).
 
 
 ## MDX support
