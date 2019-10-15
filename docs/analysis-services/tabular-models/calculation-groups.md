@@ -1,6 +1,6 @@
 ---
 title: "Calculation groups in Analysis Services tabular models | Microsoft Docs"
-ms.date: 09/10/2019
+ms.date: 10/15/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 monikerRange: ">=sql-server-ver15||=sqlallproducts-allversions"
 ---
-# Calculation groups (Preview)
+# Calculation groups
  
 [!INCLUDE[ssas-appliesto-sql2019-aas](../../includes/ssas-appliesto-sql2019-aas.md)]
 
@@ -24,7 +24,9 @@ This article describes:
 > * How calculation groups work
 > * Dynamic format strings
 > * Precedence
-> * Tools
+> * Sideways recursion
+> * Ordering
+> * How to create
 > * Limitations
 
 ## Benefits
@@ -151,7 +153,7 @@ DIVIDE(
 )
 ```
 
-To test this calculation group, you can execute a DAX query in SSMS or the open-source [DAX Studio](https://daxstudio.org/). Note: YOY and YOY% are omitted from this query example.
+To test this calculation group, execute a DAX query in SSMS or the open-source [DAX Studio](https://daxstudio.org/). Note: YOY and YOY% are omitted from this query example.
 
 #### Time Intelligence query
 
@@ -174,7 +176,7 @@ CALCULATETABLE (
 
 #### Time Intelligence query return
 
-The return table shows calculations for each calculation item applied. For example, you can see QTD for March 2012 is the sum of January, February and March 2012.
+The return table shows calculations for each calculation item applied. For example, see QTD for March 2012 is the sum of January, February and March 2012.
 
 ![Query return](media/calculation-groups/calc-groups-query-return.png)
 
@@ -386,19 +388,52 @@ CALCULATE(
 
 The YTD argument to the CALCULATE() function overrides the filter context to reuse the logic already defined in the YTD calculation item. It's not possible to apply both PY and YTD in a single evaluation. Calculation groups are *only applied* if a single calculation item from the calculation group is in filter context.
 
+## Calculation item order
+
+By default, when a column from a calculation group is placed in a report, calculation items are ordered alphabetically by name in the report. The order in which calculation items appear in a report can be changed by specifying the Ordinal property. Specifying calculation item order with the Ordinal property does not change [precedence](#precedence), the order in which calculation items are evaluated. It also does not change the order in which calculation items appear in Tabular Model Explorer. 
+
+To specify the ordinal property for calculation items, you must add a second column to the calculation group. Unlike the default column where Data Type is Text, a second column used for ordering calculation items has a Whole Number data type. The only purpose for this column is to specify the numeric order in which calculation items in the calculation group appear. Because this column provides no value in a report, it's best to set the **Hidden** property to True.  
+
+:::image type="content" source="media/calculation-groups/calc-groups-ordinal.png" alt-text="Column for ordering":::
+
+After a second column is added to the calculation group, you can specify the Ordinal property value for calculation items you want to order. 
+
+:::image type="content" source="media/calculation-groups/calc-groups-calcitem-ordinal.png" alt-text="Ordinal property":::
+
+To learn more, see [To create a calculation group](#create-a-calculation-group).
+
+
 ## MDX support
 
 Calculation groups support Multidimensional Data Expressions (MDX) queries. This means, Microsoft Excel users, which query tabular data models by using MDX, can take full advantage of calculation groups in worksheet PivotTables and charts.
 
-## Tools
+## Create a calculation group
 
-Calculation groups are not yet supported in SQL Server Data Tools, Visual Studio with Analysis Services extensions. However, calculation groups can be created by using Tabular Model Scripting Language (TMSL) or the open source [Tabular Editor](https://github.com/otykier/TabularEditor).
+Calculation groups are supported in Visual Studio with Analysis Services Projects VSIX update 2.9.2 and later. Calculation groups can also be created by using Tabular Model Scripting Language (TMSL) or the open source [Tabular Editor](https://github.com/otykier/TabularEditor).
+
+### To create a calculation group by using Visual Studio
+
+1. In Tabular Model Explorer, right-click **Calculation Groups**, and then click **New Calculation Group**. By default, a new calculation group will have a single column and a single calculation item.
+
+2. Use **Properties** to change the name and enter a description for the calculation group, column, and default calculation item.
+
+3. To enter a DAX formula expression for the default calculation item, right-click and then click **Edit Formula** to open DAX Editor. Enter a valid expression.
+
+4. To add additional calculation items, right-click **Calculation Items**, and then click **New Calculation Item**. 
+
+### To order calculation items
+
+1. In Tabular Model Explorer, right-click a calculation group, and then click **Add column**. 
+
+2. Name the column Ordinal (or something similar), enter a description, and then set the **Hidden** property to True.
+
+3. For each calculation item you want to order, set the **Ordinal** property to a positive number. Each number is sequential, for example, a calculation item with an Ordinal property of 1 will appear first, a property of 2 will appear second, and so on. Calculation items with the default -1 are not included in the ordering, but will appear before ordered items in a report.
 
 ## Limitations
 
 [Object level security](object-level-security.md) (OLS) defined on calculation group tables is not supported. However, OLS can be defined on other tables in the same model. If a calculation item refers to an OLS secured object, a generic error is returned.
 
-[Row level security](roles-ssas-tabular.md#bkmk_rowfliters) (RLS) is not supported. You can define RLS on tables in the same model, but not on calculation groups themselves (directly or indirectly).
+[Row level security](roles-ssas-tabular.md#bkmk_rowfliters) (RLS) is not supported. Define RLS on tables in the same model, but not on calculation groups themselves (directly or indirectly).
 
 [Detail Rows Expressions](../tutorial-tabular-1400/as-supplemental-lesson-detail-rows.md) are not supported with calculation groups.
 
