@@ -390,7 +390,7 @@ The YTD argument to the CALCULATE() function overrides the filter context to reu
 
 ## Calculation item order
 
-By default, when a column from a calculation group is placed in a report filter, calculation items are ordered alphabetically by name in the report. The order in which calculation items appear in a report can be changed by specifying the Ordinal property. Specifying calculation item order with the Ordinal property does not change [precedence](#precedence), the order in which calculation items are evaluated. It also does not change the order in which calculation items appear in Tabular Model Explorer. 
+By default, when a column from a calculation group is placed in a report, calculation items are ordered alphabetically by name in the report. The order in which calculation items appear in a report can be changed by specifying the Ordinal property. Specifying calculation item order with the Ordinal property does not change [precedence](#precedence), the order in which calculation items are evaluated. It also does not change the order in which calculation items appear in Tabular Model Explorer. 
 
 To specify the ordinal property for calculation items, you must add a second column to the calculation group. Unlike the default column where Data Type is Text, a second column used for ordering calculation items has a Whole Number data type. The only purpose for this column is to specify the numeric order in which calculation items in the calculation group appear. Because this column provides no value in a report, it's best to set the **Hidden** property to True.  
 
