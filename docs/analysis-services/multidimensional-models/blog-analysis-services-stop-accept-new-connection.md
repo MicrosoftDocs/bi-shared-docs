@@ -125,11 +125,11 @@ Transaction errors: While attempting to acquire one or more locks, the transacti
 If you process objects in the scope of a single transaction, maybe they won’t collide and kill each other. You can process parallel objects in a single transaction instead of in a sequence of small commits. You could have a larger, more granular commit to reduce the window in which locks occur, but you're increasing the surface area of the number of locks at lower-level granularity. This might increase conflict with user queries.
 For example, you can have multiple processing commands in a single batch.
 
-```xml
-   <Batch xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-     <Parallel>
-       <Process xmlns:xsd="http://www.w3.org/2001/XMLSchema"    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300">
-     <Object>
+   ```xml
+      <Batch xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+        <Parallel>
+          <Process xmlns:xsd="http://www.w3.org/2001/XMLSchema"    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2"    xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2"    xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100"    xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200"    xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200"    xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300"    xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300">
+      <Object>
    ```
 
    ```xml
@@ -139,7 +139,7 @@ For example, you can have multiple processing commands in a single batch.
       <Type>ProcessUpdate</Type>
       <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
     </Process>
-    <Process xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300">
+    <Process xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2"    xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2"    xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100"    xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200"    xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200"    xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300"    xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300">
       <Object>
    ```
 
