@@ -47,7 +47,7 @@ manager: kfile
 -   Check for existing files of the same name. If a file of the same name already exists, backup will fail unless you specify options to overwrite the file.  
   
 ##  <a name="bkmk_cube"></a> Backing Up a Multidimensional or a Tabular Database  
- Administrators can back up an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database to a single [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] backup file (.abf), regardless of size of the database. For step by step instructions, see [How to Backup an Analysis Services Database (TechMantra)](https://www.mytechmantra.com/LearnSQLServer/Backup_an_Analysis_Services_Database.html) and [Automate Backup an Analysis Services Database (TechMantra)](https://www.mytechmantra.com/LearnSQLServer/Automate_Backup_of_Analysis_Services_Database.html).  
+ Administrators can back up an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database to a single [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] backup file (.abf), regardless of size of the database. For step by step instructions, see [How to Backup an Analysis Services Database (MyTechMantra.com)](https://www.mytechmantra.com/sql-server-analysis-services/how-to-backup-analysis-services-database-in-sql-server-using-sql-server-management-studio/) and [Automate Backup an Analysis Services Database (MyTechMantra.com)](https://www.mytechmantra.com/sql-server-analysis-services/how-to-automate-backup-of-analysis-services-database-using-sql-server-agent-job/).  
   
 > [!NOTE]  
 >  [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)], used for loading and querying [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data models in a SharePoint environment, loads its models from SharePoint content databases. These content databases are relational and run on the [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] relational database engine. As such, there is no [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] backup and restore strategy for [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data models. If you have a disaster recovery plan in place for SharePoint content, that plan encompasses the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data models stored in the content databases.  
@@ -83,7 +83,7 @@ manager: kfile
  For more information about backing up an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database, see [Backup Options](../../analysis-services/multidimensional-models/backup-options.md).  
   
 ##  <a name="bkmk_restore"></a> Restoring an Analysis Services Database  
- Administrators can restore an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database from one or more backup files.  
+ Administrators can restore an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database from one or more backup files.  For step by step instructions, see [How to Restore Analysis Services Database in SQL Server Using SQL Server Management Studio (MyTechMantra.com)](https://www.mytechmantra.com/sql-server-analysis-services/how-to-restore-analysis-services-database-in-sql-server-using-sql-server-management-studio-2/).  
   
 > [!NOTE]  
 >  If a backup file is encrypted, you must provide the password specified during backup before you can use that file to restore an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database.  
