@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services features supported by SQL Server edition | Microsoft Docs"
-ms.date: 08/12/2019
+ms.date: 10/22/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -38,6 +38,8 @@ This article describes features supported by different editions of SQL Server 20
 |Row-level security|Yes|Yes|||||Yes|  
 |Multiple partitions|Yes||||||Yes|  
 |Calculation groups|Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|||||Yes (beginning with SQL Server 2019)|  
+|Query interleaving|Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|||||Yes (beginning with SQL Server 2019)|  
+|Many-to-many relationships|Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|||||Yes (beginning with SQL Server 2019)| 
 |In-memory storage mode|Yes|Yes|||||Yes|  
 |DirectQuery mode|Yes|Yes (beginning with SQL Server 2019)|||||Yes|  
 

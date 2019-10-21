@@ -166,7 +166,7 @@ Azure Analysis Services uses Azure Metrics Explorer in the portal. To learn more
 |Cleaner Memory shrinkable KB|Amount of memory, in KB, subject to purging by the background cleaner.|  
 |Cleaner Memory nonshrinkable KB|Amount of memory, in KB, not subject to purging by the background cleaner.|  
 |Cleaner Memory KB|Amount of memory, in KB, known to the background cleaner.  (Cleaner memory shrinkable + Cleaner memory nonshrinkable.)|  
-|Memory Usage KB|Memory usage of the server process as used in calculating cleaner memory price.  Equal to counter Process\PrivateBytes plus the size of memory-mapped data, ignoring any memory which was mapped or allocated by the xVelocity in-memory analytics engine (VertiPaq) in excess of the xVelocity engine Memory Limit.|  
+|Memory Usage KB|Memory usage of the server process as used in calculating cleaner memory price.  Equal to counter Process\PrivateBytes plus the size of memory-mapped data, ignoring any memory which was mapped or allocated by the VertiPaq in-memory analytics engine (VertiPaq) in excess of the VertiPaq engine Memory Limit.|  
 |Memory Limit Low KB|Low memory limit, from configuration file.|  
 |Memory Limit High KB|High memory limit, from configuration file.|  
 |AggCacheKB|Current memory allocated to aggregation cache, in KB.|  
