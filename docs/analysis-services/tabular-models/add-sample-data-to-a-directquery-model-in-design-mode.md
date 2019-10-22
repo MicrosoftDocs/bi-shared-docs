@@ -18,7 +18,7 @@ manager: kfile
  
  By default, when designing a tabular model in DirectQuery mode in SSDT, the model's working database doesn't contain any data. There is one default partition for each table, and this partition directs all queries to the data source. 
   
-You can, however, add a smaller amount of sample data to your model's working database for use at design time. Sample data is specified via a query on a sample partition used only during design. It's cached in-memory with the model. This will help you validate modeling decisions as you go without impacting the data source. You can test your modeling decisions with the sample dataset when using **Analyze in Excel** in SQL Server Data Tools (SSDT), or from other client applications that connect to your workspace database.  
+You can, however, add a smaller amount of sample data to your model's working database for use at design time. Sample data is specified via a query on a sample partition used only during design. It's cached in-memory with the model. This will help you validate modeling decisions as you go without impacting the data source. You can test your modeling decisions with the sample dataset when using **Analyze in Excel** in Visual Studio, or from other client applications that connect to your workspace database.  
   
 > [!TIP]  
 >  Even in DirectQuery mode on an empty model, you can always view a small built-in rowset for each table. In [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], click **Table** > **Table Properties** to view the 50-row dataset.  

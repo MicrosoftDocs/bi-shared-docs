@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular model solution deployment | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 10/23/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -11,21 +11,26 @@ author: minewiskan
 manager: kfile
 ---
 # Tabular model solution deployment 
+
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
   After authoring a tabular model project, you must deploy it in order for users to browse the model by using a reporting client application. This article describes the various properties and methods you can use when deploying tabular model solutions in your environment.  
   
 ##  <a name="bkmk_benefits"></a> Benefits  
+
  Deploying a tabular model creates a model database in a test, staging, or production environment. Users can then connect to the deployed model through a .bism connection file in Sharepoint or by using a data connection directly from reporting client applications such as Microsoft Excel, [!INCLUDE[ssCrescent](../../includes/sscrescent-md.md)], or a custom application. The model workspace database, created when you create a new tabular model project in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], and used to author the model will remain on the workspace server instance, allowing you to make changes to the model project and then re-deploying to the test, staging, or production environment when necessary.  
   
-##  <a name="bkmk_deploying_bism"></a> Deploying a tabular model from SQL Server Data Tools (SSDT)  
+##  <a name="bkmk_deploying_bism"></a> Deploying a tabular model from Visual Studio
+
  Deploying is a simple process; however, certain steps must be taken to ensure your model is deployed to the correct Analysis Services instance and with the correct configuration options.  
   
  Tabular models are defined with several deployment-specific properties. When you deploy, a connection to the Analysis Services instance specified in the **Server** property is established. A new model database with the name specified in the **Database** property is then created on that instance, if one does not already exist. Metadata from the model project's Model.bim file is used to configure objects in the model database on the deployment server. With the **Processing Option**, you can specify whether or not just the model metadata is deployed, creating the model database, or if **Default** or **Full** is specified, impersonation credentials used to connect to data sources are passed in-memory from the model workspace database to the deployed model database. Analysis Services then runs processing to populate data into the deployed model. Once the deployment process is complete, the model can then be connected to by client applications using a data connection or by using an .bism connection file in SharePoint.  
   
 ##  <a name="bkmk_deploy_props"></a> Deployment properties  
+
  The project deployment options and deployment server properties specify how and where a model is deployed to a staging or production Analysis Services environment. While default property settings are defined for all model projects, depending on your particular deployment requirements, you can change these property settings for each project. For more information about setting default deployment properties, see [Configure default data modeling and deployment properties](../../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md).  
   
 ### Deployment options properties  
+
  Deployment options properties include the following:  
   
 |Property|Default setting|Description|  
@@ -45,6 +50,7 @@ manager: kfile
 |**Cube Name**|**Model**|This property specifies the cube name as shown in client tools (such as Excel) and AMO (Analysis Management Objects).|  
   
 ### DirectQuery options properties  
+
  Deployment Options properties include the following:  
   
 |Property|Default setting|Description|  
@@ -52,6 +58,7 @@ manager: kfile
 |**Impersonation Settings**|**Default**|This property specifies the impersonation settings used when a model running in DirectQuery mode connects to data sources. Impersonation credentials are not used when querying the in-memory cache. This property setting has the following options:<br /><br /> **Default** - This setting specifies Analysis Services will use the option specified on the Impersonation Information page when the data source connection was created by using the Table Import Wizard.<br /><br /> **ImpersonateCurrentUser** - This setting specifies the user account of the user currently logged on will be used when connecting to all data sources.|  
   
 ##  <a name="bkmk_meth"></a> Deployment methods  
+
  There are several methods you can use to deploy a tabular model project. Most of the deployment methods that can be used for other Analysis Services projects, such as multidimensional, can also be used to deploy tabular model projects.  
   
 |Method|Description|Link|  
@@ -65,6 +72,7 @@ manager: kfile
 |**Backup and Restore**|Backup offers the simplest approach to transferring [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] databases. From the **Backup** dialog box, you can set the options configuration, and then you can run the backup from the dialog box itself. Or, you can create a script that can be saved and run as frequently as required.<br /><br /> Backup and restore is not used as frequently as the other deployment methods, but is a way to quickly complete a deployment with minimal infrastructure requirements.|[Backup and Restore of Analysis Services Databases](../../analysis-services/multidimensional-models/backup-and-restore-of-analysis-services-databases.md)|  
   
 ##  <a name="bkmk_connecting"></a> Configuring the deployment server and connecting to a deployed model  
+
  After a model has been deployed, there are additional considerations for securing model data access, backups, and processing operations that can be configured on the Analysis Services server by using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)]. While these properties and configuration settings are outside the scope of this topic, they are, nonetheless, very important in assuring your deployed model data is secure, kept up to date, and provide a valuable data analysis resource for users in your organization.  
   
  After a model has been deployed, and optional server settings configured, the model can be connected to by reporting client applications and used to browse and analyze the model metadata. Connecting to a deployed model database from client applications is outside the scope of this topic. 
@@ -79,7 +87,8 @@ manager: kfile
 |[Deploy Model Solutions Using XMLA](../../analysis-services/multidimensional-models/deploy-model-solutions-using-xmla.md)|Describes how to use XMLA to deploy [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] tabular and multidimensional solutions.|  
 |[Synchronize Analysis Services Databases](../../analysis-services/multidimensional-models/synchronize-analysis-services-databases.md)|Describes how to use the Synchronize Database Wizard to synchronize the metadata and data between any two [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] tabular or multidimensional databases.|  
   
-## See Also  
+## See also  
+
  [Connect to a tabular model database](../../analysis-services/tabular-models/connect-to-a-tabular-model-database-ssas.md)  
   
   

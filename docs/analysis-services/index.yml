@@ -40,8 +40,10 @@ landingContent:
             url: https://www.microsoft.com/evalcenter/evaluate-sql-server-2019-rc/
       - linkListType: download
         links:
-          - text: SQL Server Data Tools (SSDT) for Visual Studio
-            url: https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt
+          - text: Visual Studio
+            url: https://visualstudio.microsoft.com/downloads/
+          - text: Analysis Services projects extension
+            url: https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects
           - text: SQL Server Management Studio (SSMS)
             url: https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms
 
