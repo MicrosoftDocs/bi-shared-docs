@@ -1,6 +1,6 @@
 ---
-title: "Deploy Analysis Services tabular models from SQL Server Data Tools | Microsoft Docs"
-ms.date: 08/28/2019
+title: "Deploy Analysis Services tabular models from Visual Studio | Microsoft Docs"
+ms.date: 10/23/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,18 +8,20 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
-# Deploy From SQL Server Data Tools
+# Deploy From Visual Studio
+
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
-  Use the tasks in this topic to deploy a tabular model solution by using the Deploy command in SSDT.  
+
+  Use the tasks in this article to deploy a tabular model solution by using the Deploy command in Visual Studio.  
   
-##  <a name="bkmk_deploy"></a> Configure deployment options and deployment server properties  
+##  <a name="bkmk_deploy"></a> Configure deployment options and deployment server properties
+
  Before you deploy your tabular model solution, you must first specify the Deployment Options and Deployment Server properties. For more information about deployment properties and settings, see [Tabular model solution deployment](../../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md).  
   
-#### To configure options and properties  
+#### To configure options and properties
   
-1.  In SSDT, in **Solution Explorer**, right-click the project name, and then click **Properties**.  
+1.  In **Solution Explorer**, right-click the project name, and then click **Properties**.  
   
 2.  In the **\<project name> Properties** dialog, in **Deployment Options**, specify property settings if different from the default settings.  
   
@@ -38,11 +40,12 @@ manager: kfile
   
 #### To deploy a tabular model
   
--   In SSDT, on the **Build** menu, click **Deploy \<project name>**.  
+-   In Visual Studio, on the **Build** menu, click **Deploy \<project name>**.  
   
      The **Deploy** dialog box will appear and indicate the status of the metadata deployment and the processing (unless Processing Option property is set to Do Not Process) of each table included in the model. After the deployment process is complete, use SSMS to connect to the Analysis Services instance and verify the new model database object has been created or use a client reporting application to connect to the deployed model.  
   
-##  <a name="bkmk_deploy_status"></a> Deploy Status  
+##  <a name="bkmk_deploy_status"></a> Deploy Status
+
  The **Deploy** dialog box enables you to monitor the progress of a Deploy operation. A deploy operation can also be stopped.  
   
  **Status**  
@@ -58,7 +61,8 @@ manager: kfile
 > [!NOTE]
 > For DirectQuery models, if the model contains calculated items, calculated columns, calculated tables, after being deployed you must perform a **Process Recalc** on the database. To learn more about processing a model database from SSMS, see [Process Database, Table, or Partition](process-database-table-or-partition-analysis-services.md).
 
-## See also  
+## See also
+
  [Tabular model solution deployment](../../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md)   
  [Configure default data modeling and deployment properties](../../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md)  
   
