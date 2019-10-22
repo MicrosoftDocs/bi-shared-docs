@@ -37,7 +37,7 @@ These functions have not been optimized to work with DirectQuery. These function
 
  We're not going to list all of the functions here. Basically, if it's not in one of the lists of optimized functions above, it's a non-optimized function for DirectQuery.
 
-The reasons a particular function might not be optimized for DirectQuery is because the underlying relational engine cannot perform calculations equivalent to those performed by the xVelocity engine, or the formula cannot be converted to an equivalent SQL expression. In other cases, the performance of the converted expression and the resulting calculations may be unacceptable.
+The reasons a particular function might not be optimized for DirectQuery is because the underlying relational engine cannot perform calculations equivalent to those performed by the VertiPaq engine, or the formula cannot be converted to an equivalent SQL expression. In other cases, the performance of the converted expression and the resulting calculations may be unacceptable.
 
 To learn about all DAX functions, see the [DAX Function Reference](/dax/dax-function-reference).
 
@@ -47,11 +47,11 @@ All DAX comparison and arithmetic operators are fully supported in DirectQuery m
 
  
 ## Differences between in-memory and DirectQuery mode  
-Queries on a model deployed in DirectQuery mode can return different results than the same model deployed in in-memory mode. This is because with DirectQuery, data is queried directly from a relational data store and aggregations required by formulas are performed using the relevant relational engine (SQL, Oracle, Teradata), rather than using the xVelocity in-memory analytics engine for storage and calculation.  
+Queries on a model deployed in DirectQuery mode can return different results than the same model deployed in in-memory mode. This is because with DirectQuery, data is queried directly from a relational data store and aggregations required by formulas are performed using the relevant relational engine (SQL, Oracle, Teradata), rather than using the VertiPaq in-memory analytics engine for storage and calculation.  
   
 For example, there are differences in the way that certain relational data stores handle numeric values, dates, nulls, and so forth.  
   
-In contrast, the DAX language is intended to emulate as closely as possible the behavior of functions in Microsoft Excel. For example, when handling nulls, empty strings and zero values, Excel attempts to provide the best answer regardless of the precise data type, and therefore the xVelocity engine does the same. However, when a tabular model is deployed in DirectQuery mode and passes formulas to a relational data source, the data must be handled according to the semantics of the relational data source, which typically require distinct handling of empty strings vs. nulls. For this reason, the same formula might return a different result when evaluated against cached data and against data returned solely from the relational store.  
+In contrast, the DAX language is intended to emulate as closely as possible the behavior of functions in Microsoft Excel. For example, when handling nulls, empty strings and zero values, Excel attempts to provide the best answer regardless of the precise data type, and therefore the VertiPaq engine does the same. However, when a tabular model is deployed in DirectQuery mode and passes formulas to a relational data source, the data must be handled according to the semantics of the relational data source, which typically require distinct handling of empty strings vs. nulls. For this reason, the same formula might return a different result when evaluated against cached data and against data returned solely from the relational store.  
   
 Additionally, some functions aren't optimized for DirectQuery mode because the calculation would require the data in the current context be sent to the relational data source as a parameter. For example, measures using time-intelligence functions that reference date ranges in a calendar table. A relational data source might not have a calendar table, or at least one with .  
   
@@ -148,7 +148,7 @@ In Transact-SQL, operations that result in a numerical overflow return an overfl
 However, the same formula when used in an in-memory model returns an eight-byte integer. That is because the formula engine does not perform checks for numerical overflows.  
   
 **LOG functions with blanks return different results**  
-SQL Server handles nulls and blanks differently than the xVelocity engine. As a result, the following formula returns an error in DirectQuery mode, but return infinity (-inf) in in-memory mode.  
+SQL Server handles nulls and blanks differently than the VertiPaq engine. As a result, the following formula returns an error in DirectQuery mode, but return infinity (-inf) in in-memory mode.  
   
 `EXAMPLE: LOG(blank())`  
   
@@ -280,7 +280,7 @@ Additionally, in SQL Server, some text functions support additional arguments th
 **Operations that return a character using LEFT, RIGHT, etc. may return the correct character but in a different case, or no results**  
 EXAMPLE: `LEFT(["text"], 2)`  
   
-In DirectQuery mode, the case of the character that is returned is always exactly the same as the letter that is stored in the database. However, the xVelocity engine uses a different algorithm for compression and indexing of values, to improve performance.  
+In DirectQuery mode, the case of the character that is returned is always exactly the same as the letter that is stored in the database. However, the VertiPaq engine uses a different algorithm for compression and indexing of values, to improve performance.  
   
 By default, the Latin1_General collation is used, which is case-insensitive but accent-sensitive. Therefore, if there are multiple instances of a text string in lower case, upper case, or mixed case, all instances are considered the same string, and only the first instance of the string is stored in the index. All text functions that operate on stored strings will retrieve the specified portion of the indexed form. Therefore, the example formula would return the same value for the entire column, using the first instance as the input.  
   

@@ -16,7 +16,7 @@
       href: power-pivot-for-sharepoint-ssas.md
   - name: Azure Analysis Services documentation
     href: https://docs.microsoft.com/azure/analysis-services/
-  - name: Tools and applications
+  - name: Tools
     href: tools-and-applications-used-in-analysis-services.md
   - name: Comparing Tabular and Multidimensional solutions
     href: comparing-tabular-and-multidimensional-solutions-ssas.md
