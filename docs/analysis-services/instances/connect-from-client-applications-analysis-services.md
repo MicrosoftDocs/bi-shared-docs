@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Connect from client applications (Analysis Services)
+# Connect from client applications
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   If you are new to Analysis Services, use the information in this topic to connect to an existing instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] using common tools and applications. This topic also explains how to connect under different user identities for testing purposes.  
   
@@ -18,7 +18,7 @@ manager: kfile
   
 -   [Connect using Excel](#bkmk_excel)  
   
--   [Connect using SQL Server Data Tools](#bkmk_SSDT)  
+-   [Connect using Visual Studio](#bkmk_SSDT)  
   
 -   [Test connections](#bkmk_tshoot)  
   
@@ -82,8 +82,8 @@ manager: kfile
   
  For more information, see [Connect to or import data from SQL Server Analysis Services](https://go.microsoft.com/fwlink/?linkID=215150).  
   
-##  <a name="bkmk_SSDT"></a> Connect using SQL Server Data Tools  
- SQL Server Data Tools is used for building BI solutions, including Analysis Services models, Reporting Services reports, and SSIS packages. When building reports or packages, you might need to specify a connection to Analysis Services.  
+##  <a name="bkmk_SSDT"></a> Connect using Visual Studio  
+ Visual Studio with Analysis Services projects is used for building BI solutions. When building reports or packages, you might need to specify a connection to Analysis Services.  
   
  The following links explain how to connect to Analysis Services from a Report Server project or an Integration Services project:  
   
@@ -92,7 +92,7 @@ manager: kfile
 -   [Analysis Services Connection Manager](/sql/integration-services/connection-manager/analysis-services-connection-manager)  
   
 > [!NOTE]  
->  When using SQL Server Data Tools to work on an existing Analysis Services project, remember that you can connect offline using a local or version controlled project, or connect in online mode to update Analysis Services objects while the database is running. For more information, see [Connect in Online Mode to an Analysis Services Database](../../analysis-services/multidimensional-models/connect-in-online-mode-to-an-analysis-services-database.md). More commonly, connections from [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] are in project mode, where changes are deployed to the database only when you explicitly deploy the project.  
+>  When using Visual Studio to work on an existing Analysis Services project, remember that you can connect offline using a local or version controlled project, or connect in online mode to update Analysis Services objects while the database is running. For more information, see [Connect in Online Mode to an Analysis Services Database](../../analysis-services/multidimensional-models/connect-in-online-mode-to-an-analysis-services-database.md). More commonly, connections from [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] are in project mode, where changes are deployed to the database only when you explicitly deploy the project.  
   
 ##  <a name="bkmk_tshoot"></a> Test connections  
  You can use SQL Server Profiler to monitor connections to Analysis Services. The Audit Login and Audit Logout events provide evidence of a connection. The identity column indicates the security context under which the connection is made.  

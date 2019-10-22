@@ -1,6 +1,6 @@
 ---
 title: "Calculation groups in Analysis Services tabular models | Microsoft Docs"
-ms.date: 10/15/2019
+ms.date: 10/16/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 monikerRange: ">=sql-server-ver15||=sqlallproducts-allversions"
 ---
 # Calculation groups
@@ -43,8 +42,9 @@ With a calculation group, in this example named **Time Intelligence**, when the 
 
 ![Calculation group being applied in Power BI](media/calculation-groups/calc-groups-pbi.gif)
 
-
 Calculation groups work with **explicit** DAX measures. In this example, **Sales** is an explicit measure already created in the model. Calculation groups do not work with implicit DAX measures. For example, in Power BI implicit measures are created when a user drags columns onto visuals to view aggregated values, without creating an explicit measure. At this time, Power BI generates DAX for implicit measures written as inline DAX calculations - meaning implicit measures cannot work with calculation groups. A new model property visible in the Tabular Object Model (TOM) has been introduced, **DiscourageImplicitMeasures**. Currently, in order to create calculation groups this property must be set to **true**. When set to true, Power BI Desktop in Live Connect mode disables creation of implicit measures.
+
+Calculation groups also support Multidimensional Data Expressions (MDX) queries. This means, Microsoft Excel users, which query tabular data models by using MDX, can take full advantage of calculation groups in worksheet PivotTables and charts.
 
 ## How they work
 
@@ -388,7 +388,7 @@ CALCULATE(
 
 The YTD argument to the CALCULATE() function overrides the filter context to reuse the logic already defined in the YTD calculation item. It's not possible to apply both PY and YTD in a single evaluation. Calculation groups are *only applied* if a single calculation item from the calculation group is in filter context.
 
-## Calculation item order
+## Ordering
 
 By default, when a column from a calculation group is placed in a report, calculation items are ordered alphabetically by name in the report. The order in which calculation items appear in a report can be changed by specifying the Ordinal property. Specifying calculation item order with the Ordinal property does not change [precedence](#precedence), the order in which calculation items are evaluated. It also does not change the order in which calculation items appear in Tabular Model Explorer. 
 
@@ -400,12 +400,7 @@ After a second column is added to the calculation group, you can specify the Ord
 
 :::image type="content" source="media/calculation-groups/calc-groups-calcitem-ordinal.png" alt-text="Ordinal property":::
 
-To learn more, see [To create a calculation group](#create-a-calculation-group).
-
-
-## MDX support
-
-Calculation groups support Multidimensional Data Expressions (MDX) queries. This means, Microsoft Excel users, which query tabular data models by using MDX, can take full advantage of calculation groups in worksheet PivotTables and charts.
+To learn more, see [To order calculation items](#to-order-calculation-items).
 
 ## Create a calculation group
 

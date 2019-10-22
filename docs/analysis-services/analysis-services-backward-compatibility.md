@@ -1,6 +1,6 @@
 ---
 title: "SQL Server Analysis Services backward compatibility | Microsoft Docs"
-ms.date: 08/09/2019
+ms.date: 10/23/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -16,15 +16,38 @@ manager: kfile
 
 This article describes changes in feature availability and behavior between the current version and the previous versions.
 
-## SQL Server 2019 (Preview)
+## Definitions
 
-Backward compatibility for this release have not yet been determined.
+A *deprecated feature* will be discontinued from the product in a future release, but is still supported and included in the current release to maintain backward compatibility. It's recommended you discontinue using deprecated features in new and existing projects to maintain compatibility with future releases. Documentation is not updated for deprecated features.
+
+A *discontinued feature* was deprecated in an earlier release. It may continue to be included in the current release, but is no longer supported. Discontinued features may be removed entirely in a future release or update.
+
+A *breaking change* causes a feature, data model, application code, or script to no longer function after upgrading to the current release.
+
+A *behavior change* affects how the same feature works in the current release as compared to the previous release. Only significant behavior changes are described. Changes in  user interface are not included.
+
+
+## SQL Server 2019
+
+### Deprecated features
+
+There are no deprecated features announced with this release.
+
+### Discontinued features
+
+There are no discontinued features announced with this release.
+
+### Breaking changes
+
+There are no breaking changes in this release.
+
+### Behavior changes
+
+There are no breaking changes in this release.
 
 ## SQL Server 2017
 
 ### Deprecated features
-
-A *deprecated feature* will be discontinued from the product in a future release, but is still supported and included in the current release to maintain backward compatibility. It's recommended you discontinue using deprecated features in new and existing projects to maintain compatibility with future releases. Documentation is not updated for deprecated features.
 
 The following features are deprecated in this release:
   
@@ -41,8 +64,6 @@ The following features are deprecated in this release:
 
 ### Discontinued features
 
-A *discontinued feature* was deprecated in an earlier release. It may continue to be included in the current release, but is no longer supported. Discontinued features may be removed entirely in a future release or update.
-
 The following features were deprecated in an earlier release and are no longer supported in this release.
   
 |||  
@@ -56,13 +77,9 @@ The following features were deprecated in an earlier release and are no longer s
 
 ### Breaking changes
 
-A *breaking change* causes a feature, data model, application code, or script to no longer function after upgrading to the current release.
-
 There are no breaking changes in this release.
 
 ### Behavior changes
-
-A *behavior change* affects how the same feature works in the current release as compared to the previous release. Only significant behavior changes are described. Changes in  user interface are not included.
 
 Changes to MDSCHEMA_MEASUREGROUP_DIMENSIONS and DISCOVER_CALC_DEPENDENCY, detailed in the [What's new in SQL Server 2017 CTP 2.1 for Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/05/18/whats-new-in-sql-server-2017-ctp-2-1-for-analysis-services/) announcement.
 
@@ -70,8 +87,6 @@ Changes to MDSCHEMA_MEASUREGROUP_DIMENSIONS and DISCOVER_CALC_DEPENDENCY, detail
 
 ### Deprecated features
 
-A *deprecated feature* will be discontinued from the product in a future release, but is still supported and included in the current release to maintain backward compatibility. It's recommended you discontinue using deprecated features in new and existing projects to maintain compatibility with future releases.
-  
 The following features are deprecated in this release:
   
 |||  
@@ -94,8 +109,6 @@ The following features are deprecated in this release:
 
 ### Discontinued features
 
-A *discontinued feature* was deprecated in an earlier release. It may continue to be included in the current release, but is no longer supported. Discontinued features may be removed entirely in a future release or update.
-
 The following features were deprecated in an earlier release and are no longer supported in this release.
 
 |||  
@@ -111,8 +124,6 @@ The following features were deprecated in an earlier release and are no longer s
 >  Previously deprecated feature announcements from [!INCLUDE[ssSQL14](../includes/sssql14-md.md)] remain in effect. Because the code supporting those features has not yet been cut from the product, many  of these features are still present in this release. While previously deprecated features might be accessible, they are still considered deprecated and could be physically removed from the product at any time.  
 
 ### Breaking changes
-
-A *breaking change* causes a data model, application code, or script  to no longer function after upgrading either the model or the server.
   
 #### .NET 4.0 version upgrade
 
@@ -145,8 +156,6 @@ using Microsoft.AnalysisServices.Core;
 -   DISCOVER_XEVENT_SESSION_TARGETS  
 
 ### Behavior changes
-
-A *behavior change* affects how features work or interact in the current version as compared to earlier versions of SQL Server.
   
 Revisions to  default values, manual configuration required to complete an upgrade or restore functionality, or a new implementation of an existing feature are all examples of a behavior change in the product.
   

@@ -13,7 +13,7 @@ manager: kfile
 # Adventure Works Internet Sales tutorial (1200)
 [!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
 
-This tutorial provides lessons on how to create an Analysis Services tabular model at the [1200 compatibility level](../tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) by using [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt), and deploy your model to an Analysis Services server on-premises or in Azure.  
+This tutorial provides lessons on how to create an Analysis Services tabular model at the [1200 compatibility level](../tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) by using Visual Studio, and deploy your model to an Analysis Services server on-premises or in Azure.  
  
 If you're using SQL Server 2017 or Azure Analysis Services and you want to create your model at the 1400 compatibility level, use the [Tabular modeling (1400 compatibility level)](../tutorial-tabular-1400/as-adventure-works-tutorial.md). This updated version uses the modern Get Data feature to connect and import source data, uses the M language to configure partitions, and includes additional supplemental lessons.
 
@@ -23,7 +23,7 @@ If you're using SQL Server 2017 or Azure Analysis Services and you want to creat
   
 ## What you learn   
   
--   How to create a new tabular model project in SSDT.
+-   How to create a new tabular model project in Visual Studio.
   
 -   How to import data from a SQL Server relational database into a tabular model project.  
   
@@ -46,16 +46,16 @@ To better support the data analysis needs of sales and marketing teams and of se
   
 In order to complete the tutorial, and the Adventure Works Internet Sales tabular model, you must complete a number of lessons. In each lesson is a number of tasks; completing each task in order is necessary for completing the lesson. While in a particular lesson there may be several tasks that accomplish a similar outcome, but how you complete each task is slightly different. This is to show that there is often more than one way to complete a particular task, and to challenge you by using skills you've learned in previous tasks.  
   
-The purpose of the lessons is to guide you through authoring a basic tabular model running in In-Memory mode by using many of the features included in SSDT. Because each lesson builds upon the previous lesson, you should complete the lessons in order. Once you've completed all of the lessons, you have authored and deployed the Adventure Works Internet Sales sample tabular model on an Analysis Services server.  
+The purpose of the lessons is to guide you through authoring a basic tabular model running in In-Memory mode by using many of the features included in Visual Studio. Because each lesson builds upon the previous lesson, you should complete the lessons in order. Once you've completed all of the lessons, you have authored and deployed the Adventure Works Internet Sales sample tabular model on an Analysis Services server.  
   
 This tutorial does not provide lessons or information about managing a deployed tabular model database by using SQL Server Management Studio, or using a reporting client application to connect to a deployed model to browse model data.  
   
 ## Prerequisites  
 In order to complete this tutorial, you need the following prerequisites:  
   
--   The latest version of [SSDT](/sql/ssdt/download-sql-server-data-tools-ssdt).
+-   The latest version of [Visual Studio](/sql/ssdt/download-sql-server-data-tools-ssdt) with Analysis Services projects extension.
 
--   The latest version of SQL Server Management Studio. [Get the latest version](/sql/ssms/download-sql-server-management-studio-ssms). 
+-   The latest version of [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms). 
   
 -   A client application such as [Power BI Desktop](https://powerbi.microsoft.com/desktop/) or Excel.    
   

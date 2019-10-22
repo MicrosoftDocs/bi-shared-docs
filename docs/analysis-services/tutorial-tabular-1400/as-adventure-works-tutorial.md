@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services Adventure Works Internet Sales tutorial (1400) | Microsoft Docs"
-ms.date: 05/08/2019
+ms.date: 10/22/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -19,7 +19,7 @@ This tutorial provides lessons on how to create and deploy a tabular model at th
   
 ## What you learn   
   
--   How to create a new tabular model project at the **1400 compatibility level** in Visual Studio with SSDT.
+-   How to create a new tabular model project at the **1400 compatibility level** in Visual Studio.
   
 -   How to import data from a relational database into a tabular model project workspace database.  
   
@@ -33,7 +33,7 @@ This tutorial provides lessons on how to create and deploy a tabular model at th
   
 -   How to secure model objects and data by creating roles with user members.  
   
--   How to deploy a tabular model to an **Azure Analysis Services** server or **SQL Server 2017 Analysis Services** server by using SSDT.  
+-   How to deploy a tabular model to an **Azure Analysis Services** server or **SQL Server Analysis Services** by using Visual Studio.  
   
 ## Prerequisites  
 
@@ -45,7 +45,7 @@ To complete this tutorial, you need:
 
     **Important:** If you install the sample database to an on-premises SQL Server Data Warehouse, and deploy your model to an Azure Analysis Services server, an [On-premises data gateway](https://docs.microsoft.com/azure/analysis-services/analysis-services-gateway) is required.
 
--   The latest version of [SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt). Or, if you already have Visual Studio 2017, you can download and install [Microsoft Analysis Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) (VSIX) package. For this tutorial, references to SSDT and Visual Studio are synonymous. 
+-   The latest version of [Visual Studio](https://visualstudio.microsoft.com/downloads/), and the latest [Microsoft Analysis Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) (VSIX) package. 
 
 -   The latest version of [SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms).    
 
@@ -57,7 +57,7 @@ This tutorial is based on Adventure Works Cycles, a fictitious company. Adventur
   
 To complete the tutorial, you must complete various lessons. In each lesson, there are tasks. Completing each task in order is necessary for completing the lesson. While in a particular lesson there may be several tasks that accomplish a similar outcome, but how you complete each task is slightly different. This method shows there is often more than one way to complete a task, and to challenge you by using skills you've learned in previous lessons and tasks.  
   
-The purpose of the lessons is to guide you through authoring a basic tabular model by using many of the features included in SSDT. Because each lesson builds upon the previous lesson, you should complete the lessons in order.
+The purpose of the lessons is to guide you through authoring a basic tabular model by using many of the features included in Visual Studio with Analysis Services projects. Because each lesson builds upon the previous lesson, you should complete the lessons in order.
   
 This tutorial does not provide lessons about managing a server in Azure portal, managing a server or database by using SSMS, or using a client application to browse model data. 
 
