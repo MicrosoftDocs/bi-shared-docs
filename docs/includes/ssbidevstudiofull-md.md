@@ -1,1 +1,1 @@
- SQL Server Data Tools (SSDT) 
+Visual Studio with Analysis Services projects 

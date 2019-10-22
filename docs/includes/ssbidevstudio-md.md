@@ -1,1 +1,1 @@
- SQL Server Data Tools 
+ Visual Studio with Analysis Services projects 

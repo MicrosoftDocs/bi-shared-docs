@@ -19,7 +19,7 @@ author: minewiskan
 
 Tabular and multidimensional model projects are created by using project templates in Visual Studio with Analysis Services projects extensions (VSIX). Project templates provide model designers and wizards for creating the data model objects that comprise an Analysis Services solution. Analysis Services projects extensions are supported on all Visual Studio 2017 and later editions, including the free Community edition. 
 
-[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
+[Download Visual Studio](https://visualstudio.microsoft.com/downloads/)
 
 [Download Analysis Services projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects)
 

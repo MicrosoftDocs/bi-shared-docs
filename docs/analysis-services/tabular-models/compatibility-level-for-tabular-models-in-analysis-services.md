@@ -38,10 +38,7 @@ Major features in the 1500 compatibility level include:
   
 ## Set compatibility level 
 
-> [!NOTE]
-> Setting the 1500 compatibility level is not yet supported in SSDT.
-
- When creating a new tabular model project in SQL Server Data Tools (SSDT), you can specify the compatibility level on the **Tabular model designer** dialog. 
+ When creating a new tabular model project in Visual Studio, you can specify the compatibility level on the **Tabular model designer** dialog. 
   
  ![ssas_tabularproject_compat1200](../../analysis-services/tabular-models/media/ssas-tabularproject-compat1200.png)  
   

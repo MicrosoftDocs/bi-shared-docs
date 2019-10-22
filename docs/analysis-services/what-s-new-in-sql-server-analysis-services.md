@@ -82,7 +82,7 @@ SQL Server 2017 Analysis Services see some of the most important enhancements si
 
 Multidimensional mode and Power Pivot for SharePoint mode are a staple for many Analysis Services deployments. In the Analysis Services product lifecycle, these modes are mature. There are no new features for either of these modes in this release. However, bug fixes and performance improvements are included.
 
-The features described here are included in SQL Server 2017 Analysis Services. But in order to take advantage of them, you must also use the latest versions of [SQL Server Data Tools](/sql/ssdt/download-sql-server-data-tools-ssdt) (SSDT) and [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) (SSMS). SSDT and SSMS are updated monthly with new and improved features that typically coincide with new functionality in SQL Server.  
+The features described here are included in SQL Server 2017 Analysis Services. But in order to take advantage of them, you must also use the latest versions of Visual Studio with Analysis Services projects and SQL Server Management Studio (SSMS). Analysis Services projects and SSMS are updated monthly with new and improved features that typically coincide with new functionality in SQL Server.  
 
 While it's important to learn about all the new features, it's also important to know what is being deprecated and discontinued in this release and future releases. Be sure to check out [Analysis Services backward compatibility)](analysis-services-backward-compatibility.md).
 
@@ -92,11 +92,11 @@ Let's take a look at some of the key new features in this release.
 
   To take advantage of many of the new features and functionality described here, new or existing tabular models must be set or upgraded to the 1400 compatibility level. Models at the 1400 compatibility level cannot be deployed to SQL Server 2016 SP1 or earlier, or downgraded to lower compatibility levels. To learn more, see [Compatibility level for Analysis Services tabular models](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md).
   
-In SSDT, you can select the new 1400 compatibility level when creating new tabular model projects.
+In Visual Studio, you can select the new 1400 compatibility level when creating new tabular model projects.
 
 ![AS_NewTabular1400Project](../analysis-services/media/as-newtabular1400project.png)
 
-To upgrade an existing tabular model in SSDT, in Solution Explorer, right-click **Model.bim**, and then in **Properties**, set the  **Compatibility Level** property to **SQL Server 2017 (1400)**.
+To upgrade an existing tabular model in Visual Studio, in Solution Explorer, right-click **Model.bim**, and then in **Properties**, set the  **Compatibility Level** property to **SQL Server 2017 (1400)**.
 
 ![AS_Model_Properties](../analysis-services/media/as-model-properties.png)
 
@@ -104,7 +104,7 @@ It's important to keep in mind, once you upgrade an existing model to 1400, you 
 
 ### Modern Get Data experience
 
-When it comes to importing data from data sources into your tabular models, SQL Server Data Tools (SSDT) introduces the modern **Get Data** experience for models at the 1400 compatibility level. This new feature is based on similar functionality in Power BI Desktop and Microsoft Excel 2016. The modern Get Data experience provides immense data transformation and data mashup capabilities by using the Get Data query builder and M expressions.
+When it comes to importing data from data sources into your tabular models, SSDT introduces the modern **Get Data** experience for models at the 1400 compatibility level. This new feature is based on similar functionality in Power BI Desktop and Microsoft Excel 2016. The modern Get Data experience provides immense data transformation and data mashup capabilities by using the Get Data query builder and M expressions.
 
 The modern Get Data experience provides support for a wide range of data sources. Going forward, updates will include support for even more.
 
@@ -246,8 +246,6 @@ Now works with tabular 1200 and 1400 models. Tabular 1400 models show dependenci
 Improvements are included for this DMV, which is used by various client tools to show measure dimensionality. For example, the Explore feature in Excel Pivot Tables allows the user to cross-drill to dimensions related to the selected measures. This release corrects the cardinality columns, which were previously showing incorrect values.
 
 ### DAX enhancements
-
-This release includes support for new DAX functions and functionality. In order to take advantage, you need to use the latest version of SSDT. To learn more, see [New DAX functions](/dax/new-dax-functions).
 
 One of the most important pieces of new DAX functionality is the new [IN Operator / CONTAINSROW Function](/dax/in-operator-containsrow-function) for DAX expressions. This is similar to the `TSQL IN` operator commonly used to specify multiple values in a `WHERE` clause.
 

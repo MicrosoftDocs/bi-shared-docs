@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 1: Create a new tabular model project | Microsoft Docs"
-ms.date: 03/08/2019
+ms.date: 10/23/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -15,7 +15,7 @@ monikerRange: ">= sql-server-2017 || = sqlallproducts-allversions"
 
 [!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
 
-In this lesson, you use Visual Studio with SQL Server Data Tools (SSDT) or Visual Studio 2017 with Microsoft Analysis Services Projects VSIX to create a new tabular model project at the 1400 compatibility level. Once your new project is created, you can begin adding data and authoring your model. This lesson also gives you a brief introduction to the tabular model authoring environment in Visual Studio.  
+In this lesson, you use Visual Studio with Microsoft Analysis Services Projects VSIX to create a new tabular model project at the 1400 compatibility level. Once your new project is created, you can begin adding data and authoring your model. This lesson also gives you a brief introduction to the tabular model authoring environment in Visual Studio.  
   
 Estimated time to complete this lesson: **10 minutes**  
   
@@ -45,10 +45,8 @@ This article is the first lesson in a tabular model authoring tutorial. To compl
  
     ![as-lesson1-tmd](../tutorial-tabular-1400/media/as-lesson1-tmd.png)
       
-    If you don't see SQL Server 2017 / Azure Analysis Services (1400) in the Compatibility level listbox, you're not using the latest version of SQL Server Data Tools. To get the latest version, see [Install SQL Server Data tools](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).  
-      
   
-## Understanding the SSDT tabular model authoring environment  
+## Understanding the tabular model authoring environment  
 
 Now that you've created a new tabular model project, let's take a moment to explore the tabular model authoring environment in Visual Studio.  
   
@@ -68,7 +66,7 @@ When you create a model project, certain model properties are set automatically 
 
 In **Solution Explorer**, right-click **AW Internet Sales** (project), and then click **Properties**. The **AW Internet Sales Property Pages** dialog box appears. You set some of these properties later when you deploy your model.  
   
-When you installed SSDT, several new menu items were added to the Visual Studio environment. Click the **Model** menu. From here, you can import data, refresh workspace data, browse your model in Excel, create perspectives and roles, select the model view, and set calculation options. Click the **Table** menu. From here, you can create and manage relationships, specify date table settings, create partitions, and edit table properties. If you click the **Column** menu, you can add and delete columns in a table, freeze columns, and specify sort order. SSDT also adds some buttons to the bar. Most useful is the AutoSum feature to create a standard aggregation measure for a selected column. Other toolbar buttons provide quick access to frequently used features and commands.  
+When you installed the Analysis Services projects extension, several new menu items were added to the Visual Studio environment. Click the **Model** menu. From here, you can import data, refresh workspace data, browse your model in Excel, create perspectives and roles, select the model view, and set calculation options. Click the **Table** menu. From here, you can create and manage relationships, specify date table settings, create partitions, and edit table properties. If you click the **Column** menu, you can add and delete columns in a table, freeze columns, and specify sort order. The extension also adds some buttons to the bar. Most useful is the AutoSum feature to create a standard aggregation measure for a selected column. Other toolbar buttons provide quick access to frequently used features and commands.  
   
 Explore some of the dialogs and locations for various features specific to authoring tabular models. While some items are not yet active, you can get a good idea of the tabular model authoring environment.  
   
