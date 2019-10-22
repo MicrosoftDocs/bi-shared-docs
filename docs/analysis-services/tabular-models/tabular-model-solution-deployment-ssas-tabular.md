@@ -13,6 +13,7 @@ manager: kfile
 # Tabular model solution deployment 
 
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+
   After authoring a tabular model project, you must deploy it in order for users to browse the model by using a reporting client application. This article describes the various properties and methods you can use when deploying tabular model solutions in your environment.  
   
 ##  <a name="bkmk_benefits"></a> Benefits  
@@ -40,6 +41,7 @@ manager: kfile
 |**Query Mode**|**In-Memory**|This property specifies the mode in which the source from which query results are returned is running in In-Memory (cached) mode or in DirectQuery mode. This property has the following options:<br /><br /> **DirectQuery** - This setting specifies all queries to the model should use the relational data source only.<br /><br /> **DirectQuery with In-Memory** - This setting specifies, by default, queries should be answered by using the relational source, unless otherwise specified in the connection string from the client.<br /><br /> **In-Memory** - This setting specifies  queries should be answered by using the cache only.<br /><br /> **In-Memory with DirectQuery** - This setting specifies, by default. queries should be answered by using the cache, unless otherwise specified in the connection string from the client.<br /><br /> <br /><br /> For more information, see [DirectQuery Mode](../../analysis-services/tabular-models/directquery-mode-ssas-tabular.md).|  
   
 ### Deployment server properties  
+
  Deployment Server properties include the following:  
   
 |Property|Default setting|Description|  
