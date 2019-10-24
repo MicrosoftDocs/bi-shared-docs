@@ -412,11 +412,8 @@
         - name: Object-level security
           href: ../analysis-services/tabular-models/object-level-security.md
       - name: Analyze in Excel
-        href: ../analysis-services/tabular-models/analyze-in-excel-ssas-tabular.md
-        items:
-        - name: Analyze a tabular model in Excel
-          href: ../analysis-services/tabular-models/analyze-a-tabular-model-in-excel-ssas-tabular.md
-      - name: String storage and collation in tabular models
+        href: ../analysis-services/tabular-models/analyze-a-tabular-model-in-excel-ssas-tabular.md
+      - name: String storage and collation
         href: ../analysis-services/tabular-models/string-storage-and-collation-in-tabular-models.md
     - name: Deploy tabular model solutions
       items:
@@ -424,8 +421,7 @@
         href: ../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md
       - name: Deploy from SQL Server Data Tools
         href: ../analysis-services/tabular-models/deploy-from-sql-server-data-tools-ssas-tabular.md
-    - name: Manage Tabular Model Databases
-      href: ../analysis-services/tabular-models/tabular-model-databases-ssas-tabular.md
+    - name: Manage deployed model databases
       items:
       - name: Process Database, Table, or Partition
         href: ../analysis-services/tabular-models/process-database-table-or-partition-analysis-services.md

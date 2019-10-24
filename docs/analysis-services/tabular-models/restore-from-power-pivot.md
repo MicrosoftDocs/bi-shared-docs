@@ -40,7 +40,7 @@ manager: kfile
 5.  In **Options**, leave **Include security information** checked. When restoring from a [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] workbook, this setting does not apply.  
   
 ## See Also  
- [Tabular Model Databases](../../analysis-services/tabular-models/tabular-model-databases-ssas-tabular.md)   
+
  [Import from Power Pivot](../../analysis-services/tabular-models/import-from-power-pivot-ssas-tabular.md)  
   
   
