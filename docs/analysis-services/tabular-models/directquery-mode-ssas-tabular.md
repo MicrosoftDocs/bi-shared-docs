@@ -1,6 +1,6 @@
 ---
 title: "DirectQuery mode in Analysis Services | Microsoft Docs"
-ms.date: 08/28/2019
+ms.date: 10/24/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,14 +8,16 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
-# DirectQuery mode
+# DirectQuery mode in tabular models
+
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+
   This article describes *DirectQuery mode* for Analysis Services tabular models at the 1200 and higher compatibility levels
-  . DirectQuery mode can be turned on for models you're designing in SSDT, or for tabular models that have already been deployed, you can change to DirectQuery mode in SSMS. Before choosing DirectQuery mode, it's important to understand both the benefits and restrictions.
+  . DirectQuery mode can be turned on for models you're designing in Visual Studio, or for tabular models that have already been deployed, you can change to DirectQuery mode in SSMS. Before choosing DirectQuery mode, it's important to understand both the benefits and restrictions.
   
 ##  <a name="bkmk_Benefits"></a> Benefits
+
  By default, tabular models use an in-memory cache to store and query data. When tabular models query data residing in-memory, even complex queries can be incredibly fast. However, there are some limitations to using cached data. Namely, large data sets can exceed available memory, and data freshness requirements can be difficult if not impossible to achieve on a regular processing schedule.  
   
  DirectQuery overcomes these limitations while also leveraging RDBMS features making query execution more efficient. With DirectQuery:  
@@ -31,6 +33,7 @@ manager: kfile
 -   If the model contains complex formulas that might require multiple queries, Analysis Services can perform optimization to ensure that the query plan for the query executed against the back-end database will be as efficient as possible.  
   
 ##  <a name="bkmk_prereq"></a>Restrictions
+
 Tabular models in DirectQuery mode have some restrictions. Before switching modes, it's important to determine whether the advantages of query execution on the backend server outweigh any reduction in functionality.  
   
  If you change the mode of an existing model in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], the model designer will notify you of any features in your model that are incompatible with DirectQuery mode.  
@@ -49,19 +52,12 @@ Tabular models in DirectQuery mode have some restrictions. Before switching mode
 |**MDX limitations**|No relative object names. All object names must be fully qualified.<br /><br /> No session-scope MDX statements (named sets, calculated members, calculated cells, visual totals, default members, and so forth), but you can use query-scope constructs, such as the 'WITH' clause.<br /><br /> No tuples with members from different levels in MDX subselect clauses.<br /><br /> No user-defined hierarchies.<br /><br /> No native SQL queries (normally, Analysis Services supports a T-SQL subset, but not for DirectQuery models).|  
 
 ## Data sources supported for DirectQuery
-DirectQuery tabular models at compatibility level 1200 and higher are compatible with the following data sources and providers:
 
-Data source   |Versions  |Providers
----------|---------|---------
-Microsoft SQL Server    |  2008 and later      |       OLE DB Provider for SQL Server, SQL Server Native Client OLE DB Provider, .NET Framework Data Provider for SQL Client  
-Microsoft Azure SQL Database    |   All      |  OLE DB Provider for SQL Server, SQL Server Native Client OLE DB Provider, .NET Framework Data Provider for SQL Client            
-Microsoft Azure SQL Data Warehouse     |   All     |  .NET Framework Data Provider for SQL Client       
-Microsoft SQL Analytics Platform System (APS)     |   All      |  OLE DB Provider for SQL Server, SQL Server Native Client OLE DB Provider, .NET Framework Data Provider for SQL Client       
-Oracle relational databases     |  Oracle 9i and later       |  Oracle OLE DB Provider       
-Teradata relational databases    |  Teradata V2R6 and later     | .Net Data Provider for Teradata        
+See [Data sources supported in SQL Server Analysis Services tabular 1400 models](data-sources-supported-ssas-tabular-1400.md)
 
 ## Connecting to a data source
-When designing a DirectQuery model in SSDT, connecting to a data source and selecting the tables and fields to include in your model is much the same as with in-memory models. 
+
+When designing a DirectQuery model in Visual Studio, connecting to a data source and selecting the tables and fields to include in your model is much the same as with in-memory models. 
 
 If you've already turned on DirectQuery but haven't yet connected to a data source, you can use the Table Import Wizard to connect to your data source, select tables and fields, specify a SQL query, and so on. The difference will be when you finish, no data is actually imported to the in-memory cache. 
 
@@ -75,7 +71,8 @@ DirectQuery models are deployed the same as import models. However, unlike impor
 
   
 ## Additional articles in this section
-[Enable DirectQuery mode in SSDT](../../analysis-services/tabular-models/enable-directquery-mode-in-ssdt.md)
+
+[Enable DirectQuery mode in Visual Studio](../../analysis-services/tabular-models/enable-directquery-mode-in-ssdt.md)
 
 [Enable DirectQuery mode in SSMS](../../analysis-services/tabular-models/enable-directquery-mode-in-ssms.md)
 

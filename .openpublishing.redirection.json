@@ -709,6 +709,11 @@
             "source_path": "docs/analysis-services/instances/install-windows/deploy-powerpivot-and-power-view-multi-tier-sharepoint-2016-farm.md",
             "redirect_url": "/analysis-services/power-pivot-for-sharepoint-ssas",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/analysis-services/tabular-models/tabular-model-projects-ssas-tabular.md",
+            "redirect_url": "/analysis-services/tabular-models/tabular-model-designer-ssas",
+            "redirect_document_id": false
         }
     ]
 }
