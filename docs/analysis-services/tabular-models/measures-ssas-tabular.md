@@ -1,6 +1,6 @@
 ---
 title: "Measures in Analysis Services tabular models | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 10/24/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,9 +8,8 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
-# Measures
+# Measures in tabular models
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
   In tabular models, a measure is a calculation created using a DAX formula for use in a reporting client. Measures are evaluated based on fields, filters, and slicers users select in the reporting client application.  
   

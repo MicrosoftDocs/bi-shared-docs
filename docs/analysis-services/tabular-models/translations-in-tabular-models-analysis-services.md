@@ -1,6 +1,6 @@
 ---
-title: "Translations in Tabular models (Analysis Services) | Microsoft Docs"
-ms.date: 05/07/2018
+title: "Translations in Analysis Services tabular models | Microsoft Docs"
+ms.date: 10/24/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -10,8 +10,10 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Translations in Tabular models (Analysis Services)
+# Translations in tabular models
+
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+
   [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)] adds translation string support for Tabular models. A single object in the model can have multiple translations of a name or description, making it possible to support multi-language versions within the model definition.  
   
  Translated strings are for object metadata only (names and descriptions of tables and columns) that appear in a client tool like an Excel PivotTable list.  To use translated strings, the client connection specifies the culture. In the **Analysis in Excel** feature, you can choose the language from a drop-down list. For other tools, you might need to specify the culture in the connection string.  
@@ -30,7 +32,8 @@ manager: kfile
   
 -   Connect to the model using a client application that allows an LCID on the connection string  
   
-## Create an empty translation file  
+## Create an empty translation file
+
  Use [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] to add translations.  
   
 1.  Click **Model** > **Translations** > **Manage Translations**.  
@@ -45,7 +48,8 @@ manager: kfile
   
  ![ssas-tabular-translate-export](../../analysis-services/tabular-models/media/ssas-tabular-translate-export.png "ssas-tabular-translate-export")  
   
-## Add translations  
+## Add translations
+
  An empty JSON translation file includes metadata for a specific language translations. Translation placeholders for object names and descriptions are specified in the **Culture** section at the end of the model definition. Translations can be added for the following:  
   
 |||  
@@ -64,7 +68,8 @@ manager: kfile
 > [!TIP]  
 >  You can use any JSON editor to open the file, but we recommend using the JSON editor in Visual Studio so that you can also use the View Code command in Solution explorer to view the Tabular model definition in SSDT. To get the JSON editor, you need a [full version installation of Visual Studio 2015](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx). The free Community edition includes the JSON editor.  
   
-## Import a translation file  
+## Import a translation file
+
  Translation strings that you import become a permanent part of the model definition. Once the strings are imported, the translation file is no longer referenced.  
   
 1.  Click **Model** > **Translations** > **Import Translations**.  
@@ -90,7 +95,8 @@ manager: kfile
   
     -   Search for **Culture** or for a specific translated string to verify the strings you expect to see are actually there.  
   
-## Connect using a locale identifier  
+## Connect using a locale identifier
+
  This section describes an approach for validating the correct strings are returned from the model.  
   
 1.  In Excel, connect to the Tabular model. This step assumes the model has been deployed. If the model only exists in the workspace, deploy it to an Analysis Services instance to complete the validation check.  
@@ -103,7 +109,8 @@ manager: kfile
   
      When you create a PivotTable, you should see the translated table and column names.  
   
-## See Also  
+## See also
+
  [Compatibility Level for Tabular models in Analysis Services](../../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md)   
  [Globalization scenarios for Analysis Services](../../analysis-services/globalization-scenarios-for-analysis-services.md)   
  [Analyze in Excel](../../analysis-services/tabular-models/analyze-in-excel-ssas-tabular.md)  

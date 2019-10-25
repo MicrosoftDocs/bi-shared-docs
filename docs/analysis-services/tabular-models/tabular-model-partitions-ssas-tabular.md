@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular model partitions | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 10/24/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,25 +8,15 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
-# Tabular Model Partitions 
+# Tabular model partitions
+
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+
   Partitions divide a table into logical parts. Each partition can then be processed (Refreshed) independent of other partitions. Partitions defined for a model during model authoring are duplicated in a deployed model. Once deployed, you can manage those partitions and create new partitions by using the **Partitions** dialog box in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] or by using a script. Information provided in this topic describes partitions in a deployed tabular model database. For more information about creating and managing partitions during model authoring, see [Partitions](../../analysis-services/tabular-models/partitions-ssas-tabular.md).  
   
- Sections in this topic:  
-  
--   [Benefits](#bkmk_benefits)  
-  
--   [Permissions](#bkmk_permissions)  
-  
--   [Process Partitions](#bkmk_process_partitions)  
-  
--   [Parallel Processing](#bkmk_parallelProc)  
-  
--   [Related Tasks](#bkmk_related_tasks)  
-  
-##  <a name="bkmk_benefits"></a> Benefits  
+##  <a name="bkmk_benefits"></a> Benefits
+
  Effective model design utilizes partitions to eliminate unnecessary processing and subsequent processor load on Analysis Services servers, while at the same time, making certain that data is processed and refreshed often enough to reflect the most recent data from data sources.  
   
  For example, a tabular model can have a Sales table which includes sales data for the current 2011 fiscal year and each of the previous fiscal years. The model's Sales table has the following three partitions:  
@@ -45,7 +35,8 @@ manager: kfile
   
  How you implement a partition strategy for your organization's tabular models will largely be dependent on your particular model data processing needs and available resources.  
   
-##  <a name="bkmk_permissions"></a> Permissions  
+##  <a name="bkmk_permissions"></a> Permissions
+
  In order to create, manage, and process partitions in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], you must have the appropriate Analysis Services permissions defined in a security role. Each security role has one of the following permissions:  
   
 |Permission|Actions|  
@@ -54,9 +45,8 @@ manager: kfile
 |Process|Read, process|  
 |Read Only|Read|  
   
- To learn more about creating roles during model authoring by using [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], see [Roles](../../analysis-services/tabular-models/roles-ssas-tabular.md). To learn more about managing role members for deployed tabular model roles by using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], see [Tabular Model Roles](../../analysis-services/tabular-models/tabular-model-roles-ssas-tabular.md).  
-  
-##  <a name="bkmk_parallelProc"></a> Parallel Processing  
+##  <a name="bkmk_parallelProc"></a> Parallel processing
+
 Analysis Services includes parallel processing for tables with two or more partitions, increasing processing performance. There are no configuration settings for parallel processing (see notes). Parallel processing occurs by default when you Process Table or you select multiple partitions for the same table and Process. You can still choose to process a tables partitions independently.  
   
 > [!NOTE]  
@@ -65,7 +55,8 @@ Analysis Services includes parallel processing for tables with two or more parti
 > [!NOTE]  
 >  If re-encoding is detected, parallel processing can cause increased use of system resources. This is because multiple partition operations need to be interrupted and re-started with the new encoding in-parallel.  
   
-##  <a name="bkmk_process_partitions"></a> Process Partitions  
+##  <a name="bkmk_process_partitions"></a> Processing partitions
+
  Partitions can be processed (refreshed) independent of other partitions by using the **Partitions** dialog box in [!INCLUDE[ssManStudio](../../includes/ssmanstudio-md.md)] or by using a script. Processing has the following options:  
   
 |Mode|Description|  
@@ -76,11 +67,9 @@ Analysis Services includes parallel processing for tables with two or more parti
 |Process Clear|Removes all data from a partition.|  
 |Process Add|Incrementally update partition with new data.|  
   
-##  <a name="bkmk_related_tasks"></a> Related Tasks  
+##  <a name="bkmk_related_tasks"></a> See also  
   
-|Task|Description|  
-|----------|-----------------|  
-|[Create and Manage Tabular Model Partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md)|Describes how to create and manage partitions in a deployed tabular model by using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)].|  
-|[Process Tabular Model Partitions](../../analysis-services/tabular-models/process-tabular-model-partitions-ssas-tabular.md)|Describes how to process partitions in a deployed tabular model by using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)].|  
+[Create and manage tabular model partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md)   
+[Process tabular model partitions](../../analysis-services/tabular-models/process-tabular-model-partitions-ssas-tabular.md)   
   
   
