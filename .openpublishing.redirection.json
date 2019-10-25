@@ -724,6 +724,13 @@
             "source_path": "docs/analysis-services/tabular-models/tabular-model-databases-ssas-tabular.md",
             "redirect_url": "/analysis-services/tabular-models/tabular-model-designer-ssas",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/analysis-services/tabular-models/tabular-model-roles-ssas-tabular.md.md",
+            "redirect_url": "/analysis-services/tabular-models/manage-roles-by-using-ssms-ssas-tabular",
+            "redirect_document_id": false
         }
+
+        
     ]
 }

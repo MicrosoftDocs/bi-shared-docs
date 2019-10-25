@@ -22,7 +22,7 @@ manager: kfile
 > [!IMPORTANT]  
 >  For users to connect to a deployed model by using a reporting client application, you must create at least one role with at least Read permission to which those users are members.  
   
- Information in this topic is meant for tabular model authors who define roles by using the Role Manager dialog box in SSDT. Roles defined during model authoring apply to the model workspace database. After a model database has been deployed, model database administrators can manage (add, edit, delete) role members by using SSMS. To learn about managing members of roles in a deployed database, see [Tabular Model Roles](../../analysis-services/tabular-models/tabular-model-roles-ssas-tabular.md).  
+ Information in this topic is meant for tabular model authors who define roles by using the Role Manager dialog box in SSDT. Roles defined during model authoring apply to the model workspace database. After a model database has been deployed, model database administrators can manage (add, edit, delete) role members by using SSMS.
   
 ##  <a name="bkmk_underst"></a> Understanding roles  
  Roles are used in Analysis Services to manage model data access. There are two types of roles:  
