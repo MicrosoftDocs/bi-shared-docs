@@ -12,6 +12,7 @@ author: minewiskan
 # Perspectives in tabular models
 
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+
   Perspectives, in tabular models, define viewable subsets of a model that provide focused, business-specific, or application-specific viewpoints of the model.  
   
 ##  <a name="bkmk_understanding"></a> Benefits
