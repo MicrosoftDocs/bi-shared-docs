@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Partitions in tabular models
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)
+[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
 
   Partitions divide a table into logical parts. Each partition can then be processed (Refreshed) independent of other partitions. Partitions created by using the Partitions dialog box in Visual Studio during model authoring apply to the model workspace database. When the model is deployed, the partitions defined for the model workspace database are duplicated in the deployed model database. You can further create and manage partitions for a deployed model database by using the Partitions dialog box in SSMS.  Information provided in this topic describes partitions created during model authoring by using the Partition Manager dialog box in Visual Studio. For information about creating and managing partitions for a deployed model, see [Create and Manage Tabular Model Partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md).  
   
@@ -24,7 +24,7 @@ manager: kfile
   
 ### Processing partitions
 
- For deployed models, processing occurs by using SSMS, or by running a script which includes the process command and specifies processing options and settings. When authoring models by using Visual Studio, you can run process operations by using a Process command from the Model menu or toolbar. A Process operation can be specified for a partition, a table, or all.  
+ For deployed models, processing occurs by using SSMS, or by running a script which includes the process command and specifies processing options and settings. When authoring models by using Visual Studio, you can run process operations on the workspace database by using a Process command from the Model menu or toolbar. A Process operation can be specified for a partition, a table, or all.  
   
  When a process operation is run, a connection to the data source is made using the data connection. New data is imported into the model tables, relationships and hierarchies are rebuilt for each table, and calculations in calculated columns and measures are re-calculated.  
   
