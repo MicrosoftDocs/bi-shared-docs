@@ -17,7 +17,7 @@ manager: kfile
 > [!IMPORTANT]
 > If you're deploying your project to Azure Analysis Services, use **Integrated Workspace** as your workspace database. To learn more, see [Workspace database](workspace-database-ssas-tabular.md).
   
- The tasks in this article describe how to create and manage roles during model authoring by using the Role Manager dialog box in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)]. For information about managing roles in a deployed model database, see [Tabular Model Roles](../../analysis-services/tabular-models/tabular-model-roles-ssas-tabular.md).  
+ The tasks in this article describe how to create and manage roles during model authoring by using the Role Manager dialog box in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)]. 
   
 ## Tasks  
  To create, edit, copy, and delete roles, you will use the **Role Manager** dialog box. To view the **Role Manager** dialog box, in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], click the **Model** menu, and then click **Role Manager**.  

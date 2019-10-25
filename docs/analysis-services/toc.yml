@@ -268,8 +268,7 @@
         href: ../analysis-services/tabular-models/tabular-model-designer-ssas.md
       - name: Workspace database
         href: ../analysis-services/tabular-models/workspace-database-ssas-tabular.md
-      - name: Tabular Model Projects
-        href: ../analysis-services/tabular-models/tabular-model-projects-ssas-tabular.md
+      - name: Tabular model projects
         items:
         - name: Create a New Tabular Model Project
           href: ../analysis-services/tabular-models/create-a-new-tabular-model-project-analysis-services.md
@@ -301,9 +300,10 @@
           href: ../analysis-services/tabular-models/impersonation-ssas-tabular.md
         - name: Import data by using a native query
           href: ../analysis-services/tabular-models/ssas-import-query.md
-      - name: DirectQuery Mode
-        href: ../analysis-services/tabular-models/directquery-mode-ssas-tabular.md
-        items:
+      - name: DirectQuery mode
+        items: 
+        - name: DirectQuery mode in tabular models
+          href: ../analysis-services/tabular-models/directquery-mode-ssas-tabular.md
         - name: Enable DirectQuery mode in SSDT
           href: ../analysis-services/tabular-models/enable-directquery-mode-in-ssdt.md
         - name: Enable DirectQuery mode in SSMS
@@ -316,9 +316,10 @@
           href: ../analysis-services/tabular-models/test-a-model-in-directquery-mode.md
         - name: DAX formula compatibility in DirectQuery mode (SSAS 2016)
           href: ../analysis-services/tabular-models/dax-formula-compatibility-in-directquery-mode-ssas-2016.md
-      - name: Tables and Columns
-        href: ../analysis-services/tabular-models/tables-and-columns-ssas-tabular.md
+      - name: Tables and columns
         items:
+        - name: Tables and columns in tabular models
+          href: ../analysis-services/tabular-models/tables-and-columns-ssas-tabular.md
         - name: Add columns to a table
           href: ../analysis-services/tabular-models/add-columns-to-a-table-ssas-tabular.md
         - name: Delete a Column
@@ -348,8 +349,9 @@
         - name: Filter Data in a Table
           href: ../analysis-services/tabular-models/filter-data-in-a-table-ssas-tabular.md
       - name: Relationships
-        href: ../analysis-services/tabular-models/relationships-ssas-tabular.md
         items:
+        - name: Relationships in tabular models
+          href: ../analysis-services/tabular-models/relationships-ssas-tabular.md
         - name: Create a Relationship Between Two Tables
           href: ../analysis-services/tabular-models/create-a-relationship-between-two-tables-ssas-tabular.md
         - name: Delete Relationships
@@ -357,81 +359,81 @@
         - name: Bi-directional cross filters
           href: ../analysis-services/tabular-models/bi-directional-cross-filters-tabular-models-analysis-services.md
       - name: Calculations
-        href: ../analysis-services/tabular-models/calculations-ssas-tabular.md
-        items:
-        - name: Understanding DAX in Tabular Models
+        items: 
+        - name: Calculations in tabular models
+          href: ../analysis-services/tabular-models/calculations-ssas-tabular.md
+        - name: Understanding DAX in tabular models
           href: ../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md
       - name: Measures
-        href: ../analysis-services/tabular-models/measures-ssas-tabular.md
         items:
-        - name: Create and Manage Measures
+        - name: Measures in tabular models
+          href: ../analysis-services/tabular-models/measures-ssas-tabular.md
+        - name: Create and manage measures
           href: ../analysis-services/tabular-models/create-and-manage-measures-ssas-tabular.md
       - name: Calculation groups
         href: ../analysis-services/tabular-models/calculation-groups.md
       - name: KPIs
-        href: ../analysis-services/tabular-models/kpis-ssas-tabular.md
-        items:
+        items: 
+        - name: KPIs in tabular models
+          href: ../analysis-services/tabular-models/kpis-ssas-tabular.md
         - name: Create and Manage KPIs
           href: ../analysis-services/tabular-models/create-and-manage-kpis-ssas-tabular.md
       - name: Hierarchies
-        href: ../analysis-services/tabular-models/hierarchies-ssas-tabular.md
-        items:
-        - name: Create and Manage Hierarchies
+        items: 
+        - name: Hierarchies in tabular models
+          href: ../analysis-services/tabular-models/hierarchies-ssas-tabular.md
+        - name: Create and manage hierarchies
           href: ../analysis-services/tabular-models/create-and-manage-hierarchies-ssas-tabular.md
       - name: Partitions
-        href: ../analysis-services/tabular-models/partitions-ssas-tabular.md
-        items:
-        - name: Create and Manage Partitions in the Workspace Database
+        items: 
+        - name: Partitions in tabular models
+          href: ../analysis-services/tabular-models/partitions-ssas-tabular.md
+        - name: Create and manage partitions in the workspace database
           href: ../analysis-services/tabular-models/create-and-manage-partitions-in-the-workspace-database-ssas-tabular.md
-        - name: Process Partitions in the Workspace Database
+        - name: Process partitions in the workspace database
           href: ../analysis-services/tabular-models/process-partitions-in-the-workspace-database-ssas-tabular.md
       - name: Perspectives
-        href: ../analysis-services/tabular-models/perspectives-ssas-tabular.md
         items:
+        - name: Perspectives in tabular models
+          href: ../analysis-services/tabular-models/perspectives-ssas-tabular.md
         - name: Create and Manage Perspectives
           href: ../analysis-services/tabular-models/create-and-manage-perspectives-ssas-tabular.md
       - name: Translations
-        href: ../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md
-      - name: Roles
-        href: ../analysis-services/tabular-models/roles-ssas-tabular.md
         items:
-        - name: Create and Manage Roles
+        - name: Translations in tabular models
+          href: ../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md
+      - name: Roles
+        items:
+        - name: Roles in tabular models
+          href: ../analysis-services/tabular-models/roles-ssas-tabular.md
+        - name: Create and manage roles
           href: ../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md
         - name: Object-level security
           href: ../analysis-services/tabular-models/object-level-security.md
-      - name: Analyze in Excel
-        href: ../analysis-services/tabular-models/analyze-in-excel-ssas-tabular.md
-        items:
-        - name: Analyze a tabular model in Excel
-          href: ../analysis-services/tabular-models/analyze-a-tabular-model-in-excel-ssas-tabular.md
-      - name: String storage and collation in tabular models
+      - name: String storage and collation
         href: ../analysis-services/tabular-models/string-storage-and-collation-in-tabular-models.md
     - name: Deploy tabular model solutions
-      href: ../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md
       items:
+      - name: Tabular model deployment
+        href: ../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md
       - name: Deploy from SQL Server Data Tools
         href: ../analysis-services/tabular-models/deploy-from-sql-server-data-tools-ssas-tabular.md
-    - name: Manage Tabular Model Databases
-      href: ../analysis-services/tabular-models/tabular-model-databases-ssas-tabular.md
+    - name: Manage deployed model databases
       items:
-      - name: Process Database, Table, or Partition
+      - name: Process database, table, or partition
         href: ../analysis-services/tabular-models/process-database-table-or-partition-analysis-services.md
-      - name: Tabular Model Roles
-        href: ../analysis-services/tabular-models/tabular-model-roles-ssas-tabular.md
+      - name: Manage roles by using SSMS
+        href: ../analysis-services/tabular-models/manage-roles-by-using-ssms-ssas-tabular.md
+      - name: Manage partitions
         items:
-        - name: Manage Roles by using SSMS
-          href: ../analysis-services/tabular-models/manage-roles-by-using-ssms-ssas-tabular.md
-      - name: Tabular Model Partitions
-        href: ../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md
-        items:
-        - name: Create and Manage Tabular Model Partitions
+        - name: Tabular model partitions 
+          href: ../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md
+        - name: Create and manage tabular model partitions
           href: ../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md
-        - name: Process Tabular Model Partitions
+        - name: Process tabular model partitions
           href: ../analysis-services/tabular-models/process-tabular-model-partitions-ssas-tabular.md
     - name: Connect to a tabular model database
       href: ../analysis-services/tabular-models/connect-to-a-tabular-model-database-ssas.md
-    - name: Restore from Power Pivot
-      href: ../analysis-services/tabular-models/restore-from-power-pivot.md
   - name: Multidimensional modeling
     items:
     - name: Multidimensional modeling overview

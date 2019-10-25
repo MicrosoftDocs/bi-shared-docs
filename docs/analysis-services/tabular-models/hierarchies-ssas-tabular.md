@@ -1,6 +1,6 @@
 ---
 title: "Hierarchies in Analysis Services tabular models | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 10/24/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,13 +8,14 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
-# Hierarchies
+# Hierarchies in tabular models
+
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
   Hierarchies, in tabular models, are metadata that define relationships between two or more columns in a table. Hierarchies can appear separate from other columns in a reporting client field list, making them easier for client users to navigate and include in a report.  
   
-##  <a name="bkmk_benefits"></a> Benefits  
+##  <a name="bkmk_benefits"></a> Benefits
+
  Tables can include dozens or even hundreds of columns with unusual column names in no apparent order. This can lead to an unordered appearance in reporting client field lists, making it difficult for users to find and include data in a report. Hierarchies can provide a simple, intuitive view of an otherwise complex data structure.  
   
  For example, in a Date table, you can create a Calendar hierarchy. Calendar Year is used as the top-most parent level, with Month, Week, and Day included as child levels (Calendar Year->Month->Week->Day). This hierarchy shows a logical relationship from Calendar Year to Day. A client user can then select Calendar Year from a Field List to include all levels in a PivotTable, or expand the hierarchy, and select only particular levels to be included in the PivotTable.  
@@ -25,7 +26,8 @@ manager: kfile
   
  Hierarchies are not meant to be used as a security mechanism, but as a tool for providing a better user experience. All security for a particular hierarchy is inherited from the underlying model. Hierarchies cannot provide access to model objects to which a user does not already have access. Security for the model database must be resolved before access to objects in the model can be provided through a hierarchy. Security roles can be used to secure model metadata and data. For more information, see [Roles](../../analysis-services/tabular-models/roles-ssas-tabular.md).  
   
-##  <a name="bkmk_define"></a> Defining hierarchies  
+##  <a name="bkmk_define"></a> Defining hierarchies
+
  You create and manage hierarchies by using the model designer in Diagram View. Creating and managing hierarchies is not supported in the model designer in Data View. To view the model designer in Diagram View, click the **Model** menu, then point to **Model View**, and then click **Diagram View**.  
   
  To create a hierarchy, right-click a column you want to specify as the parent level, and then click **Create Hierarchy**. You can multi-select any number of columns (within a single table) to include, or you can later add columns as child levels by clicking and dragging columns to the parent level. When multiple columns are selected, columns are automatically placed in an order based on cardinality. You can change the order by clicking and dragging a column (level) to a different order or by using Up and Down navigation controls on the context menu. When adding a column as a child level, you can use auto-detect by dragging and dropping the column onto the parent level.  
@@ -40,7 +42,7 @@ manager: kfile
   
 |Task|Description|  
 |----------|-----------------|  
-|[Create and Manage Hierarchies](../../analysis-services/tabular-models/create-and-manage-hierarchies-ssas-tabular.md)|Describes how to create and manage hierarchies by using the model designer in Diagram View.|  
+|[Create and manage hierarchies](../../analysis-services/tabular-models/create-and-manage-hierarchies-ssas-tabular.md)|Describes how to create and manage hierarchies by using the model designer in Diagram View.|  
   
 ## See Also  
  [Tabular Model Designer](../../analysis-services/tabular-models/tabular-model-designer-ssas.md)   

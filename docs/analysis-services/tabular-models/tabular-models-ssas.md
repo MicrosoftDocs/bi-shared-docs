@@ -1,6 +1,6 @@
 ---
-title: "Tabular Models in Analysis Services  | Microsoft Docs"
-ms.date: 09/06/2019
+title: "Tabular modeling overview - Analysis Services  | Microsoft Docs"
+ms.date: 10/24/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -10,7 +10,8 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Tabular models
+# Tabular modeling overview
+
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
 
   Tabular models in Analysis Services are databases that run in-memory or in DirectQuery mode, connecting to data directly from back-end relational data sources. By using state-of-the-art compression algorithms and multi-threaded query processor, the Analysis Services Vertipaq analytics engine delivers fast access to tabular model objects and data by reporting client applications like Power BI and Excel.  

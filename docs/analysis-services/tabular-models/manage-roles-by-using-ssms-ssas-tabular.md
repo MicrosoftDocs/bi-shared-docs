@@ -10,27 +10,18 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Manage Roles by using SSMS 
+# Manage roles by using SSMS 
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+
   You can create, edit, and manage roles for a deployed tabular model by using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)].  
   
- Tasks in this topic:  
-  
--   [To create a new role](#bkmk_new_role)  
-  
--   [To copy a role](#bkmk_copy_role)  
-  
--   [To edit a role](#bkmk_edit_role)  
-  
--   [To delete a role](#bkmk_deletet_role)  
+> [!CAUTION]  
+>  Re-deploying a tabular model project with roles defined by using Role Manager in Visual Studio will overwrite roles defined in a deployed tabular model.  
   
 > [!CAUTION]  
->  Re-deploying a tabular model project with roles defined by using Role Manager in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] will overwrite roles defined in a deployed tabular model.  
+>  Using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] to manage a tabular model workspace database while the model project is open in Visual Studio may cause the Model.bim file to become corrupted. When creating and managing roles for a tabular model workspace database, use Role Manager in Visual Studio.  
   
-> [!CAUTION]  
->  Using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] to manage a tabular model workspace database while the model project is open in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] may cause the Model.bim file to become corrupted. When creating and managing roles for a tabular model workspace database, use Role Manager in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)].  
-  
-###  <a name="bkmk_new_role"></a> To create a new role  
+###  <a name="bkmk_new_role"></a> To create a new role
   
 1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], expand the tabular model database for which you want to create a new role, then right click on **Roles**, and then click **New Role**.  
   
@@ -57,7 +48,7 @@ manager: kfile
 8.  In the row filters window, select a table, then click on the **DAX Filter** field, and then in the **DAX Filter - \<tablename>** field, type a DAX formula.  
   
     > [!NOTE]  
-    >  The DAX Filter - \<tablename> field does not contain an AutoComplete query editor or insert function feature. To use AutoComplete when writing a DAX formula, you must use a DAX formula editor in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)].  
+    >  The DAX Filter - \<tablename> field does not contain an AutoComplete query editor or insert function feature. To use AutoComplete when writing a DAX formula, you must use a DAX formula editor in Visual Studio.  
   
 9. Click **Ok** to save the role.  
   

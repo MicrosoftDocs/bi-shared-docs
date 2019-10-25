@@ -30,7 +30,7 @@ manager: kfile
   
      If you enable two-way filters everywhere, your data could be over-filtered in ways that you might not expect.  You might also inadvertently introduce ambiguity by creating more than one potential query path. To avoid both issues, plan on using a  combination of one-way and two-way filters.  
   
--   Do incremental testing to verify the impact of each filter change on your model. [Analyze in Excel](../../analysis-services/tabular-models/analyze-a-tabular-model-in-excel-ssas-tabular.md) works well for incremental testing. As a best practice, periodically follow that up with tests using other reporting clients so that there are no surprises later.  
+-   Do incremental testing to verify the impact of each filter change on your model.The Analyze in Excel feature in Visual Studio works well for incremental testing. As a best practice, periodically follow that up with tests using other reporting clients so that there are no surprises later.  
   
 > [!NOTE]  
 >  Starting in CTP 3.2, SSDT includes a default that determines whether bi-directional cross filters are attempted automatically. If you enable bi-directional filters by default, SSDT  will enable two-way filtering only if the model clearly articulates one query path through a chain of table relationships.  
