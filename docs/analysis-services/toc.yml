@@ -268,8 +268,7 @@
         href: ../analysis-services/tabular-models/tabular-model-designer-ssas.md
       - name: Workspace database
         href: ../analysis-services/tabular-models/workspace-database-ssas-tabular.md
-      - name: Tabular Model Projects
-        href: ../analysis-services/tabular-models/tabular-model-projects-ssas-tabular.md
+      - name: Tabular model projects
         items:
         - name: Create a New Tabular Model Project
           href: ../analysis-services/tabular-models/create-a-new-tabular-model-project-analysis-services.md
@@ -411,8 +410,6 @@
           href: ../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md
         - name: Object-level security
           href: ../analysis-services/tabular-models/object-level-security.md
-      - name: Analyze in Excel
-        href: ../analysis-services/tabular-models/analyze-a-tabular-model-in-excel-ssas-tabular.md
       - name: String storage and collation
         href: ../analysis-services/tabular-models/string-storage-and-collation-in-tabular-models.md
     - name: Deploy tabular model solutions
@@ -437,8 +434,6 @@
           href: ../analysis-services/tabular-models/process-tabular-model-partitions-ssas-tabular.md
     - name: Connect to a tabular model database
       href: ../analysis-services/tabular-models/connect-to-a-tabular-model-database-ssas.md
-    - name: Restore from Power Pivot
-      href: ../analysis-services/tabular-models/restore-from-power-pivot.md
   - name: Multidimensional modeling
     items:
     - name: Multidimensional modeling overview

@@ -1,6 +1,6 @@
 ---
 title: "Configure Analysis Services default data modeling and deployment properties | Microsoft Docs"
-ms.date: 08/28/2019
+ms.date: 10/24/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,11 +8,10 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Configure default data modeling and deployment properties
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)
 
   This article describes how to configure the default compatibility level, deployment, and workspace database property settings, which can be pre-defined for each new tabular model project you create in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)]. After a new project is created, these properties can still be changed depending on your particular requirements.  
   
@@ -27,7 +26,7 @@ manager: kfile
     |Property|Default setting|Description|  
     |--------------|---------------------|-----------------|  
     |**Default compatibility level for new projects**|Depends on projects extension version|This setting specifies the default compatibility level to use when creating a new Tabular model project. To learn more, see [Compatibility Level for Tabular models in Analysis Services](../../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md).|  
-    |**Default filter direction**|Single direction|Single direction, or one-way, is the traditional many-to-one filter direction between fact and dimensional tables in a relationship. Both directions, or two-way, is a cross-filter that enables the filter context of one relationship to be used as the filter context for another table relationship, with one table common to both relationships.. To learn more, see [Bi-directional cross filters in tabular models](../../analysis-services/tabular-models/bi-directional-cross-filters-tabular-models-analysis-services).| 
+    |**Default filter direction**|Single direction|Single direction, or one-way, is the traditional many-to-one filter direction between fact and dimensional tables in a relationship. Both directions, or two-way, is a cross-filter that enables the filter context of one relationship to be used as the filter context for another table relationship, with one table common to both relationships. To learn more, see [Bi-directional cross filters in tabular models](../../analysis-services/tabular-models/bi-directional-cross-filters-tabular-models-analysis-services.md).| 
     |**Compatibility level options**|All checked|Specifies compatibility level options for new Tabular model projects and when deploying to another Analysis Services instance.|  
   
 ## To configure the default deployment server property  

@@ -726,11 +726,19 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/analysis-services/tabular-models/tabular-model-roles-ssas-tabular.md.md",
+            "source_path": "docs/analysis-services/tabular-models/tabular-model-roles-ssas-tabular.md",
+            "redirect_url": "/analysis-services/tabular-models/manage-roles-by-using-ssms-ssas-tabular",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/analysis-services/tabular-models/restore-from-power-pivot.md",
+            "redirect_url": "/analysis-services/tabular-models/manage-roles-by-using-ssms-ssas-tabular",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/analysis-services/tabular-models/analyze-a-tabular-model-in-excel-ssas-tabular.md",
             "redirect_url": "/analysis-services/tabular-models/manage-roles-by-using-ssms-ssas-tabular",
             "redirect_document_id": false
         }
-
-        
     ]
 }
