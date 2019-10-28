@@ -1,6 +1,6 @@
 ---
 title: "Data sources supported in SQL Server Analysis Services tabular 1200 models | Microsoft Docs"
-ms.date: 11/07/2018
+ms.date: 10/28/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,25 +8,26 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Data sources supported in SQL Server Analysis Services tabular 1200 models
+
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
   
 This article describes the types of data sources that can be used with SQL Server Analysis Services tabular models at the 1200 and lower compatibility level. 
 
-For models at the 1400 compatibility levels, see [Data sources supported in SQL Server Analysis Services tabular 1400  models](data-sources-supported-ssas-tabular-1400.md).
+For models at the 1400 and higher compatibility levels, see [Data sources supported in SQL Server Analysis Services tabular 1400 and higher  models](data-sources-supported-ssas-tabular-1400.md).
 
 For Azure Analysis Services, see [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource).
   
-##  <a name="bkmk_supported_ds"></a> Supported data sources for in-memory tabular models  
+## Supported data sources for in-memory tabular models
+
 When you install [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], setup does not install the providers that are listed for each data source. Some providers might be installed with other applications on your computer. In other cases, you may need to download and install the provider.  
   
 |||||  
 |-|-|-|-|  
 |Source|Versions|File type|Providers|  
 |Access databases|Microsoft Access 2010 and later.|.accdb or .mdb|ACE 14 OLE DB provider <sup>[1](#dnu)</sup>|  
-|SQL Server relational databases|SQL Server 2008 and later, SQL Server Data Warehouse 2008 and later, Azure SQL Database, Azure SQL Data Warehouse, Analytics Platform System (APS)<br /><br /> <br /><br /> Analytics Platform System (APS) was formerly known as SQL Server Parallel Data Warehouse (PDW). Originally, connecting to PDW from Analysis Services required a special data provider. This provider was replaced in SQL Server 2012. Starting in SQL Server 2012, the SQL Server native client is used for connections to PDW/APS. |(not applicable)|OLE DB Provider for SQL Server<br /><br /> SQL Server Native Client OLE DB Provider<br /><br /> SQL Server Native 10.0 Client OLE DB Provider<br /><br /> .NET Framework Data Provider for SQL Client|  
+|SQL Server relational databases|SQL Server 2008 and later, SQL Server Data Warehouse 2008 and later, Azure SQL Database, Azure SQL Data Warehouse, Analytics Platform System (APS) |(not applicable)|Microsoft OLE DB Driver for SQL Server (MSOLEDBSQL)<sup>[2](#dnu2)</sup><br /><br />OLE DB Provider for SQL Server (SQLOLEDB)<sup>[3](#dnu)</sup><br /><br /> SQL Server Native Client OLE DB Provider (SQLNCLI)<sup>[3](#dnu3)</sup><br /><br /> .NET Framework Data Provider for SQL Client|  
 |Oracle relational databases|Oracle 9i and later.|(not applicable)|Oracle OLE DB Provider<br /><br /> .NET Framework Data Provider for Oracle Client<br /><br /> .NET Framework Data Provider for SQL Server<br /><br /> OraOLEDB<br /><br /> MSDASQL|  
 |Teradata relational databases|Teradata V2R6 and later|(not applicable)|TDOLEDB OLE DB provider<br /><br /> .Net Data Provider for Teradata|  
 |Informix relational databases||(not applicable)|Informix OLE DB provider|  
@@ -40,23 +41,25 @@ When you install [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-m
 |Data feeds<br /><br /> (used to import data from Reporting Services reports, Atom service documents, Microsoft Azure Marketplace DataMarket, and single data feed)|Atom 1.0 format<br /><br /> Any database or document that is exposed as a Windows Communication Foundation (WCF) Data Service (formerly ADO.NET Data Services).|`.atomsvc` for a service document that defines one or more feeds<br /><br /> .atom for an Atom web feed document|Microsoft Data Feed Provider for [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)]<br /><br /> .NET Framework data feed data provider for [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)]|  
 |Office Database Connection files||.odc||  
  
-<a name="dnu">[1]</a> Using **ACE 14 OLE DB provider** to connect to file data types **is not recommended**. If you must retain your tabular 1200 and lower compatibility level models, export your data to a csv file type, import to SQL database, and then connect to and import from the database. However, it's recommended you upgrade to tabular 1400 compatibility level (SQL Server 2017 and later) and use **Get Data** in SSDT to select and import your file data source. Get Data uses structured data source connections provided by the Power Query data engine, which are more stable than ACE 14 OLE DB provider connections.  
+<a name="dnu">[1]</a> Using ACE 14 OLE DB provider to connect to file data types is not recommended. If you must retain your tabular 1200 and lower compatibility level models, export your data to a csv file type, import to SQL database, and then connect to and import from the database. However, it's recommended you upgrade to tabular 1400 compatibility level (SQL Server 2017 and later) and use **Get Data** in SSDT to select and import your file data source. Get Data uses structured data source connections provided by the Power Query data engine, which are more stable than ACE 14 OLE DB provider connections.  
+
+<a name="dnu2">[2]</a> If deploying a tabular 1200 model to Azure Analysis Services, **it is recommended** you use the updated Microsoft OLE DB Driver for SQL Server (MSOLEDBSQL). If deploying your tabular 1200 model to SQL Server Analysis Services, it's recommended you continue to use the default SQL Server Native Client OLE DB provider (SQLNCLI). To learn more, see [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/oledb-driver-for-sql-server.md). 
+
+<a name="dnu3">[3]</a> SQL Server Native Client (SQLNCLI) and previous generation OLE DB Provider for SQL Server (SQLOLEDB) are  deprecated. However, it's recommended you continue to use SQLNCLI when deploying a tabular 1200 model to SQL Server Analysis Services. To learn more, see [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/oledb-driver-for-sql-server.md).
 
 
-##  <a name="bkmk_supported_ds_dq"></a> Supported data sources for DirectQuery models  
+## Supported data sources for DirectQuery models
+
  DirectQuery is an alternative to in-memory storage mode, routing queries to and returning results directly from backend data systems rather than storing all data inside the model (and in RAM once the model is loaded). Because Analysis Services has to formulate queries in the native database query syntax, a smaller subset of data sources is supported for this mode.  
   
 Data source   |Versions  |Providers
 ---------|---------|---------
-Microsoft SQL Server    |  2008 and later      |       OLE DB Provider for SQL Server, SQL Server Native Client OLE DB Provider, .NET Framework Data Provider for SQL Client  
-Microsoft Azure SQL Database    |   All      |  OLE DB Provider for SQL Server, SQL Server Native Client OLE DB Provider, .NET Framework Data Provider for SQL Client            
-Microsoft Azure SQL Data Warehouse     |   All     |  SQL Server Native Client OLE DB Provider, .NET Framework Data Provider for SQL Client       
-Microsoft SQL Analytics Platform System (APS)     |   All      |  OLE DB Provider for SQL Server, SQL Server Native Client OLE DB Provider, .NET Framework Data Provider for SQL Client       
+SQL Server relational databases    |  SQL Server 2008 and later, SQL Server Data Warehouse 2008 and later, Azure SQL Database, Azure SQL Data Warehouse, Analytics Platform System (APS)      |       Microsoft OLE DB Driver for SQL Server (MSOLEDBSQL)<sup>[2](#dnu2)</sup>, OLE DB Provider for SQL Server (SQLOLEDB)<sup>[3](#dnu3)</sup>, SQL Server Native Client OLE DB Provider (SQLNCLI)<sup>[3](#dnu3)</sup>, .NET Framework Data Provider for SQL Client  
 Oracle relational databases     |  Oracle 9i and later       |  Oracle OLE DB Provider       
 Teradata relational databases    |  Teradata V2R6 and later     | .Net Data Provider for Teradata    
 
   
-##  <a name="bkmk_tips"></a> Tips for choosing data sources  
+## Tips for choosing data sources  
   
 Importing tables from relational databases saves you steps because *foreign key* relationships are used during import to create relationships between tables in the model designer.  
   
