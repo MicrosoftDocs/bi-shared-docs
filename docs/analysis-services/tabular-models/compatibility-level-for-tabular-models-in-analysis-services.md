@@ -28,7 +28,7 @@ Major features in the 1500 compatibility level include:
 |||  
 |-|-|- 
 |**Compatibility level**|**Server version**| 
-|1500|Azure Analysis Services, SQL Server 2019 (RC1 and later)  | 
+|1500|Azure Analysis Services, SQL Server 2019  | 
 |1400|Azure Analysis Services, SQL Server 2019, SQL Server 2017 |  
 |1200|Azure Analysis Services, SQL Server 2019, SQL Server 2017, SQL Server 2016| 
 |1103|SQL Server 2017*, SQL Server 2016, SQL Server 2014, SQL Server 2012 SP1|  
