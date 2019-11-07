@@ -1,6 +1,6 @@
 ---
 title: "Refresh command (TMSL) | Microsoft Docs"
-ms.date: 07/11/2019
+ms.date: 11/07/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
@@ -8,7 +8,6 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Refresh command (TMSL)
 
@@ -128,56 +127,42 @@ manager: kfile
  Override both the **ConnectionString** and query definition of a partition.  
   
 ```json   
-{   
-    "refresh": {   
-        "type": "data",   
-        "objects": [   
-            {   
-                "database": "tmtestdb",   
-                "table": "sales"   
-            },   
-            {   
-                "database": "tmtestdb",   
-                "table": "customer"   
-            }   
-        ],   
-        "overrides": [   
-            {   
-                "dataSources": [ // Bindings for Data Sources   
-                    {   
-                        "object": {   
-                            "database": "tmtestdb",   
-                            "dataSource": "contoso"   
-                        },   
-                        "dataSource": {   
-                        "connectionString": "Provider=SQLNCLI11;Data Source=localhost;Initial Catalog=contoso;Integrated Security=SSPI;Persist Security Info=false"   
-"   
-                        }   
-                    }   
-                ],   
-                "partitions": [ // Bindings for Partitions   
-                    {   
-                        "object": {   
-                            "database": "tmtestdb",   
-                            "table": "sales",   
-                            "partition": "2015"   
-                        },   
-                        "partition": {   
-                            "source": {   
-                                "query": [  
-                                     "SELECT sales.salesamount, customer.customername FROM sales",  
-                                     "JOIN customer on custKey = sales.custkey",  
-                                     "JOIN date on date.DateKey = customer.OrderDate",  
-                                     "WHERE date.CalendarYear='2015'"  
-                                  ],  
-                            }   
-                        }   
-                    }   
-                ]   
-            }   
-        ]   
-    }   
-}   
+{
+   "refresh" : {​
+     "type" : "dataOnly",​
+     "objects" : [{​
+         "database" : "AdventureWorksDW2017",​
+         "table" : "DimCustomer"​
+       }​
+     ],​
+     "overrides" : [{​
+         "dataSources" : [// Bindings for DataSources​
+           {​
+             originalObject : {​
+               "database" : "AdventureWorksDW2017",​
+               "dataSource" : "SqlServer localhost"​
+             },​
+             "connectionString" : "Provider=SQLNCLI11.1;Data Source=.;Persist Security Info=True;User ID=YourSQLLogin;Password=YourPassword;Initial Catalog=AdventureWorksDW2017"​
+           }​
+         ],​
+         "partitions" : [// Bindings for Partitions​
+           {​
+​
+             "originalObject" : {​
+               "database" : "AdventureWorksDW2017",​
+               "table" : "DimCustomer",​
+               "partition" : "DimCustomer"​
+             },​
+             "source" : {​
+               "query" :​
+               "SELECT * FROM [dbo].[DimCustomer]"​
+             }​
+           }​
+         ]​
+       }​
+     ]​
+   }​
+ }
 ```  
   
  Scope particular overrides by setting the type parameter to a **dataOnly** refresh, metadata stays intact.  
