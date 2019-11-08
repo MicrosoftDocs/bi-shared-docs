@@ -124,7 +124,7 @@ author: minewiskan
   
 ## Examples  
 
- Override both the **ConnectionString** and query definition of a partition.  
+ Override both the **ConnectionString** and **QueryDefinition** of a partition.  
   
 ```json   
 {
