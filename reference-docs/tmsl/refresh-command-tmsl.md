@@ -128,78 +128,82 @@ author: minewiskan
   
 ```json   
 {
-   "refresh" : {​
-     "type" : "dataOnly",​
-     "objects" : [{​
-         "database" : "AdventureWorksDW2017",​
-         "table" : "DimCustomer"​
-       }​
-     ],​
-     "overrides" : [{​
-         "dataSources" : [// Bindings for DataSources​
-           {​
-             originalObject : {​
-               "database" : "AdventureWorksDW2017",​
-               "dataSource" : "SqlServer localhost"​
-             },​
-             "connectionString" : "Provider=SQLNCLI11.1;Data Source=.;Persist Security Info=True;User ID=YourSQLLogin;Password=YourPassword;Initial Catalog=AdventureWorksDW2017"​
-           }​
-         ],​
-         "partitions" : [// Bindings for Partitions​
-           {​
-​
-             "originalObject" : {​
-               "database" : "AdventureWorksDW2017",​
-               "table" : "DimCustomer",​
-               "partition" : "DimCustomer"​
-             },​
-             "source" : {​
-               "query" :​
-               "SELECT * FROM [dbo].[DimCustomer]"​
-             }​
-           }​
-         ]​
-       }​
-     ]​
-   }​
- }
+  "refresh": {
+    "type": "dataOnly",
+    "objects": [
+      {
+        "database": "AdventureWorksDW2017",
+        "table": "DimCustomer"
+      }
+    ],
+    "overrides": [
+      {
+        "dataSources": [ // Bindings for DataSources​
+          {
+            "originalObject": {
+              "database": "AdventureWorksDW2017",
+              "dataSource": "SqlServer localhost"
+            },
+            "connectionString": "Provider=SQLNCLI11.1;Data Source=.;Persist Security Info=True;User ID=YourSQLLogin;Password=YourPassword;Initial Catalog=AdventureWorksDW2017"
+          }
+        ],
+        "partitions": [ // Bindings for Partitions​
+          {
+            "originalObject": {
+              "database": "AdventureWorksDW2017",
+              "table": "DimCustomer",
+              "partition": "DimCustomer"
+            },
+            "source": {
+              "query": "SELECT * FROM [dbo].[DimCustomer]"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
 ```  
   
  Scope particular overrides by setting the type parameter to a **dataOnly** refresh, metadata stays intact.  
   
 ```json   
-{   
-        "refresh" : {   
-            "type" : "dataOnly",   
-            "objects" : [   
-                {   
-                    "database" : "TMTestDB",   
-                    "table" : "Customer"   
-                },   
-                {   
-                    "database" : "TMTestDB",   
-                    "table" : "Sales"   
-                }   
-            ],   
-            "overrides" : [{   
-                "scope" : {   
-                    "database" : "TMTestDB",   
-                    "table" : "Sales"   
-                },   
-                "dataSources" : [{   
-                    "originalObject" : {   
-                        "dataSource" : "SqlServer sqlcldb2 AS_foodmart_2000"   
-                    },   
-                    "connectionString" : "Provider=SQLNCLI11;Data Source=sqlcldb2;Initial Catalog=AS_foodmart_2000;Integrated Security=SSPI;Persist Security Info=false"   
-                }]   
-            }]   
-        }   
-    }   
+{
+  "refresh": {
+    "type": "dataOnly",
+    "objects": [
+      {
+        "database": "TMTestDB",
+        "table": "Customer"
+      },
+      {
+        "database": "TMTestDB",
+        "table": "Sales"
+      }
+    ],
+    "overrides": [
+      {
+        "scope": {
+          "database": "TMTestDB",
+          "table": "Sales"
+        },
+        "dataSources": [
+          {
+            "originalObject": {
+              "dataSource": "SqlServer sqlcldb2 AS_foodmart_2000"
+            },
+            "connectionString": "Provider=SQLNCLI11;Data Source=sqlcldb2;Initial Catalog=AS_foodmart_2000;Integrated Security=SSPI;Persist Security Info=false"
+          }
+        ]
+      }
+    ]
+  }
+}
 ```  
   
 ## Usage (endpoints)  
 
- This command element is used in  a statement of the Execute Method (XMLA) call over an XMLA endpoint, exposed in the following ways:  
+ This command element is used in a statement of the Execute Method (XMLA) call over an XMLA endpoint, exposed in the following ways:  
   
 - As an XMLA window in SQL Server Management Studio (SSMS)  
   
@@ -207,7 +211,4 @@ author: minewiskan
   
 - As an input to an SSIS task or SQL Server Agent job  
   
- You can generate a ready-made script  for this command from SSMS.  For example, you can click the **Script** in a Processing dialog box.
-  
-  
-  
+ You can generate a ready-made script  for this command from SSMS. For example, you can click the **Script** in a Processing dialog box.
