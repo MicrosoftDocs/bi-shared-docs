@@ -128,41 +128,41 @@ author: minewiskan
   
 ```json   
 {
-   "refresh" : {​
-     "type" : "dataOnly",​
-     "objects" : [{​
-         "database" : "AdventureWorksDW2017",​
-         "table" : "DimCustomer"​
-       }​
-     ],​
-     "overrides" : [{​
-         "dataSources" : [// Bindings for DataSources​
-           {​
-             originalObject : {​
-               "database" : "AdventureWorksDW2017",​
-               "dataSource" : "SqlServer localhost"​
-             },​
-             "connectionString" : "Provider=SQLNCLI11.1;Data Source=.;Persist Security Info=True;User ID=YourSQLLogin;Password=YourPassword;Initial Catalog=AdventureWorksDW2017"​
-           }​
-         ],​
-         "partitions" : [// Bindings for Partitions​
-           {​
-​
-             "originalObject" : {​
-               "database" : "AdventureWorksDW2017",​
-               "table" : "DimCustomer",​
-               "partition" : "DimCustomer"​
-             },​
-             "source" : {​
-               "query" :​
-               "SELECT * FROM [dbo].[DimCustomer]"​
-             }​
-           }​
-         ]​
-       }​
-     ]​
-   }​
- }
+  "refresh": {
+    "type": "dataOnly",
+    "objects": [
+      {
+        "database": "AdventureWorksDW2017",
+        "table": "DimCustomer"
+      }
+    ],
+    "overrides": [
+      {
+        "dataSources": [ // Bindings for DataSources​
+          {
+            "originalObject": {
+              "database": "AdventureWorksDW2017",
+              "dataSource": "SqlServer localhost"
+            },
+            "connectionString": "Provider=SQLNCLI11.1;Data Source=.;Persist Security Info=True;User ID=YourSQLLogin;Password=YourPassword;Initial Catalog=AdventureWorksDW2017"
+          }
+        ],
+        "partitions": [ // Bindings for Partitions​
+          {
+            "originalObject": {
+              "database": "AdventureWorksDW2017",
+              "table": "DimCustomer",
+              "partition": "DimCustomer"
+            },
+            "source": {
+              "query": "SELECT * FROM [dbo].[DimCustomer]"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
 ```  
   
  Scope particular overrides by setting the type parameter to a **dataOnly** refresh, metadata stays intact.  
@@ -208,6 +208,3 @@ author: minewiskan
 - As an input to an SSIS task or SQL Server Agent job  
   
  You can generate a ready-made script  for this command from SSMS.  For example, you can click the **Script** in a Processing dialog box.
-  
-  
-  
