@@ -168,38 +168,42 @@ author: minewiskan
  Scope particular overrides by setting the type parameter to a **dataOnly** refresh, metadata stays intact.  
   
 ```json   
-{   
-        "refresh" : {   
-            "type" : "dataOnly",   
-            "objects" : [   
-                {   
-                    "database" : "TMTestDB",   
-                    "table" : "Customer"   
-                },   
-                {   
-                    "database" : "TMTestDB",   
-                    "table" : "Sales"   
-                }   
-            ],   
-            "overrides" : [{   
-                "scope" : {   
-                    "database" : "TMTestDB",   
-                    "table" : "Sales"   
-                },   
-                "dataSources" : [{   
-                    "originalObject" : {   
-                        "dataSource" : "SqlServer sqlcldb2 AS_foodmart_2000"   
-                    },   
-                    "connectionString" : "Provider=SQLNCLI11;Data Source=sqlcldb2;Initial Catalog=AS_foodmart_2000;Integrated Security=SSPI;Persist Security Info=false"   
-                }]   
-            }]   
-        }   
-    }   
+{
+  "refresh": {
+    "type": "dataOnly",
+    "objects": [
+      {
+        "database": "TMTestDB",
+        "table": "Customer"
+      },
+      {
+        "database": "TMTestDB",
+        "table": "Sales"
+      }
+    ],
+    "overrides": [
+      {
+        "scope": {
+          "database": "TMTestDB",
+          "table": "Sales"
+        },
+        "dataSources": [
+          {
+            "originalObject": {
+              "dataSource": "SqlServer sqlcldb2 AS_foodmart_2000"
+            },
+            "connectionString": "Provider=SQLNCLI11;Data Source=sqlcldb2;Initial Catalog=AS_foodmart_2000;Integrated Security=SSPI;Persist Security Info=false"
+          }
+        ]
+      }
+    ]
+  }
+}
 ```  
   
 ## Usage (endpoints)  
 
- This command element is used in  a statement of the Execute Method (XMLA) call over an XMLA endpoint, exposed in the following ways:  
+ This command element is used in a statement of the Execute Method (XMLA) call over an XMLA endpoint, exposed in the following ways:  
   
 - As an XMLA window in SQL Server Management Studio (SSMS)  
   
@@ -207,4 +211,4 @@ author: minewiskan
   
 - As an input to an SSIS task or SQL Server Agent job  
   
- You can generate a ready-made script  for this command from SSMS.  For example, you can click the **Script** in a Processing dialog box.
+ You can generate a ready-made script  for this command from SSMS. For example, you can click the **Script** in a Processing dialog box.
