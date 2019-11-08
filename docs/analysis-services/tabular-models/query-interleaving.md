@@ -64,7 +64,7 @@ At this time, the SchedulingBehavior property can be set only by using XMLA. In 
 ```
 
 > [!IMPORTANT]
-> In SSAS 2019 RC1, a restart of the server instance is required. In Azure Analysis Services, you must pause and then resume the server, effectively restarting.
+> A restart of the server instance is required. In Azure Analysis Services, you must pause and then resume the server, effectively restarting.
 
 ## Additional properties
 
