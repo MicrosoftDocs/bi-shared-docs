@@ -1,5 +1,5 @@
 ﻿---
-title: "Data sources supported in SQL Server Analysis Services tabular 1400 models | Microsoft Docs"
+title: "Data sources supported in SQL Server Analysis Services tabular 1400 and higher models | Microsoft Docs"
 ms.date: 02/12/2019
 ms.prod: sql
 ms.technology: analysis-services
@@ -10,11 +10,11 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Data sources supported in SQL Server Analysis Services tabular 1400 models
+# Data sources supported in SQL Server Analysis Services tabular 1400 and higher models
 
 [!INCLUDE[ssas-appliesto-sql2017](../../includes/ssas-appliesto-sql2017.md)]
 
-This article describes the types of data sources that can be used with SQL Server Analysis Services (SSAS) tabular models at the 1400 compatibility level. 
+This article describes the types of data sources that can be used with SQL Server Analysis Services (SSAS) tabular models at the 1400 and higher compatibility level. 
 
 For SSAS tabular models at the 1200 and lower compatibility levels, see [Data sources supported in SQL Server Analysis Services tabular 1200  models](data-sources-supported-ssas-tabular.md).
 
