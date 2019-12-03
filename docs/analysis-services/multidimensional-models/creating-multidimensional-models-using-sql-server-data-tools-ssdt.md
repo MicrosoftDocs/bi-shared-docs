@@ -1,5 +1,5 @@
 ---
-title: "Creating Multidimensional Models Using SQL Server Data Tools (SSDT) | Microsoft Docs"
+title: "Creating Multidimensional Models Using SQL Server Data Tools | Microsoft Docs"
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Creating Multidimensional Models Using SQL Server Data Tools (SSDT)
+# Creating Multidimensional Models Using SQL Server Data Tools
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] provides two different environments for building, deploying, and managing [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] solutions: [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] and [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)]. Both of these environments implement a project system. For more information about Visual Studio projects, see [Projects as Containers](https://go.microsoft.com/fwlink/?LinkId=63960) in the MSDN Library.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Create an Analysis Services Project (SSDT) | Microsoft Docs"
+title: "Create an Analysis Services Project  | Microsoft Docs"
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Create an Analysis Services Project (SSDT)
+# Create an Analysis Services Project
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   You can define an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] either by using the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Project template or by using the Import [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Database Wizard to read the contents of an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database. If no solution is currently loaded in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], creating a new [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project automatically creates a new solution. Otherwise, the new [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project will be added to the existing solution. Best practices for solution development call for creating separate projects for different types of application data, using a single solution if the projects are related. For example, you might have a single solution that contains separate projects for Integration Services packages, Analysis Services databases, and Reporting Services reports that are all used by the same business application.  
   

@@ -1,6 +1,6 @@
 ---
-title: "Enable in Analysis Services DirectQuery mode in SSDT | Microsoft Docs"
-ms.date: 08/06/2019
+title: "Enable in Analysis Services DirectQuery mode in Visual Studio | Microsoft Docs"
+ms.date: 12/04/2019
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -10,20 +10,21 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Enable DirectQuery mode in SSDT
+# Enable DirectQuery mode in Visual Studio
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
 In this topic, we'll describe how to enable DirectQuery mode for a tabular model project in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)].  
   
-When you enable DirectQuery mode for a tabular model you're designing in SSDT:
+When you enable DirectQuery mode for a tabular model:
+
 -   Features that are incompatible with DirectQuery mode are disabled.  
 -   The existing model is validated. Warnings are displayed if features are incompatible with DirectQuery mode.  
 -   If data was previously imported prior to enabling DirectQuery mode, the working model's cache is emptied.  
   
 ### Enable DirectQuery  
   
-In SSDT, in the **Properties** pane for the **Model.bim** file, change the property, **DirectQuery Mode**, to **On**.  
+In Visual Studio, in the **Properties** pane for the **Model.bim** file, change the property, **DirectQuery Mode**, to **On**.  
 
-![Enable DirectQuery mode in SSDT](../../analysis-services/tabular-models/media/enable-directquery-mode-in-ssdt.png)
+![Enable DirectQuery mode in Visual Studio](../../analysis-services/tabular-models/media/enable-directquery-mode-in-ssdt.png)
   
 If your model already has a connection to a data source and existing data, you'll be prompted to enter database credentials used to connect to the relational database. Any data already existing within the model will be removed from the in-memory cache.  
   
