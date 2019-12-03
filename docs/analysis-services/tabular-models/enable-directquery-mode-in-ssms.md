@@ -1,5 +1,5 @@
 ---
-title: "Enable in Analysis Services DirectQuery mode in SSMS | Microsoft Docs"
+title: "Enable Analysis Services DirectQuery mode in SSMS | Microsoft Docs"
 ms.date: 12/04/2019
 ms.prod: sql
 ms.technology: analysis-services
@@ -15,12 +15,8 @@ manager: kfile
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
   You can  change the data access properties of a tabular model that has already been deployed, enabling DirectQuery mode, where queries execute against a backend relational data source rather than cached data residing in-memory.  
   
- In [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)] and later, steps for DirectQuery configuration differ based on the model's compatibility level. Below you'll find steps that work for all compatibility levels.  
-  
- This article assumes that you have created and validated an in-memory tabular model at compatibility level 1200 or higher, and only need to enable DirectQuery access and update connection strings. If you're starting from a lower compatibility level, you need to manually upgrade it first. See [Upgrade Analysis Services](/sql/database-engine/install-windows/upgrade-analysis-services) for steps.  
-  
 > [!IMPORTANT]  
->  We recommend using [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] instead of Management Studio to switch data storage modes. When you use  [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] to change  model, and then follow that up with deployment to the server,  the model and database stay in sync. Moreover, changing the storage modes in the model lets you review any validation errors that occur. When using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] as described in this article, validation errors are not reported.  
+>  It's recommended you use [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] instead of Management Studio to switch data storage modes. When using  [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] to change the model, and then follow that up with deployment to the server,  the model and database stay in sync. Moreover, changing the storage modes in the model lets you review any validation errors that occur. When using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] as described in this article, validation errors are not reported.  
   
 ## Requirements  
 
@@ -41,7 +37,7 @@ manager: kfile
 -   As a last step, confirm that DirectQuery mode is operational through query execution.  
   
   
-## Switch a tabular 1200 or higher database to DirectQuery mode  
+## Switch to DirectQuery mode 
   
 1.  In Object Explorer, right-click the database > **Properties** > **Model** > **Default Mode**.  
   
