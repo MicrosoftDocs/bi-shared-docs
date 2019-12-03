@@ -304,7 +304,7 @@
         items: 
         - name: DirectQuery mode in tabular models
           href: ../analysis-services/tabular-models/directquery-mode-ssas-tabular.md
-        - name: Enable DirectQuery mode in SSDT
+        - name: Enable DirectQuery mode in Visual Studio
           href: ../analysis-services/tabular-models/enable-directquery-mode-in-ssdt.md
         - name: Enable DirectQuery mode in SSMS
           href: ../analysis-services/tabular-models/enable-directquery-mode-in-ssms.md
@@ -441,20 +441,20 @@
     - name: Multidimensional Solutions
       href: ../analysis-services/multidimensional-models/multidimensional-model-solutions-ssas.md
       items:
-      - name: Creating Multidimensional Models Using SQL Server Data Tools (SSDT)
+      - name: Creating Multidimensional Models Using SQL Server Data Tools
         href: ../analysis-services/multidimensional-models/creating-multidimensional-models-using-sql-server-data-tools-ssdt.md
         items:
-        - name: Create an Analysis Services Project (SSDT)
+        - name: Create an Analysis Services Project
           href: ../analysis-services/multidimensional-models/create-an-analysis-services-project-ssdt.md
-        - name: Configure Analysis Services Project Properties (SSDT)
+        - name: Configure Analysis Services Project Properties
           href: ../analysis-services/multidimensional-models/configure-analysis-services-project-properties-ssdt.md
-        - name: Build Analysis Services Projects (SSDT)
+        - name: Build Analysis Services Projects
           href: ../analysis-services/multidimensional-models/build-analysis-services-projects-ssdt.md
-        - name: Deploy Analysis Services Projects (SSDT)
+        - name: Deploy Analysis Services Projects
           href: ../analysis-services/multidimensional-models/deploy-analysis-services-projects-ssdt.md
-        - name: Create and Run an MDX Script (SSDT)
+        - name: Create and Run an MDX Script
           href: ../analysis-services/multidimensional-models/create-and-run-an-mdx-script-in-sql-server-data-tools.md
-        - name: View the XML for an Analysis Services Project (SSDT)
+        - name: View the XML for an Analysis Services Project
           href: ../analysis-services/multidimensional-models/view-the-xml-for-an-analysis-services-project-ssdt.md
         - name: Connect in Online Mode to an Analysis Services Database
           href: ../analysis-services/multidimensional-models/connect-in-online-mode-to-an-analysis-services-database.md
