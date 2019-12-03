@@ -1,5 +1,5 @@
 ---
-title: "Configure Analysis Services Project Properties (SSDT) | Microsoft Docs"
+title: "Configure Analysis Services Project Properties| Microsoft Docs"
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# Configure Analysis Services Project Properties (SSDT)
+# Configure Analysis Services Project Properties
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project is defined with certain default properties that affect building and deploying the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project.  
   
@@ -40,7 +40,7 @@ manager: kfile
  Until additional configurations are created, all developers use this common configuration. However, during the various phases of project development - such as during the initial development and testing of a project - different developers will may use different data sources and deploy the project to different servers for different purposes. Configurations enable you to retain these different settings in different configuration files.  
   
 ## See Also  
- [Build Analysis Services Projects &#40;SSDT&#41;](../../analysis-services/multidimensional-models/build-analysis-services-projects-ssdt.md)   
- [Deploy Analysis Services Projects &#40;SSDT&#41;](../../analysis-services/multidimensional-models/deploy-analysis-services-projects-ssdt.md)  
+ [Build Analysis Services Projects](../../analysis-services/multidimensional-models/build-analysis-services-projects-ssdt.md)   
+ [Deploy Analysis Services Projects](../../analysis-services/multidimensional-models/deploy-analysis-services-projects-ssdt.md)  
   
   
