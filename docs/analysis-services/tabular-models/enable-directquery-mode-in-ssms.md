@@ -48,7 +48,8 @@ manager: kfile
     |**Valid values**|**Description**|  
     |**DirectQuery**|Queries are executed against a backend relational database, using the data source connection defined for the model.<br /><br /> Queries to the model are converted to native database queries and redirected to the data source.<br /><br /> When you process a model set to DirectQuery mode, only metadata is compiled and deployed. The data itself is external to the model, residing in the database files of the operative data source.|  
     |**Import**|Queries are executed against the tabular database in either MDX or DAX.<br /><br /> When you process a model set to Import mode,  data is retrieved from a backend data source and stored on disk. When the database is loaded, data is copied entirely into memory for very fast table scans and queries.<br /><br /> This is the default mode for tabular models, and it is the only mode for certain (non-relational) data sources.|  
-    | **Dual** | This mode is not supported in Analysis Services. |
+    | **Dual** | 	
+Allows both Import and DirectQuery. This mode is not supported in Azure Analysis Services. |
    
   
 ## Check connection properties  
