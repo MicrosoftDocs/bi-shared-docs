@@ -24,5 +24,5 @@
 ## [Security Audit Event Category](security-audit-event-category.md)
 ### [Security Audit Data Columns](security-audit-data-columns.md)
 ## [Session Events Event Category](session-events-event-category.md)
-### [Session Events Data Columns]()session-events-data-columns.md
+### [Session Events Data Columns](session-events-data-columns.md)
 
