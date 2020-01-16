@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: ">=sql-server-ver15||=sqlallproducts-allversions"
 ---
 # Calculation groups
  

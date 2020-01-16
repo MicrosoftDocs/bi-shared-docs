@@ -9,7 +9,6 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 manager: kfile
-manager: "kfile"
 ---
 # Folders Element (XMLA)
 
