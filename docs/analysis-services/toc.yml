@@ -1238,7 +1238,7 @@
         href: ../analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md
       - name: Performance counters
         href: ../analysis-services/instances/performance-counters-ssas.md
-      - name: Trace-events >
+      - name: Trace-events
         href: /bi-reference/trace-events/analysis-services-trace-events
       - name: Log operations
         href: ../analysis-services/instances/log-operations-in-analysis-services.md
@@ -1286,17 +1286,17 @@
       items:
       - name: Tabular model programming for compatibility level 1200 and higher
         href: ../analysis-services/tabular-model-programming-compatibility-level-1200/tabular-model-programming-for-compatibility-level-1200.md
-      - name: Tabular Model Scripting Language (TMSL) >
+      - name: Tabular Model Scripting Language (TMSL)
         href: /bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference
-      - name: Tabular Object Model (TOM) >
+      - name: Tabular Object Model (TOM)
         href: /bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo
-      - name: Analysis Management Objects (AMO) >
+      - name: Analysis Management Objects (AMO)
         href: /bi-reference/amo/amo-classes-introduction
     - name: Tabular 1103 and lower
       items:
       - name: Tabular model programming for compatibility level 1103 and lower
         href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/tabular-model-programming-for-compatibility-levels-1050-through-1103.md
-      - name: Conceptual Schema Definition Language (CSDL) Reference >
+      - name: Conceptual Schema Definition Language (CSDL) Reference
         href: /bi-reference/csdl/csdl-annotations-for-business-intelligence-csdlbi
       - name: Representation
         items:
@@ -1332,13 +1332,13 @@
       href: ../analysis-services/multidimensional-models/multidimensional-model-programming.md
     - name: Assemblies Management
       href: ../analysis-services/multidimensional-models/multidimensional-model-assemblies-management.md
-    - name: Analysis Management Objects (AMO) >
+    - name: Analysis Management Objects (AMO)
       href: /bi-reference/amo/developing-with-analysis-management-objects-amo
     - name: Analysis Services Scripting Language (ASSL)
       items:
       - name: Developing with Analysis Services Scripting Language (ASSL)
         href: ../analysis-services/multidimensional-models/scripting-language-assl/developing-with-analysis-services-scripting-language-assl.md
-      - name: Analysis Services Scripting Language (ASSL for XMLA) Reference >
+      - name: Analysis Services Scripting Language (ASSL for XMLA) Reference
         href: /bi-reference/assl/analysis-services-scripting-language-assl-for-xmla
       - name: ASSL Objects and Object Characteristics
         href: ../analysis-services/multidimensional-models/scripting-language-assl/assl-objects-and-object-characteristics.md
@@ -1378,9 +1378,9 @@
         href: ../analysis-services/multidimensional-models-scripting-language-assl-xmla/updating-cells-xmla.md
       - name: ASSL XML Conventions
         href: ../analysis-services/multidimensional-models/scripting-language-assl/assl-xml-conventions.md
-    - name: XML for Analysis (XMLA) reference >
+    - name: XML for Analysis (XMLA) reference
       href: /bi-reference/xmla/xml-for-analysis-xmla-reference
-    - name: ADOMD.NET reference >
+    - name: ADOMD.NET reference
       href: /bi-reference/adomd/developing-with-adomd-net
     - name: OLAP
       items:
@@ -1599,11 +1599,11 @@
     items:
     - name: Data Mining programming
       href: ../analysis-services/data-mining/data-mining-programming.md
-    - name: Analysis Management Objects (AMO) >
+    - name: Analysis Management Objects (AMO)
       href: /bi-reference/amo/amo-classes-introduction
-    - name: ADOMD.NET >
+    - name: ADOMD.NET
       href: /bi-reference/adomd/developing-with-adomd-net
-    - name: XML for Analysis (XMLA) >
+    - name: XML for Analysis (XMLA)
       href: /bi-reference/xmla/xml-for-analysis-xmla-reference
     - name: OLE DB for Data Mining
       href: ../analysis-services/data-mining/data-mining-programming-ole-db.md
@@ -1617,27 +1617,27 @@
     href: ../analysis-services/powershell/analysis-services-powershell-reference.md
   - name: PowerShell for Power Pivot for SharePoint
     href: ../analysis-services/powershell/powershell-reference-for-power-pivot-for-sharepoint.md
-  - name: Data Analysis Expressions (DAX) >
+  - name: Data Analysis Expressions (DAX)
     href: /dax/data-analysis-expressions-dax-reference
-  - name: Power Query M >
+  - name: Power Query M
     href: /powerquery-m/power-query-m-reference
-  - name: Tabular Model Scripting Language (TMSL) >
+  - name: Tabular Model Scripting Language (TMSL)
     href: /bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference
-  - name: Tabular Object Model (TOM) >
+  - name: Tabular Object Model (TOM)
     href: /bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo
-  - name: Analysis Management Objects (AMO) >
+  - name: Analysis Management Objects (AMO)
     href: /bi-reference/amo/developing-with-analysis-management-objects-amo
-  - name: Conceptual Schema Definition Language (CSDL) >
+  - name: Conceptual Schema Definition Language (CSDL)
     href: /bi-reference/csdl/csdl-annotations-for-business-intelligence-csdlbi
-  - name: XML for Analysis (XMLA) >
+  - name: XML for Analysis (XMLA)
     href: /bi-reference/xmla/xml-for-analysis-xmla-reference
-  - name: ADOMD.NET >
+  - name: ADOMD.NET
     href: /bi-reference/adomd/developing-with-adomd-net
-  - name: Analysis Services Scripting Language (ASSL for XMLA) >
+  - name: Analysis Services Scripting Language (ASSL for XMLA)
     href: /bi-reference/assl/analysis-services-scripting-language-assl-for-xmla
-  - name: Schema rowsets >
+  - name: Schema rowsets
     href: /bi-reference/schema-rowsets/analysis-services-schema-rowsets
-  - name: Trace events >
+  - name: Trace events
     href: /bi-reference/trace-events/analysis-services-trace-events
   - name: VBA functions in MDX and DAX
     href: /sql/mdx/vba-functions-in-mdx-and-dax
