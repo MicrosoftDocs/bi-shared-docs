@@ -24,6 +24,8 @@ landingContent:
         links:
           - text: What is Analysis Services?
             url: analysis-services-overview.md
+          - text: What is Azure Analysis Services?
+            url: https://docs.microsoft.com/azure/analysis-services/analysis-services-overview
       - linkListType: whats-new
         links:      
           - text: What's new in SQL Server Analysis Services
@@ -34,6 +36,8 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
+          - text: Create a resource in Azure
+            url: https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server
           - text: Install SQL Server Analysis Services
             url: instances/install-windows/install-analysis-services.md
           - text: Install SQL Server evaluation editions

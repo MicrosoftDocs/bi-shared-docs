@@ -8,8 +8,6 @@ ms.topic: tutorial
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
-monikerRange: ">= sql-server-2017 || = sqlallproducts-allversions"
 ---
 
 # Get data
