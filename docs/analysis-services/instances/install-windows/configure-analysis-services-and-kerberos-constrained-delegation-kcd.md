@@ -121,7 +121,7 @@ manager: kfile
   
 6.  Create the SPN for the SQL Browser service on the Analysis Services machine.  
   
-     [Learn more](https://support.microsoft.com/en-us/kb/950599)  
+     [Learn more](https://support.microsoft.com/kb/950599)  
   
 7.  **Configure constrained delegation** settings on the Analysis Services service account for any external source you will be refreshing from such as SQL Server, or Excel files. On the Analysis Services service account, we want to make sure the following are set.  
   
@@ -208,6 +208,6 @@ manager: kfile
   
  [KERBEROS PRIMER - videos](https://blog.martinlund.it/kerberos-primer/)  
   
- [Microsoft® Kerberos Configuration Manager for SQL Server®](https://www.microsoft.com/en-us/download/details.aspx?id=39046)  
+ [Microsoft® Kerberos Configuration Manager for SQL Server®](https://www.microsoft.com/download/details.aspx?id=39046)  
   
   

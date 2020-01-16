@@ -41,7 +41,7 @@ manager: kfile
   
  When the predictable attribute is a continuous numeric data type, feature selection is applied to the outputs as well, to reduce the possible number of outcomes and build the model faster. You can change the threshold for feature selection and thereby increase or decrease the number of possible values by setting the MAXIMUM_OUTPUT_ATTRIBUTES parameter.  
   
- For a more detained explanation about how the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Decision Trees algorithm works with discrete predictable columns, see [Learning Bayesian Networks: The Combination of Knowledge and Statistical Data](https://research.microsoft.com/en-us/um/people/heckerman/hgc94uai.pdf). For more information about how the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Decision Trees algorithm works with a continuous predictable column, see the appendix of [Autoregressive Tree Models for Time-Series Analysis](https://go.microsoft.com/fwlink/?LinkId=45966).  
+ 
   
 ### Scoring Methods and Feature Selection  
  The Microsoft Decision Trees algorithm offers three formulas for scoring information gain: Shannon's entropy, Bayesian network with K2 prior, and Bayesian network with a uniform Dirichlet distribution of priors. All three methods are well established in the data mining field. We recommend that you experiment with different parameters and scoring methods to determine which provides the best results. For more information about these scoring methods, see [Feature Selection](https://msdn.microsoft.com/library/73182088-153b-4634-a060-d14d1fd23b70).  

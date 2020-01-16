@@ -36,7 +36,7 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-          - text: Create an Analysis Services resource in Azure
+          - text: Create a resource in Azure
             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server
           - text: Install SQL Server Analysis Services
             url: instances/install-windows/install-analysis-services.md
