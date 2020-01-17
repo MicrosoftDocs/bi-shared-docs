@@ -66,7 +66,7 @@ manager: kfile
  ![ssas-tabular-translate-json](../../analysis-services/tabular-models/media/ssas-tabular-translate-json.png "ssas-tabular-translate-json")  
   
 > [!TIP]  
->  You can use any JSON editor to open the file, but we recommend using the JSON editor in Visual Studio so that you can also use the View Code command in Solution explorer to view the Tabular model definition in SSDT. To get the JSON editor, you need a [full version installation of Visual Studio 2015](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx). The free Community edition includes the JSON editor.  
+>  You can use any JSON editor to open the file, but we recommend using the JSON editor in Visual Studio so that you can also use the View Code command in Solution explorer to view the Tabular model definition in SSDT. To get the JSON editor, you need a [full version installation of Visual Studio 2015](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). The free Community edition includes the JSON editor.  
   
 ## Import a translation file
 

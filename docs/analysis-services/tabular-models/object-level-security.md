@@ -9,7 +9,6 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 manager: kfile
-monikerRange: ">= sql-server-2017 || = sqlallproducts-allversions"
 ---
 # Object-level security
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
