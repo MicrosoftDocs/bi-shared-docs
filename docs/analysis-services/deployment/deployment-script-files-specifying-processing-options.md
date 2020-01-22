@@ -52,15 +52,15 @@ manager: kfile
   
      -or-  
   
--   Run the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard at the command prompt and set the wizard to run in answer file mode. For more information about answer file mode, see [Running the Analysis Services Deployment Wizard](../../analysis-services/multidimensional-models/running-the-analysis-services-deployment-wizard.md).  
+-   Run the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard at the command prompt and set the wizard to run in answer file mode. For more information about answer file mode, see [Running the Analysis Services Deployment Wizard](../../analysis-services/deployment/running-the-analysis-services-deployment-wizard.md).  
   
      -or-  
   
 -   Modify the \<*project name*>.deploymentoptions file by using any text editor.  
   
 ## See Also  
- [Specifying the Installation Target](../../analysis-services/multidimensional-models/deployment-script-files-specifying-the-installation-target.md)   
- [Specifying Partition and Role Deployment Options](../../analysis-services/multidimensional-models/deployment-script-files-partition-and-role-deployment-options.md)   
- [Specifying Configuration Settings for Solution Deployment](../../analysis-services/multidimensional-models/deployment-script-files-solution-deployment-config-settings.md)  
+ [Specifying the Installation Target](../../analysis-services/deployment/deployment-script-files-specifying-the-installation-target.md)   
+ [Specifying Partition and Role Deployment Options](../../analysis-services/deployment/deployment-script-files-partition-and-role-deployment-options.md)   
+ [Specifying Configuration Settings for Solution Deployment](../../analysis-services/deployment/deployment-script-files-solution-deployment-config-settings.md)  
   
   
