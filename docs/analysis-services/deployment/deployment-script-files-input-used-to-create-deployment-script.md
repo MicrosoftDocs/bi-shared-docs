@@ -30,16 +30,16 @@ manager: kfile
   
  The following topics explain how to modify values in the various input files:  
   
--   [Specifying the Installation Target](../../analysis-services/multidimensional-models/deployment-script-files-specifying-the-installation-target.md)  
+-   [Specifying the Installation Target](../../analysis-services/deployment/deployment-script-files-specifying-the-installation-target.md)  
   
--   [Specifying Partition and Role Deployment Options](../../analysis-services/multidimensional-models/deployment-script-files-partition-and-role-deployment-options.md)  
+-   [Specifying Partition and Role Deployment Options](../../analysis-services/deployment/deployment-script-files-partition-and-role-deployment-options.md)  
   
--   [Specifying Configuration Settings for Solution Deployment](../../analysis-services/multidimensional-models/deployment-script-files-solution-deployment-config-settings.md)  
+-   [Specifying Configuration Settings for Solution Deployment](../../analysis-services/deployment/deployment-script-files-solution-deployment-config-settings.md)  
   
--   [Specifying Processing Options](../../analysis-services/multidimensional-models/deployment-script-files-specifying-processing-options.md)  
+-   [Specifying Processing Options](../../analysis-services/deployment/deployment-script-files-specifying-processing-options.md)  
   
 ## See Also  
- [Running the Analysis Services Deployment Wizard](../../analysis-services/multidimensional-models/running-the-analysis-services-deployment-wizard.md)   
- [Understanding the Analysis Services Deployment Script](../../analysis-services/multidimensional-models/understanding-the-analysis-services-deployment-script.md)  
+ [Running the Analysis Services Deployment Wizard](../../analysis-services/deployment/running-the-analysis-services-deployment-wizard.md)   
+ [Understanding the Analysis Services Deployment Script](../../analysis-services/deployment/understanding-the-analysis-services-deployment-script.md)  
   
   

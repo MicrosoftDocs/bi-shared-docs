@@ -73,6 +73,6 @@ Properties that cannot be set by using Properties in SSMS or in msmdrsrv.ini fil
 ## See also
 
  [Analysis Services Instance Management](../../analysis-services/instances/analysis-services-instance-management.md)   
- [Specifying Configuration Settings for Solution Deployment](../../analysis-services/multidimensional-models/deployment-script-files-solution-deployment-config-settings.md)  
+ [Specifying Configuration Settings for Solution Deployment](../../analysis-services/deployment/deployment-script-files-solution-deployment-config-settings.md)  
   
   
