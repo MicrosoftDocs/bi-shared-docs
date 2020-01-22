@@ -1160,7 +1160,7 @@
     - name: Deploy a tabular model from Visual Studio (SSDT)
       href: ../analysis-services/deployment/deploy-from-sql-server-data-tools-ssas-tabular.md
     - name: Multidimensional model deployment
-      href: ../analysis-services/multidimensional-models/multidimensional-model-solution-deployment.md
+      href: ../analysis-services/deployment/multidimensional-model-solution-deployment.md
     - name: Deploy model solutions by using XMLA
       href: ../analysis-services/deployment/deploy-model-solutions-using-xmla.md
     - name: Deploy model solutions by using Deployment Wizard

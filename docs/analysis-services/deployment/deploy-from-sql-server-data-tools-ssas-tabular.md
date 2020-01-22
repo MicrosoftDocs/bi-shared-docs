@@ -17,7 +17,7 @@ author: minewiskan
   
 ##  <a name="bkmk_deploy"></a> Configure deployment options and deployment server properties
 
- Before you deploy your tabular model solution, you must first specify the Deployment Options and Deployment Server properties. For more information about deployment properties and settings, see [Tabular model solution deployment](../../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md).  
+ Before you deploy your tabular model solution, you must first specify the Deployment Options and Deployment Server properties. For more information about deployment properties and settings, see [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment-ssas-tabular.md).  
   
 #### To configure options and properties
   
@@ -59,10 +59,10 @@ author: minewiskan
  
 
 > [!NOTE]
-> For DirectQuery models, if the model contains calculated items, calculated columns, or calculated tables, after being deployed you must perform a **Process Recalc** on the database. To learn more about processing a model database from SSMS, see [Process Database, Table, or Partition](process-database-table-or-partition-analysis-services.md).
+> For DirectQuery models, if the model contains calculated items, calculated columns, or calculated tables, after being deployed you must perform a **Process Recalc** on the database. To learn more about processing a model database from SSMS, see [Process Database, Table, or Partition](../tabular-models/process-database-table-or-partition-analysis-services.md).
 
 ## See also
 
- [Tabular model solution deployment](../../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md)   
+ [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment-ssas-tabular.md)   
  [Configure default data modeling and deployment properties](../../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md)   
- [Process Database, Table, or Partition](process-database-table-or-partition-analysis-services.md)   
+ [Process Database, Table, or Partition](../tabular-models/process-database-table-or-partition-analysis-services.md)   
