@@ -1,6 +1,6 @@
 ---
 title: "Deploy Analysis Services tabular models from Visual Studio | Microsoft Docs"
-ms.date: 10/23/2019
+ms.date: 01/22/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -9,7 +9,7 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 ---
-# Deploy From Visual Studio
+# Deploy a tabular model From Visual Studio (SSDT)
 
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
 
@@ -17,7 +17,7 @@ author: minewiskan
   
 ##  <a name="bkmk_deploy"></a> Configure deployment options and deployment server properties
 
- Before you deploy your tabular model solution, you must first specify the Deployment Options and Deployment Server properties. For more information about deployment properties and settings, see [Tabular model solution deployment](../../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md).  
+ Before you deploy your tabular model solution, you must first specify the Deployment Options and Deployment Server properties. For more information about deployment properties and settings, see [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment-ssas-tabular.md).  
   
 #### To configure options and properties
   
@@ -59,11 +59,10 @@ author: minewiskan
  
 
 > [!NOTE]
-> For DirectQuery models, if the model contains calculated items, calculated columns, calculated tables, after being deployed you must perform a **Process Recalc** on the database. To learn more about processing a model database from SSMS, see [Process Database, Table, or Partition](process-database-table-or-partition-analysis-services.md).
+> For DirectQuery models, if the model contains calculated items, calculated columns, or calculated tables, after being deployed you must perform a **Process Recalc** on the database. To learn more about processing a model database from SSMS, see [Process Database, Table, or Partition](../tabular-models/process-database-table-or-partition-analysis-services.md).
 
 ## See also
 
- [Tabular model solution deployment](../../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md)   
- [Configure default data modeling and deployment properties](../../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md)  
-  
-  
+ [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment-ssas-tabular.md)   
+ [Configure default data modeling and deployment properties](../../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md)   
+ [Process Database, Table, or Partition](../tabular-models/process-database-table-or-partition-analysis-services.md)   

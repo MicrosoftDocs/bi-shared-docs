@@ -940,5 +940,20 @@
       "redirect_url": "/analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility",
       "redirect_document_id": false
     },
+    {
+      "source_path": "docs/analysis-services/multidimensional-models/multidimensional-model-solution-deployment.md",
+      "redirect_url": "/analysis-services/deployment/multidimensional-model-solution-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md",
+      "redirect_url": "/analysis-services/deployment/tabular-model-solution-deployment-ssas-tabular",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-models/deploy-from-sql-server-data-tools-ssas-tabular.md",
+      "redirect_url": "/analysis-services/deployment/deploy-from-sql-server-data-tools-ssas-tabular",
+      "redirect_document_id": false
+    }
   ]
 }
