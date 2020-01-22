@@ -54,7 +54,7 @@ Microsoft.AnalysisServices.Deployment [ASdatabasefile]
 >  The **/d** argument is used only in output mode. This argument is ignored if specified in answer or silent mode. For more information about modes, see the section, [Modes](#Modes), later in this topic.  
   
 ## Remarks  
- The **Microsoft.AnalysisServices.Deployment** utility takes a set of files that provide the object definitions, deployment targets, deployment options, and configuration settings, and tries to deploy the object definitions to the specified deployment targets, using the specified deployment options and configuration settings. This utility can provide a user interface when invoked in answer file or output mode. For more information about how to use the user interface supplied for this utility to create answer files, see [Deploy Model Solutions Using the Deployment Wizard](../../analysis-services/multidimensional-models/deploy-model-solutions-using-the-deployment-wizard.md).  
+ The **Microsoft.AnalysisServices.Deployment** utility takes a set of files that provide the object definitions, deployment targets, deployment options, and configuration settings, and tries to deploy the object definitions to the specified deployment targets, using the specified deployment options and configuration settings. This utility can provide a user interface when invoked in answer file or output mode. For more information about how to use the user interface supplied for this utility to create answer files, see [Deploy Model Solutions Using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md).  
   
  The utility is located in the \Program files (x86)\Microsoft SQL Server\140\Binn\ManagementStudio folder.  
   

@@ -34,7 +34,7 @@ manager: kfile
  To modify the deployment of partitions and roles in an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project, you must change this information within the \<*project name*>.configsettings file, as described in the procedure below. You cannot change the partition and roles settings within the project because the *\<project name>* **Properties Pages** dialog box in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] does not display these options.  
   
 > [!NOTE]  
->  Configuration settings can apply to all objects or only to newly created objects. Apply configuration settings to newly created objects only when you are deploying additional objects to a previously deployed [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database and do not want to overwrite existing objects. To specify whether configuration settings apply to all objects or only to newly created ones, set this option in the \<*project name*>.deploymentoptions file. For more information, see [Specifying Partition and Role Deployment Options](../../analysis-services/multidimensional-models/deployment-script-files-partition-and-role-deployment-options.md).  
+>  Configuration settings can apply to all objects or only to newly created objects. Apply configuration settings to newly created objects only when you are deploying additional objects to a previously deployed [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database and do not want to overwrite existing objects. To specify whether configuration settings apply to all objects or only to newly created ones, set this option in the \<*project name*>.deploymentoptions file. For more information, see [Specifying Partition and Role Deployment Options](../../analysis-services/deployment/deployment-script-files-partition-and-role-deployment-options.md).  
   
 #### To change configuration settings after the input files have been generated  
   
@@ -42,15 +42,15 @@ manager: kfile
   
      -or-  
   
--   Run the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard at the command prompt and set the wizard to run in answer file mode. For more information about answer file mode, see [Running the Analysis Services Deployment Wizard](../../analysis-services/multidimensional-models/running-the-analysis-services-deployment-wizard.md).  
+-   Run the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard at the command prompt and set the wizard to run in answer file mode. For more information about answer file mode, see [Running the Analysis Services Deployment Wizard](../../analysis-services/deployment/running-the-analysis-services-deployment-wizard.md).  
   
      -or-  
   
 -   Modify the \<*project name*>.configsettings file by using any text editor.  
   
 ## See Also  
- [Specifying the Installation Target](../../analysis-services/multidimensional-models/deployment-script-files-specifying-the-installation-target.md)   
- [Specifying Partition and Role Deployment Options](../../analysis-services/multidimensional-models/deployment-script-files-partition-and-role-deployment-options.md)   
- [Specifying Processing Options](../../analysis-services/multidimensional-models/deployment-script-files-specifying-processing-options.md)  
+ [Specifying the Installation Target](../../analysis-services/deployment/deployment-script-files-specifying-the-installation-target.md)   
+ [Specifying Partition and Role Deployment Options](../../analysis-services/deployment/deployment-script-files-partition-and-role-deployment-options.md)   
+ [Specifying Processing Options](../../analysis-services/deployment/deployment-script-files-specifying-processing-options.md)  
   
   

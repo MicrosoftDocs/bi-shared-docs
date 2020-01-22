@@ -25,7 +25,7 @@ manager: kfile
 >  The [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard only deploys objects into a single [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database. It does not deploy any server level objects or data.  
   
 ## See Also  
- [Running the Analysis Services Deployment Wizard](../../analysis-services/multidimensional-models/running-the-analysis-services-deployment-wizard.md)   
- [Understanding the Input Files Used to Create the Deployment Script](../../analysis-services/multidimensional-models/deployment-script-files-input-used-to-create-deployment-script.md)  
+ [Running the Analysis Services Deployment Wizard](../../analysis-services/deployment/running-the-analysis-services-deployment-wizard.md)   
+ [Understanding the Input Files Used to Create the Deployment Script](../../analysis-services/deployment/deployment-script-files-input-used-to-create-deployment-script.md)  
   
   

@@ -28,14 +28,14 @@ manager: kfile
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[Running the Analysis Services Deployment Wizard](../../analysis-services/multidimensional-models/running-the-analysis-services-deployment-wizard.md)|Describes the various ways in which you can run the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard.|  
-|[Understanding the Input Files Used to Create the Deployment Script](../../analysis-services/multidimensional-models/deployment-script-files-input-used-to-create-deployment-script.md)|Describes which files the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard uses as input values, what each of those files contains, and provides links to topics that describe how to modify the values in each of the input files.|  
-|[Understanding the Analysis Services Deployment Script](../../analysis-services/multidimensional-models/understanding-the-analysis-services-deployment-script.md)|Describes what the deployment script contains and how the script runs.|  
+|[Running the Analysis Services Deployment Wizard](../../analysis-services/deployment/running-the-analysis-services-deployment-wizard.md)|Describes the various ways in which you can run the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard.|  
+|[Understanding the Input Files Used to Create the Deployment Script](../../analysis-services/deployment/deployment-script-files-input-used-to-create-deployment-script.md)|Describes which files the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard uses as input values, what each of those files contains, and provides links to topics that describe how to modify the values in each of the input files.|  
+|[Understanding the Analysis Services Deployment Script](../../analysis-services/deployment/understanding-the-analysis-services-deployment-script.md)|Describes what the deployment script contains and how the script runs.|  
   
 ## See Also  
- [Deploy Model Solutions Using XMLA](../../analysis-services/multidimensional-models/deploy-model-solutions-using-xmla.md)   
+ [Deploy Model Solutions Using XMLA](../../analysis-services/deployment/deploy-model-solutions-using-xmla.md)   
  [Synchronize Analysis Services Databases](../../analysis-services/multidimensional-models/synchronize-analysis-services-databases.md)   
- [Understanding the Input Files Used to Create the Deployment Script](../../analysis-services/multidimensional-models/deployment-script-files-input-used-to-create-deployment-script.md)   
- [Deploy Model Solutions with the Deployment Utility](../../analysis-services/multidimensional-models/deploy-model-solutions-with-the-deployment-utility.md)  
+ [Understanding the Input Files Used to Create the Deployment Script](../../analysis-services/deployment/deployment-script-files-input-used-to-create-deployment-script.md)   
+ [Deploy Model Solutions with the Deployment Utility](../../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md)  
   
   

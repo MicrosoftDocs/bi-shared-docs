@@ -707,31 +707,31 @@
       - name: Translations
         href: ../analysis-services/multidimensional-models/translations-in-multidimensional-models-analysis-services.md
       - name: Solution Deployment
-        href: ../analysis-services/multidimensional-models/multidimensional-model-solution-deployment.md
+        href: ../analysis-services/deployment/multidimensional-model-solution-deployment.md
         items:
         - name: Requirements and Considerations for Analysis Services Deployment
-          href: ../analysis-services/multidimensional-models/requirements-and-considerations-for-analysis-services-deployment.md
+          href: ../analysis-services/deployment/requirements-and-considerations-for-analysis-services-deployment.md
         - name: Deploy Model Solutions Using XMLA
-          href: ../analysis-services/multidimensional-models/deploy-model-solutions-using-xmla.md
+          href: ../analysis-services/deployment/deploy-model-solutions-using-xmla.md
         - name: Deploy Model Solutions Using the Deployment Wizard
-          href: ../analysis-services/multidimensional-models/deploy-model-solutions-using-the-deployment-wizard.md
+          href: ../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md
           items:
           - name: Running the Analysis Services Deployment Wizard
-            href: ../analysis-services/multidimensional-models/running-the-analysis-services-deployment-wizard.md
+            href: ../analysis-services/deployment/running-the-analysis-services-deployment-wizard.md
           - name: Deployment Script Files - Input to Create Script
-            href: ../analysis-services/multidimensional-models/deployment-script-files-input-used-to-create-deployment-script.md
+            href: ../analysis-services/deployment/deployment-script-files-input-used-to-create-deployment-script.md
           - name: Deployment Script Files - Specify the Install Target
-            href: ../analysis-services/multidimensional-models/deployment-script-files-specifying-the-installation-target.md
+            href: ../analysis-services/deployment/deployment-script-files-specifying-the-installation-target.md
           - name: Deployment Script Files - Partition and Role Deployment Options
-            href: ../analysis-services/multidimensional-models/deployment-script-files-partition-and-role-deployment-options.md
+            href: ../analysis-services/deployment/deployment-script-files-partition-and-role-deployment-options.md
           - name: Deployment Script Files - Solution Deployment Config Settings
-            href: ../analysis-services/multidimensional-models/deployment-script-files-solution-deployment-config-settings.md
+            href: ../analysis-services/deployment/deployment-script-files-solution-deployment-config-settings.md
           - name: Deployment Script Files - Specify Processing Options
-            href: ../analysis-services/multidimensional-models/deployment-script-files-specifying-processing-options.md
+            href: ../analysis-services/deployment/deployment-script-files-specifying-processing-options.md
           - name: Understanding the Analysis Services Deployment Script
-            href: ../analysis-services/multidimensional-models/understanding-the-analysis-services-deployment-script.md
+            href: ../analysis-services/deployment/understanding-the-analysis-services-deployment-script.md
         - name: Deploy Model Solutions with the Deployment Utility
-          href: ../analysis-services/multidimensional-models/deploy-model-solutions-with-the-deployment-utility.md
+          href: ../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md
     - name: Multidimensional Databases
       href: ../analysis-services/multidimensional-models/multidimensional-model-databases-ssas.md
       items:
