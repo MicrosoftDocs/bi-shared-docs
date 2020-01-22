@@ -1,5 +1,5 @@
 ---
-title: "Deploy Model Solutions Using the Deployment Wizard | Microsoft Docs"
+title: "Deploy model solutions by using the Deployment Wizard | Microsoft Docs"
 ms.date: 01/22/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -38,6 +38,6 @@ author: minewiskan
  [Deploy model solutions by using XMLA](../../analysis-services/deployment/deploy-model-solutions-using-xmla.md)   
  [Synchronize Analysis Services databases](../../analysis-services/multidimensional-models/synchronize-analysis-services-databases.md)   
  [Understanding the input files used to create the deployment script](../../analysis-services/deployment/deployment-script-files-input-used-to-create-deployment-script.md)   
- [Deploy model solutions with the deployment utility](../../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md)  
+ [Deploy model solutions with the Deployment Utility](../../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md)  
   
   

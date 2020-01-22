@@ -177,7 +177,7 @@ manager: kfile
   
 ## See Also  
  [Synchronize Element &#40;XMLA&#41;](https://docs.microsoft.com/bi-reference/xmla/xml-elements-commands/synchronize-element-xmla)   
- [Deploy Model Solutions Using XMLA](../../analysis-services/deployment/deploy-model-solutions-using-xmla.md)   
- [Deploy Model Solutions Using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md)  
+ [Deploy model solutions by using XMLA](../../analysis-services/deployment/deploy-model-solutions-using-xmla.md)   
+ [Deploy model solutions by using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md)  
   
   

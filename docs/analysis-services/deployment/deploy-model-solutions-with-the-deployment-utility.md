@@ -1,5 +1,5 @@
 ---
-title: "Deploy Model Solutions with the Deployment Utility | Microsoft Docs"
+title: "Deploy model solutions with the Deployment Utility | Microsoft Docs"
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -55,7 +55,7 @@ Microsoft.AnalysisServices.Deployment [ASdatabasefile]
   
 ## Remarks
 
- The **Microsoft.AnalysisServices.Deployment** utility takes a set of files that provide the object definitions, deployment targets, deployment options, and configuration settings, and tries to deploy the object definitions to the specified deployment targets, using the specified deployment options and configuration settings. This utility can provide a user interface when invoked in answer file or output mode. For more information about how to use the user interface supplied for this utility to create answer files, see [Deploy Model Solutions Using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md).  
+ The **Microsoft.AnalysisServices.Deployment** utility takes a set of files that provide the object definitions, deployment targets, deployment options, and configuration settings, and tries to deploy the object definitions to the specified deployment targets, using the specified deployment options and configuration settings. This utility can provide a user interface when invoked in answer file or output mode. For more information about how to use the user interface supplied for this utility to create answer files, see [Deploy model solutions by using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md).  
   
  The utility is located in the \Program files (x86)\Microsoft SQL Server\140\Binn\ManagementStudio folder.  
   

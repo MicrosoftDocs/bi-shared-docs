@@ -55,7 +55,7 @@ manager: kfile
   
  To run the wizard in output mode, use the **/o** switch and provide an output file name.  
   
- For more information about these command line switches, see [Deploy Model Solutions with the Deployment Utility](../../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md).  
+ For more information about these command line switches, see [Deploy model solutions with the Deployment Utility](../../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md).  
   
  The following procedure describes how to run the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard at the command prompt.  
   
@@ -67,6 +67,6 @@ manager: kfile
   
 ## See Also  
  [Understanding the Analysis Services Deployment Script](../../analysis-services/deployment/understanding-the-analysis-services-deployment-script.md)   
- [Deploy Model Solutions Using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md)  
+ [Deploy model solutions by using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md)  
   
   
