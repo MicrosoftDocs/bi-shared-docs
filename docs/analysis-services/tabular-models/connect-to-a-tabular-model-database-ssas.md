@@ -98,6 +98,6 @@ manager: kfile
  On SharePoint, this Microsoft Excel error occurs when you attempt data interaction, such as filtering data, in a PivotTable that uses model data. The error occurs because the user does not have sufficient SharePoint permissions on the workbook. The user must have **Read** permissions or above. **View-Only** permissions are not sufficient for data access.  
   
 ## See also  
- [Tabular model solution deployment](../../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md)  
+ [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment-ssas-tabular.md)  
   
   

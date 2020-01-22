@@ -8,19 +8,11 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Multidimensional Model Solution Deployment
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+
   After you have completed the development of an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project, you can deploy the database to an Analysis Services server. Analysis Services provides six possible deployment methods that can be used to move the database to a test or production server. The methods are listed here in order of advantage: AMO Automation, XMLA, Deployment Wizard, Deployment Utility, Synchronize Wizard, Backup and Restore.  
-  
- This topic includes the following sections:  
-  
- [Deployment Methods](#bkmk_meth)  
-  
- [Deployment considerations](#bkmk_considerations)  
-  
- [Related Tasks](#bkmk_rel)  
   
 ##  <a name="bkmk_meth"></a> Deployment Methods  
   

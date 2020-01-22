@@ -50,6 +50,6 @@ manager: kfile
 ## See Also  
  [Configure default data modeling and deployment properties](../../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md)   
  [Model properties](../../analysis-services/tabular-models/model-properties-ssas-tabular.md)   
- [Tabular model solution deployment](../../analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular.md)  
+ [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment-ssas-tabular.md)  
   
   
