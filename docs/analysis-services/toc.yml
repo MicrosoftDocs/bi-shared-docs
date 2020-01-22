@@ -711,8 +711,6 @@
         - name: Multidimensional model solution deployment
           href: ../analysis-services/multidimensional-models/multidimensional-model-solution-deployment.md
           items:
-          - name: Requirements and considerations for Analysis Services deployment
-            href: ../analysis-services/deployment/requirements-and-considerations-for-analysis-services-deployment.md
           - name: Deploy model solutions by using XMLA
             href: ../analysis-services/deployment/deploy-model-solutions-using-xmla.md
           - name: Deploy model solutions by using Deployment Wizard
@@ -721,6 +719,8 @@
               href: ../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md
             - name: Running Analysis Services Deployment Wizard
               href: ../analysis-services/deployment/running-the-analysis-services-deployment-wizard.md
+            - name: Understanding the deployment script
+              href: ../analysis-services/deployment/understanding-the-analysis-services-deployment-script.md
             - name: Deployment script files - Input to create script
               href: ../analysis-services/deployment/deployment-script-files-input-used-to-create-deployment-script.md
             - name: Deployment script files - Specify the install target
@@ -731,11 +731,9 @@
               href: ../analysis-services/deployment/deployment-script-files-solution-deployment-config-settings.md
             - name: Deployment Script Files - Specify processing options
               href: ../analysis-services/deployment/deployment-script-files-specifying-processing-options.md
-            - name: Understanding the deployment script
-              href: ../analysis-services/deployment/understanding-the-analysis-services-deployment-script.md
-          - name: Deploy model solutions with the deployment utility
+          - name: Deploy (SSAS) model solutions with the deployment utility
             href: ../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md
-    - name: Multidimensional Databases
+    - name: Multidimensional databases
       href: ../analysis-services/multidimensional-models/multidimensional-model-databases-ssas.md
       items:
       - name: Attach and Detach Analysis Services Databases

@@ -887,7 +887,7 @@
     },
     {
       "source_path": "docs/analysis-services/multidimensional-models/requirements-and-considerations-for-analysis-services-deployment.md",
-      "redirect_url": "/analysis-services/deployment/requirements-and-considerations-for-analysis-services-deployment",
+      "redirect_url": "/analysis-services/multidimensional-models/multidimensional-model-solution-deployment",
       "redirect_document_id": false
     },
 	  {
