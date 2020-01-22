@@ -1,6 +1,6 @@
 ---
 title: "Configure Analysis Services default data modeling and deployment properties | Microsoft Docs"
-ms.date: 10/24/2019
+ms.date: 01/22/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
