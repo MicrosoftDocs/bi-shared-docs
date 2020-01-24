@@ -1,6 +1,6 @@
 ---
 title: "Use Dynamic Management Views (DMVs) in Analysis Services | Microsoft Docs"
-ms.date: 09/25/2018
+ms.date: 01/25/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Dynamic Management Views (DMVs) 
 
@@ -101,12 +100,15 @@ Schema rowsets are described in two SQL Server Analysis Services protocols:
 |---------|---------|
 |[TMSCHEMA_ANNOTATIONS](https://msdn.microsoft.com/library/mt704370)|Provides information about the Annotation objects in the model.|
 |[TMSCHEMA_ATTRIBUTE_HIERARCHIES](https://msdn.microsoft.com/library/mt704362)     |   Provides information about the AttributeHierarchy objects for a column.      |
+|[TMSCHEMA_CALCULATION_ITEMS](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/e5f9af60-a748-4f93-91e5-7635b2e25811)|Provides information about the CalculationItem objects in the tabular model.|
+|[TMSCHEMA_CALCULATION_GROUPS](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/d2263ab0-01cc-46a2-9e0d-3ef6565cd0eb)|Provides information about the CalculationGroup objects in the tabular model.|
 |[TMSCHEMA_COLUMNS](https://msdn.microsoft.com/library/mt704373)    |  Provides information about the Column objects in each table.       |
 |[TMSCHEMA_COLUMN_PERMISSIONS](https://msdn.microsoft.com/library/mt842440)|Provides information about the ColumnPermission objects in each table-permission.|
 |[TMSCHEMA_CULTURES](https://msdn.microsoft.com/library/mt719125)|Provides information about the Culture objects in the model.|
 |[TMSCHEMA_DATA_SOURCES](https://msdn.microsoft.com/library/mt719191)   |   Provides information about the DataSource objects in the model.      |
 |[TMSCHEMA_DETAIL_ROWS_DEFINITIONS](https://msdn.microsoft.com/library/mt825017)|Provides information about the DetailRowsDefinition objects in the model.|
 |[TMSCHEMA_EXPRESSIONS](https://msdn.microsoft.com/library/mt825015)|Provides information about the Expression objects in the model.|
+|[TMSCHEMA_FORMAT_STRING_DEFINITIONS](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/7bd68a16-5cc6-4704-ae11-1694598f1911)|Provides information about the FormatStringDefinition objects in the tabular model.|
 |[TMSCHEMA_EXTENDED_PROPERTIES](https://msdn.microsoft.com/library/mt842451)|Provides information about the ExtendedProperty objects in the model.|
 |[TMSCHEMA_HIERARCHIES](https://msdn.microsoft.com/library/mt719136)    |    Provides information about the Hierarchy objects in each table.     |
 |[TMSCHEMA_KPIS](https://msdn.microsoft.com/library/mt719002)     |    Provides information about the KPI objects in the model.     |
@@ -121,6 +123,7 @@ Schema rowsets are described in two SQL Server Analysis Services protocols:
 |[TMSCHEMA_PERSPECTIVE_MEASURES](https://msdn.microsoft.com/library/mt719135)     |    Provides information about the PerspectiveMeasure objects in each PerspectiveTable object.     |
 |[TMSCHEMA_PERSPECTIVE_TABLES](https://msdn.microsoft.com/library/mt719272)     |    Provides information about the Table objects in a perspective.     |
 |[TMSCHEMA_PERSPECTIVES](https://msdn.microsoft.com/library/mt704340)     |     Provides information about the Perspective objects in the model.    |
+|[TMSCHEMA_QUERY_GROUPS](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/e52c19a6-7ceb-4016-9236-313f372620a2)     |     Provides information about the QueryGroup objects in the tabular model.    |
 |[TMSCHEMA_RELATIONSHIPS](https://msdn.microsoft.com/library/mt704355)     |    Provides information about the Relationship objects in the model.     |
 |[TMSCHEMA_ROLE_MEMBERSHIPS](https://msdn.microsoft.com/library/mt704584)     |  Provides information about the RoleMembership objects in each role.      |
 |[TMSCHEMA_ROLES](https://msdn.microsoft.com/library/mt719267)    |   Provides information about the Role objects in the model.      |
@@ -143,6 +146,7 @@ Schema rowsets are described in two SQL Server Analysis Services protocols:
 |[DISCOVER_CSDL_METADATA](https://msdn.microsoft.com/library/gg587670)|Returns information about database metadata for in-memory databases.|  
 |[DISCOVER_DATASOURCES](https://msdn.microsoft.com/library/ee320285)|Returns a list of the data sources that are available on the server.|
 |[DISCOVER_DB_CONNECTIONS](https://msdn.microsoft.com/library/ee320467)|Provides resource usage and activity information about the currently opened connections from the server to a database.|  
+|[DISCOVER_DB_MEM_STATS](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas/67789289-fe98-41f9-95d0-44cebe406a34)|Provides coarse-grained information about the memory trackers that are active on the server. The data is aggregated at the database and system level.|
 |[DISCOVER_DIMENSION_STAT](https://msdn.microsoft.com/library/ee320284)|returns statistics on the specified dimension.|  
 |[DISCOVER_ENUMERATORS](https://msdn.microsoft.com/library/ee302012)|Returns a list of names, data types, and enumeration values of enumerators supported by the XMLA Provider for a specific data source.|  
 |[DISCOVER_INSTANCES](https://msdn.microsoft.com/library/ee320541)|Describes the instances on the server.|  
@@ -152,6 +156,7 @@ Schema rowsets are described in two SQL Server Analysis Services protocols:
 |[DISCOVER_LOCATIONS](https://msdn.microsoft.com/library/ee302024)|Returns information about the contents of a backup file. |
 |[DISCOVER_LOCKS](https://msdn.microsoft.com/library/ee320398)|Provides information about the current standing locks on the server.|  
 |[DISCOVER_MASTER_KEY](https://msdn.microsoft.com/library/ee301825)|Returns the server's master encryption key.|
+|[DISCOVER_MEM_STATS](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas/493ebbe6-34d3-4794-a86f-637058909b9e) |Provides fine-grained information about all the memory trackers that are active on the server.|
 |[DISCOVER_MEMORYGRANT](https://msdn.microsoft.com/library/ee320945)|Returns a list of internal memory quota grants that are taken by jobs that are currently running on the server.|  
 |[DISCOVER_MEMORYUSAGE](https://msdn.microsoft.com/library/ee320910)|Returns the DISCOVER_MEMORYUSAGE statistics for various objects allocated by the server.|  
 |[DISCOVER_OBJECT_ACTIVITY](https://msdn.microsoft.com/library/ee320661)|Provides resource usage per object since the start of the service.|  
