@@ -1,6 +1,6 @@
 ---
 title: "Install Analysis Services sample data and projects | Microsoft Docs"
-ms.date: 08/06/2019
+ms.date: 01/27/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Install sample data and multidimensional projects 
 

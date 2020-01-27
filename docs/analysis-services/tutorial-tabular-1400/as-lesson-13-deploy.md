@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 13: Deploy | Microsoft Docs"
-ms.date: 03/08/2019
+ms.date: 01/27/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models

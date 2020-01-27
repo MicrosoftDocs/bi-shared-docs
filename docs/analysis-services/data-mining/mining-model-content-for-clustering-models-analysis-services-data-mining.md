@@ -1,6 +1,6 @@
 ---
 title: "Mining Model Content for Clustering Models (Analysis Services - Data Mining) | Microsoft Docs"
-ms.date: 05/08/2018
+ms.date: 01/27/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Mining Model Content for Clustering Models (Analysis Services - Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
