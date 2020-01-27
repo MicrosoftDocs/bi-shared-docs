@@ -1,6 +1,6 @@
 ---
 title: "Mining Model Content for Clustering Models (Analysis Services - Data Mining) | Microsoft Docs"
-ms.date: 05/08/2018
+ms.date: 01/27/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Mining Model Content for Clustering Models (Analysis Services - Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
@@ -26,7 +25,7 @@ manager: kfile
   
  The parent node contains useful statistics that describe the actual distribution of all the training cases. These statistics are found in the nested table column, NODE_DISTRIBUTION. For example, the following table shows several rows from the NODE_DISTRIBUTION table that describe the distribution of customer demographics for the clustering model, `TM_Clustering`, that you create in the [Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c):  
   
-|ATTRIBUTE_NAME|ATRIBUTE_VALUE|SUPPORT|PROBABILITY|VARIANCE|VALUE_TYPE|  
+|ATTRIBUTE_NAME|ATTRIBUTE_VALUE|SUPPORT|PROBABILITY|VARIANCE|VALUE_TYPE|  
 |---------------------|---------------------|-------------|-----------------|--------------|-----------------|  
 |Age|Missing|0|0|0|1 (Missing)|  
 |Age|44.9016152716593|12939|1|125.663453102554|3 (Continuous)|  

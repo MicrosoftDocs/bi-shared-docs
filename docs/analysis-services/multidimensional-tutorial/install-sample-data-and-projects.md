@@ -1,6 +1,6 @@
 ---
 title: "Install Analysis Services sample data and projects | Microsoft Docs"
-ms.date: 08/06/2019
+ms.date: 01/27/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Install sample data and multidimensional projects 
 
@@ -53,7 +52,7 @@ To install the database, do the following:
   
 1.  Download an [AdventureWorksDW](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks) database backup from GitHub.  
   
-2.  Copy the backup file to the data directory of the local SQL Server Database Engine instance.
+2.  Copy the backup file to the backup directory of the local SQL Server Database Engine instance.
   
 3.  Start SQL Server Management Studio and connect to the Database Engine instance.  
   
