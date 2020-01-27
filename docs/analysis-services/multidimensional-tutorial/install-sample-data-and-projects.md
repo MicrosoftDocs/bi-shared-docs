@@ -53,7 +53,7 @@ To install the database, do the following:
   
 1.  Download an [AdventureWorksDW](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks) database backup from GitHub.  
   
-2.  Copy the backup file to the data directory of the local SQL Server Database Engine instance.
+2.  Copy the backup file to the backup directory of the local SQL Server Database Engine instance.
   
 3.  Start SQL Server Management Studio and connect to the Database Engine instance.  
   
