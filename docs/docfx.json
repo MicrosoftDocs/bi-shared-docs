@@ -3,27 +3,7 @@
     "content": [
       {
         "group": "group1",
-        "src": "./analysis-services",
-        "files": [
-          "**/*.md",
-          "**/*.yml",
-          "breadcrumb/toc.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },
-
-      {
-        "group": "group2",
-        "src": "./multidimensional-models",
+        "src": "./",
         "files": [
           "**/*.md",
           "**/*.yml",
@@ -41,27 +21,11 @@
         ]
       }
 
-
     ],
     "resource": [
       {
         "group": "group1",
-        "src": "./analysis-services",
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.svg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "_themes/**",
-          "_themes.pdf/**"
-        ]
-      },
-      {
-        "group": "group2",
-        "src": "./analysis-services/multidimensional-models",
+        "src": "./",
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -78,16 +42,10 @@
 
     "groups": {
       "group1": {
-        "moniker_range": "asallproducts-allversions",
+        "moniker_range": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
         "dest": "group1-dest"
-      },
-
-      "group2": {
-        "moniker_range": ">= sql-analysis-services-2016",
-        "dest": "group2-dest"
       }
     },
-
 
     "overwrite": [],
     "externalReference": [],
@@ -102,7 +60,15 @@
         }
       }        
     },
-    "fileMetadata": {},
+
+    "fileMetadata": {
+      "monikerRange": {
+        "analysis-services/multidimensional-models*/**/*.md": "asallproducts-allversions || >= sql-analysis-services-2016",
+        "analysis-services/multidimensional-tutorial/**/*.md": "asallproducts-allversions || >= sql-analysis-services-2016",
+        "analysis-services/data-mining/**/*.md": "asallproducts-allversions || >= sql-analysis-services-2016"
+      }
+    },
+
     "template": [],
     "dest": "analysis-services",
     "markdownEngineName": "markdig",

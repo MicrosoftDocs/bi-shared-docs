@@ -7,7 +7,7 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [
-        "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016 || >= sql-analysis-services-2017 || >= sql-analysis-services-2019"
+        "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
       ],
       "open_to_public_contributors": true,
       "type_mapping": {
