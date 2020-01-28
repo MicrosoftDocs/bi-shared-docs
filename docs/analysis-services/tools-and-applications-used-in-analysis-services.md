@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
+monikerRange: ">= sql-analysis-services-2016 || azure-analysis-services-current"
 ---
 # Tools for Analysis Services
 

@@ -1,6 +1,6 @@
 ---
 title: "Translation support in Analysis Services | Microsoft Docs"
-ms.date: 01/09/2019
+ms.date: 01/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: ">= sql-analysis-services-2016 || azure-analysis-services-current"
 ---
 # Translation support in Analysis Services
 [!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]

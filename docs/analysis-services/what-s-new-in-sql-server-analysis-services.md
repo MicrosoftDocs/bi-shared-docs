@@ -1,13 +1,13 @@
 ---
 title: "What's new in SQL Server Analysis Services | Microsoft Docs"
-ms.date: 10/22/2019
+ms.date: 01/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: ">= sql-analysis-services-2016"
 ---
 # What's New in SQL Server Analysis Services 
 

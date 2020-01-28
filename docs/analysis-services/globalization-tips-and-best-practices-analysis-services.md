@@ -1,6 +1,6 @@
 ---
 title: "Globalization Tips and Best Practices (Analysis Services) | Microsoft Docs"
-ms.date: 05/08/2018
+ms.date: 01/22/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: ">= sql-analysis-services-2016 || azure-analysis-services-current"
 ---
 # Globalization Tips and Best Practices (Analysis Services)
 [!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]
