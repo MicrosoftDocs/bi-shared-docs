@@ -23,7 +23,7 @@
 
       {
         "group": "group2",
-        "src": "./analysis-services/tutorial-tabular-1400",
+        "src": "./multidimensional-models",
         "files": [
           "**/*.md",
           "**/*.yml",
@@ -61,7 +61,7 @@
       },
       {
         "group": "group2",
-        "src": "./analysis-services/tutorial-tabular-1400",
+        "src": "./analysis-services/multidimensional-models",
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -83,7 +83,7 @@
       },
 
       "group2": {
-        "moniker_range": ">= sql-analysis-services-2017",
+        "moniker_range": ">= sql-analysis-services-2016",
         "dest": "group2-dest"
       }
     },
