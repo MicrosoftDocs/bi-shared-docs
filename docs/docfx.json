@@ -7,26 +7,6 @@
           "**/*.yml",
           "breadcrumb/toc.yml"
         ],
-        "group": "group1",
-        "src": "analysis-services"
-      },
-
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml",
-          "breadcrumb/toc.yml"
-        ],
-        "group": "group2",
-        "src": "./tutorial-tabular-1400"
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml",
-          "breadcrumb/toc.yml"
-        ],
-        
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -35,13 +15,12 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices",
-          "analysis-services",
-          "./multidimensional-models"
-        ]
+          "ThirdPartyNotices"
+        ],
+        "src": "analysis-services",
+        "dest": "."
       }
     ],
-
     "resource": [
       {
         "files": [
@@ -49,19 +28,6 @@
           "**/*.jpg",
           "**/*.gif"
         ],
-        "group": "group1",
-        "src": "analysis-services"
-      },
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif"
-        ],
-        "group": "group2",
-        "src": "./multidimensional-models"
-      },
-      {
         "exclude": [
           "**/obj/**",
           "_themes/**",
@@ -69,7 +35,6 @@
         ]
       }
     ],
-
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
