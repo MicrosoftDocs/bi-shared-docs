@@ -2,6 +2,8 @@
   "build": {
     "content": [
       {
+        "group": "group1",
+        "src": "./analysis-services",
         "files": [
           "**/*.md",
           "**/*.yml",
@@ -16,17 +18,55 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
+        ]
+      },
+
+      {
+        "group": "group2",
+        "src": "./analysis-services/tutorial-tabular-1400",
+        "files": [
+          "**/*.md",
+          "**/*.yml",
+          "breadcrumb/toc.yml"
         ],
-        "src": "analysis-services",
-        "dest": "."
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
       }
+
+
     ],
     "resource": [
       {
+        "group": "group1",
+        "src": "./analysis-services",
         "files": [
           "**/*.png",
           "**/*.jpg",
-          "**/*.gif"
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      },
+      {
+        "group": "group2",
+        "src": "./analysis-services/tutorial-tabular-1400",
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -35,6 +75,20 @@
         ]
       }
     ],
+
+    "groups": {
+      "group1": {
+        "moniker_range": "asallproducts-allversions",
+        "dest": "group1-dest"
+      },
+
+      "group2": {
+        "moniker_range": ">= sql-analysis-services-2017",
+        "dest": "group2-dest"
+      }
+    },
+
+
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
