@@ -1,6 +1,6 @@
 ---
 title: "Backup and Restore of Analysis Services Databases | Microsoft Docs"
-ms.date: 05/02/2018
+ms.date: 01/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -18,14 +18,6 @@ author: minewiskan
  For a full backup that includes source data, you have to back up the database which contains detail data. Specifically, if you are using ROLAP or DirectQuery database storage, detail data is stored in an external SQL Server relational database that is distinct from the Analysis Services database. Otherwise, if all objects are tabular or multidimensional, the Analysis Services backup will include both the metadata and source data.  
   
  One clear benefit of automating backup is that the data snapshot will always be as up-to-date as the automated frequency of backup specifies. Automated schedulers ensure that backups are not forgotten. Restoring a database can also be automated, and can be a good way to replicate data, but be sure to back up the encryption key file on the instance you replicate to. The synchronization feature is dedicated to replication of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] databases, but only for the data that is out of date. All of the features mentioned here can be implemented through the user interface, by way of XML/A commands or programmatically run through AMO.
-  
- This topic includes the following sections:  
-  
--   [Preparing for Backup](#bkmk_prep)  
-  
--   [Backing Up a Multidimensional or a Tabular Database](#bkmk_cube)  
-  
--   [Restoring an Analysis Services Database](#bkmk_restore)  
   
 ##  <a name="bkmk_prereq"></a> Prerequisites  
  You must have administrative permissions on the Analysis Services instance or Full Control (Administrator) permissions on the database you are backing up.  
@@ -46,7 +38,7 @@ author: minewiskan
 -   Check for existing files of the same name. If a file of the same name already exists, backup will fail unless you specify options to overwrite the file.  
   
 ##  <a name="bkmk_cube"></a> Backing Up a Multidimensional or a Tabular Database  
- Administrators can back up an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database to a single [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] backup file (.abf), regardless of size of the database. For step by step instructions, see [How to Backup an Analysis Services Database (TechMantra)](https://www.mytechmantra.com/LearnSQLServer/Backup_an_Analysis_Services_Database.html) and [Automate Backup an Analysis Services Database (TechMantra)](https://www.mytechmantra.com/LearnSQLServer/Automate_Backup_of_Analysis_Services_Database.html).  
+ Administrators can back up an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database to a single [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] backup file (.abf), regardless of size of the database. For step by step instructions, see [How to Backup an Analysis Services Database (MyTechMantra)](https://www.mytechmantra.com/LearnSQLServer/Backup_an_Analysis_Services_Database.html) and [Automate Backup an Analysis Services Database (MyTechMantra)](https://www.mytechmantra.com/LearnSQLServer/Automate_Backup_of_Analysis_Services_Database.html).  
   
 > [!NOTE]  
 >  [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)], used for loading and querying [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data models in a SharePoint environment, loads its models from SharePoint content databases. These content databases are relational and run on the [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] relational database engine. As such, there is no [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] backup and restore strategy for [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data models. If you have a disaster recovery plan in place for SharePoint content, that plan encompasses the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data models stored in the content databases.  
