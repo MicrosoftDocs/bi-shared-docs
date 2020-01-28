@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services Internet Sales tutorial (1200 compatibility level) | Microsoft Docs"
-ms.date: 08/28/2019
+ms.date: 01/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
