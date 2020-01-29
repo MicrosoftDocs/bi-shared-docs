@@ -1,12 +1,13 @@
 ---
 title: "What is Analysis Services? | Microsoft Docs"
-ms.date: 01/20/2020
+ms.date: 01/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: overview
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # What is Analysis Services?
 

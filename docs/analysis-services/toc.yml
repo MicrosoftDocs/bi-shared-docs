@@ -14,9 +14,7 @@
       href: analysis-services-backward-compatibility.md
     - name: Power Pivot for Sharepoint
       href: power-pivot-for-sharepoint-ssas.md
-  - name: Azure Analysis Services documentation
-    href: https://docs.microsoft.com/azure/analysis-services/
-  - name: Tools
+  - name: Analysis Serices tools
     href: tools-and-applications-used-in-analysis-services.md
   - name: Comparing Tabular and Multidimensional solutions
     href: comparing-tabular-and-multidimensional-solutions-ssas.md

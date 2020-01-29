@@ -1,6 +1,6 @@
 ---
 title: "Bi-directional cross filters in Analysis Services tabular models| Microsoft Docs"
-ms.date: 12/04/2019
+ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # Bi-directional cross filters in tabular models
 
