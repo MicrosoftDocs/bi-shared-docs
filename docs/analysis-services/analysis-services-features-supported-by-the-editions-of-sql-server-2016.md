@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: ">= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Analysis Services features supported by SQL Server editions
 
