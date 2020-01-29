@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 
 # Verify Analysis Services cumulative update build version

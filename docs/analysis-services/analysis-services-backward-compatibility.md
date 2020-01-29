@@ -1,13 +1,13 @@
 ---
 title: "SQL Server Analysis Services backward compatibility | Microsoft Docs"
-ms.date: 10/23/2019
+ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: ">= sql-analysis-services-2016"
 ---
 
 # SQL Server Analysis Services backward compatibility (2019, 2017, 2016)

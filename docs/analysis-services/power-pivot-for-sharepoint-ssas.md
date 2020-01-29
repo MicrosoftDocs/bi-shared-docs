@@ -1,6 +1,6 @@
 ---
 title: "Power Pivot for SharePoint (SSAS) | Microsoft Docs"
-ms.date: 01/28/2020
+ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: ppvt-sharepoint

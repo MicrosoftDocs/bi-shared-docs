@@ -1,14 +1,13 @@
 ---
 title: "Analysis Services features supported by SQL Server edition | Microsoft Docs"
-ms.date: 10/22/2019
+ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
-ms.custom:
 ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: ">= sql-analysis-services-2016"
 ---
 # Analysis Services features supported by SQL Server editions
 

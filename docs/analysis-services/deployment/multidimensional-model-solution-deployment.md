@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
+monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Multidimensional Model Solution Deployment
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]

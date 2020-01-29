@@ -1,6 +1,6 @@
 ---
-title: "Install Analysis Services | Microsoft Docs"
-ms.date: 08/09/2019
+title: "Install SQL Server Analysis Services | Microsoft Docs"
+ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Install SQL Server Analysis Services
 
