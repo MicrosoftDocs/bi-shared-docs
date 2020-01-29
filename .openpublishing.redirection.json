@@ -954,6 +954,71 @@
       "source_path": "docs/analysis-services/tabular-models/deploy-from-sql-server-data-tools-ssas-tabular.md",
       "redirect_url": "/analysis-services/deployment/deploy-from-sql-server-data-tools-ssas-tabular",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/connection-representation-tabular.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/database-representation-tabular.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/perspective-representation-tabular.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/querying-a-tabular-model.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/relationship-representation-tabular.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-calculated-column-representation.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-calculated-measure-representation.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-hierarchy-representation.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-key-performance-indicator-representation.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-partition-representation.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-representation-tabular.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/understanding-tabular-object-model-at-levels-1050-through-1103.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/imdembeddeddata-interface.md",
+      "redirect_url": "/analysis-services/analysis-services-developer-documentation",
+      "redirect_document_id": false
     }
   ]
 }
