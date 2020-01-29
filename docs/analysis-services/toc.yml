@@ -16,11 +16,11 @@
       href: power-pivot-for-sharepoint-ssas.md
   - name: Analysis Serices tools
     href: tools-and-applications-used-in-analysis-services.md
-  - name: Comparing Tabular and Multidimensional solutions
+  - name: Comparing tabular and multidimensional
     href: comparing-tabular-and-multidimensional-solutions-ssas.md
   - name: Globalization and translation
     items:
-    - name: Globalization scenarios for Analysis Services
+    - name: Globalization scenarios
       href: globalization-scenarios-for-analysis-services.md
     - name: Languages and collations
       href: languages-and-collations-analysis-services.md
