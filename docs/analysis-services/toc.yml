@@ -1276,50 +1276,38 @@
   items:
   - name: Developer documentation overview
     href: ../analysis-services/analysis-services-developer-documentation.md
-  - name: Tabular models
+  - name: Tabular model programming for compatibility level 1200 and higher
+    href: ../analysis-services/tabular-model-programming-compatibility-level-1200/tabular-model-programming-for-compatibility-level-1200.md
+  - name: Tabular model programming for compatibility level 1103 and lower
     items:
-    - name: Tabular 1200 and higher
+    - name: Tabular model programming for compatibility level 1103 and lower
+      href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/tabular-model-programming-for-compatibility-levels-1050-through-1103.md
+    - name: Representation
       items:
-      - name: Tabular model programming for compatibility level 1200 and higher
-        href: ../analysis-services/tabular-model-programming-compatibility-level-1200/tabular-model-programming-for-compatibility-level-1200.md
-      - name: Tabular Model Scripting Language (TMSL)
-        href: /bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference
-      - name: Tabular Object Model (TOM)
-        href: /bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo
-      - name: Analysis Management Objects (AMO)
-        href: /bi-reference/amo/amo-classes-introduction
-    - name: Tabular 1103 and lower
-      items:
-      - name: Tabular model programming for compatibility level 1103 and lower
-        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/tabular-model-programming-for-compatibility-levels-1050-through-1103.md
-      - name: Conceptual Schema Definition Language (CSDL) Reference
-        href: /bi-reference/csdl/csdl-annotations-for-business-intelligence-csdlbi
-      - name: Representation
-        items:
-        - name: Connection Representation (Tabular)
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/connection-representation-tabular.md
-        - name: Database Representation(Tabular)
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/database-representation-tabular.md
-        - name: Perspective Representation (Tabular)
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/perspective-representation-tabular.md
-        - name: Querying a Tabular Model
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/querying-a-tabular-model.md
-        - name: Relationship Representation (Tabular)
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/relationship-representation-tabular.md
-        - name: Tables - Calculated Column Representation
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-calculated-column-representation.md
-        - name: Tables - Calculated Measure Representation
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-calculated-measure-representation.md
-        - name: Tables - Hierarchy Representation
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-hierarchy-representation.md
-        - name: Tables - Key Performance Indicator Representation
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-key-performance-indicator-representation.md
-        - name: Tables - Partition Representation
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-partition-representation.md
-        - name: Tables Representation (Tabular)
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-representation-tabular.md
-        - name: Understanding Tabular Object Model at Levels 1050 through 1103
-          href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/understanding-tabular-object-model-at-levels-1050-through-1103.md
+      - name: Connection Representation (Tabular)
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/connection-representation-tabular.md
+      - name: Database Representation(Tabular)
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/database-representation-tabular.md
+      - name: Perspective Representation (Tabular)
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/perspective-representation-tabular.md
+      - name: Querying a Tabular Model
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/querying-a-tabular-model.md
+      - name: Relationship Representation (Tabular)
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/relationship-representation-tabular.md
+      - name: Tables - Calculated Column Representation
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-calculated-column-representation.md
+      - name: Tables - Calculated Measure Representation
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-calculated-measure-representation.md
+      - name: Tables - Hierarchy Representation
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-hierarchy-representation.md
+      - name: Tables - Key Performance Indicator Representation
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-key-performance-indicator-representation.md
+      - name: Tables - Partition Representation
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-partition-representation.md
+      - name: Tables Representation (Tabular)
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/tables-representation-tabular.md
+      - name: Understanding Tabular Object Model at Levels 1050 through 1103
+        href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/representation/understanding-tabular-object-model-at-levels-1050-through-1103.md
       - name: IMDEmbeddedData Interface
         href: ../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/imdembeddeddata-interface.md
   - name: Multidimensional models
@@ -1334,8 +1322,6 @@
       items:
       - name: Developing with Analysis Services Scripting Language (ASSL)
         href: ../analysis-services/multidimensional-models/scripting-language-assl/developing-with-analysis-services-scripting-language-assl.md
-      - name: Analysis Services Scripting Language (ASSL for XMLA) Reference
-        href: /bi-reference/assl/analysis-services-scripting-language-assl-for-xmla
       - name: ASSL Objects and Object Characteristics
         href: ../analysis-services/multidimensional-models/scripting-language-assl/assl-objects-and-object-characteristics.md
       - name: Backing Up, Restoring, and Synchronizing Databases (XMLA)
@@ -1374,10 +1360,6 @@
         href: ../analysis-services/multidimensional-models-scripting-language-assl-xmla/updating-cells-xmla.md
       - name: ASSL XML Conventions
         href: ../analysis-services/multidimensional-models/scripting-language-assl/assl-xml-conventions.md
-    - name: XML for Analysis (XMLA) reference
-      href: /bi-reference/xmla/xml-for-analysis-xmla-reference
-    - name: ADOMD.NET reference
-      href: /bi-reference/adomd/developing-with-adomd-net
     - name: OLAP
       items:
       - name: OLAP logical
@@ -1595,18 +1577,10 @@
     items:
     - name: Data Mining programming
       href: ../analysis-services/data-mining/data-mining-programming.md
-    - name: Analysis Management Objects (AMO)
-      href: /bi-reference/amo/amo-classes-introduction
-    - name: ADOMD.NET
-      href: /bi-reference/adomd/developing-with-adomd-net
-    - name: XML for Analysis (XMLA)
-      href: /bi-reference/xmla/xml-for-analysis-xmla-reference
     - name: OLE DB for Data Mining
       href: ../analysis-services/data-mining/data-mining-programming-ole-db.md
-- name: Samples
-  items:
-  - name: Analysis Services samples
-    href: ../analysis-services/analysis-services-samples.md
+- name: Analysis Services samples
+  href: ../analysis-services/analysis-services-samples.md
 - name: Reference
   items:
   - name: PowerShell for Analysis Services

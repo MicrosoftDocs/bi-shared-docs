@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular model programming for compatibility level 1200 | Microsoft Docs"
-ms.date: 10/23/2019
+ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
