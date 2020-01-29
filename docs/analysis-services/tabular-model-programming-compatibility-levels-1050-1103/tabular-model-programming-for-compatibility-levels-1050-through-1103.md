@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular model programming for levels 1050 - 1103 | Microsoft Docs"
-ms.date: 05/14/2019
+ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,7 +8,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Tabular Model Programming for Compatibility Levels 1050 through 1103
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
