@@ -54,7 +54,7 @@ TMSL is a JSON representation of Tabular models at compatibility level 1200 and 
 
 [Tabular model programming for compatibility levels 1200 and higher](../analysis-services/tabular-model-programming-compatibility-level-1200/tabular-model-programming-for-compatibility-level-1200.md).
 
-[Tabular model programming for compatibility levels 1103 and lower](../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/tabular-model-programming-for-compatibility-levels-1050-through-1103.md)
+[Tabular model programming for compatibility levels 1103 and lower](../analysis-services/tabular-models/tabular-model-programming-for-compatibility-levels-1050-through-1103.md)
 This documentation is intended for developers who support tabular models at earlier compatibility levels. It describes the CSDL extensions that define a tabular model in XML syntax. It also includes information about  tabular object model definitions and syntax.
 
 [Data Mining programming](../analysis-services/data-mining/data-mining-programming.md)

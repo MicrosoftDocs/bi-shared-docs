@@ -28,9 +28,7 @@ Upgrading an existing tabular solution is recommended but not required. Existing
 
 ## Script for tabular models and databases
 
- TMSL is a JSON scripting language for Tabular models, with support for create, read, update, an delete operations. You can refresh data via TMSL and invoke database operations for attach, detatch, backup, restore, and synchronize.  
-  
- AMO PowerShell accepts TMSL script as input.  
+ TMSL is a JSON scripting language for Tabular models, with support for create, read, update, an delete operations. You can refresh data via TMSL and invoke database operations for attach, detach, backup, restore, and synchronize. AMO PowerShell accepts TMSL script as input.  
   
  See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](https://docs.microsoft.com/bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference) and [Analysis Services PowerShell Reference](../../analysis-services/powershell/analysis-services-powershell-reference.md) for more information.  
   
@@ -40,19 +38,16 @@ Upgrading an existing tabular solution is recommended but not required. Existing
   
 ## Expression language
 
- Filters and expressions used to create calculated objects, including measures and KPIs, are formulated in DAX. See [Understanding DAX in Tabular Models](../../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md) and [Data Analysis Expressions &#40;DAX&#41; in Analysis Services](https://msdn.microsoft.com/library/abb336c9-3346-4cab-b91b-90f93f4575e5).  
+ Filters and expressions used to create calculated objects, including measures and KPIs, are formulated in DAX. See [DAX in tabular models](../../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md).  
   
 ## Managed code for tabular models and databases
 
- AMO includes a new namespace, Microsoft.AnalysisServices.Tabular, for working with models programmatically. See [Microsoft.AnalysisServices Namespace](https://msdn.microsoft.com/library/ms146720\(SQL.130\).aspx) for more information.  
-  
-> [!NOTE]  
->  Analysis Services Management Objects (AMO), ADOMD.NET, and Tabular Object Model (TOM) client libraries now target the .NET 4.0 runtime.   
+ AMO includes a new namespace, Microsoft.AnalysisServices.Tabular, for working with models programmatically. See [Microsoft.AnalysisServices.Tabular Namespace](https://docs.microsoft.com/dotnet/api/microsoft.analysisservices.tabular?view=analysisservices-dotnet) for more information.  
   
 ## See also
 
  [Analysis Services developer documentation](../../analysis-services/analysis-services-developer-documentation.md)   
  [Technical reference](../../analysis-services/powershell/analysis-services-powershell-reference.md)     
- [Compatibility levels of tabular models and databases](../../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/tabular-model-programming-for-compatibility-levels-1050-through-1103.md)   
+ [Compatibility levels of tabular models and databases](../../analysis-services/tabular-models/tabular-model-programming-for-compatibility-levels-1050-through-1103.md)   
   
   
