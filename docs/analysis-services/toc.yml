@@ -216,6 +216,8 @@
     items:
     - name: Install SQL Server Analysis Services
       href: ../analysis-services/instances/install-windows/install-analysis-services.md
+    - name: Verify cumulative update build version
+      href: ../analysis-services/instances/analysis-services-component-version.md
     - name: Install Analysis Services in Power Pivot Mode
       items:
       - name: Install an Analysis Services server in Power Pivot Mode
@@ -234,8 +236,6 @@
         href: ../analysis-services/instances/install-windows/verify-a-power-pivot-for-sharepoint-installation.md
       - name: Use PowerShell to Verify Power Pivot for SharePoint
         href: ../analysis-services/instances/install-windows/checklist-use-powershell-to-verify-power-pivot-for-sharepoint.md
-    - name: Verify cumulative update build version
-      href: ../analysis-services/instances/analysis-services-component-version.md
     - name: Post-install configuration
       items:
       - name: Post install and configuration overview

@@ -1,5 +1,5 @@
 ---
-title: "Analysis Services Developer Documentation | Microsoft Docs"
+title: "Analysis Services developer documentation | Microsoft Docs"
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

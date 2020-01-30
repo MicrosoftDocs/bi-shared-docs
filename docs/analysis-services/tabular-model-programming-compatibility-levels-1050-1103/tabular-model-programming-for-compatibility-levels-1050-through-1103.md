@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
-# Tabular Model Programming for Compatibility Levels 1050 through 1103
+# Tabular model programming for compatibility levels 1050 and 1103
 
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
 

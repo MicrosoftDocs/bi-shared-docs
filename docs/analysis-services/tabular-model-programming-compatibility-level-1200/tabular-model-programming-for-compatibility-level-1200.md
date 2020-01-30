@@ -51,9 +51,8 @@ Upgrading an existing tabular solution is recommended but not required. Existing
   
 ## See also
 
- [Analysis Services Developer Documentation](../../analysis-services/analysis-services-developer-documentation.md)   
- [Tabular Model Programming for Compatibility Levels 1050 through 1103](../../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/tabular-model-programming-for-compatibility-levels-1050-through-1103.md)   
- [Technical Reference](../../analysis-services/powershell/analysis-services-powershell-reference.md)     
- [Compatibility levels of Tabular models and databases](../../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/tabular-model-programming-for-compatibility-levels-1050-through-1103.md)   
+ [Analysis Services developer documentation](../../analysis-services/analysis-services-developer-documentation.md)   
+ [Technical reference](../../analysis-services/powershell/analysis-services-powershell-reference.md)     
+ [Compatibility levels of tabular models and databases](../../analysis-services/tabular-model-programming-compatibility-levels-1050-1103/tabular-model-programming-for-compatibility-levels-1050-through-1103.md)   
   
   
