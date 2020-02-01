@@ -74,7 +74,7 @@
     },
 
     "template": [],
-    "dest": ".",
+    "dest": "analysis-services",
     "markdownEngineName": "markdig",
     "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ],
     "xref":["mref/sql130.zip","mref/System.Reflection.Assembly.Load.yml","mref/System.Web.UI.WebControls.WebParts.IWebPartRow.yml"]
