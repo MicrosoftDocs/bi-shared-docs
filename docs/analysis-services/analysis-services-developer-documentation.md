@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services developer documentation | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 02/04/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
