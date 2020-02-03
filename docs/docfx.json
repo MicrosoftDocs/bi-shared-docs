@@ -25,7 +25,7 @@
     "resource": [
       {
         "group": "group1",
-        "src": "./",
+        "src": "analysis-services",
         "files": [
           "**/*.png",
           "**/*.jpg",
