@@ -1,6 +1,6 @@
 ---
 title: "Globalization scenarios for Analysis Services | Microsoft Docs"
-ms.date: 05/08/2018
+ms.date: 01/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # Globalization scenarios for Analysis Services
 [!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]

@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular query interleaving | Microsoft Docs"
-ms.date: 08/27/2019
+ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2019"
 ---
 # Query interleaving
 

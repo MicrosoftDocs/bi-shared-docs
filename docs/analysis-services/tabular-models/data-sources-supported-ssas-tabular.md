@@ -1,6 +1,6 @@
 ---
 title: "Data sources supported in SQL Server Analysis Services tabular 1200 models | Microsoft Docs"
-ms.date: 10/28/2019
+ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # Data sources supported in SQL Server Analysis Services tabular 1200 models
 

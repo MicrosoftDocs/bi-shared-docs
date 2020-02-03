@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services Adventure Works Internet Sales tutorial (1400) | Microsoft Docs"
-ms.date: 10/22/2019
+ms.date: 01/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models

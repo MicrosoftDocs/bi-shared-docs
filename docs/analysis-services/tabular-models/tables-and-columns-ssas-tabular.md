@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular model tables and columns | Microsoft Docs"
-ms.date: 10/24/2019
+ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # Tables and columns in tabular models
 

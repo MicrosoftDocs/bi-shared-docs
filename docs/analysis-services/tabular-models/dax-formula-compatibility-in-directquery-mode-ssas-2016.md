@@ -1,6 +1,6 @@
 ---
 title: "DAX formula compatibility in Analysis Services DirectQuery mode | Microsoft Docs"
-ms.date: 05/07/2018
+ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # DAX formula compatibility in DirectQuery mode 
 [!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
