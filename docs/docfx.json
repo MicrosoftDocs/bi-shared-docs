@@ -3,7 +3,7 @@
     "content": [
       {
         "group": "group1",
-        "src": "./",
+        "src": "analysis-services",
         "files": [
           "**/*.md",
           "**/*.yml",
