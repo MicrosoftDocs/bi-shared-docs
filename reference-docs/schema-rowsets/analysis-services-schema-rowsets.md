@@ -25,6 +25,6 @@ Schema rowsets are described in two SQL Server Analysis Services protocols:
 
 [[MS-SSAS-T]: SQL Server Analysis Services Tabular Protocol](https://msdn.microsoft.com/library/mt719260) - Describes schema rowsets for tabular models at the 1200 and higher compatibility levels.
 
-[[MS-SSAS]: SQL Server Analysis Services Protocol](https://msdn.microsoft.com/library/ee320606) - Describes schema rowsets for multidimensional models and tabular models at the 1100 and 1103 compatibility levels.
+[[MS-SSAS]: SQL Server Analysis Services Protocol](https://msdn.microsoft.com/library/ee320606) - Describes schema rowsets for multidimensional models and tabular models.
   
   
