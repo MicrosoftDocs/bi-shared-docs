@@ -13,15 +13,11 @@ author: minewiskan
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-## Query
-
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
 ### [Data Analysis Expressions (DAX)](https://docs.microsoft.com/dax/)
 
 A library of functions and operators that can be combined to build formulas and expressions in Power BI Desktop, Azure Analysis Services, SQL Server Analysis Services, and Power Pivot in Excel.
-
-<b>Applies to:</b> Azure Analysis Services, SQL Server Analysis Services, Power BI Premium
 
 ::: moniker-end
 
@@ -33,7 +29,6 @@ Used to query, filter and combine data from one or more supported data sources.
 
 ::: moniker-end
 
-## Scripting
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
@@ -59,7 +54,6 @@ Client applications can communicate with Analysis Services using XML commands an
 
 ::: moniker-end
 
-## PowerShell
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
@@ -69,6 +63,15 @@ PowerShell cmdlets used to configure and administer an Analysis Services model d
 
 ::: moniker-end
 
+::: moniker range="asallproducts-allversions || azure-analysis-services-current"
+
+### [PowerShell for Azure Analysis Services](/azure/analysis-services/analysis-services-powershell)
+
+PowerShell cmdlets used for resource management tasks like creating or deleting a server resource, suspending or resuming operations, or changing the service level (tier). Other tasks for managing databases like adding or removing role members, processing, or partitioning use cmdlets included in the SqlServer module.
+
+::: moniker-end
+
+
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
 ### [PowerShell Reference for Power Pivot for SharePoint](powershell/powershell-reference-for-power-pivot-for-sharepoint.md)
@@ -77,8 +80,6 @@ PowerShell cmdlets used to configure and administer a Power Pivot for SharePoint
 
 ::: moniker-end
 
-
-## Object model
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
@@ -105,7 +106,6 @@ Analysis Management Objects (AMO) is a library of programmatically accessed obje
 
 ::: moniker-end
 
-## Monitor
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
@@ -123,7 +123,6 @@ Predefined tables that contain information about model database objects and serv
 
 ::: moniker-end
 
-## Protocol
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
