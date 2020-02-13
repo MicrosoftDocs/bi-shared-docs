@@ -1547,35 +1547,7 @@
       href: ../analysis-services/data-mining/data-mining-programming.md
     - name: OLE DB for Data Mining
       href: ../analysis-services/data-mining/data-mining-programming-ole-db.md
-- name: Reference
-  items:
-  - name: ADOMD.NET
-    href: /bi-reference/adomd/developing-with-adomd-net
-  - name: Analysis Management Objects (AMO)
-    href: /bi-reference/amo/developing-with-analysis-management-objects-amo
-  - name: Analysis Services Scripting Language (ASSL for XMLA)
-    href: /bi-reference/assl/analysis-services-scripting-language-assl-for-xmla
-  - name: Conceptual Schema Definition Language (CSDL)
-    href: /bi-reference/csdl/csdl-annotations-for-business-intelligence-csdlbi
-  - name: Data Analysis Expressions (DAX)
-    href: /dax/data-analysis-expressions-dax-reference
-  - name: Power Query M
-    href: /powerquery-m/power-query-m-reference
-  - name: PowerShell for Analysis Services
-    href: ../analysis-services/powershell/analysis-services-powershell-reference.md
-  - name: PowerShell for Power Pivot for SharePoint
-    href: ../analysis-services/powershell/powershell-reference-for-power-pivot-for-sharepoint.md
-  - name: Schema rowsets
-    href: /bi-reference/schema-rowsets/analysis-services-schema-rowsets
-  - name: Tabular Model Scripting Language (TMSL)
-    href: /bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference
-  - name: Tabular Object Model (TOM)
-    href: /bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo
-  - name: Trace events
-    href: /bi-reference/trace-events/analysis-services-trace-events
-  - name: VBA functions in MDX and DAX
-    href: /sql/mdx/vba-functions-in-mdx-and-dax
-  - name: XML for Analysis (XMLA)
-    href: /bi-reference/xmla/xml-for-analysis-xmla-reference
+- name: References
+  href: ../analysis-services/analysis-services-references.md
 - name: Samples
   href: ../analysis-services/analysis-services-samples.md
