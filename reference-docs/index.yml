@@ -63,7 +63,7 @@ conceptualContent:
       links:
         - url: xmla/xml-for-analysis-xmla-reference.md
           itemType: overview
-          text: XML for Analysis (XMLA) overview
+          text: XMLA overview
         - url: xmla/xml-for-analysis-compliance-xmla.md
           itemType: concept
           text: XMLA compliance
@@ -95,19 +95,6 @@ conceptualContent:
           text:  MS-SSAS SQL Server Analysis Services Protocol 
 
     # Card
-    - title: Conceptual Schema Definition Language for Business Intelligence (CSDLBI)
-      links:
-        - url: csdl/csdl-annotations-for-business-intelligence-csdlbi.md
-          itemType: overview
-          text: CSDL annotations for Business Intelligence
-        - url: csdl/csdlbi-concepts.md
-          itemType: concept
-          text: CSDLBI Concepts
-        - url: csdl/technical-reference-for-bi-annotations-to-csdl.md
-          itemType: reference
-          text: CSDLBI elements
-
-    # Card
     - title: ADOMD.NET
       links:
         - url: adomd/developing-with-adomd-net.md
@@ -126,9 +113,25 @@ conceptualContent:
         - url: assl/analysis-services-scripting-language-assl-for-xmla.md
           itemType: overview
           text: ASSL overview
+        - url: assl/analysis-services-scripting-language-xml-element-hierarchy-assl.md
+          itemType: concept
+          text: ASSL XML element hierarchy
         - url: assl/analysis-services-scripting-language-xml-elements-assl.md
           itemType: reference
           text: ASSL XML elements
+
+    # Card
+    - title: Conceptual Schema Definition Language for Business Intelligence (CSDLBI)
+      links:
+        - url: csdl/csdl-annotations-for-business-intelligence-csdlbi.md
+          itemType: overview
+          text: CSDL overview
+        - url: csdl/csdlbi-concepts.md
+          itemType: concept
+          text: CSDLBI Concepts
+        - url: csdl/technical-reference-for-bi-annotations-to-csdl.md
+          itemType: reference
+          text: CSDLBI elements
 
 
 
