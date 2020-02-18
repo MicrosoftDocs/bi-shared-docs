@@ -90,7 +90,7 @@ conceptualContent:
         - url: https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/
           itemType: reference
           text: MS-SSAS-T SQL Server Analysis Services Tabular Protocol 
-         - url: https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas/
+        - url: https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas/
           itemType: reference
           text:  MS-SSAS SQL Server Analysis Services Protocol 
 
