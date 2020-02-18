@@ -1,0 +1,134 @@
+### YamlMime:Hub
+
+title: Analysis Services references # < 60 chars
+summary: Analysis Services object model, scripting, and events references # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: power-bi
+
+metadata:
+  title: Analysis Services references # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Analysis Services object model, scripting, and events references # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: power-bi #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  author: minewiskan #Required; your GitHub user alias, with correct capitalization.
+  ms.author: owend #Required; microsoft alias of author; optional team alias.
+  ms.date: 02/20/2020 #Required; mm/dd/yyyy format.
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+
+    # Card
+    - title: Tabular Model Scripting Language (TMSL)
+      links:
+        - url: tmsl/tabular-model-scripting-language-tmsl-reference.md
+          itemType: overview
+          text: TMSL overview
+        - url: tmsl/tmsl-reference-commands.md
+          itemType: reference
+          text: TMSL Reference - Commands
+        - url: tmsl/tmsl-reference-tabular-objects.md
+          itemType: reference
+          text: TMSL Reference - Tabular Objects
+
+    # Card
+    - title: Tabular Object Model (TOM)
+      links:
+        - url: tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md
+          itemType: overview
+          text: TOM overview
+        - url: tom/connect-to-existing-analysis-services-tabular-server-and-database.md
+          itemType: concept
+          text: Connect to a tabular server and database
+        - url: tom/add-a-data-source-to-tabular-model-analysis-services-amo-tom.md
+          itemType: concept
+          text: Add a data source to tabular model
+
+    # Card
+    - title: Analysis Management Objects (AMO)
+      links:
+        - url: amo/developing-with-analysis-management-objects-amo.md
+          itemType: overview
+          text: AMO overview
+        - url: amo/amo-concepts-and-object-model.md
+          itemType: concept
+          text: AMO concepts and object model
+        - url: amo/amo-classes-introduction.md
+          itemType: reference
+          text: AMO Classes
+
+    # Card
+    - title: XML for Analysis (XMLA) 
+      links:
+        - url: xmla/xml-for-analysis-xmla-reference.md
+          itemType: overview
+          text: XML for Analysis (XMLA) overview
+        - url: xmla/xml-for-analysis-compliance-xmla.md
+          itemType: concept
+          text: XMLA compliance
+        - url: xmla/xml-elements-commands/xml-elements-commands.md
+          itemType: reference
+          text: XML Elements - Commands
+
+    # Card
+    - title: Analysis Services Trace events
+      links:
+        - url: trace-events/analysis-services-trace-events.md
+          itemType: overview
+          text: Trace events overview
+        - url: trace-events/analysis-services-object-type-codes-used-in-traces.md
+          itemType: concept
+          text: Object type codes used in traces
+
+    # Card
+    - title: Analysis Services schema rowsets
+      links:
+        - url: schema-rowsets/analysis-services-schema-rowsets.md
+          itemType: overview
+          text:  Schema rowsets overview
+        - url: https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/
+          itemType: reference
+          text: [MS-SSAS-T]: SQL Server Analysis Services Tabular Protocol 
+         - url: https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas/
+          itemType: reference
+          text:  [MS-SSAS]: SQL Server Analysis Services Protocol 
+
+    # Card
+    - title: Conceptual Schema Definition Language for Business Intelligence (CSDLBI)
+      links:
+        - url: csdl/csdl-annotations-for-business-intelligence-csdlbi.md
+          itemType: overview
+          text: CSDL annotations for Business Intelligence
+        - url: csdl/csdlbi-concepts.md
+          itemType: concept
+          text: CSDLBI Concepts
+        - url: csdl/technical-reference-for-bi-annotations-to-csdl.md
+          itemType: reference
+          text: CSDLBI elements
+
+    # Card
+    - title: ADOMD.NET
+      links:
+        - url: adomd/developing-with-adomd-net.md
+          itemType: overview
+          text: ADOMD.NET overview
+        - url: adomd/multidimensional-models-adomd-net-client/adomd-net-client-functionality.md
+          itemType: concept
+          text: ADOMD.NET Client
+        - url: adomd/multidimensional-models-adomd-net-server/adomd-net-server-functionality.md
+          itemType: concept
+          text: ADOMD.NET Server
+
+    # Card
+    - title: Analysis Services Scripting Language (ASSL for XMLA)
+      links:
+        - url: assl/analysis-services-scripting-language-assl-for-xmla.md
+          itemType: overview
+          text: ASSL overview
+        - url: assl/analysis-services-scripting-language-xml-elements-assl.md
+          itemType: reference
+          text: ASSL XML elements
+
+
+

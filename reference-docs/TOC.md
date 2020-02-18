@@ -1,4 +1,4 @@
-# [Analysis Services references](index.md)
+# [Analysis Services references](index.yml)
 
 ## [ADOMD.NET](adomd/developing-with-adomd-net.md)
 ## [Analysis Management Objects (AMO)](amo/developing-with-analysis-management-objects-amo.md)
