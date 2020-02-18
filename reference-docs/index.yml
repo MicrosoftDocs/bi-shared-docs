@@ -89,10 +89,10 @@ conceptualContent:
           text:  Schema rowsets overview
         - url: https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/
           itemType: reference
-          text: [MS-SSAS-T]: SQL Server Analysis Services Tabular Protocol 
+          text: MS-SSAS-T SQL Server Analysis Services Tabular Protocol 
          - url: https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas/
           itemType: reference
-          text:  [MS-SSAS]: SQL Server Analysis Services Protocol 
+          text:  MS-SSAS SQL Server Analysis Services Protocol 
 
     # Card
     - title: Conceptual Schema Definition Language for Business Intelligence (CSDLBI)
