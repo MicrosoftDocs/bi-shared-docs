@@ -1,6 +1,6 @@
 ---
 title: "Data sources supported in SQL Server Analysis Services tabular 1200 models | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -28,7 +28,7 @@ When you install [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-m
 |-|-|-|-|  
 |Source|Versions|File type|Providers|  
 |Access databases|Microsoft Access 2010 and later.|.accdb or .mdb|ACE 14 OLE DB provider <sup>[1](#dnu)</sup>|  
-|SQL Server relational databases|SQL Server 2008 and later, SQL Server Data Warehouse 2008 and later, Azure SQL Database, Azure SQL Data Warehouse, Analytics Platform System (APS) |(not applicable)|Microsoft OLE DB Driver for SQL Server (MSOLEDBSQL)<sup>[2](#dnu2)</sup><br /><br />OLE DB Provider for SQL Server (SQLOLEDB)<sup>[3](#dnu)</sup><br /><br /> SQL Server Native Client OLE DB Provider (SQLNCLI)<sup>[3](#dnu3)</sup><br /><br /> .NET Framework Data Provider for SQL Client|  
+|SQL Server relational databases|SQL Server 2008 and later, SQL Server Data Warehouse 2008 and later, Azure SQL Database, Azure Synapse Analytics (SQL Data Warehouse), Analytics Platform System (APS) |(not applicable)|Microsoft OLE DB Driver for SQL Server (MSOLEDBSQL)<sup>[2](#dnu2)</sup><br /><br />OLE DB Provider for SQL Server (SQLOLEDB)<sup>[3](#dnu)</sup><br /><br /> SQL Server Native Client OLE DB Provider (SQLNCLI)<sup>[3](#dnu3)</sup><br /><br /> .NET Framework Data Provider for SQL Client|  
 |Oracle relational databases|Oracle 9i and later.|(not applicable)|Oracle OLE DB Provider<br /><br /> .NET Framework Data Provider for Oracle Client<br /><br /> .NET Framework Data Provider for SQL Server<br /><br /> OraOLEDB<br /><br /> MSDASQL|  
 |Teradata relational databases|Teradata V2R6 and later|(not applicable)|TDOLEDB OLE DB provider<br /><br /> .Net Data Provider for Teradata|  
 |Informix relational databases||(not applicable)|Informix OLE DB provider|  
@@ -55,7 +55,7 @@ When you install [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-m
   
 Data source   |Versions  |Providers
 ---------|---------|---------
-SQL Server relational databases    |  SQL Server 2008 and later, SQL Server Data Warehouse 2008 and later, Azure SQL Database, Azure SQL Data Warehouse, Analytics Platform System (APS)      |       Microsoft OLE DB Driver for SQL Server (MSOLEDBSQL)<sup>[2](#dnu2)</sup>, OLE DB Provider for SQL Server (SQLOLEDB)<sup>[3](#dnu3)</sup>, SQL Server Native Client OLE DB Provider (SQLNCLI)<sup>[3](#dnu3)</sup>, .NET Framework Data Provider for SQL Client  
+SQL Server relational databases    |  SQL Server 2008 and later, SQL Server Data Warehouse 2008 and later, Azure SQL Database, Azure Synapse Analytics (SQL Data Warehouse), Analytics Platform System (APS)      |       Microsoft OLE DB Driver for SQL Server (MSOLEDBSQL)<sup>[2](#dnu2)</sup>, OLE DB Provider for SQL Server (SQLOLEDB)<sup>[3](#dnu3)</sup>, SQL Server Native Client OLE DB Provider (SQLNCLI)<sup>[3](#dnu3)</sup>, .NET Framework Data Provider for SQL Client  
 Oracle relational databases     |  Oracle 9i and later       |  Oracle OLE DB Provider       
 Teradata relational databases    |  Teradata V2R6 and later     | .Net Data Provider for Teradata    
 

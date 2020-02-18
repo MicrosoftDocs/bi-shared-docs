@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tutorial lesson 2: Get data | Microsoft Docs"
-ms.date: 04/24/2019
+ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -19,7 +19,7 @@ In this lesson, you use **Get Data** to connect to the AdventureWorksDW sample d
 Under the hood, Get Data is Power Query, which provides a vast array of tools for connecting to and reshaping data for modeling and analysis. To learn more, see [Power Query Documentation](https://docs.microsoft.com/power-query/). 
 
 > [!NOTE]
-> Tasks and images in this tutorial show connecting to an AdventureWorksDW2014 database on an on-premises server. In some cases, an AdventureWorksDW database on Azure SQL Data Warehouse may show different objects; however, they are fundamentally the same.
+> Tasks and images in this tutorial show connecting to an AdventureWorksDW2014 database on an on-premises server. In some cases, an AdventureWorksDW database on Azure Synapse Analytics (SQL Data Warehouse) may show different objects; however, they are fundamentally the same.
   
 Estimated time to complete this lesson: **10 minutes**  
   
