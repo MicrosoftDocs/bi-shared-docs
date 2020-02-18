@@ -1,6 +1,6 @@
 ﻿---
 title: "Data sources supported in SQL Server Analysis Services tabular 1400 and higher models | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -26,7 +26,7 @@ For Azure Analysis Services, see [Data sources supported in Azure Analysis Servi
 |Datasource  |In-memory  |DirectQuery  |
 |---------|---------|---------|
 |Azure SQL Database     |   Yes      |    Yes      |
-|Azure SQL Data Warehouse     |   Yes      |   Yes       |
+|Azure Synapse Analytics (SQL Data Warehouse)     |   Yes      |   Yes       |
 |Azure Blob Storage     |   Yes       |    No      |
 |Azure Table Storage    |   Yes       |    No      |
 |Azure Cosmos DB     |  Yes        |  No        |
