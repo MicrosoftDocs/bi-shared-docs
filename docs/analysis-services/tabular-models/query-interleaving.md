@@ -70,6 +70,26 @@ At this time, the SchedulingBehavior property can be set only by using XMLA. In 
 
 In most cases, SchedulingBehavior is the only property you need to set. The following additional properties have defaults that should work in most scenarios with short query bias, however they can be changed if needed. The following properties *have no effect* unless query interleaving is enabled by setting the SchedulingBehavior property. 
 
+Note, these additional properties are located under the 'ResourceGovernance' properties node. Thus you can use the following XMLA snippet to set, e.g. the DecayIntervalCPUTime property to a lower value than default:
+
+```xmla
+<Alter AllowCreate="true" ObjectExpansion="ObjectProperties" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <Object />
+  <ObjectDefinition>
+    <Server xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500">
+      <ID>myserver</ID>
+      <Name>myserver</Name>
+      <ServerProperties>
+        <ServerProperty>
+          <Name>ResourceGovernance\DecayIntervalCPUTime</Name>
+          <Value>15000</Value>
+        </ServerProperty>
+      </ServerProperties>
+    </Server>
+  </ObjectDefinition>
+</Alter>
+```
+
 **ReservedComputeForFastQueries** - Sets the number of reserved logical cores for *fast* queries. All queries are deemed *fast* until they decay because they have used up a certain amount of CPU. ReservedComputeForFastQueries is an integer between 0 and 100. The default value is 75. 
 
 The unit of measure for ReservedComputeForFastQueries is the percentage of cores. For example, a value of 80 on a server with 20 cores attempts to reserve 16 cores for fast queries (while no refresh operations are being performed). ReservedComputeForFastQueries rounds up to the nearest whole number of cores. It's recommended you do not to set this property value below 50. This is because fast queries could be deprived and is counter to the overall design of the feature. 
