@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 11: Create roles | Microsoft Docs"
-ms.date: 03/08/2019
+ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Create roles
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
 
 In this lesson, you create roles. Roles provide model database object and data security by limiting access to only those users that are role members. Each role is defined with a single permission: None, Read, Read and Process, Process, or Administrator. Roles can be defined during model authoring by using Role Manager. After a model has been deployed, you can manage roles by using SQL Server Management Studio (SSMS). To learn more, see [Roles](../tabular-models/roles-ssas-tabular.md).
   
@@ -67,7 +67,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
     A Row Filter formula must resolve to a Boolean (TRUE/FALSE) value. With this formula, you are specifying that only rows with the Country Region Code value of "US" are visible to the user.  
     ![as-lesson11-role-filter](../tutorial-tabular-1400/media/as-lesson11-role-filter.png) 
   
-6.  Optional: Click the **Members** tab, and then click **Add**. In the **Select Users or Groups** dialog box, enter the Windows users or groups from your organization you want to include in the role.  
+6.  Optional: Click the **Members** tab, and then click **Add**. In the **Select Users or Groups** dialog box, enter the users or groups from your organization you want to include in the role.  
   
 #### To create an Administrator user role  
   
@@ -77,7 +77,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 3.  Give this role **Administrator** permission.  
   
-4.  Optional: Click the **Members** tab, and then click **Add**. In the **Select Users or Groups** dialog box, enter the Windows users or groups from your organization you want to include in the role. 
+4.  Optional: Click the **Members** tab, and then click **Add**. In the **Select Users or Groups** dialog box, enter the users or groups from your organization you want to include in the role. 
   
   
 ## What's next?

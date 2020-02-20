@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 6: Create measures | Microsoft Docs"
-ms.date: 03/08/2019
+ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Create measures
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
 
 In this lesson, you create measures to be included in your model. Similar to the calculated columns you created, a measure is a calculation created by using a DAX formula. However, unlike calculated columns, measures are evaluated based on a user selected *filter*. For example, a particular column or slicer added to the Row Labels field in a PivotTable. A value for each cell in the filter is then calculated by the applied measure. Measures are powerful, flexible calculations that you want to include in almost all tabular models to perform dynamic calculations on numerical data. To learn more, see [Measures](../tabular-models/measures-ssas-tabular.md).
   
@@ -41,11 +41,13 @@ This article is part of a tabular modeling tutorial, which should be completed i
     DaysCurrentQuarterToDate:=COUNTROWS( DATESQTD( 'DimDate'[Date])) 
     ```
   
-    Notice the top-left cell now contains a measure name, **DaysCurrentQuarterToDate**, followed by the result, **92**. The result is not relevant at this point because no user filter has been applied.
+    Unlike calculated columns, with measure formulas you can type the measure name, followed by a colon, followed by the formula expression.
+
+    Notice the top-left cell now contains a measure name, **DaysCurrentQuarterToDate**, followed by a result. The result is not relevant at this point because no user filter has been applied.
     
       ![as-lesson6-newmeasure](../tutorial-tabular-1400/media/as-lesson6-newmeasure.png) 
     
-    Unlike calculated columns, with measure formulas you can type the measure name, followed by a colon, followed by the formula expression.
+    
 
   
 #### To create a DaysInCurrentQuarter measure in the DimDate table  
@@ -58,7 +60,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
     DaysInCurrentQuarter:=COUNTROWS( DATESBETWEEN( 'DimDate'[Date], STARTOFQUARTER( LASTDATE('DimDate'[Date])), ENDOFQUARTER('DimDate'[Date])))
     ```
   
-    When creating a comparison ratio between one incomplete period and the previous period. The formula must calculate the proportion of the period that has elapsed and compare it to the same proportion in the previous period. In this case, [DaysCurrentQuarterToDate]/[DaysInCurrentQuarter] gives the proportion elapsed in the current period.  
+    When creating a comparison ratio between one incomplete period and the previous period, the formula must calculate the proportion of the period that has elapsed and compare it to the same proportion in the previous period. In this case, [DaysCurrentQuarterToDate]/[DaysInCurrentQuarter] gives the proportion elapsed in the current period.  
   
 #### To create an InternetDistinctCountSalesOrder measure in the FactInternetSales table  
   
@@ -116,7 +118,9 @@ This article is part of a tabular modeling tutorial, which should be completed i
       InternetPreviousQuarterSalesProportionToQTD:=[InternetPreviousQuarterSales]*([DaysCurrentQuarterToDate]/[DaysInCurrentQuarter])
       ```
   
-Measures created for the FactInternetSales table can be used to analyze critical financial data such as sales, costs, and profit margin for items defined by the user selected filter.  
+Measures created for the FactInternetSales table are used to analyze critical financial data such as sales, costs, and profit margin for items defined by the user selected filter.  
+
+Now that you've created a bunch of measure, take a look at **Measures** in Tabular Model Explorer. You'll see all of your new measures. Right-click a measure and you see actions you can now take on a that measure.
   
 ## What's next?
 
