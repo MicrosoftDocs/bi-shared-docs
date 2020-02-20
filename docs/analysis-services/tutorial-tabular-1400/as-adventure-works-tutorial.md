@@ -1,5 +1,5 @@
 ﻿---
-title: "Analysis Services Adventure Works Internet Sales tutorial (1400) | Microsoft Docs"
+title: "Analysis Services Adventure Works Internet Sales tutorial (1500) | Microsoft Docs"
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -14,6 +14,8 @@ author: minewiskan
 [!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
 
 This tutorial provides lessons on how to create and deploy a tabular model at the [1500 compatibility level](../tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md). If you're new to Analysis Services and tabular modeling, completing this tutorial is the quickest way to learn how to create and deploy a basic tabular model by using Visual Studio with Analysis Services projects. Once you have the prerequisites in-place, it should take two to three hours to complete.  
+
+If you intend to deploy to SQL Server Analysis Services 2017 server, you can still complete this tutorial. Select the 1400 compatibility level when creating a new project in Lesson 1. 
   
 ## What you learn   
   
@@ -37,13 +39,15 @@ This tutorial provides lessons on how to create and deploy a tabular model at th
 
 To complete this tutorial, you need:  
 
--   The latest version of [Visual Studio](https://visualstudio.microsoft.com/downloads/). Any edition, including the free Community edition work.
-
--   The latest [Microsoft Analysis Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) (VSIX) package installed in Visual Studio. 
+-   An Azure subscription. If you don't already have a subscription, create a [free account](https://azure.microsoft.com/free/).
 
 -   An [Azure Synapse Analytics (Azure SQL Data Warehouse)](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal) with the **sample AdventureWorksDW database**.
 
--   An Azure Analysis Services server (recommended). Sign up for a free [Azure Analysis Services trial](https://azure.microsoft.com/services/analysis-services/) and [create a server](https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server). Or SQL Server 2019 Analysis Services server in Tabular mode. Download a free [SQL Server 2019 Developer Edition](https://www.microsoft.com/sql-server/sql-server-downloads).
+-   An Azure Analysis Services server (recommended).  See [create a server](https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server). Or, SQL Server 2019 Analysis Services server in Tabular mode. Download a free [SQL Server 2019 Developer Edition](https://www.microsoft.com/sql-server/sql-server-downloads).
+
+-   The latest version of [Visual Studio](https://visualstudio.microsoft.com/downloads/). Any edition, including the free Community edition work.
+
+-   The latest [Microsoft Analysis Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) (VSIX) package installed in Visual Studio. 
 
 -   The latest version of [SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms).    
 
