@@ -36,9 +36,9 @@
     href: ../analysis-services/analysis-services-tutorials-ssas.md
   - name: Tabular models
     items:
-    - name: Internet Sales tutorial (1400)
+    - name: Internet Sales tutorial (1500)
       items:
-      - name: Internet Sales tutorial overview (1400)
+      - name: Internet Sales tutorial overview (1500)
         href: ../analysis-services/tutorial-tabular-1400/as-adventure-works-tutorial.md
       - name: 1 - Create a tabular model project
         href: ../analysis-services/tutorial-tabular-1400/as-lesson-1-create-a-new-tabular-model-project.md
