@@ -14,12 +14,9 @@ manager: kfile
 [!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
 
 This tutorial provides lessons on how to create an Analysis Services tabular model at the [1200 compatibility level](../tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) by using Visual Studio, and deploy your model to an Analysis Services server on-premises or in Azure.  
- 
-If you're using SQL Server 2017 or Azure Analysis Services and you want to create your model at the 1400 compatibility level, use the [Tabular modeling (1400 compatibility level)](../tutorial-tabular-1400/as-adventure-works-tutorial.md). This updated version uses the modern Get Data feature to connect and import source data, uses the M language to configure partitions, and includes additional supplemental lessons.
 
 > [!IMPORTANT]
-> You should create your tabular models at the latest compatibility level supported by your server. Later compatibility level models provide improved performance, additional features, and will upgrade to future compatibility levels more seamlessly.
- 
+> This tutorial is no longer being updated. It's recommended you create tabular models at the latest compatibility level supported by your server. Later compatibility level models provide improved performance, additional features, and will upgrade to future compatibility levels more seamlessly. If you're using Azure Analysis Services or SQL Server 2017 or later Analysis Services, and you want to create your model at the 1400 or higher compatibility level, use the [Tabular modeling (1500 compatibility level)](../tutorial-tabular-1400/as-adventure-works-tutorial.md). This updated version of the tutorial uses the modern Get Data feature to connect and import source data, uses the M language to configure partitions, and includes additional supplemental lessons.
   
 ## What you learn   
   
@@ -39,7 +36,8 @@ If you're using SQL Server 2017 or Azure Analysis Services and you want to creat
   
 -   How to deploy a tabular model to an Analysis Services server on-premises or in Azure.  
   
-## Scenario  
+## Scenario
+
 This tutorial is based on Adventure Works Cycles, a fictitious company. Adventure Works is a large, multinational manufacturing company that produces  bicycles, parts, and accessories for commercial markets in North America, Europe, and Asia. With headquarters in Bothell, Washington, the company employs 500 workers. Additionally, Adventure Works employs several regional sales teams throughout its market base.  
   
 To better support the data analysis needs of sales and marketing teams and of senior management, you are tasked with creating a tabular model for users to analyze Internet sales data in the AdventureWorksDW sample database.  
@@ -50,7 +48,8 @@ The purpose of the lessons is to guide you through authoring a basic tabular mod
   
 This tutorial does not provide lessons or information about managing a deployed tabular model database by using SQL Server Management Studio, or using a reporting client application to connect to a deployed model to browse model data.  
   
-## Prerequisites  
+## Prerequisites
+
 In order to complete this tutorial, you need the following prerequisites:  
   
 -   The latest version of [Visual Studio](/sql/ssdt/download-sql-server-data-tools-ssdt) with Analysis Services projects extension.
@@ -61,7 +60,6 @@ In order to complete this tutorial, you need the following prerequisites:
   
 -   A SQL Server instance with the Adventure Works DW sample database. This sample database includes the data necessary to complete this tutorial. [Get the latest version](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks).  
   
-
 -   An Azure Analysis Services or SQL Server 2016 or later Analysis Services instance to deploy your model to. [Sign up for a free Azure Analysis Services trial](https://azure.microsoft.com/services/analysis-services/).
   
 ## Lessons  

@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tutorial lesson 7: Create Key Performance Indicators | Microsoft Docs"
-ms.date: 03/08/2019
+ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -11,11 +11,11 @@ author: minewiskan
 ---
 # Create Key Performance Indicators
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
 
 In this lesson, you create Key Performance Indicators (KPIs). KPIs are used to gauge performance of a value defined by a *Base* measure, against a *Target* value also defined by a measure, or by an absolute value. In reporting client applications, KPIs can provide business professionals a quick and easy way to understand a summary of business success or to identify trends. To learn more, see [KPIs](../tabular-models/kpis-ssas-tabular.md)
   
-Estimated time to complete this lesson: **15 minutes**  
+Estimated time to complete this lesson: **10 minutes**  
   
 ## Prerequisites  
 
@@ -48,7 +48,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
     ![as-lesson7-kpi](../tutorial-tabular-1400/media/as-lesson7-kpi.png)
     
     > [!TIP]  
-    > Notice the expandable **Descriptions** label below the available icon styles. Use descriptions for the various KPI elements to make them more identifiable in client applications.  
+    > Notice the expandable **Descriptions** label below the available icon styles. Use descriptions for the various KPI elements to make them more identifiable in report filters.  
   
 9. Click **OK** to complete the KPI.  
   

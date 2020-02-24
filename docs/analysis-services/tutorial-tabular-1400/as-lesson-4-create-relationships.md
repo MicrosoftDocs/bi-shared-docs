@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 4: Create relationships | Microsoft Docs"
-ms.date: 03/08/2019
+ms.date: 02/24/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -11,9 +11,12 @@ author: minewiskan
 ---
 # Create relationships
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
 
-In this lesson, you verify the relationships that were created automatically when you imported data and add new relationships between different tables. A relationship is a connection between two tables that establishes how the data in those tables should be correlated. For example, the DimProduct table and the DimProductSubcategory table have a relationship based on the fact that each product belongs to a subcategory. To learn more, see [Relationships](../tabular-models/relationships-ssas-tabular.md).
+In this lesson, you verify the relationships that were created automatically when you imported data and add new relationships between different tables. A relationship is a connection between two tables that establishes how the data in those tables should be correlated. For example, the DimProduct table and the DimProductSubcategory table have a relationship based on the fact that each product in the DimProduct table belongs to a subcategory in the DimProductSubcategory table. To learn more, see [Relationships](../tabular-models/relationships-ssas-tabular.md).
+
+> [!IMPORTANT]
+> At this time, the AdventureWorksDW sample default database installed with Azure Synapse Analytics (SQL Data Warehouse) does not have relationships between tables described in this tutorial. You will have to manually create all relationships. Manually creating relationships is described later in this lesson.
   
 Estimated time to complete this lesson: **10 minutes**  
   

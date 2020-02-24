@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial supplemental lesson: Detail Rows | Microsoft Docs"
-ms.date: 03/08/2019
+ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,7 +8,6 @@ ms.topic: tutorial
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Supplemental lesson - Detail Rows
 
@@ -26,9 +25,9 @@ This supplemental lesson article is part of a tabular modeling tutorial. Before 
 
 Let's look at the details of the InternetTotalSales measure, before adding a Detail Rows Expression.
 
-1.  In SSDT, click the **Model** menu > **Analyze in Excel** to open Excel and create a blank PivotTable.
+1.  In Visual Studio, click **Extensions** > **Model** > **Analyze in Excel** to open Excel and create a blank PivotTable.
   
-2.  In **PivotTable Fields**, add the **InternetTotalSales** measure from the FactInternetSales table to **Values**, **CalendarYear** from the DimDate table to **Columns**, and **EnglishCountryRegionName** to **Rows**. The PivotTable now gives an aggregated results from the InternetTotalSales measure by regions and year. 
+2.  In **PivotTable Fields**, add the **InternetTotalSales** measure from the FactInternetSales table to **Values**, **CalendarYear** from the DimDate table to **Columns**, and **EnglishCountryRegionName** from the DimGeography table to **Rows**. The PivotTable now shows aggregated results from the InternetTotalSales measure by regions and year. 
 
     ![as-lesson-detail-rows-pivottable](../tutorial-tabular-1400/media/as-lesson-detail-rows-pivottable.png)
 
@@ -65,7 +64,7 @@ What we want to see here is a table containing columns and rows of data that con
 
     This expression specifies names, columns, and measure results from the FactInternetSales table and related tables are returned when a user double-clicks an aggregated result in a PivotTable or report.
 
-4. Back in Excel, delete the sheet created in Step 3, then double-click an aggregated value. This time, with a Detail Rows Expression property defined for the measure, a new sheet opens containing a lot more useful data.
+4. Back in Excel, delete the sheet created in Step 3, then double-click an aggregated value. This time, with a Detail Rows Expression property defined for the measure, a new sheet opens containing more useful data.
 
     ![as-lesson-detail-rows-detailsheet](../tutorial-tabular-1400/media/as-lesson-detail-rows-detailsheet.png)
 

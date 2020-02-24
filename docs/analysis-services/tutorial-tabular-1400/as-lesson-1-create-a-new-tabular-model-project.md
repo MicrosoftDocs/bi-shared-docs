@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 1: Create a new tabular model project | Microsoft Docs"
-ms.date: 10/23/2019
+ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,13 +8,12 @@ ms.topic: tutorial
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Create a tabular model project
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
 
-In this lesson, you use Visual Studio with Microsoft Analysis Services Projects VSIX to create a new tabular model project at the 1400 compatibility level. Once your new project is created, you can begin adding data and authoring your model. This lesson also gives you a brief introduction to the tabular model authoring environment in Visual Studio.  
+In this lesson, you use Visual Studio with Microsoft Analysis Services projects to create a new tabular model project. Once your new project is created, you can begin adding data and authoring your model. This lesson also gives you a brief introduction to the tabular model authoring environment in Visual Studio.  
   
 Estimated time to complete this lesson: **10 minutes**  
   
@@ -26,25 +25,26 @@ This article is the first lesson in a tabular model authoring tutorial. To compl
   
 #### To create a new tabular model project  
   
-1.  In Visual Studio, on the **File** menu, click **New** > **Project**.  
+1.  In Visual Studio, in **Get started**, click **Create a new project**.  
   
-2.  In the **New Project** dialog box, expand **Installed** > **Business Intelligence** > **Analysis Services**, and then click **Analysis Services Tabular Project**.  
+2.  In **Create a new project**, search for and then select **Analysis Services Tabular Project**.  
   
-3.  In  **Name**, type **AW Internet Sales**, and then specify a location for the project files.  
+3.  In  **Configure your new project**, in **Project name**, type **AW Internet Sales**. Specify a location for the project files. Leave **Framework** the default. 
   
     By default, **Solution Name** is the same as the project name; however, you can type a different solution name.  
   
-4.  Click **OK**.  
+4.  Click **Create**.  
   
 5.  In the **Tabular model designer** dialog box, select **Integrated workspace**.  
   
-    The workspace hosts a tabular model database with the same name as the project during model authoring. Integrated workspace means Visual Studio uses a built-in instance, eliminating the need to install a separate Analysis Services server instance just for model authoring.
+    The workspace hosts a tabular model database with the same name as the project during model authoring. Integrated workspace means Visual Studio uses a built-in instance, eliminating the need to install a separate Analysis Services server instance just for model authoring. To learn more, see [Workspace database](../tabular-models/workspace-database-ssas-tabular.md).
       
-6.  In **Compatibility level**, select **SQL Server 2017 / Azure Analysis Services (1400)**.   
+6.  In **Compatibility level**, select **SQL Server 2019 / Azure Analysis Services (1500)**, and then click **OK**.   
  
     ![as-lesson1-tmd](../tutorial-tabular-1400/media/as-lesson1-tmd.png)
       
-  
+When complete, your new tabular model project will open in Visual Studio.
+
 ## Understanding the tabular model authoring environment  
 
 Now that you've created a new tabular model project, let's take a moment to explore the tabular model authoring environment in Visual Studio.  
@@ -65,7 +65,7 @@ When you create a model project, certain model properties are set automatically 
 
 In **Solution Explorer**, right-click **AW Internet Sales** (project), and then click **Properties**. The **AW Internet Sales Property Pages** dialog box appears. You set some of these properties later when you deploy your model.  
   
-When you installed the Analysis Services projects extension, several new menu items were added to the Visual Studio environment. Click the **Model** menu. From here, you can import data, refresh workspace data, browse your model in Excel, create perspectives and roles, select the model view, and set calculation options. Click the **Table** menu. From here, you can create and manage relationships, specify date table settings, create partitions, and edit table properties. If you click the **Column** menu, you can add and delete columns in a table, freeze columns, and specify sort order. The extension also adds some buttons to the bar. Most useful is the AutoSum feature to create a standard aggregation measure for a selected column. Other toolbar buttons provide quick access to frequently used features and commands.  
+When you installed the Analysis Services projects extension, several new menu items were added to the Visual Studio environment. Click the **Extensions** menu. From here, you can import data, refresh workspace data, browse your model in Excel, create perspectives and roles, select the model view, and set calculation options. Click the **Table** menu. From here, you can create and manage relationships, specify date table settings, create partitions, and edit table properties. If you click the **Column** menu, you can add and delete columns in a table, freeze columns, and specify sort order. The extension also adds some buttons to the bar. Most useful is the AutoSum feature to create a standard aggregation measure for a selected column. Other toolbar buttons provide quick access to frequently used features and commands.  
   
 Explore some of the dialogs and locations for various features specific to authoring tabular models. While some items are not yet active, you can get a good idea of the tabular model authoring environment.  
   
