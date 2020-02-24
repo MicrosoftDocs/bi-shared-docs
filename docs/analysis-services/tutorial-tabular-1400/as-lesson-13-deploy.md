@@ -25,7 +25,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
 > If deploying to Azure Analysis Services, you must have [Administrator permissions](https://docs.microsoft.com/azure/analysis-services/analysis-services-server-admins) on the server.  
 
 > [!IMPORTANT]  
-> If you installed the AdventureWorksDW sample database on an on-premises or VM with SQL Server, and you're deploying your model to an Azure Analysis Services server, an [On-premises data gateway](https://docs.microsoft.com/azure/analysis-services/analysis-services-gateway) is required.
+> If you installed the AdventureWorksDW sample database on an on-premises or VM with SQL Server, and you are deploying your model to an Azure Analysis Services server, an [On-premises data gateway](https://docs.microsoft.com/azure/analysis-services/analysis-services-gateway) is required for the process operation to import data from the data source database into the deployed data model.
   
 ## Deploy the model  
   
@@ -43,7 +43,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 5.  Verify your selections and then click **OK**.  
   
-#### To deploy the Adventure Works Internet Sales
+#### To deploy the Adventure Works Internet Sales model
   
 1.  In **Solution Explorer**, right-click the **AW Internet Sales** project > **Build**.  
 
@@ -57,15 +57,22 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 3. When deployment successfully completes, go ahead and click **Close**.  
   
+> [!IMPORTANT]
+> After deployment is finished, if you created the Azure Synapse Analytics data source using a paid subscription, to prevent unwanted charges to your account, be sure to pause or delete the resource in the portal. 
 
 This lesson describes the most common and easiest method to deploy a tabular model from Visual Studio. Advanced deployment options such as the Deployment Wizard or automating with XMLA and AMO provide greater flexibility, consistency, and scheduled deployments. To learn more, see [Tabular model solution deployment](../deployment/tabular-model-solution-deployment-ssas-tabular.md).
 
+
+
 ## Conclusion  
 
-Congratulations! You're finished authoring and deploying your first Analysis Services tabular model. This tutorial has helped guide you through completing the most common tasks in creating a tabular model. Now that your Adventure Works Internet Sales model is deployed, you can use SQL Server Management Studio to manage the model; create process scripts and a backup plan. Users can also now connect to the model using a reporting client application such as Microsoft Excel or Power BI.  
+Congratulations! You're finished authoring and deploying your first Analysis Services tabular model. This tutorial has helped guide you through completing the most common tasks in creating a tabular model. Now that your Adventure Works Internet Sales model is deployed, you can use SQL Server Management Studio to manage the model; create process scripts and a backup plan. Users, if added to a role, can also now connect to the model using a reporting client application such as Microsoft Excel or Power BI.  
 
 ![as-lesson13-ssms](../tutorial-tabular-1400/media/as-lesson13-ssms.png)
   
+
+ 
+
 ## What's next?
 [Connect with Power BI Desktop](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect-pbi)   
 [Supplemental Lesson - Dynamic security](../tutorial-tabular-1400/as-supplemental-lesson-dynamic-security.md)   

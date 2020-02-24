@@ -41,7 +41,7 @@ To complete this tutorial, you need:
 
 -   An Azure subscription. If you don't already have a subscription, create a [free account](https://azure.microsoft.com/free/).
 
--   An [Azure Synapse Analytics](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal) (SQL Data Warehouse) named **AdventureWorksDW** with the **sample AdventureWorksDW database**.
+-   An [Azure Synapse Analytics](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal) (SQL Data Warehouse) named **AdventureWorksDW** with the sample **AdventureWorksDW database**. If using a paid subscription, after completing this tutorial, you can pause or delete this resource in the portal to prevent unwanted charges. 
 
 -   An Azure Analysis Services server (recommended).  See [create a server](https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server). Or, SQL Server 2019 Analysis Services server in Tabular mode. Download a free [SQL Server 2019 Developer Edition](https://www.microsoft.com/sql-server/sql-server-downloads).
 
@@ -73,7 +73,7 @@ This tutorial includes the following lessons:
 |[4 - Create relationships](../tutorial-tabular-1400/as-lesson-4-create-relationships.md)|10 minutes|  
 |[5 - Create calculated columns](../tutorial-tabular-1400/as-lesson-5-create-calculated-columns.md)|15 minutes|
 |[6 - Create measures](../tutorial-tabular-1400/as-lesson-6-create-measures.md)|30 minutes|  
-|[7 - Create Key Performance Indicators (KPI)](../tutorial-tabular-1400/as-lesson-7-create-key-performance-indicators.md)|15 minutes|  
+|[7 - Create Key Performance Indicators (KPI)](../tutorial-tabular-1400/as-lesson-7-create-key-performance-indicators.md)|10 minutes|  
 |[8 - Create perspectives](../tutorial-tabular-1400/as-lesson-8-create-perspectives.md)|5 minutes|  
 |[9 - Create hierarchies](../tutorial-tabular-1400/as-lesson-9-create-hierarchies.md)|20 minutes|  
 |[10 - Create partitions](../tutorial-tabular-1400/as-lesson-10-create-partitions.md)|15 minutes|  
