@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 12: Analyze in Excel | Microsoft Docs"
-ms.date: 03/08/2019
+ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Analyze in Excel
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
 
 In this lesson, you use the Analyze in Excel feature to open Microsoft Excel, automatically create a connection to the model workspace, and automatically add a PivotTable to the worksheet. The Analyze in Excel feature is meant to provide a quick and easy way to test the efficacy of your model design prior to deploying your model. You do not perform any data analysis in this lesson. The purpose of this lesson is to familiarize you, the model author, with the tools you can use to test your model design.   
   
@@ -29,7 +29,7 @@ In these first tasks, you browse your model by using both the default perspectiv
   
 #### To browse by using the Default perspective  
   
-1.  Click the **Model** menu > **Analyze in Excel**.  
+1.  Click **Extensions** > **Model** > **Analyze in Excel**.  
   
 2.  In the **Analyze in Excel** dialog box, click **OK**.  
   
@@ -41,7 +41,7 @@ In these first tasks, you browse your model by using both the default perspectiv
   
 #### To browse by using the Internet Sales perspective  
   
-1.  Click the **Model** menu, and then click **Analyze in Excel**.  
+1.  Click **Extensions** > **Model** > **Analyze in Excel**.   
   
 2.  In the **Analyze in Excel** dialog box, leave **Current Windows User** selected, then in the **Perspective** drop-down listbox, select **Internet Sales**, and then click **OK**. 
     
@@ -59,7 +59,7 @@ Roles are an important part of any tabular model. Without at least one role to w
   
 #### To browse by using the Sales Manager user role  
   
-1.  In SSDT, click the **Model** menu, and then click **Analyze in Excel**.  
+1.  Click **Extensions** > **Model** > **Analyze in Excel**. 
   
 2.  In **Specify the user name or role to use to connect to the model**, select **Role**, and then in the drop-down listbox, select **Sales Manager**, and then click **OK**.  
   

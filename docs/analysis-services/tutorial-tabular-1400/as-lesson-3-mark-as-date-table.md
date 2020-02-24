@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 3: Mark as Date Table | Microsoft Docs"
-ms.date: 03/08/2019
+ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Mark as Date Table
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
 
 In Lesson 2: Get data, you imported a dimension table named **DimDate**. While in your model this table is named DimDate, it can also be known as a *Date table*, in that it contains date and time data.  
   
@@ -19,7 +19,7 @@ Whenever you use DAX time-intelligence functions, like when you create measures 
   
 In this lesson, you mark the **DimDate** table as the *Date table* and the **Date** column (in the Date table) as the *Date column* (unique identifier).  
 
-Before you mark the date table and date column, it's a good time to do a little housekeeping to make your model easier to understand. Notice in the DimDate table a column named **FullDateAlternateKey**. This column contains one row for every day in each calendar year included in the table. You use this column a lot in measure formulas and in reports. But, FullDateAlternateKey isn't really a good identifier for this column. You rename it to **Date**, making it easier to identify and include in formulas. Whenever possible, it's a good idea to rename objects like tables and columns to make them easier to identify in SSDT and client reporting applications. 
+Before you mark the date table and date column, it's a good time to do a little housekeeping to make your model easier to understand. Notice in the DimDate table a column named **FullDateAlternateKey**. This column contains one row for every day in each calendar year included in the table. You use this column a lot in measure formulas and in reports. But, FullDateAlternateKey isn't really a good identifier for this column. You rename it to **Date**, making it easier to identify and include in formulas. Whenever possible, it's a good idea to rename objects like tables and columns to make them easier to identify in tools and client reporting applications. 
   
 Estimated time to complete this lesson: **Three minutes**  
   
@@ -38,12 +38,13 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 1.  Select the **Date** column, and then in the **Properties** window, under **Data Type**, make sure  **Date** is selected.  
   
-2.  Click the **Table** menu, then click **Date**, and then click **Mark as Date Table**.  
+2.  Click **Extensions** > **Table** > **Date** > **Mark as Date Table**.  
   
 3.  In the **Mark as Date Table** dialog box, in the **Date** listbox, select the **Date** column as the unique identifier. It's usually selected by default. Click **OK**. 
 
     ![as-lesson3-date-table](../tutorial-tabular-1400/media/as-lesson3-date-table.png)
   
+4. Save.
 
 ## What's next?
 

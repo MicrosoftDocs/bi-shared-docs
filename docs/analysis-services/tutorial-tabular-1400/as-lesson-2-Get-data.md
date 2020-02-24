@@ -12,14 +12,14 @@ author: minewiskan
 
 # Get data
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
 
 In this lesson, you use **Get Data** to connect to the AdventureWorksDW sample database, select data, preview and filter, and then import into your model workspace.  
   
 Under the hood, Get Data is Power Query, which provides a vast array of tools for connecting to and reshaping data for modeling and analysis. To learn more, see [Power Query Documentation](https://docs.microsoft.com/power-query/). 
 
 > [!NOTE]
-> Tasks and images in this tutorial show connecting to an AdventureWorksDW2014 database on an on-premises server. In some cases, an AdventureWorksDW database on Azure Synapse Analytics (SQL Data Warehouse) may show different objects; however, they are fundamentally the same.
+> Tasks and images in this tutorial show connecting to an AdventureWorksDW database on an Azure Synapse Analytics resource. In some cases, an AdventureWorksDW database on SQL Server Data Warehouse may show different objects; however, they are fundamentally the same.
   
 Estimated time to complete this lesson: **10 minutes**  
   
@@ -37,24 +37,25 @@ This article is part of a tabular modeling tutorial, which should be completed i
     
     ![as-lesson2-getdata](../tutorial-tabular-1400/media/as-lesson2-getdata.png)
   
-2.  In Get Data, click **Database** > **SQL Server Database** > **Connect**.  
+2.  In Get Data, click **Azure** > **Azure SQL Data Warehouse**, and then click **Connect**.  
   
-3.  In the **SQL Server Database** dialog, in **Server**, type the name of the server where you installed the AdventureWorksDW database, and then click **Connect**.  
+3.  In the **SQL Server Database** dialog, in **Server**, type or paste the name of the server where you installed the AdventureWorksDW database, and then click **Connect**.
 
-4.  When prompted to enter credentials, you need to specify the credentials Analysis Services uses to connect to the data source when importing and processing data. In **Impersonation Mode**, select **Impersonate Account**, then enter credentials, and then click **Connect**. It's recommended you use an account where the password doesn't expire.
+    If you created an Azure SQL Data Warehouse with the AdventureWorksDW sample database, you can copy the server name from the Overview page in the Azure portal.
+
+4.  When prompted to enter credentials, you need to specify the credentials Analysis Services uses to connect to the data source when importing and processing data. Select **Microsoft account**, and then click **Sign in**. Follow the prompts. When you're signed in, click **Connect**.
 
     ![as-lesson2-account](../tutorial-tabular-1400/media/as-lesson2-account.png)
   
-    > [!NOTE]  
-    > Using a Windows user account and password provides the most secure method of connecting to a data source.
+    If your datasource is an on-premises or VM SQL Server Data Warehouse, choose **Windows** > **Impersonate Account**, and then enter an account name and password.
   
 5.  In Navigator, select the **AdventureWorksDW** database, and then click **OK**. This creates the connection to the database. 
   
-6.  In Navigator, select the check box for the following tables: **DimCustomer**, **DimDate**, **DimGeography**, **DimProduct**, **DimProductCategory**, **DimProductSubcategory**, and **FactInternetSales**. After selecting the tables, click **Edit**. 
+6.  In Navigator, select the check box for the following tables: **DimCustomer**, **DimDate**, **DimGeography**, **DimProduct**, **DimProductCategory**, **DimProductSubcategory**, and **FactInternetSales**. After selecting the tables, click **Transform Data**. 
 
     ![as-lesson2-select-tables](../tutorial-tabular-1400/media/as-lesson2-select-tables.png)
   
-After you click Edit, Query Editor opens. In the next section, you select only the data you want to import.
+After you click **Transoform Data**, Power Query Editor opens. In the next section, you select only the data you want to import.
 
   
 ## Filter the table data  
@@ -63,7 +64,7 @@ Tables in the AdventureWorksDW sample database have data that isn't necessary to
   
 #### To filter the table data before importing  
   
-1.  In Query Editor, select the **DimCustomer** table. A view of the DimCustomer table at the datasource (your AdventureWorksDW sample database) appears. 
+1.  In Power Query Editor > **Queries**, select the **DimCustomer** table. A view of the DimCustomer table at the datasource (your AdventureWorksDW sample database) appears. 
   
 2.  Multi-select (Ctrl + click) **SpanishEducation**, **FrenchEducation**, **SpanishOccupation**, **FrenchOccupation**, then right-click, and then click **Remove Columns**. 
 
@@ -81,9 +82,8 @@ Tables in the AdventureWorksDW sample database have data that isn't necessary to
     
     **DimDate**
     
-      |Column|  
+      ||  
       |--------|  
-      |**DateKey**|  
       |**SpanishDayNameOfWeek**|  
       |**FrenchDayNameOfWeek**|  
       |**SpanishMonthName**|  
@@ -91,15 +91,14 @@ Tables in the AdventureWorksDW sample database have data that isn't necessary to
   
     **DimGeography**
   
-      |Column|  
+      ||  
       |-------------|  
       |**SpanishCountryRegionName**|  
       |**FrenchCountryRegionName**|  
-      |**IpAddressLocator**|  
   
     **DimProduct**
   
-      |Column|  
+      ||  
       |-----------|  
       |**SpanishProductName**|  
       |**FrenchProductName**|  
@@ -114,14 +113,14 @@ Tables in the AdventureWorksDW sample database have data that isn't necessary to
   
     **DimProductCategory**
   
-      |Column|  
+      ||  
       |--------------------|  
       |**SpanishProductCategoryName**|  
       |**FrenchProductCategoryName**|  
   
     **DimProductSubcategory**
   
-      |Column|  
+      ||  
       |-----------------------|  
       |**SpanishProductSubcategoryName**|  
       |**FrenchProductSubcategoryName**|  
@@ -132,7 +131,7 @@ Tables in the AdventureWorksDW sample database have data that isn't necessary to
   
 ## <a name="Import"></a>Import the selected tables and column data  
 
-Now that you've previewed and filtered out unnecessary data, you can import the rest of the data you do want. The wizard imports the table data along with any relationships between tables. New tables and columns are created in the model and data that you filtered out is not be imported.  
+Now that you've previewed and filtered out unnecessary data, you can import the rest of the data you do want. The wizard imports the table data along with any relationships between tables. New tables and columns are created in the model and data that you filtered out isn't imported.  
   
 #### To import the selected tables and column data  
   

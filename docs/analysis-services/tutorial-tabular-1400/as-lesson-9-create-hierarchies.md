@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 9: Create hierarchies | Microsoft Docs"
-ms.date: 03/08/2019
+ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -11,9 +11,9 @@ author: minewiskan
 ---
 # Create hierarchies
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
 
-In this lesson, you create hierarchies. Hierarchies are groups of columns arranged in levels. For example, a Geography hierarchy might have sublevels for Country, State, County, and City. Hierarchies can appear separate from other columns in a reporting client application field list, making them easier for client users to navigate and include in a report. To learn more, see [Hierarchies](../tabular-models/hierarchies-ssas-tabular.md)
+In this lesson, you create hierarchies. Hierarchies are groups of columns arranged in levels. For example, a Geography hierarchy might have sublevels for Country, State, County, and City. Hierarchies can appear separate from other columns in a reporting client field list, making them easier for users to navigate and include in a report. To learn more, see [Hierarchies](../tabular-models/hierarchies-ssas-tabular.md)
   
 To create hierarchies, use the model designer in *Diagram View*. Creating and managing hierarchies is not supported in Data View.  
   
@@ -23,7 +23,7 @@ Estimated time to complete this lesson: **20 minutes**
 
 This article is part of a tabular modeling tutorial, which should be completed in order. Before performing the tasks in this lesson, you should have completed the previous lesson: [Lesson 8: Create perspectives](../tutorial-tabular-1400/as-lesson-8-create-perspectives.md).  
   
-## Create hierarchies  
+## Create new hierarchies
   
 #### To create a Category hierarchy in the DimProduct table  
   
@@ -46,9 +46,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 #### To create hierarchies in the DimDate table  
   
-1.  In the **DimDate** table, create a hierarchy named **Calendar**.  
-  
-3.  Add the following columns in-order:
+1.  In the **DimDate** table, create a hierarchy named **Calendar**. Include the following columns in-order:
 
     *  CalendarYear
     *  CalendarSemester
@@ -56,7 +54,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
     *  MonthCalendar
     *  DayNumberOfMonth
     
-4.  In the **DimDate** table, create a **Fiscal** hierarchy. Include the following columns in-order:  
+2.  In the **DimDate** table, create a **Fiscal** hierarchy. Include the following columns in-order:  
   
     *  FiscalYear
     *  FiscalSemester
@@ -64,11 +62,12 @@ This article is part of a tabular modeling tutorial, which should be completed i
     *  MonthCalendar
     *  DayNumberOfMonth
   
-5.  Finally, in the **DimDate** table, create a **ProductionCalendar** hierarchy. Include the following columns in-order:  
+3.  Finally, in the **DimDate** table, create a **ProductionCalendar** hierarchy. Include the following columns in-order:  
+
     *  CalendarYear
     *  WeekNumberOfYear
     *  DayNumberOfWeek
-  
+
  ## What's next?
 
 [Lesson 10: Create partitions](../tutorial-tabular-1400/as-lesson-10-create-partitions.md). 
