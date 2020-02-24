@@ -45,9 +45,11 @@ The following properties apply to both tabular and multidimensional modes unless
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2019"
 
 **QueryMemoryLimit**   
- Applies to Azure Analysis Services and SQL Server 2019 and later only. An advanced property to control how much memory can be used during a query. In SQL Server 2019 and later, this setting applies only to DAX queries and covers only memory spools. In Azure Analysis Services, this setting applies to both DAX and MDX queries, and is not limited to memory spools.
- 
- This setting does not account for general memory allocations used by the query. Specified in percentage up to 100. When more than 100, it's in bytes. Setting a value of 0 means no limit is specified. For Azure Analysis, the default value is determined by your plan. 
+ Applies to Azure Analysis Services and SQL Server 2019 and later only. An advanced property to control how much memory can be used during a query. 
+
+In SQL Server 2019 and later, this setting applies only to memory spools where intermediate DAX query results are created during query processing. It does not apply to MDX queries. In Azure Analysis Services, this setting is not limited only to memory spools. It applies to all memory utilized by both DAX and MDX queries.
+
+Specified in percentage up to 100. When more than 100, it's in bytes. Setting a value of 0 means no limit is specified. For Azure Analysis Services, the default value is determined by your plan. 
 
 |Plan  |Default  |
 |---------|---------|
