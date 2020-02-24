@@ -41,7 +41,7 @@ To complete this tutorial, you need:
 
 -   An Azure subscription. If you don't already have a subscription, create a [free account](https://azure.microsoft.com/free/).
 
--   An [Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal) with the **sample AdventureWorksDW database**.
+-   An [Azure Synapse Analytics](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal) (SQL Data Warehouse) named **AdventureWorksDW** with the **sample AdventureWorksDW database**.
 
 -   An Azure Analysis Services server (recommended).  See [create a server](https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server). Or, SQL Server 2019 Analysis Services server in Tabular mode. Download a free [SQL Server 2019 Developer Edition](https://www.microsoft.com/sql-server/sql-server-downloads).
 
