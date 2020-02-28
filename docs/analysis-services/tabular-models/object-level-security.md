@@ -18,7 +18,7 @@ Data model security starts with effectively implementing [roles](../../analysis-
 
 With table-level security, you can not only restrict access to table data, but also sensitive table names, helping prevent malicious users from discovering if a table exists. 
 
- Table-level security is set in the JSON-based metadata in the Model.bim, [Tabular Model Scripting Language (TMSL)](https://docs.microsoft.com/bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference), or [Tabular Object Model (TOM)](https://docs.microsoft.com/bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo). Set the **metadataPermission** property of the **tablePermissions** class in the [Roles object](https://docs.microsoft.com/bi-reference/tmsl/roles-object-tmsl) to **none**.
+ Table-level security is set in the JSON-based metadata in the Model.bim, [Tabular Model Scripting Language (TMSL)](https://docs.microsoft.com/bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference), or [Tabular Object Model (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo). Set the **metadataPermission** property of the **tablePermissions** class in the [Roles object](https://docs.microsoft.com/bi-reference/tmsl/roles-object-tmsl) to **none**.
 
 In this example, the metadataPermission property of the tablePermissions class for the Product table is set to none:
 
@@ -41,7 +41,7 @@ In this example, the metadataPermission property of the tablePermissions class f
 
 Similar to table-level security, with column-level security you can not only restrict access to column data, but also sensitive column names,  helping prevent malicious users from discovering a column.
 
- Column-level security is set in the JSON-based metadata in the Model.bim, [Tabular Model Scripting Language (TMSL)](https://docs.microsoft.com/bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference), or [Tabular Object Model (TOM)](https://docs.microsoft.com/bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo). Set the **metadataPermission** property of the **columnPermissions** class in the [Roles object](https://docs.microsoft.com/bi-reference/tmsl/roles-object-tmsl) to **none**.
+ Column-level security is set in the JSON-based metadata in the Model.bim, [Tabular Model Scripting Language (TMSL)](https://docs.microsoft.com/bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference), or [Tabular Object Model (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo). Set the **metadataPermission** property of the **columnPermissions** class in the [Roles object](https://docs.microsoft.com/bi-reference/tmsl/roles-object-tmsl) to **none**.
 
 In this example, the metadataPermission property of the columnPermissions class for the Base Rate column in the Employees table is set to none:
 
@@ -86,6 +86,6 @@ In this example, the metadataPermission property of the columnPermissions class 
 [Roles](../../analysis-services/tabular-models/roles-ssas-tabular.md)  
 [Roles object (TMSL)](https://docs.microsoft.com/bi-reference/tmsl/roles-object-tmsl)  
 [Tabular Model Scripting Language (TMSL)](https://docs.microsoft.com/bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference)  
-[Tabular Object Model (TOM)](https://docs.microsoft.com/bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo).
+[Tabular Object Model (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo).
 
   

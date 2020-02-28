@@ -33,19 +33,6 @@ conceptualContent:
           text: TMSL Reference - Tabular Objects
 
     # Card
-    - title: Tabular Object Model (TOM)
-      links:
-        - url: tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md
-          itemType: overview
-          text: TOM overview
-        - url: tom/connect-to-existing-analysis-services-tabular-server-and-database.md
-          itemType: concept
-          text: Connect to a tabular server and database
-        - url: tom/add-a-data-source-to-tabular-model-analysis-services-amo-tom.md
-          itemType: concept
-          text: Add a data source to tabular model
-
-    # Card
     - title: Analysis Management Objects (AMO)
       links:
         - url: amo/developing-with-analysis-management-objects-amo.md
