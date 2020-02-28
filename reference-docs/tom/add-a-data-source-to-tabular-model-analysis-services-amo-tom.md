@@ -8,7 +8,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Add a data source to tabular model (AMO-TOM)
 

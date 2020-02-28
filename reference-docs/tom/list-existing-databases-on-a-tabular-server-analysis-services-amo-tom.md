@@ -8,7 +8,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # List existing databases on a tabular server (AMO-TOM)
 

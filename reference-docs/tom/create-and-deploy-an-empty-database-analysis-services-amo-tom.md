@@ -8,7 +8,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Create and deploy an empty database (AMO-TOM)
 
