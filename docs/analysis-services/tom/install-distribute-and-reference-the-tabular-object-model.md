@@ -8,7 +8,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Install, distribute, and reference the Tabular Object Model
 

@@ -1,6 +1,6 @@
 ---
 title: "Tabular Object Model (TOM) in AMO | Microsoft Docs"
-ms.date: 03/29/2019
+ms.date: 02/27/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,11 +8,10 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Tabular Object Model (TOM)
 
-[!INCLUDE[ssas2016-lateryes-aasyes-pbino](../includes/ssas2016-lateryes-aasyes-pbino.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
 
   The Tabular Object Model (TOM) is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher. As with AMO, TOM provides a programmatic way to handle administrative functions like creating models, importing and refreshing data, and assigning roles and permissions.  
   
@@ -21,7 +20,7 @@ TOM exposes native tabular metadata, such as **model**, **tables**, **columns**,
  Because TOM is an extension of AMO, all classes representing new tabular objects are implemented in a new **Microsoft.AnalysisServices.Tabular.dll** assembly. General-purpose classes of AMO were moved to **Microsoft.AnalysisServices.Core** assembly. Your code will need to reference both assemblies.
  See [Install, distribute, and reference the Tabular Object Model &#40;Microsoft.AnalysisServices.Tabular&#41;](install-distribute-and-reference-the-tabular-object-model.md) for details.  
   
- Currently, the API is available only for managed code over the .NET framework. To review the full list of programming options, including script and query language support, see [Tabular Model Programming for Compatibility Level 1200](https://docs.microsoft.com/sql/analysis-services/tabular-model-programming-compatibility-level-1200/tabular-model-programming-for-compatibility-level-1200).  
+ Currently, the API is available only for managed code over the .NET framework. To review the full list of programming options, including script and query language support, see [Tabular Model Programming for Compatibility Level 1200](/analysis-services/tabular-models/tabular-model-programming-for-compatibility-level-1200).  
   
 ## Tabular object model hierarchy
 
@@ -41,7 +40,7 @@ In contrast, when you manage objects that are part of tabular metadata, such as 
 
 ### TOM and XMLA
 
-On the wire, TOM uses the XMLA protocol to communicate with the server and to manage objects. When managing non-tabular objects, TOM uses [ASSL](../assl/analysis-services-scripting-language-assl-for-xmla.md), the Analysis Services Scripting Language extension of XMLA. When managing tabular objects, TOM uses the MS-SSAS-T tabular protocol, also an extension of XMLA. To learn more, see [MS-SSAS-T SQL Server Analysis Services Tabular protocol documentation](https://msdn.microsoft.com/library/mt719260.aspx).
+On the wire, TOM uses the XMLA protocol to communicate with the server and to manage objects. When managing non-tabular objects, TOM uses ASSL, the Analysis Services Scripting Language extension of XMLA. When managing tabular objects, TOM uses the MS-SSAS-T tabular protocol, also an extension of XMLA. To learn more, see [MS-SSAS-T SQL Server Analysis Services Tabular protocol documentation](https://msdn.microsoft.com/library/mt719260.aspx).
 
 ### TOM and JSON
 

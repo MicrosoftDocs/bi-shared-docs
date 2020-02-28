@@ -23,7 +23,7 @@ A command and object model definition syntax for tabular models at compatibility
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
-### [Tabular Object Model (TOM)](/bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) 
+### [Tabular Object Model (TOM)](tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md) 
 
 TOM is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models at compatibility level 1200 and higher.
 

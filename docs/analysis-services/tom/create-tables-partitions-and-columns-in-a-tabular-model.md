@@ -8,7 +8,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Create Tables, Partitions, and Columns in a Tabular model
 
