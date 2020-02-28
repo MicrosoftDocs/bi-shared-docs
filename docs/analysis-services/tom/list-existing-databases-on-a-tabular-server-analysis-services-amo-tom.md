@@ -12,6 +12,8 @@ author: minewiskan
 ---
 # List existing databases on a tabular server (AMO-TOM)
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
 When you have a **Server** object that is connected to a server instance, you can iterate over **Server.Databases** collection to list all databases hosted by the instance. 
 
 The **Server.Databases** collection contains one **Database** object for every database hosted on the server, regardless of server mode. 

@@ -12,6 +12,8 @@ author: minewiskan
 ---
 # Add a data source to tabular model (AMO-TOM)
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
 The **DataSource** class in the Microsoft.AnalysisServices.Tabular namespace is an abstraction of a tabular model’s data source that specifies the type and location of imported data during a data refresh operation. 
 
 You can add a data source to the tabular model by instantiating an object of a class derived from **DataSource**, and then add it to the **DataSources** collection of the Model object. To commit changes to the server, call either **Model.SaveChanges()** or **Database.Update(UpdateOptions.ExpandFull)**. 

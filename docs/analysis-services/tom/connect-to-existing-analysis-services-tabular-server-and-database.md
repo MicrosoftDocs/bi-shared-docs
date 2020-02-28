@@ -12,6 +12,8 @@ author: minewiskan
 ---
 # Connect to an existing tabular server and database
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
 Analysis Services Management Objects (AMO) includes several namespaces that can be used to set up a server connection. This article explains how to establish a server connection using the **Microsoft.AnalysisServices.Tabular** namespace for models and databases created at 1200 or higher compatibility level . 
 
 To connect to a server, your code must instantiate a Server object and then call the Connect method on it. Once connected, properties of the Server object will reflect the settings of the current server instance. 
