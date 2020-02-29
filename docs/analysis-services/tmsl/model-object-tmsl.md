@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Model object (TMSL)
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   Defines a tabular model. There is one model per database, and only one database that can be specified in any given command. A Database object is the parent object.  
   
  Model definitions are too large to reproduce the entire syntax in one topic. For this reason, a  partial syntax highlighting the main parts can be found below, with links to child objects.  

@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Restore command (TMSL)
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   Restores a tabular database from a backup file.  
   
 ## Request  

@@ -12,6 +12,8 @@ manager: kfile
 ---
 # CreateOrReplace command (TMSL)
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   Creates or replaces the specified object and all the descendant objects that are specified. Non-existent objects are created. Existing objects are replaced with the new definition.  
   
  Whenever you specify a read-write property, make sure to include them all. Omission of a read-write object is considered a deletion.  

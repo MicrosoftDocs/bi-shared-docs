@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Partitions object (TMSL)
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   Defines a partition, or logical segmentation, of the table rowset. A partition consists of a SQL query used for importing data, for sample data in the modeling environment, or as a full data query for pass through query execution via DirectQuery.  
   
  Properties on the partition determine how the data is sourced for the table.  In the object hierarchy, the parent object of a partition is a table object.  
