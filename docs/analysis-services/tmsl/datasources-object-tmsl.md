@@ -12,6 +12,8 @@ manager: kfile
 ---
 # DataSources object (TMSL)
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
 Defines a connection to a datasource used by the model either during import to add data to the model, or in pass through queries via DirectQuery mode.  models in DirectQuery mode can only have one **DataSource** object.  
 
 How the **DataSource** object is defined in a model is determined by compatibility level: 

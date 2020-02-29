@@ -1302,6 +1302,53 @@
       - name: List existing tabular databases on a server (AMO-TOM)
         href: tom/list-existing-databases-on-a-tabular-server-analysis-services-amo-tom.md
 
+    - name: Tabular Model Scripting Language (TMSL)
+      items: 
+      - name: Tabular Model Scripting Language overview
+        href: tmsl/tabular-model-scripting-language-tmsl-reference.md
+      - name: Commands
+        items:
+        - name: Alter command (TMSL)
+          href: tmsl/alter-command-tmsl.md
+        - name: Attach command (TMSL)
+          href: tmsl/attach-command-tmsl.md
+        - name: Backup command (TMSL)
+          href: tmsl/backup-command-tmsl.md
+        - name: Create command (TMSL)
+          href: tmsl/create-command-tmsl.md
+        - name: CreateOrReplace command (TMSL)
+          href: tmsl/createorreplace-command-tmsl.md
+        - name: Delete command (TMSL)
+          href: tmsl/delete-command-tmsl.md
+        - name: Detach command (TMSL)
+          href: tmsl/detach-command-tmsl.md
+        - name: MergePartitions command (TMSL)
+          href: tmsl/mergepartitions-command-tmsl.md
+        - name: Refresh command (TMSL)
+          href: tmsl/refresh-command-tmsl.md
+        - name: Restore command (TMSL)
+          href: tmsl/restore-command-tmsl.md
+        - name: Sequence command (TMSL)
+          href: tmsl/sequence-command-tmsl.md
+        - name: Synchronize command (TMSL)
+          href: tmsl/synchronize-command-tmsl.md
+      - name: Objects
+        items:
+        - name: Database object (TMSL)
+          href: tmsl/database-object-tmsl.md
+        - name: DataSources object (TMSL)
+          href: tmsl/datasources-object-tmsl.md
+        - name: Model object (TMSL)
+          href: tmsl/model-object-tmsl.md
+        - name: Partitions object (TMSL)
+          href: tmsl/partitions-object-tmsl.md
+        - name: Relationships object (TMSL)
+          href: tmsl/relationships-object-tmsl.md
+        - name: Roles object (TMSL)
+          href: tmsl/roles-object-tmsl.md
+        - name: Tables object (TMSL)
+          href: tmsl/tables-object-tmsl.md
+
   - name: Multidimensional models
     items:
     - name: Multidimensional model programming

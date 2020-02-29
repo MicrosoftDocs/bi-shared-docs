@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Create command (TMSL)
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   Creates the specified object and all of the descendant objects that are specified. If the object already exists, the command raises an error.  
   
 ## Request  

@@ -49,7 +49,7 @@ Analysis Services provides many ways to customize a solution through code, but m
 [Analysis Services Management Objects (AMO)](https://docs.microsoft.com/bi-reference/amo/developing-with-analysis-management-objects-amo)
 Developer reference documentation for the managed provider, Analysis Services Management Objects (AMO), for data definition and administration, including processing.
 
-[Tabular Model Scripting Language &#40;TMSL&#41; Reference](https://docs.microsoft.com/bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference)
+[Tabular Model Scripting Language &#40;TMSL&#41; Reference](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference)
 TMSL is a JSON representation of Tabular models at compatibility level 1200 and higher. Object definitions are based on tabular metadata constructs like table, column, and relationship rather than multidimensional metadata that might be unfamiliar if you are new to Analysis Services data modeling in Tabular mode.
 
 [Tabular model programming for compatibility levels 1200 and higher](../analysis-services/tabular-model-programming-compatibility-level-1200/tabular-model-programming-for-compatibility-level-1200.md).
