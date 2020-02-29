@@ -20,19 +20,6 @@ conceptualContent:
   items:
 
     # Card
-    - title: Tabular Model Scripting Language (TMSL)
-      links:
-        - url: tmsl/tabular-model-scripting-language-tmsl-reference.md
-          itemType: overview
-          text: TMSL overview
-        - url: tmsl/tmsl-reference-commands.md
-          itemType: reference
-          text: TMSL Reference - Commands
-        - url: tmsl/tmsl-reference-tabular-objects.md
-          itemType: reference
-          text: TMSL Reference - Tabular Objects
-
-    # Card
     - title: Analysis Management Objects (AMO)
       links:
         - url: amo/developing-with-analysis-management-objects-amo.md

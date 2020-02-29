@@ -15,7 +15,7 @@ author: minewiskan
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
-### [Tabular Model Scripting Language (TMSL)](/bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference)
+### [Tabular Model Scripting Language (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference)
 
 A command and object model definition syntax for tabular models at compatibility level 1200 or higher. TMSL communicates through the XMLA protocol, where the XMLA.Execute method accepts both JSON-based and ASSL-based scripts.
 

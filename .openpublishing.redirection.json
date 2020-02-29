@@ -1071,6 +1071,118 @@
       "source_path": "bi-reference/tom/list-existing-databases-on-a-tabular-server-analysis-services-amo-tom.md",
       "redirect_url": "/analysis-services/tom/list-existing-databases-on-a-tabular-server-analysis-services-amo-tom",
       "redirect_document_id": false
+    },
+
+
+    {
+      "source_path": "bi-reference/tmsl/tabular-model-scripting-language-tmsl-reference.md",
+      "redirect_url": "/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference",
+      "redirect_document_id": false
+    },
+	  {
+      "source_path": "bi-reference/tmsl/alter-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/alter-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/attach-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/attach-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/backup-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/backup-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/create-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/create-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/createorreplace-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/createorreplace-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/database-object-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/database-object-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/datasources-object-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/datasources-object-tmsl",
+      "redirect_document_id": false
+    },
+	  {
+      "source_path": "bi-reference/tmsl/delete-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/delete-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/detach-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/detach-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/mergepartitions-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/mergepartitions-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/model-object-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/model-object-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/partitions-object-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/partitions-object-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/refresh-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/refresh-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/relationships-object-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/relationships-object-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/restore-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/restore-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/roles-object-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/roles-object-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/sequence-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/sequence-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/synchronize-command-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/synchronize-command-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/tables-object-tmsl.md",
+      "redirect_url": "/analysis-services/tmsl/tables-object-tmsl",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/tmsl-reference-commands.md",
+      "redirect_url": "/analysis-services/tmsl/tmsl-reference-commands",
+      "redirect_document_id": false
+    },
+  	{
+      "source_path": "bi-reference/tmsl/tmsl-reference-tabular-objects.md",
+      "redirect_url": "/analysis-services/tmsl/tmsl-reference-tabular-objects",
+      "redirect_document_id": false
     }
 
   ]
