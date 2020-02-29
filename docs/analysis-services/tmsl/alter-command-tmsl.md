@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Alter command (TMSL)
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   Alters an existing object, but not its children.  If the object does not exist, the command raises an error.  
   
  Use **Alter** command for targeted updates, like setting a property on a table without having to specify all of the columns as well. This command is similar to **CreateOrReplace**, but without the requirement of having to provide a full object definition.  

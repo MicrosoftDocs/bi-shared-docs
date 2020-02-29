@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Backup command (TMSL)
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   Backs up a tabular database to an .abf backup file.  
   
 ## Request  
