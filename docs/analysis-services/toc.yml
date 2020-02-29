@@ -1347,7 +1347,7 @@
         - name: Roles object (TMSL)
           href: tmsl/roles-object-tmsl.md
         - name: Tables object (TMSL)
-          href: tables-object-tmsl.md
+          href: tmsl/tables-object-tmsl.md
 
   - name: Multidimensional models
     items:
