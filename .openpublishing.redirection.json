@@ -1183,6 +1183,83 @@
       "source_path": "bi-reference/tmsl/tmsl-reference-tabular-objects.md",
       "redirect_url": "/analysis-services/tmsl/tmsl-reference-tabular-objects",
       "redirect_document_id": false
+    },
+
+
+    {
+      "source_path": "bi-reference/amo/developing-with-analysis-management-objects-amo.md",
+      "redirect_url": "/analysis-services/amo/developing-with-analysis-management-objects-amo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bi-reference/amo/amo-classes-introduction.md",
+      "redirect_url": "/analysis-services/amo/amo-classes-introduction",
+      "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-concepts-and-object-model.md",
+        "redirect_url": "/analysis-services/amo/amo-concepts-and-object-model",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-data-mining-classes.md",
+        "redirect_url": "/analysis-services/amo/amo-data-mining-classes",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-fundamental-classes.md",
+        "redirect_url": "/analysis-services/amo/amo-fundamental-classes",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-olap-classes.md",
+        "redirect_url": "/analysis-services/amo/amo-olap-classes",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-other-classes-and-methods.md",
+        "redirect_url": "/analysis-services/amo/amo-other-classes-and-methods",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-security-classes.md",
+        "redirect_url": "/analysis-services/amo/amo-security-classes",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-administrative-tasks-with-amo.md",
+        "redirect_url": "/analysis-services/amo/programming-administrative-tasks-with-amo",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-complementary-classes-and-methods.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-complementary-classes-and-methods",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-data-mining-objects.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-data-mining-objects",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-fundamental-objects.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-fundamental-objects",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-olap-advanced-objects.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-olap-advanced-objects",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-olap-basic-objects.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-olap-basic-objects",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-security-objects.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-security-objects",
+        "redirect_document_id": false
     }
 
   ]
