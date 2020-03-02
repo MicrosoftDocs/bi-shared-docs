@@ -46,7 +46,7 @@ Analysis Services provides many ways to customize a solution through code, but m
 
 ## Programming for Analysis Services
 
-[Analysis Services Management Objects (AMO)](https://docs.microsoft.com/bi-reference/amo/developing-with-analysis-management-objects-amo)
+[Analysis Services Management Objects (AMO)](https://docs.microsoft.com/analysis-services/amo/developing-with-analysis-management-objects-amo)
 Developer reference documentation for the managed provider, Analysis Services Management Objects (AMO), for data definition and administration, including processing.
 
 [Tabular Model Scripting Language &#40;TMSL&#41; Reference](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference)

@@ -1183,6 +1183,210 @@
       "source_path": "bi-reference/tmsl/tmsl-reference-tabular-objects.md",
       "redirect_url": "/analysis-services/tmsl/tmsl-reference-tabular-objects",
       "redirect_document_id": false
+    },
+
+
+    {
+      "source_path": "bi-reference/amo/developing-with-analysis-management-objects-amo.md",
+      "redirect_url": "/analysis-services/amo/developing-with-analysis-management-objects-amo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bi-reference/amo/amo-classes-introduction.md",
+      "redirect_url": "/analysis-services/amo/amo-classes-introduction",
+      "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-concepts-and-object-model.md",
+        "redirect_url": "/analysis-services/amo/amo-concepts-and-object-model",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-data-mining-classes.md",
+        "redirect_url": "/analysis-services/amo/amo-data-mining-classes",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-fundamental-classes.md",
+        "redirect_url": "/analysis-services/amo/amo-fundamental-classes",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-olap-classes.md",
+        "redirect_url": "/analysis-services/amo/amo-olap-classes",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-other-classes-and-methods.md",
+        "redirect_url": "/analysis-services/amo/amo-other-classes-and-methods",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/amo-security-classes.md",
+        "redirect_url": "/analysis-services/amo/amo-security-classes",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-administrative-tasks-with-amo.md",
+        "redirect_url": "/analysis-services/amo/programming-administrative-tasks-with-amo",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-complementary-classes-and-methods.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-complementary-classes-and-methods",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-data-mining-objects.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-data-mining-objects",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-fundamental-objects.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-fundamental-objects",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-olap-advanced-objects.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-olap-advanced-objects",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-olap-basic-objects.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-olap-basic-objects",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/amo/programming-amo-security-objects.md",
+        "redirect_url": "/analysis-services/amo/programming-amo-security-objects",
+        "redirect_document_id": false
+    },
+
+
+    {
+      "source_path": "bi-reference/trace-events/analysis-services-trace-events.md",
+      "redirect_url": "/analysis-services/trace-events/analysis-services-trace-events",
+      "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/command-events-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/command-events-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/command-events-event-category.md",
+        "redirect_url": "/analysis-services/trace-events/command-events-event-category",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/discover-events-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/discover-events-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/discover-events-event-category.md",
+        "redirect_url": "/analysis-services/trace-events/discover-events-event-category",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/discover-server-state-event-category.md",
+        "redirect_url": "/analysis-services/trace-events/discover-server-state-event-category",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/discover-server-state-events-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/discover-server-state-events-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/errors-and-warnings-event-category.md",
+        "redirect_url": "/analysis-services/trace-events/errors-and-warnings-event-category",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/errors-and-warnings-events-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/errors-and-warnings-events-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/file-load-and-save-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/file-load-and-save-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/file-load-and-save-event-category.md",
+        "redirect_url": "/analysis-services/trace-events/file-load-and-save-event-category",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/lock-events-category.md",
+        "redirect_url": "/analysis-services/trace-events/lock-events-category",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/lock-events-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/lock-events-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/notification-events-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/notification-events-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/notification-events-event-category.md",
+        "redirect_url": "/analysis-services/trace-events/notification-events-event-category",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/progress-reports-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/progress-reports-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/progress-reports-event-category.md",
+        "redirect_url": "/analysis-services/trace-events/progress-reports-event-category",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/queries-events-category.md",
+        "redirect_url": "/analysis-services/trace-events/queries-events-category",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/queries-events-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/queries-events-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/query-processing-events-category.md",
+        "redirect_url": "/analysis-services/trace-events/query-processing-events-category",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/query-processing-events-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/query-processing-events-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/security-audit-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/security-audit-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/security-audit-event-category.md",
+        "redirect_url": "/analysis-services/trace-events/security-audit-event-category",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/session-events-data-columns.md",
+        "redirect_url": "/analysis-services/trace-events/session-events-data-columns",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/trace-events/session-events-event-category.md",
+        "redirect_url": "/analysis-services/trace-events/session-events-event-category",
+        "redirect_document_id": false
     }
 
   ]

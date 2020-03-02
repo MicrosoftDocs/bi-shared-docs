@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Analysis Management Objects (AMO)
 
-[!INCLUDE[ssasyes-aasyes-pbino](../includes/ssasyes-aasyes-pbino.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
 
 Analysis Management Objects (AMO) is a library of programmatically accessed objects that enables an application to manage an Analysis Services instance.
 

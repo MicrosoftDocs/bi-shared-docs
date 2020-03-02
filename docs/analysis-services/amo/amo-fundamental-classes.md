@@ -11,6 +11,9 @@ author: minewiskan
 manager: kfile
 ---
 # AMO Fundamental Classes
+
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   Fundamental classes are the starting point for working with Analysis Management Objects (AMO). Through these classes you establish your environment for the rest of the objects that will be used in your application. Fundamental classes include the following objects: <xref:Microsoft.AnalysisServices.Server>, <xref:Microsoft.AnalysisServices.Database>, <xref:Microsoft.AnalysisServices.DataSource>, and <xref:Microsoft.AnalysisServices.DataSourceView>.  
   
  The following illustration shows the relationship of the classes that are explained in this topic.  
@@ -48,5 +51,5 @@ manager: kfile
  Data sources are managed by using the <xref:Microsoft.AnalysisServices.DataSourceCollection> from the database class. An instance of <xref:Microsoft.AnalysisServices.DataSource> can be created by using the Add method from a <xref:Microsoft.AnalysisServices.DataSourceCollection> object. An instance of <xref:Microsoft.AnalysisServices.DataSource> can be deleted by using the Remove method from a <xref:Microsoft.AnalysisServices.DataSourceCollection> object.  
   
  <xref:Microsoft.AnalysisServices.DataSourceView> objects are managed from the <xref:Microsoft.AnalysisServices.DataSourceViewCollection> object in the database class.  
-  
+
  For more information about methods and properties available, see <xref:Microsoft.AnalysisServices.DataSource> and <xref:Microsoft.AnalysisServices.DataSourceView> in the <xref:Microsoft.AnalysisServices>.

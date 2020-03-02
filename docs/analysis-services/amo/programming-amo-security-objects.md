@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Programming AMO security objects
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   In Analysis Services, programming security objects or running applications that use AMO security objects requires being a member of the Server Administrator group or the Database Administrator group. Server Administrator and Database Administrator.  
   
  In Analysis Services, user access to any object is obtained through the combination of Roles and Permissions assigned to that object. For more information, see [AMO Security Classes](amo-security-classes.md).  
