@@ -1228,14 +1228,66 @@
           href: ../analysis-services/instances/introduction-to-monitoring-analysis-services-with-sql-server-profiler.md
         - name: Create Profiler Traces for Replay
           href: ../analysis-services/instances/create-profiler-traces-for-replay-analysis-services.md
+      - name: Trace Events
+        items:
+        - name: Trace Events overview
+          href: trace-events/analysis-services-trace-events.md
+        - name: Object codes used in traces
+          href: trace-events/analysis-services-object-type-codes-used-in-traces.md
+        - name: Command Events Event Category
+          href: trace-events/command-events-event-category.md
+        - name: Command Events Data Columns
+          href: trace-events/command-events-data-columns.md
+        - name: Discover Events Event Category
+          href: trace-events/discover-events-event-category.md
+        - name: Discover Events Data Columns
+          href: trace-events/discover-events-data-columns.md
+        - name: Discover Server State Event Category
+          href: trace-events/discover-server-state-event-category.md
+        - name: Discover Server State Events Data Columns
+          href: trace-events/discover-server-state-events-data-columns.md
+        - name: Errors and Warnings Event Category
+          href: trace-events/errors-and-warnings-event-category.md
+        - name: Errors and Warnings Events Data Columns
+          href: trace-events/errors-and-warnings-events-data-columns.md
+        - name: File Load and Save Event Category
+          href: trace-events/file-load-and-save-event-category.md
+        - name: File Load and Save Data Columns
+          href: trace-events/file-load-and-save-data-columns.md
+        - name: Lock Events Category
+          href: trace-events/lock-events-category.md
+        - name: Lock Events Data Columns
+          href: trace-events/lock-events-data-columns.md
+        - name: Notification Events Event Category
+          href: trace-events/notification-events-event-category.md
+        - name: Notification Events Data Columns
+          href: trace-events/notification-events-data-columns.md
+        - name: Progress Reports Event Category
+          href: trace-events/progress-reports-event-category.md
+        - name: Progress Reports Data Columns
+          href: trace-events/progress-reports-data-columns.md
+        - name: Queries Events Category
+          href: trace-events/queries-events-category.md
+        - name: Queries Events Data Columns
+          href: trace-events/queries-events-data-columns.md
+        - name: Query Processing Events Category
+          href: trace-events/query-processing-events-category.md
+        - name: Query Processing Events Data Columns
+          href: trace-events/query-processing-events-data-columns.md
+        - name: Security Audit Event Category
+          href: trace-events/security-audit-event-category.md
+        - name: Security Audit Data Columns
+          href: trace-events/security-audit-data-columns.md
+        - name: Session Events Event Category
+          href: trace-events/session-events-event-category.md
+        - name: Session Events Data Columns
+          href: trace-events/session-events-data-columns.md
       - name: Extended Events
         href: ../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md
       - name: Dynamic Management Views (DMVs)
         href: ../analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md
       - name: Performance counters
         href: ../analysis-services/instances/performance-counters-ssas.md
-      - name: Trace-events
-        href: /bi-reference/trace-events/analysis-services-trace-events
       - name: Log operations
         href: ../analysis-services/instances/log-operations-in-analysis-services.md
     - name: Clear server caches
@@ -1554,19 +1606,19 @@
     items: 
     - name: Tabular Object Model overview
       href: tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md
-    - name: Add a data source to tabular model (AMO-TOM)
+    - name: Add a data source to tabular model (TOM)
       href: tom/add-a-data-source-to-tabular-model-analysis-services-amo-tom.md
-    - name: Connect to existing server and database (AMO-TOM)
+    - name: Connect to existing server and database (TOM)
       href: tom/connect-to-existing-analysis-services-tabular-server-and-database.md
-    - name: Create and deploy an empty database (AMO-TOM)
+    - name: Create and deploy an empty database (TOM)
       href: tom/create-and-deploy-an-empty-database-analysis-services-amo-tom.md
-    - name: Create tables, partitions, and columns (AMO-TOM)
+    - name: Create tables, partitions, and columns (TOM)
       href: tom/create-tables-partitions-and-columns-in-a-tabular-model.md
-    - name: Handling errors in the TOM API (AMO-TOM)
+    - name: Handling errors in the TOM API (TOM)
       href: tom/handling-errors-in-the-tom-api-analysis-services-amo-tom.md
     - name: Install, distribute, and reference AMO-TOM assemblies
       href: tom/install-distribute-and-reference-the-tabular-object-model.md
-    - name: List existing tabular databases on a server (AMO-TOM)
+    - name: List existing tabular databases on a server (TOM)
       href: tom/list-existing-databases-on-a-tabular-server-analysis-services-amo-tom.md
 
   - name: Tabular Model Scripting Language (TMSL)
