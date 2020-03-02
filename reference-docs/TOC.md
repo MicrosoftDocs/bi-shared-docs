@@ -1,7 +1,6 @@
 # [Analysis Services references](index.yml)
 
 ## [ADOMD.NET](adomd/developing-with-adomd-net.md)
-## [Analysis Management Objects (AMO)](amo/developing-with-analysis-management-objects-amo.md)
 ## [Analysis Services Scripting Language XML Elements (ASSL)](assl/analysis-services-scripting-language-xml-elements-assl.md)
 ## [Conceptual Schema Definition Language (CSDL)](csdl/csdl-annotations-for-business-intelligence-csdlbi.md)
 ## [Schema Rowsets Reference](schema-rowsets/analysis-services-schema-rowsets.md)

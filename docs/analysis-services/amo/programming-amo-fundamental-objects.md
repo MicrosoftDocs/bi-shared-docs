@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Programming AMO fundamental objects
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   Fundamental objects are generally simple and straightforward objects. These objects are usually created and instantiated, then when they are no longer needed, the user disconnects from them. Fundamental classes include the following objects: <xref:Microsoft.AnalysisServices.Server>, <xref:Microsoft.AnalysisServices.Database>, <xref:Microsoft.AnalysisServices.DataSource>, and <xref:Microsoft.AnalysisServices.DataSourceView>. The only complex object in AMO fundamental objects is <xref:Microsoft.AnalysisServices.DataSourceView>, which requires detail to build the abstract model that represents the data source view.  
   
  <xref:Microsoft.AnalysisServices.Server> and <xref:Microsoft.AnalysisServices.Database> objects are usually required to use the contained objects as OLAP objects or data mining objects.  

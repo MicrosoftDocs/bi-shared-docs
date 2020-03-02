@@ -31,7 +31,7 @@ TOM is an extension of the Analysis Management Object (AMO) client library, crea
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
-### [Analysis Management Objects](/bi-reference/amo/developing-with-analysis-management-objects-amo)
+### [Analysis Management Objects](/analysis-services/amo/developing-with-analysis-management-objects-amo)
 
 Analysis Management Objects (AMO) is a library of programmatically accessed objects that enables an application to manage an Analysis Services instance.
 

@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Programming AMO OLAP advanced objects
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   This topic explains the Analysis Management Objects (AMO) programming details of OLAP advanced objects. 
 
 ## Action objects
