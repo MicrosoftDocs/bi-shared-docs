@@ -33,16 +33,6 @@ conceptualContent:
           text: XML Elements - Commands
 
     # Card
-    - title: Analysis Services Trace events
-      links:
-        - url: trace-events/analysis-services-trace-events.md
-          itemType: overview
-          text: Trace events overview
-        - url: trace-events/analysis-services-object-type-codes-used-in-traces.md
-          itemType: concept
-          text: Object type codes used in traces
-
-    # Card
     - title: Analysis Services schema rowsets
       links:
         - url: schema-rowsets/analysis-services-schema-rowsets.md
