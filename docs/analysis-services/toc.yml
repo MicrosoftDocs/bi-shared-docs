@@ -1238,57 +1238,57 @@
       - name: Trace Events
         items:
         - name: Trace Events overview
-          href: /analysis-services/trace-events/analysis-services-trace-events
+          href: trace-events/analysis-services-trace-events.md
         - name: Object codes used in traces
-          href: analysis-services-object-type-codes-used-in-traces.md
+          href: trace-events/analysis-services-object-type-codes-used-in-traces.md
         - name: Command Events Event Category
-          href: command-events-event-category.md
+          href: trace-events/command-events-event-category.md
         - name: Command Events Data Columns
-          href: command-events-data-columns.md
+          href: trace-events/command-events-data-columns.md
         - name: Discover Events Event Category
-          href: discover-events-event-category.md
+          href: trace-events/discover-events-event-category.md
         - name: Discover Events Data Columns
-          href: discover-events-data-columns.md
+          href: trace-events/discover-events-data-columns.md
         - name: Discover Server State Event Category
-          href: discover-server-state-event-category.md
+          href: trace-events/discover-server-state-event-category.md
         - name: Discover Server State Events Data Columns
-          href: discover-server-state-events-data-columns.md
+          href: trace-events/discover-server-state-events-data-columns.md
         - name: Errors and Warnings Event Category
-          href: errors-and-warnings-event-category.md
+          href: trace-events/errors-and-warnings-event-category.md
         - name: Errors and Warnings Events Data Columns
-          href: errors-and-warnings-events-data-columns.md
+          href: trace-events/errors-and-warnings-events-data-columns.md
         - name: File Load and Save Event Category
-          href: file-load-and-save-event-category.md
+          href: trace-events/file-load-and-save-event-category.md
         - name: File Load and Save Data Columns
-          href: file-load-and-save-data-columns.md
+          href: trace-events/file-load-and-save-data-columns.md
         - name: Lock Events Category
-          href: lock-events-category.md
+          href: trace-events/lock-events-category.md
         - name: Lock Events Data Columns
-          href: lock-events-data-columns.md
+          href: trace-events/lock-events-data-columns.md
         - name: Notification Events Event Category
-          href: notification-events-event-category.md
+          href: trace-events/notification-events-event-category.md
         - name: Notification Events Data Columns
-          href: notification-events-data-columns.md
+          href: trace-events/notification-events-data-columns.md
         - name: Progress Reports Event Category
-          href: progress-reports-event-category.md
+          href: trace-events/progress-reports-event-category.md
         - name: Progress Reports Data Columns
-          href: progress-reports-data-columns.md
+          href: trace-events/progress-reports-data-columns.md
         - name: Queries Events Category
-          href: queries-events-category.md
+          href: trace-events/queries-events-category.md
         - name: Queries Events Data Columns
-          href: queries-events-data-columns.md
+          href: trace-events/queries-events-data-columns.md
         - name: Query Processing Events Category
-          href: query-processing-events-category.md
+          href: trace-events/query-processing-events-category.md
         - name: Query Processing Events Data Columns
-          href: query-processing-events-data-columns.md
+          href: trace-events/query-processing-events-data-columns.md
         - name: Security Audit Event Category
-          href: security-audit-event-category.md
+          href: trace-events/security-audit-event-category.md
         - name: Security Audit Data Columns
-          href: security-audit-data-columns.md
+          href: trace-events/security-audit-data-columns.md
         - name: Session Events Event Category
-          href: session-events-event-category.md
+          href: trace-events/session-events-event-category.md
         - name: Session Events Data Columns
-          href: session-events-data-columns.md
+          href: trace-events/session-events-data-columns.md
 
       - name: Log operations
         href: ../analysis-services/instances/log-operations-in-analysis-services.md
