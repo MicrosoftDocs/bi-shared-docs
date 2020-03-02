@@ -1282,108 +1282,6 @@
       href: ../analysis-services/tabular-models/tabular-model-programming-for-compatibility-level-1200.md
     - name: Tabular 1103 and lower
       href: ../analysis-services/tabular-models/tabular-model-programming-for-compatibility-levels-1050-through-1103.md
-    
-    - name: Tabular Object Model (TOM)
-      items: 
-      - name: Tabular Object Model overview
-        href: tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md
-      - name: Add a data source to tabular model (AMO-TOM)
-        href: tom/add-a-data-source-to-tabular-model-analysis-services-amo-tom.md
-      - name: Connect to existing server and database (AMO-TOM)
-        href: tom/connect-to-existing-analysis-services-tabular-server-and-database.md
-      - name: Create and deploy an empty database (AMO-TOM)
-        href: tom/create-and-deploy-an-empty-database-analysis-services-amo-tom.md
-      - name: Create tables, partitions, and columns (AMO-TOM)
-        href: tom/create-tables-partitions-and-columns-in-a-tabular-model.md
-      - name: Handling errors in the TOM API (AMO-TOM)
-        href: tom/handling-errors-in-the-tom-api-analysis-services-amo-tom.md
-      - name: Install, distribute, and reference AMO-TOM assemblies
-        href: tom/install-distribute-and-reference-the-tabular-object-model.md
-      - name: List existing tabular databases on a server (AMO-TOM)
-        href: tom/list-existing-databases-on-a-tabular-server-analysis-services-amo-tom.md
-
-    - name: Tabular Model Scripting Language (TMSL)
-      items: 
-      - name: Tabular Model Scripting Language overview
-        href: tmsl/tabular-model-scripting-language-tmsl-reference.md
-      - name: Commands
-        items:
-        - name: Alter command (TMSL)
-          href: tmsl/alter-command-tmsl.md
-        - name: Attach command (TMSL)
-          href: tmsl/attach-command-tmsl.md
-        - name: Backup command (TMSL)
-          href: tmsl/backup-command-tmsl.md
-        - name: Create command (TMSL)
-          href: tmsl/create-command-tmsl.md
-        - name: CreateOrReplace command (TMSL)
-          href: tmsl/createorreplace-command-tmsl.md
-        - name: Delete command (TMSL)
-          href: tmsl/delete-command-tmsl.md
-        - name: Detach command (TMSL)
-          href: tmsl/detach-command-tmsl.md
-        - name: MergePartitions command (TMSL)
-          href: tmsl/mergepartitions-command-tmsl.md
-        - name: Refresh command (TMSL)
-          href: tmsl/refresh-command-tmsl.md
-        - name: Restore command (TMSL)
-          href: tmsl/restore-command-tmsl.md
-        - name: Sequence command (TMSL)
-          href: tmsl/sequence-command-tmsl.md
-        - name: Synchronize command (TMSL)
-          href: tmsl/synchronize-command-tmsl.md
-      - name: Objects
-        items:
-        - name: Database object (TMSL)
-          href: tmsl/database-object-tmsl.md
-        - name: DataSources object (TMSL)
-          href: tmsl/datasources-object-tmsl.md
-        - name: Model object (TMSL)
-          href: tmsl/model-object-tmsl.md
-        - name: Partitions object (TMSL)
-          href: tmsl/partitions-object-tmsl.md
-        - name: Relationships object (TMSL)
-          href: tmsl/relationships-object-tmsl.md
-        - name: Roles object (TMSL)
-          href: tmsl/roles-object-tmsl.md
-        - name: Tables object (TMSL)
-          href: tmsl/tables-object-tmsl.md
-
-    - name: Analysis Management Objects (AMO)
-      items:
-      - name: AMO concepts and object model
-        href: amo/amo-concepts-and-object-model.md
-      - name: AMO Classes
-        items:
-        - name: AMO Classes
-          href: amo/amo-classes-introduction.md
-        - name: AMO Data Mining Classes
-          href: amo/amo-data-mining-classes.md
-        - name: AMO Fundamental Classes
-          href: amo/amo-fundamental-classes.md
-        - name: AMO OLAP Classes
-          href: amo/amo-olap-classes.md
-        - name: AMO Other Classes and Methods
-          href: amo/amo-other-classes-and-methods.md
-        - name: AMO Security Classes
-          href: amo/amo-security-classes.md
-      - name: Programming administrative tasks with AMO
-        items:
-        - name: Programming administrative tasks with AMO
-          href: amo/programming-administrative-tasks-with-amo.md
-        - name: Programming AMO Data Mining Objects
-          href: amo/programming-amo-data-mining-objects.md
-        - name: Programming AMO Fundamental Objects
-          href: amo/programming-amo-fundamental-objects.md
-        - name: Programming AMO OLAP Advanced Objects
-          href: amo/programming-amo-olap-advanced-objects.md
-        - name: Programming AMO OLAP Basic Objects
-          href: amo/programming-amo-olap-basic-objects.md
-        - name: Programming AMO Security Objects
-          href: amo/programming-amo-security-objects.md
-      - name: Programming AMO complementary classes and methods
-        href: amo/programming-amo-complementary-classes-and-methods.md
-
   - name: Multidimensional models
     items:
     - name: Multidimensional model programming
@@ -1651,6 +1549,108 @@
       href: ../analysis-services/data-mining/data-mining-programming.md
     - name: OLE DB for Data Mining
       href: ../analysis-services/data-mining/data-mining-programming-ole-db.md
+
+  - name: Tabular Object Model (TOM)
+    items: 
+    - name: Tabular Object Model overview
+      href: tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md
+    - name: Add a data source to tabular model (AMO-TOM)
+      href: tom/add-a-data-source-to-tabular-model-analysis-services-amo-tom.md
+    - name: Connect to existing server and database (AMO-TOM)
+      href: tom/connect-to-existing-analysis-services-tabular-server-and-database.md
+    - name: Create and deploy an empty database (AMO-TOM)
+      href: tom/create-and-deploy-an-empty-database-analysis-services-amo-tom.md
+    - name: Create tables, partitions, and columns (AMO-TOM)
+      href: tom/create-tables-partitions-and-columns-in-a-tabular-model.md
+    - name: Handling errors in the TOM API (AMO-TOM)
+      href: tom/handling-errors-in-the-tom-api-analysis-services-amo-tom.md
+    - name: Install, distribute, and reference AMO-TOM assemblies
+      href: tom/install-distribute-and-reference-the-tabular-object-model.md
+    - name: List existing tabular databases on a server (AMO-TOM)
+      href: tom/list-existing-databases-on-a-tabular-server-analysis-services-amo-tom.md
+
+  - name: Tabular Model Scripting Language (TMSL)
+    items: 
+    - name: Tabular Model Scripting Language overview
+      href: tmsl/tabular-model-scripting-language-tmsl-reference.md
+    - name: Commands
+      items:
+      - name: Alter command (TMSL)
+        href: tmsl/alter-command-tmsl.md
+      - name: Attach command (TMSL)
+        href: tmsl/attach-command-tmsl.md
+      - name: Backup command (TMSL)
+        href: tmsl/backup-command-tmsl.md
+      - name: Create command (TMSL)
+        href: tmsl/create-command-tmsl.md
+      - name: CreateOrReplace command (TMSL)
+        href: tmsl/createorreplace-command-tmsl.md
+      - name: Delete command (TMSL)
+        href: tmsl/delete-command-tmsl.md
+      - name: Detach command (TMSL)
+        href: tmsl/detach-command-tmsl.md
+      - name: MergePartitions command (TMSL)
+        href: tmsl/mergepartitions-command-tmsl.md
+      - name: Refresh command (TMSL)
+        href: tmsl/refresh-command-tmsl.md
+      - name: Restore command (TMSL)
+        href: tmsl/restore-command-tmsl.md
+      - name: Sequence command (TMSL)
+        href: tmsl/sequence-command-tmsl.md
+      - name: Synchronize command (TMSL)
+        href: tmsl/synchronize-command-tmsl.md
+    - name: Objects
+      items:
+      - name: Database object (TMSL)
+        href: tmsl/database-object-tmsl.md
+      - name: DataSources object (TMSL)
+        href: tmsl/datasources-object-tmsl.md
+      - name: Model object (TMSL)
+        href: tmsl/model-object-tmsl.md
+      - name: Partitions object (TMSL)
+        href: tmsl/partitions-object-tmsl.md
+      - name: Relationships object (TMSL)
+        href: tmsl/relationships-object-tmsl.md
+      - name: Roles object (TMSL)
+        href: tmsl/roles-object-tmsl.md
+      - name: Tables object (TMSL)
+        href: tmsl/tables-object-tmsl.md
+
+  - name: Analysis Management Objects (AMO)
+    items:
+    - name: AMO concepts and object model
+      href: amo/amo-concepts-and-object-model.md
+    - name: AMO Classes
+      items:
+      - name: AMO Classes
+        href: amo/amo-classes-introduction.md
+      - name: AMO Data Mining Classes
+        href: amo/amo-data-mining-classes.md
+      - name: AMO Fundamental Classes
+        href: amo/amo-fundamental-classes.md
+      - name: AMO OLAP Classes
+        href: amo/amo-olap-classes.md
+      - name: AMO Other Classes and Methods
+        href: amo/amo-other-classes-and-methods.md
+      - name: AMO Security Classes
+        href: amo/amo-security-classes.md
+    - name: Programming administrative tasks with AMO
+      items:
+      - name: Programming administrative tasks with AMO
+        href: amo/programming-administrative-tasks-with-amo.md
+      - name: Programming AMO Data Mining Objects
+        href: amo/programming-amo-data-mining-objects.md
+      - name: Programming AMO Fundamental Objects
+        href: amo/programming-amo-fundamental-objects.md
+      - name: Programming AMO OLAP Advanced Objects
+        href: amo/programming-amo-olap-advanced-objects.md
+      - name: Programming AMO OLAP Basic Objects
+        href: amo/programming-amo-olap-basic-objects.md
+      - name: Programming AMO Security Objects
+        href: amo/programming-amo-security-objects.md
+    - name: Programming AMO complementary classes and methods
+      href: amo/programming-amo-complementary-classes-and-methods.md
+
 - name: References
   href: ../analysis-services/analysis-services-references.md
 - name: Samples
