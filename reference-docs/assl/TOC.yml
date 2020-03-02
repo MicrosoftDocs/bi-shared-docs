@@ -1,0 +1,967 @@
+- name: Analysis Services Scripting Language (ASSL)
+  href: analysis-services-scripting-language-assl-for-xmla.md
+  items:
+  - name: Analysis Services Scripting Language XML Data Type Hierarchy (ASSL)
+    href: analysis-services-scripting-language-xml-data-type-hierarchy-assl.md
+  - name: Analysis Services Scripting Language XML Element Hierarchy (ASSL)
+    href: analysis-services-scripting-language-xml-element-hierarchy-assl.md
+  - name: Analysis Services Scripting Language XML Elements (ASSL)
+    href: analysis-services-scripting-language-xml-elements-assl.md
+  - name: Collections (ASSL)
+    href: collections/collections-assl.md
+    items:
+    - name: Accounts Element (ASSL)
+      href: collections/accounts-element-assl.md
+    - name: Actions Element (ASSL)
+      href: collections/actions-element-assl.md
+    - name: AggregationDesigns Element (ASSL)
+      href: collections/aggregationdesigns-element-assl.md
+    - name: AggregationInstances Element (ASSL)
+      href: collections/aggregationinstances-element-assl.md
+    - name: Aggregations Element (ASSL)
+      href: collections/aggregations-element-assl.md
+    - name: AlgorithmParameters Element (ASSL)
+      href: collections/algorithmparameters-element-assl.md
+    - name: Aliases Element (ASSL)
+      href: collections/aliases-element-assl.md
+    - name: AllMemberTranslations Element (ASSL)
+      href: collections/allmembertranslations-element-assl.md
+    - name: Annotations Element (ASSL)
+      href: collections/annotations-element-assl.md
+    - name: Assemblies Element (ASSL)
+      href: collections/assemblies-element-assl.md
+    - name: AttributeAllMemberTranslations Element (ASSL)
+      href: collections/attributeallmembertranslations-element-assl.md
+    - name: AttributePermissions Element (ASSL)
+      href: collections/attributepermissions-element-assl.md
+    - name: AttributeRelationships Element (ASSL)
+      href: collections/attributerelationships-element-assl.md
+    - name: Attributes Element (ASSL)
+      href: collections/attributes-element-assl.md
+    - name: Blocks Element (ASSL)
+      href: collections/blocks-element-assl.md
+    - name: CalculationProperties Element (ASSL)
+      href: collections/calculationproperties-element-assl.md
+    - name: Calculations Element (ASSL)
+      href: collections/calculations-element-assl.md
+    - name: CellPermissions Element (ASSL)
+      href: collections/cellpermissions-element-assl.md
+    - name: ClassifiedColumns Element (ASSL)
+      href: collections/classifiedcolumns-element-assl.md
+    - name: Columns Element (ASSL)
+      href: collections/columns-element-assl.md
+    - name: Commands Element (ASSL)
+      href: collections/commands-element-assl.md
+    - name: CubePermissions Element (ASSL)
+      href: collections/cubepermissions-element-assl.md
+    - name: Cubes Element (ASSL)
+      href: collections/cubes-element-assl.md
+    - name: DatabasePermissions Element (ASSL)
+      href: collections/databasepermissions-element-assl.md
+    - name: Databases Element (ASSL)
+      href: collections/databases-element-assl.md
+    - name: DataSourcePermissions Element (ASSL)
+      href: collections/datasourcepermissions-element-assl.md
+    - name: DataSources Element (ASSL)
+      href: collections/datasources-element-assl.md
+    - name: DataSourceViews Element (ASSL)
+      href: collections/datasourceviews-element-assl.md
+    - name: DimensionPermissions Element (ASSL)
+      href: collections/dimensionpermissions-element-assl.md
+    - name: Dimensions Element (ASSL)
+      href: collections/dimensions-element-assl.md
+    - name: Events Element (ASSL)
+      href: collections/events-element-assl.md
+    - name: Files Element (ASSL)
+      href: collections/files-element-assl.md
+    - name: ForeignKeyColumns Element (ASSL)
+      href: collections/foreignkeycolumns-element-assl.md
+    - name: Groups Element (ASSL)
+      href: collections/groups-element-assl.md
+    - name: Hierarchies Element (ASSL)
+      href: collections/hierarchies-element-assl.md
+    - name: IncrementalProcessingNotifications Element (ASSL)
+      href: collections/incrementalprocessingnotifications-element-assl.md
+    - name: KeyColumns Element (ASSL)
+      href: collections/keycolumns-element-assl.md
+    - name: Kpis Element (ASSL)
+      href: collections/kpis-element-assl.md
+    - name: Levels Element (ASSL)
+      href: collections/levels-element-assl.md
+    - name: MdxScripts Element (ASSL)
+      href: collections/mdxscripts-element-assl.md
+    - name: MeasureGroups Element (ASSL)
+      href: collections/measuregroups-element-assl.md
+    - name: Measures Element (ASSL)
+      href: collections/measures-element-assl.md
+    - name: Members Element (ASSL)
+      href: collections/members-element-assl.md
+    - name: MiningModelPermissions Element (ASSL)
+      href: collections/miningmodelpermissions-element-assl.md
+    - name: MiningModels Element (ASSL)
+      href: collections/miningmodels-element-assl.md
+    - name: MiningStructurePermissions Element (ASSL)
+      href: collections/miningstructurepermissions-element-assl.md
+    - name: MiningStructures Element (ASSL)
+      href: collections/miningstructures-element-assl.md
+    - name: ModelingFlags Element (ASSL)
+      href: collections/modelingflags-element-assl.md
+    - name: NamingTemplateTranslations Element (ASSL)
+      href: collections/namingtemplatetranslations-element-assl.md
+    - name: Partitions Element (ASSL)
+      href: collections/partitions-element-assl.md
+    - name: Perspectives Element (ASSL)
+      href: collections/perspectives-element-assl.md
+    - name: QueryNotifications Element (ASSL)
+      href: collections/querynotifications-element-assl.md
+    - name: Relationships Element (ASSL)
+      href: collections/relationships-element-assl.md
+    - name: ReportFormatParameters Element (ASSL)
+      href: collections/reportformatparameters-element-assl.md
+    - name: ReportParameters Element (ASSL)
+      href: collections/reportparameters-element-assl.md
+    - name: Roles Element (ASSL)
+      href: collections/roles-element-assl.md
+    - name: ServerProperties Element (ASSL)
+      href: collections/serverproperties-element-assl.md
+    - name: TableNotifications Element (ASSL)
+      href: collections/tablenotifications-element-assl.md
+    - name: Traces Element (ASSL)
+      href: collections/traces-element-assl.md
+    - name: Translations Element (ASSL)
+      href: collections/translations-element-assl.md
+    - name: UnknownMemberTranslations Element (ASSL)
+      href: collections/unknownmembertranslations-element-assl.md
+  - name: Data type (ASSL)
+    href: data-type/analysis-services-scripting-language-xml-data-types-assl.md
+    items:
+    - name: Action Data Type (ASSL)
+      href: data-type/action-data-type-assl.md
+    - name: AggregationAttribute Data Type (ASSL)
+      href: data-type/aggregationattribute-data-type-assl.md
+    - name: AggregationDesignAttribute Data Type (ASSL)
+      href: data-type/aggregationdesignattribute-data-type-assl.md
+    - name: AggregationDesignDimension Data Type (ASSL)
+      href: data-type/aggregationdesigndimension-data-type-assl.md
+    - name: AggregationDimension Data Type (ASSL)
+      href: data-type/aggregationdimension-data-type-assl.md
+    - name: AggregationInstanceAttribute Data Type (ASSL)
+      href: data-type/aggregationinstanceattribute-data-type-assl.md
+    - name: AggregationInstanceCubeDimension Data Type (ASSL)
+      href: data-type/aggregationinstancecubedimension-data-type-assl.md
+    - name: AggregationInstanceMeasure Data Type (ASSL)
+      href: data-type/aggregationinstancemeasure-data-type-assl.md
+    - name: Assembly Data Type (ASSL)
+      href: data-type/assembly-data-type-assl.md
+    - name: AttributeBinding Data Type (ASSL)
+      href: data-type/attributebinding-data-type-assl.md
+    - name: AttributeTranslation Data Type (ASSL)
+      href: data-type/attributetranslation-data-type-assl.md
+    - name: Binding Data Type (ASSL)
+      href: data-type/binding-data-type-assl.md
+    - name: ClrAssembly Data Type (ASSL)
+      href: data-type/clrassembly-data-type-assl.md
+    - name: ClrAssemblyFile Data Type (ASSL)
+      href: data-type/clrassemblyfile-data-type-assl.md
+    - name: ColumnBinding Data Type (ASSL)
+      href: data-type/columnbinding-data-type-assl.md
+    - name: ComAssembly Data Type (ASSL)
+      href: data-type/comassembly-data-type-assl.md
+    - name: CubeAttribute Data Type (ASSL)
+      href: data-type/cubeattribute-data-type-assl.md
+    - name: CubeAttributeBinding Data Type (ASSL)
+      href: data-type/cubeattributebinding-data-type-assl.md
+    - name: CubeBinding Data Type (out-of-line) (ASSL)
+      href: data-type/cubebinding-data-type-out-of-line-assl.md
+    - name: CubeDimension Data Type (ASSL)
+      href: data-type/cubedimension-data-type-assl.md
+    - name: CubeDimensionBinding Data Type (ASSL)
+      href: data-type/cubedimensionbinding-data-type-assl.md
+    - name: CubeDimensionPermission Data Type (ASSL)
+      href: data-type/cubedimensionpermission-data-type-assl.md
+    - name: CubeHierarchy Data Type (ASSL)
+      href: data-type/cubehierarchy-data-type-assl.md
+    - name: DataBlock Data Type (ASSL)
+      href: data-type/datablock-data-type-assl.md
+    - name: DataItem Data Type (ASSL)
+      href: data-type/dataitem-data-type-assl.md
+    - name: DataMiningMeasureGroupDimension Data Type (ASSL)
+      href: data-type/dataminingmeasuregroupdimension-data-type-assl.md
+    - name: DataSource Data Type (ASSL)
+      href: data-type/datasource-data-type-assl.md
+    - name: DataSourceViewBinding Data Type (ASSL)
+      href: data-type/datasourceviewbinding-data-type-assl.md
+    - name: DegenerateMeasureGroupDimension Data Type (ASSL)
+      href: data-type/degeneratemeasuregroupdimension-data-type-assl.md
+    - name: Dimension Data Type (ASSL)
+      href: data-type/dimension-data-type-assl.md
+    - name: DimensionAttribute Data Type (ASSL)
+      href: data-type/dimensionattribute-data-type-assl.md
+    - name: DimensionAttributeBinding Data Type (out-of-line) (ASSL)
+      href: data-type/dimensionattributebinding-data-type-out-of-line-assl.md
+    - name: DimensionBinding Data Type (ASSL)
+      href: data-type/dimensionbinding-data-type-assl.md
+    - name: DimensionPermission Data Type (ASSL)
+      href: data-type/dimensionpermission-data-type-assl.md
+    - name: DrillThroughAction Data Type (ASSL)
+      href: data-type/drillthroughaction-data-type-assl.md
+    - name: DSVTableBinding Data Type (ASSL)
+      href: data-type/dsvtablebinding-data-type-assl.md
+    - name: EventColumn Data Type (ASSL)
+      href: data-type/eventcolumn-data-type-assl.md
+    - name: Hierarchy Data Type (ASSL)
+      href: data-type/hierarchy-data-type-assl.md
+    - name: ImpersonationInfo Data Type (ASSL)
+      href: data-type/impersonationinfo-data-type-assl.md
+    - name: IncrementalProcessingNotification Data Type (ASSL)
+      href: data-type/incrementalprocessingnotification-data-type-assl.md
+    - name: InheritedBinding Data Type (ASSL)
+      href: data-type/inheritedbinding-data-type-assl.md
+    - name: ManyToManyMeasureGroupDimension Data Type (ASSL)
+      href: data-type/manytomanymeasuregroupdimension-data-type-assl.md
+    - name: MeasureBinding Data Type (ASSL)
+      href: data-type/measurebinding-data-type-assl.md
+    - name: MeasureGroupAttribute Data Type (ASSL)
+      href: data-type/measuregroupattribute-data-type-assl.md
+    - name: MeasureGroupAttributeBinding Data Type (out-of-line) (ASSL)
+      href: data-type/measuregroupattributebinding-data-type-out-of-line-assl.md
+    - name: MeasureGroupBinding Data Type (ASSL)
+      href: data-type/measuregroupbinding-data-type-assl.md
+    - name: MeasureGroupBinding Data Type (out-of-line) (ASSL)
+      href: data-type/measuregroupbinding-data-type-out-of-line-assl.md
+    - name: MeasureGroupDimension Data Type (ASSL)
+      href: data-type/measuregroupdimension-data-type-assl.md
+    - name: MeasureGroupDimensionBinding Data Type (ASSL)
+      href: data-type/measuregroupdimensionbinding-data-type-assl.md
+    - name: MeasureGroupHierarchy Data Type (ASSL)
+      href: data-type/measuregrouphierarchy-data-type-assl.md
+    - name: MiningModelColumn Data Type (ASSL)
+      href: data-type/miningmodelcolumn-data-type-assl.md
+    - name: MiningModelingFlag Data Type (ASSL)
+      href: data-type/miningmodelingflag-data-type-assl.md
+    - name: MiningStructureColumn Data Type (ASSL)
+      href: data-type/miningstructurecolumn-data-type-assl.md
+    - name: OlapDataSource Data Type (ASSL)
+      href: data-type/olapdatasource-data-type-assl.md
+    - name: PartitionBinding Data Type (ASSL)
+      href: data-type/partitionbinding-data-type-assl.md
+    - name: Permission Data Type (ASSL)
+      href: data-type/permission-data-type-assl.md
+    - name: PerspectiveAction Data Type (ASSL)
+      href: data-type/perspectiveaction-data-type-assl.md
+    - name: PerspectiveAttribute Data Type (ASSL)
+      href: data-type/perspectiveattribute-data-type-assl.md
+    - name: PerspectiveCalculation Data Type (ASSL)
+      href: data-type/perspectivecalculation-data-type-assl.md
+    - name: PerspectiveDimension Data Type (ASSL)
+      href: data-type/perspectivedimension-data-type-assl.md
+    - name: PerspectiveHierarchy Data Type (ASSL)
+      href: data-type/perspectivehierarchy-data-type-assl.md
+    - name: PerspectiveKpi Data Type (ASSL)
+      href: data-type/perspectivekpi-data-type-assl.md
+    - name: PerspectiveMeasure Data Type (ASSL)
+      href: data-type/perspectivemeasure-data-type-assl.md
+    - name: PerspectiveMeasureGroup Data Type (ASSL)
+      href: data-type/perspectivemeasuregroup-data-type-assl.md
+    - name: ProactiveCachingBinding Data Type (ASSL)
+      href: data-type/proactivecachingbinding-data-type-assl.md
+    - name: ProactiveCachingIncrementalProcessingBinding Data Type (ASSL)
+      href: data-type/proactivecachingincrementalprocessingbinding-data-type-assl.md
+    - name: ProactiveCachingInheritedBinding Data Type (ASSL)
+      href: data-type/proactivecachinginheritedbinding-data-type-assl.md
+    - name: ProactiveCachingObjectNotificationBinding Data Type (ASSL)
+      href: data-type/proactivecachingobjectnotificationbinding-data-type-assl.md
+    - name: ProactiveCachingQueryBinding Data Type (ASSL)
+      href: data-type/proactivecachingquerybinding-data-type-assl.md
+    - name: ProactiveCachingTablesBinding Data Type (ASSL)
+      href: data-type/proactivecachingtablesbinding-data-type-assl.md
+    - name: PushedDataSource Data Type (ASSL)
+      href: data-type/pusheddatasource-data-type-assl.md
+    - name: QueryBinding Data Type (ASSL)
+      href: data-type/querybinding-data-type-assl.md
+    - name: ReferenceMeasureGroupDimension Data Type (ASSL)
+      href: data-type/referencemeasuregroupdimension-data-type-assl.md
+    - name: RegularMeasureGroupDimension Data Type (ASSL)
+      href: data-type/regularmeasuregroupdimension-data-type-assl.md
+    - name: RelationalDataSource Data Type (ASSL)
+      href: data-type/relationaldatasource-data-type-assl.md
+    - name: Relationship Data Type (ASSL)
+      href: data-type/relationship-data-type-assl.md
+    - name: RelationshipEnd Data Type (ASSL)
+      href: data-type/relationshipend-data-type-assl.md
+    - name: RelationshipEndTranslation Element (ASSL)
+      href: data-type/relationshipendtranslation-element-assl.md
+    - name: RelationshipEndVisualizationProperties Data Type (ASSL)
+      href: data-type/relationshipendvisualizationproperties-data-type-assl.md
+    - name: ReportAction Data Type (ASSL)
+      href: data-type/reportaction-data-type-assl.md
+    - name: RowBinding Data Type (ASSL)
+      href: data-type/rowbinding-data-type-assl.md
+    - name: ScalarMiningStructureColumn Data Type (ASSL)
+      href: data-type/scalarminingstructurecolumn-data-type-assl.md
+    - name: StandardAction Data Type (ASSL)
+      href: data-type/standardaction-data-type-assl.md
+    - name: TableBinding Data Type (ASSL)
+      href: data-type/tablebinding-data-type-assl.md
+    - name: TableMiningStructureColumn Data Type (ASSL)
+      href: data-type/tableminingstructurecolumn-data-type-assl.md
+    - name: TabularBinding Data Type (ASSL)
+      href: data-type/tabularbinding-data-type-assl.md
+    - name: TimeAttributeBinding Data Type (ASSL)
+      href: data-type/timeattributebinding-data-type-assl.md
+    - name: TimeBinding Data Type (ASSL)
+      href: data-type/timebinding-data-type-assl.md
+    - name: Translation Data Type (ASSL)
+      href: data-type/translation-data-type-assl.md
+    - name: UserDefinedGroupBinding Data Type (ASSL)
+      href: data-type/userdefinedgroupbinding-data-type-assl.md
+  - name: Objects (ASSL)
+    href: objects/objects-assl.md
+    items:
+    - name: Account Element (ASSL)
+      href: objects/account-element-assl.md
+    - name: Action Element (ASSL)
+      href: objects/action-element-assl.md
+    - name: Aggregation Element (ASSL)
+      href: objects/aggregation-element-assl.md
+    - name: AggregationDesign Element (ASSL)
+      href: objects/aggregationdesign-element-assl.md
+    - name: AggregationInstance Element (ASSL)
+      href: objects/aggregationinstance-element-assl.md
+    - name: AlgorithmParameter Element (ASSL)
+      href: objects/algorithmparameter-element-assl.md
+    - name: AllMemberTranslation Element (ASSL)
+      href: objects/allmembertranslation-element-assl.md
+    - name: Annotation Element (ASSL)
+      href: objects/annotation-element-assl.md
+    - name: Assembly Element (ASSL)
+      href: objects/assembly-element-assl.md
+    - name: Attribute Element (ASSL)
+      href: objects/attribute-element-assl.md
+    - name: AttributeAllMemberTranslation Element (ASSL)
+      href: objects/attributeallmembertranslation-element-assl.md
+    - name: AttributePermission Element (ASSL)
+      href: objects/attributepermission-element-assl.md
+    - name: AttributeRelationship Element (ASSL)
+      href: objects/attributerelationship-element-assl.md
+    - name: Block Element (ASSL)
+      href: objects/block-element-assl.md
+    - name: Calculation Element (ASSL)
+      href: objects/calculation-element-assl.md
+    - name: CalculationProperty Element (ASSL)
+      href: objects/calculationproperty-element-assl.md
+    - name: CaptionColumn Element (ASSL)
+      href: objects/captioncolumn-element-assl.md
+    - name: CellPermission Element (ASSL)
+      href: objects/cellpermission-element-assl.md
+    - name: Column Element (ASSL)
+      href: objects/column-element-assl.md
+    - name: Command Element (ASSL)
+      href: objects/command-element-assl.md
+    - name: Cube Element (ASSL)
+      href: objects/cube-element-assl.md
+    - name: CubePermission Element (ASSL)
+      href: objects/cubepermission-element-assl.md
+    - name: CustomRollupColumn Element (ASSL)
+      href: objects/customrollupcolumn-element-assl.md
+    - name: CustomRollupPropertiesColumn Element (ASSL)
+      href: objects/customrolluppropertiescolumn-element-assl.md
+    - name: Data Element (ASSL)
+      href: objects/data-element-assl.md
+    - name: Database Element (ASSL)
+      href: objects/database-element-assl.md
+    - name: DatabasePermission Element (ASSL)
+      href: objects/databasepermission-element-assl.md
+    - name: DataSource Element (ASSL)
+      href: objects/datasource-element-assl.md
+    - name: DataSourcePermission Element (ASSL)
+      href: objects/datasourcepermission-element-assl.md
+    - name: DataSourceView Element (ASSL)
+      href: objects/datasourceview-element-assl.md
+    - name: Dimension Element (ASSL)
+      href: objects/dimension-element-assl.md
+    - name: DimensionPermission Element (ASSL)
+      href: objects/dimensionpermission-element-assl.md
+    - name: ErrorConfiguration Element (ASSL)
+      href: objects/errorconfiguration-element-assl.md
+    - name: Event Element (ASSL)
+      href: objects/event-element-assl.md
+    - name: File Element (ASSL)
+      href: objects/file-element-assl.md
+    - name: ForeignKeyColumn Element (ASSL)
+      href: objects/foreignkeycolumn-element-assl.md
+    - name: Group Element (ASSL)
+      href: objects/group-element-assl.md
+    - name: Hierarchy Element (ASSL)
+      href: objects/hierarchy-element-assl.md
+    - name: IncrementalProcessingNotification Element (ASSL)
+      href: objects/incrementalprocessingnotification-element-assl.md
+    - name: KeyColumn Element (ASSL)
+      href: objects/keycolumn-element-assl.md
+    - name: Kpi Element (ASSL)
+      href: objects/kpi-element-assl.md
+    - name: Level Element (ASSL)
+      href: objects/level-element-assl.md
+    - name: MdxScript Element (ASSL)
+      href: objects/mdxscript-element-assl.md
+    - name: Measure Element (ASSL)
+      href: objects/measure-element-assl.md
+    - name: MeasureGroup Element (ASSL)
+      href: objects/measuregroup-element-assl.md
+    - name: Member Element (ASSL)
+      href: objects/member-element-assl.md
+    - name: MiningModel Element (ASSL)
+      href: objects/miningmodel-element-assl.md
+    - name: MiningModelPermission Element (ASSL)
+      href: objects/miningmodelpermission-element-assl.md
+    - name: MiningStructure Element (ASSL)
+      href: objects/miningstructure-element-assl.md
+    - name: MiningStructurePermission Element (ASSL)
+      href: objects/miningstructurepermission-element-assl.md
+    - name: ModelingFlag Element (ASSL)
+      href: objects/modelingflag-element-assl.md
+    - name: NameColumn Element (ASSL)
+      href: objects/namecolumn-element-assl.md
+    - name: NamingTemplateTranslation Element (ASSL)
+      href: objects/namingtemplatetranslation-element-assl.md
+    - name: Partition Element (ASSL)
+      href: objects/partition-element-assl.md
+    - name: Perspective Element (ASSL)
+      href: objects/perspective-element-assl.md
+    - name: ProactiveCaching Element (ASSL)
+      href: objects/proactivecaching-element-assl.md
+    - name: QueryNotification Element (ASSL)
+      href: objects/querynotification-element-assl.md
+    - name: ReportFormatParameter Element (ASSL)
+      href: objects/reportformatparameter-element-asl.md
+    - name: ReportParameter Element (ASSL)
+      href: objects/reportparameter-element-assl.md
+    - name: Role Element (ASSL)
+      href: objects/role-element-assl.md
+    - name: Server Element (ASSL)
+      href: objects/server-element-assl.md
+    - name: ServerProperty Element (ASSL)
+      href: objects/serverproperty-element-assl.md
+    - name: SkippedLevelsColumn Element (ASSL)
+      href: objects/skippedlevelscolumn-element-assl.md
+    - name: SourceMeasureGroup Element (ASSL)
+      href: objects/sourcemeasuregroup-element-assl.md
+    - name: TableNotification Element (ASSL)
+      href: objects/tablenotification-element-assl.md
+    - name: Trace Element (ASSL)
+      href: objects/trace-element-assl.md
+    - name: Translation Element (ASSL)
+      href: objects/translation-element-assl.md
+    - name: UnaryOperatorColumn Element (ASSL)
+      href: objects/unaryoperatorcolumn-element-assl.md
+    - name: UnknownMemberTranslation Element (ASSL)
+      href: objects/unknownmembertranslation-element-assl.md
+    - name: ValueColumn Element (ASSL)
+      href: objects/valuecolumn-element-assl.md
+  - name: Properties (ASSL)
+    href: properties/properties-assl.md
+    items:
+    - name: Access Element (ASSL)
+      href: properties/access-element-assl.md
+    - name: Account Element (ImpersonationInfo) (ASSL)
+      href: properties/account-element-impersonationinfo-assl.md
+    - name: AccountType Element (ASSL)
+      href: properties/accounttype-element-assl.md
+    - name: ActionID Element (ASSL)
+      href: properties/actionid-element-assl.md
+    - name: Administer Element (ASSL)
+      href: properties/administer-element-assl.md
+    - name: AggregateFunction Element (ASSL)
+      href: properties/aggregatefunction-element-assl.md
+    - name: AggregationDesignID Element (ASSL)
+      href: properties/aggregationdesignid-element-assl.md
+    - name: AggregationFunction Element (ASSL)
+      href: properties/aggregationfunction-element-assl.md
+    - name: AggregationID Element (ASSL)
+      href: properties/aggregationid-element-assl.md
+    - name: AggregationInstanceSource Element (ASSL)
+      href: properties/aggregationinstancesource-element-assl.md
+    - name: AggregationPrefix Element (ASSL)
+      href: properties/aggregationprefix-element-assl.md
+    - name: AggregationStorage Element (ASSL)
+      href: properties/aggregationstorage-element-assl.md
+    - name: AggregationType Element (ASSL)
+      href: properties/aggregationtype-element-assl.md
+    - name: AggregationUsage Element (ASSL)
+      href: properties/aggregationusage-element-assl.md
+    - name: Algorithm Element (ASSL)
+      href: properties/algorithm-element-assl.md
+    - name: Alias Element (ASSL)
+      href: properties/alias-element-assl.md
+    - name: AllMemberAggregationUsage Element (ASSL)
+      href: properties/allmemberaggregationusage-element-assl.md
+    - name: AllMemberName Element (ASSL)
+      href: properties/allmembername-element-assl.md
+    - name: AllowBrowsing Element (ASSL)
+      href: properties/allowbrowsing-element-assl.md
+    - name: AllowDrillThrough Element (ASSL)
+      href: properties/allowdrillthrough-element-assl.md
+    - name: AllowDuplicateNames Element (ASSL)
+      href: properties/allowduplicatenames-element-assl.md
+    - name: AllowedRowsExpression Element (ASSL)
+      href: properties/allowedrowsexpression-element-assl.md
+    - name: AllowedSet Element (ASSL)
+      href: properties/allowedset-element-assl.md
+    - name: Application Element (ASSL)
+      href: properties/application-element-assl.md
+    - name: AssociatedMeasureGroupID Element (ASSL)
+      href: properties/associatedmeasuregroupid-element-assl.md
+    - name: AttributeAllMemberName Element (ASSL)
+      href: properties/attributeallmembername-element-assl.md
+    - name: AttributeHierarchyDisplayFolder Element (ASSL)
+      href: properties/attributehierarchydisplayfolder-element-assl.md
+    - name: AttributeHierarchyEnabled Element (ASSL)
+      href: properties/attributehierarchyenabled-element-assl.md
+    - name: AttributeHierarchyOptimizedState Element (ASSL)
+      href: properties/attributehierarchyoptimizedstate-element-assl.md
+    - name: AttributeHierarchyOrdered Element (ASSL)
+      href: properties/attributehierarchyordered-element-assl.md
+    - name: AttributeHierarchyVisible Element (ASSL)
+      href: properties/attributehierarchyvisible-element-assl.md
+    - name: AttributeID Element (ASSL)
+      href: properties/attributeid-element-assl.md
+    - name: Audit Element (ASSL)
+      href: properties/audit-element-assl.md
+    - name: AutoRestart Element (ASSL)
+      href: properties/autorestart-element-assl.md
+    - name: BackColor Element (ASSL)
+      href: properties/backcolor-element-assl.md
+    - name: CacheMode Element (ASSL)
+      href: properties/cachemode-element-assl.md
+    - name: CalculationReference Element (ASSL)
+      href: properties/calculationreference-element-assl.md
+    - name: CalculationType Element (ASSL)
+      href: properties/calculationtype-element-assl.md
+    - name: CalendarEndDate Element (ASSL)
+      href: properties/calendarenddate-element-assl.md
+    - name: CalendarLanguage Element (ASSL)
+      href: properties/calendarlanguage-element-assl.md
+    - name: CalendarStartDate Element (ASSL)
+      href: properties/calendarstartdate-element-assl.md
+    - name: Caption Element (ASSL)
+      href: properties/caption-element-assl.md
+    - name: CaptionIsMdx Element (ASSL)
+      href: properties/captionismdx-element-assl.md
+    - name: Cardinality Element (ASSL)
+      href: properties/cardinality-element-assl.md
+    - name: CaseCubeDimensionID Element (ASSL)
+      href: properties/casecubedimensionid-element-assl.md
+    - name: ClassifiedColumnID Element (ASSL)
+      href: properties/classifiedcolumnid-element-assl.md
+    - name: Collation Element (ASSL)
+      href: properties/collation-element-assl.md
+    - name: CollectionCaption Element (ASSL)
+      href: properties/collectioncaption-element-assl.md
+    - name: ColumnID Element (ColumnBinding) (ASSL)
+      href: properties/columnid-element-columnbinding-assl.md
+    - name: ColumnID Element (EventColumn) (ASSL)
+      href: properties/columnid-element-eventcolumn-assl.md
+    - name: Condition Element (ASSL)
+      href: properties/condition-element-assl.md
+    - name: ConnectionString Element (ASSL)
+      href: properties/connectionstring-element-assl.md
+    - name: ConnectionStringSecurity Element (ASSL)
+      href: properties/connectionstringsecurity-element-assl.md
+    - name: Content Element (ASSL)
+      href: properties/content-element-assl.md
+    - name: CreatedTimestamp Element (ASSL)
+      href: properties/createdtimestamp-element-assl.md
+    - name: CubeDimensionID Element (ASSL)
+      href: properties/cubedimensionid-element-assl.md
+    - name: CubeID Element (ASSL)
+      href: properties/cubeid-element-assl.md
+    - name: CurrentStorageMode Element (ASSL)
+      href: properties/currentstoragemode-element-assl.md
+    - name: CurrentTimeMember Element (ASSL)
+      href: properties/currenttimemember-element-assl.md
+    - name: DataAggregation Element (ASSL)
+      href: properties/dataaggregation-element-assl.md
+    - name: DatabaseID Element (ASSL)
+      href: properties/databaseid-element-assl.md
+    - name: DataSize Element (ASSL)
+      href: properties/datasize-element-assl.md
+    - name: DataSourceID Element (ASSL)
+      href: properties/datasourceid-element-assl.md
+    - name: DataSourceImpersonationInfo Element (ASSL)
+      href: properties/datasourceimpersonationinfo-element-assl.md
+    - name: DataSourceViewID Element (ASSL)
+      href: properties/datasourceviewid-element-assl.md
+    - name: DataType Element (ASSL)
+      href: properties/datatype-element-assl.md
+    - name: DbSchemaName Element (ASSL)
+      href: properties/dbschemaname-element-assl.md
+    - name: DbTableName Element (ASSL)
+      href: properties/dbtablename-element-assl.md
+    - name: Default Element (ASSL)
+      href: properties/default-element-assl.md
+    - name: DefaultMeasure Element (ASSL)
+      href: properties/defaultmeasure-element-assl.md
+    - name: DefaultMember Element (ASSL)
+      href: properties/defaultmember-element-assl.md
+    - name: DefaultScript Element (ASSL)
+      href: properties/defaultscript-element-assl.md
+    - name: DefaultValue Element (ASSL)
+      href: properties/defaultvalue-element-assl.md
+    - name: DeniedSet Element (ASSL)
+      href: properties/deniedset-element-assl.md
+    - name: DependsOnDimensionID Element (ASSL)
+      href: properties/dependsondimensionid-element-assl.md
+    - name: Description Element (ASSL)
+      href: properties/description-element-assl.md
+    - name: DimensionID Element (ASSL)
+      href: properties/dimensionid-element-assl.md
+    - name: DiscretizationBucketCount Element (ASSL)
+      href: properties/discretizationbucketcount-element-assl.md
+    - name: DiscretizationMethod Element (ASSL)
+      href: properties/discretizationmethod-element-assl.md
+    - name: DisplayFlag Element (ASSL)
+      href: properties/displayflag-element-assl.md
+    - name: DisplayFolder Element (ASSL)
+      href: properties/displayfolder-element-assl.md
+    - name: Distribution Element (ASSL)
+      href: properties/distribution-element-assl.md
+    - name: Edition Element (ASSL)
+      href: properties/edition-element-assl.md
+    - name: Enabled Element (ASSL)
+      href: properties/enabled-element-assl.md
+    - name: EndOfData Element (ASSL)
+      href: properties/endofdata-element-assl.md
+    - name: EstimatedCount Element (ASSL)
+      href: properties/estimatedcount-element-assl.md
+    - name: EstimatedPerformanceGain Element (ASSL)
+      href: properties/estimatedperformancegain-element-assl.md
+    - name: EstimatedRows Element (ASSL)
+      href: properties/estimatedrows-element-assl.md
+    - name: EstimatedSize Element (ASSL)
+      href: properties/estimatedsize-element-assl.md
+    - name: EventID Element (ASSL)
+      href: properties/eventid-element-assl.md
+    - name: Expression Element (ASSL)
+      href: properties/expression-element-assl.md
+    - name: Filter Element (Binding) (ASSL)
+      href: properties/filter-element-binding-assl.md
+    - name: Filter Element (Trace) (ASSL)
+      href: properties/filter-element-trace-assl.md
+    - name: FirstDayOfWeek Element (ASSL)
+      href: properties/firstdayofweek-element-assl.md
+    - name: FiscalFirstDayOfMonth Element (ASSL)
+      href: properties/fiscalfirstdayofmonth-element-assl.md
+    - name: FiscalFirstMonth Element (ASSL)
+      href: properties/fiscalfirstmonth-element-assl.md
+    - name: FiscalYearName Element (ASSL)
+      href: properties/fiscalyearname-element-assl.md
+    - name: FoldingParameters Element (ASSL)
+      href: properties/foldingparameters-element-assl.md
+    - name: FontFlags Element (ASSL)
+      href: properties/fontflags-element-assl.md
+    - name: FontName Element (ASSL)
+      href: properties/fontname-element-assl.md
+    - name: FontSize Element (ASSL)
+      href: properties/fontsize-element-assl.md
+    - name: ForceRebuildInterval Element (ASSL)
+      href: properties/forcerebuildinterval-element-assl.md
+    - name: ForeColor Element (ASSL)
+      href: properties/forecolor-element-assl.md
+    - name: Format Element (ASSL)
+      href: properties/format-element-assl.md
+    - name: FormatString Element (ASSL)
+      href: properties/formatstring-element-assl.md
+    - name: Goal Element (ASSL)
+      href: properties/goal-element-assl.md
+    - name: GranularityAttributeID Element (ASSL)
+      href: properties/granularityattributeid-element-assl.md
+    - name: HideMemberIf Element (ASSL)
+      href: properties/hidememberif-element-assl.md
+    - name: HierarchyID Element (ASSL)
+      href: properties/hierarchyid-element-assl.md
+    - name: HierarchyUniqueNameStyle Element (ASSL)
+      href: properties/hierarchyuniquenamestyle-element-assl.md
+    - name: HoldoutActualSize Element
+      href: properties/holdoutactualsize-element.md
+    - name: HoldoutMaxCases Element
+      href: properties/holdoutmaxcases-element.md
+    - name: HoldoutMaxPercent Element
+      href: properties/holdoutmaxpercent-element.md
+    - name: HoldoutSeed Element
+      href: properties/holdoutseed-element.md
+    - name: ID Element (ASSL)
+      href: properties/id-element-assl.md
+    - name: IgnoreUnrelatedDimensions Element (ASSL)
+      href: properties/ignoreunrelateddimensions-element-assl.md
+    - name: ImpersonationInfo Element (ASSL)
+      href: properties/impersonationinfo-element-assl.md
+    - name: ImpersonationInfoSecurity Element (ASSL)
+      href: properties/impersonationinfosecurity-element-assl.md
+    - name: ImpersonationMode Element (ASSL)
+      href: properties/impersonationmode-element-assl.md
+    - name: InstanceSelection Element (ASSL)
+      href: properties/instanceselection-element-assl.md
+    - name: IntermediateCubeDimensionID Element (ASSL)
+      href: properties/intermediatecubedimensionid-element-assl.md
+    - name: IntermediateGranularityAttributeID Element (ASSL)
+      href: properties/intermediategranularityattributeid-element-assl.md
+    - name: InvalidXmlCharacters Element (ASSL)
+      href: properties/invalidxmlcharacters-element-assl.md
+    - name: Invocation Element (ASSL)
+      href: properties/invocation-element-assl.md
+    - name: IsAggregatable Element (ASSL)
+      href: properties/isaggregatable-element-assl.md
+    - name: IsKey Element (ASSL)
+      href: properties/iskey-element-assl.md
+    - name: Isolation Element (ASSL)
+      href: properties/isolation-element-assl.md
+    - name: KeyDuplicate Element (ASSL)
+      href: properties/keyduplicate-element-assl.md
+    - name: KeyErrorAction Element (ASSL)
+      href: properties/keyerroraction-element-assl.md
+    - name: KeyErrorLimit Element (ASSL)
+      href: properties/keyerrorlimit-element-assl.md
+    - name: KeyErrorLimitAction Element (ASSL)
+      href: properties/keyerrorlimitaction-element-assl.md
+    - name: KeyErrorLogFile Element (ASSL)
+      href: properties/keyerrorlogfile-element-assl.md
+    - name: KeyNotFound Element (ASSL)
+      href: properties/keynotfound-element-assl.md
+    - name: KeyUniquenessGuarantee Element (ASSL)
+      href: properties/keyuniquenessguarantee-element-assl.md
+    - name: KpiID Element (ASSL)
+      href: properties/kpiid-element-assl.md
+    - name: Language Element (ASSL)
+      href: properties/language-element-assl.md
+    - name: LastProcessed Element (ASSL)
+      href: properties/lastprocessed-element-assl.md
+    - name: LastSchemaUpdate Element (ASSL)
+      href: properties/lastschemaupdate-element-assl.md
+    - name: LastUpdate Element (ASSL)
+      href: properties/lastupdate-element-assl.md
+    - name: Latency Element (ASSL)
+      href: properties/latency-element-assl.md
+    - name: LogFileAppend Element (ASSL)
+      href: properties/logfileappend-element-assl.md
+    - name: LogFileName Element (ASSL)
+      href: properties/logfilename-element-assl.md
+    - name: LogFileRollover Element (ASSL)
+      href: properties/logfilerollover-element-assl.md
+    - name: LogFileSize Element (ASSL)
+      href: properties/logfilesize-element-assl.md
+    - name: ManagedProvider Element (ASSL)
+      href: properties/managedprovider-element-assl.md
+    - name: ManufacturingExtraMonthQuarter Element (ASSL)
+      href: properties/manufacturingextramonthquarter-element-assl.md
+    - name: ManufacturingFirstMonth Element (ASSL)
+      href: properties/manufacturingfirstmonth-element-assl.md
+    - name: ManufacturingFirstWeekOfMonth Element (ASSL)
+      href: properties/manufacturingfirstweekofmonth-element-assl.md
+    - name: MasterDatasourceID Element (ASSL)
+      href: properties/masterdatasourceid-element-assl.md
+    - name: Materialization Element (ASSL)
+      href: properties/materialization-element-assl.md
+    - name: MaxActiveConnections Element (ASSL)
+      href: properties/maxactiveconnections-element-assl.md
+    - name: MdxMissingMemberMode Element (ASSL)
+      href: properties/mdxmissingmembermode-element-assl.md
+    - name: MeasureExpression Element (ASSL)
+      href: properties/measureexpression-element-assl.md
+    - name: MeasureGroupID Element (ASSL)
+      href: properties/measuregroupid-element-assl.md
+    - name: MeasureID Element (ASSL)
+      href: properties/measureid-element-assl.md
+    - name: MeasureQualificaton Element (ASSL)
+      href: properties/measurequalificaton-element-assl.md
+    - name: MemberNamesUnique Element (ASSL)
+      href: properties/membernamesunique-element-assl.md
+    - name: MembersWithData Element (ASSL)
+      href: properties/memberswithdata-element-assl.md
+    - name: MembersWithDataCaption Element (ASSL)
+      href: properties/memberswithdatacaption-element-assl.md
+    - name: MemberUniqueNameStyle Element (ASSL)
+      href: properties/memberuniquenamestyle-element-assl.md
+    - name: MimeType Element (ASSL)
+      href: properties/mimetype-element-assl.md
+    - name: MiningModelID Element (ASSL)
+      href: properties/miningmodelid-element-assl.md
+    - name: Multiplicity Element (ASSL)
+      href: properties/multiplicity-element-assl.md
+    - name: Name Element (ASSL)
+      href: properties/name-element-assl.md
+    - name: NamingTemplate Element (ASSL)
+      href: properties/namingtemplate-element-assl.md
+    - name: NonEmptyBehavior Element (ASSL)
+      href: properties/nonemptybehavior-element-assl.md
+    - name: NotificationTechnique Element (ASSL)
+      href: properties/notificationtechnique-element-assl.md
+    - name: NullKeyConvertedToUnknown Element (ASSL)
+      href: properties/nullkeyconvertedtounknown-element-assl.md
+    - name: NullKeyNotAllowed Element (ASSL)
+      href: properties/nullkeynotallowed-element-assl.md
+    - name: NullProcessing Element (ASSL)
+      href: properties/nullprocessing-element-assl.md
+    - name: OnlineMode Element (ASSL)
+      href: properties/onlinemode-element-assl.md
+    - name: OptimizedState Element (ASSL)
+      href: properties/optimizedstate-element-assl.md
+    - name: Optionality Element (ASSL)
+      href: properties/optionality-element-assl.md
+    - name: OrderBy Element (ASSL)
+      href: properties/orderby-element-assl.md
+    - name: OrderByAttributeID Element (ASSL)
+      href: properties/orderbyattributeid-element-assl.md
+    - name: Ordinal Element (ASSL)
+      href: properties/ordinal-element-assl.md
+    - name: OverrideBehavior Element (ASSL)
+      href: properties/overridebehavior-element-assl.md
+    - name: PartitionID Element (ASSL)
+      href: properties/partitionid-element-assl.md
+    - name: Password Element (ASSL)
+      href: properties/password-element-assl.md
+    - name: Path Element (ASSL)
+      href: properties/path-element-assl.md
+    - name: PendingValue Element (ASSL)
+      href: properties/pendingvalue-element-assl.md
+    - name: PermissionSet Element (ASSL)
+      href: properties/permissionset-element-assl.md
+    - name: Persistence Element (ASSL)
+      href: properties/persistence-element-assl.md
+    - name: Process Element (ASSL)
+      href: properties/process-element-assl.md
+    - name: ProcessingMode Element (ASSL)
+      href: properties/processingmode-element-assl.md
+    - name: ProcessingPriority Element (ASSL)
+      href: properties/processingpriority-element-assl.md
+    - name: ProcessingQuery Element (ASSL)
+      href: properties/processingquery-element-assl.md
+    - name: ProductName Element (ASSL)
+      href: properties/productname-element-assl.md
+    - name: Query Element (ASSL)
+      href: properties/query-element-assl.md
+    - name: QueryDefinition Element (ASSL)
+      href: properties/querydefinition-element-assl.md
+    - name: Read Element (ASSL)
+      href: properties/read-element-assl.md
+    - name: ReadDefinition Element (ASSL)
+      href: properties/readdefinition-element-assl.md
+    - name: ReadSourceData Element (ASSL)
+      href: properties/readsourcedata-element-assl.md
+    - name: RefreshInterval Element (ASSL)
+      href: properties/refreshinterval-element-assl.md
+    - name: RefreshPolicy Element (ASSL)
+      href: properties/refreshpolicy-element-assl.md
+    - name: RelationshipType Element (ASSL)
+      href: properties/relationshiptype-element-assl.md
+    - name: RemoteDatasourceID Element (ASSL)
+      href: properties/remotedatasourceid-element-assl.md
+    - name: ReportingFirstMonth Element (ASSL)
+      href: properties/reportingfirstmonth-element-assl.md
+    - name: ReportingFirstWeekOfMonth Element (ASSL)
+      href: properties/reportingfirstweekofmonth-element-assl.md
+    - name: ReportingWeekToMonthPattern Element (ASSL)
+      href: properties/reportingweektomonthpattern-element-assl.md
+    - name: ReportServer Element (ASSL)
+      href: properties/reportserver-element-assl.md
+    - name: RequiresRestart Element (ASSL)
+      href: properties/requiresrestart-element-assl.md
+    - name: RoleID Element (ASSL)
+      href: properties/roleid-element-assl.md
+    - name: Root Element (ASSL)
+      href: properties/root-element-assl.md
+    - name: RootMemberIf Element (ASSL)
+      href: properties/rootmemberif-element-assl.md
+    - name: Schema Element (ASSL)
+      href: properties/schema-element-assl.md
+    - name: ScriptCacheProcessingMode Element (ASSL)
+      href: properties/scriptcacheprocessingmode-element-assl.md
+    - name: SilenceInterval Element (ASSL)
+      href: properties/silenceinterval-element-assl.md
+    - name: SilenceOverrideInterval Element (ASSL)
+      href: properties/silenceoverrideinterval-element-assl.md
+    - name: Slice Element (ASSL)
+      href: properties/slice-element-assl.md
+    - name: SolveOrder Element (ASSL)
+      href: properties/solveorder-element-assl.md
+    - name: Source Element (Binding) (ASSL)
+      href: properties/source-element-binding-assl.md
+    - name: Source Element (ComAssembly) (ASSL)
+      href: properties/source-element-comassembly-assl.md
+    - name: Source Element (Measure) (ASSL)
+      href: properties/source-element-measure-assl.md
+    - name: SourceAttributeID Element (ASSL)
+      href: properties/sourceattributeid-element-assl.md
+    - name: SourceColumnID Element (ASSL)
+      href: properties/sourcecolumnid-element-assl.md
+    - name: State Element (ASSL)
+      href: properties/state-element-assl.md
+    - name: Status Element (ASSL)
+      href: properties/status-element-assl.md
+    - name: StatusGraphic Element (ASSL)
+      href: properties/statusgraphic-element-assl.md
+    - name: StopTime Element (ASSL)
+      href: properties/stoptime-element-assl.md
+    - name: StorageEngineUsed Element (XMLA)
+      href: properties/storageengineused-element-xmla.md
+    - name: StorageLocation Element (ASSL)
+      href: properties/storagelocation-element-assl.md
+    - name: StorageMode Element (ASSL)
+      href: properties/storagemode-element-assl.md
+    - name: TableID Element (ASSL)
+      href: properties/tableid-element-assl.md
+    - name: Target Element (ASSL)
+      href: properties/target-element-assl.md
+    - name: TargetType Element (ASSL)
+      href: properties/targettype-element-assl.md
+    - name: Text Element (ASSL)
+      href: properties/text-element-assl.md
+    - name: Timeout Element (ASSL)
+      href: properties/timeout-element-assl.md
+    - name: Trend Element (ASSL)
+      href: properties/trend-element-assl.md
+    - name: TrendGraphic Element (ASSL)
+      href: properties/trendgraphic-element-assl.md
+    - name: Trimming Element (ASSL)
+      href: properties/trimming-element-assl.md
+    - name: Type Element (Action) (ASSL)
+      href: properties/type-element-action-assl.md
+    - name: Type Element (Binding) (ASSL)
+      href: properties/type-element-binding-assl.md
+    - name: Type Element (ClrAssemblyFile) (ASSL)
+      href: properties/type-element-clrassemblyfile-assl.md
+    - name: Type Element (Dimension) (ASSL)
+      href: properties/type-element-dimension-assl.md
+    - name: Type Element (DimensionAttribute) (ASSL)
+      href: properties/type-element-dimensionattribute-assl.md
+    - name: Type Element (MeasureGroup) (ASSL)
+      href: properties/type-element-measuregroup-assl.md
+    - name: Type Element (MeasureGroupAttribute) (ASSL)
+      href: properties/type-element-measuregroupattribute-assl.md
+    - name: Type Element (MiningStructureColumn) (ASSL)
+      href: properties/type-element-miningstructurecolumn-assl.md
+    - name: Type Element (Partition) (ASSL)
+      href: properties/type-element-partition-assl.md
+    - name: Type Element (PerspectiveCalculation) (ASSL)
+      href: properties/type-element-perspectivecalculation-assl.md
+    - name: UnknownMember Element (ASSL)
+      href: properties/unknownmember-element-assl.md
+    - name: UnknownMemberName Element (ASSL)
+      href: properties/unknownmembername-element-assl.md
+    - name: Usage Element (DimensionAttribute) (ASSL)
+      href: properties/usage-element-dimensionattribute-assl.md
+    - name: Usage Element (MiningModelColumn) (ASSL)
+      href: properties/usage-element-miningmodelcolumn-assl.md
+    - name: Value Element (ASSL)
+      href: properties/value-element-assl.md
+    - name: Version Element (ASSL)
+      href: properties/version-element-assl.md
+    - name: Visibility Element (ASSL)
+      href: properties/visibility-element-assl.md
+    - name: Visible Element (ASSL)
+      href: properties/visible-element-assl.md
+    - name: VisualTotals Element (ASSL)
+      href: properties/visualtotals-element-assl.md
+    - name: Write Element (ASSL)
+      href: properties/write-element-assl.md
+    - name: WriteEnabled Element (ASSL)
+      href: properties/writeenabled-element-assl.md
