@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Programming AMO complementary classes and methods
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
 ## Assembly class
 
  Assemblies let users extend the functionality of Analysis Services by adding new stored procedures or Multidimensional Expressions (MDX) functions. For more information, see [AMO other classes and methods](amo-other-classes-and-methods.md).  

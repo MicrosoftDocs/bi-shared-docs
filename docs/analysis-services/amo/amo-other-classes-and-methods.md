@@ -12,6 +12,8 @@ manager: kfile
 ---
 # AMO other classes and methods
 
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   This section contains common classes that are not specific to OLAP or data mining, and that are helpful when administering or managing objects in Analysis Services. These classes cover features such as stored procedures, tracing, exceptions, and backup and restore.  
   
  The following illustration shows the relationship of the classes that are explained in this topic.  

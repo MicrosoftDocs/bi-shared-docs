@@ -11,6 +11,9 @@ author: minewiskan
 manager: kfile
 ---
 # Programming administrative tasks with AMO
+
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+
   Analysis Management Objects (AMO) is a programming library used from client applications to manage Analysis Services. The AMO library can be thought of as logically related groups of objects that are used to accomplish a specific task. In this section, you will learn to how to program using the AMO objects.  
 
  This section includes the following topics:  
@@ -22,4 +25,4 @@ manager: kfile
 |[Programming AMO OLAP Advanced Objects](programming-amo-olap-advanced-objects.md)|Describes how to program the Action, KPI, Perspective, ProactiveCaching, and Translation objects.|  
 |[Programming AMO Data Mining Objects](programming-amo-data-mining-objects.md)|Describes how to program the MiningStructure and MiningModel objects.|  
 |[Programming AMO Security Objects](programming-amo-security-objects.md)|Describes how to program the Roles, Members, and Permissions objects.|  
-|[Programming AMO Complementary Classes and Methods](programming-amo-complementary-classes-and-methods.md)|Describes how to program the Assembly object, Backup and Restore methods, Trace class, and also the CaptureLog class and CaptureXML attribute.| 
+|[Programming AMO Complementary Classes and Methods](programming-amo-complementary-classes-and-methods.md)|Describes how to program the Assembly object, Backup and Restore methods, Trace class, and also the CaptureLog class and CaptureXML attribute.|
