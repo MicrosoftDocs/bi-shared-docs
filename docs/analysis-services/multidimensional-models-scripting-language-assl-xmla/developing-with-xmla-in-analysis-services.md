@@ -39,7 +39,7 @@ manager: kfile
 |[Monitoring Traces &#40;XMLA&#41;](../../analysis-services/multidimensional-models-scripting-language-assl-xmla/monitoring-traces-xmla.md)|Describes how to use the [Subscribe](https://docs.microsoft.com/bi-reference/xmla/xml-elements-commands/subscribe-element-xmla) command to subscribe to and monitor an existing trace on an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance.|  
   
 ## Data Mining with XMLA  
- XML for Analysis fully supports data mining schema rowsets. These rowsets provide information for querying data mining models using the [Discover](https://docs.microsoft.com/bi-reference/xmla/xml-elements-methods-discover) method. For more information about data mining schema rowsets, see [Data Mining Schema Rowsets](https://docs.microsoft.com/bi-reference/schema-rowsets/data-mining/data-mining-schema-rowsets)  
+ XML for Analysis fully supports data mining schema rowsets. These rowsets provide information for querying data mining models using the [Discover](https://docs.microsoft.com/bi-reference/xmla/xml-elements-methods-discover) method.
   
  For more information about DMX, see [Data Mining Extensions &#40;DMX&#41; Reference](/sql/dmx/data-mining-extensions-dmx-reference).  
   

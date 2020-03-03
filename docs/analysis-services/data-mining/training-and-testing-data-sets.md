@@ -85,16 +85,7 @@ SELECT * from <structure>.CASES WHERE IsTestCase() AND <structure column name> =
 -   In most cases, the default holdout value of 30 provides a good balance between training and testing data. There is no simple way to determine how large the data set should be to provide sufficient training, or how sparse the training set can be and still avoid overfitting. However, after you have built a model, you can use cross-validation to assess the data set with respect to a particular model.  
   
 -   In addition to the properties listed in the previous table, a read-only property, **HoldoutActualSize**, is provided in AMO and XML DDL. However, because the actual size of a partition cannot be determined accurately until after the structure has been processed, you should check whether the model has been processed before you retrieve the value of the **HoldoutActualSize** property.  
-  
-## Related Content  
-  
-|Topics|Links|  
-|------------|-----------|  
-|Describes how filters on a model interact with training and testing data sets.|[Filters for Mining Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/filters-for-mining-models-analysis-services-data-mining.md)|  
-|Describes how the use of training and testing data affects cross-validation.|[Cross-Validation &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/cross-validation-analysis-services-data-mining.md)|  
-|Provides information on the programmatic interfaces for working with training and testing sets in a mining structure.|[AMO Concepts and Object Model](https://docs.microsoft.com/analysis-services/amo/amo-concepts-and-object-model)<br /><br /> [MiningStructure Element &#40;ASSL&#41;](https://docs.microsoft.com/bi-reference/assl/objects/miningstructure-element-assl)|  
-|Provides DMX syntax for creating holdout sets.|[CREATE MINING STRUCTURE &#40;DMX&#41;](/sql/dmx/create-mining-structure-dmx)|  
-|Retrieve information about cases in the training and testing sets.|[Data Mining Schema Rowsets](https://docs.microsoft.com/bi-reference/schema-rowsets/data-mining/data-mining-schema-rowsets)<br /><br /> [Data Mining Schema Rowsets &#40;SSAs&#41;](../../analysis-services/data-mining/data-mining-schema-rowsets-ssas.md)|  
+
   
 ## See Also  
  [Data Mining Tools](../../analysis-services/data-mining/data-mining-tools.md)   

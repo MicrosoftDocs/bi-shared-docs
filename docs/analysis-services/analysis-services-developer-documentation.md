@@ -72,7 +72,7 @@ Describes XMLA concepts that can help you understand how XMLA contributes to you
 [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/bi-reference/assl/analysis-services-scripting-language-assl-for-xmla)
 Describes the ASSL extensions to XMLA. ASSL provides a data definition and manipulation language for Analysis Services multidimensional models that supplements the XMLA specification.
 
-[Analysis Services Schema Rowsets](https://docs.microsoft.com/bi-reference/schema-rowsets/analysis-services-schema-rowsets)
+[Analysis Services Schema Rowsets](https://docs.microsoft.com/analysis-services/instances/analysis-services-schema-rowsets)
 Describes the schema rowsets that provide information about server state, server operations, and database objects.
 
 [Analysis Services PowerShell reference](../analysis-services/powershell/analysis-services-powershell-reference.md)

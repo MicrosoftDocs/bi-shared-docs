@@ -33,19 +33,6 @@ conceptualContent:
           text: XML Elements - Commands
 
     # Card
-    - title: Analysis Services schema rowsets
-      links:
-        - url: schema-rowsets/analysis-services-schema-rowsets.md
-          itemType: overview
-          text:  Schema rowsets overview
-        - url: https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/
-          itemType: reference
-          text: MS-SSAS-T SQL Server Analysis Services Tabular Protocol 
-        - url: https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas/
-          itemType: reference
-          text:  MS-SSAS SQL Server Analysis Services Protocol 
-
-    # Card
     - title: ADOMD.NET
       links:
         - url: adomd/developing-with-adomd-net.md
