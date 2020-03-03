@@ -11,7 +11,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # Dynamic Management Views (DMVs) 
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
 Analysis Services Dynamic Management Views (DMV) are queries that return information about model objects, server operations, and server health. The query, based on SQL, is an interface to *schema rowsets*. Schema rowsets are predescribed tables that contain information about Analysis Services objects and server state, including database schema, active sessions, connections, commands, and jobs that are executing on the server.
 
