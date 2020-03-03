@@ -1286,6 +1286,8 @@
         href: ../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md
       - name: Dynamic Management Views (DMVs)
         href: ../analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md
+      - name: Schema Rowsets
+        href: ../analysis-services/instances/analysis-services-schema-rowsets.md
       - name: Performance counters
         href: ../analysis-services/instances/performance-counters-ssas.md
       - name: Log operations
