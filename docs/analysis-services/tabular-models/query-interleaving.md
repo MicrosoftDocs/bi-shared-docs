@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular query interleaving | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 03/03/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -79,6 +79,26 @@ The unit of measure for ReservedComputeForFastQueries is the percentage of cores
 **ReservedComputeForProcessing** - Sets the number of reserved logical cores for each processing (data refresh) operation. The property value is an integer between 0 and 100, with a default value of 75 expressed. The value represents a percentage of the cores determined by the ReservedComputeForFastQueries property. A value of 0 (zero) means processing operations are subject to the same query interleaving logic as queries, so can be decayed. 
 
 While no processing operations are being performed, ReservedComputeForProcessing has no effect. For example, with a value of 80, ReservedComputeForFastQueries on a server with 20 cores reserves 16 cores for fast queries. With a value of 75, ReservedComputeForProcessing will then reserve 12 of the 16 cores for refresh operations, leaving 4 for fast queries while processing operations are running and consuming CPU. As described in the **Decayed queries** section below, the remaining 4 cores (not reserved for fast queries or processing operations) will still be used for fast queries and processing if idle.
+
+These additional properties are located under the 'ResourceGovernance' properties node. In SQL Server Management Studio, the following example XMLA snippet sets the DecayIntervalCPUTime property to a alue lower than default:
+
+```xmla
+<Alter AllowCreate="true" ObjectExpansion="ObjectProperties" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <Object />
+  <ObjectDefinition>
+    <Server xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500">
+      <ID>myserver</ID>
+      <Name>myserver</Name>
+      <ServerProperties>
+        <ServerProperty>
+          <Name>ResourceGovernance\DecayIntervalCPUTime</Name>
+          <Value>15000</Value>
+        </ServerProperty>
+      </ServerProperties>
+    </Server>
+  </ObjectDefinition>
+</Alter>
+```
 
 ## Decayed queries
 

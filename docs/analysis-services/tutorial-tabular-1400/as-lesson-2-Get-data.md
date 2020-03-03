@@ -55,7 +55,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
 
     ![as-lesson2-select-tables](../tutorial-tabular-1400/media/as-lesson2-select-tables.png)
   
-After you click **Transoform Data**, Power Query Editor opens. In the next section, you select only the data you want to import.
+After you click **Transform Data**, Power Query Editor opens. In the next section, you select only the data you want to import.
 
   
 ## Filter the table data  
