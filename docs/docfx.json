@@ -62,8 +62,8 @@
     },
 
     "open_to_public_contributors": {
-      "analysis-services/amo/**.md": false,
-      "analysis-services/trace-events/**.md": false
+      "analysis-services/amo/**/*.md": false,
+      "analysis-services/trace-events/**/*.md": false
     },
 
     "fileMetadata": {
