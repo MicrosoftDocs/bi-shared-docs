@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular query interleaving | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 03/03/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -70,7 +70,17 @@ At this time, the SchedulingBehavior property can be set only by using XMLA. In 
 
 In most cases, SchedulingBehavior is the only property you need to set. The following additional properties have defaults that should work in most scenarios with short query bias, however they can be changed if needed. The following properties *have no effect* unless query interleaving is enabled by setting the SchedulingBehavior property. 
 
-Note, these additional properties are located under the 'ResourceGovernance' properties node. Thus you can use the following XMLA snippet to set, e.g. the DecayIntervalCPUTime property to a lower value than default:
+**ReservedComputeForFastQueries** - Sets the number of reserved logical cores for *fast* queries. All queries are deemed *fast* until they decay because they have used up a certain amount of CPU. ReservedComputeForFastQueries is an integer between 0 and 100. The default value is 75. 
+
+The unit of measure for ReservedComputeForFastQueries is the percentage of cores. For example, a value of 80 on a server with 20 cores attempts to reserve 16 cores for fast queries (while no refresh operations are being performed). ReservedComputeForFastQueries rounds up to the nearest whole number of cores. It's recommended you do not to set this property value below 50. This is because fast queries could be deprived and is counter to the overall design of the feature. 
+
+**DecayIntervalCPUTime** - An integer representing the CPU time in milliseconds that a query spends before it decays. If the system is under CPU pressure, decayed queries are limited to the remaining cores not reserved for fast queries. The default value is 60,000. This represents 1 minute of CPU time, not elapsed calendar time. 
+
+**ReservedComputeForProcessing** - Sets the number of reserved logical cores for each processing (data refresh) operation. The property value is an integer between 0 and 100, with a default value of 75 expressed. The value represents a percentage of the cores determined by the ReservedComputeForFastQueries property. A value of 0 (zero) means processing operations are subject to the same query interleaving logic as queries, so can be decayed. 
+
+While no processing operations are being performed, ReservedComputeForProcessing has no effect. For example, with a value of 80, ReservedComputeForFastQueries on a server with 20 cores reserves 16 cores for fast queries. With a value of 75, ReservedComputeForProcessing will then reserve 12 of the 16 cores for refresh operations, leaving 4 for fast queries while processing operations are running and consuming CPU. As described in the **Decayed queries** section below, the remaining 4 cores (not reserved for fast queries or processing operations) will still be used for fast queries and processing if idle.
+
+These additional properties are located under the 'ResourceGovernance' properties node. In SQL Server Management Studio, the following example XMLA snippet sets the DecayIntervalCPUTime property to a alue lower than default:
 
 ```xmla
 <Alter AllowCreate="true" ObjectExpansion="ObjectProperties" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
@@ -89,16 +99,6 @@ Note, these additional properties are located under the 'ResourceGovernance' pro
   </ObjectDefinition>
 </Alter>
 ```
-
-**ReservedComputeForFastQueries** - Sets the number of reserved logical cores for *fast* queries. All queries are deemed *fast* until they decay because they have used up a certain amount of CPU. ReservedComputeForFastQueries is an integer between 0 and 100. The default value is 75. 
-
-The unit of measure for ReservedComputeForFastQueries is the percentage of cores. For example, a value of 80 on a server with 20 cores attempts to reserve 16 cores for fast queries (while no refresh operations are being performed). ReservedComputeForFastQueries rounds up to the nearest whole number of cores. It's recommended you do not to set this property value below 50. This is because fast queries could be deprived and is counter to the overall design of the feature. 
-
-**DecayIntervalCPUTime** - An integer representing the CPU time in milliseconds that a query spends before it decays. If the system is under CPU pressure, decayed queries are limited to the remaining cores not reserved for fast queries. The default value is 60,000. This represents 1 minute of CPU time, not elapsed calendar time. 
-
-**ReservedComputeForProcessing** - Sets the number of reserved logical cores for each processing (data refresh) operation. The property value is an integer between 0 and 100, with a default value of 75 expressed. The value represents a percentage of the cores determined by the ReservedComputeForFastQueries property. A value of 0 (zero) means processing operations are subject to the same query interleaving logic as queries, so can be decayed. 
-
-While no processing operations are being performed, ReservedComputeForProcessing has no effect. For example, with a value of 80, ReservedComputeForFastQueries on a server with 20 cores reserves 16 cores for fast queries. With a value of 75, ReservedComputeForProcessing will then reserve 12 of the 16 cores for refresh operations, leaving 4 for fast queries while processing operations are running and consuming CPU. As described in the **Decayed queries** section below, the remaining 4 cores (not reserved for fast queries or processing operations) will still be used for fast queries and processing if idle.
 
 ## Decayed queries
 
