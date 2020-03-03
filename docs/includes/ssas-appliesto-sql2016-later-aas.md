@@ -1,1 +1,1 @@
-**APPLIES TO:** ![yes](media/yes.png)SQL Server Analysis Services (2016 and later) ![yes](media/yes.png)Azure Analysis Services ![no](media/no.png)Power BI Premium
+**APPLIES TO:** ![yes](media/yes.png)SQL Server 2016 and later Analysis Services ![yes](media/yes.png)Azure Analysis Services ![no](media/no.png)Power BI Premium
