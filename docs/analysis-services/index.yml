@@ -9,8 +9,7 @@ metadata:
   ms.topic: landing-page
   author: minewiskan
   ms.author: owend
-  manager: mtillman
-  ms.date: 09/05/2019
+  ms.date: 03/03/2020
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
@@ -26,6 +25,8 @@ landingContent:
             url: analysis-services-overview.md
           - text: What is Azure Analysis Services?
             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-overview
+          - text: SQL Server 2014 Analysis Services
+            url: https://docs.microsoft.com/sql/analysis-services/analysis-services?view=sql-server-2014
       - linkListType: whats-new
         links:      
           - text: What's new in SQL Server Analysis Services
