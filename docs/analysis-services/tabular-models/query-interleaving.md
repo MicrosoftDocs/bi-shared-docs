@@ -80,7 +80,7 @@ The unit of measure for ReservedComputeForFastQueries is the percentage of cores
 
 While no processing operations are being performed, ReservedComputeForProcessing has no effect. For example, with a value of 80, ReservedComputeForFastQueries on a server with 20 cores reserves 16 cores for fast queries. With a value of 75, ReservedComputeForProcessing will then reserve 12 of the 16 cores for refresh operations, leaving 4 for fast queries while processing operations are running and consuming CPU. As described in the **Decayed queries** section below, the remaining 4 cores (not reserved for fast queries or processing operations) will still be used for fast queries and processing if idle.
 
-These additional properties are located under the 'ResourceGovernance' properties node. In SQL Server Management Studio, the following example XMLA snippet sets the DecayIntervalCPUTime property to a alue lower than default:
+These additional properties are located under the **ResourceGovernance** properties node. In SQL Server Management Studio, the following example XMLA snippet sets the DecayIntervalCPUTime property to a value lower than default:
 
 ```xmla
 <Alter AllowCreate="true" ObjectExpansion="ObjectProperties" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
