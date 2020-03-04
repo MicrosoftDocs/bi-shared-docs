@@ -44,7 +44,7 @@ manager: kfile
 ## Remarks  
  An **AlgorithmParameter** is a parameter for a mining model algorithm. The **AlgorithmParameter** represents this parameter as a name/value pair. The set of applicable parameters that an **AlgorithmParameter** can represent is algorithm-dependent. For more information about algorithm parameters for a given algorithm, see the appropriate documentation for that algorithm.  
   
- Available algorithm parameters, including validation and display information, can be retrieved from the [DMSCHEMA_MINING_SERVICE_PARAMETERS](../../schema-rowsets/data-mining/dmschema-mining-service-parameters-rowset.md) schema rowset.  
+ Available algorithm parameters, including validation and display information, can be retrieved from the DMSCHEMA_MINING_SERVICE_PARAMETERS schema rowset.  
   
  The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.AlgorithmParameter>.  
   
