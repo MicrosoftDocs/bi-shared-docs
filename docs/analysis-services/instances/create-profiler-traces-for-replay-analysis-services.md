@@ -40,8 +40,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
   
 -   Command End event class with all its data columns. This event class verifies the status of the command. For more information, see [Command Events Data Columns](https://docs.microsoft.com/analysis-services/trace-events/command-events-data-columns).  
   
-## See Also  
+## See also
+
  [Analysis Services Trace Events](https://docs.microsoft.com/analysis-services/trace-events/analysis-services-trace-events)   
- [Introduction to Monitoring Analysis Services with SQL Server Profiler](../../analysis-services/instances/introduction-to-monitoring-analysis-services-with-sql-server-profiler.md)  
+
   
   

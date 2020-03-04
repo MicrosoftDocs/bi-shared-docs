@@ -1729,6 +1729,12 @@
       "source_path": "bi-reference/schema-rowsets/xml/xml-for-analysis-schema-rowsets.md",
       "redirect_url": "/analysis-services/instances/analysis-services-schema-rowsets",
       "redirect_document_id": false
+    },
+
+    {
+      "source_path": "analysis-services/instances/introduction-to-monitoring-analysis-services-with-sql-server-profiler.md",
+      "redirect_url": "/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services",
+      "redirect_document_id": false
     }
 
   ]

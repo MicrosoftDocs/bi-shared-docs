@@ -1221,11 +1221,9 @@
       items:
       - name: Monitoring tools
         href: ../analysis-services/instances/monitor-an-analysis-services-instance.md
-      - name: SQL Server Profiler
+      - name: SQL Server Profiler overview
         href: ../analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services.md
         items:
-        - name: Monitoring Analysis Services with SQL Server Profiler
-          href: ../analysis-services/instances/introduction-to-monitoring-analysis-services-with-sql-server-profiler.md
         - name: Create Profiler Traces for Replay
           href: ../analysis-services/instances/create-profiler-traces-for-replay-analysis-services.md
       - name: Trace Events
