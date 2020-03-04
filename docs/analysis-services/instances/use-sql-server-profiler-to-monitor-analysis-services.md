@@ -46,8 +46,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 -   A trace can continue when Analysis Services stops and restarts.  
   
-    > [!NOTE]  
-    >  Passwords are not revealed in trace events, but are replaced by \*\*\*\*\*\* in the event.  
+-   Passwords are not revealed in trace events, but are replaced by \*\*\*\*\*\* in the event.  
   
  For optimal performance, use SQL Server Profiler to monitor only those events in which you are most interested. Monitoring too many events adds overhead and can cause the trace file or table to grow very large, especially when you monitor over a long period of time. In addition, use filtering to limit the amount of data that is collected and to prevent traces from becoming too large.  
   
