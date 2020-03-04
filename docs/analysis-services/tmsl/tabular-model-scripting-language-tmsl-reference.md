@@ -59,10 +59,12 @@ manager: kfile
   
  The following table is the scripting language matrix for Analysis Services data models across different versions, at specific compatibility levels.  
 
-||||||  
-|-|-|-|-|-|  
-|**Version**|**Multidimensional**|**Tabular 110x**|**Tabular 1200**| **Tabular 1400** |
-|Azure Analysis Services|NA|NA|TMSL|TMSL| 
-|SQL Server 2016 and later Analysis Services|ASSL|ASSL|TMSL|TMSL| 
-|SQL Server 2014 Analysis Services|ASSL|ASSL|NA|NA|   
-|SQL Server 2012 Analysis Services|ASSL|ASSL|NA|NA|  
+|||||||  
+|-|-|-|-|-|-|
+|**Version**|**Multidimensional**|**Tabular 110x**|**Tabular 1200**| **Tabular 1400** |**Tabular 1500**|
+|Azure Analysis Services|NA|NA|TMSL|TMSL|TMSL|
+|SQL Server 2019 Analysis Services|ASSL|ASSL|TMSL|TMSL|TMSL|
+|SQL Server 2017 Analysis Services|ASSL|ASSL|TMSL|TMSL|NA|
+|SQL Server 2016 Analysis Services|ASSL|ASSL|TMSL|NA|NA|
+|SQL Server 2014 Analysis Services|ASSL|ASSL|NA|NA|NA|
+|SQL Server 2012 Analysis Services|ASSL|ASSL|NA|NA|NA|
