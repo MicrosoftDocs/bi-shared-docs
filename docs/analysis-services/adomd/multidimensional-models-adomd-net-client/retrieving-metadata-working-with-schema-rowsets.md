@@ -16,26 +16,19 @@ manager: kfile
  **XML for Analysis metadata**  
  The XML for Analysis schema rowsets provide a method for retrieving low-level information about the server. Information available includes the data sources available on the server, the keywords reserved by the provider, the literals supported by the provider, and more. You can even use an XML for Analysis schema rowset to discover all schema rowsets supported by the provider.  
   
- For more information: [XML for Analysis Schema Rowsets](../../schema-rowsets/xml/xml-for-analysis-schema-rowsets.md)  
-  
  **OLE DB metadata**  
  The OLE DB schema rowsets provide an industry-standard method for retrieving information from a variety of providers.  
   
- For more information: [OLE DB Schema Rowsets](../../schema-rowsets/ole-db/ole-db-schema-rowsets.md)  
-  
  **OLAP metadata**  
- Schema information provided for an analytical data source includes databases or catalogs available from the analytical data source, cubes and mining models in a database, roles that exist for cubes at the data source, and more.  
-  
- For more information: [OLE DB for OLAP Schema Rowsets](../../schema-rowsets/ole-db-olap/ole-db-for-olap-schema-rowsets.md)  
+ Schema information provided for an analytical data source includes databases or catalogs available from the analytical data source, cubes and mining models in a database, roles that exist for cubes at the data source, and more.    
   
  **Data Mining metadata**  
- In addition to OLAP metadata, data mining metadata can be retrieved using schema rowsets. The available rowsets expose information on the available data mining models in the database, the available mining algorithms, the parameters that the algorithm require, mining structures, and more.  
-  
- For more information: [Data Mining Schema Rowsets](../../schema-rowsets/data-mining/data-mining-schema-rowsets.md)  
+ In addition to OLAP metadata, data mining metadata can be retrieved using schema rowsets. The available rowsets expose information on the available data mining models in the database, the available mining algorithms, the parameters that the algorithm require, mining structures, and more.   
   
  For each of these various schema rowsets, you retrieve metadata from the rowset by passing either a GUID or XMLA name with the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A> method of the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection> object.  
   
-## Retrieving Metadata by Passing GUIDS  
+## Retrieving Metadata by Passing GUIDS
+
  The <xref:Microsoft.AnalysisServices.AdomdClient.AdomdSchemaGuid> class contains a list of fields that represent the schema rowsets most commonly supported by providers and analytical data sources. To retrieve both general and provider-specific metadata from a provider or analytical data source, you use the GUIDs contained within the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdSchemaGuid> object with the either of the following methods:  
   
 -   <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>  
@@ -59,6 +52,6 @@ manager: kfile
  Each of these methods returns an instance of a **DataSet** object that is populated with the schema information. The **DataSet** object is from the **System.Data** namespace of the Microsoft .NET Framework Class Library.  
   
 ## Example  
- In the following example, the GetActions function takes a connection, the cube name, a coordinate, and a coordinate type, retrieves an [MDSCHEMA_ACTIONS Rowset](../../schema-rowsets/ole-db-olap/mdschema-actions-rowset.md), and returns the actions available on the selected coordinate.  
+ In the following example, the GetActions function takes a connection, the cube name, a coordinate, and a coordinate type, retrieves an MDSCHEMA_ACTIONS Rowset, and returns the actions available on the selected coordinate.  
   
  [!code-cs[Adomd.NetClient#GetActions](codesnippet/csharp/retrieving-metadata-work_0_1.cs)]  

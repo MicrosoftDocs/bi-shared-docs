@@ -30,7 +30,7 @@ manager: kfile
   
  You cannot modify these objects directly, but must use the client tools and application programming interfaces (APIs) provided for working with tabular models.  
   
- You can obtain the CSDL for a model by sending a DISCOVER request to the server that hosts the model. The request must be qualified by specifying the server and the model, and, optionally, a view or perspective. The returned message is an XML string. Certain elements are language-dependent and may return different values depending on the language of the current connection. For more information, see [DISCOVER_CSDL_METADATA Rowset](../schema-rowsets/xml/discover-csdl-metadata-rowset.md).  
+ You can obtain the CSDL for a model by sending a DISCOVER request to the server that hosts the model. The request must be qualified by specifying the server and the model, and, optionally, a view or perspective. The returned message is an XML string. Certain elements are language-dependent and may return different values depending on the language of the current connection. For more information, see DISCOVER_CSDL_METADATA Rowset.  
   
 ### CSDLBI Versions
 

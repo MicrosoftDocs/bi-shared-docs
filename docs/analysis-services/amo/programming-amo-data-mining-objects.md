@@ -16,7 +16,7 @@ manager: kfile
 
   Programming data mining objects by using AMO is simple and straightforward. The first step is to create the data structure model to support the mining project. Then you create the data mining model that supports the mining algorithm you want to use in order to predict or to find the unseen relationships underlying your data. With your mining project created (including structure and algorithms), you can then process the mining models to obtain the trained models that you will use later when querying and predicting from the client application.  
   
- One thing to remember is that AMO is not for querying; AMO is for managing and administering your mining structures and models. To query your data, use [Developing with ADOMD.NET](/bi-reference/adomd/developing-with-adomd-net).  
+ One thing to remember is that AMO is not for querying; AMO is for managing and administering your mining structures and models. To query your data, use [Developing with ADOMD.NET](../adomd/developing-with-adomd-net.md).  
   
 ## MiningStructure objects
 
