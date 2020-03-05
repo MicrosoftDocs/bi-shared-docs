@@ -35,7 +35,7 @@ manager: kfile
   
  [Developing with Analysis Services Scripting Language &#40;ASSL&#41;](../../../analysis-services/multidimensional-models/scripting-language-assl/developing-with-analysis-services-scripting-language-assl.md)  
   
- [Developing with ADOMD.NET](https://docs.microsoft.com/bi-reference/adomd/developing-with-adomd-net)  
+ [Developing with ADOMD.NET](https://docs.microsoft.com/analysis-services/adomd/developing-with-adomd-net)  
   
  ![Small File Folder Icon](../../../analysis-services/media/filefolder-small.png "Small File Folder Icon") **International Considerations**  
  [Globalization scenarios for Analysis Services](../../../analysis-services/globalization-scenarios-for-analysis-services.md)  

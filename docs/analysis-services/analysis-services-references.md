@@ -72,7 +72,7 @@ Client applications can communicate with Analysis Services using XML commands an
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### [ADOMD.NET](/bi-reference/adomd/developing-with-adomd-net)
+### [ADOMD.NET](adomd/developing-with-adomd-net.md)
 
 .NET Framework data provider designed to communicate with Analysis Services. ADOMD.NET uses the XMLA protocol to communicate with analytical data sources by using either TCP/IP or HTTP.
 
