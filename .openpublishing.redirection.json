@@ -872,7 +872,7 @@
     },
     {
       "source_path": "reference-docs/trace-events/index.md",
-      "redirect_url": "/bi-reference/trace-events/analysis-services-trace-events",
+      "redirect_url": "/reference-docs/trace-events/analysis-services-trace-events",
       "redirect_document_id": false
     },
     {
@@ -1264,127 +1264,127 @@
 
 
     {
-      "source_path": "bi-reference/trace-events/analysis-services-trace-events.md",
+      "source_path": "reference-docs/trace-events/analysis-services-trace-events.md",
       "redirect_url": "/analysis-services/trace-events/analysis-services-trace-events",
       "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/command-events-data-columns.md",
+        "source_path": "reference-docs/trace-events/command-events-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/command-events-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/command-events-event-category.md",
+        "source_path": "reference-docs/trace-events/command-events-event-category.md",
         "redirect_url": "/analysis-services/trace-events/command-events-event-category",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/discover-events-data-columns.md",
+        "source_path": "reference-docs/trace-events/discover-events-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/discover-events-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/discover-events-event-category.md",
+        "source_path": "reference-docs/trace-events/discover-events-event-category.md",
         "redirect_url": "/analysis-services/trace-events/discover-events-event-category",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/discover-server-state-event-category.md",
+        "source_path": "reference-docs/trace-events/discover-server-state-event-category.md",
         "redirect_url": "/analysis-services/trace-events/discover-server-state-event-category",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/discover-server-state-events-data-columns.md",
+        "source_path": "reference-docs/trace-events/discover-server-state-events-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/discover-server-state-events-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/errors-and-warnings-event-category.md",
+        "source_path": "reference-docs/trace-events/errors-and-warnings-event-category.md",
         "redirect_url": "/analysis-services/trace-events/errors-and-warnings-event-category",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/errors-and-warnings-events-data-columns.md",
+        "source_path": "reference-docs/trace-events/errors-and-warnings-events-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/errors-and-warnings-events-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/file-load-and-save-data-columns.md",
+        "source_path": "reference-docs/trace-events/file-load-and-save-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/file-load-and-save-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/file-load-and-save-event-category.md",
+        "source_path": "reference-docs/trace-events/file-load-and-save-event-category.md",
         "redirect_url": "/analysis-services/trace-events/file-load-and-save-event-category",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/lock-events-category.md",
+        "source_path": "reference-docs/trace-events/lock-events-category.md",
         "redirect_url": "/analysis-services/trace-events/lock-events-category",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/lock-events-data-columns.md",
+        "source_path": "reference-docs/trace-events/lock-events-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/lock-events-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/notification-events-data-columns.md",
+        "source_path": "reference-docs/trace-events/notification-events-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/notification-events-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/notification-events-event-category.md",
+        "source_path": "reference-docs/trace-events/notification-events-event-category.md",
         "redirect_url": "/analysis-services/trace-events/notification-events-event-category",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/progress-reports-data-columns.md",
+        "source_path": "reference-docs/trace-events/progress-reports-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/progress-reports-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/progress-reports-event-category.md",
+        "source_path": "reference-docs/trace-events/progress-reports-event-category.md",
         "redirect_url": "/analysis-services/trace-events/progress-reports-event-category",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/queries-events-category.md",
+        "source_path": "reference-docs/trace-events/queries-events-category.md",
         "redirect_url": "/analysis-services/trace-events/queries-events-category",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/queries-events-data-columns.md",
+        "source_path": "reference-docs/trace-events/queries-events-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/queries-events-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/query-processing-events-category.md",
+        "source_path": "reference-docs/trace-events/query-processing-events-category.md",
         "redirect_url": "/analysis-services/trace-events/query-processing-events-category",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/query-processing-events-data-columns.md",
+        "source_path": "reference-docs/trace-events/query-processing-events-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/query-processing-events-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/security-audit-data-columns.md",
+        "source_path": "reference-docs/trace-events/security-audit-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/security-audit-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/security-audit-event-category.md",
+        "source_path": "reference-docs/trace-events/security-audit-event-category.md",
         "redirect_url": "/analysis-services/trace-events/security-audit-event-category",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/session-events-data-columns.md",
+        "source_path": "reference-docs/trace-events/session-events-data-columns.md",
         "redirect_url": "/analysis-services/trace-events/session-events-data-columns",
         "redirect_document_id": false
     },
     {
-        "source_path": "bi-reference/trace-events/session-events-event-category.md",
+        "source_path": "reference-docs/trace-events/session-events-event-category.md",
         "redirect_url": "/analysis-services/trace-events/session-events-event-category",
         "redirect_document_id": false
     },
