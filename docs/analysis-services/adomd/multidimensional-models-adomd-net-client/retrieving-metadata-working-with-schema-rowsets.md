@@ -20,10 +20,10 @@ manager: kfile
  The OLE DB schema rowsets provide an industry-standard method for retrieving information from a variety of providers.  
   
  **OLAP metadata**  
- Schema information provided for an analytical data source includes databases or catalogs available from the analytical data source, cubes and mining models in a database, roles that exist for cubes at the data source, and more.    
+ Schema information provided for an analytical data source includes databases or catalogs available from the analytical data source, cubes and mining models in a database, roles that exist for cubes at the data source, and more.  
   
  **Data Mining metadata**  
- In addition to OLAP metadata, data mining metadata can be retrieved using schema rowsets. The available rowsets expose information on the available data mining models in the database, the available mining algorithms, the parameters that the algorithm require, mining structures, and more.   
+ In addition to OLAP metadata, data mining metadata can be retrieved using schema rowsets. The available rowsets expose information on the available data mining models in the database, the available mining algorithms, the parameters that the algorithm require, mining structures, and more.  
   
  For each of these various schema rowsets, you retrieve metadata from the rowset by passing either a GUID or XMLA name with the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A> method of the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection> object.  
   
@@ -54,4 +54,4 @@ manager: kfile
 ## Example  
  In the following example, the GetActions function takes a connection, the cube name, a coordinate, and a coordinate type, retrieves an MDSCHEMA_ACTIONS Rowset, and returns the actions available on the selected coordinate.  
   
- [!code-cs[Adomd.NetClient#GetActions](codesnippet/csharp/retrieving-metadata-work_0_1.cs)]  
+ [!code-cs[Adomd.NetClient#GetActions](codesnippet/csharp/retrieving-metadata-work_0_1.cs)]

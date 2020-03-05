@@ -171,9 +171,9 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 -   Use ASTrace2012, rather than a query log, to find out who is querying cubes. The query log is typically used to provide input into the Usage Based Optimization Wizard, and the data it captures is not easy to read or interpret. ASTrace2012 is a community tool, widely used, that captures query operations. See [Microsoft SQL Server Community Samples: Analysis Services](https://sqlsrvanalysissrvcs.codeplex.com/).  
   
-## See Also  
+## See also
  [Analysis Services Instance Management](../../analysis-services/instances/analysis-services-instance-management.md)   
- [Introduction to Monitoring Analysis Services with SQL Server Profiler](../../analysis-services/instances/introduction-to-monitoring-analysis-services-with-sql-server-profiler.md)   
+
  [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)  
   
   
