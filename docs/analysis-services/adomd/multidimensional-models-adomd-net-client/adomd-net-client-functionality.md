@@ -24,9 +24,7 @@ manager: kfile
  For more information: [Retrieving Data from an Analytical Data Source](retrieving-data-from-an-analytical-data-source.md).  
   
  **Changing the Structure of Analytical Data**  
- ADOMD.NET can also be used to actually change the structure of the analytical data store. Though this is usually done through the Analysis Management Objects (AMO) object model, you can use ADOMD.NET to send Analysis Services Scripting Language (ASSL) commands to create, alter, or delete objects on the server.  
-  
- For more information: [Executing Commands Against an Analytical Data Source](executing-commands-against-an-analytical-data-source.md), [Developing with Analysis Management Objects &#40;AMO&#41;](/analysis-services/amo/developing-with-analysis-management-objects-amo), [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](../../assl/analysis-services-scripting-language-assl-for-xmla.md)  
+ ADOMD.NET can also be used to actually change the structure of the analytical data store. Though this is usually done through the Analysis Management Objects (AMO) object model, you can use ADOMD.NET to send Analysis Services Scripting Language (ASSL) commands to create, alter, or delete objects on the server.   
   
  Retrieving metadata, retrieving data, and changing data structure each occur at a specific point in the workflow of a typical ADOMD.NET application.  
   

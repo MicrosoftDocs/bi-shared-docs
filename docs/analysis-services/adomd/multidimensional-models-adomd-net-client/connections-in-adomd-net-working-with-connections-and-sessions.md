@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Connections in ADOMD.NET - Working with Connections and Sessions
-  In XML for Analysis (XMLA), sessions provide support for stateful operations during analytical data access. Sessions frame the scope and context of commands and transactions for an analytical data source. The XMLA elements used to manage sessions are [BeginSession](../../xmla/xml-elements-headers/beginsession-element-xmla.md), [Session](../../xmla/xml-elements-headers/session-element-xmla.md), and [EndSession](../../xmla/xml-elements-headers/endsession-element-xmla.md).  
+  In XML for Analysis (XMLA), sessions provide support for stateful operations during analytical data access. Sessions frame the scope and context of commands and transactions for an analytical data source. The XMLA elements used to manage sessions are BeginSession, Session, and EndSession.  
   
  ADOMD.NET uses these three XMLA session elements when you start a session, perform queries or retrieve data during the session, and close a session.  
   
@@ -90,4 +90,4 @@ static string CreateSession(string connectionString)
         objConnection = null;  
     }  
 }  
-``` 
+```

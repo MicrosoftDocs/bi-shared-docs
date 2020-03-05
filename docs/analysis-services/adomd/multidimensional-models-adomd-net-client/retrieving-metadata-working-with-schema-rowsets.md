@@ -27,7 +27,8 @@ manager: kfile
   
  For each of these various schema rowsets, you retrieve metadata from the rowset by passing either a GUID or XMLA name with the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A> method of the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection> object.  
   
-## Retrieving Metadata by Passing GUIDS  
+## Retrieving Metadata by Passing GUIDS
+
  The <xref:Microsoft.AnalysisServices.AdomdClient.AdomdSchemaGuid> class contains a list of fields that represent the schema rowsets most commonly supported by providers and analytical data sources. To retrieve both general and provider-specific metadata from a provider or analytical data source, you use the GUIDs contained within the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdSchemaGuid> object with the either of the following methods:  
   
 -   <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.GetSchemaDataSet%2A>  

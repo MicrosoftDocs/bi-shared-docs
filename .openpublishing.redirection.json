@@ -337,22 +337,22 @@
     },
     {
       "source_path": "docs/analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-functionality.md",
-      "redirect_url": "/bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-functionality",
+      "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-server/adomd-net-server-functionality",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-object-architecture.md",
-      "redirect_url": "/bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-object-architecture",
+      "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-server/adomd-net-server-object-architecture",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/analysis-services/multidimensional-models-adomd-net-server/adomd-net-server-programming.md",
-      "redirect_url": "/bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-programming",
+      "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-server/adomd-net-server-programming",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/analysis-services/multidimensional-models-adomd-net-server/user-defined-functions-and-stored-procedures.md",
-      "redirect_url": "/bi-reference/adomd/multidimensional-models-adomd-net-server/user-defined-functions-and-stored-procedures",
+      "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-server/user-defined-functions-and-stored-procedures",
       "redirect_document_id": false
     },
     {
@@ -837,7 +837,7 @@
     },
     {
       "source_path": "reference-docs/adomd/index.md",
-      "redirect_url": "/bi-reference/adomd/developing-with-adomd-net",
+      "redirect_url": "/analysis-services/adomd/developing-with-adomd-net",
       "redirect_document_id": false
     },
     {
@@ -1731,10 +1731,111 @@
       "redirect_document_id": false
     },
 
+
     {
-      "source_path": "analysis-services/instances/introduction-to-monitoring-analysis-services-with-sql-server-profiler.md",
-      "redirect_url": "/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services",
+      "source_path": "bi-reference/adomd/developing-with-adomd-net.md",
+      "redirect_url": "/analysis-services/adomd/developing-with-adomd-net",
       "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/redistributing-adomd-net.md",
+        "redirect_url": "/analysis-services/adomd/redistributing-adomd-net",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/adomd-net-client-functionality.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/adomd-net-client-functionality",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/adomd-net-client-programming.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/adomd-net-client-programming.",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/dconnections-in-adomd-net-establishing-secure-connections",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-performing-transactions.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-performing-transactions",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-working-with-connections-and-sessions.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-working-with-connections-and-sessions",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/executing-commands-against-an-analytical-data-source.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/executing-commands-against-an-analytical-data-source",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/migrating-from-ado-md-to-adomd-net.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/migrating-from-ado-md-to-adomd-net",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/retrieving-data-from-an-analytical-data-source.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/retrieving-data-from-an-analytical-data-source",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/retrieving-data-using-the-adomddatareader.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/retrieving-data-using-the-adomddatareader",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/retrieving-data-using-the-cellset.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/retrieving-data-using-the-cellset",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/retrieving-data-using-the-xmlreader.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/retrieving-data-using-the-xmlreader",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/retrieving-metadata-from-an-analytical-data-source.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/developing-with-adomd-net",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/retrieving-metadata-working-with-adomd-net-object-model.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/retrieving-metadata-working-with-adomd-net-object-model",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-client/retrieving-metadata-working-with-schema-rowsets.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-client/retrieving-metadata-working-with-schema-rowsets",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-functionality.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-server/adomd-net-server-functionality",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-object-architecture.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-server/adomd-net-server-object-architecture",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "bi-reference/adomd/multidimensional-models-adomd-net-server/adomd-net-server-programming.md",
+        "redirect_url": "/analysis-services/adomd/multidimensional-models-adomd-net-server/adomd-net-server-programming",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/multidimensional-models-adomd-net-server/index.md",
+        "redirect_url": "/analysis-services/adomd/index",
+        "redirect_document_id": false
     }
 
   ]
