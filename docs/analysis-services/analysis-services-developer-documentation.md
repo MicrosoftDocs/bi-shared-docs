@@ -63,7 +63,7 @@ Describes the approaches building solutions that include data mining objects.
 [Multidimensional model programming](../analysis-services/multidimensional-models/multidimensional-model-programming.md)
 Describes the development tasks and approaches for integrating multidimensional model objects in a custom solution.
 
-[ADOMD.NET](https://docs.microsoft.com/bi-reference/adomd/developing-with-adomd-net)
+[ADOMD.NET](adomd/developing-with-adomd-net.md)
 Developer reference documentation for the managed provider, ADOMD.NET, used for programmatic data access and query workloads.
 
 [XML for Analysis  &#40;XMLA&#41; reference](https://docs.microsoft.com/bi-reference/xmla/xml-for-analysis-xmla-reference)

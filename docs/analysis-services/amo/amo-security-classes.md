@@ -36,4 +36,4 @@ manager: kfile
   
  To remove a <xref:Microsoft.AnalysisServices.Permission> object, it has to be dropped by using the Drop method of the object. The remove method, from the permissions collection, only prevents you from seeing the permission in your application, but it does not remove the <xref:Microsoft.AnalysisServices.Permission> object from the server. A role cannot be deleted if there is any permission associated with it.  
 
- For more information about methods and properties available, see <xref:Microsoft.AnalysisServices.Permission> in <xref:Microsoft.AnalysisServices>. 
+ For more information about methods and properties available, see <xref:Microsoft.AnalysisServices.Permission> in <xref:Microsoft.AnalysisServices>.
