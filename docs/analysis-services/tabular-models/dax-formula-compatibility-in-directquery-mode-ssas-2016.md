@@ -1,6 +1,6 @@
 ---
 title: "DAX formula compatibility in Analysis Services DirectQuery mode | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 03/05/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -10,30 +10,28 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
-# DAX formula compatibility in DirectQuery mode 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
-For tabular 1200 and higher models in DirectQuery mode, many functional limitations in earlier versions no longer apply. For DAX formulas in-particular:
 
-- DirectQuery now generates simpler queries, providing improved performance.
-- Row level security (RLS) is now supported in DirectQuery mode.
-- Calculated columns are now supported for tabular models in DirectQuery mode.
+# DAX formula compatibility in DirectQuery mode
+
+[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+
 
 ## DAX functions in DirectQuery mode
 
-In short, all DAX functions are supported for DirectQuery models. However, not all functions are supported for all formula types, and not all functions have been optimized for DirectQuery models. At the most basic level, we can put DAX functions into two camps: Optimized and Non-optimized. Let's first take a closer look at optimized functions.
+All DAX functions are supported for DirectQuery models. However, not all functions are supported for all formula types, and not all functions have been optimized for DirectQuery models. At the most basic level, DAX functions can be put into two camps: Optimized and Non-optimized. Let's first take a closer look at optimized functions.
 
 
 ### Optimized for DirectQuery
-These are functions that primarily return scalar or aggregate results. These functions are further divided into those that are supported in all types of formulas: measures, queries, calculated columns, row level security, and those that are supported in measure and query formulas only. These include:    
+
+These are functions that primarily return scalar or aggregate results. These functions are further divided into those that are supported in all types of formulas: measures, queries, calculated columns, row level security, and those that are supported in measure and query formulas only. These include:
 
 | Supported in all DAX formulas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Supported in measure and query formulas only                                                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ABS</br>  ACOS</br>  ACOT</br>  AND</br>  ASIN</br>  ATAN</br>  BLANK</br>  CEILING</br>  CONCATENATE</br>  COS</br>  COT</br>  CURRENCY</br>  DATE</br>  DATEDIFF</br>  DATEVALUE</br>  DAY</br>  DEGREES</br>  DIVIDE</br>  EDATE</br>  EOMONTH</br>  EXACT</br>  EXP</br>  FALSE</br>  FIND</br>  HOUR</br>  IF</br>  INT</br>  ISBLANK</br>  ISO.CEILING</br>  KEEPFILTERS</br>  LEFT</br>  LEN</br>  LN</br>  LOG</br>  LOG10</br>  LOWER</br>  MAX</br>  MID</br>  MIN</br>  MINUTE</br>  MOD</br>  MONTH</br>  MROUND</br>  NOT</br>  NOW</br>  OR</br>  PI</br>  POWER</br>  QUOTIENT</br>  RADIANS</br>  RAND</br>  RELATED</br>  REPT</br>  RIGHT</br>  ROUND</br>  ROUNDDOWN</br>  ROUNDUP</br>  SEARCH</br>  SECOND</br>  SIGN</br>  SIN</br>  SQRT</br>  SQRTPI</br>  SUBSTITUTE</br>  SWITCH</br>  TAN</br>  TIME</br>  TIMEVALUE</br>  TODAY</br>  TRIM</br>  TRUE</br>  TRUNC</br>  UNICODE</br>  UPPER</br>  USERNAME</br>  USERELATIONSHIP</br>  VALUE</br>  WEEKDAY</br>  WEEKNUM</br>  YEAR</br> | ALL</br> ALLEXCEPT</br> ALLNOBLANKROW</br> ALLSELECTED</br> AVERAGE</br> AVERAGEA</br> AVERAGEX</br> CALCULATE</br> CALCULATETABLE</br> COUNT</br> COUNTA</br> COUNTAX</br> COUNTROWS</br> COUNTX</br> DISTINCT</br> DISTINCTCOUNT</br> FILTER</br> FILTERS</br> HASONEFILTER</br> HASONEVALUE</br> ISCROSSFILTERED</br> ISFILTERED</br> MAXA</br> MAXX</br> MIN</br> MINA</br> MINX</br> RELATEDTABLE</br> STDEV.P</br> STDEV.S</br> STDEVX.P</br> STDEVX.S</br> SUM</br> SUMX</br> VALUES</br> VAR.P</br> VAR.S</br> VARX.P</br> VARX.S |
-
-
+| ABS</br>  ACOS</br>  ACOT</br>  AND</br>  ASIN</br>  ATAN</br>  BLANK</br>  CEILING</br>  CONCATENATE</br>  CONTAINSSTRING</br> COS</br>  COT</br>  CURRENCY</br>  DATE</br>  DATEDIFF</br>  DATEVALUE</br>  DAY</br>  DEGREES</br>  DIVIDE</br>  EDATE</br>  EOMONTH</br>  EXACT</br>  EXP</br>  FALSE</br>  FIND</br>  HOUR</br>  IF</br>  INT</br>  ISBLANK</br>  ISO.CEILING</br>  KEEPFILTERS</br>  LEFT</br>  LEN</br>  LN</br>  LOG</br>  LOG10</br>  LOWER</br>  MAX</br>  MID</br>  MIN</br>  MINUTE</br>  MOD</br>  MONTH</br>  MROUND</br>  NOT</br>  NOW</br>  OR</br>  PI</br>  POWER</br>  QUOTIENT</br>  RADIANS</br>  RAND</br>  RELATED</br>  REPT</br>  RIGHT</br>  ROUND</br>  ROUNDDOWN</br>  ROUNDUP</br>  SEARCH</br>  SECOND</br>  SIGN</br>  SIN</br>  SQRT</br>  SQRTPI</br>  SUBSTITUTE</br>  SWITCH</br>  TAN</br>  TIME</br>  TIMEVALUE</br>  TODAY</br>  TRIM</br>  TRUE</br>  TRUNC</br>  UNICODE</br>  UPPER</br>  USERNAME</br>  USERELATIONSHIP</br>  VALUE</br>  WEEKDAY</br>  WEEKNUM</br>  YEAR</br> | ALL</br> ALLEXCEPT</br> ALLNOBLANKROW</br> ALLSELECTED</br> AVERAGE</br> AVERAGEA</br> AVERAGEX</br> CALCULATE</br> CALCULATETABLE</br> COUNT</br> COUNTA</br> COUNTAX</br> COUNTROWS</br> COUNTX</br> DISTINCT</br> DISTINCTCOUNT</br> FILTER</br> FILTERS</br> HASONEFILTER</br> HASONEVALUE</br> ISCROSSFILTERED</br> ISFILTERED</br> MAXA</br> MAXX</br> MIN</br> MINA</br> MINX</br> RELATEDTABLE</br> STDEV.P</br> STDEV.S</br> STDEVX.P</br> STDEVX.S</br> SUM</br> SUMX</br> VALUES</br> VAR.P</br> VAR.S</br> VARX.P</br> VARX.S |
 
 ### Non-optimized for DirectQuery
-These functions have not been optimized to work with DirectQuery. These functions *are not* supported in calculated column and row-level security formulas at all. However, these functions *are supported* in measure and query formulas, albeit with uncertain performance.
+
+Some functions have not been optimized to work with DirectQuery. These functions *are not* supported in calculated column and row-level security formulas at all. However, these functions *are supported* in measure and query formulas, albeit with uncertain performance.
 
  We're not going to list all of the functions here. Basically, if it's not in one of the lists of optimized functions above, it's a non-optimized function for DirectQuery.
 
@@ -42,11 +40,13 @@ The reasons a particular function might not be optimized for DirectQuery is beca
 To learn about all DAX functions, see the [DAX Function Reference](/dax/dax-function-reference).
 
 ## DAX operators in DirectQuery mode
+
 All DAX comparison and arithmetic operators are fully supported in DirectQuery mode. To learn more, see [DAX Operator Reference](/dax/dax-operator-reference).
 
 
  
-## Differences between in-memory and DirectQuery mode  
+## Differences between in-memory and DirectQuery mode
+
 Queries on a model deployed in DirectQuery mode can return different results than the same model deployed in in-memory mode. This is because with DirectQuery, data is queried directly from a relational data store and aggregations required by formulas are performed using the relevant relational engine (SQL, Oracle, Teradata), rather than using the VertiPaq in-memory analytics engine for storage and calculation.  
   
 For example, there are differences in the way that certain relational data stores handle numeric values, dates, nulls, and so forth.  
@@ -55,10 +55,12 @@ In contrast, the DAX language is intended to emulate as closely as possible the 
   
 Additionally, some functions aren't optimized for DirectQuery mode because the calculation would require the data in the current context be sent to the relational data source as a parameter. For example, measures using time-intelligence functions that reference date ranges in a calendar table. A relational data source might not have a calendar table, or at least one with .  
   
-## Semantic differences  
+## Semantic differences
+
 This section lists the types of semantic differences that you can expect, and describes any limitations that might apply to the usage of functions or to query results.  
   
-### Comparisons  
+### Comparisons
+
 DAX in in-memory models support comparisons of two expressions that resolve to scalar values of different data types. However, models that are deployed in DirectQuery mode use the data types and comparison operators of the relational engine, and therefore might return different results.  
   
 The following comparisons will always return an error when used in a calculation on a DirectQuery data source:  
@@ -129,7 +131,8 @@ In this expression, the first parameter has type **datetime** and second paramet
   
 In DirectQuery mode, only the direct cast from **string** to **double** will be applied. If this cast fails, the formula will return an error.  
   
-### Math functions and arithmetic operations  
+### Math functions and arithmetic operations
+
 Some mathematical functions will return different results in DirectQuery mode because of differences in the underlying data type or the casts that can be applied in operations. Also, the restrictions described above on the allowed range of values might affect the outcome of arithmetic operations.  
   
 **Order of addition**  
@@ -175,7 +178,8 @@ The following expressions are all valid in in-memory models, but will fail in Di
   
 The expression `BLANK/BLANK` is a special case that returns `BLANK` in both for in-memory models, and in DirectQuery mode.  
   
-### Supported numeric and date-time ranges  
+### Supported numeric and date-time ranges
+
 Formulas in in-memory tabular model are subject to the same limitations as Excel with regard to maximum allowed values for real numbers and dates. However, differences can arise when the maximum value is returned from a calculation or query, or when values are converted, cast, rounded, or truncated.  
   
 -   If values of types **Currency** and **Real** are multiplied, and the result is larger than the maximum possible value, in DirectQuery mode, no error is raised, and a null is returned.  
@@ -240,7 +244,8 @@ However, sometimes the engine casts the time value to an acceptable data type, a
   
 This behavior affects all functions that use a date column as a parameter.  
   
-### <a name="bkmk_Currency"></a>Currency  
+### <a name="bkmk_Currency"></a>Currency
+
 In DirectQuery mode, if the result of an arithmetic operation has the type **Currency**, the value must be within the following range:  
   
 -   Minimum: -922337203685477.5808  
@@ -262,7 +267,8 @@ If operations on any two currency values result in a value that is outside the s
 **Combining currency with other data types**  
 Division of currency values by values of other numeric types can result in different results.  
   
-### <a name="bkmk_Aggregations"></a>Aggregation functions  
+### <a name="bkmk_Aggregations"></a>Aggregation functions
+
 Statistical functions on a table with one row return different results. Aggregation functions over empty tables also behave differently in in-memory models than they do in DirectQuery mode.  
   
 **Statistical functions over a table with a single row**  
@@ -270,7 +276,8 @@ If the table that is used as argument contains a single row, in DirectQuery mode
   
 In an in-memory model, a formula that uses STDEV or VARx over a table with a single row returns a division by zero error.  
   
-### <a name="bkmk_Text"></a>Text functions  
+### <a name="bkmk_Text"></a>Text functions
+
 Because relational data stores provide different text data types than does Excel, you may see different results when searching strings or working with substrings. The length of strings also can be different.  
   
 In general, any string manipulation functions that use fixed-size columns as arguments can have different results.  
@@ -336,7 +343,8 @@ In an in-memory model, the result terminates at the last string character, with 
 
 
 ## See also  
-[DirectQuery Mode](https://msdn.microsoft.com/45ad2965-05ec-4fb1-a164-d8060b562ea5)  
+
+[DirectQuery mode](directquery-mode-ssas-tabular.md)  
   
 
 
