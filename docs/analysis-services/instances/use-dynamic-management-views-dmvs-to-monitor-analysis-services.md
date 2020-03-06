@@ -1,25 +1,27 @@
 ---
-title: "Use Dynamic Management Views (DMVs) in Analysis Services | Microsoft Docs"
-ms.date: 01/25/2020
+title: "Dynamic Management Views (DMVs) in Analysis Services | Microsoft Docs"
+ms.date: 03/05/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
 ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Dynamic Management Views (DMVs) 
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-Analysis Services Dynamic Management Views (DMV) are queries that return information about model objects, server operations, and server health. The query, based on SQL, is an interface to *schema rowsets*. Schema rowsets are predescribed tables that contain information about Analysis Services objects and server state, including database schema, active sessions, connections, commands, and jobs that are executing on the server.
+Analysis Services Dynamic Management Views (DMVs) are queries that return information about model objects, server operations, and server health. The query, based on SQL, is an interface to *schema rowsets*. Schema rowsets are predescribed tables that contain information about Analysis Services objects and server state, including database schema, active sessions, connections, commands, and jobs that are executing on the server.
+
+For **Power BI Premium datasets**, DMVs for querying through the XMLA endpoint are limited to those that require database admin permissions. Some DMVs are not supported because they require Analysis Services server admin permissions.
 
 DMV queries are an alternative to running XML/A Discover commands. For most administrators, writing a DMV query is simpler because the syntax is based on SQL. In addition, the result is returned in a table format that is easier to read and copy. 
   
 Most DMV queries use a **SELECT** statement and the **$System** schema with an XML/A schema rowset, for example:  
   
-```  
+```
 SELECT * FROM $System.<schemaRowset>  
 ```  
   
@@ -29,7 +31,7 @@ SELECT * FROM $System.<schemaRowset>
 
 The query engine for DMVs is the Data Mining parser. The DMV query syntax is based on the SELECT &#40;DMX&#41; statement. Although DMV query syntax is based on a SQL SELECT statement, it does not support the full syntax of a SELECT statement. Notably, JOIN, GROUP BY, LIKE, CAST, and CONVERT are not supported.  
   
-```  
+```
 SELECT [DISTINCT] [TOP <n>] <select list>  
 FROM $System.<schemaRowset>  
 [WHERE <condition expression>]  
@@ -38,14 +40,14 @@ FROM $System.<schemaRowset>
   
 The following example for DISCOVER_CALC_DEPENDENCY illustrates the use of the WHERE clause for supplying a parameter to the query:  
   
-```  
+```
 SELECT * FROM $System.DISCOVER_CALC_DEPENDENCY  
 WHERE OBJECT_TYPE = 'ACTIVE_RELATIONSHIP'  
 ```  
   
 For schema rowsets that have restrictions, the query must include the SYSTEMRESTRICTSCHEMA function. The following example returns CSDL metadata about 1103 compatibility level tabular models. Note that CATALOG_NAME is case-sensitive:  
   
-```  
+```
 Select * from SYSTEMRESTRICTSCHEMA ($System.Discover_csdl_metadata, [CATALOG_NAME] = 'Adventure Works DW')  
 ```  
 
@@ -70,7 +72,7 @@ This query returns a snapshot of the locks used at a specific point in time.
 
 You can use any client application that supports MDX or DMX queries. In most cases, it's best to use SQL Server Management Studio. You must have server administrator permissions on the instance to query a DMV.  
   
- **To run a DMV query from SQL Server Management Studio**
+### To run a DMV query from SQL Server Management Studio
 
 1. Connect to the server and model object you want to query. 
 2. Right-click the server or database object > **New Query** > **MDX**.
@@ -95,6 +97,8 @@ Schema rowsets are described in two SQL Server Analysis Services protocols:
 [[MS-SSAS]: SQL Server Analysis Services Protocol](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas/) - Describes schema rowsets for multidimensional models and tabular models at the 1100 and 1103 compatibility levels.
 
 ### Rowsets described in the [MS-SSAS-T]: SQL Server Analysis Services Tabular Protocol
+
+Note: This list may be incomplete. Refer to the [MS-SSAS-T] and [MS-SSAS] protocols for the latest.
 
 |Rowset  |Description  |
 |---------|---------|
