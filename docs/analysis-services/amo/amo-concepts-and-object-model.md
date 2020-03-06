@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AMO concepts and object model
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
 
   This article describes Analysis Management Objects (AMO), how AMO is related to other tools and libraries provided in the architecture of Analysis Services, and a conceptual explanation of all major objects in AMO.  
   

@@ -1181,6 +1181,80 @@
         href: ../analysis-services/deployment/deployment-script-files-specifying-processing-options.md
     - name: Deploy (SSAS) model solutions by using Deployment Utility
       href: ../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md
+  - name: Monitor and diagnostics
+    items:
+    - name: Monitoring tools
+      href: ../analysis-services/instances/monitor-an-analysis-services-instance.md
+    - name: SQL Server Profiler
+      items: 
+      - name: SQL Server Profiler overview
+        href: ../analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services.md
+      - name: Create Profiler Traces for Replay
+        href: ../analysis-services/instances/create-profiler-traces-for-replay-analysis-services.md
+      - name: Trace Events
+        items:
+        - name: Trace Events overview
+          href: trace-events/analysis-services-trace-events.md
+        - name: Object codes used in traces
+          href: trace-events/analysis-services-object-type-codes-used-in-traces.md
+        - name: Command Events Event Category
+          href: trace-events/command-events-event-category.md
+        - name: Command Events Data Columns
+          href: trace-events/command-events-data-columns.md
+        - name: Discover Events Event Category
+          href: trace-events/discover-events-event-category.md
+        - name: Discover Events Data Columns
+          href: trace-events/discover-events-data-columns.md
+        - name: Discover Server State Event Category
+          href: trace-events/discover-server-state-event-category.md
+        - name: Discover Server State Events Data Columns
+          href: trace-events/discover-server-state-events-data-columns.md
+        - name: Errors and Warnings Event Category
+          href: trace-events/errors-and-warnings-event-category.md
+        - name: Errors and Warnings Events Data Columns
+          href: trace-events/errors-and-warnings-events-data-columns.md
+        - name: File Load and Save Event Category
+          href: trace-events/file-load-and-save-event-category.md
+        - name: File Load and Save Data Columns
+          href: trace-events/file-load-and-save-data-columns.md
+        - name: Lock Events Category
+          href: trace-events/lock-events-category.md
+        - name: Lock Events Data Columns
+          href: trace-events/lock-events-data-columns.md
+        - name: Notification Events Event Category
+          href: trace-events/notification-events-event-category.md
+        - name: Notification Events Data Columns
+          href: trace-events/notification-events-data-columns.md
+        - name: Progress Reports Event Category
+          href: trace-events/progress-reports-event-category.md
+        - name: Progress Reports Data Columns
+          href: trace-events/progress-reports-data-columns.md
+        - name: Queries Events Category
+          href: trace-events/queries-events-category.md
+        - name: Queries Events Data Columns
+          href: trace-events/queries-events-data-columns.md
+        - name: Query Processing Events Category
+          href: trace-events/query-processing-events-category.md
+        - name: Query Processing Events Data Columns
+          href: trace-events/query-processing-events-data-columns.md
+        - name: Security Audit Event Category
+          href: trace-events/security-audit-event-category.md
+        - name: Security Audit Data Columns
+          href: trace-events/security-audit-data-columns.md
+        - name: Session Events Event Category
+          href: trace-events/session-events-event-category.md
+        - name: Session Events Data Columns
+          href: trace-events/session-events-data-columns.md
+    - name: Extended Events
+      href: ../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md
+    - name: Dynamic Management Views (DMVs)
+      href: ../analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md
+    - name: Schema Rowsets
+      href: ../analysis-services/instances/analysis-services-schema-rowsets.md
+    - name: Performance counters
+      href: ../analysis-services/instances/performance-counters-ssas.md
+    - name: Log operations
+      href: ../analysis-services/instances/log-operations-in-analysis-services.md
   - name: Manage servers
     items:
     - name: SQL Server Analysis Services server management overview
@@ -1217,80 +1291,6 @@
         href: ../analysis-services/server-properties/security-properties.md
       - name: Thread pool properties
         href: ../analysis-services/server-properties/thread-pool-properties.md
-    - name: Monitor Analysis Services
-      items:
-      - name: Monitoring tools
-        href: ../analysis-services/instances/monitor-an-analysis-services-instance.md
-      - name: SQL Server Profiler
-        items: 
-        - name: SQL Server Profiler overview
-          href: ../analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services.md
-        - name: Create Profiler Traces for Replay
-          href: ../analysis-services/instances/create-profiler-traces-for-replay-analysis-services.md
-        - name: Trace Events
-          items:
-          - name: Trace Events overview
-            href: trace-events/analysis-services-trace-events.md
-          - name: Object codes used in traces
-            href: trace-events/analysis-services-object-type-codes-used-in-traces.md
-          - name: Command Events Event Category
-            href: trace-events/command-events-event-category.md
-          - name: Command Events Data Columns
-            href: trace-events/command-events-data-columns.md
-          - name: Discover Events Event Category
-            href: trace-events/discover-events-event-category.md
-          - name: Discover Events Data Columns
-            href: trace-events/discover-events-data-columns.md
-          - name: Discover Server State Event Category
-            href: trace-events/discover-server-state-event-category.md
-          - name: Discover Server State Events Data Columns
-            href: trace-events/discover-server-state-events-data-columns.md
-          - name: Errors and Warnings Event Category
-            href: trace-events/errors-and-warnings-event-category.md
-          - name: Errors and Warnings Events Data Columns
-            href: trace-events/errors-and-warnings-events-data-columns.md
-          - name: File Load and Save Event Category
-            href: trace-events/file-load-and-save-event-category.md
-          - name: File Load and Save Data Columns
-            href: trace-events/file-load-and-save-data-columns.md
-          - name: Lock Events Category
-            href: trace-events/lock-events-category.md
-          - name: Lock Events Data Columns
-            href: trace-events/lock-events-data-columns.md
-          - name: Notification Events Event Category
-            href: trace-events/notification-events-event-category.md
-          - name: Notification Events Data Columns
-            href: trace-events/notification-events-data-columns.md
-          - name: Progress Reports Event Category
-            href: trace-events/progress-reports-event-category.md
-          - name: Progress Reports Data Columns
-            href: trace-events/progress-reports-data-columns.md
-          - name: Queries Events Category
-            href: trace-events/queries-events-category.md
-          - name: Queries Events Data Columns
-            href: trace-events/queries-events-data-columns.md
-          - name: Query Processing Events Category
-            href: trace-events/query-processing-events-category.md
-          - name: Query Processing Events Data Columns
-            href: trace-events/query-processing-events-data-columns.md
-          - name: Security Audit Event Category
-            href: trace-events/security-audit-event-category.md
-          - name: Security Audit Data Columns
-            href: trace-events/security-audit-data-columns.md
-          - name: Session Events Event Category
-            href: trace-events/session-events-event-category.md
-          - name: Session Events Data Columns
-            href: trace-events/session-events-data-columns.md
-      - name: Extended Events
-        href: ../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md
-      - name: Dynamic Management Views (DMVs)
-        href: ../analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md
-      - name: Schema Rowsets
-        href: ../analysis-services/instances/analysis-services-schema-rowsets.md
-      - name: Performance counters
-        href: ../analysis-services/instances/performance-counters-ssas.md
-      - name: Log operations
-        href: ../analysis-services/instances/log-operations-in-analysis-services.md
     - name: Clear server caches
       href: ../analysis-services/instances/clear-the-analysis-services-caches.md
     - name: Database Consistency Checker (DBCC)

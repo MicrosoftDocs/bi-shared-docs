@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Programming administrative tasks with AMO
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
 
   Analysis Management Objects (AMO) is a programming library used from client applications to manage Analysis Services. The AMO library can be thought of as logically related groups of objects that are used to accomplish a specific task. In this section, you will learn to how to program using the AMO objects.  
 
