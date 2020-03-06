@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Programming AMO complementary classes and methods
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
 
 ## Assembly class
 
