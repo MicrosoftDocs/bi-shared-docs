@@ -15,6 +15,8 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 Analysis Services Dynamic Management Views (DMVs) are queries that return information about model objects, server operations, and server health. The query, based on SQL, is an interface to *schema rowsets*. Schema rowsets are predescribed tables that contain information about Analysis Services objects and server state, including database schema, active sessions, connections, commands, and jobs that are executing on the server.
 
+For **Power BI Premium datasets**, DMVs for querying through the XMLA endpoint are limited to those that require database admin permissions. Some DMVs are not supported because they require Analysis Services server admin permissions.
+
 DMV queries are an alternative to running XML/A Discover commands. For most administrators, writing a DMV query is simpler because the syntax is based on SQL. In addition, the result is returned in a table format that is easier to read and copy. 
   
 Most DMV queries use a **SELECT** statement and the **$System** schema with an XML/A schema rowset, for example:  
