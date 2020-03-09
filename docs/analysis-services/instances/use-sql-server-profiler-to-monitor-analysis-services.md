@@ -1,6 +1,6 @@
 ---
 title: "Use SQL Server Profiler to Monitor Analysis Services | Microsoft Docs"
-ms.date: 03/04/2020
+ms.date: 03/09/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -31,13 +31,19 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 -   Audit and review activity that occurred on an instance. A security administrator can review any one of the audited events. This includes the success or failure of a login try and the success or failure of permissions in accessing statements and objects.  
   
 -   Display data about the captured events to the screen, or capture and save data about each event to a file or SQL table for future analysis or playback. When you replay data, you can rerun the saved events as they originally occurred, either in real time or step by step.  
-  
-## Using SQL Server Profiler
 
-**Permissions** - For Azure Analysis Services and SQL Server Analysis Services, you must be a member of the server admin role. For **Power BI Premium**, only those events that require database admin permissions are available. Those events that require server admin permissions are not available.
+## Permissions
+
+For Azure Analysis Services and SQL Server Analysis Services, members of the Analysis Services server administrator role can view all server and database traces. Users not in a server administrator role can view traces only for databases in which they are a member of the database administrator role.
+
+For **Power BI Premium**, users can view traces only for databases in which they are a member of the database administrator role. Only those events that require database administrator permissions are available. Trace events requiring server administrator permissions are not available for a Power BI Premium workspace.
+
+## Using SQL Server Profiler
 
  When using SQL Server Profiler, keep in mind:  
   
+-   Only database events are available for a **Power BI Premium** workspace. Server events are not available.
+
 -   Trace definitions are stored with the Analysis Services database by using the CREATE statement.  
   
 -   Multiple traces can be running at the same time.  
