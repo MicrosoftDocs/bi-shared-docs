@@ -48,7 +48,7 @@ If the property you want to set is not visible even after you show advanced prop
 
 ## Configure properties by using XMLA
 
-Properties that cannot be set by using Properties in SSMS or in msmdrsrv.ini file can be set by using the [XMLA Alter Element](https://docs.microsoft.com/bi-reference/xmla/xml-elements-commands/alter-element-xmla) in an XMLA script in SSMS. 
+Properties that cannot be set by using Properties in SSMS or in msmdrsrv.ini file can be set by using the [XMLA Alter Element](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/alter-element-xmla) in an XMLA script in SSMS. 
 
 ## Server property categories  
   

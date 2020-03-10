@@ -66,7 +66,7 @@ Describes the development tasks and approaches for integrating multidimensional 
 [ADOMD.NET](adomd/developing-with-adomd-net.md)
 Developer reference documentation for the managed provider, ADOMD.NET, used for programmatic data access and query workloads.
 
-[XML for Analysis  &#40;XMLA&#41; reference](https://docs.microsoft.com/bi-reference/xmla/xml-for-analysis-xmla-reference)
+[XML for Analysis  &#40;XMLA&#41; reference](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference)
 Describes XMLA concepts that can help you understand how XMLA contributes to your custom solution. It also describes the level of compliance with the XMLA 1.1 specification.
 
 [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/bi-reference/assl/analysis-services-scripting-language-assl-for-xmla)

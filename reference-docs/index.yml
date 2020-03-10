@@ -20,19 +20,6 @@ conceptualContent:
   items:
 
     # Card
-    - title: XML for Analysis (XMLA) 
-      links:
-        - url: xmla/xml-for-analysis-xmla-reference.md
-          itemType: overview
-          text: XMLA overview
-        - url: xmla/xml-for-analysis-compliance-xmla.md
-          itemType: concept
-          text: XMLA compliance
-        - url: xmla/xml-elements-commands/xml-elements-commands.md
-          itemType: reference
-          text: XML Elements - Commands
-
-    # Card
     - title: Analysis Services Scripting Language (ASSL for XMLA)
       links:
         - url: assl/analysis-services-scripting-language-assl-for-xmla.md

@@ -877,7 +877,7 @@
     },
     {
       "source_path": "reference-docs/xmla/index.md",
-      "redirect_url": "/bi-reference/xmla/xml-for-analysis-xmla-reference",
+      "redirect_url": "/reference-docs/xmla/xml-for-analysis-xmla-reference",
       "redirect_document_id": false
     },
     {
@@ -1501,7 +1501,941 @@
         "source_path": "docs/analysis-services/multidimensional-models-adomd-net-server/index.md",
         "redirect_url": "/analysis-services/adomd/index",
         "redirect_document_id": false
+    },
+
+
+    
+    {
+      "source_path": "reference-docs/xmla/xml-for-analysis-xmla-reference.md",
+      "redirect_url": "/analysis-services/xmla/xml-for-analysis-xmla-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "reference-docs/xmla/xml-elements-methods-discover.md",
+      "redirect_url": "/analysis-services/xmla/xml-elements-methods-discover",
+      "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-methods-execute.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-methods-execute",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-methods.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-methods",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-objects-discoverresponse.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-objects-discoverresponse",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-objects-executeresponse.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-objects-executeresponse",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-objects.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-objects",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-for-analysis-compliance-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-for-analysis-compliance-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/mptyresult-data-type-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/emptyresult-data-type-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/enumstring-data-type-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/enumstring-data-type-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/mddataset-data-type-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/mddataset-data-type-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/xml-data-types/resultset-data-type-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/resultset-data-type-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/rowset-data-type-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/rowset-data-type-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/xml-data-types-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/xml-data-types-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/alter-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/alter-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/attach-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/attach-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/backup-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/backup-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/batch-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/batch-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/begintransaction-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/begintransaction-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/cancel-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/cancel-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/clearcache-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/clearcache-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/committransaction-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/committransaction-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/create-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/create-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/delete-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/delete-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/designaggregations-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/designaggregations-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/detach-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/detach-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/drop-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/drop-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/insert-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/insert-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/lock-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/lock-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/mergepartitions-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/mergepartitions-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/notifytablechange-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/notifytablechange-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/process-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/process-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/restore-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/restore-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/rollbacktransaction-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/rollbacktransaction-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/statement-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/statement-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/subscribe-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/subscribe-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/synchronize-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/synchronize-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/unlock-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/unlock-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/update-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/update-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/updatecells-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/updatecells-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/xml-elements-commands.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/xml-elements-commands",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-headers/beginsession-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-headers/beginsession-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-headers/endsession-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-headers/endsession-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-headers/protocolcapabilities-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-headers/protocolcapabilities-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-headers/session-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-headers/session-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-headers/xml-elements-headers.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-headers/xml-elements-headers",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/allowoverwrite-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/allowoverwrite-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/applycompression-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/applycompression-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/attribute-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/attribute-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/attributename-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/attributename-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/attributes-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/attributes-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/axes-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/axes-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/axesinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/axesinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/axis-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/axis-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/axisinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/axisinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/backupremotepartitions-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/backupremotepartitions-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/binding-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/binding-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/bindings-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/bindings-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cancelassociated-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cancelassociated-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/capability-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/capability-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/caption-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/caption-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cell-element-mddataset-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cell-element-mddataset-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cell-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cell-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/celldata-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/celldata-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cellinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cellinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cellordinal-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cellordinal-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/command-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/command-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/commonidentifierposition-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/commonidentifierposition-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/connectionid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/connectionid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/connectionstring-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/connectionstring-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/contextualnamerule-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/contextualnamerule-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/crossproduct-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/crossproduct-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cube-element-olapinfo-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cube-element-olapinfo-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cube-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cube-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cubeid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cubeid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cubeinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cubeinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cubename-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cubename-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/customrollup-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/customrollup-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/customrollupproperties-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/customrollupproperties-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/database-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/database-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/databaseid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/databaseid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/databasename-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/databasename-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/datasource-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/datasource-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/datasourceid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/datasourceid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/datasourcetype-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/datasourcetype-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/datasourceview-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/datasourceview-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/dbschemaname-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/dbschemaname-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/dbstoragelocation-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/dbstoragelocation-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/dbtablename-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/dbtablename-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/defaultdetailsposition-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/defaultdetailsposition-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/deletewithdescendants-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/deletewithdescendants-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/description-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/description-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/dimension-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/dimension-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/displayinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/displayinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/displaykeyposition-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/displaykeyposition-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/editionid-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/editionid-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/error-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/error-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/errorcode-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/errorcode-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/errorconfiguration-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/errorconfiguration-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/exception-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/exception-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/file-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/file-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/folder-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/folder-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/folderposition-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/folderposition-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/folders-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/folders-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/helpfile-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/helpfile-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/hierarchyinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/hierarchyinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/id-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/id-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/isdefaultimage-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/isdefaultimage-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/isdefaultmeasure-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/isdefaultmeasure-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/key-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/key-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/keys-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/keys-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/language-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/language-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/lastdataupdate-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/lastdataupdate-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/lastschemaupdate-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/lastschemaupdate-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/lname-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/lname-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/lnum-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/lnum-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/location-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/location-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/locations-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/locations-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/materialize-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/materialize-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/measuregroupid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/measuregroupid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/member-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/member-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/members-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/members-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/message-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/message-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/messages-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/messages-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/mode-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/mode-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/movewithdescendants-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/movewithdescendants-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/name-element-parameter-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/name-element-parameter-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/name-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/name-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/new-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/new-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/object-element-dimension-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/object-element-dimension-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/object-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/object-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/objectdefinition-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/objectdefinition-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/olapinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/olapinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/optimization-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/optimization-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/original-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/original-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/parallel-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/parallel-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/parameter-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/parameter-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/parameters-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/parameters-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/parentobject-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/parentobject-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/partitionid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/partitionid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/password-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/password-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/productlabel-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/productlabel-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/properties-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/properties-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/propertylist-element-supported-xmla-properties.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/propertylist-element-supported-xmla-properties",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/propertylist-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/propertylist-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/queries-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/queries-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/query-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/query-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/readwritemode-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/readwritemode-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/requesttype-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/requesttype-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/restrictionlist-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/restrictionlist-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/restrictions-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/restrictions-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/results-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/results-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/return-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/return-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/role-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/role-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/root-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/root-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/row-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/row-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/security-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/security-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/servermode-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/servermode-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/sessionid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/sessionid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/skippedlevels-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/skippedlevels-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/sortpropertiesposition-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/sortpropertiesposition-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/source-element-error-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/source-element-error-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/source-element-synchronize-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/source-element-synchronize-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/source-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/source-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/sources-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/sources-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/spid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/spid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/steps-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/steps-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/storage-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/storage-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/synchronizesecurity-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/synchronizesecurity-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/tablenotification-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/tablenotification-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/tablenotifications-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/tablenotifications-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/target-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/target-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/time-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/time-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/translation-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/translation-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/translations-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/translations-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/tuple-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/tuple-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/tuples-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/tuples-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/type-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/type-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/uname-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/uname-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/unaryoperator-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/unaryoperator-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/value-element-parameter-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/value-element-parameter-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/value-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/value-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/warning-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/warning-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/where-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/where-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/writebacktablecreation-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/writebacktablecreation-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/xml-elements-properties.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/xml-elements-properties",
+        "redirect_document_id": false
     }
+
 
   ]
 }

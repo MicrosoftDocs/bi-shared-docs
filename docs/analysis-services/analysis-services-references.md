@@ -80,7 +80,7 @@ Client applications can communicate with Analysis Services using XML commands an
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
-### [XML for Analysis (XMLA)](/bi-reference/xmla/xml-for-analysis-xmla-reference)
+### [XML for Analysis (XMLA)](/analysis-services/xmla/xml-for-analysis-xmla-reference)
 
 A SOAP-based XML protocol for tabular and multidimensional data sources. Fundamentally, all client libraries supported by Analysis Services formulate requests and responses in XMLA.
 

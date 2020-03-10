@@ -26,7 +26,7 @@ manager: kfile
   
 ## See Also  
  [Modify or Delete an Analysis Services Database](../../analysis-services/multidimensional-models/modify-or-delete-an-analysis-services-database.md)   
- [Alter Element &#40;XMLA&#41;](https://docs.microsoft.com/bi-reference/xmla/xml-elements-commands/alter-element-xmla)   
- [Create Element &#40;XMLA&#41;](https://docs.microsoft.com/bi-reference/xmla/xml-elements-commands/create-element-xmla)  
+ [Alter Element &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/alter-element-xmla)   
+ [Create Element &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/create-element-xmla)  
   
   
