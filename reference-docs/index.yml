@@ -7,12 +7,12 @@ brand: power-bi
 
 metadata:
   title: Analysis Services references # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Analysis Services object model, scripting, and events references # Required; article description that is displayed in search results. < 160 chars.
+  description: Analysis Services object model, scripting, and events references have been moved to the Analysis Services core documentation. This page will be retired soon. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: power-bi #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   author: minewiskan #Required; your GitHub user alias, with correct capitalization.
   ms.author: owend #Required; microsoft alias of author; optional team alias.
-  ms.date: 03/02/2020 #Required; mm/dd/yyyy format.
+  ms.date: 03/10/2020 #Required; mm/dd/yyyy format.
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -20,30 +20,54 @@ conceptualContent:
   items:
 
     # Card
-    - title: Analysis Services Scripting Language (ASSL for XMLA)
+    - title: Tabular Object Model (TOM)
       links:
-        - url: assl/analysis-services-scripting-language-assl-for-xmla.md
-          itemType: overview
-          text: ASSL overview
-        - url: assl/analysis-services-scripting-language-xml-element-hierarchy-assl.md
-          itemType: concept
-          text: ASSL XML element hierarchy
-        - url: assl/analysis-services-scripting-language-xml-elements-assl.md
+        - url: https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo
           itemType: reference
-          text: ASSL XML elements
+          text: Tabular Object Model (TOM) overview
 
     # Card
-    - title: Conceptual Schema Definition Language for Business Intelligence (CSDLBI)
+    - title: Analysis Management Objects (AMO)
+      links:
+        - url: https://docs.microsoft.com/analysis-services/amo/developing-with-analysis-management-objects-amo
+          itemType: reference
+          text: Analysis Management Objects (AMO) overview
+
+    # Card
+    - title: Tabular Model Scripting Language (TMSL)
+      links:
+        - url: https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference
+          itemType: reference
+          text: Tabular Model Scripting Language (TMSL) overview
+
+    # Card
+    - title: Analysis Services Trace Events
+      links:
+        - url: https://docs.microsoft.com/analysis-services/trace-events/analysis-services-trace-events
+          itemType: reference
+          text: Analysis Services Trace Events overview
+
+    # Card
+    - title: Analysis Services Scripting Language (ASSL for XMLA)
+      links:
+        - url: https://docs.microsoft.com/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla
+          itemType: reference
+          text: Analysis Services Scripting Language (ASSL for XMLA) overview
+
+    # Card
+    - title: ADOMD.NET
+      links:
+        - url: https://docs.microsoft.com/analysis-services/adomd/developing-with-adomd-net
+          itemType: reference
+          text: ADOMD.NET overview
+
+    # Card
+    - title: Conceptual Schema Definition Language for Business Intelligence (Retired)
       links:
         - url: csdl/csdl-annotations-for-business-intelligence-csdlbi.md
           itemType: overview
           text: CSDL overview
-        - url: csdl/csdlbi-concepts.md
-          itemType: concept
-          text: CSDLBI Concepts
-        - url: csdl/technical-reference-for-bi-annotations-to-csdl.md
-          itemType: reference
-          text: CSDLBI elements
+
 
 
 
