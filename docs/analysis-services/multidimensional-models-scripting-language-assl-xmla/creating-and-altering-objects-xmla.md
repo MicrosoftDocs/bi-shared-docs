@@ -52,7 +52,7 @@ manager: kfile
  Session objects are temporary objects that are available only to the explicit or implicit session used by a client application and are deleted when the session is ended. You can create session objects by setting the **Scope** attribute of the **Create** command to *Session*.  
   
 > [!NOTE]  
->  When using the *Session* setting, the **ObjectDefinition** element can only contain [Dimension](https://docs.microsoft.com/bi-reference/assl/objects/dimension-element-assl), [Cube](https://docs.microsoft.com/bi-reference/assl/objects/cube-element-assl), or [MiningModel](https://docs.microsoft.com/bi-reference/assl/objects/miningmodel-element-assl) ASSL elements.  
+>  When using the *Session* setting, the **ObjectDefinition** element can only contain [Dimension](https://docs.microsoft.com/analysis-services/assl/objects/dimension-element-assl), [Cube](https://docs.microsoft.com/analysis-services/assl/objects/cube-element-assl), or [MiningModel](https://docs.microsoft.com/analysis-services/assl/objects/miningmodel-element-assl) ASSL elements.  
   
 ## Altering Objects  
  When modifying objects by using the **Alter** method, you must first identify the object to be modified by providing an object reference in the [Object](https://docs.microsoft.com/analysis-services/xmla/xml-elements-properties/object-element-xmla) property of the **Alter** command. Each object reference contains the object identifiers needed to uniquely identify the object for the **Alter** command. For more information about object references, see [Defining and Identifying Objects &#40;XMLA&#41;](../../analysis-services/multidimensional-models-scripting-language-assl-xmla/defining-and-identifying-objects-xmla.md).  
@@ -72,7 +72,7 @@ manager: kfile
  To modify session objects created by the **Create** command, set the **Scope** attribute of the **Alter** command to *Session*.  
   
 > [!NOTE]  
->  When using the *Session* setting, the **ObjectDefinition** element can only contain [Dimension](https://docs.microsoft.com/bi-reference/assl/objects/dimension-element-assl), [Cube](https://docs.microsoft.com/bi-reference/assl/objects/cube-element-assl), or [MiningModel](https://docs.microsoft.com/bi-reference/assl/objects/miningmodel-element-assl) ASSL elements.  
+>  When using the *Session* setting, the **ObjectDefinition** element can only contain [Dimension](https://docs.microsoft.com/analysis-services/assl/objects/dimension-element-assl), [Cube](https://docs.microsoft.com/analysis-services/assl/objects/cube-element-assl), or [MiningModel](https://docs.microsoft.com/analysis-services/assl/objects/miningmodel-element-assl) ASSL elements.  
   
 ## Creating or Altering Subordinate Objects  
  Although a **Create** or **Alter** command creates or alters only one topmost major object, the major object being created or modified can contain definitions within the enclosing **ObjectDefinition** property for other major and minor objects that are subordinate to it. For example, if you define a cube, you specify the parent database in **ParentObject**, and within the cube definition in **ObjectDefinition** you can define measure groups for the cube, and within the measure groups you can define partitions for each measure group. A minor object can be defined only under the major object that contains it. For more information about major and minor objects, see [Database Objects &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models/olap-logical/database-objects-analysis-services-multidimensional-data.md).  
@@ -128,7 +128,7 @@ manager: kfile
 ```  
   
 ### Comments  
- The **ObjectExpansion** attribute of the **Alter** command was set to *ObjectProperties*. This setting allows the [ImpersonationInfo](https://docs.microsoft.com/bi-reference/assl/properties/impersonationinfo-element-assl) element, a minor object, to be excluded from the data source defined in **ObjectDefinition**. Therefore, the impersonation information for that data source remains set to the service account, as specified in the first example.  
+ The **ObjectExpansion** attribute of the **Alter** command was set to *ObjectProperties*. This setting allows the [ImpersonationInfo](https://docs.microsoft.com/analysis-services/assl/properties/impersonationinfo-element-assl) element, a minor object, to be excluded from the data source defined in **ObjectDefinition**. Therefore, the impersonation information for that data source remains set to the service account, as specified in the first example.  
   
 ## See Also  
  [Execute Method &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-methods-execute)   

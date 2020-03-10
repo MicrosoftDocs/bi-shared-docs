@@ -64,7 +64,7 @@ An XML-based language that describes entities, relationships, and functions in t
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### [Analysis Services Scripting Language (ASSL for XMLA)](/bi-reference/assl/analysis-services-scripting-language-assl-for-xmla)
+### [Analysis Services Scripting Language (ASSL for XMLA)](/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla)
 
 Client applications can communicate with Analysis Services using XML commands and object descriptions. ASSL represents the object definition language portion of this XML dialect.
 

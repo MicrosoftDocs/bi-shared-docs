@@ -69,7 +69,7 @@ Developer reference documentation for the managed provider, ADOMD.NET, used for 
 [XML for Analysis  &#40;XMLA&#41; reference](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference)
 Describes XMLA concepts that can help you understand how XMLA contributes to your custom solution. It also describes the level of compliance with the XMLA 1.1 specification.
 
-[Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/bi-reference/assl/analysis-services-scripting-language-assl-for-xmla)
+[Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla)
 Describes the ASSL extensions to XMLA. ASSL provides a data definition and manipulation language for Analysis Services multidimensional models that supplements the XMLA specification.
 
 [Analysis Services Schema Rowsets](https://docs.microsoft.com/analysis-services/instances/analysis-services-schema-rowsets)
