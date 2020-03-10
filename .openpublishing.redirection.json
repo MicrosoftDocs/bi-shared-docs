@@ -847,7 +847,7 @@
     },
     {
       "source_path": "reference-docs/assl/index.md",
-      "redirect_url": "/bi-reference/assl/analysis-services-scripting-language-assl-for-xmla",
+      "redirect_url": "/reference-docs/assl/analysis-services-scripting-language-assl-for-xmla",
       "redirect_document_id": false
     },
     {
@@ -877,7 +877,7 @@
     },
     {
       "source_path": "reference-docs/xmla/index.md",
-      "redirect_url": "/bi-reference/xmla/xml-for-analysis-xmla-reference",
+      "redirect_url": "/reference-docs/xmla/xml-for-analysis-xmla-reference",
       "redirect_document_id": false
     },
     {
@@ -1501,7 +1501,3349 @@
         "source_path": "docs/analysis-services/multidimensional-models-adomd-net-server/index.md",
         "redirect_url": "/analysis-services/adomd/index",
         "redirect_document_id": false
+    },
+
+
+    
+    {
+      "source_path": "reference-docs/xmla/xml-for-analysis-xmla-reference.md",
+      "redirect_url": "/analysis-services/xmla/xml-for-analysis-xmla-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "reference-docs/xmla/xml-elements-methods-discover.md",
+      "redirect_url": "/analysis-services/xmla/xml-elements-methods-discover",
+      "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-methods-execute.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-methods-execute",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-methods.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-methods",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-objects-discoverresponse.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-objects-discoverresponse",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-objects-executeresponse.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-objects-executeresponse",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-objects.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-objects",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-for-analysis-compliance-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-for-analysis-compliance-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/mptyresult-data-type-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/emptyresult-data-type-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/enumstring-data-type-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/enumstring-data-type-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/mddataset-data-type-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/mddataset-data-type-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/xml-data-types/resultset-data-type-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/resultset-data-type-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/rowset-data-type-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/rowset-data-type-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-data-types/xml-data-types-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-data-types/xml-data-types-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/alter-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/alter-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/attach-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/attach-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/backup-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/backup-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/batch-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/batch-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/begintransaction-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/begintransaction-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/cancel-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/cancel-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/clearcache-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/clearcache-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/committransaction-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/committransaction-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/create-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/create-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/delete-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/delete-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/designaggregations-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/designaggregations-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/detach-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/detach-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/drop-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/drop-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/insert-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/insert-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/lock-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/lock-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/mergepartitions-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/mergepartitions-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/notifytablechange-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/notifytablechange-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/process-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/process-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/restore-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/restore-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/rollbacktransaction-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/rollbacktransaction-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/statement-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/statement-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/subscribe-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/subscribe-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/synchronize-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/synchronize-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/unlock-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/unlock-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/update-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/update-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/updatecells-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/updatecells-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-commands/xml-elements-commands.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-commands/xml-elements-commands",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-headers/beginsession-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-headers/beginsession-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-headers/endsession-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-headers/endsession-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-headers/protocolcapabilities-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-headers/protocolcapabilities-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-headers/session-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-headers/session-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-headers/xml-elements-headers.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-headers/xml-elements-headers",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/allowoverwrite-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/allowoverwrite-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/applycompression-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/applycompression-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/attribute-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/attribute-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/attributename-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/attributename-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/attributes-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/attributes-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/axes-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/axes-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/axesinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/axesinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/axis-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/axis-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/axisinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/axisinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/backupremotepartitions-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/backupremotepartitions-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/binding-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/binding-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/bindings-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/bindings-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cancelassociated-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cancelassociated-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/capability-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/capability-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/caption-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/caption-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cell-element-mddataset-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cell-element-mddataset-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cell-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cell-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/celldata-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/celldata-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cellinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cellinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cellordinal-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cellordinal-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/command-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/command-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/commonidentifierposition-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/commonidentifierposition-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/connectionid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/connectionid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/connectionstring-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/connectionstring-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/contextualnamerule-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/contextualnamerule-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/crossproduct-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/crossproduct-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cube-element-olapinfo-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cube-element-olapinfo-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cube-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cube-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cubeid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cubeid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cubeinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cubeinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/cubename-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/cubename-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/customrollup-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/customrollup-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/customrollupproperties-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/customrollupproperties-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/database-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/database-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/databaseid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/databaseid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/databasename-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/databasename-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/datasource-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/datasource-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/datasourceid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/datasourceid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/datasourcetype-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/datasourcetype-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/datasourceview-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/datasourceview-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/dbschemaname-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/dbschemaname-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/dbstoragelocation-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/dbstoragelocation-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/dbtablename-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/dbtablename-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/defaultdetailsposition-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/defaultdetailsposition-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/deletewithdescendants-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/deletewithdescendants-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/description-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/description-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/dimension-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/dimension-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/displayinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/displayinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/displaykeyposition-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/displaykeyposition-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/editionid-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/editionid-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/error-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/error-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/errorcode-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/errorcode-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/errorconfiguration-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/errorconfiguration-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/exception-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/exception-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/file-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/file-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/folder-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/folder-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/folderposition-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/folderposition-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/folders-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/folders-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/helpfile-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/helpfile-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/hierarchyinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/hierarchyinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/id-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/id-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/isdefaultimage-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/isdefaultimage-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/isdefaultmeasure-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/isdefaultmeasure-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/key-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/key-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/keys-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/keys-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/language-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/language-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/lastdataupdate-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/lastdataupdate-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/lastschemaupdate-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/lastschemaupdate-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/lname-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/lname-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/lnum-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/lnum-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/location-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/location-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/locations-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/locations-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/materialize-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/materialize-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/measuregroupid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/measuregroupid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/member-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/member-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/members-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/members-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/message-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/message-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/messages-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/messages-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/mode-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/mode-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/movewithdescendants-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/movewithdescendants-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/name-element-parameter-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/name-element-parameter-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/name-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/name-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/new-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/new-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/object-element-dimension-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/object-element-dimension-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/object-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/object-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/objectdefinition-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/objectdefinition-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/olapinfo-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/olapinfo-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/optimization-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/optimization-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/original-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/original-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/parallel-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/parallel-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/parameter-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/parameter-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/parameters-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/parameters-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/parentobject-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/parentobject-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/partitionid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/partitionid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/password-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/password-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/productlabel-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/productlabel-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/properties-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/properties-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/propertylist-element-supported-xmla-properties.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/propertylist-element-supported-xmla-properties",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/propertylist-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/propertylist-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/queries-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/queries-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/query-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/query-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/readwritemode-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/readwritemode-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/requesttype-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/requesttype-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/restrictionlist-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/restrictionlist-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/restrictions-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/restrictions-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/results-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/results-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/return-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/return-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/role-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/role-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/root-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/root-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/row-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/row-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/security-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/security-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/servermode-element.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/servermode-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/sessionid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/sessionid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/skippedlevels-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/skippedlevels-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/sortpropertiesposition-element-xml.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/sortpropertiesposition-element-xml",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/source-element-error-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/source-element-error-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/source-element-synchronize-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/source-element-synchronize-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/source-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/source-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/sources-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/sources-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/spid-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/spid-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/steps-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/steps-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/storage-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/storage-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/synchronizesecurity-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/synchronizesecurity-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/tablenotification-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/tablenotification-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/tablenotifications-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/tablenotifications-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/target-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/target-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/time-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/time-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/translation-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/translation-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/translations-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/translations-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/tuple-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/tuple-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/tuples-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/tuples-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/type-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/type-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/uname-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/uname-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/unaryoperator-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/unaryoperator-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/value-element-parameter-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/value-element-parameter-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/value-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/value-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/warning-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/warning-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/where-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/where-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/writebacktablecreation-element-xmla.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/writebacktablecreation-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/xmla/xml-elements-properties/xml-elements-properties.md",
+        "redirect_url": "/analysis-services/xmla/xml-elements-properties/xml-elements-properties",
+        "redirect_document_id": false
+    },
+
+
+    
+    {
+      "source_path": "reference-docs/assl/analysis-services-scripting-language-assl-for-xmla.md",
+      "redirect_url": "/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla",
+      "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/analysis-services-scripting-language-xml-data-type-hierarchy-assl.md",
+        "redirect_url": "/analysis-services/assl/analysis-services-scripting-language-xml-data-type-hierarchy-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/analysis-services-scripting-language-xml-element-hierarchy-assl.md",
+        "redirect_url": "/analysis-services/assl/analysis-services-scripting-language-xml-element-hierarchy-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/analysis-services-scripting-language-xml-elements-assl.md",
+        "redirect_url": "/analysis-services/assl/analysis-services-scripting-language-xml-elements-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/accounts-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/accounts-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/objects/actions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/actions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/aggregationdesigns-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/aggregationdesigns-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/aggregationinstances-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/aggregationinstances-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/aggregations-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/aggregations-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/algorithmparameters-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/algorithmparameters-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/aliases-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/aliases-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/allmembertranslations-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/allmembertranslations-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/annotations-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/annotations-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/assemblies-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/assemblies-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/attributeallmembertranslations-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/attributeallmembertranslations-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/attributepermissions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/attributepermissions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/attributerelationships-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/attributerelationships-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/attributes-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/attributes-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/blocks-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/blocks-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/calculationproperties-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/calculationproperties-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/calculations-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/calculations-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/cellpermissions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/cellpermissions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/classifiedcolumns-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/classifiedcolumns-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/collections-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/collections-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/columns-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/columns-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/commands-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/commands-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/cubepermissions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/cubepermissions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/cubes-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/cubes-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/databasepermissions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/databasepermissions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/databases-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/databases-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/datasourcepermissions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/datasourcepermissions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/datasources-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/datasources-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/datasourceviews-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/datasourceviews-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/dimensionpermissions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/dimensionpermissions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/dimensions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/dimensions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/events-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/events-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/files-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/files-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/foreignkeycolumns-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/foreignkeycolumns-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/groups-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/groups-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/hierarchies-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/hierarchies-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/incrementalprocessingnotifications-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/incrementalprocessingnotifications-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/keycolumns-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/keycolumns-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/kpis-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/kpis-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/levels-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/levels-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/mdxscripts-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/mdxscripts-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/measuregroups-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/measuregroups-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/measures-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/measures-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/members-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/members-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/miningmodelpermissions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/miningmodelpermissions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/miningmodels-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/miningmodels-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/miningstructurepermissions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/miningstructurepermissions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/miningstructures-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/miningstructures-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/modelingflags-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/modelingflags-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/namingtemplatetranslations-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/namingtemplatetranslations-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/partitions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/partitions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/perspectives-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/perspectives-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/querynotifications-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/querynotifications-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/relationships-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/relationships-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/reportformatparameters-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/reportformatparameters-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/reportparameters-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/reportparameters-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/roles-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/roles-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/serverproperties-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/serverproperties-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/tablenotifications-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/tablenotifications-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/traces-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/traces-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/translations-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/translations-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/collections/unknownmembertranslations-element-assl.md",
+        "redirect_url": "/analysis-services/assl/collections/unknownmembertranslations-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/action-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/action-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/aggregationattribute-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/aggregationattribute-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/aggregationdesignattribute-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/aggregationdesignattribute-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/aggregationdesigndimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/aggregationdesigndimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/aggregationdimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/aggregationdimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/aggregationinstanceattribute-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/aggregationinstanceattribute-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/aggregationinstancecubedimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/aggregationinstancecubedimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/aggregationinstancemeasure-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/aggregationinstancemeasure-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/analysis-services-scripting-language-xml-data-types-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/analysis-services-scripting-language-xml-data-types-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/assembly-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/assembly-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/attributebinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/attributebinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/attributetranslation-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/attributetranslation-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/binding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/binding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/clrassembly-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/clrassembly-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/clrassemblyfile-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/clrassemblyfile-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/columnbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/columnbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/comassembly-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/comassembly-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/cubeattribute-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/cubeattribute-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/cubeattributebinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/cubeattributebinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/cubebinding-data-type-out-of-line-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/cubebinding-data-type-out-of-line-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/cubedimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/cubedimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/cubedimensionbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/cubedimensionbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/cubedimensionpermission-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/cubedimensionpermission-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/cubehierarchy-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/cubehierarchy-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/datablock-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/datablock-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/dataitem-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/dataitem-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/dataminingmeasuregroupdimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/dataminingmeasuregroupdimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/datasource-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/datasource-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/datasourceviewbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/datasourceviewbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/degeneratemeasuregroupdimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/degeneratemeasuregroupdimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/dimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/dimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/dimensionattribute-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/dimensionattribute-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/dimensionattributebinding-data-type-out-of-line-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/dimensionattributebinding-data-type-out-of-line-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/dimensionbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/dimensionbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/dimensionpermission-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/dimensionpermission-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/drillthroughaction-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/drillthroughaction-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/dsvtablebinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/dsvtablebinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/eventcolumn-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/eventcolumn-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/hierarchy-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/hierarchy-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/impersonationinfo-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/impersonationinfo-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/incrementalprocessingnotification-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/incrementalprocessingnotification-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/inheritedbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/inheritedbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/manytomanymeasuregroupdimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/manytomanymeasuregroupdimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/measurebinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/measurebinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/measuregroupattribute-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/measuregroupattribute-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/measuregroupattributebinding-data-type-out-of-line-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/measuregroupattributebinding-data-type-out-of-line-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/measuregroupbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/measuregroupbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/measuregroupbinding-data-type-out-of-line-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/measuregroupbinding-data-type-out-of-line-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/measuregroupdimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/measuregroupdimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/measuregroupdimensionbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/measuregroupdimensionbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/measuregrouphierarchy-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/measuregrouphierarchy-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/miningmodelcolumn-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/miningmodelcolumn-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/miningmodelingflag-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/miningmodelingflag-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/miningstructurecolumn-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/miningstructurecolumn-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/olapdatasource-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/olapdatasource-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/partitionbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/partitionbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/permission-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/permission-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/perspectiveaction-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/perspectiveaction-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/perspectiveattribute-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/perspectiveattribute-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/perspectivecalculation-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/perspectivecalculation-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/perspectivedimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/perspectivedimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/perspectivehierarchy-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/perspectivehierarchy-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/perspectivekpi-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/perspectivekpi-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/perspectivemeasure-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/perspectivemeasure-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/perspectivemeasuregroup-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/perspectivemeasuregroup-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/proactivecachingbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/proactivecachingbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/proactivecachingincrementalprocessingbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/proactivecachingincrementalprocessingbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/proactivecachinginheritedbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/proactivecachinginheritedbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/proactivecachingobjectnotificationbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/proactivecachingobjectnotificationbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/proactivecachingquerybinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/proactivecachingquerybinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/proactivecachingtablesbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/proactivecachingtablesbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/pusheddatasource-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/pusheddatasource-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/querybinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/querybinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/referencemeasuregroupdimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/referencemeasuregroupdimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/regularmeasuregroupdimension-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/regularmeasuregroupdimension-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/relationaldatasource-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/relationaldatasource-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/relationship-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/relationship-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/relationshipend-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/relationshipend-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/relationshipendtranslation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/relationshipendtranslation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/relationshipendvisualizationproperties-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/relationshipendvisualizationproperties-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/reportaction-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/reportaction-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/rowbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/rowbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/scalarminingstructurecolumn-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/scalarminingstructurecolumn-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/standardaction-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/standardaction-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/objects/tablebinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/tablebinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/tableminingstructurecolumn-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/tableminingstructurecolumn-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/tabularbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/tabularbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/timeattributebinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/timeattributebinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/timebinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/timebinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/translation-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/translation-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/data-type/userdefinedgroupbinding-data-type-assl.md",
+        "redirect_url": "/analysis-services/assl/data-type/userdefinedgroupbinding-data-type-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/account-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/account-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/action-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/action-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/aggregation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/aggregation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/aggregationdesign-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/aggregationdesign-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/aggregationinstance-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/aggregationinstance-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/algorithmparameter-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/algorithmparameter-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/allmembertranslation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/allmembertranslation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/annotation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/annotation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/assembly-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/assembly-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/attribute-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/attribute-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/attributeallmembertranslation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/attributeallmembertranslation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/attributepermission-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/attributepermission-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/attributerelationship-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/attributerelationship-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/block-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/block-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/calculation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/calculation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/calculationproperty-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/calculationproperty-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/captioncolumn-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/captioncolumn-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/cellpermission-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/cellpermission-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/column-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/column-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/command-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/command-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/cube-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/cube-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/cubepermission-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/cubepermission-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/customrollupcolumn-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/customrollupcolumn-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/customrolluppropertiescolumn-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/customrolluppropertiescolumn-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/data-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/data-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/database-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/database-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/databasepermission-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/databasepermission-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/datasource-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/datasource-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/datasourcepermission-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/datasourcepermission-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/datasourceview-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/datasourceview-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/dimension-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/dimension-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/dimensionpermission-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/dimensionpermission-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/errorconfiguration-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/errorconfiguration-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/event-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/event-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/file-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/file-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/foreignkeycolumn-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/foreignkeycolumn-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/group-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/group-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/hierarchy-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/hierarchy-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/incrementalprocessingnotification-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/incrementalprocessingnotification-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/keycolumn-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/keycolumn-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/kpi-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/kpi-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/level-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/level-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/mdxscript-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/mdxscript-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/measure-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/measure-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/measuregroup-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/measuregroup-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/member-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/member-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/miningmodel-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/miningmodel-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/miningmodelpermission-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/miningmodelpermission-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/miningstructure-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/miningstructure-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/miningstructurepermission-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/miningstructurepermission-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/modelingflag-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/modelingflag-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/namecolumn-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/namecolumn-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/namingtemplatetranslation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/namingtemplatetranslation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/objects-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/objects-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/partition-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/partition-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/perspective-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/perspective-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/proactivecaching-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/proactivecaching-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/querynotification-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/querynotification-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/reportformatparameter-element-asl.md",
+        "redirect_url": "/analysis-services/assl/objects/reportformatparameter-element-asl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/reportparameter-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/reportparameter-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/role-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/role-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/server-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/server-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/serverproperty-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/serverproperty-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/skippedlevelscolumn-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/skippedlevelscolumn-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/sourcemeasuregroup-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/sourcemeasuregroup-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/tablenotification-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/tablenotification-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/trace-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/trace-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/translation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/translation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/unaryoperatorcolumn-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/unaryoperatorcolumn-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/objects/unknownmembertranslation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/unknownmembertranslation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/valuecolumn-element-assl.md",
+        "redirect_url": "/analysis-services/assl/objects/valuecolumn-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/access-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/access-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/account-element-impersonationinfo-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/account-element-impersonationinfo-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/accounttype-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/accounttype-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/actionid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/actionid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/administer-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/administer-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/aggregatefunction-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/aggregatefunction-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/aggregationdesignid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/aggregationdesignid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/aggregationfunction-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/aggregationfunction-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/aggregationid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/aggregationid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/aggregationinstancesource-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/aggregationinstancesource-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/aggregationprefix-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/aggregationprefix-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/aggregationstorage-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/aggregationstorage-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/aggregationtype-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/aggregationtype-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/aggregationusage-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/aggregationusage-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/algorithm-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/algorithm-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/alias-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/alias-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/allmemberaggregationusage-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/allmemberaggregationusage-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/allmembername-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/allmembername-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/allowbrowsing-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/allowbrowsing-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/allowdrillthrough-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/allowdrillthrough-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/allowduplicatenames-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/allowduplicatenames-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/allowedrowsexpression-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/allowedrowsexpression-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/allowedset-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/allowedset-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/application-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/application-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/associatedmeasuregroupid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/associatedmeasuregroupid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/attributeallmembername-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/attributeallmembername-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/attributehierarchydisplayfolder-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/attributehierarchydisplayfolder-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/attributehierarchyenabled-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/attributehierarchyenabled-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/attributehierarchyoptimizedstate-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/attributehierarchyoptimizedstate-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/attributehierarchyordered-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/attributehierarchyordered-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/attributehierarchyvisible-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/attributehierarchyvisible-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/attributeid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/attributeid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/audit-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/audit-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/autorestart-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/autorestart-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/backcolor-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/backcolor-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/cachemode-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/cachemode-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/calculationreference-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/calculationreference-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/calculationtype-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/calculationtype-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/calendarenddate-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/calendarenddate-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/calendarlanguage-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/calendarlanguage-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/calendarstartdate-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/calendarstartdate-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/caption-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/caption-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/captionismdx-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/captionismdx-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/cardinality-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/cardinality-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/casecubedimensionid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/casecubedimensionid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/classifiedcolumnid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/classifiedcolumnid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/collation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/collation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/collectioncaption-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/collectioncaption-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/columnid-element-columnbinding-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/columnid-element-columnbinding-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/columnid-element-eventcolumn-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/columnid-element-eventcolumn-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/condition-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/condition-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/connectionstring-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/connectionstring-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/connectionstringsecurity-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/connectionstringsecurity-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/content-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/content-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/createdtimestamp-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/createdtimestamp-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/cubedimensionid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/cubedimensionid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/cubeid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/cubeid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/currentstoragemode-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/currentstoragemode-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/currenttimemember-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/currenttimemember-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/dataaggregation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/dataaggregation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/databaseid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/databaseid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/datasize-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/datasize-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/datasourceid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/datasourceid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/datasourceimpersonationinfo-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/datasourceimpersonationinfo-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/datasourceviewid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/datasourceviewid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/datatype-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/datatype-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/dbschemaname-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/dbschemaname-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/dbtablename-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/dbtablename-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/default-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/default-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/defaultmeasure-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/defaultmeasure-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/defaultmember-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/defaultmember-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/defaultscript-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/defaultscript-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/defaultvalue-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/defaultvalue-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/deniedset-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/deniedset-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/dependsondimensionid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/dependsondimensionid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/description-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/description-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/dimensionid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/dimensionid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/discretizationbucketcount-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/discretizationbucketcount-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/discretizationmethod-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/discretizationmethod-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/displayflag-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/displayflag-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/displayfolder-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/displayfolder-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/distribution-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/distribution-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/edition-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/edition-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/enabled-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/enabled-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/endofdata-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/endofdata-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/estimatedcount-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/estimatedcount-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/estimatedperformancegain-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/estimatedperformancegain-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/estimatedrows-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/estimatedrows-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/estimatedsize-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/estimatedsize-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/eventid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/eventid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/expression-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/expression-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/filter-element-binding-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/filter-element-binding-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/filter-element-trace-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/filter-element-trace-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/firstdayofweek-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/firstdayofweek-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/fiscalfirstdayofmonth-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/fiscalfirstdayofmonth-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/fiscalfirstmonth-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/fiscalfirstmonth-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/fiscalyearname-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/fiscalyearname-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/foldingparameters-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/foldingparameters-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/fontflags-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/fontflags-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/fontname-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/fontname-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/fontsize-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/fontsize-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/forcerebuildinterval-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/forcerebuildinterval-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/forecolor-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/forecolor-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/format-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/format-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/formatstring-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/formatstring-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/goal-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/goal-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/granularityattributeid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/granularityattributeid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/hidememberif-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/hidememberif-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/hierarchyid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/hierarchyid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/hierarchyuniquenamestyle-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/hierarchyuniquenamestyle-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/holdoutactualsize-element.md",
+        "redirect_url": "/analysis-services/assl/properties/holdoutactualsize-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/holdoutmaxcases-element.md",
+        "redirect_url": "/analysis-services/assl/properties/holdoutmaxcases-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/holdoutmaxpercent-element.md",
+        "redirect_url": "/analysis-services/assl/properties/holdoutmaxpercent-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/holdoutseed-element.md",
+        "redirect_url": "/analysis-services/assl/properties/holdoutseed-element",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/id-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/id-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/ignoreunrelateddimensions-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/ignoreunrelateddimensions-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/impersonationinfo-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/impersonationinfo-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/impersonationinfosecurity-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/impersonationinfosecurity-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/impersonationmode-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/impersonationmode-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/instanceselection-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/instanceselection-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/intermediatecubedimensionid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/intermediatecubedimensionid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/intermediategranularityattributeid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/intermediategranularityattributeid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/invalidxmlcharacters-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/invalidxmlcharacters-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/invocation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/invocation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/isaggregatable-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/isaggregatable-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/iskey-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/iskey-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/isolation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/isolation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/keyduplicate-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/keyduplicate-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/keyerroraction-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/keyerroraction-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/keyerrorlimit-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/keyerrorlimit-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/keyerrorlimitaction-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/keyerrorlimitaction-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/keyerrorlogfile-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/keyerrorlogfile-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/keynotfound-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/keynotfound-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/keyuniquenessguarantee-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/keyuniquenessguarantee-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/kpiid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/kpiid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/language-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/language-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/lastprocessed-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/lastprocessed-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/lastschemaupdate-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/lastschemaupdate-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/lastupdate-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/lastupdate-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/latency-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/latency-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/logfileappend-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/logfileappend-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/logfilename-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/logfilename-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/logfilerollover-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/logfilerollover-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/logfilesize-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/logfilesize-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/managedprovider-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/managedprovider-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/manufacturingextramonthquarter-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/manufacturingextramonthquarter-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/manufacturingfirstmonth-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/manufacturingfirstmonth-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/manufacturingfirstweekofmonth-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/manufacturingfirstweekofmonth-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/masterdatasourceid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/masterdatasourceid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/materialization-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/materialization-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/maxactiveconnections-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/maxactiveconnections-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/mdxmissingmembermode-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/mdxmissingmembermode-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/measureexpression-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/measureexpression-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/measuregroupid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/measuregroupid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/measureid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/measureid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/measurequalificaton-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/measurequalificaton-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/membernamesunique-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/membernamesunique-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/memberswithdata-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/memberswithdata-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/memberswithdatacaption-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/memberswithdatacaption-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/memberuniquenamestyle-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/memberuniquenamestyle-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/mimetype-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/mimetype-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/miningmodelid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/miningmodelid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/multiplicity-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/multiplicity-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/name-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/name-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/namingtemplate-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/namingtemplate-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/nonemptybehavior-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/nonemptybehavior-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/notificationtechnique-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/notificationtechnique-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/nullkeyconvertedtounknown-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/nullkeyconvertedtounknown-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/nullkeynotallowed-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/nullkeynotallowed-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/nullprocessing-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/nullprocessing-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/onlinemode-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/onlinemode-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/optimizedstate-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/optimizedstate-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/optionality-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/optionality-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/orderby-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/orderby-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/orderbyattributeid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/orderbyattributeid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/ordinal-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/ordinal-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/overridebehavior-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/overridebehavior-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/partitionid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/partitionid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/password-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/password-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/path-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/path-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/pendingvalue-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/pendingvalue-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/permissionset-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/permissionset-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/persistence-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/persistence-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/process-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/process-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/processingmode-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/processingmode-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/processingpriority-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/processingpriority-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/processingquery-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/processingquery-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/productname-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/productname-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/properties-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/properties-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/query-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/query-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/querydefinition-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/querydefinition-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/read-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/read-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/readdefinition-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/readdefinition-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/readsourcedata-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/readsourcedata-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/refreshinterval-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/refreshinterval-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/refreshpolicy-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/refreshpolicy-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/relationshiptype-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/relationshiptype-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/remotedatasourceid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/remotedatasourceid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/reportingfirstmonth-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/reportingfirstmonth-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/reportingfirstweekofmonth-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/reportingfirstweekofmonth-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/reportingweektomonthpattern-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/reportingweektomonthpattern-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/reportserver-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/reportserver-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/requiresrestart-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/requiresrestart-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/roleid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/roleid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/root-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/root-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/rootmemberif-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/rootmemberif-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/schema-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/schema-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/scriptcacheprocessingmode-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/scriptcacheprocessingmode-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/silenceinterval-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/silenceinterval-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/silenceoverrideinterval-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/silenceoverrideinterval-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/slice-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/slice-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/solveorder-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/solveorder-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/source-element-binding-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/source-element-binding-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/source-element-comassembly-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/source-element-comassembly-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/source-element-measure-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/source-element-measure-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/sourceattributeid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/sourceattributeid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/sourcecolumnid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/sourcecolumnid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/state-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/state-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/status-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/status-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/statusgraphic-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/statusgraphic-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/stoptime-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/stoptime-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/storageengineused-element-xmla.md",
+        "redirect_url": "/analysis-services/assl/properties/storageengineused-element-xmla",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/storagelocation-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/storagelocation-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/storagemode-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/storagemode-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/tableid-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/tableid-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/target-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/target-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/targettype-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/targettype-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/text-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/text-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/timeout-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/timeout-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/trend-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/trend-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/trendgraphic-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/trendgraphic-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/trimming-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/trimming-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/type-element-action-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/type-element-action-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/type-element-binding-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/type-element-binding-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/type-element-clrassemblyfile-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/type-element-clrassemblyfile-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/type-element-dimension-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/type-element-dimension-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/type-element-dimensionattribute-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/type-element-dimensionattribute-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/type-element-measuregroup-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/type-element-measuregroup-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/type-element-measuregroupattribute-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/type-element-measuregroupattribute-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/type-element-miningstructurecolumn-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/type-element-miningstructurecolumn-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/type-element-partition-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/type-element-partition-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/type-element-perspectivecalculation-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/type-element-perspectivecalculation-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/unknownmember-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/unknownmember-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/unknownmembername-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/unknownmembername-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/usage-element-dimensionattribute-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/usage-element-dimensionattribute-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/usage-element-miningmodelcolumn-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/usage-element-miningmodelcolumn-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/value-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/value-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/version-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/version-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/visibility-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/visibility-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/visible-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/visible-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/visualtotals-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/visualtotals-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/write-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/write-element-assl",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "reference-docs/assl/properties/writeenabled-element-assl.md",
+        "redirect_url": "/analysis-services/assl/properties/writeenabled-element-assl",
+        "redirect_document_id": false
     }
+
 
   ]
 }

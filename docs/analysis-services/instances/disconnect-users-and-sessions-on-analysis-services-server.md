@@ -55,11 +55,11 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 Canceling a SPID/SessionID will cancel any active commands running on the session corresponding to the SPID/SessionID. Canceling a connection will identify the session associated with the connection, and cancel any active commands running on that session. In rare cases, a connection is not closed if the engine cannot track all sessions and SPIDs associated with the connection; for example, when multiple sessions are open in an HTTP scenario.   
   
-To learn more about the XMLA referenced in this topic, see [Execute Method &#40;XMLA&#41;](https://docs.microsoft.com/bi-reference/xmla/xml-elements-methods-execute) and [Cancel Element &#40;XMLA&#41;](https://docs.microsoft.com/bi-reference/xmla/xml-elements-commands/cancel-element-xmla).  
+To learn more about the XMLA referenced in this topic, see [Execute Method &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-methods-execute) and [Cancel Element &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/cancel-element-xmla).  
   
 ## See also  
 
  [Managing Connections and Sessions &#40;XMLA&#41;](../../analysis-services/multidimensional-models-scripting-language-assl-xmla/managing-connections-and-sessions-xmla.md)   
- [BeginSession Element &#40;XMLA&#41;](https://docs.microsoft.com/bi-reference/xmla/xml-elements-headers/beginsession-element-xmla)   
- [EndSession Element &#40;XMLA&#41;](https://docs.microsoft.com/bi-reference/xmla/xml-elements-headers/endsession-element-xmla)   
- [Session Element &#40;XMLA&#41;](https://docs.microsoft.com/bi-reference/xmla/xml-elements-headers/session-element-xmla) 
+ [BeginSession Element &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-headers/beginsession-element-xmla)   
+ [EndSession Element &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-headers/endsession-element-xmla)   
+ [Session Element &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-headers/session-element-xmla) 
