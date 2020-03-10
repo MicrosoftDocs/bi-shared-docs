@@ -1,6 +1,6 @@
 ---
 title: "XML for Analysis (XMLA) Compliance | Microsoft Docs"
-ms.date: 07/25/2018
+ms.date: 03/10/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -12,6 +12,7 @@ manager: kfile
 ---
 # XML for Analysis (XMLA) Compliance
   
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
   The XML for Analysis 1.1 specification describes an open standard that supports data access to data sources that reside on the World Wide Web. This topic details the level of compliance with the XML for Analysis 1.1 specification that is supported by Azure Analysis Services and SQL Server Analysis Services.  
   

@@ -64,7 +64,7 @@ An XML-based language that describes entities, relationships, and functions in t
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### [Analysis Services Scripting Language (ASSL for XMLA)](/bi-reference/assl/analysis-services-scripting-language-assl-for-xmla)
+### [Analysis Services Scripting Language (ASSL for XMLA)](/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla)
 
 Client applications can communicate with Analysis Services using XML commands and object descriptions. ASSL represents the object definition language portion of this XML dialect.
 
@@ -80,7 +80,7 @@ Client applications can communicate with Analysis Services using XML commands an
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
-### [XML for Analysis (XMLA)](/bi-reference/xmla/xml-for-analysis-xmla-reference)
+### [XML for Analysis (XMLA)](/analysis-services/xmla/xml-for-analysis-xmla-reference)
 
 A SOAP-based XML protocol for tabular and multidimensional data sources. Fundamentally, all client libraries supported by Analysis Services formulate requests and responses in XMLA.
 
