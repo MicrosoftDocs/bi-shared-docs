@@ -6,6 +6,8 @@
     href: analysis-services-overview.md
   - name: SQL Server Analysis Services
     items:
+    - name: SQL Server Analysis Services overview
+      href: ssas-overview.md
     - name: What's new in SQL Server Analysis Services
       href: what-s-new-in-sql-server-analysis-services.md
     - name: Analysis Services features supported by SQL Server editions
