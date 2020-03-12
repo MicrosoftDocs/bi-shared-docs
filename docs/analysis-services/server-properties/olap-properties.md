@@ -16,7 +16,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 
 [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following OLAP server properties. Not all properties apply to Azure Analysis Services. 
 
-**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
+Applies to both Tabular and Multidimensional server modes unless noted otherwise.
 
 ## Memory
 
