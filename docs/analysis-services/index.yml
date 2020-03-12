@@ -73,7 +73,7 @@ landingContent:
         links:
           - text: Visual Studio
             url: https://visualstudio.microsoft.com/downloads/
-          - text: Analysis Services projects extension
+          - text: Analysis Services projects extension (SSDT)
             url: https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects
           - text: SQL Server Management Studio (SSMS)
             url: https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms
@@ -114,7 +114,7 @@ landingContent:
           - text: Server properties
             url: server-properties/server-properties-in-analysis-services.md
           - text: Query interleaving 
-            url: tabular-models/query-interleaving?view=sql-analysis-services-2019
+            url: tabular-models/query-interleaving.md
           - text: Analysis Services PowerShell
             url: powershell/analysis-services-powershell-reference.md
       - linkListType: reference
@@ -138,7 +138,7 @@ landingContent:
           - text: Tabular Object Model (TOM)
             url: tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md
           - text: Analysis Management Objects (AMO)
-            url: amo/amo-concepts-and-object-model
+            url: amo/amo-concepts-and-object-model.md
           - text: XML for Analysis (XMLA)
             url: xmla/xml-for-analysis-xmla-reference.md
 
