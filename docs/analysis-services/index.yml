@@ -27,14 +27,22 @@ landingContent:
   # Card
   - title: Azure Analysis Services
     linkLists:
-      - linkListType: get-started
+      - linkListType: overview
         links:
           - text: What is Azure Analysis Services?
             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-overview
+      - linkListType: get-started
+        links:
           - text: Create a resource in Azure
             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server
           - text: Add a sample model from the portal
             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-create-sample-model
+      - linkListType: concept
+        links:
+           - text: Supported data sources
+             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource
+           - text: Automation with service principals
+             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-service-principal
 
   # Card
   - title: SQL Server Analysis Services
@@ -131,6 +139,10 @@ landingContent:
         links:
         - text: Developer documentation overview
           url: analysis-services-developer-documentation.md
+      - linkListType: download
+        links:
+        - text: Client libraries
+          url: https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers 
       - linkListType: reference
         links:
           - text: Tabular Model Scripting Language (TMSL)
