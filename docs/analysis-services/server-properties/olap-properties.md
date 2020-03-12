@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services OLAP properties | Microsoft Docs"
-ms.date: 09/07/2019
+ms.date: 03/12/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -269,7 +269,7 @@ Approach for estimating dimension cache requirements:
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
  
  **RowsetSerializationLimit**   
- Applies to Azure Analysis Services and SQL Server 2019 and later only. Limits the number of rows returned in a rowset to clients. Default value is -1, meaning no limit is applied. Applies to both DAX and MDX queries. It can be used to protect server resources from extensive data export. Queries submitted to the server that exceed the limit are cancelled and an error is returned.  
+ Applies to Azure Analysis Services and SQL Server 2019 and later only. Limits the number of rows returned in a rowset to clients. Default value is -1, meaning no limit is applied. Applies to both DAX and MDX queries. It can be used to protect server resources from extensive data export. Queries submitted to the server that exceed the limit are cancelled and an error is returned. **Warning:** Do not set to 0, which can result in errors for common operations and could prevent further server access by Analysis Services server administrators.
 
  **UseCalculationCacheRegistry**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
