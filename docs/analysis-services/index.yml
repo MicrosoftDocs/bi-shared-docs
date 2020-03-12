@@ -1,15 +1,15 @@
 ### YamlMime:Landing
 
 title: Analysis Services documentation
-summary: Analysis Services is an enterprise-grade analytical data engine available on-premises with SQL Server and in the cloud on Azure.
+summary: Analysis Services is available in Azure, Power BI, and on premises with SQL Server. Analysis Services documentation is located at different places in docs.microsoft.com depending on the platform or version. For example, documentation specific to creating and managing an Azure Analysis Services resource is included in Azure documentation. Analysis Services also has core documentation that can apply to just one platform, like SQL Server Analysis Services, or to all Analysis Services platforms including Azure and Power BI. This is because how you create and deploy a tabular model by using Visual Studio, or manage certain server properties or databases by using SQL Server Management Studio and other tools is much the same, regardless of platform.
 
 metadata:
   title: Analysis Services core documentation | Microsoft Docs
-  description: Learn how to use SQL Server Analysis Services to provide enterprise grade semantic data models on-premises and in the cloud!
+  description: Learn how to create and manage Analysis Services solutions in the cloud and on-premises. 
   ms.topic: landing-page
   author: minewiskan
   ms.author: owend
-  ms.date: 03/03/2020
+  ms.date: 03/12/2020
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
@@ -23,34 +23,74 @@ landingContent:
         links:
           - text: What is Analysis Services?
             url: analysis-services-overview.md
-          - text: What is Azure Analysis Services?
-            url: https://docs.microsoft.com/azure/analysis-services/analysis-services-overview
-          - text: SQL Server 2014 Analysis Services
-            url: https://docs.microsoft.com/sql/analysis-services/analysis-services?view=sql-server-2014
-      - linkListType: whats-new
-        links:      
-          - text: What's new in SQL Server Analysis Services
-            url: what-s-new-in-sql-server-analysis-services.md
 
   # Card
-  - title: Get started
+  - title: Azure Analysis Services
     linkLists:
+      - linkListType: overview
+        links:
+          - text: What is Azure Analysis Services?
+            url: https://docs.microsoft.com/azure/analysis-services/analysis-services-overview
       - linkListType: get-started
         links:
           - text: Create a resource in Azure
             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server
+          - text: Add a sample model from the portal
+            url: https://docs.microsoft.com/azure/analysis-services/analysis-services-create-sample-model
+      - linkListType: concept
+        links:
+           - text: Supported data sources
+             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource
+           - text: Automation with service principals
+             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-service-principal
+
+  # Card
+  - title: SQL Server Analysis Services
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: SQL Server Analysis Services
+            url: ssas-overview.md
+      - linkListType: whats-new
+        links:
+          - text: What's new in SQL Server Analysis Services
+            url: what-s-new-in-sql-server-analysis-services.md
+      - linkListType: get-started
+        links:
           - text: Install SQL Server Analysis Services
             url: instances/install-windows/install-analysis-services.md
           - text: Install SQL Server evaluation editions
             url: https://www.microsoft.com/evalcenter/evaluate-sql-server-2019-rc/
+          - text: SQL Server 2014 Analysis Services
+            url: https://docs.microsoft.com/sql/analysis-services/analysis-services?view=sql-server-2014
+
+  # Card
+  - title: Analysis Services in Power BI
+    linkLists:
+      - linkListType: concept
+        links:
+        - url: https://docs.microsoft.com/power-bi/service-premium-what-is#tool-connectivity-preview
+          text: Analysis Services in Power BI Premium
+        - url: https://docs.microsoft.com/power-bi/service-premium-connect-tools
+          text: Connect to datasets with the XMLA Endpoint
+
+  # Card
+  - title: Tools
+    linkLists:  
       - linkListType: download
         links:
           - text: Visual Studio
             url: https://visualstudio.microsoft.com/downloads/
-          - text: Analysis Services projects extension
+          - text: Analysis Services projects extension (SSDT)
             url: https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects
           - text: SQL Server Management Studio (SSMS)
             url: https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms
+          - text: DAX Studio (open-source)
+            url: https://daxstudio.org/
+          - text: Tabular Editor (open-source)
+            url: https://tabulareditor.github.io/
+          - text: ALM Toolkit for Power BI Datasets (open-source)
+            url: http://alm-toolkit.com/
 
   # Card
   - title: Data modeling
@@ -63,6 +103,8 @@ landingContent:
           text: Multidimensional models
         - url: comparing-tabular-and-multidimensional-solutions-ssas.md
           text: Comparing tabular and multidimensional solutions
+        - text: Tabular model solution deployment
+          url: deployment/tabular-model-solution-deployment-ssas-tabular.md
       - linkListType: tutorial
         links:
           - text: Tabular modeling
@@ -75,26 +117,42 @@ landingContent:
     linkLists:
       - linkListType: concept
         links:
-          - text: Server management
-            url: instances/analysis-services-instance-management.md
-          - text: Monitor servers
+          - text: Monitoring overview
             url: instances/monitor-an-analysis-services-instance.md
-          - text: Configure Windows Firewall
-            url: instances/configure-the-windows-firewall-to-allow-analysis-services-access.md
-
-  # Card
-  - title: Reference
-    linkLists:
+          - text: Server properties
+            url: server-properties/server-properties-in-analysis-services.md
+          - text: Query interleaving 
+            url: tabular-models/query-interleaving.md
+          - text: Analysis Services PowerShell
+            url: powershell/analysis-services-powershell-reference.md
       - linkListType: reference
         links:
-          - text: PowerShell
-            url: powershell/analysis-services-powershell-reference.md
-          - text: Analysis Services API and scripting references
-            url: https://docs.microsoft.com/bi-reference/
-          - text: Data Analysis Expressions (DAX)
-            url: https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference
-          - text: Power Query M formula language
-            url: https://docs.microsoft.com/powerquery-m/power-query-m-reference
+          - text: Install Az.AnalysisServices module
+            url: https://www.powershellgallery.com/packages/Az.AnalysisServices
+          - text: Install SqlServer module
+            url: https://www.powershellgallery.com/packages/SqlServer
+
+  # Card
+  - title: Developer
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Developer documentation
+          url: analysis-services-developer-documentation.md
+      - linkListType: download
+        links:
+        - text: Client libraries
+          url: https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers 
+      - linkListType: reference
+        links:
+          - text: Tabular Model Scripting Language (TMSL)
+            url: tmsl/tabular-model-scripting-language-tmsl-reference.md
+          - text: Tabular Object Model (TOM)
+            url: tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md
+          - text: Analysis Management Objects (AMO)
+            url: amo/amo-concepts-and-object-model.md
+          - text: XML for Analysis (XMLA)
+            url: xmla/xml-for-analysis-xmla-reference.md
 
 
 
