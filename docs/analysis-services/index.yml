@@ -70,9 +70,9 @@ landingContent:
       - linkListType: concept
         links:
         - url: https://docs.microsoft.com/power-bi/service-premium-what-is#tool-connectivity-preview
-          text: Analysis Services in Power BI
+          text: Analysis Services in Power BI Premium
         - url: https://docs.microsoft.com/power-bi/service-premium-connect-tools
-          text: Connect to Power BI Premium datasets with the XMLA Endpoint
+          text: Connect to datasets with the XMLA Endpoint
 
   # Card
   - title: Tools
@@ -137,7 +137,7 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-        - text: Developer documentation overview
+        - text: Developer documentation
           url: analysis-services-developer-documentation.md
       - linkListType: download
         links:
