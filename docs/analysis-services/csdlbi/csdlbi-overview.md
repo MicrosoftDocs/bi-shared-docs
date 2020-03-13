@@ -1,5 +1,5 @@
 ---
-title: "CSDL Annotations for Business Intelligence (CSDLBI) overview | Microsoft Docs"
+title: "Conceptual Schema Definition Language (CSDLBI) overview | Microsoft Docs"
 ms.date: 03/13/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -9,9 +9,9 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 ---
-# CSDL Annotations for Business Intelligence (CSDLBI) overview
+# Conceptual Schema Definition Language (CSDLBI) overview
 
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
 
   Analysis Services supports the presentation of the definition of multidimensional models and tabular model at the 1103 and lower compatibility levels in an XML format called Conceptual Schema Definition Language with Business Intelligence annotations (CSDLBI). This article provides an overview of CSDLBI and how it is used with Analysis Services data models.  
   
@@ -44,7 +44,7 @@ Begninning in 2012, version 1.0 and subsequent versions of the CSDLBI specificat
 
 ### CSDLBI 1.0, 1.1 Reference (Archived)
 
-[CSDLBI 1.0, 1.1 Reference](csdl/csdl-annotations-for-business-intelligence-csdlbi.md)
+[CSDLBI 1.0, 1.1 Reference](csdl-annotations-for-business-intelligence-csdlbi.md)
 
 ## See also
 
