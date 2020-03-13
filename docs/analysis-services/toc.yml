@@ -3103,7 +3103,7 @@
       - name: WriteEnabled Element (ASSL)
         href: assl/properties/writeenabled-element-assl.md
 
-  - name: CSDL Annotations for Business Intelligence (CSDLBI)
+  - name: Conceptual Schema Definition Language (CSDLBI)
     href: csdlbi/csdlbi-overview.md
 
 - name: References
