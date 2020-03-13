@@ -1,6 +1,7 @@
-- name: Conceptual schema definition language (CSDL)
-  href: csdl-annotations-for-business-intelligence-csdlbi.md
+- name: Conceptual schema definition language for Business Intelligence (CSDLBI)
   items:
+  - name: Conceptual schema definition language (CSDLBI)
+    href: csdl-annotations-for-business-intelligence-csdlbi.md
   - name: CSDLBI Concepts
     href: csdlbi-concepts.md
   - name: CSDLBI Attributes for Report Design

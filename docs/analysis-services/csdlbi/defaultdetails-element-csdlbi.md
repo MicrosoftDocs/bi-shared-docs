@@ -12,7 +12,9 @@ manager: kfile
 ---
 # DefaultDetails Element (CSDLBI)
 
-  The DefaultDetails element represents a list of property references that together define the “default field set” of columns in the table. Each property can only refer to a measure or a column.  
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
+  The DefaultDetails element represents a list of property references that together define the "default field set" of columns in the table. Each property can only refer to a measure or a column.  
   
 ## Elements and Attributes  
  The following table lists the elements and attributes that define the DefaultDetails element.  

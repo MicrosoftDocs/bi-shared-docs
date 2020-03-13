@@ -12,6 +12,8 @@ manager: kfile
 ---
 # KpiStatus Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The KpiStatus element defines a reference to the column that contains the value used as the status indicator in a Key Performance Indicator (KPI).  
   
 ## Elements and Attributes  

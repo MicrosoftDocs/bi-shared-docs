@@ -12,6 +12,8 @@ manager: kfile
 ---
 # PropertyRef Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The PropertyRef element is a simple type that provides a reference to a column that supplies a value required by another property.  
   
 ## Elements and Attributes  
@@ -51,7 +53,7 @@ manager: kfile
 ## Example  
  **Multidimensional**  
   
- The following sample, in CSDLBI version 1.1, shows a KPI from the Contoso Operations cube. The PropertyRef elements point to the columns that contains the formula or values that are used to define the KPI’s goal and status relative to that goal.  
+ The following sample, in CSDLBI version 1.1, shows a KPI from the Contoso Operations cube. The PropertyRef elements point to the columns that contains the formula or values that are used to define the KPI's goal and status relative to that goal.  
   
 ```xml   
 <Property Name="Sum_of_SalesAmount" Type="Decimal" Precision="19" Scale="4">  

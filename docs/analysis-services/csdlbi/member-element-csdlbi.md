@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Member Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The Member element is a complex type that serves as the base for other elements.  
   
  Its attributes can appear in columns, measures, navigation properties, hierarchies, and levels.  

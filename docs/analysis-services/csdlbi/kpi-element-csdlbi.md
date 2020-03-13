@@ -12,6 +12,8 @@ manager: kfile
 ---
 # KPI Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The Kpi element defines a calculation that can be used as a Key Performance Indicator (KPI). In a business intelligence data model, KPIs are based on measures, and as such the definition of the KPI contains all the metadata associated with measures, as well as information needed for presentation of the KPI values, including a default graphic.  
   
  The Kpi element does not specify the formula, which is contained in the measure definition, but rather specifies the additional metadata that is associated with measures that are used as KPIs. Once you have designated a measure as a KPI, you cannot use it as a measure in other contexts.  
