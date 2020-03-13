@@ -31,11 +31,11 @@ author: minewiskan
   
  You can obtain the CSDL for a model by sending a DISCOVER request to the server that hosts the model. The request must be qualified by specifying the server and the model, and, optionally, a view or perspective. The returned message is an XML string. Certain elements are language-dependent and may return different values depending on the language of the current connection. For more information, see DISCOVER_CSDL_METADATA Rowset.  
   
-### CSDLBI Reference
+## CSDLBI Reference
 
  The original CSDL specification (from the Entity Data Framework) provides for most of the entities and properties that are needed to support modeling. The BI annotations support special requirements of tabular models, reporting properties required for clients, and additional metadata required for multidimensional models. 
 
-Begninning in 2012, version 1.0 and subsequent versions of the CSDLBI specification are described in [Open Specifications](https://docs.microsoft.com/openspecs/main/ms-openspeclp/). Prior to publishing CSDLBI to the open specification, CSDLBI versions 1.0 and 1.1 were documented as a reference on MSDN\TechNet. This early version of the CSDLBI reference provides more in-depth definitions of CSDLBI structures and semantics than provided in the open specification, however, the open specification should be used.
+Begninning in 2012, version 1.0 and subsequent versions of the CSDLBI specification are described in [Open Specifications](https://docs.microsoft.com/openspecs/main/ms-openspeclp/). The Open Specification is updated periodically to coincide with changes in functionality. Prior to publishing CSDLBI to the Open Specification, CSDLBI versions 1.0 and 1.1 were documented as a reference on MSDN\TechNet. This early version of the CSDLBI reference provides more in-depth definitions of CSDLBI structures and semantics than provided in the open specification, however, the open specification should be used.
 
 ### Open Specification versions 1.0 and higher
 

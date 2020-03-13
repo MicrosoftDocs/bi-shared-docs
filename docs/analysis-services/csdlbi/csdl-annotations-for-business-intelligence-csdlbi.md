@@ -1,5 +1,5 @@
 ---
-title: "CSDL Annotations for Business Intelligence reference (Archived)| Microsoft Docs"
+title: "Conceptual Schema Definition Language for Business Intelligence Reference (Archived)| Microsoft Docs"
 ms.date: 03/13/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -9,7 +9,7 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 ---
-# CSDL Annotations for Business Intelligence (Archived)
+# Conceptual Schema Definition Language (CSDLBI) Reference (Archived)
 
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
 
@@ -25,7 +25,7 @@ author: minewiskan
   
 -   Visualization and navigation properties. For example, properties were added to support custom sorting fields, default images, and  
   
- **CSDLBI 1.1**
+ ## CSDLBI 1.1
   
  This version of the CSDLBI schema includes additions in support of multidimensional databases (such as OLAP cubes). The new elements and properties are as follows:  
   
