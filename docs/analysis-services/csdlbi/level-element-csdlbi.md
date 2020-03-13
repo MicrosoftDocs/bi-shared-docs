@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Level Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The Level element is a complex type that defines a single level in a hierarchy  
   
 ## Elements and Attributes  

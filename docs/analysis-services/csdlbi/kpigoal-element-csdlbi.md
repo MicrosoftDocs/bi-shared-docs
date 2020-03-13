@@ -12,6 +12,8 @@ manager: kfile
 ---
 # KpiGoal Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The KpiGoal element provides a reference to the column that is used to define the goal for a Key performance Indicator (KPI).  
   
  In CSDLBI, KPIs are based on measures, and the Measure element contains the formula (if any), while other metadata associated with the KPI are defined as part of the [KPI Element &#40;CSDLBI&#41;](kpi-element-csdlbi.md).  The Kpigoal element is a subtype of the Kpi element.  

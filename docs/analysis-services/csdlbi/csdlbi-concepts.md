@@ -12,6 +12,8 @@ manager: kfile
 ---
 # CSDLBI Concepts
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   Conceptual Schema Definition Language with BI annotations (CSDLBI) is based on the Entity Data Framework, which is an abstraction for representing data in a way that enables disparate data sets to be programmatically accessed, queried, or exported. CSDLBI is used to represent data models created using Analysis Services because it supports rich, data-driven reporting and applications.  
   
  This section explains how the CSDLBI representation maps to Analysis Services data models (both tabular and multidimensional), along with examples of each model type.  

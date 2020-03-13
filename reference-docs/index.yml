@@ -64,7 +64,7 @@ conceptualContent:
     # Card
     - title: Conceptual Schema Definition Language for Business Intelligence (Retired)
       links:
-        - url: csdl/csdl-annotations-for-business-intelligence-csdlbi.md
+        - url: https://docs.microsoft.com/analysis-services/csdlbi/csdlbi-overview
           itemType: overview
           text: CSDL overview
 

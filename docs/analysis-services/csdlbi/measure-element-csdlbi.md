@@ -12,6 +12,8 @@ manager: kfile
 ---
 # Measure Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The Measure element is a complex type based on the CSDL Property element. The CSDLBI annotations add attributes that support definition of complex formulas for use in business intelligence data models.  
   
 ## Elements and Attributes  

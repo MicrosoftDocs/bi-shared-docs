@@ -12,6 +12,8 @@ manager: kfile
 ---
 # DisplayKey Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The DisplayKey element contains a list of the following elements that together constitute a strong identifier. The DisplayKey is found only as a child of the EntityType element. It can reference either columns or role ends.  
   
 ## Elements and Attributes  
