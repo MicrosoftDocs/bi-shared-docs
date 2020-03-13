@@ -12,6 +12,8 @@ manager: kfile
 ---
 # MemberRef Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The MemberRef element identifies the name of a property that is the target of a reference.  
   
 ## Elements and Attributes  

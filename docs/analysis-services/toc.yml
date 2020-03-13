@@ -3103,6 +3103,9 @@
       - name: WriteEnabled Element (ASSL)
         href: assl/properties/writeenabled-element-assl.md
 
+  - name: CSDL Annotations for Business Intelligence (CSDLBI)
+    href: csdl/csdl-overview.md
+
 - name: References
   href: ../analysis-services/analysis-services-references.md
 - name: Samples

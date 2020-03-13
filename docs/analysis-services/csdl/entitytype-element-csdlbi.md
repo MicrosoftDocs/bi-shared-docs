@@ -12,6 +12,8 @@ manager: kfile
 ---
 # EntityType Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The **EntityType** element is a complex type that represents the structure of a high-level entity, such as a customer or order, in a data model. The **bi:EntityType** element extends the definition of [EntityType](https://msdn.microsoft.com/library/bb399206.aspx) used in the [Entity Data Framework](https://msdn.microsoft.com/library/bb399567.aspx).  
   
  An EntityType element must be specified for each of the entities that are included in the data model. The subelements of the EntityType describe the columns and measures in the table. Relationships among tables are included in the **EntityContainer**.  

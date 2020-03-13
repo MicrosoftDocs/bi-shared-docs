@@ -12,6 +12,8 @@ manager: kfile
 ---
 # BaseProperty Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The BaseProperty element is a complex type that serves as the base for other elements.  
   
  Its attributes can appear in columns and in measures.  

@@ -12,6 +12,8 @@ manager: kfile
 ---
 # EntityContainer Element (CSDLBI)
 
+[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+
   The EntityContainer element is a complex type, based on the CSDL type, EntityContainer, that defines a collection of entities within a single data model. In a business intelligence application, the data model represented by an EntityContainer might contain multiple tables with column linked by relationships, as well as calculations, measures, and KPIs. It is conceptually similar to a database or data source.  
   
  The EntityContainer must specify each of the entity types that are included in the data model, including tables and relationships. Information about these model entities is specified by listing child entities of the type, Entity element. For more information, see [EntityType Element &#40;CSDLBI&#41;](entitytype-element-csdlbi.md).  
