@@ -35,7 +35,7 @@ author: minewiskan
 
  The original CSDL specification (from the Entity Data Framework) provides for most of the entities and properties that are needed to support modeling. The BI annotations support special requirements of tabular models, reporting properties required for clients, and additional metadata required for multidimensional models. 
 
-Begninning in 2012, version 1.0 and subsequent versions of the CSDLBI specification are described in [Open Specifications](https://docs.microsoft.com/openspecs/main/ms-openspeclp/). The Open Specification is updated periodically to coincide with changes in functionality. Prior to publishing CSDLBI to the Open Specification, CSDLBI versions 1.0 and 1.1 were documented as a reference on MSDN\TechNet. This early version of the CSDLBI reference provides more in-depth definitions of CSDLBI structures and semantics than provided in the open specification, however, the open specification should be used.
+Beginning in 2012, version 1.0 and subsequent versions of the CSDLBI specification are described in [Open Specifications](https://docs.microsoft.com/openspecs/main/ms-openspeclp/). The Open Specification is updated periodically to coincide with changes in functionality. Prior to publishing CSDLBI to the Open Specification, CSDLBI versions 1.0 and 1.1 were documented as a reference on MSDN\TechNet. This early version of the CSDLBI reference provides more in-depth definitions of CSDLBI structures and semantics than provided in the open specification, however, the open specification should be used.
 
 ### Open Specification versions 1.0 and higher
 
