@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # Create and deploy an empty database (AMO-TOM)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
 A common programming scenario for AMO-TOM is to generate databases and models on the fly. This article walks you through the steps of creating a database. 
 

@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2019"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2019"
 ---
 # Query interleaving
 
-[!INCLUDE[ssas-appliesto-sql2019-aas](../../includes/ssas-appliesto-sql2019-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
 Query interleaving is a tabular mode system configuration that can improve query performance in high-concurrency scenarios. By default, the Analysis Services tabular engine works in a first-in, first-out (FIFO) fashion with regards to CPU. This means, for example, if one resource expensive and possibly slow storage-engine query is received, and then followed by two otherwise fast queries, the fast queries can potentially get blocked waiting for the expensive query to complete. This is shown in the following diagram, which shows Q1, Q2 and Q3 as the respective queries, their duration, and CPU time. 
 
@@ -126,7 +126,7 @@ The lifecycle of a query may be as follows, as long as it doesn't timeout or com
 |4     |  Decayed        |   The MCE is set to 2 cores. <br> Jobs are executed based on availability up to MCE. <br> Decay interval of 1 minute of CPU time is used up.      |   2 = <br> MIN(32/2˄4, 12)       |         
 |5     |  Decayed        |  The MCE is set to 1 core. <br> Jobs are executed based on availability up to MCE. <br> Decay interval does not apply as the query has bottomed. <br> No further decay since minimum of 1 core is reached.        |   1 = <br> MIN(32/2˄5, 12)       |
 
-If the system is under CPU pressure, each query will be assigned no more cores than its MCE. If all the cores are currently used by queries within their respective MCEs, then other queries wait until cores become available. As cores become available, the oldest entitled query based on its elapsed calendar time is picked up. The MCE is a cap under pressure; it doesn’t guarantee that number of cores at any point in time. 
+If the system is under CPU pressure, each query will be assigned no more cores than its MCE. If all the cores are currently used by queries within their respective MCEs, then other queries wait until cores become available. As cores become available, the oldest entitled query based on its elapsed calendar time is picked up. The MCE is a cap under pressure; it doesn't guarantee that number of cores at any point in time. 
 
 ## See also  
 

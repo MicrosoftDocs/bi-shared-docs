@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Detach command (TMSL)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
   Detaches a tabular database from a server.  
   

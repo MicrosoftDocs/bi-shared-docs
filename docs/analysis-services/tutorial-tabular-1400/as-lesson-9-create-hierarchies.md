@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Create hierarchies
 
-[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
 
 In this lesson, you create hierarchies. Hierarchies are groups of columns arranged in levels. For example, a Geography hierarchy might have sublevels for Country, State, County, and City. Hierarchies can appear separate from other columns in a reporting client field list, making them easier for users to navigate and include in a report. To learn more, see [Hierarchies](../tabular-models/hierarchies-ssas-tabular.md)
   

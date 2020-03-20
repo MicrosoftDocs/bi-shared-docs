@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Relationships object (TMSL)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
   Defines a relationship between a source and target table, with the ability to specify cardinality, and the direction of query and security filters.  
   

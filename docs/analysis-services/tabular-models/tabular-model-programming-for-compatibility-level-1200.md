@@ -8,11 +8,11 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Tabular model programming for compatibility level 1200 and higher
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
 Beginning with compatibility level 1200, tabular metadata is used to describe model constructs, replacing historical multidimensional metadata as descriptors for tabular model objects. Metadata for tables, columns, and relationships are table, column, and relationship, rather than the multidimensional equivalents (dimension and attribute).  
   

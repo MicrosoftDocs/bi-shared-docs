@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2019"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Calculation groups
  
-[!INCLUDE[ssas-appliesto-sql2019-aas](../../includes/ssas-appliesto-sql2019-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
 
 Calculation groups can significantly reduce the number of redundant measures by grouping common measure expressions as *calculation items*. Calculation groups are supported in tabular models at the 1500 and higher [compatibility level](compatibility-level-for-tabular-models-in-analysis-services.md).  
 
@@ -255,7 +255,7 @@ The following animation shows the dynamic format currency conversion of the **Sa
 
 Precedence is a property defined for a calculation group. It specifies the order of evaluation when there is more than one calculation group. A higher number indicates greater precedence, meaning it will be evaluated before calculation groups with lower precedence.
 
-For this example, we'll use same model as the time-intelligence example above, but also add an **Averages** calculation group. The Averages calculation group contains average calculations that are independent of traditional time intelligence in that they don’t change the date filter context - they just apply average calculations within it.
+For this example, we'll use same model as the time-intelligence example above, but also add an **Averages** calculation group. The Averages calculation group contains average calculations that are independent of traditional time intelligence in that they don't change the date filter context - they just apply average calculations within it.
 
 In this example, a daily average calculation is defined. Calculations such as average barrels of oil per day are common in oil-and-gas applications. Other common business examples include store sales average in retail.
 
@@ -326,7 +326,7 @@ The following table shows how the March 2012 values are calculated.
 |Column name  |Calculation |
 |---------|---------|
 |YTD     |    Sum of Sales for Jan, Feb, Mar 2012<br />= 495,364 + 506,994 + 373,483     |
-|Daily Average    |  	Sales for Mar 2012 divided by # of days in March<br />= 373,483 / 31       |
+|Daily Average    |      Sales for Mar 2012 divided by # of days in March<br />= 373,483 / 31       |
 |YTD Daily Average     | YTD for Mar 2012 divided by # of days in Jan, Feb, and Mar<br />=  1,375,841 / (31 + 29 + 31)       |
 
 Here's the definition of the YTD calculation item, applied with precedence of **20**.

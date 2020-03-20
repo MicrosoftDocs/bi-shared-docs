@@ -12,29 +12,29 @@ author: minewiskan
 ---
 # Create Tables, Partitions, and Columns in a Tabular model
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
 In a tabular model, a table consists of rows and columns. Rows are organized into partitions to support incremental data refresh. A tabular solution can support several types of tables, depending on where the data is coming from:  
 
 * Regular tables, where data originates from a relational data source, via the data provider. 
 
-* Pushed tables, where data is “pushed” to the table programmatically. 
+* Pushed tables, where data is "pushed" to the table programmatically. 
 
 * Calculated tables, where data comes from a DAX expression that references another object within the model for its data.  
 
-In the code example below, we’ll define a regular table. 
+In the code example below, we'll define a regular table. 
 
 ## Required elements 
 
 A table must have at least one partition. A regular table must also have at least one column defined. 
 
-Every partition must have a Source specifying the data’s origin, but source can be set to null. Typically, the source is a query expression that defines a slice of data in the relevant database query language. 
+Every partition must have a Source specifying the data's origin, but source can be set to null. Typically, the source is a query expression that defines a slice of data in the relevant database query language. 
 
 ## Code example: create a Table, Column, Partition
 
 Tables are represented by Table class (in Microsoft.AnalysisServices.Tabular namespace). 
 
-In the example below, we’ll define a regular table having one partition linked to a relational data source and a few regular columns. We will also submit the changes to the server and trigger a data refresh that brings the data into the model. This represents the most typical scenario when you want to load data from a SQL Server relational database into a Tabular solution. 
+In the example below, we'll define a regular table having one partition linked to a relational data source and a few regular columns. We will also submit the changes to the server and trigger a data refresh that brings the data into the model. This represents the most typical scenario when you want to load data from a SQL Server relational database into a Tabular solution. 
 
 
 ```csharp
@@ -228,13 +228,13 @@ Columns are represented by several classes derived from base **Column** class (i
 
 ## Row numbers in a table 
 
-Every **Table** object on a server has a **RowNumberColumn** used for indexing purposes. You can’t create or add it explicitly. The column is created automatically when you save or update the object: 
+Every **Table** object on a server has a **RowNumberColumn** used for indexing purposes. You can't create or add it explicitly. The column is created automatically when you save or update the object: 
 
 * **db.SaveChanges** 
 
 * **db.Update(ExpandFull)** 
 
-When calling either method, the server will create row number column automatically, which will be visible as **RowNumberColumn** the table’s Columns collection. 
+When calling either method, the server will create row number column automatically, which will be visible as **RowNumberColumn** the table's Columns collection. 
 
 ## Calculated tables 
 

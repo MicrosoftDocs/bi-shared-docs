@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # Install, distribute, and reference the Tabular Object Model
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
 This article describes how to download, reference, and redistribute Tabular Object Model (TOM), a C# library for creating and managing tabular models and databases in managed code.  
   

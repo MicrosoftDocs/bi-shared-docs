@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Adventure Works Internet Sales tutorial (1500)
 
-[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
 
 This tutorial provides lessons on how to create and deploy a tabular model at the [1500 compatibility level](../tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md). If you're new to Analysis Services and tabular modeling, completing this tutorial is the quickest way to learn how to create and deploy a basic tabular model by using Visual Studio with Analysis Services projects. Once you have the prerequisites in-place, it should take two to three hours to complete.  
 

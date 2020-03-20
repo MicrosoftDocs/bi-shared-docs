@@ -12,9 +12,9 @@ author: minewiskan
 ---
 # Add a data source to tabular model (AMO-TOM)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
-The **DataSource** class in the Microsoft.AnalysisServices.Tabular namespace is an abstraction of a tabular model’s data source that specifies the type and location of imported data during a data refresh operation. 
+The **DataSource** class in the Microsoft.AnalysisServices.Tabular namespace is an abstraction of a tabular model's data source that specifies the type and location of imported data during a data refresh operation. 
 
 You can add a data source to the tabular model by instantiating an object of a class derived from **DataSource**, and then add it to the **DataSources** collection of the Model object. To commit changes to the server, call either **Model.SaveChanges()** or **Database.Update(UpdateOptions.ExpandFull)**. 
 
@@ -125,4 +125,4 @@ namespace TOMSamples
 
 ## Next step 
 
-Within a model, you’ll need to set up data bindings that map source columns in the data source to destination columns in the model. You will also need to define the partitions, a minimum of one per table, that store the data. The following link shows you how: [Create tables, partitions, and columns](create-tables-partitions-and-columns-in-a-tabular-model.md) 
+Within a model, you'll need to set up data bindings that map source columns in the data source to destination columns in the model. You will also need to define the partitions, a minimum of one per table, that store the data. The following link shows you how: [Create tables, partitions, and columns](create-tables-partitions-and-columns-in-a-tabular-model.md) 
