@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Refresh command (TMSL)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
   Processes objects in the current database.   
 **Refresh** always runs in parallel unless you throttle it with [Sequence command &#40;TMSL&#41;](sequence-command-tmsl.md).  

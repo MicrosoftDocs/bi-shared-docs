@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # Create Tables, Partitions, and Columns in a Tabular model
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
 In a tabular model, a table consists of rows and columns. Rows are organized into partitions to support incremental data refresh. A tabular solution can support several types of tables, depending on where the data is coming from:  
 

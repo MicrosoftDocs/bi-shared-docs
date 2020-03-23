@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Alter command (TMSL)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../../../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
   Alters an existing object, but not its children.  If the object does not exist, the command raises an error.  
   
