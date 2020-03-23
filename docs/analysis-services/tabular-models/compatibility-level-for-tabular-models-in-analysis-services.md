@@ -1,6 +1,6 @@
 ---
 title: "Compatibility level for tabular models in Analysis Services | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 03/23/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -22,13 +22,14 @@ Major features in the 1500 compatibility level include:
 
 *  [Calculation groups](calculation-groups.md)
 *  [Many-to-many relationships](../what-s-new-in-sql-server-analysis-services.md#many-to-many-relationships-in-tabular-models)
+*  Supported in [Power BI Premium](https://docs.microsoft.com/power-bi/service-premium-connect-tools)
   
 ## Supported compatibility levels by version
   
 |||  
 |-|-|- 
 |**Compatibility level**|**Server version**| 
-|1500|Azure Analysis Services, SQL Server 2019  | 
+|1500|Power BI Premium, Azure Analysis Services, SQL Server 2019 | 
 |1400|Azure Analysis Services, SQL Server 2019, SQL Server 2017 |  
 |1200|Azure Analysis Services, SQL Server 2019, SQL Server 2017, SQL Server 2016| 
 |1103|SQL Server 2017*, SQL Server 2016, SQL Server 2014, SQL Server 2012 SP1|  
