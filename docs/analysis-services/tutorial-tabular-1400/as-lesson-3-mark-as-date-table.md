@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Mark as Date Table
 
-[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
 
 In Lesson 2: Get data, you imported a dimension table named **DimDate**. While in your model this table is named DimDate, it can also be known as a *Date table*, in that it contains date and time data.  
   
@@ -46,7 +46,6 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 4. Save.
 
-## What's next?
+## Next step
 
-[Lesson 4: Create relationships](../tutorial-tabular-1400/as-lesson-4-create-relationships.md).
-  
+[Lesson 4: Create relationships](../tutorial-tabular-1400/as-lesson-4-create-relationships.md)

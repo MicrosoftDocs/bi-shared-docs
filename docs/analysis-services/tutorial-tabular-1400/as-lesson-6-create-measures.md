@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Create measures
 
-[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
 
 In this lesson, you create measures to be included in your model. Similar to the calculated columns you created, a measure is a calculation created by using a DAX formula. However, unlike calculated columns, measures are evaluated based on a user selected *filter*. For example, a particular column or slicer added to the Row Labels field in a PivotTable. A value for each cell in the filter is then calculated by the applied measure. Measures are powerful, flexible calculations that you want to include in almost all tabular models to perform dynamic calculations on numerical data. To learn more, see [Measures](../tabular-models/measures-ssas-tabular.md).
   
@@ -122,8 +122,6 @@ Measures created for the FactInternetSales table are used to analyze critical fi
 
 Now that you've created a bunch of measure, take a look at **Measures** in Tabular Model Explorer. You'll see all of your new measures. Right-click a measure and you see actions you can now take on a that measure.
   
-## What's next?
+## Next step
 
-[Lesson 7: Create Key Performance Indicators](../tutorial-tabular-1400/as-lesson-7-create-key-performance-indicators.md).  
-
-  
+[Lesson 7: Create Key Performance Indicators](../tutorial-tabular-1400/as-lesson-7-create-key-performance-indicators.md)

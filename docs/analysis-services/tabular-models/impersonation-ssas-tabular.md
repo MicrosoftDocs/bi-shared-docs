@@ -8,10 +8,12 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
-# Impersonation 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+# Impersonation
+
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+
   This article provides tabular model authors an understanding of how sign in credentials are used by Analysis Services when connecting to a datasource to import and process (refresh) data.  
 
 ##  <a name="bkmk_conf_imp_info"></a> Configuring impersonation  
@@ -70,7 +72,7 @@ When data is imported or processed, impersonation credentials are used to connec
 |**Service Account**|This option specifies the model use the security credentials associated with the Analysis Services service instance that manages the model.|  
   
 ##  <a name="bkmk_impers_sec"></a> Security  
- Credentials used with impersonation are persisted in-memory by the VertiPaq™ engine. Credentials are never written to disk. If the workspace database is not in-memory when the model is deployed, the user is prompted to enter the credentials used to connect to the datasource and fetch data.  
+ Credentials used with impersonation are persisted in-memory by the VertiPaq&trade; engine. Credentials are never written to disk. If the workspace database is not in-memory when the model is deployed, the user is prompted to enter the credentials used to connect to the datasource and fetch data.  
   
 > [!NOTE]  
 >  It is recommended you specify a Windows user account and password for impersonation credentials. A Windows user account can be configured to use least privileges necessary to connect to and read data from the datasource.  

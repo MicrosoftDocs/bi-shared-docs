@@ -12,9 +12,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # OLAP properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-[!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following OLAP server properties. Not all properties apply to Azure Analysis Services. 
+[!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following OLAP server properties. Not all properties apply to Azure Analysis Services and Power BI Premium.
 
 Applies to both Tabular and Multidimensional server modes unless noted otherwise.
 

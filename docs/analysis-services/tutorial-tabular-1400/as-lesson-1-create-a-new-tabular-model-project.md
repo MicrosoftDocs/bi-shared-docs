@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Create a tabular model project
 
-[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
 
 In this lesson, you use Visual Studio with Microsoft Analysis Services projects to create a new tabular model project. Once your new project is created, you can begin adding data and authoring your model. This lesson also gives you a brief introduction to the tabular model authoring environment in Visual Studio.  
   
@@ -69,11 +69,6 @@ When you installed the Analysis Services projects extension, several new menu it
   
 Explore some of the dialogs and locations for various features specific to authoring tabular models. While some items are not yet active, you can get a good idea of the tabular model authoring environment.  
   
+## Next step
 
-## What's next?
-
-[Lesson 2: Get data](../tutorial-tabular-1400/as-lesson-2-get-data.md).
-
-  
-  
-  
+[Lesson 2: Get data](../tutorial-tabular-1400/as-lesson-2-get-data.md)

@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # Connect to an existing tabular server and database
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
 Analysis Services Management Objects (AMO) includes several namespaces that can be used to set up a server connection. This article explains how to establish a server connection using the **Microsoft.AnalysisServices.Tabular** namespace for models and databases created at 1200 or higher compatibility level . 
 
@@ -37,7 +37,7 @@ Although the DDL differs, connections to a server are the same across all modes,
 In contrast, TOM does not have dependency on AMO. Although TOM cannot be used to explore multidimensional metadata (Cubes), AMO can be used to explore both multidimensional and tabular metadata. For this reason, the first step in setting up your project requires adding references to *all* of the AMO assemblies. See [Install, reference and distribute the TOM client library](install-distribute-and-reference-the-tabular-object-model.md) for details.
 
 > [!NOTE]  
->  Server and database connections are based on legacy AMO classes that inherit from MajorObject. Although major and minor objects aren’t used in a tabular model tree, the MajorObject class is visible as a base class for Server and Database objects, regardless of which API you use to set up the connection.  
+>  Server and database connections are based on legacy AMO classes that inherit from MajorObject. Although major and minor objects aren't used in a tabular model tree, the MajorObject class is visible as a base class for Server and Database objects, regardless of which API you use to set up the connection.  
 
 ## Code example: server connection 
 
