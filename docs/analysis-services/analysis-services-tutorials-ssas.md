@@ -8,25 +8,45 @@ ms.topic: tutorial
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Analysis Services tutorials
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-[Tabular modeling (1400 compatibility level)](tutorial-tabular-1400/as-adventure-works-tutorial.md)   
-Applies to Azure Analysis Services and SQL Server 2017 Analysis Services and later. This tutorial provides lessons on how to author a basic Analysis Services tabular model for the fictitious company, Adventure Works, by using Visual Studio. 
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2019"
+
+[Tabular modeling (1500 compatibility level)](tutorial-tabular-1400/as-adventure-works-tutorial.md)   
+Applies to Azure Analysis Services, Power BI Premium, SQL Server 2019 Analysis Services and later. This tutorial provides lessons on how to author a basic Analysis Services tabular model for the fictitious company, Adventure Works, by using Visual Studio. This tutorial can also be used for tabular models at the 1400 compatibility level to be deployed to SQL Server 2017 Analysis Services.
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
 [Tabular modeling (1200 compatibility level)](tutorial-tabular-1200/tabular-modeling-adventure-works-tutorial.md)  
 Applies to Azure Analysis Services and SQL Server 2016 Analysis Services and later. This tutorial provides lessons on how to author a basic Analysis Services tabular model for the fictitious company, Adventure Works, by using Visual Studio.  
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
   
 [Multidimensional modeling](multidimensional-tutorial/multidimensional-modeling-adventure-works-tutorial.md)  
 Applies to SQL Server 2012 Analysis Services and later. Multidimensional models are not supported on Azure Analysis Services. This tutorial provides lessons for learning fundamental skills and concepts of multidimensional modeling in Visual Studio. When you're finished, you will have a cube database based on Adventure Works data that you can access from Excel, Reporting Services, or any other client application that connects to Analysis Services.  
-  
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 [Data Mining](../analysis-services/data-mining/data-mining-tutorials-analysis-services.md)  
 Applies to SQL Server 2012 Analysis Services and later. Multidimensional models with Data Mining are not supported on Azure Analysis Services. This collection of tutorials describe creating data mining solutions using wizards and integrated visualizations. Data Mining is [deprecated in SQL Server Analysis Services 2017](analysis-services-backward-compatibility.md#sql-server-2017).
+
+::: moniker-end
   
-## Samples 
+## Samples
+
+### AdventureWorksDW on Azure Synapse
+
+AdventureWorksDW is available as a sample dataset on Azure Synapse, as described in the Tabular modeling (1500 compatibility level) tutorial.
 
 ### Project and completed model database samples
 
@@ -38,7 +58,7 @@ Open source code samples and community projects available at [Analysis Services 
 
 ### SQL Server Database and SQL Server Data Warehouse samples  
 
-Adventure Works and Wide World Importers sample databases are available at [SQL Server Sample Repository on GitHub](https://github.com/Microsoft/sql-server-samples).
+AdventureWorksDW and Wide World Importers sample databases are available at [SQL Server Sample Repository on GitHub](https://github.com/Microsoft/sql-server-samples). 
   
   
   

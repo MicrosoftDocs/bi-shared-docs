@@ -1,6 +1,6 @@
 ---
 title: "Compatibility level for tabular models in Analysis Services | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 03/23/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Compatibility level for tabular models
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
   The *compatibility level* refers to release-specific behaviors in the Analysis Services engine. For example, DirectQuery and tabular object metadata have different implementations depending on the compatibility level. In-general, you should choose the latest compatibility level supported by your servers.
 
@@ -22,13 +22,14 @@ Major features in the 1500 compatibility level include:
 
 *  [Calculation groups](calculation-groups.md)
 *  [Many-to-many relationships](../what-s-new-in-sql-server-analysis-services.md#many-to-many-relationships-in-tabular-models)
+*  Supported in [Power BI Premium](https://docs.microsoft.com/power-bi/service-premium-connect-tools)
   
 ## Supported compatibility levels by version
   
 |||  
 |-|-|- 
 |**Compatibility level**|**Server version**| 
-|1500|Azure Analysis Services, SQL Server 2019  | 
+|1500|Power BI Premium, Azure Analysis Services, SQL Server 2019 | 
 |1400|Azure Analysis Services, SQL Server 2019, SQL Server 2017 |  
 |1200|Azure Analysis Services, SQL Server 2019, SQL Server 2017, SQL Server 2016| 
 |1103|SQL Server 2017*, SQL Server 2016, SQL Server 2014, SQL Server 2012 SP1|  

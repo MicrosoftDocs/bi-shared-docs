@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Create roles
 
-[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
 
 In this lesson, you create roles. Roles provide model database object and data security by limiting access to only those users that are role members. Each role is defined with a single permission: None, Read, Read and Process, Process, or Administrator. Roles can be defined during model authoring by using Role Manager. After a model has been deployed, you can manage roles by using SQL Server Management Studio (SSMS). To learn more, see [Roles](../tabular-models/roles-ssas-tabular.md).
   
@@ -34,9 +34,9 @@ Estimated time to complete this lesson: **15 minutes**
 
 This article is part of a tabular modeling tutorial, which should be completed in order. Before performing the tasks in this lesson, you should have completed the previous lesson: [Lesson 10: Create partitions](../tutorial-tabular-1400/as-lesson-10-create-partitions.md).  
   
-## Create roles  
+## Create roles
   
-#### To create a Sales Manager user role  
+#### To create a Sales Manager user role
   
 1.  In Tabular Model Explorer, right-click **Roles** > **Roles**.  
   
@@ -80,9 +80,6 @@ This article is part of a tabular modeling tutorial, which should be completed i
 4.  Optional: Click the **Members** tab, and then click **Add**. In the **Select Users or Groups** dialog box, enter the users or groups from your organization you want to include in the role. 
   
   
-## What's next?
+## Next step
 
-[Lesson 12: Analyze in Excel](../tutorial-tabular-1400/as-lesson-12-analyze-in-excel.md).
-
-  
-  
+[Lesson 12: Analyze in Excel](../tutorial-tabular-1400/as-lesson-12-analyze-in-excel.md)

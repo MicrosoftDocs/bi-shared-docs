@@ -8,10 +8,12 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Clear the Analysis Services Caches
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+
   Analysis Services caches data to boost query performance. This topic provides recommendations for using the XMLA ClearCache command to clear caches that were created in response to an MDX query. The effects of running ClearCache vary depending on whether you are using a tabular or multidimensional model.  
   
  **When to clear the cache for multidimensional models**  

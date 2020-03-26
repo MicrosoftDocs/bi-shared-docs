@@ -11,9 +11,11 @@ author: minewiskan
 ---
 # Analysis Services references
 
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+
 ## References
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
 ### [Tabular Model Scripting Language (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference)
 
@@ -21,7 +23,7 @@ A command and object model definition syntax for tabular models at compatibility
 
 ::: moniker-end
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
 ### [Tabular Object Model (TOM)](tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md) 
 
@@ -29,7 +31,7 @@ TOM is an extension of the Analysis Management Object (AMO) client library, crea
 
 ::: moniker-end
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
 ### [Analysis Management Objects](/analysis-services/amo/developing-with-analysis-management-objects-amo)
 

@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Feature properties
 
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
   Feature properties pertain to product features, most of them advanced, including properties that control links between server instances.  
   

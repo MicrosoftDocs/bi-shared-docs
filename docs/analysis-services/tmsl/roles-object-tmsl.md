@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Roles object (TMSL)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
   Defines a role on the model that specifies a collection of permissions. Role membership consists of Windows security principles. You can set filters on a role to restrict access to specific objects.  
   

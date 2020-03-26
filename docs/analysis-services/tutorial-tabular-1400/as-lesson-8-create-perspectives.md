@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Create perspectives
 
-[!INCLUDE[ssas-appliesto-sql2019-later-aas](../../includes/ssas-appliesto-sql2019-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
 
 In this lesson, you create an Internet Sales perspective. A perspective defines a viewable subset of a model that provides focused, business-specific, or application-specific viewpoints. When a user connects to a model by using a perspective, they see only those model objects (tables, columns, measures, hierarchies, and KPIs) as fields defined in that perspective. To learn more, see [Perspectives](../tabular-models/perspectives-ssas-tabular.md).
   
@@ -41,6 +41,6 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
     In a later lesson, you use the Analyze in Excel feature to test this perspective. The Excel PivotTable Fields List includes each table except the DimCustomer table.  
 
-## What's next?
+## Next step
 
-[Lesson 9: Create hierarchies](../tutorial-tabular-1400/as-lesson-9-create-hierarchies.md).
+[Lesson 9: Create hierarchies](../tutorial-tabular-1400/as-lesson-9-create-hierarchies.md)

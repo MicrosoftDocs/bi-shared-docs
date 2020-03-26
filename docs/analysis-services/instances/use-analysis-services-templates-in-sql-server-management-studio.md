@@ -8,10 +8,11 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Use Analysis Services Templates in SQL Server Management Studio
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
+
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
   [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] provides a set of templates to help you quickly create XMLA scripts, DMX or MDX queries, create KPIs in a cube or tabular model, script backup and restore operations, and perform many other tasks. Templates are located in the **Template Explorer** in [!INCLUDE[ssManStudio](../../includes/ssmanstudio-md.md)].  
   

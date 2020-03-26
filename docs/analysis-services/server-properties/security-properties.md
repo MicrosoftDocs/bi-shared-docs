@@ -12,9 +12,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # Security properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-An [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following security properties. Not all properties apply to Azure Analysis Services. 
+An [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following security properties. Not all properties apply to Azure Analysis Services and Power BI Premium. 
 
 **Applies to:** Multidimensional and tabular server mode unless noted otherwise.
   

@@ -8,10 +8,11 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
-# Relationships 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+# Relationships
+
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
   In tabular models, a relationship is a connection between two tables of data. The relationship establishes how the data in the two tables should be correlated. For example, a Customers table and an Orders table can be related in order to show the customer name that is associated with each order.  
   
  When using the Table Import Wizard to import from the same data source, relationships that already exist in tables (at the data source) that you choose to import will be re-created in the model. You can view relationships that were detected and re-created automatically by using the model designer in Diagram View or by using the Manage Relationships dialog box. You can also create new relationships between tables manually by using the model designer in Diagram View or by using the Create Relationship or Manage Relationships dialog box.  
