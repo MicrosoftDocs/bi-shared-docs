@@ -68,8 +68,6 @@ This article is part of a tabular modeling tutorial, which should be completed i
     *  WeekNumberOfYear
     *  DayNumberOfWeek
 
- ## What's next?
+## Next step
 
-[Lesson 10: Create partitions](../tutorial-tabular-1400/as-lesson-10-create-partitions.md). 
-  
-  
+[Lesson 10: Create partitions](../tutorial-tabular-1400/as-lesson-10-create-partitions.md)

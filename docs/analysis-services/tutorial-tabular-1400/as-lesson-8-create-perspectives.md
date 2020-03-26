@@ -41,6 +41,6 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
     In a later lesson, you use the Analyze in Excel feature to test this perspective. The Excel PivotTable Fields List includes each table except the DimCustomer table.  
 
-## What's next?
+## Next step
 
-[Lesson 9: Create hierarchies](../tutorial-tabular-1400/as-lesson-9-create-hierarchies.md).
+[Lesson 9: Create hierarchies](../tutorial-tabular-1400/as-lesson-9-create-hierarchies.md)

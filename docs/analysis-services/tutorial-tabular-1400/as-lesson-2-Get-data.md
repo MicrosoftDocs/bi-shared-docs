@@ -150,9 +150,6 @@ It's important to frequently save your model project.
   
 -   Click **File** > **Save All**.  
   
-## What's next?
+## Next step
 
-[Lesson 3: Mark as Date Table](../tutorial-tabular-1400/as-lesson-3-mark-as-date-table.md).
-
-  
-  
+[Lesson 3: Mark as Date Table](../tutorial-tabular-1400/as-lesson-3-mark-as-date-table.md)

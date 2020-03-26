@@ -121,9 +121,6 @@ The ProductCategoryName calculated column is used to create a hierarchy in the D
       
     The Margin calculated column is used to analyze profit margins for each sale.  
   
-## What's next?
+## Next step
 
-[Lesson 6: Create measures](../tutorial-tabular-1400/as-lesson-6-create-measures.md).
-  
-  
-  
+[Lesson 6: Create measures](../tutorial-tabular-1400/as-lesson-6-create-measures.md)

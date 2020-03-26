@@ -122,8 +122,6 @@ Measures created for the FactInternetSales table are used to analyze critical fi
 
 Now that you've created a bunch of measure, take a look at **Measures** in Tabular Model Explorer. You'll see all of your new measures. Right-click a measure and you see actions you can now take on a that measure.
   
-## What's next?
+## Next step
 
-[Lesson 7: Create Key Performance Indicators](../tutorial-tabular-1400/as-lesson-7-create-key-performance-indicators.md).  
-
-  
+[Lesson 7: Create Key Performance Indicators](../tutorial-tabular-1400/as-lesson-7-create-key-performance-indicators.md)

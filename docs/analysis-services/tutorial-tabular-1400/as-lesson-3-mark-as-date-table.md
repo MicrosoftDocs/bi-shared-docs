@@ -46,7 +46,6 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 4. Save.
 
-## What's next?
+## Next step
 
-[Lesson 4: Create relationships](../tutorial-tabular-1400/as-lesson-4-create-relationships.md).
-  
+[Lesson 4: Create relationships](../tutorial-tabular-1400/as-lesson-4-create-relationships.md)

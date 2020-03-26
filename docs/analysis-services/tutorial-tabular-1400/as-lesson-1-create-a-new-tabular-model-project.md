@@ -69,11 +69,6 @@ When you installed the Analysis Services projects extension, several new menu it
   
 Explore some of the dialogs and locations for various features specific to authoring tabular models. While some items are not yet active, you can get a good idea of the tabular model authoring environment.  
   
+## Next step
 
-## What's next?
-
-[Lesson 2: Get data](../tutorial-tabular-1400/as-lesson-2-get-data.md).
-
-  
-  
-  
+[Lesson 2: Get data](../tutorial-tabular-1400/as-lesson-2-get-data.md)

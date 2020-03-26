@@ -72,8 +72,6 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 6.  In **Select Icon Style**, select the diamond (red), triangle (yellow), circle (green) icon type, and then click **OK**.  
   
-## What's next?
+## Next step
 
-[Lesson 8: Create perspectives](../tutorial-tabular-1400/as-lesson-8-create-perspectives.md).
-  
-  
+[Lesson 8: Create perspectives](../tutorial-tabular-1400/as-lesson-8-create-perspectives.md)

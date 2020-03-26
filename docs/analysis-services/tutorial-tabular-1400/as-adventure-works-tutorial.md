@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services Adventure Works Internet Sales tutorial (1500) | Microsoft Docs"
-ms.date: 02/20/2020
+ms.date: 03/24/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -19,43 +19,49 @@ If you intend to deploy to SQL Server 2017 Analysis Services, you can still comp
   
 ## What you learn
   
--   How to create a new tabular model project at the **1500 compatibility level** in Visual Studio.
+- How to create a new tabular model project at the **1500 compatibility level** in Visual Studio.
   
--   How to import data from a relational database into a tabular model project workspace database.  
+- How to import data from a relational database into a tabular model project workspace database.  
   
--   How to create and manage relationships between tables in the model.  
+- How to create and manage relationships between tables in the model.  
   
--   How to create calculated columns, measures, and Key Performance Indicators that help users analyze critical business metrics.  
+- How to create calculated columns, measures, and Key Performance Indicators that help users analyze critical business metrics.  
   
--   How to create and manage perspectives and hierarchies that help users more easily browse model data by providing business and application-specific viewpoints.  
+- How to create and manage perspectives and hierarchies that help users more easily browse model data by providing business and application-specific viewpoints.  
   
--   How to create partitions that divide table data into smaller logical parts that can be processed independent from other partitions.  
+- How to create partitions that divide table data into smaller logical parts that can be processed independent from other partitions.  
   
--   How to secure model objects and data by creating roles with user members.  
+- How to secure model objects and data by creating roles with user members.  
   
--   How to deploy a tabular model to an **Azure Analysis Services** server or **SQL Server Analysis Services** by using Visual Studio.  
+- How to deploy a tabular model by using Visual Studio.  
   
 ## Prerequisites  
 
-To complete this tutorial, you need:  
+To complete lessons 1-12, you need:  
 
--   An Azure subscription. If you don't already have a subscription, create a [free account](https://azure.microsoft.com/free/).
+- An Azure subscription. If you don't already have a subscription, create a [free account](https://azure.microsoft.com/free/).
 
--   An [Azure Synapse Analytics](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal) (SQL Data Warehouse) named **AdventureWorksDW** with the sample **AdventureWorksDW database**. If using a paid subscription, after completing this tutorial, you can pause or delete this resource in the portal to prevent unwanted charges.
+- An [Azure Synapse Analytics](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal) (SQL Data Warehouse) named **AdventureWorksDW** with the sample **AdventureWorksDW database**. If using a paid subscription, after completing this tutorial, you can pause or delete this resource in the portal to prevent unwanted charges.
 
--   An Azure Analysis Services server (recommended).  See [create a server](https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server). Or, SQL Server 2019 Analysis Services server in Tabular mode. Download a free [SQL Server 2019 Developer Edition](https://www.microsoft.com/sql-server/sql-server-downloads). Or, a Power BI Premium workspace assigned to a capacity with the Datasets workload XMLA Endpoint property set to read-write.
+- The latest version of [Visual Studio](https://visualstudio.microsoft.com/downloads/). Any edition, including the free Community edition work fine.
 
--   The latest version of [Visual Studio](https://visualstudio.microsoft.com/downloads/). Any edition, including the free Community edition work fine.
+- The latest [Microsoft Analysis Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) (VSIX) package installed in Visual Studio.
 
--   The latest [Microsoft Analysis Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) (VSIX) package installed in Visual Studio.
+- Microsoft Excel.
 
--   Microsoft Excel.
+To complete lesson 13 - Deploy, you need one of the following:
 
-None of the lessons in this tutorial use the following, but they're good to install for connecting to your deployed model.
+- An Azure Analysis Services server (recommended).  See [create a server](https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server).
 
--   [SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms).
+- SQL Server 2019 Analysis Services server in Tabular mode. Download a free [SQL Server 2019 Developer Edition](https://www.microsoft.com/sql-server/sql-server-downloads).
 
--   [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
+- Power BI Premium workspace assigned to a capacity with the Datasets workload XMLA Endpoint property set to read-write. To learn more, see [Dataset connectivity with the XMLA endpoint](https://docs.microsoft.com/power-bi/service-premium-connect-tools).
+
+Lessons in this tutorial do not use the following, but they're good to install for connecting to a deployed model.
+
+- [SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms).
+
+- [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
 ## Scenario  
 

@@ -62,18 +62,14 @@ This article is part of a tabular modeling tutorial, which should be completed i
 
 This lesson describes the most common and easiest method to deploy a tabular model from Visual Studio. Advanced deployment options such as the Deployment Wizard or automating with XMLA and AMO provide greater flexibility, consistency, and scheduled deployments. To learn more, see [Tabular model solution deployment](../deployment/tabular-model-solution-deployment-ssas-tabular.md).
 
-
-
 ## Conclusion  
 
 Congratulations! You're finished authoring and deploying your first Analysis Services tabular model. This tutorial has helped guide you through completing the most common tasks in creating a tabular model. Now that your Adventure Works Internet Sales model is deployed, you can use SQL Server Management Studio to manage the model; create process scripts and a backup plan. Users, if added to a role, can also now connect to the model using a reporting client application such as Microsoft Excel or Power BI.  
 
 ![as-lesson13-ssms](../tutorial-tabular-1400/media/as-lesson13-ssms.png)
-  
 
- 
+## Next step
 
-## What's next?
 [Connect with Power BI Desktop](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect-pbi)   
 [Supplemental Lesson - Dynamic security](../tutorial-tabular-1400/as-supplemental-lesson-dynamic-security.md)   
 [Supplemental Lesson - Detail rows](../tutorial-tabular-1400/as-supplemental-lesson-detail-rows.md)   

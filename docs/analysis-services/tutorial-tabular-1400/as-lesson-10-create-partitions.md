@@ -110,6 +110,6 @@ In Partition Manager, notice the **Last Processed** column for each of the new p
   
     ![as-lesson10-process-complete](../tutorial-tabular-1400/media/as-lesson10-process-complete.png)
   
- ## What's next?
+## Next step
 
-Go to the next lesson: [Lesson 11: Create Roles](../tutorial-tabular-1400/as-lesson-11-create-roles.md). 
+Go to the next lesson: [Lesson 11: Create Roles](../tutorial-tabular-1400/as-lesson-11-create-roles.md)

@@ -96,9 +96,6 @@ In some cases, you may need to create additional relationships between tables in
     
      ![as-lesson4-newinactive](../tutorial-tabular-1400/media/as-lesson4-newinactive.png)
   
-## What's next?
+## Next step
 
-[Lesson 5: Create calculated columns](../tutorial-tabular-1400/as-lesson-5-create-calculated-columns.md).
-  
-  
-  
+[Lesson 5: Create calculated columns](../tutorial-tabular-1400/as-lesson-5-create-calculated-columns.md)
