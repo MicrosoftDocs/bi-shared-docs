@@ -19,7 +19,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
  For SQL Server Analysis Services, roles contain user members by Windows username or by Windows group, and permissions (read, process, administrator). For Azure Analysis Services, users must be in your Azure Active Directory and usernames and groups specified must be by organizational email address or UPN. 
 
 > [!IMPORTANT]  
->  When using SSDT to create roles and add organizational users to a tabular model project that will be deployed to Azure Analysis Services, use [Integrated workspace](workspace-database-ssas-tabular.md).
+>  When using SQL Server Data Tools (SSDT) to create roles and add organizational users to a tabular model project that will be deployed to Azure Analysis Services, use [Integrated workspace](workspace-database-ssas-tabular.md).
 
 > [!IMPORTANT]  
 >  For users to connect to a deployed model by using a reporting client application, you must create at least one role with at least Read permission to which those users are members.  
@@ -87,13 +87,13 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
   
  For example, using this formula:  
   
- `='dimDepartmentGroup'[DepartmentGroupId]=LOOKUPVALUE('dimEmployees'[DepartmentGroupId], 'dimEmployees'[LoginId], USERNAME(), 'dimEmployees'[LoginId], 'dimDepartmentGroup'[DepartmentGroupId])`  
+ `='dimDepartment'[DepartmentId]=LOOKUPVALUE('dimEmployees'[DepartmentId], 'dimEmployees'[LoginId], USERNAME(), 'dimEmployees'[LoginId], 'dimDepartment'[DepartmentId])`  
   
- The LOOKUPVALUE function returns values for the dimEmployees[DepartmentId] column where the dimEmployees[LoginId] is the same as the LoginID of the user currently logged on, returned by USERNAME, and values for dimEmployees[DepartmentId] are the same as values for dimDepartmentGroup[DepartmentId]. The values in DepartmentId returned by LOOKUPVALUE are then used to restrict the rows queried in the dimDepartment table, and any tables related by DepartmentId. Only rows where DepartmentId are also in the values for the DepartmentId returned by LOOKUPVALUE function are returned.  
+ The LOOKUPVALUE function returns values for the dimEmployees[DepartmentId] column where the dimEmployees[LoginId] is the same as the LoginID of the user currently logged on, returned by USERNAME, and values for dimEmployees[DepartmentId] are the same as values for dimDepartment[DepartmentId]. The values in DepartmentId returned by LOOKUPVALUE are then used to restrict the rows queried in the dimDepartment table, and any tables related by DepartmentId. Only rows where DepartmentId are also in the values for the DepartmentId returned by LOOKUPVALUE function are returned.  
   
  **dimEmployees**  
   
-|LastName|FirstName|LoginID|DepartmentName|DepartmentId|  
+|LastName|FirstName|LoginId|DepartmentName|DepartmentId|  
 |--------------|---------------|-------------|--------------------|------------------|  
 |Brown|Kevin|Adventure-works\kevin0|Marketing|7|  
 |Bradley|David|Adventure-works\david0|Marketing|7|  
