@@ -1,6 +1,6 @@
 ---
 title: "Calculation groups in Analysis Services tabular models | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 03/31/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -368,7 +368,7 @@ DIVIDE(
     CALCULATE(
         SELECTEDMEASURE(),
         'Time Intelligence'[Time Calculation]="PY"
-    ),
+    )
 )
 ```
 
