@@ -1313,7 +1313,7 @@
       href: ../analysis-services/instances/connect-to-analysis-services.md
     - name: Connect from client applications
       href: ../analysis-services/instances/connect-from-client-applications-analysis-services.md
-    - name: Connection String Properties
+    - name: Connection string properties
       href: ../analysis-services/instances/connection-string-properties-analysis-services.md
     - name: Authentication methodologies
       href: ../analysis-services/instances/authentication-methodologies-supported-by-analysis-services.md
