@@ -56,13 +56,12 @@ The following properties apply to Azure Analysis Services, Power BI Premium, and
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-##  <a name="bkmk_special"></a> Special-purpose parameters
+## Special purpose parameters
 
  These parameters are used to ensure specific connection behaviors required by an application.
 
  Properties are listed in alphabetical order.  
 
-[!div class="mx-tdBreakAll"]
 |Property|Applies_to|Description|  
 |--------------|-----------------|-----------------|   
 |**Application Name**|SSAS|Sets the name of the application associated with the connection. This value can be useful when monitoring tracing events, especially when you have several applications accessing the same databases. For example, adding Application Name='test' to a connection string causes 'test' to appear in a SQL Server Profiler trace, as shown in the following screenshot:<br /><br /> ![SSAS_AppNameExcample](../../analysis-services/instances/media/ssas-appnameexcample.gif "SSAS_AppNameExcample")<br /><br /> Aliases for this property include **sspropinitAppName**, **AppName**. For more information, see [Use Application Name parameter when connecting to SQL Server](https://www.connectionstrings.com/use-application-name-sql-server/).|  
