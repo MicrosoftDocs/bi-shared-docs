@@ -1,6 +1,6 @@
 ---
 title: "Connection string properties (Analysis Services) | Microsoft Docs"
-ms.date: 03/27/2020
+ms.date: 04/01/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -20,9 +20,9 @@ Properties described here are used by the Analysis Services client libraries, AD
 
 Only a subset of the available properties are described here. The complete list includes numerous server and database properties, allowing you to customize a connection for a specific application, independent of how the instance or database is configured on the server. Developers creating custom connection strings in application code should review the API documentation for ADOMD.NET client to view a more detailed list: <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString%2A>  
 
-## Connection parameters
+## Connection properties
 
-The following properties apply to Azure Analysis Services, Power BI Premium, and SQL Server Analysis Services.
+The following apply to Azure Analysis Services, Power BI Premium, and SQL Server Analysis Services.
 
 |Property|Description|Example|  
 |--------------|-----------------|-------------|
@@ -31,7 +31,7 @@ The following properties apply to Azure Analysis Services, Power BI Premium, and
 |**Provider**|This property is **optional**. By default, the client libraries read the current version of the OLE DB provider from the registry. <br /><br /> Set this property only if a specific version of the data provider is required. Valid values include MSOLAP.\<version>, where \<version> is either 4, 5, 6 or 7.For example, MSOLAP.7 released in SQL Server 2016<br /><br /> |`Provider=MSOLAP.7` is used for connections that require the SQL Server 2016 version of the OLE DB provider for Analysis Services.|  
 |**Cube**|Cube name or perspective name. A database can contain multiple cubes and perspectives. When multiple targets are possible, include the cube or perspective name on the connection string.|`Cube=SalesPerspective` shows that you can use the Cube connection string property to specify either the name of a cube or the name of a perspective.|  
   
-## Authentication and security parameters
+## Authentication and security properties
 
  Azure Analysis Services and Power BI Premium use Integrated Azure Active Directory authentication (recommended), Azure Active Directory authentication with username and password, or Windows authentication.
 
@@ -56,9 +56,9 @@ The following properties apply to Azure Analysis Services, Power BI Premium, and
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-## Special purpose parameters
+## Special purpose properties
 
- These parameters are used to ensure specific connection behaviors required by an application.
+ These properties are used to ensure specific connection behaviors required by an application.
 
  Properties are listed in alphabetical order.  
 
@@ -90,4 +90,4 @@ The following properties apply to Azure Analysis Services, Power BI Premium, and
 ## See also
 
 [Connecting to Azure Analysis Services servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)   
-[Power BI dataset connectivity with the XMLA endpoint](https://docs.microsoft.com/power-bi/service-premium-connect-tools)   
+[Power BI dataset connectivity with the XMLA endpoint](https://docs.microsoft.com/power-bi/service-premium-connect-tools)
