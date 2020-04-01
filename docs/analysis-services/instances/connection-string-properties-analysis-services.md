@@ -22,7 +22,7 @@ Only a subset of the available properties are described here. The complete list 
 
 ## Connection properties
 
-The following apply to Azure Analysis Services, Power BI Premium, and SQL Server Analysis Services.
+The following properties apply to Azure Analysis Services, Power BI Premium, and SQL Server Analysis Services.
 
 |Property|Description|Example|  
 |--------------|-----------------|-------------|
@@ -64,11 +64,11 @@ The following apply to Azure Analysis Services, Power BI Premium, and SQL Server
 
 |Property|Applies_to|Description|  
 |--------------|-----------------|-----------------|   
-|**Application Name**|SSAS|Sets the name of the application associated with the connection. This value can be useful when monitoring tracing events, especially when you have several applications accessing the same databases. For example, adding Application Name='test' to a connection string causes 'test' to appear in a SQL Server Profiler trace, as shown in the following screenshot:<br /><br /> ![SSAS_AppNameExcample](../../analysis-services/instances/media/ssas-appnameexcample.gif "SSAS_AppNameExcample")<br /><br /> Aliases for this property include **sspropinitAppName**, **AppName**. For more information, see [Use Application Name parameter when connecting to SQL Server](https://www.connectionstrings.com/use-application-name-sql-server/).|  
+|**Application Name**|SSAS|Sets the name of the application associated with the connection. This value can be useful when monitoring tracing events, especially when you have several applications accessing the same databases. For example, adding Application Name='test' to a connection string causes 'test' to appear in a SQL Server Profiler trace, as shown in the following screenshot:<br /><br /> ![SSAS_AppNameExcample](../../analysis-services/instances/media/ssas-appnameexcample.gif "SSAS_AppNameExcample")<br /><br /> Aliases for this property include **sspropinitAppName**, **AppName**. For more information, see [Application Name for SQL Server Connections](https://www.connectionstrings.com/use-application-name-sql-server/).|  
 |**AutoSyncPeriod**|SSAS|Sets the frequency (in milliseconds) of client and server cache synchronization. ADOMD.NET provides client caching for frequently used objects that have minimal memory overhead. This helps reduce the number of round trips to the server. The default is 10000 milliseconds (or 10 seconds). When set to null or 0, automatic synchronization is turned off.|  
 |**Character Encoding**|SSAS|Defines how characters are encoded on the request. Valid values are Default or UTF-8 (these are equivalent), and UTF-16| 
 |**CommitTimeout**|SSAS|An XMLA property. Determines how long, in milliseconds, the commit phase of a currently running command waits before rolling back. When greater than 0, overrides the value of the corresponding CommitTimeout property in the server configuration. |   
-|**CompareCaseSensitiveStringFlags**|SSAS|Adjusts case-sensitive string comparisons for a specified locale. For more information about setting this property, see [CompareCaseSensitiveStringFlags Property](https://msdn.microsoft.com/library/aa237459\(v=sql.80\).aspx).|  
+|**CompareCaseSensitiveStringFlags**|SSAS|Adjusts case-sensitive string comparisons for a specified locale.|  
 |**Compression Level**|SSAS|If **TransportCompression** is XPRESS, you can set the compression level to control how much compression is used. Valid values are 0 through 9, with 0 having least compression, and 9 having the most compression. Increased compression slows performance. The default value is 0.|  
 |**Connect Timeout**|SSAS|Determines the maximum amount of time (in seconds) the client attempts a connection before timing out. If a connection does not succeed within this period, the client quits trying to connect and generates an error.|  
 |**DbpropMsmdRequestMemoryLimit**|SSAS|This property overrides the [Memory\QueryMemoryLimit](../server-properties/memory-properties.md) server property value for a connection. Specified in kilobytes. |
