@@ -9,7 +9,7 @@ metadata:
   ms.topic: landing-page
   author: minewiskan
   ms.author: owend
-  ms.date: 03/12/2020
+  ms.date: 04/02/2020
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
@@ -23,6 +23,8 @@ landingContent:
         links:
           - text: What is Analysis Services?
             url: analysis-services-overview.md
+          - text: Understanding Analysis Services documentation
+            url: analysis-services-docs.md
 
   # Card
   - title: Azure Analysis Services
