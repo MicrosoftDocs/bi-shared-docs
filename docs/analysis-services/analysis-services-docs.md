@@ -35,13 +35,11 @@ If you are using SQL Server 2016 or later Analysis Services for on-premises tabu
 
 Looking for SQL Server 2014 Analysis Services documentation? - SQL Server 2014 Analysis Services documentation is kept separate from later version documentation. This is due to changing documentation models used on docs.microsoft.com compared to MSDN, where SQL Server 2014 and earlier Books Online documentation was originally published. Go to [SQL Server 2014 Analysis Services documentation](https://docs.microsoft.com/sql/analysis-services/analysis-services?view=sql-server-2014). Need to go back even further? See [SQL Server previous versions documentation](https://docs.microsoft.com/previous-versions/sql/).
 
-
 ## Contribute
 
-Analysis Services documentation, like this article, are open-source. The Analysis Services team does its best to create articles that help you throughout all phases of your Analysis Services solution.
+Remember MSDN and TechNet? They were great, but if you wanted to fix a typo or add some information you thought would be helpful to others, good luck. The move to Microsoft Docs changes that. Analysis Services documentation, like this article and most other conceptual and how to documentation on Microsoft Docs are open-source.
 
-To learn more about how you can contribute, see the [Docs contributor guide](https://docs.microsoft.com/contribute/).
-
+While the Analysis Services team does its best to create documentation that help you throughout all phases of your Analysis Services solution, we simply cannot get to everything. To make our documentation better, we really appreciate your help. To learn more about how you can contribute, see the [Docs contributor guide](https://docs.microsoft.com/contribute/).
 
 ## See also
 
