@@ -4,6 +4,8 @@
   items:
   - name: What is Analysis Services?
     href: analysis-services-overview.md
+  - name: Understanding Analysis Services documentation
+    href: analysis-services-docs.md
   - name: SQL Server Analysis Services
     items:
     - name: SQL Server Analysis Services overview
