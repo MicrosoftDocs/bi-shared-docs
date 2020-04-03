@@ -1153,8 +1153,8 @@
     items:
     - name: Tabular model deployment
       href: ../analysis-services/deployment/tabular-model-solution-deployment.md
-    - name: Deploy a tabular model from Visual Studio (SSDT)
-      href: ../analysis-services/deployment/deploy-from-sql-server-data-tools-ssas-tabular.md
+    - name: Deploy a tabular model from Visual Studio
+      href: ../analysis-services/deployment/deploy-from-visual-studio-tabular.md
     - name: Multidimensional model deployment
       href: ../analysis-services/deployment/multidimensional-model-solution-deployment.md
     - name: Deploy model solutions by using XMLA
@@ -1177,7 +1177,7 @@
         href: ../analysis-services/deployment/deployment-script-files-solution-deployment-config-settings.md
       - name: Deployment Script Files - Specify processing options
         href: ../analysis-services/deployment/deployment-script-files-specifying-processing-options.md
-    - name: Deploy (SSAS) model solutions by using Deployment Utility
+    - name: Deploy using Deployment Utility
       href: ../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md
   - name: Monitor and diagnostics
     items:

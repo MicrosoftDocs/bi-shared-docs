@@ -10,30 +10,13 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
-# Deploy a tabular model From Visual Studio (SSDT)
+# Deploy a tabular model From Visual Studio
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-Use the tasks in this article to deploy a tabular model solution by using the Deploy command in Visual Studio.  
-  
-## Configure deployment options and deployment server properties
+Use the tasks in this article to deploy a tabular model solution by using the Deploy command in Visual Studio with Analysis Services projects. Before you deploy your tabular model solution, you must first specify the Deployment Options and Deployment Server properties. For more information about deployment properties and settings, see [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment.md).  
 
- Before you deploy your tabular model solution, you must first specify the Deployment Options and Deployment Server properties. For more information about deployment properties and settings, see [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment.md).  
-  
-### To configure options and properties
-  
-1. In **Solution Explorer**, right-click the project name, and then click **Properties**.  
-  
-1. In the **\<project name> Properties** dialog, in **Deployment Options**, specify property settings if different from the default settings.  
-  
-1. In **Deployment Server**, specify the **Server** (SSAS server name, Azure Analysis Services server resource URL, or Power BI Workspace Connection URL), **Edition** (SSAS only), **Database** (name), and **Cube Name** property settings, if different from the default settings, and then click **OK**.
-  
-> [!NOTE]  
->You can also specify the Default Deployment Server property setting so any new projects you create will automatically be deployed to the specified server. For more information, see [Configure default data modeling and deployment properties](../../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md).  
-  
 ## Deploy a tabular model  
-  
-### To deploy a tabular model
   
 - In **Solution Explorer**, right-click the project name, and then click **Deploy**.
   

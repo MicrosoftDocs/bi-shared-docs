@@ -4842,6 +4842,11 @@
         "source_path": "reference-docs/assl/properties/writeenabled-element-assl.md",
         "redirect_url": "/analysis-services/assl/properties/writeenabled-element-assl",
         "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/deployment/deploy-from-sql-server-data-tools-ssas-tabular.md",
+        "redirect_url": "/analysis-services/deployment/deploy-from-visual-studio-tabular",
+        "redirect_document_id": false
     }
 
 
