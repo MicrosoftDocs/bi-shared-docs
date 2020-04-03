@@ -1152,7 +1152,7 @@
   - name: Deployment
     items:
     - name: Tabular model deployment
-      href: ../analysis-services/deployment/tabular-model-solution-deployment-ssas-tabular.md
+      href: ../analysis-services/deployment/tabular-model-solution-deployment.md
     - name: Deploy a tabular model from Visual Studio (SSDT)
       href: ../analysis-services/deployment/deploy-from-sql-server-data-tools-ssas-tabular.md
     - name: Multidimensional model deployment

@@ -81,6 +81,6 @@ When data is imported or processed, impersonation credentials are used to connec
   
 ## See also  
  [DirectQuery mode](../../analysis-services/tabular-models/directquery-mode-ssas-tabular.md)   
- [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment-ssas-tabular.md)  
+ [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment.md)  
   
   
