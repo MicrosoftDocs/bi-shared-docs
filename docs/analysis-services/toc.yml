@@ -270,6 +270,8 @@
       href: ../analysis-services/tabular-models/workspace-database-ssas-tabular.md
     - name: DAX in tabular models
       href: ../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md
+    - name: String storage and collation
+      href: ../analysis-services/tabular-models/string-storage-and-collation-in-tabular-models.md
     - name: Tabular model projects
       items:
       - name: Create a new tabular model project
@@ -406,8 +408,8 @@
         href: ../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md
       - name: Object-level security
         href: ../analysis-services/tabular-models/object-level-security.md
-    - name: String storage and collation
-      href: ../analysis-services/tabular-models/string-storage-and-collation-in-tabular-models.md
+    - name: Deploy a tabular model from Visual Studio
+      href: ../analysis-services/deployment/deploy-from-visual-studio-tabular.md
     - name: Manage deployed model databases
       items:
       - name: Process database, table, or partition
@@ -1153,8 +1155,6 @@
     items:
     - name: Tabular model deployment
       href: ../analysis-services/deployment/tabular-model-solution-deployment.md
-    - name: Deploy a tabular model from Visual Studio
-      href: ../analysis-services/deployment/deploy-from-visual-studio-tabular.md
     - name: Multidimensional model deployment
       href: ../analysis-services/deployment/multidimensional-model-solution-deployment.md
     - name: Deploy model solutions by using XMLA
