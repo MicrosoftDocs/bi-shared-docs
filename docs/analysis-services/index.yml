@@ -106,7 +106,7 @@ landingContent:
         - url: comparing-tabular-and-multidimensional-solutions-ssas.md
           text: Comparing tabular and multidimensional solutions
         - text: Tabular model solution deployment
-          url: deployment/tabular-model-solution-deployment-ssas-tabular.md
+          url: deployment/tabular-model-solution-deployment.md
       - linkListType: tutorial
         links:
           - text: Tabular modeling
