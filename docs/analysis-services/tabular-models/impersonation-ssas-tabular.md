@@ -1,6 +1,6 @@
 ---
 title: "Impersonation in Analysis Services tabular models | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 04/03/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # Impersonation
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
 
   This article provides tabular model authors an understanding of how sign in credentials are used by Analysis Services when connecting to a datasource to import and process (refresh) data.  
 
@@ -81,6 +81,6 @@ When data is imported or processed, impersonation credentials are used to connec
   
 ## See also  
  [DirectQuery mode](../../analysis-services/tabular-models/directquery-mode-ssas-tabular.md)   
- [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment-ssas-tabular.md)  
+ [Tabular model solution deployment](../../analysis-services/deployment/tabular-model-solution-deployment.md)  
   
   
