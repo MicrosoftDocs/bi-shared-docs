@@ -61,7 +61,7 @@ Before you proceed with authoring your model, you should verify those relationsh
     |Yes|**FactInternetSales [CustomerKey]**|**DimCustomer [CustomerKey]**|  
     |Yes|**FactInternetSales [ProductKey]**|**DimProduct [ProductKey]**|  
   
-    If any of the relationships are missing, verify your model includes the following tables: DimCustomer, DimDate, DimGeography, DimProduct, DimProductCategory, DimProductSubcategory, and FactInternetSales. If tables from the same datasource connection are imported at separate times, any relationships between those tables will not be created and must be created manually. If no relationships appear, it means there are no relationships at the datasource. You can create them manually in the data model.
+    If any of the relationships are missing, verify your model includes the following tables: DimCustomer, DimDate, DimGeography, DimProduct, DimProductCategory, DimProductSubcategory, and FactInternetSales. If tables from the same datasource connection are imported at separate times, any relationships between those tables are not created and must be created manually. If no relationships appear, it means there are no relationships at the datasource. You can create them manually in the data model.
 
 ### Take a closer look
 
