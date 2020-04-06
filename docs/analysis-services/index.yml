@@ -23,7 +23,7 @@ landingContent:
         links:
           - text: What is Analysis Services?
             url: analysis-services-overview.md
-          - text: Understanding Analysis Services documentation
+          - text: Understanding documentation
             url: analysis-services-docs.md
 
   # Card
