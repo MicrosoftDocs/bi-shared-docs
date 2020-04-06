@@ -3,7 +3,6 @@ title: "Connection string properties (Analysis Services) | Microsoft Docs"
 ms.date: 04/06/2020
 ms.prod: sql
 ms.technology: analysis-services
-ms.custom:
 ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
