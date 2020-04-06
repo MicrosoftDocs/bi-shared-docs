@@ -58,7 +58,7 @@ Predefined tables that contain information about model database objects and serv
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### [Conceptual schema definition language (CSDL)](/analysis-services/csdlbi/csdl-overview)
+### [Conceptual schema definition language (CSDL)](/analysis-services/csdlbi/csdlbi-overview)
 
 An XML-based language that describes entities, relationships, and functions in tabular models 1103 and lower compatibility levels and multidimensional models. Defined as part of the Entity Data Framework.
 
