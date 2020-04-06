@@ -13,7 +13,7 @@ author: minewiskan
 
 [!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
 
-In this lesson, you configure deployment properties; specifying a server to deploy to and a name for the model. You then deploy the model to the server. After your model is deployed, users can connect to it by using a reporting client application. To learn more, see [Deploy to Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-deploy) and [Tabular model solution deployment](../deployment/tabular-model-solution-deployment-ssas-tabular.md).  
+In this lesson, you configure deployment properties; specifying a server to deploy to and a name for the model. You then deploy the model to the server. After your model is deployed, users can connect to it by using a reporting client application. To learn more, see [Deploy to Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-deploy) and [Tabular model solution deployment](../deployment/tabular-model-solution-deployment.md).  
   
 Estimated time to complete this lesson: **5 minutes**  
   
@@ -60,7 +60,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
 > [!IMPORTANT]
 > After deployment is finished, if you created the Azure Synapse Analytics data source using a paid subscription, to prevent unwanted charges to your account, be sure to pause or delete the resource in the portal. 
 
-This lesson describes the most common and easiest method to deploy a tabular model from Visual Studio. Advanced deployment options such as the Deployment Wizard or automating with XMLA and AMO provide greater flexibility, consistency, and scheduled deployments. To learn more, see [Tabular model solution deployment](../deployment/tabular-model-solution-deployment-ssas-tabular.md).
+This lesson describes the most common and easiest method to deploy a tabular model from Visual Studio. Advanced deployment options such as the Deployment Wizard or automating with XMLA and AMO provide greater flexibility, consistency, and scheduled deployments. To learn more, see [Tabular model solution deployment](../deployment/tabular-model-solution-deployment.md).
 
 ## Conclusion  
 

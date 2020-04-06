@@ -4,6 +4,8 @@
   items:
   - name: What is Analysis Services?
     href: analysis-services-overview.md
+  - name: Understanding Analysis Services documentation
+    href: analysis-services-docs.md
   - name: SQL Server Analysis Services
     items:
     - name: SQL Server Analysis Services overview
@@ -262,156 +264,152 @@
       href: ../analysis-services/tabular-models/tabular-models-ssas.md
     - name: Compatibility level
       href: ../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md
-    - name: Create tabular models
+    - name: Tabular model designer
+      href: ../analysis-services/tabular-models/tabular-model-designer-ssas.md
+    - name: Workspace database
+      href: ../analysis-services/tabular-models/workspace-database-ssas-tabular.md
+    - name: DAX in tabular models
+      href: ../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md
+    - name: String storage and collation
+      href: ../analysis-services/tabular-models/string-storage-and-collation-in-tabular-models.md
+    - name: Tabular model projects
       items:
-      - name: Tabular model designer
-        href: ../analysis-services/tabular-models/tabular-model-designer-ssas.md
-      - name: Workspace database
-        href: ../analysis-services/tabular-models/workspace-database-ssas-tabular.md
-      - name: Tabular model projects
-        items:
-        - name: Create a new tabular model project
-          href: ../analysis-services/tabular-models/create-a-new-tabular-model-project-analysis-services.md
-        - name: Import from Analysis Services
-          href: ../analysis-services/tabular-models/import-from-analysis-services-ssas-tabular.md
-        - name: Import from Power Pivot
-          href: ../analysis-services/tabular-models/import-from-power-pivot-ssas-tabular.md
-      - name: Properties
-        items:
-        - name: Default data modeling and deployment properties
-          href: ../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md
-        - name: Project properties
-          href: ../analysis-services/tabular-models/project-properties-ssas-tabular.md
-        - name: Model properties
-          href: ../analysis-services/tabular-models/model-properties-ssas-tabular.md
-        - name: Table properties
-          href: ../analysis-services/tabular-models/table-properties-ssas-tabular.md
-        - name: Column properties
-          href: ../analysis-services/tabular-models/column-properties-ssas-tabular.md
-      - name: Import data
-        items:
-        - name: Data sources supported in tabular 1400 models
-          href: ../analysis-services/tabular-models/data-sources-supported-ssas-tabular-1400.md
-        - name: Data sources supported in tabular 1200 models
-          href: ../analysis-services/tabular-models/data-sources-supported-ssas-tabular.md
-        - name: Data types supported
-          href: ../analysis-services/tabular-models/data-types-supported-ssas-tabular.md
-        - name: Impersonation
-          href: ../analysis-services/tabular-models/impersonation-ssas-tabular.md
-        - name: Import data by using a native query
-          href: ../analysis-services/tabular-models/ssas-import-query.md
-      - name: DirectQuery mode
-        items: 
-        - name: DirectQuery mode in tabular models
-          href: ../analysis-services/tabular-models/directquery-mode-ssas-tabular.md
-        - name: Enable DirectQuery mode in Visual Studio
-          href: ../analysis-services/tabular-models/enable-directquery-mode-in-ssdt.md
-        - name: Enable DirectQuery mode in SSMS
-          href: ../analysis-services/tabular-models/enable-directquery-mode-in-ssms.md
-        - name: Add sample data to DirectQuery models
-          href: ../analysis-services/tabular-models/add-sample-data-to-a-directquery-model-in-design-mode.md
-        - name: Define partitions in DirectQuery models
-          href: ../analysis-services/tabular-models/define-partitions-in-directquery-models-ssas-tabular.md
-        - name: Test a model in DirectQuery mode
-          href: ../analysis-services/tabular-models/test-a-model-in-directquery-mode.md
-        - name: DAX formula compatibility in DirectQuery mode (SSAS 2016)
-          href: ../analysis-services/tabular-models/dax-formula-compatibility-in-directquery-mode-ssas-2016.md
-      - name: Tables and columns
-        items:
-        - name: Tables and columns in tabular models
-          href: ../analysis-services/tabular-models/tables-and-columns-ssas-tabular.md
-        - name: Add columns to a table
-          href: ../analysis-services/tabular-models/add-columns-to-a-table-ssas-tabular.md
-        - name: Delete a column
-          href: ../analysis-services/tabular-models/delete-a-column-ssas-tabular.md
-        - name: Change table, column, or row filter mappings
-          href: ../analysis-services/tabular-models/change-table-column-or-row-filter-mappings-ssas-tabular.md
-        - name: Specify Mark as Date Table for use with Time Intelligence
-          href: ../analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular.md
-        - name: Add a table
-          href: ../analysis-services/tabular-models/add-a-table-ssas-tabular.md
-        - name: Delete a table
-          href: ../analysis-services/tabular-models/delete-a-table-ssas-tabular.md
-        - name: Create a calculated table
-          href: ../analysis-services/tabular-models/create-a-calculated-table-ssas-tabular.md
-        - name: Rename a table or column
-          href: ../analysis-services/tabular-models/rename-a-table-or-column-ssas-tabular.md
-        - name: Set the data type of a column
-          href: ../analysis-services/tabular-models/set-the-data-type-of-a-column-ssas-tabular.md
-        - name: Hide or freeze columns
-          href: ../analysis-services/tabular-models/hide-or-freeze-columns-ssas-tabular.md
-        - name: Calculated columns
-          href: ../analysis-services/tabular-models/ssas-calculated-columns.md
-        - name: Create a calculated column
-          href: ../analysis-services/tabular-models/ssas-calculated-columns-create-a-calculated-column.md
-        - name: Sort data in a table
-          href: ../analysis-services/tabular-models/sort-data-in-a-table-ssas-tabular.md
-        - name: Filter data in a table
-          href: ../analysis-services/tabular-models/filter-data-in-a-table-ssas-tabular.md
-      - name: Relationships
-        items:
-        - name: Relationships in tabular models
-          href: ../analysis-services/tabular-models/relationships-ssas-tabular.md
-        - name: Create a relationship between two tables
-          href: ../analysis-services/tabular-models/create-a-relationship-between-two-tables-ssas-tabular.md
-        - name: Delete relationships
-          href: ../analysis-services/tabular-models/delete-relationships-ssas-tabular.md
-        - name: Bi-directional cross filters
-          href: ../analysis-services/tabular-models/bi-directional-cross-filters-tabular-models-analysis-services.md
-      - name: Calculations
-        items: 
-        - name: Calculations in tabular models
-          href: ../analysis-services/tabular-models/calculations-ssas-tabular.md
-        - name: DAX in tabular models
-          href: ../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md
-      - name: Measures
-        items:
-        - name: Measures in tabular models
-          href: ../analysis-services/tabular-models/measures-ssas-tabular.md
-        - name: Create and manage measures
-          href: ../analysis-services/tabular-models/create-and-manage-measures-ssas-tabular.md
-      - name: Calculation groups
-        href: ../analysis-services/tabular-models/calculation-groups.md
-      - name: KPIs
-        items: 
-        - name: KPIs in tabular models
-          href: ../analysis-services/tabular-models/kpis-ssas-tabular.md
-        - name: Create and Manage KPIs
-          href: ../analysis-services/tabular-models/create-and-manage-kpis-ssas-tabular.md
-      - name: Hierarchies
-        items: 
-        - name: Hierarchies in tabular models
-          href: ../analysis-services/tabular-models/hierarchies-ssas-tabular.md
-        - name: Create and manage hierarchies
-          href: ../analysis-services/tabular-models/create-and-manage-hierarchies-ssas-tabular.md
-      - name: Partitions
-        items: 
-        - name: Partitions in tabular models
-          href: ../analysis-services/tabular-models/partitions-ssas-tabular.md
-        - name: Create and manage partitions in the workspace database
-          href: ../analysis-services/tabular-models/create-and-manage-partitions-in-the-workspace-database-ssas-tabular.md
-        - name: Process partitions in the workspace database
-          href: ../analysis-services/tabular-models/process-partitions-in-the-workspace-database-ssas-tabular.md
-      - name: Perspectives
-        items:
-        - name: Perspectives in tabular models
-          href: ../analysis-services/tabular-models/perspectives-ssas-tabular.md
-        - name: Create and Manage Perspectives
-          href: ../analysis-services/tabular-models/create-and-manage-perspectives-ssas-tabular.md
-      - name: Translations
-        items:
-        - name: Translations in tabular models
-          href: ../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md
-      - name: Roles
-        items:
-        - name: Roles in tabular models
-          href: ../analysis-services/tabular-models/roles-ssas-tabular.md
-        - name: Create and manage roles
-          href: ../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md
-        - name: Object-level security
-          href: ../analysis-services/tabular-models/object-level-security.md
-      - name: String storage and collation
-        href: ../analysis-services/tabular-models/string-storage-and-collation-in-tabular-models.md
+      - name: Create a new tabular model project
+        href: ../analysis-services/tabular-models/create-a-new-tabular-model-project-analysis-services.md
+      - name: Import from Analysis Services
+        href: ../analysis-services/tabular-models/import-from-analysis-services-ssas-tabular.md
+      - name: Import from Power Pivot
+        href: ../analysis-services/tabular-models/import-from-power-pivot-ssas-tabular.md
+    - name: Properties
+      items:
+      - name: Default data modeling and deployment properties
+        href: ../analysis-services/tabular-models/configure-default-data-modeling-and-deployment-properties-ssas-tabular.md
+      - name: Project properties
+        href: ../analysis-services/tabular-models/project-properties-ssas-tabular.md
+      - name: Model properties
+        href: ../analysis-services/tabular-models/model-properties-ssas-tabular.md
+      - name: Table properties
+        href: ../analysis-services/tabular-models/table-properties-ssas-tabular.md
+      - name: Column properties
+        href: ../analysis-services/tabular-models/column-properties-ssas-tabular.md
+    - name: Import data
+      items:
+      - name: Data sources supported in tabular 1400 models
+        href: ../analysis-services/tabular-models/data-sources-supported-ssas-tabular-1400.md
+      - name: Data sources supported in tabular 1200 models
+        href: ../analysis-services/tabular-models/data-sources-supported-ssas-tabular.md
+      - name: Data types supported
+        href: ../analysis-services/tabular-models/data-types-supported-ssas-tabular.md
+      - name: Impersonation
+        href: ../analysis-services/tabular-models/impersonation-ssas-tabular.md
+      - name: Import data by using a native query
+        href: ../analysis-services/tabular-models/ssas-import-query.md
+    - name: DirectQuery mode
+      items: 
+      - name: DirectQuery mode in tabular models
+        href: ../analysis-services/tabular-models/directquery-mode-ssas-tabular.md
+      - name: Enable DirectQuery mode in Visual Studio
+        href: ../analysis-services/tabular-models/enable-directquery-mode-in-ssdt.md
+      - name: Enable DirectQuery mode in SSMS
+        href: ../analysis-services/tabular-models/enable-directquery-mode-in-ssms.md
+      - name: Add sample data to DirectQuery models
+        href: ../analysis-services/tabular-models/add-sample-data-to-a-directquery-model-in-design-mode.md
+      - name: Define partitions in DirectQuery models
+        href: ../analysis-services/tabular-models/define-partitions-in-directquery-models-ssas-tabular.md
+      - name: Test a model in DirectQuery mode
+        href: ../analysis-services/tabular-models/test-a-model-in-directquery-mode.md
+      - name: DAX formula compatibility in DirectQuery mode (SSAS 2016)
+        href: ../analysis-services/tabular-models/dax-formula-compatibility-in-directquery-mode-ssas-2016.md
+    - name: Tables and columns
+      items:
+      - name: Tables and columns in tabular models
+        href: ../analysis-services/tabular-models/tables-and-columns-ssas-tabular.md
+      - name: Add columns to a table
+        href: ../analysis-services/tabular-models/add-columns-to-a-table-ssas-tabular.md
+      - name: Delete a column
+        href: ../analysis-services/tabular-models/delete-a-column-ssas-tabular.md
+      - name: Change table, column, or row filter mappings
+        href: ../analysis-services/tabular-models/change-table-column-or-row-filter-mappings-ssas-tabular.md
+      - name: Specify Mark as Date Table for use with Time Intelligence
+        href: ../analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular.md
+      - name: Add a table
+        href: ../analysis-services/tabular-models/add-a-table-ssas-tabular.md
+      - name: Delete a table
+        href: ../analysis-services/tabular-models/delete-a-table-ssas-tabular.md
+      - name: Create a calculated table
+        href: ../analysis-services/tabular-models/create-a-calculated-table-ssas-tabular.md
+      - name: Rename a table or column
+        href: ../analysis-services/tabular-models/rename-a-table-or-column-ssas-tabular.md
+      - name: Set the data type of a column
+        href: ../analysis-services/tabular-models/set-the-data-type-of-a-column-ssas-tabular.md
+      - name: Hide or freeze columns
+        href: ../analysis-services/tabular-models/hide-or-freeze-columns-ssas-tabular.md
+      - name: Calculated columns
+        href: ../analysis-services/tabular-models/ssas-calculated-columns.md
+      - name: Create a calculated column
+        href: ../analysis-services/tabular-models/ssas-calculated-columns-create-a-calculated-column.md
+      - name: Sort data in a table
+        href: ../analysis-services/tabular-models/sort-data-in-a-table-ssas-tabular.md
+      - name: Filter data in a table
+        href: ../analysis-services/tabular-models/filter-data-in-a-table-ssas-tabular.md
+    - name: Relationships
+      items:
+      - name: Relationships in tabular models
+        href: ../analysis-services/tabular-models/relationships-ssas-tabular.md
+      - name: Create a relationship between two tables
+        href: ../analysis-services/tabular-models/create-a-relationship-between-two-tables-ssas-tabular.md
+      - name: Delete relationships
+        href: ../analysis-services/tabular-models/delete-relationships-ssas-tabular.md
+      - name: Bi-directional cross filters
+        href: ../analysis-services/tabular-models/bi-directional-cross-filters-tabular-models-analysis-services.md
+    - name: Measures
+      items:
+      - name: Measures in tabular models
+        href: ../analysis-services/tabular-models/measures-ssas-tabular.md
+      - name: Create and manage measures
+        href: ../analysis-services/tabular-models/create-and-manage-measures-ssas-tabular.md
+    - name: Calculation groups
+      href: ../analysis-services/tabular-models/calculation-groups.md
+    - name: KPIs
+      items: 
+      - name: KPIs in tabular models
+        href: ../analysis-services/tabular-models/kpis-ssas-tabular.md
+      - name: Create and Manage KPIs
+        href: ../analysis-services/tabular-models/create-and-manage-kpis-ssas-tabular.md
+    - name: Hierarchies
+      items: 
+      - name: Hierarchies in tabular models
+        href: ../analysis-services/tabular-models/hierarchies-ssas-tabular.md
+      - name: Create and manage hierarchies
+        href: ../analysis-services/tabular-models/create-and-manage-hierarchies-ssas-tabular.md
+    - name: Partitions
+      items: 
+      - name: Partitions in tabular models
+        href: ../analysis-services/tabular-models/partitions-ssas-tabular.md
+      - name: Create and manage partitions in the workspace database
+        href: ../analysis-services/tabular-models/create-and-manage-partitions-in-the-workspace-database-ssas-tabular.md
+      - name: Process partitions in the workspace database
+        href: ../analysis-services/tabular-models/process-partitions-in-the-workspace-database-ssas-tabular.md
+    - name: Perspectives
+      items:
+      - name: Perspectives in tabular models
+        href: ../analysis-services/tabular-models/perspectives-ssas-tabular.md
+      - name: Create and Manage Perspectives
+        href: ../analysis-services/tabular-models/create-and-manage-perspectives-ssas-tabular.md
+    - name: Translations
+      items:
+      - name: Translations in tabular models
+        href: ../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md
+    - name: Roles
+      items:
+      - name: Roles in tabular models
+        href: ../analysis-services/tabular-models/roles-ssas-tabular.md
+      - name: Create and manage roles
+        href: ../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md
+      - name: Object-level security
+        href: ../analysis-services/tabular-models/object-level-security.md
+    - name: Deploy a tabular model from Visual Studio
+      href: ../analysis-services/deployment/deploy-from-visual-studio-tabular.md
     - name: Manage deployed model databases
       items:
       - name: Process database, table, or partition
@@ -1156,9 +1154,7 @@
   - name: Deployment
     items:
     - name: Tabular model deployment
-      href: ../analysis-services/deployment/tabular-model-solution-deployment-ssas-tabular.md
-    - name: Deploy a tabular model from Visual Studio (SSDT)
-      href: ../analysis-services/deployment/deploy-from-sql-server-data-tools-ssas-tabular.md
+      href: ../analysis-services/deployment/tabular-model-solution-deployment.md
     - name: Multidimensional model deployment
       href: ../analysis-services/deployment/multidimensional-model-solution-deployment.md
     - name: Deploy model solutions by using XMLA
@@ -1181,7 +1177,7 @@
         href: ../analysis-services/deployment/deployment-script-files-solution-deployment-config-settings.md
       - name: Deployment Script Files - Specify processing options
         href: ../analysis-services/deployment/deployment-script-files-specifying-processing-options.md
-    - name: Deploy (SSAS) model solutions by using Deployment Utility
+    - name: Deploy using Deployment Utility
       href: ../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md
   - name: Monitor and diagnostics
     items:
@@ -1343,7 +1339,7 @@
       href: ../analysis-services/multidimensional-models/multidimensional-model-programming.md
     - name: Assemblies Management
       href: ../analysis-services/multidimensional-models/multidimensional-model-assemblies-management.md
-    - name: Analysis Services Scripting Language (ASSL)
+    - name: Working with Analysis Services Scripting Language (ASSL)
       items:
       - name: Developing with Analysis Services Scripting Language (ASSL)
         href: ../analysis-services/multidimensional-models/scripting-language-assl/developing-with-analysis-services-scripting-language-assl.md
