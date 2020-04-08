@@ -34,7 +34,7 @@ Valid values for Azure Analysis Services include `<protocol>://<region>/<servern
 
 ::: moniker range="asallproducts-allversions || power-bi-premium-current"
 
-Valid values for Power BI Premium include `<protocol>://api.powerbi.com/v1.0/[tenant name]/[workspace name]` where protocol is string `powerbi`, Uri is api.powerbi.com, tenant name is the organization tenant name or myorg, and workspace name is the name of a workspace assigned to a dedicated capacity.
+Valid values for Power BI Premium include `<protocol>://api.powerbi.com/v1.0/[tenant name]/[workspace name]` where protocol is string `powerbi`, Uri is `api.powerbi.com`, tenant name is the organization tenant name or `myorg`, and workspace name is the name of a workspace assigned to a dedicated capacity.
 
 ::: moniker-end
 
@@ -105,11 +105,15 @@ Cube name or perspective name. A database can contain multiple cubes and perspec
 ## Authentication and security properties
 
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
+
 Azure Analysis Services and Power BI Premium use Azure Active Directory - Universal with MFA (recommended), Azure Active Directory authentication with username and password, or Windows authentication.
+
 ::: moniker-end
 
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
+
 SQL Server Analysis Services uses Windows authentication only, but you can set properties on the connection string to pass in a specific user name and password.
+
 ::: moniker-end
   
 Properties are listed in alphabetical order.
@@ -117,19 +121,20 @@ Properties are listed in alphabetical order.
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ### EffectiveUserName
 
-Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. For more information about using this property in an Excel workbook from SharePoint, see [Use Analysis Services EffectiveUserName in SharePoint Server 2013](https://go.microsoft.com/fwlink/?LinkId=311905).
+Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services.
 
 #### Example
 
 `EffectiveUserName=priyan\contoso,com`
 
 `EffectiveUserName=priyan@contoso.com`
+
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 ### Encrypt Password
 
-Specifies whether a local password is to be used to encrypt local cubes. Valid values are True or False. The default is False.
+Specifies whether a local password is to be used to encrypt local cubes. Valid values are **True** or **False**. The default is False.
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
@@ -151,7 +156,7 @@ Indicates the level of impersonation that the server is allowed to use when impe
 
 ### Integrated Security
 
-The Windows identity of the caller is used to connect to Analysis Services. Valid values are  SSPI, blank, BASIC, and ClaimsToken*.
+The Windows identity of the caller is used to connect to Analysis Services. Valid values are  **SSPI**, **blank**, **BASIC**, and **ClaimsToken***.
 
 SSPI is the default value for TCP connections, allowing NTLM, Kerberos, or Anonymous authentication. For Azure AS and Power BI Premium **SSPI** indicates AD Translation. When using SSPI, **ProtectionLevel** property must be set to Connect, PktIntegrity, or PktPrivacy.
 
@@ -167,7 +172,7 @@ blank is the default value for HTTP connections.
 
 ### Persist Security Info
 
-Valid values are True and False. When set to True, security information, such as the user identity or password previously specified on the connection string, can be obtained from the connection after the connection is made. The default value is False.
+Valid values are **True** or **False**. When set to True, security information, such as the user identity or password previously specified on the connection string, can be obtained from the connection after the connection is made. The default value is False.
 
 ### Protection Level
 
@@ -178,7 +183,7 @@ Determines the security level used on the connection. Valid values are:
 - **Pkt Integrity**. Encrypted connections. Verifies that all data is received from the client and that it has not been changed in transit.
 - **Pkt Privacy**. Signed encryption, supported only for XMLA. Verifies that all data is received from the client, that it has not been changed in transit, and protects the privacy of the data by encrypting it.
 
-For more information, see [Establishing Secure Connections in ADOMD.NET](https://docs.microsoft.com/analysis-services/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections)
+To learn more, see [Establishing Secure Connections in ADOMD.NET](https://docs.microsoft.com/analysis-services/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections)
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 ### Roles
@@ -201,7 +206,7 @@ If this property is not set, all packages will be available to the connection.
 
 ### Use Encryption for Data
 
-Encrypts data transmissions. Valid values are True or False.
+Encrypts data transmissions. Valid values are **True** or **False**.
 
 ### User ID=...; Password=
 
@@ -211,7 +216,7 @@ User ID and Password properties provide the appropriate credentials to the serve
 - When connecting over HTTP(S) to SSAS, the credentials are provided to the web server based on the authentication mode configured on the web server, for example Basic auth or Windows auth. The web server will perform the appropriate Windows impersonation before connecting to the SSAS server, therefore providing the correct credentials flow to the server.
 - When connecting to Azure AS or Power BI Premium, the User ID and Password are used to obtain an Azure Active Directory (AAD) token which is then presented to the service during authentication. Azure Active Directory (AAD) may also require multi-factor authentication (MFA), which can require additional user interaction before the token can be generated.
 
-**Note:** "User ID" has an embedded space. An alternate alias for User ID is UID and an alternate alias for Password is PWD.  
+**Note:** "User ID" has an embedded space. An alternate alias for User ID is **UID** and an alternate alias for Password is **PWD**.  
 
 ## Special purpose properties
 
@@ -232,7 +237,7 @@ For performance reasons, the client libraries cache some information from the se
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 ## Character Encoding
 
-Defines how characters are encoded on the request. Valid values are Default or UTF-8 (these are equivalent), and UTF-16.
+Defines how characters are encoded on the request. Valid values are **Default** or **UTF-8** (these are equivalent), and **UTF-16**.
 ::: moniker-end
 
 ## CommitTimeout
@@ -248,7 +253,7 @@ Adjusts case-sensitive string comparisons for a specified locale.
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 ## Compression Level
 
-If **TransportCompression** is compressed, you can set the compression level to control how much compression is used. Valid values are 0 through 9, with 0 having least compression, and 9 having the most compression. Increased compression slows performance. The default value is 0.
+If **TransportCompression** is compressed, you can set the compression level to control how much compression is used. Valid values are **0** through **9**, with 0 having least compression, and 9 having the most compression. Increased compression slows performance. The default value is 0.
 ::: moniker-end
 
 ## Connect Timeout
@@ -281,11 +286,13 @@ The alias for this property is **VisualMode**.
 
 ## MDX Compatibility
 
-The purpose of this property is to ensure a consistent set of MDX behaviors for applications that issue MDX queries. Excel, which uses MDX queries to populate and calculate a PivotTable connected to Analysis Services, sets this property to 1, to ensure that placeholder members in ragged hierarchies are visible in a PivotTable. Valid values include 0, 1, 2.<br /><br /> 0 and 1 expose placeholder members; 2 does not. If this is empty, 0 is assumed.
+The purpose of this property is to ensure a consistent set of MDX behaviors for applications that issue MDX queries. Excel, which uses MDX queries to populate and calculate a PivotTable connected to Analysis Services, sets this property to 1, to ensure that placeholder members in ragged hierarchies are visible in a PivotTable. Valid values include 0, 1, 2.
+
+0 and 1 expose placeholder members; 2 does not. If this is empty, 0 is assumed.
 
 ## MDX Missing Member Mode=Error
 
-Indicates whether missing members are ignored in MDX statements. Valid values are Default, Error, and Ignore. Default uses a server-defined value. Error generates an error when a member does not exist. Ignore specifies that missing values should be ignored.
+Indicates whether missing members are ignored in MDX statements. Valid values are **Default**, **Error**, and **Ignore**. Default uses a server-defined value. Error generates an error when a member does not exist. Ignore specifies that missing values should be ignored.
 
 ## Optimize Response
 
@@ -300,7 +307,7 @@ Applies to TCP connections only. A network packet size (in bytes) between 512 an
 
 ## Protocol Format
 
-Sets the format of the XML sent to the server. Valid values are Default, XML, or Binary. The protocol is XMLA. You can specify that the XML be sent in compressed form (this is the default), as raw XML, or in a binary format. Binary format encodes XML elements and attributes, making them smaller. Compression is a proprietary format that further reduces the size of requests and responses. Compression and binary formats are used to speed up data transfer requests and responses.
+Sets the format of the XML sent to the server. Valid values are **Default**, **XML**, or **Binary**. The protocol is XMLA. You can specify that the XML be sent in compressed form (this is the default), as raw XML, or in a binary format. Binary format encodes XML elements and attributes, making them smaller. Compression is a proprietary format that further reduces the size of requests and responses. Compression and binary formats are used to speed up data transfer requests and responses.
 
 OLE DB provider can format requests and responses in binary or compressed format. AMO and ADOMD.NET format the requests as Text, but accept responses in binary or compressed format.
 
@@ -315,13 +322,13 @@ Set this property to bypass caching, causing all storage queries to fetch data f
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 ## Safety Options
 
-Sets the safety level for user-defined functions and actions. Valid values are 0, 1, 2. In an Excel connection, this property is Safety Options=2. Details about this option can be found in <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString%2A>.
+Sets the safety level for user-defined functions and actions. Valid values are **0**, **1**, **2**. In an Excel connection, this property is Safety Options=2. Details about this option can be found in <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString%2A>.
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 ## SQLQueryMode
 
-Specifies whether SQL queries include calculations. Valid values are Data, Calculated, IncludeEmpty. Data means that no calculations are allowed. Calculated allows calculations. IncludeEmpty allows calculations and empty rows to be returned in the query result.
+Specifies whether SQL queries include calculations. Valid values are **Data**, Calculated, **IncludeEmpty**. Data means that no calculations are allowed. Calculated allows calculations. IncludeEmpty allows calculations and empty rows to be returned in the query result.
 ::: moniker-end
 
 ## Timeout
@@ -331,13 +338,13 @@ Specifies how long (in seconds) the client library waits for a command to comple
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 ## Transport Compression
 
-Defines how client and server communications are compressed. Valid values are Default, None, Compressed. Default is no compression for TCP. None indicates that no compression is used. Compressed uses XPRESS compression.
+Defines how client and server communications are compressed. Valid values are **Default**, **None**, **Compressed**. Default is no compression for TCP. None indicates that no compression is used. Compressed uses XPRESS compression.
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 ## UseExistingFile
 
-Used when connecting to a local cube. This property specifies whether the local cube is overwritten. Valid values are True or False. If set to True, the cube file must exist. The existing file will be the target of the connection. If set to False, the cube file is overwritten.
+Used when connecting to a local cube. This property specifies whether the local cube is overwritten. Valid values are **True** or **False**. If set to True, the cube file must exist. The existing file will be the target of the connection. If set to False, the cube file is overwritten.
 ::: moniker-end
 
 ## See also
