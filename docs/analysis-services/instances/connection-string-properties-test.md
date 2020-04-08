@@ -14,11 +14,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-This article describes connection string properties used by client applications that connect to and query Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), and Power BI Premium dataset data.
+This article describes connection string properties used by client applications that connect to and query Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), and Power BI Premium dataset data. These properties are used by the Analysis Services client libraries, ADOMD.NET, AMO, and OLE DB (MSOLAP) provider for Analysis Services. The majority of connection string properties can be used with all three client libraries. Exceptions are called out in the description.
 
 Use the **Version** selector above the table of contents to the left to see only those properties that apply to a particular platform or version.
-
-Properties described here are used by the Analysis Services client libraries, ADOMD.NET, AMO, and OLE DB (MSOLAP) provider for Analysis Services. The majority of connection string properties can be used with all three client libraries. Exceptions are called out in the description.
 
 ## Connection properties
 
@@ -78,7 +76,7 @@ Valid values for SQL Server Analysis Services include the network name or IP add
 
 ### Initial Catalog or Catalog
 
-Specifies the name of the Analysis Services database or Power BI Premium dataset to connect to. The database must be deployed on Analysis Services or a Power BI Premium workspace, and you must have permission to connect to it. By default for SSAS, the first allowed database is automatically selected. For Azure AS and Power BI Premium, a database is not automatically selected, but a catalog can be specified using the Catalog property after opening the connection. This property is optional for AMO connections but required for ADOMD.NET.
+Specifies the name of the Analysis Services database or Power BI Premium dataset to connect to. The database must be deployed on Analysis Services or a Power BI Premium workspace and you must have permission to connect to it. For SSAS, the first allowed database is automatically selected. For Azure AS and Power BI Premium, a database is not automatically selected, but a catalog can be specified using the Catalog property after opening the connection. This property is optional for AMO connections but required for ADOMD.NET.
 
 #### Example
 
@@ -86,7 +84,7 @@ Specifies the name of the Analysis Services database or Power BI Premium dataset
 
 ### Provider
 
-This property is required on the connection string when using an OLE DB provider like MSOLAP. It allows you to use either a version independent provider (usually the latest) like `"Provider=MSOLAP"`, or you can also specify a version dependent provider like `"Provider=MSOLAP.7"`. Valid version dependent values follow the pattern `MSOLAP.<version>`, where `<version>` is either `7` or `8`. For example, MSOLAP.7 released in SQL Server 2016. Version ".8" is the latest and considered "evergreen". It's expected to keep updating with backward compatibility maintained. Earlier version numbers are also possible, but those releases of MSOLAP are now out of standard support.
+This property is required on the connection string when using an OLE DB provider like MSOLAP. It allows you to use either a version independent provider (usually the latest) like "Provider=MSOLAP", or you can also specify a version dependent provider like "Provider=MSOLAP.7". Valid version dependent values follow the pattern MSOLAP.\<version>, where \<version> is either 7 or 8. For example, MSOLAP.7 released in SQL Server 2016. Version ".8" is the latest and considered "evergreen". It's expected to keep updating with backward compatibility maintained. Earlier version numbers are also possible, but those releases of MSOLAP are now out of standard support.
 
 This property is optional for ADOMD.NET and AMO. It's allowed for convenience when copying an MSOLAP connection string to use with ADOMD.NET and AMO.
 
@@ -106,9 +104,13 @@ Cube name or perspective name. A database can contain multiple cubes and perspec
 
 ## Authentication and security properties
 
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 Azure Analysis Services and Power BI Premium use Azure Active Directory - Universal with MFA (recommended), Azure Active Directory authentication with username and password, or Windows authentication.
+::: moniker-end
 
-SQL Server Analysis Services uses Windows authentication only, but you can set properties on the connection string to pass in a specific user name and password.  
+monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
+SQL Server Analysis Services uses Windows authentication only, but you can set properties on the connection string to pass in a specific user name and password.
+::: moniker-end
   
 Properties are listed in alphabetical order.
 
@@ -116,6 +118,12 @@ Properties are listed in alphabetical order.
 ### EffectiveUserName
 
 Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. For more information about using this property in an Excel workbook from SharePoint, see [Use Analysis Services EffectiveUserName in SharePoint Server 2013](https://go.microsoft.com/fwlink/?LinkId=311905).
+
+#### Example
+
+`EffectiveUserName=priyan\contoso,com`
+
+`EffectiveUserName=priyan@contoso.com`
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
@@ -143,15 +151,19 @@ Indicates the level of impersonation that the server is allowed to use when impe
 
 ### Integrated Security
 
-The Windows identity of the caller is used to connect to Analysis Services. Valid values are blank, SSPI, BASIC, and ClaimsToken*.
+The Windows identity of the caller is used to connect to Analysis Services. Valid values are  SSPI, blank, BASIC, and ClaimsToken*.
 
-`Integrated Security=SSPI` is the default value for TCP connections, allowing NTLM, Kerberos, or Anonymous authentication. Blank is the default value for HTTP connections.
+SSPI is the default value for TCP connections, allowing NTLM, Kerberos, or Anonymous authentication. For Azure AS and Power BI Premium **SSPI** indicates AD Translation. When using SSPI, **ProtectionLevel** property must be set to Connect, PktIntegrity, or PktPrivacy.
 
-For Azure AS and Power BI Premium **SSPI** indicates AD Translation.
+blank is the default value for HTTP connections.
 
-*`Integrated Security=ClaimsToken` is supported for Azure AS and Power BI Premium.
+*ClaimsToken is supported for Azure AS and Power BI Premium.
 
-When using SSPI, **ProtectionLevel** must be set to one of the following: Connect, PktIntegrity, PktPrivacy.
+#### Examples
+
+`Integrated Security=SSPI`
+
+`Integrated Security=ClaimsToken`
 
 ### Persist Security Info
 
@@ -203,9 +215,7 @@ User ID and Password properties provide the appropriate credentials to the serve
 
 ## Special purpose properties
 
- These properties are used to ensure specific connection behaviors required by an application.
-
- Properties are listed in alphabetical order.  
+ These properties are used to ensure specific connection behaviors required by an application. Properties are listed in alphabetical order.  
 
 ### Application Name
 
@@ -334,4 +344,4 @@ Used when connecting to a local cube. This property specifies whether the local 
 
 [AMO Fundamental Classes - Server objects](https://docs.microsoft.com/analysis-services/amo/amo-fundamental-classes?view=asallproducts-allversions#server-objects)  
 [AdomdConnection Class - Properties](https://docs.microsoft.com/dotnet/api/microsoft.analysisservices.adomdclient.adomdconnection?view=analysisservices-dotnet#properties)  
-[Power BI Premium dataset connectivity with the XMLA endpoint](https://docs.microsoft.com/power-bi/service-premium-connect-tools)
+
