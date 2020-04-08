@@ -238,7 +238,8 @@ Adjusts case-sensitive string comparisons for a specified locale.
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 ## Compression Level
 
-If **TransportCompression** is compressed, you can set the compression level to control how much compression is used. Valid values are 0 through 9, with 0 having least compression, and 9 having the most compression. Increased compression slows performance. The default value is 0. ::: moniker-end
+If **TransportCompression** is compressed, you can set the compression level to control how much compression is used. Valid values are 0 through 9, with 0 having least compression, and 9 having the most compression. Increased compression slows performance. The default value is 0.
+::: moniker-end
 
 ## Connect Timeout
 
@@ -318,10 +319,10 @@ Specifies whether SQL queries include calculations. Valid values are Data, Calcu
 Specifies how long (in seconds) the client library waits for a command to complete before generating an error.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ## Transport Compression
 
-Defines how client and server communications are compressed. Valid values are Default, None, Compressed. Default is no compression for TCP. None indicates that no compression is used. Compressed uses XPRESS compression.::: moniker-end
+Defines how client and server communications are compressed. Valid values are Default, None, Compressed. Default is no compression for TCP. None indicates that no compression is used. Compressed uses XPRESS compression.
+::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 ## UseExistingFile
