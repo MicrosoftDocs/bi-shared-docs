@@ -104,13 +104,13 @@ Cube name or perspective name. A database can contain multiple cubes and perspec
 
 ## Authentication and security properties
 
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
+::: monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
 Azure Analysis Services and Power BI Premium use Azure Active Directory - Universal with MFA (recommended), Azure Active Directory authentication with username and password, or Windows authentication.
 
 ::: moniker-end
 
-monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
+::: monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 SQL Server Analysis Services uses Windows authentication only, but you can set properties on the connection string to pass in a specific user name and password.
 
