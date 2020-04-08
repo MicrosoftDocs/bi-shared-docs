@@ -113,25 +113,24 @@ SQL Server Analysis Services uses Windows authentication only, but you can set p
 Properties are listed in alphabetical order.
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
-
 ### EffectiveUserName
 
-Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. For more information about using this property in an Excel workbook from SharePoint, see [Use Analysis Services EffectiveUserName in SharePoint Server 2013](https://go.microsoft.com/fwlink/?LinkId=311905). ::: moniker-end
+Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. For more information about using this property in an Excel workbook from SharePoint, see [Use Analysis Services EffectiveUserName in SharePoint Server 2013](https://go.microsoft.com/fwlink/?LinkId=311905).
+::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ### Encrypt Password
 
-Specifies whether a local password is to be used to encrypt local cubes. Valid values are True or False. The default is False. ::: moniker-end
+Specifies whether a local password is to be used to encrypt local cubes. Valid values are True or False. The default is False.
+::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ### Encryption Password
 
-The password used to decrypt an encrypted local cube. Default value is empty. This value must be explicitly set by the user. ::: moniker-end
+The password used to decrypt an encrypted local cube. Default value is empty. This value must be explicitly set by the user.
+::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ### Impersonation Level
 
 Indicates the level of impersonation that the server is allowed to use when impersonating the client. Valid values include:
@@ -139,7 +138,8 @@ Indicates the level of impersonation that the server is allowed to use when impe
 - **Anonymous**. The client is anonymous to the server. The server process cannot obtain information about the client, nor can the client be impersonated. 
 - **Identify**. The server process can get the client identity. The server can impersonate the client identity for authorization purposes but cannot access system objects as the client.
 - **Impersonate**. This is the default value. The client identity can be impersonated, but only when the connection is established, and not on every call. 
-- **Delegate**. The server process can impersonate the client security context while acting on behalf of the client. The server process can also make outgoing calls to other servers while acting on behalf of the client. ::: moniker-end
+- **Delegate**. The server process can impersonate the client security context while acting on behalf of the client. The server process can also make outgoing calls to other servers while acting on behalf of the client.
+::: moniker-end
 
 ### Integrated Security
 
@@ -169,12 +169,12 @@ Determines the security level used on the connection. Valid values are:
 For more information, see [Establishing Secure Connections in ADOMD.NET](https://docs.microsoft.com/analysis-services/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections)
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ### Roles
 
 Specify a comma-delimited list of predefined roles to connect to a server or database using permissions conveyed by that role. If this property is omitted, all roles are used, and the effective permissions are the combination of all roles. Setting the property to an empty value, for example, `Roles=' '` means the client connection has no role membership.
 
-An administrator using this property connects using the permissions conveyed by the role. Some commands might fail if the role does not provide sufficient permission. ::: moniker-end
+An administrator using this property connects using the permissions conveyed by the role. Some commands might fail if the role does not provide sufficient permission.
+::: moniker-end
 
 ### SSPI
 
@@ -201,17 +201,6 @@ User ID and Password properties provide the appropriate credentials to the serve
 
 **Note:** "User ID" has an embedded space. An alternate alias for User ID is UID and an alternate alias for Password is PWD.  
 
-
-
-
-
-
-
-
-
-
-
-
 ## Special purpose properties
 
  These properties are used to ensure specific connection behaviors required by an application.
@@ -223,31 +212,30 @@ User ID and Password properties provide the appropriate credentials to the serve
 Sets the name of the application associated with the connection. This value can be useful when monitoring tracing events, especially when you have several applications accessing the same databases. For example, adding Application Name='test' to a connection string causes 'test' to appear in a SQL Server Profiler trace. Aliases for this property include **SspropInitAppName**, **AppName**. To learn more, see [Application Name for SQL Server Connections](https://www.connectionstrings.com/use-application-name-sql-server/).
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ### Auto Sync Period
 
 Sets the frequency (in milliseconds) of client and server cache synchronization. ADOMD.NET provides client caching for frequently used objects that have minimal memory overhead. This helps reduce the number of round trips to the server. The default is 10000 milliseconds (or 10 seconds). When set to null or 0, automatic synchronization is turned off.
 
-For performance reasons, the client libraries cache some information from the server, for example, certain schema rowsets. Auto Synch Period allows a user to change the time period after which the client library checks with the server whether or not the caches need to be emptied. In general, you should not need to change the value from default. ::: moniker-end
+For performance reasons, the client libraries cache some information from the server, for example, certain schema rowsets. Auto Synch Period allows a user to change the time period after which the client library checks with the server whether or not the caches need to be emptied. In general, you should not need to change the value from default.
+::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ## Character Encoding
 
-Defines how characters are encoded on the request. Valid values are Default or UTF-8 (these are equivalent), and UTF-16. ::: moniker-end
+Defines how characters are encoded on the request. Valid values are Default or UTF-8 (these are equivalent), and UTF-16.
+::: moniker-end
 
 ## CommitTimeout
 
 An XMLA property. Determines how long, in milliseconds, the commit phase of a currently running command waits before rolling back. When greater than 0, overrides the value of the corresponding CommitTimeout property in the server configuration.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ## CompareCaseSensitiveStringFlags
 
-Adjusts case-sensitive string comparisons for a specified locale. ::: moniker-end
+Adjusts case-sensitive string comparisons for a specified locale.
+::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ## Compression Level
 
 If **TransportCompression** is compressed, you can set the compression level to control how much compression is used. Valid values are 0 through 9, with 0 having least compression, and 9 having the most compression. Increased compression slows performance. The default value is 0. ::: moniker-end
@@ -261,7 +249,6 @@ Determines the maximum amount of time (in seconds) the client attempts a connect
 Overrides the [Memory\QueryMemoryLimit](../server-properties/memory-properties.md) server property value for a connection. Specified in kilobytes.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ## Default MDX Visual Mode
 
 Set this property to control how members are aggregated when dimension security is applied.
@@ -270,7 +257,7 @@ For cube data that everyone is allowed to see, aggregating all of the members ma
 
 To specify how members are aggregated when dimension security is applied, you can set this property to True to use only allowed values in the aggregation, or False to exclude restricted values from the total.
 
-When set on the connection string, this value applies to the cube or perspective level. Within a model, you can control visual totals at a more granular level. 
+When set on the connection string, this value applies to the cube or perspective level. Within a model, you can control visual totals at a more granular level.
 
 Valid values are,
 
@@ -278,7 +265,8 @@ Valid values are,
 - **1** excludes hidden values from the total. This is the default for Excel.
 - **2** includes hidden values in the total. This is the default value on the server.
 
-The alias for this property is **VisualMode**. ::: moniker-end
+The alias for this property is **VisualMode**.
+::: moniker-end
 
 ## MDX Compatibility
 
@@ -308,22 +296,22 @@ OLE DB provider can format requests and responses in binary or compressed format
 This connection string property is equivalent to the **EnableBinaryXML** and **EnableCompression** server configuration settings.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ## Real Time Olap
 
-Set this property to bypass caching, causing all storage queries to fetch data from the source system. By default, this property is not set. ::: moniker-end
+Set this property to bypass caching, causing all storage queries to fetch data from the source system. By default, this property is not set.
+::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ## Safety Options
 
-Sets the safety level for user-defined functions and actions. Valid values are 0, 1, 2. In an Excel connection, this property is Safety Options=2. Details about this option can be found in <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString%2A>. ::: moniker-end
+Sets the safety level for user-defined functions and actions. Valid values are 0, 1, 2. In an Excel connection, this property is Safety Options=2. Details about this option can be found in <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString%2A>.
+::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ## SQLQueryMode
 
-Specifies whether SQL queries include calculations. Valid values are Data, Calculated, IncludeEmpty. Data means that no calculations are allowed. Calculated allows calculations. IncludeEmpty allows calculations and empty rows to be returned in the query result. ::: moniker-end
+Specifies whether SQL queries include calculations. Valid values are Data, Calculated, IncludeEmpty. Data means that no calculations are allowed. Calculated allows calculations. IncludeEmpty allows calculations and empty rows to be returned in the query result.
+::: moniker-end
 
 ## Timeout
 
@@ -336,10 +324,10 @@ Specifies how long (in seconds) the client library waits for a command to comple
 Defines how client and server communications are compressed. Valid values are Default, None, Compressed. Default is no compression for TCP. None indicates that no compression is used. Compressed uses XPRESS compression.::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
 ## UseExistingFile
 
-Used when connecting to a local cube. This property specifies whether the local cube is overwritten. Valid values are True or False. If set to True, the cube file must exist. The existing file will be the target of the connection. If set to False, the cube file is overwritten. ::: moniker-end
+Used when connecting to a local cube. This property specifies whether the local cube is overwritten. Valid values are True or False. If set to True, the cube file must exist. The existing file will be the target of the connection. If set to False, the cube file is overwritten.
+::: moniker-end
 
 ## See also
 
