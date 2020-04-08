@@ -235,37 +235,37 @@ For performance reasons, the client libraries cache some information from the se
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-## Character Encoding
+### Character Encoding
 
 Defines how characters are encoded on the request. Valid values are **Default** or **UTF-8** (these are equivalent), and **UTF-16**.
 ::: moniker-end
 
-## CommitTimeout
+### CommitTimeout
 
 An XMLA property. Determines how long, in milliseconds, the commit phase of a currently running command waits before rolling back. When greater than 0, overrides the value of the corresponding CommitTimeout property in the server configuration.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-## CompareCaseSensitiveStringFlags
+### CompareCaseSensitiveStringFlags
 
 Adjusts case-sensitive string comparisons for a specified locale.
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-## Compression Level
+### Compression Level
 
 If **TransportCompression** is compressed, you can set the compression level to control how much compression is used. Valid values are **0** through **9**, with 0 having least compression, and 9 having the most compression. Increased compression slows performance. The default value is 0.
 ::: moniker-end
 
-## Connect Timeout
+### Connect Timeout
 
 Determines the maximum amount of time (in seconds) the client attempts a connection before timing out. If a connection does not succeed within this period, the client quits trying to connect and generates an error.
 
-## DbpropMsmdRequestMemoryLimit
+### DbpropMsmdRequestMemoryLimit
 
 Overrides the [Memory\QueryMemoryLimit](../server-properties/memory-properties.md) server property value for a connection. Specified in kilobytes.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-## Default MDX Visual Mode
+### Default MDX Visual Mode
 
 Set this property to control how members are aggregated when dimension security is applied.
 
@@ -284,28 +284,28 @@ Valid values are,
 The alias for this property is **VisualMode**.
 ::: moniker-end
 
-## MDX Compatibility
+### MDX Compatibility
 
 The purpose of this property is to ensure a consistent set of MDX behaviors for applications that issue MDX queries. Excel, which uses MDX queries to populate and calculate a PivotTable connected to Analysis Services, sets this property to 1, to ensure that placeholder members in ragged hierarchies are visible in a PivotTable. Valid values include 0, 1, 2.
 
 0 and 1 expose placeholder members; 2 does not. If this is empty, 0 is assumed.
 
-## MDX Missing Member Mode=Error
+### MDX Missing Member Mode=Error
 
 Indicates whether missing members are ignored in MDX statements. Valid values are **Default**, **Error**, and **Ignore**. Default uses a server-defined value. Error generates an error when a member does not exist. Ignore specifies that missing values should be ignored.
 
-## Optimize Response
+### Optimize Response
 
 A bitmask indicating which of the following query response optimizations are enabled.
 
 - 0x01 Use the NormalTupleSet (default).
 - 0x02 Use when slicers are empty.
 
-## Packet Size
+### Packet Size
 
 Applies to TCP connections only. A network packet size (in bytes) between 512 and 32,767. The default network packet size is 4096.
 
-## Protocol Format
+### Protocol Format
 
 Sets the format of the XML sent to the server. Valid values are **Default**, **XML**, or **Binary**. The protocol is XMLA. You can specify that the XML be sent in compressed form (this is the default), as raw XML, or in a binary format. Binary format encodes XML elements and attributes, making them smaller. Compression is a proprietary format that further reduces the size of requests and responses. Compression and binary formats are used to speed up data transfer requests and responses.
 
@@ -314,35 +314,35 @@ OLE DB provider can format requests and responses in binary or compressed format
 This connection string property is equivalent to the **EnableBinaryXML** and **EnableCompression** server configuration settings.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-## Real Time Olap
+### Real Time Olap
 
 Set this property to bypass caching, causing all storage queries to fetch data from the source system. By default, this property is not set.
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-## Safety Options
+### Safety Options
 
 Sets the safety level for user-defined functions and actions. Valid values are **0**, **1**, **2**. In an Excel connection, this property is Safety Options=2. Details about this option can be found in <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString%2A>.
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-## SQLQueryMode
+### SQLQueryMode
 
 Specifies whether SQL queries include calculations. Valid values are **Data**, Calculated, **IncludeEmpty**. Data means that no calculations are allowed. Calculated allows calculations. IncludeEmpty allows calculations and empty rows to be returned in the query result.
 ::: moniker-end
 
-## Timeout
+### Timeout
 
 Specifies how long (in seconds) the client library waits for a command to complete before generating an error.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-## Transport Compression
+### Transport Compression
 
 Defines how client and server communications are compressed. Valid values are **Default**, **None**, **Compressed**. Default is no compression for TCP. None indicates that no compression is used. Compressed uses XPRESS compression.
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-## UseExistingFile
+### UseExistingFile
 
 Used when connecting to a local cube. This property specifies whether the local cube is overwritten. Valid values are **True** or **False**. If set to True, the cube file must exist. The existing file will be the target of the connection. If set to False, the cube file is overwritten.
 ::: moniker-end
