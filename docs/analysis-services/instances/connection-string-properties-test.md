@@ -109,10 +109,6 @@ Properties are listed in alphabetical order.
 
 Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services.
 
-Example
-
-- `EffectiveUserName=priyan\contoso,com`
-- `EffectiveUserName=priyan@contoso.com`
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"

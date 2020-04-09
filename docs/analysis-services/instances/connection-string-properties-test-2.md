@@ -105,27 +105,9 @@ SQL Server Analysis Services uses Windows authentication only, but you can set p
 Properties are listed in alphabetical order.
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
-
 ### EffectiveUserName
 
-Use when an end user identity must be impersonated on the server. To use this property, the caller must have administrative permissions in Analysis Services.
-
-::: moniker range="asallproducts-allversions || azure-analysis-services-current"
-For Azure AS, specify in UPN format.
-
-|Example  |Description  |
-|---------|---------|
-|`EffectiveUserName=priyan@contoso.com`|UPN format|
-
-::: moniker-end
-
-::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
-For SSAS, specify in a domain\user format.
-
-|Example  |Description  |
-|---------|---------|
-|`EffectiveUserName=priyan\contoso,com`|Domain\user format.|
+Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services.
 
 ::: moniker-end
 
