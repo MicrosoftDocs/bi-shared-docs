@@ -30,23 +30,7 @@ Specifies the server instance. This property is required for all connections.
 
 Valid values for Azure Analysis Services include `<protocol>://<region>/<servername>` where protocol is string `asazure` or `link` when using a [server name alias](https://docs.microsoft.com/azure/analysis-services/analysis-services-server-alias), region is the Uri where the server was created (for example, westus.asazure.windows.net), and servername is the name of your unique server within the region.
 
-::: moniker-end
-
-::: moniker range="asallproducts-allversions || power-bi-premium-current"
-
-Valid values for Power BI Premium include `<protocol>://api.powerbi.com/v1.0/[tenant name]/[workspace name]` where protocol is string `powerbi`, Uri is `api.powerbi.com`, tenant name is the organization tenant name or `myorg`, and workspace name is the name of a workspace assigned to a dedicated capacity.
-
-::: moniker-end
-
-::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
-Valid values for SQL Server Analysis Services include the network name or IP address of the server, local or localhost for local connections, a URL if the server is configured for HTTP or HTTPS access, or the name of a local cube (.cub) file.
-
-::: moniker-end
-
-**Examples**
-
-::: moniker range="asallproducts-allversions || azure-analysis-services-current"
+Example
 
 - `Data source=asazure://westus.asazure.windows.net/myasserver` for Azure Analysis Services.
 - `Data source=link://friendlyname.salesapp.azurewebsites.net/` for Azure Analysis Services using server name alias.
@@ -55,11 +39,19 @@ Valid values for SQL Server Analysis Services include the network name or IP add
 
 ::: moniker range="asallproducts-allversions || power-bi-premium-current"
 
+Valid values for Power BI Premium include `<protocol>://api.powerbi.com/v1.0/[tenant name]/[workspace name]` where protocol is string `powerbi`, Uri is `api.powerbi.com`, tenant name is the organization tenant name or `myorg`, and workspace name is the name of a workspace assigned to a dedicated capacity.
+
+Example
+
 - `Data source=powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace` for Power BI Premium workspace.
 
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
+Valid values for SQL Server Analysis Services include the network name or IP address of the server, local or localhost for local connections, a URL if the server is configured for HTTP or HTTPS access, or the name of a local cube (.cub) file.
+
+Example
 
 - `Data source=AW-SRV01` for an SSAS default instance and port (TCP 2383).
 - `Data source=AW-SRV01\Finance` for an SSAS named instance.
@@ -91,7 +83,7 @@ Example
 
 Cube name or perspective name. A database can contain multiple cubes and perspectives. When multiple targets are possible, include the cube or perspective name on the connection string.
 
-#### Examples
+Example
 
 - `Cube=Sales` to specify a cube named Sales.
 - `Cube=SalesPerspective` to specify a perspective named SalesPerspective.
@@ -117,7 +109,7 @@ Properties are listed in alphabetical order.
 
 Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services.
 
-#### Examples
+Example
 
 - `EffectiveUserName=priyan\contoso,com`
 - `EffectiveUserName=priyan@contoso.com`

@@ -30,22 +30,6 @@ Specifies the server instance. This property is required for all connections.
 
 Valid values for Azure Analysis Services include `<protocol>://<region>/<servername>` where protocol is string `asazure` or `link` when using a [server name alias](https://docs.microsoft.com/azure/analysis-services/analysis-services-server-alias), region is the Uri where the server was created (for example, westus.asazure.windows.net), and servername is the name of your unique server within the region.
 
-::: moniker-end
-
-::: moniker range="asallproducts-allversions || power-bi-premium-current"
-
-Valid values for Power BI Premium include `<protocol>://api.powerbi.com/v1.0/[tenant name]/[workspace name]` where protocol is string `powerbi`, Uri is `api.powerbi.com`, tenant name is the organization tenant name or `myorg`, and workspace name is the name of a workspace assigned to a dedicated capacity.
-
-::: moniker-end
-
-::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
-
-Valid values for SQL Server Analysis Services include the network name or IP address of the server, local or localhost for local connections, a URL if the server is configured for HTTP or HTTPS access, or the name of a local cube (.cub) file.
-
-::: moniker-end
-
-::: moniker range="asallproducts-allversions || azure-analysis-services-current"
-
 |Example  |Description  |
 |---------|---------|
 |`Data source=asazure://westus.asazure.windows.net/myasserver`|Azure Analysis Services.|
@@ -55,6 +39,8 @@ Valid values for SQL Server Analysis Services include the network name or IP add
 
 ::: moniker range="asallproducts-allversions || power-bi-premium-current"
 
+Valid values for Power BI Premium include `<protocol>://api.powerbi.com/v1.0/[tenant name]/[workspace name]` where protocol is string `powerbi`, Uri is `api.powerbi.com`, tenant name is the organization tenant name or `myorg`, and workspace name is the name of a workspace assigned to a dedicated capacity.
+
 |Example  |Description  |
 |---------|---------|
 |`Data source=powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`|Power BI Premium workspace.|
@@ -62,6 +48,8 @@ Valid values for SQL Server Analysis Services include the network name or IP add
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
+Valid values for SQL Server Analysis Services include the network name or IP address of the server, local or localhost for local connections, a URL if the server is configured for HTTP or HTTPS access, or the name of a local cube (.cub) file.
 
 |Example  |Description  |
 |---------|---------|
@@ -79,7 +67,7 @@ Specifies the name of the Analysis Services database or Power BI Premium dataset
 
 |Example  |Description  |
 |---------|---------|
-|`Initial catalog=AdventureWorks`|Database or dataset|
+|`Initial catalog=AdventureWorks`| Database or dataset |
 
 ### Provider
 
@@ -89,7 +77,7 @@ This property is optional for ADOMD.NET and AMO. It's allowed for convenience 
 
 |Example  |Description  |
 |---------|---------|
-|`Provider=MSOLAP.7`|Connections requiring SQL Server 2016 version of the OLE DB provider for Analysis Services|
+|`Provider=MSOLAP.7`|Connections requiring SQL Server 2016 version of the OLE DB provider for Analysis Services.|
 
 ### Cube
 
@@ -120,12 +108,24 @@ Properties are listed in alphabetical order.
 
 ### EffectiveUserName
 
-Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services.
+Use when an end user identity must be impersonated on the server. To use this property, the caller must have administrative permissions in Analysis Services.
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current"
+For Azure AS, specify in UPN format.
+
+|Example  |Description  |
+|---------|---------|
+|`EffectiveUserName=priyan@contoso.com`|UPN format|
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
+For SSAS, specify in a domain\user format.
 
 |Example  |Description  |
 |---------|---------|
 |`EffectiveUserName=priyan\contoso,com`|Domain\user format.|
-|`EffectiveUserName=priyan@contoso.com`|UPN format|
 
 ::: moniker-end
 
