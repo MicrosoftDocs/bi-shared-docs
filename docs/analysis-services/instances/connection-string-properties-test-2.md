@@ -44,28 +44,32 @@ Valid values for SQL Server Analysis Services include the network name or IP add
 
 ::: moniker-end
 
-**Examples**
-
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current"
 
-- `Data source=asazure://westus.asazure.windows.net/myasserver` for Azure Analysis Services.
-- `Data source=link://friendlyname.salesapp.azurewebsites.net/` for Azure Analysis Services using server name alias.
+|Example  |Description  |
+|---------|---------|
+|`Data source=asazure://westus.asazure.windows.net/myasserver`|Azure Analysis Services.|
+|`Data source=link://friendlyname.salesapp.azurewebsites.net/`|Azure Analysis Services using server name alias.|
 
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || power-bi-premium-current"
 
-- `Data source=powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace` for Power BI Premium workspace.
+|Example  |Description  |
+|---------|---------|
+|`Data source=powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`|Power BI Premium workspace.|
 
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-- `Data source=AW-SRV01` for an SSAS default instance and port (TCP 2383).
-- `Data source=AW-SRV01\Finance` for an SSAS named instance.
-- `Data source=AW-SRV01:8081` for an SSAS default instance and specified port.
-- `Data source=AW-SRV01.corp.Adventure-Works.com` for an SSAS fully qualified domain name, assuming the default instance and port.
-- `Data source=172.16.254.1` for an SSAS IP address of the server, bypassing DNS server lookup, useful for troubleshooting connection problems.
+|Example  |Description  |
+|---------|---------|
+|`Data source=AW-SRV01`     |  SSAS default instance and port (TCP 2383).       |
+|`Data source=AW-SRV01\Finance`     |  SSAS named instance.       |
+|`Data source=AW-SRV01:8081`     |   SSAS default instance, specified port.      |
+|`Data source=AW-SRV01.corp.Adventure-Works.com`    |    SSAS fully qualified domain name, default instance and port.     |
+|`Data source=172.16.254.1`     |   SSAS IP address of the server, bypassing DNS server lookup. Useful for troubleshooting connection problems.      |
 
 ::: moniker-end
 
@@ -73,9 +77,9 @@ Valid values for SQL Server Analysis Services include the network name or IP add
 
 Specifies the name of the Analysis Services database or Power BI Premium dataset to connect to. The database must be deployed on Analysis Services or a Power BI Premium workspace and you must have permission to connect to it. For SSAS, the first allowed database is automatically selected. For Azure AS and Power BI Premium, a database is not automatically selected, but a catalog can be specified using the Catalog property after opening the connection. This property is optional for AMO connections but required for ADOMD.NET.
 
-Example
-
-- `Initial catalog=AdventureWorks`
+|Example  |Description  |
+|---------|---------|
+|`Initial catalog=AdventureWorks`|Database or dataset|
 
 ### Provider
 
@@ -83,18 +87,18 @@ This property is required on the connection string when using an OLE DB provider
 
 This property is optional for ADOMD.NET and AMO. It's allowed for convenience when copying an MSOLAP connection string to use with ADOMD.NET and AMO.
 
-Example
-
-- `Provider=MSOLAP.7` used for connections that require the SQL Server 2016 version of the OLE DB provider for Analysis Services.
+|Example  |Description  |
+|---------|---------|
+|`Provider=MSOLAP.7`|Connections requiring SQL Server 2016 version of the OLE DB provider for Analysis Services|
 
 ### Cube
 
 Cube name or perspective name. A database can contain multiple cubes and perspectives. When multiple targets are possible, include the cube or perspective name on the connection string.
 
-#### Example
-
-- `Cube=Sales` to specify a cube named Sales.
-- `Cube=SalesPerspective` to specify a perspective named SalesPerspective.
+|Example  |Description  |
+|---------|---------|
+|`Cube=Sales`|A cube named Sales.|
+|`Cube=SalesPerspective`|A perspective named SalesPerspective.|
 
 ## Authentication and security properties
 
@@ -113,14 +117,16 @@ SQL Server Analysis Services uses Windows authentication only, but you can set p
 Properties are listed in alphabetical order.
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+
 ### EffectiveUserName
 
 Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services.
 
-#### Examples
+|Example  |Description  |
+|---------|---------|
+|`EffectiveUserName=priyan\contoso,com`|Domain\user format.|
+|`EffectiveUserName=priyan@contoso.com`|UPN format|
 
-- `EffectiveUserName=priyan\contoso,com`
-- `EffectiveUserName=priyan@contoso.com`
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
@@ -130,12 +136,15 @@ Specifies whether a local password is to be used to encrypt local cubes. Valid v
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### Encryption Password
 
 The password used to decrypt an encrypted local cube. Default value is empty. This value must be explicitly set by the user.
+
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### Impersonation Level
 
 Indicates the level of impersonation that the server is allowed to use when impersonating the client. Valid values include:
@@ -144,6 +153,7 @@ Indicates the level of impersonation that the server is allowed to use when impe
 - **Identify**. The server process can get the client identity. The server can impersonate the client identity for authorization purposes but cannot access system objects as the client.
 - **Impersonate**. This is the default value. The client identity can be impersonated, but only when the connection is established, and not on every call. 
 - **Delegate**. The server process can impersonate the client security context while acting on behalf of the client. The server process can also make outgoing calls to other servers while acting on behalf of the client.
+
 ::: moniker-end
 
 ### Integrated Security
@@ -155,12 +165,6 @@ SSPI is the default value for TCP connections, allowing NTLM, Kerberos, or Anony
 blank is the default value for HTTP connections.
 
 *ClaimsToken is supported for Azure AS and Power BI Premium.
-
-#### Examples
-
-`Integrated Security=SSPI`
-
-`Integrated Security=ClaimsToken`
 
 ### Persist Security Info
 
@@ -178,11 +182,13 @@ Determines the security level used on the connection. Valid values are:
 To learn more, see [Establishing Secure Connections in ADOMD.NET](https://docs.microsoft.com/analysis-services/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections)
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### Roles
 
 Specify a comma-delimited list of predefined roles to connect to a server or database using permissions conveyed by that role. If this property is omitted, all roles are used, and the effective permissions are the combination of all roles. Setting the property to an empty value, for example, `Roles=' '` means the client connection has no role membership.
 
 An administrator using this property connects using the permissions conveyed by the role. Some commands might fail if the role does not provide sufficient permission.
+
 ::: moniker-end
 
 ### SSPI
@@ -219,17 +225,21 @@ User ID and Password properties provide the appropriate credentials to the serve
 Sets the name of the application associated with the connection. This value can be useful when monitoring tracing events, especially when you have several applications accessing the same databases. For example, adding Application Name='test' to a connection string causes 'test' to appear in a SQL Server Profiler trace. Aliases for this property include **SspropInitAppName**, **AppName**. To learn more, see [Application Name for SQL Server Connections](https://www.connectionstrings.com/use-application-name-sql-server/).
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### Auto Sync Period
 
 Sets the frequency (in milliseconds) of client and server cache synchronization. ADOMD.NET provides client caching for frequently used objects that have minimal memory overhead. This helps reduce the number of round trips to the server. The default is 10000 milliseconds (or 10 seconds). When set to null or 0, automatic synchronization is turned off.
 
 For performance reasons, the client libraries cache some information from the server, for example, certain schema rowsets. Auto Synch Period allows a user to change the time period after which the client library checks with the server whether or not the caches need to be emptied. In general, you should not need to change the value from default.
+
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### Character Encoding
 
 Defines how characters are encoded on the request. Valid values are **Default** or **UTF-8** (these are equivalent), and **UTF-16**.
+
 ::: moniker-end
 
 ### CommitTimeout
@@ -237,15 +247,19 @@ Defines how characters are encoded on the request. Valid values are **Default** 
 An XMLA property. Determines how long, in milliseconds, the commit phase of a currently running command waits before rolling back. When greater than 0, overrides the value of the corresponding CommitTimeout property in the server configuration.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### CompareCaseSensitiveStringFlags
 
 Adjusts case-sensitive string comparisons for a specified locale.
+
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### Compression Level
 
 If **TransportCompression** is compressed, you can set the compression level to control how much compression is used. Valid values are **0** through **9**, with 0 having least compression, and 9 having the most compression. Increased compression slows performance. The default value is 0.
+
 ::: moniker-end
 
 ### Connect Timeout
@@ -257,6 +271,7 @@ Determines the maximum amount of time (in seconds) the client attempts a connect
 Overrides the [Memory\QueryMemoryLimit](../server-properties/memory-properties.md) server property value for a connection. Specified in kilobytes.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### Default MDX Visual Mode
 
 Set this property to control how members are aggregated when dimension security is applied.
@@ -274,6 +289,7 @@ Valid values are,
 - **2** includes hidden values in the total. This is the default value on the server.
 
 The alias for this property is **VisualMode**.
+
 ::: moniker-end
 
 ### MDX Compatibility
@@ -306,21 +322,27 @@ OLE DB provider can format requests and responses in binary or compressed format
 This connection string property is equivalent to the **EnableBinaryXML** and **EnableCompression** server configuration settings.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### Real Time Olap
 
 Set this property to bypass caching, causing all storage queries to fetch data from the source system. By default, this property is not set.
+
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### Safety Options
 
 Sets the safety level for user-defined functions and actions. Valid values are **0**, **1**, **2**. In an Excel connection, this property is Safety Options=2. Details about this option can be found in <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString%2A>.
+
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### SQLQueryMode
 
 Specifies whether SQL queries include calculations. Valid values are **Data**, Calculated, **IncludeEmpty**. Data means that no calculations are allowed. Calculated allows calculations. IncludeEmpty allows calculations and empty rows to be returned in the query result.
+
 ::: moniker-end
 
 ### Timeout
@@ -328,15 +350,19 @@ Specifies whether SQL queries include calculations. Valid values are **Data**, C
 Specifies how long (in seconds) the client library waits for a command to complete before generating an error.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### Transport Compression
 
 Defines how client and server communications are compressed. Valid values are **Default**, **None**, **Compressed**. Default is no compression for TCP. None indicates that no compression is used. Compressed uses XPRESS compression.
+
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ### UseExistingFile
 
 Used when connecting to a local cube. This property specifies whether the local cube is overwritten. Valid values are **True** or **False**. If set to True, the cube file must exist. The existing file will be the target of the connection. If set to False, the cube file is overwritten.
+
 ::: moniker-end
 
 ## See also
