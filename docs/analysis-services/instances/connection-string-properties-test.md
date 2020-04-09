@@ -91,7 +91,7 @@ Example
 
 Cube name or perspective name. A database can contain multiple cubes and perspectives. When multiple targets are possible, include the cube or perspective name on the connection string.
 
-#### Example
+#### Examples
 
 - `Cube=Sales` to specify a cube named Sales.
 - `Cube=SalesPerspective` to specify a perspective named SalesPerspective.
@@ -155,12 +155,6 @@ SSPI is the default value for TCP connections, allowing NTLM, Kerberos, or Anony
 blank is the default value for HTTP connections.
 
 *ClaimsToken is supported for Azure AS and Power BI Premium.
-
-#### Examples
-
-`Integrated Security=SSPI`
-
-`Integrated Security=ClaimsToken`
 
 ### Persist Security Info
 
