@@ -1,6 +1,6 @@
 ---
 title: "Connection string properties (Analysis Services) | Microsoft Docs"
-ms.date: 04/10/2020
+ms.date: 04/13/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -155,7 +155,7 @@ Valid values are **True** or **False**. When set to True, security information, 
 
 ### Protection Level
 
-Determines the security level used on the connection. Valid values are:
+Determines the security level used on the connection. Values supported depend on the underlying transport. Valid values are:
 
 - **None**. Unauthenticated or anonymous connections. Performs no authentication on data sent to the server.
 - **Connect**. Authenticated connections. Authenticates only when the client establishes a relationship with a server.
@@ -209,11 +209,11 @@ Sets the name of the application associated with the connection. This value can 
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### Auto Sync Period
+### Auto Synch Period
 
 Sets the frequency (in milliseconds) of client and server cache synchronization. ADOMD.NET provides client caching for frequently used objects that have minimal memory overhead. This helps reduce the number of round trips to the server. The default is 10000 milliseconds (or 10 seconds). When set to null or 0, automatic synchronization is turned off.
 
-For performance reasons, the client libraries cache some information from the server, for example, certain schema rowsets. Auto Sync Period allows a user to change the time period after which the client library checks with the server whether or not the caches need to be emptied. In general, you should not need to change the value from default.
+For performance reasons, the client libraries cache some information from the server, for example, certain schema rowsets. Auto Synch Period allows a user to change the time period after which the client library checks with the server whether or not the caches need to be emptied. In general, you should not need to change the value from default.
 
 ::: moniker-end
 
