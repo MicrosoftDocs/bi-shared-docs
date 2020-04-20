@@ -1,6 +1,6 @@
 ---
 title: "Translations in Analysis Services tabular models | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 04/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,35 +8,35 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2017"
 ---
 # Translations in tabular models
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sql2017-later-aas-pbip](../../includes/ssas-appliesto-sql2017-later-aas-pbip.md)]
 
-  [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)] adds translation string support for Tabular models. A single object in the model can have multiple translations of a name or description, making it possible to support multi-language versions within the model definition.  
+In tabular models, an object can have multiple translations of a name or description, making it possible to support multi-language versions within the model definition.  
   
- Translated strings are for object metadata only (names and descriptions of tables and columns) that appear in a client tool like an Excel PivotTable list.  To use translated strings, the client connection specifies the culture. In the **Analysis in Excel** feature, you can choose the language from a drop-down list. For other tools, you might need to specify the culture in the connection string.  
+Translated strings are for object metadata only (names and descriptions of tables and columns) that appear in a client tool like an Excel PivotTable list.  To use translated strings, the client connection specifies the culture. In the **Analysis in Excel** feature, you can choose the language from a drop-down list. For other tools, you might need to specify the culture in the connection string.  
   
- This feature is not intended loading translated data into a model. If you want to load translated data values, you should develop a processing strategy that includes extracting translated strings from a data source that provides them.  
+This feature is not intended loading translated data into a model. If you want to load translated data values, you should develop a processing strategy that includes extracting translated strings from a data source that provides them.  
   
- A typical workflow for adding translated metadata looks like this:  
+A typical workflow for adding translated metadata looks like this:  
   
--   Generate an empty  translation JSON file that contains placeholders for each string translation  
+- Generate an empty  translation JSON file that contains placeholders for each string translation  
   
--   Add string translations to the JSON file  
+- Add string translations to the JSON file  
   
--   Import the translations back into the model  
+- Import the translations back into the model  
   
--   Build, process or deploy the model  
+- Build, process, or deploy the model  
   
--   Connect to the model using a client application that allows an LCID on the connection string  
+- Connect to the model using a client application that allows an LCID on the connection string  
   
 ## Create an empty translation file
 
- Use [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] to add translations.  
+ Use Visual Studio to add translations to the model project.  
   
-1.  Click **Model** > **Translations** > **Manage Translations**.  
+1.  Click **Extensions** > **Model** > **Translations** > **Manage Translations**.  
   
 2.  Select the languages for which you are providing translations and then click **Add**.  
   
@@ -66,13 +66,13 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
  ![ssas-tabular-translate-json](../../analysis-services/tabular-models/media/ssas-tabular-translate-json.png "ssas-tabular-translate-json")  
   
 > [!TIP]  
->  You can use any JSON editor to open the file, but we recommend using the JSON editor in Visual Studio so that you can also use the View Code command in Solution explorer to view the Tabular model definition in SSDT. To get the JSON editor, you need a [full version installation of Visual Studio 2015](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). The free Community edition includes the JSON editor.  
+>  You can use any JSON editor to open the file, but we recommend using the JSON editor in Visual Studio. Use the View Code command in Solution explorer to view the tabular model definition. 
   
 ## Import a translation file
 
  Translation strings that you import become a permanent part of the model definition. Once the strings are imported, the translation file is no longer referenced.  
   
-1.  Click **Model** > **Translations** > **Import Translations**.  
+1.  Click **Extensions** > **Model** > **Translations** > **Import Translations**.  
   
 2.  Find the translation file and then click **Open**.  
   
@@ -87,7 +87,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 4.  Click **Import**.  
   
-5.  Optionally, if you generated a log file or backup, you can find the files in the  project folder (for example, C:\Users\Documents\Visual Studio 2015\Projects\Tabular1200-AW\Tabular1200-AW).  
+5.  Optionally, if you generated a log file or backup, you can find the files in the  project folder.
   
 6.  To verify the import, follow these steps:  
   
@@ -111,8 +111,5 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 ## See also
 
- [Compatibility Level for Tabular models in Analysis Services](../../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md)   
  [Globalization scenarios for Analysis Services](../../analysis-services/globalization-scenarios-for-analysis-services.md)   
  [Analyze in Excel](../../analysis-services/tabular-models/analyze-in-excel-ssas-tabular.md)  
-  
-  

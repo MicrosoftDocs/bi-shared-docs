@@ -391,15 +391,7 @@
       - name: Process partitions in the workspace database
         href: ../analysis-services/tabular-models/process-partitions-in-the-workspace-database-ssas-tabular.md
     - name: Perspectives
-      items:
-      - name: Perspectives in tabular models
-        href: ../analysis-services/tabular-models/perspectives-ssas-tabular.md
-      - name: Create and Manage Perspectives
-        href: ../analysis-services/tabular-models/create-and-manage-perspectives-ssas-tabular.md
-    - name: Translations
-      items:
-      - name: Translations in tabular models
-        href: ../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md
+      href: ../analysis-services/tabular-models/perspectives-ssas-tabular.md
     - name: Roles
       items:
       - name: Roles in tabular models
@@ -408,7 +400,9 @@
         href: ../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md
       - name: Object-level security
         href: ../analysis-services/tabular-models/object-level-security.md
-    - name: Deploy a tabular model from Visual Studio
+    - name: Translations
+      href: ../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md
+    - name: Deploy from Visual Studio
       href: ../analysis-services/deployment/deploy-from-visual-studio-tabular.md
     - name: Manage deployed model databases
       items:

@@ -22,7 +22,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
  When you hide a column, you have the option to hide the column while you are working in the model designer or in reports. If you hide all columns, the entire table appears blank in the model designer.  
   
 > [!NOTE]  
->  If you have many columns to hide, you can create a perspective instead of hiding and unhiding columns. A perspective is a custom view of the data that makes it easier to work with subset of related data. For more information, see [Create and Manage Perspectives](../../analysis-services/tabular-models/create-and-manage-perspectives-ssas-tabular.md)  
+>  If you have many columns to hide, you can create a perspective instead of hiding and unhiding columns. A perspective is a custom view of the data that makes it easier to work with subset of related data. For more information, see [Perspectives](../../analysis-services/tabular-models/perspectives-ssas-tabular.md)  
   
 ### To hide an individual column  
   
