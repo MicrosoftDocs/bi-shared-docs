@@ -400,9 +400,9 @@
         href: ../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md
       - name: Object-level security
         href: ../analysis-services/tabular-models/object-level-security.md
-    - name: Translations in tabular models
+    - name: Translations
       href: ../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md
-    - name: Deploy a tabular model from Visual Studio
+    - name: Deploy from Visual Studio
       href: ../analysis-services/deployment/deploy-from-visual-studio-tabular.md
     - name: Manage deployed model databases
       items:
