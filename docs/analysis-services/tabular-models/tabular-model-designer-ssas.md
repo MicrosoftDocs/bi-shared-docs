@@ -1,6 +1,6 @@
 ---
-title: "Analysis Services tabular model designer in SQL Server Data Tools| Microsoft Docs"
-ms.date: 01/29/2020
+title: "Analysis Services tabular model designer in Visual Studio | Microsoft Docs"
+ms.date: 04/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -16,15 +16,15 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 The tabular model designer is part of Analysis Services projects extension for Microsoft Visual Studio, with additional project type templates specifically for developing professional tabular model solutions. To learn more, see [Tools](../tools-and-applications-used-in-analysis-services.md).
   
-##  <a name="bkmk_benefits"></a> Benefits  
+## Benefits  
 
  When you install Analysis Services projects extension for Visual Studio, new project templates for creating tabular models are added to the available project types. After creating a new tabular model project by using one of the templates, you can begin model authoring by using the tabular model designer tools and wizards.  
   
  In addition to new templates and tools for authoring professional multidimensional and tabular model solutions, the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] environment provides debugging and project lifecycle capabilities that ensure you create most BI solutions for your organization. For more information about [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], see [Getting Started with Visual Studio](https://go.microsoft.com/fwlink/?LinkId=206389).  
   
-##  <a name="bkmk_proj_temp"></a> Project templates  
+## Project templates  
 
- When you install [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], the following tabular model project templates are added to the project types:  
+ When you install the Visual Studio Analysis Services projects extension, the following tabular model project templates are added to the project types:  
   
  **Analysis Services Tabular Project**  
  This template can be used to create a new, blank tabular model project. Compatibility levels are specified when you create the project.
@@ -37,9 +37,9 @@ The tabular model designer is part of Analysis Services projects extension for M
  **Import from [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)]**  
  This template is used for creating a new tabular model project by extracting the metadata and data from a [!INCLUDE[ssGeminiClient](../../includes/ssgeminiclient-md.md)] file.  
   
-##  <a name="bkmk_wind_men"></a> Windows and menus  
+## Windows and menus  
 
- The [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] tabular model authoring environment includes the following:  
+ The Visual Studio tabular model authoring environment includes the following:  
   
 ### Designer window  
 
@@ -57,8 +57,6 @@ The tabular model designer is part of Analysis Services projects extension for M
 
  You can view the code behind a Model.bim file when you right-click select **View Code** on the file in Solution Explorer. For Tabular models at compatibility level 1200 and later, the model definition is expressed in JSON.  
   
- Note that you will need a full version of Visual Studio that provides the JSON editor. You can download and install the [free Visual Studio Community edition](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx) if you do not require the additional features in commercial editions.  
-  
 ### Solution Explorer  
 
  The Solution Explorer window presents the active solution as a logical container for a tabular model project and its associated items. The model project (.smproj) contains only a References object (empty) and the Model.bim file. You can open project items for modification and perform other management tasks directly from this view.
@@ -72,11 +70,11 @@ The tabular model designer is part of Analysis Services projects extension for M
   Tabular Model Explorer helps you navigate metadata objects in tabular models.
 
  To show Tabular Model Explorer, click **View** > **Other Windows**, and then click **Tabular Model Explorer**.
-   
-  ![Tabular Model Explorer](../../analysis-services/tabular-models/media/tabular-model-explorer.png) 
+
+  ![Tabular Model Explorer](../../analysis-services/tabular-models/media/tabular-model-explorer.png)
   
  Tabular Model Explorer organizes metadata objects into a tree structure that closely resembles the schema of a tabular model. Data Sources, Perspectives, Relationships, Roles, Tables, and Translations correspond to top-level schema objects. There are some exceptions, specifically KPIs and Measures, which technically aren't top-level objects, but child objects of the various tables in the model. However, having consolidated top-level containers for all KPIs and Measures makes it easier to work with these objects, especially if your model includes a very large number of tables. Measures are also listed under their corresponding parent tables, so you have a clear view of the actual parent-child relationships. If you select a measure in the top-level Measures container, the same measure is also selected in the child collection under its table, and vice-versa.  
- 
+
  Object nodes in Tabular Model Explorer are linked to appropriate menu options that until now were hiding under the Model, Table, and Column menus in Visual Studio. You can right-click an object to explore options for the object type. Not all object node types have a context menu yet, but additional options and improvements are coming in subsequent releases. 
 
  Tabular Model Explorer also offers a convenient search feature. Just type in a portion of the name in the Search box and Tabular Model Explorer narrows down the tree view to the matches. 
@@ -85,13 +83,15 @@ The tabular model designer is part of Analysis Services projects extension for M
 
  The Properties window lists the properties of the selected object. The following objects have properties that can be viewed and edited in the Properties window:  
   
--   Model.bim  
+- Model.bim  
+
+- Data Sources
   
--   Table  
+- Table  
   
--   Column  
+- Column  
   
--   Measure  
+- Measure  
   
  Project properties display only the project name and project folder in the Properties window. Projects also have additional deployment Options and deployment server settings that you can set using a modal properties dialog box. To view these properties, in **Solution Explorer**, right click the project, and then click **Properties**.  
   
@@ -103,13 +103,13 @@ The tabular model designer is part of Analysis Services projects extension for M
 
  The Error List window contains messages about the model state:  
   
--   Notifications about security best practices.  
+- Notifications about security best practices.  
   
--   Requirements for data processing.  
+- Requirements for data processing.  
   
--   Semantic error information for calculated columns, measures, and row filters for roles. For calculated columns, you can double-click the error message to navigate to the source of the error.  
+- Semantic error information for calculated columns, measures, and row filters for roles. For calculated columns, you can double-click the error message to navigate to the source of the error.  
   
--   DirectQuery validation errors.  
+- DirectQuery validation errors.  
   
  By default, the **Error List** does not appear unless an error is returned. You can, however, view the **Error List** window at any time. To view the **Error List** window, click the **View** menu, and then click **Error List**.  
   
