@@ -10,19 +10,19 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
-# Process Tabular Model Partitions
+# Process tabular model partitions
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
   Partitions divide a table into logical parts. Each partition can then be processed (Refreshed) independent of other partitions. The tasks in this topic describe how to process partitions in a model database by using the **Process Partitions** dialog box in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)].  
+
+## To process a partition  
   
-###  <a name="bkmk_create_new"></a> To process a partition  
+1. In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], right-click on the table that has the partitions you want to process, and then click **Partitions**.  
   
-1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], right-click on the table that has the partitions you want to process, and then click **Partitions**.  
+1. In the **Partitions** dialog box, in **Partitions**, click on the Process button.  
   
-2.  In the **Partitions** dialog box, in **Partitions**, click on the Process button.  
-  
-3.  In the **Process Partition(s)** dialog box, in the **Mode** listbox, select one of the following process modes:  
-  
+1. In the **Process Partition(s)** dialog box, in the **Mode** listbox, select one of the following process modes:  
+
     |Mode|Description|  
     |----------|-----------------|  
     |**Process Default**|Detects the process state of a partition object, and performs processing necessary to deliver unprocessed or partially processed partition objects to a fully processed state. Data for empty tables and partitions is loaded; hierarchies, calculated columns, and relationships are built or rebuilt.|  
@@ -31,10 +31,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
     |**Process Clear**|Removes all data from a partition.|  
     |**Process Add**|Incrementally update partition with new data.|  
   
-4.  In the **Process** checkbox column, select the partitions you want to process with the selected mode, and then click **Ok**.  
+1. In the **Process** checkbox column, select the partitions you want to process with the selected mode, and then click **Ok**.  
   
-## See Also  
- [Tabular Model Partitions](../../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md)   
- [Create and Manage Tabular Model Partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md)  
-  
-  
+## See also
+
+[Tabular Model Partitions](../../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md)   
+[Create and Manage Tabular Model Partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md)  
