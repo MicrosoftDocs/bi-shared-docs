@@ -77,6 +77,5 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
  [Configure HTTP Access to Analysis Services on Internet Information Services &#40;IIS&#41; 8.0](../../analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0.md)   
  [Configure Analysis Services for Kerberos constrained delegation](../../analysis-services/instances/configure-analysis-services-for-kerberos-constrained-delegation.md)   
  [SPN registration for an Analysis Services instance](../../analysis-services/instances/spn-registration-for-an-analysis-services-instance.md)   
- [Connect to Analysis Services](../../analysis-services/instances/connect-to-analysis-services.md)  
   
   

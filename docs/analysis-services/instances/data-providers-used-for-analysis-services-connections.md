@@ -23,7 +23,5 @@ Client libraries included in earlier SQL Server Feature Packs correspond to that
 
 To get the latest,  see [Client libraries for connecting to Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers). 
   
-## See also  
- [Connect to Analysis Services](../../analysis-services/instances/connect-to-analysis-services.md)  
   
   

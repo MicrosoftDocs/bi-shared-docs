@@ -122,7 +122,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
  [Resolving Common Connectivity Issues in SQL Server 2005 Analysis Services Connectivity Scenarios](https://technet.microsoft.com/library/cc917670.aspx). This document is a few years old, but the information and methodologies still apply.  
   
 ## See Also  
- [Connect to Analysis Services](../../analysis-services/instances/connect-to-analysis-services.md)   
+
  [Authentication methodologies supported by Analysis Services](../../analysis-services/instances/authentication-methodologies-supported-by-analysis-services.md)   
  [Impersonation](../../analysis-services/tabular-models/impersonation-ssas-tabular.md)   
  [Create a Data Source &#40;SSAS Multidimensional&#41;](../../analysis-services/multidimensional-models/create-a-data-source-ssas-multidimensional.md)  

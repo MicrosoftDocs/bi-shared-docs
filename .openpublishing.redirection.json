@@ -4852,6 +4852,11 @@
         "source_path": "docs/analysis-services/tabular-models/create-and-manage-perspectives-ssas-tabular.md",
         "redirect_url": "/analysis-services/tabular-models/perspectives-ssas-tabular",
         "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/instances/connect-to-analysis-services.md",
+        "redirect_url": "/analysis-services/instances/connect-from-client-applications-analysis-services",
+        "redirect_document_id": false
     }
 
   ]
