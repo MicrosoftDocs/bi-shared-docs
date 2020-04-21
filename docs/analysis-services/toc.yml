@@ -1299,9 +1299,7 @@
       href: ../analysis-services/instances/automate-analysis-services-administrative-tasks-with-ssis.md
   - name: Connect
     items:
-    - name: Connect to servers overview
-      href: ../analysis-services/instances/connect-to-analysis-services.md
-    - name: Connect from client applications
+    - name: Connect to SQL Server Analysis Services
       href: ../analysis-services/instances/connect-from-client-applications-analysis-services.md
     - name: Connection string properties
       href: ../analysis-services/instances/connection-string-properties-analysis-services.md

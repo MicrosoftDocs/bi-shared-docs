@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Post-install Configuration (Analysis Services)
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  After installing Analysis Services, further configuration is required to make the server fully operational and available for general use. This section introduces the additional tasks that complete the installation. Depending on connection requirements, you might also need to configure authentication (see [Connect to Analysis Services](../../analysis-services/instances/connect-to-analysis-services.md)).  
+  After installing Analysis Services, further configuration is required to make the server fully operational and available for general use. This section introduces the additional tasks that complete the installation. Depending on connection requirements, you might also need to configure authentication.  
   
  Later, additional work will be required once you have databases that are ready to deploy. Namely, you will need to configure role memberships on the database to grant user access to the data, design a database backup and recovery strategy, and determine whether you need a scheduled processing workload to refresh data at regular intervals.
   
@@ -30,9 +30,6 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 |[Register an Analysis Services Instance in a Server Group](../../analysis-services/instances/register-an-analysis-services-instance-in-a-server-group.md)|SQL Server Management Studio (SSMS) lets you create server groups for organizing your SQL Server instances. Scalable deployments consisting of multiple server instances are easier to manage in server groups. Use the information in this topic to organize Analysis Services instances into groups in SSMS.|  
 |[Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)|During installation, you chose a server mode that determines the type of model (multidimensional or tabular) that runs on the server. If you are unsure of the server mode, use the information in this topic to determine which mode was installed.|  
 |[Rename an Analysis Services Instance](../../analysis-services/instances/rename-an-analysis-services-instance.md)|A descriptive name can help you distinguish among multiple instances having different server modes, or among instances primarily used by departments or teams in your organization. If you want to change the instance name to one that helps you better manage your installations, use the information in this topic to learn how.|  
-  
-## Next Steps  
- Learn how to connect to Analysis Services from Microsoft applications or custom applications using the client libraries. Depending on your solution requirements, you might also need to configure the service for Kerberos authentication. Connections that must cross domain boundaries will require HTTP access. See [Connect to Analysis Services](../../analysis-services/instances/connect-to-analysis-services.md) for instructions about the next steps.  
   
 ## See Also  
  [Installation for SQL Server 2016](/sql/database-engine/install-windows/installation-for-sql-server-2016)   
