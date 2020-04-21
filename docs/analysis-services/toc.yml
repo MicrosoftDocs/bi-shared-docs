@@ -1299,8 +1299,6 @@
       href: ../analysis-services/instances/automate-analysis-services-administrative-tasks-with-ssis.md
   - name: Connect
     items:
-    - name: Connect to Azure Analysis Services
-      href: https://docs.microsoft.com/azure/analysis-services/analysis-services-connect
     - name: Connect to SQL Server Analysis Services
       href: ../analysis-services/instances/connect-from-client-applications-analysis-services.md
     - name: Connection string properties
