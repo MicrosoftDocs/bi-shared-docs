@@ -36,7 +36,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 ### Post-rename checklist  
   
-1.  To resume access to databases that are running on the renamed instance, you will need to manually update the data connections in Excel or other client applications. Also check any predefined connections, such as Reporting Services shared data sources, Excel ODC files, or BI Semantic Model connection files that might reference the instance you just renamed. For more information, see [Connect to Analysis Services](../../analysis-services/instances/connect-to-analysis-services.md).  
+1.  To resume access to databases that are running on the renamed instance, you will need to manually update the data connections in Excel or other client applications. Also check any predefined connections, such as Reporting Services shared data sources, Excel ODC files, or BI Semantic Model connection files that might reference the instance you just renamed.
   
 2.  Update PowerShell scripts or AMO scripts that you routinely use to backup, synchronize, or process databases.  
   

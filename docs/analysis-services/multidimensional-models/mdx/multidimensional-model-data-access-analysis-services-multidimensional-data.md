@@ -42,7 +42,7 @@ manager: kfile
  SQL Server Data Tools is built on a Visual Studio shell and uses projects to organize and contain the model. For more information, see [Creating Multidimensional Models Using SQL Server Data Tools &#40;SSDT&#41;](../../../analysis-services/multidimensional-models/creating-multidimensional-models-using-sql-server-data-tools-ssdt.md).  
   
 ### SQL Server Management Studio  
- For database administrators, SQL Server Management Studio is an integrated environment for managing your SQL Server instances, including instances of Analysis Services and multidimensional databases. For more information, see [SQL Server Management Studio](https://msdn.microsoft.com/library/66a6b7b1-de6a-4161-82bd-98ded486947b) and [Connect to Analysis Services](../../../analysis-services/instances/connect-to-analysis-services.md).  
+ For database administrators, SQL Server Management Studio is an integrated environment for managing your SQL Server instances, including instances of Analysis Services and multidimensional databases. For more information, see [SQL Server Management Studio](https://msdn.microsoft.com/library/66a6b7b1-de6a-4161-82bd-98ded486947b).  
   
 ##  <a name="bkmk_querylang"></a> Query Languages  
  MDX is an industry standard query and calculation language used to retrieve data from OLAP databases. In Analysis Services, MDX is the query language used to retrieve data, but also supports data definition and data manipulation. MDX editors are built into SQL Server Management Studio, Reporting Services, and SQL Server Data Tools. You can use the MDX editors to create ad hoc queries or reusable script if the data operation is repeatable.  
@@ -80,7 +80,7 @@ manager: kfile
 |Analysis Services Scripting Language (ASSL)|ASSL is a descriptive term that applies to Analysis Services extensions of the XMLA protocol. Whereas the Execute and Discover methods are described by the XMLA protocol, ASSL adds the following capability:<br /><br /> -XMLA script<br /><br /> -XMLA object definitions<br /><br /> -XMLA commands<br /><br /> ASSL extensions enable Analysis Services to use XMLA constructs beyond the basic provisions of the protocol, adding data definition, data manipulation, and data control support. For more information, see [Developing with Analysis Services Scripting Language &#40;ASSL&#41;](../../../analysis-services/multidimensional-models/scripting-language-assl/developing-with-analysis-services-scripting-language-assl.md).|  
   
 ## See Also  
- [Connect to Analysis Services](../../../analysis-services/instances/connect-to-analysis-services.md)   
+
  [Developing with Analysis Services Scripting Language &#40;ASSL&#41;](../../../analysis-services/multidimensional-models/scripting-language-assl/developing-with-analysis-services-scripting-language-assl.md)   
  [Developing with XMLA in Analysis Services](../../../analysis-services/multidimensional-models-scripting-language-assl-xmla/developing-with-xmla-in-analysis-services.md)   
 

@@ -1,5 +1,5 @@
 ---
-title: "Connect from client applications (Analysis Services) | Microsoft Docs"
+title: "Connect to SQL Server Analysis Services | Microsoft Docs"
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -10,32 +10,33 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
-# Connect from client applications
+# Connect to SQL Server Analysis Services
+
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  If you are new to Analysis Services, use the information in this topic to connect to an existing instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] using common tools and applications. This topic also explains how to connect under different user identities for testing purposes.  
+
+This article describes connecting to an instance of SQL Server Analysis Services (SSAS) using common tools and applications. This article also explains how to connect under different user identities for testing purposes.  
+
+To learn about connecting to **Azure Analysis Services**, see [Connecting to server resources](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)
+
+To learn about connecting to **Power BI Premium workspaces**, see [Connecting to a Premium workspace](https://docs.microsoft.com/power-bi/service-premium-connect-tools#connecting-to-a-premium-workspace)
   
--   [Connect using SQL Server Management Studio (SSMS)](#bkmk_SSMS)  
+
+
+## Firewall and permissions
+
+Successful connections to SSAS depend on a valid port configuration and appropriate user permissions. Click the following links to learn more about each requirement.  
+
+- [Configure the Windows Firewall to Allow Analysis Services Access](../../analysis-services/instances/configure-the-windows-firewall-to-allow-analysis-services-access.md)  
   
--   [Connect using Excel](#bkmk_excel)  
+- [Authorizing access to objects and operations &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/authorizing-access-to-objects-and-operations-analysis-services.md)  
   
--   [Connect using Visual Studio](#bkmk_SSDT)  
+## Connect using SQL Server Management Studio (SSMS)
+
+Connect to Analysis Services in SSMS to manage server instances and databases interactively. You can also run XMLA or MDX queries to perform administrative tasks or retrieve data. In contrast with other tools and applications that only load databases when a query is sent, SSMS loads all databases when you connect to the server, assuming you have permission to view the database. This means that if you have numerous tabular databases on the server, all are loaded into system memory when you connect using SSMS.  
   
--   [Test connections](#bkmk_tshoot)  
+You can test permissions by running SSMS under a specific user identity and then connect to Analysis Services as that user.  
   
- Connection string reference documentation is provided separately. For more information, see [Connection String Properties &#40;Analysis Services&#41;](../../analysis-services/instances/connection-string-properties-analysis-services.md).  
-  
- Successful connections depend on a valid port configuration and appropriate user permissions. Click the following links to learn more about each requirement.  
-  
--   [Configure the Windows Firewall to Allow Analysis Services Access](../../analysis-services/instances/configure-the-windows-firewall-to-allow-analysis-services-access.md)  
-  
--   [Authorizing access to objects and operations &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/authorizing-access-to-objects-and-operations-analysis-services.md)  
-  
-##  <a name="bkmk_SSMS"></a> Connect using SQL Server Management Studio (SSMS)  
- Connect to Analysis Services in SSMS to manage server instances and databases interactively. You can also run XMLA or MDX queries to perform administrative tasks or retrieve data. In contrast with other tools and applications that only load databases when a query is sent, SSMS loads all databases when you connect to the server, assuming you have permission to view the database. This means that if you have numerous tabular databases on the server, all are loaded into system memory when you connect using SSMS.  
-  
- You can test permissions by running SSMS under a specific user identity and then connect to Analysis Services as that user.  
-  
- Hold-down the Shift key and right-click the **SQL Server Management Studio** shortcut to access the **Run as different user** option.  
+Hold-down the Shift key and right-click the **SQL Server Management Studio** shortcut to access the **Run as different user** option.  
   
 1.  Start [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)]. In the **Connect to Server** dialog box, select the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] server type.  
   
@@ -61,16 +62,17 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
     Provider=MSOLAP; Data Source=SERVERNAME; Initial Catalog=AdventureWorks2012; Roles=READER  
     ```  
   
-##  <a name="bkmk_excel"></a> Connect using Excel  
- Microsoft Excel is often used for analyzing business data. As part of an Excel installation, Office installs the Analysis Services OLE DB provider (MSOLAP DLL), ADOMD.NET, and other data providers so that you can more readily use the data on your network servers. If you are using a newer version of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] with an older version of Excel, you most likely need to install newer data providers on each workstation that connects to [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. See [Data providers used for Analysis Services connections](../../analysis-services/instances/data-providers-used-for-analysis-services-connections.md) for more information.  
+## Connect using Excel
+
+Microsoft Excel is often used for analyzing business data. As part of an Excel installation, Office installs the Analysis Services OLE DB provider (MSOLAP DLL), ADOMD.NET, and other data providers so that you can more readily use the data on your network servers. If you are using a newer version of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] with an older version of Excel, you most likely need to install newer data providers on each workstation that connects to [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. See [Data providers used for Analysis Services connections](../../analysis-services/instances/data-providers-used-for-analysis-services-connections.md) for more information.  
   
- When you set up a connection to an Analysis Services cube or tabular model database, Excel saves the connection information in .odc file for future use. The connection is made in security context of the current Windows user. The user account must have read permissions on the database in order for the connection to succeed.  
+When you set up a connection to an Analysis Services cube or tabular model database, Excel saves the connection information in .odc file for future use. The connection is made in security context of the current Windows user. The user account must have read permissions on the database in order for the connection to succeed.  
   
- When using [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] data in an Excel workbook, connections are held for the duration of a query request. This is why you are likely to see lots of connections for each session, held for very short periods of time, when monitoring a query workload from Excel.  
+When using [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] data in an Excel workbook, connections are held for the duration of a query request. This is why you are likely to see lots of connections for each session, held for very short periods of time, when monitoring a query workload from Excel.  
   
- You can test permissions by starting Excel under a specific user identity.  
+You can test permissions by starting Excel under a specific user identity.  
   
- Hold-down the Shift key and right-click the **Excel** shortcut to access the **Run as different user** option.  
+Hold-down the Shift key and right-click the **Excel** shortcut to access the **Run as different user** option.  
   
 1.  On the Data tab in Excel, click **From Other Sources**, and then click **From Analysis Services**. Enter the server name, and then select a cube or perspective to query.  
   
@@ -82,20 +84,22 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
  For more information, see [Connect to or import data from SQL Server Analysis Services](https://go.microsoft.com/fwlink/?linkID=215150).  
   
-##  <a name="bkmk_SSDT"></a> Connect using Visual Studio  
+## Connect using Visual Studio
+
  Visual Studio with Analysis Services projects is used for building BI solutions. When building reports or packages, you might need to specify a connection to Analysis Services.  
   
  The following links explain how to connect to Analysis Services from a Report Server project or an Integration Services project:  
   
--   [Analysis Services Connection Type for MDX &#40;SSRS&#41;](/sql/reporting-services/report-data/analysis-services-connection-type-for-mdx-ssrs)  
+- [Analysis Services Connection Type for MDX &#40;SSRS&#41;](/sql/reporting-services/report-data/analysis-services-connection-type-for-mdx-ssrs)  
   
--   [Analysis Services Connection Manager](/sql/integration-services/connection-manager/analysis-services-connection-manager)  
+- [Analysis Services Connection Manager](/sql/integration-services/connection-manager/analysis-services-connection-manager)  
   
 > [!NOTE]  
 >  When using Visual Studio to work on an existing Analysis Services project, remember that you can connect offline using a local or version controlled project, or connect in online mode to update Analysis Services objects while the database is running. For more information, see [Connect in Online Mode to an Analysis Services Database](../../analysis-services/multidimensional-models/connect-in-online-mode-to-an-analysis-services-database.md). More commonly, connections from [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] are in project mode, where changes are deployed to the database only when you explicitly deploy the project.  
   
-##  <a name="bkmk_tshoot"></a> Test connections  
- You can use SQL Server Profiler to monitor connections to Analysis Services. The Audit Login and Audit Logout events provide evidence of a connection. The identity column indicates the security context under which the connection is made.  
+## Test connections
+
+Use SQL Server Profiler to monitor connections to Analysis Services. The Audit Login and Audit Logout events provide evidence of a connection. The identity column indicates the security context under which the connection is made.  
   
 1.  Start **SQL Server Profiler** on the Analysis Services instance and then start a new trace.  
   
@@ -122,7 +126,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
  [Resolving Common Connectivity Issues in SQL Server 2005 Analysis Services Connectivity Scenarios](https://technet.microsoft.com/library/cc917670.aspx). This document is a few years old, but the information and methodologies still apply.  
   
 ## See Also  
- [Connect to Analysis Services](../../analysis-services/instances/connect-to-analysis-services.md)   
+
  [Authentication methodologies supported by Analysis Services](../../analysis-services/instances/authentication-methodologies-supported-by-analysis-services.md)   
  [Impersonation](../../analysis-services/tabular-models/impersonation-ssas-tabular.md)   
  [Create a Data Source &#40;SSAS Multidimensional&#41;](../../analysis-services/multidimensional-models/create-a-data-source-ssas-multidimensional.md)  

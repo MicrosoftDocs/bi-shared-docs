@@ -18,8 +18,6 @@ manager: kfile
   
  [Processing a multidimensional model &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md)  
   
- [Connect to Analysis Services](../../analysis-services/instances/connect-to-analysis-services.md)  
-  
  [Database Storage Location](../../analysis-services/multidimensional-models/database-storage-location.md)  
   
  [Switch an Analysis Services database between ReadOnly and ReadWrite modes](../../analysis-services/multidimensional-models/switch-an-analysis-services-database-between-readonly-and-readwrite-modes.md)  

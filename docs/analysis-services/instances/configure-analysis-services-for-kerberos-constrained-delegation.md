@@ -109,7 +109,6 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ## See Also  
  [Microsoft BI Authentication and Identity Delegation](https://go.microsoft.com/fwlink/?LinkID=286576)   
  [Mutual Authentication Using Kerberos](https://go.microsoft.com/fwlink/?LinkId=299283)   
- [Connect to Analysis Services](../../analysis-services/instances/connect-to-analysis-services.md)   
  [SPN registration for an Analysis Services instance](../../analysis-services/instances/spn-registration-for-an-analysis-services-instance.md)   
  [Connection String Properties &#40;Analysis Services&#41;](../../analysis-services/instances/connection-string-properties-analysis-services.md)  
   
