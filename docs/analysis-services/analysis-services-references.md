@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services references | Microsoft Docs"
-ms.date: 02/13/2020
+ms.date: 04/21/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -88,7 +88,7 @@ A SOAP-based XML protocol for tabular and multidimensional data sources. Fundame
 
 ::: moniker-end
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
 ### [Data Analysis Expressions (DAX)](https://docs.microsoft.com/dax/)
 
@@ -96,7 +96,7 @@ A library of functions and operators that can be combined to build formulas and 
 
 ::: moniker-end
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
 ### [Power Query M formula language](https://docs.microsoft.com/powerquery-m/)
 
@@ -104,7 +104,7 @@ Used to query, filter and combine data from one or more supported data sources.
 
 ::: moniker-end
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
 ### [PowerShell for Analysis Services](powershell/analysis-services-powershell-reference.md)
 

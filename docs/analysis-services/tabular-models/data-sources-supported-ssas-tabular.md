@@ -1,6 +1,6 @@
 ---
 title: "Data sources supported in SQL Server Analysis Services tabular 1200 models | Microsoft Docs"
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -44,9 +44,9 @@ When you install [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-m
  
 <a name="dnu">[1]</a> Using ACE 14 OLE DB provider to connect to file data types is not recommended. If you must retain your tabular 1200 and lower compatibility level models, export your data to a csv file type, import to SQL database, and then connect to and import from the database. However, it's recommended you upgrade to tabular 1400 compatibility level (SQL Server 2017 and later) and use **Get Data** in SSDT to select and import your file data source. Get Data uses structured data source connections provided by the Power Query data engine, which are more stable than ACE 14 OLE DB provider connections.  
 
-<a name="dnu2">[2]</a> If deploying a tabular 1200 model to Azure Analysis Services or SQL Server Analysis Services, **it's recommended** you use the updated Microsoft OLE DB Driver for SQL Server (MSOLEDBSQL). For SQL Server Analysis Services, it may be necessary to download and install the MSOLEDBSQL driver on the server. To learn more, see [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/oledb-driver-for-sql-server.md). 
+<a name="dnu2">[2]</a> If deploying a tabular 1200 model to Azure Analysis Services or SQL Server Analysis Services, **it's recommended** you use the updated Microsoft OLE DB Driver for SQL Server (MSOLEDBSQL). For SQL Server Analysis Services, it may be necessary to download and install the MSOLEDBSQL driver on the server. To learn more, see [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/oledb-driver-for-sql-server).
 
-<a name="dnu3">[3]</a> SQL Server Native Client (SQLNCLI) and previous generation OLE DB Provider for SQL Server (SQLOLEDB) are deprecated. It's recommended you use the updated [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/oledb-driver-for-sql-server.md).
+<a name="dnu3">[3]</a> SQL Server Native Client (SQLNCLI) and previous generation OLE DB Provider for SQL Server (SQLOLEDB) are deprecated. It's recommended you use the updated [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/oledb-driver-for-sql-server).
 
 
 ## Supported data sources for DirectQuery models
