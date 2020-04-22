@@ -1,6 +1,6 @@
 ---
 title: "Connect to SQL Server Analysis Services | Microsoft Docs"
-ms.date: 05/02/2018
+ms.date: 04/22/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -20,8 +20,6 @@ To learn about connecting to **Azure Analysis Services**, see [Connecting to ser
 
 To learn about connecting to **Power BI Premium workspaces**, see [Connecting to a Premium workspace](https://docs.microsoft.com/power-bi/service-premium-connect-tools#connecting-to-a-premium-workspace)
   
-
-
 ## Firewall and permissions
 
 Successful connections to SSAS depend on a valid port configuration and appropriate user permissions. Click the following links to learn more about each requirement.  
@@ -29,6 +27,9 @@ Successful connections to SSAS depend on a valid port configuration and appropri
 - [Configure the Windows Firewall to Allow Analysis Services Access](../../analysis-services/instances/configure-the-windows-firewall-to-allow-analysis-services-access.md)  
   
 - [Authorizing access to objects and operations &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/authorizing-access-to-objects-and-operations-analysis-services.md)  
+
+> [!NOTE]
+> The client libraries required by client applications cannot connect to Analysis Services through proxy servers that require a username and password.
   
 ## Connect using SQL Server Management Studio (SSMS)
 
