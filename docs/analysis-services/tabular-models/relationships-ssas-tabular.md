@@ -136,7 +136,7 @@ Many-to-many relationships are those between tables where both columns are non-u
 
 Create many-to-many relationships by using Visual Studio 2019 with Analysis Services projects VSIX update 2.9.2 and higher, the Tabular Object Model (TOM) API, Tabular Model Scripting Language (TMSL), and the open-source Tabular Editor tool.
 
-Tabular models at the 1400 and lower compatibility levels do not support many-to-many relationships, and you cannot add *junction tables* in the model designer. However, you can use DAX functions to model many-to-many relationships. You can also try setting up a bi-directional cross filter to see if it achieves the same purpose. Sometimes the requirement of many-to-many relationship can be satisfied through cross filters that persist a filter context across multiple table relationships. See [Bi-directional cross filters for tabular models in SQL Server 2016 Analysis Services](../../analysis-services/tabular-models/bi-directional-cross-filters-tabular-models-analysis-services.md) for details.  
+Tabular models at the 1400 and lower compatibility levels do not support many-to-many relationships, and you cannot add *junction tables* in the model designer. However, you can use DAX functions to model many-to-many relationships. You can also try setting up a bi-directional cross filter to see if it achieves the same purpose. Sometimes the requirement of many-to-many relationship can be satisfied through cross filters that persist a filter context across multiple table relationships. See [Bi-directional cross filters in tabular models](../../analysis-services/tabular-models/bi-directional-cross-filters-tabular-models-analysis-services.md) for details.  
   
 ### Self-joins and loops
 
