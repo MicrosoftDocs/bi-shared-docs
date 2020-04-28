@@ -128,13 +128,13 @@ You cannot use composite keys in a tabular model; you must always have one colum
   
 If you want to create a relationship between two tables in the model designer, and there are multiple columns defining the primary and foreign keys, you must combine the values to create a single key column before creating the relationship. You can do this before you import the data, or you can do this in the model designer by creating a calculated column.  
   
-### Many-to-Many relationships
+### Many-to-many relationships
 
 Tabular models at the 1500 and higher compatibility level deployed to Azure Analysis Services, SQL Server 2019 Analysis Services, and Power BI Premium support many-to-many relationships.
 
 Many-to-many relationships are those between tables where both columns are non-unique. A relationship can be defined between a dimension and fact table at a granularity higher than the key column of the dimension. This avoids having to normalize dimension tables and can improve the user experience because the resulting model has a smaller number of tables with logically grouped columns.
 
-Create many-to-many relationships by using Visual Studio 2019 with Analysis Services projects VSIX update 2.9.2 and higher, the Tabular Object Model (TOM) API, Tabular Model Scripting Language (TMSL), and the open-source Tabular Editor tool.
+Create many-to-many relationships by using Visual Studio 2019 with Analysis Services projects, the Tabular Object Model (TOM) API, Tabular Model Scripting Language (TMSL), and the open-source Tabular Editor tool.
 
 Tabular models at the 1400 and lower compatibility levels do not support many-to-many relationships, and you cannot add *junction tables* in the model designer. However, you can use DAX functions to model many-to-many relationships. You can also try setting up a bi-directional cross filter to see if it achieves the same purpose. Sometimes the requirement of many-to-many relationship can be satisfied through cross filters that persist a filter context across multiple table relationships. See [Bi-directional cross filters in tabular models](../../analysis-services/tabular-models/bi-directional-cross-filters-tabular-models-analysis-services.md) for details.  
   
