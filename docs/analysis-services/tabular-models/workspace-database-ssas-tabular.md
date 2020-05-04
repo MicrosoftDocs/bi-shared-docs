@@ -22,7 +22,7 @@ The tabular model workspace database, used during model authoring, is created wh
 
 **Integrated workspace** - Recommended. Utilizes Visual Studio's own internal instance. Use this setting when creating a project that will be deployed to Azure Analysis Services.
 
-**Workspace server** - A workspace database is created on an explicit instance,  often on the same computer as Visual Studio or another computer in the same network. While you can specify an Azure Analysis Services server or Power BI workspace, it's not recommended.
+**Workspace server** - A workspace database is created on an explicit instance,  often on the same computer as Visual Studio or another computer in the same network. While you can specify an Azure Analysis Services server, it's not recommended.  It's not supported to use a Power BI workspace as the Workspace server.
   
 ### Integrated workspace
 
