@@ -1,19 +1,19 @@
 ﻿---
 title: "Analysis Services tutorial lesson 13: Deploy | Microsoft Docs"
-ms.date: 02/20/2020
+ms.date: 05/04/2020
 ms.prod: sql
 ms.technology: analysis-services
-ms.custom: tabular-models
 ms.topic: tutorial
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
+ms.custom: contperfq4
 ---
 # Deploy
 
 [!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
 
-In this lesson, you configure deployment properties; specifying a server to deploy to and a name for the model. You then deploy the model to the server. After your model is deployed, users can connect to it by using a reporting client application. To learn more, see [Deploy to Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-deploy) and [Tabular model solution deployment](../deployment/tabular-model-solution-deployment.md).  
+In this lesson, you configure deployment properties by specifying an Analysis Services server or Power BI workspace to deploy to and a name for the model. You then deploy the model. After your model is deployed, users can connect to it by using a reporting client application. To learn more, see [Deploy to Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-deploy) and [Tabular model solution deployment](../deployment/tabular-model-solution-deployment.md).  
   
 Estimated time to complete this lesson: **5 minutes**  
   
@@ -21,44 +21,76 @@ Estimated time to complete this lesson: **5 minutes**
 
 This article is part of a tabular modeling tutorial, which should be completed in order. Before performing the tasks in this lesson, you should have completed the previous lesson: [Lesson 12: Analyze in Excel](../tutorial-tabular-1400/as-lesson-12-analyze-in-excel.md).  
 
-> [!IMPORTANT]  
-> If deploying to Azure Analysis Services, you must have [Administrator permissions](https://docs.microsoft.com/azure/analysis-services/analysis-services-server-admins) on the server.  
+If deploying to Azure Analysis Services, you must have [Administrator permissions](https://docs.microsoft.com/azure/analysis-services/analysis-services-server-admins) on the server.  
 
-> [!IMPORTANT]  
-> If you installed the AdventureWorksDW sample database on an on-premises or VM with SQL Server, and you are deploying your model to an Azure Analysis Services server, an [On-premises data gateway](https://docs.microsoft.com/azure/analysis-services/analysis-services-gateway) is required for the process operation to import data from the data source database into the deployed data model.
+If deploying to Power BI Premium, you must have Admin or Contributor permission on the workspace.
+
+If you installed the AdventureWorksDW sample database on an on-premises or VM with SQL Server, and you are deploying your model to an Azure Analysis Services server, an [On-premises data gateway](https://docs.microsoft.com/azure/analysis-services/analysis-services-gateway) is required for the process operation to import data from the data source database into the deployed data model.
   
 ## Deploy the model  
   
-#### To configure deployment properties  
+### To configure deployment properties
 
-1.  In **Solution Explorer**, right-click the **AW Internet Sales** project, and then click **Properties**.  
+1. In **Solution Explorer**, right-click the **AW Internet Sales** project, and then click **Properties**.  
   
-2.  In the **AW Internet Sales Property Pages** dialog box, under **Deployment Server**, in the **Server** property, enter the full server name. If connecting to Azure Analysis Services, server name must include the full URL. You can copy an Azure Analysis Services server name from the Overview page in the portal.
+2. In the **AW Internet Sales Property Pages** dialog box, under **Deployment Server**, in the **Server** property, enter the full server name. If deploying to Azure Analysis Services, server name is a URL. In the portal, copy the Azure Analysis Services server name URL from the server's Overview page. If deploying to a Power BI Premium workspace, server name is a Workspace Connection URL. In the Power BI service, copy from workspace Settings > Premium > Workspace Connection.
 
     ![as-lesson13-deploy-property](../tutorial-tabular-1400/media/as-lesson13-deploy-property.png)
   
-3.  In the **Database** property, type **Adventure Works Internet Sales**.  
+3. In the **Database** property, type **Adventure Works Internet Sales**.  
   
-4.  In the **Model Name** property, type **Adventure Works Internet Sales Model**.  
+4. In the **Model Name** property, type **Adventure Works Internet Sales Model**.  
   
-5.  Verify your selections and then click **OK**.  
-  
-#### To deploy the Adventure Works Internet Sales model
-  
-1.  In **Solution Explorer**, right-click the **AW Internet Sales** project > **Build**.  
+5. Verify your selections and then click **OK**.  
 
-2.  Right-click the **AW Internet Sales** project > **Deploy**.
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+
+### To deploy to Azure or SQL Server Analysis Services
+  
+1. In **Solution Explorer**, right-click the **AW Internet Sales** project > **Build**.  
+
+2. Right-click the **AW Internet Sales** project > **Deploy**.
 
     When deploying to Azure Analysis Services, you may be prompted to enter your account. Enter your organizational account and password, for example nancy@adventureworks.com. This account must be in Admins on the server.
   
     The Deploy dialog box appears and displays the deployment status of the metadata and each table included in the model.  
     
     ![as-lesson13-deploy-status](../tutorial-tabular-1400/media/as-lesson13-deploy-status.png)
-  
+
 3. When deployment successfully completes, go ahead and click **Close**.  
-  
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || power-bi-premium-current"
+
+### To deploy to a Power BI Premium workspace
+
+Deploying to a Power BI Premium workspace is a little different than deploying to SQL Server or Azure Analysis Services. When deployed the first time, a dataset is created in the workspace by using metadata from the model.bim. As part of the deployment operation, after the dataset has been created in the workspace from model metadata, processing to load data from the data source into the dataset from data sources **will fail**.
+
+Processing fails because unlike when deploying to an Azure or SQL Server Analysis Server server, where data source credentials are prompted for as part of the deployment operation, when deploying to a Premium workspace data source credentials cannot be specified as part of the deployment operation. Instead, after metadata deployment has succeeded and the dataset has been created, data source credentials are then specified in the Power BI Service in dataset settings. After data source credentials are specified, you can then refresh the dataset in the Power BI service, configure schedule refresh, or process (refresh) from SQL Server Management Studio to load data into the dataset.
+
+1. In **Solution Explorer**, right-click the **AW Internet Sales** project > **Build**.  
+
+2. Right-click the **AW Internet Sales** project > **Deploy**.
+
+    The Deploy dialog box appears and displays the deployment status of the metadata and each table included in the model. Deploy metadata will succeed, but processing of each table **will fail**.
+
+3. When deployment completes, go ahead and click **Close**.
+
+4. In the Power BI Service, click **Workspaces** > workspace > **Datasets** > **Settings** (under ACTIONS > More options) > **Data source credentials** > **Edit credentials**. Enter the username and password for your AdventureWorksDW data source.
+
+    ![as-lesson13-edit-credentials](../tutorial-tabular-1400/media/as-lesson13-edit-credentials.png)
+    
+5. In the Power BI Service, in the workspace > **Datasets** > **Settings** (under ACTIONS), select **Refresh**. 
+
+    ![as-lesson13-dataset-refresh](../tutorial-tabular-1400/media/as-lesson13-dataset-refresh.png)
+
+    Power BI will connect to the data source to import data into the model. Refresh will take a couple of minutes.
+
+::: moniker-end
+
 > [!IMPORTANT]
-> After deployment is finished, if you created the Azure Synapse Analytics data source using a paid subscription, to prevent unwanted charges to your account, be sure to pause or delete the resource in the portal. 
+> If you created the Azure Synapse Analytics data source using a paid subscription, after deployment and processing\refresh is successful, to prevent unwanted charges to your account, be sure to pause or delete the resource in the portal.
 
 This lesson describes the most common and easiest method to deploy a tabular model from Visual Studio. Advanced deployment options such as the Deployment Wizard or automating with XMLA and AMO provide greater flexibility, consistency, and scheduled deployments. To learn more, see [Tabular model solution deployment](../deployment/tabular-model-solution-deployment.md).
 
@@ -70,7 +102,7 @@ Congratulations! You're finished authoring and deploying your first Analysis Ser
 
 ## Next step
 
-[Connect with Power BI Desktop](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect-pbi)   
-[Supplemental Lesson - Dynamic security](../tutorial-tabular-1400/as-supplemental-lesson-dynamic-security.md)   
-[Supplemental Lesson - Detail rows](../tutorial-tabular-1400/as-supplemental-lesson-detail-rows.md)   
-[Supplemental Lesson - Ragged hierarchies](../tutorial-tabular-1400/as-supplemental-lesson-ragged-hierarchies.md)   
+[Connect with Power BI Desktop](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect-pbi)  
+[Supplemental Lesson - Dynamic security](../tutorial-tabular-1400/as-supplemental-lesson-dynamic-security.md)  
+[Supplemental Lesson - Detail rows](../tutorial-tabular-1400/as-supplemental-lesson-detail-rows.md)  
+[Supplemental Lesson - Ragged hierarchies](../tutorial-tabular-1400/as-supplemental-lesson-ragged-hierarchies.md)  
