@@ -63,7 +63,7 @@ If you installed the AdventureWorksDW sample database on an on-premises or VM wi
 
 ::: moniker range="asallproducts-allversions || power-bi-premium-current"
 
-### To deploy the Adventure Works Internet Sales model to a Power BI Premium
+### To deploy to a Power BI Premium workspace
 
 Deploying to a Power BI Premium workspace is a little different than deploying to SQL Server or Azure Analysis Services. When deployed the first time, a dataset is created in the workspace by using metadata from the model.bim. As part of the deployment operation, after the dataset has been created in the workspace from model metadata, processing to load data from the data source into the dataset from data sources **will fail**.
 
