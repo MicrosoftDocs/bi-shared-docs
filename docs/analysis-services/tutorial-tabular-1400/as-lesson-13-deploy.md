@@ -43,7 +43,7 @@ If you installed the AdventureWorksDW sample database on an on-premises or VM wi
   
 5. Verify your selections and then click **OK**.  
 
-::: monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+::: moniker range: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
 ### To deploy to Azure or SQL Server Analysis Services
   
@@ -61,7 +61,7 @@ If you installed the AdventureWorksDW sample database on an on-premises or VM wi
 
 ::: moniker-end
 
-::: monikerRange: "asallproducts-allversions || power-bi-premium-current"
+::: moniker range: "asallproducts-allversions || power-bi-premium-current"
 
 ### To deploy the Adventure Works Internet Sales model to a Power BI Premium
 
