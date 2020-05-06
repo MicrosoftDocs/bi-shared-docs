@@ -33,9 +33,11 @@ If you installed the AdventureWorksDW sample database on an on-premises or VM wi
 
 1. In **Solution Explorer**, right-click the **AW Internet Sales** project, and then click **Properties**.  
   
-2. In the **AW Internet Sales Property Pages** dialog box, under **Deployment Server**, in the **Server** property, enter the full server name. If deploying to Azure Analysis Services, server name is a URL. In the portal, copy the Azure Analysis Services server name URL from the server's Overview page. If deploying to a Power BI Premium workspace, server name is a Workspace Connection URL. In the Power BI service, copy from workspace Settings > Premium > Workspace Connection.
+2. In the **AW Internet Sales Property Pages** dialog box, under **Deployment Server**, in the **Server** property, enter the full server name.  
+    - If deploying to Azure Analysis Services, server name is a URL. In the portal, copy the Azure Analysis Services server name URL from the server's Overview page.  
+    - If deploying to a Power BI Premium workspace, server name is a Workspace Connection URL. In the Power BI service, copy from workspace Settings > Premium > Workspace Connection.
 
-    ![as-lesson13-deploy-property](../tutorial-tabular-1400/media/as-lesson13-deploy-property.png)
+    ![as-lesson13-deploy-property](../tutorial-tabular-1400/media/as-lesson13-deploy-aas.png)
   
 3. In the **Database** property, type **Adventure Works Internet Sales**.  
   
