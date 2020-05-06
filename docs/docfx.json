@@ -62,12 +62,12 @@
     },
 
     "open_to_public_contributors": {
-      "analysis-services/adomd/**.md": false,
-      "analysis-services/amo/**.md": false,
-      "analysis-services/assl/**.md": false,
-      "analysis-services/csdlbi/**.md": false,
-      "analysis-services/trace-events/**.md": false,
-      "analysis-services/xmla/**.md": false
+      "docs/analysis-services/adomd/**.md": false,
+      "docs/analysis-services/amo/**.md": false,
+      "docs/analysis-services/assl/**.md": false,
+      "docs/analysis-services/csdlbi/**.md": false,
+      "docs/analysis-services/trace-events/**.md": false,
+      "docs/analysis-services/xmla/**.md": false
     },
 
     "fileMetadata": {
