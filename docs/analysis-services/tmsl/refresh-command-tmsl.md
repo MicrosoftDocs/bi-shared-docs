@@ -1,6 +1,6 @@
 ---
 title: "Refresh command (TMSL) | Microsoft Docs"
-ms.date: 11/07/2019
+ms.date: 06/18/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
@@ -21,6 +21,9 @@ author: minewiskan
 - Change the **QueryDefinition** property of a **Partition** object to import data using an on-the-fly filter expression.  
   
 - Provide data source credentials as part of a **Refresh** command,  in the **ConnectionString** property of a **DataSource**  object. This  approach could be considered more secure, as credentials are provided and used temporarily for the duration of the operation, rather than stored.  
+monikerRange: "asallproducts-allversions || power-bi-premium-current"
+- Default Power BI dataset incremental refresh policy.   
+::: moniker-end
   
  See the examples in this topic for an illustration of these property overrides.  
   
@@ -118,8 +121,48 @@ author: minewiskan
     ]  
   }  
 }  
-```  
-  
+```
+
+monikerRange: "asallproducts-allversions || power-bi-premium-current"
+### Optional parameters
+
+For Power BI datasets, the following parameters can be added to a TMSL refresh command to override the default incremental refresh behavior:
+
+- **applyRefreshPolicy** – If a table has an incremental refresh policy defined, applyRefreshPolicy will determine if the policy is applied or not. If the policy is not applied, a process full operation will leave partition definitions unchanged and all partitions in the table will be fully refreshed. Default value is true.
+
+- **effectiveDate** – If an incremental refresh policy is being applied, it needs to know the current date to determine rolling window ranges for the historical range and the incremental range. The effectiveDate parameter allows you to override the current date. This is useful for testing, demos, and business scenarios where data is incrementally refreshed up to a date in the past or the future (for example, budgets in the future). The default value is the [current date](https://docs.microsoft.com/power-bi/admin/service-premium-incremental-refresh#current-date).
+
+
+```json
+{ 
+  "refresh": {
+    "type": "full",
+
+    "applyRefreshPolicy": true,
+    "effectiveDate": "12/31/2013",
+
+    "objects": [
+      {
+        "database": "IR_AdventureWorks", 
+        "table": "FactInternetSales" 
+      }
+    ]
+  }
+}
+```
+
+|Refresh type  |Impact  |
+|---------|---------|
+|full     |  The policy is applied as described in [Incremental refresh in Power BI](https://docs.microsoft.com/power-bi/admin/service-premium-incremental-refresh). Assuming historical partitions have already been created by a prior refresh operation, a summary is described here: </br>- New partitions are added to the incremental range if needed. </br>- Partitions in the incremental range are refreshed in full. </br>- Historical partitions are not refreshed regardless of whether they have been cleared of data. </br>- Historical partitions that fall out of range are deleted. Recalculation of affected partitions and dependents. |
+|clearValues     |   applyRefreshPolicy does not affect behavior.      |
+|calculate     |   applyRefreshPolicy does not affect behavior.      |
+|dataOnly    |    Same as type=full, but without recalculation of affected partitions and dependents.     |
+|automatic     |  Same as type=full, but partitions in the incremental range are refreshed using type=automatic.       |
+|add     |   applyRefreshPolicy does not affect behavior.      |
+|defragment     |   applyRefreshPolicy does not affect behavior.      |
+
+::: moniker-end
+
 ## Response  
 
  Returns an empty result when the command succeeds. Otherwise, an XMLA exception is returned.  
