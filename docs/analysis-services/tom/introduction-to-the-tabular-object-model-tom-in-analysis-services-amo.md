@@ -1,6 +1,6 @@
 ---
 title: "Tabular Object Model (TOM) in AMO | Microsoft Docs"
-ms.date: 02/27/2020
+ms.date: 06/18/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -13,14 +13,14 @@ author: minewiskan
 
 [!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
-  The Tabular Object Model (TOM) is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher. As with AMO, TOM provides a programmatic way to handle administrative functions like creating models, importing and refreshing data, and assigning roles and permissions.  
+The Tabular Object Model (TOM) is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher. As with AMO, TOM provides a programmatic way to handle administrative functions like creating models, importing and refreshing data, and assigning roles and permissions. 
   
-TOM exposes native tabular metadata, such as **model**, **tables**, **columns**, and **relationships** objects. A high-level view of the object model tree, provided below, illustrates how the component parts are related.  
+TOM exposes native tabular metadata, such as **model**, **tables**, **columns**, and **relationships** objects. A high-level view of the object model tree, provided below, illustrates how the component parts are related.
   
- Because TOM is an extension of AMO, all classes representing new tabular objects are implemented in a new **Microsoft.AnalysisServices.Tabular.dll** assembly. General-purpose classes of AMO were moved to **Microsoft.AnalysisServices.Core** assembly. Your code will need to reference both assemblies.
- See [Install, distribute, and reference the Tabular Object Model &#40;Microsoft.AnalysisServices.Tabular&#41;](install-distribute-and-reference-the-tabular-object-model.md) for details.  
+Because TOM is an extension of AMO, all classes representing new tabular objects are implemented in a new **Microsoft.AnalysisServices.Tabular.dll** assembly. General-purpose classes of AMO were moved to **Microsoft.AnalysisServices.Core** assembly. Your code will need to reference both assemblies.
+See [Install, distribute, and reference the Tabular Object Model &#40;Microsoft.AnalysisServices.Tabular&#41;](install-distribute-and-reference-the-tabular-object-model.md) for details.  
   
- Currently, the API is available only for managed code over the .NET framework. To review the full list of programming options, including script and query language support, see [Tabular Model Programming for Compatibility Level 1200](/analysis-services/tabular-models/tabular-model-programming-for-compatibility-level-1200).  
+Currently, the API is available only for managed code over the .NET framework. To learn more about specific AMO/TOM classes, see [Microsoft.AnalysisServices Namespace reference](https://docs.microsoft.com/dotnet/api/microsoft.analysisservices). To review the full list of programming options for tabular models, including script and query language support, see [Tabular Model Programming for Compatibility Level 1200](/analysis-services/tabular-models/tabular-model-programming-for-compatibility-level-1200).  
   
 ## Tabular object model hierarchy
 
