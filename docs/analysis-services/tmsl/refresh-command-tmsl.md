@@ -148,6 +148,8 @@ For Power BI datasets, the following parameters can be added to a TMSL refresh c
 }
 ```
 
+The following table shows the impact when **applyRefreshPolicy** is true (default) on each of the refresh types for a table that contains an incremental refresh policy:
+
 |Refresh type  |Impact  |
 |---------|---------|
 |full     |  The policy is applied as described in [Incremental refresh in Power BI](https://docs.microsoft.com/power-bi/admin/service-premium-incremental-refresh). Assuming historical partitions have already been created by a prior refresh operation, a summary is described here: </br>- New partitions are added to the incremental range if needed. </br>- Partitions in the incremental range are refreshed in full. </br>- Historical partitions are not refreshed regardless of whether they have been cleared of data. </br>- Historical partitions that fall out of range are deleted. Recalculation of affected partitions and dependents. |
