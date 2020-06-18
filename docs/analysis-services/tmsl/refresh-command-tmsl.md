@@ -21,8 +21,9 @@ author: minewiskan
 - Change the **QueryDefinition** property of a **Partition** object to import data using an on-the-fly filter expression.  
   
 - Provide data source credentials as part of a **Refresh** command,  in the **ConnectionString** property of a **DataSource**  object. This  approach could be considered more secure, as credentials are provided and used temporarily for the duration of the operation, rather than stored.  
-
+::: moniker range="asallproducts-allversions || power-bi-premium-current"
 - Override default Power BI dataset incremental refresh policy.
+::: moniker end
 
  See the examples in this topic for an illustration of these property overrides.  
   
@@ -120,6 +121,7 @@ author: minewiskan
 }  
 ```
 
+::: moniker range="asallproducts-allversions || power-bi-premium-current"
 ### Optional parameters
 
 For Power BI datasets, the following parameters can be added to a TMSL refresh command to override the default incremental refresh behavior:
@@ -155,6 +157,7 @@ For Power BI datasets, the following parameters can be added to a TMSL refresh c
 |automatic     |  Same as type=full, but partitions in the incremental range are refreshed using type=automatic.       |
 |add     |   applyRefreshPolicy does not affect behavior.      |
 |defragment     |   applyRefreshPolicy does not affect behavior.      |
+::: moniker-end
 
 ## Response  
 
