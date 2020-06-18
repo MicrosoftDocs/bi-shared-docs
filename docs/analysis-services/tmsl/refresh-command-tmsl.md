@@ -21,21 +21,19 @@ author: minewiskan
 - Change the **QueryDefinition** property of a **Partition** object to import data using an on-the-fly filter expression.  
   
 - Provide data source credentials as part of a **Refresh** command,  in the **ConnectionString** property of a **DataSource**  object. This  approach could be considered more secure, as credentials are provided and used temporarily for the duration of the operation, rather than stored.  
-monikerRange: "asallproducts-allversions || power-bi-premium-current"
-- Default Power BI dataset incremental refresh policy.   
-::: moniker-end
-  
+
+- Override default Power BI dataset incremental refresh policy.
+
  See the examples in this topic for an illustration of these property overrides.  
   
 > [!NOTE]  
 >  Unlike multidimensional processing, there is no special handling of processing errors for tabular processing.  
 
-  
 ## Request  
 
  **Refresh** takes a type parameter and object definition.  
   
-```json   
+```json
     {  
         "refresh": {  
             "description": "Parameters of Refresh command of Analysis Services JSON API",  
@@ -52,7 +50,6 @@ monikerRange: "asallproducts-allversions || power-bi-premium-current"
                 ]  
             },  
             "objects": [  
-. . .   
 ```  
   
  The **type** parameter  sets a scope on the processing operation.  
@@ -72,7 +69,7 @@ monikerRange: "asallproducts-allversions || power-bi-premium-current"
   
  [Database object &#40;TMSL&#41;](database-object-tmsl.md) Process a database.  
   
-```json   
+```json
 {  
   "refresh": {  
     "type": "automatic",  
@@ -87,7 +84,7 @@ monikerRange: "asallproducts-allversions || power-bi-premium-current"
   
  [Tables object &#40;TMSL&#41;](tables-object-tmsl.md) Process a single table.  
   
-```json   
+```json
 {  
   "refresh": {  
     "type": "automatic",  
@@ -103,7 +100,7 @@ monikerRange: "asallproducts-allversions || power-bi-premium-current"
   
  [Partitions object &#40;TMSL&#41;](partitions-object-tmsl.md) Process a single partition within a table.  
   
-```json   
+```json
 {  
   "refresh": {  
     "type": "automatic",  
@@ -123,7 +120,6 @@ monikerRange: "asallproducts-allversions || power-bi-premium-current"
 }  
 ```
 
-monikerRange: "asallproducts-allversions || power-bi-premium-current"
 ### Optional parameters
 
 For Power BI datasets, the following parameters can be added to a TMSL refresh command to override the default incremental refresh behavior:
@@ -132,9 +128,8 @@ For Power BI datasets, the following parameters can be added to a TMSL refresh c
 
 - **effectiveDate** – If an incremental refresh policy is being applied, it needs to know the current date to determine rolling window ranges for the historical range and the incremental range. The effectiveDate parameter allows you to override the current date. This is useful for testing, demos, and business scenarios where data is incrementally refreshed up to a date in the past or the future (for example, budgets in the future). The default value is the [current date](https://docs.microsoft.com/power-bi/admin/service-premium-incremental-refresh#current-date).
 
-
 ```json
-{ 
+{
   "refresh": {
     "type": "full",
 
@@ -160,8 +155,6 @@ For Power BI datasets, the following parameters can be added to a TMSL refresh c
 |automatic     |  Same as type=full, but partitions in the incremental range are refreshed using type=automatic.       |
 |add     |   applyRefreshPolicy does not affect behavior.      |
 |defragment     |   applyRefreshPolicy does not affect behavior.      |
-
-::: moniker-end
 
 ## Response  
 
