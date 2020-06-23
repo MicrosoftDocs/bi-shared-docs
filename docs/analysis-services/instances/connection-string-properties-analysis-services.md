@@ -3,11 +3,11 @@ title: "Connection string properties (Analysis Services) | Microsoft Docs"
 ms.date: 04/13/2020
 ms.prod: sql
 ms.technology: analysis-services
-ms.custom:
 ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
+ms.custom: contperfq4
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Connection string properties
