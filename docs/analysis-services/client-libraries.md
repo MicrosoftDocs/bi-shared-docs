@@ -17,7 +17,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. In some cases, you may need to install newer versions of the client libraries. Custom client applications also require client libraries are installed.
 
-## Download the latest client libraries (Windows Installer)  
+## Download the latest
+
+### Windows Installer  
 
 |Download  | Version  |
 |---------|---------|
@@ -26,18 +28,18 @@ Client libraries are necessary for client applications and tools to connect to A
 |[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.4.0.2    |
 |[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.4.0.2     |
 
-## NuGet packages
+### NuGet packages
 
 Analysis Services Management Objects (AMO) and ADOMD client libraries are available as installable packages from [NuGet.org](https://www.nuget.org/). It's recommended you migrate to NuGet references instead of using Windows Installer.
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
-Starting June 2020, *preview* versions of [.NET Core](https://docs.microsoft.com/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. Preview versions have some limitations. To learn more, see [Known issues](#known-issues).
+Starting June 2020, *preview* versions of [.NET Core](https://docs.microsoft.com/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. Preview versions have some limitations. To learn more, see [Known issues](#known-issues) later in this article.
 
 ::: moniker-end
 
 NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR.PATCH. NuGet references load the expected version even if there is a different version in the GAC (resulting from MSI install). PATCH is incremented for each release. AMO and ADOMD versions are kept in-sync.
 
-### AMO and ADOMD
+#### AMO and ADOMD
 
 |Package  | Version  |
 |---------|---------|
@@ -46,7 +48,7 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
-### AMO and ADOMD .Net Core (Preview)
+#### AMO and ADOMD .Net Core (Preview)
 
 |Package  | Version  |
 |---------|---------|
@@ -61,9 +63,9 @@ Analysis Services utilizes three client libraries. ADOMD.NET and Analysis Servic
 
 Microsoft client applications like Power BI Desktop and Excel install all three client libraries and update them when new versions are available. Depending on the version or frequency of updates, some client libraries may not be the latest versions required by Azure Analysis Services and Power BI. The same applies to custom applications or other interfaces such as AsCmd, TOM, ADOMD.NET. These applications require manually or programmatically installing the libraries. The client libraries for manual installation are included in SQL Server feature packs as distributable packages. However, these client libraries are tied to the SQL Server version and may not be the latest. Make sure you always install the latest, downloadable from this article.  
 
-## Client library types
+### Client library types
 
-### Analysis Services OLE DB Provider (MSOLAP)
+#### Analysis Services OLE DB Provider (MSOLAP)
 
  Analysis Services OLE DB Provider (MSOLAP) is the native client library for Analysis Services database connections. It's used indirectly by both ADOMD.NET and AMO, delegating connection requests to the data provider. You can also call the OLE DB Provider directly from application code.  
   
@@ -71,11 +73,11 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
   
  OLE DB providers are often specified in connection strings. An Analysis Services connection string uses a different nomenclature to refer to the OLE DB Provider: MSOLAP.\<version>.dll.
 
-### AMO  
+#### AMO  
 
  AMO is a managed client library used for server administration and data definition. It's installed and used by tools and client applications. For example, SQL Server Management Studio (SSMS) uses AMO to connect to Analysis Services. A connection using AMO is typically minimal, consisting of `"data source=\<servername>"`. After a connection is established, you use the API to work with database collections and major objects. Both Visual Studio and SSMS use AMO to connect to an Analysis Services instance.  
 
-### ADOMD
+#### ADOMD
 
  ADOMD.NET is a managed data client library used for querying Analysis Services data. It's installed and used by tools and client applications.
   
@@ -105,7 +107,7 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
 
 ## Known issues
 
-### 19.4.0.2 Preview AMO and ADOMD .Net Core
+### 19.4.0.2 - AMO and ADOMD .Net Core (Preview) 
 
 - Features in preview should not be used in a production environment. Certain functionality, support, and documentation is limited. Refer to the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) for details.
 
