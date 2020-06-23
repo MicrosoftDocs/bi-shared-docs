@@ -11,9 +11,9 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
-
 # Analysis Services client libraries
+
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
 Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. In some cases, you may need to install newer versions of the client libraries. Custom client applications also require client libraries are installed.
 
@@ -30,8 +30,9 @@ Client libraries are necessary for client applications and tools to connect to A
 
 Analysis Services Management Objects (AMO) and ADOMD client libraries are available as installable packages from [NuGet.org](https://www.nuget.org/). It's recommended you migrate to NuGet references instead of using Windows Installer.
 
-::: monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
-Starting June 2020, *preview* versions of [.NET Core](https://docs.microsoft.com/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. Preview versions have some limitations. To learn more, see [Known issues](#know-issues).
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
+Starting June 2020, *preview* versions of [.NET Core](https://docs.microsoft.com/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. Preview versions have some limitations. To learn more, see [Known issues](#known-issues).
+
 ::: moniker-end
 
 NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR.PATCH. NuGet references load the expected version even if there is a different version in the GAC (resulting from MSI install). PATCH is incremented for each release. AMO and ADOMD versions are kept in-sync.
@@ -43,13 +44,15 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 |[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.4.0.2     |
 |[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.4.0.2      |
 
-::: monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
+
 ### AMO and ADOMD .Net Core (Preview)
 
 |Package  | Version  |
 |---------|---------|
 |[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64/19.4.0.2-Preview/)    |    19.4.0.2 (Preview)    |
 |[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64/19.4.0.2-Preview/)     |   19.4.0.2 (Preview)      |
+
 ::: moniker-end
 
 ## Understanding client libraries
@@ -76,7 +79,7 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
 
  ADOMD.NET is a managed data client library used for querying Analysis Services data. It's installed and used by tools and client applications.
   
- When connecting to a database, the connection string properties for all three libraries are similar. Almost any connection string you define for ADOMD.NET by using  [Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString](/dotnet/api/microsoft.analysisservices.adomdclient.adomdconnection.connectionstring#Microsoft_AnalysisServices_AdomdClient_AdomdConnection_ConnectionString) also works for AMO and the Analysis Services OLE DB Provider (MSOLAP). To learn more, see [Connection string properties &#40;Analysis Services&#41;](instances/connection-string-properties-analysis-services).  
+ When connecting to a database, the connection string properties for all three libraries are similar. Almost any connection string you define for ADOMD.NET by using  [Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString](/dotnet/api/microsoft.analysisservices.adomdclient.adomdconnection.connectionstring#Microsoft_AnalysisServices_AdomdClient_AdomdConnection_ConnectionString) also works for AMO and the Analysis Services OLE DB Provider (MSOLAP). To learn more, see [Connection string properties](instances/connection-string-properties-analysis-services.md).  
 
 ## How to determine client library version
   
@@ -98,7 +101,8 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
 1. Go to `C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.AnalysisServices.AdomdClient\`. If you have more than one folder, choose the higher number.
 2. Right-click **Microsoft.AnalysisServices.AdomdClient** > **Properties** > **Details**.  
 
-::: monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
+
 ## Known issues
 
 ### 19.4.0.2 Preview AMO and ADOMD .Net Core
@@ -110,4 +114,5 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
 - There has been limited performance and stress testing done for the public preview.
 
 - If the client library is unable to connect, you may receive an exception like `System.PlatformNotSupportedException: COM is not supported`. This exception will be improved in the next release to reveal the real reason for the connection failure.
+
 ::: moniker-end

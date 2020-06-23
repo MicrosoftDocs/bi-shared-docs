@@ -1300,7 +1300,7 @@
   - name: Connect
     items:
     - name: Client libraries
-      href: client libraries.md
+      href: client-libraries.md
     - name: Connection string properties
       href: ../analysis-services/instances/connection-string-properties-analysis-services.md
     - name: Connect to SQL Server Analysis Services
