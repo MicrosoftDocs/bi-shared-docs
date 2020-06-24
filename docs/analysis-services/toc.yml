@@ -1299,10 +1299,12 @@
       href: ../analysis-services/instances/automate-analysis-services-administrative-tasks-with-ssis.md
   - name: Connect
     items:
-    - name: Connect to SQL Server Analysis Services
-      href: ../analysis-services/instances/connect-from-client-applications-analysis-services.md
+    - name: Client libraries
+      href: client-libraries.md
     - name: Connection string properties
       href: ../analysis-services/instances/connection-string-properties-analysis-services.md
+    - name: Connect to SQL Server Analysis Services
+      href: ../analysis-services/instances/connect-from-client-applications-analysis-services.md
     - name: Authentication methodologies
       href: ../analysis-services/instances/authentication-methodologies-supported-by-analysis-services.md
     - name: Kerberos authentication
@@ -1311,14 +1313,14 @@
       href: ../analysis-services/instances/spn-registration-for-an-analysis-services-instance.md
     - name: HTTP Access
       href: ../analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0.md
-    - name: Client libraries (data providers)
-      href: ../analysis-services/instances/data-providers-used-for-analysis-services-connections.md
     - name: Disconnect users and sessions
       href: ../analysis-services/instances/disconnect-users-and-sessions-on-analysis-services-server.md
 - name: Developer
   items:
   - name: Developer documentation overview
     href: ../analysis-services/analysis-services-developer-documentation.md
+  - name: Client libraries
+    href: client-libraries.md
   - name: Tabular models
     items:
     - name: Tabular 1200 and higher

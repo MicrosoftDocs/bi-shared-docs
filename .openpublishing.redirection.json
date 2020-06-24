@@ -4857,6 +4857,11 @@
         "source_path": "docs/analysis-services/instances/connect-to-analysis-services.md",
         "redirect_url": "/analysis-services/instances/connect-from-client-applications-analysis-services",
         "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/instances/data-providers-used-for-analysis-services-connections.md",
+        "redirect_url": "/analysis-services/client-libraries",
+        "redirect_document_id": false
     }
 
   ]
