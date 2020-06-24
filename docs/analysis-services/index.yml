@@ -144,7 +144,7 @@ landingContent:
       - linkListType: download
         links:
         - text: Client libraries
-          url: https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers 
+          url: client-libraries.md 
       - linkListType: reference
         links:
           - text: Tabular Model Scripting Language (TMSL)
