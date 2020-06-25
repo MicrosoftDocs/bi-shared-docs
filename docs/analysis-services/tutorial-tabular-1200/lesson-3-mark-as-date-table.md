@@ -15,7 +15,7 @@ manager: kfile
 
 In Lesson 2: Add Data, you imported a dimension table named DimDate. While in your model this table is named DimDate, it can also be known as a *Date table*, in that it contains date and time data.  
   
-Whenever you use DAX time-intelligence functions in calculations, as you'll do when you create measures a little later, you must specify date table properties, which include a *Date table* and a unique identifier *Date column* in that table.
+Whenever you use DAX time intelligence functions in calculations, as you'll do when you create measures a little later, you must specify date table properties, which include a *Date table* and a unique identifier *Date column* in that table.
   
 In this lesson, you'll mark the DimDate table as the *Date table* and the Date column (in the Date table) as the *Date column* (unique identifier).  
 

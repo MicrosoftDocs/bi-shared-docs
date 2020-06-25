@@ -52,7 +52,7 @@ For example, there are differences in the way that certain relational data store
   
 In contrast, the DAX language is intended to emulate as closely as possible the behavior of functions in Microsoft Excel. For example, when handling nulls, empty strings and zero values, Excel attempts to provide the best answer regardless of the precise data type, and therefore the VertiPaq engine does the same. However, when a tabular model is deployed in DirectQuery mode and passes formulas to a relational data source, the data must be handled according to the semantics of the relational data source, which typically require distinct handling of empty strings vs. nulls. For this reason, the same formula might return a different result when evaluated against cached data and against data returned solely from the relational store.  
   
-Additionally, some functions aren't optimized for DirectQuery mode because the calculation would require the data in the current context be sent to the relational data source as a parameter. For example, measures using time-intelligence functions that reference date ranges in a calendar table. A relational data source might not have a calendar table, or at least one with .  
+Additionally, some functions aren't optimized for DirectQuery mode because the calculation would require the data in the current context be sent to the relational data source as a parameter. For example, measures using time intelligence functions that reference date ranges in a calendar table. A relational data source might not have a calendar table, or at least one with .  
   
 ## Semantic differences
 
