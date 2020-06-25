@@ -190,7 +190,7 @@ DAX provides a variety of functions you can use perform calculations using dates
   
 - DAX includes many functions that return a table, rather than a value. The table is not displayed in a reporting client, but is used to provide input to other functions. For example, you can retrieve a table and then count the distinct values in it, or calculate dynamic sums across filtered tables or columns.  
   
-- DAX functions include a variety of *time-intelligence* functions. These functions let you define or select date ranges, and perform dynamic calculations based on these dates or range. For example, you can compare sums across parallel periods.  
+- DAX functions include a variety of *time intelligence* functions. These functions let you define or select date ranges, and perform dynamic calculations based on these dates or range. For example, you can compare sums across parallel periods.  
   
 ### Date and time functions  
 
@@ -224,9 +224,9 @@ DAX provides statistical functions that perform aggregations. In addition to cre
 
 The text functions in DAX are very similar to their counterparts in Excel. You can return part of a string, search for text within a string, or concatenate string values. DAX also provides functions for controlling the formats for dates, times, and numbers. To learn more, see [Text Functions (DAX)](/dax/text-functions-dax).  
   
-### Time-intelligence functions  
+### Time intelligence functions  
 
-The time-intelligence functions provided in DAX let you create calculations that use built-in knowledge about calendars and dates. By using time and date ranges in combination with aggregations or calculations, you can build meaningful comparisons across comparable time periods for sales, inventory, and so on. To learn more, see [Time-intelligence Functions (DAX)](/dax/time-intelligence-functions-dax).  
+The time intelligence functions provided in DAX let you create calculations that use built-in knowledge about calendars and dates. By using time and date ranges in combination with aggregations or calculations, you can build meaningful comparisons across comparable time periods for sales, inventory, and so on. To learn more, see [Time intelligence Functions (DAX)](/dax/time-intelligence-functions-dax).  
   
 ### Table-valued functions  
 
@@ -236,7 +236,7 @@ There are DAX functions that output tables, take tables as input, or do both. Be
 
 **Aggregation functions** - Aggregate any expression over the rows of a table.  
 
-**Time-intelligence functions** - Return a table of dates, or use a table of dates to calculate an aggregation.  
+**Time intelligence functions** - Return a table of dates, or use a table of dates to calculate an aggregation.  
   
 ## Context in DAX formulas  
 

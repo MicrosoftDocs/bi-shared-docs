@@ -10,15 +10,15 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
-# Specify Mark as Date Table for use with time-intelligence
+# Specify Mark as Date Table for use with time intelligence
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-In order to use time-intelligence functions in DAX formulas, you must specify a date table and a unique identifier (datetime) column of the Date data type. Once a column in the date table is specified as a unique identifier, you can create relationships between columns in the date table and any fact tables.  
+In order to use time intelligence functions in DAX formulas, you must specify a date table and a unique identifier (datetime) column of the Date data type. Once a column in the date table is specified as a unique identifier, you can create relationships between columns in the date table and any fact tables.  
   
-When using time-intelligence functions, the following rules apply:  
+When using time intelligence functions, the following rules apply:  
   
-- When using DAX time-intelligence functions, never specify a datetime column from a fact table. Always create a separate date table in your model with at least one datetime column of Date data type and with unique values.  
+- When using DAX time intelligence functions, never specify a datetime column from a fact table. Always create a separate date table in your model with at least one datetime column of Date data type and with unique values.  
   
 - Make sure your date table has a continuous date range.  
   
@@ -48,4 +48,4 @@ When using time-intelligence functions, the following rules apply:
   
 ## See also  
   
- [Time-intelligence Functions (DAX)](/dax/time-intelligence-functions-dax)  
+ [Time intelligence Functions (DAX)](/dax/time-intelligence-functions-dax)  
