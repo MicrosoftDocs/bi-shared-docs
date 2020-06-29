@@ -16,7 +16,6 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 This article describes the types of data sources that can be used with **SQL Server Analysis Services** (SSAS) tabular models at the 1400 and higher compatibility level. For **Azure Analysis Services**, see [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource).
 
-
 ## Cloud data sources
 
 |Datasource  |In-memory  |DirectQuery  |
@@ -31,10 +30,10 @@ This article describes the types of data sources that can be used with **SQL Ser
 |Azure HDInsight Spark <sup>[2](#databricks)</sup>     |   Yes       |   No       |
 ||||
 
-<a name="gen2">1</a> - ADLS Gen2 is currently not supported.   
-<a name="databricks">2</a> - Azure Databricks using the Spark connector is currently not supported.   
+<a name="gen2">1</a> - ADLS Gen2 is currently not supported.  
+<a name="databricks">2</a> - Azure Databricks using the Spark connector is currently not supported.  
 
-**Provider**   
+**Provider**  
 In-memory and DirectQuery models connecting to Azure data sources use .NET Framework Data Provider for SQL Server.
 
 ## On-premises data sources
@@ -83,7 +82,6 @@ Saleforce Objects
 Salesforce Reports  
 SharePoint Online List  
 
-
 #### Other
 
 Active Directory  
@@ -95,6 +93,5 @@ SharePoint list
 
 ## See also
 
-[Data sources supported in SQL Server Analysis Services tabular 1200  models](data-sources-supported-ssas-tabular.md)
-
-[Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)   
+[Data sources supported in SQL Server Analysis Services tabular 1200  models](data-sources-supported-ssas-tabular.md)  
+[Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)  

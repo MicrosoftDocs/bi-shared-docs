@@ -1,6 +1,6 @@
 ---
 title: "Data sources supported in SQL Server Analysis Services tabular 1200 models | Microsoft Docs"
-ms.date: 04/21/2020
+ms.date: 06/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
