@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Enable Drillthrough for a Mining Model
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   If you have enabled drillthrough for a mining model, when you browse the model you can retrieve detailed information about the cases that were used to create the model. To view this information, you must have the necessary permissions, and the structure must have already been processed.  
   
  **Permissions** For a user to drill through to either model data or structure data, the user must be a member of a role that has [AllowDrillThrough](https://docs.microsoft.com/analysis-services/assl/properties/allowdrillthrough-element-assl) permissions on the mining model or mining structure. Drillthrough permissions are set separately on the structure and model.  
@@ -29,7 +29,7 @@ manager: kfile
   
 ### To enable drillthrough on a mining model  
   
-1.  In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], on the **Mining Models** tab of Data Mining Designer, right-click the name of the mining model on which you want to enable drillthrough, and select **Properties**.  
+1.  In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], on the **Mining Models** tab of Data Mining Designer, right-click the name of the mining model on which you want to enable drillthrough, and select **Properties**.  
   
 2.  In the **Properties** windows, click **AllowDrillthrough**, and select **True**.  
   
@@ -37,7 +37,7 @@ manager: kfile
   
 ### To enable caching for a mining structure  
   
-1.  In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], on the **Mining Structure** tab of Data Mining Designer, right-click the name of the mining structure.  
+1.  In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], on the **Mining Structure** tab of Data Mining Designer, right-click the name of the mining structure.  
   
 2.  Open the **Properties** window.  
   

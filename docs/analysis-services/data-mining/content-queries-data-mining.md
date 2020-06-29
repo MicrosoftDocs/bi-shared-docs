@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Content Queries (Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A content query is a way of extracting information about the internal statistics and structure of the mining model. Sometimes a content query can provide details that are not readily available in the viewer. You can also use the results of a content query to extract information programmatically for other uses.  
   
  This section provides general information about the types of information that you can retrieve by using a content query, and the general DMX syntax for content queries.  

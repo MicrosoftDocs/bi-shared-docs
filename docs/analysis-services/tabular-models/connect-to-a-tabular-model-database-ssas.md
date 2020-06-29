@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # Connect to a tabular model database
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
 
   After you build a tabular model and deploy it to an Analysis Services tabular mode server, you need to set permissions that make it available to client applications. This article explains how to set permissions and how to connect to a database from client applications.  
   
@@ -23,15 +23,15 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 
  Users who connect to tabular databases must have membership in a database role that specifies Read access.  
   
- Roles, and sometimes role membership, are defined when a model is authored in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], or for deployed models, by using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)]. For more information about creating roles by using Role Manager in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], see [Create and Manage Roles](../../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md).
+ Roles, and sometimes role membership, are defined when a model is authored in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], or for deployed models, by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]. For more information about creating roles by using Role Manager in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], see [Create and Manage Roles](../../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md).
   
 > [!CAUTION]  
->  Re-deploying a tabular model project with roles defined by using Role Manager in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] will overwrite roles defined in a deployed tabular model.  
+>  Re-deploying a tabular model project with roles defined by using Role Manager in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)] will overwrite roles defined in a deployed tabular model.  
   
 ##  <a name="bkmk_admin"></a> Administrative permissions on the server  
  For organizations that use SharePoint for hosting Excel workbooks or Reporting Services reports, additional configuration is required to make tabular model data available to SharePoint users. If you are not using SharePoint, skip this section.  
   
- Viewing Excel workbooks or [!INCLUDE[ssCrescent](../../includes/sscrescent-md.md)] reports that contain tabular data requires that the account used to run Excel Services or Reporting Services has administrator permissions on the Analysis Services instance. Administrative permissions are required so that these services are trusted by the Analysis Services instance.  
+ Viewing Excel workbooks or [!INCLUDE[ssCrescent](../includes/sscrescent-md.md)] reports that contain tabular data requires that the account used to run Excel Services or Reporting Services has administrator permissions on the Analysis Services instance. Administrative permissions are required so that these services are trusted by the Analysis Services instance.  
   
 #### Grant administrative access on the server  
   
@@ -43,7 +43,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
   
      In the following steps, you will add these accounts to the Server role on the Analysis Services instance.  
   
-3.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], connect to the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], right-click the server instance, and select **Properties**. In Object Explorer, right-click **Roles** and select **New Role**.  
+3.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], connect to the instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], right-click the server instance, and select **Properties**. In Object Explorer, right-click **Roles** and select **New Role**.  
   
 4.  In the Analysis Services Properties page, click **Security**.  
   
@@ -52,15 +52,15 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ##  <a name="bkmk_excelconn"></a> Connecting from Excel or SharePoint  
  Client libraries that provide access to Analysis Services databases can be used to connect to model databases that run on a tabular mode server. Libraries include the Analysis Services OLE DB provider, ADOMD.NET, and AMO.  
   
- Excel uses the OLE DB provider. If you have either MSOLAP.4 from SQL Server 2008 R2 (file name msolap100.dll, version 10.50.1600.1), or MSOLAP.5 (filename msolap110.dll) that is installed with the [!INCLUDE[ssSQL11](../../includes/sssql11-md.md)] version of [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for Excel, you have a version that will connect to tabular databases.  
+ Excel uses the OLE DB provider. If you have either MSOLAP.4 from SQL Server 2008 R2 (file name msolap100.dll, version 10.50.1600.1), or MSOLAP.5 (filename msolap110.dll) that is installed with the [!INCLUDE[ssSQL11](../includes/sssql11-md.md)] version of [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] for Excel, you have a version that will connect to tabular databases.  
   
  Choose from the following approaches to connect to model databases from Excel:  
   
 -   Create a data connection from within Excel, using the instructions provided in the next section.  
   
--   Create a BI semantic model connection (.bism) file in SharePoint that provides redirection to a database running on an Analysis Services tabular mode server. A BI semantic model connection file provides a right-click command that launches Excel using the model database that you specified in the connection. It will also launch [!INCLUDE[ssCrescent](../../includes/sscrescent-md.md)] if Reporting Services is installed. For more information about creating and using BI semantic model connection files, see [Create a BI Semantic Model Connection to a Tabular Model Database](../../analysis-services/power-pivot-sharepoint/create-a-bi-semantic-model-connection-to-a-tabular-model-database.md).  
+-   Create a BI semantic model connection (.bism) file in SharePoint that provides redirection to a database running on an Analysis Services tabular mode server. A BI semantic model connection file provides a right-click command that launches Excel using the model database that you specified in the connection. It will also launch [!INCLUDE[ssCrescent](../includes/sscrescent-md.md)] if Reporting Services is installed. For more information about creating and using BI semantic model connection files, see [Create a BI Semantic Model Connection to a Tabular Model Database](../../analysis-services/power-pivot-sharepoint/create-a-bi-semantic-model-connection-to-a-tabular-model-database.md).  
   
--   Create a Reporting Services shared data source that references a tabular database as the data source. You can create the shared data source in SharePoint and use it to launch [!INCLUDE[ssCrescent](../../includes/sscrescent-md.md)].  
+-   Create a Reporting Services shared data source that references a tabular database as the data source. You can create the shared data source in SharePoint and use it to launch [!INCLUDE[ssCrescent](../includes/sscrescent-md.md)].  
   
 #### Connect from Excel  
   
@@ -79,7 +79,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
  After the connection is established, you can use the data to create a PivotTable or PivotChart. For more information, see [Analyze in Excel](../../analysis-services/tabular-models/analyze-in-excel-ssas-tabular.md).  
   
 ##  <a name="bkmk_sharepoint"></a> Connect from SharePoint  
- If you are using [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint, you can create a BI semantic model connection file in SharePoint that provides redirection to a database running on an Analysis Services tabular mode server. A BI semantic model connection provides an HTTP endpoint to a database. It also simplifies tabular model access for knowledge workers who routinely use documents on a SharePoint site. Knowledge workers only need to know the location of the BI semantic model connection file or its URL to access tabular model databases. Details about server location or database name are encapsulated in the BI semantic model connection. For more information about creating and using BI semantic model connection files, see [Power Pivot BI Semantic Model Connection &#40;.bism&#41;](../../analysis-services/power-pivot-sharepoint/power-pivot-bi-semantic-model-connection-bism.md) and   [Create a BI Semantic Model Connection to a Tabular Model Database](../../analysis-services/power-pivot-sharepoint/create-a-bi-semantic-model-connection-to-a-tabular-model-database.md).  
+ If you are using [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] for SharePoint, you can create a BI semantic model connection file in SharePoint that provides redirection to a database running on an Analysis Services tabular mode server. A BI semantic model connection provides an HTTP endpoint to a database. It also simplifies tabular model access for knowledge workers who routinely use documents on a SharePoint site. Knowledge workers only need to know the location of the BI semantic model connection file or its URL to access tabular model databases. Details about server location or database name are encapsulated in the BI semantic model connection. For more information about creating and using BI semantic model connection files, see [Power Pivot BI Semantic Model Connection &#40;.bism&#41;](../../analysis-services/power-pivot-sharepoint/power-pivot-bi-semantic-model-connection-bism.md) and   [Create a BI Semantic Model Connection to a Tabular Model Database](../../analysis-services/power-pivot-sharepoint/create-a-bi-semantic-model-connection-to-a-tabular-model-database.md).  
   
 ##  <a name="bkmk_Tshoot"></a> Troubleshooting connection problems  
  This section provides cause and resolution steps for problems that occur while connecting to a tabular model database.  

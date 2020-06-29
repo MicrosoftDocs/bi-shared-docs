@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Cross-Validation Formulas
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   When you generate a cross-validation report, it contains accuracy measures for each model, depending on the type of mining model (that is, the algorithm that was used to create the model), the data type of the predictable attribute, and the predictable attribute value, if any.  
   
  This section lists the measures used in the cross-validation report and describes the method of calculation.  

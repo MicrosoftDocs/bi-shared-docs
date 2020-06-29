@@ -11,12 +11,12 @@ author: minewiskan
 manager: kfile
 ---
 # Add a Mining Model to an Existing Mining Structure
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   You can add more mining models to a mining structure, after you add the initial model. Each model must contain columns that exist in the structure, but you can define the usage of the columns differently for each mining model. For more information about how to define mining models columns, see [Mining Model Columns](../../analysis-services/data-mining/mining-model-columns.md).  
   
 ### To add a mining model to the structure  
   
-1.  From the **Mining Model** menu item in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], select **New Mining Model**.  
+1.  From the **Mining Model** menu item in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], select **New Mining Model**.  
   
      The **New Mining Model** dialog box opens.  
   

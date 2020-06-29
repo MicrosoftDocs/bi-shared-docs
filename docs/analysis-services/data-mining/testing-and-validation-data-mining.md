@@ -11,10 +11,10 @@ author: minewiskan
 manager: kfile
 ---
 # Testing and Validation (Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Validation is the process of assessing how well your mining models perform against real data. It is important that you validate your mining models by understanding their quality and characteristics before you deploy them into a production environment.  
   
- This section introduces some basic concepts related to model quality, and describes the strategies for model validation that are provided in [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. For an overview of how model validation fits into the larger data mining process, see [Data Mining Solutions](../../analysis-services/data-mining/data-mining-solutions.md).  
+ This section introduces some basic concepts related to model quality, and describes the strategies for model validation that are provided in [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. For an overview of how model validation fits into the larger data mining process, see [Data Mining Solutions](../../analysis-services/data-mining/data-mining-solutions.md).  
   
 ## Methods for Testing and Validation of Data Mining Models  
  There are many approaches for assessing the quality and characteristics of a data mining model.  
@@ -37,7 +37,7 @@ manager: kfile
  *Usefulness* includes various metrics that tell you whether the model provides useful information. For example, a data mining model that correlates store location with sales might be both accurate and reliable, but might not be useful, because you cannot generalize that result by adding more stores at the same location. Moreover, it does not answer the fundamental business question of why certain locations have more sales. You might also find that a model that appears successful in fact is meaningless, because it is based on cross-correlations in the data.  
   
 ## Tools for Testing and Validation of Mining Models  
- [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports multiple approaches to validation of data mining solutions, supporting all phases of the data mining test methodology.  
+ [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports multiple approaches to validation of data mining solutions, supporting all phases of the data mining test methodology.  
   
 -   Partitioning data into testing and training sets.  
   

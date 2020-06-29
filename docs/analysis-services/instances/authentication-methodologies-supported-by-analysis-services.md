@@ -11,7 +11,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Authentication methodologies supported by Analysis Services
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Connections from a client application to an Analysis Services instance require Windows authentication (integrated). You can provide a Windows user identity using any of the following methods:  
   
 -   NTLM  
@@ -54,7 +54,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
  **EffectiveUserName**  
   
- EffectiveUserName is a connection string property used for passing identity information to Analysis Services. [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint uses it to record user activity in the usage logs. Excel Services and PerformancePoint Services can use it to retrieve data used by workbooks or dashboards in SharePoint. It can also be used in custom applications or scripts that perform operations on an Analysis Services instance.  
+ EffectiveUserName is a connection string property used for passing identity information to Analysis Services. [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] for SharePoint uses it to record user activity in the usage logs. Excel Services and PerformancePoint Services can use it to retrieve data used by workbooks or dashboards in SharePoint. It can also be used in custom applications or scripts that perform operations on an Analysis Services instance.  
   
  For more information about using EffectiveUserName in SharePoint, see [Use Analysis Services EffectiveUserName in SharePoint Server 2010](https://go.microsoft.com/fwlink/?LinkId=311905).  
   

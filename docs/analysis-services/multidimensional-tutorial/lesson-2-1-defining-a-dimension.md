@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 2-1 - Defining a Dimension
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 In the following task, you will use the Dimension Wizard to build a Date dimension.  
   
@@ -62,7 +62,7 @@ In the following task, you will use the Dimension Wizard to build a Date dimensi
   
 11. Click **Finish** to complete the wizard.  
   
-    In Solution Explorer, in the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial project, the Date dimension appears in the **Dimensions** folder. In the center of the development environment, Dimension Designer displays the Date dimension.  
+    In Solution Explorer, in the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial project, the Date dimension appears in the **Dimensions** folder. In the center of the development environment, Dimension Designer displays the Date dimension.  
   
 12. On the **File** menu, click **Save All**.  
   

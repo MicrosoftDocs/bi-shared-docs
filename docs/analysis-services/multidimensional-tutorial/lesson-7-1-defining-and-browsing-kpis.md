@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 7-1 - Defining and Browsing KPIs
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 To define key performance indicators (KPIs), you first define a KPI name and the measure group to which the KPI is associated. A KPI can be associated with all measure groups or with a single measure group. You then define the following elements of the KPI:  
   
@@ -25,18 +25,18 @@ To define key performance indicators (KPIs), you first define a KPI name and the
   
 -   The status expression  
   
-    A status expression is an MDX expression that [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] uses to evaluate the current status of the value expression compared to the goal expression. A goal expression is a normalized value in the range of -1 to +1, where -1 is very bad, and +1 is very good. The status expression displays a graphic to help you easily determine the status of the value expression compared to the goal expression.  
+    A status expression is an MDX expression that [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses to evaluate the current status of the value expression compared to the goal expression. A goal expression is a normalized value in the range of -1 to +1, where -1 is very bad, and +1 is very good. The status expression displays a graphic to help you easily determine the status of the value expression compared to the goal expression.  
   
 -   The trend expression  
   
-    A trend expression is an MDX expression that [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] uses to evaluate the current trend of the value expression compared to the goal expression. The trend expression helps the business user to quickly determine whether the value expression is becoming better or worse relative to the goal expression. You can associate one of several graphics with the trend expression to help business users be able to quickly understand the trend.  
+    A trend expression is an MDX expression that [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses to evaluate the current trend of the value expression compared to the goal expression. The trend expression helps the business user to quickly determine whether the value expression is becoming better or worse relative to the goal expression. You can associate one of several graphics with the trend expression to help business users be able to quickly understand the trend.  
   
 In addition to these elements that you define for a KPI, you also define several properties of a KPI. These properties include a display folder, a parent KPI if the KPI is computed from other KPIs, the current time member if there is one, the weight of the KPI if it has one, and a description of the KPI.  
   
 > [!NOTE]  
 > For more examples of KPIs, see the KPI examples on the Templates tab in the Calculation Tools pane or in the examples in the **Adventure Works DW 2012** sample data warehouse. For more information about how to install this database, see [Install Sample Data and Projects for the Analysis Services Multidimensional Modeling Tutorial](install-sample-data-and-projects.md).  
   
-In the task in this lesson, you define  KPIs in the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial project, and you then browse the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube by using these KPIs. You will define the following KPIs:  
+In the task in this lesson, you define  KPIs in the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial project, and you then browse the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube by using these KPIs. You will define the following KPIs:  
   
 -   Reseller Revenue  
   
@@ -48,7 +48,7 @@ In the task in this lesson, you define  KPIs in the [!INCLUDE[ssASnoversion](../
   
 ## Defining the Reseller Revenue KPI  
   
-1.  Open Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **KPIs** tab.  
+1.  Open Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **KPIs** tab.  
   
     The **KPIs** tab includes several panes. On the left side of the tab are the **KPI Organizer** pane and the **Calculation Tools** pane. The display pane in the middle of the tab contains the details of the KPI that is selected in the **KPI Organizer** pane.  
   
@@ -129,7 +129,7 @@ In the task in this lesson, you define  KPIs in the [!INCLUDE[ssASnoversion](../
   
 ## Browsing the Cube by Using the Reseller Revenue KPI  
   
-1.  On the **Build** menu of [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], click **Deploy Analysis Service Tutorial**.  
+1.  On the **Build** menu of [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], click **Deploy Analysis Service Tutorial**.  
   
 2.  When deployment has successfully completed, on the toolbar of the **KPIs** tab, click the **Browser View** button, and then click **Reconnect**.  
   

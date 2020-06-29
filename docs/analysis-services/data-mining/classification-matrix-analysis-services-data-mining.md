@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Classification Matrix (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A *classification matrix* sorts all cases from the model into categories, by determining whether the predicted value matched the actual value. All the cases in each category are then counted, and the totals are displayed in the matrix. The classification matrix is a standard tool for evaluation of statistical models and is sometimes referred to as a *confusion matrix*.  
   
  The chart that is created when you choose the **Classification Matrix** option compares actual to predicted values for each predicted state that you specify. The rows in the matrix represent the predicted values for the model, whereas the columns represent the actual values. The categories used in analysis are *false positive*, *true positive*, *false negative*, and *true negative*  
@@ -52,7 +52,7 @@ manager: kfile
 |1|2|123|17|  
 |2|19|0|20|  
   
- Although the addition of more columns makes the report look more complex, the additional detail can be very useful when you want to assess the cumulative cost of making the wrong prediction. To create sums on the diagonals or to compare the results for different combinations of rows, you can click the **Copy** button provided in the **Classification Matrix** tab and paste the report into Excel. Alternatively, you can use a client such as the Data Mining Client for Excel, which supports [!INCLUDE[ssVersion2005](../../includes/ssversion2005-md.md)] and later versions, to create a classification report directly in Excel that includes both counts and percentages. For more information, see [SQL Server Data Mining](https://go.microsoft.com/fwlink/?LinkID=77733).  
+ Although the addition of more columns makes the report look more complex, the additional detail can be very useful when you want to assess the cumulative cost of making the wrong prediction. To create sums on the diagonals or to compare the results for different combinations of rows, you can click the **Copy** button provided in the **Classification Matrix** tab and paste the report into Excel. Alternatively, you can use a client such as the Data Mining Client for Excel, which supports [!INCLUDE[ssVersion2005](../includes/ssversion2005-md.md)] and later versions, to create a classification report directly in Excel that includes both counts and percentages. For more information, see [SQL Server Data Mining](https://go.microsoft.com/fwlink/?LinkID=77733).  
   
 ## Restrictions on the Classification Matrix  
  A classification matrix can be used only with discrete predictable attributes.  

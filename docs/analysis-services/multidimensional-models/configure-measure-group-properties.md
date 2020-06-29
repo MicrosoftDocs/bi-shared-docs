@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Configure Measure Group Properties
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Measures groups have properties that enable you to define how measure groups function.  
   
 ## Measure Group Properties  

@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Calling Stored Procedures
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Stored procedures can be called on the server or from client application. In either case, stored procedures always run on the server, either the context of the server or of a database. There are no special permissions required to execute a stored procedure. Once a stored procedure is added by an assembly to the server or database context, any user can execute the stored procedure as long as the role for the user permits the actions performed by the stored procedure.  
   
  Calling a stored procedure in MDX is done in the same manner as calling an intrinsic MDX function. For a stored procedure that takes no parameters, the name of the procedure and an empty pair of parentheses are used, as shown here:  
@@ -62,7 +62,7 @@ Call MyStoredProcedure(a,b,c)
   
  The only supported type returned from stored procedure in a **Call** statement is a rowset. The serialization for a rowset is defined by XML for Analysis. If a stored procedure in a **Call** statement returns any other type, it is ignored and not returned in XML to the calling application. For more information about XML for Analysis rowsets, see, XML for Analysis Schema Rowsets.  
   
- If a stored procedure returns a .NET rowset, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] converts the result on the server to an XML for Analysis rowset. The XML for Analysis rowset is always returned by a stored procedure in the **Call** function. If a dataset contains features that cannot be expressed in the XML for Analysis rowset, a failure results.  
+ If a stored procedure returns a .NET rowset, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] converts the result on the server to an XML for Analysis rowset. The XML for Analysis rowset is always returned by a stored procedure in the **Call** function. If a dataset contains features that cannot be expressed in the XML for Analysis rowset, a failure results.  
   
  Procedures that return void values (for example, subroutines in Visual Basic) can also be employed with the CALL keyword. If, for example, you wanted to use the function MyVoidFunction() in an MDX statement, the following syntax would be employed:  
   

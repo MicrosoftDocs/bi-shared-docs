@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Supported MDX (MDX)
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   The following statements and functions are supported within Multidimensional Expressions (MDX) Script:  
   
  [&#40;Comment&#41; &#40;MDX&#41;](/sql/mdx/comment-mdx-double-slash)  

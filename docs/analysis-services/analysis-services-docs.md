@@ -11,7 +11,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Understanding Analysis Services documentation
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
 If you're using Azure Analysis Services, SQL Server Analysis Services, or Power BI Premium datasets, this article can help you understand and find the documentation you are looking for. Be sure to take a few minutes to read this now. It could save you a lot of frustration down the road!
 

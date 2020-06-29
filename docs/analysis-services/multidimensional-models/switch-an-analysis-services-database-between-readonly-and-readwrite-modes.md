@@ -11,12 +11,12 @@ author: minewiskan
 manager: kfile
 ---
 # Switch an Analysis Services database between ReadOnly and ReadWrite modes
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database administrators can change the read/write mode of a Tabular or Multidimensional database as part of larger effort that distributes a query workload among multiple query-only servers.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database administrators can change the read/write mode of a Tabular or Multidimensional database as part of larger effort that distributes a query workload among multiple query-only servers.  
   
  A database mode can be switched in several ways. This document explains the following common scenarios:  
   
--   Interactively using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)]  
+-   Interactively using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]  
   
 -   Programmatically using AMO  
   
@@ -89,7 +89,7 @@ private void SwitchReadWrite(Server server, string dbName, ReadWriteMode dbReadW
   
 2.  Right-click the database and select **Detach...**  
   
-3.  Open a new XMLA tab in [!INCLUDE[ssManStudio](../../includes/ssmanstudio-md.md)].  
+3.  Open a new XMLA tab in [!INCLUDE[ssManStudio](../includes/ssmanstudio-md.md)].  
   
 4.  Copy the following script template for XMLA:  
   

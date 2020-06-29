@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Data Manipulation - RollupChildren Function
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   The Multidimensional Expressions (MDX) [RollupChildren](/sql/mdx/rollupchildren-mdx) function rolls up the children of a member, applying a different unary operator to each child, and returns the value of this rollup as a number. The unary operator can be supplied by a member property associated with the child member, or the operator can be a string expression provided directly to the function.  
   
 ## RollupChildren Function Examples  

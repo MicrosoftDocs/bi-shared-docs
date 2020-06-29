@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Create a Lift Chart, Profit Chart, or Classification Matrix
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  You can create an accuracy chart for an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] data mining model in five basic steps:  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  You can create an accuracy chart for an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data mining model in five basic steps:  
   
 -   Select the mining structure that contains the mining models that you want to compare.  
   
@@ -28,7 +28,7 @@ manager: kfile
   
 ### Open the mining structure in the Accuracy Chart Designer  
   
-1.  Open the Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)].  
+1.  Open the Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
 2.  In Solution Explorer, double-click the structure that contains the mining model or models.  
   
@@ -36,7 +36,7 @@ manager: kfile
   
 ### Select mining models for inclusion in the chart  
   
-1.  On the **Mining Accuracy Chart** tab of Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], click the **Input Selection** tab.  
+1.  On the **Mining Accuracy Chart** tab of Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], click the **Input Selection** tab.  
   
      The list displays all models in the current structure that have the same predictable attribute.  
   

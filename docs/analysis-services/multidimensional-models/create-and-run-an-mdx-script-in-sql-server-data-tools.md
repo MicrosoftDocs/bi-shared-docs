@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Create and Run an MDX Script in SQL Server Data Tools
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  To create and run an MDX Script in  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], you need to be in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] with a cube already created and ready for editing.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  To create and run an MDX Script in  [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], you need to be in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] with a cube already created and ready for editing.  
   
 ### To create a Multidimensional Expressions (MDX) script  
   

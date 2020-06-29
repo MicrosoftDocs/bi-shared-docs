@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 6-1 - Defining Calculated Members
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 Calculated members are members of a dimension or a measure group that are defined based on a combination of cube data, arithmetic operators, numbers, and functions. For example, you can create a calculated member that calculates the sum of two physical measures in the cube. Calculated member definitions are stored in cubes, but their values are calculated at query time.  
   
@@ -21,7 +21,7 @@ In the tasks in this topic, you define calculated measures to let users view the
   
 ## Defining Calculations to Aggregate Physical Measures  
   
-1.  Open Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Calculations** tab.  
+1.  Open Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Calculations** tab.  
   
     Notice the default CALCULATE command in the **Calculation Expressions** pane and in the **Script Organizer** pane. This command specifies that the measures in the cube should be aggregated according to the value that is specified by their AggregateFunction properties. Measure values are generally summed, but may also be counted or aggregated in some other manner.  
   
@@ -48,7 +48,7 @@ In the tasks in this topic, you define calculated measures to let users view the
     You can drag metadata elements from the **Calculation Tools** pane into the **Expression** box and then add operators and other elements to create Multidimensional Expressions (MDX) expressions. Alternatively, you can type the MDX expression directly into the **Expression** box.  
   
     > [!NOTE]  
-    > If you cannot view any metadata in the **Calculation Tools** pane, click **Reconnect** on the toolbar. If this does not work, you may have to process the cube or start the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)].  
+    > If you cannot view any metadata in the **Calculation Tools** pane, click **Reconnect** on the toolbar. If this does not work, you may have to process the cube or start the instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
 5.  Drag **Internet Sales-Sales Amount** from the **Metadata** tab in the **Calculation Tools** pane into the **Expression** box in the **Calculation Expressions** pane.  
   
@@ -60,7 +60,7 @@ In the tasks in this topic, you define calculated measures to let users view the
   
 9. In the **Non-empty behavior** list, select the check boxes for **Internet Sales-Sales Amount** and **Reseller Sales-Sales Amount**, and then click **OK**.  
   
-    The measures you specify in the **Non-empty behavior** list are used to resolve NON EMPTY queries in MDX. When you specify one or more measures in the **Non-empty behavior** list, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] treats the calculated member as empty if all the specified measures are empty. If the **Non-empty behavior** property is blank, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] must evaluate the calculated member itself to determine whether the member is empty.  
+    The measures you specify in the **Non-empty behavior** list are used to resolve NON EMPTY queries in MDX. When you specify one or more measures in the **Non-empty behavior** list, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] treats the calculated member as empty if all the specified measures are empty. If the **Non-empty behavior** property is blank, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] must evaluate the calculated member itself to determine whether the member is empty.  
   
     The following image shows the **Calculation Expressions** pane populated with the settings that you specified in the previous steps.  
   
@@ -241,7 +241,7 @@ In the tasks in this topic, you define calculated measures to let users view the
   
 ## Browsing the New Calculated Members  
   
-1.  On the **Build** menu of [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], click **Deploy Analysis Services Tutorial**.  
+1.  On the **Build** menu of [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], click **Deploy Analysis Services Tutorial**.  
   
 2.  When deployment has successfully completed, switch to the **Browser** tab, click **Reconnect**.  
   

@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 5-1 - Defining a Referenced Relationship
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 Up to this point in the tutorial, each cube dimension that you defined was based on a table that was directly linked to the fact table for a measure group by a primary key to foreign key relationship. In the tasks in this topic, you link the **Geography** dimension to the fact table for reseller sales through the **Reseller** dimension, which is called a *reference dimension*. This enables users to dimension reseller sales by geography. For more information, see [Define a Referenced Relationship and Referenced Relationship Properties](../multidimensional-models/define-a-referenced-relationship-and-referenced-relationship-properties.md).  
   
@@ -37,7 +37,7 @@ Up to this point in the tutorial, each cube dimension that you defined was based
   
     In the **Edit Relationship** dialog box, notice that the **GeographyKey** column is the primary key in the **Geography** table and the foreign key in the **Reseller** table.  
   
-7.  Click **Cancel**, switch to Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Dimension Usage** tab.  
+7.  Click **Cancel**, switch to Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Dimension Usage** tab.  
   
     Notice that the **Geography** cube dimension does not currently have a relationship with either the **Internet Sales** measure group or the **Reseller Sales** measure group.  
   
@@ -57,7 +57,7 @@ Up to this point in the tutorial, each cube dimension that you defined was based
   
 11. In the **Select relationship type** list, select **Referenced**.  
   
-    You define a referenced relationship by specifying a dimension that is directly connected to the measure group table, called an *intermediate dimension*, that [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] can use to link the reference dimension to the fact table. You then specify the attribute that links the reference dimension to the intermediate dimension.  
+    You define a referenced relationship by specifying a dimension that is directly connected to the measure group table, called an *intermediate dimension*, that [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] can use to link the reference dimension to the fact table. You then specify the attribute that links the reference dimension to the intermediate dimension.  
   
 12. In the **Intermediate dimension** list, select **Reseller**.  
   
@@ -83,7 +83,7 @@ In the next task, you will solve this problem by defining an attribute that is b
   
     The Geography Key attribute in the Reseller dimension will only be used to link the Geography dimension to the Reseller Sales fact table. Because it will not be used for browsing, there is no value in defining this attribute hierarchy as visible. Additionally, ordering and optimizing the attribute hierarchy will only negatively affect processing performance. However, the attribute must be enabled to serve as the link between the two dimensions.  
   
-4.  Switch to Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, click the **Dimension Usage** tab, and then click the ellipsis button (**...**) at the intersection of the **Reseller Sales** measure group and the **Geography** cube dimension.  
+4.  Switch to Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, click the **Dimension Usage** tab, and then click the ellipsis button (**...**) at the intersection of the **Reseller Sales** measure group and the **Geography** cube dimension.  
   
 5.  In the **Select relationship type** list, select **Referenced**.  
   
@@ -107,7 +107,7 @@ In the next task, you will solve this problem by defining an attribute that is b
   
 1.  On the **Build** menu, click **Deploy Analysis Services Tutorial**.  
   
-2.  When deployment has successfully completed, click the **Browser** tab in Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Reconnect** button.  
+2.  When deployment has successfully completed, click the **Browser** tab in Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Reconnect** button.  
   
 3.  In the metadata pane, expand **Reseller Geography**, right-click **Geographies**, and then click **Add to Row Area**.  
   

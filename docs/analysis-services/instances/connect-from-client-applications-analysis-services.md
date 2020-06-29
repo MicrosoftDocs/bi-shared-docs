@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Connect to SQL Server Analysis Services
 
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 This article describes connecting to an instance of SQL Server Analysis Services (SSAS) using common tools and applications. This article also explains how to connect under different user identities for testing purposes.  
 
@@ -39,7 +39,7 @@ You can test permissions by running SSMS under a specific user identity and then
   
 Hold-down the Shift key and right-click the **SQL Server Management Studio** shortcut to access the **Run as different user** option.  
   
-1.  Start [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)]. In the **Connect to Server** dialog box, select the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] server type.  
+1.  Start [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]. In the **Connect to Server** dialog box, select the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] server type.  
   
 2.  In the Login tab, enter the server name by typing the name of the computer on which the server is running. You can specify the server using its network name or a fully-qualified domain name.  
   
@@ -65,11 +65,11 @@ Hold-down the Shift key and right-click the **SQL Server Management Studio** sho
   
 ## Connect using Excel
 
-Microsoft Excel is often used for analyzing business data. As part of an Excel installation, Office installs the Analysis Services OLE DB provider (MSOLAP DLL), ADOMD.NET, and other data providers so that you can more readily use the data on your network servers. If you are using a newer version of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] with an older version of Excel, you most likely need to install newer client libraries on each workstation that connects to [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. To learn more, see [Client libraries](../client-libraries.md).  
+Microsoft Excel is often used for analyzing business data. As part of an Excel installation, Office installs the Analysis Services OLE DB provider (MSOLAP DLL), ADOMD.NET, and other data providers so that you can more readily use the data on your network servers. If you are using a newer version of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] with an older version of Excel, you most likely need to install newer client libraries on each workstation that connects to [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. To learn more, see [Client libraries](../client-libraries.md).  
   
 When you set up a connection to an Analysis Services cube or tabular model database, Excel saves the connection information in .odc file for future use. The connection is made in security context of the current Windows user. The user account must have read permissions on the database in order for the connection to succeed.  
   
-When using [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] data in an Excel workbook, connections are held for the duration of a query request. This is why you are likely to see lots of connections for each session, held for very short periods of time, when monitoring a query workload from Excel.  
+When using [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data in an Excel workbook, connections are held for the duration of a query request. This is why you are likely to see lots of connections for each session, held for very short periods of time, when monitoring a query workload from Excel.  
   
 You can test permissions by starting Excel under a specific user identity.  
   
@@ -96,7 +96,7 @@ Hold-down the Shift key and right-click the **Excel** shortcut to access the **R
 - [Analysis Services Connection Manager](/sql/integration-services/connection-manager/analysis-services-connection-manager)  
   
 > [!NOTE]  
->  When using Visual Studio to work on an existing Analysis Services project, remember that you can connect offline using a local or version controlled project, or connect in online mode to update Analysis Services objects while the database is running. For more information, see [Connect in Online Mode to an Analysis Services Database](../../analysis-services/multidimensional-models/connect-in-online-mode-to-an-analysis-services-database.md). More commonly, connections from [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] are in project mode, where changes are deployed to the database only when you explicitly deploy the project.  
+>  When using Visual Studio to work on an existing Analysis Services project, remember that you can connect offline using a local or version controlled project, or connect in online mode to update Analysis Services objects while the database is running. For more information, see [Connect in Online Mode to an Analysis Services Database](../../analysis-services/multidimensional-models/connect-in-online-mode-to-an-analysis-services-database.md). More commonly, connections from [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)] are in project mode, where changes are deployed to the database only when you explicitly deploy the project.  
   
 ## Test connections
 
@@ -114,7 +114,7 @@ Use SQL Server Profiler to monitor connections to Analysis Services. The Audit L
   
 -   **Firewall rules on the server allow inbound connections from clients in the same domain**  
   
-     With the exception of [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint, all connections to a remote server require that you have configured the firewall to allow access to the port that Analysis Services is listening on. If you are getting connection errors, verify that the port is accessible and that user permissions are granted to the appropriate databases.  
+     With the exception of [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] for SharePoint, all connections to a remote server require that you have configured the firewall to allow access to the port that Analysis Services is listening on. If you are getting connection errors, verify that the port is accessible and that user permissions are granted to the appropriate databases.  
   
      To test, use Excel or SSMS to on a remote computer, specifying the IP address and port used by the Analysis Services instance. If you can connection, the firewall rules are valid for the instance and the instance allows remote connections.  
   

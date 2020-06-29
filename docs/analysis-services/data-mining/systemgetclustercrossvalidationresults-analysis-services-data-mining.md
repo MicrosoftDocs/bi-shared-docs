@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # SystemGetClusterCrossValidationResults (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Partitions the mining structure into the specified number of cross-sections, trains a model for each partition, and then returns accuracy metrics for each partition.  
   
  **Note** This stored procedure can be used only with a mining structure that contains at least one clustering model. To cross-validate non-clustering models, you must use [SystemGetCrossValidationResults &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/systemgetcrossvalidationresults-analysis-services-data-mining.md).  
@@ -123,7 +123,7 @@ CALL SystemGetClusterCrossValidationResults(
 |Cluster 2|||3|1288|Clustering|Case Likelihood|0.924724595688798|  
   
 ## Requirements  
- Cross-validation is available only in [!INCLUDE[ssEnterprise](../../includes/ssenterprise-md.md)] beginning in [!INCLUDE[ssKatmai](../../includes/sskatmai-md.md)].  
+ Cross-validation is available only in [!INCLUDE[ssEnterprise](../includes/ssenterprise-md.md)] beginning in [!INCLUDE[ssKatmai](../includes/sskatmai-md.md)].  
   
 ## See Also  
  [SystemGetCrossValidationResults &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/systemgetcrossvalidationresults-analysis-services-data-mining.md)   

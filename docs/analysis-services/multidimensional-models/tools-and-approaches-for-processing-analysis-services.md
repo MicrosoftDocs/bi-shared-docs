@@ -11,24 +11,24 @@ author: minewiskan
 manager: kfile
 ---
 # Tools and Approaches for Processing (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Processing is an operation in which Analysis Services queries a relational data source and populates Analysis Services objects using that data.  
   
- As an Analysis Services system administrator, you can execute and monitor the processing of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] objects using these approaches:  
+ As an Analysis Services system administrator, you can execute and monitor the processing of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] objects using these approaches:  
   
 -   Run Impact Analysis to understand object dependencies and scope of operations  
   
--   Process individual objects in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)]  
+-   Process individual objects in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]  
   
--   Process individual or multiple objects in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)]  
+-   Process individual or multiple objects in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)]  
   
 -   Run Impact Analysis to review a list of related objects that will be unprocessed as result of the current action.  
   
--   Generate and run a script in an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] XMLA Query window in [!INCLUDE[ssManStudio](../../includes/ssmanstudio-md.md)] to process individual or multiple objects  
+-   Generate and run a script in an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] XMLA Query window in [!INCLUDE[ssManStudio](../includes/ssmanstudio-md.md)] to process individual or multiple objects  
   
--   Use [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] PowerShell cmdlets  
+-   Use [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] PowerShell cmdlets  
   
--   Use control flows and tasks in [!INCLUDE[ssIS](../../includes/ssis-md.md)] packages  
+-   Use control flows and tasks in [!INCLUDE[ssIS](../includes/ssis-md.md)] packages  
   
 -   Monitor processing with SQL Server Profiler  
   
@@ -41,7 +41,7 @@ manager: kfile
   
 ### Processing objects in SQL Server Management Studio  
   
-1.  Start [!INCLUDE[ssManStudio](../../includes/ssmanstudio-md.md)] and connect to Analysis Services.  
+1.  Start [!INCLUDE[ssManStudio](../includes/ssmanstudio-md.md)] and connect to Analysis Services.  
   
 2.  Right-click the Analysis Services object you want to process and then click **Process**. You can process data at any of these levels:  
   
@@ -71,7 +71,7 @@ manager: kfile
   
 ### Processing Objects in SQL Server Data Tools  
   
-1.  Start [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] and open a project that has been deployed.  
+1.  Start [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] and open a project that has been deployed.  
   
 2.  In Solution Explorer, under the deployed project, expand the **Dimensions** folder.  
   
@@ -85,15 +85,15 @@ manager: kfile
   
 ##  <a name="bkmk_impactanalysis"></a> Run Impact Analysis to identify object dependencies and scope of operations  
   
-1.  Before you process an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] object in either [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] or [!INCLUDE[ssManStudio](../../includes/ssmanstudio-md.md)], you can analyze the effect on related objects by clicking **Impact Analysis** in one of the **Process Objects** dialog boxes.  
+1.  Before you process an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] object in either [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)] or [!INCLUDE[ssManStudio](../includes/ssmanstudio-md.md)], you can analyze the effect on related objects by clicking **Impact Analysis** in one of the **Process Objects** dialog boxes.  
   
 2.  Right-click a dimension, cube, measure group, or partition to open a **Process Objects** dialog box.  
   
-3.  Click **Impact Analysis**. [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] scans the model and reports on reprocessing requirements for objects that are related to the one you selected for processing.  
+3.  Click **Impact Analysis**. [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] scans the model and reports on reprocessing requirements for objects that are related to the one you selected for processing.  
   
 ### Processing objects using XMLA  
   
-1.  Start [!INCLUDE[ssManStudio](../../includes/ssmanstudio-md.md)] and connect to Analysis Services.  
+1.  Start [!INCLUDE[ssManStudio](../includes/ssmanstudio-md.md)] and connect to Analysis Services.  
   
 2.  Right-click the object to be processed and then click **Process**.  
   
@@ -101,7 +101,7 @@ manager: kfile
   
 4.  Click **Script** on the **Process Objects** screen.  
   
-     This generates an XMLA script and opens an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] XMLA Query window.  
+     This generates an XMLA script and opens an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] XMLA Query window.  
   
 5.  Close the dialog box. The script contains the processing command and options that were specified in the dialog box.  
   
@@ -134,7 +134,7 @@ Starting in this release of SQL Server, you can use Analysis Services PowerShell
   
 ### Process Analysis Services objects using Integration Services  
   
-1.  In [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)], create a package that uses the Analysis Services Processing Task to automatically populate objects with new data when you make regular updates to your source relational database.  
+1.  In [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)], create a package that uses the Analysis Services Processing Task to automatically populate objects with new data when you make regular updates to your source relational database.  
   
 2.  In the **SSIS Toolbox**, double-click **Analysis Services Processing** to add it to the package.  
   

@@ -11,7 +11,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # What's New in SQL Server Analysis Services 
 
-[!INCLUDE[ssas-appliesto-sql2016-later](../includes/ssas-appliesto-sql2016-later.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later](includes/ssas-appliesto-sql2016-later.md)]
 
 This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS). New features and improvements are cumulative.
 
@@ -355,11 +355,11 @@ New in this release is a built-in approach for enabling bi-directional cross fil
 
 #### Translations
 
- You can now store translated metadata in a tabular 1200 model. Metadata in the model includes fields for **Culture**, translated captions, and translated descriptions. To add translations, use the **Model** > **Translations** command in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)]. See [Translations in tabular models &#40;Analysis Services&#41;](../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md) for details.
+ You can now store translated metadata in a tabular 1200 model. Metadata in the model includes fields for **Culture**, translated captions, and translated descriptions. To add translations, use the **Model** > **Translations** command in [!INCLUDE[ssBIDevStudio](includes/ssbidevstudio-md.md)]. See [Translations in tabular models &#40;Analysis Services&#41;](../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md) for details.
 
 #### Pasted tables
 
- You can now upgrade an 1100 or 1103 tabular model to 1200 when the model contains pasted tables. We recommend using [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)]. In SSDT, set **CompatibilityLevel** to 1200 and then deploy to a [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. See [Compatibility Level for Tabular models in Analysis Services](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) for details.
+ You can now upgrade an 1100 or 1103 tabular model to 1200 when the model contains pasted tables. We recommend using [!INCLUDE[ssBIDevStudio](includes/ssbidevstudio-md.md)]. In SSDT, set **CompatibilityLevel** to 1200 and then deploy to a [!INCLUDE[ssCurrent](includes/sscurrent-md.md)] instance of [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)]. See [Compatibility Level for Tabular models in Analysis Services](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) for details.
 
 #### Calculated tables in SSDT
 
@@ -387,7 +387,7 @@ A *calculated table* is a model-only construction based on a DAX expression or q
 
 #### Add computer accounts as Administrators in SSMS
 
- [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] administrators can now use [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] to configure computer accounts to be members of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] administrators group. In the **Select Users or Groups** dialog, set the **Locations** for the computers domain and then add the **Computers** object type. For more information, see [Grant server admin rights to an  Analysis Services instance](../analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance.md).  
+ [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] administrators can now use [!INCLUDE[ssManStudioFull](includes/ssmanstudiofull-md.md)] to configure computer accounts to be members of the [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] administrators group. In the **Select Users or Groups** dialog, set the **Locations** for the computers domain and then add the **Computers** object type. For more information, see [Grant server admin rights to an  Analysis Services instance](../analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance.md).  
 
 #### DBCC for Analysis Services
 
@@ -395,7 +395,7 @@ A *calculated table* is a model-only construction based on a DAX expression or q
 
 #### Extended Events updates
 
- This release adds a graphical user interface to [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] to configure and manage [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Extended Events. You can set up live data streams to monitor server activity in real time, keep session data loaded in memory for faster analysis, or save data streams to a file for offline analysis. For more information, see [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md) and [Using extended events with Analysis Services (Guy in a Cube blog post and video)](https://blogs.msdn.com/b/analysisservices/archive/2015/09/22/using-extended-events-with-sql-server-analysis-services-2016-cpt-2-3.aspx).
+ This release adds a graphical user interface to [!INCLUDE[ssManStudioFull](includes/ssmanstudiofull-md.md)] to configure and manage [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] Extended Events. You can set up live data streams to monitor server activity in real time, keep session data loaded in memory for faster analysis, or save data streams to a file for offline analysis. For more information, see [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md) and [Using extended events with Analysis Services (Guy in a Cube blog post and video)](https://blogs.msdn.com/b/analysisservices/archive/2015/09/22/using-extended-events-with-sql-server-analysis-services-2016-cpt-2-3.aspx).
 
 ### Scripting
 

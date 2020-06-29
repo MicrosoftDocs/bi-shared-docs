@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Define Named Queries in a Data Source View (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A named query is a SQL expression represented as a table. In a named query, you can specify an SQL expression to select rows and columns returned from one or more tables in one or more data sources. A named query is like any other table in a data source view (DSV) with rows and relationships, except that the named query is based on an expression.  
   
  A named query lets you extend the relational schema of existing tables in DSV without modifying the underlying data source. For example, a series of named queries can be used to split up a complex dimension table into smaller, simpler dimension tables for use in database dimensions. A named query can also be used to join multiple database tables from one or more data sources into a single data source view table.  
@@ -25,11 +25,11 @@ manager: kfile
   
  Tables and columns referenced in the SQL query should not be qualified or should be qualified by the table name only. For example, to refer to the SaleAmount column in a table, `SaleAmount` or `Sales.SaleAmount` is valid, but `dbo.Sales.SaleAmount` generates an error.  
   
- **Note** When defining a named query that queries a [!INCLUDE[ssVersion2000](../../includes/ssversion2000-md.md)] or [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] 7.0 data source, a named query that contains a correlated subquery and a GROUP BY clause will fail. For more information, see [Internal Error with SELECT Statement Containing Correlated Subquery and GROUP BY](https://support.microsoft.com/kb/274729) in the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Knowledge Base.  
+ **Note** When defining a named query that queries a [!INCLUDE[ssVersion2000](../includes/ssversion2000-md.md)] or [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] 7.0 data source, a named query that contains a correlated subquery and a GROUP BY clause will fail. For more information, see [Internal Error with SELECT Statement Containing Correlated Subquery and GROUP BY](https://support.microsoft.com/kb/274729) in the [!INCLUDE[msCoName](../includes/msconame-md.md)] Knowledge Base.  
   
 ## Add or Edit a Named Query  
   
-1.  In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], open the project or connect to the database that contains the data source view in which you want to add a named query.  
+1.  In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], open the project or connect to the database that contains the data source view in which you want to add a named query.  
   
 2.  In Solution Explorer, expand the **Data Source Views** folder, then double-click the data source view.  
   

@@ -35,10 +35,10 @@ manager: kfile
   
 -   Data sources  
   
- You use the [Create](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/create-element-xmla) command to create a major object on an instance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], and the [Alter](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/alter-element-xmla) command to alter an existing major object on an instance. Both commands are run using the [Execute](https://docs.microsoft.com/analysis-services/xmla/xml-elements-methods-execute) method.  
+ You use the [Create](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/create-element-xmla) command to create a major object on an instance of [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], and the [Alter](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/alter-element-xmla) command to alter an existing major object on an instance. Both commands are run using the [Execute](https://docs.microsoft.com/analysis-services/xmla/xml-elements-methods-execute) method.  
   
 ## Creating Objects  
- When you create objects by using the **Create** method, you must first identify the parent object that contains the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] object to be created. You identify the parent object by providing an object reference in the [ParentObject](https://docs.microsoft.com/analysis-services/xmla/xml-elements-properties/object-element-xmla) property of the **Create** command. Each object reference contains the object identifiers needed to uniquely identify the parent object for the **Create** command. For more information about object references, see [Defining and Identifying Objects &#40;XMLA&#41;](../../analysis-services/multidimensional-models-scripting-language-assl-xmla/defining-and-identifying-objects-xmla.md).  
+ When you create objects by using the **Create** method, you must first identify the parent object that contains the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] object to be created. You identify the parent object by providing an object reference in the [ParentObject](https://docs.microsoft.com/analysis-services/xmla/xml-elements-properties/object-element-xmla) property of the **Create** command. Each object reference contains the object identifiers needed to uniquely identify the parent object for the **Create** command. For more information about object references, see [Defining and Identifying Objects &#40;XMLA&#41;](../../analysis-services/multidimensional-models-scripting-language-assl-xmla/defining-and-identifying-objects-xmla.md).  
   
  For example, you must provide an object reference to a cube to create a new measure group for the cube. The object reference for the cube in the **ParentObject** property contains both a database identifier and a cube identifier, as the same cube identifier could potentially be used on a different database.  
   
@@ -80,7 +80,7 @@ manager: kfile
 ## Examples  
   
 ### Description  
- The following example creates a relational data source that references the [!INCLUDE[ssAWDWsp](../../includes/ssawdwsp-md.md)] sample [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] database.  
+ The following example creates a relational data source that references the [!INCLUDE[ssAWDWsp](../includes/ssawdwsp-md.md)] sample [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] database.  
   
 ### Code  
   

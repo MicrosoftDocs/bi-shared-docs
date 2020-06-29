@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Merge Partitions in Analysis Services (SSAS - Multidimensional)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  You can merge partitions in an existing [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database to consolidate fact data from multiple partitions of the same measure group.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  You can merge partitions in an existing [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database to consolidate fact data from multiple partitions of the same measure group.  
   
  [Common scenarios](#bkmk_Scenario)  
   
@@ -50,7 +50,7 @@ manager: kfile
   
  If the target partition is empty (that is, it has an aggregation design but no aggregations), merge will drop the aggregations for the source partitions. You must run Process Index, Process Full, or Process Default on the partition to build the aggregations.  
   
- Remote partitions can be merged only with other remote partitions that are defined with the same remote instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)].  
+ Remote partitions can be merged only with other remote partitions that are defined with the same remote instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
 > [!NOTE]  
 >  If you are using a combination of local and remote partitions, an alternative approach is to create new partitions that include the combined data, deleting the partitions you no longer use.  
