@@ -294,9 +294,9 @@
         href: ../analysis-services/tabular-models/column-properties-ssas-tabular.md
     - name: Import data
       items:
-      - name: Data sources supported in tabular 1400 models
+      - name: Data sources supported in SSAS tabular 1400 and higher models
         href: ../analysis-services/tabular-models/data-sources-supported-ssas-tabular-1400.md
-      - name: Data sources supported in tabular 1200 models
+      - name: Data sources supported in SSAS tabular 1200 models
         href: ../analysis-services/tabular-models/data-sources-supported-ssas-tabular.md
       - name: Data types supported
         href: ../analysis-services/tabular-models/data-types-supported-ssas-tabular.md
@@ -318,7 +318,7 @@
         href: ../analysis-services/tabular-models/define-partitions-in-directquery-models-ssas-tabular.md
       - name: Test a model in DirectQuery mode
         href: ../analysis-services/tabular-models/test-a-model-in-directquery-mode.md
-      - name: DAX formula compatibility in DirectQuery mode (SSAS 2016)
+      - name: DAX formula compatibility in DirectQuery mode
         href: ../analysis-services/tabular-models/dax-formula-compatibility-in-directquery-mode-ssas-2016.md
     - name: Tables and columns
       items:

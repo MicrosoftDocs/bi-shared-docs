@@ -1,6 +1,6 @@
 ---
 title: "Data sources supported in SQL Server Analysis Services tabular 1200 models | Microsoft Docs"
-ms.date: 04/21/2020
+ms.date: 06/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,17 +8,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Data sources supported in SQL Server Analysis Services tabular 1200 models
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all](../../includes/ssas-appliesto-sqlas-all.md)]
   
-This article describes the types of data sources that can be used with SQL Server Analysis Services tabular models at the 1200 and lower compatibility level. 
-
-For models at the 1400 and higher compatibility levels, see [Data sources supported in SQL Server Analysis Services tabular 1400 and higher  models](data-sources-supported-ssas-tabular-1400.md).
-
-For Azure Analysis Services, see [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource).
+This article describes the types of data sources that can be used with **SQL Server Analysis Services** (SSAS) tabular models at the 1200 and lower compatibility level. For **Azure Analysis Services**, see [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource).
   
 ## Supported data sources for in-memory tabular models
 
@@ -59,7 +55,6 @@ SQL Server relational databases    |  SQL Server 2008 and later, SQL Server Data
 Oracle relational databases     |  Oracle 9i and later       |  Oracle OLE DB Provider       
 Teradata relational databases    |  Teradata V2R6 and later     | .Net Data Provider for Teradata    
 
-  
 ## Tips for choosing data sources  
   
 Importing tables from relational databases saves you steps because *foreign key* relationships are used during import to create relationships between tables in the model designer.  
