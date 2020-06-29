@@ -11,17 +11,17 @@ author: minewiskan
 manager: kfile
 ---
 # Use Aggregate Functions
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   When a dimension is used to slice a measure, the measure is summarized along the hierarchies contained in that dimension. The summation behavior depends on the aggregate function specified for the measure. For most measures containing numeric data, the aggregate function is **Sum**. The value of the measure will sum to different amounts depending on which level of the hierarchy is active.  
   
  In Analysis Services, every measure that you create is backed by an aggregation function that determines the measure's operation. Predefined aggregation types include **Sum**, **Min**, **Max**, **Count**, **Distinct Count**, and several other more specialized functions. Alternatively, if you require aggregations based on complex or custom formulas, you can build an MDX calculation in lieu of using a prebuilt aggregation function. For example, if you want to define a measure for a percentage value, you would do that in MDX, using a calculated measure. See [CREATE MEMBER Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-member).  
   
  Measures that are created via the Cube Wizard are assigned an aggregation type as part of the measure definition. The aggregation type is always **Sum**, assuming the source column contains numeric data. **Sum** is assigned regardless of the source column's data type. For example, if you used the Cube Wizard to create measures, and you pulled in all columns from a fact table, you will notice that all of the resulting measures have an aggregation of **Sum**, even if the source is a date time column. Always review the pre-assigned aggregation methods for measures created via the wizard to make sure the aggregation function is suitable.  
   
- You can assign or change the aggregation method in the either the cube definition, via [!INCLUDE[ss_dtbi](../../includes/ss-dtbi-md.md)], or via MDX. See [Create Measures and Measure Groups in Multidimensional Models](../../analysis-services/multidimensional-models/create-measures-and-measure-groups-in-multidimensional-models.md) or [Aggregate &#40;MDX&#41;](/sql/mdx/aggregate-mdx) for further instructions.  
+ You can assign or change the aggregation method in the either the cube definition, via [!INCLUDE[ss_dtbi](../includes/ss-dtbi-md.md)], or via MDX. See [Create Measures and Measure Groups in Multidimensional Models](../../analysis-services/multidimensional-models/create-measures-and-measure-groups-in-multidimensional-models.md) or [Aggregate &#40;MDX&#41;](/sql/mdx/aggregate-mdx) for further instructions.  
   
 ##  <a name="AggFunction"></a> Aggregate Functions  
- [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] provides functions to aggregate measures along the dimensions that are contained in measure groups. The *additivity* of an aggregation function determines how the measure is aggregated across all the dimensions in the cube. Aggregation functions fall into three levels of additivity:  
+ [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] provides functions to aggregate measures along the dimensions that are contained in measure groups. The *additivity* of an aggregation function determines how the measure is aggregated across all the dimensions in the cube. Aggregation functions fall into three levels of additivity:  
   
  Additive  
  An additive measure, also called a fully additive measure, can be aggregated along all the dimensions that are included in the measure group that contains the measure, without restriction.  
@@ -32,7 +32,7 @@ manager: kfile
  Nonadditive  
  A nonadditive measure cannot be aggregated along any dimension in the measure group that contains the measure. Instead, the measure must be individually calculated for each cell in the cube that represents the measure. For example, a calculated measure that returns a percentage, such as profit margin, cannot be aggregated from the percentage values of child members in any dimension.  
   
- The following table lists the aggregation functions in [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], and describes both the additivity and expected output of the function.  
+ The following table lists the aggregation functions in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], and describes both the additivity and expected output of the function.  
   
 |Aggregation function|Additivity|Returned value|  
 |--------------------------|----------------|--------------------|  

@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # User Hierarchies - Properties
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   The following table describes the properties of a user-defined hierarchy.  
   
 |Property|Description|  

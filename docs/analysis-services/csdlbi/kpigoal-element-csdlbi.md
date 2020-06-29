@@ -12,7 +12,7 @@ manager: kfile
 ---
 # KpiGoal Element (CSDLBI)
 
-[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+[!INCLUDE[csdl-archived](../includes/csdl-archived.md)]
 
   The KpiGoal element provides a reference to the column that is used to define the goal for a Key performance Indicator (KPI).  
   

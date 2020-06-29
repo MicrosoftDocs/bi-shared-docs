@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Related Projects for Data Mining Solutions
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   The minimum that is required for a data mining solution is the data mining project, which defines data sources, data source views, mining structures and mining models. However, when data mining models are used in daily decision making, it is important that data mining be integrated with other part of a predictive analytics solution, which can include these processes and components:  
   
 -   Preparation and selection of data and of variables. Includes data cleansing, metadata management and integration of multiple data sources, and the conversion, merging, and uploading of data into a data warehouse.  
@@ -22,7 +22,7 @@ manager: kfile
   
 -   Refinement of the data mining solution to support new data, or changes in the support infrastructure driven by current analysis.  
   
- This topic describes the other features of [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)] that are often part of a predictive analytics solution, either to support the processes of data preparation and data mining, or to support users by providing tools for analysis and action.  
+ This topic describes the other features of [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] that are often part of a predictive analytics solution, either to support the processes of data preparation and data mining, or to support users by providing tools for analysis and action.  
   
  [Integration Services](#bkmk_SSIS)  
   
@@ -35,7 +35,7 @@ manager: kfile
  [Semantic Indexing](#bkmk_SemSearch)  
   
 ##  <a name="bkmk_SSIS"></a> SQL Server Integration Services  
- [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] provides components and features that are required for the data preparation and training phases of a data mining project. Although you can perform many data cleansing or preparation tasks by using other tools, such as scripts, [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] has numerous advantages for data mining:  
+ [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] provides components and features that are required for the data preparation and training phases of a data mining project. Although you can perform many data cleansing or preparation tasks by using other tools, such as scripts, [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] has numerous advantages for data mining:  
   
 -   Represents tasks as part of a workflow, which can be repeated, automated, branched, and extended.  
   
@@ -45,9 +45,9 @@ manager: kfile
   
      You can also integrate your SSIS workflows with the features that support Change Data Capture functionality in SQL Server.  
   
--   Data mining can be incorporated in the [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] workflow, to intelligently separate incoming data into multiple tables. For example, you could use a prediction query to split new customers into different groups for targeting in a mailing campaign.  
+-   Data mining can be incorporated in the [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] workflow, to intelligently separate incoming data into multiple tables. For example, you could use a prediction query to split new customers into different groups for targeting in a mailing campaign.  
   
- The following lists provide links to the [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] components that are most widely used in support of data mining.  
+ The following lists provide links to the [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] components that are most widely used in support of data mining.  
   
  **Control Flow Components**  
   
@@ -84,15 +84,15 @@ manager: kfile
 -   [Term Lookup Transformation](/sql/integration-services/data-flow/transformations/term-lookup-transformation)  
   
 ##  <a name="bkmk_SSRS"></a> SQL Server Reporting Services  
- Although [!INCLUDE[ssRSnoversion](../../includes/ssrsnoversion-md.md)] is typically not seen as a critical component of data mining solutions, it provides the following features that are useful for presentation of data mining solutions.  
+ Although [!INCLUDE[ssRSnoversion](../includes/ssrsnoversion-md.md)] is typically not seen as a critical component of data mining solutions, it provides the following features that are useful for presentation of data mining solutions.  
   
 -   Integration of data from multiple sources in complex reports. Create queries against the model content for analysts, and reports that show predictions and trends for end users.  
   
 -   The ability to create a report that lets users directly query against an existing mining model.  
   
--   Integration with [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], to support drillthrough and exploration of data mining dimensions and data mining cubes created from OLAP models.  
+-   Integration with [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], to support drillthrough and exploration of data mining dimensions and data mining cubes created from OLAP models.  
   
--   parameterization and formatting features that are available in [!INCLUDE[ssRSnoversion](../../includes/ssrsnoversion-md.md)].  
+-   parameterization and formatting features that are available in [!INCLUDE[ssRSnoversion](../includes/ssrsnoversion-md.md)].  
   
  For more information about how to use Reporting Services with DMX queries as a data source, see these links:  
   
@@ -102,12 +102,12 @@ manager: kfile
   
  [Analysis Services Connection Type for DMX &#40;SSRS&#41;](/sql/reporting-services/report-data/analysis-services-connection-type-for-dmx-ssrs)  
   
- However, it is not necessary to use DMX as the data source. The [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] components for data mining also support saving the results of a prediction query to a relational database. If you have an established workflow for updating models using [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)], persisting predictions and other data mining query results to SQL Server enable you to use [!INCLUDE[ssCrescent](../../includes/sscrescent-md.md)] for reporting, as well as other tools that do not interface with DMX.  
+ However, it is not necessary to use DMX as the data source. The [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] components for data mining also support saving the results of a prediction query to a relational database. If you have an established workflow for updating models using [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)], persisting predictions and other data mining query results to SQL Server enable you to use [!INCLUDE[ssCrescent](../includes/sscrescent-md.md)] for reporting, as well as other tools that do not interface with DMX.  
   
  For more information about using Reporting Services as the presentation layer for data sources, see [Integrating Reporting Services into Applications](/sql/reporting-services/application-integration/integrating-reporting-services-into-applications).  
   
 ##  <a name="bkmk_DQSetc"></a> Data Quality Services  
- Data Quality Services (DQS) is new in [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)]. Because data problems can make data mining impossible, data miners who perform repeated analysis or who work in large organizations with complex data sources are expected to find that a well-planned data project using DQS is a more reliable solution for support of data mining than ad hoc cleansing of data using [!INCLUDE[tsql](../../includes/tsql-md.md)] or other scripts.  
+ Data Quality Services (DQS) is new in [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)]. Because data problems can make data mining impossible, data miners who perform repeated analysis or who work in large organizations with complex data sources are expected to find that a well-planned data project using DQS is a more reliable solution for support of data mining than ad hoc cleansing of data using [!INCLUDE[tsql](../includes/tsql-md.md)] or other scripts.  
   
  The following features of DQS should be considered for data preparation and data integrity in a data mining solution.  
   
@@ -125,7 +125,7 @@ manager: kfile
   
  By finding data matches, you can remove duplicates, which can be a problem for data mining. Data de-duplication is not automatic; the data steward or IT professional must verify both the knowledge in the knowledge base and the changes to be made to the data.  
   
- After you have created the initial DQS project, you can automate many of the tasks by using [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] components.  
+ After you have created the initial DQS project, you can automate many of the tasks by using [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] components.  
   
  For more information, see [Data Matching](/sql/data-quality-services/data-matching).  
   

@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Discretization Methods (Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  Some algorithms that are used to create data mining models in [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] require specific content types in order to function correctly. For example, the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Naive Bayes algorithm cannot use continuous columns as input and cannot predict continuous values. Additionally, some columns may contain so many values that the algorithm cannot easily identify interesting patterns in the data from which to create a model.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  Some algorithms that are used to create data mining models in [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] require specific content types in order to function correctly. For example, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Naive Bayes algorithm cannot use continuous columns as input and cannot predict continuous values. Additionally, some columns may contain so many values that the algorithm cannot easily identify interesting patterns in the data from which to create a model.  
   
  In these cases, you can discretize the data in the columns to enable the use of the algorithms to produce a mining model. *Discretization* is the process of putting values into buckets so that there are a limited number of possible states. The buckets themselves are treated as ordered and discrete values. You can discretize both numeric and string columns.  
   
@@ -22,13 +22,13 @@ manager: kfile
   
  `Number of Buckets = sqrt(n)`  
   
- If you do not want [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] to calculate the number of buckets, you can use the <xref:Microsoft.AnalysisServices.DimensionAttribute.DiscretizationBucketCount%2A> property to manually specify the number of buckets.  
+ If you do not want [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to calculate the number of buckets, you can use the <xref:Microsoft.AnalysisServices.DimensionAttribute.DiscretizationBucketCount%2A> property to manually specify the number of buckets.  
   
- The following table describes the methods that you can use to discretize data in [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)].  
+ The following table describes the methods that you can use to discretize data in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
 |Discretization method|Description|  
 |---------------------------|-----------------|  
-|**AUTOMATIC**|[!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] determines which discretization method to use.|  
+|**AUTOMATIC**|[!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] determines which discretization method to use.|  
 |**CLUSTERS**|The algorithm divides the data into groups by sampling the training data, initializing to a number of random points, and then running several iterations of the Microsoft Clustering algorithm using the Expectation Maximization (EM) clustering method. The **CLUSTERS** method is useful because it works on any distribution curve. However, it requires more processing time than the other discretization methods.<br /><br /> This method can only be used with numeric columns.|  
 |**EQUAL_AREAS**|The algorithm divides the data into groups that contain an equal number of values. This method is best used for normal distribution curves, but does not work well if the distribution includes a large number of values that occur in a narrow group in the continuous data. For example, if one-half of the items have a cost of 0, one-half the data will occur under a single point in the curve. In such a distribution, this method breaks the data up in an effort to establish equal discretization into multiple areas. This produces an inaccurate representation of the data.|  
   

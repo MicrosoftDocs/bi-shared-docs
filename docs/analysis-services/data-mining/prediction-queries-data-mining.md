@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Prediction Queries (Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   The goal of a typical data mining project is to use the mining model to make predictions. For example, you might want to predict the amount of expected downtime for a certain cluster of servers, or generate a score that indicates whether segments of customers are likely to respond to an advertising campaign. To do all these things, you would create a prediction query.  
   
  Functionally, there are different types of prediction queries supported in SQL Server, depending on the type of inputs to the query:  
@@ -64,7 +64,7 @@ manager: kfile
 > [!WARNING]  
 >  Despite the name, singleton prediction queries do not just make single predictions-you can generate multiple predictions for each set of inputs. You provide multiple input cases by creating a SELECT statement for each input case and combining them with the UNION operator.  
   
- When you create a singleton prediction query, you must provide the new data to the model in the form of a PREDICTION JOIN. This means that even though you are not mapping to an actual table, you must make sure that the new data matches the existing columns in the mining model. If the new data columns and the new data match exactly, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] will map the columns for you. This is called a *NATURAL PREDICTION JOIN*. However, if the columns do not match, or if the new data does not contain the same kind and amount of data that is in the model, you must specify which columns in the model map to the new data, or specify the missing values.  
+ When you create a singleton prediction query, you must provide the new data to the model in the form of a PREDICTION JOIN. This means that even though you are not mapping to an actual table, you must make sure that the new data matches the existing columns in the mining model. If the new data columns and the new data match exactly, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] will map the columns for you. This is called a *NATURAL PREDICTION JOIN*. However, if the columns do not match, or if the new data does not contain the same kind and amount of data that is in the model, you must specify which columns in the model map to the new data, or specify the missing values.  
   
 ###  <a name="bkmk_BatchQuery"></a> Batch Prediction Queries  
  A batch prediction query is useful when you have external data that you want to use in making predictions. For example, you might have built a model that categorizes customers by their online activity and purchasing history. You could apply that model to a list of newly acquired leads, to create projections for sales, or to identify targets for proposed campaigns.  
@@ -73,10 +73,10 @@ manager: kfile
   
  To get the best results, you should join as many of the matching columns as possible between the new data and the model. However, the query will succeed even if there are no matches. If no columns are joined, the query will return the marginal prediction, which is equivalent to the statement `SELECT <predictable-column> FROM <model>` without a PREDICTION JOIN clause.  
   
- After you have successfully mapped all relevant columns, you run the query, and [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] makes predictions for each row in the new data based on patterns in the model. You can save the results back to a new table in the data source view that contains the external data, or you can copy and paste the data is you are using [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] or [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)].  
+ After you have successfully mapped all relevant columns, you run the query, and [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] makes predictions for each row in the new data based on patterns in the model. You can save the results back to a new table in the data source view that contains the external data, or you can copy and paste the data is you are using [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] or [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
   
 > [!WARNING]  
->  If you use the designer in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], the external data source must first be defined as a data source view.  
+>  If you use the designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], the external data source must first be defined as a data source view.  
   
  If you use DMX to create a prediction join, you can specify the external data source by using the OPENQUERY, OPENROWSET, or SHAPE commands. The default data access method in the DMX templates is OPENQUERY. For information about these methods, see [&#60;source data query&#62;](/sql/dmx/source-data-query).  
   
@@ -98,9 +98,9 @@ manager: kfile
 ##  <a name="bkmk_WorkResults"></a> Working with the Results of a Prediction Query  
  Your options for saving the results of a data mining prediction query are different depending on how you create the query.  
   
--   When you build a query using Prediction Query Builder in either [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] or [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], you can save the results of a prediction query to an existing [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] data source. For more information, see [View and Save the Results of a Prediction Query](../../analysis-services/data-mining/view-and-save-the-results-of-a-prediction-query.md).  
+-   When you build a query using Prediction Query Builder in either [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] or [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], you can save the results of a prediction query to an existing [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data source. For more information, see [View and Save the Results of a Prediction Query](../../analysis-services/data-mining/view-and-save-the-results-of-a-prediction-query.md).  
   
--   When you create prediction queries using DMX in the Query pane of [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], you can use the query output options to save the results to a file, or to the Query Results pane as text or in a grid. For more information, see [Query and Text Editors &#40;SQL Server Management Studio&#41;](/sql/relational-databases/scripting/query-and-text-editors-sql-server-management-studio).  
+-   When you create prediction queries using DMX in the Query pane of [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], you can use the query output options to save the results to a file, or to the Query Results pane as text or in a grid. For more information, see [Query and Text Editors &#40;SQL Server Management Studio&#41;](/sql/relational-databases/scripting/query-and-text-editors-sql-server-management-studio).  
   
 -   When you run a prediction query using the Integration Services components, the tasks provides the ability to write the results to a database by using an available ADO.NET connection manager or OLEDB connection manager. For more information, see [Data Mining Query Task](/sql/integration-services/control-flow/data-mining-query-task).  
   

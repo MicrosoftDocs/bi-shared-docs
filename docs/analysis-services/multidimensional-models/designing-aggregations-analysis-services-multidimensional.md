@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Designing Aggregations (Analysis Services - Multidimensional)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  Aggregations are precalculated summaries of cube data that help enable [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] to provide rapid query responses.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  Aggregations are precalculated summaries of cube data that help enable [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to provide rapid query responses.  
   
  To set storage options and design aggregations for a partition, use the Aggregation Design Wizard. The wizard operates on a single partition of a measure group at a time so that you can select different options and designs for each partition. The wizard takes you through steps to configure storage and design aggregation for a partition. For more information about configuring storage, see.  
   
@@ -28,7 +28,7 @@ manager: kfile
   
 -   Choose not to design aggregations.  
   
- To design storage, the wizard must be able to connect to [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] on the target server. The wizard will display an error message if [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] is not running on the target server or if the storage design process is otherwise unable to connect to the target server.  
+ To design storage, the wizard must be able to connect to [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] on the target server. The wizard will display an error message if [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] is not running on the target server or if the storage design process is otherwise unable to connect to the target server.  
   
  The final step of the wizard allows you to process or defer processing. Processing creates the aggregations you design with the wizard, while deferring processing saves the designed aggregations for future processing, thus allowing design activities to continue without processing. Depending on the size of the partition, processing may take considerable time. If you choose, you can interrupt processing a partition.  
   

@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Autoexists
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   The concept of *autoexists* limits the cube space to those cells that actually exist in the cube in contraposition to those that might exist as a result of creating all possible combinations of attribute hierarchy members from the same hierarchy. This is because members of one attribute hierarchy cannot exist with members of another attribute hierarchy in the same dimension. When two or more attribute hierarchies of the same dimension are used in a SELECT statement, Analysis Services evaluates the attributes' expressions to make sure that the members of those attributes are properly confined to meet the criteria of all other attributes.  
   
  For example, suppose you are working with attributes from the Geography dimension. If you have one expression that returns all members from the City attribute and another expression that confines members from the Country attribute to all countries in Europe, then this will result in the City members being confined to only those cities that belong to countries in Europe. This is because of the autoexists characteristic of Analysis Services. Autoexists only applies to attributes from the same dimension because it tries to prevent the dimension records excluded in one attribute expression from being included by the other attribute expressions. Autoexists can also be understood as the resulting intersection of the different attributes expressions over the dimension rows.  
@@ -79,7 +79,7 @@ WHERE (Measures.[Internet Sales Amount],
   
  The cells values returned will be identical, although the metadata in the result set will be different. For example, with the previous query, the Country hierarchy was moved to the slicer axis (in the WHERE clause) and therefore does not appear explicitly in the result set.  
   
- Each of these three previous queries demonstrates the effect of the auto-exists behavior in [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)].  
+ Each of these three previous queries demonstrates the effect of the auto-exists behavior in [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)].  
   
 ## Deep and Shallow Autoexists  
  Autoexists can be applied to the expressions as Deep or Shallow. **Deep Autoexists** means that all expressions will be evaluated to meet the deepest possible space after applying the slicer expressions, the sub select expressions in the axis, and so on. **Shallow Autoexists** means that external expressions are evaluated before the current expression and those results are passed to the current expression. The default setting is deep autoexists.  

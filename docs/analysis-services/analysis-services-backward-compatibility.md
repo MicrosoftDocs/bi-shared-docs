@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 # SQL Server Analysis Services backward compatibility (2019, 2017, 2016)
 
-[!INCLUDE[ssas-appliesto-sql2016-later](../includes/ssas-appliesto-sql2016-later.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later](includes/ssas-appliesto-sql2016-later.md)]
 
 This article describes changes in feature availability and behavior between the current version and the previous versions.
 
@@ -105,7 +105,7 @@ The following features are deprecated in this release:
 |Trace Management Objects and Trace APIs|Microsoft.AnalysisServices.Trace objects (contains the APIs for Analysis Services Trace and Replay objects). The replacement is multi-part:<br /><br /> -   Trace Configuration: Microsoft.SqlServer.Management.XEvent<br />-   Trace Reading: Microsoft.SqlServer.XEvent.Linq<br />-   Trace Replay: None|  
   
 > [!NOTE]  
->  Previously deprecated feature announcements from [!INCLUDE[ssSQL14](../includes/sssql14-md.md)] remain in effect. Because the code supporting those features has not yet been cut from the product, many  of these features are still present in this release. While previously deprecated features might be accessible, they are still considered deprecated and could be physically removed from the product at any time.  
+>  Previously deprecated feature announcements from [!INCLUDE[ssSQL14](includes/sssql14-md.md)] remain in effect. Because the code supporting those features has not yet been cut from the product, many  of these features are still present in this release. While previously deprecated features might be accessible, they are still considered deprecated and could be physically removed from the product at any time.  
 
 ### Discontinued features
 
@@ -121,7 +121,7 @@ The following features were deprecated in an earlier release and are no longer s
 |CELL_EVALUATION_LIST intrinsic cell property|None. This feature was deprecated in SQL Server 2005.|  
   
 > [!NOTE]  
->  Previously deprecated feature announcements from [!INCLUDE[ssSQL14](../includes/sssql14-md.md)] remain in effect. Because the code supporting those features has not yet been cut from the product, many  of these features are still present in this release. While previously deprecated features might be accessible, they are still considered deprecated and could be physically removed from the product at any time.  
+>  Previously deprecated feature announcements from [!INCLUDE[ssSQL14](includes/sssql14-md.md)] remain in effect. Because the code supporting those features has not yet been cut from the product, many  of these features are still present in this release. While previously deprecated features might be accessible, they are still considered deprecated and could be physically removed from the product at any time.  
 
 ### Breaking changes
   

@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Named Sets - Building Named Sets
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   A set expression can be a lengthy and complex declaration, and therefore be difficult to follow or understand. Or, a set expression may be used so frequently that repeatedly defining the set becomes burdensome. To help make working with a lengthy, complex or commonly used expression easier, Multidimensional Expressions (MDX) lets you such an expression as a *named set*.  
   
  Basically, a named set is a set expression to which an alias has been assigned. A named set can incorporate any members or functions that can ordinarily be incorporated into a set. Because MDX treats the named set alias as a set expression, you can use that alias anywhere a set expression is accepted.  

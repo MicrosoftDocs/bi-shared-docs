@@ -31,9 +31,9 @@ manager: kfile
  By specifying a connection identifier in the [ConnectionID](https://docs.microsoft.com/analysis-services/xmla/xml-elements-properties/connectionid-element-xmla) property of the **Cancel** command, a server administrator can cancel all of the sessions associated with a given connection, including all running commands, and cancel the connection.  
   
 > [!NOTE]
->  If the instance of [!INCLUDE[msCoName](../../includes/msconame-md.md)][!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)][!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] cannot locate and cancel the sessions associated with a connection, such as when the data pump opens multiple sessions while providing HTTP connectivity, the instance cannot cancel the connection. If this case is encountered during the execution of a **Cancel** command, an error occurs.  
+>  If the instance of [!INCLUDE[msCoName](../includes/msconame-md.md)][!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)][!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] cannot locate and cancel the sessions associated with a connection, such as when the data pump opens multiple sessions while providing HTTP connectivity, the instance cannot cancel the connection. If this case is encountered during the execution of a **Cancel** command, an error occurs.  
   
- A server administrator can retrieve the active connections for an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance by retrieving the DISCOVER_CONNECTIONS schema rowset using the XMLA **Discover** method.  
+ A server administrator can retrieve the active connections for an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance by retrieving the DISCOVER_CONNECTIONS schema rowset using the XMLA **Discover** method.  
   
 ## Canceling Server Processes  
  By specifying a server process identifier (SPID) in the [SPID](https://docs.microsoft.com/analysis-services/xmla/xml-elements-properties/id-element-xmla) property of the **Cancel** command, a server administrator can cancel the commands associated with a given SPID.  

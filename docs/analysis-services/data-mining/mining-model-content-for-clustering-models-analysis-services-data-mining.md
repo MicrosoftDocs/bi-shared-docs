@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 ---
 # Mining Model Content for Clustering Models (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   This topic describes mining model content that is specific to models that use the Microsoft Clustering algorithm. For a general explanation of mining model content for all model types, see [Mining Model Content &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-analysis-services-data-mining.md).  
   
 ## Understanding the Structure of a Clustering Model  
@@ -141,7 +141,7 @@ author: minewiskan
  **Cluster nodes** The name of the cluster. Example: Cluster 1.  
   
 ## Remarks  
- [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] provides multiple methods for creating a clustering model. If you do not know which method was used to create the model that you are working with, you can retrieve the model metadata programmatically, by using an ADOMD client or AMO, or by querying the data mining schema rowset. For more information, see [Query the Parameters Used to Create a Mining Model](../../analysis-services/data-mining/query-the-parameters-used-to-create-a-mining-model.md).  
+ [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] provides multiple methods for creating a clustering model. If you do not know which method was used to create the model that you are working with, you can retrieve the model metadata programmatically, by using an ADOMD client or AMO, or by querying the data mining schema rowset. For more information, see [Query the Parameters Used to Create a Mining Model](../../analysis-services/data-mining/query-the-parameters-used-to-create-a-mining-model.md).  
   
 > [!NOTE]  
 >  The structure and content of the model stay the same, regardless of which clustering method or parameters you use.  

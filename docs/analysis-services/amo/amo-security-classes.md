@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AMO Security classes
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]
   
  The following illustration shows the relationship of the classes that are explained in this topic:  
 

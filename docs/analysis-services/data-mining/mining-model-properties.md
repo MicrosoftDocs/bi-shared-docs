@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Mining Model Properties
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Mining models have the following kinds of properties:  
   
 -   Properties that are inherited from the mining structure that define the data type and content type of the data used by the model;  

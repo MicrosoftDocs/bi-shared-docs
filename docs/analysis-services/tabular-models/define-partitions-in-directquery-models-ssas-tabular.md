@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Define partitions in DirectQuery models
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
   This section explains how partitions are used in DirectQuery models. For more general information about partitions in tabular models, see [Partitions](../../analysis-services/tabular-models/partitions-ssas-tabular.md).  
   
@@ -20,7 +20,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 >  Although a table can have multiple partitions, in DirectQuery mode, only one of them can be designated for use in query execution. The single partition requirement applies to DirectQuery models at all compatibility levels.  
   
 ## Using Partitions in DirectQuery Mode  
- For each table, you must specify a single partition to use as the DirectQuery data source.  If there are multiple partitions, when you switch the model to enable DirectQuery mode, by default the first partition that was created in the table is flagged as the DirectQuery partition. You can change this later by using the Partition Manager in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)].  
+ For each table, you must specify a single partition to use as the DirectQuery data source.  If there are multiple partitions, when you switch the model to enable DirectQuery mode, by default the first partition that was created in the table is flagged as the DirectQuery partition. You can change this later by using the Partition Manager in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
  Why allow only a single partition in DirectQuery mode?  
   
@@ -34,11 +34,11 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
   
 ## Change a DirectQuery Partition  
- Because only one partition in a table can be designated as the DirectQuery partition, by default, Analysis Services uses the first partition that was created in the table. During model project authoring, you can change the DirectQuery partition by using the Partition Manager dialog box in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)]. For deployed models, you can change the DirectQuery partition by using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)].  
+ Because only one partition in a table can be designated as the DirectQuery partition, by default, Analysis Services uses the first partition that was created in the table. During model project authoring, you can change the DirectQuery partition by using the Partition Manager dialog box in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)]. For deployed models, you can change the DirectQuery partition by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
   
 #### Change the DirectQuery partition for a tabular model project  
   
-1.  In [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], in the model designer, click on the table (tab) that contains the partitioned table.  
+1.  In [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], in the model designer, click on the table (tab) that contains the partitioned table.  
   
 2.  Click on the **Table** menu, and then click **Partitions**.  
   
@@ -50,7 +50,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 #### Change the DirectQuery partition for a deployed tabular model  
   
-1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], open the model database in Object Explorer.  
+1.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], open the model database in Object Explorer.  
   
 2.  Expand the **Tables** node, then right-click the partitioned table, and then select **Partitions**.  
   
@@ -63,7 +63,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ## Partitions in Cached Models and in DirectQuery Models  
  When you configure a DirectQuery partition, you must specify processing options for the partition.  
   
- There are two processing options for the DirectQuery partition. To set this property, use the **Partition Manager** in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], or [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], and select the **Processing Option** property. The following table lists the values of this property, and describes the effects of each value when combined with the DirectQueryUsage property on the connection string:  
+ There are two processing options for the DirectQuery partition. To set this property, use the **Partition Manager** in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], or [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], and select the **Processing Option** property. The following table lists the values of this property, and describes the effects of each value when combined with the DirectQueryUsage property on the connection string:  
   
 |**Connection String** property|**Processing Option** property|Notes|  
 |------------------------------------|------------------------------------|-----------|  

@@ -11,18 +11,18 @@ author: minewiskan
 manager: kfile
 ---
 # Classified Columns (Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   When you define a classified column, you create a relationship between the current column and another column in the mining structure. The data in the mining structure column that you designate as the classified column contains categorical information that describes the values in another column in the mining structure.  
   
  For example, suppose you have two columns with numerical data: one column, [Yearly Purchases], contains the total yearly purchases per customer for a specific calendar year, and the other column, [Standard Deviations], contains the standard deviations for those values. In this case you could designate the [Yearly Purchases] column as the classified column, and the model would be able to use this relationship in analysis.  
   
 > [!NOTE]  
->  The algorithms provided in [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] do not support the use of classified columns; this feature is provided for use in creating custom algorithms.  
+>  The algorithms provided in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] do not support the use of classified columns; this feature is provided for use in creating custom algorithms.  
   
 ## Defining a Classified Column  
  The data type of a classified column must be either **Long** or **Double**.  
   
- The following list describes the content types that [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports for classified columns.  
+ The following list describes the content types that [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports for classified columns.  
   
  **PROBABILITY**  
  The value in the column is the probability of the associated value, and is a number between 0 and 1.  

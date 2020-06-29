@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Mining Structures (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   The mining structure defines the data from which mining models are built: it specifies the source data view, the number and type of columns, and an optional partition into training and testing sets. A single mining structure can support multiple mining models that share the same domain. The following diagram illustrates the relationship of the data mining structure to the data source, and to its constituent data mining models.  
   
  ![Processing of data: source to structure to model](../../analysis-services/data-mining/media/dmcon-modelarch.gif "Processing of data: source to structure to model")  
@@ -57,7 +57,7 @@ manager: kfile
   
  A mining structure can also contain nested tables. A nested table represents a one-to-many relationship between the entity of a case and its related attributes. For example, if the information that describes the customer resides in one table, and the customer's purchases reside in another table, you can use nested tables to combine the information into a single case. The customer identifier is the entity, and the purchases are the related attributes. For more information about when to use nested tables, see [Nested Tables &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/nested-tables-analysis-services-data-mining.md).  
   
- To create a data mining model in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], you must first create a data mining structure. The Data Mining wizard walks you through the process of creating a mining structure, choosing data, and adding a mining model.  
+ To create a data mining model in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], you must first create a data mining structure. The Data Mining wizard walks you through the process of creating a mining structure, choosing data, and adding a mining model.  
   
  If you create a mining model by using Data Mining Extensions (DMX), you can specify the model and the columns in it, and DMX will automatically create the required mining structure. For more information, see [CREATE MINING MODEL &#40;DMX&#41;](/sql/dmx/create-mining-model-dmx).  
   
@@ -74,14 +74,14 @@ manager: kfile
  For more information, see [Drillthrough Queries &#40;Data Mining&#41;](../../analysis-services/data-mining/drillthrough-queries-data-mining.md).  
   
 ### Processing Mining Structures  
- A mining structure is just a metadata container until it is processed. When you process a mining structure, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] creates a cache that stores statistics about the data, information about how any continuous attributes are discretized, and other information that is later used by mining models. The mining model itself does not store this summary information, but instead references the information that was cached when the mining structure was processed. Therefore, you do not need to reprocess the structure each time you add a new model to an existing structure; you can process just the model.  
+ A mining structure is just a metadata container until it is processed. When you process a mining structure, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] creates a cache that stores statistics about the data, information about how any continuous attributes are discretized, and other information that is later used by mining models. The mining model itself does not store this summary information, but instead references the information that was cached when the mining structure was processed. Therefore, you do not need to reprocess the structure each time you add a new model to an existing structure; you can process just the model.  
   
  You can opt to discard this cache after processing, if the cache is very large or you want to remove detailed data. If you do not want the data to be cached, you can change the **CacheMode** property of the mining structure to **ClearAfterProcessing**. This will destroy the cache after any models are processed. Setting the **CacheMode** property to **ClearAfterProcessing** will disable drillthrough from the mining model.  
   
  However, after you destroy the cache, you will not be able to add new models to the mining structure. If you add a new mining model to the structure, or change the properties of existing models, you would need to reprocess the mining structure first. For more information, see [Processing Requirements and Considerations &#40;Data Mining&#41;](../../analysis-services/data-mining/processing-requirements-and-considerations-data-mining.md).  
   
 ### Viewing Mining Structures  
- You cannot use viewers to browse the data in a mining structure. However, in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], you can use the **Mining Structure** tab of Data Mining Designer to view the structure columns and their definitions. For more information, see [Data Mining Designer](../../analysis-services/data-mining/data-mining-designer.md).  
+ You cannot use viewers to browse the data in a mining structure. However, in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], you can use the **Mining Structure** tab of Data Mining Designer to view the structure columns and their definitions. For more information, see [Data Mining Designer](../../analysis-services/data-mining/data-mining-designer.md).  
   
  If you want to review the data in the mining structure, you can create queries by using Data Mining Extensions (DMX). For example, the statement `SELECT * FROM <structure>.CASES` returns all the data in the mining structure. To retrieve this information, the mining structure must have been processed, and the results of processing must be cached.  
   

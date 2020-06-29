@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Export and Import Data Mining Objects
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  In addition to the functionality provided in [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] for backing up, restoring, and migrating solutions, SQL Server Data Mining provides the ability to quickly transfer data mining structures and models between different servers by using Data Mining Extensions (DMX).  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  In addition to the functionality provided in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] for backing up, restoring, and migrating solutions, SQL Server Data Mining provides the ability to quickly transfer data mining structures and models between different servers by using Data Mining Extensions (DMX).  
   
  If your data mining solution uses relational data instead of a multidimensional database, transferring models by using **EXPORT** and **IMPORT** is much faster and easier than either using database restore or deploying an entire solution.  
   

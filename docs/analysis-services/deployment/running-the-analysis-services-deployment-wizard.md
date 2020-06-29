@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Running the Analysis Services Deployment Wizard
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
   The Deployment Wizard can be run the following ways:  
   
@@ -35,7 +35,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
      -or-  
   
--   In the **Projects** folder of the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project, double-click the \<project name>.asdatabase file.
+-   In the **Projects** folder of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project, double-click the \<project name>.asdatabase file.
     > [!NOTE]  
     >  If you cannot find the .asdatabase file, try using Search and specify *.asdatabase. Or, you may need to build the project in SSDT.  
   
@@ -44,7 +44,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
  The Deployment Wizard can also be run at the command prompt. When you run the wizard at the command prompt, you provide the full path to the .asdatabase file and  run the wizard in one of the following modes:  
   
  **Answer file mode**  
- In answer file mode, the wizard lets you interactively modify the input files that were originally generated when the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project was built in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)]. The wizard saves these modified input files before generating the deployment script. The modified input files become the new starting point the next time that the wizard is run.  
+ In answer file mode, the wizard lets you interactively modify the input files that were originally generated when the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project was built in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)]. The wizard saves these modified input files before generating the deployment script. The modified input files become the new starting point the next time that the wizard is run.  
   
  To run the wizard in answer file mode, use the **/a** switch.  
   

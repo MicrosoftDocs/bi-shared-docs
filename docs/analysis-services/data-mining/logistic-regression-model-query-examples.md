@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Logistic Regression Model Query Examples
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   When you create a query against a data mining model, you can create a content query, which provides details about the patterns discovered in analysis, or you can create a prediction query, which uses the patterns in the model to make predictions using new data.  
   
  This section explains how to create queries for models that are based on the Microsoft Logistic Regression algorithm.  
@@ -132,7 +132,7 @@ NATURAL PREDICTION JOIN
   
 ##### To create a discretized version of the Call Center mining structure and models  
   
-1.  In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], in Solution Explorer, expand **Mining Structures**.  
+1.  In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], in Solution Explorer, expand **Mining Structures**.  
   
 2.  Right-click Call Center.dmm and select **Copy**.  
   
@@ -176,7 +176,7 @@ NATURAL PREDICTION JOIN
  Note that the predicted outcomes have been grouped into three categories as specified; however, these groupings are based on the clustering of actual values in the data, not arbitrary values that you might set as business goals.  
   
 ## List of Prediction Functions  
- All [!INCLUDE[msCoName](../../includes/msconame-md.md)] algorithms support a common set of functions. However, the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Logistic Regression algorithm supports the additional functions listed in the following table.  
+ All [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms support a common set of functions. However, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Logistic Regression algorithm supports the additional functions listed in the following table.  
   
 |||  
 |-|-|  
@@ -189,7 +189,7 @@ NATURAL PREDICTION JOIN
 |[PredictSupport &#40;DMX&#41;](/sql/dmx/predictsupport-dmx)|Returns the support value for a specified state.|  
 |[PredictVariance &#40;DMX&#41;](/sql/dmx/predictvariance-dmx)|Returns the variance of a specified column.|  
   
- For a list of the functions that are common to all [!INCLUDE[msCoName](../../includes/msconame-md.md)] algorithms, see [General Prediction Functions &#40;DMX&#41;](/sql/dmx/general-prediction-functions-dmx). For the syntax of specific functions, see [Data Mining Extensions &#40;DMX&#41; Function Reference](/sql/dmx/data-mining-extensions-dmx-function-reference).  
+ For a list of the functions that are common to all [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms, see [General Prediction Functions &#40;DMX&#41;](/sql/dmx/general-prediction-functions-dmx). For the syntax of specific functions, see [Data Mining Extensions &#40;DMX&#41; Function Reference](/sql/dmx/data-mining-extensions-dmx-function-reference).  
   
 > [!NOTE]  
 >  For neural network and logistic regression models, the [PredictSupport &#40;DMX&#41;](/sql/dmx/predictsupport-dmx) function returns a single value that represents the size of the training set for the entire model.  

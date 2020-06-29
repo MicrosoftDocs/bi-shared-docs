@@ -12,7 +12,7 @@ manager: kfile
 ---
 # Property Element (CSDLBI)
 
-[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+[!INCLUDE[csdl-archived](../includes/csdl-archived.md)]
 
   The Property element in CSDLBI is a complex type that provides additions to the CSDL Property element, in support of business intelligence data models.  
   

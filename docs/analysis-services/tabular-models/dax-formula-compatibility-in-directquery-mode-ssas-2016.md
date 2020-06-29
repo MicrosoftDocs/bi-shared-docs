@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 # DAX formula compatibility in DirectQuery mode
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
 ## DAX functions in DirectQuery mode
 
@@ -79,7 +79,7 @@ The formula compares a text string to a number. The expression is **true** in bo
   
 In an in-memory model, the result is **true** because numbers as strings are implicitly cast to a numerical data type for comparisons with other numbers. SQL also implicitly casts text numbers as numbers for comparison to numerical data types.  
   
-Note that this represents a change in behavior from the first version of [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)], which would return **false**, because the text "2" would always be considered larger than any number.  
+Note that this represents a change in behavior from the first version of [!INCLUDE[ssGemini](../includes/ssgemini-md.md)], which would return **false**, because the text "2" would always be considered larger than any number.  
   
 **Comparison of text with Boolean**  
 EXAMPLE: `"VERDADERO" = TRUE`  
@@ -119,7 +119,7 @@ EXAMPLE: `CONCATENATE(102,",345")`
   
 Casting from numbers to strings is not allowed in SQL Server.  
   
-This formula returns an error in tabular models and in DirectQuery mode; however, the formula produces a result in [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)].  
+This formula returns an error in tabular models and in DirectQuery mode; however, the formula produces a result in [!INCLUDE[ssGemini](../includes/ssgemini-md.md)].  
   
 **No support for two-try casts in DirectQuery**  
 In-memory models often attempt a second cast when the first one fails. This never happens in DirectQuery mode.  
@@ -163,7 +163,7 @@ In DirectQuery mode, division by zero (0) or division by BLANK will always resul
   
 Rather than return different results for these operations, in DirectQuery mode, both types of operations (division by zero and division by null) return an error.  
   
-Note that, in Excel and in [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] models, division by zero also returns an error. Division by a blank returns a blank.  
+Note that, in Excel and in [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] models, division by zero also returns an error. Division by a blank returns a blank.  
   
 The following expressions are all valid in in-memory models, but will fail in DirectQuery mode:  
   

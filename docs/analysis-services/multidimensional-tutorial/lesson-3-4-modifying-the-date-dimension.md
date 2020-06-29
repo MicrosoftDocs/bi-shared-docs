@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 3-4 - Modifying the Date Dimension
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 In the tasks in this topic, you create a user-defined hierarchy and change the member names that are displayed for the Date, Month, Calendar Quarter, and Calendar Semester attributes. You also define composite keys for attributes, control the sort order of dimension members, and define attribute relationships.  
   
@@ -53,7 +53,7 @@ After you create a named calculation in the data source view, you can use the na
   
 #### To use the named calculation for member names  
   
-1.  Open **Dimension Designer** for the Date dimension in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)]. To do this, double-click the **Date** dimension in the **Dimensions** node of **Solution Explorer**.  
+1.  Open **Dimension Designer** for the Date dimension in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)]. To do this, double-click the **Date** dimension in the **Dimensions** node of **Solution Explorer**.  
   
 2.  In the **Attributes** pane of the **Dimension Structure** tab, click the **Date Key** attribute.  
   
@@ -128,7 +128,7 @@ In this task, you will create user-friendly name columns that will be used by th
   
 #### To provide unique dimension member names  
   
-1.  To switch to the **[!INCLUDE[ssSampleDBCoShort](../../includes/sssampledbcoshort-md.md)] DW 2012** data source view, double-click it in the **Data Source Views** folder in Solution Explorer.  
+1.  To switch to the **[!INCLUDE[ssSampleDBCoShort](../includes/sssampledbcoshort-md.md)] DW 2012** data source view, double-click it in the **Data Source Views** folder in Solution Explorer.  
   
 2.  In the **Tables** pane, right-click **Date**, and then click **New Named Calculation**.  
   
@@ -238,7 +238,7 @@ After you have changed attributes and hierarchies, you must deploy the changes a
   
 #### To deploy and view the changes  
   
-1.  On the **Build** menu of [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], click **Deploy Analysis Services Tutorial**.  
+1.  On the **Build** menu of [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click **Deploy Analysis Services Tutorial**.  
   
 2.  After you have received the **Deployment Completed Successfully** message, click the **Browser** tab of **Dimension Designer** for the **Date** dimension, and then click the Reconnect button on the toolbar of the designer.  
   
@@ -279,7 +279,7 @@ In this task, you will change the sort order by changing the order of the keys t
   
     The members of the attribute hierarchy are now sorted first by year and then by month.  
   
-9. On the **Build** menu of [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], click **Deploy Analysis Services Tutorial**. When deployment has successfully completed, click the **Browser** tab in Dimension Designer for the **Date** dimension.  
+9. On the **Build** menu of [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click **Deploy Analysis Services Tutorial**. When deployment has successfully completed, click the **Browser** tab in Dimension Designer for the **Date** dimension.  
   
 10. On the toolbar of the **Browser** tab, click the Reconnect button.  
   

@@ -11,13 +11,13 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Member Properties - User-Defined Member Properties
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   User-defined member properties can be added to a specific named level in a dimension as attribute relationships. User-defined member properties cannot be added to the **(All)** level of a hierarchy, or to the hierarchy itself.  
   
 ## Creating User-Defined Member Properties  
  User-defined member properties can be added to server-based dimensions or cubes either through the user interface or programmatically:  
   
--   To add user-defined member properties through the user interface, you use Dimension Designer in [!INCLUDE[ssBIDevStudioFull](../../../includes/ssbidevstudiofull-md.md)]. For more information, see [Define Attribute Relationships](../../../analysis-services/multidimensional-models/attribute-relationships-define.md).  
+-   To add user-defined member properties through the user interface, you use Dimension Designer in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)]. For more information, see [Define Attribute Relationships](../../../analysis-services/multidimensional-models/attribute-relationships-define.md).  
   
 -   To add user-defined member properties programmatically, your application can use either Analysis Manager Objects (AMO) or a combination of XML for Analysis (XMLA) and Analysis Services Scripting Language (ASSL). For more information, see [Attribute Relationships](../../../analysis-services/multidimensional-models-olap-logical-dimension-objects/attribute-relationships.md).  
   

@@ -12,16 +12,16 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Create and manage tabular model partitions
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  Partitions divide a table into logical parts. Each partition can then be processed (Refreshed) independent of other partitions. Partitions defined for a model during model authoring are duplicated in a deployed model. Once deployed, you can manage those partitions by using the **Partitions** dialog box in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] or by using a script. Tasks provided in this topic describe how to create and manage partitions for a deployed model.  
+  Partitions divide a table into logical parts. Each partition can then be processed (Refreshed) independent of other partitions. Partitions defined for a model during model authoring are duplicated in a deployed model. Once deployed, you can manage those partitions by using the **Partitions** dialog box in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] or by using a script. Tasks provided in this topic describe how to create and manage partitions for a deployed model.  
   
   > [!NOTE]  
 >  Partitions in tabular models created at the 1400 compatibility level are defined using an M query statement. To learn more, see [M Reference](/powerquery-m/power-query-m-reference). 
 >
   
 ## Tasks  
- To create and manage partitions for a deployed tabular model database, you will use the **Partitions** dialog box in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)]. To view the **Partitions** dialog box, in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], right-click on a table, and then click **Partitions**.  
+ To create and manage partitions for a deployed tabular model database, you will use the **Partitions** dialog box in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]. To view the **Partitions** dialog box, in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], right-click on a table, and then click **Partitions**.  
   
 ###  <a name="bkmk_create_new"></a> To create a new partition  
   

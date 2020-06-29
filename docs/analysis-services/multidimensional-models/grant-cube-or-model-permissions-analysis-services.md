@@ -11,14 +11,14 @@ author: minewiskan
 manager: kfile
 ---
 # Grant cube or model permissions (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A cube or tabular model is the primary query object in an Analysis Services data model. When connecting to multidimensional or tabular data from Excel for ad hoc data exploration, users typically start by selecting a specific cube or tabular model as the data structure behind the Pivot report object. This topic explains how to grant the necessary permissions for cube or tabular data access.  
   
  By default, no one except a Server Administrator or Database Administrator has permission to query cubes in a database. Cube access by a non-administrator requires membership in a role created for the database containing the cube. Membership is supported for Windows user or group accounts, defined in either Active Directory or on the local computer. Before you start, identify which accounts will be assigned membership in the roles you are about to create.  
   
  Having **Read** access to a cube also conveys permissions on the dimensions, measure groups, and perspectives within it. Most administrators will grant read permissions at the cube level and then restrict permissions on specific objects, on associated data, or by user identity.  
   
- To preserve role definitions over successive solution deployments, a best practice is to define roles in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] as an integral part of the model, and then have a database administrator assign role memberships in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] after the database is published. But you can use either tool for both tasks. To simplify the exercise, we'll use [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] for both role definition and membership.  
+ To preserve role definitions over successive solution deployments, a best practice is to define roles in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)] as an integral part of the model, and then have a database administrator assign role memberships in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] after the database is published. But you can use either tool for both tasks. To simplify the exercise, we'll use [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] for both role definition and membership.  
   
 > [!NOTE]  
 >  Only server administrators, or database administrators having Full Control permissions, can deploy a cube from source files to a server, or create roles and assign members. See [Grant server admin rights to an  Analysis Services instance](../../analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance.md) and [Grant database permissions &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-database-permissions-analysis-services.md) for details about these permission levels.  
@@ -61,7 +61,7 @@ manager: kfile
   
 #### Step 4: Test  
   
-1.  Use Excel to test cube access permissions. You can also use [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], following the same technique described next ─ running the application as a non-administrator user.  
+1.  Use Excel to test cube access permissions. You can also use [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], following the same technique described next ─ running the application as a non-administrator user.  
   
     > [!NOTE]  
     >  If you are an Analysis Services administrator, administrator permissions will be combined with roles having lesser permissions, making it difficult to test role permissions in isolation. To simplify testing, we suggest that you open a second instance of SSMS, using the account assigned to the role you are testing.  
@@ -76,7 +76,7 @@ manager: kfile
   
 1.  As a final step, you should generate a script that captures the role definition you just created.  
   
-     Redeploying a project from [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] will overwrite any roles or role memberships that are not defined inside the project. The quickest way to rebuild roles and role membership after redeployment is through script.  
+     Redeploying a project from [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)] will overwrite any roles or role memberships that are not defined inside the project. The quickest way to rebuild roles and role membership after redeployment is through script.  
   
 2.  In SSMS, navigate to the **Roles** folder and right-click an existing role.  
   

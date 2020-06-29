@@ -11,17 +11,17 @@ author: minewiskan
 manager: kfile
 ---
 # Browse a Model Using the Microsoft Sequence Cluster Viewer
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Sequence Cluster Viewer in [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] displays mining models that are built with the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Sequence Clustering algorithm. The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Sequence Clustering algorithm is a sequence analysis algorithm for use in exploring data that contains events that can be linked by following paths, or *sequences*. For more information about this algorithm, see [Microsoft Sequence Clustering Algorithm](../../analysis-services/data-mining/microsoft-sequence-clustering-algorithm.md).  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  The [!INCLUDE[msCoName](../includes/msconame-md.md)] Sequence Cluster Viewer in [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] displays mining models that are built with the [!INCLUDE[msCoName](../includes/msconame-md.md)] Sequence Clustering algorithm. The [!INCLUDE[msCoName](../includes/msconame-md.md)] Sequence Clustering algorithm is a sequence analysis algorithm for use in exploring data that contains events that can be linked by following paths, or *sequences*. For more information about this algorithm, see [Microsoft Sequence Clustering Algorithm](../../analysis-services/data-mining/microsoft-sequence-clustering-algorithm.md).  
   
 > [!NOTE]  
->  To view detailed information about the equations used in the model and the patterns that were discovered, use the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Generic Content Tree viewer. For more information, see [Browse a Model Using the Microsoft Generic Content Tree Viewer](../../analysis-services/data-mining/browse-a-model-using-the-microsoft-generic-content-tree-viewer.md) or [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](https://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c).  
+>  To view detailed information about the equations used in the model and the patterns that were discovered, use the [!INCLUDE[msCoName](../includes/msconame-md.md)] Generic Content Tree viewer. For more information, see [Browse a Model Using the Microsoft Generic Content Tree Viewer](../../analysis-services/data-mining/browse-a-model-using-the-microsoft-generic-content-tree-viewer.md) or [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](https://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c).  
   
 > [!NOTE]  
->  The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Sequence Cluster Viewer provides functionality and options that are similar to the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Cluster Viewer. For more information, see [Browse a Model Using the Microsoft Cluster Viewer](../../analysis-services/data-mining/browse-a-model-using-the-microsoft-cluster-viewer.md).  
+>  The [!INCLUDE[msCoName](../includes/msconame-md.md)] Sequence Cluster Viewer provides functionality and options that are similar to the [!INCLUDE[msCoName](../includes/msconame-md.md)] Cluster Viewer. For more information, see [Browse a Model Using the Microsoft Cluster Viewer](../../analysis-services/data-mining/browse-a-model-using-the-microsoft-cluster-viewer.md).  
   
 ##  <a name="BKMK_ViewerTabs"></a> Viewer Tabs  
- When you browse a mining model in [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], the model is displayed on the **Mining Model Viewer** tab of Data Mining Designer in the appropriate viewer for the model. The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Sequence Cluster Viewer provides the following tabs for use in exploring sequence clustering mining models:  
+ When you browse a mining model in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], the model is displayed on the **Mining Model Viewer** tab of Data Mining Designer in the appropriate viewer for the model. The [!INCLUDE[msCoName](../includes/msconame-md.md)] Sequence Cluster Viewer provides the following tabs for use in exploring sequence clustering mining models:  
   
 -   [Cluster Diagram](#BKMK_Diagram)  
   
@@ -34,7 +34,7 @@ manager: kfile
 -   [Cluster Transitions](#BKMK_Transitions)  
   
 ###  <a name="BKMK_Diagram"></a> Cluster Diagram  
- The **Cluster Diagram** tab of the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Sequence Cluster Viewer displays all the clusters that are in a mining model. The shading of the line that connects one cluster to another represents the strength of the similarity of the clusters. If the shading is light or nonexistent, the clusters are not very similar. As the line becomes darker, the similarity of the links becomes stronger. You can adjust how many lines the viewer shows by adjusting the slider to the right of the clusters. Lowering the slider shows only the strongest links.  
+ The **Cluster Diagram** tab of the [!INCLUDE[msCoName](../includes/msconame-md.md)] Sequence Cluster Viewer displays all the clusters that are in a mining model. The shading of the line that connects one cluster to another represents the strength of the similarity of the clusters. If the shading is light or nonexistent, the clusters are not very similar. As the line becomes darker, the similarity of the links becomes stronger. You can adjust how many lines the viewer shows by adjusting the slider to the right of the clusters. Lowering the slider shows only the strongest links.  
   
  By default, the shade represents the population of the cluster. By using the **Shading****Variable** and **State** options, you can select which attribute and state pair the shading represents. The darker the shading, the greater the attribute distribution is for a specific state. The distribution decreases as the shading gets lighter.  
   

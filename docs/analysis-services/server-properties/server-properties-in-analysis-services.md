@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # Server properties in Analysis Services
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
 Administrators can modify default server configuration properties of an Azure Analysis Services (Azure AS) or SQL Server Analysis Services (SSAS) instance. To configure server properties, use SQL Server Management Studio.
 
@@ -20,13 +20,13 @@ Properties pages in SQL Server Management Studio show a subset of the properties
   
 ## Configure properties by using SQL Server Management Studio 
   
-1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], connect to an Azure AS or SSAS instance.  
+1.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], connect to an Azure AS or SSAS instance.  
   
 2. In Object Explorer, right-click the instance, and then click **Properties**. The General page appears, displaying the more commonly used properties.  
 
 3.  To view additional properties, click the **Show Advanced (All) Properties** checkbox at the bottom of the page.  
   
-     Modifying server properties is supported only for tabular mode and multidimensional mode servers. If you installed [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)], always use the default values unless otherwise directed otherwise by Microsoft Support.  
+     Modifying server properties is supported only for tabular mode and multidimensional mode servers. If you installed [!INCLUDE[ssGeminiShort](../includes/ssgeminishort-md.md)], always use the default values unless otherwise directed otherwise by Microsoft Support.  
   
 ## Configure properties in msmdsrv.ini
   
@@ -52,7 +52,7 @@ Properties that cannot be set by using Properties in SSMS or in msmdrsrv.ini fil
 
 ## Server property categories  
   
- The following topics describe the various [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] configuration properties:  
+ The following topics describe the various [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] configuration properties:  
   
 |Topic|Description|  
 |-----------|-----------------|  

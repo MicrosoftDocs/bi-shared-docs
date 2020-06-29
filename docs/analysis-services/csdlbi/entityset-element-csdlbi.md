@@ -12,7 +12,7 @@ manager: kfile
 ---
 # EntitySet Element (CSDLBI)
 
-[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+[!INCLUDE[csdl-archived](../includes/csdl-archived.md)]
 
   The EntitySet element defines a collection of entities of a particular type in a CSDLBI data model.  
   

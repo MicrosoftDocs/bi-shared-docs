@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Properties for Mining Structure and Structure Columns
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   You can set or change the properties for a mining structure and for its associated columns and nested tables by using the **Mining Structure** tab of Data Mining Designer. Properties that you set in this tab are propagated to each mining model that is associated with the structure.  
   
 > [!NOTE]  

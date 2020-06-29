@@ -12,9 +12,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # Lock manager properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-[!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following lock manager server properties.  
+[!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following lock manager server properties.  
   
  **Applies to:** Multidimensional and tabular server mode  
   
@@ -26,10 +26,10 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
  The default value for this property is -1, which indicates there is no timeout for internal lock requests.  
   
  **LockWaitGranularityMS**  
- An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
+ An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
  **DeadlockDetectionGranularityMS**  
- An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] support.  
+ An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
 ## See also
 

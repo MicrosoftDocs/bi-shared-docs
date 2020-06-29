@@ -11,9 +11,9 @@ author: minewiskan
 ---
 # Conceptual Schema Definition Language (CSDLBI) Reference (Archived)
 
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
-[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+[!INCLUDE[csdl-archived](../includes/csdl-archived.md)]
 
 ## CSDLBI 1.0
 

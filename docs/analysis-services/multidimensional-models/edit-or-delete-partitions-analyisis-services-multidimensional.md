@@ -11,17 +11,17 @@ author: minewiskan
 manager: kfile
 ---
 # Edit or Delete Partitions (Analyisis Services - Multidimensional)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  Cube partitions are modified using the **Partitions** tab in Cube Designer in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)]. The **Partitions** tab lists the partitions for all of the measure groups in a cube. It also lists the writeback partitions that have writeback enabled.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  Cube partitions are modified using the **Partitions** tab in Cube Designer in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)]. The **Partitions** tab lists the partitions for all of the measure groups in a cube. It also lists the writeback partitions that have writeback enabled.  
   
  To edit the partitions for any measure group, expand the measure group on the **Partitions** tab. Partitions for a measure group are listed by ordinal number in a table format with the columns listed in the following table.  
   
  Settings for a linked measure group must be edited in the source cube.  
   
- Deleting partitions occurs automatically when you merge a source partition into a destination partition. The partition specified as the Source is deleted after the merge is completed. You can also delete partitions manually in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] or in the Partitions tab in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)]. Right-click and choose **Delete**. Remember that deleting a partition also deletes data and aggregations. As a precaution, make sure you have a recent back up of the database in case you need to reverse this step later.  
+ Deleting partitions occurs automatically when you merge a source partition into a destination partition. The partition specified as the Source is deleted after the merge is completed. You can also delete partitions manually in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] or in the Partitions tab in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)]. Right-click and choose **Delete**. Remember that deleting a partition also deletes data and aggregations. As a precaution, make sure you have a recent back up of the database in case you need to reverse this step later.  
   
 > [!NOTE]  
->  Alternatively, you can use XMLA scripts that automate tasks for building, merging, and deleting partitions. XMLA script can be created and executed in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], or in custom SSIS packages that runs as a scheduled task. For more information, see [Automate Analysis Services Administrative Tasks with SSIS](../../analysis-services/instances/automate-analysis-services-administrative-tasks-with-ssis.md).  
+>  Alternatively, you can use XMLA scripts that automate tasks for building, merging, and deleting partitions. XMLA script can be created and executed in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], or in custom SSIS packages that runs as a scheduled task. For more information, see [Automate Analysis Services Administrative Tasks with SSIS](../../analysis-services/instances/automate-analysis-services-administrative-tasks-with-ssis.md).  
   
 ## Partition source  
  Specifies the source table or named query for the partition. To change the source table, click the cell and then click the browse (**...**) button.  

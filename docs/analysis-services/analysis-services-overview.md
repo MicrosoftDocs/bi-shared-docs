@@ -11,7 +11,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # What is Analysis Services?
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
 Analysis Services is an analytical data engine (Vertipaq) used in decision support and business analytics. It provides enterprise-grade semantic data model capabilities for business intelligence (BI) data analysis and reporting applications such as Power BI, Excel, Reporting Services reports, and other data visualization tools. Analysis Services is available in different platforms:
 

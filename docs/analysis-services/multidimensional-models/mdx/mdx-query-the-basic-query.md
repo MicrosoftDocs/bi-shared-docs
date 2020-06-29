@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Query - The Basic Query
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   The basic Multidimensional Expressions (MDX) query is the SELECT statement-the most frequently used query in MDX. By understanding how an MDX SELECT statement must specify a result set, what the syntax of the SELECT statement is, and how to create a simple query using the SELECT statement, you will have a solid understanding of how to use MDX to query multidimensional data.  
   
 ## Specifying a Result Set  

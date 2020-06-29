@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Create a Cube using a Data Source View
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Use this method of building a new cube if you intend to use an existing data source view. With this method, you specify the data source view and select fact and dimension tables that you want to use in the data source view. You then choose the dimensions and measures that you want to include in the cube.  
   
  To create a cube with a data source, in Solution Explorer, right-click **Cubes** and select **New Cube**. The Cube Wizard opens.  

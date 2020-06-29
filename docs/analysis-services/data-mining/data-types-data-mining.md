@@ -11,10 +11,10 @@ author: minewiskan
 manager: kfile
 ---
 # Data Types (Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  When you create a mining model or a mining structure in [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], you must define the data types for each of the columns in the mining structure. The data type tells the analysis engine whether the data in the data source is numerical or text, and how the data should be processed. For example, if your source data contains numerical data, you can specify whether the numbers be treated as integers or by using decimal places.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  When you create a mining model or a mining structure in [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], you must define the data types for each of the columns in the mining structure. The data type tells the analysis engine whether the data in the data source is numerical or text, and how the data should be processed. For example, if your source data contains numerical data, you can specify whether the numbers be treated as integers or by using decimal places.  
   
- [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following data types for mining structure columns:  
+ [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following data types for mining structure columns:  
   
 |Data Type|Supported Content Types|  
 |---------------|-----------------------------|  
@@ -32,7 +32,7 @@ manager: kfile
  The content type is specific to data mining and lets you customize the way that data is processed or calculated in the mining model. For example, even if your column contains numbers, you might need to model them as discrete values. If the column contains numbers, you can also specify that they be binned, or discretized, or specify that the model handle them as continuous values. Thus, the content type can have a huge effect on the model.. For a list of all the content types, see [Content Types &#40;Data Mining&#41;](../../analysis-services/data-mining/content-types-data-mining.md).  
   
 > [!NOTE]  
->  In other machine learning systems, you might encounter the terms *nominal data*, *factors* or *categories*, *ordinal data*, or *sequence data*. In general, these correspond to content types. In [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)], the data type specifies only the value type for storage, not its usage in the model.  
+>  In other machine learning systems, you might encounter the terms *nominal data*, *factors* or *categories*, *ordinal data*, or *sequence data*. In general, these correspond to content types. In [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)], the data type specifies only the value type for storage, not its usage in the model.  
   
 ## Specifying a Data Type  
  If you create the mining model directly by using Data Mining Extensions (DMX), you can define the data type for each column as you define the model, and Analysis Services will create the corresponding mining structure with the specified data types at the same time. If you create the mining model or mining structure by using a wizard, Analysis Services will suggest a data type, or you can choose a data type from a list.  

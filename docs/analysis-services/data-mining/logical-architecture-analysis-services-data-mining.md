@@ -11,16 +11,16 @@ author: minewiskan
 manager: kfile
 ---
 # Logical Architecture (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Data mining is a process that involves the interaction of multiple components.  
   
 -   You access sources of data in a SQL Server database or any other data source to use for training, testing, or prediction.  
   
--   You define data mining structures and models by using [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] or Visual Studio.  
+-   You define data mining structures and models by using [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] or Visual Studio.  
   
--   You manage data mining objects and create predictions and queries by using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)].  
+-   You manage data mining objects and create predictions and queries by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
   
--   When the solution is complete, you deploy it to an instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)].  
+-   When the solution is complete, you deploy it to an instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
  The process of creating these solution objects has already been described elsewhere. For more information, see [Data Mining Solutions](../../analysis-services/data-mining/data-mining-solutions.md).  
   
@@ -37,7 +37,7 @@ manager: kfile
 ##  <a name="bkmk_SourceData"></a> Data Mining Source Data  
  The data that you use in data mining is not stored in the data mining solution; only the bindings are stored. The data might reside in a database created in a previous version of SQL Server, a CRM system, or even a flat file. When you train the structure or model by processing, a statistical summary of the data is created and stored in a cache that can be persisted for use in later operations, or deleted after processing. For more information, see [Mining Structures &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-structures-analysis-services-data-mining.md).  
   
- You combine disparate data within the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] data source view (DSV) object, which provides an abstraction layer on top of your data source. You can specify joins between tables, or add tables that have a many-to-one relationship to create nested table columns. The definition of these objects, the data source and the data source view, are stored within the solution with the file name extensions, *.ds and \*.dsv. For more information about creating and using [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] data sources and data source views, see [Supported Data Sources &#40;SSAS - Multidimensional&#41;](../../analysis-services/multidimensional-models/supported-data-sources-ssas-multidimensional.md).  
+ You combine disparate data within the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data source view (DSV) object, which provides an abstraction layer on top of your data source. You can specify joins between tables, or add tables that have a many-to-one relationship to create nested table columns. The definition of these objects, the data source and the data source view, are stored within the solution with the file name extensions, *.ds and \*.dsv. For more information about creating and using [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data sources and data source views, see [Supported Data Sources &#40;SSAS - Multidimensional&#41;](../../analysis-services/multidimensional-models/supported-data-sources-ssas-multidimensional.md).  
   
  You can also define and alter data sources and data source views by using AMO or XMLA. For more information about working with these objects programmatically, see [Logical Architecture Overview &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models/olap-logical/logical-architecture-overview-analysis-services-multidimensional-data.md).  
   
@@ -67,7 +67,7 @@ manager: kfile
 ##  <a name="bkmk_CustomObjects"></a> Custom Data Mining Objects  
  Other objects that you use in the context of a data mining project, such as accuracy charts or prediction queries, are not persisted within the solution, but can be scripted using ASSL or built using AMO.  
   
- Additionally, you can extend the services and features available on an instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] by adding these custom objects:  
+ Additionally, you can extend the services and features available on an instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] by adding these custom objects:  
   
  **Custom assemblies**  
  .NET assemblies can be defined by using any CLR-or COM-complaint language, and then registered with an instance of SQL Server. Assembly files are loaded from the location defined by the application, and a copy is saved in the server along with the data. The copy of the assembly file is used to load the assembly every time the service is started.  
@@ -75,7 +75,7 @@ manager: kfile
  For more information, see [Multidimensional Model Assemblies Management](../../analysis-services/multidimensional-models/multidimensional-model-assemblies-management.md).  
   
  **Custom stored procedures**  
- [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] data mining supports the use of stored procedures to work with data mining objects. You can create your own stored procedures to extend functionality and more easily work with data returned by prediction queries and content queries.  
+ [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data mining supports the use of stored procedures to work with data mining objects. You can create your own stored procedures to extend functionality and more easily work with data returned by prediction queries and content queries.  
   
  [Defining Stored Procedures](../../analysis-services/multidimensional-models-extending-olap-stored-procedures/defining-stored-procedures.md)  
   
@@ -83,14 +83,14 @@ manager: kfile
   
  [Data Mining Stored Procedures &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-stored-procedures-analysis-services-data-mining.md)  
   
- Additionally, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] contains many system stored procedures that are used internally for data mining. Although the system stored procedures are for internal use, you might find them useful shortcuts. Microsoft reserves the right to change these stored procedures as needed; therefore, for production use, we recommend that you create queries by using DMX, AMO, or XMLA.  
+ Additionally, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] contains many system stored procedures that are used internally for data mining. Although the system stored procedures are for internal use, you might find them useful shortcuts. Microsoft reserves the right to change these stored procedures as needed; therefore, for production use, we recommend that you create queries by using DMX, AMO, or XMLA.  
   
  **Custom plug-in algorithms**  
- [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] provides a mechanism for creating your own algorithms, and then adding the algorithms as a new data mining service to the server instance.  
+ [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] provides a mechanism for creating your own algorithms, and then adding the algorithms as a new data mining service to the server instance.  
   
  Analysis Services uses COM interfaces to communicate with plugin algorithms. To learn more about how to implement new algorithms, see [Plugin Algorithms](../../analysis-services/data-mining/plugin-algorithms.md).  
   
- You must register each new algorithm before you can use it. To register an algorithm, you add the required metadata for the algorithms in the .ini file of the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. You must add the information to each instance where you plan to use the new algorithm. After you have added the algorithm, you can restart the instance, and use the MINING_SERVICES schema rowset to view the new algorithm, including the options and providers that the algorithm supports.  
+ You must register each new algorithm before you can use it. To register an algorithm, you add the required metadata for the algorithms in the .ini file of the instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. You must add the information to each instance where you plan to use the new algorithm. After you have added the algorithm, you can restart the instance, and use the MINING_SERVICES schema rowset to view the new algorithm, including the options and providers that the algorithm supports.  
   
   
 ## See Also  

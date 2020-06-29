@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Mining Structure Tasks and How-tos
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  The **Mining Structure** tab of Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] contains tools that you can use to create, edit, and process a mining structure.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  The **Mining Structure** tab of Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] contains tools that you can use to create, edit, and process a mining structure.  
   
 ## In This Section  
   

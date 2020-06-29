@@ -11,15 +11,15 @@ author: minewiskan
 manager: kfile
 ---
 # Microsoft Neural Network Algorithm
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Neural Network algorithm is an implementation of the popular and adaptable neural network architecture for machine learning.  The algorithm works by testing each possible state of the input attribute against each possible state of the predictable attribute, and calculating probabilities for each combination based on the training data. You can use these probabilities for both classification or regression tasks, to predict an outcome  based on some input attributes. A neural network can also be used for association analysis.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  The [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm is an implementation of the popular and adaptable neural network architecture for machine learning.  The algorithm works by testing each possible state of the input attribute against each possible state of the predictable attribute, and calculating probabilities for each combination based on the training data. You can use these probabilities for both classification or regression tasks, to predict an outcome  based on some input attributes. A neural network can also be used for association analysis.  
   
- When you create a mining model using the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Neural Network algorithm, you can include multiple outputs, and the algorithm will create multiple networks. The number of networks contained in a single mining model contains depends on the number of states (or attribute values) in the input columns, as well as the number of predictable columns that the mining model uses and the number of states in those columns.  
+ When you create a mining model using the [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm, you can include multiple outputs, and the algorithm will create multiple networks. The number of networks contained in a single mining model contains depends on the number of states (or attribute values) in the input columns, as well as the number of predictable columns that the mining model uses and the number of states in those columns.  
   
 ## Example  
- The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Neural Network algorithm is useful for analyzing complex input data, such as from a manufacturing or commercial process, or business problems for which a significant quantity of training data is available but for which rules cannot be easily derived by using other algorithms.  
+ The [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm is useful for analyzing complex input data, such as from a manufacturing or commercial process, or business problems for which a significant quantity of training data is available but for which rules cannot be easily derived by using other algorithms.  
   
- Suggested scenarios for using the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Neural Network algorithm include the following:  
+ Suggested scenarios for using the [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm include the following:  
   
 -   Marketing and promotion analysis, such as measuring the success of a direct mail promotion or a radio advertising campaign  
   
@@ -32,7 +32,7 @@ manager: kfile
 -   Any prediction model that analyzes complex relationships between many inputs and relatively fewer outputs  
   
 ## How the Algorithm Works  
- The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Neural Network algorithm creates a network that is composed of up to three layers of nodes (sometimes called *neurons*). These layers are the *input layer*, the *hidden layer*, and the *output layer*.  
+ The [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm creates a network that is composed of up to three layers of nodes (sometimes called *neurons*). These layers are the *input layer*, the *hidden layer*, and the *output layer*.  
   
  **Input layer:** Input nodes define all the input attribute values for the data mining model, and their probabilities.  
   
@@ -45,7 +45,7 @@ manager: kfile
 ## Data Required for Neural Network Models  
  A neural network model must contain a key column, one or more input columns, and one or more predictable columns.  
   
- Data mining models that use the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Neural Network algorithm are heavily influenced by the values that you specify for the parameters that are available to the algorithm. The parameters define how data is sampled, how data is distributed or expected to be distributed in each column, and when feature selection is invoked to limit the values that are used in the final model.  
+ Data mining models that use the [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm are heavily influenced by the values that you specify for the parameters that are available to the algorithm. The parameters define how data is sampled, how data is distributed or expected to be distributed in each column, and when feature selection is invoked to limit the values that are used in the final model.  
   
  For more information about setting parameters to customize model behavior, see [Microsoft Neural Network Algorithm Technical Reference](../../analysis-services/data-mining/microsoft-neural-network-algorithm-technical-reference.md).  
   

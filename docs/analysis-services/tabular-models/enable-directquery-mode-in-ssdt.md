@@ -12,9 +12,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Enable DirectQuery mode in Visual Studio
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-In this topic, we'll describe how to enable DirectQuery mode for a tabular model project in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)].  
+In this topic, we'll describe how to enable DirectQuery mode for a tabular model project in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)].  
   
 When you enable DirectQuery mode for a tabular model:
 
@@ -39,7 +39,7 @@ You can now import data using the Table Import Wizard to get metadata for the mo
 You can create a sample partition for each table and add sample data so that you can verify model behavior as you build it. Any sample data that you add is used in **Analyze for Excel** or in other client tools that can connect to the workspace database. See [Add sample data to a DirectQuery model in design mode](../../analysis-services/tabular-models/add-sample-data-to-a-directquery-model-in-design-mode.md) for details.  
   
 > [!TIP]
->  Even in DirectQuery mode on an empty model, you can always view a small built-in rowset for each table. In [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], click **Table** > **Table Properties** to view the 50-row dataset.  
+>  Even in DirectQuery mode on an empty model, you can always view a small built-in rowset for each table. In [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click **Table** > **Table Properties** to view the 50-row dataset.  
   
   
 ## See also  

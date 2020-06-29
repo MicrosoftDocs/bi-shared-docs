@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Cube Space
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   Cube space is the product of the members of a cube's attribute hierarchies with the cube's measures. Therefore, the cube space is determined by the combinatorial product of all attribute hierarchy members in the cube and the cube's measures and defines the maximum size of the cube. It is important to note that this space includes all possible combinations of attribute hierarchy members; even combinations that might be deem as impossible in the real world i.e. combinations where the city is Paris and the countries are England or Spain or Japan or India or elsewhere.  
   
 ## Autoexists and cube space  
@@ -72,7 +72,7 @@ WHERE (Measures.[Internet Sales Amount],
   
  The cells values returned will be identical, although the metadata in the result set will be different. For example, with the previous query, the Country hierarchy was moved to the slicer axis (in the WHERE clause) and therefore does not appear explicitly in the result set.  
   
- Each of these three previous queries demonstrates the effect of the auto-exists behavior in [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)].  
+ Each of these three previous queries demonstrates the effect of the auto-exists behavior in [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)].  
   
 ## User-Defined Hierarchies and Cube Space  
  The previous examples in this topic define positions in cube space by using attribute hierarchies. However, you can also define a position in cube space by using user-defined hierarchies that have been defined based on attribute hierarchies in a dimension. A user-defined hierarchy is a hierarchy of attribute hierarchies designed to facilitate browsing of cube data by users.  

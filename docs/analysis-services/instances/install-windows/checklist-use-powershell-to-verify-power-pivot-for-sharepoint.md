@@ -11,10 +11,10 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Use PowerShell to Verify Power Pivot for SharePoint
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  No [!INCLUDE[ssGeminiShort](../../../includes/ssgeminishort-md.md)] installation or recovery operation is complete without a solid verification test pass that confirms your services and data are operational. In this article, we show you how to perform these steps using Windows PowerShell. We put each step into its own section so that you can go straight to specific tasks. For example, run the script in the [Databases](#bkmk_databases) section of this topic to verify the name of the service application and content databases if you want to schedule them for maintenance or backup.  
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+  No [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)] installation or recovery operation is complete without a solid verification test pass that confirms your services and data are operational. In this article, we show you how to perform these steps using Windows PowerShell. We put each step into its own section so that you can go straight to specific tasks. For example, run the script in the [Databases](#bkmk_databases) section of this topic to verify the name of the service application and content databases if you want to schedule them for maintenance or backup.  
   
-![PowerShell related content](../../../analysis-services/instances/install-windows/media/rs-powershellicon.jpg "PowerShell related content") A full PowerShell script is included at the bottom of the topic. Use the full script as a starting point to build a custom script for auditing your full [!INCLUDE[ssGeminiShort](../../../includes/ssgeminishort-md.md)] deployment.
+![PowerShell related content](../../../analysis-services/instances/install-windows/media/rs-powershellicon.jpg "PowerShell related content") A full PowerShell script is included at the bottom of the topic. Use the full script as a starting point to build a custom script for auditing your full [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)] deployment.
   
   
 ##  <a name="bkmk_prerequisites"></a> Prepare your PowerShell environment  
@@ -26,7 +26,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
  Get-SPLogEvent : You need to have computer **administrator privileges** to run this cmdlet.  
   
- **SharePoint and [!INCLUDE[ssGeminiShort](../../../includes/ssgeminishort-md.md)]** Module  
+ **SharePoint and [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)]** Module  
   
  If you see an error message similar to the following when you run SharePoint related cmdlets, run the Add-PSSnapin command:  
   
@@ -42,19 +42,19 @@ Add-PSSnapin Microsoft.Sharepoint.Powershell -EA 0
   
 |||  
 |-|-|  
-|![powerpivot in sharepoint general application set](../../../analysis-services/instances/install-windows/media/ssas-powerpivot-logo.png "powerpivot in sharepoint general application set")|You can optionally verify a majority of the components in Central Administration, using the [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] management dashboard. To open the dashboard in Central Administration, click **General Application Settings**, and then click **Management Dashboard** in the **[!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)]**. For more information on the dashboard, see [Power Pivot Management Dashboard and Usage Data](../../../analysis-services/power-pivot-sharepoint/power-pivot-management-dashboard-and-usage-data.md).|  
+|![powerpivot in sharepoint general application set](../../../analysis-services/instances/install-windows/media/ssas-powerpivot-logo.png "powerpivot in sharepoint general application set")|You can optionally verify a majority of the components in Central Administration, using the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] management dashboard. To open the dashboard in Central Administration, click **General Application Settings**, and then click **Management Dashboard** in the **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)]**. For more information on the dashboard, see [Power Pivot Management Dashboard and Usage Data](../../../analysis-services/power-pivot-sharepoint/power-pivot-management-dashboard-and-usage-data.md).|  
   
 ##  <a name="bkmk_symptoms"></a> Symptoms and Recommended Actions  
  The following table is a list of symptoms or issues and the suggested section of this topic to consult to help you resolve the issue.  
   
 |Symptom|See section|  
 |-------------|-----------------|  
-|Data refresh is not running|See the section [Timer Jobs](#bkmk_timer_jobs) and verify the **Online [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] Data Refresh Timer Job** is online.|  
+|Data refresh is not running|See the section [Timer Jobs](#bkmk_timer_jobs) and verify the **Online [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Data Refresh Timer Job** is online.|  
 |Management dashboard data is old|See the section [Timer Jobs](#bkmk_timer_jobs) and verify the **Management Dashboard Processing Timer Job** is online.|  
-|Some portions of the Management Dashboard|If you install [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] for SharePoint into a farm that has the topology of Central Administration, without Excel Services or [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] for SharePoint, you must download and install the Microsoft ADOMD.NET client library if you want full access to the built-in reports in the [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] management dashboard. Some reports in the dashboard use ADOMD.NET to access internal data that provides reporting data on [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] query processing and server health in the farm. See the section [ADOMD.Net client Library](#bkmk_adomd) and the topic [Install ADOMD.NET on Web Front-End Servers Running Central Administration](https://msdn.microsoft.com/c2372180-e847-4cdb-b267-4befac3faf7e).|  
+|Some portions of the Management Dashboard|If you install [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint into a farm that has the topology of Central Administration, without Excel Services or [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint, you must download and install the Microsoft ADOMD.NET client library if you want full access to the built-in reports in the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] management dashboard. Some reports in the dashboard use ADOMD.NET to access internal data that provides reporting data on [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] query processing and server health in the farm. See the section [ADOMD.Net client Library](#bkmk_adomd) and the topic [Install ADOMD.NET on Web Front-End Servers Running Central Administration](https://msdn.microsoft.com/c2372180-e847-4cdb-b267-4befac3faf7e).|  
   
 ##  <a name="bkmk_windows_service"></a> Analysis Services Windows Service  
- The script in this section verifies the instance of [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] in SharePoint mode. Verify the service is **running**.  
+ The script in this section verifies the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] in SharePoint mode. Verify the service is **running**.  
   
 ```  
 get-service | select name, displayname, status | where {$_.Name -eq "msolap`$powerpivot"} | format-table -property * -autosize | out-default  
@@ -69,7 +69,7 @@ MSOLAP$POWERPIVOT SQL Server Analysis Services (POWERPIVOT) Running
 ```  
   
 ##  <a name="bkmk_engine_and_system_service"></a> PowerPivotSystemService and PowerPivotEngineService  
- The scripts in this section verify the [!INCLUDE[ssGeminiShort](../../../includes/ssgeminishort-md.md)] system services. There is one system service for a SharePoint 2013 deployment and two services for a SharePoint 2010 deployment.  
+ The scripts in this section verify the [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)] system services. There is one system service for a SharePoint 2013 deployment and two services for a SharePoint 2010 deployment.  
   
  **PowerPivotSystemService**  
   
@@ -111,9 +111,9 @@ Farm      : SPFarm Name=SharePoint_Config
 ```  
   
 ##  <a name="bkmk_powerpivot_service_application"></a> Power Pivot Service Application(s) and proxies  
- Verify the status is **Online**. The Excel Services Application does not use a service application database and therefore the cmdlet does not return a database name. Note the database used by the [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] service application so you can verify the database is online in the database section later in this topic.  
+ Verify the status is **Online**. The Excel Services Application does not use a service application database and therefore the cmdlet does not return a database name. Note the database used by the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] service application so you can verify the database is online in the database section later in this topic.  
   
- **[!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] and Excel Service Application(s)**  
+ **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] and Excel Service Application(s)**  
   
  For a SharePoint 2010 deployment, verify the status is **Online**.  
   
@@ -141,9 +141,9 @@ Status      : Online
  **Service Application Pool**  
   
 > [!NOTE]  
->  The following code sample first returns the applicationpool property of the default [!INCLUDE[ssGeminiShort](../../../includes/ssgeminishort-md.md)] service application. The name is parsed from the string and used to get the status of the application pool object.  
+>  The following code sample first returns the applicationpool property of the default [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)] service application. The name is parsed from the string and used to get the status of the application pool object.  
 >   
->  Verify the Status is **Online**. If the status is not Online or you see "http error" when you browse the [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] site, verify the identity credentials in the IIS application pools are still correct. The IIS pool name will is the value of the ID property returned by the Get-SPServiceApplicationPool command.  
+>  Verify the Status is **Online**. If the status is not Online or you see "http error" when you browse the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] site, verify the identity credentials in the IIS application pools are still correct. The IIS pool name will is the value of the ID property returned by the Get-SPServiceApplicationPool command.  
   
 ```  
 $poolname=[string](Get-PowerPivotServiceApplication | select -property applicationpool)  
@@ -163,7 +163,7 @@ SharePoint Web Services System Online DOMAIN\account     89b50ec3-49e3-4de7-881a
   
  ![note](../../../analysis-services/instances/install-windows/media/ssrs-fyi-note.png "note")The application pool can also be verified on the Central Administration page **Manage Service Applications**. Click the name of the service application and then click **properties** in the ribbon.  
   
- **[!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] and Excel Service Application proxies**  
+ **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] and Excel Service Application proxies**  
   
  Verify the Status is **Online**.  
   
@@ -216,7 +216,7 @@ PowerPivot      Online  Farm SPFarm Name=SharePoint_Config
 ```  
   
 ##  <a name="bkmk_timer_jobs"></a> Timer Jobs  
- Verify the Time Jobs are **Online**. The [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] EngineService is not installed on SharePoint 2013, therefore the script will not list EngineService timer jobs in a SharePoint 2013 deployment.  
+ Verify the Time Jobs are **Online**. The [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] EngineService is not installed on SharePoint 2013, therefore the script will not list EngineService timer jobs in a SharePoint 2013 deployment.  
   
 ```  
 Get-SPTimerJob | where {$_.service -like "*power*" -or $_.service -like "*mid*"} | select status, displayname, LastRunTime, service | format-table -property * -autosize | out-default  
@@ -265,7 +265,7 @@ MidTierAcctReadPermissionRule    True PowerPivot: MidTier process account should
 ##  <a name="bkmk_logs"></a> Windows and ULS Logs  
  **Windows event log**  
   
- The following command will search the windows event log for events related to the instance of [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] in SharePoint mode. For information on disabling events or changing the event level, see [Configure and View SharePoint Log Files  and Diagnostic Logging &#40;Power Pivot for SharePoint&#41;](../../../analysis-services/power-pivot-sharepoint/configure-and-view-sharepoint-and-diagnostic-logging.md)
+ The following command will search the windows event log for events related to the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] in SharePoint mode. For information on disabling events or changing the event level, see [Configure and View SharePoint Log Files  and Diagnostic Logging &#40;Power Pivot for SharePoint&#41;](../../../analysis-services/power-pivot-sharepoint/configure-and-view-sharepoint-and-diagnostic-logging.md)
  
  **Service Name:** MSOLAP$POWERPIVOT  
   
@@ -288,7 +288,7 @@ TimeGenerated           EntryType Source            Message
   
  **SharePoint ULS Log, last 48 hours**  
   
- The following command will return [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] messages from the ULS log that were created in the last 48 hours. Adjust the addhours parameter for your need.  
+ The following command will return [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] messages from the ULS log that were created in the last 48 hours. Adjust the addhours parameter for your need.  
   
 ```  
 Get-SPLogEvent -starttime(get-date).addhours(-48) | Where-Object {$_.Area -eq "powerpivot service" -and $_.level -eq "high"} | select timestamp, area, category, eventid,level, message| format-table -property * -autosize | out-default  
@@ -326,7 +326,7 @@ Message     : EXCEPTION: System.TimeoutException: The request channel timed out 
 ```  
   
 ##  <a name="bkmk_msolap"></a> MSOLAP Provider  
- Verify the provider MSOLAP provider. [!INCLUDE[ssSQL11](../../../includes/sssql11-md.md)] and [!INCLUDE[ssSQL14](../../../includes/sssql14-md.md)] [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] require MSOLAP.5.  
+ Verify the provider MSOLAP provider. [!INCLUDE[ssSQL11](../../includes/sssql11-md.md)] and [!INCLUDE[ssSQL14](../../includes/sssql14-md.md)] [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] require MSOLAP.5.  
   
 ```  
 $excelApp=Get-SPExcelServiceApplication  
@@ -384,7 +384,7 @@ PowerPivot Unload Data Usage Online    True AnalysisServicesUnloads             
  For more information, see [Power Pivot Usage Data Collection](../../../analysis-services/power-pivot-sharepoint/power-pivot-usage-data-collection.md).  
   
 ##  <a name="bkmk_solutions"></a> Solutions  
- If the other components are online then you can skip verifying the solutions. If however the Health rules are missing, verify the two solutions exist and showed Verify the two [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] solutions are **Online** and **Deployed**.  
+ If the other components are online then you can skip verifying the solutions. If however the Health rules are missing, verify the two solutions exist and showed Verify the two [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] solutions are **Online** and **Deployed**.  
   
 ```  
 get-spsolution | select name, status, deployed, DeploymentState, DeployedServers | where {$_.Name -like "*powerpivot*"} | format-table -property * -autosize | out-default  
@@ -432,7 +432,7 @@ powerpivotwebapp.wsp Online     True WebApplicationDeployed {uesql11spoint2}
  [Use the Get-EvenLog cmdlet](https://technet.microsoft.com/library/ee176846.aspx)  
   
 ##  <a name="bkmk_full_script"></a> Full PowerShell Script  
- The Following script contains all of the commands from the previous sections. The script runs the commands in the same order as they are presented in this topic. The script contains some optional variations of the commands noted in this topic in case you need additional filtering. The variations are disabled with a comment character (#). The script also includes some statements for verifying [!INCLUDE[ssRSnoversion](../../../includes/ssrsnoversion-md.md)] SharePoint mode. The [!INCLUDE[ssRSnoversion](../../../includes/ssrsnoversion-md.md)] statements are disabled with a comment character (#).  
+ The Following script contains all of the commands from the previous sections. The script runs the commands in the same order as they are presented in this topic. The script contains some optional variations of the commands noted in this topic in case you need additional filtering. The variations are disabled with a comment character (#). The script also includes some statements for verifying [!INCLUDE[ssRSnoversion](../../includes/ssrsnoversion-md.md)] SharePoint mode. The [!INCLUDE[ssRSnoversion](../../includes/ssrsnoversion-md.md)] statements are disabled with a comment character (#).  
   
 ```  
 # This script audits services related to PowerPivot for SharePoint  

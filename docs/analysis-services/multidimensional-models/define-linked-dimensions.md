@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Define Linked Dimensions
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A linked dimension is based on a dimension created and stored in another Analysis Services database of the same version and compatibility level. By using a linked dimension, you can create, store, and maintain a dimension on one database, while making it available to users of multiple databases. To users, a linked dimension appears like any other dimension.  
   
  Linked dimensions are read-only. If you want to modify the dimension or create new relationships, you must change the source dimension, then delete and recreate the linked dimension and its relationships. You cannot refresh a linked dimension to pick up changes from the source object.  
@@ -38,9 +38,9 @@ manager: kfile
   
 ## Create a linked dimension in SQL Server Data Tools  
   
-1.  Start the wizard. In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], right-click the **Dimensions** folder in an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database or project, and then click **New Linked Dimension**.  
+1.  Start the wizard. In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], right-click the **Dimensions** folder in an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database or project, and then click **New Linked Dimension**.  
   
-2.  Connect to the Analysis Services database that provides the dimension. On the **Select a Data Source** page of the Linked Object Wizard, choose the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] data source or create a new one.  
+2.  Connect to the Analysis Services database that provides the dimension. On the **Select a Data Source** page of the Linked Object Wizard, choose the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data source or create a new one.  
   
 3.  On the **Select Objects** page of the wizard, choose the dimensions you want to link to in the remote database.  
   

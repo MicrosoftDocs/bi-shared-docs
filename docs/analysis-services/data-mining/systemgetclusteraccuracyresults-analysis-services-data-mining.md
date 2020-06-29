@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # SystemGetClusterAccuracyResults (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Returns cross-validation accuracy metrics for a mining structure and related clustering models.  
   
  This stored procedure returns metrics for the entire data set as a single partition. To partition the dataset into cross-sections and return metrics for each partition, use [SystemGetClusterCrossValidationResults &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/systemgetclustercrossvalidationresults-analysis-services-data-mining.md).  
@@ -111,7 +111,7 @@ CALL SystemGetClusterAccuracyResults (
 |Cluster 2|||0|5545|Clustering|Case Likelihood|0.732122471228572|  
   
 ## Requirements  
- Cross-validation is available only in [!INCLUDE[ssEnterprise](../../includes/ssenterprise-md.md)] beginning in [!INCLUDE[ssKatmai](../../includes/sskatmai-md.md)].  
+ Cross-validation is available only in [!INCLUDE[ssEnterprise](../includes/ssenterprise-md.md)] beginning in [!INCLUDE[ssKatmai](../includes/sskatmai-md.md)].  
   
 ## See Also  
  [SystemGetCrossValidationResults &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/systemgetcrossvalidationresults-analysis-services-data-mining.md)   

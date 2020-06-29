@@ -11,10 +11,10 @@ author: minewiskan
 manager: kfile
 ---
 # Association Model Query Examples
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   When you create a query against a data mining model, you can create either a content query, which provides details about the rules and itemsets discovered during analysis, or you can create a prediction query, which uses the associations discovered in the data to make predictions. For an association model, predictions typically are based on rules, and can be used to make recommendations, whereas queries on content typically explore the relationship among itemsets. You can also retrieve metadata about the model.  
   
- This section explains how to create these kinds of queries for models that are based on the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Association Rules algorithm.  
+ This section explains how to create these kinds of queries for models that are based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] Association Rules algorithm.  
   
  **Content Queries**  
   
@@ -35,7 +35,7 @@ manager: kfile
  [Determining confidence for related itemsets](#bkmk_Query7)  
   
 ##  <a name="bkmk_top2"></a> Finding Information about the Model  
- All mining models expose the content learned by the algorithm according to a standardized schema, which is named the mining model schema rowset. You can create queries against the mining model schema rowset either by using Data Mining Extensions (DMX) statements, or by using [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] stored procedures. In [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)], you can also query the schema rowsets directly as system tables, by using a SQL-like syntax.  
+ All mining models expose the content learned by the algorithm according to a standardized schema, which is named the mining model schema rowset. You can create queries against the mining model schema rowset either by using Data Mining Extensions (DMX) statements, or by using [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] stored procedures. In [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)], you can also query the schema rowsets directly as system tables, by using a SQL-like syntax.  
   
 ###  <a name="bkmk_Query1"></a> Sample Query 1: Getting Model Metadata by Using DMX  
  The following query returns basic metadata about the association model, `Association`, such as the name of the model, the database where the model is stored, and the number of child nodes in the model. This query uses a DMX content query to retrieve the metadata from the parent node of the model:  
@@ -177,7 +177,7 @@ AS t
  [Return to Top](#bkmk_top2)  
   
 ###  <a name="bkmk_Query7"></a> Sample Query 7: Determining Confidence for Related Itemsets  
- Whereas rules are useful for generating recommendations, itemsets are more interesting for deeper analysis of the patterns in the data set. For example, if you were not satisfied with the recommendation that are returned by the previous sample query, you could examine other itemsets that contain Product A, to can get a better idea of whether Product A is an accessory that people tend to buy with all kinds of products, or whether A is strongly correlated with purchases of particular products. The easiest way to explore these relationships is by filtering the itemsets in the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Association Viewer; however, you can retrieve the same information with a query.  
+ Whereas rules are useful for generating recommendations, itemsets are more interesting for deeper analysis of the patterns in the data set. For example, if you were not satisfied with the recommendation that are returned by the previous sample query, you could examine other itemsets that contain Product A, to can get a better idea of whether Product A is an accessory that people tend to buy with all kinds of products, or whether A is strongly correlated with purchases of particular products. The easiest way to explore these relationships is by filtering the itemsets in the [!INCLUDE[msCoName](../includes/msconame-md.md)] Association Viewer; however, you can retrieve the same information with a query.  
   
  The following sample query returns all itemsets that include the Water Bottle item, including the single item Water bottle.  
   
@@ -208,7 +208,7 @@ ORDER BY NODE_SUPPORT DESC
  [Return to Top](#bkmk_top2)  
   
 ## Function List  
- All [!INCLUDE[msCoName](../../includes/msconame-md.md)] algorithms support a common set of functions. However, the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Association algorithm supports the additional functions listed in the following table.  
+ All [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms support a common set of functions. However, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Association algorithm supports the additional functions listed in the following table.  
   
 |||  
 |-|-|  
