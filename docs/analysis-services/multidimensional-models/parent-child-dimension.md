@@ -11,13 +11,13 @@ author: minewiskan
 manager: kfile
 ---
 # Parent-Child Dimension
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A parent-child hierarchy is a hierarchy in a standard dimension that contains a parent attribute. A parent attribute describes a *self-referencing relationship*, or *self-join*, within a dimension main table. Parent-child hierarchies are constructed from a single parent attribute. Only one level is assigned to a parent-child hierarchy, because the levels present in the hierarchy are drawn from the parent-child relationships between members associated with the parent attribute. The position of a member in a parent-child hierarchy is determined by the **KeyColumns** and **RootMemberIf** properties of the parent attribute, whereas the position of a member in a level is determined by the **OrderBy** property of the parent attribute. For more information about attribute properties, see [Attributes and Attribute Hierarchies](../../analysis-services/multidimensional-models-olap-logical-dimension-objects/attributes-and-attribute-hierarchies.md).  
   
  Because of parent-child relationships between levels in a parent-child hierarchy, some nonleaf members can also have data derived from underlying data sources, in addition to data aggregated from child members.  
   
 ## Dimension Schema  
- The dimension schema of a parent-child hierarchy depends on a self-referencing relationship present on the dimension main table. For example, the following diagram illustrates the **DimOrganization** dimension main table in the [!INCLUDE[ssSampleDBDWobject](../../includes/sssampledbdwobject-md.md)] sample database.  
+ The dimension schema of a parent-child hierarchy depends on a self-referencing relationship present on the dimension main table. For example, the following diagram illustrates the **DimOrganization** dimension main table in the [!INCLUDE[ssSampleDBDWobject](../includes/sssampledbdwobject-md.md)] sample database.  
   
  ![Self-referencing join in DimOrganization table](../../analysis-services/multidimensional-models/media/dimorganization.gif "Self-referencing join in DimOrganization table")  
   

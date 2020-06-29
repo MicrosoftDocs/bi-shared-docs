@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 2-2 - Defining a Cube
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 The Cube Wizard helps you define the measure groups and dimensions for a cube. In the following task, you will use the Cube Wizard to build a cube.  
   
@@ -55,7 +55,7 @@ The Cube Wizard helps you define the measure groups and dimensions for a cube. I
   
 13. Click **Finish** to complete the wizard.  
   
-    In Solution Explorer, in the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial project, the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube appears in the **Cubes** folder, and the Customer and Product database dimensions appear in the **Dimensions** folder. Additionally, in the center of the development environment, the Cube Structure tab displays the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube.  
+    In Solution Explorer, in the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial project, the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube appears in the **Cubes** folder, and the Customer and Product database dimensions appear in the **Dimensions** folder. Additionally, in the center of the development environment, the Cube Structure tab displays the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube.  
   
 14. On the toolbar of the Cube Structure tab, change the **Zoom** level to 50 percent, so that you can more easily see the dimensions and fact tables in the cube. Notice that the fact table is yellow and the dimension tables are blue.  
   

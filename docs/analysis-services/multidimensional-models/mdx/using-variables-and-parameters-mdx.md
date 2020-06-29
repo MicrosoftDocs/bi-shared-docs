@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Using Variables and Parameters (MDX)
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  In [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)], you can parameterize a Multidimensional Expressions (MDX) statement. A parameterized statement lets you create generic statements that can be customized at runtime.  
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+  In [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], you can parameterize a Multidimensional Expressions (MDX) statement. A parameterized statement lets you create generic statements that can be customized at runtime.  
   
  In creating a parameterized statement, you identify the parameter name by prefixing the name with the at sign (@). For example, @Year would be a valid parameter name  
   

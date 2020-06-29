@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 6-2 - Defining Named Sets
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 A named set is a Multidimensional Expressions (MDX) expression that returns a set of dimension members. You can define named sets and save them as part of the cube definition; you can also create named sets in client applications. You create named sets by combining cube data, arithmetic operators, numbers, and functions. Named sets can be used by users in MDX queries in client applications and can also be used to define sets in subcubes. A subcube is a collection of crossjoined sets that restricts the cube space to the defined subspace for subsequent statements. Defining a restricted cube space is a fundamental concept to MDX scripting.  
   
@@ -21,7 +21,7 @@ In the tasks in this topic, you will define two named sets: a Core Products name
   
 ## Defining a Core Products Named Set  
   
-1.  Switch to the **Calculations** tab of Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, and then click **Form View** on the toolbar.  
+1.  Switch to the **Calculations** tab of Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, and then click **Form View** on the toolbar.  
   
 2.  Click **[Total Sales Ratio to All Products]** in the **Script Organizer** pane, and then click **New Named Set** on the toolbar of the **Calculations** tab.  
   
@@ -34,7 +34,7 @@ In the tasks in this topic, you will define two named sets: a Core Products name
 4.  On the **Metadata** tab in the **Calculation Tools** pane, expand **Product**, expand **Category**, expand **Members**, and then expand **All Products**.  
   
     > [!NOTE]  
-    > If you cannot view any metadata in the **Calculation Tools** pane, click **Reconnect** on the toolbar. If this does not work, you may have to process the cube or start the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)].  
+    > If you cannot view any metadata in the **Calculation Tools** pane, click **Reconnect** on the toolbar. If this does not work, you may have to process the cube or start the instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
 5.  Drag **Bikes** into the **Expression** box.  
   
@@ -72,9 +72,9 @@ In the tasks in this topic, you will define two named sets: a Core Products name
   
 9. In the Properties window, change the **DiscretizationMethod** property to **Automatic**, and then change the **DiscretizationBucketCount** property to **5**. For more information, see [Group Attribute Members &#40;Discretization&#41;](../multidimensional-models/attribute-properties-group-attribute-members.md).  
   
-10. On the **Build** menu of [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], click **Deploy Analysis Services Tutorial**.  
+10. On the **Build** menu of [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], click **Deploy Analysis Services Tutorial**.  
   
-11. When deployment has successfully completed, switch to Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, and then click **Reconnect** on the toolbar of the **Calculations** tab.  
+11. When deployment has successfully completed, switch to Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, and then click **Reconnect** on the toolbar of the **Calculations** tab.  
   
 12. On the **Metadata** tab in the **Calculation Tools** pane, expand **Number of Employees** in the **Reseller** dimension, expand **Members**, and then expand **All Resellers**.  
   
@@ -98,11 +98,11 @@ In the tasks in this topic, you will define two named sets: a Core Products name
     /* named sets */  
     ```  
   
-    You have now defined two named sets, which are visible in the **Script Organizer** pane. You are now ready to deploy these named sets, and then to browse these measures in the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube.  
+    You have now defined two named sets, which are visible in the **Script Organizer** pane. You are now ready to deploy these named sets, and then to browse these measures in the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube.  
   
 ## Browsing the Cube by Using the New Named Sets  
   
-1.  On the **Build** menu of [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], click **Deploy Analysis Services Tutorial**.  
+1.  On the **Build** menu of [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click **Deploy Analysis Services Tutorial**.  
   
 2.  When deployment has successfully completed, click the **Browser** tab, and then click **Reconnect**.  
   

@@ -11,7 +11,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Log operations in Analysis Services
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   An Analysis Services instance will log server notifications, errors, and warnings to the msmdsrv.log file - one for each instance you install. Administrators refer to this log for insights into routine and extraordinary events alike. In recent releases, logging has been enhanced to include more information. Log records now include product version and edition information, as well as processor, memory, connectivity, and blocking events. You can review the entire change list at [Logging improvements](https://support.microsoft.com/kb/2965035).  
   
  Besides the built-in logging feature, many administrators and developers also use tools provided by the Analysis Services community to collect data about server operations, such as **ASTrace**. See [Microsoft SQL Server Community Samples: Analysis Services](https://sqlsrvanalysissrvcs.codeplex.com/) for the download links.  

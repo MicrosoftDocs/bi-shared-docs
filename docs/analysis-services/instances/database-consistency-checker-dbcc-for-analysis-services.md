@@ -11,7 +11,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Database Consistency Checker (DBCC) for Analysis Services
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   DBCC provides on-demand database validation for Multidimensional and Tabular databases on an Analysis Services instance. You can execute DBCC in an MDX or XMLA query window in SQL Server Management Studio (SSMS) and trace the DBCC output in either SQL Server Profiler or xEvent sessions in SSMS.  
 The command takes an object definition and returns either an empty result set or detailed error information if the object is corrupted.   In this article, you'll learn how to run the command, interpret results, and address any problems that arise.  
   
@@ -87,7 +87,7 @@ The command takes an object definition and returns either an empty result set or
 -   **PartitionID** maps to a partition ID.  
   
 ## Usage  
- In SQL Server Management Studio, you can invoke DBCC using either an MDX or XMLA query window. Additionally, you can use either [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)] Profiler or Analysis Services xEvents to view DBCC output. Note that SSAS DBCC messages are not reported to the Windows application event log or the msmdsrv.log file.  
+ In SQL Server Management Studio, you can invoke DBCC using either an MDX or XMLA query window. Additionally, you can use either [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] Profiler or Analysis Services xEvents to view DBCC output. Note that SSAS DBCC messages are not reported to the Windows application event log or the msmdsrv.log file.  
   
  DBCC checks for physical data corruption, as well as logical data corruption that occur when orphaned members exist in a segment. A database must be processed before you can run DBCC. It skips remote, empty, or unprocessed partitions.  
   
@@ -140,7 +140,7 @@ Run complete
   
  **Output when running DBCC against an earlier version of Analysis Services**  
   
- DBCC is only supported on databases running on a [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)] instance. Running the command on older systems will return this error.  
+ DBCC is only supported on databases running on a [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] instance. Running the command on older systems will return this error.  
   
 ```  
 Executing the query ...  

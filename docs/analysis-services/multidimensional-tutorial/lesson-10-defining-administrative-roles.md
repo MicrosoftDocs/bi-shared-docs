@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 10: Defining Administrative Roles
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 In this lesson, you learn to define security roles for administrative tasks.  
   
@@ -21,7 +21,7 @@ In this lesson, you learn to define security roles for administrative tasks.
 This lesson contains the following task:  
   
 [Granting Process Database Permissions](lesson-10-granting-process-database-permissions.md)  
-In this task, you define a security role that has permissions to process the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database, and then you test this security role.  
+In this task, you define a security role that has permissions to process the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database, and then you test this security role.  
   
 ## See Also  
 [Analysis Services Tutorial Scenario](analysis-services-tutorial-scenario.md)  

@@ -11,14 +11,14 @@ author: minewiskan
 manager: kfile
 ---
 # Create a Data Mining Dimension
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   If your mining structure is based on an OLAP cube, you can create a dimension that contains the content of the mining model. You can then incorporate the dimension back into the source cube.  
   
  You can also browse the dimension, use it to explore the model results, or query the dimension using MDX.  
   
 ### To create a data mining dimension  
   
-1.  In Data Mining Designer in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], select either the **Mining Structure** tab or the **Mining Models** tab.  
+1.  In Data Mining Designer in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], select either the **Mining Structure** tab or the **Mining Models** tab.  
   
 2.  From the **Mining Model** menu, select **Create a Data Mining Dimension**.  
   

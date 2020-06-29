@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Data sources supported in SQL Server Analysis Services tabular 1400 and higher models
 
-[!INCLUDE[ssas-appliesto-sqlas-all](../../includes/ssas-appliesto-sqlas-all.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all](../includes/ssas-appliesto-sqlas-all.md)]
 
 This article describes the types of data sources that can be used with **SQL Server Analysis Services** (SSAS) tabular models at the 1400 and higher compatibility level. For **Azure Analysis Services**, see [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource).
 

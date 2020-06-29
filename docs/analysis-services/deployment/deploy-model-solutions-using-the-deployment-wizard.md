@@ -12,12 +12,12 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Deploy solutions by using the Deployment Wizard
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  The [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard uses JSON output files generated from an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project as input files. These input files are easily modifiable to customize the deployment of an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project. The generated deployment script can then either be immediately run or saved for later deployment.  
+  The [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard uses JSON output files generated from an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project as input files. These input files are easily modifiable to customize the deployment of an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project. The generated deployment script can then either be immediately run or saved for later deployment.  
 
 > [!NOTE]
-> The [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard/Utility is installed with [SQL Server Managment Studio](/sql/ssms/download-sql-server-management-studio-ssms) (SSMS). Be sure you're using the latest version. If running from the command prompt, by default, the latest version of  the deployment wizard is installed to C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio. 
+> The [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard/Utility is installed with [SQL Server Managment Studio](/sql/ssms/download-sql-server-management-studio-ssms) (SSMS). Be sure you're using the latest version. If running from the command prompt, by default, the latest version of  the deployment wizard is installed to C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio. 
   
  You can deploy by using the wizard as described here. You can also automate deployment or use the Synchronize capability. If the deployed database is large, consider using partitions on target systems. You can automate partition creation and population by using Tabular Object Model (TOM), Tabular Model Scriting Language (TMSL), and Analysis Management Objects (AMO).  
   
@@ -26,12 +26,12 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 ## In this section
 
- The following articles describe how to work with the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard, the input files, and the deployment script:  
+ The following articles describe how to work with the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard, the input files, and the deployment script:  
   
 |Article|Description|  
 |-----------|-----------------|  
-|[Running the Analysis Services Deployment Wizard](../../analysis-services/deployment/running-the-analysis-services-deployment-wizard.md)|Describes the various ways in which you can run the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard.|  
-|[Understanding the input files Used to create the deployment Script](../../analysis-services/deployment/deployment-script-files-input-used-to-create-deployment-script.md)|Describes which files the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Deployment Wizard uses as input values, what each of those files contains, and provides links to topics that describe how to modify the values in each of the input files.|  
+|[Running the Analysis Services Deployment Wizard](../../analysis-services/deployment/running-the-analysis-services-deployment-wizard.md)|Describes the various ways in which you can run the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard.|  
+|[Understanding the input files Used to create the deployment Script](../../analysis-services/deployment/deployment-script-files-input-used-to-create-deployment-script.md)|Describes which files the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard uses as input values, what each of those files contains, and provides links to topics that describe how to modify the values in each of the input files.|  
 |[Understanding the Analysis Services deployment script](../../analysis-services/deployment/understanding-the-analysis-services-deployment-script.md)|Describes what the deployment script contains and how the script runs.|  
   
 ## See also

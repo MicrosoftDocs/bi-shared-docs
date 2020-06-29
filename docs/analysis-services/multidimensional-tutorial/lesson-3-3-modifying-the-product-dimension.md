@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 3-3 - Modifying the Product Dimension
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 In the tasks in this topic, you use a named calculation to provide more descriptive names for the product lines, define a hierarchy in the Product dimension, and specify the (All) member name for the hierarchy. You also group attributes into display folders.  
   
@@ -165,7 +165,7 @@ If the underlying data supports it, you should define attribute relationships be
   
 #### To review the Product dimension changes  
   
-1.  On the **Build** menu of [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], click **Deploy Analysis Services Tutorial**.  
+1.  On the **Build** menu of [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], click **Deploy Analysis Services Tutorial**.  
   
 2.  After you have received the **Deployment Completed Successfully** message, click the **Browser** tab of **Dimension Designer** for the **Product** dimension, and then click the Reconnect button on the toolbar of the designer.  
   

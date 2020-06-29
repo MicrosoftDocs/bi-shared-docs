@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Apply Prediction Functions to a Model
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  To create a prediction query in [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] Data Mining, you must first select the mining model on which the query will be based. You can select any mining model that exists in the current project.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  To create a prediction query in [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] Data Mining, you must first select the mining model on which the query will be based. You can select any mining model that exists in the current project.  
   
  After you have selected a model, add a *prediction function* to the query. A prediction function can be used to get a prediction, but you can also add prediction functions that return related statistics, such as a the probability of the predicted value, or information that was used in generating the prediction.  
   
@@ -36,15 +36,15 @@ manager: kfile
   
 ### Choose a mining model to use for prediction  
   
-1.  From [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], right-click the model, and select **Build Prediction Query**.  
+1.  From [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], right-click the model, and select **Build Prediction Query**.  
   
      --OR --  
   
-     In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], click the tab, **Mining Model Prediction**, and then click **Select Model** in the  **Mining Model** table.  
+     In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], click the tab, **Mining Model Prediction**, and then click **Select Model** in the  **Mining Model** table.  
   
 2.  In the **Select Mining Model** dialog box, select a mining model, and then click **OK**.  
   
-     You can choose any model within the current [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database. To create a query using a model in a different database, you must either open a new query window in the context of that database, or open the solution file that contains that model.  
+     You can choose any model within the current [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database. To create a query using a model in a different database, you must either open a new query window in the context of that database, or open the solution file that contains that model.  
   
 ### Add prediction functions to a query  
   
@@ -72,7 +72,7 @@ manager: kfile
   
 1.  If you do not have a clustering model available for building this sample query, create the model, [TM_Clustering], using the [Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c).  
   
-2.  From [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], right-click the model, [TM_Clustering], and select **Build Prediction Query**.  
+2.  From [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], right-click the model, [TM_Clustering], and select **Build Prediction Query**.  
   
 3.  From the **Mining Model** menu, select **Singleton Query**.  
   

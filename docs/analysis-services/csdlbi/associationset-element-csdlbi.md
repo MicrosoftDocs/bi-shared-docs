@@ -12,7 +12,7 @@ manager: kfile
 ---
 # AssociationSet Element (CSDLBI)
 
-[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+[!INCLUDE[csdl-archived](../includes/csdl-archived.md)]
 
   The **AssociationSet** element is a complex type that defines an association. In a CSDLBI data model, an association is a relationship between two tables.  
   

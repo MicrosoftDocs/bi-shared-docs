@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Working with Members, Tuples, and Sets (MDX)
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   MDX provides numerous functions that return one or more members, tuples, or sets; or that act upon a member, tuple, or set.  
   
 ## Member Functions  

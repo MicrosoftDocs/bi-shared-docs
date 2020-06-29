@@ -11,13 +11,13 @@ author: minewiskan
 manager: kfile
 ---
 # Create and Manage a Local Partition (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   You can create additional partitions for a measure group to improve processing performance. Having multiple partitions allows you to allocate fact data across a corresponding number of physical data files on local as well as remote servers. In Analysis Services, partitions can be processed independently and in parallel, giving you more control over processing workloads on the server.  
   
- Partitions can be created in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] during model design, or after the solution is deployed using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] or XMLA. We recommend that you choose one approach only. If you alternate between tools, you might find that changes made to a deployed database in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] are overwritten when you subsequently redeploy the solution from [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)].  
+ Partitions can be created in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)] during model design, or after the solution is deployed using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] or XMLA. We recommend that you choose one approach only. If you alternate between tools, you might find that changes made to a deployed database in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] are overwritten when you subsequently redeploy the solution from [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)].  
   
 ## Before you start  
- Check whether you have either the business intelligence edition or enterprise edition. Standard edition does not support multiple partitions. To check the edition, right-click the server node in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] and choose **Reports** | **General**. For more information about feature availability, see [Features Supported by the Editions of SQL Server 2016](../../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md).  
+ Check whether you have either the business intelligence edition or enterprise edition. Standard edition does not support multiple partitions. To check the edition, right-click the server node in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] and choose **Reports** | **General**. For more information about feature availability, see [Features Supported by the Editions of SQL Server 2016](../../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md).  
   
  From the outset, it's important to understand that partitions must share the same aggregation design if you want to merge them later. Partitions can be merged only if they have identical aggregation designs and storage modes.  
   
@@ -39,7 +39,7 @@ manager: kfile
   
  Construct your filters such that data is not duplicated among the partitions. A partition's filter specifies which data in the fact table is used in the partition. It is important that the filters for all partitions in a cube extract mutually exclusive datasets from the fact table. The same fact data might be double-counted if it appears in multiple partitions.  
   
-1.  In [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], in Solution Explorer, double-click the cube to open it in Cube Designer, and then click the **Partitions** tab.  
+1.  In [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], in Solution Explorer, double-click the cube to open it in Cube Designer, and then click the **Partitions** tab.  
   
 2.  Expand the measure group for which are adding partitions. By default, each measure group has one partition, bound to a fact table in the DSV.  
   
@@ -69,7 +69,7 @@ manager: kfile
   
 9. Browse the cube to verify the correct data is returned.  
   
- After you have a measure group that uses multiple measure groups, you can create additional partitions in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)]. Under a measure group, right-click the Partitions folder and select **New Partitions** to start the wizard.  
+ After you have a measure group that uses multiple measure groups, you can create additional partitions in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]. Under a measure group, right-click the Partitions folder and select **New Partitions** to start the wizard.  
   
 > [!NOTE]  
 >  Instead of filtering data in a partition, you can use the same query to create a name query in the DSV, and then base the partition on the named query.  
@@ -86,7 +86,7 @@ manager: kfile
   
      The named query must be based on the fact table associated with the measure group. For example, if you are partitioning the FactInternetSales measure group, the named queries in the DSV must specify the FactInternetSales table in the FROM statement.  
   
-2.  In [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], in Solution Explorer, double-click the cube to open it in Cube Designer, and then click the **Partitions** tab.  
+2.  In [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], in Solution Explorer, double-click the cube to open it in Cube Designer, and then click the **Partitions** tab.  
   
 3.  Expand the measure group for which are adding partitions.  
   

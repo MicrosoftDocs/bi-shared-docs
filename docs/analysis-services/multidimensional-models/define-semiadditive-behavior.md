@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Define Semiadditive Behavior
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Semiadditive measures, which do not uniformly aggregate across all dimensions, are very common in many business scenarios. Every cube that is based on snapshots of balances over time exhibits this problem. You can find these snapshots in applications dealing with securities, account balances, budgeting, human resources, insurance policies and claims, and many other business domains.  
   
  Add semiadditive behavior to a cube to define an aggregation method for individual measures or members of the account type attribute. If the cube contains an account dimension, you can automatically set semiadditive behavior based on the account type.  

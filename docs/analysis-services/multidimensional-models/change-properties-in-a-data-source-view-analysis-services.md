@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Change Properties in a Data Source View (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   After defining a data source view using the Data Source View Wizard and adding tables, views, named calculations, and named queries to the data source view, you may want to change properties related to:  
   
 -   Data source view matching criteria  

@@ -11,7 +11,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # What's New in SQL Server Analysis Services 
 
-[!INCLUDE[ssas-appliesto-sql2016-later](../includes/ssas-appliesto-sql2016-later.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later](includes/ssas-appliesto-sql2016-later.md)]
 
 This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS). New features and improvements are cumulative.
 
@@ -325,9 +325,9 @@ SQL Server 2016 Service SP1 Analysis Services provides improved performance and 
 
 In particular, SQL Server 2016 SP1 Analysis Services features improvements in these key areas:
 
--	**NUMA awareness** - For better NUMA support, the in-memory (VertiPaq) engine inside Analysis Services now maintains a separate job queue on each NUMA node. This guarantees the segment scan jobs run on the same node where the memory is allocated for the segment data. Note, NUMA awareness is only enabled by default on systems with at least four NUMA nodes. On two-node systems, the costs of accessing remote allocated memory generally doesn't warrant the overhead of managing NUMA specifics.
--	**Memory allocation** - Analysis Services has been accelerated with Intel Threading Building Blocks, a scalable allocator that provides separate memory pools for every core. As the number of cores increases, the system can scale almost linearly.
--	**Heap fragmentation** - The Intel TBB-based scalable allocator also helps to mitigate performance problems due to heap fragmentation that have been shown to occur with the Windows Heap.
+-    **NUMA awareness** - For better NUMA support, the in-memory (VertiPaq) engine inside Analysis Services now maintains a separate job queue on each NUMA node. This guarantees the segment scan jobs run on the same node where the memory is allocated for the segment data. Note, NUMA awareness is only enabled by default on systems with at least four NUMA nodes. On two-node systems, the costs of accessing remote allocated memory generally doesn't warrant the overhead of managing NUMA specifics.
+-    **Memory allocation** - Analysis Services has been accelerated with Intel Threading Building Blocks, a scalable allocator that provides separate memory pools for every core. As the number of cores increases, the system can scale almost linearly.
+-    **Heap fragmentation** - The Intel TBB-based scalable allocator also helps to mitigate performance problems due to heap fragmentation that have been shown to occur with the Windows Heap.
 
 Performance and scalability testing showed significant gains in query throughput when running SQL Server 2016 SP1 Analysis Services on large multi-node enterprise servers.
 
@@ -355,11 +355,11 @@ New in this release is a built-in approach for enabling bi-directional cross fil
 
 #### Translations
 
- You can now store translated metadata in a tabular 1200 model. Metadata in the model includes fields for **Culture**, translated captions, and translated descriptions. To add translations, use the **Model** > **Translations** command in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)]. See [Translations in tabular models &#40;Analysis Services&#41;](../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md) for details.
+ You can now store translated metadata in a tabular 1200 model. Metadata in the model includes fields for **Culture**, translated captions, and translated descriptions. To add translations, use the **Model** > **Translations** command in [!INCLUDE[ssBIDevStudio](includes/ssbidevstudio-md.md)]. See [Translations in tabular models &#40;Analysis Services&#41;](../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md) for details.
 
 #### Pasted tables
 
- You can now upgrade an 1100 or 1103 tabular model to 1200 when the model contains pasted tables. We recommend using [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)]. In SSDT, set **CompatibilityLevel** to 1200 and then deploy to a [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. See [Compatibility Level for Tabular models in Analysis Services](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) for details.
+ You can now upgrade an 1100 or 1103 tabular model to 1200 when the model contains pasted tables. We recommend using [!INCLUDE[ssBIDevStudio](includes/ssbidevstudio-md.md)]. In SSDT, set **CompatibilityLevel** to 1200 and then deploy to a [!INCLUDE[ssCurrent](includes/sscurrent-md.md)] instance of [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)]. See [Compatibility Level for Tabular models in Analysis Services](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) for details.
 
 #### Calculated tables in SSDT
 
@@ -387,7 +387,7 @@ A *calculated table* is a model-only construction based on a DAX expression or q
 
 #### Add computer accounts as Administrators in SSMS
 
- [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] administrators can now use [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] to configure computer accounts to be members of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] administrators group. In the **Select Users or Groups** dialog, set the **Locations** for the computers domain and then add the **Computers** object type. For more information, see [Grant server admin rights to an  Analysis Services instance](../analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance.md).  
+ [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] administrators can now use [!INCLUDE[ssManStudioFull](includes/ssmanstudiofull-md.md)] to configure computer accounts to be members of the [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] administrators group. In the **Select Users or Groups** dialog, set the **Locations** for the computers domain and then add the **Computers** object type. For more information, see [Grant server admin rights to an  Analysis Services instance](../analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance.md).  
 
 #### DBCC for Analysis Services
 
@@ -395,7 +395,7 @@ A *calculated table* is a model-only construction based on a DAX expression or q
 
 #### Extended Events updates
 
- This release adds a graphical user interface to [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] to configure and manage [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Extended Events. You can set up live data streams to monitor server activity in real time, keep session data loaded in memory for faster analysis, or save data streams to a file for offline analysis. For more information, see [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md) and [Using extended events with Analysis Services (Guy in a Cube blog post and video)](https://blogs.msdn.com/b/analysisservices/archive/2015/09/22/using-extended-events-with-sql-server-analysis-services-2016-cpt-2-3.aspx).
+ This release adds a graphical user interface to [!INCLUDE[ssManStudioFull](includes/ssmanstudiofull-md.md)] to configure and manage [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] Extended Events. You can set up live data streams to monitor server activity in real time, keep session data loaded in memory for faster analysis, or save data streams to a file for offline analysis. For more information, see [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md) and [Using extended events with Analysis Services (Guy in a Cube blog post and video)](https://blogs.msdn.com/b/analysisservices/archive/2015/09/22/using-extended-events-with-sql-server-analysis-services-2016-cpt-2-3.aspx).
 
 ### Scripting
 
@@ -425,22 +425,22 @@ Using the [latest version of SSMS](https://msdn.microsoft.com/library/mt238290.a
  A generated JSON-based script for a tabular model might look like the following:
 
 ```json  
-{    
-  "create": {    
-    "database": { 
-      "name": "AdventureWorksTabular1200",    
-      "id": "AdventureWorksTabular1200",    
-      "compatibilityLevel": 1200,    
-      "readWriteMode": "readWrite",    
-      "model": {}    
-    }    
-  }    
-}    
-```    
+{
+  "create": {
+    "database": {
+      "name": "AdventureWorksTabular1200",
+      "id": "AdventureWorksTabular1200",
+      "compatibilityLevel": 1200,
+      "readWriteMode": "readWrite",
+      "model": {}
+    }
+  }
+}
+```
 
 The payload is a JSON document that can be as minimal as the example shown above, or highly embellished with  the full set of object definitions. [Tabular Model Scripting Language &#40;TMSL&#41; Reference](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) describes the syntax.
 
-At the database level, CREATE, ALTER, and DELETE commands will output TMSL script in the familiar XMLA window.  Other commands, such as Process, can also be scripted in this release. Script support for many other actions may be added in a future release.    
+At the database level, CREATE, ALTER, and DELETE commands will output TMSL script in the familiar XMLA window.  Other commands, such as Process, can also be scripted in this release. Script support for many other actions may be added in a future release.
 
 **Scriptable commands** | **Description**
 --------------- | ----------------
@@ -492,15 +492,15 @@ Code View in Visual Studio 2015 now renders the BIM file in JSON format for tabu
 To use the JSON editor, with the ability to expand and collapse sections of the model, you will need the latest version of SQL Server Data Tools plus Visual Studio 2015 (any edition, including the free Community edition). For all other versions of SSDT or Visual Studio, the BIM file is rendered in JSON as simple text.
 At a minimum, an empty model will contain  the following JSON:
 
-    ```json
-    {    
-      "name": "SemanticModel",
-      "id": "SemanticModel",
-      "compatibilityLevel": 1200,
-      "readWriteMode": "readWrite",
-      "model": {}
-    }    
-    ```    
+```json
+  {  
+    "name": "SemanticModel",
+    "id": "SemanticModel",
+    "compatibilityLevel": 1200,
+    "readWriteMode": "readWrite",
+    "model": {}
+  }  
+```
 
 > [!WARNING]
 > Avoid editing the JSON directly. Doing so can corrupt the model.

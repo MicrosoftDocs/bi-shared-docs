@@ -11,10 +11,10 @@ author: minewiskan
 manager: kfile
 ---
 # Drillthrough Queries (Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A *drillthrough query* lets you retrieve details from the underlying cases or structure data, by sending a query to the mining model. Drillthrough is useful if you want to view the cases that were used to train the model, versus the cases that are used to test the model, or if you want to see additional details from the case data.  
   
- [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Data Mining provides two different options for drillthrough:  
+ [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Data Mining provides two different options for drillthrough:  
   
 -   Drilling through to the **model cases**  
   

@@ -11,12 +11,12 @@ author: minewiskan
 manager: kfile
 ---
 # Attribute Properties - Modify the KeyColumn Property
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   You can modify the **KeyColumns** property of an attribute. For example, you might want to specify a composite key instead of a single key as the key for the attribute.  
   
 ### To modify the KeyColumns property of an attribute  
   
-1.  In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], open the project in which you want to modify the **KeyColumns** property.  
+1.  In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], open the project in which you want to modify the **KeyColumns** property.  
   
 2.  Open Dimension Designer by doing one of the following procedures:  
   
@@ -39,7 +39,7 @@ manager: kfile
 7.  To add a key column, in the **Available Columns** list, select the column, and then click the **>** button.  
   
     > [!NOTE]  
-    >  If you define multiple key columns, the order in which those columns appear in the **Key Columns** list affects the display order. For example, a month attribute has two key columns: month and year. If the year column appears in the list before the month column, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] will sort by year and then by month. If the month column appears before the year column, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] will sort by month and then by year.  
+    >  If you define multiple key columns, the order in which those columns appear in the **Key Columns** list affects the display order. For example, a month attribute has two key columns: month and year. If the year column appears in the list before the month column, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] will sort by year and then by month. If the month column appears before the year column, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] will sort by month and then by year.  
   
 8.  To change the order of key columns, select a column, and then click the **Up** or **Down** button.  
   

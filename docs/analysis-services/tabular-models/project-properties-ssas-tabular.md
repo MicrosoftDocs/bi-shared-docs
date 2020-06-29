@@ -12,9 +12,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Project properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  Each tabular model project has deployment options and deployment server properties that specify how the project and model is deployed. For example, the server the model will be deployed to and the deployed model database name. These settings are different from model properties, which affect the model workspace database. The project properties described here are in a modal properties dialog box, different from the properties window used to display other types of properties. To display the modal project properties, in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], in **Solution Explorer**, right-click the project, and then click **Properties**.  
+  Each tabular model project has deployment options and deployment server properties that specify how the project and model is deployed. For example, the server the model will be deployed to and the deployed model database name. These settings are different from model properties, which affect the model workspace database. The project properties described here are in a modal properties dialog box, different from the properties window used to display other types of properties. To display the modal project properties, in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], in **Solution Explorer**, right-click the project, and then click **Properties**.  
   
   
 ##  <a name="bkmk_proj_properties"></a> Project properties  
@@ -44,7 +44,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 ##  <a name="bkmk_conf_proj_settings"></a> Configure Deployment Options and Deployment Server property settings  
   
-1.  In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], in **Solution Explorer**, right-click the project, and then click **Properties**.  
+1.  In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], in **Solution Explorer**, right-click the project, and then click **Properties**.  
   
 2.  In the **Properties** window, click a property, and then type a value or click the down arrow to select a setting option.  
   

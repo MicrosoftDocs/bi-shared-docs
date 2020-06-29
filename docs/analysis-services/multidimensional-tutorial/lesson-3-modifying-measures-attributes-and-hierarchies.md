@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 3: Modifying Measures, Attributes and Hierarchies
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 After defining your initial cube, you are ready to improve the usefulness and friendliness of the cube. You can do this by adding hierarchies that support navigation and aggregation at various levels, by applying formats to specific measure, and by defining calculations and relationships.  
   
@@ -21,7 +21,7 @@ After defining your initial cube, you are ready to improve the usefulness and fr
 This lesson contains the following tasks:  
   
 [Modifying Measures](lesson-3-1-modifying-measures.md)  
-In this task, you specify formatting properties for the currency and percentage measures in the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube.  
+In this task, you specify formatting properties for the currency and percentage measures in the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube.  
   
 [Modifying the Customer Dimension](lesson-3-2-modifying-the-customer-dimension.md)  
 In this task, you define a user hierarchy, create named calculations, modify attributes to use named calculations, and group attributes and user hierarchies into display folders.  

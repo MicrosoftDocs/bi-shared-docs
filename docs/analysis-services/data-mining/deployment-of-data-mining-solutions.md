@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Deployment of Data Mining Solutions
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   The last step in the data mining process is to deploy the models to a production environment. Deployment is important because it makes the models available to users so that you can perform any of the following tasks:  
   
 -   Use the models to create predictions and make business decisions. For information about the tools you can use to create queries, see [Data Mining Query Tools](../../analysis-services/data-mining/data-mining-query-tools.md).  
@@ -36,16 +36,16 @@ manager: kfile
  [Export and Import Data Mining Objects](../../analysis-services/data-mining/export-and-import-data-mining-objects.md)  
   
 ##  <a name="bkmk_Reqs"></a> Requirements for Deployment of Data Mining Solutions  
- The instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] to which you deploy the solution must be running in a mode that supports multidimensional objects and data mining objects; that is, you cannot deploy data mining objects to an instance that hosts tabular models or [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data.  
+ The instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to which you deploy the solution must be running in a mode that supports multidimensional objects and data mining objects; that is, you cannot deploy data mining objects to an instance that hosts tabular models or [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] data.  
   
  Therefore, when you create a data mining solution in Visual Studio, be sure to use the template, **Analysis Services Multidimensional and Data Mining Project**.  
   
- When you deploy the solution, the objects used for data mining are created in the specified [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance, in a database with the same name as the solution file.  
+ When you deploy the solution, the objects used for data mining are created in the specified [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance, in a database with the same name as the solution file.  
   
 ###  <a name="bkmk_RelationalSltn"></a> Deploying a Relational Solution  
- When you deploy a relational data mining solution, the required data mining objects are created within a new [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database, and the objects are processed by default. You can change processing options by using the configuration property, **Processing Option**. For more information, see [Configure Analysis Services Project Properties &#40;SSDT&#41;](../../analysis-services/multidimensional-models/configure-analysis-services-project-properties-ssdt.md).  
+ When you deploy a relational data mining solution, the required data mining objects are created within a new [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database, and the objects are processed by default. You can change processing options by using the configuration property, **Processing Option**. For more information, see [Configure Analysis Services Project Properties &#40;SSDT&#41;](../../analysis-services/multidimensional-models/configure-analysis-services-project-properties-ssdt.md).  
   
- By default, only incremental changes are deployed each time. In other words, you can modify a mining model, and when you re-deploy the project, only that mining model would be updated. However, if you have multiple clients editing the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database, this can lead to errors. To change the default deployment mode so that the entire database is refreshed when you deploy the solution, change the **Deployment Mode** property  
+ By default, only incremental changes are deployed each time. In other words, you can modify a mining model, and when you re-deploy the project, only that mining model would be updated. However, if you have multiple clients editing the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database, this can lead to errors. To change the default deployment mode so that the entire database is refreshed when you deploy the solution, change the **Deployment Mode** property  
   
  In a relational data mining solution, the only objects that must be deployed are the data source definition, any data source views that were used, the mining structures, and all dependent mining models.  
   
@@ -67,7 +67,7 @@ manager: kfile
   
  [Deploy Analysis Services Projects &#40;SSDT&#41;](../../analysis-services/multidimensional-models/deploy-analysis-services-projects-ssdt.md)  
   
- Provides general information about deployment of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] projects, and describes the properties that you can set as part of the project configuration.  
+ Provides general information about deployment of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] projects, and describes the properties that you can set as part of the project configuration.  
   
 ## See Also  
  [Processing a multidimensional model &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md)   

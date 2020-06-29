@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # Add a data source to tabular model (AMO-TOM)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
 The **DataSource** class in the Microsoft.AnalysisServices.Tabular namespace is an abstraction of a tabular model's data source that specifies the type and location of imported data during a data refresh operation. 
 

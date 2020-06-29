@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Configure String Storage for Dimensions and Partitions
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   You can reconfigure string storage to accommodate very large strings in dimension attributes or partitions that exceed the 4 GB file size limit for string stores. If your dimensions or partitions include string stores of this size, you can work around the file size constraint by changing the **StringStoresCompatibilityLevel** property at the dimension or partition level, for local as well as linked (local or remote) objects.  
   
  Note that you can increase string storage on just those objects that require additional capacity. In most multidimensional models, string data is associated with dimensions. However, partitions that contain distinct count measures on top of strings can also benefit from this setting. Because the setting is for strings, numeric data is unaffected.  
@@ -44,20 +44,20 @@ manager: kfile
   
  In an Analysis Services multidimensional database, strings are stored separately from numeric data to allow for optimizations based on characteristics of the data. String data is typically found in dimension attributes that represent names or descriptions. It is also possible to have string data in distinct count measures. String data can also be used in keys.  
   
- You can identify a string store by its file extension (for example, asstore, .bstore, .ksstore, or .string files). By default, each of these files is subject to a maximum 4 GB limit. In [!INCLUDE[ssSQL11](../../includes/sssql11-md.md)], you can override the maximum file size by specifying an alternative storage mechanism that allows a string store to grow as needed.  
+ You can identify a string store by its file extension (for example, asstore, .bstore, .ksstore, or .string files). By default, each of these files is subject to a maximum 4 GB limit. In [!INCLUDE[ssSQL11](../includes/sssql11-md.md)], you can override the maximum file size by specifying an alternative storage mechanism that allows a string store to grow as needed.  
   
  In contrast with the default string storage architecture which limits the size of the physical file, larger string storage is based on a maximum number of strings. The maximum limit for larger string storage is 4 billion unique strings or 4 billion records, whichever occurs first. Larger string storage creates records of an even size, where each record is equal to a 64K page. If you have very long strings that do not fit in a single record, your effective limit will be less than 4 billion strings.  
   
 ##  <a name="bkmk_prereq"></a> Prerequisites  
- You must have a [!INCLUDE[ssSQL11](../../includes/sssql11-md.md)] or later version of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)].  
+ You must have a [!INCLUDE[ssSQL11](../includes/sssql11-md.md)] or later version of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
  Dimensions and partitions must use MOLAP storage.  
   
- The database compatibility level must be set to 1100. If you created or deployed a database using [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] and the [!INCLUDE[ssSQL11](../../includes/sssql11-md.md)] or later version of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], the database compatibility level is already set to 1100. If you moved a database created in an earlier version of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] to ssSQL11 or later, you must update the compatibility level. For databases that you are moving, but not redeploying, you can use [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] to set the compatibility level. For more information, see [Compatibility Level of a Multidimensional Database &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/compatibility-level-of-a-multidimensional-database-analysis-services.md).  
+ The database compatibility level must be set to 1100. If you created or deployed a database using [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)] and the [!INCLUDE[ssSQL11](../includes/sssql11-md.md)] or later version of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], the database compatibility level is already set to 1100. If you moved a database created in an earlier version of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to ssSQL11 or later, you must update the compatibility level. For databases that you are moving, but not redeploying, you can use [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] to set the compatibility level. For more information, see [Compatibility Level of a Multidimensional Database &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/compatibility-level-of-a-multidimensional-database-analysis-services.md).  
   
 ##  <a name="bkmk_step1"></a> Step 1: Set the StringStoreCompatiblityLevel Property in SQL Server Data Tools  
   
-1.  Using [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], open the project that contains the dimensions or partitions you want to modify.  
+1.  Using [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], open the project that contains the dimensions or partitions you want to modify.  
   
 2.  To change the string storage for dimensions, open Solution Explorer. Double-click the dimension for which you are modifying string storage.  
   

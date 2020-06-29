@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # User-Defined Hierarchies - Ragged Hierarchies
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A ragged hierarchy is a user-defined hierarchy that has an uneven number of levels. Common examples include an organizational chart where a high-level manager has both departmental managers and non-managers as direct reports, or geographic hierarchies composed of Country-Region-City, where some cities lack a parent State or Province, such as Washington D.C., Vatican City, or New Delhi.  
   
  For most hierarchies in a dimension, each level has the same number of members above it as any other member at the same level. A ragged hierarchy is different in that the logical parent of at least one member is not in the level immediately above the member. When this occurs, the hierarchy descends to different levels for different drilldown paths. In a client application, this can make drilldown paths unnecessarily complicated.  
@@ -60,7 +60,7 @@ manager: kfile
 |MDX Compatibility Setting|Description|Usage|  
 |-------------------------------|-----------------|-----------|  
 |**1**|Show a placeholder value.|This is the default used by Excel, SSDT, and SSMS. It instructs the server to return placeholder values when drilling down empty levels in a ragged hierarchy. If you click the placeholder value, you can continue down to get to the child (leaf) nodes.<br /><br /> Excel owns the connection string used to connect to Analysis Services, and it always sets **MDX Compatibility** to 1 on each new connection. This behavior preserves backward compatibility.|  
-|**2**|Hide a placeholder value (either a null value or a duplicate of the parent level), but show other levels and nodes having relevant values.|**MDX Compatibility**=2 is typically viewed as the preferred setting in terms of ragged hierarchies. A [!INCLUDE[ssRSnoversion](../../includes/ssrsnoversion-md.md)] report and some third-party client applications can persist this setting.|  
+|**2**|Hide a placeholder value (either a null value or a duplicate of the parent level), but show other levels and nodes having relevant values.|**MDX Compatibility**=2 is typically viewed as the preferred setting in terms of ragged hierarchies. A [!INCLUDE[ssRSnoversion](../includes/ssrsnoversion-md.md)] report and some third-party client applications can persist this setting.|  
   
 ## See Also  
  [Create User-Defined Hierarchies](../../analysis-services/multidimensional-models/user-defined-hierarchies-create.md)   

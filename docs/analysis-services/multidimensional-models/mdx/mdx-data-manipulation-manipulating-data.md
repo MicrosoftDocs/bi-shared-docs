@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Data Manipulation - Manipulating Data
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   Multidimensional Expressions (MDX) can be used to manipulate the data in a variety of ways. The following topics cover some of the more advanced concepts of data manipulation in the MDX language  
   
 ## In This Section  

@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Grant database permissions (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   If you are approaching Analysis Services database administration with a background in relational databases, the first thing you need to understand is that, in terms of data access, the database is not the primary securable object in Analysis Services.  
   
  The primary query structure in Analysis Services is a cube (or a tabular model), with user permissions set on those particular objects. Contrasted with the relational database engine ─ where database logins and user permissions (often **db_datareader**) are set on the database itself ─ an Analysis Services database is mostly a container for the main query objects in a data model. If your immediate objective is to enable data access for a cube or tabular model, you can bypass database permissions for now and go straight to this topic: [Grant cube or model permissions &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-cube-or-model-permissions-analysis-services.md).  
@@ -31,10 +31,10 @@ manager: kfile
   
  **Process Database** ─ This permission is used to delegate processing at the database level. As an administrator, you can offload this task by creating a role that allows another person or service to invoke processing operations for any object in the database. Alternatively, you can also create roles that enable processing on specific objects. See [Grant process permissions &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-process-permissions-analysis-services.md) for more information.  
   
- **Read Definition** ─ This permission grants the ability to read object metadata, minus the ability to view associated data. Typically this permission is used in roles created for dedicated processing, adding the ability to use tools such as [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] or [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] to process a database interactively. Without **Read Definition**, the **Process Database** permission is effective only in scripted scenarios. If you plan to automate processing, perhaps through SSIS or another scheduler, you probably want to create a role that has **Process Database** without **Read Definition**. Otherwise, consider combining the two properties together in the same role to support both unattended and interactive processing via SQL Server tools that visualize the data model in a user interface.  
+ **Read Definition** ─ This permission grants the ability to read object metadata, minus the ability to view associated data. Typically this permission is used in roles created for dedicated processing, adding the ability to use tools such as [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)] or [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] to process a database interactively. Without **Read Definition**, the **Process Database** permission is effective only in scripted scenarios. If you plan to automate processing, perhaps through SSIS or another scheduler, you probably want to create a role that has **Process Database** without **Read Definition**. Otherwise, consider combining the two properties together in the same role to support both unattended and interactive processing via SQL Server tools that visualize the data model in a user interface.  
   
 ## Full Control (Administrator) permissions  
- In [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], a database administrator is any Windows user identity assigned to a role that includes Full Control (Administrator) permissions. A database administrator can perform any task within the database, including:  
+ In [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], a database administrator is any Windows user identity assigned to a role that includes Full Control (Administrator) permissions. A database administrator can perform any task within the database, including:  
   
 -   Process objects  
   
@@ -52,7 +52,7 @@ manager: kfile
   
 #### Create roles in SSMS  
   
-1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], connect to the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], open the **Databases** folder, select a database, and right-click **Roles** | **New Role**.  
+1.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], connect to the instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], open the **Databases** folder, select a database, and right-click **Roles** | **New Role**.  
   
 2.  In the **General** pane, enter a name, such as DBAdmin.  
   

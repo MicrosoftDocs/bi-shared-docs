@@ -12,7 +12,7 @@ manager: kfile
 ---
 # PropertyRef Element (CSDLBI)
 
-[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+[!INCLUDE[csdl-archived](../includes/csdl-archived.md)]
 
   The PropertyRef element is a simple type that provides a reference to a column that supplies a value required by another property.  
   

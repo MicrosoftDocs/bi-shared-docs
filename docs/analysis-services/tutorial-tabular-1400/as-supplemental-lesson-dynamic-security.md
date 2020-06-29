@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Supplemental lesson - Dynamic security
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2017-later-aas](../includes/ssas-appliesto-sql2017-later-aas.md)]
 
 In this supplemental lesson, you create an additional role that implements dynamic security. Dynamic security provides row-level security based on the user name or login id of the user currently logged on. 
   

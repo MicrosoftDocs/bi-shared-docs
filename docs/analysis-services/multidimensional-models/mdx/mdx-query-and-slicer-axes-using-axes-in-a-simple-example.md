@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Query and Slicer Axes - Using Axes in a Simple Example
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   The simple example presented in this topic illustrates the basics of specifying and using query and slicer axes.  
   
 ## The Cube  

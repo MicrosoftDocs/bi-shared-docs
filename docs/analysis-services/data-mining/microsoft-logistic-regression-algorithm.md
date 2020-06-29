@@ -11,10 +11,10 @@ author: minewiskan
 manager: kfile
 ---
 # Microsoft Logistic Regression Algorithm
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Logistic regression is a well-known statistical technique that is used for modeling binary outcomes.  
   
- There are various implementations of logistic regression in statistics research, using different learning techniques. The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Logistic Regression algorithm has been implemented by using a variation of the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Neural Network algorithm. This algorithm shares many of the qualities of neural networks but is easier to train.  
+ There are various implementations of logistic regression in statistics research, using different learning techniques. The [!INCLUDE[msCoName](../includes/msconame-md.md)] Logistic Regression algorithm has been implemented by using a variation of the [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm. This algorithm shares many of the qualities of neural networks but is easier to train.  
   
  One advantage of logistic regression is that the algorithm is highly flexible, taking any kind of input, and supports several different analytical tasks:  
   

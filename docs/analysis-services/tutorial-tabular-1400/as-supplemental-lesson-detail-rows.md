@@ -11,7 +11,7 @@ author: minewiskan
 ---
 # Supplemental lesson - Detail Rows
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2017-later-aas](../includes/ssas-appliesto-sql2017-later-aas.md)]
 
 In this supplemental lesson, you use the DAX Editor to define a custom Detail Rows Expression. A Detail Rows Expression is a property on a measure, providing end-users more information about the aggregated results of a measure. 
   

@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Local Cubes (Analysis Services - Multidimensional Data)
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   To create, update or delete local cubes, you must write and execute either an ASSL script or an AMO program.  
   
  Local cubes and local mining models allow analysis on a client workstation while it is disconnected from the network. For example, a client application might call the OLE DB for OLAP 9.0 Provider (MSOLAP.3), which loads the local cube engine to create and query local cubes, as shown in the following illustration:  
@@ -20,18 +20,18 @@ manager: kfile
   
  ADMOD.NET and Analysis Management Objects (AMO) also load the local cube engine when interacting with local cubes. Only a single process can access a local cube file, because the local cube engine exclusively locks a local cube file when it establishes a connection to the local cube. With a process, up to five simultaneous connections are permitted.  
   
- A .cub file may contain more than one cube or data mining model. Queries to the local cubes and data mining models are handled by the local cube engine and do not require a connection to an [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] instance.  
+ A .cub file may contain more than one cube or data mining model. Queries to the local cubes and data mining models are handled by the local cube engine and do not require a connection to an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance.  
   
 > [!NOTE]  
->  The use of [!INCLUDE[ssManStudioFull](../../../includes/ssmanstudiofull-md.md)] and [!INCLUDE[ssBIDevStudioFull](../../../includes/ssbidevstudiofull-md.md)] to manage local cubes is not supported.  
+>  The use of [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] and [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] to manage local cubes is not supported.  
   
 ## Local Cubes  
- A local cube can be created and populated from either an existing cube in an [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] instance or from a relational data source.  
+ A local cube can be created and populated from either an existing cube in an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance or from a relational data source.  
   
 |Source for data for local cube|Creation method|  
 |------------------------------------|---------------------|  
-|Server-based cube|You can use either the CREATE GLOBAL CUBE statement or an [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] Scripting Language (ASSL) script to create and populate a cube from a server-based cube. For more information, see [CREATE GLOBAL CUBE Statement  &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-global-cube) or [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla).|  
-|Relational data source|You use an ASSL script to create and populate a cube from an OLE DB relational database. To create a local cube using ASSL, you simply connect to a local cube file (*.cub) and execute the ASSL script in the same manner as executing an ASSL script against an [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] instance to create a server cube. For more information, see [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla).|  
+|Server-based cube|You can use either the CREATE GLOBAL CUBE statement or an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Scripting Language (ASSL) script to create and populate a cube from a server-based cube. For more information, see [CREATE GLOBAL CUBE Statement  &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-global-cube) or [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla).|  
+|Relational data source|You use an ASSL script to create and populate a cube from an OLE DB relational database. To create a local cube using ASSL, you simply connect to a local cube file (*.cub) and execute the ASSL script in the same manner as executing an ASSL script against an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance to create a server cube. For more information, see [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla).|  
   
  Use the REFRESH CUBE statement to rebuild a local cube and update its data. For more information, see [REFRESH CUBE Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-refresh-cube).  
   

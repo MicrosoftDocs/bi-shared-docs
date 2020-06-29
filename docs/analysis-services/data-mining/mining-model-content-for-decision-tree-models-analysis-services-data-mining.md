@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Mining Model Content for Decision Tree Models (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  This topic describes mining model content that is specific to models that use the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Decision Trees algorithm. For a general explanation of mining model content for all model types, see [Mining Model Content &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-analysis-services-data-mining.md). It is important to remember that The Microsoft Decision Trees algorithm is a hybrid algorithm that can create models with very different functions: a decision tree can represent associations, rules, or even linear regression. The structure of the tree is essentially the same, but how you interpret the information will depend on the purpose for which you created the model.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  This topic describes mining model content that is specific to models that use the [!INCLUDE[msCoName](../includes/msconame-md.md)] Decision Trees algorithm. For a general explanation of mining model content for all model types, see [Mining Model Content &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-analysis-services-data-mining.md). It is important to remember that The Microsoft Decision Trees algorithm is a hybrid algorithm that can create models with very different functions: a decision tree can represent associations, rules, or even linear regression. The structure of the tree is essentially the same, but how you interpret the information will depend on the purpose for which you created the model.  
   
 ##  <a name="bkmk_Top"></a> Understanding the Structure of a Decision Trees Model  
  A decision trees model has a single parent node that represents the model and its metadata. Underneath the parent node are independent trees that represent the predictable attributes that you select. For example, if you set up your decision tree model to predict whether customers will purchase something, and provide inputs for gender and income, the model would create a single tree for the purchasing attribute, with many branches that divide on conditions related to gender and income.  
@@ -35,7 +35,7 @@ manager: kfile
  The Microsoft Decision Trees algorithm does not allow continuous data types as inputs; therefore, if any columns have a continuous numeric data type, the values are discretized. The algorithm performs its own discretization at the point of a split for all continuous attributes.  
   
 > [!NOTE]  
->  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] automatically chooses a method for bucketing continuous attributes; however, you can control how continuous values in the inputs are discretized by setting the content type of the mining structure column to **Discretized** and then setting the <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn.DiscretizationBucketCount%2A> or <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn.DiscretizationMethod%2A> property.  
+>  [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] automatically chooses a method for bucketing continuous attributes; however, you can control how continuous values in the inputs are discretized by setting the content type of the mining structure column to **Discretized** and then setting the <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn.DiscretizationBucketCount%2A> or <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn.DiscretizationMethod%2A> property.  
   
  [Top](#bkmk_Top)  
   
@@ -196,7 +196,7 @@ manager: kfile
  The attribute represented by the XML fragment can be either simple or complex. A simple attribute contains the name of the model column, and the value of the attribute. If the model column contains a nested table, the nested table attribute is represented as a concatenation of the table name, the key value, and the attribute.  
   
 > [!NOTE]  
->  [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports version 2.0 of the PMML standard, with extensions to support the use of nested table. If your data contains nested tables and you generate a PMML version of the model, all elements in the model that include the predicates are marked as an extension.  
+>  [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports version 2.0 of the PMML standard, with extensions to support the use of nested table. If your data contains nested tables and you generate a PMML version of the model, all elements in the model that include the predicates are marked as an extension.  
   
  [Top](#bkmk_Top)  
   
@@ -231,7 +231,7 @@ manager: kfile
   
  Probability = (support for state + support for prior state) / (node support plus the prior node support)  
   
- [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] uses probabilities for each node to compare the stored probability with the prior probability to determine whether the path from the parent to the child node indicates a strong inference.  
+ [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses probabilities for each node to compare the stored probability with the prior probability to determine whether the path from the parent to the child node indicates a strong inference.  
   
  When making predictions, the probability of the distribution must be balanced with the probability of the node, to smoothen the probabilities. For example, if a split in the tree separates cases by a ratio of 9000/1000, the tree is very unbalanced. As a result, a prediction coming from the small branch should not carry the same weight as a prediction coming from a branch with many cases.  
   

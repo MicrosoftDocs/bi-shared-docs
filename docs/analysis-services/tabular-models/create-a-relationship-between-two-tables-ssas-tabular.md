@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Create a relationship
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
   If the tables in your data source do not have existing relationships, or if you add new tables, you can use the tools in the model designer to create new relationships. For information about how relationships are used in tabular models, see [Relationships](../../analysis-services/tabular-models/relationships-ssas-tabular.md).  
   
@@ -20,13 +20,13 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 #### To create a relationship between two tables in Diagram View (Click and drag)  
   
-1.  In [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], click the **Model** menu, then click **Model View**, and then click **Diagram View**.  
+1.  In [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click the **Model** menu, then click **Model View**, and then click **Diagram View**.  
   
 2.  Click (and hold) on a column within a table, then drag the cursor to a related lookup column in a related lookup table, and then release. The relationship will be created in the correct order automatically.  
   
 #### To create a relationship between two tables in Diagram View (Right-click)  
   
-1.  In [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], click the **Model** menu, then click **Model View**, and then click **Diagram View**.  
+1.  In [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click the **Model** menu, then click **Model View**, and then click **Diagram View**.  
   
 2.  Right-click a table heading or column, and then click **Create Relationship**.  
   
@@ -46,7 +46,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 #### To create a relationship between two tables in Data View  
   
-1.  In [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], click the **Table** menu, and then click **Create Relationships**.  
+1.  In [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click the **Table** menu, and then click **Create Relationships**.  
   
 2.  In the **Create Relationship** dialog box, click the down arrow for **Table**, and select a table from the dropdown list.  
   

@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Processing Data Mining Objects
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A data mining object is only an empty container until it has been processed. *Processing* a data mining model is also called *training*.  
   
  **Processing mining structures:** A mining structure gets data from an external data source, as defined by the column bindings and usage metadata, and reads the data. This data is read in full and then analyzed to extract various statistics. Analysis Services stores a compact representation of the data, which is suitable for analysis by data mining algorithms, in a local cache. You can either keep this cache or delete it after your models have been processed. By default, the cache is stored. For more information, see [Process a Mining Structure](../../analysis-services/data-mining/process-a-mining-structure.md).  

@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Make a Copy of a Mining Model
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Creating a copy of a mining model is useful when you want to quickly create several mining models that are based on the same data. After you copy the model, you can then edit the new copy by changing parameters or adding a filter.  
   
  For example, if you have a Customers table that is linked to a table of purchases, you could create copies to generate separate mining models for each customer demographic, filtering on attributes such as age or region.  
@@ -20,7 +20,7 @@ manager: kfile
   
 ### To create a related mining model  
   
-1.  In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], in Solution Explorer, click the mining structure that contains the mining model.  
+1.  In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], in Solution Explorer, click the mining structure that contains the mining model.  
   
 2.  Click the **Mining Models** tab.  
   
@@ -30,7 +30,7 @@ manager: kfile
   
      Select the model. On the **Mining Model** menu, select **New Mining Model**.  
   
-4.  Type a name for the new mining model, and select an algorithm. [!INCLUDE[clickOK](../../includes/clickok-md.md)]  
+4.  Type a name for the new mining model, and select an algorithm. [!INCLUDE[clickOK](../includes/clickok-md.md)]  
   
 ### To edit the filter on the copied mining model  
   
@@ -44,7 +44,7 @@ manager: kfile
   
 4.  In the **Properties** window, in the **AlgorithmParameters** text box, click **Setalgorithm parameters**, and change algorithm parameters, if desired.  
   
-5.  [!INCLUDE[clickOK](../../includes/clickok-md.md)]  
+5.  [!INCLUDE[clickOK](../includes/clickok-md.md)]  
   
 ## See Also  
  [Filters for Mining Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/filters-for-mining-models-analysis-services-data-mining.md)   

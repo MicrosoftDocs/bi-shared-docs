@@ -12,7 +12,7 @@ manager: kfile
 ---
 # NavigationProperty Element (CSDLBI)
 
-[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+[!INCLUDE[csdl-archived](../includes/csdl-archived.md)]
 
   The NavigationProperty element is a complex type that extends the CSDL Member type, to support navigation in business intelligence data models.  
   

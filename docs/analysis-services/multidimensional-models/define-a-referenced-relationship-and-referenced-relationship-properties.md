@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Define a Referenced Relationship and Referenced Relationship Properties
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A reference dimension relationship is defined on the **Dimension Usage** tab of Cube Designer. The reference dimension relationship is defined by specifying the following:  
   
 -   The intermediate dimension to which to join. This can be a regular dimension or another reference dimension.  

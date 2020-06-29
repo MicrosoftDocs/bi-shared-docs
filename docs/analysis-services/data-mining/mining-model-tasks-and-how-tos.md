@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Mining Model Tasks and How-tos
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  Use the **Mining Models** tab of Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] to manage and process mining models in a mining structure.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  Use the **Mining Models** tab of Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] to manage and process mining models in a mining structure.  
   
 ## In This Section  
   

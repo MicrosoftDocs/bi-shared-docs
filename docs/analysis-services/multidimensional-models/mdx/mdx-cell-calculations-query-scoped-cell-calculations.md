@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Cell Calculations - Query-Scoped Cell Calculations
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   You use the **WITH** keyword in Multidimensional Expressions (MDX) to describe calculated cells within the context of a query. The **WITH** keyword has the following syntax:  
   
 ```  

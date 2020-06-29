@@ -11,17 +11,17 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 4: Defining Advanced Attribute and Dimension Properties
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 In this lesson, you will learn how to use some of the advanced properties of attributes, attribute hierarchies, and dimension properties.  
   
 > [!NOTE]  
-> This lesson is based on an enhanced version of the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial project that you completed in the first three lessons of this tutorial. The first task in this lesson describes where to locate the appropriate sample project to use for the lesson, and the difference between this project and the project that you created in the first three lessons.  
+> This lesson is based on an enhanced version of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial project that you completed in the first three lessons of this tutorial. The first task in this lesson describes where to locate the appropriate sample project to use for the lesson, and the difference between this project and the project that you created in the first three lessons.  
   
 This lesson contains the following tasks:  
   
 [Using a Modified Version of the Analysis Services Tutorial Project](lesson-4-1-using-a-modified-version-of-the-analysis-services-tutorial-project.md)  
-In this task, you open, review, and deploy a modified version of the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial project, which has multiple measure groups and additional dimensions.  
+In this task, you open, review, and deploy a modified version of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial project, which has multiple measure groups and additional dimensions.  
   
 [Defining Parent Attribute Properties in a Parent-Child Hierarchy](lesson-4-2-defining-parent-attribute-properties-in-a-parent-child-hierarchy.md)  
 In this task, you define level names in a parent-child dimension and specify whether data related to parent members is displayed. For more information, see [Parent-Child Dimensions](../multidimensional-models/parent-child-dimension.md) and [Attributes in Parent-Child Hierarchies](../multidimensional-models/parent-child-dimension-attributes.md).  

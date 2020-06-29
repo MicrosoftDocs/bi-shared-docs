@@ -11,14 +11,14 @@ author: minewiskan
 manager: kfile
 ---
 # User-Defined Hierarchies - Add or Delete a User-Defined Hierarchy
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  You add a user-defined hierarchy to or remove a user-defined hierarchy from a dimension on the **Dimension Structure** tab in Dimension Designer in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)].  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  You add a user-defined hierarchy to or remove a user-defined hierarchy from a dimension on the **Dimension Structure** tab in Dimension Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
- When you add a user-defined hierarchy, it is not available to users until it is instantiated in an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance and the dimension is processed. For more information, see [Multidimensional Model Databases](../../analysis-services/multidimensional-models/multidimensional-model-databases-ssas.md) and [Processing a multidimensional model &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md).  
+ When you add a user-defined hierarchy, it is not available to users until it is instantiated in an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance and the dimension is processed. For more information, see [Multidimensional Model Databases](../../analysis-services/multidimensional-models/multidimensional-model-databases-ssas.md) and [Processing a multidimensional model &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md).  
   
 ### To add a user-defined hierarchy to a dimension  
   
-1.  In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], open the appropriate [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] project, and then open the dimension with which you want to work.  
+1.  In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], open the appropriate [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project, and then open the dimension with which you want to work.  
   
      The dimension opens in Dimension Designer on the **Dimension Structure** tab.  
   

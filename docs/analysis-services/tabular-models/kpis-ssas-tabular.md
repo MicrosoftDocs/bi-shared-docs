@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # KPIs
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
   A *KPI* (Key Performance Indicator), in a tabular model, is used to gauge performance of a value, defined by a *Base* measure, against a *Target* value, also defined by a measure or by an absolute value. This article provides tabular model authors a basic understanding of KPIs in a tabular model.  
   
