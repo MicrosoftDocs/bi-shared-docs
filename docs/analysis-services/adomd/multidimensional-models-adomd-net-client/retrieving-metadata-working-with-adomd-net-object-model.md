@@ -36,7 +36,7 @@ manager: kfile
   
 -   The <xref:Microsoft.AnalysisServices.AdomdClient.MiningStructureCollection> exposes information about the mining structures on the server.  
   
- To determine how to query against a mining model on the server, iterate through the <xref:Microsoft.AnalysisServices.AdomdServer.MiningModel.Columns%2A> collection. Each <xref:Microsoft.AnalysisServices.AdomdClient.MiningModelColumn> object exposes the following characteristics:  
+ To determine how to query against a mining model on the server, iterate through the Microsoft.AnalysisServices.AdomdServer.MiningModel.Columns collection. Each <xref:Microsoft.AnalysisServices.AdomdClient.MiningModelColumn> object exposes the following characteristics:  
   
 -   Whether the object is an input column (<xref:Microsoft.AnalysisServices.AdomdClient.MiningModelColumn.IsInput%2A>).  
   

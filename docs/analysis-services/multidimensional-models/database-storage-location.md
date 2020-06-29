@@ -34,7 +34,6 @@ manager: kfile
 >  You should not change the database storage location by using an **Alter** command. Instead, we recommend that you use a sequence of **Detach**/**Attach** database commands (see [Move an Analysis Services Database](../../analysis-services/multidimensional-models/move-an-analysis-services-database.md), [Attach and Detach Analysis Services Databases](../../analysis-services/multidimensional-models/attach-and-detach-analysis-services-databases.md)).  
   
 ## See Also  
- <xref:Microsoft.AnalysisServices.Database.DbStorageLocation%2A>   
  [Attach and Detach Analysis Services Databases](../../analysis-services/multidimensional-models/attach-and-detach-analysis-services-databases.md)   
  [Move an Analysis Services Database](../../analysis-services/multidimensional-models/move-an-analysis-services-database.md)   
  [DbStorageLocation Element](https://docs.microsoft.com/analysis-services/xmla/xml-elements-properties/dbstoragelocation-element)   
