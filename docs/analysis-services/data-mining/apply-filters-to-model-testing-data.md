@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Apply Filters to Model Testing Data
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   When you specify an external data source to use in testing a model, you can optionally apply a filter to restrict the input data. For example, you might want to test the model specifically for predictions on customers in a certain income range.  
   
  For example, in the Adventure Works targeted mailing scenario, you can create a filter expression like the following one on ProspectiveBuyer, which is the table that contains the testing data, and restrict testing cases by income range:  
@@ -75,7 +75,7 @@ manager: kfile
   
 11. Verify that the completed filter conditions are correct by viewing the text in the **Expression** pane.  
   
-12. [!INCLUDE[clickOK](../../includes/clickok-md.md)]  
+12. [!INCLUDE[clickOK](../includes/clickok-md.md)]  
   
      The filter condition is applied to the data source when you create the accuracy chart.  
   

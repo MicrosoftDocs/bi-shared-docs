@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Translations in Multidimensional Models (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  You can define translations in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] by using the appropriate designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] object to be translated. Defining a translation creates a **Translation** object associated with the appropriate [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] object that has the specified explicit literal values, in the specified language, for the properties of the associated [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] object.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  You can define translations in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] by using the appropriate designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] object to be translated. Defining a translation creates a **Translation** object associated with the appropriate [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] object that has the specified explicit literal values, in the specified language, for the properties of the associated [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] object.  
   
 ## Elements of a multi-lingual data model  
  A data model used in a multi-lingual solution needs more than translated labels (field names and descriptions). It also needs to provide data values that are articulated in various language scripts. Achieving a multi-lingual solution requires that you have individual attributes, bound to columns in an external database that return the data.  
@@ -53,7 +53,7 @@ manager: kfile
   
  Translated captions are added to the model manually using your keyboard or copy-paste, but for dimension attribute members, you can obtain translated values from an external database. Specifically, the **CaptionColumn** property of an attribute can be bound to a column in a data source view.  
   
- At the attribute level, you can override collation settings, for example you might want to adjust width-sensitivity or use a binary sort for a specific attribute. In [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], collation is exposed where data bindings are defined. Because you are binding a dimension attribute translation to a different source column in the DSV, a collation setting is available so that you can specify the collation used by the source column. See [Set or Change the Column Collation](/sql/relational-databases/collations/set-or-change-the-column-collation) for details about column collation in the relational database.  
+ At the attribute level, you can override collation settings, for example you might want to adjust width-sensitivity or use a binary sort for a specific attribute. In [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], collation is exposed where data bindings are defined. Because you are binding a dimension attribute translation to a different source column in the DSV, a collation setting is available so that you can specify the collation used by the source column. See [Set or Change the Column Collation](/sql/relational-databases/collations/set-or-change-the-column-collation) for details about column collation in the relational database.  
   
 1.  In Solution Explorer, double-click the dimension name to open dimension designer.  
   
@@ -92,11 +92,11 @@ manager: kfile
  You can right-click a translation object in the dimension or cube designer to permanently remove it. You cannot restore or recycle a deleted object, so be sure to review the list of affected objects before continuing.  
   
 ## Resolving Translations  
- If a client application requests information in a specified language identifier, the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] instance attempts to resolve data and metadata for [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] objects to the closest possible language identifier. If the client application does not specify a default language, or specifies the neutral locale identifier (0) or process default language identifier (1024), then [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] uses the default language for the instance to return data and metadata for [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] objects.  
+ If a client application requests information in a specified language identifier, the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance attempts to resolve data and metadata for [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] objects to the closest possible language identifier. If the client application does not specify a default language, or specifies the neutral locale identifier (0) or process default language identifier (1024), then [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses the default language for the instance to return data and metadata for [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] objects.  
   
- If the client application specifies a language identifier other than the default language identifier, the instance iterates through all available translations for all available objects. If the specified language identifier matches the language identifier of a translation, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] returns that translation. If a match cannot be found, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] attempts to use one of the following methods to return translations with a language identifier closest to the specified language identifier:  
+ If the client application specifies a language identifier other than the default language identifier, the instance iterates through all available translations for all available objects. If the specified language identifier matches the language identifier of a translation, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] returns that translation. If a match cannot be found, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] attempts to use one of the following methods to return translations with a language identifier closest to the specified language identifier:  
   
--   For the following language identifiers, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] attempts to use an alternate language identifier if a translation for the specified language identifier is not defined:  
+-   For the following language identifiers, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] attempts to use an alternate language identifier if a translation for the specified language identifier is not defined:  
   
     |Specified language identifier|Alternate language identifier|  
     |-----------------------------------|-----------------------------------|  
@@ -107,7 +107,7 @@ manager: kfile
     |2074 - Croatian|Default language|  
     |3098 - Croatian (Cyrillic)|Default language|  
   
--   For all other specified language identifiers, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] extracts the primary language of the specified language identifier and retrieves the language identifier indicated by Windows as the best match for the primary language. If a translation for the best match language identifier cannot be found, or if the specified language identifier is the best match for the primary language, then the default language is used.  
+-   For all other specified language identifiers, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] extracts the primary language of the specified language identifier and retrieves the language identifier indicated by Windows as the best match for the primary language. If a translation for the best match language identifier cannot be found, or if the specified language identifier is the best match for the primary language, then the default language is used.  
   
 ## See Also  
  [Globalization scenarios for Analysis Services](../../analysis-services/globalization-scenarios-for-analysis-services.md)   

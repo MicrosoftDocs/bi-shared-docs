@@ -12,19 +12,19 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # Manage roles by using SSMS
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
 
-  You can create, edit, and manage roles for a deployed tabular model by using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)].  
+  You can create, edit, and manage roles for a deployed tabular model by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
   
 > [!CAUTION]  
 >  Re-deploying a tabular model project with roles defined by using Role Manager in Visual Studio will overwrite roles defined in a deployed tabular model.  
   
 > [!CAUTION]  
->  Using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] to manage a tabular model workspace database while the model project is open in Visual Studio may cause the Model.bim file to become corrupted. When creating and managing roles for a tabular model workspace database, use Role Manager in Visual Studio.  
+>  Using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] to manage a tabular model workspace database while the model project is open in Visual Studio may cause the Model.bim file to become corrupted. When creating and managing roles for a tabular model workspace database, use Role Manager in Visual Studio.  
   
 ###  <a name="bkmk_new_role"></a> To create a new role
   
-1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], expand the tabular model database for which you want to create a new role, then right click on **Roles**, and then click **New Role**.  
+1.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database for which you want to create a new role, then right click on **Roles**, and then click **New Role**.  
   
 2.  In the **Create Role** dialog box, in the Select a page window, click **General**.  
   
@@ -55,17 +55,17 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
   
 ###  <a name="bkmk_copy_role"></a> To copy a role  
   
-1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to copy, then expand **Roles**, then right click on the role, and then click **Duplicate**.  
+1.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to copy, then expand **Roles**, then right click on the role, and then click **Duplicate**.  
   
 ###  <a name="bkmk_edit_role"></a> To edit a role  
   
--   In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to edit, then expand **Roles**, then right click on the role, and then click **Properties**.  
+-   In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to edit, then expand **Roles**, then right click on the role, and then click **Properties**.  
   
      In the **Role Properties** \<rolename> dialog box, you can change permissions, add or remove members, and add/edit row filters.  
   
 ###  <a name="bkmk_deletet_role"></a> To delete a role  
   
--   In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to delete, then expand **Roles**, then right click on the role, and then click **Delete**.  
+-   In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to delete, then expand **Roles**, then right click on the role, and then click **Delete**.  
   
 ## See Also  
  [Roles](../../analysis-services/tabular-models/roles-ssas-tabular.md)  

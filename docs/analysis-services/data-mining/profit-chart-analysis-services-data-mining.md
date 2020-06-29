@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Profit Chart (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A profit chart displays the estimated profitability associated with using a mining model. For example, let's assume your model predicts which customers a company should contact in a business scenario. In that case, you would add to the profit chart information about the cost of conducting the targeted mailing campaign. Then, in the completed chart, you can see the estimated profit if customers are correctly targeted, as compared to randomly contacting customers.  
   
 ## Build a Profit Chart  

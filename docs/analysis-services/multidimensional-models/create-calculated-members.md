@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Create Calculated Members
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   You can create customized measures or dimension members, called calculated members, by combining cube data, arithmetic operators, numbers, and functions. For example, you can create a calculated member named Euros that converts dollars to euros by multiplying an existing dollar measure by a conversion rate. Euros can then be displayed to end users in a separate row or column.  
   
  Calculated member definitions are stored, but their values exist only in memory. In the preceding example, values in euros are displayed to end users but are not stored as cube data.  

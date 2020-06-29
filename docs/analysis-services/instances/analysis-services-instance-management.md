@@ -11,7 +11,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # SQL Server Analysis Services server management
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 For Azure Analysis Services, see [Manage Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage).
 
@@ -26,7 +26,7 @@ For Azure Analysis Services, see [Manage Azure Analysis Services](https://docs.m
 -   The service name of each named instance of is MSOLAP$InstanceName.  
   
 > [!NOTE]  
->  If multiple instances are installed, Setup also installs a redirector service, which is integrated with the [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] Browser service. The redirector service is responsible for directing clients to the appropriate named instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. The [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] Browser service always runs in the security context of the Local Service account, a limited user account used by Windows for services that do not access resources outside the local computer.  
+>  If multiple instances are installed, Setup also installs a redirector service, which is integrated with the [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] Browser service. The redirector service is responsible for directing clients to the appropriate named instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. The [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] Browser service always runs in the security context of the Local Service account, a limited user account used by Windows for services that do not access resources outside the local computer.  
   
  Multi-instance means that you can scale-up by installing multiple server instances on the same hardware. For Analysis Services in particular, it also means that you can support different server modes by having multiple instances on the same server, each one configured to run in a specific mode.  
 
@@ -41,7 +41,7 @@ For Azure Analysis Services, see [Manage Azure Analysis Services](https://docs.m
  As a general rule, most of the administrative tasks you must perform do not vary by mode. As an Analysis Services system administrator, you can use the same procedures and scripts to manage any Analysis Services instance on your network regardless of how it was installed.  
   
 > [!NOTE]  
->  The exception is [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint. Server administration of a [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] deployment is always within the context of a SharePoint farm. [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] differs from other server modes in that it is always single-instance, and always managed through SharePoint Central Administration or the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Configuration Tool. Although it is possible to connect to [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint in SQL Server Management Studio or [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], it is not desirable. A SharePoint farm includes infrastructure that synchronizes server state and oversees server availability. Using other tools can interfere with these operations. For more information about [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] server administration, see [Power Pivot for SharePoint](../power-pivot-for-sharepoint-ssas.md).  
+>  The exception is [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] for SharePoint. Server administration of a [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] deployment is always within the context of a SharePoint farm. [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] differs from other server modes in that it is always single-instance, and always managed through SharePoint Central Administration or the [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] Configuration Tool. Although it is possible to connect to [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] for SharePoint in SQL Server Management Studio or [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], it is not desirable. A SharePoint farm includes infrastructure that synchronizes server state and oversees server availability. Using other tools can interfere with these operations. For more information about [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] server administration, see [Power Pivot for SharePoint](../power-pivot-for-sharepoint-ssas.md).  
   
   
   

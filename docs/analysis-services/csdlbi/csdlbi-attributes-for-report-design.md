@@ -12,7 +12,7 @@ manager: kfile
 ---
 # CSDLBI Attributes for Report Design
 
-[!INCLUDE[csdl-archived](../../includes/csdl-archived.md)]
+[!INCLUDE[csdl-archived](../includes/csdl-archived.md)]
 
   This section describes the attributes in the extensions to CSDL for tabular modeling that affect Power View query design.  
   

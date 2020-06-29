@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 4-5 - Sorting Attribute Members Based on a Secondary Attribute
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 In Lesson 3, you learned how to sort attribute members based on either their name or key value. You also learned how to use a composite member key to affect attribute members and sort order. For more information, see [Modifying the Date Dimension](lesson-3-4-modifying-the-date-dimension.md). However, if neither the name nor the key of the attribute provide the sort order that you want, you can use a secondary attribute to achieve the desired sort order. By defining a relationship between the attributes, you can use the second attribute to sort the members of the first attribute.  
   
 Attribute relationships define the relationships or dependencies between attributes. In a dimension that is based on a single relational table, all attributes are typically related to each other through the key attribute. This is because all the attributes for a dimension provide information about the members linked by the key attribute of the dimension to the facts in the fact table for each related measure group. In a dimension that is based on multiple tables, attributes are typically linked based on the join key between the tables. If the underlying data supports it, related attributes can be used to specify a sort order. For example, you might create a new attribute that provides the sort logic for a related attribute.  
@@ -51,7 +51,7 @@ In the tasks in this topic, you will define a new attribute in the **Date** dime
   
     The relationships between the members of the **Month Name** attribute and the **Month Number Of Year** attribute will not change over time. As a result, Analysis Services will not drop aggregations for this relationship during incremental processing. If a change does occur, a processing error will occur during incremental processing and you will need to perform a full process of the dimension. You are now ready to set the sort order for the members of **Month Name**.  
   
-9. [!INCLUDE[clickOK](../../includes/clickok-md.md)]  
+9. [!INCLUDE[clickOK](../includes/clickok-md.md)]  
   
 10. Click the **Dimension Structure** tab.  
   
@@ -69,7 +69,7 @@ In the tasks in this topic, you will define a new attribute in the **Date** dime
   
 1.  Switch to the **Browser** tab in Dimension Designer for the Customer dimension, and then browse the members of the **Commute Distance** attribute hierarchy.  
   
-    Notice that the members of this attribute hierarchy are sorted based on the ASCII values of the member key. In this case, sorting by the attribute name or key does not sort the commute distances from least to most. In this task, you sort the members of the attribute hierarchy based on the **CommuteDistanceSort** named calculation that ascribes the appropriate sort number to each distinct value in the column. To save time, this named calculation has already been added to the **Customer** table in the [!INCLUDE[ssSampleDBCoShort](../../includes/sssampledbcoshort-md.md)] DW data source view. You can switch to this data source view to view the SQL script that is used in this named calculation. For more information, see [Define Named Calculations in a Data Source View &#40;Analysis Services&#41;](../multidimensional-models/define-named-calculations-in-a-data-source-view-analysis-services.md).  
+    Notice that the members of this attribute hierarchy are sorted based on the ASCII values of the member key. In this case, sorting by the attribute name or key does not sort the commute distances from least to most. In this task, you sort the members of the attribute hierarchy based on the **CommuteDistanceSort** named calculation that ascribes the appropriate sort number to each distinct value in the column. To save time, this named calculation has already been added to the **Customer** table in the [!INCLUDE[ssSampleDBCoShort](../includes/sssampledbcoshort-md.md)] DW data source view. You can switch to this data source view to view the SQL script that is used in this named calculation. For more information, see [Define Named Calculations in a Data Source View &#40;Analysis Services&#41;](../multidimensional-models/define-named-calculations-in-a-data-source-view-analysis-services.md).  
   
     The following image shows the members of the **Commute Distance** attribute hierarchy, sorted by the ASCII values of the member key.  
   
@@ -95,7 +95,7 @@ In the tasks in this topic, you will define a new attribute in the **Date** dime
   
     The relationship between the members of the **Commute Distance** attribute and the **Commute Distance Sort** attribute will not change over time.  
   
-9. [!INCLUDE[clickOK](../../includes/clickok-md.md)]  
+9. [!INCLUDE[clickOK](../includes/clickok-md.md)]  
   
     You are now ready to set the sort order for the **Commute Distance** attribute.  
   

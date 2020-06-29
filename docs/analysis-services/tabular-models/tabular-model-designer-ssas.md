@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Tabular model designer
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
 The tabular model designer is part of Analysis Services projects extension for Microsoft Visual Studio, with additional project type templates specifically for developing professional tabular model solutions. To learn more, see [Tools](../tools-and-applications-used-in-analysis-services.md).
   
@@ -20,7 +20,7 @@ The tabular model designer is part of Analysis Services projects extension for M
 
  When you install Analysis Services projects extension for Visual Studio, new project templates for creating tabular models are added to the available project types. After creating a new tabular model project by using one of the templates, you can begin model authoring by using the tabular model designer tools and wizards.  
   
- In addition to new templates and tools for authoring professional multidimensional and tabular model solutions, the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] environment provides debugging and project lifecycle capabilities that ensure you create most BI solutions for your organization. For more information about [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], see [Getting Started with Visual Studio](https://go.microsoft.com/fwlink/?LinkId=206389).  
+ In addition to new templates and tools for authoring professional multidimensional and tabular model solutions, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] environment provides debugging and project lifecycle capabilities that ensure you create most BI solutions for your organization. For more information about [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [Getting Started with Visual Studio](https://go.microsoft.com/fwlink/?LinkId=206389).  
   
 ## Project templates  
 
@@ -34,8 +34,8 @@ The tabular model designer is part of Analysis Services projects extension for M
   
  Older models have older compatibility levels. You can upgrade by changing the Compatibility Level property after importing the model definition.  
   
- **Import from [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)]**  
- This template is used for creating a new tabular model project by extracting the metadata and data from a [!INCLUDE[ssGeminiClient](../../includes/ssgeminiclient-md.md)] file.  
+ **Import from [!INCLUDE[ssGemini](../includes/ssgemini-md.md)]**  
+ This template is used for creating a new tabular model project by extracting the metadata and data from a [!INCLUDE[ssGeminiClient](../includes/ssgeminiclient-md.md)] file.  
   
 ## Windows and menus  
 
@@ -119,7 +119,7 @@ The tabular model designer is part of Analysis Services projects extension for M
   
 ### Menu items  
 
- When you install [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], additional menu items specifically for authoring tabular models are added to the Visual Studio menu bar. The **Model** menu can be used to launch the Data Import Wizard, view existing connections, process workspace data, and browse the model workspace in [!INCLUDE[msCoName](../../includes/msconame-md.md)] Excel. The **Table** menu is used to create and manage relationships between tables, create and manage measures, specify data table settings, specify calculation options, and specify other table properties. With the **Column** menu, you can add and delete columns in a table, hide and unhide columns, and specify other column properties such as data types and filters. You can build and deploy tabular model solutions on the **Build** menu. Copy/Paste functions are included on the **Edit** menu.  
+ When you install [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], additional menu items specifically for authoring tabular models are added to the Visual Studio menu bar. The **Model** menu can be used to launch the Data Import Wizard, view existing connections, process workspace data, and browse the model workspace in [!INCLUDE[msCoName](../includes/msconame-md.md)] Excel. The **Table** menu is used to create and manage relationships between tables, create and manage measures, specify data table settings, specify calculation options, and specify other table properties. With the **Column** menu, you can add and delete columns in a table, hide and unhide columns, and specify other column properties such as data types and filters. You can build and deploy tabular model solutions on the **Build** menu. Copy/Paste functions are included on the **Edit** menu.  
   
  In addition to these menu items, additional settings are added to the Analysis Services options on the Tools menu items.  
   

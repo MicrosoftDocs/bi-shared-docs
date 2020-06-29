@@ -11,13 +11,13 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 3-1 - Modifying Measures
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
-You can use the **FormatString** property to define formatting settings that control how measures are displayed to users. In this task, you specify formatting properties for the currency and percentage measures in the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube.  
+You can use the **FormatString** property to define formatting settings that control how measures are displayed to users. In this task, you specify formatting properties for the currency and percentage measures in the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube.  
   
 ### To modify the measures of the cube  
   
-1.  Switch to the **Cube Structure** tab of Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, expand the **Internet Sales** measure group in the **Measures** pane, right-click **Order Quantity**, and then click **Properties**.  
+1.  Switch to the **Cube Structure** tab of Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, expand the **Internet Sales** measure group in the **Measures** pane, right-click **Order Quantity**, and then click **Properties**.  
   
 2.  In the Properties window, click the **Auto Hide** pushpin icon to pin the Properties window open.  
   

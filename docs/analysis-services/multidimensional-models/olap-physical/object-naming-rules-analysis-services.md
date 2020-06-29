@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Object Naming Rules (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  This topic describes object naming conventions, as well as the reserved words and characters that cannot be used in any object name, in code or script in [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)].  
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+  This topic describes object naming conventions, as well as the reserved words and characters that cannot be used in any object name, in code or script in [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)].  
   
 ##  <a name="bkmk_Names"></a> Naming Conventions  
  Every object has a **Name** and **ID** property that must be unique within the scope of the parent collection. For example, two dimensions can have same name as long as each one resides in a different database.  

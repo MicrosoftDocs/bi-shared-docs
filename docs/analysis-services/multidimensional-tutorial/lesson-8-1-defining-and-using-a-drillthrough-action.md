@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 8-1 - Defining and Using a Drillthrough Action
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 Dimensioning fact data by a fact dimension without correctly filtering the data that the query returns can cause slow query performance. To avoid this, you can define a drillthrough action that restricts the total number of rows that are returned. This will significantly improve query performance.  
   
@@ -19,7 +19,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
 ## Defining the Drillthrough Action Properties  
   
-1.  In Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, click the **Actions** tab.  
+1.  In Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, click the **Actions** tab.  
   
     The **Actions** tab includes several panes. On the left side of the tab are the **Action Organizer** pane and the **Calculation Tools** pane. The pane to the right of these two panes is the **Display** pane, which contains the details of the action that is selected in the **Action Organizer** pane.  
   
@@ -59,7 +59,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
 1.  On the **Build** menu, click **Deploy Analysis Services Tutorial**.  
   
-2.  When deployment has successfully completed, click the **Browser** tab in Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Reconnect** button.  
+2.  When deployment has successfully completed, click the **Browser** tab in Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Reconnect** button.  
   
 3.  Start Excel.  
   
@@ -69,7 +69,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
 6.  On the PivotTable, in **Customer Geography**, add a filter that selects a single customer. Expand **All Customers**, expand **Australia**, expand **Queensland**, expand **Brisbane**, expand **4000**, select the check box for **Adam Powell**, and then click **OK**.  
   
-    The total sales of products by [!INCLUDE[ssSampleDBCoFull](../../includes/sssampledbcofull-md.md)] to Adam Powell are displayed in the data area.  
+    The total sales of products by [!INCLUDE[ssSampleDBCoFull](../includes/sssampledbcofull-md.md)] to Adam Powell are displayed in the data area.  
   
 7.  Right-click on the sales amount, point to **Additional Actions**, and then click **Drillthrough to Order Details**.  
   
@@ -99,13 +99,13 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
     -   ShipDateKey  
   
-6.  Change the **Name** property for the **Order Date Key** attribute to **Order Date** Then, click the browse button for the **Name Column** property, and in the **Name Column** dialog box, select **Date** as the source table and select SimpleDate as the source column. [!INCLUDE[clickOK](../../includes/clickok-md.md)]  
+6.  Change the **Name** property for the **Order Date Key** attribute to **Order Date** Then, click the browse button for the **Name Column** property, and in the **Name Column** dialog box, select **Date** as the source table and select SimpleDate as the source column. [!INCLUDE[clickOK](../includes/clickok-md.md)]  
   
 7.  Change the **Name** property for the **Due Date Key** attribute to **Due Date**, and then, by using the same method as the **Order Date Key** attribute, change the **Name Column** property for this attribute to **Date.SimpleDate (WChar)**.  
   
 8.  Change the **Name** property for the **Ship Date Key** attribute to **Ship Date**, and then change the **Name Column** property for this attribute to **Date.SimpleDate (WChar)**.  
   
-9. Switch to the **Actions** tab of Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube.  
+9. Switch to the **Actions** tab of Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube.  
   
 10. In the **Drillthrough Columns** box, select the check boxes to add the following columns to the **Return Columns** list, and then click **OK**:  
   
@@ -123,7 +123,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
 1.  On the **Build** menu, click **Deploy Analysis Services Tutorial**.  
   
-2.  When deployment has successfully completed, switch to the **Browser** tab in Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Reconnect** button.  
+2.  When deployment has successfully completed, switch to the **Browser** tab in Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Reconnect** button.  
   
 3.  Start Excel.  
   

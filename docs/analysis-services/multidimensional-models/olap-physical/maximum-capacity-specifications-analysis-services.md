@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Maximum capacity specifications (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  The following tables specify the maximum sizes and numbers of various objects defined in [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] components under different server deployment modes.  
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+  The following tables specify the maximum sizes and numbers of various objects defined in [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] components under different server deployment modes.  
   
  This topic contains the following sections:  
   

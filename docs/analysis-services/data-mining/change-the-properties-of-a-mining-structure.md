@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Change the Properties of a Mining Structure
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   There are two kinds of properties on a mining structure, both of which can be modified:  
   
 -   Properties of the mining structure that affect the entire structure  

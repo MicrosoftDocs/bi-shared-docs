@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Model Filter Syntax and Examples (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   This section provides detailed information about the syntax for model filters, together with sample expressions.  
   
  [Filter syntax](#bkmk_Syntax)  
@@ -114,7 +114,7 @@ manager: kfile
 -   Non-Boolean operators, such as the plus or minus signs, are not supported in the filter syntax.  
   
 ## Examples of Filters  
- The following examples demonstrate the use of filters applied to a mining model. If you create the filter expression by using [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], in the **Property** window and the **Expression** pane of the filter dialog box, you would see only the string that appears after the WITH FILTER keywords. Here, the definition of the mining structure is included to make it easier to understand the column type and usage.  
+ The following examples demonstrate the use of filters applied to a mining model. If you create the filter expression by using [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], in the **Property** window and the **Expression** pane of the filter dialog box, you would see only the string that appears after the WITH FILTER keywords. Here, the definition of the mining structure is included to make it easier to understand the column type and usage.  
   
 ###  <a name="bkmk_Ex1"></a> Example 1: Typical Case-Level Filtering  
  This example shows a simple filter that restricts the cases used in the model to customers whose occupation is architect and whose age is over 30.  

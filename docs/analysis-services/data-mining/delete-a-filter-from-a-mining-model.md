@@ -11,14 +11,14 @@ author: minewiskan
 manager: kfile
 ---
 # Delete a Filter from a Mining Model
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   When you create a filter on a mining model, you can create models on a subset of the data in the data source view. Filters are also useful for testing the accuracy of the model on a subset of the original data.  
   
  However, you must delete the filter if you want to view the complete set of cases again. This procedure describes how to remove conditions on a filter, or delete the filter completely.  
   
 ### To delete a condition from a filter on a mining model  
   
-1.  In [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], in Solution Explorer, click the mining structure that contains the mining model you want to filter.  
+1.  In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], in Solution Explorer, click the mining structure that contains the mining model you want to filter.  
   
 2.  Click the **Mining Models** tab.  
   
@@ -40,7 +40,7 @@ manager: kfile
  If you want to delete the whole filter, you do not need to open the filter editor dialog boxes. The filter conditions that you created are available in the **Filter** property of the mining model.  
   
 > [!NOTE]  
->  You can view the properties of a mining model in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)], but not in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)].  
+>  You can view the properties of a mining model in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], but not in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
   
 #### To clear the filter on a mining model in Solution Explorer  
   

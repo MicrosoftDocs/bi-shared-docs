@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Attribute Properties - Bind an Attribute to a Key Column
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   This procedure describes how to change the setting for the **Name** property of an attribute in a dimension.  
   
 ### To bind an attribute to a key column  
@@ -25,6 +25,6 @@ manager: kfile
 4.  Type the new name.  
   
     > [!NOTE]  
-    >  You can also set the **Name** property of a selected attribute in the **Properties** window of [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)].  
+    >  You can also set the **Name** property of a selected attribute in the **Properties** window of [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
   

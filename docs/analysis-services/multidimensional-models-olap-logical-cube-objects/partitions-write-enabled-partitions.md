@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Partitions - Write-Enabled Partitions
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   The data in a cube is generally read-only. However, for certain scenarios, you may want to write-enable a partition. Write-enabled partitions are used to enable business users to explore scenarios by changing cell values and analyzing the effects of the changes on cube data. When you write-enable a partition, client applications can record changes to the data in the partition. These changes, known as writeback data, are stored in a separate table and do not overwrite any existing data in a measure group. However, they are incorporated into query results as if they are part of the cube data.  
   
  You can write-enable an entire cube or only certain partitions in the cube. Write-enabled dimensions are different but complementary. A write-enabled partition lets users update partition cells, whereas a write-enabled dimension lets users update dimension members. You can also use these two features in combination. For example, a write-enabled cube or a write-enabled partition does not have to include any write-enabled dimensions. **Related topic:**[Write-Enabled Dimensions](../../analysis-services/multidimensional-models-olap-logical-dimension-objects/write-enabled-dimensions.md).  

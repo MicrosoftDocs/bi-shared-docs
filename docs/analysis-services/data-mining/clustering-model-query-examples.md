@@ -11,10 +11,10 @@ author: minewiskan
 manager: kfile
 ---
 # Clustering Model Query Examples
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   When you create a query against a data mining model, you can retrieve metadata about the model, or create a content query that provides details about the patterns discovered in analysis. Alternatively, you can create a prediction query, which uses the patterns in the model to make predictions for new data. Each type of query will provide different information. For example, a content query might provide additional details about the clusters that were found, whereas a prediction query might tell you in which cluster a new data point is most likely to belong.  
   
- This section explains how to create queries for models that are based on the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Clustering algorithm.  
+ This section explains how to create queries for models that are based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] Clustering algorithm.  
   
  **Content Queries**  
   
@@ -41,7 +41,7 @@ manager: kfile
  [Returning All Possible Clusters with Probability and Distance](#bkmk_Query10)  
   
 ##  <a name="bkmk_top2"></a> Finding Information about the Model  
- All mining models expose the content learned by the algorithm according to a standardized schema, the mining model schema rowset. You can create queries against the mining model schema rowset by using Data Mining Extension (DMX) statements. In [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)], you can also query the schema rowsets directly as system tables.  
+ All mining models expose the content learned by the algorithm according to a standardized schema, the mining model schema rowset. You can create queries against the mining model schema rowset by using Data Mining Extension (DMX) statements. In [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)], you can also query the schema rowsets directly as system tables.  
   
  [Return to Top](#bkmk_top2)  
   
@@ -168,7 +168,7 @@ WHERE NODE_TYPE = 5
  [Return to Top](#bkmk_top2)  
   
 ###  <a name="bkmk_Query5"></a> Sample Query 5: Return a Cluster Profile Using System Stored Procedures  
- As a shortcut, rather than writing your own queries by using DMX, you can also call the system stored procedures that [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] uses to work with clusters. The following example illustrates how to use the internal stored procedures to return the profile for a cluster with the ID of 002.  
+ As a shortcut, rather than writing your own queries by using DMX, you can also call the system stored procedures that [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses to work with clusters. The following example illustrates how to use the internal stored procedures to return the profile for a cluster with the ID of 002.  
   
 ```  
 CALL System.Microsoft.AnalysisServices.System.DataMining.Clustering.GetClusterProfiles('TM_Clustering", '002',0.0005  
@@ -189,7 +189,7 @@ CALL System.Microsoft.AnalysisServices.System.DataMining.Clustering.GetClusterCh
 |Total Children|0|0.993860958572323|893|  
   
 > [!NOTE]  
->  The data mining system stored procedures are for internal use and [!INCLUDE[msCoName](../../includes/msconame-md.md)] reserves the right to change them as needed. For production use, we recommend that you create queries by using DMX, AMO, or XMLA.  
+>  The data mining system stored procedures are for internal use and [!INCLUDE[msCoName](../includes/msconame-md.md)] reserves the right to change them as needed. For production use, we recommend that you create queries by using DMX, AMO, or XMLA.  
   
  [Return to Top](#bkmk_top2)  
   
@@ -220,7 +220,7 @@ CALL System.Microsoft.AnalysisServices.System.DataMining.Clustering.GetClusterDi
 ```  
   
 > [!NOTE]  
->  The data mining system stored procedures are for internal use and [!INCLUDE[msCoName](../../includes/msconame-md.md)] reserves the right to change them as needed. For production use, we recommend that you create queries by using DMX, AMO, or XMLA.  
+>  The data mining system stored procedures are for internal use and [!INCLUDE[msCoName](../includes/msconame-md.md)] reserves the right to change them as needed. For production use, we recommend that you create queries by using DMX, AMO, or XMLA.  
   
  [Return to Top](#bkmk_top2)  
   
@@ -240,7 +240,7 @@ WHERE IsInNode('001')
  [Return to Top](#bkmk_top2)  
   
 ## Making Predictions using the Model  
- Although clustering is typically used for describing and understanding data, the [!INCLUDE[msCoName](../../includes/msconame-md.md)] implementation also lets you make prediction about cluster membership, and return probabilities associated with the prediction. This section provides examples of how to create prediction queries on clustering models. You can make predictions for multiple cases, by specifying a tabular data source, or you can provide new values on at a time by creating a singleton query. For clarity the examples in this section are all singleton queries.  
+ Although clustering is typically used for describing and understanding data, the [!INCLUDE[msCoName](../includes/msconame-md.md)] implementation also lets you make prediction about cluster membership, and return probabilities associated with the prediction. This section provides examples of how to create prediction queries on clustering models. You can make predictions for multiple cases, by specifying a tabular data source, or you can provide new values on at a time by creating a singleton query. For clarity the examples in this section are all singleton queries.  
   
  For more information about how to create prediction queries using DMX, see [Data Mining Query Tools](../../analysis-services/data-mining/data-mining-query-tools.md).  
   
@@ -350,12 +350,12 @@ NATURAL PREDICTION JOIN
   
  By default, the results are ranked by probability. The results tell you that, even though the probability for Cluster 2 is fairly low, Cluster 2 is still the best fit for the new data point.  
   
- **Note** The additional column, `$DISTANCE`, represents the distance from the data point to the cluster. By default, the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Clustering Algorithm uses scalable EM clustering, which assigns multiple clusters to each data point and ranks the possible clusters.  However, if you create your clustering model using the K-means algorithm, only one cluster can be assigned to each data point, and this query would return only one row. Understanding these differences is necessary to interpret the results of the [PredictCaseLikelihood &#40;DMX&#41;](/sql/dmx/predictcaselikelihood-dmx) function. For more information about the differences between EM and K-means clustering, see [Microsoft Clustering Algorithm Technical Reference](../../analysis-services/data-mining/microsoft-clustering-algorithm-technical-reference.md).  
+ **Note** The additional column, `$DISTANCE`, represents the distance from the data point to the cluster. By default, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Clustering Algorithm uses scalable EM clustering, which assigns multiple clusters to each data point and ranks the possible clusters.  However, if you create your clustering model using the K-means algorithm, only one cluster can be assigned to each data point, and this query would return only one row. Understanding these differences is necessary to interpret the results of the [PredictCaseLikelihood &#40;DMX&#41;](/sql/dmx/predictcaselikelihood-dmx) function. For more information about the differences between EM and K-means clustering, see [Microsoft Clustering Algorithm Technical Reference](../../analysis-services/data-mining/microsoft-clustering-algorithm-technical-reference.md).  
   
  [Return to Top](#bkmk_top2)  
   
 ## Function List  
- All [!INCLUDE[msCoName](../../includes/msconame-md.md)] algorithms support a common set of functions. However, models that are built by using the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Clustering algorithm support the additional functions that are listed in the following table.  
+ All [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms support a common set of functions. However, models that are built by using the [!INCLUDE[msCoName](../includes/msconame-md.md)] Clustering algorithm support the additional functions that are listed in the following table.  
   
 |||  
 |-|-|  

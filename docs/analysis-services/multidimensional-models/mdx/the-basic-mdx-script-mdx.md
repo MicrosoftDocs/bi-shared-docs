@@ -11,21 +11,21 @@ author: minewiskan
 manager: kfile
 ---
 # The Basic MDX Script (MDX)
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  A Multidimensional Expressions (MDX) script defines the calculation process for a cube in [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)]. There are two types of MDX scripts:  
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+  A Multidimensional Expressions (MDX) script defines the calculation process for a cube in [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. There are two types of MDX scripts:  
   
  **The default MDX script**  
- At the time that you create a cube, [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] creates a default MDX script for that cube. This script defines a calculation pass for the whole cube.  
+ At the time that you create a cube, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] creates a default MDX script for that cube. This script defines a calculation pass for the whole cube.  
   
  **User-defined MDX script**  
  After you have created a cube, you can add user-defined MDX scripts that extend the calculation capabilities of the cube.  
   
 ## The Default MDX Script  
- The default MDX script that [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] creates when you define a cube contains a single CALCULATE statement. This single CALCULATE statement is at the beginning of the default MDX script, and indicates that the entire cube should be calculated during the first calculation pass.  
+ The default MDX script that [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] creates when you define a cube contains a single CALCULATE statement. This single CALCULATE statement is at the beginning of the default MDX script, and indicates that the entire cube should be calculated during the first calculation pass.  
   
  The default MDX script also contains the script commands that create named sets, assignments, and calculated members created in Cube Designer:  
   
--   [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] directly adds script commands to the default MDX script.  
+-   [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] directly adds script commands to the default MDX script.  
   
 -   For each named set in the cube, a corresponding CREATE SET statement exists in the default MDX script.  
   

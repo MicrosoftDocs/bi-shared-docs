@@ -11,11 +11,11 @@ author: minewiskan
 manager: kfile
 ---
 # SystemGetCrossValidationResults (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Partitions the mining structure into the specified number of cross-sections, trains a model for each partition, and then returns accuracy metrics for each partition.  
   
 > [!NOTE]  
->  This stored procedure cannot be used to cross-validate clustering models, or models that are built by using the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Time Series algorithm or the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Sequence Clustering algorithm. To cross-validate clustering models, you can use the separate stored procedure, [SystemGetClusterCrossValidationResults &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/systemgetclustercrossvalidationresults-analysis-services-data-mining.md).  
+>  This stored procedure cannot be used to cross-validate clustering models, or models that are built by using the [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series algorithm or the [!INCLUDE[msCoName](../includes/msconame-md.md)] Sequence Clustering algorithm. To cross-validate clustering models, you can use the separate stored procedure, [SystemGetClusterCrossValidationResults &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/systemgetclustercrossvalidationresults-analysis-services-data-mining.md).  
   
 ## Syntax  
   
@@ -102,7 +102,7 @@ SystemGetCrossValidationResults(
  The default is **null**.  
   
 > [!NOTE]  
->  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] will not raise an error if you set *state threshold* to 0.0, but you should never use this value. In effect, a threshold of 0.0 means that predictions with a 0 percent probability are counted as correct.  
+>  [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] will not raise an error if you set *state threshold* to 0.0, but you should never use this value. In effect, a threshold of 0.0 means that predictions with a 0 percent probability are counted as correct.  
   
  (optional)  
   
@@ -174,7 +174,7 @@ NULL
 |Target Mail DT|Bike Buyer|1|2|500|Likelihood|Root Mean Square Error|0.342721344892651|  
   
 ## Requirements  
- Cross-validation is available only in [!INCLUDE[ssEnterprise](../../includes/ssenterprise-md.md)] beginning with [!INCLUDE[ssKatmai](../../includes/sskatmai-md.md)].  
+ Cross-validation is available only in [!INCLUDE[ssEnterprise](../includes/ssenterprise-md.md)] beginning with [!INCLUDE[ssKatmai](../includes/sskatmai-md.md)].  
   
 ## See Also  
  [SystemGetCrossValidationResults](../../analysis-services/data-mining/systemgetcrossvalidationresults-analysis-services-data-mining.md)   

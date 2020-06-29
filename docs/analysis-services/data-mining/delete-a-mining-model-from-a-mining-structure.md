@@ -11,12 +11,12 @@ author: minewiskan
 manager: kfile
 ---
 # Delete a Mining Model from a Mining Structure
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  You can delete mining models by using Data Mining Designer, by using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], or by using DMX statements.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  You can delete mining models by using Data Mining Designer, by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], or by using DMX statements.  
   
 ### Delete a mining model using SQL Server Data Tools  
   
-1.  Select the **Mining Models** tab in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)].  
+1.  Select the **Mining Models** tab in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
 2.  Right-click the model that you want to delete, and select **Delete**.  
   
@@ -26,7 +26,7 @@ manager: kfile
   
 ### Delete a mining model using SQL Server Management Studio  
   
-1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], open the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database that contains the model.  
+1.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], open the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database that contains the model.  
   
 2.  Expand **Mining Structures**, and then expand **Mining Models**.  
   

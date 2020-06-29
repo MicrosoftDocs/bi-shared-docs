@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Cell Properties - FORMATTED_VALUE Property
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   The FORMATTED_VALUE property is built on the interactions of the VALUE, FORMAT_STRING and LANGUAGE properties of the cell. This topic explains how these properties interact to build the FORMATTED_VALUE property.  
   
 ## VALUE, FORMAT_STRING, LANGUAGE properties  
@@ -68,7 +68,7 @@ manager: kfile
   
  `cell properties VALUE, FORMAT_STRING, LANGUAGE, FORMATTED_VALUE`  
   
- The results, transposed, when the above MDX query was run using [!INCLUDE[ssManStudioFull](../../../includes/ssmanstudiofull-md.md)] over a server and client with locale 1033 are as follows:  
+ The results, transposed, when the above MDX query was run using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] over a server and client with locale 1033 are as follows:  
   
 |Member|FORMATTED_VALUE|Explanation|  
 |------------|----------------------|-----------------|  
@@ -118,7 +118,7 @@ manager: kfile
   
  `cell properties VALUE, FORMAT_STRING, LANGUAGE, FORMATTED_VALUE`  
   
- The results, transposed, when the above MDX query was run using [!INCLUDE[ssManStudioFull](../../../includes/ssmanstudiofull-md.md)] over a server and client with locale 1033 are as follows:  
+ The results, transposed, when the above MDX query was run using [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] over a server and client with locale 1033 are as follows:  
   
 |Member|FORMATTED_VALUE|Explanation|  
 |------------|----------------------|-----------------|  

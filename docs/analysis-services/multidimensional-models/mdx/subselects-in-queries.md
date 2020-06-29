@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Subselects in Queries
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   Subselect expressions are nested SELECT expressions that are used to restrict the space of the cube from where the outer external SELECT is being evaluated. Subselects allow you to define a new space over which all calculations are evaluated.  
   
 ## Subselects by example  

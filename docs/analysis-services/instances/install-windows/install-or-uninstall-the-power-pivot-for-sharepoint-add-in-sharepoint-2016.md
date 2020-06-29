@@ -11,28 +11,28 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Install or Uninstall the Power Pivot for SharePoint Add-in (SharePoint 2016)
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
-  [!INCLUDE[ssGeminiShort2017](../../../includes/ssgeminishort2017-md.md)] is a collection of application server components and back-end services that provide [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] data access in a [!INCLUDE[SPS2016](../../../includes/sps2016-md.md)] farm. The [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] for SharePoint add-in (**spPowerpivot16.msi**) is an installer package used to install the application server components.  
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+  [!INCLUDE[ssGeminiShort2017](../../includes/ssgeminishort2017-md.md)] is a collection of application server components and back-end services that provide [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data access in a [!INCLUDE[SPS2016](../../includes/sps2016-md.md)] farm. The [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint add-in (**spPowerpivot16.msi**) is an installer package used to install the application server components.  
   
- **Note:** This topic describes installing the [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] solution files and [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] for SharePoint 2016 Configuration tool. After the installation, see the following topic for information on the configuration tool and additional features, [Configure Power Pivot and Deploy Solutions &#40;SharePoint 2013&#41;](../../../analysis-services/instances/install-windows/configure-power-pivot-and-deploy-solutions-sharepoint-2013.md).  
+ **Note:** This topic describes installing the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] solution files and [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint 2016 Configuration tool. After the installation, see the following topic for information on the configuration tool and additional features, [Configure Power Pivot and Deploy Solutions &#40;SharePoint 2013&#41;](../../../analysis-services/instances/install-windows/configure-power-pivot-and-deploy-solutions-sharepoint-2013.md).  
   
  For information on how to download **spPowerPivot16.msi**, see [Microsoft® SQL Server® 2016 Power Pivot® for Microsoft SharePoint®](https://www.microsoft.com/download/details.aspx?id=52675).  
   
 ##  <a name="bkmk_background"></a> Background  
   
--   **Application Server:** [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] functionality in SharePoint 2016 includes using workbooks as a data source, scheduled data refresh, and the [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] Management Dashboard.  
+-   **Application Server:** [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] functionality in SharePoint 2016 includes using workbooks as a data source, scheduled data refresh, and the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Management Dashboard.  
   
-     [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] is a [!INCLUDE[msCoName](../../../includes/msconame-md.md)] Windows Installer package (**spPowerpivot16.msi**) that deploys Analysis Services client libraries and copies [!INCLUDE[ssGeminiShort2017](../../../includes/ssgeminishort2017-md.md)] installation files to the computer. The installer does not deploy or configure [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] features in SharePoint. The following components install by default:  
+     [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] is a [!INCLUDE[msCoName](../../includes/msconame-md.md)] Windows Installer package (**spPowerpivot16.msi**) that deploys Analysis Services client libraries and copies [!INCLUDE[ssGeminiShort2017](../../includes/ssgeminishort2017-md.md)] installation files to the computer. The installer does not deploy or configure [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] features in SharePoint. The following components install by default:  
   
-    -   [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)]. This component includes PowerShell scripts (.ps1 files), SharePoint solution packages (.wsp), and the [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] configuration tool to deploy [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] in a SharePoint 2016 farm.  
+    -   [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)]. This component includes PowerShell scripts (.ps1 files), SharePoint solution packages (.wsp), and the [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] configuration tool to deploy [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] in a SharePoint 2016 farm.  
   
-    -   [!INCLUDE[msCoName](../../../includes/msconame-md.md)] OLE DB Provider for Analysis Services (MSOLAP).  
+    -   [!INCLUDE[msCoName](../../includes/msconame-md.md)] OLE DB Provider for Analysis Services (MSOLAP).  
   
     -   ADOMD.NET data provider.  
   
-    -   [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] Analysis Management Objects.  
+    -   [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] Analysis Management Objects.  
   
--   **Backend services:** If you use [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] for Excel to create workbooks that contain analytical data, you must have Office Online Server configured with a BI server running [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] in [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] mode to access that data in a server environment. You can run SQL Server Setup on a computer that has SharePoint Server 2016 installed, or on a different computer that has no SharePoint software. Analysis Services does not have any dependencies on SharePoint.  
+-   **Backend services:** If you use [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for Excel to create workbooks that contain analytical data, you must have Office Online Server configured with a BI server running [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] in [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] mode to access that data in a server environment. You can run SQL Server Setup on a computer that has SharePoint Server 2016 installed, or on a different computer that has no SharePoint software. Analysis Services does not have any dependencies on SharePoint.  
   
      For more information on installing, uninstalling, and configuring the backend services, see the following:  
   
@@ -41,32 +41,32 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
     -   [Uninstall Power Pivot for SharePoint](/sql/sql-server/install/uninstall-power-pivot-for-sharepoint)  
   
 ##  <a name="bkmk_where_to_install"></a> Where to Install spPowerPivot16.msi?  
- A recommended best practice is to install **spPowerPivot16.msi** on all servers in the SharePoint farm for configuration consistency, including application servers and web-front end servers. The installer package includes the Analysis Services data providers as well as the [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] configuration tool. When you install **spPowerPivot16.msi** you can customize the installation by excluding individual components.  
+ A recommended best practice is to install **spPowerPivot16.msi** on all servers in the SharePoint farm for configuration consistency, including application servers and web-front end servers. The installer package includes the Analysis Services data providers as well as the [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] configuration tool. When you install **spPowerPivot16.msi** you can customize the installation by excluding individual components.  
   
- **Data providers:** Several SharePoint and SQL Server technologies use the Analysis Services data providers including PerformancePoint Services and Power View. Installing **spPowerPivot16.msi** on all SharePoint servers ensures the full set of Analysis Services data providers and [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] connectivity is consistently available across the farm.  
+ **Data providers:** Several SharePoint and SQL Server technologies use the Analysis Services data providers including PerformancePoint Services and Power View. Installing **spPowerPivot16.msi** on all SharePoint servers ensures the full set of Analysis Services data providers and [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] connectivity is consistently available across the farm.  
   
 > [!NOTE]  
->  You must install the Analysis Services data providers on a SharePoint 2016 server using **spPowerPivot16.msi**. Other installer packages available in the [!INCLUDE[ssCurrent](../../../includes/sscurrent-md.md)] Feature Pack are not supported because these packages do not include the SharePoint 2016 support files that the data providers require in this environment.  
+>  You must install the Analysis Services data providers on a SharePoint 2016 server using **spPowerPivot16.msi**. Other installer packages available in the [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)] Feature Pack are not supported because these packages do not include the SharePoint 2016 support files that the data providers require in this environment.  
   
- **Configuration Tool:** The [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] configuration tool is required on only one of the SharePoint servers. However a recommended best practice in multi-server farms is to install the configuration tool on at least two servers so you have access to the configuration tool if one of the two servers is offline.  
+ **Configuration Tool:** The [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] configuration tool is required on only one of the SharePoint servers. However a recommended best practice in multi-server farms is to install the configuration tool on at least two servers so you have access to the configuration tool if one of the two servers is offline.  
   
 ##  <a name="bkmk_prereq"></a> Requirements and Prerequisites  
   
--   [!INCLUDE[msCoName](../../../includes/msconame-md.md)] SharePoint Server 2016.  
+-   [!INCLUDE[msCoName](../../includes/msconame-md.md)] SharePoint Server 2016.  
   
 -   **spPowerPivot16.msi** is 64-bit only, in accordance with the requirements of SharePoint products and technologies.  
   
--   A server in [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] mode. Office Online Server will use the SQL Server Analysis Services instance as a [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] server. Analysis Services can run on the local SharePoint server or a remote computer. It cannot be installed on the Office Online Server.  
+-   A server in [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] mode. Office Online Server will use the SQL Server Analysis Services instance as a [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] server. Analysis Services can run on the local SharePoint server or a remote computer. It cannot be installed on the Office Online Server.  
   
--   **Permissions:** To install [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)], the current user is required to be an administrator on the computer and in the SharePoint Farm Administrators group.  
+-   **Permissions:** To install [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)], the current user is required to be an administrator on the computer and in the SharePoint Farm Administrators group.  
   
--   For more information on [!INCLUDE[ssGeminiShort](../../../includes/ssgeminishort-md.md)] requirements and pre-requisites, go to [Hardware and Software Requirements for Analysis Services Server in SharePoint Mode](https://msdn.microsoft.com/library/fb86ca0a-518c-4c61-ae78-7680c57fae1f).  
+-   For more information on [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)] requirements and pre-requisites, go to [Hardware and Software Requirements for Analysis Services Server in SharePoint Mode](https://msdn.microsoft.com/library/fb86ca0a-518c-4c61-ae78-7680c57fae1f).  
   
 ##  <a name="bkmk_install"></a> To Install Power Pivot for SharePoint  
  The **spPowerpivot16.msi** installer package supports both a graphical user interface and a command-line mode. Both methods of installation require that you run the .msi with administrator privileges. After the installation, see the following topic for information on the configuration tool and additional features, [Configure Power Pivot and Deploy Solutions &#40;SharePoint 2013&#41;](../../../analysis-services/instances/install-windows/configure-power-pivot-and-deploy-solutions-sharepoint-2013.md).  
   
 ### User interface installation  
- To install [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] with the graphical user interface, complete the following steps:  
+ To install [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] with the graphical user interface, complete the following steps:  
   
 1.  Run **spPowerPivot16.msi**.  
   
@@ -108,9 +108,9 @@ Msiexec.exe /i spPowerPivot16.msi /L v c:\test\Install_Log.txt
     ```  
   
 ### Command Line Installation to include specific components  
- The [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] Configuration tool is not required on every SharePoint server, however it is recommended to install it on at least two servers so the configuration tool is available when you need it.  
+ The [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] Configuration tool is not required on every SharePoint server, however it is recommended to install it on at least two servers so the configuration tool is available when you need it.  
   
- When you install the spPowerPivot16.msi, you can use the command line options to install specific items, such as the data providers and not the [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] Configuration tool. The following command line is an example of installing all components except the configuration tool:  
+ When you install the spPowerPivot16.msi, you can use the command line options to install specific items, such as the data providers and not the [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] Configuration tool. The following command line is an example of installing all components except the configuration tool:  
   
 ```  
 Msiexec /i spPowerPivot16.msi AGREETOLICENSE="yes" ADDLOCAL=" SQL_OLAPDM,SQL_ADOMD,SQL_AMO,SQLAS_SP_Common"  
@@ -118,7 +118,7 @@ Msiexec /i spPowerPivot16.msi AGREETOLICENSE="yes" ADDLOCAL=" SQL_OLAPDM,SQL_ADO
   
 |Option|Description|  
 |------------|-----------------|  
-|Analysis_Server_SP_addin16|[!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] Configuration|  
+|Analysis_Server_SP_addin16|[!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] Configuration|  
 |SQL_OLAPDM|Analysis Services OLE DB Provider for SQL Server 2016|  
 |SQL_ADOMD|ADOMD.NET provider|  
 |SQL_AMO|SQL Server 2016 Analysis Management Objects (AMO) provider|  
@@ -135,11 +135,11 @@ Msiexec /i spPowerPivot16.msi AGREETOLICENSE="yes" ADDLOCAL=" SQL_OLAPDM,SQL_ADO
   
  `ssInstallPathTools\PowerPivotTools\SPAddinConfiguration\Resources`  
   
- Following the .msi installation, run the [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] Configuration Tool to configure and deploy the solutions in the SharePoint farm.  
+ Following the .msi installation, run the [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] Configuration Tool to configure and deploy the solutions in the SharePoint farm.  
   
  **To start the configuration tool:**  
   
- From the Windows Start screen type "power" and in the Apps search results, select **[!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] Configuration**. Note that the search results may include two links because [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] setup installs separate [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)] configuration tools for SharePoint 2013 and SharePoint 2016. Make sure you start the [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] Configuration tool.  
+ From the Windows Start screen type "power" and in the Apps search results, select **[!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] Configuration**. Note that the search results may include two links because [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] setup installs separate [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] configuration tools for SharePoint 2013 and SharePoint 2016. Make sure you start the [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] Configuration tool.  
   
  ![PowerPivot for SharePoint 2016 Configuration](../../../analysis-services/instances/install-windows/media/powerpivot-for-sharepoint-2016-configuration.png "PowerPivot for SharePoint 2016 Configuration")  
   
@@ -147,26 +147,26 @@ Msiexec /i spPowerPivot16.msi AGREETOLICENSE="yes" ADDLOCAL=" SQL_OLAPDM,SQL_ADO
   
 1.  Go to **Start**, **All Programs**.  
   
-2.  Select [!INCLUDE[ssCurrentUI](../../../includes/sscurrentui-md.md)].  
+2.  Select [!INCLUDE[ssCurrentUI](../../includes/sscurrentui-md.md)].  
   
 3.  Select **Configuration Tools**.  
   
-4.  Select **[!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] Configuration**.  
+4.  Select **[!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] Configuration**.  
   
  For more information on the configuration tool, see [Power Pivot Configuration Tools](../../../analysis-services/power-pivot-sharepoint/power-pivot-configuration-tools.md).  
   
 ##  <a name="bkmk_remove_addin"></a> Uninstall or repair the add-in  
   
 > [!CAUTION]  
->  If you uninstall **spPowerPivot16.msi** the data providers and the configuration tool are uninstalled. Uninstalling the data providers will cause the server to be unable to connect to [!INCLUDE[ssGemini](../../../includes/ssgemini-md.md)].  
+>  If you uninstall **spPowerPivot16.msi** the data providers and the configuration tool are uninstalled. Uninstalling the data providers will cause the server to be unable to connect to [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)].  
   
- You can uninstall or repair [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] using one of the following methods:  
+ You can uninstall or repair [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] using one of the following methods:  
   
-1.  **Windows control panel:** Select [!INCLUDE[ssCurrentUI](../../../includes/sscurrentui-md.md)]**[!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)]**. Select either **Uninstall** or **Repair**.  
+1.  **Windows control panel:** Select [!INCLUDE[ssCurrentUI](../../includes/sscurrentui-md.md)]**[!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)]**. Select either **Uninstall** or **Repair**.  
   
 2.  Run the spPowerPivot16.msi and select the **Remove** option or the **Repair** option.  
   
- **Command Line:** To repair or uninstall [!INCLUDE[ssGeminiShort2016](../../../includes/ssgeminishort2016-md.md)] using the command line, open a command prompt **with administrator permissions** and run one of the following commands:  
+ **Command Line:** To repair or uninstall [!INCLUDE[ssGeminiShort2016](../../includes/ssgeminishort2016-md.md)] using the command line, open a command prompt **with administrator permissions** and run one of the following commands:  
   
 -   To Repair, run the following command:  
   

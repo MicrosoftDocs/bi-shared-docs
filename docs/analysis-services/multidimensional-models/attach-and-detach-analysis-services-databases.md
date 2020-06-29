@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Attach and Detach Analysis Services Databases
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  There are often situations when an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database administrator (dba) wants to take a database offline for a period, and then bring that database back online on the same server instance, or on a different one. These situations are often driven by business needs, such as moving the database to a different disk for better performance, gaining room for database growth, or to upgrade a product. For all those cases and more, the **Attach** and **Detach** commands enable the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] dba to take the database offline and bring it back online with little effort.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  There are often situations when an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database administrator (dba) wants to take a database offline for a period, and then bring that database back online on the same server instance, or on a different one. These situations are often driven by business needs, such as moving the database to a different disk for better performance, gaining room for database growth, or to upgrade a product. For all those cases and more, the **Attach** and **Detach** commands enable the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] dba to take the database offline and bring it back online with little effort.  
   
 ## Attach and Detach commands  
  The **Attach** command enables you to bring online a database that was taken offline. You can attach the database to the original server instance, or to another instance. When you attach a database the user can specify the **ReadWriteMode** setting for the database. The **Detach** command enables you to take offline a database from the server.  

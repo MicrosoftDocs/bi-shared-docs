@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Naive Bayes Model Query Examples
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   When you create a query against a data mining model, you can create either a content query, which provides details about the patterns discovered in analysis, or you can create a prediction query, which uses the patterns in the model to make predictions for new data. You can also retrieve metadata about the model by using a query against the data mining schema rowset. This section explains how to create these queries for models that are based on the Microsoft Naive Bayes algorithm.  
   
  **Content Queries**  
@@ -229,7 +229,7 @@ AS t
 |Touring-1000|  
   
 ## Function List  
- All [!INCLUDE[msCoName](../../includes/msconame-md.md)] algorithms support a common set of functions. However, the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Naive Bayes algorithm supports the additional functions that are listed in the following table.  
+ All [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms support a common set of functions. However, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Naive Bayes algorithm supports the additional functions that are listed in the following table.  
   
 |||  
 |-|-|  

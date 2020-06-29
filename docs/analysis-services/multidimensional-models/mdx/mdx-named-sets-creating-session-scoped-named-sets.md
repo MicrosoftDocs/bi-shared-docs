@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Named Sets - Creating Session-Scoped Named Sets
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   To create a named set that is available throughout a Multidimensional Expressions (MDX) session, you use the [CREATE SET](/sql/mdx/mdx-data-definition-create-set) statement. A named set that is created by using the CREATE SET statement will not be removed until after the MDX session closes.  
   
  As discussed in this topic, the syntax of the WITH keyword is straightforward and easy to use.  

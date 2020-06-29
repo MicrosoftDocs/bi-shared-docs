@@ -11,13 +11,13 @@ author: minewiskan
 manager: kfile
 ---
 # Attribute Properties - Configure Attribute Types
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  In [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], attribute types help classify an attribute in terms of business functionality. There are many attribute types, most of which are used by client applications to display or support an attribute. However, some attribute types also have specific meaning to [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. For example, some attribute types identify attributes that represent time periods in various calendars for time dimensions.  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  In [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], attribute types help classify an attribute in terms of business functionality. There are many attribute types, most of which are used by client applications to display or support an attribute. However, some attribute types also have specific meaning to [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. For example, some attribute types identify attributes that represent time periods in various calendars for time dimensions.  
   
 ##  <a name="setting_attibute_types"></a> Setting Attribute Types  
- The value of the **Type** property for an attribute determines the attribute type for that attribute. Several wizards in [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] set attribute types when defining dimensions or attributes. These [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] wizards also set attribute types when the wizards add functionality to dimensions. For example, the Business Intelligence Wizard applies several attribute types to attributes in a dimension when the wizard adds account intelligence to identify attributes that contain the names, codes, numbers, and structure of accounts in the dimension. The Business Intelligence Wizard also consumes attribute types, such as for currency conversion. For more information, see [Create a Currency type Dimension](../../analysis-services/multidimensional-models/database-dimensions-create-a-currency-type-dimension.md).  
+ The value of the **Type** property for an attribute determines the attribute type for that attribute. Several wizards in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] set attribute types when defining dimensions or attributes. These [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] wizards also set attribute types when the wizards add functionality to dimensions. For example, the Business Intelligence Wizard applies several attribute types to attributes in a dimension when the wizard adds account intelligence to identify attributes that contain the names, codes, numbers, and structure of accounts in the dimension. The Business Intelligence Wizard also consumes attribute types, such as for currency conversion. For more information, see [Create a Currency type Dimension](../../analysis-services/multidimensional-models/database-dimensions-create-a-currency-type-dimension.md).  
   
- The following tables list the attribute types available in [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. These tables separate attribute types into the following categories:  
+ The following tables list the attribute types available in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. These tables separate attribute types into the following categories:  
   
 |Term|Definition|  
 |----------|----------------|  
@@ -62,7 +62,7 @@ manager: kfile
 |**DateEnded**|Represents an end date.|  
 |**DateModified**|Represents a modification date.|  
 |**DateStart**|Represents a start date.|  
-|**DeletedFlag**|Indicates whether a member is or should be deleted (in terms of business functionality.)<br /><br /> Note: [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] does not use this attribute type to determine whether a member should be deleted. Instead, this attribute type is intended to be used by client applications for display purposes only.|  
+|**DeletedFlag**|Indicates whether a member is or should be deleted (in terms of business functionality.)<br /><br /> Note: [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] does not use this attribute type to determine whether a member should be deleted. Instead, this attribute type is intended to be used by client applications for display purposes only.|  
 |**FormattingColor**|Represents the color used in formatting.|  
 |**FormattingFont**|Represents the font used in formatting.|  
 |**FormattingFontEffects**|Represents the font effects used in formatting.|  
@@ -146,7 +146,7 @@ manager: kfile
 |**Account**|Represents the parent of an account. This attribute type is typically applied to the parent attribute of an account dimension.|  
 |**AccountName**|Represents the name of an account. This attribute type is typically applied to the key attributes of an account dimension.|  
 |**AccountNumber**|Represents the number of an account.|  
-|**AccountType**|Represents the type of an account. This attribute type identifies the aggregation function of an account member in an account type dimension in the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database.|  
+|**AccountType**|Represents the type of an account. This attribute type identifies the aggregation function of an account member in an account type dimension in the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database.|  
   
 ###  <a name="currency_dimension_attribute_types"></a> Currency Dimension Attribute Types  
   

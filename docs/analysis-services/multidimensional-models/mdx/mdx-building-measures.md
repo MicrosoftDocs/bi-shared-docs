@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Building Measures
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   In Multidimensional Expressions (MDX), a measure is a named DAX expression that is resolved by calculating the expression to return a value in a Tabular Model. This innocuous definition covers an incredible amount of ground. The ability to construct and use measures in an MDX query provides a great deal of manipulation capability for tabular data.  
   
 > [!WARNING]  

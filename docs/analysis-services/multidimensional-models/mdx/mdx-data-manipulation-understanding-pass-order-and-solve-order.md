@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Data Manipulation - Understanding Pass Order and Solve Order
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   When a cube is calculated as the result of an MDX script, it can go through many stages of computation depending on the use of various calculation-related features. Each of these stages is referred to as a calculation pass.  
   
  A calculation pass can be referred to by an ordinal position, called the calculation pass number. The count of calculation passes that are required to fully compute all the cells of a cube is referred to as the calculation pass depth of the cube.  
@@ -23,9 +23,9 @@ manager: kfile
 ## Solve Order  
  Solve order determines the priority of calculation in the event of competing expressions. Within a single pass, solve order determines two things:  
   
--   The order in which [!INCLUDE[msCoName](../../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] evaluates dimensions, members, calculated members, custom rollups, and calculated cells.  
+-   The order in which [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] evaluates dimensions, members, calculated members, custom rollups, and calculated cells.  
   
--   The order in which [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] calculates custom members, calculated members, custom rollup, and calculated cells.  
+-   The order in which [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] calculates custom members, calculated members, custom rollup, and calculated cells.  
   
  The member with the highest solve order takes precedence.  
   
@@ -110,7 +110,7 @@ FROM [Adventure Works]
   
  The **SOLVE_ORDER** keyword specifies the solve order of calculated members in an MDX query or a **CREATE MEMBER** command. The integer values used with the **SOLVE_ORDER** keyword are relative, do not need to start at zero, and do not need to be consecutive. The value simply tells MDX to calculate a member based on values derived from calculating members with a higher value. If a calculated member is defined without the **SOLVE_ORDER** keyword, the default value of that calculated member is zero.  
   
- For example, if you combine the calculations used in the first two example queries, the two calculated members, `Year Difference` and `Profit Margin`, intersect at a single cell in the result dataset of the MDX query example. The only way to determine how [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] will evaluate this cell is by the solve order. The formulas that are used to construct this cell will produce different results depending upon the solve order of the two calculated members.  
+ For example, if you combine the calculations used in the first two example queries, the two calculated members, `Year Difference` and `Profit Margin`, intersect at a single cell in the result dataset of the MDX query example. The only way to determine how [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] will evaluate this cell is by the solve order. The formulas that are used to construct this cell will produce different results depending upon the solve order of the two calculated members.  
   
  First, try combining the calculations used in the first two queries in the following MDX query:  
   
@@ -132,7 +132,7 @@ ON ROWS
 FROM [Adventure Works]  
 ```  
   
- In this combined MDX query example, `Profit Margin` has the highest solve order, so it takes precedence when the two expressions interact. [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] evaluates the cell in question by using the `Profit Margin` formula. The results of this nested calculation, as shown in the following table.  
+ In this combined MDX query example, `Profit Margin` has the highest solve order, so it takes precedence when the two expressions interact. [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] evaluates the cell in question by using the `Profit Margin` formula. The results of this nested calculation, as shown in the following table.  
   
 ||Internet Sales Amount|Internet Total Product Cost|Profit Margin|  
 |-|---------------------------|---------------------------------|-------------------|  
@@ -140,7 +140,7 @@ FROM [Adventure Works]
 |**CY 2008**|$9,770,899.74|$5,721,205.24|41.45%|  
 |**Year Difference**|($20,160.56)|$2,878.06|114.28%|  
   
- The result in the shared cell is based on the formula for `Profit Margin`. That is, [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] calculates the result in the shared cell with the `Year Difference` data, producing the following formula (the result is rounded for clarity):  
+ The result in the shared cell is based on the formula for `Profit Margin`. That is, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] calculates the result in the shared cell with the `Year Difference` data, producing the following formula (the result is rounded for clarity):  
   
 ```  
 ((9,770,899.74 - 9,791,060.30) - (5,721,205.24 - 5,718,327.17)) / (9,770,899.74 - 9,791,060.30) = 1.14275744   
@@ -152,7 +152,7 @@ FROM [Adventure Works]
 (23,038.63) / (20,160.56) = 114.28%  
 ```  
   
- This is clearly incorrect. However, [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] calculates the result in the shared cell differently if you switch the solve orders for the calculated members in the MDX query. The following combined MDX query reverses the solve order for the calculated members:  
+ This is clearly incorrect. However, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] calculates the result in the shared cell differently if you switch the solve orders for the calculated members in the MDX query. The following combined MDX query reverses the solve order for the calculated members:  
   
 ```  
 WITH   
@@ -172,7 +172,7 @@ ON ROWS
 FROM [Adventure Works]  
 ```  
   
- As the order of the calculated members has been switched, [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] uses the `Year Difference` formula to evaluate the cell, as shown in the following table.  
+ As the order of the calculated members has been switched, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] uses the `Year Difference` formula to evaluate the cell, as shown in the following table.  
   
 ||Internet Sales Amount|Internet Total Product Cost|Profit Margin|  
 |-|---------------------------|---------------------------------|-------------------|  
@@ -193,7 +193,7 @@ FROM [Adventure Works]
 ```  
   
 ## Additional Considerations  
- Solve order can be a very complex issue to deal with, especially in cubes with a high number of dimensions involving calculated member, custom rollup formulas, or calculated cells. When [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] evaluates an MDX query, [!INCLUDE[ssASnoversion](../../../includes/ssasnoversion-md.md)] takes into account the solve order values for everything involved within a given pass, including the dimensions of the cube specified in the MDX query.  
+ Solve order can be a very complex issue to deal with, especially in cubes with a high number of dimensions involving calculated member, custom rollup formulas, or calculated cells. When [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] evaluates an MDX query, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] takes into account the solve order values for everything involved within a given pass, including the dimensions of the cube specified in the MDX query.  
   
 ## See Also  
  [CalculationCurrentPass &#40;MDX&#41;](/sql/mdx/calculationcurrentpass-mdx)   

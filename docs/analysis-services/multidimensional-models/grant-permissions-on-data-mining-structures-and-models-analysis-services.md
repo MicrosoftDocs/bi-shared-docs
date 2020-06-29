@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Grant permissions on data mining structures and models (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   By default, only an Analysis Services server administrator has permissions to view data mining structures or mining models in the database. Follow the instructions below to grant permissions to non-administrator users.  
   
 ## Set permissions to access a mining structure  
@@ -35,9 +35,9 @@ manager: kfile
   
  **Note** If you enable drillthrough on both the mining structure and the mining model, any user who is a member of a role that has drillthrough permissions on the mining model and the mining structure can also view columns in the mining structure, even if those columns are not included in the mining model. Therefore, to protect sensitive information, you should set up the data source view to mask personal information, and allow drillthrough access on the mining structure only when necessary.  
   
- To grant read or read/write permissions to a database role, a user must be a member of the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] server role or a member of an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] database role that has Full Control (Administrator) permissions.  
+ To grant read or read/write permissions to a database role, a user must be a member of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] server role or a member of an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database role that has Full Control (Administrator) permissions.  
   
-1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], connect to the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], expand **Roles** for the appropriate database in Object Explorer, and then click a database role (or create a new database role).  
+1.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], connect to the instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], expand **Roles** for the appropriate database in Object Explorer, and then click a database role (or create a new database role).  
   
 2.  In the **Mining Structure** pane, locate the mining model in the **Mining Models** list, and then select **Read**, **Read/Write**, **Drill Through**, or **Browse** for that mining model.  
   

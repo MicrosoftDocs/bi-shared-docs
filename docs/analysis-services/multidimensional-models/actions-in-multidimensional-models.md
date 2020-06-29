@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Actions in Multidimensional Models
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   An action is an end user-initiated operation upon a selected cube or portion of a cube. The operation can start an application with the selected item as a parameter, or it can retrieve information about the selected item. For more information about actions, see [Actions &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models/actions-analysis-services-multidimensional-data.md).  
   
  Use the **Actions** tab of Cube Designer to build actions for a cube. Specify the following:  
@@ -83,7 +83,7 @@ manager: kfile
 |**Report format**|HTML5, HTML3, Excel, or PDF.|  
   
 > [!NOTE]  
->  In [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)], you can specify Transport Layer Security (https:) in the server name property.  
+>  In [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)], you can specify Transport Layer Security (https:) in the server name property.  
   
  **Parameters (Optional)**  
  The parameters are sent to the server as part of the URL string when the action is created. They include **Parameter Name** and **Parameter Value**, which is an MDX expression.  

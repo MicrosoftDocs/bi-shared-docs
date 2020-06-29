@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Using Nested Table Data as an Input for an Accuracy Chart
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   When you test the accuracy of a mining model by using external data, if the mining model contains nested tables, the external data must also contain a case table and an associated nested table.  
   
  This topic describes how to work with nested tables used for model testing, how to map nested and case tables in the mode and in the external data, and how to apply a filter to a nested table.  
@@ -38,7 +38,7 @@ manager: kfile
   
 6.  Click **Select Nested Table**. In the **Select Table** dialog box, select the table that contains the nested data, and then click **OK**.  
   
-7.  [!INCLUDE[clickOK](../../includes/clickok-md.md)]  
+7.  [!INCLUDE[clickOK](../includes/clickok-md.md)]  
   
      If you need to modify the relationship between the nested table and the case table, click **Modify Join** to open the **Create Relationship** dialog box.  
   

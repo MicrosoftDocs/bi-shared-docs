@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Parent-Child Dimension Attributes - Custom Rollup Operators
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Custom rollup operators provide a simple way to control how member values are rolled up into parent values in a parent-child hierarchy. In a dimension containing a parent-child relationship, you specify a column that contains unary operators that specify rollup for all noncalculated members of the parent attribute. The unary operator is applied to members whenever the values of the parent members are evaluated.  
   
  The unary operators are stored in column defined by the **UnaryOperatorColumn** property of the parent attribute, and they are applied to each member of the attribute. The column specified by this property can reside either in the dimension table or in a table related to the dimension table by a foreign key in the dimension table.  

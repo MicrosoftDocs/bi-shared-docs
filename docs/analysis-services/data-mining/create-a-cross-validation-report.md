@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Create a Cross-Validation Report
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   This topic walks you through creation of a cross-validation report using the Accuracy Chart tab in Data Mining Designer. For general information about what a cross-validation report looks like, and the statistical measures it includes, see [Cross-Validation &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/cross-validation-analysis-services-data-mining.md).  
   
  A cross-validation report is fundamentally different from an accuracy chart, such as a lift chart or classification matrix.  
@@ -28,7 +28,7 @@ manager: kfile
   
 ### Select a mining structure  
   
-1.  Open the Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)].  
+1.  Open the Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
 2.  In Solution Explorer, open the database that contains the structure or model for which you want to create a report.  
   

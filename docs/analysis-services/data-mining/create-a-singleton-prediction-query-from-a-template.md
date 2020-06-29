@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Create a Singleton Prediction Query from a Template
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A singleton query is useful when you have a model that you want to use for prediction, but don't want to map it to an external input data set or make bulk predictions. With a singleton query, you can provide a value or values to the model and instantly see the predicted value.  
   
  For example, the following DMX query represents a singleton query against the targeted mailing model, TM_Decision_Tree.  
@@ -23,11 +23,11 @@ NATURAL PREDICTION JOIN
 AS [t]  
 ```  
   
- The procedure that follows describes how to use the Template Explorer in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] to quickly create this query.  
+ The procedure that follows describes how to use the Template Explorer in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] to quickly create this query.  
   
 ### To open the Analysis Services templates in SQL Server Management Studio  
   
-1.  In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], on the **View** menu, click **Template Explorer**.  
+1.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], on the **View** menu, click **Template Explorer**.  
   
 2.  Click the cube icon to open the **Analysis Server**templates.  
   
@@ -37,7 +37,7 @@ AS [t]
   
 2.  Double-click **Singleton Prediction**.  
   
-3.  In the **Connect to Analysis Services** dialog box, type the name of the server that has the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] that contains the mining model to be queried.  
+3.  In the **Connect to Analysis Services** dialog box, type the name of the server that has the instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] that contains the mining model to be queried.  
   
 4.  Click **Connect**.  
   
@@ -76,7 +76,7 @@ AS [t]
   
 8.  Leave the **input alias** as **t**.  
   
-9. [!INCLUDE[clickOK](../../includes/clickok-md.md)]  
+9. [!INCLUDE[clickOK](../includes/clickok-md.md)]  
   
 10. In the query text pane, find the red squiggle under the comma and ellipsis that indicates a syntax error. Delete the ellipsis, and add any additional query condition that you want. If you do not add any other conditions, delete the comma.  
   

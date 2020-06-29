@@ -11,11 +11,11 @@ author: minewiskan
 manager: kfile
 ---
 # Lesson 9-1 - Defining and Browsing Perspectives
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
-A perspective can simplify the view of a cube for specific purposes. By default, users can see all of the elements in a cube to which they have permissions. What users are viewing when they view an entire [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] cube is the default perspective for the cube. A view of the whole cube can be very complex for users to navigate, especially for users who only need to interact with a small part of the cube to satisfy their business intelligence and reporting requirements.  
+A perspective can simplify the view of a cube for specific purposes. By default, users can see all of the elements in a cube to which they have permissions. What users are viewing when they view an entire [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] cube is the default perspective for the cube. A view of the whole cube can be very complex for users to navigate, especially for users who only need to interact with a small part of the cube to satisfy their business intelligence and reporting requirements.  
   
-To reduce the apparent complexity of a cube, you can create viewable subsets of the cube, called *perspectives*, which show users only a part of the measure groups, measures, dimensions, attributes, hierarchies, Key Performance Indicators (KPIs), actions, and calculated members in the cube. This can be particularly useful for working with client applications that were written for a previous release of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. These clients have no concept of display folders or perspectives, for example, but a perspective appears to older clients as if it were a cube. For more information, see [Perspectives](../multidimensional-models-olap-logical-cube-objects/perspectives.md), and [Perspectives in Multidimensional Models](../multidimensional-models/perspectives-in-multidimensional-models.md).  
+To reduce the apparent complexity of a cube, you can create viewable subsets of the cube, called *perspectives*, which show users only a part of the measure groups, measures, dimensions, attributes, hierarchies, Key Performance Indicators (KPIs), actions, and calculated members in the cube. This can be particularly useful for working with client applications that were written for a previous release of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. These clients have no concept of display folders or perspectives, for example, but a perspective appears to older clients as if it were a cube. For more information, see [Perspectives](../multidimensional-models-olap-logical-cube-objects/perspectives.md), and [Perspectives in Multidimensional Models](../multidimensional-models/perspectives-in-multidimensional-models.md).  
   
 > [!NOTE]  
 > A perspective is not a security mechanism, but instead is a tool for providing a better user experience. All security for a perspective is inherited from the underlying cube.  
@@ -24,7 +24,7 @@ In the tasks in this topic, you will define several different perspectives and t
   
 ## Defining an Internet Sales Perspective  
   
-1.  Open Cube Designer for the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Perspectives** tab.  
+1.  Open Cube Designer for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube, and then click the **Perspectives** tab.  
   
     All the objects and their object types appear in the **Perspectives** pane, as shown in the following image.  
   
@@ -43,7 +43,7 @@ In the tasks in this topic, you will define several different perspectives and t
     When users browse the cube by using this perspective, this will be the measure that the users see unless they specify some other measure.  
   
     > [!NOTE]  
-    > You can also set the default measure for the whole [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] Tutorial cube in the Properties window on the **Cube Structure** tab for the cube.  
+    > You can also set the default measure for the whole [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube in the Properties window on the **Cube Structure** tab for the cube.  
   
 5.  Clear the check box for the following objects:  
   

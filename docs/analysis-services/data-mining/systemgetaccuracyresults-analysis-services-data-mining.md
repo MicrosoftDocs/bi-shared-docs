@@ -11,13 +11,13 @@ author: minewiskan
 manager: kfile
 ---
 # SystemGetAccuracyResults (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Returns cross-validation accuracy metrics for a mining structure and all related models, excluding clustering models.  
   
  This stored procedure returns metrics for the whole data set as a single partition. To partition the dataset into cross-sections and return metrics for each partition, use [SystemGetCrossValidationResults &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/systemgetcrossvalidationresults-analysis-services-data-mining.md).  
   
 > [!NOTE]  
->  This stored procedure is not supported for models that are built by using the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Time Series algorithm or the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Sequence Clustering algorithm. Also, for clustering models, use the separate stored procedure, [SystemGetClusterAccuracyResults &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/systemgetclusteraccuracyresults-analysis-services-data-mining.md).  
+>  This stored procedure is not supported for models that are built by using the [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series algorithm or the [!INCLUDE[msCoName](../includes/msconame-md.md)] Sequence Clustering algorithm. Also, for clustering models, use the separate stored procedure, [SystemGetClusterAccuracyResults &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/systemgetclusteraccuracyresults-analysis-services-data-mining.md).  
   
 ## Syntax  
   
@@ -146,7 +146,7 @@ CALL SystemGetAccuracyResults (
 |v Target Mail DT|Bike Buyer|1|0|1638|Likelihood|Root Mean Square Error|0.361630800104946|  
   
 ## Requirements  
- Cross-validation is available only in [!INCLUDE[ssEnterprise](../../includes/ssenterprise-md.md)] beginning with [!INCLUDE[ssKatmai](../../includes/sskatmai-md.md)].  
+ Cross-validation is available only in [!INCLUDE[ssEnterprise](../includes/ssenterprise-md.md)] beginning with [!INCLUDE[ssKatmai](../includes/sskatmai-md.md)].  
   
 ## See Also  
  [SystemGetCrossValidationResults &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/systemgetcrossvalidationresults-analysis-services-data-mining.md)   

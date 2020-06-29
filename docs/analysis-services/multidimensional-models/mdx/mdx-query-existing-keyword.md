@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Query - EXISTING Keyword
-[!INCLUDE[ssas-appliesto-sqlas](../../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   Forces a specified set to be evaluated within the current context.  
   
 ## Syntax  

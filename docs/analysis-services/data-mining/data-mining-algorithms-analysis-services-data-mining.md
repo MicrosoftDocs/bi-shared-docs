@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Data Mining Algorithms (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   An *algorithm* in data mining (or machine learning) is a set of heuristics and calculations that creates a model from data. To create a model, the algorithm first analyzes the data you provide, looking for specific types of patterns or trends. The algorithm uses the results of this analysis over many iterations to find the optimal parameters for creating the mining model. These parameters are then applied across the entire data set to extract actionable patterns and detailed statistics.  
   
  The mining model that an algorithm creates from your data can take various forms, including:  
@@ -24,15 +24,15 @@ manager: kfile
   
 -   A set of rules that describe how products are grouped together in a transaction, and the probabilities that products are purchased together.  
   
- The algorithms provided in [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] Data Mining are the most popular, well-researched methods of deriving patterns from data. To take one example, K-means clustering is one  of the oldest clustering algorithms and is available widely in many different tools and with many different implementations and options. However, the particular implementation of K-means clustering used in [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] Data Mining was developed by Microsoft Research and then optimized for performance with [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)]. All of the Microsoft data mining algorithms can be extensively customized and are fully programmable, using the provided APIs. You can also automate the creation, training, and retraining of models by using the data mining components in [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)].  
+ The algorithms provided in [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] Data Mining are the most popular, well-researched methods of deriving patterns from data. To take one example, K-means clustering is one  of the oldest clustering algorithms and is available widely in many different tools and with many different implementations and options. However, the particular implementation of K-means clustering used in [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] Data Mining was developed by Microsoft Research and then optimized for performance with [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. All of the Microsoft data mining algorithms can be extensively customized and are fully programmable, using the provided APIs. You can also automate the creation, training, and retraining of models by using the data mining components in [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)].  
   
- You can also use third-party algorithms that comply with the OLE DB for Data Mining specification, or develop custom algorithms that can be registered as services and then used within the [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] Data Mining framework.  
+ You can also use third-party algorithms that comply with the OLE DB for Data Mining specification, or develop custom algorithms that can be registered as services and then used within the [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] Data Mining framework.  
   
 ## Choosing the Right Algorithm  
- Choosing the best algorithm to use for a specific analytical task can be a challenge. While you can use different algorithms to perform the same business task, each algorithm produces a different result, and some algorithms can produce more than one type of result. For example, you can use the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Decision Trees algorithm not only for prediction, but also as a way to reduce the number of columns in a dataset, because the decision tree can identify columns that do not affect the final mining model.  
+ Choosing the best algorithm to use for a specific analytical task can be a challenge. While you can use different algorithms to perform the same business task, each algorithm produces a different result, and some algorithms can produce more than one type of result. For example, you can use the [!INCLUDE[msCoName](../includes/msconame-md.md)] Decision Trees algorithm not only for prediction, but also as a way to reduce the number of columns in a dataset, because the decision tree can identify columns that do not affect the final mining model.  
   
 ### Choosing an Algorithm by Type  
- [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] Data Mining includes the following algorithm types:  
+ [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] Data Mining includes the following algorithm types:  
   
 -   **Classification algorithms** predict one or more discrete variables, based on the other attributes in the dataset.  
   
@@ -44,7 +44,7 @@ manager: kfile
   
 -   **Sequence analysis algorithms** summarize frequent sequences or episodes in data, such as a series of clicks in a web site, or a series of log events preceding machine maintenance.  
   
- However, there is no reason that you should be limited to one algorithm in your solutions. Experienced analysts will sometimes use one algorithm to determine the most effective inputs (that is, variables), and then apply a different algorithm to predict a specific outcome based on that data. [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] Data Mining lets you build multiple models on a single mining structure, so within a single data mining solution you could use a clustering algorithm, a decision trees model, and a Naïve Bayes model to get different views on your data. You might also use multiple algorithms within a single solution to perform separate tasks: for example, you could use regression to obtain financial forecasts, and use a neural network algorithm to perform an analysis of factors that influence forecasts.  
+ However, there is no reason that you should be limited to one algorithm in your solutions. Experienced analysts will sometimes use one algorithm to determine the most effective inputs (that is, variables), and then apply a different algorithm to predict a specific outcome based on that data. [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] Data Mining lets you build multiple models on a single mining structure, so within a single data mining solution you could use a clustering algorithm, a decision trees model, and a Naïve Bayes model to get different views on your data. You might also use multiple algorithms within a single solution to perform separate tasks: for example, you could use regression to obtain financial forecasts, and use a neural network algorithm to perform an analysis of factors that influence forecasts.  
   
 ### Choosing an Algorithm by Task  
  To help you select an algorithm for use with a specific task, the following table provides suggestions for the types of tasks for which each algorithm is traditionally used.  
@@ -58,7 +58,7 @@ manager: kfile
 |**Finding groups of similar items:**<br /><br /> Create patient risk profiles groups based on attributes such as demographics and behaviors.<br /><br /> Analyze users by browsing and buying patterns.<br /><br /> Identify servers that have similar usage characteristics.|[Microsoft Clustering Algorithm](../../analysis-services/data-mining/microsoft-clustering-algorithm.md)<br /><br /> [Microsoft Sequence Clustering Algorithm](../../analysis-services/data-mining/microsoft-sequence-clustering-algorithm.md)|  
   
 ## Related Content  
- The following table provides links to learning resources for each of the data mining algorithms that are provided in [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] Data Mining:  
+ The following table provides links to learning resources for each of the data mining algorithms that are provided in [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] Data Mining:  
   
 |||  
 |-|-|  

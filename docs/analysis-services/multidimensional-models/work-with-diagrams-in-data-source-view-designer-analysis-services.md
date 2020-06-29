@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Work with Diagrams in Data Source View Designer (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   A data source view (DSV) diagram is a visual representation of the objects in a DSV. You can work with the diagram interactively to add, hide, delete or modify specific objects. You can also create multiple diagrams on the same DSV to focus attention on a subset of the objects.  
   
  To change the area of the diagram that appears in the diagram pane, click the four-headed arrow in the lower right corner of the pane, and then drag the selection box over the thumbnail diagram until you select the area that is to appear in the diagram pane.  

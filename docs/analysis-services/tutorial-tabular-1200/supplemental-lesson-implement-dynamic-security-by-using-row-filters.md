@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # Supplemental Lesson - Implement Dynamic Security by Using Row Filters
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[ssas-appliesto-sql2016-later-aas](../includes/ssas-appliesto-sql2016-later-aas.md)]
 
 In this supplemental lesson, you will create an additional role that implements dynamic security. Dynamic security provides row-level security based on the user name or login id of the user currently logged on. To learn more, see [Roles](../tabular-models/roles-ssas-tabular.md).  
   

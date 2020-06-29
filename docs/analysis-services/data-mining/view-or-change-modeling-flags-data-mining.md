@@ -11,7 +11,7 @@ author: minewiskan
 manager: kfile
 ---
 # View or Change Modeling Flags (Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   Modeling flags are properties that you set on a mining structure column or mining model columns to control how the algorithm processes the data during analysis.  
   
  In Data Mining Designer, you can view and modify the modeling flags associated with a mining structure or mining column by viewing the properties of the structure or model. You can also set modeling flags by using DMX, AMO, or XMLA.  
@@ -35,7 +35,7 @@ manager: kfile
   
 ### Get the modeling flags used in the model  
   
--   In [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)], open a DMX Query window, and type a query like the following:  
+-   In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], open a DMX Query window, and type a query like the following:  
   
     ```  
     SELECT COLUMN_NAME, CONTENT_TYPE, MODELING_FLAG  

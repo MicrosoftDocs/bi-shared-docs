@@ -11,10 +11,10 @@ author: minewiskan
 manager: kfile
 ---
 # Data Mining Query Tools
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   All data mining queries use the Data Mining Extensions (DMX) language. DMX can be used to create models for all kinds of machine learning tasks, including classification, risk analysis, generation of recommendations, and linear regression. You can also write DMX queries to get information about the patterns and statistics that were generated when you processed the model.  
   
- You can write your own DMX, or you can build basic DMX using a tool such as the **Prediction Query Builder** and then modify it. Both [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] and [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] provide tools that help you build DMX prediction queries. This topic describes how to create and execute data mining queries using these tools.  
+ You can write your own DMX, or you can build basic DMX using a tool such as the **Prediction Query Builder** and then modify it. Both [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] and [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] provide tools that help you build DMX prediction queries. This topic describes how to create and execute data mining queries using these tools.  
   
 -   [Prediction Query Builder](#bkmk_Builder)  
   
@@ -27,15 +27,15 @@ manager: kfile
 -   [Application Programming Interfaces](#bkmk_API)  
   
 ##  <a name="bkmk_Builder"></a> Prediction Query Builder  
- Prediction Query Builder is included in the **Mining Model Prediction** tab of Data Mining Designer, which is available in both [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)]and [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)].  
+ Prediction Query Builder is included in the **Mining Model Prediction** tab of Data Mining Designer, which is available in both [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]and [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
  When you use the query builder, you select a mining model, add new case data, and add prediction functions. You can then switch to the text editor to modify the query manually, or switch to the **Results** pane to view the results of the query.  
   
 ##  <a name="bkmk_QueryEditor"></a> Query Editor  
- The Query Editor in [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] also lets you build and run DMX queries. You can connect to an instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], and then select a database, mining structure columns, and a mining model. The **Metadata Explorer** contains a list of prediction functions that you can browse.  
+ The Query Editor in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] also lets you build and run DMX queries. You can connect to an instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], and then select a database, mining structure columns, and a mining model. The **Metadata Explorer** contains a list of prediction functions that you can browse.  
   
 ##  <a name="bkmk_Templates"></a> DMX Templates  
- [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)] provides interactive DMX query templates that you can use to build DMX queries. If you do not see the list of templates, click **View** on the toolbar, and select **Template Explorer**. To see all [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] templates, including templates for DMX, MDX, and XMLA, click the cube icon.  
+ [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] provides interactive DMX query templates that you can use to build DMX queries. If you do not see the list of templates, click **View** on the toolbar, and select **Template Explorer**. To see all [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] templates, including templates for DMX, MDX, and XMLA, click the cube icon.  
   
  To build a query using a template, you can drag the template into an open query window, or you can double-click the template to open a new connection and a new query pane.  
   
@@ -45,11 +45,11 @@ manager: kfile
 >  The Data Mining Add-in for Microsoft Office Excel also contains a number of templates, along with an interactive query builder which can help you compose complex DMX statements. To use the templates, click **Query**, and click **Advanced** in the Data Mining Client.  
   
 ##  <a name="bkmk_SSIS"></a> Integration Services Data Mining Components  
- You can also include prediction queries as part of a [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] package. The following tasks and transformations in [!INCLUDE[ssISnoversion](../../includes/ssisnoversion-md.md)] support the creation and execution of DMX prediction queries and DMX statements.  
+ You can also include prediction queries as part of a [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] package. The following tasks and transformations in [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] support the creation and execution of DMX prediction queries and DMX statements.  
   
 |Component|Description|  
 |---------------|-----------------|  
-|Data Mining Query task|Executes DMX queries and other DMX statements as part of a control flow.<br /><br /> The task editor provides the Prediction Query Builder, and a text box for modifying the DMX query manually. However, the task editor cannot validate the query against objects in an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] solution. Therefore, it is best to create a query within [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)] or [!INCLUDE[ssManStudio](../../includes/ssmanstudio-md.md)] and then paste the text of the statement or query into the task editor.|  
+|Data Mining Query task|Executes DMX queries and other DMX statements as part of a control flow.<br /><br /> The task editor provides the Prediction Query Builder, and a text box for modifying the DMX query manually. However, the task editor cannot validate the query against objects in an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] solution. Therefore, it is best to create a query within [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)] or [!INCLUDE[ssManStudio](../includes/ssmanstudio-md.md)] and then paste the text of the statement or query into the task editor.|  
 |Data Mining Query transformation|Executes a prediction query within a data flow, using data supplied by a data flow source.<br /><br /> The task editor provides the Prediction Query Builder, and a text box for modifying the DMX query manually.<br /><br /> The transformation can only be used for creating queries that use data in the data flow; that is, queries that use the PREDICTION JOIN syntax. This component cannot be used for executing content queries or other kinds of DMX statements.|  
   
 ##  <a name="bkmk_API"></a> Application Programming Interfaces  

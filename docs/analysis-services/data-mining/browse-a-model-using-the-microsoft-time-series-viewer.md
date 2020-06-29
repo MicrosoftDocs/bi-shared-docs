@@ -11,8 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # Browse a Model Using the Microsoft Time Series Viewer
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Time Series Viewer in [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] displays mining models that are built with the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Time Series algorithm. The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Time Series algorithm is a regression algorithm that creates data mining models for prediction of continuous columns, such as product sales, in a forecasting scenario. These time series models can include information based on different algorithms:  
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+  The [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series Viewer in [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] displays mining models that are built with the [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series algorithm. The [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series algorithm is a regression algorithm that creates data mining models for prediction of continuous columns, such as product sales, in a forecasting scenario. These time series models can include information based on different algorithms:  
   
 -   The ARTxp algorithm, which is optimized for short-term prediction.  
   
@@ -23,10 +23,10 @@ manager: kfile
  For more information about these algorithms, see [Microsoft Time Series Algorithm](../../analysis-services/data-mining/microsoft-time-series-algorithm.md) and [Microsoft Time Series Algorithm Technical Reference](../../analysis-services/data-mining/microsoft-time-series-algorithm-technical-reference.md).  
   
 > [!NOTE]  
->  To view detailed information about the equations used in the model and the patterns that were discovered, use the [!INCLUDE[msCoName](../../includes/msconame-md.md)] Generic Content Tree viewer. For more information, see [Browse a Model Using the Microsoft Generic Content Tree Viewer](../../analysis-services/data-mining/browse-a-model-using-the-microsoft-generic-content-tree-viewer.md) or [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](https://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c).  
+>  To view detailed information about the equations used in the model and the patterns that were discovered, use the [!INCLUDE[msCoName](../includes/msconame-md.md)] Generic Content Tree viewer. For more information, see [Browse a Model Using the Microsoft Generic Content Tree Viewer](../../analysis-services/data-mining/browse-a-model-using-the-microsoft-generic-content-tree-viewer.md) or [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](https://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c).  
   
 ##  <a name="BKMK_ViewerTabs"></a> Viewer Tabs  
- When you browse a mining model in [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], the model is displayed on the **Mining Model Viewer** tab of Data Mining Designer in the appropriate viewer for the model. The [!INCLUDE[msCoName](../../includes/msconame-md.md)] Time Series Viewer provides the following tabs:  
+ When you browse a mining model in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], the model is displayed on the **Mining Model Viewer** tab of Data Mining Designer in the appropriate viewer for the model. The [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series Viewer provides the following tabs:  
   
 -   [Model](#BKMK_Tree)  
   
@@ -35,7 +35,7 @@ manager: kfile
  **Note** The information shown for the model content and in the Mining Legend depends on the algorithm that the model uses. However, the **Model** and **Charts** tabs are the same regardless of the algorithm mix.  
   
 ###  <a name="BKMK_Tree"></a> Model  
- When you build a time series model, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] presents the completed model as a tree. If your data contains multiple case series, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] builds a separate tree for each series. For example, you are predicting sales for the Pacific, North America, and Europe regions. The predictions for each of these regions are case series. [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] builds a separate tree for each of these series. To view a particular series, select the series from the **Tree** list.  
+ When you build a time series model, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] presents the completed model as a tree. If your data contains multiple case series, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] builds a separate tree for each series. For example, you are predicting sales for the Pacific, North America, and Europe regions. The predictions for each of these regions are case series. [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] builds a separate tree for each of these series. To view a particular series, select the series from the **Tree** list.  
   
  For each tree, the time series model contains an **All** node, and then splits into a series of nodes that represent periodic structures discovered by the algorithm. You can click each node to display statistics such as the number of cases and the equation.  
   
@@ -63,7 +63,7 @@ manager: kfile
   
  If the mining model contains multiple time series, you can select one or multiple series to display in the chart. Just click the list at the right of the viewer and select the series you want from the list. If the chart becomes too complex, you can filter the series that are displayed by selecting or clearing the series check boxes in the legend.  
   
- The chart displays both historical and future data. Future data appears shaded, to differentiate it from historical data. The data values appear as solid lines for historical data and as dotted lines for predictions. You can change the color of the lines that are used for each series by setting properties in [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)] or [!INCLUDE[ssManStudioFull](../../includes/ssmanstudiofull-md.md)]. For more information, see [Change the Colors Used in the Data Mining Viewer](../../analysis-services/data-mining/change-the-colors-used-in-the-data-mining-viewer.md).  
+ The chart displays both historical and future data. Future data appears shaded, to differentiate it from historical data. The data values appear as solid lines for historical data and as dotted lines for predictions. You can change the color of the lines that are used for each series by setting properties in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] or [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]. For more information, see [Change the Colors Used in the Data Mining Viewer](../../analysis-services/data-mining/change-the-colors-used-in-the-data-mining-viewer.md).  
   
  You can adjust the range of time that is displayed by using the zoom options. You can also view a specific time range by clicking the chart, dragging a time selection across the chart, and then clicking again to zoom in on the selected range.  
   
