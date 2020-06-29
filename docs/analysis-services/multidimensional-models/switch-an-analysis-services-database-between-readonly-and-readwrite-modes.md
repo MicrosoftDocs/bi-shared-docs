@@ -120,7 +120,7 @@ private void SwitchReadWrite(Server server, string dbName, ReadWriteMode dbReadW
 9. Execute the XMLA command.  
   
 ## See Also  
- <xref:Microsoft.AnalysisServices.Database.Detach%2A>   
+
  [High availability and Scalability in Analysis Services](../../analysis-services/instances/high-availability-and-scalability-in-analysis-services.md)   
  [Attach and Detach Analysis Services Databases](../../analysis-services/multidimensional-models/attach-and-detach-analysis-services-databases.md)   
  [Database Storage Location](../../analysis-services/multidimensional-models/database-storage-location.md)   

@@ -43,7 +43,7 @@ manager: kfile
 ## Remarks  
  For additional information about the **Binding** type, including tables of Analysis Services Scripting Language (ASSL) objects of the **Binding** type and the inheritance hierarchy of **Binding** types, see [Binding](binding-data-type-assl.md) element.  
   
- The corresponding element in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.DSVTableBinding>.  
+ The corresponding element in the Analysis Management Objects (AMO) object model is Microsoft.AnalysisServices.DSVTableBinding.  
   
 ## See Also  
  [Analysis Services Scripting Language XML Data Types &#40;ASSL&#41;](analysis-services-scripting-language-xml-data-types-assl.md)  

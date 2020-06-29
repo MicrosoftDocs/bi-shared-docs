@@ -41,7 +41,7 @@ manager: kfile
 |Child elements|None|  
   
 ## Remarks  
- The elements that correspond to the parents of **DataSourceViewID** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.DataSourceViewBinding> and <xref:Microsoft.AnalysisServices.DSVTableBinding>.  
+ The elements that correspond to the parents of **DataSourceViewID** in the Analysis Management Objects (AMO) object model are Microsoft.AnalysisServices.DataSourceViewBinding and Microsoft.AnalysisServices.DSVTableBinding.  
   
 ## See Also  
  [Properties &#40;ASSL&#41;](properties-assl.md)  
