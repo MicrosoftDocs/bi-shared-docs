@@ -325,9 +325,9 @@ SQL Server 2016 Service SP1 Analysis Services provides improved performance and 
 
 In particular, SQL Server 2016 SP1 Analysis Services features improvements in these key areas:
 
--	**NUMA awareness** - For better NUMA support, the in-memory (VertiPaq) engine inside Analysis Services now maintains a separate job queue on each NUMA node. This guarantees the segment scan jobs run on the same node where the memory is allocated for the segment data. Note, NUMA awareness is only enabled by default on systems with at least four NUMA nodes. On two-node systems, the costs of accessing remote allocated memory generally doesn't warrant the overhead of managing NUMA specifics.
--	**Memory allocation** - Analysis Services has been accelerated with Intel Threading Building Blocks, a scalable allocator that provides separate memory pools for every core. As the number of cores increases, the system can scale almost linearly.
--	**Heap fragmentation** - The Intel TBB-based scalable allocator also helps to mitigate performance problems due to heap fragmentation that have been shown to occur with the Windows Heap.
+-    **NUMA awareness** - For better NUMA support, the in-memory (VertiPaq) engine inside Analysis Services now maintains a separate job queue on each NUMA node. This guarantees the segment scan jobs run on the same node where the memory is allocated for the segment data. Note, NUMA awareness is only enabled by default on systems with at least four NUMA nodes. On two-node systems, the costs of accessing remote allocated memory generally doesn't warrant the overhead of managing NUMA specifics.
+-    **Memory allocation** - Analysis Services has been accelerated with Intel Threading Building Blocks, a scalable allocator that provides separate memory pools for every core. As the number of cores increases, the system can scale almost linearly.
+-    **Heap fragmentation** - The Intel TBB-based scalable allocator also helps to mitigate performance problems due to heap fragmentation that have been shown to occur with the Windows Heap.
 
 Performance and scalability testing showed significant gains in query throughput when running SQL Server 2016 SP1 Analysis Services on large multi-node enterprise servers.
 
@@ -425,22 +425,22 @@ Using the [latest version of SSMS](https://msdn.microsoft.com/library/mt238290.a
  A generated JSON-based script for a tabular model might look like the following:
 
 ```json  
-{    
-  "create": {    
-    "database": { 
-      "name": "AdventureWorksTabular1200",    
-      "id": "AdventureWorksTabular1200",    
-      "compatibilityLevel": 1200,    
-      "readWriteMode": "readWrite",    
-      "model": {}    
-    }    
-  }    
-}    
-```    
+{
+  "create": {
+    "database": {
+      "name": "AdventureWorksTabular1200",
+      "id": "AdventureWorksTabular1200",
+      "compatibilityLevel": 1200,
+      "readWriteMode": "readWrite",
+      "model": {}
+    }
+  }
+}
+```
 
 The payload is a JSON document that can be as minimal as the example shown above, or highly embellished with  the full set of object definitions. [Tabular Model Scripting Language &#40;TMSL&#41; Reference](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) describes the syntax.
 
-At the database level, CREATE, ALTER, and DELETE commands will output TMSL script in the familiar XMLA window.  Other commands, such as Process, can also be scripted in this release. Script support for many other actions may be added in a future release.    
+At the database level, CREATE, ALTER, and DELETE commands will output TMSL script in the familiar XMLA window.  Other commands, such as Process, can also be scripted in this release. Script support for many other actions may be added in a future release.
 
 **Scriptable commands** | **Description**
 --------------- | ----------------
@@ -492,15 +492,15 @@ Code View in Visual Studio 2015 now renders the BIM file in JSON format for tabu
 To use the JSON editor, with the ability to expand and collapse sections of the model, you will need the latest version of SQL Server Data Tools plus Visual Studio 2015 (any edition, including the free Community edition). For all other versions of SSDT or Visual Studio, the BIM file is rendered in JSON as simple text.
 At a minimum, an empty model will contain  the following JSON:
 
-    ```json
-    {    
-      "name": "SemanticModel",
-      "id": "SemanticModel",
-      "compatibilityLevel": 1200,
-      "readWriteMode": "readWrite",
-      "model": {}
-    }    
-    ```    
+```json
+  {  
+    "name": "SemanticModel",
+    "id": "SemanticModel",
+    "compatibilityLevel": 1200,
+    "readWriteMode": "readWrite",
+    "model": {}
+  }  
+```
 
 > [!WARNING]
 > Avoid editing the JSON directly. Doing so can corrupt the model.
