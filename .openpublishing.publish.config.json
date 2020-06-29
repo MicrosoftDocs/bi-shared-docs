@@ -5,6 +5,10 @@
       "build_source_folder": "docs",
       "build_output_subfolder": "analysis-services",
       "locale": "en-us",
+      "xref_query_tags": [
+        "/uwp/api",
+        "/dotnet"
+      ],
       "monikers": [],
       "moniker_ranges": [
         "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
