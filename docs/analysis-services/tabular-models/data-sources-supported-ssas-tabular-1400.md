@@ -25,20 +25,18 @@ For Azure Analysis Services, see [Data sources supported in Azure Analysis Servi
 
 |Datasource  |In-memory  |DirectQuery  |
 |---------|---------|---------|
-|Azure SQL Database  Yes    Yes      |
-|Azure Synapse Analytics (SQL Data Warehouse)  Yes   Yes       |
-|Azure Blob Storage  Yes     No      |
-|Azure Table Storage    |   Yes     No      |
-|Azure Cosmos DB Yes    No        |
-|Azure Data Lake Store (Gen1)<sup>[1](#gen2)</sup>   Yes     No      |
-|Azure HDInsight HDFS    |     Yes  No       |
-|Azure HDInsight Spark <sup>[2](#databricks)</sup>  Yes    No       |
+|Azure SQL Database     |   Yes      |    Yes      |
+|Azure Synapse Analytics (SQL Data Warehouse)     |   Yes      |   Yes       |
+|Azure Blob Storage     |   Yes       |    No      |
+|Azure Table Storage    |   Yes       |    No      |
+|Azure Cosmos DB     |  Yes        |  No        |
+|Azure Data Lake Store (Gen1)<sup>[1](#gen2)</sup>      |   Yes       |    No      |
+|Azure HDInsight HDFS    |     Yes     |   No       |
+|Azure HDInsight Spark <sup>[2](#databricks)</sup>     |   Yes       |   No       |
 ||||
 
 <a name="gen2">1</a> - ADLS Gen2 is currently not supported.   
 <a name="databricks">2</a> - Azure Databricks using the Spark connector is currently not supported.   
-
-
 
 **Provider**   
 In-memory and DirectQuery models connecting to Azure data sources use .NET Framework Data Provider for SQL Server.
