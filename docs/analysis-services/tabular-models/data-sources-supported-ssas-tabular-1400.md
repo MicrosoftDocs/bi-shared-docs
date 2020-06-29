@@ -1,6 +1,6 @@
 ﻿---
 title: "Data sources supported in SQL Server Analysis Services tabular 1400 and higher models | Microsoft Docs"
-ms.date: 03/03/2020
+ms.date: 06/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Data sources supported in SQL Server Analysis Services tabular 1400 and higher models
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all](../../includes/ssas-appliesto-sqlas-all.md)]
 
 This article describes the types of data sources that can be used with SQL Server Analysis Services (SSAS) tabular models at the 1400 and higher compatibility level. 
 
@@ -25,14 +25,14 @@ For Azure Analysis Services, see [Data sources supported in Azure Analysis Servi
 
 |Datasource  |In-memory  |DirectQuery  |
 |---------|---------|---------|
-|Azure SQL Database     |   Yes      |    Yes      |
-|Azure Synapse Analytics (SQL Data Warehouse)     |   Yes      |   Yes       |
-|Azure Blob Storage     |   Yes       |    No      |
-|Azure Table Storage    |   Yes       |    No      |
-|Azure Cosmos DB     |  Yes        |  No        |
-|Azure Data Lake Store (Gen1)<sup>[1](#gen2)</sup>      |   Yes       |    No      |
-|Azure HDInsight HDFS    |     Yes     |   No       |
-|Azure HDInsight Spark <sup>[2](#databricks)</sup>     |   Yes       |   No       |
+|Azure SQL Database  Yes    Yes      |
+|Azure Synapse Analytics (SQL Data Warehouse)  Yes   Yes       |
+|Azure Blob Storage  Yes     No      |
+|Azure Table Storage    |   Yes     No      |
+|Azure Cosmos DB Yes    No        |
+|Azure Data Lake Store (Gen1)<sup>[1](#gen2)</sup>   Yes     No      |
+|Azure HDInsight HDFS    |     Yes  No       |
+|Azure HDInsight Spark <sup>[2](#databricks)</sup>  Yes    No       |
 ||||
 
 <a name="gen2">1</a> - ADLS Gen2 is currently not supported.   
@@ -60,47 +60,44 @@ In-memory and DirectQuery models connecting to Azure data sources use .NET Frame
 
 ### Supported by in-memory models only
 
-|Database  |
-|---------|---------|---------|
-|Access Database     | 
-|SQL Server Analysis Services     | 
-|IBM Informix (beta) | 
-|JSON document     | 
-|Lines from binary     | 
-|MySQL Database     | 
-|PostgreSQL Database    | Yes | No
-|SAP HANA   | Yes | No
-|SAP Business Warehouse    | Yes | No
-|Sybase Database     | Yes | No
-|||
+#### Database
 
-|File  |  
-|---------|---------|
-|Excel workbook     |
-|Folder     | 
-|JSON | 
-|Text/CSV    | 
-|XML table    | 
-|||
+Access Database  
+SQL Server Analysis Services  
+IBM Informix (beta)  
+JSON document  
+Lines from binary  
+MySQL Database  
+PostgreSQL Database  
+SAP HANA  
+SAP Business Warehouse  
+Sybase Database  
 
-|Online services  |  
-|---------|---------|
-|Dynamics 365      |
-|Exhange Online     |
-|Saleforce Objects    | 
-|Salesforce Reports     |
-|SharePoint Online List     |
-|||
+#### File
 
-|Other  |  
-|---------|---------|
-|Active Directory      | 
-|Exhange     |  
-|OData Feed     | 
-|ODBC query     | 
-|OLE DB  | 
-|SharePoint list | 
-|||
+Excel workbook  
+Folder  
+JSON  
+Text/CSV  
+XML table  
+
+#### Online services
+
+Dynamics 365  
+Exchange Online  
+Saleforce Objects  
+Salesforce Reports  
+SharePoint Online List  
+
+
+#### Other
+
+Active Directory  
+Exhange  
+OData Feed  
+ODBC query  
+OLE DB  
+SharePoint list  
 
 ## See also
 
