@@ -37,7 +37,6 @@ manager: kfile
 >  Local cubes can be created from a read-only database.  
   
 ## See Also  
- <xref:Microsoft.AnalysisServices.Database.Detach%2A>   
  [Attach and Detach Analysis Services Databases](../../analysis-services/multidimensional-models/attach-and-detach-analysis-services-databases.md)   
  [Move an Analysis Services Database](../../analysis-services/multidimensional-models/move-an-analysis-services-database.md)   
  [Detach Element](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/detach-element)   

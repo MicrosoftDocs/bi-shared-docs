@@ -43,7 +43,7 @@ manager: kfile
 ## Remarks  
  The table identified by **TableID** must be within the data source to which the owning object (dimension or cube) is bound.  
   
- The elements that correspond to the parents of **TableID** in the Analysis Management Objects (AMO) object model are <xref:Microsoft.AnalysisServices.ColumnBinding>, <xref:Microsoft.AnalysisServices.DSVTableBinding>, <xref:Microsoft.AnalysisServices.IncrementalProcessingNotification>, and <xref:Microsoft.AnalysisServices.RowBinding>.  
+ The elements that correspond to the parents of **TableID** in the Analysis Management Objects (AMO) object model are Microsoft.AnalysisServices.ColumnBinding>, <xref:Microsoft.AnalysisServices.DSVTableBinding, Microsoft.AnalysisServices.IncrementalProcessingNotification, and Microsoft.AnalysisServices.RowBinding.  
   
 ## See Also  
  [Properties &#40;ASSL&#41;](properties-assl.md)  

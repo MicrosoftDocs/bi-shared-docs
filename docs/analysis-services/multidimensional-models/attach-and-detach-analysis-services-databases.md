@@ -43,7 +43,6 @@ manager: kfile
 >  Server administrator privileges are required to execute the **Attach** command.  
   
 ## See Also  
- <xref:Microsoft.AnalysisServices.Database.Detach%2A>   
  [Move an Analysis Services Database](../../analysis-services/multidimensional-models/move-an-analysis-services-database.md)   
  [Database ReadWriteModes](../../analysis-services/multidimensional-models/database-readwritemodes.md)   
  [Switch an Analysis Services database between ReadOnly and ReadWrite modes](../../analysis-services/multidimensional-models/switch-an-analysis-services-database-between-readonly-and-readwrite-modes.md)   
