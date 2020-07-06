@@ -5,33 +5,17 @@
       "build_source_folder": "docs",
       "build_output_subfolder": "analysis-services",
       "locale": "en-us",
-      "xref_query_tags": [
-        "/uwp/api",
-        "/dotnet"
-      ],
       "monikers": [],
       "moniker_ranges": [
         "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
       ],
+      "xref_query_tags": [
+        "/uwp/api",
+        "/dotnet"
+      ],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "docset_name": "bi-reference-docs",
-      "build_source_folder": "reference-docs",
-      "build_output_subfolder": "bi-reference-docs",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
