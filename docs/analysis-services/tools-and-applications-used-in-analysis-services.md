@@ -1,6 +1,6 @@
 ---
 title: "Tools for Analysis Services | Microsoft Docs"
-ms.date: 10/23/2019
+ms.date: 07/08/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -18,7 +18,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 ## Create and deploy models  
 
-Tabular and multidimensional model projects are created by using project templates in Visual Studio with Analysis Services projects extensions (VSIX). Project templates provide model designers and wizards for creating the data model objects that comprise an Analysis Services solution. Analysis Services projects extensions are supported on all Visual Studio 2017 and later editions, including the free Community edition. 
+Tabular and multidimensional model projects are created by using project templates in Visual Studio with Analysis Services projects extensions (VSIX). Project templates provide model designers and wizards for creating the data model objects that comprise an Analysis Services solution. Analysis Services projects extensions are supported on all Visual Studio 2017 and later editions, including the free Community edition.
 
 [Download Visual Studio](https://visualstudio.microsoft.com/downloads/)
 
@@ -52,6 +52,13 @@ The [Azure portal](https://portal.azure.com/) is the primary tool for creating a
 
  Azure Analysis Services has its own set of PowerShell commands for managing Azure resources. To learn more, see [Manage Azure Analysis Services with PowerShell](/azure/analysis-services/analysis-services-powershell).
 
+### Open source tools
+
+**Tabular Editor** - An open-source tool for creating, maintaining, and managing tabular models using an intuitive, lightweight editor. A hierarchical view shows all objects in your tabular model. Objects are organized by display folders with support for multi-select property editing and DAX syntax highlighting. XMLA read-only is required for query operations. Read-write is required for metadata operations. To learn more, see [tabulareditor.github.io](https://tabulareditor.github.io/).
+
+**ALM Toolkit** - An open-source schema compare tool for Power BI datasets, most often used for application lifecycle management (ALM) scenarios. Perform deployment across environments and retain incremental refresh historical data. Diff and merge metadata files, branches and repos. Reuse common definitions between datasets. Read-only is required for query operations. Read-write is required for metadata operations. To learn more, see [alm-toolkit.com](http://alm-toolkit.com/).
+
+**DAX Studio** – An open-source tool for DAX authoring, diagnosis, performance tuning, and analysis. Features include object browsing, integrated tracing, query execution breakdowns with detailed statistics, DAX syntax highlighting and formatting. XMLA read-only is required for query operations. To learn more, see [daxstudio.org](https://daxstudio.org/).
 
 ## See also
 

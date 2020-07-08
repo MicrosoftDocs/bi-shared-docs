@@ -1,6 +1,6 @@
 ---
 title: "What is Analysis Services? | Microsoft Docs"
-ms.date: 05/06/2020
+ms.date: 07/08/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: overview
@@ -13,9 +13,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-Analysis Services is an analytical data engine (Vertipaq) used in decision support and business analytics. It provides enterprise-grade semantic data model capabilities for business intelligence (BI) data analysis and reporting applications such as Power BI, Excel, Reporting Services reports, and other data visualization tools. Analysis Services is available in different platforms:
+Analysis Services is an analytical data engine (Vertipaq) used in decision support and business analytics. It provides enterprise-grade semantic data model capabilities for business intelligence (BI), data analysis, and reporting applications such as Power BI, Excel, Reporting Services, and other data visualization tools. Analysis Services is available in different platforms:
 
-**SQL Server Analysis Services** - Installed as an on-premises server instance, SQL Server Analysis Services supports tabular models at all compatibility levels (depending on version), multidimensional models, data mining, and Power Pivot for SharePoint.
+**SQL Server Analysis Services** - Installed as an on-premises or VM server instance, SQL Server Analysis Services supports tabular models at all compatibility levels (depending on version), multidimensional models, data mining, and Power Pivot for SharePoint.
 
 **Azure Analysis Services** - Created as an Azure resource, Azure Analysis Services server resources support tabular models at the 1200 and higher compatibility levels. DirectQuery, partitions, row-level security, bi-directional relationships, and translations are all supported. To learn more, see [What is Azure Analysis Services](/azure/analysis-services/analysis-services-overview).
 
