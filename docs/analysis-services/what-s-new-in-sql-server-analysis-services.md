@@ -9,7 +9,7 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
-# What's New in SQL Server Analysis Services 
+# What's New in SQL Server Analysis Services
 
 [!INCLUDE[ssas-appliesto-sql2016-later](includes/ssas-appliesto-sql2016-later.md)]
 
@@ -19,7 +19,7 @@ This article summarizes new features and improvements in the most recent version
 
 ### Tabular model compatibility level
 
-This release introduces the 1500 [compatibility level](tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) for tabular models. 
+This release introduces the 1500 [compatibility level](tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) for tabular models.
 
 ### Query interleaving
 
@@ -35,34 +35,34 @@ The **ClientCacheRefreshPolicy** property setting is now supported in SSAS 2019 
 
 ### Online attach
 
-This feature provides the ability to attach a tabular model as an online operation. Online attach can be used for synchronization of read-only replicas in on-premises query scale-out environments. To perform an online-attach operation, use the **AllowOverwrite** option of the Attach XMLA command. 
+This feature provides the ability to attach a tabular model as an online operation. Online attach can be used for synchronization of read-only replicas in on-premises query scale-out environments. To perform an online-attach operation, use the **AllowOverwrite** option of the Attach XMLA command.
 
 ```xmla
-<Attach xmlns="http://schemas.microsoft.com/analysisservices/2003/engine"> 
-  <Folder>C:\Program Files\Microsoft SQL Server\MSAS15\OLAP\Data\AdventureWorks.0.db\</Folder> 
-  <AllowOverwrite>True</AllowOverwrite> 
-</Attach> 
+<Attach xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <Folder>C:\Program Files\Microsoft SQL Server\MSAS15\OLAP\Data\AdventureWorks.0.db\</Folder>
+  <AllowOverwrite>True</AllowOverwrite>
+</Attach>
 ```
 
-This operation may require *double the model memory* to keep the old version online while loading the new version. 
+This operation may require *double the model memory* to keep the old version online while loading the new version.
 
-A typical usage pattern could be as follows: 
+A typical usage pattern could be as follows:
 
-1. DB1 (version 1) is already attached on read-only server B. 
+1. DB1 (version 1) is already attached on read-only server B.
 
-2. DB1 (version 2) is processed on the write server A. 
+2. DB1 (version 2) is processed on the write server A.
 
-3. DB1 (version 2) is detached and placed on a location accessible to server B (either via a shared location, or using robocopy, etc.). 
+3. DB1 (version 2) is detached and placed on a location accessible to server B (either via a shared location, or using robocopy, etc.).
 
-4. The <Attach> command with AllowOverwrite=True is executed on server B with the new location of DB1 (version 2). 
+4. The \<Attach> command with AllowOverwrite=True is executed on server B with the new location of DB1 (version 2).
 
-Without this feature, admins are first required to detach the database and then attach the new version of the database. This leads to downtime when the database is unavailable to users, and queries against it will fail. 
+Without this feature, admins are first required to detach the database and then attach the new version of the database. This leads to downtime when the database is unavailable to users, and queries against it will fail.
 
-When this new flag is specified, version 1 of the database is deleted atomically within the same transaction with no downtime. However, it comes at the cost of having both databases loaded into memory simultaneously. 
+When this new flag is specified, version 1 of the database is deleted atomically within the same transaction with no downtime. However, it comes at the cost of having both databases loaded into memory simultaneously.
 
 ### Many-to-many relationships in tabular models
 
-This improvement allows many-to-many relationships between tables where both columns are non-unique. A relationship can be defined between a dimension and fact table at a granularity higher than the key column of the dimension. This avoids having to normalize dimension tables and can improve the user experience because the resulting model has a smaller number of tables with logically grouped columns. 
+This improvement allows many-to-many relationships between tables where both columns are non-unique. A relationship can be defined between a dimension and fact table at a granularity higher than the key column of the dimension. This avoids having to normalize dimension tables and can improve the user experience because the resulting model has a smaller number of tables with logically grouped columns.
 
 Many-to-many relationships require models be at the 1500 and higher compatibility level. You can create many-to-many relationships by using Visual Studio 2019 with Analysis Services projects VSIX update 2.9.2 and higher, the Tabular Object Model (TOM) API, Tabular Model Scripting Language (TMSL), and the open-source Tabular Editor tool.
 
@@ -70,7 +70,7 @@ Many-to-many relationships require models be at the 1500 and higher compatibilit
 
 The following property settings provide improved resource governance:
 
-- **Memory\QueryMemoryLimit** - This memory property can be used to limit memory spools built by DAX queries submitted to the model. 
+- **Memory\QueryMemoryLimit** - This memory property can be used to limit memory spools built by DAX queries submitted to the model.
 - **DbpropMsmdRequestMemoryLimit** - This XMLA property can be used to override the Memory\QueryMemoryLimit server property value for a connection.
 - **OLAP\Query\RowsetSerializationLimit** - This server property limits the number of rows returned in a rowset, protecting server resources from extensive data export usage. This property applies to both applies to both DAX and MDX queries.
 
@@ -120,9 +120,9 @@ The modern Get Data experience and M mashup capabilities do not apply to existin
 
 This release introduces encoding hints, an advanced feature used to optimize processing (data refresh) of large in-memory tabular models. To better understand encoding, see [Performance Tuning of Tabular Models in SQL Server 2012 Analysis Services](https://msdn.microsoft.com/library/dn393915.aspx) whitepaper to better understand encoding.
 
-* Value encoding provides better query performance for columns that are typically only used for aggregations.
+- Value encoding provides better query performance for columns that are typically only used for aggregations.
 
-* Hash encoding is preferred for group-by columns (often dimension-table values) and foreign keys. String columns are always hash encoded.
+- Hash encoding is preferred for group-by columns (often dimension-table values) and foreign keys. String columns are always hash encoded.
 
 Numeric columns can use either of these encoding methods. When Analysis Services starts processing a table, if either the table is empty (with or without partitions) or a full-table processing operation is being performed, samples values are taken for each numeric column to determine whether to apply value or hash encoding. By default, value encoding is chosen when the sample of distinct values in the column is large enough - otherwise hash encoding usually provides better compression. It is possible for Analysis Services to change the encoding method after the column is partially processed based on further information about the data distribution, and restart the encoding process; however, this increases processing time and is inefficient. The performance-tuning whitepaper discusses re-encoding in more detail and describes how to detect it using SQL Server Profiler.
 
@@ -305,13 +305,13 @@ Filtered Sales:=CALCULATE (
 
 In addition to all the new features, Analysis Services, SSDT, and SSMS also include the following improvements:
 
-* Hierarchy and column reuse surfaced in more helpful locations in the Power BI field list.
-* Date relationships to easily create relationships to date dimensions based on date fields.
-* Default installation option for Analysis Services is now for tabular mode.
-* New Get Data (Power Query) data sources.
-* DAX Editor for SSDT.
-* Existing DirectQuery data sources support for M queries.
-* SSMS improvements, such as viewing, editing, and scripting support for structured data sources.
+- Hierarchy and column reuse surfaced in more helpful locations in the Power BI field list.
+- Date relationships to easily create relationships to date dimensions based on date fields.
+- Default installation option for Analysis Services is now for tabular mode.
+- New Get Data (Power Query) data sources.
+- DAX Editor for SSDT.
+- Existing DirectQuery data sources support for M queries.
+- SSMS improvements, such as viewing, editing, and scripting support for structured data sources.
 
 ## SQL Server 2016 Analysis Services
 
@@ -325,13 +325,13 @@ SQL Server 2016 Service SP1 Analysis Services provides improved performance and 
 
 In particular, SQL Server 2016 SP1 Analysis Services features improvements in these key areas:
 
--    **NUMA awareness** - For better NUMA support, the in-memory (VertiPaq) engine inside Analysis Services now maintains a separate job queue on each NUMA node. This guarantees the segment scan jobs run on the same node where the memory is allocated for the segment data. Note, NUMA awareness is only enabled by default on systems with at least four NUMA nodes. On two-node systems, the costs of accessing remote allocated memory generally doesn't warrant the overhead of managing NUMA specifics.
--    **Memory allocation** - Analysis Services has been accelerated with Intel Threading Building Blocks, a scalable allocator that provides separate memory pools for every core. As the number of cores increases, the system can scale almost linearly.
--    **Heap fragmentation** - The Intel TBB-based scalable allocator also helps to mitigate performance problems due to heap fragmentation that have been shown to occur with the Windows Heap.
+- **NUMA awareness** - For better NUMA support, the in-memory (VertiPaq) engine inside Analysis Services now maintains a separate job queue on each NUMA node. This guarantees the segment scan jobs run on the same node where the memory is allocated for the segment data. Note, NUMA awareness is only enabled by default on systems with at least four NUMA nodes. On two-node systems, the costs of accessing remote allocated memory generally doesn't warrant the overhead of managing NUMA specifics.
+- **Memory allocation** - Analysis Services has been accelerated with Intel Threading Building Blocks, a scalable allocator that provides separate memory pools for every core. As the number of cores increases, the system can scale almost linearly.
+- **Heap fragmentation** - The Intel TBB-based scalable allocator also helps to mitigate performance problems due to heap fragmentation that have been shown to occur with the Windows Heap.
 
 Performance and scalability testing showed significant gains in query throughput when running SQL Server 2016 SP1 Analysis Services on large multi-node enterprise servers.
 
-While most enhancements in this release are specific to tabular models, a number of enhancements have been made to multidimensional models; for example, distinct count ROLAP optimization for data sources like DB2 and Oracle, drill-through multi-selection support with Excel 2016, and Excel query optimizations.    
+While most enhancements in this release are specific to tabular models, a number of enhancements have been made to multidimensional models; for example, distinct count ROLAP optimization for data sources like DB2 and Oracle, drill-through multi-selection support with Excel 2016, and Excel query optimizations.
 
 ### SQL Server 2016 General Availability (GA) Analysis Services
 
@@ -343,7 +343,7 @@ For tabular 1200 models,  metadata operations in SSDT are much faster than tabul
 
 #### Project templates added for tabular 1200 models in SSDT
 
-With this release, you no longer need two versions of SSDT for building relational and BI projects. [SQL Server Data Tools for Visual Studio 2015](https://msdn.microsoft.com/library/mt204009.aspx) adds project templates for Analysis Services solutions, including **Analysis Services Tabular Projects** used for building models at the 1200 compatibility level. Other Analysis Services project templates for multidimensional and data mining solutions are also included, but  at the same functional level (1100 or 1103) as in previous releases.    
+With this release, you no longer need two versions of SSDT for building relational and BI projects. SQL Server Data Tools for Visual Studio 2015 adds project templates for Analysis Services solutions, including **Analysis Services Tabular Projects** used for building models at the 1200 compatibility level. Other Analysis Services project templates for multidimensional and data mining solutions are also included, but  at the same functional level (1100 or 1103) as in previous releases.
 
 #### Display folders
 
@@ -363,13 +363,13 @@ New in this release is a built-in approach for enabling bi-directional cross fil
 
 #### Calculated tables in SSDT
 
-A *calculated table* is a model-only construction based on a DAX expression or query in SSDT. When deployed in a database, a calculated table is indistinguishable from regular tables.    
+A *calculated table* is a model-only construction based on a DAX expression or query in SSDT. When deployed in a database, a calculated table is indistinguishable from regular tables.
 
  There are several uses for calculated tables, including the creation of new tables to expose an existing table in a specific role. The classic example is a Date table that operates in multiple contexts (order date, ship date, and so forth). By creating a calculated table for a given role, you can now activate a table relationship to facilitate queries or data interaction using the calculated table. Another use for calculated tables is to combine parts of existing tables into an entirely new table that exists only in the model.  See [Create a Calculated Table](../analysis-services/tabular-models/create-a-calculated-table-ssas-tabular.md) to learn more.
- 
+
 #### Formula fixup
 
- With formula fixup on a tabular 1200 model,  SSDT will automatically update any measures that is referencing a column or table that was renamed.    
+ With formula fixup on a tabular 1200 model,  SSDT will automatically update any measures that is referencing a column or table that was renamed.
 
 #### Support for Visual Studio configuration manager
 
@@ -409,12 +409,11 @@ A *calculated table* is a model-only construction based on a DAX expression or q
 
 #### Analysis Services Execute DDL Task
 
- Analysis Services Execute DDL Task now also accepts Tabular Model Scripting Language (TMSL) commands.     
+ Analysis Services Execute DDL Task now also accepts Tabular Model Scripting Language (TMSL) commands.
 
 #### SSAS PowerShell cmdlet
 
-SSAS PowerShell cmdlet **Invoke-ASCmd** now accepts Tabular Model Scripting Language (TMSL) commands. Other SSAS PowerShell cmdlets may be updated in a future release to use the new tabular metadata (exceptions will be called out in the release notes).    
-See Analysis Services PowerShell Reference for details.
+SSAS PowerShell cmdlet **Invoke-ASCmd** now accepts Tabular Model Scripting Language (TMSL) commands. Other SSAS PowerShell cmdlets may be updated in a future release to use the new tabular metadata (exceptions will be called out in the release notes). See Analysis Services PowerShell Reference for details.
 
 #### Tabular Model Scripting Language (TMSL) supported in SSMS
 
@@ -507,12 +506,12 @@ At a minimum, an empty model will contain  the following JSON:
   
 ### New elements in MS-CSDLBI 2.0 schema
 
-The following elements have been added to the **TProperty** complex type defined in the [MS-CSDLBI] 2.0 schema:    
+The following elements have been added to the **TProperty** complex type defined in the [MS-CSDLBI] 2.0 schema:
 
-|Element|Definition|    
+|Element|Definition|
 |-------------|----------------|
-|DefaultValue|A property that specifies the value used when evaluating the query. The DefaultValue property is optional, but it is automatically selected if the values from the member cannot be aggregated.|    
-|Statistics|A set of statistics from the underlying data that is associated with the column. These statistics are defined by the TPropertyStatistics complex type and are provided only if they are not computationally expensive to generate, as described in section 2.1.13.5 of the Conceptual Schema Definition File Format with Business Intelligence Annotations document.|    
+|DefaultValue|A property that specifies the value used when evaluating the query. The DefaultValue property is optional, but it is automatically selected if the values from the member cannot be aggregated.|
+|Statistics|A set of statistics from the underlying data that is associated with the column. These statistics are defined by the TPropertyStatistics complex type and are provided only if they are not computationally expensive to generate, as described in section 2.1.13.5 of the Conceptual Schema Definition File Format with Business Intelligence Annotations document.|
 
 ### DirectQuery
 
@@ -520,16 +519,15 @@ The following elements have been added to the **TProperty** complex type defined
 
 This release sees significant enhancements in DirectQuery for tabular 1200 models. Here's a summary:
 
--   DirectQuery now generates simpler queries that provide better performance.
--   Extra  control over defining sample datasets used for model design and testing.
--   Row level security (RLS) is now supported for tabular 1200 models in DirectQuery mode. Previously, the presence of RLS prevented deploying a tabular model in DirectQuery mode.
--   Calculated columns are now supported for tabular 1200 models in DirectQuery mode. Previously, the presence of calculated columns prevented deploying a tabular model in DirectQuery mode.
--   Performance optimizations include redundant join elimination for VertiPaq and DirectQuery. 
+- DirectQuery now generates simpler queries that provide better performance.
+- Extra  control over defining sample datasets used for model design and testing.
+- Row level security (RLS) is now supported for tabular 1200 models in DirectQuery mode. Previously, the presence of RLS prevented deploying a tabular model in DirectQuery mode.
+- Calculated columns are now supported for tabular 1200 models in DirectQuery mode. Previously, the presence of calculated columns prevented deploying a tabular model in DirectQuery mode.
+- Performance optimizations include redundant join elimination for VertiPaq and DirectQuery.
 
 #### New data sources for DirectQuery mode
 
 Data sources supported for tabular 1200 models in DirectQuery mode now include Oracle, Teradata and Microsoft Analytics Platform (formerly known as Parallel Data Warehouse). To learn more, see [DirectQuery Mode](../analysis-services/tabular-models/directquery-mode-ssas-tabular.md).
-
 
 ## Earlier versions
 
