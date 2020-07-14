@@ -107,14 +107,12 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
 
 ## Known issues
 
-### 19.4.0.2 - AMO and ADOMD .Net Core (Preview) 
+### 19.6.0.0 - AMO and ADOMD .Net Core (Preview) 
 
 - Features in preview should not be used in a production environment. Certain functionality, support, and documentation is limited. Refer to the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) for details.
 
 - AMO and ADOMD .NET Core client libraries are currently supported for Azure Analysis Services and Power BI only. SQL Server Analysis Services is not currently supported.
 
 - There has been limited performance and stress testing done for the public preview.
-
-- If the client library is unable to connect, you may receive an exception like `System.PlatformNotSupportedException: COM is not supported`. This exception will be improved in the next release to reveal the real reason for the connection failure.
 
 ::: moniker-end
