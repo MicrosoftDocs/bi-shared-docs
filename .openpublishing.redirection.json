@@ -4859,6 +4859,11 @@
         "redirect_document_id": false
     },
     {
+        "source_path": "docs/analysis-services/tabular-models/dax-formula-compatibility-in-directquery-mode-ssas-2016.md",
+        "redirect_url": "https://docs.microsoft.com/dax/",
+        "redirect_document_id": false
+    },
+    {
         "source_path": "docs/analysis-services/instances/data-providers-used-for-analysis-services-connections.md",
         "redirect_url": "/analysis-services/client-libraries",
         "redirect_document_id": false

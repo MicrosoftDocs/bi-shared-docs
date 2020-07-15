@@ -318,8 +318,6 @@
         href: ../analysis-services/tabular-models/define-partitions-in-directquery-models-ssas-tabular.md
       - name: Test a model in DirectQuery mode
         href: ../analysis-services/tabular-models/test-a-model-in-directquery-mode.md
-      - name: DAX formula compatibility in DirectQuery mode
-        href: ../analysis-services/tabular-models/dax-formula-compatibility-in-directquery-mode-ssas-2016.md
     - name: Tables and columns
       items:
       - name: Tables and columns in tabular models
