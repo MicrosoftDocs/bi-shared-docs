@@ -1,6 +1,6 @@
 ---
 title: "LANGUAGE and FORMAT_STRING on FORMATTED_VALUE | Microsoft Docs"
-ms.date: 05/02/2018
+ms.date: 07/24/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: mdx
@@ -11,7 +11,8 @@ author: minewiskan
 manager: kfile
 ---
 # MDX Cell Properties - FORMATTED_VALUE Property
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+
   The FORMATTED_VALUE property is built on the interactions of the VALUE, FORMAT_STRING and LANGUAGE properties of the cell. This topic explains how these properties interact to build the FORMATTED_VALUE property.  
   
 ## VALUE, FORMAT_STRING, LANGUAGE properties  
@@ -29,7 +30,7 @@ manager: kfile
 ## FORMATTED_VALUE constructed  
  The FORMATTED_VALUE property is constructed by using the value from the VALUE property and applying the format template specified in the FORMAT_STRING property to that value. In addition, whenever the formatting value is a **named formatting literal** the LANGUAGE property specification modifies the output of FORMAT_STRING to follow the language usage for the named formatting. Named formatting literals are all defined in a way that can be localized. For example, `"General Date"` is a specification that can be localized, as opposed to the following template `"YYYY-MM-DD hh:nn:ss",` which states that the date is to be presented as defined by the template regardless of the language specification.  
   
- If there is a conflict between the FORMAT_STRING template and the LANGUAGE specification, the FORMAT_STRING template overrides the LANGUAGE specification. For example, if FORMAT_STRING="$ #0" and LANGUAGE=1034 (Spain), and VALUE=123.456 then FORMATTED_VALUE="$ 123" instead of FORMATTED_VALUE="€ 123", the expected format is in Euros, because the value of the format template overrides the language specified.  
+ If there is a conflict between the FORMAT_STRING template and the LANGUAGE specification, the FORMAT_STRING template overrides the LANGUAGE specification. For example, if FORMAT_STRING="$ #0" and LANGUAGE=1034 (Spain), and VALUE=123.456 then FORMATTED_VALUE="$ 123" instead of FORMATTED_VALUE="&euro; 123", the expected format is in Euros, because the value of the format template overrides the language specified.  
   
 ### Examples  
  The following examples show the output obtained when LANGUAGE is used in conjunction with FORMAT_STRING.  
@@ -73,7 +74,7 @@ manager: kfile
 |Member|FORMATTED_VALUE|Explanation|  
 |------------|----------------------|-----------------|  
 |A|$5,040.00|FORMAT_STRING is set to `Currency` and LANGUAGE is `1033`, inherited from system locale value|  
-|B|€5.040,00|FORMAT_STRING is set to `Currency` (inherited from A) and LANGUAGE is explicitly set to `1034` (Spain) hence the Euro sign, the different decimal separator and the different thousand separator.|  
+|B|&euro;5.040,00|FORMAT_STRING is set to `Currency` (inherited from A) and LANGUAGE is explicitly set to `1034` (Spain) hence the Euro sign, the different decimal separator and the different thousand separator.|  
 |C|$5.040,00|FORMAT_STRING is set to `$#,##0.00` an override to Currency, from A, and LANGUAGE is explicitly set to `1034` (Spain). Because the FORMAT_STRING property explicitly set the currency symbol to $, the FORMATTED_VALUE is presented with the $ sign. However, because `.` (dot) and `,` (comma) are placeholders for decimal separator and thousand separator respectively, the language specification affects them generating an output that is localized for decimal and thousand separators.|  
 |D|5.04E+03|FORMAT_STRING is set to `Scientific` and LANGUAGE is set to `1033`, inherited from system locale value, hence `.` (dot) is the decimal separator.|  
 |E|5,04E+03|FORMAT_STRING is set to `Scientific` and LANGUAGE is set explicitly to `1034,` hence `,` (comma) is the decimal separator.|  
