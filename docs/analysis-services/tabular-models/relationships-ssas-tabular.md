@@ -16,7 +16,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 In tabular models, a relationship is a connection between two tables of data. The relationship establishes how the data in the two tables should be correlated. For example, a Customers table and an Orders table can be related in order to show the customer name that is associated with each order.  
   
-When using the Table Import Wizard to import from the same data source, relationships that already exist in tables (at the data source) that you choose to import will be re-created in the model. You can view relationships that were detected and re-created automatically by using the model designer in Diagram View or by using the Manage Relationships dialog box. You can also create new relationships between tables manually by using the model designer in Diagram View or by using the Create Relationship or Manage Relationships dialog box.  
+When importing from the same data source, relationships that already exist in tables (at the data source) that you choose to import will be re-created in the model. You can view relationships that were detected and re-created automatically by using the model designer in Diagram View or by using the Manage Relationships dialog box. You can also create new relationships between tables manually by using the model designer in Diagram View or by using the Create Relationship or Manage Relationships dialog box.  
   
 After relationships between tables have been defined, either automatically during import or created manually, you will be able to filter data by using related columns and look up values in related tables.  
   
@@ -57,7 +57,7 @@ This approach can work, but it involves storing a lot of redundant data, such as
 |1|255|2010-01-03|SLR Camera|15|  
 |2|254|2010-01-03|Budget Movie-Maker|27|  
   
-If you import these tables from the same database, the Table Import Wizard can detect the relationships between the tables based on the columns that are in [brackets], and can reproduce these relationships in the model designer. For more information, see Automatic Detection and Inference of Relationships section in this article. If you import tables from multiple sources, you can manually create relationships as described in [Create a Relationship Between Two Tables](../../analysis-services/tabular-models/create-a-relationship-between-two-tables-ssas-tabular.md).  
+If you import these tables from the same database, Import can detect the relationships between the tables based on the columns that are in [brackets], and can reproduce these relationships in the model designer. For more information, see Automatic Detection and Inference of Relationships section in this article. If you import tables from multiple sources, you can manually create relationships as described in [Create a Relationship Between Two Tables](../../analysis-services/tabular-models/create-a-relationship-between-two-tables-ssas-tabular.md).  
   
 ### Columns and keys
 
@@ -124,7 +124,7 @@ The data types in the source column and lookup column must be compatible. For mo
   
 ### Composite keys and lookup columns
 
-You cannot use composite keys in a tabular model; you must always have one column that uniquely identifies each row in the table. If you try to import tables that have an existing relationship based on a composite key, the Table Import Wizard will ignore that relationship because it cannot be created in the tabular model.  
+You cannot use composite keys in a tabular model; you must always have one column that uniquely identifies each row in the table. If you try to import tables that have an existing relationship based on a composite key, Import will ignore that relationship because it cannot be created in the tabular model.  
   
 If you want to create a relationship between two tables in the model designer, and there are multiple columns defining the primary and foreign keys, you must combine the values to create a single key column before creating the relationship. You can do this before you import the data, or you can do this in the model designer by creating a calculated column.  
   
@@ -166,7 +166,7 @@ In order for relationships to be automatically chained, the relationships must g
   
 ## Detection of relationships when importing data
 
-When you import from a relational data source table, the Table Import Wizard detects existing relationships in those source tables based on the source schema data. If related tables are imported, those relationships will be duplicated in the model.  
+When you import from a relational data source table, existing relationships are detected between tables based on the source schema data. If related tables are imported, those relationships will be replicated in the model.  
   
 ## Manually create relationships
 

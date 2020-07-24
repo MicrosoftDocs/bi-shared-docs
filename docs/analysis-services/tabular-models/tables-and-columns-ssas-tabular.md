@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular model tables and columns | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 07/15/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -14,9 +14,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  After you've added tables and data into a model by using the Table Import Wizard, you can begin working with the tables by adding new columns of data, creating relationships between tables, defining calculations that extend the data, and filtering and sorting data in the tables for easier viewing.   
+  After you've imported tables and data into a model, you can begin working with the tables by adding new columns of data, creating relationships between tables, defining calculations that extend the data, and filtering and sorting data in the tables for easier viewing.
   
-##  <a name="bkmk_benefits"></a> Benefits
+## Benefits
 
  Tables, in tabular models, provide the framework in which columns and other metadata are defined. Tables include:  
   
@@ -27,17 +27,17 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
  Relationships, measures, roles, perspectives, and pasted data are all metadata the define objects within the context of a table.  
   
  **Data**  
- Data is populated in table columns when you first import tables by using the Table Import Wizard or by creating new data in calculated columns. When data changes at the source, or when a model is removed from memory, you must run a process operation to re-populate the data into the tables.  
+ Data is populated in table columns when you first import data or by creating new data in calculated columns. When data changes at the source, or when a model is removed from memory, you must run a process operation to re-populate the data into the tables.  
   
-##  <a name="bkmk_working"></a> Working with tables and columns
+## Working with tables and columns
 
  In the model designer, you do not create new model tables directly. A new tab is created automatically for you whenever data is imported or copied from another data source. Each tab (in the model designer) contains one table of data, which can include the following:  
   
--   A single table or view from a relational database, or from other non-relational sources, such as an Analysis Services cube.  
+- A single table or view from a relational database, or from other non-relational sources, such as an Analysis Services cube.  
   
--   A tabular set of data imported from a feed or text file.  
+- A tabular set of data imported from a feed or text file.  
   
--   A combination of both relational data and tabular (HTML) data copy and pasted into the table.  
+- A combination of both relational data and tabular (HTML) data copy and pasted into the table.  
   
  When you import data, each table or view, sheet, or file of data is added as a table in the model designer. You typically add data from various sources onto separate tabs, but you can combine data in a single table by using **Paste** and **Paste Append**.
   
@@ -45,7 +45,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
  If you are working very large data sets, you may want to filter out certain data so it is not visible. You may also want to sort data in a different order. By using the model designer, you can use the filter, sort, and hide features to display, or not display, entire columns or certain data.  
   
-##  <a name="bkmk_related_tasks"></a> Related Tasks  
+## Related tasks  
   
 |Topic|Description|  
 |-----------|-----------------|  
