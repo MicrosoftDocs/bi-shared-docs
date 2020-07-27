@@ -1,6 +1,6 @@
 ---
 title: "What's new in SQL Server Analysis Services | Microsoft Docs"
-ms.date: 01/28/2020
+ms.date: 07/27/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -15,7 +15,21 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS). New features and improvements are cumulative.
 
-## SQL Server 2019 Analysis Services
+## SQL Server 2019 Analysis Services CU5
+
+[Download Cumulative Update 5 for SQL Server 2019](https://support.microsoft.com/help/4552255/cumulative-update-5-for-sql-server-2019).
+
+### SuperDAX for multidimensional models (SuperDAXMD)
+
+With CU5, DAX-based clients can now use *SuperDAX* functions and query patterns against multidimensional models, providing improved performance when querying model data.
+
+SuperDAX first introduced DAX query optimizations for tabular models with Power BI and SQL Server Analysis Services 2016. SuperDAXMD now brings these improvements to multidimensional models.
+
+A separate announcement on the [Power BI blog](https://powerbi.microsoft.com/blog/) highlights how Power BI users can unlock this multidimensional performance improvement by downloading the latest version of Power BI Desktop. Power BI can detect connections to a multidimensional model with SuperDAX support and can now use the same optimized DAX functions and query patterns that it already uses against tabular models. While Power BI can automatically switch to SuperDAXMD, in your own business intelligence solutions, you might have to optimize DAX query patterns manually.
+
+Optimized query patterns should use [SUMMARIZECOLUMNS](https://docs.microsoft.com/dax/summarizecolumns-function-dax) function to replace the less efficient standard [SUMMARIZE](https://docs.microsoft.com/dax/summarize-function-dax) function. Use DAX variables [VAR](https://docs.microsoft.com/dax/var-dax) to calculate expressions only once at the place of definition, and then reuse the results in any other DAX expressions without having to perform the calculation again. Other, and perhaps less common SuperDAX functions are [SUBSTITUTEWITHINDEX](https://docs.microsoft.com/dax/substitutewithindex-function-dax), [ADDMISSINGITEMS](https://docs.microsoft.com/dax/addmissingitems-function-dax), as well as [NATURALLEFTOUTERJOIN](https://docs.microsoft.com/dax/naturalleftouterjoin-function-dax) and [NATURALINNERJOIN](https://docs.microsoft.com/dax/naturalinnerjoin-function-dax), [ISONORAFTER](https://docs.microsoft.com/dax/isonorafter-function-dax), and [GROUPBY](https://docs.microsoft.com/dax/groupby-function-dax). [SELECTCOLUMNS](https://docs.microsoft.com/dax/selectcolumns-function-dax) and [UNION](https://docs.microsoft.com/dax/union-function-dax) are also SuperDAX functions.
+
+## SQL Server 2019 Analysis Services GA (Generally Available)
 
 ### Tabular model compatibility level
 
