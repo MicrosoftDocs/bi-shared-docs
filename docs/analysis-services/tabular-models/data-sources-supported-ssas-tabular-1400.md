@@ -1,6 +1,6 @@
 ﻿---
 title: "Data sources supported in SQL Server Analysis Services tabular 1400 and higher models | Microsoft Docs"
-ms.date: 06/29/2020
+ms.date: 07/30/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -44,7 +44,7 @@ In-memory and DirectQuery models connecting to Azure data sources use .NET Frame
 |  --- | --- | --- |
 | SQL Server |SQL Server Native Client 11.0, Microsoft OLE DB Provider for SQL Server, .NET Framework Data Provider for SQL Server | .NET Framework Data Provider for SQL Server |
 | SQL Server Data Warehouse |SQL Server Native Client 11.0, Microsoft OLE DB Provider for SQL Server, .NET Framework Data Provider for SQL Server | .NET Framework Data Provider for SQL Server |
-| Oracle |Microsoft OLE DB Provider for Oracle, Oracle Data Provider for .NET |Oracle Data Provider for .NET | |
+| Oracle | Oracle Data Provider for .NET |Oracle Data Provider for .NET | |
 | Teradata |OLE DB Provider for Teradata, Teradata Data Provider for .NET |Teradata Data Provider for .NET | |
 | | | |
 
