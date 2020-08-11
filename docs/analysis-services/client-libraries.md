@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
-ms.date: 08/10/2020
+ms.date: 08/11/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -52,8 +52,8 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64/19.4.0.2-Preview/)    |    19.9.0.0 (Preview)    |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64/19.4.0.2-Preview/)     |   19.9.0.0 (Preview)      |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.9.0.0 (Preview)    |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.9.0.0 (Preview)      |
 
 ::: moniker-end
 
