@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tabular model designer in Visual Studio | Microsoft Docs"
-ms.date: 04/20/2020
+ms.date: 08/14/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -55,7 +55,7 @@ The tabular model designer is part of Analysis Services projects extension for M
   
 ### View Code window  
 
- You can view the code behind a Model.bim file when you right-click select **View Code** on the file in Solution Explorer. For Tabular models at compatibility level 1200 and later, the model definition is expressed in JSON.  
+ You can view the code behind a Model.bim file when you right-click select **View Code** on the file in Solution Explorer. For Tabular models at compatibility level 1200 and higher, the model definition is expressed in JSON.  
   
 ### Solution Explorer  
 
@@ -75,23 +75,13 @@ The tabular model designer is part of Analysis Services projects extension for M
   
  Tabular Model Explorer organizes metadata objects into a tree structure that closely resembles the schema of a tabular model. Data Sources, Perspectives, Relationships, Roles, Tables, and Translations correspond to top-level schema objects. There are some exceptions, specifically KPIs and Measures, which technically aren't top-level objects, but child objects of the various tables in the model. However, having consolidated top-level containers for all KPIs and Measures makes it easier to work with these objects, especially if your model includes a very large number of tables. Measures are also listed under their corresponding parent tables, so you have a clear view of the actual parent-child relationships. If you select a measure in the top-level Measures container, the same measure is also selected in the child collection under its table, and vice-versa.  
 
- Object nodes in Tabular Model Explorer are linked to appropriate menu options that until now were hiding under the Model, Table, and Column menus in Visual Studio. You can right-click an object to explore options for the object type. Not all object node types have a context menu yet, but additional options and improvements are coming in subsequent releases. 
+ Object nodes in Tabular Model Explorer are linked to appropriate menu options that until now were hiding under the Model, Table, and Column menus in Visual Studio. You can right-click an object to explore options for the object type. Not all object node types have a context menu yet, but additional options and improvements are coming in subsequent releases.
 
- Tabular Model Explorer also offers a convenient search feature. Just type in a portion of the name in the Search box and Tabular Model Explorer narrows down the tree view to the matches. 
+ Tabular Model Explorer also offers a convenient search feature. Just type in a portion of the name in the Search box and Tabular Model Explorer narrows down the tree view to the matches.
   
 ### Properties window  
 
- The Properties window lists the properties of the selected object. The following objects have properties that can be viewed and edited in the Properties window:  
-  
-- Model.bim  
-
-- Data Sources
-  
-- Table  
-  
-- Column  
-  
-- Measure  
+ The Properties window lists the properties of the selected object. 
   
  Project properties display only the project name and project folder in the Properties window. Projects also have additional deployment Options and deployment server settings that you can set using a modal properties dialog box. To view these properties, in **Solution Explorer**, right click the project, and then click **Properties**.  
   
@@ -119,18 +109,15 @@ The tabular model designer is part of Analysis Services projects extension for M
   
 ### Menu items  
 
- When you install [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], additional menu items specifically for authoring tabular models are added to the Visual Studio menu bar. The **Model** menu can be used to launch the Data Import Wizard, view existing connections, process workspace data, and browse the model workspace in [!INCLUDE[msCoName](../includes/msconame-md.md)] Excel. The **Table** menu is used to create and manage relationships between tables, create and manage measures, specify data table settings, specify calculation options, and specify other table properties. With the **Column** menu, you can add and delete columns in a table, hide and unhide columns, and specify other column properties such as data types and filters. You can build and deploy tabular model solutions on the **Build** menu. Copy/Paste functions are included on the **Edit** menu.  
+ When you install Analysis Services projects extension, additional menu items specifically for authoring tabular models are added to the Visual Studio menu bar. The In **Extensions**, the **Model** menu can be used to launch Get Data or the Data Import Wizard (depending on compatibility level and Legacy data sources being enabled), view existing connections, process workspace data, and browse the model workspace in Excel. The **Table** menu is used to create and manage relationships between tables, create and manage measures, specify data table settings, specify calculation options, and specify other table properties. With the **Column** menu, you can add and delete columns in a table, hide and unhide columns, and specify other column properties such as data types and filters. You can build and deploy tabular model solutions on the **Build** menu. Copy/Paste functions are included on the **Edit** menu.  
   
  In addition to these menu items, additional settings are added to the Analysis Services options on the Tools menu items.  
   
 ### Toolbar  
 
  The Analysis Services toolbar provides quick and easy access to the most frequently used model authoring commands.  
-  
 
-  
 ## See also  
 
- [Tabular model projects](../../analysis-services/tabular-models/tabular-model-projects-ssas-tabular.md)   
-  
-  
+[Tabular model projects](../../analysis-services/tabular-models/tabular-model-projects-ssas-tabular.md)  
+[Analysis Services tools](../tools-and-applications-used-in-analysis-services.md)

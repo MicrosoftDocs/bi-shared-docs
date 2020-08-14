@@ -1,6 +1,6 @@
 ---
-title: "Tools for Analysis Services | Microsoft Docs"
-ms.date: 07/08/2020
+title: "Analysis Services tools | Microsoft Docs"
+ms.date: 08/14/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -10,7 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
-# Tools for Analysis Services
+# Analysis Services tools
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
