@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
-ms.date: 07/14/2020
+ms.date: 08/11/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -23,10 +23,10 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.48.22    |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.48.22       |
-|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.6.0.0    |
-|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.6.0.0     |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.52.22    |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.52.22       |
+|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.9.0.0    |
+|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.9.0.0     |
 
 ### NuGet packages
 
@@ -43,8 +43,8 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.6.0.0     |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.6.0.0      |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.9.0.0     |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.9.0.0      |
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
@@ -52,8 +52,8 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64/19.4.0.2-Preview/)    |    19.6.0.0 (Preview)    |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64/19.4.0.2-Preview/)     |   19.6.0.0 (Preview)      |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.9.0.0 (Preview)    |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.9.0.0 (Preview)      |
 
 ::: moniker-end
 
@@ -107,7 +107,7 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
 
 ## Known issues
 
-### 19.6.0.0 - AMO and ADOMD .Net Core (Preview) 
+### 19.9.0.0 - AMO and ADOMD .Net Core (Preview) 
 
 - Features in preview should not be used in a production environment. Certain functionality, support, and documentation is limited. Refer to the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) for details.
 
