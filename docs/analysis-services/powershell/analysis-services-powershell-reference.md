@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services PowerShell Reference | Microsoft Docs"
-ms.date: 06/25/2018
+ms.date: 08/17/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: powershell
@@ -8,7 +8,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Analysis Services PowerShell Reference
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
