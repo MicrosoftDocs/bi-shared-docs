@@ -10,4 +10,4 @@
  ms.custom: include file
 ---
 
-**APPLIES TO:** ![yes](media/yes.png)SQL Server 2016 ![yes](media/yes.png)SQL Server 2017 ![yes](media/yes.png)Power BI Report Server
+**Applies to:** ![yes](media/yes.png)SQL Server 2016 ![yes](media/yes.png)SQL Server 2017 ![yes](media/yes.png)Power BI Report Server
