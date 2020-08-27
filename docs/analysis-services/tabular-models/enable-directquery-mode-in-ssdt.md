@@ -1,6 +1,6 @@
 ---
 title: "Enable in Analysis Services DirectQuery mode in Visual Studio | Microsoft Docs"
-ms.date: 07/15/2020
+ms.date: 08/27/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -14,9 +14,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-In this topic, we'll describe how to enable DirectQuery mode for a tabular model project in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)].  
+This article describes how to enable DirectQuery mode for a tabular model project in Tabular model designer in Visual Studio.  
   
-When you enable DirectQuery mode for a tabular model:
+When you enable DirectQuery mode:
 
 - Features that are incompatible with DirectQuery mode are disabled.  
 - The existing model is validated. Warnings are displayed if features are incompatible with DirectQuery mode.  
@@ -30,16 +30,10 @@ In Visual Studio, in the **Properties** pane for the **Model.bim** file, change 
   
 If your model already has a connection to a data source and existing data, you'll be prompted to enter database credentials used to connect to the relational database. Any data already existing within the model will be removed from the in-memory cache.  
   
-If your model is partially or fully complete prior to enabling DirectQuery mode, you might get errors about incompatible features. In Visual Studio, open the **Error List** and resolve any problems that would prevent the model from being switched to DirectQuery mode.  
+If your model is partially or fully complete prior to enabling DirectQuery mode, you might get errors about incompatible features. In Visual Studio, open the **Error List** and resolve any problems that would prevent the model from being switched to DirectQuery mode.
 
-## What's next
+Disregard  **Table \<TableName> does not contain a sample partition; to use data in SSDT please add a sample partition** warnings. Currently, the **Set as Sample** feature is not supported.
 
-You can now import data to get metadata for the model. You won't get rows of data, but you will get tables,  columns, and relationships to use as the basis for your model.
-
-You can create a sample partition for each table and add sample data so that you can verify model behavior as you build it. Any sample data that you add is used in **Analyze for Excel** or in other client tools that can connect to the workspace database. See [Add sample data to a DirectQuery model in design mode](../../analysis-services/tabular-models/add-sample-data-to-a-directquery-model-in-design-mode.md) for details.  
-  
-> [!TIP]
-> Even in DirectQuery mode on an empty model, you can always view a small built-in rowset for each table. In [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click **Table** > **Table Properties** to view the 50-row dataset.  
 
 ## See also
 
