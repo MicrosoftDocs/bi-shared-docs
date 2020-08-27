@@ -1,5 +1,6 @@
 ---
 title: "Enable in Analysis Services DirectQuery mode in Visual Studio | Microsoft Docs"
+description: Describes how to enable DirectQuery mode for tabular models by using Tabular model designer in Visual Studio.
 ms.date: 08/27/2020
 ms.prod: sql
 ms.technology: analysis-services
