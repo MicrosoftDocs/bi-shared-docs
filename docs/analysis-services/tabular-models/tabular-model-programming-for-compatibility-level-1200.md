@@ -45,7 +45,7 @@ Upgrading an existing tabular solution is recommended but not required. Existing
   
 ## Managed code for tabular models and databases
 
- AMO includes a new namespace, Microsoft.AnalysisServices.Tabular, for working with models programmatically. See [Microsoft.AnalysisServices.Tabular Namespace](https://docs.microsoft.com/dotnet/api/microsoft.analysisservices.tabular?view=analysisservices-dotnet) for more information.  
+ AMO includes a new namespace, Microsoft.AnalysisServices.Tabular, for working with models programmatically. See [Microsoft.AnalysisServices.Tabular Namespace](https://docs.microsoft.com/dotnet/api/microsoft.analysisservices.tabular?view=analysisservices-dotnet?preserve-view=true) for more information.  
   
 ## See also
 

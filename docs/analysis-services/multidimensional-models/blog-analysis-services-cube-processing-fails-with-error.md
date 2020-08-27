@@ -58,7 +58,7 @@ Internal error: The operation terminated unsuccessfully. Internal error: The ope
 ; 08S01.** Errors in the OLAP storage engine: An error occurred while the dimension, with the ID of 'Dim Time', Name of 'Date' was being processed. Errors in the OLAP storage engine: An error occurred while the 'Fiscal Year' attribute of the 'Date' dimension from the 'AdventureWorksDW2012Multidimensional-EE' database was being processed. OLE DB error: OLE DB or ODBC error: Communication link failure; 08S01; Shared Memory Provider: No process is on the other end of the pipe.
 ```
 
-To understand this output, `08S01` means `DB_E_CANNOTCONNECT` from the provider. This HResult is a bit of a misnomer. It could be that the system can’t connect or that it's been disconnected or canceled by the provider or the server if the query was canceled.
+To understand this output, `08S01` means `DB_E_CANNOTCONNECT` from the provider. This HResult is a bit of a misnomer. It could be that the system can't connect or that it's been disconnected or canceled by the provider or the server if the query was canceled.
 
 Check the `OLAP\Log\Msmdsrv.log` file. You might get the error message in case your application didn't log it.
 
@@ -105,15 +105,15 @@ command.CommandText = "Select * from DimTable";
 command.CommandTimeout = 15;
 ```  
 
-In the preceding example, if 15 seconds pass and the query hasn’t yet finished, the OLE DB provider cancels the query on behalf of the caller. The caller doesn’t have to keep any timer because the timeout is set in the provider layer. But if the query fails, the caller doesn’t really know how long it took and if it was a timeout or not.
+In the preceding example, if 15 seconds pass and the query hasn't yet finished, the OLE DB provider cancels the query on behalf of the caller. The caller doesn't have to keep any timer because the timeout is set in the provider layer. But if the query fails, the caller doesn't really know how long it took and if it was a timeout or not.
 
-In OLE DB terms, this property is called **DBPROP_COMMANDTIMEOUT** on the **DBPROPSET_ROWSET** object. This property lets you run queries for a certain amount of time. If the command doesn’t finish, it's canceled. In SQL Server, you can see such timeouts with an Attention event in the profiler trace. In that profiler trace, the event duration exactly matches the duration of the command timeout.
+In OLE DB terms, this property is called **DBPROP_COMMANDTIMEOUT** on the **DBPROPSET_ROWSET** object. This property lets you run queries for a certain amount of time. If the command doesn't finish, it's canceled. In SQL Server, you can see such timeouts with an Attention event in the profiler trace. In that profiler trace, the event duration exactly matches the duration of the command timeout.
 
 The command timeout setting isn't set on the connection or the connection string itself. It must be set after a connection is established, as each command object is used. There's a similar connection timeout, `DBPROP_INIT_TIMEOUT` on the `DBPROPSET_DBINIT` object. In Analysis Services, the connection timeout is the separate property **ExternalConnectionTimeout**. This setting is applicable for making initial contact with the server and checking the authentication and authorization of accounts. This setting doesn't affect long-running queries typically, because the initial connection was successful without failure.
 
 You can control the OLE DB command timeout in Analysis Services. There's an **ExternalCommandTimeout** setting in the advanced options on the Analysis Services instance. The default value is 60 mins (one hour).   That timeout value might not be long enough. This default configuration allows any one T-SQL query to the relational database to last one hour or more. After that point, the command is canceled by the OLE DB provider used to connect to that system, and the Analysis Services processing command fails.
 
-The [ExternalCommandTimeout](https://docs.microsoft.com/sql/analysis-services/server-properties/general-properties?view=sql-server-2017) integer property defines the timeout, in seconds, for commands issued to external servers, which includes relational data sources and external Analysis Services servers.
+The [ExternalCommandTimeout](https://docs.microsoft.com/sql/analysis-services/server-properties/general-properties?view=sql-server-2017?preserve-view=true) integer property defines the timeout, in seconds, for commands issued to external servers, which includes relational data sources and external Analysis Services servers.
 The default value for this property is 3,600 seconds.
 
 If you expect the processing queries to take more than one hour, raise the timeout higher than one hour. In one example, the processing join queries took around nine hours to complete on a 2-TB database with some large complex joins.
@@ -159,9 +159,9 @@ exec sp_configure 'max server memory';
 -- look at config_value in the results for the current MB setting configured
 ```
 
-The ETL processes that typically run rarely benefit from the normal buffering of the SQL Server database engine’s buffer pool. Consider SQL Server Integration Services (SSIS) packages that import large sets of data from a transactional system into a data warehouse system. ETL operations often use BULK INSERT commands that don’t require much warm data in memory.
+The ETL processes that typically run rarely benefit from the normal buffering of the SQL Server database engine's buffer pool. Consider SQL Server Integration Services (SSIS) packages that import large sets of data from a transactional system into a data warehouse system. ETL operations often use BULK INSERT commands that don't require much warm data in memory.
 
-Other ETL operations during the ETL phase of building a data warehouse benefit from SQL’s large buffer pool. The read (SELECT) and UPDATE and JOIN parts of the ETL processing, such as Lookups and slowly changing dimension updates, use cached warm data in memory, if available. Lowering the SQL Server Database Engine’s memory might have a side effect on those parts of the ETL imports that usually go on just before cube processing.
+Other ETL operations during the ETL phase of building a data warehouse benefit from SQL's large buffer pool. The read (SELECT) and UPDATE and JOIN parts of the ETL processing, such as Lookups and slowly changing dimension updates, use cached warm data in memory, if available. Lowering the SQL Server Database Engine's memory might have a side effect on those parts of the ETL imports that usually go on just before cube processing.
 
 Reading data from RAM is 1000-1million times faster than reading from your average spinning disk drive, so shrinking the SQL buffer pool means more disk reads. Unless you have high-end solid-state disks (SSDs) or a high-end SAN, you might wait a little more.
 
@@ -196,7 +196,7 @@ If memory is the culprit, gather a profiler trace and these performance counters
 
 ### Review the Performance Monitor results
 
-1. Look at the SQL Server engine’s counter to see if **SQL Memory** > **Total Server Memory** was increasing out of control.
+1. Look at the SQL Server engine's counter to see if **SQL Memory** > **Total Server Memory** was increasing out of control.
 
 2. Look at the **Memory** > **Available MBytes** counter to see how much free memory was available to the processes running in Windows.
 
@@ -239,7 +239,7 @@ If the system is timing out, you might need to scale back the number of parallel
 
 You might be able to throttle the system better by reducing the **MaxThreads** configuration by 50% and reprocessing the objects so that fewer threads run at once.
 
-In the worst case, run processing in **Sequential** mode to see if the errors go away. The system takes less memory to run a sequence of one task at a time rather than many tasks at once. The tradeoff might be that it runs longer because you can’t push the system hardware to the same throughput limits. 
+In the worst case, run processing in **Sequential** mode to see if the errors go away. The system takes less memory to run a sequence of one task at a time rather than many tasks at once. The tradeoff might be that it runs longer because you can't push the system hardware to the same throughput limits. 
 
 To learn more about processing best practices, see [SQL Server best practices](https://docs.microsoft.com/previous-versions/sql/sql-server-2005/administrator/cc966525(v=technet.10)).
 
