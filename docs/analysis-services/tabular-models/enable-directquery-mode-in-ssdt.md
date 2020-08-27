@@ -33,8 +33,8 @@ If your model already has a connection to a data source and existing data, you'l
   
 If your model is partially or fully complete prior to enabling DirectQuery mode, you might get errors about incompatible features. In Visual Studio, open the **Error List** and resolve any problems that would prevent the model from being switched to DirectQuery mode.
 
-Disregard  **Table \<TableName> does not contain a sample partition; to use data in SSDT please add a sample partition** warnings. Currently, the **Set as Sample** feature is not supported.
-
+> [!NOTE]
+> Disregard  **Table \<TableName> does not contain a sample partition; to use data in SSDT please add a sample partition** warnings. Currently, the **Set as Sample** feature is not supported. To learn more, see [Adding sample data to a DirectQuery model project](directquery-mode-ssas-tabular.md#adding-sample-data-to-a-directquery-model-project).
 
 ## See also
 

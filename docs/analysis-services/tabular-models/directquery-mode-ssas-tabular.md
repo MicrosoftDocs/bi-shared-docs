@@ -63,7 +63,8 @@ If you've already used Get Data to import data, but haven't yet turned on Direct
 
 By default, when using Tabular model designer in Visual Studio (SSDT) to design a DirectQuery tabular model project, the model's workspace database doesn't contain any data. There is one default partition for each table and this partition directs all queries to the data source. Since DirectQuery was first introduced, Tabular model designer includes a **Set as Sample** feature in Partition Manager. This feature allows adding a copy partition to tables that can be used to import a small amount of sample data into the workspace database. This feature is meant help validate modeling decisions without impacting the data source. 
 
-Currently, **the Set as Sample feature is not supported**. Disregard  **Table \<TableName> does not contain a sample partition; to use data in SSDT please add a sample partition** warnings.
+> [!IMPORTANT]
+> Currently, the **Set as Sample** feature *in Tabular model designer* is not supported. Disregard  **Table \<TableName> does not contain a sample partition; to use data in SSDT please add a sample partition** warnings.
 
 :::image type="content" source="media/directquery-mode-ssas-tabular.png" alt-text="Partition Manager":::
 

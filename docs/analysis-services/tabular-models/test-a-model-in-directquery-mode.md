@@ -26,7 +26,7 @@ Review your options for testing a tabular model in DirectQuery mode at each stag
  If your model's DirectQuery mode is on, you can specify DirectQuery connection mode, where you'll have two options:
 
 - **Sample data view** - With this option, any queries from Excel are directed to sample partitions containing a sample dataset in-memory. This option is helpful when you want to make sure any DAX formulas you have in measures, calculated columns, or row-level security perform correctly.
-    > [!NOTE]
+    > [!IMPORTANT]
     > Sample partitions created in Partition Manager are currently not supported. To learn more, see [Adding sample data to a DirectQuery model project](directquery-mode-ssas-tabular.md#adding-sample-data-to-a-directquery-model-project).
 
 - **Full data view** - With this option, any queries from Excel are sent to Analysis Services, and then on to the relational database. This option is, in-effect, fully functioning DirecQuery mode.
