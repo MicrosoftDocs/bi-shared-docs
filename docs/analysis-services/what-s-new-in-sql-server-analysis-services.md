@@ -543,4 +543,4 @@ Data sources supported for tabular 1200 models in DirectQuery mode now include O
 
 ## Earlier versions
 
-[SQL Server 2014 Analysis Services](https://docs.microsoft.com/sql/analysis-services/analysis-services?view=sql-server-2014)
+[SQL Server 2014 Analysis Services](https://docs.microsoft.com/sql/analysis-services/analysis-services?view=sql-server-2014&preserve-view=true)
