@@ -53,7 +53,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
     These settings limit the number of rows returned and specify the caption that appears in the client application menu. The following image shows these settings in the **AdditionalProperties** box.  
   
-    ![Additional Properties box](../media/l8-action5.gif "Additional Properties box")  
+    ![Additional Properties settings](../media/l8-action5.gif "Additional Properties box")  
   
 ## Using the Drillthrough Action  
   
@@ -75,7 +75,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
     The details of the orders that were shipped to Adam Powell are displayed in the **Data Sample Viewer**, as shown in the following image. However, some additional details would also be useful, such as the order date, due date, and ship date. In the next procedure, you will add these additional details.  
   
-    ![Orders shipped to Adam Powell](../media/l8-action6.gif "Orders shipped to Adam Powell")  
+    ![Orders shipped to Adam Powell in Data Sample Viewer](../media/l8-action6.gif "Orders shipped to Adam Powell")  
   
 8.  Close Excel/  
   
@@ -117,7 +117,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
     The following image shows these columns selected.  
   
-    ![Drillthrough Columns box](../media/l8-action7.gif "Drillthrough Columns box")  
+    ![Item Description in Drillthrough Columns box](../media/l8-action7.gif "Drillthrough Columns box")  
   
 ## Reviewing the Modified Drillthrough Action  
   
@@ -135,7 +135,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
     The details of these orders shipped to Adam Powell are displayed in a temporary worksheet. This includes item description, order number, order date, due date, and ship date information, as shown in the following image.  
   
-    ![Orders shipped to Adam Powell](../media/l8-action8.gif "Orders shipped to Adam Powell")  
+    ![Orders shipped to Adam Powell in temp worksheet](../media/l8-action8.gif "Orders shipped to Adam Powell")  
   
 ## Next Lesson  
 [Lesson 9: Defining Perspectives and Translations](lesson-9-defining-perspectives-and-translations.md)  

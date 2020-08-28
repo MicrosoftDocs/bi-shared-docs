@@ -312,8 +312,6 @@
         href: ../analysis-services/tabular-models/enable-directquery-mode-in-ssdt.md
       - name: Enable DirectQuery mode in SSMS
         href: ../analysis-services/tabular-models/enable-directquery-mode-in-ssms.md
-      - name: Add sample data to DirectQuery models
-        href: ../analysis-services/tabular-models/add-sample-data-to-a-directquery-model-in-design-mode.md
       - name: Define partitions in DirectQuery models
         href: ../analysis-services/tabular-models/define-partitions-in-directquery-models-ssas-tabular.md
       - name: Test a model in DirectQuery mode

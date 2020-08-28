@@ -37,7 +37,7 @@ Documentation you see in the ToC to the left is known as the core Analysis Servi
 
 In the core documentation, at the top of each article an **APPLIES TO** banner indicates the platforms and versions the article applies to. Keep in mind, feature and functionality changes are happening to each platform all the time. When they do, we make every effort to update the documentation.
 
-Looking for **SQL Server 2014 Analysis Services** documentation? - SQL Server 2014 Analysis Services documentation is kept separate from later version documentation. This is due to changing documentation models used on docs.microsoft.com compared to MSDN, where SQL Server 2014 and earlier Books Online documentation was originally published. Go to [SQL Server 2014 Analysis Services documentation](https://docs.microsoft.com/sql/analysis-services/analysis-services?view=sql-server-2014). Need to go back even further? See [SQL Server previous versions documentation](https://docs.microsoft.com/previous-versions/sql/).
+Looking for **SQL Server 2014 Analysis Services** documentation? - SQL Server 2014 Analysis Services documentation is kept separate from later version documentation. This is due to changing documentation models used on docs.microsoft.com compared to MSDN, where SQL Server 2014 and earlier Books Online documentation was originally published. Go to [SQL Server 2014 Analysis Services documentation](https://docs.microsoft.com/sql/analysis-services/analysis-services?view=sql-server-2014&preserve-view=true). Need to go back even further? See [SQL Server previous versions documentation](https://docs.microsoft.com/previous-versions/sql/).
 
 ## See also
 
