@@ -47,7 +47,7 @@ Up to this point in the tutorial, each cube dimension that you defined was based
   
     The following image shows the **Define Relationship** dialog box with a regular relationship between the **DimCustomer** dimension table and the **FactInternetSales** measure group table.  
   
-    ![Define Relationship dialog box](../media/l5-referencedrelationship-4.gif "Define Relationship dialog box")  
+    ![Define Relationship dialog box with a regular relationship](../media/l5-referencedrelationship-4.gif "Define Relationship dialog box")  
   
 9. Click **Cancel**.  
   

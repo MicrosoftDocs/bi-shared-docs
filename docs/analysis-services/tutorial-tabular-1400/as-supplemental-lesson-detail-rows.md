@@ -1,6 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial supplemental lesson: Detail Rows | Microsoft Docs"
-ms.date: 02/20/2020
+ms.date: 08/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -29,11 +29,11 @@ Let's look at the details of the InternetTotalSales measure, before adding a Det
   
 2.  In **PivotTable Fields**, add the **InternetTotalSales** measure from the FactInternetSales table to **Values**, **CalendarYear** from the DimDate table to **Columns**, and **EnglishCountryRegionName** from the DimGeography table to **Rows**. The PivotTable now shows aggregated results from the InternetTotalSales measure by regions and year. 
 
-    ![as-lesson-detail-rows-pivottable](../tutorial-tabular-1400/media/as-lesson-detail-rows-pivottable.png)
+    ![Aggregated results from the InternetTotalSales measure by regions and year](../tutorial-tabular-1400/media/as-lesson-detail-rows-pivottable.png)
 
 3. In the PivotTable, double-click an aggregated value for a year and a region name. Here we double-clicked the value for Australia and the year 2014. A new sheet opens containing data, but not useful data.
 
-    ![as-lesson-detail-rows-pivottable](../tutorial-tabular-1400/media/as-lesson-detail-rows-sheet.png)
+    ![Worksheet with no useful data](../tutorial-tabular-1400/media/as-lesson-detail-rows-sheet.png)
   
 What we want to see here is a table containing columns and rows of data that contribute to the aggregated result of the InternetTotalSales measure. To do that, we can add a Detail Rows Expression as a property of the measure.
 
@@ -51,13 +51,13 @@ What we want to see here is a table containing columns and rows of data that con
 
     ```
     SELECTCOLUMNS(
-	FactInternetSales,
-	"Sales Order Number", FactInternetSales[SalesOrderNumber],
-	"Customer First Name", RELATED(DimCustomer[FirstName]),
-	"Customer Last Name", RELATED(DimCustomer[LastName]),
-	"City", RELATED(DimGeography[City]),
-	"Order Date", FactInternetSales[OrderDate],
-	"Internet Total Sales", [InternetTotalSales]
+    FactInternetSales,
+    "Sales Order Number", FactInternetSales[SalesOrderNumber],
+    "Customer First Name", RELATED(DimCustomer[FirstName]),
+    "Customer Last Name", RELATED(DimCustomer[LastName]),
+    "City", RELATED(DimGeography[City]),
+    "Order Date", FactInternetSales[OrderDate],
+    "Internet Total Sales", [InternetTotalSales]
     )
 
     ```
