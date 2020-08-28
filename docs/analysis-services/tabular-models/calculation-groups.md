@@ -1,6 +1,6 @@
 ---
 title: "Calculation groups in Analysis Services tabular models | Microsoft Docs"
-ms.date: 03/31/2020
+ms.date: 08/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -178,7 +178,7 @@ CALCULATETABLE (
 
 The return table shows calculations for each calculation item applied. For example, see QTD for March 2012 is the sum of January, February and March 2012.
 
-![Query return](media/calculation-groups/calc-groups-query-return.png)
+![Time intelligence query return](media/calculation-groups/calc-groups-query-return.png)
 
 
 ## Dynamic format strings
@@ -318,7 +318,7 @@ EVALUATE
 
 #### Averages query return
 
-![Query return](media/calculation-groups/calc-groups-ytd-daily-avg.png)
+![Averages query return](media/calculation-groups/calc-groups-ytd-daily-avg.png)
 
 The following table shows how the March 2012 values are calculated.
 

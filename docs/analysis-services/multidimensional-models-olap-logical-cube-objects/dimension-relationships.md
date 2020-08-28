@@ -1,6 +1,6 @@
 ---
 title: "Dimension Relationships | Microsoft Docs"
-ms.date: 05/02/2018
+ms.date: 08/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: olap
@@ -22,7 +22,7 @@ manager: kfile
 ## Reference Dimension Relationships  
  A reference dimension relationship between a cube dimension and a measure group exists when the key column for the dimension is joined indirectly to the fact table through a key in another dimension table, as shown in the following illustration.  
   
- ![Logical diagram, referenced dimension relationship](../../analysis-services/multidimensional-models-olap-logical-cube-objects/media/as-refdimension1.gif "Logical diagram, referenced dimension relationship")  
+ ![Logical diagram](../../analysis-services/multidimensional-models-olap-logical-cube-objects/media/as-refdimension1.gif "Logical diagram, referenced dimension relationship")  
   
  A reference dimension relationship represents the relationship between dimension tables and a fact table in a snowflake schema design. When dimension tables are connected in a snowflake schema, you can define a single dimension using columns from multiple tables, or you can define separate dimensions based on the separate dimension tables and then define a link between them using the reference dimension relationship setting. The following figure shows one fact table named **InternetSales**, and two dimension tables called **Customer** and **Geography**, in a snowflake schema.  
   
