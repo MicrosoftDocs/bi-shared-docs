@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services tutorial lesson 2: Get data | Microsoft Docs"
-ms.date: 02/20/2020
+ms.date: 08/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -29,13 +29,13 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 ## Create a connection  
   
-#### To create a connection to the AdventureWorksDW database  
+#### To create a connection to the AdventureWorksDW database
   
 1.  In **Tabular Model Explorer**, right-click **Data Sources** > **Import from Data Source**.  
   
     This launches **Get Data**, which guides you through connecting to a data source. If you don't see Tabular Model Explorer, in **Solution Explorer**, double-click **Model.bim** to open the model in the designer. 
     
-    ![as-lesson2-getdata](../tutorial-tabular-1400/media/as-lesson2-getdata.png)
+    ![Get Data dialog](../tutorial-tabular-1400/media/as-lesson2-getdata.png)
   
 2.  In Get Data, click **Azure** > **Azure SQL Data Warehouse**, and then click **Connect**.  
   
@@ -45,7 +45,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
 
 4.  When prompted to enter credentials, you need to specify the credentials Analysis Services uses to connect to the data source when importing and processing data. Select **Microsoft account**, and then click **Sign in**. Follow the prompts. When you're signed in, click **Connect**.
 
-    ![as-lesson2-account](../tutorial-tabular-1400/media/as-lesson2-account.png)
+    ![Enter credentials dialog](../tutorial-tabular-1400/media/as-lesson2-account.png)
   
     If your datasource is an on-premises or VM SQL Server Data Warehouse, choose **Windows** > **Impersonate Account**, and then enter an account name and password.
   

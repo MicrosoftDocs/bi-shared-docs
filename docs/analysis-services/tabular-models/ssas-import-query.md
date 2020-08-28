@@ -1,6 +1,6 @@
 ---
 title: "Import data by using a native query (Analysis Services) | Microsoft Docs"
-ms.date: 01/29/2020
+ms.date: 08/28/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -50,7 +50,7 @@ This native query creates an Employee table in the model that includes all colum
 
 After importing, a table named Employees is created in the model.   
 
-![Query editor](media/ssas-import-query-example-table.png)
+![Table in Tabular Model Explorer](media/ssas-import-query-example-table.png)
 
 
 ## See also  
