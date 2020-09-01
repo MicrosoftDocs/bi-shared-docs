@@ -1,5 +1,6 @@
 ---
 title: "Association Model Query Examples | Microsoft Docs"
+desciption: Learn how to create these kinds of queries for models that are based on the Microsoft Association Rules algorithm.
 ms.date: 06/05/2019
 ms.prod: sql
 ms.technology: analysis-services
