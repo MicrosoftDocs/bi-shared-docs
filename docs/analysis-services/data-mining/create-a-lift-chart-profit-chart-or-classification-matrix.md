@@ -1,5 +1,6 @@
 ---
 title: "Create a Lift Chart, Profit Chart, or Classification Matrix | Microsoft Docs"
+description: Learn how to create an accuracy chart, and use the same steps for the lift chart, profit chart, and classification matrix in SQL Server Data Tools.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

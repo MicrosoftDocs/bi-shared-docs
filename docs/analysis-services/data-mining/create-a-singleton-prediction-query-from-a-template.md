@@ -1,5 +1,6 @@
 ---
 title: "Create a Singleton Prediction Query from a Template | Microsoft Docs"
+description: Learn how to use the Template Explorer in SQL Server Management Studio to create a singleton prediction query.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

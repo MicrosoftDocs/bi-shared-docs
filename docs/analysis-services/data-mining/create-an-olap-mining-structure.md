@@ -1,5 +1,6 @@
 ---
 title: "Create an OLAP Mining Structure | Microsoft Docs"
+description: Learn how to create an OLAP mining structure based on a dimension and related measures in an existing multidimensional solution.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

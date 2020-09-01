@@ -1,5 +1,6 @@
 ---
 title: "Create a Singleton Query in the Data Mining Designer | Microsoft Docs"
+description: Learn how to use the Data Mining Designer to create a singleton prediction query and modify the query by changing the DMX statement.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services
