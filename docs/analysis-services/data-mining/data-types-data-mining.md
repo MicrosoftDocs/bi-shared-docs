@@ -1,5 +1,6 @@
 ---
 title: "Data Types (Data Mining) | Microsoft Docs"
+description: Learn about the data types and content types that SQL Server Analysis Services supports for mining structure columns.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

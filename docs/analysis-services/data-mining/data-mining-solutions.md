@@ -1,5 +1,6 @@
 ---
 title: "Data Mining Solutions | Microsoft Docs"
+description: Learn how to design and implement a data mining solution, which contains data mining projects in SQL Server Analysis Services.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services
