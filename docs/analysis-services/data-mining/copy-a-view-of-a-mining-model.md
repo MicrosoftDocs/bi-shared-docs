@@ -1,5 +1,6 @@
 ---
 title: "Copy a View of a Mining Model | Microsoft Docs"
+description: In this article, learn how to copy a view of a mining model.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

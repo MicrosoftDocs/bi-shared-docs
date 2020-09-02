@@ -1,5 +1,6 @@
 ---
 title: "Using Member Properties (MDX) | Microsoft Docs"
+description: Learn how Member properties cover the basic information about each member in each tuple, for example the member name, parent level, the number of children, and so on.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

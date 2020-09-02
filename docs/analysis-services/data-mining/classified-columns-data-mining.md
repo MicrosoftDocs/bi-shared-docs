@@ -1,5 +1,6 @@
 ---
 title: "Classified Columns (Data Mining) | Microsoft Docs"
+description: Learn that when you define a classified column, you create a relationship between the current column and another column in the mining structure. 
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

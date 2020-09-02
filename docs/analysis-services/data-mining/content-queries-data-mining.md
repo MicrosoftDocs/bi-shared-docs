@@ -1,5 +1,6 @@
 ---
 title: "Content Queries (Data Mining) | Microsoft Docs"
+description: Learn that a content query is a way of extracting information about the internal statistics and structure of the mining model. 
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

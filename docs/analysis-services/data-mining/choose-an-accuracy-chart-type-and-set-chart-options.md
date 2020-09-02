@@ -1,5 +1,6 @@
 ---
 title: "Choose an Accuracy Chart Type and Set Chart Options | Microsoft Docs"
+description: In this article, learn how to choose an accuracy chart type. You can also learn how to set chart options.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

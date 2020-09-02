@@ -1,5 +1,6 @@
 ---
 title: "Modifying Data (MDX) | Microsoft Docs"
+description: Learn how to use Multidimensional Expressions (MDX) to update or writeback dimension and cube data.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
