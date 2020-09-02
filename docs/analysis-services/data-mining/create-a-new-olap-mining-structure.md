@@ -1,5 +1,6 @@
 ---
 title: "Create a New OLAP Mining Structure | Microsoft Docs"
+description: Learn how to create an OLAP mining structure by using the Data Mining Wizard in Microsoft SQL Server Analysis Services.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Data Mining Architecture | Microsoft Docs"
+description: Learn about the architecture of data mining solutions, including the architecture of an Analysis Services instance that supports data mining.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

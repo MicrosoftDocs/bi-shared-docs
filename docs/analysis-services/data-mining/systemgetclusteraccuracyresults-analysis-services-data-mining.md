@@ -46,11 +46,11 @@ SystemGetClusterAccuracyResults(
  *data set*  
  An integer value that indicates which partition in the mining structure is to be used for testing. The value is derived from a bitmask that represents the sum of the following values, where any single value is optional:  
   
-|||  
-|-|-|  
-|Training cases|0x0001|  
-|Test cases|0x0002|  
-|Model filter|0x0004|  
+- Training cases: 0x0001
+
+- Test cases: 0x0002
+
+- Model filter: 0x0004
   
  For a complete list of possible values, see the Remarks section of this topic.  
   

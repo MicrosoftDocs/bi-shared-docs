@@ -1,5 +1,6 @@
 ---
 title: "Translation support in Analysis Services | Microsoft Docs"
+description: Learn how Analysis Services supports translations to provide culture-specific strings based on the locale identifier (LCID).
 ms.date: 01/28/2020
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Create a Prediction Query Using the Prediction Query Builder | Microsoft Docs"
+description: Learn how to create a prediction query by using the Prediction Query Builder while building a data mining solution or for an existing solution.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

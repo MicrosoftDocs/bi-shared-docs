@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Association Algorithm Technical Reference | Microsoft Docs"
+description: Lean about the Association Rules algorithm, which is a straightforward implementation of the well-known Apriori algorithm.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -55,8 +55,8 @@ manager: kfile
   
      Notice that the following filters are mutually exclusive within each set:  
   
-    |||  
-    |-|-|  
+    | Set | Value |
+    | --- | ----- |  
     |Set 1:|"SaleYear" = 2012<br /><br /> "SaleYear" = 2013|  
     |Set 2:|"Continent" = 'NorthAmerica'<br /><br /> "Continent" = 'Europe'<br /><br /> "Continent" = 'SouthAmerica'|  
     |Set 3:|"Country" = 'USA'<br /><br /> "Country" = 'Mexico'<br /><br /> ("Country" <> 'USA' AND "Country" <> 'Mexico')|  

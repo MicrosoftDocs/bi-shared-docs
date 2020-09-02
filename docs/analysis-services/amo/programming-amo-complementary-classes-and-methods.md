@@ -1,5 +1,6 @@
 ---
 title: "Programming AMO complementary classes and methods | Microsoft Docs"
+description: Learn how to use programming AMO complementary classes and methodsto add an assembly to the provided database and assigns the service account to run the assembly.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

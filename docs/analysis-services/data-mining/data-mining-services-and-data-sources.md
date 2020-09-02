@@ -1,5 +1,6 @@
 ---
 title: "Data Mining Services and Data Sources | Microsoft Docs"
+description: Learn about connecting to an instance of SQL Server Analysis Services to create, process, deploy, and query data mining models.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

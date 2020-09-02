@@ -125,9 +125,8 @@ WHERE (Measures.[Internet Sales Amount],
   
  The obtained result set is:  
   
-|||||  
-|-|-|-|-|  
-||**Reseller Sales Amount**|**Discount Amount**|**PCT Discount**|  
+| | Reseller Sales Amount | Discount Amount | PCT Discount |
+|-| --------------------- | --------------- | ------------ |
 |**Mountain-200**|**$14,356,699.36**|**$19,012.71**|**0.13%**|  
 |**Road-250**|**$9,377,457.68**|**$4,032.47**|**0.04%**|  
 |**Mountain-100**|**$8,568,958.27**|**$139,393.27**|**1.63%**|  
@@ -177,9 +176,8 @@ WHERE (Measures.[Internet Sales Amount],
   
  As per the following results, both sets (Top10SellingProducts, Preferred10Products) are the same  
   
-|||||  
-|-|-|-|-|  
-||**Reseller Sales Amount**|**Discount Amount**|**PCT Discount**|  
+| | Reseller Sales Amount | Discount Amount | PCT Discount |
+|-| --------------------- | --------------- | ------------ |
 |**Mountain-200**|**$14,356,699.36**|**$19,012.71**|**0.13%**|  
 |**Road-250**|**$9,377,457.68**|**$4,032.47**|**0.04%**|  
 |**Mountain-100**|**$8,568,958.27**|**$139,393.27**|**1.63%**|  
@@ -209,9 +207,8 @@ WHERE (Measures.[Internet Sales Amount],
   
  Produces the following result set:  
   
-|||||  
-|-|-|-|-|  
-||**Reseller Sales Amount**|**Discount Amount**|**PCT Discount**|  
+| | Reseller Sales Amount | Discount Amount | PCT Discount |
+|-| --------------------- | --------------- | ------------ |
 |**Mountain-200**|**$14,356,699.36**|**$19,012.71**|**0.13%**|  
 |**Mountain-100**|**$8,568,958.27**|**$139,393.27**|**1.63%**|  
 |**HL Mountain Frame**|**$3,365,069.27**|**$174.11**|**0.01%**|  
@@ -267,9 +264,8 @@ WHERE (Measures.[Internet Sales Amount],
   
  Produces the following result set:  
   
-|||||  
-|-|-|-|-|  
-||**Reseller Sales Amount**|**Discount Amount**|**PCT Discount**|  
+| | Reseller Sales Amount | Discount Amount | PCT Discount |
+|-| --------------------- | --------------- | ------------ |
 |**Mountain-200**|**$14,356,699.36**|**$19,012.71**|**0.13%**|  
 |**Mountain-100**|**$8,568,958.27**|**$139,393.27**|**1.63%**|  
 |**HL Mountain Frame**|**$3,365,069.27**|**$174.11**|**0.01%**|  
@@ -296,9 +292,8 @@ WHERE (Measures.[Internet Sales Amount],
   
  The following result set now shows the shallow behavior of Autoexists.  
   
-|||||  
-|-|-|-|-|  
-||**Reseller Sales Amount**|**Discount Amount**|**PCT Discount**|  
+| | Reseller Sales Amount | Discount Amount | PCT Discount |
+|-| --------------------- | --------------- | ------------ |
 |**Mountain-200**|**$14,356,699.36**|**$19,012.71**|**0.13%**|  
 |**Mountain-100**|**$8,568,958.27**|**$139,393.27**|**1.63%**|  
 |**HL Mountain Frame**|**$3,365,069.27**|**$174.11**|**0.01%**|  

@@ -1,5 +1,6 @@
 ---
 title: "Data Mining Stored Procedures (Analysis Services - Data Mining) | Microsoft Docs"
+description: Learn about data mining stored procedures that can be written in any managed language in SQL Server Analysis Services.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Decision Trees Algorithm Technical Reference | Microsoft Docs"
+description: Learn about the Microsoft Decision Trees algorithm, a hybrid algorithm that incorporates methods for creating a tree, and supports multiple analytic tasks.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

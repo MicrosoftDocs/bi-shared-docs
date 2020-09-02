@@ -1,5 +1,6 @@
 ---
 title: "Introducing AMO Classes | Microsoft Docs"
+description: Learn how Analysis Management Objects (AMO) is a library of classes designed to manage an Analysis Services instance from a client application.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services
