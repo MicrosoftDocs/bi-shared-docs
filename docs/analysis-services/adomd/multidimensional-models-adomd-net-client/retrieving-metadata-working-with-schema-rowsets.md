@@ -1,5 +1,6 @@
 ---
 title: "Working with Schema Rowsets in ADOMD.NET | Microsoft Docs"
+description: Learn how ADOMD.NET provides can help retrieve the full range of XML for Analysis (XMLA), OLE DB, OLE DB for OLAP, and OLE DB for Data Mining schema rowsets.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

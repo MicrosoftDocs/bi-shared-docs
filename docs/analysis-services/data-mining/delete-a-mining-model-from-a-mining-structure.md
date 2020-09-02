@@ -1,5 +1,6 @@
 ---
 title: "Delete a Mining Model from a Mining Structure | Microsoft Docs"
+description: Learn how to delete mining models by using Data Mining Designer, by using SQL Server Management Studio, or by using DMX statements.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

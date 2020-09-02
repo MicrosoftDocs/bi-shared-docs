@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Clustering Algorithm | Microsoft Docs"
+description: Learn about the Microsoft Clustering algorithm, which iterates over cases in a dataset to group them into clusters that contain similar characteristics.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Measures in the Cross-Validation Report | Microsoft Docs"
+description: Learn about measures in the cross-validation report, which tests the data mining structure and any associated mining models in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

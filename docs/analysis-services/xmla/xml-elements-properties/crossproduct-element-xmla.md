@@ -53,12 +53,44 @@ manager: kfile
   
 ## Example  
  The following example illustrates the structure of the **CrossProduct** element when a client specifies *ClusterFormat* for the **AxisFormat** XMLA property, given the following members for the axis:  
-  
-||||||  
-|-|-|-|-|-|  
-|**Time** hierarchy|1999|1999|2000|2001|  
-|**Category** hierarchy|Actual|Budget|Budget|Budget|  
-|Clusters|Cluster 1|Cluster 1|Cluster 1|Cluster 2|  
+
+:::row:::
+    :::column:::
+        **Time** hierarchy
+
+        **Category** hierarchy
+
+        Clusters
+    :::column-end:::
+    :::column:::
+        1999
+
+        Actual
+
+        Clusters 1
+    :::column-end:::
+    :::column:::
+        1999
+
+        Budget
+
+        Clusters 1
+    :::column-end:::
+    :::column:::
+        2000
+
+        Budget
+
+        Clusters 1
+    :::column-end:::
+    :::column:::
+        2001
+
+        Budget
+
+        Clusters 2
+    :::column-end:::
+:::row-end:::
   
 ```xml  
 <Axes>  

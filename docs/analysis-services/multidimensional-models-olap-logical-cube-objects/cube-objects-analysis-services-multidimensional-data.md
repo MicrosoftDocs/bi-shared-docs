@@ -22,20 +22,19 @@ manager: kfile
   
 ## In this section  
   
-|||  
-|-|-|  
-|Topic||  
-|[Actions &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models/actions-analysis-services-multidimensional-data.md)||  
-|[Aggregations and Aggregation Designs](../../analysis-services/multidimensional-models-olap-logical-cube-objects/aggregations-and-aggregation-designs.md)||  
-|[Calculations](../../analysis-services/multidimensional-models-olap-logical-cube-objects/calculations.md)||  
-|[Cube Cells &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models-olap-logical-cube-objects/cube-cells-analysis-services-multidimensional-data.md)||  
-|[Cube Properties - Multidimensional Model Programming](../../analysis-services/multidimensional-models-olap-logical-cube-objects/cube-properties-multidimensional-model-programming.md)||  
-|[Cube Storage &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models-olap-logical-cube-objects/cube-storage-analysis-services-multidimensional-data.md)||  
+| Topic |  
+| ----- |
+|[Actions &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models/actions-analysis-services-multidimensional-data.md)|
+|[Aggregations and Aggregation Designs](../../analysis-services/multidimensional-models-olap-logical-cube-objects/aggregations-and-aggregation-designs.md)|
+|[Calculations](../../analysis-services/multidimensional-models-olap-logical-cube-objects/calculations.md)|
+|[Cube Cells &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models-olap-logical-cube-objects/cube-cells-analysis-services-multidimensional-data.md)|
+|[Cube Properties - Multidimensional Model Programming](../../analysis-services/multidimensional-models-olap-logical-cube-objects/cube-properties-multidimensional-model-programming.md)|
+|[Cube Storage &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models-olap-logical-cube-objects/cube-storage-analysis-services-multidimensional-data.md)|
 |[Cube Translations](../../analysis-services/multidimensional-models-olap-logical-cube-objects/cube-translations.md)||  
-|[Dimension Relationships](../../analysis-services/multidimensional-models-olap-logical-cube-objects/dimension-relationships.md)||  
-|[Key Performance Indicators &#40;KPIs&#41; in Multidimensional Models](../../analysis-services/multidimensional-models/key-performance-indicators-kpis-in-multidimensional-models.md)||  
-|[Measures and Measure Groups](../../analysis-services/multidimensional-models/measures-and-measure-groups.md)||  
-|[Partitions &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models-olap-logical-cube-objects/partitions-analysis-services-multidimensional-data.md)||  
-|[Perspectives](../../analysis-services/multidimensional-models-olap-logical-cube-objects/perspectives.md)||  
+|[Dimension Relationships](../../analysis-services/multidimensional-models-olap-logical-cube-objects/dimension-relationships.md)|
+|[Key Performance Indicators &#40;KPIs&#41; in Multidimensional Models](../../analysis-services/multidimensional-models/key-performance-indicators-kpis-in-multidimensional-models.md)|
+|[Measures and Measure Groups](../../analysis-services/multidimensional-models/measures-and-measure-groups.md)|
+|[Partitions &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models-olap-logical-cube-objects/partitions-analysis-services-multidimensional-data.md)|
+|[Perspectives](../../analysis-services/multidimensional-models-olap-logical-cube-objects/perspectives.md)|
   
   

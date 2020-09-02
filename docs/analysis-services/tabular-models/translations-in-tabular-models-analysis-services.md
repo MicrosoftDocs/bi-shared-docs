@@ -52,7 +52,7 @@ A typical workflow for adding translated metadata looks like this:
 
  An empty JSON translation file includes metadata for a specific language translations. Translation placeholders for object names and descriptions are specified in the **Culture** section at the end of the model definition. Translations can be added for the following:  
   
-|||  
+| Property | Description |
 |-|-|  
 |translatedCaption|Table or column title that appears in any client application supporting visualizations of a Tabular model.|  
 |translatedDescription|Less common than captions, a description appears as model information in a modeling tool like SSDT.|  
@@ -78,12 +78,12 @@ A typical workflow for adding translated metadata looks like this:
   
 3.  Optionally, specify import options.  
   
-    |||  
-    |-|-|  
+    | Import option | Description |
+    | ------------- | ----------- |
     |Overwrite existing translations|Replaces all existing captions or descriptions of the same language as the file being imported.|  
     |Ignore invalid objects|Specifies whether metadata discrepancies should be ignored or flagged as an error.|  
     |Write import results to a log file|Log files are saved to the project folder by default. The exact path to the file is provided after import concludes. The log file name is SSDT_Translations_Log_\<timestamp>.|  
-    |Back up translations to a JSON file before importing|Backs up an existing translation that matches the culture of the strings being imported.  If the culture being imported is not present in the model, then the backup will be empty.<br /><br /> If you need to restore this file later, you can replace the contents of the model.bim with this JSON file.|  
+    |Back up translations to a JSON file before importing|Backs up an existing translation that matches the culture of the strings being imported.  If the culture being imported is not present in the model, then the backup will be empty.<br /><br /> If you need to restore this file later, you can replace the contents of the model.bim with this JSON file.|
   
 4.  Click **Import**.  
   

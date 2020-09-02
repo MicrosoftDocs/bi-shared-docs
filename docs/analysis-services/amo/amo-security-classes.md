@@ -1,5 +1,6 @@
 ---
 title: "AMO Security Classes | Microsoft Docs"
+description: Learn about the relationships between the Analysis Management Objects (AMO) security classes that are explained in this article.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

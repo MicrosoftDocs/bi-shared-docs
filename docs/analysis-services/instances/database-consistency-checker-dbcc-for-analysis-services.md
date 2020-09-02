@@ -199,9 +199,8 @@ Execution complete
   
  Detection of Multidimensional index corruption includes the following checks. Errors in this table appear in xEvent or Profiler traces for failures at the object level.  
   
-||||  
-|-|-|-|  
-|**Object**|**DBCC check description**|**Error on failure**|  
+| Object | DBCC check description | Error on failure |
+| ------ | ---------------------- | ---------------- |
 |Partition Index|Check segment statistics and indexes.<br /><br /> Compares the ID of each member in the temporary partition index against the partition statistics stored on disk.  If a member is found in the temporary index with a data ID value outside the range stored for the partition index statistics on disk, then the statistics for the index are considered corrupt.|The partition segment statistics are corrupted.|  
 |Partition Index|Validates metadata.<br /><br /> Verifies that each member in the temporary index can be found in the index header file for the segment on disk.|The partition segment is corrupted.|  
 |Partition Index|Scan segments to look for physical corruptions.<br /><br /> Reads the index file on disk for each member in the temporary index and verifies that the size of the index records match, and that the same data pages are flagged as having records for the current member.|The partition segment is corrupted.|  
@@ -209,9 +208,8 @@ Execution complete
 ## Reference: Consistency checks and errors for Tabular databases  
  The following table  is list of all consistency checks performed on tabular objects, alongside errors that are raised if the check indicates corruption. Errors in this table appear in xEvent or Profiler traces for failures at the object level.  
   
-||||  
-|-|-|-|  
-|**Object**|**DBCC check description**|**Error on failure**|  
+| Object | DBCC check description | Error on failure |
+| ------ | ---------------------- | ---------------- |
 |Database|Checks count of tables in the database.  A value less than zero indicates corruption.|There is corruption in the storage layer. The collection of tables in the '%{parent/}' database is corrupt.|  
 |Database|Checks internal structure used to track Referential Integrity and throw s an error if the size is incorrect.|Database files failed to pass consistency checks.|  
 |Table|Checks internal value used to determine if table is a Dimension or Fact table.  A value  that falls outside the  known range indicates corruption.|Database consistency checks (DBCC) failed while checking the table statistics.|  

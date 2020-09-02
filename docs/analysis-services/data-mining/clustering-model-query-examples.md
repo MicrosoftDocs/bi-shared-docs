@@ -60,8 +60,8 @@ WHERE NODE_TYPE = 1
   
  Example results:  
   
-|||  
-|-|-|  
+| Row | Metadata |
+| --- | -------- |
 |MODEL_CATALOG|TM_Clustering|  
 |MODEL_NAME|Adventure Works DW|  
 |NODE_CAPTION|Cluster Model|  
@@ -86,8 +86,8 @@ WHERE MODEL_NAME = 'TM_Clustering'
   
  Example results:  
   
-|||  
-|-|-|  
+| Row | Metadata |
+| --- | -------- |
 |MODEL_NAME|TM_Clustering|  
 |DATE_CREATED|10/12/2007 7:42:51 PM|  
 |LAST_PROCESSED|10/12/2007 8:09:54 PM|  
@@ -110,8 +110,8 @@ WHERE NODE_TYPE = 5 AND NODE_SUPPORT > 1000
   
  Example results:  
   
-|||  
-|-|-|  
+| Row | Metadata |
+| --- | -------- |
 |NODE_NAME|002|  
 |NODE_CAPTION|Cluster 2|  
 |NODE_SUPPORT|1649|  
@@ -357,9 +357,8 @@ NATURAL PREDICTION JOIN
 ## Function List  
  All [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms support a common set of functions. However, models that are built by using the [!INCLUDE[msCoName](../includes/msconame-md.md)] Clustering algorithm support the additional functions that are listed in the following table.  
   
-|||  
-|-|-|  
-|Prediction Function|Usage|  
+| Prediction Function | Usage |
+| ------------------- | ----- |  
 |[Cluster &#40;DMX&#41;](/sql/dmx/cluster-dmx)|Returns the cluster that is most likely to contain the input case.|  
 |[ClusterDistance &#40;DMX&#41;](/sql/dmx/clusterdistance-dmx)|Returns the distance of the input case from the specified cluster, or if no cluster is specified, the distance of the input case from the most likely cluster.<br /><br /> Returns the probability that the input case belongs to the specified cluster.|  
 |[ClusterProbability &#40;DMX&#41;](/sql/dmx/clusterprobability-dmx)|Returns the probability that the input case belongs to the specified cluster.|  

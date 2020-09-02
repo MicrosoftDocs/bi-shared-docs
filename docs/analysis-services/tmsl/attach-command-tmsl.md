@@ -30,9 +30,8 @@ manager: kfile
 
  The properties accepted by the JSON attach command are as follows.  
   
-||||  
-|-|-|-|  
-|**Property**|**Default**|**Description**|  
+| Property | Default | Description |
+| -------- | ------- | ----------- |
 |database|[Required]|The name of the database object to be attached.|  
 |folder|[Required]|The folder that contains the attached database.|  
 |password|Empty|The password to use to encrypt secrets in the attached database.|  

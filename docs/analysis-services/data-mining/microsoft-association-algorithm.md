@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Association Algorithm | Microsoft Docs"
+description: Learn about the Microsoft Association Algorithm in SQL Server Analysis Services, an algorithm that is often used for recommendation engines.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -29,12 +29,12 @@ from [Model]
   
  It will return the following data when executed:  
   
-||Total Sales Amount||  
-|-|------------------------|-|  
-|2001|11331808.96||  
-|2002|30674773.18||  
-|2003|41993729.72||  
-|2004|25808962.34||  
+| Year | Total Sales Amount |  
+| ---- | ------------------ |  
+|2001|11331808.96|
+|2002|30674773.18|
+|2003|41993729.72|
+|2004|25808962.34|
   
 ## See Also  
  [CREATE MEMBER Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-member)   

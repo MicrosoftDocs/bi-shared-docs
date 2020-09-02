@@ -1,5 +1,6 @@
 ---
 title: "Discretization Methods (Data Mining) | Microsoft Docs"
+description: Learn how to discretize data in a mining model, which involves putting values into buckets so that there are a limited number of possible states.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

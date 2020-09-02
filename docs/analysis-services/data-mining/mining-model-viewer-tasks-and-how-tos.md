@@ -1,5 +1,6 @@
 ---
 title: "Mining Model Viewer Tasks and How-tos | Microsoft Docs"
+description: Learn about the tools that SQL Server Data Tools contains to explore mining models in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services
