@@ -60,8 +60,8 @@ WHERE NODE_TYPE = 1
   
  Example results:  
   
-| Attribute | Value |
-| --------- | ----- |
+| Row | Metadata |
+| --- | -------- |
 |MODEL_CATALOG|TM_Clustering|  
 |MODEL_NAME|Adventure Works DW|  
 |NODE_CAPTION|Cluster Model|  
@@ -86,8 +86,8 @@ WHERE MODEL_NAME = 'TM_Clustering'
   
  Example results:  
   
-| Attribute | Value |
-| --------- | ----- |
+| Row | Metadata |
+| --- | -------- |
 |MODEL_NAME|TM_Clustering|  
 |DATE_CREATED|10/12/2007 7:42:51 PM|  
 |LAST_PROCESSED|10/12/2007 8:09:54 PM|  
@@ -110,8 +110,8 @@ WHERE NODE_TYPE = 5 AND NODE_SUPPORT > 1000
   
  Example results:  
   
-| Attribute | Value |
-| --------- | ----- |
+| Row | Metadata |
+| --- | -------- |
 |NODE_NAME|002|  
 |NODE_CAPTION|Cluster 2|  
 |NODE_SUPPORT|1649|  

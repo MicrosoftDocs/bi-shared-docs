@@ -53,8 +53,8 @@ WHERE NODE_TYPE = 1
   
  Example results:  
   
-| Attribute | Value |
-| --------- | ----- |
+| Row | Metadata |
+| --- | -------- |
 |MODEL_CATALOG|Association Test|  
 |MODEL_NAME|Association|  
 |NODE_CAPTION|Association Rules Model|  
@@ -78,8 +78,8 @@ WHERE MODEL_NAME = 'Association'
   
  Example results:  
   
-| Attribute | Value |
-| --------- | ----- |
+| Row | Metadata |
+| --- | -------- |
 |MODEL_CATALOG|Adventure Works DW Multidimensional 2012|  
 |MODEL_NAME|Association|  
 |SERVICE_NAME|Association Rules Model|  
@@ -120,8 +120,8 @@ WHERE NODE_TYPE = 7
   
  Example results:  
   
-| Attribute | Value |
-| --------- | ----- |
+| Row | Metadata |
+| --- | -------- |
 |NODE_NAME|37|  
 |NODE_CAPTION|Sport-100 = Existing|  
 |NODE_PROBABILITY|0.291283016331743|  
@@ -141,8 +141,8 @@ WHERE NODE_TYPE = 7
   
  Example results:  
   
-| Attribute | Value |
-| --------- | ----- |
+| Row | Metadata |
+| --- | -------- |
 |NODE_SUPPORT|4334|  
 |NODE_NAME|37|  
 |NODE_CAPTION|Sport-100 = Existing|  
