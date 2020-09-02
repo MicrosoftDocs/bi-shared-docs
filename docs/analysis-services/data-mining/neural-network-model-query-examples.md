@@ -71,8 +71,8 @@ WHERE MODEL_NAME = 'Call Center Default NN'
   
  Example results:  
   
-|||  
-|-|-|  
+| Row | Metadata |
+| --- | -------- |
 |MODEL_NAME|Call Center Default NN|  
 |DATE_CREATED|1/10/2008 5:07:38 PM|  
 |LAST_PROCESSED|1/10/2008 5:24:02 PM|  

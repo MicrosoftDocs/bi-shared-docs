@@ -113,10 +113,6 @@ manager: kfile
     :::column-end:::
 :::row-end:::
 
-|||  
-|-|-|  
-|||  
-  
 ## Key Attributes  
  Models are a collection of related objects that rely on keys and indexes to make the associations. Analysis Services models are no different. For each dimension (recall it is equivalent to a table in a relational model), there is a key attribute. The **key attribute** is used in foreign key relationships to the fact table (measure group). All non-key attributes in the dimension are linked (directly or indirectly) to the key attribute.  
   

@@ -47,7 +47,7 @@ WHERE MODEL_NAME = 'TM_NaiveBayes_Filtered'
   
  Sample results:  
   
-|||  
+| Row | Metadata |
 |-|-|  
 |MODEL_CATALOG|AdventureWorks|  
 |MODEL_NAME|TM_NaiveBayes_Filtered|  
