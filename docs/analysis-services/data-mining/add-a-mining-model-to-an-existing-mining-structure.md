@@ -1,5 +1,6 @@
 ---
 title: "Add a Mining Model to an Existing Mining Structure | Microsoft Docs"
+description: Learn how to add a mining model to an existing mining structure and to define the usage of the columns differently for each mining model.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

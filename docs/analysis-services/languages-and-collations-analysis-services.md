@@ -1,5 +1,6 @@
 ---
 title: "Languages and Collations (Analysis Services) | Microsoft Docs"
+description: Learn how language and Collation in Analysis Services properties are initially set at the instance level during installation.
 ms.date: 01/28/2020
 ms.prod: sql
 ms.technology: analysis-services

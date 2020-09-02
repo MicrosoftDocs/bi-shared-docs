@@ -1,5 +1,6 @@
 ---
 title: "Add Columns to a Mining Structure | Microsoft Docs"
+description: Use Data Mining Designer in SQL Server Data Tools to add columns to a mining structure after you have defined it in the Data Mining Wizard.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

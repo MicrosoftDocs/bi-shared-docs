@@ -20,8 +20,8 @@ In this lesson, you will learn to define actions in your [!INCLUDE[ssASnoversion
   
 [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the types of actions that are described in the following table.  
   
-|||  
-|-|-|  
+| Action | Description |  
+| ------ | ----------- |
 |CommandLine|Executes a command at the command prompt|  
 |Dataset|Returns a dataset to a client application.|  
 |Drillthrough|Returns a drillthrough statement as an expression, which the client executes to return a rowset|  

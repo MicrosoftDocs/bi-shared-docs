@@ -16,8 +16,8 @@ manager: kfile
   
 ## Supported Data Types  
   
-|||  
-|-|-|  
+| Data Type | Description |
+| --------- | ----------- |  
 |BigInt|A 64-bit signed integer. The *BigInt* value type represents integers with values ranging from negative 9,223,372,036,854,775,808 to positive 9,223,372,036,854,775,807.|  
 |Binary|A stream of binary data of **Byte** type. **Byte** is a value type that represents unsigned integers with values that range from 0 to 255.|  
 |Boolean|Instances of this type have values of either **true** or **false**.|  

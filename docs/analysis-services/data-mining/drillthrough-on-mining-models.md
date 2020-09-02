@@ -1,5 +1,6 @@
 ---
 title: "Drillthrough on Mining Models | Microsoft Docs"
+description: Learn about options for drilling through into case data in a mining model, the ability to query a mining model to get data not exposed in the model.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

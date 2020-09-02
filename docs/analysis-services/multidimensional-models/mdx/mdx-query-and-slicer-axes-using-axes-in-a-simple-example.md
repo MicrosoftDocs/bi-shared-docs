@@ -35,8 +35,8 @@ WHERE ( [Measures].[Packages] )
   
 ||air|sea|  
 |-|---------|---------|  
-|1st quarter|60|50|  
-|2nd quarter|45|45|  
+|**1st quarter**|60|50|  
+|**2nd quarter**|45|45|  
   
 ## See Also  
  [Specifying the Contents of a Query Axis &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-query-and-slicer-axes-specify-the-contents-of-a-query-axis.md)   

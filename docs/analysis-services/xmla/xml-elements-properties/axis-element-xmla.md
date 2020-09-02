@@ -61,12 +61,30 @@ manager: kfile
   
 ### Description  
  The following example illustrates the structure of the **Axis** elements when a client specifies *TupleFormat* or *CustomFormat* for the **AxisFormat** XMLA property, given the following members for the axis:  
-  
-|||||  
-|-|-|-|-|  
-|**Time** hierarchy|1999|1999|2000|  
-|**Category** hierarchy|Actual|Budget|Budget|  
-  
+
+:::row:::
+    :::column:::
+        **Time** hierarchy
+
+        **Category** hierarchy
+    :::column-end:::
+    :::column:::
+        1999
+
+        Actual
+    :::column-end:::
+    :::column:::
+        1999
+
+        Budget
+    :::column-end:::
+    :::column:::
+        2000
+
+        Budget
+    :::column-end:::
+:::row-end:::
+
 ### Code  
   
 ```xml  
@@ -111,12 +129,44 @@ manager: kfile
   
 ### Description  
  The following example illustrates the structure of the **Axis** elements when a client specifies *ClusterFormat* for the **AxisFormat** XMLA property, given the following members for the axis:  
-  
-||||||  
-|-|-|-|-|-|  
-|**Time** hierarchy|1999|1999|2000|2001|  
-|**Category** hierarchy|Actual|Budget|Budget|Budget|  
-|Clusters|Cluster 1|Cluster 1|Cluster 1|Cluster 2|  
+
+:::row:::
+    :::column:::
+        **Time** hierarchy
+
+        **Category** hierarchy
+
+        Clusters
+    :::column-end:::
+    :::column:::
+        1999
+
+        Actual
+
+        Clusters 1
+    :::column-end:::
+    :::column:::
+        1999
+
+        Budget
+
+        Clusters 1
+    :::column-end:::
+    :::column:::
+        2000
+
+        Budget
+
+        Clusters 1
+    :::column-end:::
+    :::column:::
+        2001
+
+        Budget
+
+        Clusters 2
+    :::column-end:::
+:::row-end:::
   
 ### Code  
   

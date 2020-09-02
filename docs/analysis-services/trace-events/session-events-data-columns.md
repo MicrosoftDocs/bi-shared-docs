@@ -60,9 +60,8 @@ manager: kfile
   
 ## Session Initialize  
   
-|||||  
-|-|-|-|-|  
-|**Column Name**|**Column Id**|**Column Type**|**Column Description**|  
+| Column Name | Column Id | Column Type | Column Description |
+| ----------- | --------- | ----------- | ------------------ |
 |CurrentTime|2|5|Time at which the event started, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  
 |StartTime|3|5|Time at which the event started, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  
 |ConnectionID|25|1|Unique connection ID.|  

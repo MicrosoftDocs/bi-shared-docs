@@ -49,9 +49,8 @@ manager: kfile
   
  **Restore** has several properties.  
   
-||||  
-|-|-|-|  
-|**Property**|**Default**|**Description**|  
+| Property | Default | Description |
+| -------- | ------- | ----------- |
 |database|[Required]|The name of the database object to be restored.|  
 |file|[Required]|The backup file name/path.|  
 |password|Empty|The password to use for decrypting the backup file.|  

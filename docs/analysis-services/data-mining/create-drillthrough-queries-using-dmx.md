@@ -1,5 +1,6 @@
 ---
 title: "Create Drillthrough Queries using DMX | Microsoft Docs"
+description: Learn how to create drillthrough queries DMS to retrieve case data and structure data in SQL Server Management Studio.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

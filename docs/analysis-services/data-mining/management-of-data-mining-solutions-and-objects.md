@@ -1,5 +1,6 @@
 ---
 title: "Management of Data Mining Solutions and Objects | Microsoft Docs"
+description: Learn about the management operations for data mining solutions and object in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

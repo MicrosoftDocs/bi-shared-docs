@@ -1,5 +1,6 @@
 ---
 title: "Apply Prediction Functions to a Model | Microsoft Docs"
+description: In this article, learn how to apply a prediction function to a model so that it can return related statistics.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

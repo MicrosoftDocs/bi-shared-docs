@@ -53,8 +53,8 @@ manager: kfile
   
  The processing itself turns the tabular data into usable hierarchies. These hierarchies are fully articulated member names that are internally represented by unique numeric paths. The following example is a text representation of a hierarchy.  
   
-||  
-|-|  
+| Usable hierarchy |
+| ---------------- |
 |[United States]|  
 |[United States].[West]|  
 |[United States].[West].[California]|  

@@ -19,9 +19,8 @@ manager: kfile
   
  The SubQueries property allows the following values.  
   
-|||  
-|-|-|  
-|Value|Description|  
+| Value | Description |
+| ----- | ----------- |
 |0|Calculated members are not allowed in subselects or subcubes.<br /><br /> An error is raised when evaluating the subselect or subcube if a calculated member is referenced.|  
 |1|Calculated members are allowed in subselects or subcubes but no ascendant members are introduced in the returning subspace.|  
 |2|Calculated members are allowed in subselects or subcubes and ascendant members are introduced in the returning subspace. Also, mixed granularity is allowed in the selection of calculated members.|  
@@ -63,22 +62,20 @@ Where [Measures].[Reseller Sales Amount]
   
  The obtained results are:  
   
-|||||||  
-|-|-|-|-|-|-|  
-||All Periods|CY 2011|CY 2012|CY 2013|CY 2014|  
-|Seattle Metro Agg|$2,383,545.69|1$291,248.93|$763,557.02|$915,832.36|$412,907.37|  
+| | All Periods | CY 2011 | CY 2012 | CY 2013 | CY 2014 |
+|-| ----------- | ------- | ------- | ------- | ------- |
+|**Seattle Metro Agg**|$2,383,545.69|1$291,248.93|$763,557.02|$915,832.36|$412,907.37|  
   
  As said before, the ascendants of [Seattle Metro] do not exist in the returned subspace, when SubQueries=1, hence [Geography].[Geography].allmembers only contains the calculated member.  
   
  If the example is run using SubQueries=2, in the connection string, the obtained results are:  
   
-|||||||  
-|-|-|-|-|-|-|  
-||All Periods|CY 2001|CY 2002|CY 2003|CY 2004|  
-|All Geographies|(null)|(null)|(null)|(null)|(null)|  
-|United States|(null)|(null)|(null)|(null)|(null)|  
-|Washington|(null)|(null)|(null)|(null)|(null)|  
-|Seattle Metro Agg|$2,383,545.69|$291,248.93|$763,557.02|$915,832.36|$412,907.37|  
+| | All Periods | CY 2001 | CY 2002 | CY 2003 | CY 2004 |
+|-| ----------- | ------- | ------- | ------- | ------- |
+|**All Geographies**|(null)|(null)|(null)|(null)|(null)|  
+|**United States**|(null)|(null)|(null)|(null)|(null)|  
+|**Washington**|(null)|(null)|(null)|(null)|(null)|  
+|**Seattle Metro Agg**|$2,383,545.69|$291,248.93|$763,557.02|$915,832.36|$412,907.37|  
   
  As said before, when using SubQueries=2, the ascendants of [Seattle Metro] exist in the returned subspace but no values exist for those members because there is no regular members to provide for the aggregations. Therefore, NULL values are provided for all ascendant members of the calculated member in this example.  
   
@@ -98,18 +95,17 @@ Where [Measures].[Reseller Sales Amount]
   
  The following results are obtained.  
   
-|||||||  
-|-|-|-|-|-|-|  
-||All Periods|CY 2001|CY 2002|CY 2003|CY 2004|  
-|All Geographies|$235,171.62|$419.46|$4,996.25|$131,788.82|$97,967.09|  
-|United States|$235,171.62|$419.46|$4,996.25|$131,788.82|$97,967.09|  
-|Oregon|$30,968.25|$419.46|$4,996.25|$17,442.97|$8,109.56|  
-|Portland|$30,968.25|$419.46|$4,996.25|$17,442.97|$8,109.56|  
-|97205|$30,968.25|$419.46|$4,996.25|$17,442.97|$8,109.56|  
-|Washington|$204,203.37|(null)|(null)|$114,345.85|$89,857.52|  
-|Spokane|$204,203.37|(null)|(null)|$114,345.85|$89,857.52|  
-|99202|$204,203.37|(null)|(null)|$114,345.85|$89,857.52|  
-|Seattle Metro Agg|$2,383,545.69|$291,248.93|$763,557.02|$915,832.36|$412,907.37|  
+| | All Periods | CY 2001 | CY 2002 | CY 2003 | CY 2004 |
+|-| ----------- | ------- | ------- | ------- | ------- |
+|**All Geographies**|$235,171.62|$419.46|$4,996.25|$131,788.82|$97,967.09|  
+|**United States**|$235,171.62|$419.46|$4,996.25|$131,788.82|$97,967.09|  
+|**Oregon**|$30,968.25|$419.46|$4,996.25|$17,442.97|$8,109.56|  
+|**Portland**|$30,968.25|$419.46|$4,996.25|$17,442.97|$8,109.56|  
+|**97205**|$30,968.25|$419.46|$4,996.25|$17,442.97|$8,109.56|  
+|**Washington**|$204,203.37|(null)|(null)|$114,345.85|$89,857.52|  
+|**Spokane**|$204,203.37|(null)|(null)|$114,345.85|$89,857.52|  
+|**99202**|$204,203.37|(null)|(null)|$114,345.85|$89,857.52|  
+|**Seattle Metro Agg**|$2,383,545.69|$291,248.93|$763,557.02|$915,832.36|$412,907.37|  
   
  In the above results the aggregated values for [All Geographies], [United States], [Oregon] and [Washington] come from aggregating over the descendants of &[Portland]&[OR] and &[Spokane]&[WA]. Nothing comes from the calculated member.  
   
