@@ -131,7 +131,7 @@ CALCULATE(
 **YOY**
 
 ```dax
-SELECTEDMEASURE() –
+SELECTEDMEASURE() -
 CALCULATE(
     SELECTEDMEASURE(),
     'Time Intelligence'[Time Calculation] = "PY"
@@ -149,7 +149,7 @@ DIVIDE(
     CALCULATE(
         SELECTEDMEASURE(),
         'Time Intelligence'[Time Calculation]="PY"
-    ),
+    )
 )
 ```
 
