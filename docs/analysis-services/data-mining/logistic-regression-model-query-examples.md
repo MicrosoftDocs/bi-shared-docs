@@ -1,5 +1,6 @@
 ---
 title: "Logistic Regression Model Query Examples | Microsoft Docs"
+description: Learn how to create queries for models that are based on the Microsoft Logistic Regression algorithm in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

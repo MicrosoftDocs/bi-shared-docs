@@ -1,5 +1,6 @@
 ---
 title: "Mining Model Properties | Microsoft Docs"
+description: Learn about the kinds of properties in mining models and how you can alter them in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

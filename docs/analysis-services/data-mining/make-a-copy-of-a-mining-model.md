@@ -1,5 +1,6 @@
 ---
 title: "Make a Copy of a Mining Model | Microsoft Docs"
+description: Learn how to copy a mining model, which is useful in creating several mining models based on the same data in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services
