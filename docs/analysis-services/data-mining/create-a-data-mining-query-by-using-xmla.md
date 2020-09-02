@@ -1,5 +1,6 @@
 ---
 title: "Create a Data Mining Query by Using XMLA | Microsoft Docs"
+description: Learn how to create a variety of queries for data mining objects by using XML/A in SQL Server Data Tools.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

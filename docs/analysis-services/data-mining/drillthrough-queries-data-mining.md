@@ -1,5 +1,6 @@
 ---
 title: "Drillthrough Queries (Data Mining) | Microsoft Docs"
+description: Learn about options for drillthrough queries that let you get details from the underlying cases or structure data by sending a query to the mining model.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

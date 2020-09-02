@@ -1,5 +1,6 @@
 ---
 title: "Decision Trees Model Query Examples | Microsoft Docs"
+description: Learn about how to create queries for models that are based on the Microsoft Decision Trees algorithm.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

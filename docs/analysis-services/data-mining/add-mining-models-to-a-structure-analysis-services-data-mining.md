@@ -1,5 +1,6 @@
 ---
 title: "Add Mining Models to a Structure (Analysis Services - Data Mining) | Microsoft Docs"
+description: In this article, learn to use the Data Mining Wizard to create a new mining model and create a mining structure.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

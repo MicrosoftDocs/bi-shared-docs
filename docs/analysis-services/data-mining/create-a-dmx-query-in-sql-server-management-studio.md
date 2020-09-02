@@ -1,5 +1,6 @@
 ---
 title: "Create a DMX Query in SQL Server Management Studio | Microsoft Docs"
+description: Learn how to build a DMX query by using the Metadata Explorer and the DMX query editor SQL Server Data Tools.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

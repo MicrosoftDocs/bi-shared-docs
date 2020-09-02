@@ -1,5 +1,6 @@
 ---
 title: "Linear Regression Model Query Examples | Microsoft Docs"
+description: Learn about linear regression queries for data models in SQL Server Analysis Services by reviewing these examples.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

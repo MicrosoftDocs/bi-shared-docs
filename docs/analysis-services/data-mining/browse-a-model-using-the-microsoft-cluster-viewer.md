@@ -1,5 +1,6 @@
 ---
 title: "Browse a Model Using the Microsoft Cluster Viewer | Microsoft Docs"
+description: The Microsoft Cluster Viewer in Microsoft SQL Server Analysis Services displays mining models that are built with the Microsoft Clustering algorithm.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

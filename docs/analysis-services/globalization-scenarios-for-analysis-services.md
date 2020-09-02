@@ -1,5 +1,6 @@
 ---
 title: "Globalization scenarios for Analysis Services | Microsoft Docs"
+description: In this article, learn details about globalization scenarios for SQL Server Analysis Services (SSAS).
 ms.date: 01/28/2020
 ms.prod: sql
 ms.technology: analysis-services
