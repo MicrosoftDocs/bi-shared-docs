@@ -179,9 +179,8 @@ NATURAL PREDICTION JOIN
 ## List of Prediction Functions  
  All [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms support a common set of functions. However, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Logistic Regression algorithm supports the additional functions listed in the following table.  
   
-|||  
-|-|-|  
-|Prediction Function|Usage|  
+| Prediction Function | Usage |
+| ------------------- | ----- |
 |[IsDescendant &#40;DMX&#41;](/sql/dmx/isdescendant-dmx)|Determines whether one node is a child of another node in the model.|  
 |[PredictAdjustedProbability &#40;DMX&#41;](/sql/dmx/predictadjustedprobability-dmx)|Returns the adjusted probability of a specified state.|  
 |[PredictHistogram &#40;DMX&#41;](/sql/dmx/predicthistogram-dmx)|Returns a predicted value, or set of values, for a specified column.|  

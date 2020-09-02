@@ -69,13 +69,13 @@ manager: kfile
  You can use data definition statements in DMX to export the definition of a model and its required structure and data sources, and then import that definition into a different server. Using export and import is the fastest and easiest way to move data mining models and mining structures between instances of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. For more information, see [Management of Data Mining Solutions and Objects](../../analysis-services/data-mining/management-of-data-mining-solutions-and-objects.md).  
   
 > [!WARNING]  
->  If your model is based on data from a cube data srouce, you cannot use DMX to export the model, and should use backup and restore instead.  
+> If your model is based on data from a cube data source, you cannot use DMX to export the model, and should use backup and restore instead.  
   
 ##  <a name="bkmk_Tasks"></a> Related Tasks  
  The following table provides links to tasks that are related to data definition queries.  
   
-|||  
-|-|-|  
+| Task | Link |
+| ---- | ---- |
 |Work with templates for DMX queries.|[Use Analysis Services Templates in SQL Server Management Studio](../../analysis-services/instances/use-analysis-services-templates-in-sql-server-management-studio.md)|  
 |Design queries of all kinds, using Prediction Query Builder.|[Create a Prediction Query Using the Prediction Query Builder](../../analysis-services/data-mining/create-a-prediction-query-using-the-prediction-query-builder.md)|  
 |Capture query definitions by using SQL Server Profiler, and use traces to monitor [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].|[Use SQL Server Profiler to Monitor Analysis Services](../../analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services.md)|  

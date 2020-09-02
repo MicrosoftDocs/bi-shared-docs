@@ -71,8 +71,8 @@ WHERE MODEL_NAME = 'Call Center Default NN'
   
  Example results:  
   
-|||  
-|-|-|  
+| Row | Metadata |
+| --- | -------- |
 |MODEL_NAME|Call Center Default NN|  
 |DATE_CREATED|1/10/2008 5:07:38 PM|  
 |LAST_PROCESSED|1/10/2008 5:24:02 PM|  
@@ -198,9 +198,8 @@ NATURAL PREDICTION JOIN
 ## List of Prediction Functions  
  All [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms support a common set of functions. There are no prediction functions that are specific to the [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm; however, the algorithm supports the functions that are listed in the following table.  
   
-|||  
-|-|-|  
-|Prediction Function|Usage|  
+| Prediction Function | Usage |
+| ------------------- | ----- |
 |[IsDescendant &#40;DMX&#41;](/sql/dmx/isdescendant-dmx)|Determines whether one node is a child of another node in the neural network graph.|  
 |[PredictAdjustedProbability &#40;DMX&#41;](/sql/dmx/predictadjustedprobability-dmx)|Returns the weighted probability.|  
 |[PredictHistogram &#40;DMX&#41;](/sql/dmx/predicthistogram-dmx)|Returns a table of values related to the current predicted value.|  

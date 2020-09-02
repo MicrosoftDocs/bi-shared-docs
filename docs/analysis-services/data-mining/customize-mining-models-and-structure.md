@@ -68,15 +68,30 @@ manager: kfile
  The choice of algorithm determines what kind of results you will get. For general information about how a specific algorithm works, or the business scenarios where you would benefit from using a particular algorithm, see [Data Mining Algorithms &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining.md).  
   
  See the technical reference topic for each algorithm for a description of the requirements and restrictions, as well as detailed information about the customizations that each algorithm supports.  
-  
-|||  
-|-|-|  
-|[Microsoft Decision Trees Algorithm](../../analysis-services/data-mining/microsoft-decision-trees-algorithm.md)|[Microsoft Time Series Algorithm](../../analysis-services/data-mining/microsoft-time-series-algorithm.md)|  
-|[Microsoft Clustering Algorithm](../../analysis-services/data-mining/microsoft-clustering-algorithm.md)|[Microsoft Neural Network Algorithm](../../analysis-services/data-mining/microsoft-neural-network-algorithm.md)|  
-|[Microsoft Naive Bayes Algorithm](../../analysis-services/data-mining/microsoft-naive-bayes-algorithm.md)|[Microsoft Logistic Regression Algorithm](../../analysis-services/data-mining/microsoft-logistic-regression-algorithm.md)|  
-|[Microsoft Association Algorithm](../../analysis-services/data-mining/microsoft-association-algorithm.md)|[Microsoft Linear Regression Algorithm](../../analysis-services/data-mining/microsoft-linear-regression-algorithm.md)|  
-|[Microsoft Sequence Clustering Algorithm](../../analysis-services/data-mining/microsoft-sequence-clustering-algorithm.md)||  
-  
+
+:::row:::
+    :::column:::
+        [Microsoft Decision Trees Algorithm](../../analysis-services/data-mining/microsoft-decision-trees-algorithm.md)
+
+        [Microsoft Clustering Algorithm](../../analysis-services/data-mining/microsoft-clustering-algorithm.md)
+
+        [Microsoft Naive Bayes Algorithm](../../analysis-services/data-mining/microsoft-naive-bayes-algorithm.md)
+
+        [Microsoft Association Algorithm](../../analysis-services/data-mining/microsoft-association-algorithm.md)
+
+        [Microsoft Sequence Clustering Algorithm](../../analysis-services/data-mining/microsoft-sequence-clustering-algorithm.md)
+    :::column-end:::
+    :::column:::
+        [Microsoft Time Series Algorithm](../../analysis-services/data-mining/microsoft-time-series-algorithm.md)
+
+        [Microsoft Neural Network Algorithm](../../analysis-services/data-mining/microsoft-neural-network-algorithm.md)
+
+        [Microsoft Logistic Regression Algorithm](../../analysis-services/data-mining/microsoft-logistic-regression-algorithm.md)
+
+        [Microsoft Linear Regression Algorithm](../../analysis-services/data-mining/microsoft-linear-regression-algorithm.md)
+    :::column-end:::
+:::row-end:::
+
 ## Customizing Algorithm Parameters  
  Each algorithm supports parameters that you can use to customize the behavior of the algorithm and fine-tune the results of your model. For a description of how to use each parameter, see the following topics:  
   
