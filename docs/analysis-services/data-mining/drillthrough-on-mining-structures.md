@@ -1,5 +1,6 @@
 ---
 title: "Drillthrough on Mining Structures | Microsoft Docs"
+description: Learn about options for drilling through into case data in a mining structure, the ability to query a mining structure to get data not exposed in the model.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

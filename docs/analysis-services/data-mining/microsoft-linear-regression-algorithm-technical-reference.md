@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Linear Regression Algorithm Technical Reference | Microsoft Docs"
+description: Learn about the implementation of the Microsoft Linear Regression algorithm and how to customize the behavior of the algorithm in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

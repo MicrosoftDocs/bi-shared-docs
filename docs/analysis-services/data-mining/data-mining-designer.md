@@ -1,5 +1,6 @@
 ---
 title: "Data Mining Designer | Microsoft Docs"
+description: Learn about Data Mining Designer, the primary environment in which you work with mining models in SQL Server Analysis Services.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

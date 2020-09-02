@@ -1,5 +1,6 @@
 ---
 title: "Deployment of Data Mining Solutions | Microsoft Docs"
+description: Learn how to deploy your data mining models to a production environment in SQL Server Analysis Services so that users can perform tasks.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services
