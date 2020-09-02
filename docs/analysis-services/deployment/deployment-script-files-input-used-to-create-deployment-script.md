@@ -1,5 +1,6 @@
 ---
 title: "Understanding the Input Files Used to Create the Deployment Script | Microsoft Docs"
+description: Learn about the input files used to create a deployment script in SQL Server Analysis Services and about modifying input files.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

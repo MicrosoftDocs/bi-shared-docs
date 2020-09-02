@@ -1,5 +1,6 @@
 ---
 title: "View or Change Modeling Flags (Data Mining) | Microsoft Docs"
+description: Learn how to view and modify the modeling flags associated with a mining structure or mining column in Data Mining Designer in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

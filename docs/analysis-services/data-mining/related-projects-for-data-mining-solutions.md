@@ -1,5 +1,6 @@
 ---
 title: "Related Projects for Data Mining Solutions | Microsoft Docs"
+description: Learn about other features of SQL Server 2017 that support data preparation and data mining, or support users by providing tools for analysis and action.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

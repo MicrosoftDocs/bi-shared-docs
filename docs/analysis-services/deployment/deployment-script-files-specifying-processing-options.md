@@ -1,5 +1,6 @@
 ---
 title: "Specifying Processing Options | Microsoft Docs"
+description: Learn how to specify processing options for the SQL Server Analysis Services Deployment Wizard in the deployment options file.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

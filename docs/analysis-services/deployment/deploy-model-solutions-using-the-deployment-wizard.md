@@ -1,5 +1,6 @@
 ---
 title: "Deploy model solutions by using the Deployment Wizard | Microsoft Docs"
+description: Learn how the SQL Server Analysis Services Deployment Wizard uses JSON output files as input files to create a deployment script.
 ms.date: 01/22/2020
 ms.prod: sql
 ms.technology: analysis-services

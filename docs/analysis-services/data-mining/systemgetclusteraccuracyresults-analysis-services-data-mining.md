@@ -1,5 +1,6 @@
 ---
 title: "SystemGetClusterAccuracyResults (Analysis Services - Data Mining) | Microsoft Docs"
+description: Learn about SystemGetClusterAccuracyResults, which returns cross-validation accuracy metrics for a mining structure and related clustering models.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services
