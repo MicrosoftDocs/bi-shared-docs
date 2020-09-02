@@ -29,8 +29,8 @@ manager: kfile
   
  To create a measure or a measure group, use one of these approaches:  
   
-|||  
-|-|-|  
+| Approach | Description |
+| -------- | ----------- |
 |Cube Wizard|Run the Cube Wizard in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] to create a cube.<br /><br /> In Solution Explorer, right-click **Cubes** and choose **New Cube**. See [Multidimensional Modeling &#40;Adventure Works Tutorial&#41;](../../analysis-services/multidimensional-tutorial/multidimensional-modeling-adventure-works-tutorial.md) if you need help with these steps.<br /><br /> When you create a cube based on tables from an existing data warehouse, definitions for the measures and measure group materialize as part of the cube creation process. In the wizard, you'll choose which facts and fact tables to use as the basis for the measure and measure group objects in your cube.|  
 |New Measure dialog|Assuming the cube already exists in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], double-click the cube name in Solution Explorer to open it in Cube Designer. In the Measures pane, right-click the top node to create a new measure group, or new measures, by specifying a source table, column, and aggregation type. Using this approach requires that you choose the aggregation method from a fixed list of prebuilt functions. See [Use Aggregate Functions](../../analysis-services/multidimensional-models/use-aggregate-functions.md) for a discussion of the more commonly used aggregations.|  
 |Calculated member|Calculated members add flexibility and analysis capability to a cube in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] because you can control when and how they are created. Sometimes you only need a measure temporarily, for the duration of a user session, or in Management Studio as part of an investigation.<br /><br /> In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], open the Calculations tab to create a new calculated member.<br /><br /> Choose this approach when basing a measure on an MDX expression. See these topics for more information: [Building Measures in MDX](../../analysis-services/multidimensional-models/mdx/mdx-building-measures.md), [Calculations](../../analysis-services/multidimensional-models-olap-logical-cube-objects/calculations.md), [Calculations in Multidimensional Models](../../analysis-services/multidimensional-models/calculations-in-multidimensional-models.md) and [MDX Scripting Fundamentals &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/mdx/mdx-scripting-fundamentals-analysis-services.md).|  
@@ -39,8 +39,8 @@ manager: kfile
 ##  <a name="bkmk_comps"></a> Components of a measure  
  A measure is an object with properties. In addition to its name, a measure must have an aggregation type and a source column or an expression used to load the measure with data. You can modify the measure definition by setting its properties.  
   
-|||  
-|-|-|  
+| Attribute | Description |
+| --------- | ----------- |
 |**source**|Most measures come from numeric columns in fact tables in an external data warehouse, such as the Sales Amount column in the Internet Sales and Reseller Sales tables in the AdventureWorks data warehouse, but you can also create new measures based entirely on calculations that you define.<br /><br /> Attribute columns from dimension tables can be used to define measures, but such measures are typically semiadditive or nonadditive in terms of their aggregation behavior. For more information about semiadditive behavior, see [Define Semiadditive Behavior](../../analysis-services/multidimensional-models/define-semiadditive-behavior.md).|  
 |**aggregation**|By default, measures are summed along each dimension. However, the **AggregateFunction** property lets you modify this behavior. See [Use Aggregate Functions](../../analysis-services/multidimensional-models/use-aggregate-functions.md) for a list.|  
 |**Properties**|See [Configure Measure Properties](../../analysis-services/multidimensional-models/configure-measure-properties.md) for additional property descriptions.|  

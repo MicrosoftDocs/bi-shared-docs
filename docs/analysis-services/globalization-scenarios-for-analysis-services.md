@@ -47,9 +47,8 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
  See [Globalization Tips and Best Practices &#40;Analysis Services&#41;](../analysis-services/globalization-tips-and-best-practices-analysis-services.md) for design and coding practices that can help you avoid problems related to multi-language data.  
   
-||||  
-|-|-|-|  
-|**Capability**|**Tabular**|**Multidimensional**|  
+| Capability | Tabular | Multidimensional |
+| ---------- | ------- | ---------------- |
 |[Languages and Collations &#40;Analysis Services&#41;](../analysis-services/languages-and-collations-analysis-services.md)|Inherited from the operating system.|Inherited, but with the ability to override both language and collation for major objects in the model hierarchy.|  
 |Scope of translation support|Captions and descriptions.|Translations can be created for object names, captions,  identifiers, and descriptions, can also be in any Unicode language and script. This is true even when the tools and environment are in another language. For example, in a development environment that uses English language and a Latin collation throughout the stack, you can include in your model an object that uses Cyrillic characters in its name.|  
 |Implementing translation support|Create using [!INCLUDE[ssBIDevStudioFull](includes/ssbidevstudiofull-md.md)] to generate translation files that you fill in and then import back into the model.<br /><br /> See [Translations in Tabular models &#40;Analysis Services&#41;](../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md) for details.|Create using[!INCLUDE[ssBIDevStudioFull](includes/ssbidevstudiofull-md.md)] to define the translations for the caption, description, and account types for cubes and measures, dimension and attributes.<br /><br /> See [Translations in Multidimensional Models &#40;Analysis Services&#41;](../analysis-services/multidimensional-models/translations-in-multidimensional-models-analysis-services.md) for more information. |  

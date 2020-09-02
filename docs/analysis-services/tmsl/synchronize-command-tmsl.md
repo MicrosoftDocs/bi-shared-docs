@@ -33,9 +33,8 @@ manager: kfile
   
  The properties accepted by the JSON synchronize command are as follows.  
   
-||||  
-|-|-|-|  
-|**Property**|**Default**|**Description**|  
+| Property | Default | Description |
+| -------- | ------- | ----------- |
 |database||The name of the database object to be synchronized.|  
 |source||The connection string to use to connect to the source server.|  
 |synchronizeSecurity|skipMembership|An enumeration value that specifies how to restore security definitions, including roles and permissions. Valid values includes skipMembership, copyAll, ignoreSecurity.|  

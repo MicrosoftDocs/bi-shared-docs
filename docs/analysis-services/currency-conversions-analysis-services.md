@@ -86,10 +86,9 @@ The values of this attribute must be used in all columns that should contain a c
 ### Exchange rate directions  
 
  The rate measure group contains measures representing exchange rates between local currencies and the pivot currency (commonly referred to as the corporate currency). The combination of exchange rate direction and conversion type determines the operation performed on measures to be converted by the MDX script generated using the Business Intelligence Wizard. The following table describes the operations performed depending on the exchange rate direction and conversion type, based on the exchange rate direction options and conversion directions available in the Business Intelligence Wizard.  
-  
-|||||  
-|-|-|-|-|  
-|Exchange rate direction|**Many-to-one**|**One-to-many**|**Many-to-many**|  
+ 
+| | Many-to-one | One-to-many | Many-to-many |  
+|-|-|-|-|
 |**n pivot currency to 1 sample currency**|Multiply the measure to be converted by the exchange rate measure for the local currency in order to convert the measure into the pivot currency.|Divide the measure to be converted by the exchange rate measure for the reporting currency in order to convert the measure into the reporting currency.|Multiply the measure to be converted by the exchange rate measure for the local currency in order to convert the measure into the pivot currency, then divide the converted measure by the exchange rate measure for the reporting currency in order to convert the measure into the reporting currency.|  
 |**n sample currency to 1 pivot currency**|Divide the measure to be converted by the exchange rate measure for the local currency in order to convert the measure into the pivot currency.|Multiply the measure to be converted by the exchange rate measure for the reporting currency in order to convert the measure into the reporting currency.|Divide the measure to be converted by the exchange rate measure for the local currency in order to convert the measure into the pivot currency, then multiply the converted measure by the exchange rate measure for the reporting currency in order to convert the measure into the reporting currency.|  
   
