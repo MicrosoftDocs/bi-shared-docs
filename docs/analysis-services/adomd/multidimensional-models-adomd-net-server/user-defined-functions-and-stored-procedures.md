@@ -1,5 +1,6 @@
 ---
 title: "User Defined Functions and Stored Procedures | Microsoft Docs"
+description: Use ADOMD.NET server objects to create user defined function (UDF) or stored procedures for Microsoft SQL Server Analysis Services.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

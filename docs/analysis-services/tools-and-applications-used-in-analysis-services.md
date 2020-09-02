@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services tools | Microsoft Docs"
+description: Learn how to find the tools and applications you'll need for building Analysis Services models and managing deployed databases.  
 ms.date: 08/14/2020
 ms.prod: sql
 ms.technology: analysis-services

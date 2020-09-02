@@ -1,5 +1,6 @@
 ---
 title: "Browse a Model Using the Microsoft Naive Bayes Viewer | Microsoft Docs"
+description: The Microsoft Naive Bayes Viewer in Microsoft SQL Server Analysis Services displays mining models that are built with the Microsoft Naive Bayes algorithm. 
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services
