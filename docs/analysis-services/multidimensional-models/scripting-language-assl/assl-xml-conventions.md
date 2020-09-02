@@ -1,5 +1,6 @@
 ---
 title: "ASSL XML Conventions | Microsoft Docs"
+description: Learn how Analysis Services Scripting Language (ASSL) represents the hierarchy of objects as a set of element types.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
