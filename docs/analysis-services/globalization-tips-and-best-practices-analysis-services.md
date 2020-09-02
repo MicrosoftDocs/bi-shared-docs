@@ -1,5 +1,6 @@
 ---
 title: "Globalization Tips and Best Practices (Analysis Services) | Microsoft Docs"
+description: Learn globalization tips for increasing the portability of business intelligence solutions and avoid errors that are directly related to language settings. 
 ms.date: 01/22/2020
 ms.prod: sql
 ms.technology: analysis-services

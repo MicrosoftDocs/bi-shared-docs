@@ -1,5 +1,6 @@
 ---
 title: "SQL Server Analysis Services backward compatibility | Microsoft Docs"
+description: Learn about changes in feature availability and behavior between the current version and the previous versions of SQL Server Analysis Services.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
