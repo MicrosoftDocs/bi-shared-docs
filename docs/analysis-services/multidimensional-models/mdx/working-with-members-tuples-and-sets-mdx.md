@@ -1,5 +1,6 @@
 ---
 title: "Working with Members, Tuples, and Sets (MDX) | Microsoft Docs"
+description: Learn how MDX provides numerous functions that return one or more members, tuples, or sets; or that act upon a member, tuple, or set.
 ms.date: 06/06/2019
 ms.prod: sql
 ms.technology: analysis-services

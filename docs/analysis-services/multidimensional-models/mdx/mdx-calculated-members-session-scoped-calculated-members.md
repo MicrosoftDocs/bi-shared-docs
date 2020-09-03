@@ -1,5 +1,6 @@
 ---
 title: "Creating Session-Scoped Calculated Members (MDX) | Microsoft Docs"
+description: Learn how to create a calculated member that is available throughout a Multidimensional Expressions (MDX) session by using the CREATE MEMBER statement.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

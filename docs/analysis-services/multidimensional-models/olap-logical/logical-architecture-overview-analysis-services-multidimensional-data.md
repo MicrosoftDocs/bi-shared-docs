@@ -1,5 +1,6 @@
 ---
 title: "Logical Architecture Overview (Analysis Services - Multidimensional Data) | Microsoft Docs"
+description: Learn the basic architecture of Analysis Services when operating in Multidimensional and Data Mining mode.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

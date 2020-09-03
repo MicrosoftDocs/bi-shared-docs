@@ -1,5 +1,6 @@
 ---
 title: "Performing Batch Operations (XMLA) | Microsoft Docs"
+description: Learn how to use the Batch command in XML for Analysis (XMLA) to run multiple XMLA commands using a single XMLA Execute method. 
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

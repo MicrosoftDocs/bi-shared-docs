@@ -1,5 +1,6 @@
 ---
 title: "Cube Cells (Analysis Services - Multidimensional Data) | Microsoft Docs"
+description: Learn about cube cells in Analysis Services.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -41,7 +41,7 @@ This topic is part of a tabular modeling tutorial, which should be completed in 
   
 3.  In the **Mark as Date Table** dialog box, in the **Date** listbox, select the **Date** column as the unique identifier. It will usually be selected by default. Click **OK**. 
 
-    ![as-tabular-lesson3-date-table](media/as-tabular-lesson3-date-table.png)
+    ![Screenshot of the MArk as Date Table dialog box with the Date option highlighted.](media/as-tabular-lesson3-date-table.png)
   
 
 ## What's next?

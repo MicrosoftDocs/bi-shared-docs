@@ -1,5 +1,6 @@
 ---
 title: "FORMAT_STRING Contents (MDX) | Microsoft Docs"
+description: Learn how the FORMAT_STRING cell property formats the VALUE cell property, creating the value for the FORMATTED_VALUE cell property.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

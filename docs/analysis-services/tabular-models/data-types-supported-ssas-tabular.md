@@ -1,5 +1,6 @@
 ---
 title: "Data types supported in Analysis Services tabular models | Microsoft Docs"
+description: Learn about the data types that can be used in tabular models, and the implicit conversion of data types when data is calculated or used in a DAX formula.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Creating Session-Scoped Named Sets (MDX) | Microsoft Docs"
+description: Use the CREATE SET statement to create a named set that is available throughout a Multidimensional Expressions (MDX) session.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Content Types (Data Mining) | Microsoft Docs"
+description: In Microsoft SQL Server Analysis Services, you can define the both the physical data type for a column in a mining structure.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

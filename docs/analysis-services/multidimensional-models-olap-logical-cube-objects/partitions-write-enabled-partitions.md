@@ -1,5 +1,6 @@
 ---
 title: "Write-Enabled Partitions | Microsoft Docs"
+description: Learn how write-enabled partitions enable business users to explore scenarios by changing cell values and analyzing the effects of the changes on cube data. 
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

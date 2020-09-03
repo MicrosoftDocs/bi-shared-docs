@@ -1,5 +1,6 @@
 ---
 title: "Change the Colors Used in the Data Mining Viewer | Microsoft Docs"
+description: Learn how to change the colors that are used in the data mining viewers to display data series, nodes, or clusters.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services
