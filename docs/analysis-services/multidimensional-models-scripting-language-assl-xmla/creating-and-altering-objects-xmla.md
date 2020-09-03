@@ -1,5 +1,6 @@
 ---
 title: "Creating and Altering Objects (XMLA) | Microsoft Docs"
+description: Learn how to create and alter major objects by using the CREATE and ALTER command, respectively.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

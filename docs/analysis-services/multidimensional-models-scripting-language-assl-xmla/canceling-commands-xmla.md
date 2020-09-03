@@ -1,5 +1,6 @@
 ---
 title: "Canceling Commands (XMLA) | Microsoft Docs"
+description: Learn how the Cancel command in XML for Analysis (XMLA) can cancel a command on a session, a session, a connection, a server process, or an associated session or connection.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
