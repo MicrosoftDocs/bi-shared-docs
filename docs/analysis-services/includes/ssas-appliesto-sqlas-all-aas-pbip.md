@@ -1,1 +1,1 @@
-**Applies to:** ![yes](media/yes.png)SQL Server Analysis Services ![yes](media/yes.png)Azure Analysis Services ![yes](media/yes.png)Power BI Premium
+**Applies to:** :::image type="icon" source="media/yes.png":::SQL Server Analysis Services :::image type="icon" source="media/yes.png":::Azure Analysis Services :::image type="icon" source="media/yes.png":::Power BI Premium

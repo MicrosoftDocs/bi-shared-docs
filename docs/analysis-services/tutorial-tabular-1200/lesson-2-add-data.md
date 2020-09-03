@@ -30,7 +30,7 @@ This topic is part of a tabular modeling tutorial, which should be completed in 
   
     This launches the Table Import Wizard, which guides you through setting up a connection to a data source. If you don't see Tabular Model Explorer, double click **Model.bim** in **Solution Explorer** to open the model in the designer. 
     
-    ![as-tabular-lesson2-tme](media/as-tabular-lesson2-tme.png) 
+    ![Screenshot of the Tabular Model Explorer window showing the Import from Data Source option.](media/as-tabular-lesson2-tme.png) 
 
     Note: If you're creating your model at the 1400 compatibility level, you'll see the new Get Data experience instead of the Table Import Wizard. The dialogs will appear a little different from the steps below, but you'll still be able to follow along. 
   
@@ -42,7 +42,7 @@ This topic is part of a tabular modeling tutorial, which should be completed in 
   
 5.  In the **Database name** field, select **AdventureWorksDW**, and then click **Next**.  
   
-    ![as-tabular-lesson2-tiw-name](media/as-tabular-lesson2-tiw-name.png)
+    ![Screenshot of the Table Import Wizard dialog box with the AdventureWorksDW database name highlighted.](media/as-tabular-lesson2-tiw-name.png)
   
 6.  In the **Impersonation Information** page, you need to specify the credentials Analysis Services will use to connect to the data source when importing and processing data. Verify **Specific Windows user name and password** is selected, and then in **User Name** and **Password**, enter your Windows logon credentials, and then click **Next**.  
   
@@ -64,7 +64,7 @@ The DimCustomer table that you're importing from the sample database contains a 
   
 2.  Clear the checkbox at the top of the following columns: **SpanishEducation**, **FrenchEducation**, **SpanishOccupation**, **FrenchOccupation**. 
 
-    ![as-tabular-lesson2-tiw-clear](media/as-tabular-lesson2-tiw-clear.png)
+    ![Screenshot of the Table Import Wizard dialog box with the SpanishEducation, FrenchEducation, SpanishOccupation, FrenchOccupation checkboxes cleared.](media/as-tabular-lesson2-tiw-clear.png)
   
     Since the values for these columns are not relevant to Internet sales analysis, there is no need to import these columns. Eliminating unnecessary columns will make your model smaller and more efficient.  
   
@@ -72,7 +72,7 @@ The DimCustomer table that you're importing from the sample database contains a 
   
     Notice the words **Applied filters** are now displayed in the **Filter Details** column in the **DimCustomer** row; if you click on that link you'll see a text description of the filters you just applied.  
     
-    ![as-tabular-lesson2-applied-filters](media/as-tabular-lesson2-applied-filters.png)
+    ![Screenshot of the Table Import Wizard dialog box with the DimCustomer row highlighted.](media/as-tabular-lesson2-applied-filters.png)
     
   
 4.  Filter the remaining tables by clearing the checkboxes for the following columns in each table:  
@@ -141,7 +141,7 @@ Now that you've previewed and filtered out unnecessary data, you can import the 
   
     While importing the data, the wizard displays how many rows have been fetched. When all the data has been imported, a message indicating success is displayed.  
     
-    ![as-tabular-lesson2-success](media/as-tabular-lesson2-success.png) 
+    ![Screenshot of the Table Import Wizard dialog box showing Success.](media/as-tabular-lesson2-success.png) 
   
     > [!TIP]  
     > To see the relationships that were automatically created between the imported tables, on the **Data preparation** row, click **Details**. 

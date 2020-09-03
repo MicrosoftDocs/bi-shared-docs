@@ -49,7 +49,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 5.  Rename this column to **MonthCalendar**. 
 
-    ![as-lesson5-newcolumn](../tutorial-tabular-1400/media/as-lesson5-newcolumn.png) 
+    ![Screenshot of the model designer with the column renamed to MonthCalendar.](../tutorial-tabular-1400/media/as-lesson5-newcolumn.png) 
   
 The MonthCalendar calculated column provides a sortable name for Month.  
   
@@ -117,7 +117,7 @@ The ProductCategoryName calculated column is used to create a hierarchy in the D
 
 4.  Rename the column to **Margin**.  
  
-      ![as-lesson5-newmargin](../tutorial-tabular-1400/media/as-lesson5-newmargin.png)
+      ![Screenshot of the model designer with the Margin column called out.](../tutorial-tabular-1400/media/as-lesson5-newmargin.png)
       
     The Margin calculated column is used to analyze profit margins for each sale.  
   

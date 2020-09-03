@@ -160,7 +160,7 @@ Execution complete
   
 4.  In SQL Server Profiler, DBCC activity is indicated through **Command** events having an event subclass of DBCC:  
   
-     ![ssas-dbcc-profiler-eventsubclass](../../analysis-services/instances/media/ssas-dbcc-profiler-eventsubclass.PNG "ssas-dbcc-profiler-eventsubclass")  
+     ![Screenshot for the SQL Server Analysis Services DBCC profiler EventSubclass results.](../../analysis-services/instances/media/ssas-dbcc-profiler-eventsubclass.PNG "ssas-dbcc-profiler-eventsubclass")  
   
      Event code 32 is DBCC execution.  
   

@@ -29,7 +29,7 @@ When you imported data by using the Table Import Wizard, you got seven tables fr
 
     The model designer now appears in Diagram View, a graphical format displaying all of the tables you imported with lines between them. The lines between tables indicate the relationships that were automatically created when you imported the data.
     
-    ![as-tabular-lesson4-diagram](media/as-tabular-lesson4-diagram.png)
+    ![Screenshot of the diagram view of the Model.bim file.](media/as-tabular-lesson4-diagram.png)
   
     Use the minimap controls in the lower-right corner of the model designer to adjust the view to include as many of the tables as possible. You can also click, and drag tables to different locations, bringing tables closer together, or putting them in a particular order. Moving tables does not affect the relationships already between the tables. To view all of the columns in a particular table, click, and drag on a table edge to expand or make it smaller.  
   
@@ -55,11 +55,11 @@ When you imported data by using the Table Import Wizard, you got seven tables fr
 ### Take a closer look
 In Diagram View, you'll notice an arrow, an asterisk, and a number on the lines that show the relationship between tables.
 
-![as-tabular-lesson4-line](media/as-tabular-lesson4-line.png)
+![Screenshot of the diagram view with the arrows, asterisks, and numbers highlighted.](media/as-tabular-lesson4-line.png)
 
 The arrow shows the filter direction, the asterisk shows this table is the many side in the relationship's cardinality, and the 1 shows this table is the one side of the relationship. If you need to edit a relationship; for example, change the relationship's filter direction or cardinality, double-click the relationship line in Diagram View to open the Edit Relationship dialog.
 
-![as-tabular-lesson4-edit](media/as-tabular-lesson4-edit.png)
+![Screenshot of the Edit Relationship dialog box with DimCustomer and GeographyKey options highlighted for both Table 1 and Table 2.](media/as-tabular-lesson4-edit.png)
 
 Most likely, you will never need to edit a relationship. These features are meant for advanced data modeling and are outside the scope of this tutorial. To learn more, see [Bi-directional cross filters for tabular models in SQL Server 2016 Analysis Services](../tabular-models/bi-directional-cross-filters-tabular-models-analysis-services.md).
 
@@ -71,7 +71,7 @@ In some cases, you may need to create additional relationships between tables in
 
     A solid line appears showing you have created an active relationship between the **OrderDate** column in the **Internet Sales** table and the **Date** column in the **Date** table. 
   
-      ![as-tabular-lesson4-new](media/as-tabular-lesson4-new.png) 
+      ![Screenshot of the model designer with OrderDate and Date called out showing the solid line between the tables.](media/as-tabular-lesson4-new.png) 
   
     > [!NOTE]  
     > When creating relationships, the cardinality and filter direction between the primary table and the related lookup table is automatically selected.  
@@ -82,7 +82,7 @@ In some cases, you may need to create additional relationships between tables in
   
 3.  Finally, create one more relationship; in the **FactInternetSales** table, click, and hold on the **ShipDate** column, then drag the cursor to the **Date** column in the **DimDate** table, and then release.  
     
-     ![as-tabular-lesson4-newinactive](media/as-tabular-lesson4-newinactive.png)
+     ![Screenshot of the model designer with ShipDate and Date called out.](media/as-tabular-lesson4-newinactive.png)
   
 ## What's next?
 Go to the next lesson: [Lesson 5: Create Calculated Columns](lesson-5-create-calculated-columns.md).

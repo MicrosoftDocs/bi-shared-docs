@@ -37,7 +37,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 4.  Select the all the tables *except* **DimCustomer**.  
   
-    ![as-lesson8-perspectives](../tutorial-tabular-1400/media/as-lesson8-perspectives.png)
+    ![Screenshot of the Perspectives dialog box showing that DimCustomer is not selected.](../tutorial-tabular-1400/media/as-lesson8-perspectives.png)
   
     In a later lesson, you use the Analyze in Excel feature to test this perspective. The Excel PivotTable Fields List includes each table except the DimCustomer table.  
 
