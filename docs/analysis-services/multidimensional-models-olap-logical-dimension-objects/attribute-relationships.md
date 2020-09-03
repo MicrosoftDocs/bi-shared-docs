@@ -1,5 +1,6 @@
 ---
 title: "Attribute Relationships | Microsoft Docs"
+description: Learn about attribute relationships and why you might want to change attribute relationships from their default definition.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
