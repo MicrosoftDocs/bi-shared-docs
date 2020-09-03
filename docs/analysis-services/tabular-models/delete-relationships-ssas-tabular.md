@@ -1,5 +1,6 @@
 ---
 title: "Delete relationships in Analysis Services tabular models | Microsoft Docs"
+description: Learn how to delete existing relationships by using the model designer in Diagram View or by using the Manage Relationships dialog box.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

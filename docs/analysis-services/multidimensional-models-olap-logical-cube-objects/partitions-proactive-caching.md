@@ -1,5 +1,6 @@
 ---
 title: "Proactive Caching (Partitions) | Microsoft Docs"
+description: Learn about proactive caching and how proactive caching provides automatic MOLAP cache creation and management for OLAP objects.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

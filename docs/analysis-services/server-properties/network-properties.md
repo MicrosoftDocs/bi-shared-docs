@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services network properties | Microsoft Docs"
+description: Learn about the available network properties in Analysis Services, like ListenOnlyOnLocalConnections and MaxAllowedRequestSize.
 ms.date: 09/07/2019
 ms.prod: sql
 ms.technology: analysis-services

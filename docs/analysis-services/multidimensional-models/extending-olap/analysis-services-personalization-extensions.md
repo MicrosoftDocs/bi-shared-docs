@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services Personalization Extensions | Microsoft Docs"
+description: Learn how SQL Server Analysis Services personalization extensions are the foundation of the idea of implementing a plug-in architecture.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

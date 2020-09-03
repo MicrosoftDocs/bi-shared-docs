@@ -1,5 +1,6 @@
 ---
 title: "Developing with XMLA in Analysis Services | Microsoft Docs"
+description: Learn how to use XMLA to integrate a client application with Analysis Services, without any dependencies on the .NET Framework or COM interfaces.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

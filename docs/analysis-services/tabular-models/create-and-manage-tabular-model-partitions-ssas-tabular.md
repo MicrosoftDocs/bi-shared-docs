@@ -1,5 +1,6 @@
 ---
 title: "Create and Manage Tabular Model Partitions | Microsoft Docs"
+description: Learn how to create and manage partitions for a deployed model. 
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

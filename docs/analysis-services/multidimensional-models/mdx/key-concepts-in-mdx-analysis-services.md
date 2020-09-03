@@ -1,5 +1,6 @@
 ---
 title: "Key Concepts in MDX (Analysis Services) | Microsoft Docs"
+description: Learn about key multidimensional concepts and terms so you can use MDX to query multidimensional data or create MDX expressions within a cube.
 ms.date: 04/19/2019
 ms.prod: sql
 ms.technology: analysis-services

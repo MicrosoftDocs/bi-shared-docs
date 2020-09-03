@@ -1,5 +1,6 @@
 ---
 title: "Setting Security for Stored Procedures | Microsoft Docs"
+description: Learn how security for stored procedures is set with the PermissionSet property on a stored procedure.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

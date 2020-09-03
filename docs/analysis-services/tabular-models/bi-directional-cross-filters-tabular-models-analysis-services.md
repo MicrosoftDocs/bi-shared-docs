@@ -1,5 +1,6 @@
 ---
 title: "Bi-directional cross filters in Analysis Services tabular models| Microsoft Docs"
+description: Learn how bi-directional cross filters in tabular models eliminate the need for hand-crafted DAX workarounds for propagating filter context across table relationships.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

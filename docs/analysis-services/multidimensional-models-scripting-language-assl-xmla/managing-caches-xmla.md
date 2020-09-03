@@ -1,5 +1,6 @@
 ---
 title: "Managing Caches (XMLA) | Microsoft Docs"
+description: Learn how to use the ClearCache command in XML for Analysis (XMLA) to clear the cache of a specified dimension or partition. 
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

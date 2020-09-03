@@ -1,5 +1,6 @@
 ---
 title: "User Hierarchies (Analysis Services OLAP)| Microsoft Docs"
+description: Learn how user hierarchies are used in Analysis Services to organize the members of a dimension into hierarchical structures and provide navigation paths in a cube.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Change Analysis Services tabular model table, column, or row filter mappings | Microsoft Docs"
+description: Learn how to change table, column, or row filter mappings by using the Edit Table Properties dialog box in SQL Server Data Tools.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
