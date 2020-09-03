@@ -137,7 +137,7 @@ Now that you've previewed and filtered out unnecessary data, you can import the 
   
 1.  Review your selections. If everything looks okay, click **Import**. The Data Processing dialog shows the status of data being imported from your datasource into your workspace database.
   
-    ![as-lesson2-success](../tutorial-tabular-1400/media/as-lesson2-success.png) 
+    ![Screenshot of the Data Processing dialog box showing Success.](../tutorial-tabular-1400/media/as-lesson2-success.png) 
   
 2.  Click **Close**.  
 
