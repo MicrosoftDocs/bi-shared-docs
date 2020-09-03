@@ -35,7 +35,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
     This launches **Get Data**, which guides you through connecting to a data source. If you don't see Tabular Model Explorer, in **Solution Explorer**, double-click **Model.bim** to open the model in the designer. 
     
-    ![Get Data dialog](../tutorial-tabular-1400/media/as-lesson2-getdata.png)
+    ![Screenshot of the Get Data dialog box with the Azure and Azure SQL Data Warehouse options highligted and selected.](../tutorial-tabular-1400/media/as-lesson2-getdata.png)
   
 2.  In Get Data, click **Azure** > **Azure SQL Data Warehouse**, and then click **Connect**.  
   
@@ -45,7 +45,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
 
 4.  When prompted to enter credentials, you need to specify the credentials Analysis Services uses to connect to the data source when importing and processing data. Select **Microsoft account**, and then click **Sign in**. Follow the prompts. When you're signed in, click **Connect**.
 
-    ![Enter credentials dialog](../tutorial-tabular-1400/media/as-lesson2-account.png)
+    ![Screenshot of the SQL Server database dialog box with the Microsoft account option highlighted and selected.](../tutorial-tabular-1400/media/as-lesson2-account.png)
   
     If your datasource is an on-premises or VM SQL Server Data Warehouse, choose **Windows** > **Impersonate Account**, and then enter an account name and password.
   
@@ -53,7 +53,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 6.  In Navigator, select the check box for the following tables: **DimCustomer**, **DimDate**, **DimGeography**, **DimProduct**, **DimProductCategory**, **DimProductSubcategory**, and **FactInternetSales**. After selecting the tables, click **Transform Data**. 
 
-    ![as-lesson2-select-tables](../tutorial-tabular-1400/media/as-lesson2-select-tables.png)
+    ![Screenshot of the NAvigator dialog box witht eh Display Options section and the Transform Data option called out.](../tutorial-tabular-1400/media/as-lesson2-select-tables.png)
   
 After you click **Transform Data**, Power Query Editor opens. In the next section, you select only the data you want to import.
 
@@ -68,14 +68,14 @@ Tables in the AdventureWorksDW sample database have data that isn't necessary to
   
 2.  Multi-select (Ctrl + click) **SpanishEducation**, **FrenchEducation**, **SpanishOccupation**, **FrenchOccupation**, then right-click, and then click **Remove Columns**. 
 
-    ![as-lesson2-remove-columns](../tutorial-tabular-1400/media/as-lesson2-remove-columns.png)
+    ![Screenshot of the Power Query Editor with the SpanishEducation, FrenchEducation, SpanishOccupation, FrenchOccupation columns selected and the Remove Columns option highlighted.](../tutorial-tabular-1400/media/as-lesson2-remove-columns.png)
   
     Since the values for these columns are not relevant to Internet sales analysis, there is no need to import these columns. Eliminating unnecessary columns makes your model smaller and more efficient.  
 
     > [!TIP]
     > If you make a mistake, you can backup by deleting a step in **APPLIED STEPS**.   
     
-    ![as-lesson2-remove-columns](../tutorial-tabular-1400/media/as-lesson2-remove-step.png)
+    ![Screenshot of the Query Settings dialog box with the Removed Columns option highlighted and called out.](../tutorial-tabular-1400/media/as-lesson2-remove-step.png)
 
   
 4.  Filter the remaining tables by removing the following columns in each table:  

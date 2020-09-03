@@ -44,7 +44,7 @@ This topic is part of a tabular modeling tutorial, which should be completed in 
   
 8.  In **Select Icon Style**, select the diamond (red), triangle (yellow), circle (green) icon type.
   
-    ![as-tabular-lesson7-kpi](media/as-tabular-lesson7-kpi.png)
+    ![Screenshot of the Key Performance Indicator K P I dialog box with the  diamond (red), triangle (yellow), circle (green) icon type called out.](media/as-tabular-lesson7-kpi.png)
     
     > [!TIP]  
     > Notice the expandable **Descriptions** label below the available icon styles. Use this to enter descriptions for the various KPI elements to make them more identifiable in client applications.  

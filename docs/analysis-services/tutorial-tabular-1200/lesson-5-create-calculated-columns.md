@@ -46,7 +46,7 @@ This topic is part of a tabular modeling tutorial, which should be completed in 
   
 5.  Rename this column to **MonthCalendar**. 
 
-    ![as-tabular-lesson5-newcolumn](media/as-tabular-lesson5-newcolumn.png) 
+    ![Screenshot of the model designer with the column renamed to MonthCalendar.](media/as-tabular-lesson5-newcolumn.png) 
   
 The MonthCalendar calculated column provides a sortable name for Month.  
   
@@ -116,7 +116,7 @@ The ProductCategoryName calculated column is used to create a hierarchy in the D
   
 5.  Drag the column between the **SalesAmount** column and the **TaxAmt** column. 
  
-      ![as-tabular-lesson5-newmargin](media/as-tabular-lesson5-newmargin.png)
+      ![Screenshot of the model designer with the Margin column called out.](media/as-tabular-lesson5-newmargin.png)
       
     The Margin calculated column is used to analyze profit margins for each sale.  
   
