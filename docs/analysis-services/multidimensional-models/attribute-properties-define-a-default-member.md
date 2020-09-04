@@ -1,6 +1,6 @@
 ---
 title: "Define a Default Member | Microsoft Docs"
-description: Learn how to set the default member for an attribute hierarchy by specifying an attribute member as the DefaultMember."
+description: Learn how to set the default member for an attribute hierarchy by specifying an attribute member as the DefaultMember.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
