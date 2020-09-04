@@ -1,5 +1,5 @@
 ---
-title: "Configure Attribute Types | Microsoft Docs
+title: "Configure Attribute Types | Microsoft Docs"
 description: Learn about the many attribute types that help classify an attribute in terms of business functionality."
 ms.date: 05/02/2018
 ms.prod: sql

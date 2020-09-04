@@ -1,5 +1,5 @@
 ---
-title: "Attach and Detach Analysis Services Databases | Microsoft Docs
+title: "Attach and Detach Analysis Services Databases | Microsoft Docs"
 description: Learn to use the Attach and Detach commands to take the database offline and bring it back online with little effort."
 ms.date: 05/02/2018
 ms.prod: sql
