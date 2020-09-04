@@ -1,5 +1,6 @@
 ---
 title: "Configure Attribute Relationship Properties | Microsoft Docs"
+description: See a table that lists and describes the properties of an attribute relationship, like Name, Visibility, and RelationshipType.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

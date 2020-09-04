@@ -1,5 +1,6 @@
 ---
 title: "Create a Date type Dimension | Microsoft Docs"
+description: Learn about time intelligence dimension structures and calendars, and using the Business Intelligence Wizard to add time intelligence.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

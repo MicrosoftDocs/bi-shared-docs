@@ -1,5 +1,6 @@
 ---
 title: "Define Member Groups | Microsoft Docs"
+description: Group large numbers of members into buckets, reducing the number of members that users see when they browse the data in a hierarchy. 
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

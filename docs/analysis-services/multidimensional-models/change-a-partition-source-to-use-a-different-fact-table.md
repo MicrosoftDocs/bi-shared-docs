@@ -1,5 +1,6 @@
 ---
 title: "Change a partition source to use a different fact table | Microsoft Docs"
+description: Learn how to change a partition source to use a different fact table when you create a partition for a cube.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
