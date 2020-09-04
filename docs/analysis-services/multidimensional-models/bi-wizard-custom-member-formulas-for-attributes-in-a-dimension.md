@@ -1,5 +1,6 @@
 ---
 title: "Set Custom Member Formulas for Attributes in a Dimension | Microsoft Docs"
+description: Add a custom member formula to a cube or dimension to replace the default aggregation that is associated with a dimension member.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
