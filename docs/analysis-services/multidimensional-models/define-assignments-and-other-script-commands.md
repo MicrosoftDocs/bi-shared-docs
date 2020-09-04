@@ -1,5 +1,6 @@
 ---
 title: "Define Assignments and Other Script Commands | Microsoft Docs"
+description: Learn to create a new empty script from the Calculations tab of Cube Designer and use the Calculation Expressions pane to build an expression.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

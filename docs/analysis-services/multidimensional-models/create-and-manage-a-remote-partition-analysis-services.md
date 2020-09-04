@@ -1,5 +1,6 @@
 ---
 title: "Create and Manage a Remote Partition (Analysis Services) | Microsoft Docs"
+description: Configure a secondary database on a remote Analysis Services instance as partition storage when partitioning a measure group.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

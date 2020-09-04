@@ -1,5 +1,6 @@
 ---
 title: "Configure String Storage for Dimensions and Partitions | Microsoft Docs"
+description: Reconfigure string storage to accommodate very large strings in dimension attributes or partitions that exceed the 4 GB file size limit for string stores.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

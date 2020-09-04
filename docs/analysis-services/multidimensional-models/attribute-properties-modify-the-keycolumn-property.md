@@ -1,5 +1,6 @@
 ---
 title: "Modify the KeyColumn Property of an Attribute | Microsoft Docs"
+description: Modify the KeyColumns property of an attribute, for example to specify a composite key instead of a single key as the key for the attribute.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

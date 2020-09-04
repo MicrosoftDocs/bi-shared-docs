@@ -1,5 +1,6 @@
 ---
 title: "Define the Ordering for a Dimension | Microsoft Docs"
+description: Add the attribute ordering enhancement to a cube or dimension to specify how the members of an attribute are ordered.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

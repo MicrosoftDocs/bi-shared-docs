@@ -1,5 +1,6 @@
 ---
 title: "Group Attribute Members (Discretization) | Microsoft Docs"
+description: Learn to group members of an attribute into a number of member groups through a process called discretization.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

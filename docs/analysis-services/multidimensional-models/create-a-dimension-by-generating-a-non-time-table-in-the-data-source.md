@@ -1,5 +1,6 @@
 ---
 title: "Create a Dimension by Generating a Non-Time Table in the Data Source | Microsoft Docs"
+description: Use the Dimension Wizard in SQL Server Data Tools to create a dimension without using an existing data source.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
