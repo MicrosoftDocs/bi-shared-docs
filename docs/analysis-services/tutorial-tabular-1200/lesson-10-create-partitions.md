@@ -129,13 +129,13 @@ In Partition Manager, notice the **Last Processed** column for each of the new p
   
 4.  Select the checkbox in the **Process** column for each of the five partitions you created, and then click **OK**.  
 
-    ![as-tabular-lesson10-process-partitions](media/as-tabular-lesson10-process-partitions.png)
+    ![Screenshot of the Process Partitions dialog box with each of the patrition checkboxes selected.](media/as-tabular-lesson10-process-partitions.png)
   
     If you're prompted for Impersonation credentials, enter the Windows user name and password you specified in Lesson 2.  
   
     The **Data Processing** dialog box appears and displays process details for each partition. Notice that a different number of rows for each partition are transferred. This is because each partition includes only those rows for the year specified in the WHERE clause in the SQL Statement. When processing is finished, go ahead and close the Data Processing dialog box.  
   
-    ![as-tabular-lesson10-process-complete](media/as-tabular-lesson10-process-complete.png)
+    ![Screenshot of the Data Processing dialog box showing Success.](media/as-tabular-lesson10-process-complete.png)
   
  ## What's next?
 Go to the next lesson: [Lesson 11: Create Roles](lesson-11-create-roles.md). 

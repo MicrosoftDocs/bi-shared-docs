@@ -1,5 +1,6 @@
 ---
 title: "Create and Manage a Local Partition (Analysis Services) | Microsoft Docs"
+description: Create additional partitions for a measure group to improve processing performance by allocating fact data across a corresponding number of physical data files.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -55,8 +56,8 @@ manager: kfile
   
      Notice that the following filters are mutually exclusive within each set:  
   
-    |||  
-    |-|-|  
+    | Set | Value |
+    | --- | ----- |  
     |Set 1:|"SaleYear" = 2012<br /><br /> "SaleYear" = 2013|  
     |Set 2:|"Continent" = 'NorthAmerica'<br /><br /> "Continent" = 'Europe'<br /><br /> "Continent" = 'SouthAmerica'|  
     |Set 3:|"Country" = 'USA'<br /><br /> "Country" = 'Mexico'<br /><br /> ("Country" <> 'USA' AND "Country" <> 'Mexico')|  

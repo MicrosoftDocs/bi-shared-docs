@@ -1,5 +1,6 @@
 ---
 title: "Server Properties in Analysis Services | Microsoft Docs"
+description: Learn how to modify default server configuration properties of an Azure Analysis Services (Azure AS) or SQL Server Analysis Services (SSAS) instance.
 ms.date: 09/07/2019
 ms.prod: sql
 ms.technology: analysis-services

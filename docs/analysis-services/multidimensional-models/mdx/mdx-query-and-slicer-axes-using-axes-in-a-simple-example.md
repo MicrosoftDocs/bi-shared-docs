@@ -1,5 +1,6 @@
 ---
 title: "Using Query and Slicer Axes in a Simple Example (MDX) | Microsoft Docs"
+description: Learn the basics of specifying and using query and slicer axes by viewing the simple example in this article.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -35,8 +36,8 @@ WHERE ( [Measures].[Packages] )
   
 ||air|sea|  
 |-|---------|---------|  
-|1st quarter|60|50|  
-|2nd quarter|45|45|  
+|**1st quarter**|60|50|  
+|**2nd quarter**|45|45|  
   
 ## See Also  
  [Specifying the Contents of a Query Axis &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-query-and-slicer-axes-specify-the-contents-of-a-query-axis.md)   

@@ -1,5 +1,6 @@
 ---
 title: "Data types supported in Analysis Services tabular models | Microsoft Docs"
+description: Learn about the data types that can be used in tabular models, and the implicit conversion of data types when data is calculated or used in a DAX formula.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -24,9 +25,8 @@ When you import data or use a value in a formula, even if the original data sour
   
  Formats used for numbers, currency, dates and times should follow the format of the locale that is specified on the client used to work with model data. You can use the formatting options in the model to control the way that the value is displayed.  
   
-||||  
-|-|-|-|  
-|**Data type in model**|**Data type in DAX**|**Description**|  
+| Data type in model | Data type in DAX | Description |
+| ------------------ | ---------------- | ----------- |
 |Whole Number|A 64 bit (eight-bytes) integer value*<br /><br /> Note:<br />         DAX formulas do not support data types that are too small to hold the minimum value listed in the description.|Numbers that have no decimal places. Integers can be positive or negative numbers, but must be whole numbers between -9,223,372,036,854,775,807 (-2^63+1) and 9,223,372,036,854,775,806 (2^63-2).|  
 |Decimal Number|A 64 bit (eight-bytes) real number*<br /><br /> Note:<br />         DAX formulas do not support data types that are too small to hold the minimum value listed in the description.|Real numbers are numbers that can have decimal places. Real numbers cover a wide range of values:<br /><br /> Negative values from -1.79E +308 through -2.23E -308<br /><br /> Zero<br /><br /> Positive values from 2.23E -308 through 1.79E + 308<br /><br /> However, the number of significant digits is limited to 17 decimal digits.|  
 |Boolean|Boolean|Either a True or False value.|  
@@ -41,9 +41,8 @@ When you import data or use a value in a formula, even if the original data sour
   
  This error occurs because the model designer uses that value to represent nulls. The values in the following list are synonyms to the previous mentioned null value:  
   
-||  
-|-|  
-|Value|  
+| Value |
+| ----- |
 |9223372036854775807|  
 |-9223372036854775808|  
 |1.7976931348623158e+308|  
@@ -81,26 +80,24 @@ When you import data or use a value in a formula, even if the original data sour
   
 #### Addition (+)  
   
-||||||  
-|-|-|-|-|-|  
-|Operator (+)|INTEGER|CURRENCY|REAL|Date/time|  
-|INTEGER|INTEGER|CURRENCY|REAL|Date/time|  
-|CURRENCY|CURRENCY|CURRENCY|REAL|Date/time|  
-|REAL|REAL|REAL|REAL|Date/time|  
-|Date/time|Date/time|Date/time|Date/time|Date/time|  
+| | INTEGER | CURRENCY | REAL | Date/time |
+|-| ------- | -------- | ---- | --------- |
+|**INTEGER**|INTEGER|CURRENCY|REAL|Date/time|  
+|**CURRENCY**|CURRENCY|CURRENCY|REAL|Date/time|  
+|**REAL**|REAL|REAL|REAL|Date/time|  
+|**Date/time**|Date/time|Date/time|Date/time|Date/time|  
   
  For example, if a real number is used in an addition operation in combination with currency data, both values are converted to REAL, and the result is returned as REAL.  
   
 #### Subtraction (-)  
  In the following table, the row header is the minuend (left side) and the column header is the subtrahend (right side):  
   
-||||||  
-|-|-|-|-|-|  
-|Operator (-)|INTEGER|CURRENCY|REAL|Date/time|  
-|INTEGER|INTEGER|CURRENCY|REAL|REAL|  
-|CURRENCY|CURRENCY|CURRENCY|REAL|REAL|  
-|REAL|REAL|REAL|REAL|REAL|  
-|Date/time|Date/time|Date/time|Date/time|Date/time|  
+| | INTEGER | CURRENCY | REAL | Date/time |
+|-| ------- | -------- | ---- | --------- |
+|**INTEGER**|INTEGER|CURRENCY|REAL|REAL|  
+|**CURRENCY**|CURRENCY|CURRENCY|REAL|REAL|  
+|**REAL**|REAL|REAL|REAL|REAL|  
+|**Date/time**|Date/time|Date/time|Date/time|Date/time|  
   
  For example, if a date is used in a subtraction operation with any other data type, both values are converted to dates, and the return value is also a date.  
   
@@ -109,25 +106,23 @@ When you import data or use a value in a formula, even if the original data sour
   
 #### Multiplication (*)  
   
-||||||  
-|-|-|-|-|-|  
-|Operator (*)|INTEGER|CURRENCY|REAL|Date/time|  
-|INTEGER|INTEGER|CURRENCY|REAL|INTEGER|  
-|CURRENCY|CURRENCY|REAL|CURRENCY|CURRENCY|  
-|REAL|REAL|CURRENCY|REAL|REAL|  
+| | INTEGER | CURRENCY | REAL | Date/time |
+|-| ------- | -------- | ---- | --------- |
+|**INTEGER**|INTEGER|CURRENCY|REAL|INTEGER|  
+|**CURRENCY**|CURRENCY|REAL|CURRENCY|CURRENCY|  
+|**REAL**|REAL|CURRENCY|REAL|REAL|  
   
  For example, if an integer is combined with a real number in a multiplication operation, both numbers are converted to real numbers, and the return value is also REAL.  
   
 #### Division (/)  
- In the following table the row header is the numerator and the column header is the denominator.  
+ In the following table the row header is the numerator and the column header is the denominator: (Row/Column)
   
-||||||  
-|-|-|-|-|-|  
-|Operator (/)<br /><br /> (Row/Column)|INTEGER|CURRENCY|REAL|Date/time|  
-|INTEGER|REAL|CURRENCY|REAL|REAL|  
-|CURRENCY|CURRENCY|REAL|CURRENCY|REAL|  
-|REAL|REAL|REAL|REAL|REAL|  
-|Date/time|REAL|REAL|REAL|REAL|  
+| | INTEGER | CURRENCY | REAL | Date/time |
+|-| ------- | -------- | ---- | --------- |
+|**INTEGER**|REAL|CURRENCY|REAL|REAL|  
+|**CURRENCY**|CURRENCY|REAL|CURRENCY|REAL|  
+|**REAL**|REAL|REAL|REAL|REAL|  
+|**Date/time**|REAL|REAL|REAL|REAL|  
   
  For example, if an integer is combined with a currency value in a division operation, both values are converted to real numbers, and the result is also a real number.  
   
@@ -137,9 +132,8 @@ Only a limited set of mixed data-type combinations for comparison operations is 
 ## <a name="bkmk_hand_blanks"></a> Handling of blanks, empty strings, and zero values  
  The following table summarizes the differences between DAX and in Microsoft Excel, in the way that blanks are handled:  
   
-||||  
-|-|-|-|  
-|Expression|DAX|Excel|  
+| Expression | DAX | Excel |
+| ---------- | --- | ----- |
 |BLANK + BLANK|BLANK|0 (zero)|  
 |BLANK +5|5|5|  
 |BLANK * 5|BLANK|0 (zero)|  

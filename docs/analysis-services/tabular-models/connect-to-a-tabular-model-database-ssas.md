@@ -1,5 +1,6 @@
 ---
 title: "Connect to an Analysis Services tabular model database | Microsoft Docs"
+description: Learn how to set permissions and how to connect to a database from client applications. 
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

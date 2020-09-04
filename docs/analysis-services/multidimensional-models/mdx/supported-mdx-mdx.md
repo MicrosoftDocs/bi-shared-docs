@@ -1,5 +1,6 @@
 ---
 title: "Supported MDX (Analysis Services MDX) | Microsoft Docs"
+description: Learn about the statements and functions that are supported within Multidimensional Expressions (MDX) script.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

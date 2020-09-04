@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Neural Network Algorithm Technical Reference | Microsoft Docs"
+description: Learn about the Microsoft Neural Network algorithm, which uses a Multilayer Perceptron network in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -20,9 +20,8 @@ manager: kfile
 > [!NOTE]  
 >  Third party providers, such as the Oracle OLE DB Provider, may also be used to connect to third party databases, with support provided by those third parties.  
   
-|||||  
-|-|-|-|-|  
-|Source|Versions|File type|Providers*|  
+| Source | Versions | File type | Providers* |
+| ------ | -------- | --------- | ---------- |
 |Access databases|Microsoft Access  2010, 2013, 2016|.accdb or .mdb|Microsoft Jet 4.0 OLE DB provider|  
 |SQL Server relational databases*|Microsoft SQL Server 2008, 2008 R2, 2012, 2014, 2016, [!INCLUDE[ssSDSFull](../includes/sssdsfull-md.md)], Azure Synapse Analytics (SQL Data Warehouse), Microsoft Analytics Platform System (APS)<br /><br /> <br /><br /> Note: For more information about [!INCLUDE[ssSDS](../includes/sssds-md.md)] on [Azure.com](https://go.microsoft.com/fwlink/?LinkID=157856).<br /><br /> Note: Analytics Platform System (APS) was formerly known as SQL Server Parallel Data Warehouse (PDW). Originally, connecting to PDW from Analysis Services required a special data provider. This provider was replaced in SQL Server 2012. Starting in SQL Server 2012, the SQL Server native client is used for connections to PDW/APS.|(not applicable)|OLE DB Provider for SQL Server<br /><br /> SQL Server Native Client OLE DB Provider<br /><br /> SQL Server Native 11.0 Client OLE DB Provider<br /><br /> .NET Framework Data Provider for SQL Client|  
 |Oracle relational databases|Oracle 9i, 10g, 11g, 12g|(not applicable)|Oracle OLE DB Provider<br /><br /> .NET Framework Data Provider for Oracle Client<br /><br /> .NET Framework Data Provider for SQL Server<br /><br /> OraOLEDB<br /><br /> MSDASQL|  

@@ -1,5 +1,6 @@
 ---
 title: "Programming AMO OLAP advanced objects | Microsoft Docs"
+description: In this article, learn how to program OLAP advanced objects by using Analysis Management Objects (AMO).
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

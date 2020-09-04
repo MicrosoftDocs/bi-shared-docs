@@ -1,5 +1,6 @@
 ---
 title: "Choose the Column to Use for Testing a Mining Model | Microsoft Docs"
+description: Learn how to choose the column to use for testing a mining model and how to specify the outcome to predict.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

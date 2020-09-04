@@ -1,5 +1,6 @@
 ---
 title: "Managing Scope and Context (MDX) | Microsoft Docs"
+description: Learn how to use a Multidimensional Expressions (MDX) script in Microsoft SQL Server Analysis Services to manage scope and context.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -78,7 +79,7 @@ END SCOPE;
   
 ||[ExistingMeasure]|[NewMeasure]|  
 |-|-------------------------|--------------------|  
-|[Customer].[All]|2|2|  
+|**[Customer].[All]**|2|2|  
   
  Looking at the returned cellset, notice how the ExistingMeasure value, included in the SCOPE statement within the MDX script, is dynamically updated after the measure NewMeasure was defined.  
   

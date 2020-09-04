@@ -45,7 +45,7 @@ This topic is part of a tabular modeling tutorial, which should be completed in 
   
 4.  In the **Permissions** column, click the dropdown list, and then select the **Read** permission. 
 
-    ![as-tabular-lesson11-new-role](media/as-tabular-lesson11-new-role.png) 
+    ![Screenshot of the Role Manager dialog box with the Read permission selected.](media/as-tabular-lesson11-new-role.png) 
   
 5.  Optional: Click the **Members** tab, and then click **Add**. In the **Select Users or Groups** dialog box, enter the Windows users or groups from your organization you want to include in the role.  
   
@@ -64,7 +64,7 @@ This topic is part of a tabular modeling tutorial, which should be completed in 
     ```
     
     A Row Filter formula must resolve to a Boolean (TRUE/FALSE) value. With this formula, you are specifying that only rows with the Country Region Code value of "US" be visible to the user.  
-    ![as-tabular-lesson11-role-filter](media/as-tabular-lesson11-role-filter.png) 
+    ![Screenshot of the Role Manager dialog box showing the DAX filter for DimGeography table.](media/as-tabular-lesson11-role-filter.png) 
   
 6.  Optional: Click on the **Members** tab, and then click **Add**. In the **Select Users or Groups** dialog box, enter the Windows users or groups from your organization you want to include in the role.  
   

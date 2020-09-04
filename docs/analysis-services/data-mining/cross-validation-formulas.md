@@ -1,5 +1,6 @@
 ---
 title: "Cross-Validation Formulas | Microsoft Docs"
+description: Learn about the measures used in the cross-validation report and the method of calculation in SQL Server Analysis Services. 
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

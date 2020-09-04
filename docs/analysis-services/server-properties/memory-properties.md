@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services memory properties | Microsoft Docs"
+description: Learn about memory properties and how to specify configuration settings so you can control the thresholds at which memory is released.
 ms.date: 02/24/2020
 ms.prod: sql
 ms.technology: analysis-services

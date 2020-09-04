@@ -1,5 +1,6 @@
 ---
 title: "Data Mining Queries (Analysis Services) | Microsoft Docs"
+description: Learn about the uses of data mining queries, the types of queries, and the tools and query languages in SQL Server Data Mining.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -90,17 +91,27 @@ manager: kfile
   
 -   **Custom prediction functions:** Each model type provides a set of prediction functions designed for working with the patterns created by that algorithm.  
   
-     For example, the **Lag** function is provided for time series models, to let you view the historical data used for the model. For clustering models, functions such as **ClusterDistance** are more meaningful.  
+    For example, the **Lag** function is provided for time series models, to let you view the historical data used for the model. For clustering models, functions such as **ClusterDistance** are more meaningful.  
   
-     For more information about the functions that are supported for each model type, see the following links:  
+    For more information about the functions that are supported for each model type, see the following links:  
   
-    |||  
-    |-|-|  
-    |[Association Model Query Examples](../../analysis-services/data-mining/association-model-query-examples.md)|[Microsoft Naive Bayes Algorithm](../../analysis-services/data-mining/microsoft-naive-bayes-algorithm.md)|  
-    |[Clustering Model Query Examples](../../analysis-services/data-mining/clustering-model-query-examples.md)|[Neural Network Model Query Examples](../../analysis-services/data-mining/neural-network-model-query-examples.md)|  
-    |[Decision Trees Model Query Examples](../../analysis-services/data-mining/decision-trees-model-query-examples.md)|[Sequence Clustering Model Query Examples](../../analysis-services/data-mining/sequence-clustering-model-query-examples.md)|  
-    |[Linear Regression Model Query Examples](../../analysis-services/data-mining/linear-regression-model-query-examples.md)|[Time Series Model Query Examples](../../analysis-services/data-mining/time-series-model-query-examples.md)|  
-    |[Logistic Regression Model Query Examples](../../analysis-services/data-mining/logistic-regression-model-query-examples.md)||  
+    - [Association Model Query Examples](../../analysis-services/data-mining/association-model-query-examples.md)  
+
+    - [Clustering Model Query Examples](../../analysis-services/data-mining/clustering-model-query-examples.md)
+
+    - [Decision Trees Model Query Examples](../../analysis-services/data-mining/decision-trees-model-query-examples.md) 
+
+    - [Linear Regression Model Query Examples](../../analysis-services/data-mining/linear-regression-model-query-examples.md)  
+
+    - [Logistic Regression Model Query Examples](../../analysis-services/data-mining/logistic-regression-model-query-examples.md)  
+
+    - [Microsoft Naive Bayes Algorithm](../../analysis-services/data-mining/microsoft-naive-bayes-algorithm.md)
+
+    - [Neural Network Model Query Examples](../../analysis-services/data-mining/neural-network-model-query-examples.md)
+
+    - [Sequence Clustering Model Query Examples](../../analysis-services/data-mining/sequence-clustering-model-query-examples.md)
+
+    - [Time Series Model Query Examples](../../analysis-services/data-mining/time-series-model-query-examples.md)
   
      You can also call VBA functions, or create your own functions. For more information, see [Functions &#40;DMX&#41;](/sql/dmx/functions-dmx).  
   

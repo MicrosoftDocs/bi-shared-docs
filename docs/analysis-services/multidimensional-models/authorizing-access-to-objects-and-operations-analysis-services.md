@@ -1,5 +1,6 @@
 ---
 title: "Authorizing access to objects and operations (Analysis Services) | Microsoft Docs"
+description: Learn about authorizing access to objects and operations in an Analysis Services database by granting membership in database roles.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
