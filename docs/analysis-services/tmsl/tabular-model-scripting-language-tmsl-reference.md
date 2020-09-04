@@ -1,5 +1,6 @@
 ﻿---
 title: "Tabular Model Scripting Language (TMSL) Reference | Microsoft Docs"
+description: Learn that Tabular Model Scripting Language (TMSL) is the command and object model definition syntax for tabular data models at compatibility level 1200 or higher.
 ms.date: 02/12/2020
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Using Cell Properties (MDX) | Microsoft Docs"
+description: Learn how cell properties in Multidimensional Expressions (MDX) contain information about the content and format of cells in a multidimensional data source.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

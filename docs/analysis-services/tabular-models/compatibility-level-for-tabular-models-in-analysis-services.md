@@ -1,5 +1,6 @@
 ---
 title: "Compatibility level for tabular models in Analysis Services | Microsoft Docs"
+description: Learn how to set compatibility levels for tabular models in Analysis Services.
 ms.date: 03/23/2020
 ms.prod: sql
 ms.technology: analysis-services

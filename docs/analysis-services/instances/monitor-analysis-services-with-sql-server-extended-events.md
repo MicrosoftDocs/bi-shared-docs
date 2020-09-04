@@ -55,7 +55,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
  **Configure** is an option on the far side of the dialog box.  
   
- ![ssas-xevents-configure](../../analysis-services/instances/media/ssas-xevents-configure.PNG "ssas-xevents-configure")  
+ ![Screenshot of the dialog box with the configure option highlighted on the right side of the box.](../../analysis-services/instances/media/ssas-xevents-configure.PNG "ssas-xevents-configure")  
   
  In configuration, on the Event Fields tab, select **TextData** so that this field appears adjacent to the event, showing return values, including queries that are executing on the server.  
   

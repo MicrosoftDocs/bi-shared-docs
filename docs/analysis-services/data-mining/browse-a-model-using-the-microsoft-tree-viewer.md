@@ -1,5 +1,6 @@
 ---
 title: "Browse a Model Using the Microsoft Tree Viewer | Microsoft Docs"
+description: The Microsoft Tree Viewer in Microsoft SQL Server Analysis Services displays decision trees that are built with the Microsoft Decision Trees algorithm.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

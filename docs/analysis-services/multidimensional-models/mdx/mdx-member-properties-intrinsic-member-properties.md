@@ -1,5 +1,6 @@
 ---
 title: "Intrinsic Member Properties (MDX) | Microsoft Docs"
+description: Learn how Analysis Services exposes intrinsic properties on dimension members that you can include in a query to return additional data or metadata for use in a custom application.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

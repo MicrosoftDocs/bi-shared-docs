@@ -15,7 +15,7 @@ author: minewiskan
 
 In this supplemental lesson, you resolve a common problem when pivoting on hierarchies that contain blank values (members) at different levels. For example, an organization where a high-level manager has both departmental managers and non-managers as direct reports. Or, geographic hierarchies composed of Country-Region-City, where some cities lack a parent State or Province, such as Washington D.C., Vatican City. When a hierarchy has blank members, it often descends to different, or ragged, levels.
 
-![as-lesson-detail-ragged-hierarchies-table](../tutorial-tabular-1400/media/as-lesson-detail-ragged-hierarchies-table.png)
+![Screenshot of an Employee hierarchy that contains a blank value.](../tutorial-tabular-1400/media/as-lesson-detail-ragged-hierarchies-table.png)
 
 Tabular models at the 1400 compatibility level have an additional **Hide Members** property for hierarchies. The **Default** setting assumes there are no blank members at any level. The **Hide blank members** setting excludes blank members from the hierarchy when added to a PivotTable or report.  
   
@@ -96,7 +96,7 @@ If you've created the AW Internet Sales project as part of the tutorial, your mo
 
 9.  In **PivotTable Fields**, add the **Organization** hierarchy from the **DimEmployee** table to **Rows**, and the **ResellerTotalSales** measure from the **FactResellerSales**  table to **Values**.
 
-    ![as-lesson-detail-ragged-hierarchies-pivottable](../tutorial-tabular-1400/media/as-lesson-detail-ragged-hierarchies-pivottable.png)
+    ![Screenshot of a spreadsheet with the PivotTable Fields dialog box displayed.](../tutorial-tabular-1400/media/as-lesson-detail-ragged-hierarchies-pivottable.png)
 
     As you can see in the PivotTable, the hierarchy displays rows that are ragged. There are many rows where blank members are shown.
 
@@ -106,11 +106,11 @@ If you've created the AW Internet Sales project as part of the tutorial, your mo
 
 2.  In **Properties** > **Hide Members**, select **Hide blank members**. 
 
-    ![as-lesson-detail-ragged-hierarchies-hidemembers](../tutorial-tabular-1400/media/as-lesson-detail-ragged-hierarchies-hidemembers.png)
+    ![Screenshot of the Properties window with an arrow pointing to the Hide blank members option.](../tutorial-tabular-1400/media/as-lesson-detail-ragged-hierarchies-hidemembers.png)
 
 3.  Back in Excel, refresh the PivotTable. 
 
-    ![as-lesson-detail-ragged-hierarchies-pivottable-refresh](../tutorial-tabular-1400/media/as-lesson-detail-ragged-hierarchies-pivottable-refresh.png)
+    ![Screenshot of an Employee hierarchy with no blank members.](../tutorial-tabular-1400/media/as-lesson-detail-ragged-hierarchies-pivottable-refresh.png)
 
     Now that looks a whole lot better!
 

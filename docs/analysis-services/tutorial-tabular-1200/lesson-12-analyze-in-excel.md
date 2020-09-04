@@ -43,11 +43,11 @@ In these first tasks, you will browse your model by using both the default persp
   
 2.  In the **Analyze in Excel** dialog box, leave **Current Windows User** selected, then in the **Perspective** drop-down listbox, select **Internet Sales**, and then click **OK**. 
     
-    ![as-tabular-lesson12-perspective](media/as-tabular-lesson12-perspective.png)
+    ![Screenshot of the Analyze in Excel dialog box showing the correct options selected.](media/as-tabular-lesson12-perspective.png)
     
 3.  In Excel, in **PivotTable Fields**, notice the DimCustomer table is excluded from the field list.  
     
-    ![as-tabular-lesson12-fields](media/as-tabular-lesson12-fields.png)
+    ![Screenshot of the PivotTable Fields dialog box in Excel showing that DimCustomer is not available for selection.](media/as-tabular-lesson12-fields.png)
     
 4.  Close Excel without saving the workbook.  
   

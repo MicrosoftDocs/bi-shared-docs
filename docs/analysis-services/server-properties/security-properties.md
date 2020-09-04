@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services security properties | Microsoft Docs"
+description: Learn about the available security properties in Analysis Services, like RequireClientAuthentication and ServiceAccountIsServerAdmin.
 ms.date: 06/07/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Calculations in Analysis Services OLAP | Microsoft Docs"
+description: Learn how a calculation is an MDX expression or script that is used to define a calculated member, a named set, or a scoped assignment in a cube in SSAS.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
