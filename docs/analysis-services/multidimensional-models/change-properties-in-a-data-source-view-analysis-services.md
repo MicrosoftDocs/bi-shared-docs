@@ -1,5 +1,6 @@
 ---
 title: "Change Properties in a Data Source View (Analysis Services) | Microsoft Docs"
+description: Change properties after defining a data source view using the Data Source View Wizard and adding tables, views, named calculations, and named queries.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

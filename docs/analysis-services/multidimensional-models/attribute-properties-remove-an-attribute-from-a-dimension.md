@@ -1,5 +1,6 @@
 ---
 title: "Remove an Attribute from a Dimension | Microsoft Docs"
+description: Learn how to remove an attribute from a dimension in Microsoft SQL Server Analysis Services, which doesn't affect the data source view.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

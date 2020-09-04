@@ -1,5 +1,6 @@
 ---
 title: "Rename an Attribute (Analysis Services) | Microsoft Docs"
+description: Learn different ways to rename an attribute by changing its Name property in Microsoft SQL Server Analysis Services.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
