@@ -68,7 +68,7 @@ In the tasks in this topic, you add a Sales Quotas measure group and define the 
   
 15. Change the value for the **Name** property for the **Employee Key Distinct Count** measure to **Sales Person Count**, and then type **#,#** as the value for the **FormatString** property.  
   
-## Browsing the Measures in the Sales Quota Measure Group by Date  
+## Browsing the Measures again in the Sales Quota Measure Group by Date  
   
 1.  On the **Build** menu, click **Deploy Analysis Services Tutorial**.  
   
