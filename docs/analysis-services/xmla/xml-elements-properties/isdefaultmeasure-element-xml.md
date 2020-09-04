@@ -1,5 +1,6 @@
 ---
 title: "IsDefaultMeasure Element (XML) | Microsoft Docs"
+description: Learn how the IsDefaultMeasure element indicates that it is possible to obtain the default measure for this entity by navigating this relationship to the other table and fetching the member that has the attribute, DefaultMeasure.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services
