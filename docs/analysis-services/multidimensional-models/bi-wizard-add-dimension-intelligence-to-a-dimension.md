@@ -1,5 +1,6 @@
 ---
 title: "Add Dimension Intelligence to a Dimension | Microsoft Docs"
+description: Add the dimension intelligence enhancement to a cube or a dimension to specify a standard business type for a dimension.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

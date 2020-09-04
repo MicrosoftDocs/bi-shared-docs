@@ -1,5 +1,6 @@
 ---
 title: "Database ReadWriteModes | Microsoft Docs"
+description: Learn how a database administrator can use the ReadWriteMode database property to easily change the database operating mode.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

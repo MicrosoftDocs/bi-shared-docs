@@ -1,5 +1,6 @@
 ---
 title: "Calculations in Multidimensional Models | Microsoft Docs"
+description: Use the Calculations tab of Cube Designer to create calculated members, named sets, and other Multidimensional Expressions (MDX) calculations.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

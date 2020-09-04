@@ -1,5 +1,6 @@
 ---
 title: "Define a Many-to-Many Relationship and Many-to-Many Relationship Properties | Microsoft Docs"
+description: Learn about many-to-many dimensions in Analysis Services, including when to use them and how to create them.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
