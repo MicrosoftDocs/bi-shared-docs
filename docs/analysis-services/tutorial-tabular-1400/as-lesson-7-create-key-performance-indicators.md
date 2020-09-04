@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services tutorial lesson 7: Create Key Performance Indicators | Microsoft Docs"
+description: Learn how to create Key Performance Indicators (KPIs) for an Analysis Services tabular model project.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 1: Create a new tabular model project | Microsoft Docs"
+description: Learn how to create a new Analysis Services tabular model project.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services

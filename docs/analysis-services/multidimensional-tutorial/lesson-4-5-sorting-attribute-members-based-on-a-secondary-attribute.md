@@ -1,5 +1,6 @@
 ---
 title: "Sorting Attribute Members Based on a Secondary Attribute | Microsoft Docs"
+description: Learn how to  sort dimension members based on a secondary attribute, to achieve the sort order that you want for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

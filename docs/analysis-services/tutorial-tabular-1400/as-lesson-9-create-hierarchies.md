@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 9: Create hierarchies | Microsoft Docs"
+description: Learn how to create hierarchies for an Analysis Services tabular model project.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services

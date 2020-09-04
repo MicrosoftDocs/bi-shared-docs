@@ -1,5 +1,6 @@
 ---
 title: "Defining Dimension Granularity within a Measure Group | Microsoft Docs"
+description: Learn how to modify the granularity of a dimension for a specific measure group for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

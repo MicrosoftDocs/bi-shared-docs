@@ -1,5 +1,6 @@
 ---
 title: "Modifying Default Table Names | Microsoft Docs"
+description: Learn how to modify default table names for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 13: Deploy | Microsoft Docs"
+description: Learn how to configure deployment properties for an Analysis Services tabular model project.
 ms.date: 05/04/2020
 ms.prod: sql
 ms.technology: analysis-services
