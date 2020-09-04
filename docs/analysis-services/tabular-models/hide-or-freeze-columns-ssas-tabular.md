@@ -1,5 +1,6 @@
 ---
 title: "Hide or freeze columns in Analysis Services tabular models | Microsoft Docs"
+description: Learn how to hide or freeze columns in Analysis Services tabular models.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

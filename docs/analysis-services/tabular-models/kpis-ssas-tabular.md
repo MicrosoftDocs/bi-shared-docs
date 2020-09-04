@@ -1,5 +1,6 @@
 ---
 title: "KPIs in Analysis Services tabular models | Microsoft Docs"
+description: Gain a basic understanding of key performance indicators (KPIs) in Analysis Services tabular models.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
