@@ -1,7 +1,6 @@
 ---
 title: "Column data type in an Analysis Services tabular model | Microsoft Docs"
-description: Learn how to manually modify the data type of a column to change how data is stored.
-description: 
+description: Learn how to manually modify the data type of a column to change how data is stored. 
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
