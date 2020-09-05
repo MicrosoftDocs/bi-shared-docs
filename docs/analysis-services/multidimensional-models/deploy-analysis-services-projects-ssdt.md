@@ -1,6 +1,6 @@
 ---
 title: "Deploy Analysis Services Projects | Microsoft Docs"
-description: Learn to deploy the project to a development server in order to create the Analysis Services database defined by the project.
+description: Learn to deploy a project to a development server in order to create the Analysis Services database defined by the project.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
