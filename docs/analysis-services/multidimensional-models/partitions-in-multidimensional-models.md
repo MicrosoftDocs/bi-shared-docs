@@ -1,5 +1,6 @@
 ---
 title: "Partitions in Analysis Services Multidimensional Models | Microsoft Docs"
+description: Learn about Important considerations when designing a partitioning strategy for multidimensional models.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

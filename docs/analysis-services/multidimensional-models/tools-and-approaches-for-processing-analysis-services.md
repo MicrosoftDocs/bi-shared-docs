@@ -1,5 +1,6 @@
 ---
 title: "Tools and Approaches for Processing (Analysis Services) | Microsoft Docs"
+description: Execute and monitor the processing of Analysis Services objects to query a relational data source and populate objects using that data.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Key Performance Indicators (KPIs) in Multidimensional Models | Microsoft Docs"
+description: Learn about KPIs,  a collection of calculations that are associated with a measure group in a cube that are used to evaluate business success.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

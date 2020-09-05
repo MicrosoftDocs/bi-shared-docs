@@ -1,5 +1,6 @@
 ---
 title: "Ragged Hierarchies (Analysis Services multidimensional) | Microsoft Docs"
+description: Learn how to handle ragged hierarchies, user-defined hierarchies that have an uneven number of levels.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

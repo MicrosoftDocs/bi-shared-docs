@@ -1,5 +1,6 @@
 ---
 title: "Processing an Analysis Services  multidimensional model | Microsoft Docs"
+description: Learn about processing, the step or series of steps in which Analysis Services loads data from a relational data source into a multidimensional model.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

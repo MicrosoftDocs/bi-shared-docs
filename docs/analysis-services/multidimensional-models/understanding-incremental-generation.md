@@ -1,5 +1,6 @@
 ---
 title: "Understanding Incremental Generation | Microsoft Docs"
+description: Use incremental translation to change cube and dimension definitions by using SQL Server Data Tools, and then rerun the Schema Generation Wizard.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Test an Action in Analysis Services multidimensional| Microsoft Docs"
+description: Learn how to test an action you created by using the Browser view in Cube Designer in SQL Server Data Tools.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
