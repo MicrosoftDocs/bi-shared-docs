@@ -1,5 +1,6 @@
 ---
 title: "Restrictions Element (XMLA) | Microsoft Docs"
+descriptions: Learn how the Restrictions element contains restriction columns and data used by the Discover method.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services
