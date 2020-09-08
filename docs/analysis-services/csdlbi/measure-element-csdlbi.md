@@ -1,5 +1,6 @@
 ---
 title: "Measure Element (CSDLBI) | Microsoft Docs"
+description: Learn about the Measure element, a complex type based on the CSDL Property element that supports business intelligence data models.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services

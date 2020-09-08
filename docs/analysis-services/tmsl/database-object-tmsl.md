@@ -1,5 +1,6 @@
 ---
 title: "Database object (TMSL) | Microsoft Docs"
+description: Use the Database object to define a tabular database at compatibility level 1200 or higher, based on a model of the same level.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

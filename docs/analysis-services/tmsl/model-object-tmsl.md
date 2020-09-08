@@ -1,5 +1,6 @@
 ---
 title: "Model object (TMSL) | Microsoft Docs"
+description: Learn to use the Model object to define a tabular model. There is one model per database, and a Database object is the parent object.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services
