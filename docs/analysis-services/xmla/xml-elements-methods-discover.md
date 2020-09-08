@@ -1,5 +1,6 @@
 ---
 title: "Discover Method (XMLA) | Microsoft Docs"
+description: Learn how the Discover method retrieves information, such as the list of available databases or details about a specific object, from an instance of Analysis Services.
 ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
