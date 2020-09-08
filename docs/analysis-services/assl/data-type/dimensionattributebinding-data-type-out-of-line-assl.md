@@ -1,5 +1,6 @@
 ---
 title: "DimensionAttributeBinding Data Type (out-of-line) (ASSL) | Microsoft Docs"
+description: Learn about the DimensionAttributeBinding data type element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services
