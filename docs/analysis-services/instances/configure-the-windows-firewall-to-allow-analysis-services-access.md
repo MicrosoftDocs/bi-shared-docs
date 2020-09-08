@@ -1,5 +1,6 @@
 ---
 title: "Configure the Windows Firewall to Allow Analysis Services Access | Microsoft Docs"
+description: Learn how to configure the Windows Firewall to allow access for SQL Server Analysis Services. Most installations require at least one in-bound firewall rule.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
