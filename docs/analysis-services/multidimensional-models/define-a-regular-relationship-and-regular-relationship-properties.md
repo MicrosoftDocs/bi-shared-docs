@@ -1,5 +1,6 @@
 ---
 title: "Define a Regular Relationship and Regular Relationship Properties | Microsoft Docs"
+description: Define a regular relationship and regular relationship properties on the Dimension Usage tab of Cube Designer.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

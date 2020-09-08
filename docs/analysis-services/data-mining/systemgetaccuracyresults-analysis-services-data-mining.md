@@ -49,8 +49,8 @@ SystemGetAccuracyResults(<mining structure>,
  *data set*  
  A integer value that indicates which partition in the mining structure is used for testing. The value is derived from a bitmask that represents the sum of the following values, where any single value is optional:  
   
-|||  
-|-|-|  
+| Category | Value |
+| -------- | ----- |
 |Training cases|0x0001|  
 |Test cases|0x0002|  
 |Model filter|0x0004|  

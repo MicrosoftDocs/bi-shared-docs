@@ -1,5 +1,6 @@
 ---
 title: "Compatibility level for tabular models in Analysis Services | Microsoft Docs"
+description: Learn how to set compatibility levels for tabular models in Analysis Services.
 ms.date: 03/23/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -26,9 +27,8 @@ Major features in the 1500 compatibility level include:
   
 ## Supported compatibility levels by version
   
-|||  
-|-|-|- 
-|**Compatibility level**|**Server version**| 
+| Compatibility level | Server version |
+| ------------------- | -------------- |
 |1500|Power BI Premium, Azure Analysis Services, SQL Server 2019 | 
 |1400|Azure Analysis Services, SQL Server 2019, SQL Server 2017 |  
 |1200|Azure Analysis Services, SQL Server 2019, SQL Server 2017, SQL Server 2016| 

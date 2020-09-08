@@ -52,9 +52,8 @@ There are no breaking changes in this release.
 
 The following features are deprecated in this release:
   
-|||  
-|-|-|  
-|**Mode/Category**|**Feature**|
+| Mode/Category | Feature |
+| ------------- | ------- |
 |Multidimensional|Data Mining|
 |Multidimensional|Remote linked measure groups|
 |Tabular|Models at the 1100 and 1103 compatibility level|
@@ -67,9 +66,8 @@ The following features are deprecated in this release:
 
 The following features were deprecated in an earlier release and are no longer supported in this release.
   
-|||  
-|-|-|  
-|**Mode/Category**|**Feature**|  
+| Mode/Category | Feature |
+| ------------- | ------- |
 |Tabular|VertipaqPagingPolicy memory property value (2), enable paging to disk using memory mapped files.|
 |Multidimensional|Remote partitions|  
 |Multidimensional|Remote linked measure groups|  
@@ -90,9 +88,8 @@ Changes to MDSCHEMA_MEASUREGROUP_DIMENSIONS and DISCOVER_CALC_DEPENDENCY, detail
 
 The following features are deprecated in this release:
   
-|||  
-|-|-|  
-|**Mode/Category**|**Feature**|  
+| Mode/Category | Feature |
+| ------------- | ------- |
 |Multidimensional|Remote partitions|  
 |Multidimensional|Remote linked measure groups|  
 |Multidimensional|Dimensional writeback|  
@@ -112,9 +109,8 @@ The following features are deprecated in this release:
 
 The following features were deprecated in an earlier release and are no longer supported in this release.
 
-|||  
-|-|-|  
-|**Feature**|**Replacment or workaround**|  
+| Feature | Replacement or workaround |
+| ------- | ------------------------- |  
 |CalculationPassValue &#40;MDX&#41;|None. This feature was deprecated in SQL Server 2005.|  
 |CalculationCurrentPass &#40;MDX&#41;|None. This feature was deprecated in SQL Server 2005.|  
 |NON_EMPTY_BEHAVIOR query optimizer hint|None. This feature was deprecated in SQL Server 2008.|  

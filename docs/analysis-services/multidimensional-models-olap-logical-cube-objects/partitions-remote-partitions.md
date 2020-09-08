@@ -1,5 +1,6 @@
 ---
 title: "Remote Partitions (Analysis Services OLAP) | Microsoft Docs"
+description: Learn about remote partitions, specifically storage modes for remote partitions and merging remote partitions.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -25,9 +26,8 @@ manager: kfile
 ## Storage Modes for Remote Partitions  
  Remote partitions may use any of the storage types used by local partitions: multidimensional OLAP (MOLAP), hybrid OLAP (HOLAP), or relational OLAP (ROLAP). Remote partitions may also use proactive caching. Depending on the storage mode of a remote partition, the following data is stored on the remote instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
-|||  
-|-|-|  
-|Storage Type|Data|  
+| Storage Type | Data |
+| ------------ | ---- |
 |MOLAP|The partition's aggregations and a copy of the partition's source data|  
 |HOLAP|The partitions aggregations|  
 |ROLAP|No partition data|  

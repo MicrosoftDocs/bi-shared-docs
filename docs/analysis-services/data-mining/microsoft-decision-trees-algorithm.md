@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Decision Trees Algorithm | Microsoft Docs"
+description: Learn about the Microsoft Decision Trees algorithm, a classification and regression algorithm for predictive modeling of discrete and continuous attributes.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

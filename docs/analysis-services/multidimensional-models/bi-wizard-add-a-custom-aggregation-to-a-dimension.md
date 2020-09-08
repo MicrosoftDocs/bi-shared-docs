@@ -1,5 +1,6 @@
 ---
 title: "Add a Custom Aggregation to a Dimension | Microsoft Docs"
+description: Add a custom aggregation to a cube or dimension to replace the default aggregations associated with a dimension member with a different unary operator.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

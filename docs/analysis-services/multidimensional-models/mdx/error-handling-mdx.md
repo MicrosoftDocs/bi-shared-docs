@@ -1,5 +1,6 @@
 ---
 title: "Error Handling (MDX) | Microsoft Docs"
+description: Learn how each cube can control how errors within a Multidimensional Expressions (MDX) script are handled.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

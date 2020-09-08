@@ -197,9 +197,8 @@ AND NODE_TYPE = 15
 ## List of Prediction Functions  
  All [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms support a common set of functions. However, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series algorithm supports the additional functions, listed in the following table.  
   
-|||  
-|-|-|  
-|Prediction Function|Usage|  
+| Prediction Function | Usage |
+| ------------------- | ----- |
 |[Lag &#40;DMX&#41;](/sql/dmx/lag-dmx)|Returns a number of time slices between the date of the current case and the last date of the training set.<br /><br /> A typical use of this function is to identify recent training cases so that you can retrieve detailed data about the cases.|  
 |[PredictNodeId &#40;DMX&#41;](/sql/dmx/predictnodeid-dmx)|Returns the node ID for the specified predictable column.<br /><br /> A typical use of this function is to identify the node that generated a particular predicted value so that you can review the cases associated with the node, or retrieve the equation and other details.|  
 |[PredictStdev &#40;DMX&#41;](/sql/dmx/predictstdev-dmx)|Returns the standard deviation of the predictions in the specified predictable column.<br /><br /> This function replaces the INCLUDE_STATISTICS argument, which is not supported for time series models.|  

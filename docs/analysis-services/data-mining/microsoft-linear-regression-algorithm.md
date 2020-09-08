@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Linear Regression Algorithm | Microsoft Docs"
+description: Learn about the Microsoft Linear Regression Algorithm, which calculates a linear relationship between a dependent and independent variable for prediction.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Browse a Model Using the Microsoft Time Series Viewer | Microsoft Docs"
+description: The Microsoft Time Series Viewer in Microsoft SQL Server Analysis Services displays mining models that are built with the Microsoft Time Series algorithm. 
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

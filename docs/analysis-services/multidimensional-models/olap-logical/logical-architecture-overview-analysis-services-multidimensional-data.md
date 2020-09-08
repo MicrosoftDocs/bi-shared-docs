@@ -1,5 +1,6 @@
 ---
 title: "Logical Architecture Overview (Analysis Services - Multidimensional Data) | Microsoft Docs"
+description: Learn the basic architecture of Analysis Services when operating in Multidimensional and Data Mining mode.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -67,19 +68,30 @@ manager: kfile
   
  ![Diagram of measures organized along time dimension](../../../analysis-services/multidimensional-models/olap-logical/media/cubeintro2.gif "Diagram of measures organized along time dimension")  
   
- In addition to aggregating measures by using a single dimension, you can aggregate measures by using combinations of members from different dimensions. This allows business users to evaluate measures in multiple dimensions simultaneously. For example, if a business user wants to analyze quarterly imports that arrived by air from the Eastern Hemisphere and Western Hemisphere, the business user can issue a query on the cube to retrieve the following dataset.  
-  
-||||Packages|||Last|||  
-|-|-|-|--------------|-|-|----------|-|-|  
-||||All Sources|Eastern Hemisphere|Western Hemisphere|All Sources|Eastern Hemisphere|Western Hemisphere|  
-|All Time|||25110|6547|18563|Dec-29-99|Dec-22-99|Dec-29-99|  
-||1st half||11173|2977|8196|Jun-28-99|Jun-20-99|Jun-28-99|  
-|||1st quarter|5108|1452|3656|Mar-30-99|Mar-19-99|Mar-30-99|  
-|||2nd quarter|6065|1525|4540|Jun-28-99|Jun-20-99|Jun-28-99|  
-||2nd half||13937|3570|10367|Dec-29-99|Dec-22-99|Dec-29-99|  
-|||3rd quarter|6119|1444|4675|Sep-30-99|Sep-18-99|Sep-30-99|  
-|||4th quarter|7818|2126|5692|Dec-29-99|Dec-22-99|Dec-29-99|  
-  
+ In addition to aggregating measures by using a single dimension, you can aggregate measures by using combinations of members from different dimensions. This allows business users to evaluate measures in multiple dimensions simultaneously. For example, if a business user wants to analyze quarterly imports that arrived by air from the Eastern Hemisphere and Western Hemisphere, the business user can issue a query on the cube to retrieve the following dataset.
+
+**Packages**
+| Time Frame | All Sources | Eastern Hemisphere | Western Hemisphere |
+| ---------- | ----------- | ------------------ | ------------------ |  
+|All Time|25110|6547|18563|  
+|1st Half|11173|2977|8196|  
+|1st quarter|5108|1452|3656|  
+|2nd quarter|6065|1525|4540|Jun-28-99|Jun-20-99|Jun-28-99|  
+|2nd Half|13937|3570|10367|Dec-29-99|Dec-22-99|Dec-29-99|  
+|3rd quarter|6119|1444|4675|Sep-30-99|Sep-18-99|Sep-30-99|  
+|4th quarter|7818|2126|5692|Dec-29-99|Dec-22-99|Dec-29-99|
+
+**Last**
+| Time Frame | All Sources | Eastern Hemisphere | Western Hemisphere |
+| ---------- | ----------- | ------------------ | ------------------ |
+|All Time|Dec-29-99|Dec-22-99|Dec-29-99|  
+|1st Half|Jun-28-99|Jun-20-99|Jun-28-99|  
+|1st quarter|Mar-30-99|Mar-19-99|Mar-30-99|  
+|2nd quarter|Jun-28-99|Jun-20-99|Jun-28-99|  
+|2nd Half|Dec-29-99|Dec-22-99|Dec-29-99|  
+|3rd quarter|Sep-30-99|Sep-18-99|Sep-30-99|  
+|4th quarter|Dec-29-99|Dec-22-99|Dec-29-99|
+
  After a cube is defined, you can create new aggregations, or you can change existing aggregations to set options such as whether aggregations are precalculated during processing or calculated at query time. **Related topic:**[Aggregations and Aggregation Designs](../../../analysis-services/multidimensional-models-olap-logical-cube-objects/aggregations-and-aggregation-designs.md).  
   
 ### Mapping Measures, Attributes, and Hierarchies  
@@ -98,9 +110,8 @@ manager: kfile
   
  Data in a single cube cell is usually derived from multiple rows in the fact table. For example, the cube cell at the intersection of the air member, the Africa member, and the 1st quarter member contains a value that is derived by aggregating the following rows in the **ImportsFactTable** fact table.  
   
-|||||||  
-|-|-|-|-|-|-|  
-|Import_ReceiptKey|RouteKey|SourceKey|TimeKey|Packages|Last|  
+| Import_ReceiptKey | RouteKey | SourceKey | TimeKey | Packages | Last |
+| ----------------- | -------- | --------- | ------- | -------- | ---- |
 |3516987|1|6|1|15|Jan-10-99|  
 |3554790|1|6|1|40|Jan-19-99|  
 |3572673|1|6|1|34|Jan-27-99|  

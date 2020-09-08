@@ -46,13 +46,13 @@ A typical workflow for adding translated metadata looks like this:
   
 4.  Click **Export Language File**.  Provide a file name and location.  
   
- ![ssas-tabular-translate-export](../../analysis-services/tabular-models/media/ssas-tabular-translate-export.png "ssas-tabular-translate-export")  
+     ![Screenshot of Manage translations dialog box with each of the numbered steps from this section called out.](../../analysis-services/tabular-models/media/ssas-tabular-translate-export.png "ssas-tabular-translate-export")  
   
 ## Add translations
 
  An empty JSON translation file includes metadata for a specific language translations. Translation placeholders for object names and descriptions are specified in the **Culture** section at the end of the model definition. Translations can be added for the following:  
   
-|||  
+| Property | Description |
 |-|-|  
 |translatedCaption|Table or column title that appears in any client application supporting visualizations of a Tabular model.|  
 |translatedDescription|Less common than captions, a description appears as model information in a modeling tool like SSDT.|  
@@ -63,7 +63,7 @@ A typical workflow for adding translated metadata looks like this:
   
  The following example shows translated captions and description for the **DimProduct** and **DimCustomer** tables.  
   
- ![ssas-tabular-translate-json](../../analysis-services/tabular-models/media/ssas-tabular-translate-json.png "ssas-tabular-translate-json")  
+ ![Screenshot of the translate JSON.](../../analysis-services/tabular-models/media/ssas-tabular-translate-json.png "ssas-tabular-translate-json")  
   
 > [!TIP]  
 >  You can use any JSON editor to open the file, but we recommend using the JSON editor in Visual Studio. Use the View Code command in Solution explorer to view the tabular model definition. 
@@ -78,12 +78,12 @@ A typical workflow for adding translated metadata looks like this:
   
 3.  Optionally, specify import options.  
   
-    |||  
-    |-|-|  
+    | Import option | Description |
+    | ------------- | ----------- |
     |Overwrite existing translations|Replaces all existing captions or descriptions of the same language as the file being imported.|  
     |Ignore invalid objects|Specifies whether metadata discrepancies should be ignored or flagged as an error.|  
     |Write import results to a log file|Log files are saved to the project folder by default. The exact path to the file is provided after import concludes. The log file name is SSDT_Translations_Log_\<timestamp>.|  
-    |Back up translations to a JSON file before importing|Backs up an existing translation that matches the culture of the strings being imported.  If the culture being imported is not present in the model, then the backup will be empty.<br /><br /> If you need to restore this file later, you can replace the contents of the model.bim with this JSON file.|  
+    |Back up translations to a JSON file before importing|Backs up an existing translation that matches the culture of the strings being imported.  If the culture being imported is not present in the model, then the backup will be empty.<br /><br /> If you need to restore this file later, you can replace the contents of the model.bim with this JSON file.|
   
 4.  Click **Import**.  
   
@@ -105,7 +105,7 @@ A typical workflow for adding translated metadata looks like this:
   
 2.  In the Excel connection dialog box, choose the culture for which string translations exist in your model. Excel detects cultures defined in the model and populates the drop-down list accordingly.  
   
-     ![ssas-tabular-translations-excel](../../analysis-services/tabular-models/media/ssas-tabular-translations-excel.png "ssas-tabular-translations-excel")  
+     ![Screenshot of the dialog box with the avaliable languages listed in the drop-down list.](../../analysis-services/tabular-models/media/ssas-tabular-translations-excel.png "ssas-tabular-translations-excel")  
   
      When you create a PivotTable, you should see the translated table and column names.  
   

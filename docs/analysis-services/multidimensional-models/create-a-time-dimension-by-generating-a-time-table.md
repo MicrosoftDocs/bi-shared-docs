@@ -1,5 +1,6 @@
 ---
 title: "Create a Time Dimension by Generating a Time Table | Microsoft Docs"
+description: Use the Dimension Wizard in SQL Server Data Tools to create a time dimension when no time table is available in the source database.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "The Basic MDX Script (MDX) | Microsoft Docs"
+description: "Learn about the two types of basic MDX scripts: default and user defined."
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

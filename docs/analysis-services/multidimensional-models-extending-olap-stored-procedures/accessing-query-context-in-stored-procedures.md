@@ -1,5 +1,6 @@
 ---
 title: "Accessing Query Context in Stored Procedures | Microsoft Docs"
+description: Learn how to access query context located in the code of the stored procedure as the Context object of the ADOMD.NET server object model.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

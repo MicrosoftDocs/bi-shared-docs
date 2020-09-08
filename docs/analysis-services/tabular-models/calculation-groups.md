@@ -1,5 +1,6 @@
 ---
 title: "Calculation groups in Analysis Services tabular models | Microsoft Docs"
+description: Learn how calculation groups can significantly reduce the number of redundant measures by grouping common measure expressions as calculation items. 
 ms.date: 08/28/2020
 ms.prod: sql
 ms.technology: analysis-services

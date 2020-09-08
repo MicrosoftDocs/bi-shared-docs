@@ -1,5 +1,6 @@
 ---
 title: "The Basic MDX Query (MDX) | Microsoft Docs"
+description: Learn how an MDX SELECT statement must specify a result set, what the syntax of the SELECT statement is, and how to create a simple query using the SELECT statement.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

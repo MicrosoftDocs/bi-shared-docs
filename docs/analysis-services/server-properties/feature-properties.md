@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services Feature properties | Microsoft Docs"
+description: Learn about the available feature properties in Analysis Services, like ManagedCodeEnabled and ComUdfEnabled. 
 ms.date: 09/07/2019
 ms.prod: sql
 ms.technology: analysis-services

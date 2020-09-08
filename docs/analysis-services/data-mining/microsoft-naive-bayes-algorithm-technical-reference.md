@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Naive Bayes Algorithm Technical Reference | Microsoft Docs"
+description: Learn about the Microsoft Naive Bayes algorithm, which calculates conditional probability between input and predictable columns in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

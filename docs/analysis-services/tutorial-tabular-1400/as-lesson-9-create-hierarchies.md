@@ -42,7 +42,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
 
 6.  Finally, add **EnglishProductName** to the Category hierarchy. Rename it **Product**.  
 
-    ![as-lesson9-category](../tutorial-tabular-1400/media/as-lesson9-category.png)
+    ![Screenshot of DimProduct > Category showing the columns are named Model and Product.](../tutorial-tabular-1400/media/as-lesson9-category.png)
   
 #### To create hierarchies in the DimDate table  
   

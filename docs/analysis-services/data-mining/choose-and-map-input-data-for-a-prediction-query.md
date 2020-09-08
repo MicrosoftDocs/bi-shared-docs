@@ -1,5 +1,6 @@
 ---
 title: "Choose and Map Input Data for a Prediction Query | Microsoft Docs"
+description: Learn how to choose and map input data for a prediction query. You can also learn how to remove a relationship between input tables.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

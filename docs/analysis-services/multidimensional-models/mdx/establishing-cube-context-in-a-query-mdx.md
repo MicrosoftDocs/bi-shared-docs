@@ -1,5 +1,6 @@
 ---
 title: "Establishing Cube Context in a Query (MDX) | Microsoft Docs"
+description: Learn how every MDX query runs within a specified cube context and that this context defines the members that are evaluated by the expressions within the query. 
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

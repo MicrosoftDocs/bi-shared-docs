@@ -1,5 +1,6 @@
 ---
 title: "Logistic Regression Model Query Examples | Microsoft Docs"
+description: Learn how to create queries for models that are based on the Microsoft Logistic Regression algorithm in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -178,9 +179,8 @@ NATURAL PREDICTION JOIN
 ## List of Prediction Functions  
  All [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms support a common set of functions. However, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Logistic Regression algorithm supports the additional functions listed in the following table.  
   
-|||  
-|-|-|  
-|Prediction Function|Usage|  
+| Prediction Function | Usage |
+| ------------------- | ----- |
 |[IsDescendant &#40;DMX&#41;](/sql/dmx/isdescendant-dmx)|Determines whether one node is a child of another node in the model.|  
 |[PredictAdjustedProbability &#40;DMX&#41;](/sql/dmx/predictadjustedprobability-dmx)|Returns the adjusted probability of a specified state.|  
 |[PredictHistogram &#40;DMX&#41;](/sql/dmx/predicthistogram-dmx)|Returns a predicted value, or set of values, for a specified column.|  

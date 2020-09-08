@@ -1,5 +1,6 @@
 ---
 title: "Create a Relational Mining Structure | Microsoft Docs"
+description: Learn how to use the Data Mining Wizard to create a relational mining structure from relational data sources.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

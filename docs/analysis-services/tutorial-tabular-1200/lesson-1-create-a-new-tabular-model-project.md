@@ -40,7 +40,7 @@ This topic is the first lesson in a tabular model authoring tutorial. To complet
       
 6.  In **Compatibility level**, verify **SQL Server 2016 (1200)** is selected, and then click **OK**.   
  
-    ![as-tabular-lesson1-tmd](media/as-tabular-lesson1-tmd.png)
+    ![Screenshot of the Tabular model designer dialog box with arrows pointing to the Integrated workspace option and Compatibility level drop-down list.](media/as-tabular-lesson1-tmd.png)
       
     If you don't see SQL Server 2016 RTM (1200) in the Compatibility level listbox, you're not using the latest version of SQL Server Data Tools. To get the latest version, see [Install SQL Server Data tools](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).  
 
@@ -53,15 +53,15 @@ Now that you've created a new tabular model project, let's take a moment to expl
   
 After your project is created, it opens in SSDT. On the right side, in **Tabular Model Explorer**, you'll see a tree view of the objects in your model. Since you haven't yet imported data, the folders will be empty. You can right-click an object folder to perform actions, similar to the menu bar. As you step through this tutorial, you'll use the Tabular Model Explorer to navigate different objects in your model project.
 
-![as-tabular-lesson1-tme](media/as-tabular-lesson1-tme.png)
+![Screenshot of the Tabular Model Explorer dialog box.](media/as-tabular-lesson1-tme.png)
 
 Click the **Solution Explorer** tab. Here, you'll see your **Model.bim** file. If you don't see the designer window to the left (the empty window with the Model.bim tab), in **Solution Explorer**, under **AW Internet Sales Project**, double-click the **Model.bim** file. The Model.bim file contains all of the metadata for your model project. 
 
-![as-tabular-lesson1-se](media/as-tabular-lesson1-se.png)
+![Screenshot of the Solution Explorer section with the Model.bim file highlighted.](media/as-tabular-lesson1-se.png)
   
 Let's look at the model properties. Click **Model.bim**. In the **Properties** window, you'll see the [model properties](../tabular-models/model-properties-ssas-tabular.md), most important of which is the **DirectQuery Mode** property. This property specifies whether or not the model is deployed in In-Memory mode (Off) or DirectQuery mode (On). For this tutorial, you will author and deploy your model in In-Memory mode.
 
-![as-tabular-lesson1-properties](media/as-tabular-lesson1-properties.png)
+![Screenshot of the Properties window where you can see DirectQuery Mode set to Off.](media/as-tabular-lesson1-properties.png)
   
 When you create a new model, certain model properties are set automatically according to the Data Modeling settings that can be specified in the **Tools** > **Options** dialog box. Data Backup, Workspace Retention, and Workspace Server properties specify how and where the workspace database (your model authoring database) is backed up, retained in-memory, and built. You can change these settings later if necessary, but for now, just leave these properties as they are.  
 

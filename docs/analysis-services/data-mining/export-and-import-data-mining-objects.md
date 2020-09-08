@@ -1,5 +1,6 @@
 ---
 title: "Export and Import Data Mining Objects | Microsoft Docs"
+description: Learn how to import and export data mining objects in SQL Server Analysis Services by using DMX statements.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

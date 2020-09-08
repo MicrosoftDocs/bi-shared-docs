@@ -1,5 +1,6 @@
 ---
 title: "Debugging Stored Procedures | Microsoft Docs"
+description: Learn how to debug stored procedures in the Visual Studio development environment using the integrated debugging functions.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

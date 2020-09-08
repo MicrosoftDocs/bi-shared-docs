@@ -40,11 +40,9 @@ Add-PSSnapin Microsoft.Sharepoint.Powershell -EA 0
  **Windows PowerShell**  
   
  For more information on the PowerShell ISE, see [Introducing the Windows PowerShell ISE](https://technet.microsoft.com/library/dd315244.aspx) and [Use Windows PowerShell to administer SharePoint 2013](https://technet.microsoft.com/library/ee806878\(v=office.15\).aspx).  
-  
-|||  
-|-|-|  
-|![powerpivot in sharepoint general application set](../../../analysis-services/instances/install-windows/media/ssas-powerpivot-logo.png "powerpivot in sharepoint general application set")|You can optionally verify a majority of the components in Central Administration, using the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] management dashboard. To open the dashboard in Central Administration, click **General Application Settings**, and then click **Management Dashboard** in the **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)]**. For more information on the dashboard, see [Power Pivot Management Dashboard and Usage Data](../../../analysis-services/power-pivot-sharepoint/power-pivot-management-dashboard-and-usage-data.md).|  
-  
+
+![powerpivot in sharepoint general application set](../../../analysis-services/instances/install-windows/media/ssas-powerpivot-logo.png "powerpivot in sharepoint general application set") You can optionally verify a majority of the components in Central Administration, using the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] management dashboard. To open the dashboard in Central Administration, click **General Application Settings**, and then click **Management Dashboard** in the **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)]**. For more information on the dashboard, see [Power Pivot Management Dashboard and Usage Data](../../../analysis-services/power-pivot-sharepoint/power-pivot-management-dashboard-and-usage-data.md).
+
 ##  <a name="bkmk_symptoms"></a> Symptoms and Recommended Actions  
  The following table is a list of symptoms or issues and the suggested section of this topic to consult to help you resolve the issue.  
   

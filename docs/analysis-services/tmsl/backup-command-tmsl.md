@@ -44,9 +44,8 @@ manager: kfile
   
  **Backup** has several properties.  
   
-||||  
-|-|-|-|  
-|**Property**|**Default**|**Description**|  
+| Property | Default | Description |
+| -------- | ------- | ----------- |
 |database|[Required]|The name of the database object to be backed up.|  
 |file|[Required]|The backup file name/path.|  
 |password|Empty|The password to use for encrypting the backup file.|  
