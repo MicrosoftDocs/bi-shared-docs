@@ -1,5 +1,6 @@
 ---
 title: "Source Element (Binding) (ASSL) | Microsoft Docs"
+description: Learn about the Source binding property element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 7/25/2018
 ms.prod: sql
 ms.custom: assl
