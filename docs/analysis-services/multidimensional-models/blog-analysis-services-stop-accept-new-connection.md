@@ -3,6 +3,8 @@ title: Analysis Services stops accepting new connections – processing commit l
 description: Learn about different issues like locks and blocking chains that can cause Analysis Services to stop accepting new connections.
 author: ramakoni1
 ms.author: owend 
+ms.prod: sql
+
 ms.reviewer: MashaMSFT
 ms.service: backup-restore
 ms.topic: conceptual blog
