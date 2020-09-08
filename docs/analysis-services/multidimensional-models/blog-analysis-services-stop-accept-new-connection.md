@@ -4,9 +4,8 @@ description: Learn about different issues like locks and blocking chains that ca
 author: ramakoni1
 ms.author: owend 
 ms.prod: sql
-
 ms.reviewer: MashaMSFT
-ms.service: backup-restore
+ms.services: analysis-services
 ms.topic: conceptual blog
 ms.date: 05/06/2019
 ---
