@@ -1,5 +1,6 @@
 ---
 title: "Perspectives in Analysis Services tabular models | Microsoft Docs"
+description: Learn how perspectives in tabular models define viewable subsets of a model that provide focused, business-specific, or application-specific viewpoints of the model.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

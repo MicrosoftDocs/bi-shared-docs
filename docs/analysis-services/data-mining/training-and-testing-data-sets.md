@@ -1,5 +1,6 @@
 ---
 title: "Training and Testing Data Sets | Microsoft Docs"
+description: Learn about separating data into training and testing sets, an important part of evaluating data mining models in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

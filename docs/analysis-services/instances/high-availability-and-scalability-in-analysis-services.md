@@ -1,5 +1,6 @@
 ---
 title: "High availability and Scalability in Analysis Services | Microsoft Docs"
+description: Learn about the most commonly used techniques for making Analysis Services databases highly available and scalable.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

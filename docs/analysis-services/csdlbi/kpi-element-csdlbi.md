@@ -1,5 +1,6 @@
 ---
 title: "KPI Element (CSDLBI) | Microsoft Docs"
+description: Learn about the Kpi element, which defines a calculation that can be used as a Key Performance Indicator in a business intelligence data model.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services

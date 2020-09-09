@@ -1,5 +1,6 @@
 ---
 title: "ClearCache Element (XMLA) | Microsoft Docs"
+description: Learn how the ClearCache element clears the memory cache for the specified object on a Analysis Services instance.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

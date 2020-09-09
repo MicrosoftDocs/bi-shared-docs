@@ -1,5 +1,6 @@
 ---
 title: "Alter Element (XMLA) | Microsoft Docs"
+description: Learn how the Alter element contains Analysis Services Scripting Language (ASSL) elements used by the Execute method to alter objects on an instance of Analysis Services.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

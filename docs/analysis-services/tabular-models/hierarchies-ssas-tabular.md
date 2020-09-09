@@ -1,5 +1,6 @@
 ---
 title: "Hierarchies in Analysis Services tabular models | Microsoft Docs"
+description: Learn how hierarchies, in tabular models, are metadata that define relationships between two or more columns in a table.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

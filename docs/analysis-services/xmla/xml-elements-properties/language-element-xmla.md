@@ -1,5 +1,6 @@
 ---
 title: "Language Element (XMLA) | Microsoft Docs"
+description: Learn how the Language element contains the locale identifier (LCID) for the parent Translation element.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

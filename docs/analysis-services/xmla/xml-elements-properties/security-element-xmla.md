@@ -1,5 +1,6 @@
 ---
 title: "Security Element (XMLA) | Microsoft Docs"
+description: Learn how the Security element specifies how to back up or restore security definitions, such as roles and permissions, during a Backup or Restore command.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -12,7 +13,7 @@ manager: kfile
 ---
 # Security Element (XMLA)
 
-  Specifies how to back up or restore security definitions, such as roles and permissions, during a [Backup](../xml-elements-commands/backup-element-xmla.md) or [Restore](../xml-elements-commands/restore-element-xmla.md) command.  
+  Specifies how to back up or restore security definitions, such as roles and permissions, during a Backup or Restore command.  
   
 ## Syntax  
   

@@ -1,5 +1,6 @@
 ---
 title: "Capability Element (XMLA) | Microsoft Docs"
+description: Learn how the Capability element indicates support for a protocol capability in the parent ProtocolCapabilities header element.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

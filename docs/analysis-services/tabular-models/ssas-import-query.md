@@ -1,5 +1,6 @@
 ---
 title: "Import data by using a native query (Analysis Services) | Microsoft Docs"
+description: Learn how to create a connection to a datasource and then create a native SQL query to specify data import.
 ms.date: 08/28/2020
 ms.prod: sql
 ms.technology: analysis-services

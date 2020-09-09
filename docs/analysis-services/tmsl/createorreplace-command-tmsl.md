@@ -1,5 +1,6 @@
 ---
 title: "CreateOrReplace command (TMSL) | Microsoft Docs"
+description: Use the CreateOrReplace command to create or replace the specified object and all of the descendant objects that are specified.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

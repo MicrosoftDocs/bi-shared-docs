@@ -1,5 +1,6 @@
 ---
 title: "PropertyRef Element (CSDLBI) | Microsoft Docs"
+description: Learn about the PropertyRef element, a simple type that provides a reference to a column that supplies a value required by another property.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services

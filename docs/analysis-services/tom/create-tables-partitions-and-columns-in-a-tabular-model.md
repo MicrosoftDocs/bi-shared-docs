@@ -1,5 +1,6 @@
 ---
 title: "Create Tables, Partitions, and Columns in a tabular model | Microsoft Docs"
+description: Learn about defining regular, pushed, or calculated tables, partitions, and columns in a tabular model.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services tabular model designer in Visual Studio | Microsoft Docs"
+description: Learn about the tabular model designer that's a part of Analysis Services projects extension for Microsoft Visual Studio.
 ms.date: 08/14/2020
 ms.prod: sql
 ms.technology: analysis-services

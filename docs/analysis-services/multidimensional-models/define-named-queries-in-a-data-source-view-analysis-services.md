@@ -1,5 +1,6 @@
 ---
 title: "Define Named Queries in a Data Source View (Analysis Services) | Microsoft Docs"
+description: Use a named query to extend the relational schema of existing tables in Data Source View without modifying the underlying data source.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

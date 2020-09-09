@@ -1,5 +1,6 @@
 ---
 title: "Partitions object (TMSL) | Microsoft Docs"
+description: Learn about the Partitions object, which defines a partition, or logical segmentation, of the table rowset.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

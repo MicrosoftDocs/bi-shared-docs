@@ -1,5 +1,6 @@
 ---
 title: "Process Database, Table, or Partition (Analysis Services) | Microsoft Docs"
+description: Learn how to process a tabular model database, table, or partitions manually by using the Process <object> dialog box in SQL Server Management Studio.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

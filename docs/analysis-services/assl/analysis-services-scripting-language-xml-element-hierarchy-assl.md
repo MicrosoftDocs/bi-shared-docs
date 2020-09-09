@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services Scripting Language XML Element Hierarchy (ASSL) | Microsoft Docs"
+description: See a table that displays the hierarchy of objects in the Analysis Services Scripting Language (ASSL).
 ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services

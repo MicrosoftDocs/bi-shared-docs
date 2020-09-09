@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services tabular query interleaving | Microsoft Docs"
+description: Learn how query interleaving is a tabular mode system configuration that can improve query performance in high-concurrency scenarios.
 ms.date: 03/03/2020
 ms.prod: sql
 ms.technology: analysis-services

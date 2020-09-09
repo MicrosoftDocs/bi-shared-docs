@@ -1,5 +1,6 @@
 ---
 title: "Defining the Unknown Member and Null Processing Properties | Microsoft Docs"
+description: Learn how to configure the UnknownMember and UnknownMemberName properties to handle error conditions caused by null dimension members for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

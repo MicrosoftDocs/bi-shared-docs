@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 12: Analyze in Excel | Microsoft Docs"
+description: Learn how to use the Analyze in Excel feature for an Analysis Services tabular model project.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services

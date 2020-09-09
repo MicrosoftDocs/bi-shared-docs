@@ -1,5 +1,6 @@
 ---
 title: "Attributes Element (XMLA) | Microsoft Docs"
+description: Learn how the Attribute element contains a collection of Attribute elements used by the parent Insert or Update command, or by the parent Where element.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

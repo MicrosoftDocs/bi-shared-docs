@@ -1,5 +1,6 @@
 ---
 title: "Configure HTTP Access to Analysis Services on IIS 8.0 | Microsoft Docs"
+description: Learn how to configure HTTP access to SQL Server Analysis Services by using MSMDPUMP and learn about connections for various capabilities.
 ms.date: 04/22/2020
 ms.prod: sql
 ms.technology: analysis-services

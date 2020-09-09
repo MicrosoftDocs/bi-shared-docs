@@ -1,5 +1,6 @@
 ---
 title: "Errors and Warnings Events Data Columns | Microsoft Docs"
+description: Learn about the data columns for the Security Audit event category.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services

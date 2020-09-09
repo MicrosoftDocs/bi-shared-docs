@@ -1,5 +1,6 @@
 ---
 title: "Lesson 8 Create Perspectives | Microsoft Docs"
+description: Learn how to create perspectives for a tabular model project.
 ms.date: 05/07/2019
 ms.prod: sql
 ms.technology: analysis-services

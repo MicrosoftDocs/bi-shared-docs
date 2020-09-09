@@ -1,5 +1,6 @@
 ---
 title: "RestrictionList Element (XMLA) | Microsoft Docs"
+description: Learn how the RestrictionList element contains a collection of restriction columns and values used by the Discover method.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

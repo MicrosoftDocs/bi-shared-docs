@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services tabular model solution deployment | Microsoft Docs"
+description: Learn how to deploy a tabular model project in order for users to browse the model by using a reporting client application.
 ms.date: 04/03/2020
 ms.prod: sql
 ms.technology: analysis-services

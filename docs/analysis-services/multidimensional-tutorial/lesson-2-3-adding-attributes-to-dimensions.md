@@ -1,5 +1,6 @@
 ---
 title: "Adding Attributes to Dimensions | Microsoft Docs"
+description: Learn how to add attributes to the dimensions of a cube for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

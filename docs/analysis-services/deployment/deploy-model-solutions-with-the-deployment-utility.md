@@ -1,5 +1,6 @@
 ---
 title: "Deploy model solutions with the Deployment Utility | Microsoft Docs"
+description: Learn how to deploy model solutions by using the Deployment utility from the command prompt in SQL Server Analysis Services.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Lock Element (XMLA) | Microsoft Docs"
+description: Learn how the Lock element locks a specified object on a Analysis Services instance.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services
