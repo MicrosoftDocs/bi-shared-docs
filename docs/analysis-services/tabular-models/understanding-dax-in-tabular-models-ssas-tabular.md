@@ -1,5 +1,6 @@
 ---
 title: "DAX in Analysis Services tabular models | Microsoft Docs"
+description: Learn that for tabular models, DAX formulas are used in calculated columns, measures, and row filters.
 ms.date: 04/20/2020
 ms.prod: sql
 ms.technology: analysis-services

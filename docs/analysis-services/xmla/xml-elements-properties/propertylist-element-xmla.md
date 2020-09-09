@@ -1,5 +1,6 @@
 ---
 title: "PropertyList Element (XMLA) | Microsoft Docs"
+description: Learn how the PropertyList element contains a collection of XML for Analysis (XMLA) properties used by the Discover and Execute methods.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

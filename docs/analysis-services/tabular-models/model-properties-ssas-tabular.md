@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services tabular model properties | Microsoft Docs"
+description: Learn how model properties affect how the model you are authoring in Visual Studio is built, how it is backed up, and how the workspace database is stored. 
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

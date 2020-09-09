@@ -1,5 +1,6 @@
 ---
 title: "Mode Element (XMLA) | Microsoft Docs"
+description: Learn how the Mode element identifies the mode to be used by the parent [Lock](../xml-elements-commands/lock-element-xmla.md) element when creating a lock on a specified object.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

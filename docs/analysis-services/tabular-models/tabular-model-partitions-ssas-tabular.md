@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services tabular model partitions | Microsoft Docs"
+description: Learn how partitions in a deployed Analysis Services tabular model database.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services
