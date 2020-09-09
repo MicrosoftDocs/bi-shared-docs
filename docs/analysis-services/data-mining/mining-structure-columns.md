@@ -1,5 +1,6 @@
 ---
 title: "Mining Structure Columns | Microsoft Docs"
+description: Learn about columns in mining structures, which are designed to be flexible and extensible in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

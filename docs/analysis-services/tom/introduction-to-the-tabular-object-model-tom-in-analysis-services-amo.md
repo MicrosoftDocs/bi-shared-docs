@@ -1,5 +1,6 @@
 ---
 title: "Tabular Object Model (TOM) in AMO | Microsoft Docs"
+description: Learn about the Tabular Object Model (TOM), which supports programming for tabular models created at compatibility level 1200 and higher.
 ms.date: 06/18/2020
 ms.prod: sql
 ms.technology: analysis-services

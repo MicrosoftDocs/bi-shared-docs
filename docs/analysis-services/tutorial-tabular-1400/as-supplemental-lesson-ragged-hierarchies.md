@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial supplemental lesson: Ragged hierarchies | Microsoft Docs"
+description: Learn how to resolve a common problem when pivoting on hierarchies that contain blank values (members) at different levels for an Analysis Services tabular model project.
 ms.date: 03/08/2019
 ms.prod: sql
 ms.technology: analysis-services

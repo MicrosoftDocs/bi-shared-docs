@@ -1,5 +1,6 @@
 ---
 title: "UnaryOperator Element (XMLA) | Microsoft Docs"
+description: Learn how the UnaryOperator element contains the unary operator for an attribute member represented by the parent Attribute element.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

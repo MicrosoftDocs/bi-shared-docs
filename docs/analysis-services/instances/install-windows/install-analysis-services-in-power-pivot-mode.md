@@ -1,5 +1,6 @@
 ---
 title: "Install Analysis Services in Power Pivot Mode | Microsoft Docs"
+description: Learn about the procedures for a single server installation of a Analysis Services server in Power Pivot mode for a SharePoint deployment.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

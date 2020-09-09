@@ -1,5 +1,6 @@
 ---
 title: "Using SQL Server Profiler to Monitor Data Mining  | Microsoft Docs"
+description: Learn how to use SQL Server Profiler to monitor data mining activities that are issued as requests sent to an instance of SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

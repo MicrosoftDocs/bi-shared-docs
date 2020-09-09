@@ -1,5 +1,6 @@
 ---
 title: "Configure Analysis Services tabular model roles | Microsoft Docs"
+description: Learn how to configure roles in tabular models so you can define member permissions for a model.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

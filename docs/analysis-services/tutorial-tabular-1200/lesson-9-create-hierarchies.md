@@ -1,5 +1,6 @@
 ---
 title: "Lesson 9: Create Hierarchies | Microsoft Docs"
+description: Learn how to create hierarchies for a tabular model project.
 ms.date: 05/07/2019
 ms.prod: sql
 ms.technology: analysis-services

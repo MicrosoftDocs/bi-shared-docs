@@ -1,5 +1,6 @@
 ---
 title: "Alter command (TMSL) | Microsoft Docs"
+description: Learn to use the Alter command for targeted updates, like setting a property on a table without having to specify all of the columns as well.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

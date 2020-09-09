@@ -1,5 +1,6 @@
 ---
 title: "CSDLBI Concepts | Microsoft Docs"
+description: Learn how CSDLBI is based on the Entity Data Framework, which represents data in a way that enables disparate data sets to be programmatically accessed.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services

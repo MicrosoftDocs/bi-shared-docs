@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 4: Create relationships | Microsoft Docs"
+description: Learn how to create relationships for an Analysis Services tabular model project.
 ms.date: 02/24/2020
 ms.prod: sql
 ms.technology: analysis-services

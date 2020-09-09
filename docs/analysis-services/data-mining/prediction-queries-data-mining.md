@@ -1,5 +1,6 @@
 ---
 title: "Prediction Queries (Data Mining) | Microsoft Docs"
+description: Learn about the different types of prediction queries in data ming that SQL Server Analysis Services supports.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

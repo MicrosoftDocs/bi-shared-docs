@@ -1,5 +1,6 @@
 ---
 title: "Model Filter Syntax and Examples (Analysis Services - Data Mining) | Microsoft Docs"
+description: This section provides detailed information about the syntax for model filters, together with sample expressions in SQL Server Analysis Services.  
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

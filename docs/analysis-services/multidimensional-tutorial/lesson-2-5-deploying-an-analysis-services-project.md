@@ -1,5 +1,6 @@
 ---
 title: "Deploying an Analysis Services Project | Microsoft Docs"
+description: Learn how to deploy the cube of an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

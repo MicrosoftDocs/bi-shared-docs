@@ -1,5 +1,6 @@
 ---
 title: "ExecuteResponse Element (XMLA) | Microsoft Docs"
+description: Learn how the ExecuteResponse element contains the information returned by an instance of Analysis Services in response to an Execute method call.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

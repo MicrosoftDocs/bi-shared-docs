@@ -1,5 +1,6 @@
 ---
 title: "ApplyCompression Element (XMLA) | Microsoft Docs"
+description: Learn how the ApplyCompression element determines whether the parent Backup command compresses the backup file.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

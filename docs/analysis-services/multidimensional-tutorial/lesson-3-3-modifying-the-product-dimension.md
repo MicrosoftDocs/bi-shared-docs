@@ -1,5 +1,6 @@
 ---
 title: "Modifying the Product Dimension | Microsoft Docs"
+description: Learn how to define a user hierarchy, create named calculations, define the All member name, and define display folders for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

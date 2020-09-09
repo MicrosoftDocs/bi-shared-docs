@@ -1,5 +1,6 @@
 ---
 title: "Storage Element (XMLA) | Microsoft Docs"
+description: Learn how the Storage element specifies the maximum amount of storage, in bytes, used by the DesignAggregations command to design aggregations.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

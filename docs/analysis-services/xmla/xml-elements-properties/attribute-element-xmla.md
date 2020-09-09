@@ -1,5 +1,6 @@
 ---
 title: "Attribute Element (XMLA) | Microsoft Docs"
+description: Learn how the Attribute element defines or filters a member in an attribute on which a parent Insert, Update, or Drop command performs.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

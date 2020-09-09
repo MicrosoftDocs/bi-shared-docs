@@ -1,5 +1,6 @@
 ---
 title: "Supported Data Sources (SSAS - Multidimensional) | Microsoft Docs"
+description: Learn about the the types of relational databases and other data sources that you can use in a multidimensional model.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Manage Analysis Services tabular model roles by using SSMS | Microsoft Docs"
+description: Learn how to create, edit, and manage roles for a deployed tabular model by using SQL Server Management Studio.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

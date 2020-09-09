@@ -1,5 +1,6 @@
 ---
 title: "New Element (XMLA) | Microsoft Docs"
+description: Learn how the New element contains the new file system storage location used by a Folder element.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "EmptyResult Data Type (XMLA) | Microsoft Docs"
+description: Learn how the EmptyResult data type defines a derived data type that represents a root element that does not return data from a Discover or method call.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

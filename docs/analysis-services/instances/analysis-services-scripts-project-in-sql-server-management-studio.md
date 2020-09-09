@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services Scripts Project in SQL Server Management Studio | Microsoft Docs"
+description: Learn about how to group related scripts in SQL Server Management Studio for development, management, and source control purposes.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

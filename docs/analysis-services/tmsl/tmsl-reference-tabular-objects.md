@@ -1,5 +1,6 @@
 ---
 title: "Object Definitions in Tabular Model Scripting Language (TMSL) | Microsoft Docs"
+description: See a list of the major TMSL schema objects used in SQL Server Management Studio, SQL Server Data Tools (SSDT), and AMO PowerShell scripts.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

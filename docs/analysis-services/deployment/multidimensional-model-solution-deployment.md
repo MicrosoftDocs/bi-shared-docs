@@ -1,5 +1,6 @@
 ---
 title: "Multidimensional Model Solution Deployment | Microsoft Docs"
+description: Learn about methods to deploy a database to a SQL Server Analysis Services server after you complete a project.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

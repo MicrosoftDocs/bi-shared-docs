@@ -1,5 +1,6 @@
 ---
 title: "Defining Named Sets (Analysis Services) | Microsoft Docs"
+description: Learn how to define named sets for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

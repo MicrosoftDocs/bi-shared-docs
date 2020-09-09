@@ -1,5 +1,6 @@
 ---
 title: "Processing Requirements and Considerations (Data Mining) | Microsoft Docs"
+description: Learn about some technical considerations to keep in mind when processing data mining objects in SQL Server Analysis Services. 
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

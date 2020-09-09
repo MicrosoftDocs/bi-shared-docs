@@ -1,5 +1,6 @@
 ---
 title: "Set Partition Storage (Analysis Services - Multidimensional) | Microsoft Docs"
+description: Specify partition storage in the Partitions tab of the cube in SQL Server Data Tools, or on the partition property page in SQL Server Management Studio.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

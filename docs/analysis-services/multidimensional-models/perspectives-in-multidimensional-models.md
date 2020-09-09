@@ -1,5 +1,6 @@
 ---
 title: "Perspectives in Analysis Services Multidimensional Models | Microsoft Docs"
+description: Learn about perspectives, subsets of a cube created for a particular application or group of users that are exposed to a client as a cube.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

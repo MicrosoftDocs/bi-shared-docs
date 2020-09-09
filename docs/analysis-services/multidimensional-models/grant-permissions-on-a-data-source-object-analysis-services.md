@@ -1,5 +1,6 @@
 ---
 title: "Grant permissions on a data source object (Analysis Services) | Microsoft Docs"
+description: Give a user access to the data source object to execute a DMX query within the Analysis Services database.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

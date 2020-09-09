@@ -1,5 +1,6 @@
 ---
 title: "Dynamic Management Views (DMVs) in Analysis Services | Microsoft Docs"
+description: Learn about Dynamic Management Views in SQL Server Analysis Services that return information about model objects, server operations, and server health.
 ms.date: 03/05/2020
 ms.prod: sql
 ms.technology: analysis-services

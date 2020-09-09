@@ -1,5 +1,6 @@
 ---
 title: "Restore command (TMSL) | Microsoft Docs"
+description: Learn about properties and usage of the Restore command, which restores a tabular database from a backup file.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

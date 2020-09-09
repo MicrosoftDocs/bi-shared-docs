@@ -1,5 +1,6 @@
 ---
 title: "Process Analysis Services tabular model partitions | Microsoft Docs"
+description: Learn how to process partitions in a model database by using the Process Partitions dialog box in SQL Server Management Studio.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

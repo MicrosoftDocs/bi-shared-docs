@@ -1,5 +1,6 @@
 ---
 title: "Errors and Warnings Event Category | Microsoft Docs"
+description: Learn about the event classes for the Error and Warnings event category.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services

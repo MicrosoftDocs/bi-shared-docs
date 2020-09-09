@@ -1,5 +1,6 @@
 ---
 title: "Modifying the Date Dimension | Microsoft Docs"
+description: Learn how to define a user hierarchy, modify attribute member names, and use composite keys to specify unique attribute members for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

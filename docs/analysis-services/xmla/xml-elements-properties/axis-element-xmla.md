@@ -1,5 +1,6 @@
 ---
 title: "Axis Element (XMLA) | Microsoft Docs"
+description: Learn how the Axis element contains a set of tuples used to represent a single axis in a multidimensional dataset contained by an Axes element that uses the MDDataSet data type, returned by the Execute method.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

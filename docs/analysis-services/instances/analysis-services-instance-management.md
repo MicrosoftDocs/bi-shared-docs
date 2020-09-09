@@ -1,5 +1,6 @@
 ---
 title: "SQL Server Analysis Services Server Management | Microsoft Docs"
+description: Learn about SQL Server Analysis Services server management for single and multiple instances.
 ms.date: 09/11/2019
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Select a Mining Model and a Data Mining Viewer | Microsoft Docs"
+description: Learn how to explore a mining model by using a viewer in Data Mining Designer in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

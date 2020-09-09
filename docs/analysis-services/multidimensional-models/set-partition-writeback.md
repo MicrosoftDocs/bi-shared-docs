@@ -1,5 +1,6 @@
 ---
 title: "Set Partition Writeback | Microsoft Docs"
+description: Learn how to write-enable a partition, browse or delete writeback data, or convert writeback data to a partition.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
