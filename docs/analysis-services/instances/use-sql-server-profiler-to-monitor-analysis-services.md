@@ -1,5 +1,6 @@
 ---
 title: "Use SQL Server Profiler to Monitor Analysis Services | Microsoft Docs"
+description: Learn how to use the SQL Server Profiler to monitor Analysis Services to track engine process events.
 ms.date: 03/09/2020
 ms.prod: sql
 ms.technology: analysis-services

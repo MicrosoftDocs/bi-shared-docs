@@ -1,5 +1,6 @@
 ---
 title: "View the Formula for a Time Series Model (Data Mining) | Microsoft Docs"
+description: Learn how to use the Microsoft Time Series Viewer to see the regression equation for a mining model in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

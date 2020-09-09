@@ -1,5 +1,6 @@
 ---
 title: "Using Nested Table Data as an Input for an Accuracy Chart | Microsoft Docs"
+description: Learn how to work with nested tables for model testing, map nested & case tables in mode and external data, and how to apply a filter to a nested table.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

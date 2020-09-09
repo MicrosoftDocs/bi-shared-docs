@@ -1,5 +1,6 @@
 ---
 title: "SQL Server Data Mining Add-Ins for Office | Microsoft Docs"
+description: Learn about SQL Server Data Mining Add-Ins for Office, lightweight tools for predictive analytics that lets you use data in Excel to build analytical models.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

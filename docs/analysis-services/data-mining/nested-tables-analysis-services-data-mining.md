@@ -1,5 +1,6 @@
 ---
 title: "Nested Tables (Analysis Services - Data Mining) | Microsoft Docs"
+description: Learn about nested tables, a method that SQL Server Analysis Services provides to handle case tables derived from multiple tables.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

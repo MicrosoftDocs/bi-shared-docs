@@ -1,5 +1,6 @@
 ---
 title: "Running the Analysis Services Deployment Wizard | Microsoft Docs"
+description: Learn how to run the SQL Server Analysis Services Deployment Wizard, either interactively or from the command prompt.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services

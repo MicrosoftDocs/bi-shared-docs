@@ -1,5 +1,6 @@
 ---
 title: "Security Overview (Data Mining) | Microsoft Docs"
+description: Learn about securing your data mining project, which occurs at multiple levels in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services
