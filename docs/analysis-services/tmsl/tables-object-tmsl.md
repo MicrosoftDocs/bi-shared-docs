@@ -1,5 +1,6 @@
 ---
 title: "Tables object (TMSL) | Microsoft Docs"
+description: Learn about properties and usage of the Tables object, which defines the tables contained in a model. 
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services
