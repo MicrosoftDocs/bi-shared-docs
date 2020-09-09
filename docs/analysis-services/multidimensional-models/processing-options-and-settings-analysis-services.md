@@ -1,5 +1,6 @@
 ---
 title: "Processing Options and Settings (Analysis Services) | Microsoft Docs"
+description: Learn about selecting a processing option to control the type of processing that occurs for each object.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

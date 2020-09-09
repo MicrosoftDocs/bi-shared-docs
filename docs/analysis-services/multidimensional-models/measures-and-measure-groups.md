@@ -1,5 +1,6 @@
 ---
 title: "Measures and Measure Groups | Microsoft Docs"
+description: Learn about Measures and Measure Groups, and see a table with links to procedural steps for creating and configuring measures and measure groups.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Explore Data in a Data Source View (Analysis Services) | Microsoft Docs"
+description: Use the Explore Data dialog box in Data Source View Designer in SQL Server Data Tools to browse data for a table, view, or named query.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Unary Operators in Parent-Child Dimensions | Microsoft Docs"
+description: Specify a unary operator column that determines the custom rollup for all noncalculated members of the parent attribute.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

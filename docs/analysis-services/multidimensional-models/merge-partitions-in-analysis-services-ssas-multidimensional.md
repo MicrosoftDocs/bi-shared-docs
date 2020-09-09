@@ -1,5 +1,6 @@
 ---
 title: "Merge Partitions in Analysis Services (SSAS - Multidimensional) | Microsoft Docs"
+description: Merge partitions in an existing Analysis Services database to consolidate fact data from multiple partitions of the same measure group.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
