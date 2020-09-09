@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services Internet Sales tutorial (1200 compatibility level) | Microsoft Docs"
+description: An overview of lessons on how to create an Analysis Services tabular model at the 1200 compatibility level.
 ms.date: 01/28/2020
 ms.prod: sql
 ms.technology: analysis-services

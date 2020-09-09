@@ -1,5 +1,6 @@
 ---
 title: "Collections (ASSL) | Microsoft Docs"
+description: An overview of the Collections (ASSL) reference section.
 ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services

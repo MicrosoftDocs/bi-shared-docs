@@ -1,5 +1,6 @@
 ---
 title: "Defining a Many-to-Many Relationship | Microsoft Docs"
+description: Learn how to relate a fact to multiple dimension members through the definition of a many-to-many relationship between dimension tables and fact tables for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

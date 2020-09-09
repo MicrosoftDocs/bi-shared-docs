@@ -1,5 +1,6 @@
 ---
 title: "Lesson 5: Defining Relationships Between Dimensions and Measure Groups | Microsoft Docs"
+description: An overview of defining relationships between dimensions and measure groups for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

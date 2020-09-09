@@ -1,5 +1,6 @@
 ---
 title: "Defining Dimension Granularity within a Measure Group | Microsoft Docs"
+description: Learn how to modify the granularity of a dimension for a specific measure group for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services
@@ -67,7 +68,7 @@ In the tasks in this topic, you add a Sales Quotas measure group and define the 
   
 15. Change the value for the **Name** property for the **Employee Key Distinct Count** measure to **Sales Person Count**, and then type **#,#** as the value for the **FormatString** property.  
   
-## Browsing the Measures in the Sales Quota Measure Group by Date  
+## Browsing the Measures again in the Sales Quota Measure Group by Date  
   
 1.  On the **Build** menu, click **Deploy Analysis Services Tutorial**.  
   
