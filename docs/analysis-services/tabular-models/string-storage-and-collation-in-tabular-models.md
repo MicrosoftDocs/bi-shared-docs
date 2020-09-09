@@ -1,5 +1,6 @@
 ---
 title: "String storage and collation in Analysis Services tabular models | Microsoft Docs"
+description: Learn about the mechanism by which strings are compressed and stored, and provides examples of how collation and language affect the results of text formulas in tabular models.
 ms.date: 04/20/2020
 ms.prod: sql
 ms.technology: analysis-services

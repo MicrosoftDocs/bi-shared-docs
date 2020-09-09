@@ -1,5 +1,6 @@
 ---
 title: "results Element (XMLA) | Microsoft Docs"
+description: Learn how the results element contains a collection of root elements returned by the Execute method using the Batch command. 
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

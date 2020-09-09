@@ -1,5 +1,6 @@
 ---
 title: "Lesson 9: Defining Perspectives and Translations | Microsoft Docs"
+description: An overview of defining perspectives and translations for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

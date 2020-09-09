@@ -1,5 +1,6 @@
 ---
 title: "Commands in Tabular Model Scripting Language (TMSL) | Microsoft Docs"
+description: See a list of the Tabular Model Scripting Language (TMSL) commands used against tabular model databases.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

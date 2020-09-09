@@ -1,5 +1,6 @@
 ---
 title: "Calculations Element (ASSL) | Microsoft Docs"
+description: Learn about the Calculations collection element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 07/25/2018
 ms.prod: sql
 ms.technology: analysis-services

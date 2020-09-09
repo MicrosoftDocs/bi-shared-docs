@@ -1,5 +1,6 @@
 ---
 title: "Testing and Validation Tasks and How-tos (Data Mining) | Microsoft Docs"
+description: Learn how to compare the predictive accuracy of the mining models in your mining structure by using Data Mining Designer in SQL Server Data Tools.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

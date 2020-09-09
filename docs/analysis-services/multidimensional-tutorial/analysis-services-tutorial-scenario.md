@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services Tutorial Scenario | Microsoft Docs"
+description: Learn about the Analysis Services tutorial scenario for multidimensional models."
 ms.date: 01/27/2020
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "Set Data Source Properties (SSAS Multidimensional) | Microsoft Docs"
+description: Set Properties on the data source to determine the connection string, a timeout interval, maximum number of connections, and the transaction isolation level.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

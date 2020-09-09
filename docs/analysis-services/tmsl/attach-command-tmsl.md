@@ -1,5 +1,6 @@
 ---
 title: "Attach command (TMSL) | Microsoft Docs"
+description: Learn about properties and usage of the Attach command, which attaches a tabular database file to a server.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

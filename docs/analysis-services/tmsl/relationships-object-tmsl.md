@@ -1,5 +1,6 @@
 ---
 title: "Relationships object (TMSL) | Microsoft Docs"
+description: Use the Relationships object to define a relationship between a source and target table, with the ability to specify cardinality.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

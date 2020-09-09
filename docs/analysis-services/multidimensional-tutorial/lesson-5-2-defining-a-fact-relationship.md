@@ -1,5 +1,6 @@
 ---
 title: "Defining a Fact Relationship | Microsoft Docs"
+description: Learn how to define a dimension based on data in the fact table, and to define the dimension relationship as a fact relationship for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

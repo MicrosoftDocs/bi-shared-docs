@@ -1,5 +1,6 @@
 ---
 title: "Rename a Multidimensional Database (Analysis Services) | Microsoft Docs"
+description: Change the name of a multidimensional Analysis Services database in online or project mode or in SQL Server Management Studio.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

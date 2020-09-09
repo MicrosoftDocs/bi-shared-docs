@@ -1,5 +1,6 @@
 ---
 title: "PowerShell Reference for Analysis Services Power Pivot for SharePoint | Microsoft Docs"
+description: Learn how to access a list of PowerShell cmdlets used to configure or administer a Power Pivot for SharePoint installation.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

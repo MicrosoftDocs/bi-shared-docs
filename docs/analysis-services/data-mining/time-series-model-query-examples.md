@@ -1,5 +1,6 @@
 ---
 title: "Time Series Model Query Examples | Microsoft Docs"
+description: Learn how to create content queries and prediction queries for models based on the Microsoft Time Series algorithm SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

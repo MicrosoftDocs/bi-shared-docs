@@ -1,5 +1,6 @@
 ---
 title: "Lesson 4: Defining Advanced Attribute and Dimension Properties | Microsoft Docs"
+description: An overview of defining advanced properties for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

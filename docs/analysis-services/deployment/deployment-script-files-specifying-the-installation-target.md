@@ -1,5 +1,6 @@
 ---
 title: "Specifying the Installation Target | Microsoft Docs"
+description: Learn how to specify installation target for the SQL Server Analysis Services Deployment Wizard in the deployment targets file.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

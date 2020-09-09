@@ -1,5 +1,6 @@
 ---
 title: "View the XML for an Analysis Services Project | Microsoft Docs"
+description: View the XML definition for each object within the Analysis Services project folder by using SQL Server Data Tools.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

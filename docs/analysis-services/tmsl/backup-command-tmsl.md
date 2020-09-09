@@ -1,5 +1,6 @@
 ---
 title: "Backup command (TMSL) | Microsoft Docs"
+description: Learn about properties and usage of the Backup command, which backs up a tabular database to an .abf backup file.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

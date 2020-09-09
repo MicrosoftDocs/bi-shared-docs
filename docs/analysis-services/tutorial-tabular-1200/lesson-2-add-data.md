@@ -1,5 +1,6 @@
 ---
 title: "Lesson 2: Add Data (Analysis Services tutorial) | Microsoft Docs"
+description: Learn how to add data for a tabular model project.
 ms.date: 05/07/2019
 ms.prod: sql
 ms.technology: analysis-services

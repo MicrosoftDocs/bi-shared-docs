@@ -1,5 +1,6 @@
 ---
 title: "Custom Rollup Operators in Parent-Child Dimensions | Microsoft Docs"
+description: Use custom rollup operators to control how member values are rolled up into parent values in a parent-child hierarchy.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ---
 title: "DataSources object (TMSL) | Microsoft Docs"
+description: Use the DataSources object to define a connection to a datasource during import or in pass through queries.
 ms.date: 01/29/2019
 ms.prod: sql
 ms.technology: analysis-services

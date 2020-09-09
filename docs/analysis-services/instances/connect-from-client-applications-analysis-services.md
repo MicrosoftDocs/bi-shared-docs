@@ -1,5 +1,6 @@
 ---
 title: "Connect to SQL Server Analysis Services | Microsoft Docs"
+description: Learn how to connect to an instance of SQL Server Analysis Services with common tools and how to connect under different user identities for testing purposes.
 ms.date: 04/22/2020
 ms.prod: sql
 ms.technology: analysis-services

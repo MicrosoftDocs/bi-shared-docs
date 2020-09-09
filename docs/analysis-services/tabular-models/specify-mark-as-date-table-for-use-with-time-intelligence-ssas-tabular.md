@@ -1,5 +1,6 @@
 ---
 title: "Specify Mark as Date Table in Analysis Services tabular models| Microsoft Docs"
+description: Learn how to specify a date table and a unique identifier (datetime) column of the Date data type.
 ms.date: 04/03/2020
 ms.prod: sql
 ms.technology: analysis-services

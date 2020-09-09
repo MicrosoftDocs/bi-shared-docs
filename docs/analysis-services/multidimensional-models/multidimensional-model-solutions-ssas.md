@@ -1,5 +1,6 @@
 ---
 title: "Multidimensional Model Solutions (SSAS) | Microsoft Docs"
+description: See a list of topics that provide guidance on designing Analysis Services multidimensional database objects.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
