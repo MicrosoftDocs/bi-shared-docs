@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services object type codes used in traces | Microsoft Docs"
+description: Learn about the object type of each object in a data model. These codes appear in trace logs and are used to identify the type of object associated with a particular lock.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services

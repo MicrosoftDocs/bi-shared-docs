@@ -1,5 +1,6 @@
 ---
 title: "Discover Events Data Columns | Microsoft Docs"
+description: Learn about the Discover Event data classes and Discover Begin class-data columns.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services

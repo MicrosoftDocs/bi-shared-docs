@@ -1,5 +1,6 @@
 ---
 title: "Cancel Element (XMLA) | Microsoft Docs"
+description: Learn how the Cancel element cancels a currently running command an Analysis Services instance. 
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services
