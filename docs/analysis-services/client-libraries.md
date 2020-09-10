@@ -88,7 +88,7 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
 
 ## Known issues
 
-### 19.9.0.1 - AMO and ADOMD .Net Core (Preview)
+### 19.10.0.0 - AMO and ADOMD .Net Core (Preview)
 
 - Features in preview should not be used in a production environment. Certain functionality, support, and documentation is limited. Refer to the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) for details.
 
