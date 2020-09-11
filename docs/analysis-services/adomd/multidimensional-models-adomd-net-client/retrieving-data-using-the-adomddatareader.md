@@ -1,5 +1,6 @@
 ---
 title: "Retrieving Data Using the AdomdDataReader | Microsoft Docs"
+description: In this article, learn how to retrieve data from an analytical data source by using the AdomdDataReader object in ADOMD.NET.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

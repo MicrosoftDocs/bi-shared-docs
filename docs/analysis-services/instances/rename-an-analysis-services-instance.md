@@ -1,5 +1,6 @@
 ---
 title: "Rename an Analysis Services Instance | Microsoft Docs"
+description: Learn how to rename an existing instance of SQL Server Analysis Services Instance by using the Rename Instance tool.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

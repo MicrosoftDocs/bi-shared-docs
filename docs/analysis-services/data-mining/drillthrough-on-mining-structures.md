@@ -1,5 +1,6 @@
 ---
 title: "Drillthrough on Mining Structures | Microsoft Docs"
+description: Learn about options for drilling through into case data in a mining structure, the ability to query a mining structure to get data not exposed in the model.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -45,8 +46,8 @@ manager: kfile
 ## Related Tasks  
  See the following topics for more information about how to use drillthrough with mining models.  
   
-|||  
-|-|-|  
+| Task | Link |
+| ---- | ---- |
 |Use drillthrough to structure from the mining model viewers|[Use Drillthrough from the Model Viewers](../../analysis-services/data-mining/use-drillthrough-from-the-model-viewers.md)|  
 |See examples of drillthrough queries for specific model types.|[Data Mining Queries](../../analysis-services/data-mining/data-mining-queries.md)|  
 |Get information about permissions that apply to specific mining structures and mining models.|[Grant permissions on data mining structures and models &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-permissions-on-data-mining-structures-and-models-analysis-services.md)|  

@@ -1,5 +1,6 @@
 ---
 title: "View and Save the Results of a Prediction Query | Microsoft Docs"
+description: Learn how to run a prediction query and view the results by switching to the query result view in SQL Server Analysis Services.  
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

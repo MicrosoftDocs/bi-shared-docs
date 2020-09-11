@@ -1,5 +1,6 @@
 ---
 title: "Remove Columns from a Mining Structure | Microsoft Docs"
+description: Learn how to use Data Mining Designer to remove columns from a mining structure after the structure has already been created in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

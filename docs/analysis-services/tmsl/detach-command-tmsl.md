@@ -1,5 +1,6 @@
 ---
 title: "Detach command (TMSL) | Microsoft Docs"
+description: Learn about properties and usage of the Detach command, which detaches a tabular database from a server.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -29,9 +30,8 @@ manager: kfile
   
  The properties accepted by the JSON detach command are as follows.  
   
-||||  
-|-|-|-|  
-|**Property**|**Default**|**Description**|  
+| Property | Default | Description |
+| -------- | ------- | ----------- |
 |database|[Required]|The name of the database object to be detached.|  
 |password|Empty|The password to use to encrypt secrets in the detached database.|  
   

@@ -1,5 +1,6 @@
 ---
 title: "DAX in Analysis Services tabular models | Microsoft Docs"
+description: Learn that for tabular models, DAX formulas are used in calculated columns, measures, and row filters.
 ms.date: 04/20/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -106,9 +107,8 @@ DAX enables tabular model authors to define custom calculations in both model ta
   
 DAX formulas can be very simple or quite complex. The following table shows some examples of simple formulas that could be used in a calculated column.  
   
-|||  
-|-|-|  
-|Formula|Description|  
+| Formula | Description |
+| ------- | ----------- |
 |`=TODAY()`|Inserts today's date in every row of the column.|  
 |`=3`|Inserts the value 3 in every row of the column.|  
 |`=[Column1] + [Column2]`|Adds the values in the same row of [Column1] and [Column2] and puts the results in the calculated column of the same row.|  

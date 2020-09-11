@@ -1,5 +1,6 @@
 ---
 title: "Cube Space in Analysis Services | Microsoft Docs"
+description: Learn how cube space in Analysis Services is the product of the members of a cube's attribute hierarchies with the cube's measures.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

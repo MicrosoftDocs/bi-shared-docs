@@ -1,5 +1,6 @@
 ---
 title: "Create a new tabular model project (Analysis Services) | Microsoft Docs"
+description: Learn how to create a new, blank tabular model project in SQL Server Data Tools.
 ms.date: 01/29/2020
 ms.prod: sql
 ms.technology: analysis-services

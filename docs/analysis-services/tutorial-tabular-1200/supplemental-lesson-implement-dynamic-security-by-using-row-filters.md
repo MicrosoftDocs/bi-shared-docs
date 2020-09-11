@@ -1,5 +1,6 @@
 ---
 title: "Implement Dynamic Security by Using Row Filters | Microsoft Docs"
+description: Learn how to create an additional role that implements dynamic security for a tabular model project.
 ms.date: 05/07/2019
 ms.prod: sql
 ms.technology: analysis-services

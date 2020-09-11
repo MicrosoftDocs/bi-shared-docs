@@ -1,5 +1,6 @@
 ---
 title: "Configure HTTP Access to Analysis Services on IIS 8.0 | Microsoft Docs"
+description: Learn how to configure HTTP access to SQL Server Analysis Services by using MSMDPUMP and learn about connections for various capabilities.
 ms.date: 04/22/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -237,8 +238,8 @@ The following table lists additional considerations when you enable HTTP access 
   
  Role assignment varies depending on how you configured authentication.  
   
-|||  
-|-|-|  
+| Authentication | Role assignment |
+| -------------- | --------------- |  
 |Anonymous|Add to the Membership list the account specified in **Edit Anonymous Authentication Credentials** in IIS. For more information, see [Anonymous Authentication](https://www.iis.net/configreference/system.webserver/security/authentication/anonymousauthentication),|  
 |Windows authentication|Add to the Membership list the Windows user or group accounts requesting Analysis Services data via impersonation or delegation.<br /><br /> Assuming Kerberos constrained delegation is used, the only accounts that need permissions are the Windows user and group accounts requesting access. No permissions are necessary for the application pool identity.|  
 |Basic authentication|Add to the Membership list the Windows user or group accounts that will be passed on the connection string.<br /><br /> In addition, if you are passing credentials via **EffectiveUserName** on the connection string, then the application pool identity must have administrator rights on the Analysis Services instance. In SSMS, right-click the instance &#124; **Properties** &#124; **Security** &#124; **Add**. Enter the application pool identity. If you used the built-in default identity, the account is specified as **IIS AppPool\DefaultAppPool**.<br /><br /> ![Shows how to enter the AppPoolIdentity account](../../analysis-services/instances/media/ssas-httpaccess-iisapppoolidentity.png "Shows how to enter the AppPoolIdentity account")|  

@@ -1,5 +1,6 @@
 ---
 title: "Level Element (CSDLBI) | Microsoft Docs"
+description: Learn about the elements and attributes in the Level element, a complex type that defines a single level in a hierarchy.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services

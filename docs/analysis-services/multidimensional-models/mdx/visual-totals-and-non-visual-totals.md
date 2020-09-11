@@ -1,5 +1,6 @@
 ---
 title: "Visual Totals and Non Visual Totals | Microsoft Docs"
+description: Learn about the behavior of visual totals and non-visual totals.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -28,9 +29,8 @@ manager: kfile
   
  Produces the following results:  
   
-|||||||  
-|-|-|-|-|-|-|  
-||**All Products**|**Accessories**|**Bikes**|**Clothing**|**Components**|  
+| | All Products | Accessories | Bikes | Clothing | Components |
+|-| ------------ | ----------- | ----- | -------- | ---------- |
 |**All Resellers**|**$80,450,596.98**|**$571,297.93**|**$66,302,381.56**|**$1,777,840.84**|**$11,799,076.66**|  
 |**Specialty Bike Shop**|**$6,756,166.18**|**$65,125.48**|**$6,080,117.73**|**$252,933.91**|**$357,989.07**|  
 |**Value Added Reseller**|**$34,967,517.33**|**$175,002.81**|**$30,892,354.33**|**$592,385.71**|**$3,307,774.48**|  
@@ -53,9 +53,8 @@ manager: kfile
   
  Produces the following results:  
   
-|||||  
-|-|-|-|-|  
-||**All Products**|**Accessories**|**Clothing**|  
+| | All Products | Accessories | Clothing |
+|-| ------------ | ----------- | -------- |
 |**All Resellers**|**$80,450,596.98**|**$571,297.93**|**$1,777,840.84**|  
 |**Value Added Reseller**|**$34,967,517.33**|**$175,002.81**|**$592,385.71**|  
 |**Warehouse**|**$38,726,913.48**|**$331,169.64**|**$932,521.23**|  
@@ -81,12 +80,11 @@ manager: kfile
   
  The above query produces the following results:  
   
-|||||  
-|-|-|-|-|  
-||All Products|Accessories|Clothing|  
-|All Resellers|$73,694,430.80|$506,172.45|$1,524,906.93|  
-|Value Added Reseller|$34,967,517.33|$175,002.81|$592,385.71|  
-|Warehouse|$38,726,913.48|$331,169.64|$932,521.23|  
+| | All Products | Accessories | Clothing |
+|-| ------------ | ----------- | -------- |
+|**All Resellers**|$73,694,430.80|$506,172.45|$1,524,906.93|  
+|**Value Added Reseller**|$34,967,517.33|$175,002.81|$592,385.71|  
+|**Warehouse**|$38,726,913.48|$331,169.64|$932,521.23|  
   
  When compared with the previous results, you can observe that the [All Resellers] row now adds up to the displayed values for [Value Added Reseller] and [Warehouse] but that the [All Products] column shows the total value for all products, including those not displayed.  
   

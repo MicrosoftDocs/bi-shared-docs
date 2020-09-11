@@ -1,5 +1,6 @@
 ---
 title: "Lesson 6: Create Measures | Microsoft Docs"
+description: Learn how to create measures for a tabular model project.
 ms.date: 05/07/2019
 ms.prod: sql
 ms.technology: analysis-services
@@ -42,7 +43,7 @@ This topic is part of a tabular modeling tutorial, which should be completed in 
   
     Notice the top-left cell now contains a measure name, **DaysCurrentQuarterToDate**, followed by the result, **92**.
     
-      ![as-tabular-lesson6-newmeasure](media/as-tabular-lesson6-newmeasure.png) 
+      ![Screenshot of the model designer with Days Current Quarter To Date: 92 called out.](media/as-tabular-lesson6-newmeasure.png) 
     
     Unlike calculated columns, with measure formulas you can type the measure name, followed by a comma, followed by the formula expression.
 
@@ -69,7 +70,7 @@ This topic is part of a tabular modeling tutorial, which should be completed in 
   
     The AutoSum feature automatically creates a measure for the selected column using the DistinctCount standard aggregation formula.  
     
-       ![as-tabular-lesson6-newmeasure2](media/as-tabular-lesson6-newmeasure2.png)
+       ![Screenshot of the model designer with Distinct Count Sales Order Number: 27659 called out.](media/as-tabular-lesson6-newmeasure2.png)
   
 4.  In the measure grid, click the new measure, and then in the **Properties** window, in **Measure Name**, rename the measure to **InternetDistinctCountSalesOrder**. 
  

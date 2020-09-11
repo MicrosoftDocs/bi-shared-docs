@@ -1,5 +1,6 @@
 ---
 title: "Browse Dimension Data in Dimension Designer | Microsoft Docs"
+description: Browse the data in a dimension by using the Browser view in Dimension Designer, which is accessed from SQL Server Data Tools.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

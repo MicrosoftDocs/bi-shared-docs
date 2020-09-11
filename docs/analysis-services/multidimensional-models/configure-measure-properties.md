@@ -1,5 +1,6 @@
 ---
 title: "Configure Measure Properties | Microsoft Docs"
+description: Learn about Measures properties that enable you to define how the measures function and to control how the measures appear to users.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

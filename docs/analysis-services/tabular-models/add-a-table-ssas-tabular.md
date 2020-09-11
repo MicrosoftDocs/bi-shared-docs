@@ -1,5 +1,6 @@
 ---
 title: "Add a table to an Analysis Services tabular model | Microsoft Docs"
+description: Learn how to add a table from a structured data source from which you have previously imported data into your model.
 ms.date: 03/12/2020
 ms.prod: sql
 ms.technology: analysis-services

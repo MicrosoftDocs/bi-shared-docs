@@ -1,5 +1,6 @@
 ---
 title: "Processing Analysis Services Objects | Microsoft Docs"
+description: Learn about processing Analysis Services databases, cubes, dimensions, measure groups, partitions, and data mining structures and models.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -53,8 +54,8 @@ manager: kfile
   
  The processing itself turns the tabular data into usable hierarchies. These hierarchies are fully articulated member names that are internally represented by unique numeric paths. The following example is a text representation of a hierarchy.  
   
-||  
-|-|  
+| Usable hierarchy |
+| ---------------- |
 |[United States]|  
 |[United States].[West]|  
 |[United States].[West].[California]|  

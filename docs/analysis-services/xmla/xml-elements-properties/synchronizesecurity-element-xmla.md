@@ -1,5 +1,6 @@
 ---
 title: "SynchronizeSecurity Element (XMLA) | Microsoft Docs"
+description: Learn how the SynchronizeSecurity element specifies how to synchronize security definitions, such as roles and permissions, during a Synchronize command.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

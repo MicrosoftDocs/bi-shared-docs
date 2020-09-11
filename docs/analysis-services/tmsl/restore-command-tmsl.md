@@ -1,5 +1,6 @@
 ---
 title: "Restore command (TMSL) | Microsoft Docs"
+description: Learn about properties and usage of the Restore command, which restores a tabular database from a backup file.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -49,9 +50,8 @@ manager: kfile
   
  **Restore** has several properties.  
   
-||||  
-|-|-|-|  
-|**Property**|**Default**|**Description**|  
+| Property | Default | Description |
+| -------- | ------- | ----------- |
 |database|[Required]|The name of the database object to be restored.|  
 |file|[Required]|The backup file name/path.|  
 |password|Empty|The password to use for decrypting the backup file.|  

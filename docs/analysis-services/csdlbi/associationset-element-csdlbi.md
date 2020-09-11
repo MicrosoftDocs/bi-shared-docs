@@ -1,5 +1,6 @@
 ---
 title: "AssociationSet Element (CSDLBI) | Microsoft Docs"
+description: Learn about the AssociationSet element, a complex type that defines an association or relationship between two tables.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services

@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 8 Create perspectives | Microsoft Docs"
+description: Learn how to create perspectives for an Analysis Services tabular model project.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -37,7 +38,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 4.  Select the all the tables *except* **DimCustomer**.  
   
-    ![as-lesson8-perspectives](../tutorial-tabular-1400/media/as-lesson8-perspectives.png)
+    ![Screenshot of the Perspectives dialog box showing that DimCustomer is not selected.](../tutorial-tabular-1400/media/as-lesson8-perspectives.png)
   
     In a later lesson, you use the Analyze in Excel feature to test this perspective. The Excel PivotTable Fields List includes each table except the DimCustomer table.  
 

@@ -1,5 +1,6 @@
 ---
 title: "Query Processing Events Data Columns | Microsoft Docs"
+description: Learn about the data columns for the Query Processing Events event category.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -43,9 +44,8 @@ manager: kfile
   
 ## Query Cube Begin  
   
-|||||  
-|-|-|-|-|  
-|**Column Name**|**Column Id**|**Column Type**|**Column Description**|  
+| Column Name | Column Id | Column Type | Column Description |
+| ----------- | --------- | ----------- | ------------------ |
 |EventClass|0|1|Event Class is used to categorize events.|  
 |CurrentTime|2|5|Time at which the event started, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  
 |StartTime|3|5|Time at which the event started, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  
@@ -107,9 +107,8 @@ manager: kfile
   
 ## Calculate Non Empty Current  
   
-|||||  
-|-|-|-|-|  
-|**Column Name**|**Column Id**|**Column Type**|**Column Description**|  
+| Column Name | Column Id | Column Type | Column Description |
+| ----------- | --------- | ----------- | ------------------ |
 |EventClass|0|1|Event Class is used to categorize events.|  
 |EventSubclass|1|1|Event Subclass provides additional information about each event class:<br /><br /> 1: Get Data<br /><br /> 2: Process Calculated Members<br /><br /> 3: Post Order|  
 |CurrentTime|2|5|Time at which the event started, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  

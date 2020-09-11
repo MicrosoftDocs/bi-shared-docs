@@ -1,5 +1,6 @@
 ---
 title: "Define Time Intelligence Calculations using the Business Intelligence Wizard | Microsoft Docs"
+description: Apply a time intelligence enhancement to a cube to add time calculations or time views to a selected hierarchy.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

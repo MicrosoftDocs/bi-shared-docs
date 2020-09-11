@@ -1,5 +1,6 @@
 ---
 title: "Refresh command (TMSL) | Microsoft Docs"
+description: Learn about the Refresh command, which processes objects in the current database and always runs in parallel, unless you throttle it.
 ms.date: 06/22/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -55,9 +56,8 @@ author: minewiskan
   
  The **type** parameter  sets a scope on the processing operation.  
   
-||||  
-|-|-|-|  
-|**Refresh type**|**Applies to**|**Description**|  
+| Refresh type | Applies to | Description |
+| ------------ | ---------- | ----------- |
 |full|Database,<br />Table,<br />Partition|For all partitions in the specified partition, table, or database, refresh data and recalculate all dependents. For a calculation partition, recalculate the partition and all its dependents.|  
 |clearValues|Database,<br />Table,<br />Partition|Clear values in this object and all its dependents.|  
 |calculate|Database,<br />Table,<br />Partition|Recalculate this object and all its dependents, but only if needed. This value does not force recalculation, except for volatile formulas.|  

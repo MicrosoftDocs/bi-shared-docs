@@ -1,5 +1,6 @@
 ---
 title: "Lesson 13: Deploy Analysis Services model | Microsoft Docs"
+description: Learn how to configure deployment properties for a tabular model project.
 ms.date: 05/07/2019
 ms.prod: sql
 ms.technology: analysis-services
@@ -28,7 +29,7 @@ This topic is part of a tabular modeling tutorial, which should be completed in 
   
 2.  In the **AW Internet Sales Property Pages** dialog box, under **Deployment Server**, in the **Server** property, type the name of an Azure Analysis Services server or an on-premises server instance running in Tabular mode. This will be the server instance your model will be deployed to.  
 
-    ![aas-deploy-deployment-server-property](media/aas-deploy-deployment-server-property.png)
+    ![Screenshot of the Adventure Works Internet Sales Property Pages dialog box with the Server value called out.](media/aas-deploy-deployment-server-property.png)
  
     > [!IMPORTANT]  
     > You must have Administrator permissions on the remote Analysis Services instance in-order to deploy to it.  
@@ -49,14 +50,14 @@ This topic is part of a tabular modeling tutorial, which should be completed in 
   
     The Deploy dialog box appears and displays the deployment status of the metadata as well as each table included in the model.  
     
-    ![aas-deploy-status](media/aas-deploy-status.png)
+    ![A Screenshot of the Deploy dialog box showing Success.](media/aas-deploy-status.png)
   
 3. When deployment successfully completes, go ahead and click **Close**.  
   
 ## Conclusion  
 Congratulations! You're finished authoring and deploying your first Analysis Services Tabular model. This tutorial has helped guide you through completing the most common tasks in creating a tabular model. Now that your Adventure Works Internet Sales model is deployed, you can use SQL Server Management Studio to manage the model; create process scripts and a backup plan. Users can also now connect to the model using a reporting client application such as Microsoft Excel or Power BI.  
 
-![as-tabular-lesson13-ssms](media/as-tabular-lesson13-ssms.png)
+![Screenshot of the Object Explorer section with the Adventure Works Internet Sales database highlighted.](media/as-tabular-lesson13-ssms.png)
   
   
 ## See also  

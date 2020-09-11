@@ -1,5 +1,6 @@
 ---
 title: "Defining a Data Source View | Microsoft Docs"
+description: Learn how to define a data source view for an Analysis Services project.
 ms.date: 05/06/2019
 ms.prod: sql
 ms.technology: analysis-services

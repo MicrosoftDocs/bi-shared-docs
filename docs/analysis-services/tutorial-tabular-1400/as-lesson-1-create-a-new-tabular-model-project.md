@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 1: Create a new tabular model project | Microsoft Docs"
+description: Learn how to create a new Analysis Services tabular model project.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -41,7 +42,7 @@ This article is the first lesson in a tabular model authoring tutorial. To compl
       
 6.  In **Compatibility level**, select **SQL Server 2019 / Azure Analysis Services (1500)**, and then click **OK**.   
  
-    ![as-lesson1-tmd](../tutorial-tabular-1400/media/as-lesson1-tmd.png)
+    ![Screenshot of the Tabular model designer dialog box with the Integrated workspace option and Compatibility level drop-down list called out.](../tutorial-tabular-1400/media/as-lesson1-tmd.png)
       
 When complete, your new tabular model project will open in Visual Studio.
 
@@ -51,15 +52,15 @@ Now that you've created a new tabular model project, let's take a moment to expl
   
 After your project is created, it opens in Visual Studio. On the right side, in **Tabular Model Explorer**, you see a tree view of the objects in your model. Since you haven't yet imported data, the folders are empty. You can right-click an object folder to perform actions, similar to the menu bar. As you step through this tutorial, you use the Tabular Model Explorer to navigate different objects in your model project.
 
-![as-lesson1-tme](../tutorial-tabular-1400/media/as-lesson1-tme.png)
+![Screenshot of the Tabular Model Explorer dialog box.](../tutorial-tabular-1400/media/as-lesson1-tme.png)
 
 Click the **Solution Explorer** tab. Here, you see your **Model.bim** file. If you don't see the designer window to the left (the empty window with the Model.bim tab), in **Solution Explorer**, under **AW Internet Sales Project**, double-click the **Model.bim** file. The Model.bim file contains the metadata for your model project. 
 
-![as-lesson1-se](../tutorial-tabular-1400/media/as-lesson1-se.png)
+![Screenshot of the Solution Explorer section with the Model.bim file highlighted.](../tutorial-tabular-1400/media/as-lesson1-se.png)
   
 Click **Model.bim**. In the **Properties** window, you see the model properties, most important of which is the **DirectQuery Mode** property. This property specifies if the model is deployed in In-Memory mode (Off) or DirectQuery mode (On). For this tutorial, you author and deploy your model in In-Memory mode.
 
-![as-lesson1-properties](../tutorial-tabular-1400/media/as-lesson1-properties.png)
+![Screenshot of the Properties window with the Compatibility Level option highlighted and its SQL Server 2019 / Azure Analysis Services (1500) setting called out.](../tutorial-tabular-1400/media/as-lesson1-properties.png)
   
 When you create a model project, certain model properties are set automatically according to the Data Modeling settings that can be specified in the **Tools** menu > **Options** dialog box. Data Backup, Workspace Retention, and Workspace Server properties specify how and where the workspace database (your model authoring database) is backed up, retained in-memory, and built. You can change these settings later if necessary, but for now, leave these properties as they are.  
 

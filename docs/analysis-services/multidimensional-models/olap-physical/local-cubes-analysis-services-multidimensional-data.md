@@ -1,5 +1,6 @@
 ---
 title: "Local Cubes (Analysis Services - Multidimensional Data) | Microsoft Docs"
+description: Learn how to write and execute either an ASSL script or an AMO program so you can create, update or delete local cubes.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

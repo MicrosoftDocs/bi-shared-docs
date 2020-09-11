@@ -1,5 +1,6 @@
 ---
 title: "ProductLabel Element | Microsoft Docs"
+description: Learn how the ProductLabel element determines the product level.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

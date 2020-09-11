@@ -1,5 +1,6 @@
 ---
 title: "Insert Element (XMLA) | Microsoft Docs"
+description: Learn how the Insert element inserts attribute members into a dimension.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

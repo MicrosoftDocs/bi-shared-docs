@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services documentation overview| Microsoft Docs"
-ms.date: 04/02/2020
+ms.date: 08/31/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: overview
@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-If you're using Azure Analysis Services, SQL Server Analysis Services, or Power BI Premium datasets, this article can help you understand and find the documentation you are looking for. Be sure to take a few minutes to read this now. It could save you a lot of frustration down the road!
+If you're using Azure Analysis Services, SQL Server Analysis Services, or Power BI Premium datasets, this article can help you understand and find the documentation you are looking for. Be sure to take a few minutes to read this now. It could save you a lot of frustration down the road.
 
 ## One engine - three platforms
 

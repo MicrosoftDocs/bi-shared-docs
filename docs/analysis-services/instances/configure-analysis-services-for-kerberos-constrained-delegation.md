@@ -1,5 +1,6 @@
 ---
 title: "Configure Analysis Services for Kerberos constrained delegation | Microsoft Docs"
+description: Learn how to configure SQL Server Analysis Services for for Kerberos constrained delegation.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

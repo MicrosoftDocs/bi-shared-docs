@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 12: Analyze in Excel | Microsoft Docs"
+description: Learn how to use the Analyze in Excel feature for an Analysis Services tabular model project.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -45,11 +46,11 @@ In these first tasks, you browse your model by using both the default perspectiv
   
 1. In the **Analyze in Excel** dialog box, leave **Current Windows User** selected, then in the **Perspective** drop-down listbox, select **Internet Sales**, and then click **OK**.
 
-    ![as-lesson12-perspective](../tutorial-tabular-1400/media/as-lesson12-perspective.png)
+    ![Screenshot of the Analyze in Excel dialog box showing the correct options selected.](../tutorial-tabular-1400/media/as-lesson12-perspective.png)
 
 1. In Excel, in **PivotTable Fields**, notice the DimCustomer table is excluded from the field list.  
 
-    ![as-lesson12-fields](../tutorial-tabular-1400/media/as-lesson12-fields.png)
+    ![Screenshot of the PivotTable Fields dialog box in Excel showing that DimCustomer is not available for selection.](../tutorial-tabular-1400/media/as-lesson12-fields.png)
 
 1. Close Excel without saving the workbook.  
   

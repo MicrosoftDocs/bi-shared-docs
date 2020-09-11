@@ -1,5 +1,6 @@
 ---
 title: "Specifying Partition and Role Deployment Options | Microsoft Docs"
+description: Learn how to specify deployment options for partitions and roles in SQL Server Analysis Services deployment.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

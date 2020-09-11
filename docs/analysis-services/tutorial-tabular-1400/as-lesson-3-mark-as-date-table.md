@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 3: Mark as Date Table | Microsoft Docs"
+description: Learn how to mark a table as a Date Table for an Analysis Services tabular model project.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -42,7 +43,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
   
 3.  In the **Mark as Date Table** dialog box, in the **Date** listbox, select the **Date** column as the unique identifier. It's usually selected by default. Click **OK**. 
 
-    ![as-lesson3-date-table](../tutorial-tabular-1400/media/as-lesson3-date-table.png)
+    ![Screenshot of the MArk as Date Table dialog box with the Date option highlighted.](../tutorial-tabular-1400/media/as-lesson3-date-table.png)
   
 4. Save.
 

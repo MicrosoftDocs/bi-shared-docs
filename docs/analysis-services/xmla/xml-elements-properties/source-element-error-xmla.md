@@ -1,5 +1,6 @@
 ---
 title: "Source Element (Error) (XMLA) | Microsoft Docs"
+description: Learn how the Source element (error) contains the name of the component that generated the parent Error element.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

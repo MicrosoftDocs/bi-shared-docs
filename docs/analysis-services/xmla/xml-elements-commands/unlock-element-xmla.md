@@ -1,5 +1,6 @@
 ---
 title: "Unlock Element (XMLA) | Microsoft Docs"
+description: Learn how the Unlock element unlocks a specified lock on a Analysis Services instance.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

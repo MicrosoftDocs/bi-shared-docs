@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 9: Create hierarchies | Microsoft Docs"
+description: Learn how to create hierarchies for an Analysis Services tabular model project.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -42,7 +43,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
 
 6.  Finally, add **EnglishProductName** to the Category hierarchy. Rename it **Product**.  
 
-    ![as-lesson9-category](../tutorial-tabular-1400/media/as-lesson9-category.png)
+    ![Screenshot of DimProduct > Category showing the columns are named Model and Product.](../tutorial-tabular-1400/media/as-lesson9-category.png)
   
 #### To create hierarchies in the DimDate table  
   

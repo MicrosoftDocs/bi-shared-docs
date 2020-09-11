@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Time Series Algorithm Technical Reference | Microsoft Docs"
+description: Learn about the Microsoft Time Series algorithm, which includes two algorithms for analyzing time series in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

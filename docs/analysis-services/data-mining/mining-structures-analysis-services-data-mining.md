@@ -1,5 +1,6 @@
 ---
 title: "Mining Structures (Analysis Services - Data Mining) | Microsoft Docs"
+description: Learn about the basic architecture of data mining structures, such as how you define a mining structure, how you populate it, and how you create models.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

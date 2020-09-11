@@ -1,5 +1,6 @@
 ---
 title: "Object Definitions in Tabular Model Scripting Language (TMSL) | Microsoft Docs"
+description: See a list of the major TMSL schema objects used in SQL Server Management Studio, SQL Server Data Tools (SSDT), and AMO PowerShell scripts.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -24,8 +25,8 @@ manager: kfile
 
  Commonly used objects in TMSL script:  
   
-|||  
-|-|-|  
+| Object | Description |
+| ------ | ----------- |
 |[Database object &#40;TMSL&#41;](database-object-tmsl.md)|Defines a tabular database at compatibility level 1200 or higher, based on a model of the same level.|  
 |[Model object &#40;TMSL&#41;](model-object-tmsl.md)|Defines a tabular model at compatibility level 1200 or higher.|  
 |[DataSources object &#40;TMSL&#41;](datasources-object-tmsl.md)|Defines a connection to a data source used during import to load the model, or for pass through queries when the model is in DirectQuery mode.|  

@@ -1,5 +1,6 @@
 ---
 title: "Connect to an existing tabular server and database | Microsoft Docs"
+description: Establish a server connection using the Microsoft.AnalysisServices.Tabular namespace for models and databases created at 1200 or higher compatibility level.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services

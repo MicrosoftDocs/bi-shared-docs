@@ -1,5 +1,6 @@
 ---
 title: "CellOrdinal Element (XMLA) | Microsoft Docs"
+description: Learn how the CellOrdinal element contains the ordinal position within a cube of a cell to be updated by an UpdateCells command.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

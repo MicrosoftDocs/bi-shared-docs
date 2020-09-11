@@ -1,5 +1,6 @@
 ---
 title: "Use the Schema Generation Wizard (Analysis Services) | Microsoft Docs"
+description: Learn how to provide the information the Schema Generation Wizard requires during the generation phase.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

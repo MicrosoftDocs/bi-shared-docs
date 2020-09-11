@@ -1,5 +1,6 @@
 ---
 title: "Sequence Clustering Model Query Examples | Microsoft Docs"
+description: Learn how to create queries for models that are based on the Microsoft Sequence Clustering algorithm in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -241,9 +242,8 @@ AS t
 ## Function List  
  All [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms support a common set of functions. However, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Sequence Clustering algorithm supports the additional functions that are listed in the following table.  
   
-|||  
-|-|-|  
-|Prediction Function|Usage|  
+| Prediction Function | Usage |
+| ------------------- | ----- |
 |[Cluster &#40;DMX&#41;](/sql/dmx/cluster-dmx)|Returns the cluster that is most likely to contain the input case|  
 |[ClusterDistance &#40;DMX&#41;](/sql/dmx/clusterdistance-dmx)|Returns the distance of the input case from the specified cluster, or if no cluster is specified, the distance of the input case from the most likely cluster.<br /><br /> This function can be used with any kind of clustering model (EM, K-Means, etc.), but the results differ depending on the algorithm.|  
 |[ClusterProbability &#40;DMX&#41;](/sql/dmx/clusterprobability-dmx)|Returns the probability that the input case belongs to the specified cluster.|  

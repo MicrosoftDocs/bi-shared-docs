@@ -1,5 +1,6 @@
 ---
 title: "Cross-Validation (Analysis Services - Data Mining) | Microsoft Docs"
+description: Learn how to use the cross-validation features provided for data mining and interpret the results for a model or for multiple models based on a data set.
 ms.date: 05/01/2018
 ms.prod: sql
 ms.technology: analysis-services

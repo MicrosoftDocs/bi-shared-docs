@@ -1,5 +1,6 @@
 ---
 title: "Data Mining Tutorials (Analysis Services) | Microsoft Docs"
+description: Learn about the Data Mining tutorials for Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

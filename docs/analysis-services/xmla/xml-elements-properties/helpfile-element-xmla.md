@@ -1,5 +1,6 @@
 ---
 title: "HelpFile Element (XMLA) | Microsoft Docs"
+description: Learn how the HelpFile element ontains the path or URL to the Help file or topic that describes the parent Error element.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

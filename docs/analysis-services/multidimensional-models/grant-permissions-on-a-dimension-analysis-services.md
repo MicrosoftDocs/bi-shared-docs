@@ -1,5 +1,6 @@
 ---
 title: "Grant permissions on a dimension (Analysis Services) | Microsoft Docs"
+description: Set permissions on dimension attributes and dimension members to allow or deny access to portions of dimension data for different constituents.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

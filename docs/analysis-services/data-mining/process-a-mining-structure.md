@@ -1,5 +1,6 @@
 ---
 title: "Process a Mining Structure | Microsoft Docs"
+description: Learn how to process a mining structure by using Data Mining Designer in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

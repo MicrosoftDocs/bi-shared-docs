@@ -1,5 +1,6 @@
 ---
 title: "Install Analysis Services sample data and projects | Microsoft Docs"
+description: Learn how to install the data and project files used in the Analysis Services tutorials. 
 ms.date: 01/27/2020
 ms.prod: sql
 ms.technology: analysis-services

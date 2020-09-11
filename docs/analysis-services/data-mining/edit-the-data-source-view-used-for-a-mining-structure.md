@@ -1,5 +1,6 @@
 ---
 title: "Edit the Data Source View used for a Mining Structure | Microsoft Docs"
+description: Learn how to edit the Data Source View used for a mining structure in Data Mining Designer in SQL Server Analysis Services.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

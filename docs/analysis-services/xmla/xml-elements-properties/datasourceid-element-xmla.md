@@ -1,5 +1,6 @@
 ---
 title: "DataSourceID Element (XMLA) | Microsoft Docs"
+description: Learn how the DataSourceID element identifies a data source used by a Location element during a Backup, Restore, or Synchronize command. 
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

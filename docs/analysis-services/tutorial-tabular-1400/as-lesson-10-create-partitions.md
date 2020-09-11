@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 10: Create partitions | Microsoft Docs"
+description: Learn how to create partitions for an Analysis Services tabular model project.
 ms.date: 02/20/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -36,13 +37,13 @@ This article is part of a tabular modeling tutorial, which should be completed i
 
 5.  In preview, click the down arrow in the **OrderDateKey** column heading, and then click **Number Filters** > **Between**.
 
-    ![as-lesson10-query-editor](../tutorial-tabular-1400/media/as-lesson10-query-editor.png)
+    ![Screenshot of the Power Query Editor showing Number Filters > Between selected.](../tutorial-tabular-1400/media/as-lesson10-query-editor.png)
 
     You'll see the Data Type for OrderDateKey is Whole Number (integer). This is the most common way to express dates in a date key column in a data warehouse. We want to filter on year, which is the first four numbers of the values in OrderDateKey.
 
 6.  In the Filter Rows dialog box, in **Keep rows where: OrderDateKey**, leave **is greater than or equal to**, and then in the number field, enter **20010101**. Leave the **And** operator selected, then leave **is less than or equal to**, then in the number field, enter **20011231**, and then click **OK**.
 
-    ![as-lesson10-filter-rows](../tutorial-tabular-1400/media/as-lesson10-filter-rows.png)
+    ![Screenshot of the Filter Rows dialog box showing the proper options are selected and set.](../tutorial-tabular-1400/media/as-lesson10-filter-rows.png)
     
     After clicking OK, you're returned to the query editor. Notice in APPLIED STEPS, you see another step named Filtered Rows. This filter is to select only order dates from 2001.
 
@@ -50,7 +51,7 @@ This article is part of a tabular modeling tutorial, which should be completed i
 
     In Partition Manager, notice the query expression now has an additional Filtered Rows clause.
 
-    ![as-lesson10-query](../tutorial-tabular-1400/media/as-lesson10-query.png)
+    ![Screenshot of the query expression in Partition manager with the Filtered Rows clause highlighted.](../tutorial-tabular-1400/media/as-lesson10-query.png)
   
     This statement specifies this partition should include only the data in those rows where the OrderDateKey is in the 2001 calendar year as specified in the filtered rows clause.  
   
@@ -102,13 +103,13 @@ In Partition Manager, notice the **Last Processed** column for each of the new p
   
 4.  Select the checkbox in the **Process** column for each of the five partitions you created, and then click **OK**.  
 
-    ![as-lesson10-process-partitions](../tutorial-tabular-1400/media/as-lesson10-process-partitions.png)
+    ![Screenshot of the Process Partitions dialog box with the Fact Internet Sales 2005 row highlighted.](../tutorial-tabular-1400/media/as-lesson10-process-partitions.png)
   
     If you're prompted for credentials, enter the credentials you specified in Lesson 2.  
   
     The **Data Processing** dialog box appears and displays process details for each partition. Notice that a different number of rows for each partition are transferred. Each partition includes only those rows for the year specified in the Filtered rows statement. When processing is finished, go ahead and close the Data Processing dialog box.  
   
-    ![as-lesson10-process-complete](../tutorial-tabular-1400/media/as-lesson10-process-complete.png)
+    ![Screenshot of the Data Processing dialog box showing Success.](../tutorial-tabular-1400/media/as-lesson10-process-complete.png)
   
 ## Next step
 

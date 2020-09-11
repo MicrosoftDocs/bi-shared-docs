@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 4: Create relationships | Microsoft Docs"
+description: Learn how to create relationships for an Analysis Services tabular model project.
 ms.date: 02/24/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -37,7 +38,7 @@ Before you proceed with authoring your model, you should verify those relationsh
 
     The model designer now appears in Diagram View, a graphical format displaying all the tables you imported with lines between them. The lines between tables indicate the relationships that were automatically created when you imported the data.
     
-    ![as-lesson4-diagram](../tutorial-tabular-1400/media/as-lesson4-diagram.png)
+    ![Screenshot of the diagram view of the Model.bim file.](../tutorial-tabular-1400/media/as-lesson4-diagram.png)
   
     > [!NOTE]
     > If you don't see any relationships between tables, it likely means there are no relationships between those tables at the datasource.
@@ -67,11 +68,11 @@ Before you proceed with authoring your model, you should verify those relationsh
 
 In Diagram View, notice an arrow, an asterisk, and a number on the lines that show the relationship between tables.
 
-![as-lesson4-line](../tutorial-tabular-1400/media/as-lesson4-line.png)
+![Screenshot of the diagram view with the arrows, asterisks, and numbers highlighted.](../tutorial-tabular-1400/media/as-lesson4-line.png)
 
 The arrow shows the filter direction. The asterisk shows this table is the *many* side in the relationship's cardinality, and the one shows this table is the *one* side of the relationship. If you need to edit a relationship; for example, change the relationship's filter direction or cardinality, double-click the relationship line to open the Edit Relationship dialog.
 
-![as-lesson4-edit](../tutorial-tabular-1400/media/as-lesson4-edit.png)
+![Screenshot of the Edit Relationship dialog box with DimCustomer and GeographyKey options highlighted for both Table 1 and Table 2.](../tutorial-tabular-1400/media/as-lesson4-edit.png)
 
 These features are meant for advanced data modeling and are outside the scope of this tutorial. To learn more, see [Bi-directional cross filters for tabular models in Analysis Services](../tabular-models/bi-directional-cross-filters-tabular-models-analysis-services.md).
 
@@ -83,7 +84,7 @@ In some cases, you may need to create additional relationships between tables in
 
     A solid line appears showing you have created an active relationship between the **OrderDate** column in the **Internet Sales** table, and the **Date** column in the **Date** table. 
   
-      ![as-lesson4-new](../tutorial-tabular-1400/media/as-lesson4-new.png) 
+      ![Screenshot of the model designer with OrderDate and Date called out showing the solid line between the tables.](../tutorial-tabular-1400/media/as-lesson4-new.png) 
   
     > [!NOTE]  
     > When creating relationships, the cardinality and filter direction between the primary table and the related lookup table is automatically selected.  
@@ -94,7 +95,7 @@ In some cases, you may need to create additional relationships between tables in
   
 3.  Finally, create one more relationship. In the **FactInternetSales** table, click and hold on the **ShipDate** column, then drag the cursor to the **Date** column in the **DimDate** table, and then release.  
     
-     ![as-lesson4-newinactive](../tutorial-tabular-1400/media/as-lesson4-newinactive.png)
+     ![Screenshot of the model designer with ShipDate and Date called out.](../tutorial-tabular-1400/media/as-lesson4-newinactive.png)
   
 ## Next step
 

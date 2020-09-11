@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services tutorial lesson 13: Deploy | Microsoft Docs"
+description: Learn how to configure deployment properties for an Analysis Services tabular model project.
 ms.date: 05/04/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -37,7 +38,7 @@ If you installed the AdventureWorksDW sample database on an on-premises or VM wi
     - If deploying to Azure Analysis Services, server name is a URL. In the portal, copy the Azure Analysis Services server name URL from the server's Overview page.  
     - If deploying to a Power BI Premium workspace, server name is a Workspace Connection URL. In the Power BI service, copy from workspace Settings > Premium > Workspace Connection.
 
-    ![as-lesson13-deploy-property](../tutorial-tabular-1400/media/as-lesson13-deploy-aas.png)
+    ![Screenshot of the  AW Internet Sales Property Pages dialog box with the Server value called out.](../tutorial-tabular-1400/media/as-lesson13-deploy-aas.png)
   
 3. In the **Database** property, type **Adventure Works Internet Sales**.  
   
@@ -57,7 +58,7 @@ If you installed the AdventureWorksDW sample database on an on-premises or VM wi
   
     The Deploy dialog box appears and displays the deployment status of the metadata and each table included in the model.  
     
-    ![as-lesson13-deploy-status](../tutorial-tabular-1400/media/as-lesson13-deploy-status.png)
+    ![A Screenshot of the Deploy dialog box showing Success.](../tutorial-tabular-1400/media/as-lesson13-deploy-status.png)
 
 3. When deployment successfully completes, go ahead and click **Close**.  
 
@@ -81,11 +82,11 @@ Processing fails because unlike when deploying to an Azure or SQL Server Analysi
 
 4. In the Power BI Service, click **Workspaces** > workspace > **Datasets** > **Settings** (under ACTIONS > More options) > **Data source credentials** > **Edit credentials**. Enter the username and password for your AdventureWorksDW data source.
 
-    ![as-lesson13-edit-credentials](../tutorial-tabular-1400/media/as-lesson13-edit-credentials.png)
+    ![Screenshot of the Configure Adventure Works Edit sign in dialog box with the Authentication Method, User name, Password, and Privacy level setting fot this data source fields called out.](../tutorial-tabular-1400/media/as-lesson13-edit-credentials.png)
     
 5. In the Power BI Service, in the workspace > **Datasets** > **Settings** (under ACTIONS), select **Refresh**. 
 
-    ![as-lesson13-dataset-refresh](../tutorial-tabular-1400/media/as-lesson13-dataset-refresh.png)
+    ![Screenshot of the Power BI Service UI showing Refresh selected.](../tutorial-tabular-1400/media/as-lesson13-dataset-refresh.png)
 
     Power BI will connect to the data source to import data into the model. Refresh will take a couple of minutes.
 
@@ -100,7 +101,7 @@ This lesson describes the most common and easiest method to deploy a tabular mod
 
 Congratulations! You're finished authoring and deploying your first Analysis Services tabular model. This tutorial has helped guide you through completing the most common tasks in creating a tabular model. Now that your Adventure Works Internet Sales model is deployed, you can use SQL Server Management Studio to manage the model; create process scripts and a backup plan. Users, if added to a role, can also now connect to the model using a reporting client application such as Microsoft Excel or Power BI.  
 
-![as-lesson13-ssms](../tutorial-tabular-1400/media/as-lesson13-ssms.png)
+![Screenshot of the Object Explorer section with the Adventure Works Internet Sales database highlighted.](../tutorial-tabular-1400/media/as-lesson13-ssms.png)
 
 ## Next step
 

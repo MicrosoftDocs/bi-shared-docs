@@ -1,5 +1,6 @@
 ---
 title: "Discover Server State Events Data Columns | Microsoft Docs"
+description: Learn about the data columns for the Discover Server State event category.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -24,9 +25,8 @@ manager: kfile
   
 ## Server State Discover Begin Class—Data Columns  
   
-|||||  
-|-|-|-|-|  
-|**Column Name**|**Column Id**|**Column Type**|**Column Description**|  
+| Column Name | Column Id | Column Type | Column Description |
+| ----------- | --------- | ----------- | ------------------ |
 |EventClass|0|1|Event Class is used to categorize events.|  
 |EventSubclass|1|1|Event Subclass provides additional information about each event class:<br /><br /> 1: **DISCOVER_CONNECTIONS**<br /><br /> 2: **DISCOVER_SESSIONS**<br /><br /> 3: **DISCOVER_TRANSACTIONS**<br /><br /> 6: **DISCOVER_DB_CONNECTIONS**<br /><br /> 7: **DISCOVER_JOBS**<br /><br /> 8: **DISCOVER_LOCKS**<br /><br /> 12: **DISCOVER_PERFORMANCE_COUNTERS**<br /><br /> 13: **DISCOVER_MEMORYUSAGE**<br /><br /> 14: **DISCOVER_JOB_PROGRESS**<br /><br /> 15: **DISCOVER_MEMORYGRANT**|  
 |CurrentTime|2|5|Contains the current time of the server state discover event, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  
@@ -45,9 +45,8 @@ manager: kfile
   
 ## Server State Discover Data Class—Data Columns  
   
-|||||  
-|-|-|-|-|  
-|**Column Name**|**Column Id**|**Column Type**|**Column Description**|  
+| Column Name | Column Id | Column Type | Column Description |
+| ----------- | --------- | ----------- | ------------------ |
 |EventClass|0|1|Event Class is used to categorize events.|  
 |EventSubclass|1|1|Event Subclass provides additional information about each event class:<br /><br /> 1: **DISCOVER_CONNECTIONS**<br /><br /> 2: **DISCOVER_SESSIONS**<br /><br /> 3: **DISCOVER_TRANSACTIONS**<br /><br /> 6: **DISCOVER_DB_CONNECTIONS**<br /><br /> 7: **DISCOVER_JOBS**<br /><br /> 8: **DISCOVER_LOCKS**<br /><br /> 12: **DISCOVER_PERFORMANCE_COUNTERS**<br /><br /> 13: **DISCOVER_MEMORYUSAGE**<br /><br /> 14: **DISCOVER_JOB_PROGRESS**<br /><br /> 15: **DISCOVER_MEMORYGRANT**|  
 |CurrentTime|2|5|Contains the current time of the server state discover event, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  
@@ -60,9 +59,8 @@ manager: kfile
   
 ## Server State Discover End Class—Data Columns  
   
-|||||  
-|-|-|-|-|  
-|**Column Name**|**Column Id**|**Column Type**|**Column Description**|  
+| Column Name | Column Id | Column Type | Column Description |
+| ----------- | --------- | ----------- | ------------------ |
 |EventClass|0|1|Event Class is used to categorize events.|  
 |EventSubclass|1|1|Event Subclass provides additional information about each event class:<br /><br /> 1: **DISCOVER_CONNECTIONS**<br /><br /> 2: **DISCOVER_SESSIONS**<br /><br /> 3: **DISCOVER_TRANSACTIONS**<br /><br /> 6: **DISCOVER_DB_CONNECTIONS**<br /><br /> 7: **DISCOVER_JOBS**<br /><br /> 8: **DISCOVER_LOCKS**<br /><br /> 12: **DISCOVER_PERFORMANCE_COUNTERS**<br /><br /> 13: **DISCOVER_MEMORYUSAGE**<br /><br /> 14: **DISCOVER_JOB_PROGRESS**<br /><br /> 15: **DISCOVER_MEMORYGRANT**|  
 |CurrentTime|2|5|Contains the current time of the server state discover event, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  

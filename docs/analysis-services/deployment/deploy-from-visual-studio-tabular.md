@@ -1,5 +1,6 @@
 ---
 title: "Deploy Analysis Services tabular models from Visual Studio | Microsoft Docs"
+description: Learn how to deploy a tabular model project from Visual Studio, including deployment properties and options.
 ms.date: 04/03/2020
 ms.prod: sql
 ms.technology: analysis-services

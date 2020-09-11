@@ -1,5 +1,6 @@
 ---
 title: "Physical Architecture (Analysis Services - Data Mining) | Microsoft Docs"
+description: Learn how SQL Server Analysis Services uses both server and client components to supply data mining functionality for business intelligence applications.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services

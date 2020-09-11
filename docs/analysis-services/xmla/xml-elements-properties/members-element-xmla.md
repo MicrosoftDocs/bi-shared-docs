@@ -1,5 +1,6 @@
 ---
 title: "Members Element (XMLA) | Microsoft Docs"
+description: Learn how the Members element contains a collection of Member elements contained by the parent CrossProduct element.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -52,13 +53,45 @@ manager: kfile
   
 ## Example  
  The following example illustrates the structure of the **Members** element when a client specifies *ClusterFormat* for the **AxisFormat** XMLA property, given the following members for the axis:  
-  
-||||||  
-|-|-|-|-|-|  
-|**Time** hierarchy|1999|1999|2000|2001|  
-|**Category** hierarchy|Actual|Budget|Budget|Budget|  
-|Clusters|Cluster 1|Cluster 1|Cluster 1|Cluster 2|  
-  
+
+:::row:::
+    :::column:::
+        **Time** hierarchy
+
+        **Category** hierarchy
+
+        Clusters
+    :::column-end:::
+    :::column:::
+        1999
+
+        Actual
+
+        Clusters 1
+    :::column-end:::
+    :::column:::
+        1999
+
+        Budget
+
+        Clusters 1
+    :::column-end:::
+    :::column:::
+        2000
+
+        Budget
+
+        Clusters 1
+    :::column-end:::
+    :::column:::
+        2001
+
+        Budget
+
+        Clusters 2
+    :::column-end:::
+:::row-end:::
+
 ```xml  
 <Axes>  
    <Axis name="Axis0">  

@@ -1,5 +1,6 @@
 ---
 title: "DefaultDetailsPosition Element (XML) | Microsoft Docs"
+description: Learn how the DefaultDetailsPosition element contains information about the position of the element in a collection of elements.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

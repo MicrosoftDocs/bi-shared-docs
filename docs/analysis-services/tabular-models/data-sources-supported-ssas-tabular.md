@@ -1,5 +1,6 @@
 ---
 title: "Data sources supported in SQL Server Analysis Services tabular 1200 models | Microsoft Docs"
+description: Learn about the types of data sources that can be used with SQL Server Analysis Services (SSAS) tabular models at the 1200 and lower compatibility level.
 ms.date: 06/29/2020
 ms.prod: sql
 ms.technology: analysis-services
@@ -20,9 +21,8 @@ This article describes the types of data sources that can be used with **SQL Ser
 
 When you install [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], setup does not install the providers that are listed for each data source. Some providers might be installed with other applications on your computer. In other cases, you may need to download and install the provider.  
   
-|||||  
-|-|-|-|-|  
-|Source|Versions|File type|Providers|  
+| Source | Versions | File type | Providers |
+| ------ | -------- | --------- | --------- |
 |Access databases|Microsoft Access 2010 and later.|.accdb or .mdb|ACE 14 OLE DB provider <sup>[1](#dnu)</sup>|  
 |SQL Server relational databases|SQL Server 2008 and later, SQL Server Data Warehouse 2008 and later, Azure SQL Database, Azure Synapse Analytics (SQL Data Warehouse), Analytics Platform System (APS) |(not applicable)|Microsoft OLE DB Driver for SQL Server (MSOLEDBSQL)<sup>[2](#dnu2)</sup><br /><br />OLE DB Provider for SQL Server (SQLOLEDB)<sup>[3](#dnu)</sup><br /><br /> SQL Server Native Client OLE DB Provider (SQLNCLI)<sup>[3](#dnu3)</sup><br /><br /> .NET Framework Data Provider for SQL Client|  
 |Oracle relational databases|Oracle 9i and later.|(not applicable)|Oracle OLE DB Provider<br /><br /> .NET Framework Data Provider for Oracle Client<br /><br /> .NET Framework Data Provider for SQL Server<br /><br /> OraOLEDB<br /><br /> MSDASQL|  

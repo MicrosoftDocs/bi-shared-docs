@@ -1,5 +1,6 @@
 ---
 title: "Bindings Element (XMLA) | Microsoft Docs"
+description: Learn how the Bindings element contains a collection of Binding elements for the parent Batch or Process element.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services

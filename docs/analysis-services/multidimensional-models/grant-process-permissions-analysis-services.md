@@ -1,5 +1,6 @@
 ---
 title: "Grant process permissions (Analysis Services) | Microsoft Docs"
+description: Create a role dedicated to Analysis Services processing operations, allowing you to delegate them to other users or to applications.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services

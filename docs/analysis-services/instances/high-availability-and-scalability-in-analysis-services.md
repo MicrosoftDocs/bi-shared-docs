@@ -1,5 +1,6 @@
 ---
 title: "High availability and Scalability in Analysis Services | Microsoft Docs"
+description: Learn about the most commonly used techniques for making Analysis Services databases highly available and scalable.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -71,9 +72,8 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ## Resource demands for Tabular and Multidimensional workloads  
  The following table is a high-level summary of how Analysis Services uses system resources for queries and processing, separated out by server mode and storage. This summary might help you understand what to emphasize in a multi-server deployment that handles a distributed workload.  
   
-|||  
-|-|-|  
-|**Server and storage mode**|**Impact on system resource**|  
+| Server and storage mode | Impact on system resource |
+| ----------------------- | ------------------------- |
 |Tabular in-memory (default) where queries are executed as table scans of in-memory data structures.|Emphasize RAM and CPUs with fast clock speeds.|  
 |Tabular in DirectQuery mode, where queries are offloaded to backend relational database servers and processing is limited to constructing metadata in the model.|Focus on relational database performance, lowering network latency, and maximizing throughput. Faster CPUs can also improve performance of the Analysis Services query processor.|  
 |Multidimensional models using MOLAP storage|Choose a balanced configuration that accommodates disk IO for loading data quickly and sufficient RAM for cached data.|  

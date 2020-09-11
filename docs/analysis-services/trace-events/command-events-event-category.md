@@ -1,5 +1,6 @@
 ---
 title: "Command Events Event Category | Microsoft Docs"
+description: Learn about the Command Events event category and its event classes.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services

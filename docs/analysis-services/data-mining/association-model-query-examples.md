@@ -1,5 +1,6 @@
 ---
 title: "Association Model Query Examples | Microsoft Docs"
+desciption: Learn how to create these kinds of queries for models that are based on the Microsoft Association Rules algorithm.
 ms.date: 06/05/2019
 ms.prod: sql
 ms.technology: analysis-services
@@ -52,8 +53,8 @@ WHERE NODE_TYPE = 1
   
  Example results:  
   
-|||  
-|-|-|  
+| Row | Metadata |
+| --- | -------- |
 |MODEL_CATALOG|Association Test|  
 |MODEL_NAME|Association|  
 |NODE_CAPTION|Association Rules Model|  
@@ -77,8 +78,8 @@ WHERE MODEL_NAME = 'Association'
   
  Example results:  
   
-|||  
-|-|-|  
+| Row | Metadata |
+| --- | -------- |
 |MODEL_CATALOG|Adventure Works DW Multidimensional 2012|  
 |MODEL_NAME|Association|  
 |SERVICE_NAME|Association Rules Model|  
@@ -119,8 +120,8 @@ WHERE NODE_TYPE = 7
   
  Example results:  
   
-|||  
-|-|-|  
+| Row | Metadata |
+| --- | -------- |
 |NODE_NAME|37|  
 |NODE_CAPTION|Sport-100 = Existing|  
 |NODE_PROBABILITY|0.291283016331743|  
@@ -140,8 +141,8 @@ WHERE NODE_TYPE = 7
   
  Example results:  
   
-|||  
-|-|-|  
+| Row | Metadata |
+| --- | -------- |
 |NODE_SUPPORT|4334|  
 |NODE_NAME|37|  
 |NODE_CAPTION|Sport-100 = Existing|  
@@ -210,9 +211,8 @@ ORDER BY NODE_SUPPORT DESC
 ## Function List  
  All [!INCLUDE[msCoName](../includes/msconame-md.md)] algorithms support a common set of functions. However, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Association algorithm supports the additional functions listed in the following table.  
   
-|||  
-|-|-|  
-|Prediction Function|Usage|  
+| Prediction Function | Usage |
+| ------------------- | ----- |  
 |[IsDescendant &#40;DMX&#41;](/sql/dmx/isdescendant-dmx)|Determines whether one node is a child of another node in the neural network graph.|  
 |[IsInNode &#40;DMX&#41;](/sql/dmx/isinnode-dmx)|Indicates whether the specified node contains the current case.|  
 |[PredictAdjustedProbability &#40;DMX&#41;](/sql/dmx/predictadjustedprobability-dmx)|Returns the weighted probability.|  

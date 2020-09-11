@@ -1,5 +1,6 @@
 ---
 title: "Security Audit Data Columns | Microsoft Docs"
+description: Learn about the data columns for the Security Audit event category.
 ms.date: 05/07/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -14,9 +15,8 @@ manager: kfile
 
   The Security Audit event category has the following event classes:  
   
-||||  
-|-|-|-|  
-|**Event ID**|**Event Name**|**Event Description**|  
+| Event ID | Event Name | Event Description |
+| -------- | ---------- | ----------------- |
 |1|Audit Login|Collects all new connection events since the trace was started, such as when a client requests a connection to a server running an instance of SQL Server.|  
 |2|Audit Logout|Collects all new disconnect events since the trace was started, such as when a client issues a disconnect command.|  
 |4|Audit Server Starts And Stops|Records service shut down, start, and pause activities.|  
@@ -27,9 +27,8 @@ manager: kfile
   
 ## Audit Login  
   
-|||||  
-|-|-|-|-|  
-|**Column Name**|**Column Id**|**Column Type**|**Column Description**|  
+| Column Name | Column Id | Column Type | Column Description |
+| ----------- | --------- | ----------- | ------------------ |
 |EventClass|0|1|Event Class is used to categorize events.|  
 |CurrentTime|2|5|Time at which the event started, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  
 |StartTime|3|5|Time at which the event started, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  

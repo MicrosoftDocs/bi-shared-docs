@@ -1,5 +1,6 @@
 ---
 title: "Commands in Tabular Model Scripting Language (TMSL) | Microsoft Docs"
+description: See a list of the Tabular Model Scripting Language (TMSL) commands used against tabular model databases.
 ms.date: 07/20/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -18,8 +19,8 @@ manager: kfile
   
 ## Object operations  
   
-|||  
-|-|-|  
+| Command | Description |
+| ------- | ----------- |
 |[Alter command &#40;TMSL&#41;](alter-command-tmsl.md)|Make inline modifications to an object without having to specify the full definition.|  
 |[Create command &#40;TMSL&#41;](create-command-tmsl.md)|Creates a new object, including its descendants.|  
 |[CreateOrReplace command &#40;TMSL&#41;](createorreplace-command-tmsl.md)|Create or replace parts of an object definition. The full definition must be provided.|  
@@ -27,21 +28,21 @@ manager: kfile
   
 ## Data refresh operations  
   
-|||  
-|-|-|  
+| Command | Description |
+| ------- | ----------- |  
 |[MergePartitions command &#40;TMSL&#41;](mergepartitions-command-tmsl.md)|Merge a target partition into a source, and delete the target.|  
 |[Refresh command &#40;TMSL&#41;](refresh-command-tmsl.md)|Process a database, table, or partition.|  
   
 ## Scripting  
   
-|||  
-|-|-|  
+| Command | Description |
+| ------- | ----------- |  
 |[Sequence command &#40;TMSL&#41;](sequence-command-tmsl.md)|Batch operations sequentially or in parallel|  
   
 ## Database management operations  
   
-|||  
-|-|-|  
+| Command | Description |
+| ------- | ----------- |  
 |[Attach command &#40;TMSL&#41;](attach-command-tmsl.md)|Adds a file to the server.|  
 |[Detach command &#40;TMSL&#41;](detach-command-tmsl.md)|Removes a file from the servers.|  
 |[Backup command &#40;TMSL&#41;](backup-command-tmsl.md)|Creates a backup file of a database.|  

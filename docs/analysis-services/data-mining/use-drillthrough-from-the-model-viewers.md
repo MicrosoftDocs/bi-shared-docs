@@ -1,5 +1,6 @@
 ---
 title: "Use Drillthrough from the Model Viewers | Microsoft Docs"
+description: Learn how to use drillthrough from the browse viewers in Data Mining Designer to explore cases used in the mining model or columns in the mining structure.
 ms.date: 05/08/2018
 ms.prod: sql
 ms.technology: analysis-services
