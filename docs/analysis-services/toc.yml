@@ -420,7 +420,7 @@
     items:
     - name: Multidimensional modeling overview
       href: ../analysis-services/multidimensional-models/multidimensional-models-ssas.md
-    - name: DAX in multidimensional models
+    - name: DAX for multidimensional models
       href: ../analysis-services/multidimensional-models/dax-for-multidimensional-models.md
     - name: Multidimensional Solutions
       items:
