@@ -1,7 +1,7 @@
 ---
 title: "Specify Mark as Date Table in Analysis Services tabular models| Microsoft Docs"
 description: Learn how to specify a date table and a unique identifier (datetime) column of the Date data type.
-ms.date: 04/03/2020
+ms.date: 09/14/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -35,15 +35,7 @@ When using time intelligence functions, the following rules apply:
   
 1. Click **Extensions** > **Table** > **Date** > **Mark as Date Table**. 
   
-1. In the **Mark as Date Table** dialog box, in the **Date** listbox, select a column to be used as a unique identifier. This column must contain unique values and should be of Date data type. For example:  
-  
-    a. |Date|  
-    b. |----------|  
-    c. |7/1/2010 12:00:00 AM|  
-    d. |7/2/2010 12:00:00 AM|  
-    e. |7/3/2010 12:00:00 AM|  
-    f. |7/4/2010 12:00:00 AM|  
-    g. |7/5/2010 12:00:00 AM|  
+1. In the **Mark as Date Table** dialog box, in the **Date** listbox, select a column to be used as a unique identifier. This column must contain unique values and should be of Date data type.
   
 1. If necessary, create any relationships between fact tables and the date table.  
   

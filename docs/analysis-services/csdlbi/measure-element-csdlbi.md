@@ -25,8 +25,7 @@ manager: kfile
 |Kpi|No|Required element only for measures that are used as KPIs. Not all measures are KPIs, but all KPIs must be based on the definition of a measure.<br /><br /> [KPI Element &#40;CSDLBI&#41;](kpi-element-csdlbi.md)|  
 |IsSimpleMeasure|No|A true/false value that indicates whether the formula used in the measure is one of the simple aggregations (SUM, COUNT, MIN, MAX, AVG, DistinctCount).<br /><br /> The default is true.|  
   
-## Example  
- **Tabular**  
+## Example Tabular 
   
  The following sample, in CSDLBI version 1.1, shows two measures from the AdventureWorks tabular model sample. The second measure has been converted to a KPI, by adding KPI elements.  
   
@@ -63,8 +62,7 @@ manager: kfile
 </Property>  
 ```  
   
-## Example  
- **Multidimensiona;**  
+## Example Multidimensional 
   
  The following sample, in CSDLBI version 1.1, shows a measure from the Contoso Operations cube that is being used as a KPI.  
   

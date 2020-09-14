@@ -41,7 +41,8 @@ manager: kfile
 |Parent elements|[Action](../objects/action-element-assl.md), [Aggregation](../objects/aggregation-element-assl.md), [AggregationDesign](../objects/aggregationdesign-element-assl.md), [Assembly](../objects/assembly-element-assl.md), [Cube](../objects/cube-element-assl.md), [CubeBinding](../data-type/cubebinding-data-type-out-of-line-assl.md), [CubeDimension](../data-type/cubedimension-data-type-assl.md), [Database](../objects/database-element-assl.md), [DataSource](../objects/datasource-element-assl.md), [DataSourceView](../objects/datasourceview-element-assl.md), [Dimension](../objects/dimension-element-assl.md), [DimensionAttribute](../data-type/dimensionattribute-data-type-assl.md), [Hierarchy](../objects/hierarchy-element-assl.md), [Kpi](../objects/kpi-element-assl.md), [Level](../objects/level-element-assl.md), [MdxScript](../objects/mdxscript-element-assl.md), [Measure](../objects/measure-element-assl.md), [MeasureGroup](../objects/measuregroup-element-assl.md), [MeasureGroupBinding](../data-type/measuregroupbinding-data-type-assl.md), [MiningModel](../objects/miningmodel-element-assl.md), [MiningModelColumn](../data-type/miningmodelcolumn-data-type-assl.md), [MiningStructure](../objects/miningstructure-element-assl.md), [MiningStructureColumn](../data-type/miningstructurecolumn-data-type-assl.md), [Partition](../objects/partition-element-assl.md), [Permission](../data-type/permission-data-type-assl.md), [Perspective](../objects/perspective-element-assl.md), [Role](../objects/role-element-assl.md), [Server](../objects/server-element-assl.md), [Trace](../objects/trace-element-assl.md)|  
 |Child elements|None|  
   
-## Remarks  
+## Remarks
+
  Every major object in Analysis Services has an **ID** element as a property. The value of an **ID** element has the following restrictions:  
   
 -   The value cannot contain leading or trailing spaces.Analysis Services will implicitly remove leading or trailing spaces from the value of an **ID** element.  
@@ -65,7 +66,7 @@ manager: kfile
     -   PRN  
   
  The following table lists additional characters that cannot be used within the value of an **ID** element, depending on the parent element.  
-  
+
 |Parent element|Characters|  
 |--------------------|----------------|  
 |[Server](../objects/server-element-assl.md)|The value must follow the rules for  Windows computer names. (IP addresses are not valid.)|  
@@ -73,7 +74,9 @@ manager: kfile
 |[Level](../objects/level-element-assl.md), [Attribute Element](../objects/attribute-element-assl.md)|.,;'`:/\\*&#124;?"&%$!+=[]{}<>|  
 |All other parent elements|.,;'`:/\\*&#124;?"&%$!+=()[]{}<>|  
   
-## See Also  
+
+## See Also
+
  [Name Element &#40;ASSL&#41;](name-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   

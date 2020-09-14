@@ -1,11 +1,12 @@
 ---
 title: Analysis Services stops accepting new connections – processing commit locks hurt | Microsoft Docs
 description: Learn about different issues like locks and blocking chains that can cause Analysis Services to stop accepting new connections.
-author: ramakoni1
-ms.author: jasonh
-ms.reviewer: MashaMSFT
-ms.services: analysis-services
-ms.topic: conceptual blog
+ms.prod: sql
+ms.technology: analysis-services
+author: minewiskan
+ms.author: owend
+ms.reviewer: owend
+ms.topic: conceptual
 ms.date: 05/06/2019
 ---
 
@@ -20,7 +21,7 @@ Sometimes, the users and the server administrator can't even sign in with SQL Se
 
 An Analysis Services database is a collection of files (some XML files that point to files, and some compressed binary files) that represent the objects in the cube that you query with MDX queries. Processing is the act of refreshing those objects by using a new set of data values from the relational database. It runs large relational database Transact-SQL queries to query from the data sources, do joins, aggregate the data, and save the compressed and aggregated data into the cube. The old copy of the Analysis Services database objects stays until the very end of the processing. When the processing is almost finished, the commit phase begins.
 
-The commit phase needs an exclusive write lock. Users can’t query the objects at the moment when it swaps the old version of the cube data for the new version.
+The commit phase needs an exclusive write lock. Users can't query the objects at the moment when it swaps the old version of the cube data for the new version.
 
 Another problem is that the instance-wide Master.vmp lock is required to finish the commit from processing. This special file is a pointer to all the other database objects and their current versions. This file is important when you swap out the old database objects with the new database objects.
 
@@ -34,7 +35,7 @@ The inside of the master.vmp (shown with XML formatting for clarity) shows each 
 
 ![Image showing updated version numbers in master.vmp](media/analysis-services-stops-accepting-new-connections/image2.png)
 
-## Why can’t you sign in when locking happens?
+## Why can't you sign in when locking happens?
 
 Locking can be the center of the problem. Here's a visual simplification of the blocking chain that prevents new users from getting into the database and running any query.
 
@@ -92,11 +93,11 @@ Try these two configuration settings to enable the server to try killing either 
 
   - **CommitTimeout**: Analysis Server processing operations need to acquire a write lock before it can commit a transaction. To acquire a write lock, no other read locks can be taken by another process or query. Analysis Services must wait until all read locks are released. The transaction waits for a while to acquire a write lock, as specified by the **CommitTimeout** property, before rolling back.
 
-Sometimes the cancellation doesn’t occur immediately, so even with **ForceCommitTimeout** and **CommitTimeout**, there can be a period where work is stalled.
+Sometimes the cancellation doesn't occur immediately, so even with **ForceCommitTimeout** and **CommitTimeout**, there can be a period where work is stalled.
 
 ## Another variation: Multiple processing requests can block each other
 
-If you run two or more processing batches at the same time in different transactions, a similar locking chain and deadlock might occur. The following example is simplified. Assume there are two processing transactions that are ready near the same time, but they get blocked waiting on a user’s long MDX query.
+If you run two or more processing batches at the same time in different transactions, a similar locking chain and deadlock might occur. The following example is simplified. Assume there are two processing transactions that are ready near the same time, but they get blocked waiting on a user's long MDX query.
 
 ![Image of multiple processing requests that block each other](media/analysis-services-stops-accepting-new-connections/image4.png)
 
@@ -122,7 +123,7 @@ Transaction errors: While attempting to acquire one or more locks, the transacti
 
 1. Schedule processing in a staggered manner. Remember that the end time is more important than the start time because the commit phase is the time where the high-granularity commit locks is needed.
 2. Combine processing into a single transaction/batch XMLA tag.
-If you process objects in the scope of a single transaction, maybe they won’t collide and kill each other. You can process parallel objects in a single transaction instead of in a sequence of small commits. You could have a larger, more granular commit to reduce the window in which locks occur, but you're increasing the surface area of the number of locks at lower-level granularity. This might increase conflict with user queries.
+If you process objects in the scope of a single transaction, maybe they won't collide and kill each other. You can process parallel objects in a single transaction instead of in a sequence of small commits. You could have a larger, more granular commit to reduce the window in which locks occur, but you're increasing the surface area of the number of locks at lower-level granularity. This might increase conflict with user queries.
 For example, you can have multiple processing commands in a single batch.
 
    ```xml
@@ -158,7 +159,7 @@ For example, you can have multiple processing commands in a single batch.
 
 ## How do you see these locks and blocking chains?
 
-Starting with SQL Server 2008 R2 Service Pack 1, there are some great profiler trace events that help you see these locks. XML tags within the text of the trace events show who’s waiting and which locks are held. Collect a profiler trace with the ordinary events, but add these events to see who’s blocking whom and for how long, and on which objects the locks are conflicting.
+Starting with SQL Server 2008 R2 Service Pack 1, there are some great profiler trace events that help you see these locks. XML tags within the text of the trace events show who's waiting and which locks are held. Collect a profiler trace with the ordinary events, but add these events to see who's blocking whom and for how long, and on which objects the locks are conflicting.
 
 The Lock Acquired event indicates when the transaction has obtained a batch of locks for the processing of the transaction. The Lock Released event indicates when the transaction has released a batch of locks that the transaction requested. This event also indicates the duration that the locks are held. The Lock Waiting event indicates when a transaction tries and waits in a queue to obtain a lock in a batch. This information is in the TextData column of those events. This information includes the following additional related data: 
 
@@ -253,7 +254,7 @@ The HoldList node lists transactions that hold a lock that the current transacti
 </HoldList>
 ```
 
-In SQL Server 2008 Analysis Services or later versions, you can run an MDX query on the dynamic management views to see the various connections, their transactions, and who’s granted locks and who’s waiting on locks (blocking).
+In SQL Server 2008 Analysis Services or later versions, you can run an MDX query on the dynamic management views to see the various connections, their transactions, and who's granted locks and who's waiting on locks (blocking).
 
 ```sql
 select * from $system.discover_connections;

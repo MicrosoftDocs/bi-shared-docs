@@ -31,8 +31,7 @@ manager: kfile
 |ReferenceName|No|Contains the unmerged and fully qualified name of the entity. In a multidimensional model, this corresponds to the CubeDimension name..|  
 |Hidden|No|Indicates whether the entity is hidden. By default, entities are not hidden.|  
   
-## Example  
- **Tabular**  
+## Example Tabular  
   
  The following sample, in CSDLBI version 1.1, shows the definitions of the Date and Geography tables, from the AdventureWorks tabular model.  
   
@@ -51,8 +50,7 @@ manager: kfile
 </EntitySet>  
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional 
   
  The following sample, in CSDLBI version 1.1 shows several EntitySet elements from the Contoso Retail Operations cube.  
   
