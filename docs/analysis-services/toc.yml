@@ -265,10 +265,10 @@
     - name: Compatibility level
       href: ../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md
     - name: Tabular model designer
-      href: ../analysis-services/tabular-models/tabular-model-designer-ssas.md
+      href: ../analysis-services/tabular-models/tabular-model-designer-ssas.mdgit sample
     - name: Workspace database
       href: ../analysis-services/tabular-models/workspace-database-ssas-tabular.md
-    - name: DAX in tabular models
+    - name: DAX for tabular models
       href: ../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md
     - name: String storage and collation
       href: ../analysis-services/tabular-models/string-storage-and-collation-in-tabular-models.md
