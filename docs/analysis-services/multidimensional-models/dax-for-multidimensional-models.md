@@ -219,9 +219,8 @@ To learn more about CSDLBI annotations, see [Technical Reference for BI Annota
 
 With each release of SQL Server Analysis Services, improvements support new and existing DAX functions and capabilities. In SQL Server 2019 CU5, a class of DAX functions first introduced for tabular models informally known as *SuperDAX* are now enabled for multidimensional models.
 
-While some existing DAX query patterns may need to be redesigned, SuperDAX functions provide significant improvements to query performance. Modern DAX query patterns using SuperDAX for multidimensional models provide a strong incentive for organizations using Power BI to upgrade their multidimensional data source servers to SQL Server 2019 with CU5. To learn more, see [SuperDAX for multidimensional models (SuperDAXMD)](../what-s-new-in-sql-server-analysis-services?view=asallproducts-allversions#superdax-for-multidimensional-models-superdaxmd).
+While some existing DAX query patterns may need to be redesigned, SuperDAX functions provide significant improvements to query performance. Modern DAX query patterns using SuperDAX for multidimensional models provide a strong incentive for organizations using Power BI to upgrade their multidimensional data source servers to SQL Server 2019 with CU5. To learn more, see [SuperDAX for multidimensional models (SuperDAXMD)](../what-s-new-in-sql-server-analysis-services.md#superdax-for-multidimensional-models-superdaxmd).
 
 ## See also
 
 [DAX reference](https://docs.microsoft.com/dax/)  
-[SuperDAX for multidimensional models (SuperDAXMD)](../what-s-new-in-sql-server-analysis-services?view=asallproducts-allversions#superdax-for-multidimensional-models-superdaxmd)
