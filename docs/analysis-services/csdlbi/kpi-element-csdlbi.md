@@ -32,8 +32,7 @@ manager: kfile
 ## Remarks  
  When you design a model, you can create a KPI by creating a measure and then assigning the measure to use as a KPI. You then add information that is specific to KPIs, such as a graphic to use in showing trends.  
   
-## Example  
- **Tabular**  
+## Example Tabular  
   
  The following sample, in CSDLBI version 1.0, shows a KPI that measures sales, from the AdventureWorks tabular model sample.  
   
@@ -54,8 +53,7 @@ manager: kfile
   
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional  
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the Contoso Operations cube.  
   

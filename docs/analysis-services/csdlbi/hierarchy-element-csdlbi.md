@@ -28,8 +28,7 @@ manager: kfile
 ## Remarks  
  In tabular models, hierarchies are created by specifying parent-child relationships among columns in the same table.  
   
-## Example  
- **Tabular**  
+## Example Tabular  
   
  The following example, in CSDLBI version 1.0, shows a hierarchy in the AdventureWorks sample model that has been added to the Products table.  
   
@@ -50,8 +49,7 @@ manager: kfile
   
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional  
   
  The following example, in CSDLBI version 1.1, shows a hierarchy from the Contoso Retail Operations cube.  
   

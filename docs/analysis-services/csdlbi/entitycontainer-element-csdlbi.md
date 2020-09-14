@@ -56,8 +56,7 @@ manager: kfile
 |DirectQueryWithInMemory|Indicates that, by default, queries against the model will use data in the cache.|  
 |DirectQuery|Indicates that queries against the model will use data in the relational data source only.|  
   
-## Example  
- **Tabular**  
+## Example Tabular 
   
  The following sample, in CSDLBI version 1.1, represents a portion of the AdventureWorks tabular data model.  
   
@@ -81,8 +80,7 @@ manager: kfile
   
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional
   
  The following sample, in CSDLBI version 1.1, is an excerpt from the Contoso Operations cube.  
   

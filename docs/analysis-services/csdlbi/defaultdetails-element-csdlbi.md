@@ -24,8 +24,7 @@ manager: kfile
 |----------|-----------------|-----------------|  
 |DefaultDetailsPosition|No|A positive integer that indicates presence and position in the collection.|  
   
-## Example  
- **Tabular**  
+## Example Tabular  
   
  The following example, in CSDLBI version 1.1, shows an excerpt from the AdventureWorks sample data model. There Is only one default column set for the Employees table (Title). However, three columns have been defined as the default field set for the Products table.  
   
@@ -49,8 +48,7 @@ manager: kfile
   
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional  
   
  The following example, in CSDLBI version 1.1, shows an excerpt from the definition of the Bike table in the Contoso Operations cube. This annotation indicates that the Color column should be displayed by default if no other display column is specified.  
   
