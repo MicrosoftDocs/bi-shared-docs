@@ -265,7 +265,7 @@
     - name: Compatibility level
       href: ../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md
     - name: Tabular model designer
-      href: ../analysis-services/tabular-models/tabular-model-designer-ssas.mdgit sample
+      href: ../analysis-services/tabular-models/tabular-model-designer-ssas.md
     - name: Workspace database
       href: ../analysis-services/tabular-models/workspace-database-ssas-tabular.md
     - name: DAX for tabular models
