@@ -56,8 +56,7 @@ manager: kfile
 |Channel|Attributes represent channel information.|  
 |Promotion|Attributes represent marketing promotion information.|  
   
-## Example  
- **Tabular**  
+## Example Tabular
   
  The following sample shows part of the CSDLBI version 1.1 representation of the Geography table used in the AdventureWorks tabular model. The RowNumber column is a hidden column that is generated automatically as a row identifier in tabular models, and hence has the Contents attribute, **RowNumber**.  
   
@@ -80,8 +79,7 @@ manager: kfile
   
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional  
   
  The following sample shows the EntityType elements in CSDLBI version 1.1 that represent a portion of a time dimension from the Contoso Operations cube.  
   

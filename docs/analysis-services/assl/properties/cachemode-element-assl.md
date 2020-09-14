@@ -1,7 +1,7 @@
 ---
 title: "CacheMode Element (ASSL) | Microsoft Docs"
 description: Learn about the CacheMode property element in the Analysis Services Scripting Language (ASSL) schema.
-ms.date: 05/08/2018
+ms.date: 09/14/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -41,7 +41,8 @@ manager: kfile
 |Parent elements|[MiningStructure](../objects/miningstructure-element-assl.md)|  
 |Child elements|None|  
   
-## Remarks  
+## Remarks
+
  The value of this element is limited to one of the strings in the following table.  
   
 |Value|Description|  
@@ -49,10 +50,10 @@ manager: kfile
 |*KeepTrainingCases*|Training cases are cached during and after processing.|  
 |*ClearAfterProcessing*|Training cases are cached during processing, but deleted after processing.|  
   
-## Remarks  
  The element that corresponds to the parent of **CacheMode** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.MiningStructure>.  
   
-## See Also  
+## See Also
+
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   

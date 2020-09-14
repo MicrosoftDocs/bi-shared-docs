@@ -1,7 +1,7 @@
 ---
 title: "AllMemberAggregationUsage Element (ASSL) | Microsoft Docs"
 description: Learn about the AllMemberAggregationUsage property element in the Analysis Services Scripting Language (ASSL) schema.
-ms.date: 05/08/2018
+ms.date: 09/14/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -41,7 +41,8 @@ manager: kfile
 |Parent elements|[CubeDimension](../data-type/cubedimension-data-type-assl.md)|  
 |Child elements|None|  
   
-## Remarks  
+## Remarks
+
  The value of this element is limited to one of the strings in the following table.  
   
 |Value|Description|  
@@ -51,10 +52,10 @@ manager: kfile
 |*Unrestricted*|No restrictions are placed on the Aggregation Designer.|  
 |*Default*|Same as *Unrestricted*.|  
   
-## Remarks  
  The element that corresponds to the parent of **AllMemberAggregationUsage** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CubeDimension>.  
   
-## See Also  
+## See Also
+
  [Cube Element &#40;ASSL&#41;](../objects/cube-element-assl.md)   
  [Dimension Element &#40;ASSL&#41;](../objects/dimension-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  

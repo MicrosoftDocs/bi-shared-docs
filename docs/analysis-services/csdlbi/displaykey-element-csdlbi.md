@@ -27,8 +27,7 @@ manager: kfile
 ## Remarks  
  This element is for reports. The element to which you apply this attribute need not be the actual table key, only an element that you will present as the key. However, the column that you use for the DisplayKey must contain unique values.  
   
-## Example  
- **Tabular**  
+## Example Tabular
   
  The following sample, in CSDLBI version 1.1, shows a column in the AdventureWorks sample data model that has been designated as the DisplayKey for the table.  
   
@@ -36,8 +35,7 @@ manager: kfile
 <sample in progress>  
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional
   
  The following sample, in CSDLBI version 1.1, shows an excerpt from the representation of the Contoso Operations cube. In this model, the Color column has been marked as the display key for the Bikes table.  
   

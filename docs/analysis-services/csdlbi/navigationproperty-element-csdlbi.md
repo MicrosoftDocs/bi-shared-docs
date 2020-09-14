@@ -27,8 +27,7 @@ manager: kfile
 |----------|-----------------|-----------------|  
 |CollectionCaption|No|Plural name for referring to a set of instances of the navigation property.<br /><br /> If this attribute is omitted, the Caption attribute of the base Member is used.|  
   
-## Example  
- **Tabular**  
+## Example Tabular
   
  The following example shows a navigation property in CSDLBI version 1.1 that describes the link between the Product SubCategory table and the Product table in a tabular model.  
   
@@ -44,8 +43,7 @@ manager: kfile
 </NavigationProperty>  
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional  
   
  The following example shows a navigation property in CSDLBI version 1.1 that describes the relationship between two tables in the Contoso Operations cube. The relationship connects the Bike Category table and the Product Subcategory table.  
   

@@ -1,7 +1,7 @@
 ---
 title: "HideMemberIf Element (ASSL) | Microsoft Docs"
 description: Learn about the HideMemberIf property element in the Analysis Services Scripting Language (ASSL) schema.
-ms.date: 7/25/2018
+ms.date: 09/14/2020
 ms.prod: sql
 ms.custom: assl
 ms.reviewer: owend
@@ -41,7 +41,8 @@ manager: kfile
 |Parent element|[Level](../objects/level-element-assl.md)|  
 |Child elements|None|  
   
-## Remarks  
+## Remarks
+
  The value of this element is limited to one of the strings in the following table.  
   
 |Value|Description|  
@@ -51,11 +52,11 @@ manager: kfile
 |*OnlyChildWithParentName*|A member is hidden when it is the only child of its parent and its name is identical to that of its parent.|  
 |*NoName*|A member is hidden when its name is empty.|  
 |*ParentName*|A member is hidden when its name is identical to that of its parent.|  
-  
-## Remarks  
+
  The enumeration that corresponds to the allowed values for **HideMemberIf** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.HideIfValue>.  
   
-## See Also  
+## See Also
+
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   
   
