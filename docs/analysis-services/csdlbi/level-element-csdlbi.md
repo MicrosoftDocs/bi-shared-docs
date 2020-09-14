@@ -28,8 +28,7 @@ manager: kfile
 ## Remarks  
  For more information about hierarchies in tabular models, see [Hierarchy Element &#40;CSDLBI&#41;](hierarchy-element-csdlbi.md).  
   
-## Example  
- **Tabular**  
+## Example Tabular 
   
  The following example, in CSDLBI version 1.1, shows the definition of multiple levels in a hierarchy from the AdventureWorks tabular model sample.  
   
@@ -49,8 +48,7 @@ manager: kfile
 </bi:Hierarchy>  
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional  
   
  The following example, in CSDLBI version 1.1, shows a hierarchy with multiple levels, from the Contoso Operations cube.  
   

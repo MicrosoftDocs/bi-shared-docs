@@ -70,16 +70,17 @@ manager: kfile
   
     -   PRN  
   
- The following table lists additional characters that cannot be used within the value of a **Name** element, depending on the parent element.  
+The following table lists additional characters that cannot be used within the value of a **Name** element, depending on the parent element.  
   
 |Parent element|Invalid Characters|  
 |--------------------|------------------------|  
 |[Server](../objects/server-element-assl.md)|The name must follow the rules for  Windows computer names. IP addresses are not valid.|  
-|[DataSource](../objects/datasource-element-assl.md)|:/\\*&#124;?"()[]{}<>|  
-|[Level](../objects/level-element-assl.md), [Attribute Element](../objects/attribute-element-assl.md)|.,;'`:/\\*&#124;?"&%$!+=[]{}<>|  
-|All other parent elements|.,;'`:/\\*&#124;?"&%$!+=()[]{}<>|  
+|[DataSource](../objects/datasource-element-assl.md)|`:/\\*&#124;?"()[]{}<>` \`|  
+|[Level](../objects/level-element-assl.md), [Attribute Element](../objects/attribute-element-assl.md)|`.,;':/\\*&#124;?"&%$!+=[]{}<>` \`|  
+|All other parent elements|`.,;':/\\*&#124;?"&%$!+=()[]{}<>` \`|  
   
-## See Also  
+## See Also
+
  [ID Element &#40;ASSL&#41;](id-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
   

@@ -41,18 +41,19 @@ manager: kfile
 |Parent element|[CubePermission](../objects/cubepermission-element-assl.md)|  
 |Child elements|None|  
   
-## Remarks  
+## Remarks
+
  The value of this element is limited to one of the strings listed in the following table.  
   
 |Value|Description|  
 |-----------|-----------------|  
 |*None*|No access is permitted to data available on calculation pass 0.|  
 |*Allowed*|Access is permitted to data available on calculation pass 0.|  
-  
-## Remarks  
+
  The element that corresponds to the parent of **ReadSourceData** in the Analysis Management Objects (AMO) object model is <xref:Microsoft.AnalysisServices.CubePermission>.  
   
-## See Also  
+## See Also
+
  [Cube Element &#40;ASSL&#41;](../objects/cube-element-assl.md)   
  [Dimension Element &#40;ASSL&#41;](../objects/dimension-element-assl.md)   
  [Properties &#40;ASSL&#41;](properties-assl.md)  
