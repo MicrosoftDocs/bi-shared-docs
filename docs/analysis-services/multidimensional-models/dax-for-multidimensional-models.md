@@ -61,7 +61,7 @@ Analysis Services provides a tabular model metadata representation of a multidim
 ### Measures, measure groups, and KPIs
 
 > [!NOTE]
-> Some images this article show the Adventure Works Multidimensional Model for SQL Server 2012 sample database. Keep in mind, user interfaces are updated often. Images shown here may not reflect what is shown in Power BI.
+> Some images in this article show the Adventure Works Multidimensional Model for SQL Server 2012 sample database. Keep in mind, user interfaces are updated often. Images shown here may not reflect what is shown in Power BI.
 
 Measure groups in a multidimensional cube are shown in the Power BI Field List as tables with a sigma (∑) icon.
 
