@@ -33,8 +33,7 @@ manager: kfile
 |----------|-----------------|-----------------|  
 |PropertyRef|Yes|A string containing the property reference.|  
   
-## Example  
- **Tabular**  
+## Example Tabular 
   
  The following sample, in CSDLBI version 1.1, shows a PropertyRef element that specifies the source of a formula that is used in a measure, from the AdventureWorks tabular model sample.  
   
@@ -51,8 +50,7 @@ manager: kfile
 </bi:Measure>  
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the Contoso Operations cube. The PropertyRef elements point to the columns that contains the formula or values that are used to define the KPI's goal and status relative to that goal.  
   

@@ -1,7 +1,7 @@
 ---
 title: "AssociationSet Element (CSDLBI) | Microsoft Docs"
 description: Learn about the AssociationSet element, a complex type that defines an association or relationship between two tables.
-ms.date: 05/07/2018
+ms.date: 09/14/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -39,8 +39,7 @@ manager: kfile
 |Active|The association is active.|  
 |Inactive|The association is active.|  
   
-## Example  
- **Tabular**  
+## Example Tabular  
   
  The following sample shows a relationship in the AdventureWorks tabular model) (in CSDLBI version 1.1). The association is marked as Inactive, because there is an existing relationship (between OrderKey and Date).  
   
@@ -55,8 +54,7 @@ manager: kfile
   
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional  
   
  The following sample shows the relationship that is defined between the Sales and Currency tables, in the Contoso Operations cube.  
   

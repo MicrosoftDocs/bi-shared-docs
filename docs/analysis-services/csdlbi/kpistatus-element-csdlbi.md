@@ -24,8 +24,7 @@ manager: kfile
 |----------|-----------------|-----------------|  
 |PropertyRef|Yes|A reference to a column that contains the value used as the status indicator in a KPI.<br /><br /> This element MUST contain exactly one column reference, as defined by the TPropertyRefcomplex type.|  
   
-## Example  
- **Tabular**  
+## Example Tabular
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the AdventureWorks tabular model sample. The KpiStatus element refers to a column (represented as a PropertyRef) that contains the value.  
   
@@ -46,8 +45,7 @@ manager: kfile
   
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the Contoso Operations cube. The KpiStatus element references a measure that calculates the value for the KPI status.  
   

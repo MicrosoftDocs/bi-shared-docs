@@ -26,8 +26,7 @@ manager: kfile
 |----------|-----------------|-----------------|  
 |PropertyRef|Yes|A reference to the column that contains the KPI goal value.<br /><br /> The Kpigoal element must contain exactly one PropertyRef element.<br /><br /> See [PropertyRef Element &#40;CSDLBI&#41;](propertyref-element-csdlbi.md).|  
   
-## Example  
- **Tabular**  
+## Example Tabular
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the Adventureworks sample model.  
   
@@ -48,8 +47,7 @@ manager: kfile
   
 ```  
   
-## Example  
- **Multidimensional**  
+## Example Multidimensional 
   
  The following sample, in CSDLBI version 1.1, shows a KPI from the Contoso Operations cube.  
   
