@@ -1,7 +1,7 @@
 ---
-title: "DAX for SQL Server Analysis Services multidimensional models | Microsoft Docs"
+title: "DAX for multidimensional models in SQL Server Analysis Services | Microsoft Docs"
 description: Learn how DAX works with multidimensional models.
-ms.date: 09/11/2020
+ms.date: 09/17/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -14,7 +14,7 @@ author: minewiskan
 
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
-This article describes how Power BI uses DAX (Data Analysis Expressions) queries to report against multidimensional model data sources in SQL Server Analysis Services. Multidimensional models support ad-hoc data analysis, exploration, and visualization in Microsoft Power BI, Excel, Reporting Services, and third-party and custom data analysis and reporting applications.
+This article describes how Power BI uses DAX (Data Analysis Expressions) queries to report against multidimensional models in SQL Server Analysis Services.
 
 Historically, reporting applications use MDX (Multidimensional Expressions) as a query language against multidimensional databases. MDX is optimized for common visual patterns like PivotTables in Excel and other reporting applications that target multidimensional business semantics. Beginning with SQL Server 2012 SP1, Analysis Services supports using both DAX and MDX against multidimensional and tabular models. DAX, however, was originally designed for tabular data models. While DAX is considered easier to use, it's also more focused on simpler data visualizations like tables, charts, and maps in reports and dashboards. **Power BI uses DAX to query both tabular and multidimensional models**.
 
@@ -60,14 +60,7 @@ Analysis Services provides a tabular model metadata representation of a multidim
 
 ### Measures, measure groups, and KPIs
 
-> [!NOTE]
-> Some images in this article show the Adventure Works Multidimensional Model for SQL Server 2012 sample database. Keep in mind, user interfaces are updated often. Images shown here may not reflect what is shown in Power BI.
-
-Measure groups in a multidimensional cube are shown in the Power BI Field List as tables with a sigma (∑) icon.
-
-**Measure groups in the Power BI Field List**
-
-:::image type="content" source="media/dax-for-multidimensional-models/daxmd-fieldlist-group.gif" alt-text="Field List":::
+Measure groups in a multidimensional cube are shown in the Power BI Fields list as tables with a calculator icon.
 
 Measures within a measure group appear as measures. If there are calculated measures that do not have an associated measure group, they're be grouped under a special table called Measures.
 
@@ -75,7 +68,7 @@ To help simplify more complex multidimensional models, model authors can define 
 
 **Measures and KPIs in a measure group**
 
-:::image type="content" source="media/dax-for-multidimensional-models/daxmd-fieldlist-group.gif" alt-text="Measures and KPIs in a measure group":::
+:::image type="content" source="media/dax-for-multidimensional-models/measuregroups-fieldlist.png" alt-text="Measures and KPIs in the Power BI Fields list":::
 
 ### Measures as variants
 
@@ -91,17 +84,19 @@ Tabular models provide users the ability to create implicit measures such as
 
 ## Dimensions, attributes, and hierarchies
 
-Cube dimensions are exposed as tables in tabular metadata. In the Power BI Field List, dimension attributes are shown as columns within display folders. The dimension attributes that have the **AttributeHierarchyEnabled** property set to **False**; for example: Birth Date attribute in Customer dimension, or AttributeHierarchyVisible property set to false will not appear in the Power BI Field List. Multi-level hierarchies or user hierarchies; for example Customer Geography in the Customer dimension, are exposed as hierarchies in the Power BI Field List. Hidden UnknownMembers of a dimension attribute are exposed in DAX queries and in Power BI.
+Cube dimensions are exposed as tables in tabular metadata. In the Power BI Fields list, dimension attributes are shown as columns within display folders. The dimension attributes that have the **AttributeHierarchyEnabled** property set to **False**; for example: Birth Date attribute in Customer dimension, or AttributeHierarchyVisible property set to false will not appear in the Power BI Fields list. Multi-level hierarchies or user hierarchies; for example Customer Geography in the Customer dimension, are exposed as hierarchies in the Power BI Fields list. Hidden UnknownMembers of a dimension attribute are exposed in DAX queries and in Power BI.
 
-**Dimension, attributes and hierarchies in SQL Server Data Tools (SSDT) and Power BI Field List**
+**Dimension, attributes, and hierarchies in SQL Server Data Tools (SSDT) and Power BI Fields list**
 
-:::image type="content" source="media/dax-for-multidimensional-models/daxmd-ssdt-dimensions.gif" alt-text="Dimensions in SSDT and Power BI Field List":::
+:::image type="content" source="media/dax-for-multidimensional-models/dimensions_attributes_hierarchies.png" alt-text="Dimensions, attributes, hierarchies in SSDT and Power BI Fields list":::
 
 ### Dimension attribute type
 
-Multidimensional models support associating dimension attributes with specific dimension attribute types. The image below shows the**Geography** dimension where City, State-Province, Country and Postal Code dimension attributes have geography types associated with them. These are exposed in the tabular metadata. Power BI recognizes the metadata enabling users to create map visualizations. This is indicated by the map icon next to the City, Country, Postal Code and State-Province columns in the Geography table in the Power BI Field List.
+Multidimensional models support associating dimension attributes with specific dimension attribute types. The image below shows the **Geography** dimension where City, State-Province, Country and Postal Code dimension attributes have geography types associated with them. These are exposed in the tabular metadata. Power BI recognizes the metadata enabling users to create map visualizations. This is indicated by the map icon next to the City, Country, Postal Code and State-Province columns in the Geography table in the Power BI Fields List.
 
-:::image type="content" source="media/dax-for-multidimensional-models/daxmd-ssdt-attribute-geog-types.gif" alt-text="Geography types in SSDT and Power BI Field List":::
+**Geography dimension in SSDT and Power BI Fields list**
+
+:::image type="content" source="media/dax-for-multidimensional-models/dimension-attribute-type.png" alt-text="Dimension attribute type in SSDT and Power BI Fields list":::
 
 ### Dimension calculated members
 
@@ -113,11 +108,9 @@ Multidimensional models support calculated members for child of **All** with a s
 
 Calculated members of user hierarchies are not exposed in Power BI, however, users are still able to connect to a cube containing calculated members on user hierarchies.
 
-The following image shows a Power BI report for a cube that contains time intelligence calculated members on dimension attribute **Fiscal Date Calculations** in the Date dimension.
+**Calculated members in Power BI Fields list**
 
-**Power BI report with calculated members**
-
-:::image type="content" source="media/dax-for-multidimensional-models/daxmd-calcmembersinpowerbi.gif" alt-text="Power BI report with calc members":::
+:::image type="content" source="media/dax-for-multidimensional-models/dimension-calculated-members.png" alt-text="Dimension calculated members in Power BI":::
 
 ### Default members
 
@@ -149,9 +142,9 @@ Power BI provides the ability to render images. In multidimensional models, one 
 
 Multidimensional models support parent-child hierarchies, which are exposed as a hierarchy in tabular metadata. Each level of the parent-child hierarchy is exposed as a hidden column. The key attribute of the parent-child dimension is not exposed in the tabular metadata.
 
-**Parent-child hierarchies in Power BI**
+**Parent-child hierarchies in SSDT and Power BI Fields list**
 
-:::image type="content" source="media/dax-for-multidimensional-models/daxmd-ssdt-hierarchies.gif" alt-text="Parent-child hierarchies":::
+:::image type="content" source="media/dax-for-multidimensional-models/parent-child-hierarchies.png" alt-text="Parent-child hierarchies in SSDT and Power BI Fields list":::
 
 ## Perspectives and translations
 
