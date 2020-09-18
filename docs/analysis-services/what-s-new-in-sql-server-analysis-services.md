@@ -28,6 +28,8 @@ A separate announcement on the [Power BI blog](https://powerbi.microsoft.com/blo
 
 Optimized query patterns should use [SUMMARIZECOLUMNS](https://docs.microsoft.com/dax/summarizecolumns-function-dax) function to replace the less efficient standard [SUMMARIZE](https://docs.microsoft.com/dax/summarize-function-dax) function. Use DAX variables, [VAR](https://docs.microsoft.com/dax/var-dax), to calculate expressions only once at the place of definition, and then reuse the results in any other DAX expressions without having to perform the calculation again. Other, and perhaps less common SuperDAX functions are [SUBSTITUTEWITHINDEX](https://docs.microsoft.com/dax/substitutewithindex-function-dax), [ADDMISSINGITEMS](https://docs.microsoft.com/dax/addmissingitems-function-dax), as well as [NATURALLEFTOUTERJOIN](https://docs.microsoft.com/dax/naturalleftouterjoin-function-dax) and [NATURALINNERJOIN](https://docs.microsoft.com/dax/naturalinnerjoin-function-dax), [ISONORAFTER](https://docs.microsoft.com/dax/isonorafter-function-dax), and [GROUPBY](https://docs.microsoft.com/dax/groupby-function-dax). [SELECTCOLUMNS](https://docs.microsoft.com/dax/selectcolumns-function-dax) and [UNION](https://docs.microsoft.com/dax/union-function-dax) are also SuperDAX functions.
 
+To learn more about how DAX works with multidimensional models, and important patterns and constraints to be aware of, be sure to see [DAX for multidimensional models](multidimensional-models/dax-for-multidimensional-models.md).
+
 ## SQL Server 2019 Analysis Services GA (Generally Available)
 
 ### Tabular model compatibility level
