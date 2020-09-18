@@ -102,15 +102,11 @@ Multidimensional models support associating dimension attributes with specific d
 
 Multidimensional models support calculated members for child of **All** with a single real member. Additional constraints while exposing this type of calculated member are:
 
-- Must be a single real member when the dimension has more than one attribute. 
-- An attribute containing calculated members cannot be the key attribute of the dimension unless it is the only attribute. 
-- An attribute containing calculated members cannot be a parent-child attribute. 
+- Must be a single real member when the dimension has more than one attribute.
+- An attribute containing calculated members cannot be the key attribute of the dimension unless it is the only attribute.
+- An attribute containing calculated members cannot be a parent-child attribute.
 
 Calculated members of user hierarchies are not exposed in Power BI, however, users are still able to connect to a cube containing calculated members on user hierarchies.
-
-**Calculated members in Power BI Fields list**
-
-:::image type="content" source="media/dax-for-multidimensional-models/dimension-calculated-members.png" alt-text="Dimension calculated members in Power BI":::
 
 ### Default members
 
