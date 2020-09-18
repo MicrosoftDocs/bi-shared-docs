@@ -268,7 +268,7 @@
       href: ../analysis-services/tabular-models/tabular-model-designer-ssas.md
     - name: Workspace database
       href: ../analysis-services/tabular-models/workspace-database-ssas-tabular.md
-    - name: DAX in tabular models
+    - name: DAX for tabular models
       href: ../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md
     - name: String storage and collation
       href: ../analysis-services/tabular-models/string-storage-and-collation-in-tabular-models.md
@@ -420,8 +420,9 @@
     items:
     - name: Multidimensional modeling overview
       href: ../analysis-services/multidimensional-models/multidimensional-models-ssas.md
+    - name: DAX for multidimensional models
+      href: ../analysis-services/multidimensional-models/dax-for-multidimensional-models.md
     - name: Multidimensional Solutions
-      href: ../analysis-services/multidimensional-models/multidimensional-model-solutions-ssas.md
       items:
       - name: Creating Multidimensional Models Using SQL Server Data Tools
         href: ../analysis-services/multidimensional-models/creating-multidimensional-models-using-sql-server-data-tools-ssdt.md
