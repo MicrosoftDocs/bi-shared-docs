@@ -48,7 +48,6 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
  [Install Analysis Services in Multidimensional and Data Mining Mode](https://msdn.microsoft.com/library/8a1f33e8-2bd6-4fb8-bd46-c86f2a067f60)   
  [Power Pivot for SharePoint 2010 Installation](https://msdn.microsoft.com/8d47dde7-c941-4280-a934-e2fe3f9a938f)   
  [Tabular Model Solutions](../../analysis-services/tabular-models/tabular-models-ssas.md)   
- [Multidimensional Model Solutions](../../analysis-services/multidimensional-models/multidimensional-model-solutions-ssas.md)   
  [Mining Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-models-analysis-services-data-mining.md)  
   
   
