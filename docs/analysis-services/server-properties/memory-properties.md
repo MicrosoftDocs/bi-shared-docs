@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services memory properties | Microsoft Docs"
 description: Learn about memory properties and how to specify configuration settings so you can control the thresholds at which memory is released.
-ms.date: 02/24/2020
+ms.date: 09/23/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # Memory properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas.md)]
 
 Analysis Services pre-allocates a modest amount of memory at startup so requests can be handled immediately. Additional memory is allocated as query and processing workloads increase. By specifying configuration settings, you can control the thresholds at which memory is released. For example, the **HardMemoryLimit** setting specifies a self-imposed out-of-memory condition (by default, this threshold is not enabled), where new requests are rejected outright until more resources become available. The following settings apply to both tabular and multidimensional servers unless noted otherwise.  
  
@@ -38,10 +38,10 @@ The following properties apply to both tabular and multidimensional modes unless
  A signed 64-bit double-precision floating-point number property that defines the first threshold at which Analysis Services begins releasing memory for low-priority objects, such as an infrequently used cache. Once the memory is allocated, the server does not release memory below this limit. The default value is 65; which indicates the low memory limit is 65% of physical memory or the virtual address space, whichever is less.  
   
  **TotalMemoryLimit**  
- Defines a threshold that when reached, causes the server to deallocate memory to make room for other requests. When this limit is reached, the instance will start to slowly clear memory out of caches by closing expired sessions and unloading unused calculations. The default value 80% of physical memory or the virtual address space, whichever is less. **TotalMemoryLimit** must always be less than **HardMemoryLimit**  
+ Defines a threshold that when reached, causes the server to deallocate memory to make room for other requests. When this limit is reached, the instance will start to slowly clear memory out of caches by closing expired sessions and unloading unused calculations. For SQL Server Analysis Services, The default value is 80% of physical memory or the virtual address space, whichever is less. Default values for Azure Analysis Services are based on your plan and aren't configurable.  **TotalMemoryLimit** must always be less than **HardMemoryLimit**  
   
  **HardMemoryLimit**  
- Specifies a memory threshold after which the instance aggressively terminates active user sessions to reduce memory usage. All terminated sessions will receive an error about being canceled by memory pressure. The default value, zero (0), means the **HardMemoryLimit** will be set to a midway value between **TotalMemoryLimit** and the total physical memory of the system; if the physical memory of the system is larger than the virtual address space of the process, then virtual address space will be used instead to calculate **HardMemoryLimit**.  
+ Specifies a memory threshold after which the instance aggressively terminates active user sessions to reduce memory usage. All terminated sessions will receive an error about being canceled by memory pressure. The default value, zero (0), means the **HardMemoryLimit** will be set to a midway value between **TotalMemoryLimit** and the total physical memory of the system; if the physical memory of the system is larger than the virtual address space of the process, then virtual address space will be used instead to calculate **HardMemoryLimit**. This value isn't configurable for Azure Analysis Services. 
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2019"
 
@@ -60,7 +60,7 @@ Specified in percentage up to 100. When more than 100, it's in bytes. Setting a 
 ::: moniker-end
 
  **VirtualMemoryLimit**  
-  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support. This value isn't configurable for Azure Analysis Services. 
   
  **VertiPaqPagingPolicy**  
   For tabular instances only, specifies the paging behavior in the event the server runs low on memory. Valid values are as follows:  
