@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
-description: Learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 09/10/2020
+description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
+ms.date: 10/12/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -16,7 +16,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. Custom client applications also require client libraries are installed.
+Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. Custom client applications also require client libraries are installed. Client libraries are updated monthly. Before downloading, be sure to see [Known issues](#known-issues).
 
 ## Download the latest
 
@@ -24,10 +24,10 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.56.23    |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.56.23       |
-|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.10.0.0    |
-|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.10.0.0     |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.61.21     |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.61.21        |
+|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.12.3.0     |
+|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.12.3.0      |
 
 ### NuGet packages
 
@@ -44,8 +44,8 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.10.0.0     |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.10.0.0      |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.12.3.0      |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.12.3.0       |
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
@@ -53,8 +53,26 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.10.0.0 (Preview)    |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.10.0.0 (Preview)      |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.12.3.0  (Preview)    |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.12.3.0  (Preview)      |
+
+::: moniker-end
+
+## Known issues
+
+#### 19.12.3.0 - AMO
+
+This release introduces a new enumeration, **Microsoft.AanalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
+
+#### 19.10.0.0 and higher - AMO and ADOMD .Net Core (Preview)
+
+- Features in preview should not be used in a production environment. Certain functionality, support, and documentation is limited. Refer to the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) for details.
+
+- AMO and ADOMD .NET Core client libraries are currently supported for Azure Analysis Services and Power BI only. SQL Server Analysis Services is not currently supported.
+
+- There has been limited performance and stress testing done for the public preview.
 
 ::: moniker-end
 
@@ -82,18 +100,4 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
 
  ADOMD.NET is a managed data client library used for querying Analysis Services data. It's installed and used by tools and client applications.
   
- When connecting to a database, the connection string properties for all three libraries are similar. Almost any connection string you define for ADOMD.NET by using  [Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString](/dotnet/api/microsoft.analysisservices.adomdclient.adomdconnection.connectionstring#Microsoft_AnalysisServices_AdomdClient_AdomdConnection_ConnectionString) also works for AMO and the Analysis Services OLE DB Provider (MSOLAP). To learn more, see [Connection string properties](instances/connection-string-properties-analysis-services.md).  
-
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
-
-## Known issues
-
-### 19.10.0.0 - AMO and ADOMD .Net Core (Preview)
-
-- Features in preview should not be used in a production environment. Certain functionality, support, and documentation is limited. Refer to the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) for details.
-
-- AMO and ADOMD .NET Core client libraries are currently supported for Azure Analysis Services and Power BI only. SQL Server Analysis Services is not currently supported.
-
-- There has been limited performance and stress testing done for the public preview.
-
-::: moniker-end
+ When connecting to a database, the connection string properties for all three libraries are similar. Almost any connection string you define for ADOMD.NET by using  [Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString](/dotnet/api/microsoft.analysisservices.adomdclient.adomdconnection.connectionstring#Microsoft_AnalysisServices_AdomdClient_AdomdConnection_ConnectionString) also works for AMO and the Analysis Services OLE DB Provider (MSOLAP). To learn more, see [Connection string properties](instances/connection-string-properties-analysis-services.md).
