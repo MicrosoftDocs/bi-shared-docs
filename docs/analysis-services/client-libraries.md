@@ -62,13 +62,13 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 ## Known issues
 
-### 19.12.3.0 - AMO
+#### 19.12.3.0 - AMO
 
 This release introduces a new enumeration, **Microsoft.AanalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
-### 19.10.0.0 and higher - AMO and ADOMD .Net Core (Preview)
+#### 19.10.0.0 and higher - AMO and ADOMD .Net Core (Preview)
 
 - Features in preview should not be used in a production environment. Certain functionality, support, and documentation is limited. Refer to the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) for details.
 
