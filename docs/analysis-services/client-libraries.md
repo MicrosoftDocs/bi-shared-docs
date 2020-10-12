@@ -26,10 +26,10 @@ Client libraries are updated monthly. Before downloading, be sure to see [Known 
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.56.23    |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.56.23       |
-|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.10.0.0    |
-|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.10.0.0     |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.61.21     |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.61.21        |
+|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.12.3.0     |
+|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.12.3.0      |
 
 ### NuGet packages
 
@@ -46,8 +46,8 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.10.0.0     |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.10.0.0      |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.12.3.0      |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.12.3.0       |
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
@@ -55,8 +55,8 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.10.0.0 (Preview)    |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.10.0.0 (Preview)      |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.12.3.0  (Preview)    |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.12.3.0  (Preview)      |
 
 ::: moniker-end
 
