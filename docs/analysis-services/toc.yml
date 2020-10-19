@@ -414,8 +414,6 @@
           href: ../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md
         - name: Process tabular model partitions
           href: ../analysis-services/tabular-models/process-tabular-model-partitions-ssas-tabular.md
-    - name: Connect to a tabular model database
-      href: ../analysis-services/tabular-models/connect-to-a-tabular-model-database-ssas.md
   - name: Multidimensional modeling
     items:
     - name: Multidimensional modeling overview

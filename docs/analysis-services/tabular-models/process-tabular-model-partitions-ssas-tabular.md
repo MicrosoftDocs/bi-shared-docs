@@ -1,7 +1,7 @@
 ---
 title: "Process Analysis Services tabular model partitions | Microsoft Docs"
 description: Learn how to process partitions in a model database by using the Process Partitions dialog box in SQL Server Management Studio.
-ms.date: 01/29/2020
+ms.date: 10/19/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -14,7 +14,8 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 # Process tabular model partitions
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
-  Partitions divide a table into logical parts. Each partition can then be processed (Refreshed) independent of other partitions. The tasks in this topic describe how to process partitions in a model database by using the **Process Partitions** dialog box in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
+
+Partitions divide a table into logical parts. Each partition can then be processed (Refreshed) independent of other partitions. The tasks in this article describe how to process partitions in a model database by using the **Process Partitions** dialog box in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
 
 ## To process a partition  
   
@@ -36,5 +37,5 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 ## See also
 
-[Tabular Model Partitions](../../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md)   
-[Create and Manage Tabular Model Partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md)  
+[Tabular model partitions](../../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md)   
+[Create and manage tabular model partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md)  

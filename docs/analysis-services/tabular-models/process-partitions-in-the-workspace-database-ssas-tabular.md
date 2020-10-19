@@ -1,7 +1,7 @@
 ---
 title: "Process partitions in Analysis Services workspace database | Microsoft Docs"
 description: Learn how to process partitions in the model workspace database by using the Process Partitions dialog box in SQL Server Data Tools.
-ms.date: 01/29/2020
+ms.date: 10/19/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -15,15 +15,15 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  Partitions divide a table into logical parts. Each partition can then be processed (Refreshed) independent of other partitions. The tasks in this topic describe how to process partitions in the model workspace database by using the **Process Partitions** dialog box in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
+Partitions divide a table into logical parts. Each partition can then be processed (Refreshed) independent of other partitions. The tasks in this article describe how to process partitions in the model workspace database by using the **Process Partitions** dialog box in Visaul Studio.  
   
- After a model has been deployed to another Analysis Services instance, database administrators can create and manage partitions in the (deployed) model by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], by script, or by using an IS package. For more information, see [Create and Manage Tabular Model Partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md).  
+After a model has been deployed, administrators can create and manage partitions in the (deployed) model by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]or by script with TOM or TMSL.
   
-###  <a name="bkmk_create_new"></a> To process a partition  
+## To process a partition  
   
-1.  In [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click the **Model** menu, and then click **Process** (Refresh), and then click **Process Partitions**.  
+1. In [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click the **Model** menu, and then click **Process** (Refresh), and then click **Process Partitions**.  
   
-2.  In the **Mode** listbox, select one of the following process modes:  
+2. In the **Mode** listbox, select one of the following process modes:  
   
     |Mode|Description|  
     |----------|-----------------|  
@@ -33,10 +33,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
     |**Process Clear**|Removes all data from a partition.|  
     |**Process Add**|Incrementally update partition with new data.|  
   
-3.  In the **Process** checkbox column, select the partitions you want to process with the selected mode, and then click **Ok**.  
+3. In the **Process** checkbox column, select the partitions you want to process with the selected mode, and then click **Ok**.  
   
-## See Also  
- [Partitions](../../analysis-services/tabular-models/partitions-ssas-tabular.md)   
- [Create and Manage Partitions in the Workspace Database](../../analysis-services/tabular-models/create-and-manage-partitions-in-the-workspace-database-ssas-tabular.md)  
-  
-  
+## See also
+
+ [Partitions](../../analysis-services/tabular-models/partitions-ssas-tabular.md)  
+ [Create and manage partitions in the workspace database](../../analysis-services/tabular-models/create-and-manage-partitions-in-the-workspace-database-ssas-tabular.md)  

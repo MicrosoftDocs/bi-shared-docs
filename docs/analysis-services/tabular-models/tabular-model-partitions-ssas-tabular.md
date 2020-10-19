@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  Partitions divide a table into logical parts. Each partition can then be processed (Refreshed) independent of other partitions. Partitions defined for a model during model authoring are duplicated in a deployed model. Once deployed, you can manage those partitions and create new partitions by using the **Partitions** dialog box in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] or by using a script. Information provided in this topic describes partitions in a deployed tabular model database. For more information about creating and managing partitions during model authoring, see [Partitions](../../analysis-services/tabular-models/partitions-ssas-tabular.md).  
+  Partitions divide a table into logical parts. Each partition can then be processed (Refreshed) independent of other partitions. Partitions defined for a model during model authoring are duplicated in a deployed model. Once deployed, you can manage those partitions and create new partitions by using the **Partitions** dialog box in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] or by using a script. Information provided in this article describes partitions in a deployed tabular model database. For more information about creating and managing partitions during model authoring, see [Partitions](../../analysis-services/tabular-models/partitions-ssas-tabular.md).  
   
 ##  <a name="bkmk_benefits"></a> Benefits
 
