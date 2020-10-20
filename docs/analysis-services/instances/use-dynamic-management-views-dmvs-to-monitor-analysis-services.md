@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Management Views (DMVs) in Analysis Services | Microsoft Docs"
 description: Learn about Dynamic Management Views in SQL Server Analysis Services that return information about model objects, server operations, and server health.
-ms.date: 03/05/2020
+ms.date: 10/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -145,7 +145,7 @@ Note: This list may be incomplete. Refer to the [MS-SSAS-T] and [MS-SSAS] protoc
 |[DBSCHEMA_COLUMNS](https://msdn.microsoft.com/library/ee301789)|Returns a row for each measure, each cube dimension attribute, and each schema rowset column, exposed as a column.|  
 |[DBSCHEMA_PROVIDER_TYPES](https://msdn.microsoft.com/library/ee301696)|Identifies the (base) data types supported by the server.|  
 |[DBSCHEMA_TABLES](https://msdn.microsoft.com/library/ee320843)|Returns dimensions, measure groups, or schema rowsets exposed as tables.|  
-|[DISCOVER_CALC_DEPENDENCY](https://msdn.microsoft.com/library/hh770226)| Returns information about the calculation dependency for an object that is specified in a Tabular database or in a DAX query that is executed against a Tabular database. |  
+|[DISCOVER_CALC_DEPENDENCY](https://msdn.microsoft.com/library/hh770226)| Returns information about the calculation dependency for an object that is specified in a Tabular database or in a DAX query that is executed against a Tabular database. </br>**Note:** You can use the DISCOVER_CALC_DEPENDENCY rowset to analyze dependencies and extract DAX expressions from datasets hosted in Power BI by using XMLA endpoints. However, the DISCOVER_CALC_DEPENDENCY rowset does not include M dependencies for datasets with Enhanced Metadata enabled, such as merged or appended M queries and M parameters. |  
 |[DISCOVER_COMMAND_OBJECTS](https://msdn.microsoft.com/library/ee320662)|Provides resource usage and activity information about the objects in use by the referenced command.|  
 |[DISCOVER_COMMANDS](https://msdn.microsoft.com/library/ee320715)|Provides resource usage and activity information about the currently executing or last executed commands in the opened connections on the server.|  
 |[DISCOVER_CONNECTIONS](https://msdn.microsoft.com/library/ee301889)|Provides resource usage and activity information about the currently opened connections on the server.|  
