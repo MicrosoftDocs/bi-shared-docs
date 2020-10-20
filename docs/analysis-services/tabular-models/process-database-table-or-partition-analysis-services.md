@@ -67,7 +67,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 4.  In the **Process** checkbox column, select the partitions you want to process with the selected mode, and then click **Ok**.  
   
 ## See Also  
- [Tabular Model Partitions](../../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md)   
+
  [Create and Manage Tabular Model Partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md)  
   
   

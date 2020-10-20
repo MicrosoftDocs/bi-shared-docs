@@ -54,7 +54,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 -   In the **Partitions** dialog box, in the **Partitions** list, select the partition you want to delete, and then click the **Delete** button.  
   
 ## See also  
- [Tabular model partitions](../../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md)   
+
  [Process tabular model partitions](../../analysis-services/tabular-models/process-tabular-model-partitions-ssas-tabular.md)  
   
   

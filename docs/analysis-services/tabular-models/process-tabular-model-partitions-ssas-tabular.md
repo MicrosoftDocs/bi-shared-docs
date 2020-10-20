@@ -37,5 +37,4 @@ Partitions divide a table into logical parts. Each partition can then be process
   
 ## See also
 
-[Tabular model partitions](../../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md)   
 [Create and manage tabular model partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md)  

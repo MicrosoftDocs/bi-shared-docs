@@ -398,7 +398,7 @@ A *calculated table* is a model-only construction based on a DAX expression or q
 
 #### Parallel processing for multiple table partitions in tabular models
 
- This release includes new parallel processing functionality for tables with two or more partitions, increasing processing performance. There are no configuration settings for this feature. For more information about configuring partitions and processing tables, see [Tabular Model Partitions](../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md).
+ This release includes new parallel processing functionality for tables with two or more partitions, increasing processing performance. There are no configuration settings for this feature. For more information about configuring partitions and processing tables, see [Tabular model partitions](../analysis-services/tabular-models/partitions-ssas-tabular.md).
 
 #### Add computer accounts as Administrators in SSMS
 
