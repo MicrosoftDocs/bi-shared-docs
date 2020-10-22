@@ -11,16 +11,14 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
-# Create and manage partitions in the workspace database
+# Create and manage partitions in a model project
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-Partitions divide a table into logical parts. Each partition can then be processed (refreshed) independently or in parallel with other partitions. Partitions can improve scalability and manageability of large databases. By default, each table has one partition that includes all columns. Tasks in this article describe how to create and manage partitions in the model workspace database by using the **Partition Manager** dialog box in Visual Studio.  
-  
-After a model has been deployed to an Analysis Services server (Azure Analysis Services, SSAS, Power BI), administrators can create and manage partitions in the (deployed) model by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] or by using script.
+By default, each table in a tabular model has one partition. Tasks in this article describe how to create and manage partitions in the model project's workspace database by using the **Partition Manager** dialog box in Visual Studio. After a model has been deployed to a server (Azure Analysis Services, SSAS, Power BI), administrators can create and manage partitions in the (deployed) model by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] or by script.
   
 > [!NOTE]  
->  You cannot merge partitions in the model workspace database by using the Partition Manager dialog box. Partitions can be merged in a deployed model only by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
+> Partitions in the model workspace database cannot be merged by using Partition Manager. Partitions can be merged only by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] or by script.  
   
 ## Tasks
 
@@ -55,8 +53,7 @@ To create and manage partitions, use the **Partitions Manager** dialog box. To v
 1. In **Partition Manager**, in the **Table** listbox, verify or select the table that contains the partition you want to delete.  
   
 2. In the **Partitions** list, select the partition you want to delete and then click **Delete**.  
-  
+
 ## See also
 
- [Partitions](../../analysis-services/tabular-models/partitions-ssas-tabular.md)  
- [Process partitions in the workspace database](../../analysis-services/tabular-models/process-partitions-in-the-workspace-database-ssas-tabular.md)
+[Create and manage tabular model partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions.md)

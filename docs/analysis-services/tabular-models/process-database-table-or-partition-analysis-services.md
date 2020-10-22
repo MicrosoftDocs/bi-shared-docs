@@ -68,6 +68,6 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 ## See Also  
 
- [Create and Manage Tabular Model Partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md)  
+ [Create and Manage Tabular Model Partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions.md)  
   
   
