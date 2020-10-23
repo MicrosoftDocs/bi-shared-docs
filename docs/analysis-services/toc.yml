@@ -1617,6 +1617,8 @@
       href: tmsl/tabular-model-scripting-language-tmsl-reference.md
     - name: Commands
       items:
+      - name: TMSL commands overview
+        href: tmsl/tmsl-reference-commands.md
       - name: Alter command (TMSL)
         href: tmsl/alter-command-tmsl.md
       - name: Attach command (TMSL)
@@ -1643,6 +1645,8 @@
         href: tmsl/synchronize-command-tmsl.md
     - name: Objects
       items:
+      - name: TMSL objects overview
+        href: tmsl/tmsl-reference-tabular-objects.md
       - name: Database object (TMSL)
         href: tmsl/database-object-tmsl.md
       - name: DataSources object (TMSL)
