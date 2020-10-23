@@ -1618,7 +1618,7 @@
     - name: Commands
       items:
       - name: TMSL commands overview
-        href: tmsl-reference-commands.md
+        href: tmsl/tmsl-reference-commands.md
       - name: Alter command (TMSL)
         href: tmsl/alter-command-tmsl.md
       - name: Attach command (TMSL)
@@ -1646,7 +1646,7 @@
     - name: Objects
       items:
       - name: TMSL objects overview
-        href: tmsl-reference-objects.md
+        href: tmsl/tmsl-reference-objects.md
       - name: Database object (TMSL)
         href: tmsl/database-object-tmsl.md
       - name: DataSources object (TMSL)
