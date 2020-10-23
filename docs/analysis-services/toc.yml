@@ -1646,7 +1646,7 @@
     - name: Objects
       items:
       - name: TMSL objects overview
-        href: tmsl/tmsl-reference-objects.md
+        href: tmsl/tmsl-reference-tabular-objects.md
       - name: Database object (TMSL)
         href: tmsl/database-object-tmsl.md
       - name: DataSources object (TMSL)
