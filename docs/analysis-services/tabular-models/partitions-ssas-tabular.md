@@ -53,17 +53,23 @@ When authoring tabular models in Visual Studio, you create new partitions, edit,
 
 Partitions for a deployed model database appear as database objects in SSMS. You can create, edit, merge, and delete partitions for a deployed model by using the Partitions dialog box in SSMS or by script. To learn about managing partitions in SSMS, see [Create and manage tabular model partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions.md).  
 
-## Automating partition management
+## Partitioning strategies
+
+The [Automated Partition Management for Analysis Services Tabular Models](https://github.com/microsoft/Analysis-Services/blob/master/AsPartitionProcessing/Automated%20Partition%20Management%20for%20Analysis%20Services%20Tabular%20Models.pdf) whitepaper along with the accompanying [AsPartitionProcessing](https://github.com/microsoft/Analysis-Services/tree/master/AsPartitionProcessing) TOM code sample provided in GitHub. Concepts described in this whitepaper and project apply to all Analysis Services platforms.
+
+### Automating partition management
 
 By using a TMSL. A script executed by using the Invoke-ASCmd PowerShell cmdlet, with an Analysis Services Execute DDL Task in SQL Server Integration services (SSIS). 
 
 ## Limits on the number of partitions
 
-Regardless of platform, there is no hard limit on the number of partitions in your models.
+Regardless of platform, there is no hard limit on the number of partition objects in a model. However, each partition has a memory footprint. An excessive number of partitions can consume valuable memory resources and the speed of metadata operations over too many partitions can adversely affect processing resources.
+
+It's recommended you create the minimum number of partitions while still effectively meeting your partitioning goals. It's more important to focus an effective partitioning strategy based on granularity and  processing only those partitions with the most relevant changing data within available processing and memory resources. There is no guidance for an optimal number of partitions for a model. Every model is different. Available resources vary depending on your platform and plan.  
 
 ### Tabular Model Scripting Language (TMSL)
 
-[Partitions object](../tmsl/partitions-object-tmsl.md)
+Partitions for a model are defined in the [Partitions object](../tmsl/partitions-object-tmsl.md). Actions on a partition object can be specified in [Create](create-command-tmsl.md), [CreateOrReplace](createorreplace-command-tmsl.md), [Alter](alter-command-tmsl.md), [Delete](delete-command-tmsl.md), [Refresh](refresh-command-tmsl.md), and [MergePartitions](mergepartitions-command-tmsl.md) commands. TMSL scripts can be executed in SQL Server Management Studio, by PowerShell, or by 
 
 ### Tabular Object Model (TOM)
 
@@ -97,7 +103,5 @@ Analysis Services includes parallel processing for tables with two or more parti
 Tabular Object Model (TOM)
 
 ## See also
-
-
 
 [Create Tables, Partitions, and Columns with the Tabular Object Model (TOM)](../tom/create-tables-partitions-and-columns-in-a-tabular-model.md)

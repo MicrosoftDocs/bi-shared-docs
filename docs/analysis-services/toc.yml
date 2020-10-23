@@ -382,12 +382,8 @@
       items: 
       - name: Partitions in tabular models
         href: ../analysis-services/tabular-models/partitions-ssas-tabular.md
-      - name: Create and manage partitions in a model project
-        href: ../analysis-services/tabular-models/create-and-manage-partitions-in-the-workspace-database-ssas-tabular.md
-      - name: Create and manage partitions in a deployed model
+      - name: Create and manage partitions
         href: ../analysis-services/tabular-models/create-and-manage-tabular-model-partitions.md
-      - name: Process deployed model partitions
-        href: ../analysis-services/tabular-models/process-tabular-model-partitions-ssas-tabular.md
     - name: Perspectives
       href: ../analysis-services/tabular-models/perspectives-ssas-tabular.md
     - name: Roles
