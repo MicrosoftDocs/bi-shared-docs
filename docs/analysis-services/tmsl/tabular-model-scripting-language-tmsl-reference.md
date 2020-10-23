@@ -1,7 +1,7 @@
 ﻿---
 title: "Tabular Model Scripting Language (TMSL) Reference | Microsoft Docs"
 description: Learn that Tabular Model Scripting Language (TMSL) is the command and object model definition syntax for tabular data models at compatibility level 1200 or higher.
-ms.date: 02/12/2020
+ms.date: 10/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
@@ -19,23 +19,23 @@ manager: kfile
   
  Key elements of TMSL:  
   
-- Tabular metadata based on tabular model semantics 
+- Tabular metadata based on tabular model semantics.
 
     A tabular model is composed of tables, columns, and relationships. Equivalent object definitions in TMSL are now, not surprisingly, tables, columns, relationships, and so forth. A new metadata engine supports these definitions.  
   
-- Object definitions are  structured as JSON instead of XML  
+- Object definitions are  structured as JSON instead of XML.
   
      With the exception of how the payload is formatted (in either JSON or XML), both TMSL and ASSL are functionally equivalent in how they provide commands and metadata  to XMLA methods used for server communication and data transfer.  
   
 ## How to use TMSL
 
- The easiest way to  explore TMSL scripting is using the CREATE, ALTER, DELETE, or Process commands in SQL Server Management Studio (SSMS) on a model you already know. Assuming you're using an existing model, remember to upgrade it to compatibility level 1200 or higher first.  
+ The easiest way to  explore TMSL scripting is using the CREATE, ALTER, DELETE, or Process commands in SQL Server Management Studio (SSMS) on a model you already know.
   
-1. Find the command you want to use: [Commands in Tabular Model Scripting Language &#40;TMSL&#41;](tmsl-reference-commands.md)  
+1. Find the command you want to use: [TMSL Reference - Commands](tmsl-reference-commands.md)  
   
-2. Check the object definition reference for objects used in the command: [Object Definitions in Tabular Model Scripting Language &#40;TMSL&#41;](tmsl-reference-tabular-objects.md)  
+2. Check the object definition reference for objects used in the command: [TMSL Reference - Objects](tmsl-reference-tabular-objects.md)  
   
-3. Choose a method for submitting TMSL script:  
+3. Choose a method for executing the TMSL script:  
   
     - XMLA window in SSMS  
   
