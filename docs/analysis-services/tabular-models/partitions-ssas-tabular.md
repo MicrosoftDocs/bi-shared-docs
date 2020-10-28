@@ -15,15 +15,15 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-Partitions divide a table into logical parts. Each partition can then be processed (refreshed) independent of other partitions. By default, each table in a model has one partition, and that partition includes all of the data in the table. A refresh on that one partition is a refresh on the entire table. For a small amount of data, refreshing an entire table can be a low cost operation, requiring only a small amount of memory and processing resources. But for larger models, dividing a table into multiple partitions is the most effective way to ensure you're using valuable memory and processing resources efficiently.
+Partitions divide portions of data you need to process (refresh) frequently from data that can be processed less frequently. For example, a fact table may include certain row sets that contain data that rarely changes, but other row sets have data that changes often. There's no need to process *all* of the data when only a portion of it needs to be processed.
 
-Partitions created by using the Partitions dialog box in Visual Studio during model authoring apply to the model workspace database. When the model is deployed, the partitions defined for the model are created in the deployed model database. You can further create and manage partitions for a deployed model database by using the Partitions dialog box in SQL Server Management Studio (SSMS) or by scripting with the Tabular Object Model (TOM) or Tabular Model Scripting Language (TMSL). Information provided in this article describes partitions created during model authoring by using the Partition Manager dialog box in Visual Studio. To learn more about creating and managing partitions for a deployed model, see [Create and manage tabular model partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions.md).  
-  
-## Benefits
+Partitions work by dividing a table into logical partition objects. Individual partitions, each containing a unique segment of data, can then be incrementally processed either sequentially or in parallel independent of other partitions, or excluded from processing operations altogether.
 
-Partitions in tabular models divide a table into logical partition objects. Each partition can then be processed independent of other partitions. For example, a table may include certain row sets that contain data that rarely changes, but other row sets have data that changes often. There's is no need to process all of the data when you really just want to process a portion of the data. Partitions enable you to divide portions of data you need to process frequently from the data that can be processed less frequently.  
+## Granularity
 
-Effective model design utilizes partitions to eliminate unnecessary processing and subsequent processor load, while at the same time, making certain that data is processed and refreshed often enough to reflect the most recent data from data sources. For example, a tabular model can have a Sales table which includes sales data for the current 2011 fiscal year and each of the previous fiscal years. The model's Sales table has the following three partitions:  
+By default, each table in a model has a single partition. In many cases, such as with fact tables, dividing a table's single partition into multiple partitions can better utilize available resources for processing.
+
+An effective model design and processing strategy utilizes partitions to eliminate unnecessary processor load and memory consumption, while at the same time making certain that data is refreshed often enough to reflect the most recent data from data sources. For example, a tabular model can have a Sales table which includes sales data for the current fiscal year and each of the previous fiscal years. The model's Sales table has the following partitions:  
   
 |Partition|Data from|  
 |---------------|---------------|  
@@ -31,77 +31,123 @@ Effective model design utilizes partitions to eliminate unnecessary processing a
 |Sales2019-2010|Fiscal years 2010, 2011, 2012, 2013, 2014, 2015. 2016, 2017, 2018, 2019|  
 |SalesOld|All fiscal years prior to the last ten years.|  
   
-As new sales data is added for the current 2020 fiscal year; that data must be processed daily to be reflected accurately in the current fiscal year sales data analysis, therefore the Sales2020 partition is processed nightly.  
+As new sales data is added for the current 2020 fiscal year, that data must be processed daily to be reflected accurately in the current fiscal year sales data analysis, therefore the Sales2020 partition is processed every night.  
   
-There's no need to process data in the Sales2019-2010 partition nightly. However, because sales data for the previous ten fiscal years can still occasionally change because of product returns and other adjustments, it must still be processed regularly, thus data in the Sales2019-2010 partition is processed monthly. Data in the SalesOld partition never changes, therefore only processed annually.  
+There's no need to process data in the Sales2019-2010 partition nightly. However, because sales data for the previous ten fiscal years can still change because of product returns and other adjustments, it must still be processed regularly, therefore data in the Sales2019-2010 partition is processed monthly. Data in the SalesOld partition rarely changes, therefore only processed annually.  
   
-When entering the 2021 fiscal year, a new Sales2021 partition is added to the model's Sales table. The Sales2020 partition can then be merged with the Sales2019-2010 partition and renamed to Sales2020-2011. Data from the 2010 fiscal year is eliminated from the Sales2020-2011 partition and moved into the SalesOld partition. All partitions are then processed to reflect changes.  
+When entering the 2021 fiscal year, a new Sales2021 partition is added to the model's Sales table. The Sales2020 partition can then be merged with the Sales2019-2010 partition and renamed to Sales2020-2011. Data from the 2010 fiscal year is eliminated from the Sales2020-2011 partition and moved into the SalesOld partition. All partitions are then processed to reflect changes. This is commonly known as a *rolling-window* pattern - data in each partition is within a predefined date range and incremented as necessary, keeping memory and processing resource use within a predictable range over time.
 
-### Granularity
+Granularity is influenced by various factors including how much data is required to be incrementally processed within an acceptable amount of time. For example, if only the last whole day needs to be processed daily, it may be beneficial to use daily granularity. Mixed granularity can be configured for scenarios such as near-real time refresh at low grain coupled with historical, static partitions at higher granularity. This results in fewer partitions, but also increases management overhead to ensure partition ranges are defined correctly.
 
-Using the Sales table example above, Yearly, monthly and daily partition granularity can be configured. Choice of granularity is influenced by various factors including how much data is required to be incrementally refreshed within an acceptable amount of processing time. For example, if only the last 3 days need to be refreshed daily, it may be beneficial to use daily granularity. 
+Each scenario is unique. Be sure to define a granularity for your data model that most effectively divides data into partitions that must be processed often compared to those that don't.
 
-Mixed granularity can be configured for scenarios such as near-real time refresh at low grain coupled with historical, static partitions at higher granularity. This results in fewer partitions, but also increases management overhead to ensure partition ranges are defined correctly.
+### Partition limits
 
-Each scenario is unique. Be sure to define a granularity for your data model that most effectively uses memory and processing resources during refresh operations.
+Regardless of platform, there is no hard limit on the number of partition objects in a model. However, each partition has at least one segment of data with a memory footprint. An excessive number of partitions can consume too much memory, and the speed of metadata operations over too many partitions can adversely affect processing resources.
 
-### Partitions in the model workspace database
+Create the minimum number of partitions while still effectively meeting your partitioning goals. It's more important to focus an effective partitioning strategy based on granularity, and processing only those partitions with the most relevant changing data within available processing and memory resources at times when user queries are low.
 
-When authoring tabular models in Visual Studio, you create new partitions, edit, merge, or delete partitions by using Partition Manager. Depending on the compatibility level of the model you are authoring, Partition Manager provides two modes for selecting tables, rows, and columns for a partition: For tabular 1400 and higher models with structured data sources, partitions are defined by using an Power Query M query. For provider data sources, partitions are defined by using an SQL query. For 1200 and lower models, a SQL query is defined.
-  
-### Partitions in a deployed model database
+There's also no limit to the amount of data in a partition. While unlikely, a model could have a single table with a single default partition, and that table could contain all of the data in the model. The amount of data in the partition would be limited only by available memory resources for the service plan or hardware.
 
-Partitions for a deployed model database appear as database objects in SSMS. You can create, edit, merge, and delete partitions for a deployed model by using the Partitions dialog box in SSMS or by script. To learn about managing partitions in SSMS, see [Create and manage tabular model partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions.md).  
+## Creating and managing partitions
 
-## Partitioning strategies
+When authoring models with the Tabular model designer in Visual Studio, you create new partitions, edit, merge, or delete partitions in the model workspace database by using Partition Manager. Depending on the compatibility level of the model you're authoring, Partition Manager provides two modes for selecting data to be included in a partition: For tabular 1400 and higher models with structured data sources, partitions are defined by using an Power Query M expression. For example, the following query defines a partition for the 2019 calendar year:
 
-The [Automated Partition Management for Analysis Services Tabular Models](https://github.com/microsoft/Analysis-Services/blob/master/AsPartitionProcessing/Automated%20Partition%20Management%20for%20Analysis%20Services%20Tabular%20Models.pdf) whitepaper along with the accompanying [AsPartitionProcessing](https://github.com/microsoft/Analysis-Services/tree/master/AsPartitionProcessing) TOM code sample provided in GitHub. Concepts described in this whitepaper and project apply to all Analysis Services platforms.
+```PowerQuery-M
+let
+    Source = #"SQL/sqlserver database windows net;Contoso",
+    dbo_Sales = Source{[Schema="dbo",Item="Sales"]}[Data],
+    #"Filtered Rows" = Table.SelectRows(dbo_Sales, each [OrderDateKey] >= 20190101 and [OrderDateKey] <= 20191231)
+in
+    #"Filtered Rows"
+```
 
-### Automating partition management
+For provider data sources, partitions are defined by using a SQL query. For example,
 
-By using a TMSL. A script executed by using the Invoke-ASCmd PowerShell cmdlet, with an Analysis Services Execute DDL Task in SQL Server Integration services (SSIS). 
+```sql
+SELECT [dbo].[Sales].* FROM [dbo].[Sales]
+WHERE (([OrderDateKey] >= '20190101') AND ([OrderDateKey] <= '20191231'))
+```
 
-## Limits on the number of partitions
+Notice the Filtered Rows argument in the Power Query M expression and the WHERE clause in the SQL statement define exactly one calendar year by using greater than (>), less than (<), and equals (=) operators. When defining partitions, it's important each partition's query define a unique range of data that cannot cause data duplication with other partitions.
 
-Regardless of platform, there is no hard limit on the number of partition objects in a model. However, each partition has a memory footprint. An excessive number of partitions can consume valuable memory resources and the speed of metadata operations over too many partitions can adversely affect processing resources.
+### SQL Server Management Studio (SSMS)
 
-It's recommended you create the minimum number of partitions while still effectively meeting your partitioning goals. It's more important to focus an effective partitioning strategy based on granularity and  processing only those partitions with the most relevant changing data within available processing and memory resources. There is no guidance for an optimal number of partitions for a model. Every model is different. Available resources vary depending on your platform and plan.  
+After deploying the model, partitions appear as objects in SQL Server Management Studio (SSMS). Create, edit, merge, and delete partitions for a deployed model by using the Partitions dialog box in SSMS, by executing a Tabular Model Scripting Language (TMSL) script, or programmatically by using the Tabular Object Model (TOM).
 
 ### Tabular Model Scripting Language (TMSL)
 
-Partitions for a model are defined in the [Partitions object](../tmsl/partitions-object-tmsl.md). Actions on a partition object can be specified in [Create](create-command-tmsl.md), [CreateOrReplace](createorreplace-command-tmsl.md), [Alter](alter-command-tmsl.md), [Delete](delete-command-tmsl.md), [Refresh](refresh-command-tmsl.md), and [MergePartitions](mergepartitions-command-tmsl.md) commands. TMSL scripts can be executed in SQL Server Management Studio, by PowerShell, or by 
+Partitions for a model are defined in the [Partitions object](../tmsl/partitions-object-tmsl.md). In the following example, the Sales2019 partition is defined as:
+
+```json
+"partition": {
+      "name": "Sales2019",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = #\"SQL/sqlserver database windows net;Contoso\",",
+          "    dbo_Sales = Source{[Schema=\"dbo\",Item=\"Sales\"]}[Data],",
+          "    #\"Filtered Rows\" = Table.SelectRows(dbo_Sales, each [OrderDateKey] >= 20190101 and [OrderDateKey] <= 20191231)",
+          "in",
+          "    #\"Filtered Rows\""
+        ]
+      },
+```
+
+Actions on the Partitions object can be specified in the following TMSL commands:
+
+- [Create](create-command-tmsl.md)
+- [CreateOrReplace](createorreplace-command-tmsl.md)
+- [Alter](alter-command-tmsl.md)
+- [Delete](delete-command-tmsl.md)
+- [MergePartitions](mergepartitions-command-tmsl.md)
+- [Refresh](refresh-command-tmsl.md)
+
+TMSL scripts can be executed in SQL Server Management Studio, with  PowerShell by running the [Invoke-ASCmd](powershell/module/sqlserver/invoke-ascmd) command, or by a SQLServer Integration Services (SSIS) [Script task](sql/integration-services/control-flow/script-task).
+
+For models at 1100 and 1103 compatibility levels, [Analysis Services Scripting Language (ASSL)](../assl/analysis-services-scripting-language-assl-for-xmla.md) is used instead if TMSL.
 
 ### Tabular Object Model (TOM)
 
-## Process\refresh partitions
+In the Tabular Object Model, partitions are defined by a Partition class in the Microsoft.AnalysisServices.Tabular namespace. To learn more about programmatic solutions using TOM as an API, see [Create tables, partitions, and columns (TOM)](../tom/create-tables-partitions-and-columns-in-a-tabular-model.md), and [Advanced partitioning strategies](#advanced-partitioning-strategies) later in this article.
 
-For deployed models, processing occurs by using SSMS, or by running a script which includes the process command and specifies processing options and settings. When authoring models by using Visual Studio, you can run process operations on the workspace database by using a Process command from the Model menu or toolbar. A Process operation can be specified for a partition, a table, or all.  
-  
-When a process operation is run, a connection to the data source is made using the data source connection. New data is imported into the model tables, relationships and hierarchies are rebuilt for each table, and calculations in calculated columns and measures are re-calculated.  
-  
-By further dividing a table into logical partitions, you can selectively determine what, when, and how the data in each partition is processed. When you deploy a model, processing of partitions can be completed manually using the Partitions dialog box in SSMS, or by using a script that executes a process command.  
+For models at 1100 and 1103 compatibility levels, use [Analysis Management Objects (AMO)](../amo/developing-with-analysis-management-objects-amo.md).
 
-Partitions can be processed independent of other partitions by using the **Partitions** dialog box in [!INCLUDE[ssManStudio](../includes/ssmanstudio-md.md)] or by using a script. Processing has the following options:  
+## Processing partitions
   
-|Mode|Description|  
-|----------|-----------------|  
-|Process Default|Detects the process state of a partition object, and performs processing necessary to deliver unprocessed or partially processed partition objects to a fully processed state. Data for empty tables and partitions is loaded; hierarchies, calculated columns, and relationships are built or rebuilt.|  
-|Process Full|Processes a partition object and all the objects that it contains. When Process Full is run for an object that has already been processed, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] drops all data in the object, and then processes the object. This kind of processing is required when a structural change has been made to an object.|  
-|Process Data|Load data into a partition or a table without rebuilding hierarchies or relationships or recalculating calculated columns and measures.|  
-|Process Clear|Removes all data from a partition.|  
-|Process Add|Incrementally update partition with new data.|  
+When table data is partitioned, those partitions can then be processed at a time and cadence appropriate for your solution. When a process (refresh) operation is run, a connection to the data source is made using the data source connection. Analysis Services uses the queries specified for each partition to query the data source. New and updated data is loaded into the model tables, relationships and hierarchies are rebuilt, and calculated columns are re-calculated.
+
+When authoring models in Visual Studio, you can manually run process operations on workspace database partitions from the menu or toolbar. For deployed models, processing operations are invoked manually by using the Process Tables dialog in SSMS, by running a script which includes the [Refresh command (TMSL)](../tmsl/refresh-command-tmsl.md), or programmatically by using the Tabular Object Model (TOM).
 
 ### Parallel processing
 
-Analysis Services includes parallel processing for tables with two or more partitions, increasing processing performance. There are no configuration settings for parallel processing (see notes). Parallel processing occurs by default when you Process Table or you select multiple partitions for the same table and Process, however, you can still choose to process partitions independently or sequentially. To specify whether refresh operations run sequentially or in parallel, specify the **maxParallism** property option with the [Sequence command (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/sequence-command-tmsl).
+Analysis Services utilizes parallel processing for two or more partitions, increasing processing performance. There are no configuration settings for parallel processing. Parallel processing occurs by default when you Process Table or select multiple partitions for the same table and Process. There are, however, settings that limit parallel processing operations.
+
+#### MaxConnections
+
+By default, each processing operation will connect to and query a data source for each partition. The default maximum number of connections, specified as the **MacConnections** property to a single data source is **10**. Analysis Services determines the number of concurrent processing operations to be run based on the number of cores and available threads. These threads are shared across the server instance. A single command like process may not receive all the available threads. The threads that do launch for processing, one for each parallel processing operation, can be delayed to stay within the MaxConnections limit.
+
+#### MaxParallelism
+
+By default processing operations run in parallel as much as possible. However, you can choose to process partitions sequentially or in parallel by specifying the **maxParallism** property option with the [Sequence command (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/sequence-command-tmsl). Setting the value to 1 means not parallel - one thread is used for processing. Setting the value to 2 or more specifies a fixed number of threads can be used for parallel processing operations.
+
+#### Monitor
+
+To determine effective use of available threads during process operations,
+for Azure Analysis Services, use Azure Metrics Explorer to monitor CommandPoolIdleThreads and CommandPoolBusyThreads. To learn more, see [Monitor server metrics](azure/analysis-services/analysis-services-monitor). For SQL Server Analysis Services, use Performance Monitor to monitor Processing pool idle non-I/O threads and Processing pool busy non-I/O threads. To learn more, see [Performance counters (SSAS)](../instances/performance-counters-ssas.md).
 
 > [!NOTE]  
-> If re-encoding is detected, parallel processing can cause increased use of system resources. This is because multiple partition operations need to be interrupted and restarted with the new encoding in-parallel.  
-  
-## Scripting
+> If re-encoding is detected, parallel processing can cause increased use of resources. This is because multiple partition operations need to be interrupted and restarted with the new encoding in-parallel.  
 
-Tabular Object Model (TOM)
+## Advanced partitioning strategies
+
+The [Automated Partition Management for Analysis Services Tabular Models](https://github.com/microsoft/Analysis-Services/blob/master/AsPartitionProcessing/Automated%20Partition%20Management%20for%20Analysis%20Services%20Tabular%20Models.pdf) .pdf article, along with the accompanying [AsPartitionProcessing](https://github.com/microsoft/Analysis-Services/tree/master/AsPartitionProcessing) code sample in GitHub provides both in-depth information and a solution example for the fictitious company, Advenure Works, by using the Tabular Object Model (TOM) to create and manage partitions. Concepts described in this article and project apply to all Analysis Services platforms.
 
 ## See also
 
-[Create Tables, Partitions, and Columns with the Tabular Object Model (TOM)](../tom/create-tables-partitions-and-columns-in-a-tabular-model.md)
+[Create and manage tabular model partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions.md)  
+[Partitions object (TMSL)](../tmsl/partitions-object-tmsl.md)  
+[Create Tables, Partitions, and Columns with the Tabular Object Model (TOM)](../tom/create-tables-partitions-and-columns-in-a-tabular-model.md)  
+[Create partitions (tutorial lesson)](../tutorial-tabular-1400/as-lesson-10-create-partitions.md)
