@@ -105,7 +105,7 @@ Actions on the Partitions object can be specified in the following TMSL commands
 - [MergePartitions](../tmsl/mergepartitions-command-tmsl.md)
 - [Refresh](../tmsl/refresh-command-tmsl.md)
 
-TMSL scripts can be executed in SQL Server Management Studio, with  PowerShell by running the [Invoke-ASCmd](powershell/module/sqlserver/invoke-ascmd) command, or by a SQLServer Integration Services (SSIS) [Script task](sql/integration-services/control-flow/script-task).
+TMSL scripts can be executed in SQL Server Management Studio, with  PowerShell by running the [Invoke-ASCmd](/powershell/module/sqlserver/invoke-ascmd) command, or by a SQLServer Integration Services (SSIS) [Script task](/sql/integration-services/control-flow/script-task).
 
 For models at 1100 and 1103 compatibility levels, [Analysis Services Scripting Language (ASSL)](../assl/analysis-services-scripting-language-assl-for-xmla.md) is used instead if TMSL.
 
@@ -136,7 +136,7 @@ By default processing operations run in parallel as much as possible. However, y
 #### Monitor
 
 To determine effective use of available threads during process operations,
-for Azure Analysis Services, use Azure Metrics Explorer to monitor CommandPoolIdleThreads and CommandPoolBusyThreads. To learn more, see [Monitor server metrics](azure/analysis-services/analysis-services-monitor). For SQL Server Analysis Services, use Performance Monitor to monitor Processing pool idle non-I/O threads and Processing pool busy non-I/O threads. To learn more, see [Performance counters (SSAS)](../instances/performance-counters-ssas.md).
+for Azure Analysis Services, use Azure Metrics Explorer to monitor CommandPoolIdleThreads and CommandPoolBusyThreads. To learn more, see [Monitor server metrics](/azure/analysis-services/analysis-services-monitor). For SQL Server Analysis Services, use Performance Monitor to monitor Processing pool idle non-I/O threads and Processing pool busy non-I/O threads. To learn more, see [Performance counters (SSAS)](../instances/performance-counters-ssas.md).
 
 > [!NOTE]  
 > If re-encoding is detected, parallel processing can cause increased use of resources. This is because multiple partition operations need to be interrupted and restarted with the new encoding in-parallel.  
