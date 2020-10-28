@@ -98,12 +98,12 @@ Partitions for a model are defined in the [Partitions object](../tmsl/partitions
 
 Actions on the Partitions object can be specified in the following TMSL commands:
 
-- [Create](create-command-tmsl.md)
-- [CreateOrReplace](createorreplace-command-tmsl.md)
-- [Alter](alter-command-tmsl.md)
-- [Delete](delete-command-tmsl.md)
-- [MergePartitions](mergepartitions-command-tmsl.md)
-- [Refresh](refresh-command-tmsl.md)
+- [Create](../tmsl/create-command-tmsl.md)
+- [CreateOrReplace](../tmsl/createorreplace-command-tmsl.md)
+- [Alter](../tmsl/alter-command-tmsl.md)
+- [Delete](../tmsl/delete-command-tmsl.md)
+- [MergePartitions](../tmsl/mergepartitions-command-tmsl.md)
+- [Refresh](../tmsl/refresh-command-tmsl.md)
 
 TMSL scripts can be executed in SQL Server Management Studio, with  PowerShell by running the [Invoke-ASCmd](powershell/module/sqlserver/invoke-ascmd) command, or by a SQLServer Integration Services (SSIS) [Script task](sql/integration-services/control-flow/script-task).
 
