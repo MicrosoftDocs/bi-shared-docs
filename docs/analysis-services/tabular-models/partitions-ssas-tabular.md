@@ -39,11 +39,13 @@ When entering the 2021 fiscal year, a new Sales2021 partition is added to the mo
 
 Granularity is influenced by various factors including how much data is required to be incrementally processed within an acceptable amount of time. For example, if only the last whole day needs to be processed daily, it may be beneficial to use daily granularity. Mixed granularity can be configured for scenarios such as near-real time refresh at low grain coupled with historical, static partitions at higher granularity. This results in fewer partitions, but also increases management overhead to ensure partition ranges are defined correctly.
 
+Partitioning is also effective for tables containing data from more than one data source. Different data sources may update data at different times, which can determine different granularity and processing requirements for the model's table data. For example, an Orders table in a model contains order transactions from two different fact tables, factInternetOrders and factRetailOrders. At the data source, factInternetOrders is updated hourly. factRetailOrders on the other hand is updated only once a day after all retail stores are closed. By creating separate partitions at different granularities in the model Orders table for data imported from both factInternetOrders and factRetailOrders, processing operations on the Orders table can be separated and executed more inline with order data at the data sources.
+
 Each scenario is unique. Be sure to define a granularity for your data model that most effectively divides data into partitions that must be processed often compared to those that don't.
 
 ### Partition limits
 
-Regardless of platform, there is no hard limit on the number of partition objects in a model. However, each partition has at least one segment of data with a memory footprint. An excessive number of partitions can consume too much memory, and the speed of metadata operations over too many partitions can adversely affect processing resources.
+Regardless of platform, there is no hard limit on the number of partition objects in a model. However, each partition has at least one segment of data with a memory footprint. Too many small partitions can lead to too many small segments. Query performance can be negatively affected when the storage engine has to scan an excessive number of segments. The speed of metadata operations over too many partitions can also adversely affect processing resources.
 
 Create the minimum number of partitions while still effectively meeting your partitioning goals. It's more important to focus an effective partitioning strategy based on granularity, and processing only those partitions with the most relevant changing data within available processing and memory resources at times when user queries are low.
 
