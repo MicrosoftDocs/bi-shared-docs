@@ -25,7 +25,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 > [!IMPORTANT]  
 >  For users to connect to a deployed model by using a reporting client application, you must create at least one role with at least Read permission to which those users are members.  
   
- Information in this topic is meant for tabular model authors who define roles by using the Role Manager dialog box in SSDT. Roles defined during model authoring apply to the model workspace database. After a model database has been deployed, model database administrators can manage (add, edit, delete) role members by using SSMS.
+ Information in this article is meant for tabular model authors who define roles by using the Role Manager dialog box in SSDT. Roles defined during model authoring apply to the model workspace database. After a model database has been deployed, model database administrators can manage (add, edit, delete) role members by using SSMS.
   
 ##  <a name="bkmk_underst"></a> Understanding roles  
  Roles are used in Analysis Services to manage model data access. There are two types of roles:  
@@ -36,7 +36,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
   
  Roles defined for a tabular model are database roles. That is, the roles contain members consisting of users or groups that have specific permissions that define the action those members can take on the model database. A database role is created as a separate object in the database, and applies only to the database in which that role is created. Users and groups are included in the role by the model author, which, by default, has Administrator permissions on the workspace database server; for a deployed model, by an administrator.  
   
- Roles in tabular models can be further defined with row filters. Row filters use DAX expressions to define the rows in a table, and any related rows in the many direction, that a user can query. Row filters using DAX expressions can only be defined for the Read and Read and Process permissions. To learn more, see [Row Filters](#bkmk_rowfliters) later in this topic.  
+ Roles in tabular models can be further defined with row filters. Row filters use DAX expressions to define the rows in a table, and any related rows in the many direction, that a user can query. Row filters using DAX expressions can only be defined for the Read and Read and Process permissions. To learn more, see [Row Filters](#bkmk_rowfliters) later in this article.  
   
  By default, when you create a new tabular model project, the model project does not have any roles. Roles can be defined by using the Role Manager dialog box in SSDT. When roles are defined during model authoring, they are applied to the model workspace database. When the model is deployed, the same roles are applied to the deployed model. After a model has been deployed, members of the server role ([Analysis Services Administrator) and database administrators can manage the roles associated with the model and the members associated with each role by using SSMS.  
   
@@ -120,7 +120,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[Create and Manage Roles](../../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md)|Tasks in this topic describe how to create and manage roles by using the **Role Manager** dialog box.|  
+|[Create and Manage Roles](../../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md)|Tasks in this article describe how to create and manage roles by using the **Role Manager** dialog box.|  
   
 ## See Also  
  [Perspectives](../../analysis-services/tabular-models/perspectives-ssas-tabular.md)   
