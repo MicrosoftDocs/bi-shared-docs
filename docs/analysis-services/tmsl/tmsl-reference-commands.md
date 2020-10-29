@@ -1,7 +1,7 @@
 ---
 title: "Commands in Tabular Model Scripting Language (TMSL) | Microsoft Docs"
 description: See a list of the Tabular Model Scripting Language (TMSL) commands used against tabular model databases.
-ms.date: 07/20/2018
+ms.date: 10/20/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
@@ -11,11 +11,11 @@ ms.reviewer: owend
 author: minewiskan
 manager: kfile
 ---
-# TMSL Reference - Commands
+# TMSL Reference - Commands overview
 
 [!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
-  You can execute commands on an XMLA endpoint, formulating object definitions in JSON using the Tabular Model Scripting Language (TMSL), against tabular model databases. See [Object Definitions in Tabular Model Scripting Language &#40;TMSL&#41;](tmsl-reference-tabular-objects.md) for a list of objects used with the following commands.  
+You can execute commands on an XMLA endpoint, formulating object definitions in JSON using the Tabular Model Scripting Language (TMSL), against tabular model databases. See [TMSL Reference - Objects overview](tmsl-reference-tabular-objects.md) for a list of objects used with the following commands.  
   
 ## Object operations  
   

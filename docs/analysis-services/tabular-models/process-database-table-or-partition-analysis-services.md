@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  The tasks in this topic describe how to process a tabular model database, table, or partitions manually by using the **Process \<object>** dialog box in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
+  The tasks in this article describe how to process a tabular model database, table, or partitions manually by using the **Process \<object>** dialog box in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
   
 ##  <a name="bkmk_process_db"></a> To process a database  
   
@@ -67,7 +67,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 4.  In the **Process** checkbox column, select the partitions you want to process with the selected mode, and then click **Ok**.  
   
 ## See Also  
- [Tabular Model Partitions](../../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md)   
- [Create and Manage Tabular Model Partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md)  
+
+ [Create and Manage Tabular Model Partitions](../../analysis-services/tabular-models/create-and-manage-tabular-model-partitions.md)  
   
   
