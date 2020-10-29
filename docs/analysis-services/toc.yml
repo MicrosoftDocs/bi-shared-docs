@@ -382,10 +382,8 @@
       items: 
       - name: Partitions in tabular models
         href: ../analysis-services/tabular-models/partitions-ssas-tabular.md
-      - name: Create and manage partitions in the workspace database
-        href: ../analysis-services/tabular-models/create-and-manage-partitions-in-the-workspace-database-ssas-tabular.md
-      - name: Process partitions in the workspace database
-        href: ../analysis-services/tabular-models/process-partitions-in-the-workspace-database-ssas-tabular.md
+      - name: Create and manage partitions
+        href: ../analysis-services/tabular-models/create-and-manage-tabular-model-partitions.md
     - name: Perspectives
       href: ../analysis-services/tabular-models/perspectives-ssas-tabular.md
     - name: Roles
@@ -406,16 +404,7 @@
         href: ../analysis-services/tabular-models/process-database-table-or-partition-analysis-services.md
       - name: Manage roles by using SSMS
         href: ../analysis-services/tabular-models/manage-roles-by-using-ssms-ssas-tabular.md
-      - name: Manage partitions
-        items:
-        - name: Tabular model partitions 
-          href: ../analysis-services/tabular-models/tabular-model-partitions-ssas-tabular.md
-        - name: Create and manage tabular model partitions
-          href: ../analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular.md
-        - name: Process tabular model partitions
-          href: ../analysis-services/tabular-models/process-tabular-model-partitions-ssas-tabular.md
-    - name: Connect to a tabular model database
-      href: ../analysis-services/tabular-models/connect-to-a-tabular-model-database-ssas.md
+
   - name: Multidimensional modeling
     items:
     - name: Multidimensional modeling overview
