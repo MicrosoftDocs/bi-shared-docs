@@ -1,7 +1,7 @@
 ---
 title: "Calculation groups in Analysis Services tabular models | Microsoft Docs"
 description: Learn how calculation groups can significantly reduce the number of redundant measures by grouping common measure expressions as calculation items. 
-ms.date: 08/28/2020
+ms.date: 11/03/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -432,6 +432,8 @@ Calculation groups are supported in Visual Studio with Analysis Services Project
 [Row level security](roles-ssas-tabular.md#bkmk_rowfliters) (RLS) is not supported. Define RLS on tables in the same model, but not on calculation groups themselves (directly or indirectly).
 
 [Detail Rows Expressions](../tutorial-tabular-1400/as-supplemental-lesson-detail-rows.md) are not supported with calculation groups.
+
+[Smart narrative](/power-bi/visuals/power-bi-visualization-smart-narrative) visuals in Power BI are not supported with calculation groups.
 
 ## See also  
 
