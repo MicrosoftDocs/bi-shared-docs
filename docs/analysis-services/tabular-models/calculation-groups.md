@@ -429,7 +429,7 @@ Calculation groups are supported in Visual Studio with Analysis Services Project
 
 [Object level security](object-level-security.md) (OLS) defined on calculation group tables is not supported. However, OLS can be defined on other tables in the same model. If a calculation item refers to an OLS secured object, a generic error is returned.
 
-[Row level security](roles-ssas-tabular.md#bkmk_rowfliters) (RLS) is not supported. Define RLS on tables in the same model, but not on calculation groups themselves (directly or indirectly).
+[Row level security](roles-ssas-tabular.md#row-filters) (RLS) is not supported. Define RLS on tables in the same model, but not on calculation groups themselves (directly or indirectly).
 
 [Detail Rows Expressions](../tutorial-tabular-1400/as-supplemental-lesson-detail-rows.md) are not supported with calculation groups.
 
