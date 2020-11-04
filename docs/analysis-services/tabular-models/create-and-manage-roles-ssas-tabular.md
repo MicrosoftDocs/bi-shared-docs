@@ -1,7 +1,7 @@
 ---
-title: "Create and manage roles in Analysis Services tabular models | Microsoft Docs"
+title: "Create and manage roles for Analysis Services tabular models projects | Microsoft Docs"
 description: Learn how to create and manage roles during model authoring by using the Role Manager dialog box in SQL Server Data Tools.
-ms.date: 01/29/2020
+ms.date: 11/03/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -11,33 +11,33 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
-# Create and manage roles
+# Create and manage roles in Visual Studio
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  Roles, in tabular models, define member permissions for a model. Roles are defined for a model project by using the Role Manager dialog box in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)]. 
+This article describes how to use Role Manager in Visual Studio to create roles, define role permissions, and add users for a tabular model project. To learn about creating and managing roles for a deployed model, see [Create and manage roles in SSMS](manage-roles-by-using-ssms-ssas-tabular.md).
 
 > [!IMPORTANT]
-> If you're deploying your project to Azure Analysis Services, use **Integrated Workspace** as your workspace database. To learn more, see [Workspace database](workspace-database-ssas-tabular.md).
+> If you're deploying your project to Azure Analysis Services or Power BI, use **Integrated Workspace** as your workspace database. To learn more, see [Workspace database](workspace-database-ssas-tabular.md).
+
+> [!NOTE]
+> Model roles in Power BI are used only for row-level security filters (RLS). Only Read permission are supported. Use the Power BI security model to control permissions beyond RLS.
+
+## Use Role Manager
   
- The tasks in this article describe how to create and manage roles during model authoring by using the Role Manager dialog box in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)]. 
+To create, edit, copy, and delete roles, use the **Role Manager** dialog box. To view the **Role Manager** dialog box, in Visual Studio, click **Extensions** > **Model** > **Role Manager**.  
+
+### To create a role
   
-## Tasks  
- To create, edit, copy, and delete roles, you will use the **Role Manager** dialog box. To view the **Role Manager** dialog box, in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click the **Model** menu, and then click **Role Manager**.  
-  
-###  <a name="bkmk_new_role"></a> To create a new role  
-  
-1.  In [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], click the **Model** menu, and then click **Role Manager**.  
-  
-2.  In the **Role Manager** dialog box, click **New**.  
+1. In **Role Manager**, click **New**.  
   
      A new highlighted role is added to the Roles list.  
   
-3.  In the **Roles** list, in the **Name** field, type a name for the role.  
+1. In the **Roles** list, in the **Name** field, type a name for the role.  
   
      By default, the name of the default role will be incrementally numbered for each new role. It is recommended you type a name that clearly identifies the member type, for example, Finance Managers or Human Resources Specialists.  
   
-4.  In the **Permissions** field, click the down arrow and then select one of the following permission types:  
+1. In the **Permissions** field, click the down arrow and then select one of the following permission types:  
   
     |Permission|Description|  
     |----------------|-----------------|  
@@ -47,20 +47,21 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
     |**Process**|Members can run Process and Process All operations. Cannot modify the model schema and cannot query data.|  
     |**Administrator**|Members can make modifications to the model schema and can query all data.|  
   
-5.  To enter a description for the role, click the **Description** field, and then type a description.  
+1. To enter a description for the role, click the **Description** field, and then type a description.  
   
-6.  If the role you are creating has Read or Read and Process permission, you can add row filters using a DAX formula. To add row filters, click the **Row Filters** tab, then select a table, then click the **DAX Filter** field, and then type a DAX formula.  
+1. If the role you are creating has Read or Read and Process permission, you can add row filters by using a DAX formula. To add row filters, click the **Row Filters** tab, then select a table, then click the **DAX Filter** field, and then type a DAX formula.  
   
-7.  To add members to the role, click the **Members** tab, and then click **Add**.  
+1. To add members to the role, click the **Members** tab, and then click **Add**.  
   
     > [!NOTE]  
     >  Role members can also be added to a deployed model by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]. For more information, see [Manage Roles by using SSMS](../../analysis-services/tabular-models/manage-roles-by-using-ssms-ssas-tabular.md).  
   
-8.  In the **Select Users or Groups** dialog box, enter Windows user or Windows group objects as members.  
+1. In the **Select Users or Groups** dialog box, enter Windows user or Windows group objects as members.  
   
-9. Click **Ok**.  
+1. Click **Ok**.  
   
-## See also  
+## See also
+
  [Roles](../../analysis-services/tabular-models/roles-ssas-tabular.md)   
  [Perspectives](../../analysis-services/tabular-models/perspectives-ssas-tabular.md)   
  [CUSTOMDATA Function (DAX)](/dax/customdata-function-dax)  
