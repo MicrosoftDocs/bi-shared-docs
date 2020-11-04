@@ -1,7 +1,7 @@
 ---
 title: "Manage Analysis Services tabular model roles by using SSMS | Microsoft Docs"
 description: Learn how to create, edit, and manage roles for a deployed tabular model by using SQL Server Management Studio.
-ms.date: 01/29/2020
+ms.date: 11/03/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -9,31 +9,27 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Manage roles by using SSMS
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  You can create, edit, and manage roles for a deployed tabular model by using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
+This article describes how to use [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] (SSMS) to create roles, define role permissions, and add users for deployed tabular models or Power BI Premium datasets. To learn about using Visual Studio to create and manage roles for tabular model projects, see [Create and manage roles in Visual Studio](create-and-manage-roles-ssas-tabular.md).
+
+## Use SSMS
+
+### To create a new role
   
-> [!CAUTION]  
->  Re-deploying a tabular model project with roles defined by using Role Manager in Visual Studio will overwrite roles defined in a deployed tabular model.  
+1. In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database for which you want to create a new role, then right click on **Roles**, and then click **New Role**.  
   
-> [!CAUTION]  
->  Using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] to manage a tabular model workspace database while the model project is open in Visual Studio may cause the Model.bim file to become corrupted. When creating and managing roles for a tabular model workspace database, use Role Manager in Visual Studio.  
+2. In the **Create Role** dialog box, in the Select a page window, click **General**.  
   
-###  <a name="bkmk_new_role"></a> To create a new role
-  
-1.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database for which you want to create a new role, then right click on **Roles**, and then click **New Role**.  
-  
-2.  In the **Create Role** dialog box, in the Select a page window, click **General**.  
-  
-3.  In the general settings window, in the **Name** field, type a name for the role.  
+3. In the general settings window, in the **Name** field, type a name for the role.  
   
      By default, the name of the default role will be incrementally numbered for each new role. It is recommended you type a name that clearly identifies the member type, for example, Finance Managers or Human Resources Specialists.  
   
-4.  In **Set the database permissions for this role**, select one of the following permissions options:  
+4. In **Set the database permissions for this role**, select one of the following permissions options:  
   
     |Permission|Description|  
     |----------------|-----------------|  
@@ -41,34 +37,58 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
     |**Process database**|Members can run Process and Process All operations. Cannot modify the model schema and cannot view data.|  
     |**Read**|Members are allowed to view data (based on row filters) but cannot make any changes to the model schema.|  
   
-5.  In the **Create Role** dialog box, in the Select a page window, click **Membership**.  
+5. In the **Create Role** dialog box, in the Select a page window, click **Membership**.  
   
-6.  In the membership settings window, click **Add**, and then in the **Select Users or Groups** dialog box, add the Windows users or groups you want to add as members.  
+6. In the membership settings window, click **Add**, and then in the **Select Users or Groups** dialog box, add users or groups you want to add as members.  
   
-7.  If the role you are creating has Read permissions, you can add row filters for any table using a DAX formula. To add row filters, in the **Role Properties - \<rolename>** dialog box, in **Select a page**, click on **Row Filters**.  
+7. If the role you are creating has Read permissions, you can add row filters for any table by using a DAX formula. To add row filters, in the **Role Properties - \<rolename>** dialog box, in **Select a page**, click on **Row Filters**.  
   
-8.  In the row filters window, select a table, then click on the **DAX Filter** field, and then in the **DAX Filter - \<tablename>** field, type a DAX formula.  
+8. In the row filters window, select a table, then click on the **DAX Filter** field, and then in the **DAX Filter - \<tablename>** field, type a DAX formula.  
   
     > [!NOTE]  
-    >  The DAX Filter - \<tablename> field does not contain an AutoComplete query editor or insert function feature. To use AutoComplete when writing a DAX formula, you must use a DAX formula editor in Visual Studio.  
+    >  The DAX Filter - \<tablename> field does not contain an AutoComplete query editor or insert function feature.  
   
 9. Click **Ok** to save the role.  
   
-###  <a name="bkmk_copy_role"></a> To copy a role  
+### To copy a role  
   
-1.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to copy, then expand **Roles**, then right click on the role, and then click **Duplicate**.  
+1. In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to copy, then expand **Roles**, then right click on the role, and then click **Duplicate**.  
   
-###  <a name="bkmk_edit_role"></a> To edit a role  
+### To edit a role  
   
--   In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to edit, then expand **Roles**, then right click on the role, and then click **Properties**.  
+- In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to edit, then expand **Roles**, then right click on the role, and then click **Properties**.  
   
      In the **Role Properties** \<rolename> dialog box, you can change permissions, add or remove members, and add/edit row filters.  
   
-###  <a name="bkmk_deletet_role"></a> To delete a role  
+### To delete a role  
   
--   In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to delete, then expand **Roles**, then right click on the role, and then click **Delete**.  
-  
-## See Also  
- [Roles](../../analysis-services/tabular-models/roles-ssas-tabular.md)  
-  
-  
+- In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], expand the tabular model database that contains the role you want to delete, then expand **Roles**, then right click on the role, and then click **Delete**.  
+
+## Script
+
+Roles for deployed models and datasets can be scripted by using [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scripting-language-tmsl-reference.md) to create or modify the [Roles object](../tmsl/roles-object-tmsl.md). TMSL scripts can be executed in SSMS or with the [Invoke-ASCmd](/powershell/module/sqlserver/invoke-ascmd?view=sqlserver-ps&preserve-view=true) PowerShell cmdlet.
+
+Right-click the database object > **Script** > **Script database as** > **CREATE or REPLACE To** > **New Query Editor Window**. Roles are defined in the roles object, for example:
+
+```json
+        "roles": [
+          {
+            "name": "Sales Manager",
+            "modelPermission": "read"
+          },
+          {
+            "name": "Sales Analyst US",
+            "modelPermission": "read",
+            "tablePermissions": [
+              {
+                "name": "DimGeography",
+                "filterExpression": "DimGeography[CountryRegionCode] = \"US\" "
+              }
+            ]
+          }
+        ],
+```
+
+## See also
+
+[Roles](../../analysis-services/tabular-models/roles-ssas-tabular.md)  
