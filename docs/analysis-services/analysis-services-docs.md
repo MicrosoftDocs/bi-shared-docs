@@ -1,6 +1,6 @@
 ---
 title: "Analysis Services documentation overview| Microsoft Docs"
-ms.date: 08/31/2020
+ms.date: 10/30/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: overview
@@ -27,7 +27,7 @@ If you're using Azure Analysis Services, it's best to start with [Azure Analysis
 
 ### Power BI Premium 
 
-If you're using Power BI Premium, many of the same tools, Tabular Model Scripting Language (TMSL), and Tabular Object Model (TOM) used for Azure Analysis Services and SQL Server Analysis Services now work with Power BI Premium workspaces and datasets. To learn more, it's best to start with the [Analysis Services in Power BI Premium (Preview)](https://docs.microsoft.com/power-bi/service-premium-what-is#analysis-services-in-power-bi-premium-preview).
+If you're using Power BI Premium, many of the same tools, Tabular Model Scripting Language (TMSL), and Tabular Object Model (TOM) used for Azure Analysis Services and SQL Server Analysis Services now work with Power BI Premium workspaces and datasets. To learn more, it's best to start with the [Analysis Services in Power BI Premium](https://docs.microsoft.com/power-bi/service-premium-what-is#analysis-services-in-power-bi-premium).
 
 ### SQL Server Analysis Services
 
