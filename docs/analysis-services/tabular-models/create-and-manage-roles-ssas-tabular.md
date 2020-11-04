@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-This article describes how to use Role Manager in Visual Studio to create roles, define role permissions, and add users for a tabular model project. To learn about creating and managing roles for a deployed model, see [Manage roles by using SSMS](manage-roles-by-using-ssms-ssas-tabular.md).
+This article describes how to use Role Manager in Visual Studio to create roles, define role permissions, and add users for a tabular model project. To learn about creating and managing roles for a deployed model, see [Create and manage roles in SSMS](manage-roles-by-using-ssms-ssas-tabular.md).
 
 > [!IMPORTANT]
 > If you're deploying your project to Azure Analysis Services or Power BI, use **Integrated Workspace** as your workspace database. To learn more, see [Workspace database](workspace-database-ssas-tabular.md).

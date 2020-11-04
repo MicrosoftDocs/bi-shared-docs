@@ -390,20 +390,19 @@
       items:
       - name: Roles in tabular models
         href: ../analysis-services/tabular-models/roles-ssas-tabular.md
-      - name: Create and manage roles
+      - name: Create and manage roles in Visual Studio
         href: ../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md
+      - name: Create and manage roles in SSMS
+        href: ../analysis-services/tabular-models/manage-roles-by-using-ssms-ssas-tabular.md
       - name: Object-level security
         href: ../analysis-services/tabular-models/object-level-security.md
     - name: Translations
       href: ../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md
     - name: Deploy from Visual Studio
       href: ../analysis-services/deployment/deploy-from-visual-studio-tabular.md
-    - name: Manage deployed model databases
-      items:
-      - name: Process database, table, or partition
-        href: ../analysis-services/tabular-models/process-database-table-or-partition-analysis-services.md
-      - name: Manage roles by using SSMS
-        href: ../analysis-services/tabular-models/manage-roles-by-using-ssms-ssas-tabular.md
+    - name: Process deployed database, table, or partition
+      href: ../analysis-services/tabular-models/process-database-table-or-partition-analysis-services.md
+
 
   - name: Multidimensional modeling
     items:
