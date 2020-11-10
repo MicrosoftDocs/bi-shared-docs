@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 10/12/2020
+ms.date: 11/09/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -24,10 +24,10 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.61.21     |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.61.21        |
-|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.12.3.0     |
-|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.12.3.0      |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.65.22     |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.65.22        |
+|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.12.7.0     |
+|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.12.7.0      |
 
 ### NuGet packages
 
@@ -44,8 +44,8 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.12.3.0      |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.12.3.0       |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.12.7.0      |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.12.7.0       |
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
@@ -53,8 +53,8 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.12.3.0  (Preview)    |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.12.3.0  (Preview)      |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.12.7.0  (Preview)    |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.12.7.0  (Preview)      |
 
 ::: moniker-end
 
@@ -101,3 +101,40 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
  ADOMD.NET is a managed data client library used for querying Analysis Services data. It's installed and used by tools and client applications.
   
  When connecting to a database, the connection string properties for all three libraries are similar. Almost any connection string you define for ADOMD.NET by using  [Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString](/dotnet/api/microsoft.analysisservices.adomdclient.adomdconnection.connectionstring#Microsoft_AnalysisServices_AdomdClient_AdomdConnection_ConnectionString) also works for AMO and the Analysis Services OLE DB Provider (MSOLAP). To learn more, see [Connection string properties](instances/connection-string-properties-analysis-services.md).
+
+## Check installed versions
+
+### OLEDDB (MSOLAP)  
+
+1. Go to `C:\Program Files\Microsoft Analysis Services\AS OLEDB\`. If you have more than one folder, choose the higher number.
+1. Right-click **msolap.dll** > **Properties** > **Details**. Check the **Product version** property. Note: If the filename is msolap140.dll, it's older than latest version and should be upgraded.
+
+    ![MSOLAP Client library details dialog](media/client-libraries/msolap-details.png)
+
+### AMO
+
+1. Go to `C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.AnalysisServices\`. If you have more than one folder, choose the higher number.
+1. Right-click **Microsoft.AnalysisServices** > **Properties** > **Details**.  
+
+    ![AMO Client library details dialog](media/client-libraries/amo-details.png)
+
+### ADOMD
+
+1. Go to `C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.AnalysisServices.AdomdClient\`. If you have more than one folder, choose the higher number.
+1. Right-click **Microsoft.AnalysisServices.AdomdClient** > **Properties** > **Details**.  
+
+    ![ADOMD Client library details dialog](media/client-libraries/adomd-details.png)
+
+## Manually update
+
+Client libraries are typically installed and updated automatically along with tools and client applications that use them. However, in some cases  client libraries may not be updated automatically and each must be manually updated. To update manually, download and run the Windows Installer (.msi) package for each client library. When run, the Setup dialog notifies you with a message if you have an older version on your computer and prompts you to update.
+
+### To download and update
+
+1. Click:
+    - [Download MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576) or [Download MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)
+    - [Download AMO](https://go.microsoft.com/fwlink/?linkid=829578)
+    - [Download ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)
+
+1. In **Downloads**, click a Windows Installer Package to run Setup.
+1. In Setup, click **Next**, and then follow the steps to install. If you  have an older version of a client library, you are prompted with a message to update. A restart is not required.
