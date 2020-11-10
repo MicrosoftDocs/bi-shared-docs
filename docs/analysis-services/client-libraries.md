@@ -125,11 +125,11 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
 
     ![ADOMD Client library details dialog](media/client-libraries/adomd-details.png)
 
-## Update client libraries
+## Manually update
 
 Client libraries are typically installed and updated automatically along with tools and client applications that use them. However, in some cases  client libraries may not be updated automatically and each must be manually updated. To update manually, download and run the Windows Installer (.msi) package for each client library. When run, the Setup dialog notifies you with a message if you have an older version on your computer and prompts you to update.
 
-### To update OLEDDB (MSOLAP)
+### To download and update
 
 1. Click:
     - [Download MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576) or [Download MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)
