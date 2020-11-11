@@ -81,7 +81,7 @@ manager: kfile
 |96|PageIn Begin|PageIn Begin.|  
 |97|PageIn End|PageIn End|  
   
-**[Job Graph Events Category](jobgraph-events-event-category.md)**  
+**[Job Graph Events Event Category](jobgraph-events-event-category.md)**  
   
  Collection of events related to database processing job dependencies. 
   
