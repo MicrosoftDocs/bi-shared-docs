@@ -33,10 +33,7 @@ Client libraries are necessary for client applications and tools to connect to A
 
 Analysis Services Management Objects (AMO) and ADOMD client libraries are available as installable packages from [NuGet.org](https://www.nuget.org/). It's recommended you migrate to NuGet references instead of using Windows Installer.
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 Starting June 2020, *preview* versions of [.NET Core](https://docs.microsoft.com/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. Preview versions have some limitations. To learn more, see [Known issues](#known-issues) later in this article.
-
-::: moniker-end
 
 NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR.PATCH. NuGet references load the expected version even if there is a different version in the GAC (resulting from MSI install). PATCH is incremented for each release. AMO and ADOMD versions are kept in-sync.
 
@@ -47,8 +44,6 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 |[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.12.7.2      |
 |[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.12.7.2       |
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
-
 #### AMO and ADOMD .Net Core (Preview)
 
 |Package  | Version  |
@@ -56,23 +51,23 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 |[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.12.7.2  (Preview)    |
 |[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.12.7.2  (Preview)      |
 
-::: moniker-end
-
 ## Known issues
 
-#### 19.12.3.0 - AMO
-
-This release introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
-
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
-
-#### 19.12.7.2 and higher - AMO and ADOMD .Net Core (Preview)
+#### AMO and ADOMD .Net Core (Preview)
 
 - Features in preview should not be used in a production environment. Certain functionality, support, and documentation is limited. Refer to the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) for details.
 
 - There has been limited performance and stress testing done for the public preview.
 
-::: moniker-end
+#### 19.12.7.2 and higher - AMO and ADOMD .Net Core (Preview)
+
+- 19.12.7.2 of the .Net Core libraries introduces preview support for on-prem Analysis Services. Earlier preview versions only supported Azure Analysis Services and Power BI datasets.
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
+
+#### 19.12.3.0 - AMO
+
+This release introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
 
 ## Understanding client libraries
 
