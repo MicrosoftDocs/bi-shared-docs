@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 11/09/2020
+ms.date: 11/11/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -137,4 +137,7 @@ Client libraries are typically installed and updated automatically along with to
     - [Download ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)
 
 1. In **Downloads**, click a Windows Installer Package to run Setup.
-1. In Setup, click **Next**, and then follow the steps to install. If you  have an older version of a client library, you are prompted with a message to update. A restart is not required.
+1. In Setup, click **Next**. If you have an older version, you're prompted with a message to update.
+1. Read the license agreement. If you agree, select **I accept the terms in the license agreement**, and then click **Next**.
+1. Click, **Install**.
+1. When completed, click **Finish**.
