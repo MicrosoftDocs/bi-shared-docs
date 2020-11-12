@@ -18,7 +18,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 You can  change the data access properties of a tabular model that has already been deployed, enabling DirectQuery mode, where queries execute against a backend relational data source rather than cached data residing in-memory.  
   
 > [!IMPORTANT]  
-> It's recommended you use Tabular model designer in Visual Studio instead of SQL Server Management Studio (SSMS) to switch data storage modes. When using SSMS to change the model mode, and then follow that up with deployment to the server,  the model and database stay in sync. Moreover, changing the storage modes in the model lets you review any validation errors that occur. When using SSMS as described in this article, validation errors are not reported.  
+> It's recommended you use Tabular model designer in Visual Studio instead of SQL Server Management Studio (SSMS) to switch data storage modes. When using Visual Studio to change the model mode, and then follow that up with deployment to the server,  the model and database stay in sync. Moreover, changing the storage modes in the model lets you review any validation errors that occur. When using SSMS as described in this article, validation errors are not reported.  
   
 ## Requirements  
 
