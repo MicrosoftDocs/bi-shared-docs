@@ -24,7 +24,7 @@ manager: kfile
   
 -   The name of the cube that sets the context of the MDX query.  
   
--   The set of members or tuples to include on the slicer axis. For more information about slicer and query axes, see[Restricting the Query with Query and Slicer Axes &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-query-and-slicer-axes-restricting-the-query.md).  
+-   The set of members or tuples to include on the slicer axis. For more information about slicer and query axes, see [Restricting the Query with Query and Slicer Axes &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-query-and-slicer-axes-restricting-the-query.md).  
   
  To identify the query axes, the cube that will be queried, and the slicer axis, the MDX SELECT statement uses the following clauses:  
   
