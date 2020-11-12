@@ -20,7 +20,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
  All Analysis Services events can be captured and targeted to specific consumers, as defined in [Extended Events](/sql/relational-databases/extended-events/extended-events).  
   
 > [!NOTE]  
->  Watch this [quick video introduction](https://www.youtube.com/watch?v=ja2mOHWRVC0&index=1&list=PLv2BtOtLblH1YvzQ5YnjfQFr_oKEvMk19) or read the [supporting blog post](https://docs.microsoft.com/en-us/archive/blogs/analysisservices/using-extended-events-with-sql-server-analysis-services-2016-ctp-2-3) to learn more about xEvents for Analysis Services in SQL Server 2016.  
+>  Watch this [quick video introduction](https://www.youtube.com/watch?v=ja2mOHWRVC0&index=1&list=PLv2BtOtLblH1YvzQ5YnjfQFr_oKEvMk19) or read the [supporting blog post](https://docs.microsoft.com/archive/blogs/analysisservices/using-extended-events-with-sql-server-analysis-services-2016-ctp-2-3) to learn more about xEvents for Analysis Services in SQL Server 2016.  
   
   
 ##  <a name="bkmk_ssas_extended_events_ssms"></a> Use Management Studio to Configure Analysis Services  
