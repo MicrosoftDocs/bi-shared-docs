@@ -1194,6 +1194,10 @@
           href: trace-events/file-load-and-save-event-category.md
         - name: File Load and Save Data Columns
           href: trace-events/file-load-and-save-data-columns.md
+        - name: Job Graph Events Event Category
+          href: trace-events/jobgraph-events-event-category.md
+        - name: Job Graph Events Data Columns
+          href: trace-events/jobgraph-events-data-columns.md
         - name: Lock Events Category
           href: trace-events/lock-events-category.md
         - name: Lock Events Data Columns
