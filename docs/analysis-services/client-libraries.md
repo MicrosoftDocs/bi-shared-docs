@@ -127,7 +127,7 @@ Microsoft client applications like Power BI Desktop and Excel install all three 
 
 ## Manually update
 
-Client libraries are typically installed and updated automatically along with tools and client applications that use them. However, in some cases  client libraries may not be updated automatically and each must be manually updated. To update manually, download and run the Windows Installer (.msi) package for each client library. When run, the Setup dialog notifies you with a message if you have an older version on your computer and prompts you to update.
+Client libraries are typically installed and updated automatically along with tools and client applications that use them. However, in some cases client libraries may not be updated automatically and each must be manually updated. To update manually, download and run the Windows Installer (.msi) package for each client library.
 
 ### To download and update
 
@@ -137,7 +137,7 @@ Client libraries are typically installed and updated automatically along with to
     - [Download ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)
 
 1. In **Downloads**, click a Windows Installer Package to run Setup.
-1. In Setup, click **Next**. If you have an older version, you're prompted with a message to update.
+1. In Setup, click **Next**. If you have an older version, you are prompted with a message to update.
 1. Read the license agreement. If you agree, select **I accept the terms in the license agreement**, and then click **Next**.
 1. Click, **Install**.
 1. When completed, click **Finish**.
