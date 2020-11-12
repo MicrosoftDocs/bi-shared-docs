@@ -61,7 +61,7 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 #### 19.12.7.2 and higher - AMO and ADOMD .Net Core (Preview)
 
-- 19.12.7.2 of the .Net Core libraries introduces preview support for on-prem Analysis Services. Earlier preview versions only supported Azure Analysis Services and Power BI datasets.
+19.12.7.2 of the .Net Core client libraries introduce preview support for on-prem Analysis Services. Earlier preview versions only supported Azure Analysis Services and Power BI datasets.
 
 #### 19.12.3.0 - AMO
 
