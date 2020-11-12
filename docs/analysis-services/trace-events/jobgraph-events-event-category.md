@@ -17,6 +17,6 @@ author: minewiskan
   
 |Event Class|Event Id|Description|  
 |-----------------|--------------|-----------------|  
-|Job Graph|134|Collects all Job Graph begin events since the trace started.|  
+|Job Graph|134|Collects all Job Graph begin\end events since the trace started.|  
 
 For information about the columns associated with each of the Job Graph Events event classes, see [Job Graph Events Data Columns](jobgraph-events-data-columns.md).

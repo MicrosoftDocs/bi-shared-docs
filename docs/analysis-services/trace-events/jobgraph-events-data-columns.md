@@ -28,7 +28,6 @@ author: minewiskan
 |Client Process ID|Contains the process ID of the client application.|
 |Connection ID|Contains the unique connection ID associated with the event.|
 |CurrentTime|Time at which the event started, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|
-|DatabaseFriendlyName|User defined name of the database in which the statement of the user is running.|
 |DatabaseName|Name of the database in which the statement of the user is running.|
 |EventSubclass|Contains the class of event within the event. Supported values are:<br /><br /> 1: Graph Begin<br /><br /> 2: Graph End|
 |Identity|Identity information of current user.|
