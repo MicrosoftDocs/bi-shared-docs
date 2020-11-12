@@ -63,8 +63,6 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 - 19.12.7.2 of the .Net Core libraries introduces preview support for on-prem Analysis Services. Earlier preview versions only supported Azure Analysis Services and Power BI datasets.
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
-
 #### 19.12.3.0 - AMO
 
 This release introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
