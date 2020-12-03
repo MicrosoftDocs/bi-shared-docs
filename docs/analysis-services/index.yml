@@ -64,7 +64,8 @@ landingContent:
           - text: Install SQL Server evaluation editions
             url: https://www.microsoft.com/evalcenter/evaluate-sql-server-2019-rc/
           - text: SQL Server 2014 Analysis Services
-            url: https://docs.microsoft.com/sql/analysis-services/analysis-services?view=sql-server-2014&preserve-view=true
+            url: https://docs.microsoft.com/previous-versions/sql/2014/analysis-services/analysis-services?view=sql-server-2014&preserve-view=true
+            
 
   # Card
   - title: Analysis Services in Power BI
