@@ -28,13 +28,13 @@ Upgrading an existing tabular solution is recommended but not required. Existing
   
 ## Object model definitions as tabular metadata constructs
 
- The Tabular Object Model for 1200 or higher models is exposed in JSON through the [Tabular Model Scripting Language](../tmsl/tabular-model-scripting-language-tmsl-reference) and through the AMO data definition language through a new namespace, [Microsoft.AnalysisServices.Tabular](/dotnet/api/microsoft.analysisservices.tabular)
+ The Tabular Object Model for 1200 or higher models is exposed in JSON through the [Tabular Model Scripting Language](../tmsl/tabular-model-scripting-language-tmsl-reference.md) and through the AMO data definition language through a new namespace, [Microsoft.AnalysisServices.Tabular](/dotnet/api/microsoft.analysisservices.tabular)
 
 ## Script for tabular models and databases
 
  TMSL is a JSON scripting language for Tabular models, with support for create, read, update, an delete operations. You can refresh data via TMSL and invoke database operations for attach, detach, backup, restore, and synchronize. AMO PowerShell accepts TMSL script as input.  
   
- See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](../tmsl/tabular-model-scripting-language-tmsl-reference) and [Analysis Services PowerShell Reference](../../analysis-services/powershell/analysis-services-powershell-reference.md) for more information.  
+ See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](../tmsl/tabular-model-scripting-language-tmsl-reference.md) and [Analysis Services PowerShell Reference](../../analysis-services/powershell/analysis-services-powershell-reference.md) for more information.  
   
 ## Query languages
 
