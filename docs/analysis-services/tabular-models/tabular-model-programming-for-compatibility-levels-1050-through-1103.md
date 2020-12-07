@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services tabular model programming for levels 1050 - 1103 | Microsoft Docs"
 description: Learn how tabular models use relational constructs to model Analysis Services data in compatibility levels 1050 and 1103.
-ms.date: 01/29/2020
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -22,8 +22,3 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
  For Tabular models created in earlier versions of Analysis Services, in particular models at compatibility levels 1050 through 1103, the objects you work with programmatically in AMO, ADOMD.NET, XMLA, or OLE DB are fundamentally the same for both tabular and multidimensional solutions. Specifically, the object metadata defined for multidimensional models is also used for tabular model compatibility levels 1050-1103.  
   
  Beginning with SQL Server 2016, Tabular models can be built or upgraded to the 1200 or higher compatibility level, which uses tabular metadata to define the model. Metadata and programmability are fundamentally different at this level. See [Tabular Model Programming for Compatibility Level 1200 and higher](../../analysis-services/tabular-model-programming-compatibility-level-1200/tabular-model-programming-for-compatibility-level-1200.md) and [Upgrade Analysis Services](/sql/database-engine/install-windows/upgrade-analysis-services) for more information.  
-  
-
-
-  
-  

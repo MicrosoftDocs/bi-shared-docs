@@ -1,7 +1,7 @@
 ---
 title: "Programming AMO complementary classes and methods | Microsoft Docs"
 description: Learn how to use programming AMO complementary classes and methodsto add an assembly to the provided database and assigns the service account to run the assembly.
-ms.date: 07/20/2018
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Programming AMO complementary classes and methods
 
@@ -78,7 +78,7 @@ static public void RestoreAdventureWorks(Server svr)
 }  
 ```  
   
-##  Trace class
+## Trace class
 
  Monitoring the server activity requires using two kinds of traces: Session Traces and Server Traces. Tracing the server can tell you how your current task is performing on the server (Session Traces) or the traces can tell you about the overall activity in the server without you even being connected to the server (Server Traces).  
   

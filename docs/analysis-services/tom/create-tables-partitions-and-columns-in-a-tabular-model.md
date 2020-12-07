@@ -1,7 +1,7 @@
 ---
 title: "Create Tables, Partitions, and Columns in a tabular model | Microsoft Docs"
 description: Learn about defining regular, pushed, or calculated tables, partitions, and columns in a tabular model.
-ms.date: 07/20/2018
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -25,18 +25,17 @@ In a tabular model, a table consists of rows and columns. Rows are organized int
 
 In the code example below, we'll define a regular table. 
 
-## Required elements 
+## Required elements
 
 A table must have at least one partition. A regular table must also have at least one column defined. 
 
-Every partition must have a Source specifying the data's origin, but source can be set to null. Typically, the source is a query expression that defines a slice of data in the relevant database query language. 
+Every partition must have a Source specifying the data's origin, but source can be set to null. Typically, the source is a query expression that defines a slice of data in the relevant database query language.
 
 ## Code example: create a Table, Column, Partition
 
 Tables are represented by Table class (in Microsoft.AnalysisServices.Tabular namespace). 
 
 In the example below, we'll define a regular table having one partition linked to a relational data source and a few regular columns. We will also submit the changes to the server and trigger a data refresh that brings the data into the model. This represents the most typical scenario when you want to load data from a SQL Server relational database into a Tabular solution. 
-
 
 ```csharp
 using System; 
@@ -214,11 +213,11 @@ namespace TOMSamples
 } 
 ```
 
-## Partitions in a table 
+## Partitions in a table
 
-Partitions are represented by a **Partition** class (in Microsoft.AnalysisServices.Tabular namespace). The **Partition** class exposes a **Source** property of P**artitionSource** type, which provides an abstraction over the different approaches for ingesting data into partition. A **Partition** instance can have a **Source** property as null, indicating that data will be pushed into the partition by sending chunks of data to the Server as part of push data API exposed by Analysis Services. In SQL Server 2016, **PartitionSource** class has two derived classes that represent ways to bind data to a partition: **QueryPartitionSource** and **CalculatedPartitionSource**. 
+Partitions are represented by a **Partition** class (in Microsoft.AnalysisServices.Tabular namespace). The **Partition** class exposes a **Source** property of P**artitionSource** type, which provides an abstraction over the different approaches for ingesting data into partition. A **Partition** instance can have a **Source** property as null, indicating that data will be pushed into the partition by sending chunks of data to the Server as part of push data API exposed by Analysis Services. In SQL Server 2016, **PartitionSource** class has two derived classes that represent ways to bind data to a partition: **QueryPartitionSource** and **CalculatedPartitionSource**.
 
-## Columns in a table 
+## Columns in a table
 
 Columns are represented by several classes derived from base **Column** class (in Microsoft.AnalysisServices.Tabular namespace): 
 
@@ -227,25 +226,25 @@ Columns are represented by several classes derived from base **Column** class (i
 * **CalculatedTableColumn** (for regular columns in calculated tables)
 * **RowNumberColumn** (special type of column created by SSAS for every table). 
 
-## Row numbers in a table 
+## Row numbers in a table
 
-Every **Table** object on a server has a **RowNumberColumn** used for indexing purposes. You can't create or add it explicitly. The column is created automatically when you save or update the object: 
+Every **Table** object on a server has a **RowNumberColumn** used for indexing purposes. You can't create or add it explicitly. The column is created automatically when you save or update the object:
 
-* **db.SaveChanges** 
+* **db.SaveChanges**
 
-* **db.Update(ExpandFull)** 
+* **db.Update(ExpandFull)**
 
 When calling either method, the server will create row number column automatically, which will be visible as **RowNumberColumn** the table's Columns collection. 
 
-## Calculated tables 
+## Calculated tables
 
 Calculated tables are sourced from a DAX expression that re-purposes data from existing data structures in the model or from out-of-line bindings. To create a calculated table programmatically, do the following: 
 
-* Create a generic **Table**. 
+* Create a generic **Table**.
 
-* Add a partition to it with Source of type **CalculatedPartitionSource**, where the source is a DAX expression. The partition's source is what differentiates a regular table from a calculated table. 
+* Add a partition to it with Source of type **CalculatedPartitionSource**, where the source is a DAX expression. The partition's source is what differentiates a regular table from a calculated table.
 
-When you save the changes to the server, the server will return the inferred list of **CalculatedTableColumns** (calculated tables are composed of calculated table columns), visible via the table's Columns collection. 
+When you save the changes to the server, the server will return the inferred list of **CalculatedTableColumns** (calculated tables are composed of calculated table columns), visible via the table's Columns collection.
 
 ## Next step
 

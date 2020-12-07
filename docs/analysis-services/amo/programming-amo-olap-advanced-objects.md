@@ -1,7 +1,7 @@
 ---
 title: "Programming AMO OLAP advanced objects | Microsoft Docs"
 description: In this article, learn how to program OLAP advanced objects by using Analysis Management Objects (AMO).
-ms.date: 07/20/2018
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Programming AMO OLAP advanced objects
 
@@ -39,7 +39,7 @@ manager: kfile
   
 3. Add the action to the cubes collection and update the cube. The action is not an updatable object.  
   
- Testing the action requires a different program application. You can test your action in SSDT. 
+ Testing the action requires a different program application. You can test your action in Visual Studio.
   
  The following sample code replicates three different actions from the Adventure Works Analysis Services Project sample. You can differentiate the actions because the ones that you introduce by using the following sample, start with "My".  
   
@@ -186,7 +186,7 @@ static public void CreateActions(Cube cube)
   
      Graphic images are string values, used as reference in the client application to identify the correct set of images to display. The graphic image string also defines the behavior of the display function. Usually the range is split in an odd number of states, from bad to good, and to each state an image, from the set, is assigned.  
   
-     If you use SSDT to browse your KPIs, then depending on names, the indicator range is split into either three states or five states. In addition, there are names where the range is inverted, that is -1 is 'Good' and 1 is 'Bad'. In SSDT, three states within the range are as follows:  
+     If you use Visual Studio to browse your KPIs, then depending on names, the indicator range is split into either three states or five states. In addition, there are names where the range is inverted, that is -1 is 'Good' and 1 is 'Bad'. In Visual Studio, three states within the range are as follows:  
   
     - Bad = -1 to -0.5  
   
@@ -194,7 +194,7 @@ static public void CreateActions(Cube cube)
   
     - Good = 0.50 to 1  
   
-     In SSDT, five states within the range are as follows:  
+     In Visual Studio, five states within the range are as follows:  
   
     - Bad = -1 to -0.75  
   
@@ -226,7 +226,7 @@ static public void CreateActions(Cube cube)
   
 1. Add the KPI to the cube collection and update the cube, because the KPI is not an updatable object.  
   
- Testing the KPI requires a different program application. You can test your KPI in SSDT.  
+ Testing the KPI requires a different program application. You can test your KPI in Visual Studio.  
   
  The following sample code creates a KPI in the "Financial Perpective/Grow Revenue" folder for the Adventure Works cube that is included in the Adventure Works Analysis Services Project sample.  
   

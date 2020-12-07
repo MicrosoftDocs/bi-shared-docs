@@ -1,7 +1,7 @@
 ---
 title: "Programming AMO Data Mining objects | Microsoft Docs"
 description: In this article, learn how to program data mining objects by using Analysis Management Objects (AMO).
-ms.date: 07/20/2018
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Programming AMO Data Mining objects
 
@@ -25,13 +25,13 @@ manager: kfile
   
  Creating a <xref:Microsoft.AnalysisServices.MiningStructure> object requires the following steps:  
   
-1.  Create the <xref:Microsoft.AnalysisServices.MiningStructure> object and populate the basic attributes. Basic attributes include object name, object ID (internal identification), and data source binding.  
+1. Create the <xref:Microsoft.AnalysisServices.MiningStructure> object and populate the basic attributes. Basic attributes include object name, object ID (internal identification), and data source binding.  
   
-2.  Create columns for the model. Columns can be either scalar or table definitions.  
+2. Create columns for the model. Columns can be either scalar or table definitions.  
   
      Each column needs a name and internal ID, a type, a content definition, and a binding.  
   
-3.  Update the <xref:Microsoft.AnalysisServices.MiningStructure> object to the server, by using the Update method of the object.  
+3. Update the <xref:Microsoft.AnalysisServices.MiningStructure> object to the server, by using the Update method of the object.  
   
      Mining structures can be processed, and when they are processed, the children mining models are processed or retrained.  
   
@@ -79,13 +79,13 @@ public static MiningStructure CreateSalesForecastingMiningStructure(Database db)
   
  Creating a <xref:Microsoft.AnalysisServices.MiningModel> object requires the following steps:  
   
-1.  Create the <xref:Microsoft.AnalysisServices.MiningModel> object and populate the basic attributes.  
+1. Create the <xref:Microsoft.AnalysisServices.MiningModel> object and populate the basic attributes.  
   
      Basic attributes include object name, object ID (internal identification), and mining algorithm specification.  
   
-2.  Add the columns of the mining model. One of the columns must be defined as the case key.  
+2. Add the columns of the mining model. One of the columns must be defined as the case key.  
   
-3.  Update the <xref:Microsoft.AnalysisServices.MiningModel> object to the server, by using the Update method of the object.  
+3. Update the <xref:Microsoft.AnalysisServices.MiningModel> object to the server, by using the Update method of the object.  
   
      <xref:Microsoft.AnalysisServices.MiningModel> objects can be processed independently of other models in the parent <xref:Microsoft.AnalysisServices.MiningStructure>.  
   
@@ -122,4 +122,4 @@ public static MiningModel CreateSalesForecastingMiningModel(MiningStructure ms)
     mm.Process(ProcessType.ProcessFull);  
     return mm;  
 }  
-``` 
+```
