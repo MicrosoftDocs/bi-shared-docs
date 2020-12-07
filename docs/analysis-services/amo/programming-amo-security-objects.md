@@ -1,7 +1,7 @@
 ---
 title: "Programming AMO security objects | Microsoft Docs"
 description: In this article, learn how to program security objects by using Analysis Management Objects (AMO).
-ms.date: 07/20/2018
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Programming AMO security objects
 

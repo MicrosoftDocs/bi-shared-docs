@@ -1,6 +1,6 @@
 ---
 title: "EnumString Data Type (XMLA) | Microsoft Docs"
-descrption: Learn how the EnumString data type defines a derived data type that represents a set of named constants for a given enumerator.
+description: Learn how the EnumString data type defines a derived data type that represents a set of named constants for a given enumerator.
 ms.date: 07/24/2018
 ms.prod: sql
 ms.technology: analysis-services
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # EnumString Data Type (XMLA)
 

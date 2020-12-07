@@ -1,7 +1,7 @@
 ---
 title: "AMO Other Classes and Methods | Microsoft Docs"
 description: Learn about AMO common classes that are not specific to OLAP or data mining, and that are helpful when administering or managing objects in Analysis Services.
-ms.date: 07/20/2018
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # AMO other classes and methods
 
@@ -44,7 +44,7 @@ manager: kfile
 
  To backup a database, use the Backup method of the database object with the name of the backup file as a parameter.  
   
-#### Default values:
+#### Default values
 
  AllowOverwrite=**false**  
   
@@ -58,7 +58,7 @@ manager: kfile
 
  To restore a database to a server, use the Restore method of the server with the backup file as a parameter.  
   
-#### Default values:
+#### Default values
 
  AllowOverwrite=**false**  
   
@@ -151,5 +151,3 @@ manager: kfile
 |<xref:Microsoft.AnalysisServices.OperationException>|Derived from AMOException|This an important exception that is frequently received by applications. This exception contains the details of an error coming from the server, probably because of a faulty AMO operation like Update or Process or Drop.|  
 |<xref:Microsoft.AnalysisServices.ResponseFormatException>|Derived from AMOException|This exception occurs when the engine returns a message in a format that AMO does not understand.|  
 |<xref:Microsoft.AnalysisServices.ConnectionException>|Derived from AMOException|This exception occurs when a connection cannot be established (with Server.Connect) or when the connection is lost while AMO is communicating with the engine (for example, during an Update or Process or Drop).|  
-  
-  

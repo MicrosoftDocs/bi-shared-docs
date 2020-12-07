@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services developer documentation | Microsoft Docs"
 description: Learn about the contents of Analysis Services developer documentation, including writing managed code and using open standards like XMLA and MSOLAP.
-ms.date: 02/04/2020
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -29,13 +29,13 @@ To further elaborate on the last point about creating new object types: while yo
 
 Analysis Services provides many ways to customize a solution through code, but most developers use the managed APIs or script.
 
-- Managed APIs include [AMO and TOM](https://msdn.microsoft.com/library/mt436122.aspx) for data definition and administrative tasks, and [ADOMD.NET](https://msdn.microsoft.com/library/mt465769.aspx) for query support from client code. In SQL Server 2016, AMO is updated to use the new Tabular metadata for models created or upgraded to compatibility level 1200 and higher.
+- Managed APIs include [AMO](amo/developing-with-analysis-management-objects-amo.md) and [TOM](tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md) for data definition and administrative tasks, and [ADOMD.NET](adomd/developing-with-adomd-net.md) for query support from client code. In SQL Server 2016, AMO is updated to use the new Tabular metadata for models created or upgraded to compatibility level 1200 and higher.
 
 - Script can often achieve the same results as a program executable, with possibly less work.
 
   - You can write PowerShell script using Analysis Services PowerShell components that call AMO types directly. Within PowerShell, you can also create and execute ASSL/XMLA or TMSL (in JSON) script.
 
-  - ASSL and TMSL are script languages that provide  objects used in discover and execute operations. Which type of script you use depends on the underlying server, database, or model.
+  - [TMSL](tmsl/tabular-model-scripting-language-tmsl-reference.md) and [ASSL](assl/analysis-services-scripting-language-assl-for-xmla.md) are script languages that provide  objects used in discover and execute operations. Which type of script you use depends on the underlying server, database, or model.
 
   - Tabular models or databases at compatibility level 1200 and higher use the Tabular Model Scripting Language (TMSL), which is in JSON.
 
@@ -47,10 +47,10 @@ Analysis Services provides many ways to customize a solution through code, but m
 
 ## Programming for Analysis Services
 
-[Analysis Services Management Objects (AMO)](https://docs.microsoft.com/analysis-services/amo/developing-with-analysis-management-objects-amo)
+[Analysis Services Management Objects (AMO)](amo/developing-with-analysis-management-objects-amo.md)
 Developer reference documentation for the managed provider, Analysis Services Management Objects (AMO), for data definition and administration, including processing.
 
-[Tabular Model Scripting Language &#40;TMSL&#41; Reference](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference)
+[Tabular Model Scripting Language &#40;TMSL&#41; Reference](tmsl/tabular-model-scripting-language-tmsl-reference.md)
 TMSL is a JSON representation of Tabular models at compatibility level 1200 and higher. Object definitions are based on tabular metadata constructs like table, column, and relationship rather than multidimensional metadata that might be unfamiliar if you are new to Analysis Services data modeling in Tabular mode.
 
 [Tabular model programming for compatibility levels 1200 and higher](../analysis-services/tabular-model-programming-compatibility-level-1200/tabular-model-programming-for-compatibility-level-1200.md).
@@ -67,18 +67,16 @@ Describes the development tasks and approaches for integrating multidimensional 
 [ADOMD.NET](adomd/developing-with-adomd-net.md)
 Developer reference documentation for the managed provider, ADOMD.NET, used for programmatic data access and query workloads.
 
-[XML for Analysis  &#40;XMLA&#41; reference](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference)
+[XML for Analysis  &#40;XMLA&#41; reference](xmla/xml-for-analysis-xmla-reference.md)
 Describes XMLA concepts that can help you understand how XMLA contributes to your custom solution. It also describes the level of compliance with the XMLA 1.1 specification.
 
-[Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla)
+[Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](assl/analysis-services-scripting-language-assl-for-xmla.md)
 Describes the ASSL extensions to XMLA. ASSL provides a data definition and manipulation language for Analysis Services multidimensional models that supplements the XMLA specification.
 
-[Analysis Services Schema Rowsets](https://docs.microsoft.com/analysis-services/instances/analysis-services-schema-rowsets)
+[Analysis Services Schema Rowsets](instances/analysis-services-schema-rowsets.md)
 Describes the schema rowsets that provide information about server state, server operations, and database objects.
 
 [Analysis Services PowerShell reference](../analysis-services/powershell/analysis-services-powershell-reference.md)
 Documents the cmdlets used for administrative functions, plus the general-purpose **Invoke-ASCmd** cmdlet that accepts any script or query as input.
 
-## See also
-[Technical Reference](../analysis-services/powershell/analysis-services-powershell-reference.md)
-[Query and Expression Language Reference &#40;Analysis Services&#41;](https://msdn.microsoft.com/library/gg492188.aspx)
+

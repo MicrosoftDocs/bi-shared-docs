@@ -1,6 +1,7 @@
 ---
 title: "Programming AMO OLAP basic objects | Microsoft Docs"
-ms.date: 07/20/2018
+description: In this article, learn how to program OLAP basic objects by using Analysis Management Objects (AMO).
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -8,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Programming AMO OLAP basic objects
 
@@ -174,7 +175,7 @@ static void UpdateAllDimensions(Database db)
   
      Dimensions are added to the current cube dimensions collection from the database; dimensions in the cube are references to the database dimensions collection. Each dimension has to be mapped to the cube individually. In the sample dimensions are mapped providing: the database dimension Internal Identifier, a Name for the dimension in the cube and an Id for the named dimension in the cube.  
   
-     In the sample code notice that "Date" dimension is added three times, every time is added by using a different cube dimension name: Date, Ship Date, Delivery Date. These dimensions are called “role playing” dimensions. The base dimension is the same (Date), but in the fact table the dimension is used in different “roles” (Order Date, Ship Date, Delivery Date) -see "Creating, dropping and finding a MeasureGroup" later in this document to understand how "role playing" dimensions are defined.  
+     In the sample code notice that "Date" dimension is added three times, every time is added by using a different cube dimension name: Date, Ship Date, Delivery Date. These dimensions are called "role playing" dimensions. The base dimension is the same (Date), but in the fact table the dimension is used in different "roles" (Order Date, Ship Date, Delivery Date) -see "Creating, dropping and finding a MeasureGroup" later in this document to understand how "role playing" dimensions are defined.  
   
 3. Create the Measure Groups that the user will access to browse the data of the cube.  
   
@@ -399,6 +400,7 @@ static void CreateInternetSalesMeasureGroup(Cube cube)
 ```  
 
 ### Processing a measure group
+
  Processing a measure group is as simple as using the Process method of the <xref:Microsoft.AnalysisServices.MeasureGroup> object. Processing a measure group will process all partitions that belong to the measure group. Processing a measure group internally is resolved to processing dimensions and partitions. See Processing a Partition in this document.  
   
  The following code will do a full process in all measure groups of a supplied cube.  
