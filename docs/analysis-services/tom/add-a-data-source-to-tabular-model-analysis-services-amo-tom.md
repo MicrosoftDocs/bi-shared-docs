@@ -1,7 +1,7 @@
 ---
 title: "Add a data source to tabular model (AMO-TOM) | Microsoft Docs"
 description: Add a data source to a tabular model by adding an object of a class derived from DataSource to the DataSources collection of the Model object.
-ms.date: 07/20/2018
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -17,13 +17,13 @@ author: minewiskan
 
 The **DataSource** class in the Microsoft.AnalysisServices.Tabular namespace is an abstraction of a tabular model's data source that specifies the type and location of imported data during a data refresh operation. 
 
-You can add a data source to the tabular model by instantiating an object of a class derived from **DataSource**, and then add it to the **DataSources** collection of the Model object. To commit changes to the server, call either **Model.SaveChanges()** or **Database.Update(UpdateOptions.ExpandFull)**. 
+You can add a data source to the tabular model by instantiating an object of a class derived from **DataSource**, and then add it to the **DataSources** collection of the Model object. To commit changes to the server, call either **Model.SaveChanges()** or **Database.Update(UpdateOptions.ExpandFull)**.
 
-Tabular models support data import only from relational data sources, where the data provider exposes data in the form of tables and columns. As such, the tabular object model uses the ProviderDataSource class (derived from DataSource) to expose this capability. 
+Tabular models support data import only from relational data sources, where the data provider exposes data in the form of tables and columns. As such, the tabular object model uses the ProviderDataSource class (derived from DataSource) to expose this capability.
 
-## Code example: add a data source 
+## Code example: add a data source
 
-This example demonstrate how to instantiate a **ProviderDataSource** and add it to a data model. 
+This example demonstrate how to instantiate a **ProviderDataSource** and add it to a data model.
 
 ```csharp
 using System; 
@@ -124,6 +124,6 @@ namespace TOMSamples
 } 
 ```
 
-## Next step 
+## Next step
 
-Within a model, you'll need to set up data bindings that map source columns in the data source to destination columns in the model. You will also need to define the partitions, a minimum of one per table, that store the data. The following link shows you how: [Create tables, partitions, and columns](create-tables-partitions-and-columns-in-a-tabular-model.md) 
+Within a model, you'll need to set up data bindings that map source columns in the data source to destination columns in the model. You will also need to define the partitions, a minimum of one per table, that store the data. The following link shows you how: [Create tables, partitions, and columns](create-tables-partitions-and-columns-in-a-tabular-model.md)

@@ -1,7 +1,7 @@
 ---
 title: "Tabular Object Model (TOM) in AMO | Microsoft Docs"
 description: Learn about the Tabular Object Model (TOM), which supports programming for tabular models created at compatibility level 1200 and higher.
-ms.date: 06/18/2020
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -21,11 +21,11 @@ TOM exposes native tabular metadata, such as **model**, **tables**, **columns**,
 Because TOM is an extension of AMO, all classes representing new tabular objects are implemented in a new **Microsoft.AnalysisServices.Tabular.dll** assembly. General-purpose classes of AMO were moved to **Microsoft.AnalysisServices.Core** assembly. Your code will need to reference both assemblies.
 See [Install, distribute, and reference the Tabular Object Model &#40;Microsoft.AnalysisServices.Tabular&#41;](install-distribute-and-reference-the-tabular-object-model.md) for details.  
   
-Currently, the API is available only for managed code over the .NET framework. To learn more about specific AMO/TOM classes, see [Microsoft.AnalysisServices Namespace reference](https://docs.microsoft.com/dotnet/api/microsoft.analysisservices). To review the full list of programming options for tabular models, including script and query language support, see [Tabular Model Programming for Compatibility Level 1200](/analysis-services/tabular-models/tabular-model-programming-for-compatibility-level-1200).  
+Currently, the API is available only for managed code over the .NET framework. To learn more about specific AMO/TOM classes, see [Microsoft.AnalysisServices Namespace reference](/dotnet/api/microsoft.analysisservices). To review the full list of programming options for tabular models, including script and query language support, see [Tabular Model Programming for Compatibility Level 1200](/analysis-services/tabular-models/tabular-model-programming-for-compatibility-level-1200).  
   
 ## Tabular object model hierarchy
 
- From a logical perspective, all tabular objects form a tree, the root of which is a **Model**, descended from Database. **Server** and **Database** are not considered tabular because these objects can also represent a multidimensional database hosted on a server running in Multidimensional mode, or a tabular model at a lower compatibility level that does not use tabular metadata for object definitions. 
+ From a logical perspective, all tabular objects form a tree, the root of which is a **Model**, descended from Database. **Server** and **Database** are not considered tabular because these objects can also represent a multidimensional database hosted on a server running in Multidimensional mode, or a tabular model at a lower compatibility level that does not use tabular metadata for object definitions.
   
  With the exception of **AttributeHierarchy**, **KPI**, and **LinguisticMetadata**, each child object can be a member of a collection. For example, the **Model** object contains a collection of **Table** objects (via the **Tables** property), with each **Table** object containing a collection of **Column** objects, and so on.  
   
@@ -41,7 +41,7 @@ In contrast, when you manage objects that are part of tabular metadata, such as 
 
 ### TOM and XMLA
 
-On the wire, TOM uses the XMLA protocol to communicate with the server and to manage objects. When managing non-tabular objects, TOM uses ASSL, the Analysis Services Scripting Language extension of XMLA. When managing tabular objects, TOM uses the MS-SSAS-T tabular protocol, also an extension of XMLA. To learn more, see [MS-SSAS-T SQL Server Analysis Services Tabular protocol documentation](https://msdn.microsoft.com/library/mt719260.aspx).
+On the wire, TOM uses the XMLA protocol to communicate with the server and to manage objects. When managing non-tabular objects, TOM uses ASSL, the Analysis Services Scripting Language extension of XMLA. When managing tabular objects, TOM uses the MS-SSAS-T tabular protocol, also an extension of XMLA. To learn more, see [MS-SSAS-T SQL Server Analysis Services Tabular protocol documentation](/openspecs/sql_server_protocols/ms-ssas-t/f85cd3b9-690c-4bc7-a1f0-a854d7daecd8).
 
 ### TOM and JSON
 
@@ -52,5 +52,3 @@ Although both TMSL and TOM expose the same objects, **Table**, **Column** and so
 As a user, you can choose whether to manage tabular databases through the TOM library from your C# program or PowerShell script, or through TMSL script executed through PowerShell, SQL Server Management Studio (SSMS), or a SQL Server Agent Job.
 
 The decision to use one or the other will come down to the specifics of your requirements. The TOM library provides richer functionality compared to TMSL. Specifically, whereas TMSL only offers coarse-grained operations at the database, table, partition, or role level, TOM allows operations at a much finer grain. To generate or update models programmatically, you will need the full extent of the API in the TOM library.
-  
-  

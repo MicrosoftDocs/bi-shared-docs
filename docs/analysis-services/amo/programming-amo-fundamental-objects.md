@@ -1,7 +1,7 @@
 ---
 title: "Programming AMO fundamental objects | Microsoft Docs"
 description: In this article, learn how to program fundamental objects by using Analysis Management Objects (AMO).
-ms.date: 07/20/2018
+ms.date: 12/07/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Programming AMO fundamental objects
 
@@ -205,13 +205,13 @@ static string CreateDataSource(Database db, string strDataSourceName, string str
   
  The sample code does the following:  
   
-1.  Create a <xref:Microsoft.AnalysisServices.DataSourceView> object.  
+1. Create a <xref:Microsoft.AnalysisServices.DataSourceView> object.  
   
      Verify first if the <xref:Microsoft.AnalysisServices.DataSource> object exists; if **true**, then drop the <xref:Microsoft.AnalysisServices.DataSource> and create it. If the <xref:Microsoft.AnalysisServices.DataSource> does not exist, create it.  
   
-2.  Open a connection to the database using <xref:Microsoft.AnalysisServices.DataSource> connection string.  
+2. Open a connection to the database using <xref:Microsoft.AnalysisServices.DataSource> connection string.  
   
-3.  Create the schema.  
+3. Create the schema.  
   
      The schema consists of the following:  
   
@@ -223,16 +223,16 @@ static string CreateDataSource(Database db, string strDataSourceName, string str
   
     -   An optional set of composite relations, `AddCompositeRelations`.  
   
-4.  Update the server.  
+4. Update the server.  
   
 > [!NOTE]  
->  The following sample code is trimmed for readability purposes; the complete code is included at the end of this topic.  
+> The following sample code is trimmed for readability purposes; the complete code is included at the end of this topic.  
   
 > [!NOTE]  
->  The following methods are part of the sample code: `AddTable`, `AddComputedColumn`, `AddRelation`, and `AddCompositeRelation`.  
+> The following methods are part of the sample code: `AddTable`, `AddComputedColumn`, `AddRelation`, and `AddCompositeRelation`.  
   
 > [!NOTE]  
->  The clause `'WHERE 1=0'` is to avoid the query from returning rows to the **DataSet** object.  
+> The clause `'WHERE 1=0'` is to avoid the query from returning rows to the **DataSet** object.  
   
 ```csharp  
         static DataSourceView CreateDataSourceView(Database db, string strDataSourceName)  
