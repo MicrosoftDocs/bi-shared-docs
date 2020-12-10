@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 11/12/2020
+ms.date: 12/10/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -24,10 +24,10 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.65.24     |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.65.24        |
-|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.12.7.2     |
-|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.12.7.2      |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.69.20     |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.69.20        |
+|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.14.0     |
+|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.14.0      |
 
 ### NuGet packages
 
@@ -41,15 +41,15 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.12.7.2      |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.12.7.2       |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.14.0      |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.14.0       |
 
 #### AMO and ADOMD .Net Core (Preview)
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.12.7.2  (Preview)    |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.12.7.2  (Preview)      |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.14.0  (Preview)    |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.14.0  (Preview)      |
 
 ## Known issues
 
@@ -58,6 +58,10 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 - Features in preview should not be used in a production environment. Certain functionality, support, and documentation is limited. Refer to the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) for details.
 
 - There has been limited performance and stress testing done for the public preview.
+
+#### 19.14.0 and higher - AMO and ADOMD .Net Core (Preview)
+
+Version 19.14.0 of the .Net Core client libraries introduces preview support for Self-Contained publishing (both in a published directory, and in single-file mode), as well as support for consumption by .NET 5.0 projects. A number of issues related to connectivity to SQL Server Analysis Services that were identified in the previous release have been fixed.
 
 #### 19.12.7.2 and higher - AMO and ADOMD .Net Core (Preview)
 
