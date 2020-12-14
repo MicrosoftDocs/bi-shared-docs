@@ -1,6 +1,6 @@
 ---
 title: "SQL Server Analysis Services overview| Microsoft Docs"
-ms.date: 03/12/2020
+ms.date: 12/14/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: overview
