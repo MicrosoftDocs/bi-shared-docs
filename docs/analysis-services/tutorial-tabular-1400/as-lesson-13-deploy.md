@@ -8,7 +8,7 @@ ms.topic: tutorial
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 ---
 # Deploy
 

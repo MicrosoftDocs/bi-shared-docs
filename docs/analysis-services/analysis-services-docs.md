@@ -1,6 +1,7 @@
 ---
 title: "Analysis Services documentation overview| Microsoft Docs"
-ms.date: 10/30/2020
+description: Describes Analysis Services documentation.
+ms.date: 12/14/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: overview
@@ -25,7 +26,7 @@ All Analysis Services documentation exists in [Microsoft Docs](https://docs.micr
 
 If you're using Azure Analysis Services, it's best to start with [Azure Analysis Services documentation](https://docs.microsoft.com/azure/analysis-services/). This is where you can learn about Analysis Services' specific implementation in Azure. For example, using the Azure portal to create an Analysis Services server resource in your Azure subscription, configure a firewall, or configure scale-out to create a *query pool* where queries are distributed among *query replicas*.
 
-### Power BI Premium 
+### Power BI Premium
 
 If you're using Power BI Premium, many of the same tools, Tabular Model Scripting Language (TMSL), and Tabular Object Model (TOM) used for Azure Analysis Services and SQL Server Analysis Services now work with Power BI Premium workspaces and datasets. To learn more, it's best to start with the [Analysis Services in Power BI Premium](https://docs.microsoft.com/power-bi/service-premium-what-is#analysis-services-in-power-bi-premium).
 
@@ -43,7 +44,7 @@ You can filter shared documentation to show only those articles that apply to yo
 
 ![version selector](media/analysis-services-docs/version-selector.png)
 
-When you select a particular platform or version, only those articles that apply to that platform appear in the ToC. And in some cases, the text and images in some articles will change to show only what is relevant to the platform you selected. At this time, in-article filtering applies only to a few articles. We're doing our best to implement this in more articles over time.
+When you select a particular platform or version, only those articles that apply appear in the ToC. In some articles, the text and images will change to show only what is relevant to the platform you selected. At this time, in-article filtering applies only to a few articles. We're doing our best to implement this in more articles over time.
 
 Keep in mind, most of the over 1000 shared articles were originally created for SQL Server Analysis Services. As such, some of the text and images may only refer to SQL Server Analysis Services.  
 
