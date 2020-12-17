@@ -4,7 +4,7 @@ description: Learn how tabular models in Analysis Services are databases that ru
 ms.date: 04/20/2020
 ms.prod: sql
 ms.technology: analysis-services
-ms.custom: tabular-models, contperfq1
+ms.custom: tabular-models, contperf-fy21q1
 ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
