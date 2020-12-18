@@ -1,7 +1,7 @@
 ---
 title: "Connection string properties (Analysis Services) | Microsoft Docs"
 description: Learn about connection string properties used to query Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium dataset data.
-ms.date: 11/25/2020
+ms.date: 12/18/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -197,7 +197,7 @@ User ID and Password properties provide the appropriate credentials to the serve
 - When connecting over TCP to SSAS, the client library will impersonate the Windows user using the specified username and password, and then connect as usual to the server.
 - When connecting over HTTP(S) to SSAS, the credentials are provided to the web server based on the authentication mode configured on the web server, for example Basic auth or Windows auth. The web server will perform the appropriate Windows impersonation before connecting to the SSAS server, therefore providing the correct credentials flow to the server.
 - When connecting to Azure AS or Power BI Premium, the User ID and Password are used to obtain an Azure Active Directory (AAD) token which is then presented to the service during authentication. AAD may also require multi-factor authentication (MFA), which can require additional user interaction before the token can be generated.
-- If you've already acquired a valid AAD access token from your own application, you can omit the **User ID** property and specify the access token in the **Password** property. This is supported for access tokens acquired interactively for a user, as well as using [OAuth 2.0 On-Behalf-Of flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow) (for example, a middle-tier web application connecting to Analysis Services on behalf of the user).
+- If you've already acquired a valid AAD *bearer* access token from your own application, you can omit the **User ID** property and specify only the access token in the **Password** property. Authentication is supported for bearer tokens acquired interactively for a user, and by using [OAuth 2.0 On-Behalf-Of flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow) (for example, a middle-tier web application connecting to Analysis Services on behalf of the user). Omit the token type when passing the access token in the Password property. The Analysis Services client libraries automatically add the auth-scheme value "Bearer" to the access token.
 
 **Note:** "User ID" has an embedded space. An alternate alias for User ID is **UID** and an alternate alias for Password is **PWD**.  
 
