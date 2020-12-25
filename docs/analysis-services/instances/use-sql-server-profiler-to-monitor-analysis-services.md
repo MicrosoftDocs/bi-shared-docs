@@ -58,7 +58,7 @@ For **Power BI Premium**, users can view traces only for databases in which they
  For optimal performance, use SQL Server Profiler to monitor only those events in which you are most interested. Monitoring too many events adds overhead and can cause the trace file or table to grow very large, especially when you monitor over a long period of time. In addition, use filtering to limit the amount of data that is collected and to prevent traces from becoming too large.
 
 > [!NOTE]
-> When connecting to a **Power BI Premium** workspace, a valid database must be specified in the **Connection Properties** tab of the **Connect to Server** dialog, otherwise a  `user does not have permissions to access the object` error message is encountered. Additionally, the XMLA read-only setting to be enabled on the Premium capacity.
+> When connecting to a **Power BI Premium** workspace, a valid database must be specified in the **Connection Properties** tab of the **Connect to Server** dialog, otherwise a  `user does not have permissions to access the object` error message is encountered. Additionally, the XMLA read-only setting must be enabled on the Premium capacity.
 
 ## See also
 
