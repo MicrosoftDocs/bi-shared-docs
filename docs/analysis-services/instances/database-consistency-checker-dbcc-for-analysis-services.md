@@ -1,7 +1,7 @@
 ---
 title: "Database Consistency Checker (DBCC) for Analysis Services | Microsoft Docs"
 description: Learn how Database Consistency Checker provides on-demand database validation for databases on an Analysis Services instance.
-ms.date: 05/02/2018
+ms.date: 12/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -12,6 +12,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Database Consistency Checker (DBCC) for Analysis Services
+
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   DBCC provides on-demand database validation for Multidimensional and Tabular databases on an Analysis Services instance. You can execute DBCC in an MDX or XMLA query window in SQL Server Management Studio (SSMS) and trace the DBCC output in either SQL Server Profiler or xEvent sessions in SSMS.  
 The command takes an object definition and returns either an empty result set or detailed error information if the object is corrupted.   In this article, you'll learn how to run the command, interpret results, and address any problems that arise.  
@@ -23,24 +24,26 @@ The command takes an object definition and returns either an empty result set or
   
  Command syntax for DBCC uses the object metadata specific to the type of database you are checking:  
   
--   Multidimensional + pre-SQL Server 2016 Tabular 1100 or 1103 compatibility level databases are described in Multidimensional modeling constructs like **cubeID**, **measuregroupID**, and **partitionID**.  
+- Multidimensional + pre-SQL Server 2016 Tabular 1100 or 1103 compatibility level databases are described in Multidimensional modeling constructs like **cubeID**, **measuregroupID**, and **partitionID**.  
   
--   Metadata for new Tabular model databases at compatibility level 1200 and higher consist of descriptors like **TableName** and **PartitionName**.  
+- Metadata for new Tabular model databases at compatibility level 1200 and higher consist of descriptors like **TableName** and **PartitionName**.  
   
  DBCC for Analysis Services will execute on any Analysis Services database at any compatibility level, as long as the database is running on a  SQL Server 2016 instance. Just make sure you're using the right command syntax for each database type.  
   
 > [!NOTE]  
->  If you're familiar with [DBCC &#40;Transact-SQL&#41;](/sql/t-sql/database-console-commands/dbcc-transact-sql), you'll quickly notice that the DBCC in Analysis Services has a much narrower scope. DBCC in Analysis Services is a single command that reports exclusively on data corruption across the database or on individual objects. If you have other tasks in mind, such as collecting information, try using AMO PowerShell or XMLA scripts instead.
+> If you're familiar with [DBCC &#40;Transact-SQL&#41;](/sql/t-sql/database-console-commands/dbcc-transact-sql), you'll quickly notice that the DBCC in Analysis Services has a much narrower scope. DBCC in Analysis Services is a single command that reports exclusively on data corruption across the database or on individual objects. If you have other tasks in mind, such as collecting information, try using AMO PowerShell or XMLA scripts instead.
   
-## Permission requirements  
+## Permission requirements
+
  You must be an Analysis Services database or server administrator (a member of the server role) to run the command. See [Grant database permissions &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-database-permissions-analysis-services.md) or [Grant server admin rights to an  Analysis Services instance](../../analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance.md) for instructions.  
   
-## Command syntax 
+## Command syntax
+
  Tabular databases at the 1200 and higher compatibility levels use tabular metadata for object definitions. The complete DBCC syntax for a tabular database created at a SQL Server 2016 functional level is illustrated in the following example.  
   
  Key differences between the two syntaxes include a newer XMLA namespace, no \<Object> element, and  no \<Model> element (there is still only one model per database).  
   
-```  
+```xml
 <DBCC xmlns="http://schemas.microsoft.com/analysisservices/2014/engine">  
      <DatabaseID>MyTabular1200DB_7811b5d8-c407-4203-8793-12e16c3d1b9b</DatabaseID>  
      <TableName>FactSales</TableName>  
@@ -52,10 +55,11 @@ The command takes an object definition and returns either an empty result set or
   
  You can get object names and DatabaseID from Management Studio, through the property page of each object.  
   
-## Command syntax for Multidimensional and Tabular 110x databases  
- DBCC uses identical syntax for   multidimensional as well as tabular 1100 and 1103 databases. You can run DBCC against specific database objects, including the entire database. See [Object Element &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-properties/object-element-xmla) for more information about the object definition.  
+## Command syntax for Multidimensional and Tabular 110x databases
+
+ DBCC uses identical syntax for multidimensional as well as tabular 1100 and 1103 databases. You can run DBCC against specific database objects, including the entire database. See [Object Element &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-properties/object-element-xmla) for more information about the object definition.  
   
-```  
+```xml
 <DBCC xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">  
      <Object>  
           <DatabaseID>AdventureWorksDW2014Multidimensional-EE</DatabaseID>  
@@ -69,7 +73,7 @@ The command takes an object definition and returns either an empty result set or
   
  To run DBCC on objects higher up the object chain, delete any lower-level object ID elements you don't need:  
   
-```  
+```xml
 <DBCC xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">  
      <Object>  
           <DatabaseID>AdventureWorksDW2014Multidimensional-EE</DatabaseID>  
@@ -81,13 +85,14 @@ The command takes an object definition and returns either an empty result set or
   
  For tabular 110x databases, the object definition syntax is modeled after the syntax of Process command (specifically, in how tables are mapped to dimensions and measure groups).  
   
--   **CubeID** maps to the model ID, which is **Model**.  
+- **CubeID** maps to the model ID, which is **Model**.  
   
--   **MeasureGroupID** maps to a table ID.  
+- **MeasureGroupID** maps to a table ID.  
   
--   **PartitionID** maps to a partition ID.  
+- **PartitionID** maps to a partition ID.  
   
-## Usage  
+## Usage
+
  In SQL Server Management Studio, you can invoke DBCC using either an MDX or XMLA query window. Additionally, you can use either [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] Profiler or Analysis Services xEvents to view DBCC output. Note that SSAS DBCC messages are not reported to the Windows application event log or the msmdsrv.log file.  
   
  DBCC checks for physical data corruption, as well as logical data corruption that occur when orphaned members exist in a segment. A database must be processed before you can run DBCC. It skips remote, empty, or unprocessed partitions.  
@@ -96,7 +101,8 @@ The command takes an object definition and returns either an empty result set or
   
  A service restart might be required to pick up any corruption errors that have occurred since the last service restart. Reconnecting to the server is not enough to pick up the changes.  
   
-### Run DBCC commands in Management Studio  
+### Run DBCC commands in Management Studio
+
  For ad hoc queries, open an MDX or XMLA query window in SQL Server Management Studio. To do this, right-click the database | **New Query** | **XMLA**) to run the command and read the output.  
   
  ![DBCC XML command in Management Studio](../../analysis-services/instances/media/ssas-dbcc-ssms.gif "DBCC XML command in Management Studio")  
@@ -105,9 +111,9 @@ The command takes an object definition and returns either an empty result set or
   
  The Messages tab provides detail information but is not always reliable for smaller databases. Status messages are sometimes trimmed, indicating the command completed, but without the status check messages on each object. A typical message report might look similar to the one shown below.  
   
- **Messages reported from DBCC for the cube validation check**  
+ **Messages reported from DBCC for the cube validation check**
   
-```  
+```xml
 Executing the query ...  
 READS, 0  
 READ_KB, 0  
@@ -139,27 +145,28 @@ Run complete
   
 ```  
   
- **Output when running DBCC against an earlier version of Analysis Services**  
+ **Output when running DBCC against an earlier version of Analysis Services**
   
  DBCC is only supported on databases running on a [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] instance. Running the command on older systems will return this error.  
   
-```  
+```xml
 Executing the query ...  
 The DBCC element at line 7, column 87 (namespace http://schemas.microsoft.com/analysisservices/2003/engine) cannot appear under Envelope/Body/Execute/Command.  
 Execution complete  
   
 ```  
   
-### Trace DBCC output in SQL Server Profiler 2016  
+### Trace DBCC output in SQL Server Profiler
+
  You can view DBCC output in a Profiler trace that includes Progress Reports events (Progress Report Begin, Progress Report Current, Progress Report End, and Progress Report Error).  
   
-1.  Start a trace. See [Use SQL Server Profiler to Monitor Analysis Services](../../analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services.md) for help on how to use SQL Server Profiler with Analysis Services.  
+1. Start a trace. See [Use SQL Server Profiler to Monitor Analysis Services](../../analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services.md) for help on how to use SQL Server Profiler with Analysis Services.  
   
-2.  Choose **Command Begin** and **Command End** plus any or all of the **Progress Report** Events.  
+2. Choose **Command Begin** and **Command End** plus any or all of the **Progress Report** Events.  
   
-3.  Run the DBCC command in Management Studio in either an XMLA or MDX query window, using the syntax provided in a previous section.  
+3. Run the DBCC command in Management Studio in either an XMLA or MDX query window, using the syntax provided in a previous section.  
   
-4.  In SQL Server Profiler, DBCC activity is indicated through **Command** events having an event subclass of DBCC:  
+4. In SQL Server Profiler, DBCC activity is indicated through **Command** events having an event subclass of DBCC:  
   
      ![Screenshot for the SQL Server Analysis Services DBCC profiler EventSubclass results.](../../analysis-services/instances/media/ssas-dbcc-profiler-eventsubclass.PNG "ssas-dbcc-profiler-eventsubclass")  
   
@@ -178,24 +185,26 @@ Execution complete
   
      Error messages are listed below.  
   
-### Trace DBCC output in an xEvent session in SSMS  
+### Trace DBCC output in an xEvent session in SSMS
+
  Extended events sessions can use both profiler events or xEvents. Refer to the previous section for guidance on adding **Command** and **Progress Report** events.  
   
-1.  Start a session by right-clicking a database > **Management** >**Extended Events** >  **Sessions** > **New Session**. See  [Monitor Analysis Services with SQL Server Extended Events](../../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md) for more information.  
+1. Start a session by right-clicking a database > **Management** >**Extended Events** >  **Sessions** > **New Session**. See  [Monitor Analysis Services with SQL Server Extended Events](../../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md) for more information.  
   
-2.  Choose any or all of the **Progress Report** Events for the Profiler event category or **RequestProgress** events for the PureXevent category.  
+2. Choose any or all of the **Progress Report** Events for the Profiler event category or **RequestProgress** events for the PureXevent category.  
   
-3.  Run the DBCC command in Management Studio in either an XMLA or MDX query window, using the syntax provided in a previous section.  
+3. Run the DBCC command in Management Studio in either an XMLA or MDX query window, using the syntax provided in a previous section.  
   
-4.  In SSMS, refresh the Sessions folder. Right-click the session name > **Watch Live Data**.  
+4. In SSMS, refresh the Sessions folder. Right-click the session name > **Watch Live Data**.  
   
-5.  Review TextData values for messages returned by DBCC.  TextData is a property of an event field and shows status and error messages returned by the event.  
+5. Review TextData values for messages returned by DBCC.  TextData is a property of an event field and shows status and error messages returned by the event.  
   
      Status messages start with "Checking consistency of \<object>" , "Started checking \<object>", or "Finished checking \<object>".  
   
      Error messages are listed below.  
   
-## Reference: Consistency checks and errors for Multidimensional databases  
+## Reference: Consistency checks and errors for Multidimensional databases
+
  For multidimensional databases, only  partition indexes are validated.  During execution, DBCC builds a temporary index for each partition and compares it with the persisted index on disk.  Building a temporary index requires reading all data from the partition data on disk and then holding the temporary index in memory for comparison. Given the additional workload, your server might experience significant disk IO and memory consumption while running a DBCC execution.  
   
  Detection of Multidimensional index corruption includes the following checks. Errors in this table appear in xEvent or Profiler traces for failures at the object level.  
@@ -206,7 +215,8 @@ Execution complete
 |Partition Index|Validates metadata.<br /><br /> Verifies that each member in the temporary index can be found in the index header file for the segment on disk.|The partition segment is corrupted.|  
 |Partition Index|Scan segments to look for physical corruptions.<br /><br /> Reads the index file on disk for each member in the temporary index and verifies that the size of the index records match, and that the same data pages are flagged as having records for the current member.|The partition segment is corrupted.|  
   
-## Reference: Consistency checks and errors for Tabular databases  
+## Reference: Consistency checks and errors for Tabular databases
+
  The following table  is list of all consistency checks performed on tabular objects, alongside errors that are raised if the check indicates corruption. Errors in this table appear in xEvent or Profiler traces for failures at the object level.  
   
 | Object | DBCC check description | Error on failure |
@@ -249,7 +259,8 @@ Execution complete
 |Column|Returns an error if any column has a negative count for the number of segments in a column, or if the pointer to the column segment structure for a segment has a NULL link.|There is corruption in the storage layer. The collection of segments in the '%{parent/}' column is corrupt.|  
 |DBCC Command|The DBCC Command will report multiple status messages as it proceeds through the DBCC operation.  It will report a status message before starting that includes the database, table, or column name of the object, and again after finishing each object check.|Checking consistency of the \<objectname> \<objecttype>. Phase: pre-check.<br /><br /> Checking consistency of the \<objectname> \<objecttype>. Phase: post-check.|  
   
-## Common resolutions for error conditions  
+## Common resolutions for error conditions
+
  The following errors appear in SQL Server Management Studio or in msmdsrv.log files. These errors appear when one or more checks fail to pass. Depending on the error, the recommended resolution is to either reprocess an object, delete and redeploy a solution, or restore the database.  
   
 |Error|Issue|Resolution|  
@@ -264,10 +275,11 @@ Execution complete
 |**System table is missing**<br /><br /> System table \<table-name> is missing.|Object corruption (tabular only)|Reprocess the object and any dependent objects|  
 |**Table statistics are corrupt**<br /><br /> Statistics of table System table \<table-name> is missing.|Metadata corruption (tabular only)|Delete and redeploy the project, or restore from a backup and reprocess.<br /><br /> See [How to handle corruption in Analysis Services databases (blog)](https://blogs.msdn.com/b/karang/archive/2010/08/11/how-to-deal-with-corruption-in-analysis-services.aspx) for instructions.|  
   
-## Disable automatic consistency checks on database load operations through  the msmdsrv.ini configuration file  
+## Disable automatic consistency checks on database load operations
+
  Although its not recommended, you can disable the built-in database consistency checks that occur automatically on database load events (on tabular databases only). To do this, you will need to modify a configuration setting in the msmdsrv.ini file:  
   
-```  
+```xml
 <ConfigurationSettings>  
      <Vertipaq />  
           <DisableConsistencyChecks />  
@@ -277,22 +289,21 @@ Execution complete
   
  Valid values are as follows:  
   
--   **-2** (default) DBCC is enabled. If the  server can logically resolve the error with a high degree of certainty, a fix will be applied automatically. Otherwise, an error will be logged.  
+- **-2** (default) DBCC is enabled. If the  server can logically resolve the error with a high degree of certainty, a fix will be applied automatically. Otherwise, an error will be logged.  
   
--   **-1** DBCC is partially enabled. It is enabled for RESTORE and on pre-commit validations that check database state at the end of a transaction.  
+- **-1** DBCC is partially enabled. It is enabled for RESTORE and on pre-commit validations that check database state at the end of a transaction.  
   
--   **0** DBCC is partially enabled. Database consistency checks are performed during RESTORE, IMAGELOAD, LOCALCUBELOAD, and ATTACH  
+- **0** DBCC is partially enabled. Database consistency checks are performed during RESTORE, IMAGELOAD, LOCALCUBELOAD, and ATTACH  
          operations.  
   
--   **1** DBCC is disabled. Data integrity checks are disabled, however deserialization checks will still occur.  
+- **1** DBCC is disabled. Data integrity checks are disabled, however deserialization checks will still occur.  
   
 > [!NOTE]  
->  This setting has no impact on DBCC when running the command on demand.  
+> This setting has no impact on DBCC when running the command on demand.  
   
-## See Also  
+## See also
+
  [Process Database, Table, or Partition &#40;Analysis Services&#41;](../../analysis-services/tabular-models/process-database-table-or-partition-analysis-services.md)   
  [Processing a multidimensional model &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md)   
  [Compatibility Level for Tabular models in Analysis Services](../../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md)   
  [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)  
-  
-  
