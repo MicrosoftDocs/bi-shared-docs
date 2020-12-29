@@ -1,7 +1,7 @@
 ---
 title: "Monitor an Analysis Services Instance overview | Microsoft Docs"
 description: Learn about the tools that SQL Server Analysis Services offer to help you monitor and tune the performance of your servers.
-ms.date: 01/30/2020
+ms.date: 12/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-Analysis Services has several different tools to help you monitor and tune the performance of your servers. The choice of tool depends on the type of monitoring or tuning to be done and the particular events to be monitored. 
+Analysis Services has several different tools to help you monitor and tune the performance of your servers. The choice of tool depends on the type of monitoring or tuning to be done and the particular events to be monitored.
   
 ## Monitoring tools  
 
@@ -32,7 +32,7 @@ Analysis Services has several different tools to help you monitor and tune the p
 
 \* Applies to SQL Server Analysis Services only.
 
-For more detailed information about monitoring SQL Server Analysis Services, see the [SQL Server 2008 R2 Operations Guide](https://go.microsoft.com/fwlink/?LinkID=225539). 
+For more detailed information about monitoring SQL Server Analysis Services, see the [SQL Server 2008 R2 Operations Guide](https://go.microsoft.com/fwlink/?LinkID=225539). While quite old, the Operations Guide is still relevant for later versions.
 
 ## See also
 
