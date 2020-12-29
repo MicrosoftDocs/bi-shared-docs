@@ -48,7 +48,4 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 ## See also
 
- [Analysis Services Trace Events](../trace-events/analysis-services-trace-events)  
-
-  
-  
+ [Analysis Services Trace Events](../trace-events/analysis-services-trace-events.md)  
