@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Management Views (DMVs) in Analysis Services | Microsoft Docs"
 description: Learn about Dynamic Management Views in SQL Server Analysis Services that return information about model objects, server operations, and server health.
-ms.date: 10/20/2020
+ms.date: 12/29/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -11,7 +11,7 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
-# Dynamic Management Views (DMVs) 
+# Dynamic Management Views (DMVs)
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
@@ -23,7 +23,7 @@ DMV queries are an alternative to running XML/A Discover commands. For most admi
   
 Most DMV queries use a **SELECT** statement and the **$System** schema with an XML/A schema rowset, for example:  
   
-```
+```sql
 SELECT * FROM $System.<schemaRowset>  
 ```  
   
@@ -33,7 +33,7 @@ SELECT * FROM $System.<schemaRowset>
 
 The query engine for DMVs is the Data Mining parser. The DMV query syntax is based on the SELECT &#40;DMX&#41; statement. Although DMV query syntax is based on a SQL SELECT statement, it does not support the full syntax of a SELECT statement. Notably, JOIN, GROUP BY, LIKE, CAST, and CONVERT are not supported.  
   
-```
+```sql
 SELECT [DISTINCT] [TOP <n>] <select list>  
 FROM $System.<schemaRowset>  
 [WHERE <condition expression>]  
@@ -42,14 +42,14 @@ FROM $System.<schemaRowset>
   
 The following example for DISCOVER_CALC_DEPENDENCY illustrates the use of the WHERE clause for supplying a parameter to the query:  
   
-```
+```sql
 SELECT * FROM $System.DISCOVER_CALC_DEPENDENCY  
 WHERE OBJECT_TYPE = 'ACTIVE_RELATIONSHIP'  
 ```  
   
 For schema rowsets that have restrictions, the query must include the SYSTEMRESTRICTSCHEMA function. The following example returns CSDL metadata about 1103 compatibility level tabular models. Note that CATALOG_NAME is case-sensitive:  
   
-```
+```sql
 Select * from SYSTEMRESTRICTSCHEMA ($System.Discover_csdl_metadata, [CATALOG_NAME] = 'Adventure Works DW')  
 ```  
 
@@ -69,7 +69,6 @@ This query reports on active sessions, including session user and duration.
  `Select * from $System.discover_locks`   
 This query returns a snapshot of the locks used at a specific point in time.  
 
-
 ## Tools and permissions
 
 You can use any client application that supports MDX or DMX queries. In most cases, it's best to use SQL Server Management Studio. You must have server administrator permissions on the instance to query a DMV.  
@@ -83,8 +82,8 @@ You can use any client application that supports MDX or DMX queries. In most cas
 ## Schema rowsets
 
 Not all schema rowsets have a DMV interface. To return a list of all the schema rowsets that can be queried using DMV, run the following query.  
- 
-```  
+
+```sql
 SELECT * FROM $System.DBSchema_Tables   
 WHERE TABLE_TYPE = 'SCHEMA'   
 ORDER BY TABLE_NAME ASC  
@@ -92,7 +91,7 @@ ORDER BY TABLE_NAME ASC
   
 If a DMV is not available for a given rowset, the server returns error: `The <schemarowset> request type was not recognized by the server.` All other errors indicate problems with the syntax.  
 
-Schema rowsets are described in two SQL Server Analysis Services protocols:   
+Schema rowsets are described in two SQL Server Analysis Services protocols:
 
 [[MS-SSAS-T]: SQL Server Analysis Services Tabular Protocol](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/) - Describes schema rowsets for tabular models at the 1200 and higher compatibility levels.
 
