@@ -1,7 +1,7 @@
 ---
 title: "AttributeName Element (XMLA) | Microsoft Docs"
 description: Learn how the AttributeName element contains the name of an attribute represented by the parent Attribute element.
-ms.date: 07/24/2018
+ms.date: 01/05/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # AttributeName Element (XMLA)
 

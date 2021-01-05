@@ -1,7 +1,7 @@
 ---
 title: "Discover Method (XMLA) | Microsoft Docs"
 description: Learn how the Discover method retrieves information, such as the list of available databases or details about a specific object, from an instance of Analysis Services.
-ms.date: 07/25/2018
+ms.date: 01/05/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,7 +9,6 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # XML Elements - Methods - Discover
 
@@ -48,8 +47,8 @@ manager: kfile
 ## Remarks
 
  The **Discover** method requests metadata about instances and objects. Metadata is returned using the XMLA [Rowset](xml-data-types/rowset-data-type-xmla.md) data type.  
- 
-> [!TIP] 
+
+> [!TIP]
 > If you are unfamiliar with XML commands, click the XMLA query template on the **Query** toolbar in Management Studio, to build the query and add parameters.
   
 ## Example

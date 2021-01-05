@@ -1,7 +1,7 @@
 ---
 title: "XML Data Types (XMLA) | Microsoft Docs"
 description: Learn about the supported XML data types used by XML for Analysis (XMLA).
-ms.date: 07/24/2018
+ms.date: 01/05/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla

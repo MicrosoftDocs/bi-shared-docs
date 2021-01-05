@@ -1,7 +1,7 @@
 ---
 title: "root Element (XMLA) | Microsoft Docs"
 description: Learn how the root element contains a result returned by the Discover method or an XML for Analysis (XMLA) command executed using the Execute method.
-ms.date: 07/24/2018
+ms.date: 01/05/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # root Element (XMLA)
 

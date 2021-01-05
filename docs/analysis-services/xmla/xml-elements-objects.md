@@ -1,7 +1,7 @@
 ---
 title: "Objects (XMLA) | Microsoft Docs"
 description: Learn how the Discover and Execute XMLA objects offer a standard way for applications to access information on an instance of Analysis Services.
-ms.date: 07/24/2018
+ms.date: 01/05/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,13 +9,13 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # XML Elements - Objects
 
   The XML for Analysis (XMLA) protocol uses two methods, **Discover** and **Execute**, to offer a standard way for applications to access information on an instance of Analysis Services. Because these methods are invoked by using the Simple Object Access Protocol (SOAP) protocol, they accept input and deliver output in XML.  
   
-## In this section  
+## In this section
+
  The following topics describe the XMLA objects implemented by Analysis Services.  
   
 |Method|Description|  

@@ -1,7 +1,7 @@
 ---
 title: "Tuple Element (XMLA) | Microsoft Docs"
 description: Learn how the Tuple element contains a collection of Member elements contained by the parent Tuples element. 
-ms.date: 07/24/2018
+ms.date: 01/05/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Tuple Element (XMLA)
 

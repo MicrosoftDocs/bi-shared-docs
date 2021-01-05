@@ -1,7 +1,7 @@
 ---
 title: "Binding Element (XMLA) | Microsoft Docs"
 description: Learn how the Binding element defines an out-of-line binding for an Analysis Services object, such as an attribute in a dimension, for the Bindings collection of a Batch or Process command.
-ms.date: 07/24/2018
+ms.date: 01/05/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Binding Element (XMLA)
 
