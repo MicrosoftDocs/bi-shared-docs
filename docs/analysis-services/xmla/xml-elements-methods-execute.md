@@ -1,5 +1,6 @@
 ---
 title: "Execute Method (XMLA) | Microsoft Docs"
+description: Learn how the Execute method sends XML for Analysis (XMLA) commands to an instance of Analysis Services.
 ms.date: 01/05/2021
 ms.prod: sql
 ms.technology: analysis-services

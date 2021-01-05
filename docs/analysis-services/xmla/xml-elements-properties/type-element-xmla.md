@@ -1,6 +1,6 @@
 ---
 title: "Type Element (XMLA) | Microsoft Docs"
-desctiption: Learn how the Type element determines the type of processing to be performed by the Process element.
+description: Learn how the Type element determines the type of processing to be performed by the Process element.
 ms.date: 01/05/2020
 ms.prod: sql
 ms.technology: analysis-services
