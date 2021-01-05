@@ -99,7 +99,7 @@ Multidimensional mode and Power Pivot for SharePoint mode are a staple for many 
 
 The features described here are included in SQL Server 2017 Analysis Services. But in order to take advantage of them, you must also use the latest versions of Visual Studio with Analysis Services projects and SQL Server Management Studio (SSMS). Analysis Services projects and SSMS are updated monthly with new and improved features that typically coincide with new functionality in SQL Server.  
 
-While it's important to learn about all the new features, it's also important to know what is being deprecated and discontinued in this release and future releases. Be sure to check out [Analysis Services backward compatibility)](analysis-services-backward-compatibility.md).
+While it's important to learn about all the new features, it's also important to know what is being deprecated and discontinued in this release and future releases. Be sure to check out [Analysis Services backward compatibility](analysis-services-backward-compatibility.md).
 
 Let's take a look at some of the key new features in this release.
 
@@ -410,7 +410,7 @@ A *calculated table* is a model-only construction based on a DAX expression or q
 
 #### Extended Events updates
 
- This release adds a graphical user interface to [!INCLUDE[ssManStudioFull](includes/ssmanstudiofull-md.md)] to configure and manage [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] Extended Events. You can set up live data streams to monitor server activity in real time, keep session data loaded in memory for faster analysis, or save data streams to a file for offline analysis. For more information, see [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md) and [Using extended events with Analysis Services (Guy in a Cube blog post and video)](https://blogs.msdn.com/b/analysisservices/archive/2015/09/22/using-extended-events-with-sql-server-analysis-services-2016-cpt-2-3.aspx).
+ This release adds a graphical user interface to [!INCLUDE[ssManStudioFull](includes/ssmanstudiofull-md.md)] to configure and manage [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] Extended Events. You can set up live data streams to monitor server activity in real time, keep session data loaded in memory for faster analysis, or save data streams to a file for offline analysis. For more information, see [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md).
 
 ### Scripting
 

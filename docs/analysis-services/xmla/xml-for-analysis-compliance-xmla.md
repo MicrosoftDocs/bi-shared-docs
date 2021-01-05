@@ -1,7 +1,7 @@
 ---
 title: "XML for Analysis (XMLA) Compliance | Microsoft Docs"
 description: Learn about the level of compliance with the XML for Analysis 1.1 specification that is supported by Azure Analysis Services and SQL Server Analysis Services.
-ms.date: 03/10/2020
+ms.date: 01/05/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,22 +9,23 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # XML for Analysis (XMLA) Compliance
   
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  The XML for Analysis 1.1 specification describes an open standard that supports data access to data sources that reside on the World Wide Web. This topic details the level of compliance with the XML for Analysis 1.1 specification that is supported by Azure Analysis Services and SQL Server Analysis Services.  
+  The XML for Analysis 1.1 specification describes an open standard that supports data access to data sources that reside on the World Wide Web. This article details the level of compliance with the XML for Analysis 1.1 specification supported by all Analysis Services platforms: Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium.  
   
-## Compliant items  
+## Compliant items
+
 Analysis Services complies with all mandatory items listed in the XML for Analysis 1.1 specification. In addition, Analysis Services implements the following optional item described in the XML for Analysis 1.1 specification.  
   
 |Item|Specification|Implementation|  
 |----------|-------------------|--------------------|  
 |Session support|The SOAP header elements listed in "Support for Statefulness in XML for Analysis" section of the XML for Analysis 1.1 specification.|All listed SOAP header elements are supported by Analysis Services, as described within the specification.|  
   
-## Extensions  
+## Extensions
+
  Analysis Services also extends the XML for Analysis 1.1 specification to support the following additional features and capabilities.  
   
 |Item|Specification|Implementation|  

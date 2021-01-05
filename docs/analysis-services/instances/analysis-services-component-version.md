@@ -1,7 +1,7 @@
 ---
 title: "Verify SQL Server Analysis Services cumulative update build version | Microsoft Docs"
 description: Learn how to verify the the SQL Server Analysis Services cumulative update build package version number.
-ms.date: 07/11/2018
+ms.date: 01/05/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -13,6 +13,8 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 
 # Verify Analysis Services cumulative update build version
+
+[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
 Beginning with SQL Server 2017, the Analysis Services build version number and SQL Server Database Engine build version number do not match. While both Analysis Services and the Database Engine use the same installer, the build systems each use are separate.
 

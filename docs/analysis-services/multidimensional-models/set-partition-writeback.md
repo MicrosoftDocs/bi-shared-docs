@@ -1,7 +1,7 @@
 ---
 title: "Set Partition Writeback | Microsoft Docs"
 description: Learn how to write-enable a partition, browse or delete writeback data, or convert writeback data to a partition.
-ms.date: 05/02/2018
+ms.date: 01/05/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -9,7 +9,6 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Set Partition Writeback
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
@@ -17,7 +16,7 @@ manager: kfile
   
  You can browse or delete writeback data. You can also convert writeback data to a partition. On a write-enabled partition, you can use cube roles to grant read/write access to users and groups of users, and to limit access to specific cells or groups of cells in the partition.  
   
- For a short video introduction to writeback, see [Excel 2010 Writeback to Analysis Services](https://go.microsoft.com/fwlink/p/?LinkId=394951). A more detailed exploration of this feature is available through this blog post series, [Building a Writeback Application with Analysis Services (blog)](https://go.microsoft.com/fwlink/?LinkId=394977).  
+ For a short video introduction to writeback, see [Excel 2010 Writeback to Analysis Services](https://go.microsoft.com/fwlink/p/?LinkId=394951).  
   
 > [!NOTE]  
 >  Writeback is supported for SQL Server relational databases and data marts only, and only for [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] multidimensional models.  

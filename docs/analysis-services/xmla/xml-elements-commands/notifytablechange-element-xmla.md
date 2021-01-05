@@ -1,7 +1,7 @@
 ---
 title: "NotifyTableChange Element (XMLA) | Microsoft Docs"
 description: Learn how the NotifyTableChange element notifies an instance of Analysis Services that a change has occurred to tables in a specified data source.
-ms.date: 07/24/2018
+ms.date: 01/05/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # NotifyTableChange Element (XMLA)
 
