@@ -1,7 +1,7 @@
 ---
 title: "Attach Element | Microsoft Docs"
 description: Learn how the Attach element attaches a Analysis Services database that was previously detached from the current server instance or from another instance, to the current server instance.
-ms.date: 07/24/2018
+ms.date: 01/05/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Attach Element
 

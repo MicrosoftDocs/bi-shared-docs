@@ -1,7 +1,7 @@
 ---
 title: "Role Element  (XMLA) | Microsoft Docs"
 description: Learn how the Role element identifies one end of a one-to-many relationship to be used by the parent RelationshipEnd.
-ms.date: 07/24/2018
+ms.date: 01/05/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Role Element  (XMLA)
 

@@ -1,7 +1,7 @@
 ---
 title: "Parameters Element (XMLA) | Microsoft Docs"
 description: Learn how the Parameters element contains a collection of Parameter elements used by the Execute method.
-ms.date: 07/24/2018
+ms.date: 01/05/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Parameters Element (XMLA)
 

@@ -216,7 +216,7 @@
     href: ../analysis-services/data-mining/data-mining-tutorials-analysis-services.md
 - name: How-to
   items:
-  - name: Install and configure
+  - name: Install and configure SSAS
     items:
     - name: Install SQL Server Analysis Services
       href: ../analysis-services/instances/install-windows/install-analysis-services.md

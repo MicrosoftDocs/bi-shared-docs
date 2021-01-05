@@ -1,7 +1,7 @@
 ---
 title: "Configure Analysis Services and Kerberos Constrained Delegation (KCD) | Microsoft Docs"
 description: Learn how to configure Analysis Services and Kerberos Constrained Delegation to delegate client credentials from service to service throughout your environment.
-ms.date: 05/02/2018
+ms.date: 01/05/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -198,16 +198,8 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 6.  Configure SharePoint Authentication providers for Kerberos. **This is needed for scenario 1**. For more information, see [Plan for Kerberos authentication in SharePoint 2013](https://technet.microsoft.com/library/ee806870.aspx).  
   
-##  <a name="bkmk_moreinfo"></a> More Information and community content  
- [Kerberos for the Busy Admin](https://blogs.technet.com/b/askds/archive/2008/03/06/kerberos-for-the-busy-admin.aspx)  
-  
- [Understanding Kerberos Double Hop](https://blogs.technet.com/b/askds/archive/2008/06/13/understanding-kerberos-double-hop.aspx)  
-  
- [ALL things .Net and SharePoint](http://sbrickey.com/Tech/Blog/Post/Kerberos_Primer)  
-  
- [Resource Based Kerberos Constrained Delegation](https://blog.kloud.com.au/2013/07/11/kerberos-constrained-delegation/)  
-  
- [KERBEROS PRIMER - videos](https://blog.martinlund.it/kerberos-primer/)  
+##  <a name="bkmk_moreinfo"></a> See also 
+
   
  [Microsoft® Kerberos Configuration Manager for SQL Server®](https://www.microsoft.com/download/details.aspx?id=39046)  
   

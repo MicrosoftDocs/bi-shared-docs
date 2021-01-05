@@ -1,7 +1,7 @@
 ---
 title: "XML for Analysis (XMLA) Reference | Microsoft Docs"
 description: Learn how Azure Analysis Services and SQL Server Analysis Services use XMLA protocol for communications between client applications and an Analysis Services instance. 
-ms.date: 03/10/2020
+ms.date: 01/05/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: xmla
@@ -9,23 +9,22 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # XML for Analysis (XMLA) Reference
-   
+
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-Azure Analysis Services and SQL Server Analysis Services use XML for Analysis (XMLA) protocol for communications between client applications and an Analysis Services instance. At their most basic level, other client libraries such as ADOMD.NET and AMO construct requests and decode responses in XMLA, serving as an intermediary to an Analysis Services instance, which uses XMLA exclusively.  
+Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium use XML for Analysis (XMLA) protocol for communications between client applications and an Analysis Services instance. At their most basic level, other client libraries such as ADOMD.NET and AMO construct requests and decode responses in XMLA, serving as an intermediary to an Analysis Services instance, which uses XMLA exclusively.  
   
- To support the discovery and manipulation of data in both tabular and multidimensional modes, the XMLA specification defines two generally accessible methods, [Discover](xml-elements-methods-discover.md) and [Execute](xml-elements-methods-execute.md), and a collection of XML elements and data types. Because XML allows for a loosely coupled client and server architecture, both methods handle incoming and outgoing information in XML format. 
+To support the discovery and manipulation of data in both tabular and multidimensional modes, the XMLA specification defines two generally accessible methods, [Discover](xml-elements-methods-discover.md) and [Execute](xml-elements-methods-execute.md), and a collection of XML elements and data types. Because XML allows for a loosely coupled client and server architecture, both methods handle incoming and outgoing information in XML format.
 
-Analysis Services is compliant with the XMLA 1.1. specification, but also extends it to include data definition and manipulation capability, implemented as annotations on the **Discover** and **Execute** methods. The extended XML syntaxes are Tabular Model Scripting Language (TMSL) and Analysis Services Scripting Language (ASSL). 
+Analysis Services is compliant with the XMLA 1.1. specification, but also extends it to include data definition and manipulation capability, implemented as annotations on the **Discover** and **Execute** methods. The extended XML syntaxes are Tabular Model Scripting Language (TMSL) and Analysis Services Scripting Language (ASSL).
 
-TMSL is the command and object model definition syntax for tabular model databases at compatibility level 1200 and higher. TMSL communicates with Analysis Services through the XMLA protocol, where the `XMLA.Execute` method accepts both JSON-based statement scripts in TMSL as well as the traditional XML-based scripts in Analysis Services Scripting Language (ASSL for XMLA).
+[Tabular Model Scripting Language](../tmsl/tabular-model-scripting-language-tmsl-reference.md) (TMSL) is the command and object model definition syntax for tabular model databases at compatibility level 1200 and higher. TMSL communicates with Analysis Services through the XMLA protocol, where the `XMLA.Execute` method accepts both JSON-based statement scripts in TMSL as well as the traditional XML-based scripts in [Analysis Services Scripting Language](../assl/analysis-services-scripting-language-assl-for-xmla.md) (ASSL for XMLA).
 
-ASSL is the command and object model definition syntax for  multidimensional model databases and tabular mode databases at compatibility level 1103 or lower. This definition builds on the XMLA specification without breaking it. Interoperability based on XMLA is ensured whether you use just XMLA, or XMLA and ASSL together.
+ASSL is the command and object model definition syntax for multidimensional model databases and tabular model databases at compatibility level 1103 or lower. This definition builds on the XMLA specification without breaking it. Interoperability based on XMLA is ensured whether you use just XMLA, or XMLA and ASSL together.
   
- As a developer, you can use XMLA as an interface if solution requirements specify standard protocols such as XML, SOAP, and HTTP. Developers and administrators can also use XMLA on an ad-hoc basis to retrieve information from the server or run commands. 
+As a developer, you can use XMLA as an interface if solution requirements specify standard protocols such as XML, SOAP, and HTTP. Developers and administrators can also use XMLA on an ad-hoc basis to retrieve information from the server or run commands.
   
 ## In this section  
   
