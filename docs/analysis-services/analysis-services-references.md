@@ -1,9 +1,10 @@
 ---
 title: "Analysis Services references | Microsoft Docs"
-ms.date: 04/21/2020
+ms.date: 01/07/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
+ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan

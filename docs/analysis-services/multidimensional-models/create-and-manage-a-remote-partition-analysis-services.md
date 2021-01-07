@@ -37,9 +37,9 @@ manager: kfile
 -   You must ensure your disaster recovery plan accommodates backup and restore of the remote partitions. Using remote partitions can complicate backup and restore operations. Be sure to test your plan thoroughly to be sure you can restore the necessary data.  
   
 ## Configure remote partitions  
- Two separate computers that are running an instance of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] are each required to create a remote partition arrangement that designates one computer as the master server and the other computer as the subordinate server.  
+ Two separate computers that are running an instance of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] are each required to create a remote partition arrangement that designates one computer as the primary server and the other computer as the secondary server.  
   
- The following procedure assumes that you have two server instances, with a cube database deployed on the master server. For the purposes of this procedure, the cube database is referred to as db-master. The storage database containing remote partitions is referred to as db-storage.  
+ The following procedure assumes that you have two server instances, with a cube database deployed on the primary server. For the purposes of this procedure, the cube database is referred to as db-master. The storage database containing remote partitions is referred to as db-storage.  
   
  You will use both [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] and [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] to complete this procedure.  
   
@@ -48,31 +48,31 @@ manager: kfile
   
 #### Specify valid server names for cube deployment (in SSDT)  
   
-1.  On the master server: In Solution Explorer, right-click the solution name and select **Properties**. In the **Properties** dialog box, click **Configuration Properties**, then click **Deployment**, and then click **Server** and set the master server's name.  
+1.  On the primary server: In Solution Explorer, right-click the solution name and select **Properties**. In the **Properties** dialog box, click **Configuration Properties**, then click **Deployment**, and then click **Server** and set the primary server's name.  
   
-2.  On the subordinate server: In Solution Explorer, right-click the solution name and select **Properties**. In the **Properties** dialog box, click **Configuration Properties**, then click **Deployment**, and then click **Server** and set the subordinate server's name.  
+2.  On the secondary server: In Solution Explorer, right-click the solution name and select **Properties**. In the **Properties** dialog box, click **Configuration Properties**, then click **Deployment**, and then click **Server** and set the secondary server's name.  
   
 #### Create and deploy a secondary database (in SSDT)  
   
-1.  On the subordinate server: Create a new Analysis Services project for the storage database.  
+1.  On the secondary server: Create a new Analysis Services project for the storage database.  
   
-2.  On the subordinate server: In Solution Explorer, create a new data source pointing to the cube database, db-master. Use the provider **Native OLE DB\Microsoft OLE DB Provider for Analysis Services 11.0**.  
+2.  On the secondary server: In Solution Explorer, create a new data source pointing to the cube database, db-master. Use the provider **Native OLE DB\Microsoft OLE DB Provider for Analysis Services 11.0**.  
   
-3.  On the subordinate server: Deploy the solution.  
+3.  On the secondary server: Deploy the solution.  
   
 #### Enable features (in SSMS)  
   
-1.  On the subordinate server: In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], right-click your connected [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance in Object Explorer and select **Properties**. Set both **Feature\LinkToOtherInstanceEnabled** and **Feature\LinkFromOtherInstanceEnabled** to **True**.  
+1.  On the secondary server: In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], right-click your connected [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance in Object Explorer and select **Properties**. Set both **Feature\LinkToOtherInstanceEnabled** and **Feature\LinkFromOtherInstanceEnabled** to **True**.  
   
-2.  On the subordinate server: Restart the server by right-clicking the server name in Object Explorer and selecting **Restart**.  
+2.  On the secondary server: Restart the server by right-clicking the server name in Object Explorer and selecting **Restart**.  
   
-3.  On the master server: In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], right-click your connected [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance in Object Explorer and select **Properties**. Set both **Feature\LinkToOtherInstanceEnabled** and **Feature\LinkFromOtherInstanceEnabled** to **True**.  
+3.  On the primary server: In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], right-click your connected [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance in Object Explorer and select **Properties**. Set both **Feature\LinkToOtherInstanceEnabled** and **Feature\LinkFromOtherInstanceEnabled** to **True**.  
   
-4.  On the master server: To restart the server, right-click the server name in Object Explorer and select **Restart**.  
+4.  On the primary server: To restart the server, right-click the server name in Object Explorer and select **Restart**.  
   
 #### Set the MasterDataSourceID database property on the remote server (in SSMS)  
   
-1.  On the subordinate server: Right-click the storage database, db-storage, point to **Script Database as** | **ALTER To** | **New Query Editor Window**.  
+1.  On the secondary server: Right-click the storage database, db-storage, point to **Script Database as** | **ALTER To** | **New Query Editor Window**.  
   
 2.  Add **MasterDataSourceID** to the XMLA, and then specify the cube database, db-master, ID as the value. The XMLA should look similar to the following.  
   
@@ -102,7 +102,7 @@ manager: kfile
   
 #### Set up the remote partition (in SSDT)  
   
-1.  On the master server: Open the cube in Cube Designer and click **Partitions** tab. Expand the measure group. Click **New Partition** if the measure group is already configured for multiple partitions, or click the browse (. . ) button in the Source column to edit the existing partition.  
+1.  On the primary server: Open the cube in Cube Designer and click **Partitions** tab. Expand the measure group. Click **New Partition** if the measure group is already configured for multiple partitions, or click the browse (. . ) button in the Source column to edit the existing partition.  
   
 2.  In the Partition Wizard, in **Specify Source Information**, select the original Data Source View and fact table.  
   
@@ -113,7 +113,7 @@ manager: kfile
     > [!NOTE]  
     >  If you get an error indicating the data source does not exist in the collection, you must open the project of the storage database, db-storage, and create a data source that points to the master database, db-master.  
   
-5.  On the master server: Right-click the cube name in Solution Explorer, select **Process** and fully process the cube.  
+5.  On the primary server: Right-click the cube name in Solution Explorer, select **Process** and fully process the cube.  
   
 ## Administering remote partitions  
  [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports both parallel and sequential processing of remote partitions. The master database, where the partitions were defined, coordinates the transactions among all the instances that participate in processing the partitions of a cube. Processing reports are then sent to all instances that processed a partition.  
