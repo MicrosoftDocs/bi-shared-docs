@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services references | Microsoft Docs"
+description: Learn about scripting and API languages used with Analysis Services.
 ms.date: 01/07/2021
 ms.prod: sql
 ms.technology: analysis-services
