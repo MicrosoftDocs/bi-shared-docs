@@ -170,7 +170,7 @@ manager: kfile
 4.  Avoid using linked measure groups in multiple many-to-many relationships, especially when those relationships are in different cubes. Doing so can result in ambiguous aggregations. For more information, see [Incorrect Amounts for Linked Measures in Cubes containing Many-to-Many Relationships](https://social.technet.microsoft.com/wiki/contents/articles/22911.incorrect-amounts-for-linked-measures-in-cubes-containing-many-to-many-relationships-ssas-troubleshooting.aspx).  
   
 ##  <a name="bkmk_Learn"></a> Learn more  
- Use the following links to get additional information that helps you master the concepts.  
+ Use the following links to get additional information that helps you learn the concepts.  
   
  [The many-to-many Revolution 2.0](https://go.microsoft.com/fwlink/?LinkId=324760)  
   
