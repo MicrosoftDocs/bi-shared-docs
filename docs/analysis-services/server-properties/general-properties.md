@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services general properties | Microsoft Docs"
 description:  Learn about the available general properties in Analysis Services, like AdminTimeout and ExternalCommandTimeout. 
-ms.date: 09/07/2019
+ms.date: 01/10/2020
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -71,6 +71,9 @@ The default value for this property is -1, which allows all background cache ref
   
  **DataDir**  
  A string property that identifies the name of the directory where data is stored.  
+ 
+ **DefaultSegmentRowCount**
+ Defines the number of data rows per segment. Every table partition has at least one segment of data. The default is 8 million rows.
   
  **DeploymentMode**  
  Determines the operational context of an Analysis Services server instance. This property is referred to as 'server mode' in dialog boxes, messages, and documentation. This property is configured by SQL Server Setup based on the server mode you selected when installing Analysis Services. This property should be considered internal only, always using the value specified by Setup.  
