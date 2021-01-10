@@ -72,7 +72,7 @@ The default value for this property is -1, which allows all background cache ref
  **DataDir**  
  A string property that identifies the name of the directory where data is stored.  
  
- **DefaultSegmentRowCount**
+ **DefaultSegmentRowCount**  
  Defines the number of data rows per segment. Every table partition has at least one segment of data. The default is 8 million rows.
   
  **DeploymentMode**  
