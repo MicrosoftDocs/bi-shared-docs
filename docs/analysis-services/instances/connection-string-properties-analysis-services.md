@@ -113,7 +113,7 @@ Use when an end user identity must be impersonated on the server. For SSAS, spec
 
 ### CustomData
 
-A string no greater than 256 characters that can be passed to the engine in the connection string and then retrieved by using the CustomData() MDX function or CUSTOMDATA() DAX function. Most commonly used to pass a userID or username as a value, and then specify that value in the definition of a security expression.
+A string value to be passed to the engine in the connection string and then retrieved by using the CustomData() MDX function or CUSTOMDATA() DAX function. Most commonly used to pass a userID or username as a value, and then specify that value in the definition of a security expression.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
