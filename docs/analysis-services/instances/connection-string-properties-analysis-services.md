@@ -1,7 +1,7 @@
 ---
 title: "Connection string properties (Analysis Services) | Microsoft Docs"
 description: Learn about connection string properties used to query Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium dataset data.
-ms.date: 01/12/2021
+ms.date: 01/15/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -110,6 +110,10 @@ Properties are listed in alphabetical order.
 Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. This property is currently not supported in Power BI Premium.
 
 ::: moniker-end
+
+### CustomData
+
+A string no greater than 256 characters that can be passed to the engine in the connection string and then retrieved by using the CustomData() MDX function or CUSTOMDATA() DAX function. Most commonly used to pass a userID or username as a value, and then specify that value in the definition of a security expression.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
