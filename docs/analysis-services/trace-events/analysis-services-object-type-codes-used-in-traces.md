@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services object type codes used in traces | Microsoft Docs"
 description: Learn about the object type of each object in a data model. These codes appear in trace logs and are used to identify the type of object associated with a particular lock.
-ms.date: 05/07/2018
+ms.date: 01/26/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: trace-events
@@ -9,7 +9,6 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Analysis Services object type codes used in traces
 
@@ -18,7 +17,40 @@ manager: kfile
 > [!NOTE]  
 >  There are more codes listed below than what will actually appear in a trace log. The list below is a comprehensive list of type codes for every object, but only objects that take a lock will present an object type code in a trace log.  
   
-## Object type reference  
+## Tabular object types
+
+|Object type|Object name|  
+|-----------------|-----------------|  
+|801002|Database|  
+|802010|Model|  
+|802011|Datasource|  
+|802012|Table|  
+|802013|Column|  
+|802014|AttributeHierarchy|  
+|802015|Partition|  
+|802016|Relationship|  
+|802017|Measure|  
+|802018|Hierarchy|  
+|802019|Level|  
+|802020|Annotation|  
+|802021|KPI|  
+|802022|Culture|  
+|802023|ObjectTranslation|  
+|802024|LinguisticMetadata|  
+|802038|Perspective|  
+|802039|PerspectiveTable|  
+|802040|PerspectiveTableColumn|  
+|802041|PerspectiveTableHierarchy|  
+|802042|PerspectiveTableMeasure|  
+|802043|Role|  
+|802044|RoleMembership|  
+|802045|TablePermission|  
+|802046|Variation|  
+|802051|ColumnPermission|  
+|802052|DetailRowsDefinition|  
+|802055|AlternateOf|
+
+## Multidimensional object types
   
 |Object type|Object name|  
 |-----------------|-----------------|  
@@ -115,5 +147,3 @@ manager: kfile
 |100153|KpiCollection|  
 |100154|DataSourceViewCollection|  
 |100155|PerspectiveCollection|  
-  
-  
