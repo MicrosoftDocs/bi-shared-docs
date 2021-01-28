@@ -17,9 +17,9 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 This article describes connecting to an instance of SQL Server Analysis Services (SSAS) using common tools and applications. This article also explains how to connect under different user identities for testing purposes.  
 
-To learn about connecting to **Azure Analysis Services**, see [Connecting to server resources](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)
+To learn about connecting to **Azure Analysis Services**, see [Connecting to server resources](/azure/analysis-services/analysis-services-connect)
 
-To learn about connecting to **Power BI Premium workspaces**, see [Connecting to a Premium workspace](https://docs.microsoft.com/power-bi/service-premium-connect-tools#connecting-to-a-premium-workspace)
+To learn about connecting to **Power BI Premium workspaces**, see [Connecting to a Premium workspace](/power-bi/service-premium-connect-tools#connecting-to-a-premium-workspace)
   
 ## Firewall and permissions
 
@@ -46,7 +46,7 @@ Hold-down the Shift key and right-click the **SQL Server Management Studio** sho
   
      For a named instance, the server name must be specified in this format: servername\instance name. An example of this naming convention might be ADV-SRV062\Finance for a server that has a network name of ADV-SRV062, where Analysis Services was installed as a named instance entitled Finance.  
   
-     For servers deployed in a failover cluster, connect using the network name of the SSAS cluster. This name is specified during SQL Server setup, as **SQL Server Network Name**. Note that if you installed SSAS as a named instance onto a Windows Server Failover Cluster (WSFC), you never add the instance name on the connection. This practice is unique to SSAS; in contrast, a named instance of a clustered relational database engine does include the instance name. For example, if you installed both SSAS and the database engine as named instance (Contoso-Accounting) with a SQL Server Network Name of SQL-CLU, you would connect to SSAS using "SQL-CLU" and to the database engine as "SQL-CLU\Contoso-Accounting". See [How to Cluster SQL Server Analysis Services](https://go.microsoft.com/fwlink/p/?LinkId=396548) for more information and examples.  
+     For servers deployed in a failover cluster, connect using the network name of the SSAS cluster. This name is specified during SQL Server setup, as **SQL Server Network Name**. Note that if you installed SSAS as a named instance onto a Windows Server Failover Cluster (WSFC), you never add the instance name on the connection. This practice is unique to SSAS; in contrast, a named instance of a clustered relational database engine does include the instance name. For example, if you installed both SSAS and the database engine as named instance (Contoso-Accounting) with a SQL Server Network Name of SQL-CLU, you would connect to SSAS using "SQL-CLU" and to the database engine as "SQL-CLU\Contoso-Accounting". See [How to Cluster SQL Server Analysis Services](/previous-versions/sql/sql-server-2012/dn736073(v=msdn.10)) for more information and examples.  
   
      For servers deployed in a network load balanced cluster, connect using the virtual server name of the NLB.  
   
@@ -125,12 +125,11 @@ Use SQL Server Profiler to monitor connections to Analysis Services. The Audit L
   
  Resources that can help you resolve connection failures include the following:  
   
- [Resolving Common Connectivity Issues in SQL Server 2005 Analysis Services Connectivity Scenarios](https://technet.microsoft.com/library/cc917670.aspx). This document is a few years old, but the information and methodologies still apply.  
+ [Resolving Common Connectivity Issues in SQL Server 2005 Analysis Services Connectivity Scenarios](/previous-versions/sql/sql-server-2005/administrator/cc917670(v=technet.10)). This document is a few years old, but the information and methodologies still apply.  
   
 ## See Also  
 
  [Authentication methodologies supported by Analysis Services](../../analysis-services/instances/authentication-methodologies-supported-by-analysis-services.md)   
  [Impersonation](../../analysis-services/tabular-models/impersonation-ssas-tabular.md)   
  [Create a Data Source &#40;SSAS Multidimensional&#41;](../../analysis-services/multidimensional-models/create-a-data-source-ssas-multidimensional.md)  
-  
   

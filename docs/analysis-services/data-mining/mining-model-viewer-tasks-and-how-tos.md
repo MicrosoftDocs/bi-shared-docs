@@ -34,7 +34,6 @@ manager: kfile
 -   [Change the Colors Used in the Data Mining Viewer](../../analysis-services/data-mining/change-the-colors-used-in-the-data-mining-viewer.md)  
   
 ## See Also  
- [Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c)   
- [Mining Model Viewers &#40;Data Mining Model Designer&#41;](https://msdn.microsoft.com/library/4ba391d5-c97b-4848-ba7c-7d096fa4b7dd)  
-  
+ [Basic Data Mining Tutorial](/previous-versions/sql/sql-server-2016/ms167167(v=sql.130))   
+ [Mining Model Viewers &#40;Data Mining Model Designer&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15)  
   

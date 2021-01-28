@@ -25,7 +25,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 -   For [!INCLUDE[ssGeminiShort](../includes/ssgeminishort-md.md)] 2010, do not open ports in Windows Firewall. As an add-in to SharePoint, the service uses ports configured for SharePoint and makes only local connections to the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance that loads and queries [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] data models.  
   
--   For [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instances running on Windows Azure Virtual Machines, use alternate instructions for configuring server access. See [SQL Server Business Intelligence in Windows Azure Virtual Machines](https://msdn.microsoft.com/library/windowsazure/jj992719.aspx).  
+-   For [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instances running on Windows Azure Virtual Machines, use alternate instructions for configuring server access. See [SQL Server Business Intelligence in Windows Azure Virtual Machines](/previous-versions/azure/jj992719(v=azure.100)).  
   
  Although the default instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] listens on TCP port 2383, you can configure the server to listen on a different fixed port, connecting to the server in this format: \<servername>:\<portnumber>.  
   
@@ -205,7 +205,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 5.  Verify by connecting locally (in Management Studio) and then remotely from a client application on another computer. To use Management Studio, connect to an Analysis Services default instance by specifying a server name in this format: \<servername>:\<portnumber>. For a named instance, specify the server name as \<servername>\\<instancename\>.  
   
 ##  <a name="bkmk_cluster"></a> Port configuration for an Analysis Services cluster  
- An [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] failover cluster always listens on TCP port 2383, regardless of whether you installed it as a default instance or named instance. Dynamic port assignments are not used by [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] when it is installed on a Windows failover cluster. Be sure to open TCP 2383 on every node running [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] in the cluster. For more information about clustering [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], see [How to Cluster SQL Server Analysis Services](https://go.microsoft.com/fwlink/p/?LinkId=396548).  
+ An [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] failover cluster always listens on TCP port 2383, regardless of whether you installed it as a default instance or named instance. Dynamic port assignments are not used by [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] when it is installed on a Windows failover cluster. Be sure to open TCP 2383 on every node running [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] in the cluster. For more information about clustering [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], see [How to Cluster SQL Server Analysis Services](/previous-versions/sql/sql-server-2012/dn736073(v=msdn.10)).  
   
 ##  <a name="bkmk_powerpivot"></a> Port configuration for Power Pivot for SharePoint  
  Server architecture for [!INCLUDE[ssGeminiShort](../includes/ssgeminishort-md.md)] is fundamentally different depending on which version of SharePoint you are using.  
@@ -226,5 +226,4 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
  [SQL Server Browser Service &#40;Database Engine and SSAS&#41;](/sql/database-engine/configure-windows/sql-server-browser-service-database-engine-and-ssas)   
  [Start, Stop, Pause, Resume, Restart the Database Engine, SQL Server Agent, or SQL Server Browser Service](/sql/database-engine/configure-windows/start-stop-pause-resume-restart-sql-server-services)   
  [Configure a Windows Firewall for Database Engine Access](/sql/database-engine/configure-windows/configure-a-windows-firewall-for-database-engine-access)  
-  
   

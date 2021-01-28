@@ -17,7 +17,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 -   The add-in is not required for SharePoint 2010 deployments.  
   
--   The add-in is not required on a single server deployment that includes SharePoint 2013 and [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] in SharePoint mode. The components installed by the add-in are included when you install an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] server in SharePoint mode. For diagrams of example deployments with the add-in, see [Deployment Topologies for SQL Server BI Features in SharePoint](https://msdn.microsoft.com/library/39f76bc7-94e6-4dbc-bfa5-d56f4430bb26)  
+-   The add-in is not required on a single server deployment that includes SharePoint 2013 and [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] in SharePoint mode. The components installed by the add-in are included when you install an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] server in SharePoint mode. For diagrams of example deployments with the add-in, see [Deployment Topologies for SQL Server BI Features in SharePoint](/previous-versions/sql/sql-server-2016/hh231674(v=sql.130))  
   
  **Note:** This topic describes installing the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] solution files and [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint 2013 Configuration tool. After the installation, see the following topic for information on the configuration tool and additional features, [Configure Power Pivot and Deploy Solutions &#40;SharePoint 2013&#41;](../../../analysis-services/instances/install-windows/configure-power-pivot-and-deploy-solutions-sharepoint-2013.md).  
   
@@ -65,7 +65,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 -   **Permissions:** To install [!INCLUDE[ssGeminiShort2017](../../includes/ssgeminishort2017-md.md)], the current user is required to be an administrator on the computer and a SharePoint Farm Administrators group.  
   
--   For more information on [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)] requirements and pre-requisites, go to [Hardware and Software Requirements for Analysis Services Server in SharePoint Mode](https://msdn.microsoft.com/library/fb86ca0a-518c-4c61-ae78-7680c57fae1f).  
+-   For more information on [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)] requirements and pre-requisites, go to [Hardware and Software Requirements for Analysis Services Server in SharePoint Mode](/sql/sql-server/install/install-sql-server-business-intelligence-features).  
   
 ##  <a name="bkmk_install"></a> To Install Power Pivot for SharePoint  
  The **spPowerpivot.msi** installer package supports both a graphical user interface and a command-line mode. Both methods of installation require that you run the .msi with administrator privileges. After the installation, see the following topic for information on the configuration tool and additional features, [Configure Power Pivot and Deploy Solutions &#40;SharePoint 2013&#41;](../../../analysis-services/instances/install-windows/configure-power-pivot-and-deploy-solutions-sharepoint-2013.md).  
@@ -160,7 +160,7 @@ Msiexec /i spPowerPivot.msi AGREETOLICENSE="yes" ADDLOCAL=" SQL_OLAPDM,SQL_ADOMD
   
 4.  Click **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint 2013 Configuration**.  
   
- For more information on the configuration tool, see [Power Pivot Configuration Tools](../../../analysis-services/power-pivot-sharepoint/power-pivot-configuration-tools.md).  
+ For more information on the configuration tool, see [Power Pivot Configuration Tools](../../power-pivot-for-sharepoint-ssas.md).  
   
 ##  <a name="bkmk_remove_addin"></a> Uninstall or repair the add-in  
   
@@ -188,5 +188,4 @@ Msiexec /i spPowerPivot.msi AGREETOLICENSE="yes" ADDLOCAL=" SQL_OLAPDM,SQL_ADOMD
     ```  
     msiexec.exe /uninstall spPowerPivot.msi  
     ```  
-  
   

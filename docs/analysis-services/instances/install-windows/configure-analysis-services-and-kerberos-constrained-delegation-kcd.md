@@ -177,7 +177,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
      This is known as constrained delegation, and is required because the windows token will originate from a Claims to Windows Token Services (C2WTS) which requires constrained delegation with protocol transitioning.  You will then want to allow delegation to the MSOLAPSvc.3 and MSOLAPDisco.3 SPNs that we created above.  
   
-5.  Setup Claims to windows token service (C2WTS) **This is needed for scenario 1**. For more information see [Claims to Windows Token Service (c2WTS) Overview](https://msdn.microsoft.com/library/ee517278.aspx).  
+5.  Setup Claims to windows token service (C2WTS) **This is needed for scenario 1**. For more information see [Claims to Windows Token Service (c2WTS) Overview](/previous-versions/windows-identity-foundation/ee517278(v=msdn.10)).  
   
 6.  **Configure constrained delegation** settings on the C2WTS service account.  The settings should match what you did in step 4.  
   
@@ -192,15 +192,14 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 3.  Run the PowerPivot for SharePoint add-in (spPowerPivot16.msi). For more information, see [Install or Uninstall the Power Pivot for SharePoint Add-in (SharePoint 2016)](../../../analysis-services/instances/install-windows/install-or-uninstall-the-power-pivot-for-sharepoint-add-in-sharepoint-2016.md)  
   
-4.  Run the PowerPivot Configuration wizard. See [Power Pivot Configuration Tools](../../../analysis-services/power-pivot-sharepoint/power-pivot-configuration-tools.md).  
+4.  Run the PowerPivot Configuration wizard. See [Power Pivot Configuration Tools](../../power-pivot-for-sharepoint-ssas.md).  
   
 5. Connect SharePoint to the Office Online Server. (Configure_xlwac_on_SPO.ps1)
   
-6.  Configure SharePoint Authentication providers for Kerberos. **This is needed for scenario 1**. For more information, see [Plan for Kerberos authentication in SharePoint 2013](https://technet.microsoft.com/library/ee806870.aspx).  
+6.  Configure SharePoint Authentication providers for Kerberos. **This is needed for scenario 1**. For more information, see [Plan for Kerberos authentication in SharePoint 2013](/SharePoint/security-for-sharepoint-server/kerberos-authentication-planning).  
   
 ##  <a name="bkmk_moreinfo"></a> See also 
 
   
  [Microsoft® Kerberos Configuration Manager for SQL Server®](https://www.microsoft.com/download/details.aspx?id=39046)  
-  
   

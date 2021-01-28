@@ -32,19 +32,19 @@ landingContent:
       - linkListType: overview
         links:
           - text: What is Azure Analysis Services?
-            url: https://docs.microsoft.com/azure/analysis-services/analysis-services-overview
+            url: /azure/analysis-services/analysis-services-overview
       - linkListType: get-started
         links:
           - text: Create a resource in Azure
-            url: https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server
+            url: /azure/analysis-services/analysis-services-create-server
           - text: Add a sample model from the portal
-            url: https://docs.microsoft.com/azure/analysis-services/analysis-services-create-sample-model
+            url: /azure/analysis-services/analysis-services-create-sample-model
       - linkListType: concept
         links:
            - text: Supported data sources
-             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource
+             url: /azure/analysis-services/analysis-services-datasource
            - text: Automation with service principals
-             url: https://docs.microsoft.com/azure/analysis-services/analysis-services-service-principal
+             url: /azure/analysis-services/analysis-services-service-principal
 
   # Card
   - title: SQL Server Analysis Services
@@ -64,7 +64,7 @@ landingContent:
           - text: Install SQL Server evaluation editions
             url: https://www.microsoft.com/evalcenter/evaluate-sql-server-2019-rc/
           - text: SQL Server 2014 Analysis Services
-            url: https://docs.microsoft.com/previous-versions/sql/2014/analysis-services/analysis-services?view=sql-server-2014&preserve-view=true
+            url: /previous-versions/sql/2014/analysis-services/analysis-services?preserve-view=true&view=sql-server-2014
             
 
   # Card
@@ -72,9 +72,9 @@ landingContent:
     linkLists:
       - linkListType: concept
         links:
-        - url: https://docs.microsoft.com/power-bi/service-premium-what-is#analysis-services-in-power-bi-premium-preview
+        - url: /power-bi/service-premium-what-is#analysis-services-in-power-bi-premium-preview
           text: Analysis Services in Power BI Premium
-        - url: https://docs.microsoft.com/power-bi/service-premium-connect-tools
+        - url: /power-bi/service-premium-connect-tools
           text: Dataset connectivity with the XMLA Endpoint
 
   # Card
@@ -87,7 +87,7 @@ landingContent:
           - text: Analysis Services projects extension (SSDT)
             url: https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects
           - text: SQL Server Management Studio (SSMS)
-            url: https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms
+            url: /sql/ssms/download-sql-server-management-studio-ssms
           - text: DAX Studio (open-source)
             url: https://daxstudio.org/
           - text: Tabular Editor (open-source)
@@ -156,6 +156,3 @@ landingContent:
             url: amo/amo-concepts-and-object-model.md
           - text: XML for Analysis (XMLA)
             url: xmla/xml-for-analysis-xmla-reference.md
-
-
-

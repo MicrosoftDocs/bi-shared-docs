@@ -43,7 +43,7 @@ manager: kfile
 3.  Press F5, or click **Execute**.  
   
 ## Example  
- The following code returns a list of the parameters that were used to create the mining model that you build in the [Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c). These parameters include the explicit values for any defaults used by the mining services available from providers on the server.  
+ The following code returns a list of the parameters that were used to create the mining model that you build in the [Basic Data Mining Tutorial](/previous-versions/sql/sql-server-2016/ms167167(v=sql.130)). These parameters include the explicit values for any defaults used by the mining services available from providers on the server.  
   
 ```  
 SELECT MINING_PARAMETERS   
@@ -62,5 +62,4 @@ WHERE MODEL_NAME = 'TM Clustering'
 ## See Also  
  [Data Mining Query Tasks and How-tos](../../analysis-services/data-mining/data-mining-query-tasks-and-how-tos.md)   
  [Data Mining Queries](../../analysis-services/data-mining/data-mining-queries.md)  
-  
   

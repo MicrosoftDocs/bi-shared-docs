@@ -59,7 +59,7 @@ manager: kfile
 ## Viewing the Model  
  To explore the model, you can use the **Microsoft Naive Bayes Viewer**. The viewer shows you how the input attributes relate to the predictable attribute. The viewer also provides a detailed profile of each cluster, a list of the attributes that distinguish each cluster from the others, and the characteristics of the entire training data set. For more information, see [Browse a Model Using the Microsoft Naive Bayes Viewer](../../analysis-services/data-mining/browse-a-model-using-the-microsoft-naive-bayes-viewer.md).  
   
- If you want to know more detail, you can browse the model in the [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](https://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c). For more information about the type of information stored in the model, see [Mining Model Content for Naive Bayes Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-for-naive-bayes-models-analysis-services-data-mining.md).  
+ If you want to know more detail, you can browse the model in the [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15). For more information about the type of information stored in the model, see [Mining Model Content for Naive Bayes Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-for-naive-bayes-models-analysis-services-data-mining.md).  
   
 ## Making Predictions  
  After the model has been trained, the results are stored as a set of patterns, which you can explore or use to make predictions.  
@@ -84,5 +84,4 @@ manager: kfile
  [Naive Bayes Model Query Examples](../../analysis-services/data-mining/naive-bayes-model-query-examples.md)   
  [Mining Model Content for Naive Bayes Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-for-naive-bayes-models-analysis-services-data-mining.md)   
  [Microsoft Naive Bayes Algorithm Technical Reference](../../analysis-services/data-mining/microsoft-naive-bayes-algorithm-technical-reference.md)  
-  
   

@@ -26,7 +26,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
  An additional configuration step, not documented here, is to register a Service Principal Name (SPN) for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance and service account. This step enables pass-through authentication from client applications to backend data sources in double-hop scenarios. This step only applies for services configured for Kerberos constrained delegation. See [Configure Analysis Services for Kerberos constrained delegation](../../analysis-services/instances/configure-analysis-services-for-kerberos-constrained-delegation.md) for further instructions.  
   
 ## Logon account recommendations  
- In a failover cluster, all instances of Analysis Services should be configured to use a Windows domain user account. Assign the same account to all instances. See [How to Cluster Analysis Services](https://msdn.microsoft.com/library/dn736073.aspx) for details.  
+ In a failover cluster, all instances of Analysis Services should be configured to use a Windows domain user account. Assign the same account to all instances. See [How to Cluster Analysis Services](/previous-versions/sql/sql-server-2012/dn736073(v=msdn.10)) for details.  
   
  Standalone instances should use the default virtual account, **NT Service\MSSQLServerOLAPService** for the default instance, or **NT Service\MSOLAP$**_instance-name_ for a named instance. This recommendation applies to Analysis Services instances in all server modes, assuming Windows Server 2008 R2 and later for the operating system, and SQL Server 2012 and later for Analysis Services.  
   
@@ -146,5 +146,4 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
  [Security Identifiers (MSDN)](/windows/desktop/SecAuthZ/security-identifiers)   
  [Access Token (Wikipedia)](https://en.wikipedia.org/wiki/Access_token)   
  [Access Control Lists (Wikipedia)](https://en.wikipedia.org/wiki/Access_control_list)  
-  
   

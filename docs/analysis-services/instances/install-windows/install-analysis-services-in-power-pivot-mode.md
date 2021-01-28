@@ -44,7 +44,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
      **Note:** The instance name must be POWERPIVOT.  
   
-5.  Review [Hardware and Software Requirements for Analysis Services Server in SharePoint Mode](https://msdn.microsoft.com/library/fb86ca0a-518c-4c61-ae78-7680c57fae1f).  
+5.  Review [Hardware and Software Requirements for Analysis Services Server in SharePoint Mode](/sql/sql-server/install/install-sql-server-business-intelligence-features).  
   
 6.  Review the release notes at [SQL Server 2016 Release Notes](/sql/sql-server/sql-server-2016-release-notes).  
   
@@ -254,7 +254,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
  Use the information in the topic [Configure the Windows Firewall to Allow Analysis Services Access](../../../analysis-services/instances/configure-the-windows-firewall-to-allow-analysis-services-access.md) to determine whether you need to unblock ports in a firewall to allow access to Analysis Services or [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint. You can follow the steps provided in the topic to configure both port and firewall settings. In practice, you should perform these steps together to allow access to your Analysis Services server.  
   
 ##  <a name="bkmk_upgrade_workbook"></a> Upgrade Workbooks and Scheduled Data Refresh  
- The steps required to upgrade workbooks created in previous versions of [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] depend on what version of [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] created the workbook. For more information, see [Upgrade Workbooks and Scheduled Data Refresh &#40;SharePoint 2013&#41;](../../../analysis-services/instances/install-windows/upgrade-workbooks-and-scheduled-data-refresh-sharepoint-2013.md).  
+ The steps required to upgrade workbooks created in previous versions of [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] depend on what version of [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] created the workbook. For more information, see [Upgrade Workbooks and Scheduled Data Refresh &#40;SharePoint 2013&#41;](../../power-pivot-for-sharepoint-ssas.md).  
   
 ##  <a name="bkmk_multiple_servers"></a> Beyond the Single-Server Installation - Power Pivot for Microsoft SharePoint  
  **Web front-end (WFE)** or **Middle-tier:**: To use an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] server in SharePoint mode in a larger SharePoint farm and to install additional [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] features into the farm, run the installer package **spPowerPivot16.msi (SharePoint 2016), or spPowerPivot.msi (SharePoint 2013),** on each of the SharePoint servers. The spPowerPivot16.msi, or spPowerPivot.msi, installs required data providers and the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint 2016, or 2013, Configuration tool.  
@@ -271,15 +271,14 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
  **Redundancy and server load:** Installing a second, or more [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] servers in [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] mode will provide redundancy of the [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] server functionality. Additional servers will also spread the load across servers. For more information, see the following:  
   
--   [Configure Analysis Services for processing data models in Excel Services (SharePoint 2013)](https://technet.microsoft.com/library/jj614437(v=office.15)).  
+-   [Configure Analysis Services for processing data models in Excel Services (SharePoint 2013)](/SharePoint/sharepoint-server).  
   
--   [Manage Excel Services data model settings (SharePoint 2013)](https://technet.microsoft.com/library/jj219780(v=office.15)).  
+-   [Manage Excel Services data model settings (SharePoint 2013)](/SharePoint/administration/manage-excel-services-data-model-settings).  
   
  ![SharePoint Settings](../../../analysis-services/media/as-sharepoint2013-settings-gear.gif "SharePoint Settings") [Submit feedback and contact information through SQL Server Feedback](https://feedback.azure.com/forums/908035-sql-server).  
   
 ## See Also  
- [Migrate Power Pivot to SharePoint 2013](../../../analysis-services/instances/install-windows/migrate-power-pivot-to-sharepoint-2013.md)   
+ [Migrate Power Pivot to SharePoint 2013](../../power-pivot-for-sharepoint-ssas.md)   
  [Install or Uninstall the Power Pivot for SharePoint Add-in &#40;SharePoint 2013&#41;](../../../analysis-services/instances/install-windows/install-or-uninstall-the-power-pivot-for-sharepoint-add-in-sharepoint-2013.md)   
- [Upgrade Workbooks and Scheduled Data Refresh &#40;SharePoint 2013&#41;](../../../analysis-services/instances/install-windows/upgrade-workbooks-and-scheduled-data-refresh-sharepoint-2013.md)  
-  
+ [Upgrade Workbooks and Scheduled Data Refresh &#40;SharePoint 2013&#41;](../../power-pivot-for-sharepoint-ssas.md)  
   

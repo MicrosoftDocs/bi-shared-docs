@@ -41,7 +41,7 @@ Add-PSSnapin Microsoft.Sharepoint.Powershell -EA 0
   
  For more information on the PowerShell ISE, see [Introducing the Windows PowerShell ISE](https://technet.microsoft.com/library/dd315244.aspx) and [Use Windows PowerShell to administer SharePoint 2013](https://technet.microsoft.com/library/ee806878\(v=office.15\).aspx).  
 
-![powerpivot in sharepoint general application set](../../../analysis-services/instances/install-windows/media/ssas-powerpivot-logo.png "powerpivot in sharepoint general application set") You can optionally verify a majority of the components in Central Administration, using the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] management dashboard. To open the dashboard in Central Administration, click **General Application Settings**, and then click **Management Dashboard** in the **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)]**. For more information on the dashboard, see [Power Pivot Management Dashboard and Usage Data](../../../analysis-services/power-pivot-sharepoint/power-pivot-management-dashboard-and-usage-data.md).
+![powerpivot in sharepoint general application set](../../../analysis-services/instances/install-windows/media/ssas-powerpivot-logo.png "powerpivot in sharepoint general application set") You can optionally verify a majority of the components in Central Administration, using the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] management dashboard. To open the dashboard in Central Administration, click **General Application Settings**, and then click **Management Dashboard** in the **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)]**. For more information on the dashboard, see [Power Pivot Management Dashboard and Usage Data](../../power-pivot-for-sharepoint-ssas.md).
 
 ##  <a name="bkmk_symptoms"></a> Symptoms and Recommended Actions  
  The following table is a list of symptoms or issues and the suggested section of this topic to consult to help you resolve the issue.  
@@ -241,7 +241,7 @@ Online PowerPivot Setup Extension Timer Job                                     
 ```  
   
 ##  <a name="bkmk_health_rules"></a> Health Rules  
- There are fewer rules in a SharePoint 2013 deployment. For a full list of rules for each SharePoint environment and an explanation of how to use the rules, see [Configure Power Pivot Health Rules](../../../analysis-services/power-pivot-sharepoint/configure-power-pivot-health-rules.md).  
+ There are fewer rules in a SharePoint 2013 deployment. For a full list of rules for each SharePoint environment and an explanation of how to use the rules, see [Configure Power Pivot Health Rules](../../power-pivot-for-sharepoint-ssas.md).  
   
 ```  
 Get-SPHealthAnalysisRule | select name, enabled, summary | where {$_.summary -like "*power*"}  | format-table -property * -autosize | out-default  
@@ -264,7 +264,7 @@ MidTierAcctReadPermissionRule    True PowerPivot: MidTier process account should
 ##  <a name="bkmk_logs"></a> Windows and ULS Logs  
  **Windows event log**  
   
- The following command will search the windows event log for events related to the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] in SharePoint mode. For information on disabling events or changing the event level, see [Configure and View SharePoint Log Files  and Diagnostic Logging &#40;Power Pivot for SharePoint&#41;](../../../analysis-services/power-pivot-sharepoint/configure-and-view-sharepoint-and-diagnostic-logging.md)
+ The following command will search the windows event log for events related to the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] in SharePoint mode. For information on disabling events or changing the event level, see [Configure and View SharePoint Log Files  and Diagnostic Logging &#40;Power Pivot for SharePoint&#41;](../../power-pivot-for-sharepoint-ssas.md)
  
  **Service Name:** MSOLAP$POWERPIVOT  
   
@@ -343,7 +343,7 @@ MSOLAP.4   Oledb        Microsoft OLE DB Provider for OLAP Services 10.0
 MSOLAP.5   Oledb        Microsoft OLE DB Provider for OLAP Services 11.0  
 ```  
   
- For more information, see [Install the Analysis Services OLE DB Provider on SharePoint Servers](https://msdn.microsoft.com/2c62daf9-1f2d-4508-a497-af62360ee859) and [Add MSOLAP.5 as a Trusted Data Provider in Excel Services](https://technet.microsoft.com/library/hh758436.aspx).  
+ For more information, see [Install the Analysis Services OLE DB Provider on SharePoint Servers](https://msdn.microsoft.com/2c62daf9-1f2d-4508-a497-af62360ee859) and [Add MSOLAP.5 as a Trusted Data Provider in Excel Services](../../power-pivot-for-sharepoint-ssas.md?viewFallbackFrom=sql-server-ver15).  
   
 ##  <a name="bkmk_adomd"></a> ADOMD.Net client Library  
   
@@ -380,7 +380,7 @@ PowerPivot Query Usage       Online    True AnalysisServicesRequests            
 PowerPivot Unload Data Usage Online    True AnalysisServicesUnloads                         14  
 ```  
   
- For more information, see [Power Pivot Usage Data Collection](../../../analysis-services/power-pivot-sharepoint/power-pivot-usage-data-collection.md).  
+ For more information, see [Power Pivot Usage Data Collection](../../power-pivot-for-sharepoint-ssas.md).  
   
 ##  <a name="bkmk_solutions"></a> Solutions  
  If the other components are online then you can skip verifying the solutions. If however the Health rules are missing, verify the two solutions exist and showed Verify the two [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] solutions are **Online** and **Deployed**.  
@@ -413,10 +413,10 @@ powerpivotwebapp.wsp Online     True WebApplicationDeployed {uesql11spoint2}
 ##  <a name="bkmk_manual"></a> Manual Verification Steps  
  This section describes verification steps that cannot be completed with PowerShell cmdlets.  
   
- **Scheduled Data Refresh:** Configure the refresh schedule a workbook to **Also refresh as soon as possible**.  For more information, see the "Verify Data Refresh" section of [Schedule Data Refresh and Data Sources That Do Not Support Windows Authentication &#40;Power Pivot for SharePoint&#41;](../../../analysis-services/power-pivot-sharepoint/schedule-data-refresh-and-data-sources-no-windows-authentication.md).  
+ **Scheduled Data Refresh:** Configure the refresh schedule a workbook to **Also refresh as soon as possible**.  For more information, see the "Verify Data Refresh" section of [Schedule Data Refresh and Data Sources That Do Not Support Windows Authentication &#40;Power Pivot for SharePoint&#41;](../../power-pivot-for-sharepoint-ssas.md).  
   
 ##  <a name="bkmk_more_resources"></a> More Resources  
- [Web Server (IIS) Administration Cmdlets in Windows PowerShell](https://technet.microsoft.com/library/ee790599.aspx).  
+ [Web Server (IIS) Administration Cmdlets in Windows PowerShell](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee790599(v=technet.10)).  
   
  [PowerShell to check services, IIS sites and Application Pool status in SharePoint](https://gallery.technet.microsoft.com/office/PowerShell-to-check-a6ed72a0).  
   
@@ -428,7 +428,7 @@ powerpivotwebapp.wsp Online     True WebApplicationDeployed {uesql11spoint2}
   
  [View and Read SQL Server Setup Log Files](/sql/database-engine/install-windows/view-and-read-sql-server-setup-log-files)  
   
- [Use the Get-EvenLog cmdlet](https://technet.microsoft.com/library/ee176846.aspx)  
+ [Use the Get-EvenLog cmdlet](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176846(v=technet.10))  
   
 ##  <a name="bkmk_full_script"></a> Full PowerShell Script  
  The Following script contains all of the commands from the previous sections. The script runs the commands in the same order as they are presented in this topic. The script contains some optional variations of the commands noted in this topic in case you need additional filtering. The variations are disabled with a comment character (#). The script also includes some statements for verifying [!INCLUDE[ssRSnoversion](../../includes/ssrsnoversion-md.md)] SharePoint mode. The [!INCLUDE[ssRSnoversion](../../includes/ssrsnoversion-md.md)] statements are disabled with a comment character (#).  
@@ -555,5 +555,4 @@ write-host -foregroundcolor DarkGray StartTime $starttime
 write-host -foregroundcolor DarkGray EndTime $time  
   
 ```  
-  
   
