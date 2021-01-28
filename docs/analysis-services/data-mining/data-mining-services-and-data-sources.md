@@ -63,7 +63,7 @@ manager: kfile
 -   When you move a model, the same requirements apply: you must set up appropriate access to the location of the old data source, copy the data sources, or configure a new data source. Also, you must transfer logins and roles, or set up permissions to allow data mining objects to be processed and updated in the new location.  
   
 ## Configuring Permissions and Server Properties  
- Data mining requires additional permissions on an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database. Most data mining properties can be set by using the [Analysis Server Properties Dialog Box &#40;Analysis Services&#41;](https://msdn.microsoft.com/library/b01ec658-c191-49c9-a6cb-549b21a368ab).  
+ Data mining requires additional permissions on an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database. Most data mining properties can be set by using the [Analysis Server Properties Dialog Box &#40;Analysis Services&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15).  
   
  For more information about the properties that you can configure, see [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
   
@@ -83,7 +83,7 @@ manager: kfile
  You can also set properties that let you tune the server and control security for client usage. For more information, see [Feature Properties](../../analysis-services/server-properties/feature-properties.md).  
   
 > [!NOTE]  
->  For more information about Support for plug-in algorithms by the editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)], see [Features Supported by the Editions of SQL Server 2012](https://go.microsoft.com/fwlink/?linkid=232473) (https://go.microsoft.com/fwlink/?linkid=232473).  
+>  For more information about Support for plug-in algorithms by the editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)], see [Features Supported by the Editions of SQL Server 2012](/previous-versions/sql/sql-server-2012/cc645993(v=sql.110)) (https://go.microsoft.com/fwlink/?linkid=232473).  
   
 ## Programmatic Access to Data Mining Objects  
  You can use the following object models to create a connection to an Analysis Services database and work with data mining objects:  
@@ -112,7 +112,7 @@ manager: kfile
   
  If the procedure returns a dataset, the client will receive a dataset or datatable with a nested table containing the rows. For example, if you create a query against the model content, the query returns the entire model. To avoid bringing back too many rows, you can write stored procedures by using the ADOMD+ object model.  
   
- To write a server stored procedure, you must reference the Microsoft.AnalysisServices.AdomdServer namespace. For more information about how to create and use stored procedures, see [User Defined Functions and Stored Procedures](https://docs.microsoft.com/analysis-services/adomd/multidimensional-models-adomd-net-server/user-defined-functions-and-stored-procedures).  
+ To write a server stored procedure, you must reference the Microsoft.AnalysisServices.AdomdServer namespace. For more information about how to create and use stored procedures, see [User Defined Functions and Stored Procedures](../adomd/multidimensional-models-adomd-net-server/user-defined-functions-and-stored-procedures.md).  
   
 > [!NOTE]  
 >  Stored procedures cannot be used to change security on data server objects. When you execute a stored procedure, the user's current context is used to determine access to all server objects. Therefore, users must have appropriate permissions on any database objects that they access.  
@@ -121,5 +121,4 @@ manager: kfile
  [Physical Architecture &#40;Analysis Services - Multidimensional Data&#41;](../../analysis-services/multidimensional-models/olap-physical/understanding-microsoft-olap-physical-architecture.md)   
  [Physical Architecture &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/physical-architecture-analysis-services-data-mining.md)   
  [Management of Data Mining Solutions and Objects](../../analysis-services/data-mining/management-of-data-mining-solutions-and-objects.md)  
-  
   

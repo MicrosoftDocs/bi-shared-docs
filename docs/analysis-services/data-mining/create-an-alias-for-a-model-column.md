@@ -15,7 +15,7 @@ manager: kfile
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   In [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)], you can create an alias for a model column. This might be useful when the mining structure name is too long to easily work with, or when you want to rename the column to be more descriptive of its contents or usage in the model. For example, if you make a copy of a structure column and then discretize the column differently for a particular model, you can rename the column to reflect the content more accurately.  
   
- To create an alias for a model column, you use the **Properties** pane and set the [Name](https://docs.microsoft.com/analysis-services/assl/properties/name-element-assl) property of the column.  
+ To create an alias for a model column, you use the **Properties** pane and set the [Name](../assl/properties/name-element-assl.md) property of the column.  
   
  On the **Mining Models** tab of Data Mining Designer, the alias appears enclosed in parentheses next to the column usage label.  
   
@@ -30,5 +30,4 @@ manager: kfile
 ## See Also  
  [Mining Model Tasks and How-tos](../../analysis-services/data-mining/mining-model-tasks-and-how-tos.md)   
  [Mining Model Properties](../../analysis-services/data-mining/mining-model-properties.md)  
-  
   

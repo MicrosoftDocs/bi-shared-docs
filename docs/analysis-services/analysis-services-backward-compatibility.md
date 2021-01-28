@@ -80,7 +80,7 @@ There are no breaking changes in this release.
 
 ### Behavior changes
 
-Changes to MDSCHEMA_MEASUREGROUP_DIMENSIONS and DISCOVER_CALC_DEPENDENCY, detailed in the [What's new in SQL Server 2017 CTP 2.1 for Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/05/18/whats-new-in-sql-server-2017-ctp-2-1-for-analysis-services/) announcement.
+Changes to MDSCHEMA_MEASUREGROUP_DIMENSIONS and DISCOVER_CALC_DEPENDENCY, detailed in the [What's new in SQL Server 2017 CTP 2.1 for Analysis Services](/archive/blogs/analysisservices/whats-new-in-sql-server-2017-ctp-2-1-for-analysis-services) announcement.
 
 ## SQL Server 2016
 
@@ -128,7 +128,7 @@ The following features were deprecated in an earlier release and are no longer s
   
 #### AMO version upgrade
 
- This release is a version upgrade for [Analysis Services Management Objects &#40;AMO&#41;](https://msdn.microsoft.com/library/mt436122.aspx) and is  a breaking change under certain circumstances.  Existing code and scripts that call into AMO will continue to run as before if you upgrade from a previous version. However, if you need to *recompile* your application and you are targeting a SQL Server 2016 Analysis Services instance, you must add the following namespace to make your code or script operational:  
+ This release is a version upgrade for [Analysis Services Management Objects &#40;AMO&#41;](/dotnet/api/) and is  a breaking change under certain circumstances.  Existing code and scripts that call into AMO will continue to run as before if you upgrade from a previous version. However, if you need to *recompile* your application and you are targeting a SQL Server 2016 Analysis Services instance, you must add the following namespace to make your code or script operational:  
   
 ```c#
 using Microsoft.AnalysisServices;  
@@ -136,7 +136,7 @@ using Microsoft.AnalysisServices.Core;
   
 ```  
   
- The [Microsoft.AnalysisServices.Core](https://msdn.microsoft.com/library/microsoft.analysisservices.core.aspx) namespace is now required whenever you reference the Microsoft.AnalysisServices assembly in your code. Objects that were previously only in the **Microsoft.AnalysisServices** namespace are moved to the Core namespace in this release if the object is used the same way in both tabular and multidimensional scenarios.  For example, server-related APIs are relocated to the Core namespace.  
+ The [Microsoft.AnalysisServices.Core](/dotnet/api/microsoft.analysisservices.core) namespace is now required whenever you reference the Microsoft.AnalysisServices assembly in your code. Objects that were previously only in the **Microsoft.AnalysisServices** namespace are moved to the Core namespace in this release if the object is used the same way in both tabular and multidimensional scenarios.  For example, server-related APIs are relocated to the Core namespace.  
   
  Although there are now multiple namespaces, both exist in the same assembly (Microsoft.AnalysisServices.dll).  
   

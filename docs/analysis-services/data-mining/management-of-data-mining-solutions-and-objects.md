@@ -67,7 +67,7 @@ manager: kfile
 ### Analysis Management Objects (AMO)  
  Analysis Management Objects (AMO) is an object model built on top of XMLA that gives you full control over data mining objects. By using AMO, you can create, deploy, and monitor mining structures and mining models  
   
--   [AMO Concepts and Object Model](https://docs.microsoft.com/analysis-services/amo/amo-concepts-and-object-model)  
+-   [AMO Concepts and Object Model](../amo/amo-concepts-and-object-model.md)  
   
 -   <xref:Microsoft.AnalysisServices>  
   
@@ -87,5 +87,4 @@ manager: kfile
   
 ## See Also  
  [Analysis Services Developer Documentation](../../analysis-services/analysis-services-developer-documentation.md)  
-  
   
