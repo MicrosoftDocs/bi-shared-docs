@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 [!INCLUDE[ssas-appliesto-sqlas-all](../includes/ssas-appliesto-sqlas-all.md)]
   
-This article describes the types of data sources that can be used with **SQL Server Analysis Services** (SSAS) tabular models at the 1200 and lower compatibility level. For **Azure Analysis Services**, see [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource).
+This article describes the types of data sources that can be used with **SQL Server Analysis Services** (SSAS) tabular models at the 1200 and lower compatibility level. For **Azure Analysis Services**, see [Data sources supported in Azure Analysis Services](/azure/analysis-services/analysis-services-datasource).
   
 ## Supported data sources for in-memory tabular models
 
@@ -69,4 +69,4 @@ OLE DB providers can sometimes offer faster performance for large-scale data. Wh
 
 [Data sources supported in SQL Server Analysis Services tabular 1400  models](data-sources-supported-ssas-tabular-1400.md)
 
-[Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)   
+[Data sources supported in Azure Analysis Services](/azure/analysis-services/analysis-services-datasource)

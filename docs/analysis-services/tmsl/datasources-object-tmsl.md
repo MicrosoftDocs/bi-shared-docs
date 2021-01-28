@@ -33,9 +33,8 @@ When creating, replacing, or altering a datasource object, specify all read-writ
   
 ## Object definition  
 
-Common properties for the [DataSource Object](https://msdn.microsoft.com/library/mt704570) are described in the [MS-SSAS-T]: SQL Server Analysis Services Tabular Protocol.
+Common properties for the [DataSource Object](/openspecs/sql_server_protocols/ms-ssas-t/ee12dcb7-096e-4e4e-99a4-47caeb9390f5) are described in the [MS-SSAS-T]: SQL Server Analysis Services Tabular Protocol.
  
 ## Syntax  
 
-The JSON schema representation of a datasource object is defined in  [dataSource](https://msdn.microsoft.com/library/mt704524) object in the [MS-SSAS-T]: SQL Server Analysis Services Tabular Protocol.  
-  
+The JSON schema representation of a datasource object is defined in  [dataSource](/openspecs/sql_server_protocols/ms-ssas-t/df9b4789-6af4-4f9b-8c89-41521c05673b) object in the [MS-SSAS-T]: SQL Server Analysis Services Tabular Protocol.  

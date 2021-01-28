@@ -41,7 +41,7 @@ To complete lessons 1-12, you need:
 
 - An Azure subscription. If you don't already have a subscription, create a [free account](https://azure.microsoft.com/free/).
 
-- An [Azure Synapse Analytics](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal) (SQL Data Warehouse) named **AdventureWorksDW** with the sample **AdventureWorksDW database**. If using a paid subscription, after completing this tutorial, you can pause or delete this resource in the portal to prevent unwanted charges.
+- An [Azure Synapse Analytics](/azure/sql-data-warehouse/create-data-warehouse-portal) (SQL Data Warehouse) named **AdventureWorksDW** with the sample **AdventureWorksDW database**. If using a paid subscription, after completing this tutorial, you can pause or delete this resource in the portal to prevent unwanted charges.
 
 - The latest version of [Visual Studio](https://visualstudio.microsoft.com/downloads/). Any edition, including the free Community edition work fine.
 
@@ -51,11 +51,11 @@ To complete lessons 1-12, you need:
 
 To complete lesson 13 - Deploy, you need one of the following:
 
-- An Azure Analysis Services server (recommended).  See [create a server](https://docs.microsoft.com/azure/analysis-services/analysis-services-create-server).
+- An Azure Analysis Services server (recommended).  See [create a server](/azure/analysis-services/analysis-services-create-server).
 
 - SQL Server 2019 Analysis Services server in Tabular mode. Download a free [SQL Server 2019 Developer Edition](https://www.microsoft.com/sql-server/sql-server-downloads).
 
-- Power BI Premium workspace assigned to a capacity with the Datasets workload XMLA Endpoint property set to read-write. To learn more, see [Dataset connectivity with the XMLA endpoint](https://docs.microsoft.com/power-bi/service-premium-connect-tools).
+- Power BI Premium workspace assigned to a capacity with the Datasets workload XMLA Endpoint property set to read-write. To learn more, see [Dataset connectivity with the XMLA endpoint](/power-bi/service-premium-connect-tools).
 
 Lessons in this tutorial do not use the following, but they're good to install for connecting to a deployed model.
 
@@ -103,4 +103,4 @@ These lessons are not required to complete the tutorial, but can be helpful in b
 
 ## Next steps  
 
-To get started, see [Lesson 1: Create a new tabular model project](../tutorial-tabular-1400/as-lesson-1-create-a-new-tabular-model-project.md).  
+To get started, see [Lesson 1: Create a new tabular model project](../tutorial-tabular-1400/as-lesson-1-create-a-new-tabular-model-project.md).

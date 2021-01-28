@@ -26,7 +26,7 @@ With CU5, DAX-based clients can now use *SuperDAX* functions and query patterns 
 
 A separate announcement on the [Power BI blog](https://powerbi.microsoft.com/blog/improving-power-bi-performance-when-querying-multidimensional-models/) highlights how Power BI users can benefit from this multidimensional model performance improvement by downloading the latest version of Power BI Desktop. Existing interactive reports in the Power BI Service can benefit without any additional steps, as Power BI generates the optimized SuperDAX queries automatically. Power BI automatically detects connections to  multidimensional models with SuperDAX support and uses the same optimized DAX functions and query patterns that it already uses against tabular models. While Power BI can automatically switch to SuperDAXMD, in your own business intelligence solutions, you might have to optimize DAX query patterns manually.
 
-Optimized query patterns should use [SUMMARIZECOLUMNS](https://docs.microsoft.com/dax/summarizecolumns-function-dax) function to replace the less efficient standard [SUMMARIZE](https://docs.microsoft.com/dax/summarize-function-dax) function. Use DAX variables, [VAR](https://docs.microsoft.com/dax/var-dax), to calculate expressions only once at the place of definition, and then reuse the results in any other DAX expressions without having to perform the calculation again. Other, and perhaps less common SuperDAX functions are [SUBSTITUTEWITHINDEX](https://docs.microsoft.com/dax/substitutewithindex-function-dax), [ADDMISSINGITEMS](https://docs.microsoft.com/dax/addmissingitems-function-dax), as well as [NATURALLEFTOUTERJOIN](https://docs.microsoft.com/dax/naturalleftouterjoin-function-dax) and [NATURALINNERJOIN](https://docs.microsoft.com/dax/naturalinnerjoin-function-dax), [ISONORAFTER](https://docs.microsoft.com/dax/isonorafter-function-dax), and [GROUPBY](https://docs.microsoft.com/dax/groupby-function-dax). [SELECTCOLUMNS](https://docs.microsoft.com/dax/selectcolumns-function-dax) and [UNION](https://docs.microsoft.com/dax/union-function-dax) are also SuperDAX functions.
+Optimized query patterns should use [SUMMARIZECOLUMNS](/dax/summarizecolumns-function-dax) function to replace the less efficient standard [SUMMARIZE](/dax/summarize-function-dax) function. Use DAX variables, [VAR](/dax/var-dax), to calculate expressions only once at the place of definition, and then reuse the results in any other DAX expressions without having to perform the calculation again. Other, and perhaps less common SuperDAX functions are [SUBSTITUTEWITHINDEX](/dax/substitutewithindex-function-dax), [ADDMISSINGITEMS](/dax/addmissingitems-function-dax), as well as [NATURALLEFTOUTERJOIN](/dax/naturalleftouterjoin-function-dax) and [NATURALINNERJOIN](/dax/naturalinnerjoin-function-dax), [ISONORAFTER](/dax/isonorafter-function-dax), and [GROUPBY](/dax/groupby-function-dax). [SELECTCOLUMNS](/dax/selectcolumns-function-dax) and [UNION](/dax/union-function-dax) are also SuperDAX functions.
 
 To learn more about how DAX works with multidimensional models, and important patterns and constraints to be aware of, be sure to see [DAX for multidimensional models](multidimensional-models/dax-for-multidimensional-models.md).
 
@@ -133,7 +133,7 @@ The modern Get Data experience and M mashup capabilities do not apply to existin
 
 ### Encoding hints
 
-This release introduces encoding hints, an advanced feature used to optimize processing (data refresh) of large in-memory tabular models. To better understand encoding, see [Performance Tuning of Tabular Models in SQL Server 2012 Analysis Services](https://msdn.microsoft.com/library/dn393915.aspx) whitepaper to better understand encoding.
+This release introduces encoding hints, an advanced feature used to optimize processing (data refresh) of large in-memory tabular models. To better understand encoding, see [Performance Tuning of Tabular Models in SQL Server 2012 Analysis Services](/previous-versions/sql/sql-server-2012/dn393915(v=msdn.10)) whitepaper to better understand encoding.
 
 - Value encoding provides better query performance for columns that are typically only used for aggregations.
 
@@ -252,9 +252,9 @@ db.Update(UpdateOptions.ExpandFull);
 ### Dynamic Management Views (DMVs)
 
 [DMVs](../analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md) are queries in SQL Server Profiler that return information about local server operations and server health.
-This release includes improvements to [Dynamic Management Views](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services) (DMV) for tabular models at the 1200 and 1400 compatibility levels.
+This release includes improvements to [Dynamic Management Views](/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services) (DMV) for tabular models at the 1200 and 1400 compatibility levels.
 
-DISCOVER_CALC_DEPENDENCY Now works with tabular 1200 and higher models. Tabular 1400 and higher models show dependencies between M partitions, M expressions and structured data sources. To learn more, see the [Analysis Services blog](https://blogs.msdn.microsoft.com/analysisservices/2017/07/17/whats-new-in-sql-server-2017-rc1-for-analysis-services/).
+DISCOVER_CALC_DEPENDENCY Now works with tabular 1200 and higher models. Tabular 1400 and higher models show dependencies between M partitions, M expressions and structured data sources. To learn more, see the [Analysis Services blog](/archive/blogs/analysisservices/whats-new-in-sql-server-2017-rc1-for-analysis-services).
 
 MDSCHEMA_MEASUREGROUP_DIMENSIONS Improvements are included for this DMV, which is used by various client tools to show measure dimensionality. For example, the Explore feature in Excel Pivot Tables allows the user to cross-drill to dimensions related to the selected measures. This release corrects the cardinality columns, which were previously showing incorrect values.
 
@@ -394,7 +394,7 @@ A *calculated table* is a model-only construction based on a DAX expression or q
 
 #### Administer Tabular 1200 models in SSMS
 
- In this release, an Analysis Services instance in Tabular server mode can run tabular models at any compatibility level (1100, 1103, 1200). The latest [SQL Server Management Studio](https://msdn.microsoft.com/library/mt238290.aspx) is updated to display properties and provide database model administration for tabular models at the 1200 compatibility level.
+ In this release, an Analysis Services instance in Tabular server mode can run tabular models at any compatibility level (1100, 1103, 1200). The latest [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) is updated to display properties and provide database model administration for tabular models at the 1200 compatibility level.
 
 #### Parallel processing for multiple table partitions in tabular models
 
@@ -420,7 +420,7 @@ A *calculated table* is a model-only construction based on a DAX expression or q
 
 #### SSMS scripting database operations
 
- In the [latest SQL Server Management Studio (SSMS)](https://msdn.microsoft.com/library/mt238290.aspx), script is now enabled for database commands, including Create, Alter, Delete, Backup, Restore, Attach, Detach. Output is Tabular Model Scripting Language (TMSL) in JSON. See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) for more information.
+ In the [latest SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms), script is now enabled for database commands, including Create, Alter, Delete, Backup, Restore, Attach, Detach. Output is Tabular Model Scripting Language (TMSL) in JSON. See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](./tmsl/tabular-model-scripting-language-tmsl-reference.md) for more information.
 
 #### Analysis Services Execute DDL Task
 
@@ -432,9 +432,9 @@ SSAS PowerShell cmdlet **Invoke-ASCmd** now accepts Tabular Model Scripting Lang
 
 #### Tabular Model Scripting Language (TMSL) supported in SSMS
 
-Using the [latest version of SSMS](https://msdn.microsoft.com/library/mt238290.aspx), you can now create scripts to automate most administrative tasks for tabular 1200 models. Currently, the following tasks can be scripted: Process at any level, plus CREATE, ALTER, DELETE at the database level.
+Using the [latest version of SSMS](/sql/ssms/download-sql-server-management-studio-ssms), you can now create scripts to automate most administrative tasks for tabular 1200 models. Currently, the following tasks can be scripted: Process at any level, plus CREATE, ALTER, DELETE at the database level.
 
- Functionally, TMSL is equivalent to the XMLA ASSL extension that provides multidimensional object definitions, except that TMSL uses native descriptors like **model**, **table**, and **relationship** to describe tabular metadata. See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) for details about the schema.
+ Functionally, TMSL is equivalent to the XMLA ASSL extension that provides multidimensional object definitions, except that TMSL uses native descriptors like **model**, **table**, and **relationship** to describe tabular metadata. See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](./tmsl/tabular-model-scripting-language-tmsl-reference.md) for details about the schema.
 
  A generated JSON-based script for a tabular model might look like the following:
 
@@ -452,7 +452,7 @@ Using the [latest version of SSMS](https://msdn.microsoft.com/library/mt238290.a
 }
 ```
 
-The payload is a JSON document that can be as minimal as the example shown above, or highly embellished with  the full set of object definitions. [Tabular Model Scripting Language &#40;TMSL&#41; Reference](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) describes the syntax.
+The payload is a JSON document that can be as minimal as the example shown above, or highly embellished with  the full set of object definitions. [Tabular Model Scripting Language &#40;TMSL&#41; Reference](./tmsl/tabular-model-scripting-language-tmsl-reference.md) describes the syntax.
 
 At the database level, CREATE, ALTER, and DELETE commands will output TMSL script in the familiar XMLA window.  Other commands, such as Process, can also be scripted in this release. Script support for many other actions may be added in a future release.
 
@@ -493,11 +493,11 @@ You can now save incomplete DAX measures directly in a tabular 1200 model projec
 
 #### Microsoft.AnalysisServices.Tabular namespace for Tabular 1200 programmability in AMO
 
- Analysis Services Management Objects (AMO) is updated to include a new tabular namespace for managing a Tabular Mode instance of SQL Server 2016 Analysis Services, as well as provide the data definition language for creating or modifying tabular 1200 models programmatically. Visit [Microsoft.AnalysisServices.Tabular](https://msdn.microsoft.com/library/microsoft.analysisservices.tabular.aspx) to read up on the API.
+ Analysis Services Management Objects (AMO) is updated to include a new tabular namespace for managing a Tabular Mode instance of SQL Server 2016 Analysis Services, as well as provide the data definition language for creating or modifying tabular 1200 models programmatically. Visit [Microsoft.AnalysisServices.Tabular](/dotnet/api/microsoft.analysisservices.tabular) to read up on the API.
 
 #### Analysis Services Management Objects (AMO) updates
 
- [Analysis Services Management Objects &#40;AMO&#41;](https://msdn.microsoft.com/library/mt436122.aspx) has been re-factored to include a second assembly, Microsoft.AnalysisServices.Core.dll. The new assembly separates out common classes like Server, Database, and Role that have broad application in Analysis Services, irrespective of server mode. Previously, these classes were part of the original Microsoft.AnalysisServices assembly. Moving them to a new assembly paves the way for future extensions to AMO, with clear division between generic and context-specific APIs. Existing applications are unaffected by the new assemblies. However, should you choose to rebuild applications using the new AMO assembly for any reason, be sure to add a reference to Microsoft.AnalysisServices.Core. Similarly, PowerShell scripts that load and call into AMO must now load Microsoft.AnalysisServices.Core.dll. Be sure to update any scripts.  
+ [Analysis Services Management Objects &#40;AMO&#41;](/dotnet/api/) has been re-factored to include a second assembly, Microsoft.AnalysisServices.Core.dll. The new assembly separates out common classes like Server, Database, and Role that have broad application in Analysis Services, irrespective of server mode. Previously, these classes were part of the original Microsoft.AnalysisServices assembly. Moving them to a new assembly paves the way for future extensions to AMO, with clear division between generic and context-specific APIs. Existing applications are unaffected by the new assemblies. However, should you choose to rebuild applications using the new AMO assembly for any reason, be sure to add a reference to Microsoft.AnalysisServices.Core. Similarly, PowerShell scripts that load and call into AMO must now load Microsoft.AnalysisServices.Core.dll. Be sure to update any scripts.  
 
 #### JSON editor for BIM files
 
@@ -546,4 +546,4 @@ Data sources supported for tabular 1200 models in DirectQuery mode now include O
 
 ## Earlier versions
 
-[SQL Server 2014 Analysis Services](https://docs.microsoft.com/sql/analysis-services/analysis-services?view=sql-server-2014&preserve-view=true)
+[SQL Server 2014 Analysis Services](/sql/analysis-services/analysis-services?preserve-view=true&view=sql-server-2014)

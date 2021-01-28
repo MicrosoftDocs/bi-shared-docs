@@ -44,8 +44,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
     >  If the results are not what you expected, the column might contain numbers stored as text and not as numbers. For example, negative numbers imported from some accounting systems, or a number entered with a leading ' (apostrophe), are stored as text.  
   
 ## See Also  
- [Filter and Sort Data](https://msdn.microsoft.com/library/55ebd7a6-2458-4398-911f-fcfeb2413f1b)   
+ [Filter and Sort Data](?viewFallbackFrom=sql-server-ver15)   
  [Perspectives](../../analysis-services/tabular-models/perspectives-ssas-tabular.md)   
  [Roles](../../analysis-services/tabular-models/roles-ssas-tabular.md)  
-  
   
