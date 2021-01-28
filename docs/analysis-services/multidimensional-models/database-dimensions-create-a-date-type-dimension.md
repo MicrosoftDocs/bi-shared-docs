@@ -57,7 +57,6 @@ manager: kfile
   
 ## See Also  
  [Create a Time Dimension by Generating a Time Table](../../analysis-services/multidimensional-models/create-a-time-dimension-by-generating-a-time-table.md)   
- [Business Intelligence Wizard F1 Help](https://msdn.microsoft.com/library/155ac80c-63ae-47aa-9e86-9396e3d920eb)   
+ [Business Intelligence Wizard F1 Help](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15)   
  [Dimension Types](../../analysis-services/multidimensional-models-olap-logical-dimension-objects/database-dimension-properties-types.md)  
-  
   

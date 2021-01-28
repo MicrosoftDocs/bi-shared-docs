@@ -141,7 +141,7 @@ Setspn -S MSOLAPDisco.3/AW-SRV01.AdventureWorks.com AW-SRV01
 Setspn -s msolapsvc.3/<virtualname.FQDN > <domain user account>  
 ```  
   
- Recall that nodes in an Analysis Services cluster are required to use the default port (TCP 2383) and run under the same domain user account so that each node has the same SID. See [How to Cluster SQL Server Analysis Services](https://msdn.microsoft.com/library/dn736073.aspx) for more information.  
+ Recall that nodes in an Analysis Services cluster are required to use the default port (TCP 2383) and run under the same domain user account so that each node has the same SID. See [How to Cluster SQL Server Analysis Services](/previous-versions/sql/sql-server-2012/dn736073(v=msdn.10)) for more information.  
   
 ##  <a name="bkmk_spnHTTP"></a> SPN registration for SSAS instances configured for HTTP access  
  Depending on solution requirements, you might have configured Analysis Services for HTTP access. If your solution includes IIS as a middle tier component, and Kerberos authentication is a solution requirement, you might need to manually register an SPN for IIS. For more information, see "Configure the settings on the computer running IIS" in [How to configure SQL Server 2008 Analysis Services and SQL Server 2005 Analysis Services to use Kerberos authentication](https://support.microsoft.com/kb/917409).  
@@ -158,8 +158,8 @@ Setspn -s msolapsvc.3/<virtualname.FQDN > <domain user account>
  An Analysis Services instance can only listen on a single port. Using multiple ports is not supported. For more information about port configuration, see [Configure the Windows Firewall to Allow Analysis Services Access](../../analysis-services/instances/configure-the-windows-firewall-to-allow-analysis-services-access.md).  
   
 ## See Also  
- [Microsoft BI Authentication and Identity Delegation](https://go.microsoft.com/fwlink/?LinkID=286576)   
- [Mutual Authentication Using Kerberos](https://go.microsoft.com/fwlink/?LinkId=299283)   
+ [Microsoft BI Authentication and Identity Delegation](/previous-versions/sql/sql-server-2012/dn186184(v=msdn.10))   
+ [Mutual Authentication Using Kerberos](/windows/win32/ad/mutual-authentication-using-kerberos)   
  [How to configure SQL Server 2008 Analysis Services and SQL Server 2005 Analysis Services to use Kerberos authentication](https://support.microsoft.com/kb/917409)   
  [Service Principal Names (SPNs) SetSPN Syntax (Setspn.exe)](https://social.technet.microsoft.com/wiki/contents/articles/717.service-principal-names-spns-setspn-syntax-setspn-exe.aspx)   
  [What SPN do I use and how does it get there?](https://social.technet.microsoft.com/wiki/contents/articles/717.service-principal-names-spns-setspn-syntax-setspn-exe.aspx)   
@@ -168,6 +168,5 @@ Setspn -s msolapsvc.3/<virtualname.FQDN > <domain user account>
  [Configure Windows Service Accounts and Permissions](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)   
  [How to use SPNs when you configure Web applications that are hosted on Internet Information Services](https://support.microsoft.com/kb/929650)   
  [what's new in service accounts](https://technet.microsoft.com/library/dd367859\(WS.10\).aspx)   
- [Configure Kerberos authentication for SharePoint 2010 Products (white paper)](https://technet.microsoft.com/library/ff829837.aspx)  
-  
+ [Configure Kerberos authentication for SharePoint 2010 Products (white paper)](/previous-versions/office/sharepoint-server-2010/ff829837(v=office.14))  
   

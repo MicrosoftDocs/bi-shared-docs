@@ -58,7 +58,7 @@ The new connections will likely do a discovery command as follows:
 
 `Discover on MDSCHEMA_MEMBERS`
 
-During the commit phase of the processing transaction, queries can still be sent to the object, but they will be queued until the commit is completed. For more information about locking and unlocking during processing, see [Processing Analysis Services objects](https://docs.microsoft.com/previous-versions/sql/sql-server-2008/ms174860(v=sql.100)).
+During the commit phase of the processing transaction, queries can still be sent to the object, but they will be queued until the commit is completed. For more information about locking and unlocking during processing, see [Processing Analysis Services objects](/previous-versions/sql/sql-server-2008/ms174860(v=sql.100)).
 
 ## Fix the problem
 
@@ -271,5 +271,5 @@ go
 
 ## More information
 
-- [SQL Server best practices](https://docs.microsoft.com/previous-versions/sql/sql-server-2005/administrator/cc966525(v=technet.10))
+- [SQL Server best practices](/previous-versions/sql/sql-server-2005/administrator/cc966525(v=technet.10))
 - [SQL Server 2008 white paper: Analysis Services Performance Guide](https://www.microsoft.com/download/details.aspx?id=17303)

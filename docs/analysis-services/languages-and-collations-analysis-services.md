@@ -63,7 +63,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 -   0x0416 or 1046 for **Portuguese (Brazil)**.  
   
- To view a longer list, see [Locale IDs Assigned by Microsoft](https://msdn.microsoft.com/goglobal/bb964664.aspx). For more background, see [Encoding and Code Pages](/globalization/encoding/encoding-overview).  
+ To view a longer list, see [Locale IDs Assigned by Microsoft](/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c). For more background, see [Encoding and Code Pages](/globalization/encoding/encoding-overview).  
   
 > [!NOTE]  
 >  The **Language** property does not determine the language for returning system messages, or which strings appear in the user interface. Errors, warnings, and messages are localized into all languages supported in Office and Office 365 and are used automatically when the client connection specifies one of the supported locales.  
@@ -166,5 +166,4 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
  [Globalization scenarios for Analysis Services](../analysis-services/globalization-scenarios-for-analysis-services.md)   
  [Globalization Tips and Best Practices &#40;Analysis Services&#41;](../analysis-services/globalization-tips-and-best-practices-analysis-services.md)   
  [Collation and Unicode Support](/sql/relational-databases/collations/collation-and-unicode-support)  
-  
   

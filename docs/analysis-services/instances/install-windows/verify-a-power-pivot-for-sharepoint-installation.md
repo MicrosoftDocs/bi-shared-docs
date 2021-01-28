@@ -36,7 +36,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
     5.  Click **Close**, and then click **OK**.  
   
         > [!NOTE]  
-        >  SharePoint installation documentation includes additional instructions for working around proxy server errors and for disabling Internet Explorer Enhanced Security Configuration so that you can download and install updates. For more information, see the **Perform additional tasks** section in [Deploy a single server with SQL Server](https://go.microsoft.com/fwlink/?LinkId=177754) on the Microsoft web site.  
+        >  SharePoint installation documentation includes additional instructions for working around proxy server errors and for disabling Internet Explorer Enhanced Security Configuration so that you can download and install updates. For more information, see the **Perform additional tasks** section in [Deploy a single server with SQL Server](/previous-versions/office/sharepoint-server-2010/cc262243(v=office.14)) on the Microsoft web site.  
   
 3.  In Central Administration, in System Settings, click **Manage farm features**.  
   
@@ -52,7 +52,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 8.  Click **Default [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Service Application** to open [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Management Dashboard for this application. On first use, the dashboard takes several minutes to load.  
   
-     Alternatively, click the empty space next to **Default [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Service Application** to select the row, and click **Properties** to view the configuration settings for this service application. You can modify both configuration settings and application properties to change your server configuration. For more information about these settings, see [Create and Configure a Power Pivot Service Application in Central Administration](../../../analysis-services/power-pivot-sharepoint/create-and-configure-power-pivot-service-application-in-ca.md).  
+     Alternatively, click the empty space next to **Default [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Service Application** to select the row, and click **Properties** to view the configuration settings for this service application. You can modify both configuration settings and application properties to change your server configuration. For more information about these settings, see [Create and Configure a Power Pivot Service Application in Central Administration](../../power-pivot-for-sharepoint-ssas.md).  
   
 ## Verify Integration at the Site Level  
  To verify [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] integration with a SharePoint site, do the following:  
@@ -91,5 +91,4 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 10. In Object Explorer, you can click **Databases** to view the list of [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data files that are loaded.  
   
 11. On the computer file system, check the following folder to determine whether files are cached to disk. The presence of cached files is further verification that your deployment is operational. To view the file cache, go to the [!INCLUDE[ssInstallPathVar](../../includes/ssinstallpathvar-md.md)]MSAS13.POWERPIVOT\OLAP\Backup\Sandboxes\Default [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Service Application folder. Each cached database is stored in its own folder, using a GUID-based naming convention to ensure a unique name.  
-  
   
