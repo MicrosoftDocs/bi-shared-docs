@@ -47,12 +47,11 @@ manager: kfile
     4.  Type the query in the bottom pane, or use the graphical query building tools to create a query.  
   
     > [!NOTE]  
-    >  The query-building user interface (UI) depends on the data source. Instead of getting a graphical UI, you can get a generic UI, which is text-based. You can accomplish the same things with these different UIs, but you must do so in different ways. For more information, see [Create or Edit Named Query Dialog Box &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/8e192ad6-a0b1-4e21-bb3f-087c93e62941).  
+    >  The query-building user interface (UI) depends on the data source. Instead of getting a graphical UI, you can get a generic UI, which is text-based. You can accomplish the same things with these different UIs, but you must do so in different ways. For more information, see [Create or Edit Named Query Dialog Box &#40;Analysis Services - Multidimensional Data&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15).  
   
 5.  Click **OK**. An icon showing two overlapping tables appears in the table header to indicate that the table has been replaced by a named query.  
   
 ## See Also  
  [Data Source Views in Multidimensional Models](../../analysis-services/multidimensional-models/data-source-views-in-multidimensional-models.md)   
  [Define Named Calculations in a Data Source View &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/define-named-calculations-in-a-data-source-view-analysis-services.md)  
-  
   

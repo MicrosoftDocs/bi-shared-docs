@@ -39,7 +39,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 5.  Click on **Descriptions**, and then type descriptions for KPI, Value, Status, and Target.  
   
 > [!TIP]  
->  You can use the Analyze in Excel feature to test your KPI. For more information, see [Analyze in Excel](../../analysis-services/tabular-models/analyze-in-excel-ssas-tabular.md).  
+>  You can use the Analyze in Excel feature to test your KPI. For more information, see [Analyze in Excel](./tabular-model-designer-ssas.md).  
   
 ###  <a name="bkmk_edit_KPI"></a> To edit a KPI  
   
@@ -71,5 +71,4 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
  [KPIs](../../analysis-services/tabular-models/kpis-ssas-tabular.md)   
  [Measures](../../analysis-services/tabular-models/measures-ssas-tabular.md)   
  [Create and managemeasures](../../analysis-services/tabular-models/create-and-manage-measures-ssas-tabular.md)  
-  
   

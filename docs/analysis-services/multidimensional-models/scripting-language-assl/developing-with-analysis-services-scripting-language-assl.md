@@ -17,7 +17,7 @@ manager: kfile
   
 -   A Data Definition Language (DDL), or object definition language, defines and describes an instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)], as well as the databases and database objects that the instance contains.  
   
--   A command language that sends action commands, such as **Create**, **Alter**, or **Process**, to an instance of Analysis Services. This command language is discussed in the [XML for Analysis  &#40;XMLA&#41; Reference](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference).  
+-   A command language that sends action commands, such as **Create**, **Alter**, or **Process**, to an instance of Analysis Services. This command language is discussed in the [XML for Analysis  &#40;XMLA&#41; Reference](../../xmla/xml-for-analysis-xmla-reference.md).  
   
  To view the ASSL that describes a multidimensional solution in [!INCLUDE[ssBIDevStudio](../../includes/ssbidevstudio-md.md)], you can use the View Code command at the project level. You can also create or edit ASSL script in [!INCLUDE[ssManStudio](../../includes/ssmanstudio-md.md)] using the XMLA query editor. The scripts you build can be used to manage objects or run commands on the server.  
   
@@ -25,5 +25,4 @@ manager: kfile
  [ASSL Objects and Object Characteristics](../../../analysis-services/multidimensional-models/scripting-language-assl/assl-objects-and-object-characteristics.md)   
  [ASSL XML Conventions](../../../analysis-services/multidimensional-models/scripting-language-assl/assl-xml-conventions.md)   
  [Data Sources and Bindings &#40;SSAS Multidimensional&#41;](../../../analysis-services/multidimensional-models/data-sources-and-bindings-ssas-multidimensional.md)  
-  
   
