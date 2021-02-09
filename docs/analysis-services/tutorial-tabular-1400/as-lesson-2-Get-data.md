@@ -17,7 +17,7 @@ author: minewiskan
 
 In this lesson, you use **Get Data** to connect to the AdventureWorksDW sample database, select data, preview and filter, and then import into your model workspace.  
   
-Under the hood, Get Data is Power Query, which provides a vast array of tools for connecting to and reshaping data for modeling and analysis. To learn more, see [Power Query Documentation](https://docs.microsoft.com/power-query/). 
+Under the hood, Get Data is Power Query, which provides a vast array of tools for connecting to and reshaping data for modeling and analysis. To learn more, see [Power Query Documentation](/power-query/). 
 
 > [!NOTE]
 > Tasks and images in this tutorial show connecting to an AdventureWorksDW database on an Azure Synapse Analytics resource. In some cases, an AdventureWorksDW database on SQL Server Data Warehouse may show different objects; however, they are fundamentally the same.

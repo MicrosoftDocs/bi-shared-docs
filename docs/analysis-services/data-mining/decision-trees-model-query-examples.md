@@ -52,7 +52,7 @@ WHERE MODEL_NAME = 'TM_Decision Tree'
  COMPLEXITY_PENALTY=0.5, MAXIMUM_INPUT_ATTRIBUTES=255,MAXIMUM_OUTPUT_ATTRIBUTES=255,MINIMUM_SUPPORT=10,SCORE_METHOD=4,SPLIT_METHOD=3,FORCE_REGRESSOR=  
   
 ###  <a name="bkmk_Query2"></a> Sample Query 2: Returning Details about the Model Content by Using DMX  
- The following query returns some basic information about the decision trees that were created when you built the model in the [Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c). Each tree structure is stored in its own node. Because this model contains a single predictable attribute, there is only one tree node. However, if you create an association model by using the Decision Trees algorithm, there might be hundreds of trees, one for each product.  
+ The following query returns some basic information about the decision trees that were created when you built the model in the [Basic Data Mining Tutorial](/previous-versions/sql/sql-server-2016/ms167167(v=sql.130)). Each tree structure is stored in its own node. Because this model contains a single predictable attribute, there is only one tree node. However, if you create an association model by using the Decision Trees algorithm, there might be hundreds of trees, one for each product.  
   
  This query returns all the nodes of type 2, which are the top level nodes of a tree that represents a particular predictable attribute.  
   
@@ -131,7 +131,7 @@ AND NODE_TYPE = 4
 -   Retrieving the regression formula for a part of a decision tree where the relationship between the input and output is linear.  
   
 ###  <a name="bkmk_Query4"></a> Sample Query 4: Returning Predictions with Probabilities  
- The following sample query uses the decision tree model that was created in the [Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c). The query passes in a new set of sample data, from the table dbo.ProspectiveBuyers in [!INCLUDE[ssSampleDBnormal](../includes/sssampledbnormal-md.md)] DW, to predict which of the customers in the new data set will purchase a bike.  
+ The following sample query uses the decision tree model that was created in the [Basic Data Mining Tutorial](/previous-versions/sql/sql-server-2016/ms167167(v=sql.130)). The query passes in a new set of sample data, from the table dbo.ProspectiveBuyers in [!INCLUDE[ssSampleDBnormal](../includes/sssampledbnormal-md.md)] DW, to predict which of the customers in the new data set will purchase a bike.  
   
  The query uses the prediction function [PredictHistogram &#40;DMX&#41;](/sql/dmx/predicthistogram-dmx), which returns a nested table that contains useful information about the probabilities discovered by the model. The final WHERE clause of the query filters the results to return only those customers who are predicted as likely to buy a bike, with a probability greater than 0%.  
   
@@ -183,7 +183,7 @@ AND PredictProbability([Bike Buyer]) >'.05'
  If your provider does not support hierarchical rowsets, such as those shown here, you can use the FLATTENED keyword in the query to return the results as a table that contains nulls in place of the repeated column values. For more information, see [Nested Tables &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/nested-tables-analysis-services-data-mining.md) or [Understanding the DMX Select Statement](/sql/dmx/understanding-the-dmx-select-statement).  
   
 ###  <a name="bkmk_Query5"></a> Sample Query 5: Predicting Associations from a Decision Trees Model  
- The following sample query is based on the Association mining structure. To follow along with this example, you can add a new model to this mining structure, and select Microsoft Decision Trees as the algorithm. For more information on how to create the Association mining structure, see [Lesson 3: Building a Market Basket Scenario &#40;Intermediate Data Mining Tutorial&#41;](https://msdn.microsoft.com/library/651eef38-772e-4d97-af51-075b1b27fc5a).  
+ The following sample query is based on the Association mining structure. To follow along with this example, you can add a new model to this mining structure, and select Microsoft Decision Trees as the algorithm. For more information on how to create the Association mining structure, see [Lesson 3: Building a Market Basket Scenario &#40;Intermediate Data Mining Tutorial&#41;](/previous-versions/sql/sql-server-2016/ms167047(v=sql.130)).  
   
  The following sample query is a singleton query, which you can create easily in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] by choosing fields and then selecting values for those fields from a drop-down list.  
   
@@ -266,5 +266,4 @@ WHERE NODE_TYPE = 25
  [Microsoft Decision Trees Algorithm](../../analysis-services/data-mining/microsoft-decision-trees-algorithm.md)   
  [Microsoft Decision Trees Algorithm Technical Reference](../../analysis-services/data-mining/microsoft-decision-trees-algorithm-technical-reference.md)   
  [Mining Model Content for Decision Tree Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-for-decision-tree-models-analysis-services-data-mining.md)  
-  
   

@@ -22,7 +22,7 @@ manager: kfile
   
 -   Multiple commands can be run in the context of a single session.  
   
--   Support for transactions in the XMLA context is through provider-specific commands sent with the [Execute](https://docs.microsoft.com/analysis-services/xmla/xml-elements-methods-execute) method.  
+-   Support for transactions in the XMLA context is through provider-specific commands sent with the [Execute](../xmla/xml-elements-methods-execute.md) method.  
   
  XMLA defines a way to support sessions in a Web environment in a mode similar to the approach used by the Distributed Authoring and Versioning (DAV) protocol to implement locking in a loosely coupled environment. This implementation parallels DAV in that the provider is allowed to expire sessions for various reasons (for example, a timeout or connection error). When sessions are supported, Web services must be aware and ready to handle interrupted sets of commands that must be restarted.  
   
@@ -94,5 +94,4 @@ manager: kfile
   
 ## See Also  
  [Developing with XMLA in Analysis Services](../../analysis-services/multidimensional-models-scripting-language-assl-xmla/developing-with-xmla-in-analysis-services.md)  
-  
   

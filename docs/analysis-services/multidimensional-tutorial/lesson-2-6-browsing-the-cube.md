@@ -38,7 +38,6 @@ Excel generally offers a better browsing experience because you can explore cube
 [Lesson 3: Modifying Measures, Attributes and Hierarchies](lesson-3-modifying-measures-attributes-and-hierarchies.md)  
   
 ## See Also  
-[MDX Query Editor &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/777f2c23-1c1c-4b72-9d19-48a4866551f8)  
-  
+[MDX Query Editor &#40;Analysis Services - Multidimensional Data&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15)  
   
   

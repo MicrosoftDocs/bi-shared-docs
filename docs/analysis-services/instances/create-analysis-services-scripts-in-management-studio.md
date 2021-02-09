@@ -58,6 +58,5 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
     >  Typically, you would select **File** if you want to create multiple different versions of the file.  
   
 ## See Also  
- [XMLA Query Editor &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/14623019-7839-4038-9d12-2f8953d2ec04)  
-  
+ [XMLA Query Editor &#40;Analysis Services - Multidimensional Data&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15)  
   

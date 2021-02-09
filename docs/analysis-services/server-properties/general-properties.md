@@ -50,10 +50,10 @@ The default value for this property is -1, which allows all background cache ref
  **CommitTimeout**  
  An integer property that specifies how long (in milliseconds) the server will wait to acquire a write lock for the purpose of committing a transaction. A waiting period is often required because the server must wait for other locks to be released before it can take a write lock that commits the transaction.  
   
- The default value for this property is zero (0), which indicates that the server will wait indefinitely. For more information about lock-related properties, see [SQL Server 2008 R2 Analysis Services Operations Guide](https://go.microsoft.com/fwlink/?LinkID=225539).  
+ The default value for this property is zero (0), which indicates that the server will wait indefinitely. For more information about lock-related properties, see [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
   
  **CoordinatorBuildMaxThreads**  
- A signed 32-bit integer property that defines the maximum number of threads allocated to building partition indexes. Increase this value in order to speed-up partition indexing, at the cost of memory usage. For more information about this property, see [SQL Server 2008 R2 Analysis Services Operations Guide](https://go.microsoft.com/fwlink/?LinkID=225539).  
+ A signed 32-bit integer property that defines the maximum number of threads allocated to building partition indexes. Increase this value in order to speed-up partition indexing, at the cost of memory usage. For more information about this property, see [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
   
  **CoordinatorCancelCount**  
  A signed 32-bit integer property that defines how frequently the server should check whether a Cancel event occurred (based on internal iteration count). Decrease this number in order to check for Cancel more frequently, at the expense of general performance. This property is ignored in tabular server mode.  
@@ -61,7 +61,7 @@ The default value for this property is -1, which allows all background cache ref
  **CoordinatorExecutionMode**  
  A signed 32-bit integer property that defines the maximum number of parallel operations the server will attempt, including processing and querying operations. Zero (0) indicates that the server will decide, based on an internal algorithm. A positive number indicates the maximum number of operations in total. A negative number, with the sign reversed, indicates the maximum number of operations per processor.  
 
- The default value for this property is -4, which indicates the server is limited to 4 parallel operations per processor. For more information about this property, see [SQL Server 2008 R2 Analysis Services Operations Guide](https://go.microsoft.com/fwlink/?LinkID=225539).  
+ The default value for this property is -4, which indicates the server is limited to 4 parallel operations per processor. For more information about this property, see [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
   
  **CoordinatorQueryMaxThreads**  
  A signed 32-bit integer property that defines the maximum number of threads per partition segment during query resolution. The fewer the number of concurrent users, the higher this value can be, at the cost of memory. Conversely, it may need to be lowered if there are a large number of concurrent users.  
@@ -109,7 +109,7 @@ The default value for this property is -1, which allows all background cache ref
 > [!NOTE]  
 >  Queries and processes cancelled by this event will report the following error message: "`Server: The operation has been cancelled`"  
   
- For more information about this property, see [SQL Server 2008 R2 Analysis Services Operations Guide](https://go.microsoft.com/fwlink/?LinkID=225539).  
+ For more information about this property, see [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
   
 > [!IMPORTANT]  
 >  **ForceCommitTimeout** applies to cube processing commands and to writeback operations.  
@@ -161,5 +161,4 @@ The default value for this property is -1, which allows all background cache ref
   
  [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
-  
   

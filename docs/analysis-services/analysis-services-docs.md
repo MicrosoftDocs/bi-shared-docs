@@ -24,17 +24,17 @@ All Analysis Services documentation exists in [Microsoft Docs](https://docs.micr
 
 ### Azure Analysis Services
 
-If you're using Azure Analysis Services, it's best to start with [Azure Analysis Services documentation](https://docs.microsoft.com/azure/analysis-services/). This is where you can learn about Analysis Services' specific implementation in Azure. For example, using the Azure portal to create an Analysis Services server resource in your Azure subscription, configure a firewall, or configure scale-out to create a *query pool* where queries are distributed among *query replicas*.
+If you're using Azure Analysis Services, it's best to start with [Azure Analysis Services documentation](/azure/analysis-services/). This is where you can learn about Analysis Services' specific implementation in Azure. For example, using the Azure portal to create an Analysis Services server resource in your Azure subscription, configure a firewall, or configure scale-out to create a *query pool* where queries are distributed among *query replicas*.
 
 ### Power BI Premium
 
-If you're using Power BI Premium, many of the same tools, Tabular Model Scripting Language (TMSL), and Tabular Object Model (TOM) used for Azure Analysis Services and SQL Server Analysis Services now work with Power BI Premium workspaces and datasets. To learn more, it's best to start with the [Analysis Services in Power BI Premium](https://docs.microsoft.com/power-bi/service-premium-what-is#analysis-services-in-power-bi-premium).
+If you're using Power BI Premium, many of the same tools, Tabular Model Scripting Language (TMSL), and Tabular Object Model (TOM) used for Azure Analysis Services and SQL Server Analysis Services now work with Power BI Premium workspaces and datasets. To learn more, it's best to start with the [Analysis Services in Power BI Premium](/power-bi/service-premium-what-is#analysis-services-in-power-bi-premium).
 
 ### SQL Server Analysis Services
 
 If you're using SQL Server 2016 or later Analysis Services for on-premises tabular or multidimensional model solutions, you are already where you need to be. The Table of Contents (ToC) to the left includes all of the documentation for SQL Server Analysis Services. Use the version selector above the ToC to see only those articles that apply the SQL Server version you are using.
 
-Looking for SQL Server 2014 Analysis Services documentation? Documentation for this and earlier versions is kept separate from documentation for later versions. This is due to changing documentation models used on docs.microsoft.com compared to MSDN and TechNet, where SQL Server 2014 and earlier SQL Books Online documentation was originally published. Go to [SQL Server 2014 Analysis Services documentation](https://docs.microsoft.com/previous-versions/sql/2014/analysis-services/analysis-services?view=sql-server-2014&preserve-view=true). Need to go back even further? See [SQL Server previous versions documentation](https://docs.microsoft.com/previous-versions/sql/).
+Looking for SQL Server 2014 Analysis Services documentation? Documentation for this and earlier versions is kept separate from documentation for later versions. This is due to changing documentation models used on docs.microsoft.com compared to MSDN and TechNet, where SQL Server 2014 and earlier SQL Books Online documentation was originally published. Go to [SQL Server 2014 Analysis Services documentation](/previous-versions/sql/2014/analysis-services/analysis-services?preserve-view=true&view=sql-server-2014). Need to go back even further? See [SQL Server previous versions documentation](/previous-versions/sql/).
 
 ### Shared documentation
 
@@ -52,7 +52,7 @@ Keep in mind, most of the over 1000 shared articles were originally created for 
 
 Remember MSDN and TechNet? They were great, but if you wanted to fix a typo or add some information you thought would be helpful to others, well, good luck. The move to Microsoft Docs changes that. Analysis Services documentation, like this article and most other conceptual and how to documentation on Microsoft Docs are open-source.
 
-While the Analysis Services team does its best to create documentation that help you throughout all phases of your Analysis Services solution, we simply cannot get to everything. To make our documentation better, both the BI community and the Analysis Services team really appreciate your help. To learn more about how you can contribute, see the [Docs contributor guide](https://docs.microsoft.com/contribute/).
+While the Analysis Services team does its best to create documentation that help you throughout all phases of your Analysis Services solution, we simply cannot get to everything. To make our documentation better, both the BI community and the Analysis Services team really appreciate your help. To learn more about how you can contribute, see the [Docs contributor guide](/contribute/).
 
 ## See also
 

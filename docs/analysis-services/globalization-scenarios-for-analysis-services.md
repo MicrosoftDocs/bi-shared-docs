@@ -57,9 +57,8 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 ## See Also  
  [Translation support in Analysis Services](../analysis-services/translation-support-in-analysis-services.md)   
- [Internationalization for Windows Applications](https://msdn.microsoft.com/library/windows/desktop/dd318661%28v=vs.85%29.aspx)   
+ [Internationalization for Windows Applications](/windows/win32/intl/international-support)   
  [Globalization](/globalization/)   
  [Writing Windows Store apps with locale-based adaptive design](https://blogs.windows.com/buildingapps/2014/03/06/writing-windows-store-apps-with-locale-based-adaptive-design/)   
 
-  
   

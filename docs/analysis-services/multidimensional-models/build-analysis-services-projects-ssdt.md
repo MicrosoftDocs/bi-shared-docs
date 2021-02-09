@@ -50,7 +50,6 @@ manager: kfile
  Referenced assemblies (excluding standard system and [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] assemblies) are also copied to the output directory. When references are to other projects in a solution, those projects are built first, using the appropriate project configuration and build dependencies established by the project references, and then are copied to the project output folder.  
   
 ## See Also  
- [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla)   
+ [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](../assl/analysis-services-scripting-language-assl-for-xmla.md)   
  [Deploy Analysis Services Projects &#40;SSDT&#41;](../../analysis-services/multidimensional-models/deploy-analysis-services-projects-ssdt.md)  
-  
   

@@ -113,4 +113,4 @@ A typical workflow for adding translated metadata looks like this:
 ## See also
 
  [Globalization scenarios for Analysis Services](../../analysis-services/globalization-scenarios-for-analysis-services.md)   
- [Analyze in Excel](../../analysis-services/tabular-models/analyze-in-excel-ssas-tabular.md)  
+ [Analyze in Excel](./tabular-model-designer-ssas.md)

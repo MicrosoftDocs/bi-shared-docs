@@ -16,7 +16,7 @@ manager: kfile
 
 In this lesson, you will use the Analyze in Excel feature in SSDT to open Microsoft Excel, automatically create a data source connection to the model workspace, and automatically add a PivotTable to the worksheet. The Analyze in Excel feature is meant to provide a quick and easy way to test the efficacy of your model design prior to deploying your model. You will not perform any data analysis in this lesson. The purpose of this lesson is to familiarize you, the model author, with the tools you can use to test your model design. Unlike using the Analyze in Excel feature, which is meant for model authors, end-users will use client reporting applications like Excel or Power BI to connect to and browse deployed model data.  
   
-In order to complete this lesson, Excel must be installed on the same computer as SSDT. To learn more, see [Analyze in Excel](../tabular-models/analyze-in-excel-ssas-tabular.md).  
+In order to complete this lesson, Excel must be installed on the same computer as SSDT. To learn more, see [Analyze in Excel](../tabular-models/tabular-model-designer-ssas.md).  
   
 Estimated time to complete this lesson: **20 minutes**  
   
@@ -68,6 +68,5 @@ Roles are an integral part of any tabular model. Without at least one role to wh
 ## What's next?
 Go to the next lesson: [Lesson 13: Deploy](lesson-13-deploy.md).
 
-  
   
   

@@ -50,7 +50,6 @@ author: minewiskan
   
 ## See Also  
  [Write-Enabled Partitions](../../analysis-services/multidimensional-models-olap-logical-cube-objects/partitions-write-enabled-partitions.md)   
- [Enabling Write-back to an OLAP Cube at Cell Level in Excel 2010](https://go.microsoft.com/fwlink/p/?LinkId=394952)   
- [Enabling and Securing Data Entry with Analysis Services Writeback](https://go.microsoft.com/fwlink/p/?LinkId=394953)  
-  
+ [Enabling Write-back to an OLAP Cube at Cell Level in Excel 2010](/previous-versions/office/developer/office-2010/gg521158(v=office.14))   
+ [Enabling and Securing Data Entry with Analysis Services Writeback](/previous-versions/sql/sql-server-2008-r2/gg567303(v=msdn.10))  
   

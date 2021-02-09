@@ -51,7 +51,6 @@ manager: kfile
  Describes how to create a query against mining model content by using the XMLA templates in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  
   
 ## See Also  
- [Query and Expression Language Reference &#40;Analysis Services&#41;](https://msdn.microsoft.com/library/9597533d-35f4-4742-9d8c-7af392163527)   
+ [Query and Expression Language Reference &#40;Analysis Services&#41;](/dax/)   
  [Data Mining Stored Procedures &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-stored-procedures-analysis-services-data-mining.md)  
-  
   

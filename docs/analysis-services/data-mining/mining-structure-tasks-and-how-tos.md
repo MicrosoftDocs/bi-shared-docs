@@ -35,6 +35,5 @@ manager: kfile
   
   
 ## See Also  
- [Designing and Implementing How-to Topics (Analysis Services - Data Mining)](https://msdn.microsoft.com/library/bb522452.aspx)  
-  
+ [Designing and Implementing How-to Topics (Analysis Services - Data Mining)](/previous-versions/sql/sql-server-2008-r2/bb522452(v=sql.105))  
   

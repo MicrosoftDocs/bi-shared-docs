@@ -44,7 +44,7 @@ manager: kfile
 |Microsoft Neural Network algorithm|Not supported.<br /><br /> These algorithms do not assign cases to specific nodes in the content.|  
 |Microsoft Logistic Regression algorithm|Not supported.<br /><br /> These algorithms do not assign cases to specific nodes in the content.|  
 |Microsoft Linear Regression algorithm|Supported.<br /><br /> However, because the model creates a single node, **All**, drillthrough returns all the training cases for the model. If the training set is large, loading the results may take a very long time.|  
-|Microsoft Time Series algorithm|Supported.<br /><br /> However, you cannot drill through to structure or case data by using the **Mining Model Viewer** in Data Mining Designer. You must create a DMX query instead.<br /><br /> Also, you cannot drill through to specific nodes, or write a DMX query to retrieve cases in specific nodes of a time series model. You can retrieve case data from either the model or the structure by using other criteria, such as date or attribute values.<br /><br /> If you wish to view details of the ARTXP and ARIMA nodes created by the Microsoft Time Series algorithm, it might be easier to use the [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](https://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c).|  
+|Microsoft Time Series algorithm|Supported.<br /><br /> However, you cannot drill through to structure or case data by using the **Mining Model Viewer** in Data Mining Designer. You must create a DMX query instead.<br /><br /> Also, you cannot drill through to specific nodes, or write a DMX query to retrieve cases in specific nodes of a time series model. You can retrieve case data from either the model or the structure by using other criteria, such as date or attribute values.<br /><br /> If you wish to view details of the ARTXP and ARIMA nodes created by the Microsoft Time Series algorithm, it might be easier to use the [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15).|  
   
 ## Related Tasks  
  See the following topics for more information about how to use drillthrough with mining models.  
@@ -55,9 +55,8 @@ manager: kfile
 |Retrieve case data for a model by using drillthrough|[Drill Through to Case Data from a Mining Model](../../analysis-services/data-mining/drill-through-to-case-data-from-a-mining-model.md)|  
 |Enable drillthrough on an existing mining model|[Enable Drillthrough for a Mining Model](../../analysis-services/data-mining/enable-drillthrough-for-a-mining-model.md)|  
 |See examples of drillthrough queries for specific model types.|[Data Mining Queries](../../analysis-services/data-mining/data-mining-queries.md)|  
-|Enable drillthrough in the Mining Model Wizard|[Completing the Wizard &#40;Data Mining Wizard&#41;](https://msdn.microsoft.com/library/6aef1548-35eb-42fd-ae87-63650a79eda1).|  
+|Enable drillthrough in the Mining Model Wizard|[Completing the Wizard &#40;Data Mining Wizard&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15).|  
   
 ## See Also  
  [Drillthrough on Mining Structures](../../analysis-services/data-mining/drillthrough-on-mining-structures.md)  
-  
   

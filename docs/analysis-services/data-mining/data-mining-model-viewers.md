@@ -35,7 +35,7 @@ manager: kfile
  ![Overview of mining model designer](../../analysis-services/data-mining/media/generic-mining-model-tab1.gif "Overview of mining model designer")  
   
 ## More about the Microsoft Generic Content Tree Viewer  
- Each model can also be viewed using the [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](https://msdn.microsoft.com/library/751b4393-f6fd-48c1-bcef-bdca589ce34c). This viewer presents the contents of the mining model according to a standard HTML table format. However, the arrangement of the nodes and the content of each node will differ greatly depending on the algorithm used to generate the results.  
+ Each model can also be viewed using the [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15). This viewer presents the contents of the mining model according to a standard HTML table format. However, the arrangement of the nodes and the content of each node will differ greatly depending on the algorithm used to generate the results.  
   
  Whereas the custom viewers are designed for exploring and understanding the model, the generic viewer is more useful when you already understand the model and want to extract statistics or rules from a specific node. For example, you would use the generic viewer when you want to view detailed information about the patterns and statistics that [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] captured during analysis, such as the probability of a node, or a regression formula.  
   
@@ -71,5 +71,4 @@ manager: kfile
 ## See Also  
  [Data Mining Algorithms &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining.md)   
  [Data Mining Designer](../../analysis-services/data-mining/data-mining-designer.md)  
-  
   

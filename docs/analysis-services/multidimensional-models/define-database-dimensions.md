@@ -51,7 +51,6 @@ manager: kfile
  [Define Attribute Relationships](../../analysis-services/multidimensional-models/attribute-relationships-define.md)  
  Describes how to define and configure an attribute relationship.  
   
- [Use the Business Intelligence Wizard to Enhance Dimensions](https://msdn.microsoft.com/library/12d995d1-75ca-4890-bf4b-a2656910b8d0)  
+ [Use the Business Intelligence Wizard to Enhance Dimensions](./bi-wizard-add-account-intelligence-to-a-dimension.md?viewFallbackFrom=sql-server-ver15)  
  Describes how to use the Business Intelligence Wizard to enhance a dimension.  
-  
   

@@ -61,7 +61,6 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 ## See also
 
- [Edit table properties dialog box](https://msdn.microsoft.com/library/8d913e83-7246-44cc-8fc7-31729023c0d8)   
+ [Edit table properties dialog box](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15)   
  [Change table, column, or row filter mappings](../../analysis-services/tabular-models/change-table-column-or-row-filter-mappings-ssas-tabular.md)  
-  
   

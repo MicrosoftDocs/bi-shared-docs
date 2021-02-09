@@ -24,4 +24,4 @@ manager: kfile
   
  [Feature Pack for Microsoft SQL Server](https://go.microsoft.com/fwlink/?LinkId=389949)  
   
- [Microsoft Connect: ADOMD.NET Dependencies](https://go.microsoft.com/fwlink/?LinkId=389950)  
+ [Microsoft Connect: ADOMD.NET Dependencies](/collaborate/connect-redirect)

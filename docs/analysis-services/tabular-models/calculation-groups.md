@@ -53,13 +53,13 @@ Now that you've seen how calculation groups benefit users, let's take a look at 
 
 Before we go into the details, let's introduce some new DAX functions specifically for calculation groups: 
 
-[SELECTEDMEASURE](https://docs.microsoft.com/dax/selectedmeasure-function-dax) - Used by expressions for calculation items to reference the measure that is currently in context. In this example, the Sales measure.
+[SELECTEDMEASURE](/dax/selectedmeasure-function-dax) - Used by expressions for calculation items to reference the measure that is currently in context. In this example, the Sales measure.
 
-[SELECTEDMEASURENAME](https://docs.microsoft.com/dax/selectedmeasurename-function-dax) - Used by expressions for calculation items to determine the measure that is in context by name.
+[SELECTEDMEASURENAME](/dax/selectedmeasurename-function-dax) - Used by expressions for calculation items to determine the measure that is in context by name.
 
-[ISSELECTEDMEASURE](https://docs.microsoft.com/dax/isselectedmeasure-function-dax) - Used by expressions for calculation items to determine the measure that is in context is specified in a list of measures.
+[ISSELECTEDMEASURE](/dax/isselectedmeasure-function-dax) - Used by expressions for calculation items to determine the measure that is in context is specified in a list of measures.
 
-[SELECTEDMEASUREFORMATSTRING](https://docs.microsoft.com/dax/selectedmeasureformatstring-function-dax) - Used by expressions for calculation items to retrieve the format string of the measure that is in context.
+[SELECTEDMEASUREFORMATSTRING](/dax/selectedmeasureformatstring-function-dax) - Used by expressions for calculation items to retrieve the format string of the measure that is in context.
 
 ### Time Intelligence example
 
@@ -186,7 +186,7 @@ The return table shows calculations for each calculation item applied. For examp
 
 *Dynamic format strings* with calculation groups allow conditional application of format strings to measures without forcing them to return strings.
 
-Tabular models support dynamic formatting of measures by using DAX's [FORMAT](https://docs.microsoft.com/dax/format-function-dax) function. However, the FORMAT function has the disadvantage of returning a string, forcing measures that would otherwise be numeric to also be returned as a string. This can have some limitations, such as not working with most Power BI visuals depending on numeric values, like charts.
+Tabular models support dynamic formatting of measures by using DAX's [FORMAT](/dax/format-function-dax) function. However, the FORMAT function has the disadvantage of returning a string, forcing measures that would otherwise be numeric to also be returned as a string. This can have some limitations, such as not working with most Power BI visuals depending on numeric values, like charts.
 
 ### Dynamic format strings for time intelligence
 
@@ -246,7 +246,7 @@ SELECTEDVALUE(
     SELECTEDMEASUREFORMATSTRING()
 )
 ```
-The format string expression must return a scalar string. It uses the new [SELECTEDMEASUREFORMATSTRING](https://docs.microsoft.com/dax/selectedmeasureformatstring-function-dax) function to revert to the base measure format string if there are multiple currencies in filter context.
+The format string expression must return a scalar string. It uses the new [SELECTEDMEASUREFORMATSTRING](/dax/selectedmeasureformatstring-function-dax) function to revert to the base measure format string if there are multiple currencies in filter context.
 
 The following animation shows the dynamic format currency conversion of the **Sales** measure in a report.
 
@@ -440,4 +440,4 @@ Implicit column aggregations in Power BI are not supported for models with calcu
 ## See also  
 
 [DAX in tabular models](understanding-dax-in-tabular-models-ssas-tabular.md)   
-[DAX Reference](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference)  
+[DAX Reference](/dax/data-analysis-expressions-dax-reference)

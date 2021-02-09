@@ -17,7 +17,7 @@ manager: kfile
   
 -   The **Mining Model** drop-down list box on the **Mining Model Viewer** tab of Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] contains a list of all the mining models that are in the current mining structure.  
   
--   Custom viewers are provided for each type of model. For an overview of all the custom viewers, see [Mining Model Viewers &#40;Data Mining Model Designer&#41;](https://msdn.microsoft.com/library/4ba391d5-c97b-4848-ba7c-7d096fa4b7dd). For a walkthrough of how to use the custom viewers to understand a model, see [Lesson 4: Exploring the Targeted Mailing Models &#40;Basic Data Mining Tutorial&#41;](https://msdn.microsoft.com/library/1e00c5b9-a9f8-4503-99ee-377c9cc02d7f).  
+-   Custom viewers are provided for each type of model. For an overview of all the custom viewers, see [Mining Model Viewers &#40;Data Mining Model Designer&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15). For a walkthrough of how to use the custom viewers to understand a model, see [Lesson 4: Exploring the Targeted Mailing Models &#40;Basic Data Mining Tutorial&#41;](/previous-versions/sql/sql-server-2016/ms166930(v=sql.130)).  
   
 -   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Generic Content Viewer shows the patterns discovered by the algorithm in a standard representation of nodes in a tree. Although the generic tree view shows all the content for the model in rich detail, it is more difficult to interpret. For more information, see [Browse a Model Using the Microsoft Generic Content Tree Viewer](../../analysis-services/data-mining/browse-a-model-using-the-microsoft-generic-content-tree-viewer.md).  
   
@@ -35,5 +35,4 @@ manager: kfile
   
 ## See Also  
  [Mining Model Viewer Tasks and How-tos](../../analysis-services/data-mining/mining-model-viewer-tasks-and-how-tos.md)  
-  
   

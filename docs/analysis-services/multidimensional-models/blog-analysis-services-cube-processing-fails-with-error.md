@@ -114,7 +114,7 @@ The command timeout setting isn't set on the connection or the connection string
 
 You can control the OLE DB command timeout in Analysis Services. There's an **ExternalCommandTimeout** setting in the advanced options on the Analysis Services instance. The default value is 60 mins (one hour).   That timeout value might not be long enough. This default configuration allows any one T-SQL query to the relational database to last one hour or more. After that point, the command is canceled by the OLE DB provider used to connect to that system, and the Analysis Services processing command fails.
 
-The [ExternalCommandTimeout](https://docs.microsoft.com/sql/analysis-services/server-properties/general-properties?view=sql-server-2017&preserve-view=true) integer property defines the timeout, in seconds, for commands issued to external servers, which includes relational data sources and external Analysis Services servers.
+The [ExternalCommandTimeout](/sql/analysis-services/server-properties/general-properties?preserve-view=true&view=sql-server-2017) integer property defines the timeout, in seconds, for commands issued to external servers, which includes relational data sources and external Analysis Services servers.
 The default value for this property is 3,600 seconds.
 
 If you expect the processing queries to take more than one hour, raise the timeout higher than one hour. In one example, the processing join queries took around nine hours to complete on a 2-TB database with some large complex joins.
@@ -242,9 +242,9 @@ You might be able to throttle the system better by reducing the **MaxThreads** c
 
 In the worst case, run processing in **Sequential** mode to see if the errors go away. The system takes less memory to run a sequence of one task at a time rather than many tasks at once. The tradeoff might be that it runs longer because you can't push the system hardware to the same throughput limits. 
 
-To learn more about processing best practices, see [SQL Server best practices](https://docs.microsoft.com/previous-versions/sql/sql-server-2005/administrator/cc966525(v=technet.10)).
+To learn more about processing best practices, see [SQL Server best practices](/previous-versions/sql/sql-server-2005/administrator/cc966525(v=technet.10)).
 
-For more information on the architecture of cube processing, see [Analysis Services 2005 processing architecture](https://docs.microsoft.com/previous-versions/sql/sql-server-2005/administrator/ms345142(v=sql.90)).
+For more information on the architecture of cube processing, see [Analysis Services 2005 processing architecture](/previous-versions/sql/sql-server-2005/administrator/ms345142(v=sql.90)).
 
 ## Aggregation memory impact on timeouts
 
