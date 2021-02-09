@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 # SQL Server Analysis Services server management
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
-For Azure Analysis Services, see [Manage Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage).
+For Azure Analysis Services, see [Manage Azure Analysis Services](/azure/analysis-services/analysis-services-manage).
 
 ## Instances
 
@@ -49,5 +49,4 @@ For Azure Analysis Services, see [Manage Azure Analysis Services](https://docs.m
 ## See also  
  [Comparing Tabular and Multidimensional Solutions](../../analysis-services/comparing-tabular-and-multidimensional-solutions-ssas.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
-  
   

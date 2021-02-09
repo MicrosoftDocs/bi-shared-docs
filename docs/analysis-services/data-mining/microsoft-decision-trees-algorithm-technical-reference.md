@@ -45,7 +45,7 @@ manager: kfile
  
   
 ### Scoring Methods and Feature Selection  
- The Microsoft Decision Trees algorithm offers three formulas for scoring information gain: Shannon's entropy, Bayesian network with K2 prior, and Bayesian network with a uniform Dirichlet distribution of priors. All three methods are well established in the data mining field. We recommend that you experiment with different parameters and scoring methods to determine which provides the best results. For more information about these scoring methods, see [Feature Selection](https://msdn.microsoft.com/library/73182088-153b-4634-a060-d14d1fd23b70).  
+ The Microsoft Decision Trees algorithm offers three formulas for scoring information gain: Shannon's entropy, Bayesian network with K2 prior, and Bayesian network with a uniform Dirichlet distribution of priors. All three methods are well established in the data mining field. We recommend that you experiment with different parameters and scoring methods to determine which provides the best results. For more information about these scoring methods, see [Feature Selection](/sql/database-engine/install-windows/install-sql-server).  
   
  All [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data mining algorithms automatically use feature selection to improve analysis and reduce processing load. The method used for feature selection depends on the algorithm that is used to build the model. The algorithm parameters that control feature selection for a decision trees model are MAXIMUM_INPUT_ATTRIBUTES and MAXIMUM_OUTPUT.  
   
@@ -84,7 +84,7 @@ manager: kfile
  The [!INCLUDE[msCoName](../includes/msconame-md.md)] Decision Trees algorithm supports parameters that affect the performance and accuracy of the resulting mining model. You can also set modeling flags on the mining model columns or mining structure columns to control the way that data is processed.  
   
 > [!NOTE]  
->  The Microsoft Decision Trees algorithm is available in all editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)]; however, some advanced parameters for customizing the behavior of the Microsoft Decision Trees algorithm are available for use only in specific editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)]. For a list of features that are supported by the editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)], see [Features Supported by the Editions of SQL Server 2012](https://go.microsoft.com/fwlink/?linkid=232473) (https://go.microsoft.com/fwlink/?linkid=232473).  
+>  The Microsoft Decision Trees algorithm is available in all editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)]; however, some advanced parameters for customizing the behavior of the Microsoft Decision Trees algorithm are available for use only in specific editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)]. For a list of features that are supported by the editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)], see [Features Supported by the Editions of SQL Server 2012](/previous-versions/sql/sql-server-2012/cc645993(v=sql.110)) (https://go.microsoft.com/fwlink/?linkid=232473).  
   
 ### Setting Algorithm Parameters  
  The following table describes the parameters that you can use with the [!INCLUDE[msCoName](../includes/msconame-md.md)] Decision Trees algorithm.  
@@ -142,7 +142,7 @@ manager: kfile
   
  The default is 4, or BDE.  
   
- For an explanation of these scoring methods, see [Feature Selection](https://msdn.microsoft.com/library/73182088-153b-4634-a060-d14d1fd23b70).  
+ For an explanation of these scoring methods, see [Feature Selection](/sql/database-engine/install-windows/install-sql-server).  
   
  *SPLIT_METHOD*  
  Determines the method that is used to split the node. The following options are available:  
@@ -190,5 +190,4 @@ manager: kfile
  [Microsoft Decision Trees Algorithm](../../analysis-services/data-mining/microsoft-decision-trees-algorithm.md)   
  [Decision Trees Model Query Examples](../../analysis-services/data-mining/decision-trees-model-query-examples.md)   
  [Mining Model Content for Decision Tree Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-for-decision-tree-models-analysis-services-data-mining.md)  
-  
   

@@ -25,7 +25,7 @@ This article explains how to set up an HTTP endpoint for accessing an Analysis S
   
 - Client applications cannot use the Analysis Services client libraries (for example, a Java application running on a UNIX server). If you cannot use the Analysis Services client libraries for data access, you can use SOAP and XML/A over a direct HTTP connection to an Analysis Services instance.  
   
-- Authentication methods other than Windows integrated security are required. Specifically, you can use Anonymous connections and Basic authentication when configuring Analysis Services for HTTP access. Digest, Forms, and ASP.NET authentication are not supported. A requirement of Basic authentication is one of the primary reasons for enabling HTTP access. To learn more, see [Microsoft BI Authentication and Identity Delegation](https://go.microsoft.com/fwlink/?LinkId=286576).  
+- Authentication methods other than Windows integrated security are required. Specifically, you can use Anonymous connections and Basic authentication when configuring Analysis Services for HTTP access. Digest, Forms, and ASP.NET authentication are not supported. A requirement of Basic authentication is one of the primary reasons for enabling HTTP access. To learn more, see [Microsoft BI Authentication and Identity Delegation](/previous-versions/sql/sql-server-2012/dn186184(v=msdn.10)).  
 
 > [!NOTE]
 > The client libraries required by client applications cannot connect to Analysis Services through proxy servers that require a username and password.
@@ -34,7 +34,7 @@ You can configure HTTP access for any supported version or edition of Analysis S
   
 Setting up HTTP access is a post-installation task. Analysis Services must be installed before you can configure it for HTTP access. As the Analysis Services administrator, you will need to grant permissions to Windows accounts before HTTP access is possible. Additionally, it is a best practice to validate your installation first, ensuring that it is fully operational before configuring the server any further. After HTTP access is configured, you can use both the HTTP endpoint and the regular network name of the server over TCP/IP. Setting up HTTP access does not invalidate other approaches for data access.  
   
-As you move forward with MSMDPUMP configuration, remember there are two connections to consider: client-to-IIS, IIS-to-SSAS. The instructions in this article are about IIS-to-SSAS. Your client application might require additional configuration before it can connect to IIS. Decisions such as whether to use SSL, or how to configure bindings, are out of scope for this article. See [Web Server (IIS)](https://technet.microsoft.com/library/hh831725.aspx) for more information about IIS.  
+As you move forward with MSMDPUMP configuration, remember there are two connections to consider: client-to-IIS, IIS-to-SSAS. The instructions in this article are about IIS-to-SSAS. Your client application might require additional configuration before it can connect to IIS. Decisions such as whether to use SSL, or how to configure bindings, are out of scope for this article. See [Web Server (IIS)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831725(v=ws.11)) for more information about IIS.  
   
 ## Overview
 
@@ -188,7 +188,7 @@ The following table lists additional considerations when you enable HTTP access 
 4.  Alternatively, enable **Basic Authentication** if your client and server applications are in different domains. This mode requires the user to enter a user name and password. The user name and password are transmitted over the HTTP connection to IIS. IIS will try to impersonate the user using the provided credentials when connecting to MSMDPUMP, but the credentials will not be delegated to Analysis Services. Instead, you will need to pass a valid user name and password on a connection, as described in Step 6 in this document.  
   
     > [!IMPORTANT]  
-    >  Please note that it is imperative for anyone building a system where the password is transmitted to have ways of securing the communication channel. IIS provides a set of tools that help you secure the channel. For more information, see [How to Set Up SSL on IIS 7](https://go.microsoft.com/fwlink/?LinkId=207562).  
+    >  Please note that it is imperative for anyone building a system where the password is transmitted to have ways of securing the communication channel. IIS provides a set of tools that help you secure the channel. For more information, see [How to Set Up SSL on IIS 7](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).  
   
 5.  Disable **Anonymous Authentication** if you are using Windows or Basic authentication. When Anonymous authentication is enabled, IIS will always use it first, even if other authentication methods are enabled.  
   
@@ -293,7 +293,7 @@ The following table lists additional considerations when you enable HTTP access 
   
  `Data Source=https://<servername>/olap/msmdpump.dll; Initial Catalog=AdventureWorksDW2012; Integrated Security=Basic; User ID=XXXX; Password=XXXXX;`  
   
- For more information about setting up the connection programmatically, see [Establishing Secure Connections in ADOMD.NET](https://docs.microsoft.com/analysis-services/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections).  
+ For more information about setting up the connection programmatically, see [Establishing Secure Connections in ADOMD.NET](../adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections.md).  
   
  As a final step, be sure to follow-up with more rigorous testing by using a client computer that runs in the network environment from which the connections will originate.  
   
@@ -302,6 +302,5 @@ The following table lists additional considerations when you enable HTTP access 
  [Configure the Windows Firewall to Allow Analysis Services Access](../../analysis-services/instances/configure-the-windows-firewall-to-allow-analysis-services-access.md)   
  [Authorizing access to objects and operations &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/authorizing-access-to-objects-and-operations-analysis-services.md)   
  [IIS Authentication Methods](https://go.microsoft.com/fwlink/?LinkdID=208461)   
- [How to Set Up SSL on IIS 7](https://go.microsoft.com/fwlink/?LinkId=207562)  
-  
+ [How to Set Up SSL on IIS 7](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis)  
   
