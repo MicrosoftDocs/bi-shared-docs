@@ -177,8 +177,7 @@ manager: kfile
  If you did not synchronize roles or membership, remember to specify user access permissions now on the destination database.  
   
 ## See Also  
- [Synchronize Element &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/synchronize-element-xmla)   
+ [Synchronize Element &#40;XMLA&#41;](../xmla/xml-elements-commands/synchronize-element-xmla.md)   
  [Deploy model solutions by using XMLA](../../analysis-services/deployment/deploy-model-solutions-using-xmla.md)   
  [Deploy model solutions by using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md)  
-  
   

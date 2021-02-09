@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
   
-SQL Server Analysis Services is installed by using the [SQL Server Installation Wizard](https://docs.microsoft.com/sql/database-engine/install-windows/installation-for-sql-server).
+SQL Server Analysis Services is installed by using the [SQL Server Installation Wizard](/sql/database-engine/install-windows/installation-for-sql-server).
 
  SQL Server Analysis Services is multi-instance, which means that you can install more than one copy on a single computer, or run new and old versions  side-by-side. Any instance you install runs in one of three modes, as determined during setup: Multidimensional and Data Mining, Tabular, or SharePoint. If you want to use multiple modes, you'll need a separate instance for each one.  
   
@@ -75,4 +75,4 @@ Setup.exe /q /IAcceptSQLServerLicenseTerms /ACTION=install /FEATURES=AS /ASSERVE
 
 ## See also
 
- [Determine the Server Mode of an Analysis Services Instance](../../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
+ [Determine the Server Mode of an Analysis Services Instance](../../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)

@@ -21,7 +21,7 @@ Tabular models are defined with several deployment-specific properties. When you
 
 ::: moniker range="asallproducts-allversions || power-bi-premium-current"
 
-Deploying a tabular model project from Visual Studio to a **Power BI Premium** workspace has a few extra steps to complete processing on the first deployment. To learn more, see [Deploy model projects from Visual Studio to Power BI](https://docs.microsoft.com/power-bi/service-premium-connect-tools#deploy-model-projects-from-visual-studio-ssdt).
+Deploying a tabular model project from Visual Studio to a **Power BI Premium** workspace has a few extra steps to complete processing on the first deployment. To learn more, see [Deploy model projects from Visual Studio to Power BI](/power-bi/service-premium-connect-tools#deploy-model-projects-from-visual-studio-ssdt).
 
 ::: moniker-end
   
@@ -41,7 +41,7 @@ Deploying a tabular model project from Visual Studio to a **Power BI Premium** w
   
 |Property|Default setting|Description|  
 |--------------|---------------------|-----------------|  
-|**Server**|**localhost**|Specifies the [Azure Analysis Services server resource URL](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect#get-the-server-name), [Power BI Workspace Connection URL](https://docs.microsoft.com/power-bi/service-premium-connect-tools#to-get-the-workspace-connection-url), or SQL Server Analysis Services instance name to which the model will be deployed.|  
+|**Server**|**localhost**|Specifies the [Azure Analysis Services server resource URL](/azure/analysis-services/analysis-services-connect#get-the-server-name), [Power BI Workspace Connection URL](/power-bi/service-premium-connect-tools#to-get-the-workspace-connection-url), or SQL Server Analysis Services instance name to which the model will be deployed.|  
 |**Edition**|The same edition as the instance in which the Workspace database is located.|This property specifies the edition of the Analysis Services server to which the model will be deployed. The server edition defines various features that can be incorporated into the project. By default, the edition will be of the local Analysis Services server, which if you are using an integrated workspace will be the Visual Studio edition.|  
 |**Database**|**\<projectname>**|This property specifies the name of the Analysis Services database in which model objects will be instantiated upon deployment. This name will also be specified in a reporting client data connection or an .bism data connection file.<br /><br /> You can change this name at any time when you are authoring the model. If you change the name after you have deployed the model, changes that you have made after deployment will not affect the model that you previously deployed. For example, if you open a solution named **TestDB** and deploy your solution with the default model Database name Model, and then modify the solution and renamed the model Database **Sales**, the instance of Analysis Services the solutions were deployed to will display separate databases, one named Model and one named Sales.|  
 |**Model Name**|**Model**|This property specifies the model name as shown in client applications and tools.|  |  

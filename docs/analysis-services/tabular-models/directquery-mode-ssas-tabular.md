@@ -75,5 +75,5 @@ DirectQuery models are deployed the same as import models. However, unlike impor
 [Enable DirectQuery mode in Visual Studio](../../analysis-services/tabular-models/enable-directquery-mode-in-ssdt.md)  
 [Enable DirectQuery mode in SSMS](../../analysis-services/tabular-models/enable-directquery-mode-in-ssms.md)  
 [Define partitions in DirectQuery models](../../analysis-services/tabular-models/define-partitions-in-directquery-models-ssas-tabular.md)  [Test a model in DirectQuery mode](../../analysis-services/tabular-models/test-a-model-in-directquery-mode.md)  
-[Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)  
+[Data sources supported in Azure Analysis Services](/azure/analysis-services/analysis-services-datasource)  
 [Data sources supported in SQL Server Analysis Services tabular 1400 and higher models](data-sources-supported-ssas-tabular-1400.md).

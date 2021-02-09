@@ -15,12 +15,12 @@ manager: kfile
 
 [!INCLUDE[csdl-archived](../includes/csdl-archived.md)]
 
-  The **EntityType** element is a complex type that represents the structure of a high-level entity, such as a customer or order, in a data model. The **bi:EntityType** element extends the definition of [EntityType](https://msdn.microsoft.com/library/bb399206.aspx) used in the [Entity Data Framework](https://msdn.microsoft.com/library/bb399567.aspx).  
+  The **EntityType** element is a complex type that represents the structure of a high-level entity, such as a customer or order, in a data model. The **bi:EntityType** element extends the definition of [EntityType](/previous-versions/dotnet/netframework-4.0/bb399206(v=vs.100)) used in the [Entity Data Framework](/dotnet/framework/data/adonet/ef/overview).  
   
  An EntityType element must be specified for each of the entities that are included in the data model. The subelements of the EntityType describe the columns and measures in the table. Relationships among tables are included in the **EntityContainer**.  
   
 ## Elements and Attributes  
- The following table lists the elements and attributes that define the **EntityType** element. Also see the attributes applicable to the [EntityType](https://msdn.microsoft.com/library/bb399206.aspx) element.  
+ The following table lists the elements and attributes that define the **EntityType** element. Also see the attributes applicable to the [EntityType](/previous-versions/dotnet/netframework-4.0/bb399206(v=vs.100)) element.  
   
 |Name|Is Required|Description|  
 |----------|-----------------|-----------------|  

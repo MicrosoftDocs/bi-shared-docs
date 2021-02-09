@@ -39,4 +39,4 @@ If your model is partially or fully complete prior to enabling DirectQuery mode,
 ## See also
 
 [Enable DirectQuery mode in SSMS](../../analysis-services/tabular-models/enable-directquery-mode-in-ssms.md)  
-[Add sample data to a DirectQuery model in design mode](../../analysis-services/tabular-models/add-sample-data-to-a-directquery-model-in-design-mode.md)
+[Add sample data to a DirectQuery model in design mode](./directquery-mode-ssas-tabular.md)

@@ -133,7 +133,7 @@ By default, each processing operation will connect to and query a data source fo
 
 #### MaxParallelism
 
-By default processing operations run in parallel as much as possible. However, you can choose to process partitions sequentially or in parallel by specifying the **maxParallism** property option with the [Sequence command (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/sequence-command-tmsl). Setting the value to 1 means not parallel - one thread is used for processing. Setting the value to 2 or more specifies a fixed number of threads can be used for parallel processing operations.
+By default processing operations run in parallel as much as possible. However, you can choose to process partitions sequentially or in parallel by specifying the **maxParallism** property option with the [Sequence command (TMSL)](../tmsl/sequence-command-tmsl.md). Setting the value to 1 means not parallel - one thread is used for processing. Setting the value to 2 or more specifies a fixed number of threads can be used for parallel processing operations.
 
 #### Monitor
 

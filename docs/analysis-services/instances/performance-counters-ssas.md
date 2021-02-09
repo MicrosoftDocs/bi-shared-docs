@@ -16,13 +16,13 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
   By using Performance Monitor, you can monitor the performance of an Analysis Services instance with performance counters.  
 
-Azure Analysis Services uses Azure Metrics Explorer in the portal. To learn more, see [Monitor Azure Analysis Services server metrics](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor).
+Azure Analysis Services uses Azure Metrics Explorer in the portal. To learn more, see [Monitor Azure Analysis Services server metrics](/azure/analysis-services/analysis-services-monitor).
   
  Performance Monitor is a [!INCLUDE[msCoName](../includes/msconame-md.md)] Management Control (MMC) snap-in that tracks resource usage. You can start the MMC snap-in by typing in **PerfMon** at the command prompt or from Control Panel by clicking **Administrative Tools**, then **Performance Monitor**. Performance Monitor lets you track server and process performance and activity by using predefined objects and counters, and monitor events by using user-defined counters. Performance Monitor collects counts instead of data about the events, for example, memory usage, number of active transactions, or CPU activity. You can also set thresholds on specific counters to generate alerts that notify operators.  
   
- Performance Monitor can monitor remote and local instances of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] or [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)]. For more information, see [Using Performance Monitor](https://technet.microsoft.com/library/cc749115.aspx).  
+ Performance Monitor can monitor remote and local instances of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] or [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)]. For more information, see [Using Performance Monitor](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749115(v=ws.11)).  
   
- To see the description of any counter that can be used with [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], in Performance Monitor, open the **Add Counters** dialog box, select a performance object, and then click **Show Description**. The most important counters are CPU usage, memory usage, disk IO rate. It is recommended you start with these important counters, and move to more detailed counters when you have a better idea of what else could be improved through monitoring. For more information about which counters to include, see the [SQL Server 2008 R2 Operations Guide](https://go.microsoft.com/fwlink/?LinkID=225539).  
+ To see the description of any counter that can be used with [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], in Performance Monitor, open the **Add Counters** dialog box, select a performance object, and then click **Show Description**. The most important counters are CPU usage, memory usage, disk IO rate. It is recommended you start with these important counters, and move to more detailed counters when you have a better idea of what else could be improved through monitoring. For more information about which counters to include, see the [SQL Server 2008 R2 Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
   
  Counters are grouped so you can more easily find related counters.  
   
@@ -341,5 +341,4 @@ Azure Analysis Services uses Azure Metrics Explorer in the portal. To learn more
 |Processing pool busy I/O job threads|Number of threads running I/O jobs in the processing thread pool.|  
 |Processing pool I/O job queue length|Number of I/O jobs in the queue of the processing thread pool.|  
 |Processing pool I/O job completion rate|Rate of I/O jobs through the processing thread pool.|  
-  
   

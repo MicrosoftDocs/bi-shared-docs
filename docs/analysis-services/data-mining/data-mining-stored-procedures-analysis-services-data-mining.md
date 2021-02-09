@@ -19,7 +19,7 @@ manager: kfile
   
  For general information about programmability, see [Data Mining Programming](../../analysis-services/data-mining/data-mining-programming.md).  
   
- For additional information about how to program data mining objects, see the article, "[SQL Server Data Mining Programmability](https://go.microsoft.com/fwlink/?LinkId=93735)", in the MSDN library.  
+ For additional information about how to program data mining objects, see the article, "[SQL Server Data Mining Programmability](/previous-versions/sql/sql-server-2005/administrator/ms345148(v=sql.90))", in the MSDN library.  
   
 > [!NOTE]  
 >  When you query mining models, especially when you test new data mining solutions, you might find it convenient to call the system stored procedures that are used internally by the data mining engine. You can view the names of these system stored procedures by using [!INCLUDE[ssSqlProfiler](../includes/sssqlprofiler-md.md)] to create a trace on the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] server, and then creating, browsing, and querying the data mining models. However, [!INCLUDE[msCoName](../includes/msconame-md.md)] does not guarantee the compatibility of system stored procedures between versions, and you should never use calls to the system stored procedures in a production system. Instead, for compatibility, you should create your own queries by using DMX or XML/A.  
@@ -36,7 +36,6 @@ manager: kfile
   
 ## See Also  
  [Cross-Validation &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/cross-validation-analysis-services-data-mining.md)   
- [Cross-Validation Tab &#40;Mining Accuracy Chart View&#41;](https://msdn.microsoft.com/library/bd215a68-1ad7-4046-9c44-ec8e2be13a64)   
+ [Cross-Validation Tab &#40;Mining Accuracy Chart View&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15)   
  [Calling a Stored Procedure](/sql/relational-databases/native-client-odbc-stored-procedures/calling-a-stored-procedure)  
-  
   

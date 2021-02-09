@@ -24,7 +24,7 @@ manager: kfile
  When you create a cube, you can also add to the new cube any dimensions that already exist in the database. These dimensions may have been previously defined for another cube or by the Dimension Wizard. After a database dimension has been defined, you can modify and configure the database dimension in Dimension Designer. You can also customize the cube dimension, to a limited extent, in Cube Designer.  
   
 > [!NOTE]  
->  You can also design and configure dimensions, attributes, and hierarchies programmatically by using either XMLA or Analysis Management Objects (AMO). For more information, see [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](https://docs.microsoft.com/analysis-services/assl/analysis-services-scripting-language-assl-for-xmla) and [Developing with Analysis Management Objects &#40;AMO&#41;](https://docs.microsoft.com/analysis-services/amo/developing-with-analysis-management-objects-amo).  
+>  You can also design and configure dimensions, attributes, and hierarchies programmatically by using either XMLA or Analysis Management Objects (AMO). For more information, see [Analysis Services Scripting Language &#40;ASSL for XMLA&#41;](../assl/analysis-services-scripting-language-assl-for-xmla.md) and [Developing with Analysis Management Objects &#40;AMO&#41;](../amo/developing-with-analysis-management-objects-amo.md).  
   
 ## In This Section  
  The following table describes the topics in this section.  
@@ -41,10 +41,9 @@ manager: kfile
  [Create User-Defined Hierarchies](../../analysis-services/multidimensional-models/user-defined-hierarchies-create.md)  
  Describes how to define, modify, and configure a user-defined hierarchy of dimension attributes by using Dimension Designer.  
   
- [Use the Business Intelligence Wizard to Enhance Dimensions](https://msdn.microsoft.com/library/12d995d1-75ca-4890-bf4b-a2656910b8d0)  
+ [Use the Business Intelligence Wizard to Enhance Dimensions](./bi-wizard-add-account-intelligence-to-a-dimension.md?viewFallbackFrom=sql-server-ver15)  
  Describes how to enhance a database dimension by using the Business Intelligence Wizard.  
   
 ## See Also  
  [Cubes in Multidimensional Models](../../analysis-services/multidimensional-models/cubes-in-multidimensional-models.md)  
-  
   

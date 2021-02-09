@@ -17,9 +17,9 @@ manager: kfile
   
  An MDX script defines the calculation process for a cube. An MDX script is also considered part of the cube itself. Therefore, changing an MDX script associated with a cube immediately changes the calculation process for the cube.  
   
- To create MDX scripts, you can use Cube Designer in the [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)]. For more information, see [Define Assignments and Other Script Commands](../../../analysis-services/multidimensional-models/define-assignments-and-other-script-commands.md) and [Introduction to MDX Scripting in Microsoft SQL Server 2005](https://go.microsoft.com/fwlink/?LinkId=81892).  
+ To create MDX scripts, you can use Cube Designer in the [!INCLUDE[ssBIDevStudioFull](../../includes/ssbidevstudiofull-md.md)]. For more information, see [Define Assignments and Other Script Commands](../../../analysis-services/multidimensional-models/define-assignments-and-other-script-commands.md) and [Introduction to MDX Scripting in Microsoft SQL Server 2005](/previous-versions/sql/sql-server-2005/administrator/ms345116(v=sql.90)).  
   
- For performance issues related to MDX queries and calculations, see the MDX optimization section in the [SQL Server Analysis Services Performance Guide](https://go.microsoft.com/fwlink/p/?LinkId=399050).  
+ For performance issues related to MDX queries and calculations, see the MDX optimization section in the [SQL Server Analysis Services Performance Guide](/previous-versions/dn749781(v=msdn.10)).  
   
 ## In This Section  
   
@@ -33,5 +33,4 @@ manager: kfile
   
 ## See Also  
  [MDX Language Reference &#40;MDX&#41;](/sql/mdx/mdx-language-reference-mdx)  
-  
   

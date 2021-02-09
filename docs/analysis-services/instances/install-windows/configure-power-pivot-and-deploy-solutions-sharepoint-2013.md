@@ -123,6 +123,5 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
  For more information on trouble shooting data refresh, see [Troubleshooting Power Pivot Data Refresh](https://social.technet.microsoft.com/wiki/contents/articles/3870.troubleshooting-powerpivot-data-refresh.aspx) (https://social.technet.microsoft.com/wiki/contents/articles/3870.troubleshooting-powerpivot-data-refresh.aspx).  
   
- For more information on the configuration tool, see [Power Pivot Configuration Tools](../../../analysis-services/power-pivot-sharepoint/power-pivot-configuration-tools.md).  
-  
+ For more information on the configuration tool, see [Power Pivot Configuration Tools](../../power-pivot-for-sharepoint-ssas.md).  
   

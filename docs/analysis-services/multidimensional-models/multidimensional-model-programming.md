@@ -18,9 +18,9 @@ manager: kfile
 ## In This Section  
  [Understanding Microsoft OLAP Architecture](../../analysis-services/multidimensional-models/olap-physical/understanding-microsoft-olap-architecture.md)  
   
- [Developing with ADOMD.NET](https://docs.microsoft.com/analysis-services/adomd/developing-with-adomd-net)  
+ [Developing with ADOMD.NET](../adomd/developing-with-adomd-net.md)  
   
- [Developing with Analysis Management Objects &#40;AMO&#41;](https://docs.microsoft.com/analysis-services/amo/developing-with-analysis-management-objects-amo)  
+ [Developing with Analysis Management Objects &#40;AMO&#41;](../amo/developing-with-analysis-management-objects-amo.md)  
   
  [Developing with XMLA in Analysis Services](../../analysis-services/multidimensional-models-scripting-language-assl-xmla/developing-with-xmla-in-analysis-services.md)  
   
@@ -28,10 +28,9 @@ manager: kfile
   
  [Extending OLAP functionality](../../analysis-services/multidimensional-models/extending-olap/extending-olap-functionality.md)  
   
- [Analysis Services OLE DB Provider &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/cdeecd50-1d91-4162-a4a2-01c7799b02a8)  
+ [Analysis Services OLE DB Provider &#40;Analysis Services - Multidimensional Data&#41;](../client-libraries.md?viewFallbackFrom=sql-server-2017)  
   
 ## See Also  
  [Tabular Model Programming for Compatibility Levels 1050 through 1103](../../analysis-services/tabular-models/tabular-model-programming-for-compatibility-levels-1050-through-1103.md)   
  [Data Mining Programming](../../analysis-services/data-mining/data-mining-programming.md)  
-  
   

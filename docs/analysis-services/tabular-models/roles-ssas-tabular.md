@@ -119,7 +119,7 @@ The LOOKUPVALUE function returns values for the dimEmployees[DepartmentId] colum
   
 ## Testing roles
 
-When authoring a model project, you can use the Analyze in Excel feature to test the efficacy of the roles you have defined. From the **Model** menu in the model designer, when you click **Analyze in Excel**, before Excel opens, the **Choose Credentials and Perspective** dialog box appears. In this dialog, you can specify the current username, a different username, a role, and a perspective with which you will use to connect to the workspace model as a data source. To learn more, see [Analyze in Excel](../../analysis-services/tabular-models/analyze-in-excel-ssas-tabular.md).  
+When authoring a model project, you can use the Analyze in Excel feature to test the efficacy of the roles you have defined. From the **Model** menu in the model designer, when you click **Analyze in Excel**, before Excel opens, the **Choose Credentials and Perspective** dialog box appears. In this dialog, you can specify the current username, a different username, a role, and a perspective with which you will use to connect to the workspace model as a data source. To learn more, see [Analyze in Excel](./tabular-model-designer-ssas.md).  
   
 ## Scripting roles
 
@@ -129,9 +129,8 @@ Roles for deployed models and datasets can be scripted by using [Tabular Model S
 
 [Create and Manage Roles](../../analysis-services/tabular-models/create-and-manage-roles-ssas-tabular.md)  
  [Perspectives](../../analysis-services/tabular-models/perspectives-ssas-tabular.md)   
- [Analyze in Excel](../../analysis-services/tabular-models/analyze-in-excel-ssas-tabular.md)   
+ [Analyze in Excel](./tabular-model-designer-ssas.md)   
  [USERNAME Function (DAX)](/dax/username-function-dax)   
  [LOOKUPVALUE Function (DAX)](/dax/lookupvalue-function-dax)   
  [CUSTOMDATA Function (DAX)](/dax/customdata-function-dax)  
-  
   

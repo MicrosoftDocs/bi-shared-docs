@@ -17,7 +17,7 @@ manager: kfile
   
  However, you can specify that a column be included as a regressor by adding the FORCE_REGRESSOR parameter to the model and specifying the regressors to use. You might want to do this in cases where the attribute has meaning even if the effect is too small to be detected by the model, or when you want to ensure that the attribute is included in the formula.  
   
- The following procedure describes how to create a simple linear regression model, using the same sample data that is used for the [neural networks tutorial](https://msdn.microsoft.com/library/42c3701a-1fd2-44ff-b7de-377345bbbd6b). The model is not necessarily robust, but demonstrates how to use the Data Mining Designer to customize a linear regression model.  
+ The following procedure describes how to create a simple linear regression model, using the same sample data that is used for the [neural networks tutorial](/previous-versions/sql/sql-server-2016/dd206981(v=sql.130)). The model is not necessarily robust, but demonstrates how to use the Data Mining Designer to customize a linear regression model.  
   
 ### How to create a simple linear regression model  
   
@@ -59,5 +59,4 @@ manager: kfile
  [Data Mining Queries](../../analysis-services/data-mining/data-mining-queries.md)   
  [Microsoft Linear Regression Algorithm Technical Reference](../../analysis-services/data-mining/microsoft-linear-regression-algorithm-technical-reference.md)   
  [Mining Model Content for Linear Regression Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-for-linear-regression-models-analysis-services-data-mining.md)  
-  
   

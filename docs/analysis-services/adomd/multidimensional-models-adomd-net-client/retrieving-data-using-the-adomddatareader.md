@@ -33,7 +33,7 @@ manager: kfile
   
     -   Call the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader.Read%2A> method of the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader> object.  
   
-         The <xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader.Read%2A> method obtains a row from the query results. You can then pass the name, or the ordinal reference, of the column to the [Item](https://msdn.microsoft.com/library/ms131793(v=sql.130).aspx) property to access each column of the returned row. For example, the first column in the current row is named, ColumnName. Then, either `reader[0].ToString()` or `reader["ColumnName"].ToString()` will return the contents of the first column in the current row.  
+         The <xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader.Read%2A> method obtains a row from the query results. You can then pass the name, or the ordinal reference, of the column to the [Item](/dotnet/api/microsoft.analysisservices.adomdclient.adomddatareader.item) property to access each column of the returned row. For example, the first column in the current row is named, ColumnName. Then, either `reader[0].ToString()` or `reader["ColumnName"].ToString()` will return the contents of the first column in the current row.  
   
     -   Call one of the typed accessor methods.  
   
@@ -105,5 +105,4 @@ foreach (DataRow objRow in schemaTable.Rows)
 ## Retrieving Multiple Result Sets  
  Data mining supports the concept of nested tables, which ADOMD.NET exposes as nested rowsets. To retrieve the nested rowset associated with each row, you call the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader.GetDataReader%2A> method.  
 
-  
   

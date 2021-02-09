@@ -71,7 +71,7 @@ manager: kfile
 ## Advanced dimension security  
  If you have MDX expertise, another approach is to write MDX expressions that set the criteria for which members are allowed or denied access. Click **Create Role** | **Dimension Data** | **Advanced** to provide the script.  
   
- You can the MDX Builder to write the MDX statement. See [MDX Builder &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/fecbf093-65ea-4e1b-b637-f04876f1cb0f) for details. The **Advanced** tab has the following options:  
+ You can the MDX Builder to write the MDX statement. See [MDX Builder &#40;Analysis Services - Multidimensional Data&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15) for details. The **Advanced** tab has the following options:  
   
  **Attribute**  
  Select the attribute for which you want to manage member security.  
@@ -115,5 +115,4 @@ manager: kfile
  [Grant custom access to cell data &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-custom-access-to-cell-data-analysis-services.md)   
  [Grant permissions on data mining structures and models &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-permissions-on-data-mining-structures-and-models-analysis-services.md)   
  [Grant permissions on a data source object &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-permissions-on-a-data-source-object-analysis-services.md)  
-  
   

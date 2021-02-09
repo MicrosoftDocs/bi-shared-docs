@@ -39,7 +39,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
  By default, new hierarchies are named hierarchy1, hierarchy 2, etc. You should change hierarchy names to reflect the nature of the parent-child relationship, making them more identifiable to users.  
   
- After you have created hierarchies, you can test their efficacy by using the Analyze in Excel feature. For more information, see [Analyze in Excel](../../analysis-services/tabular-models/analyze-in-excel-ssas-tabular.md).  
+ After you have created hierarchies, you can test their efficacy by using the Analyze in Excel feature. For more information, see [Analyze in Excel](./tabular-model-designer-ssas.md).  
   
 ##  <a name="bkmk_related_tasks"></a> Related tasks  
   
@@ -51,5 +51,4 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
  [Tabular Model Designer](../../analysis-services/tabular-models/tabular-model-designer-ssas.md)   
  [Perspectives](../../analysis-services/tabular-models/perspectives-ssas-tabular.md)   
  [Roles](../../analysis-services/tabular-models/roles-ssas-tabular.md)  
-  
   

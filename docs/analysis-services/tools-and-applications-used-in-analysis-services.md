@@ -37,7 +37,7 @@ The [Azure portal](https://portal.azure.com/) is the primary tool for creating a
 
  SQL Server Management Studio (SSMS) is the primary administration tool for Azure Analysis Services and SQL Server Analysis Services servers and deployed model databases. SSMS is a free web download updated monthly. 
   
-**[Download SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)** 
+**[Download SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms)** 
   
 #### SQL Server Profiler 
 
@@ -65,6 +65,4 @@ The [Azure portal](https://portal.azure.com/) is the primary tool for creating a
 
  [Azure Analysis Services documentation](/azure/analysis-services/)   
  [Azure Analysis Services REST API](/rest/api/analysisservices/)   
- [Analysis Services scripting and API references](/bi-reference/)   
-
-
+ [Analysis Services scripting and API references](/bi-reference/)

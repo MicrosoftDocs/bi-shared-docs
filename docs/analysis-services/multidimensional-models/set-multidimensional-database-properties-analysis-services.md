@@ -30,7 +30,7 @@ manager: kfile
   
 |Property|Description|  
 |--------------|-----------------|  
-|Aggregation Prefix|The common prefix that can be used for aggregation names for all of the partitions in a database. For more information, see [AggregationPrefix Element &#40;ASSL&#41;](https://docs.microsoft.com/analysis-services/assl/properties/aggregationprefix-element-assl).|  
+|Aggregation Prefix|The common prefix that can be used for aggregation names for all of the partitions in a database. For more information, see [AggregationPrefix Element &#40;ASSL&#41;](../assl/properties/aggregationprefix-element-assl.md).|  
 |Collation|When the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project is deployed to an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance, the database will inherit from the Collation server property unless a different value is provided here.|  
 |DataSourceImpersonationInfo|Specifies the default impersonation mode for all data source objects in the database. This is the mode that the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] service uses when processing objects, synchronizing servers, and executing the OpenQuery and SystemOpenSchema data mining statements.|  
 |Estimated Size|Provides an estimated size of the database files on disk. If data is stored in multiple locations, this estimate will be limited to just the data files stored under the database folder.<br /><br /> **EstimatedSize** can also be used as a basis for estimating memory. Typically, memory requirements are larger than the size of data on disk due to additional data structures that are created when the database is loaded into memory.<br /><br /> To further estimate memory requirements, you can also use Task Manager to look at the Analysis Services process memory before and after processing the database and observe the memory utilized as a method for understanding the memory requirements of the database.|  
@@ -38,7 +38,6 @@ manager: kfile
 |MasterDataSource ID|Used with remote partitions. For more information, see [Remote Partitions](../../analysis-services/multidimensional-models-olap-logical-cube-objects/partitions-remote-partitions.md).|  
   
 ## See Also  
- [Database Properties Dialog Box &#40;SSAS - Multidimensional&#41;](https://msdn.microsoft.com/library/70f000b7-917f-4699-b142-7a0d13ff767c)   
+ [Database Properties Dialog Box &#40;SSAS - Multidimensional&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15)   
  [Configure Analysis Services Project Properties &#40;SSDT&#41;](../../analysis-services/multidimensional-models/configure-analysis-services-project-properties-ssdt.md)  
-  
   

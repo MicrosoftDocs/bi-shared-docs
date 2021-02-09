@@ -27,7 +27,7 @@ Specifies the server instance. This property is required for all connections.
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current"
 
-Valid values for Azure Analysis Services include `<protocol>://<region>/<servername>` where protocol is string `asazure` or `link` when using a [server name alias](https://docs.microsoft.com/azure/analysis-services/analysis-services-server-alias), region is the Uri where the server was created (for example, westus.asazure.windows.net), and servername is the name of your unique server within the region.
+Valid values for Azure Analysis Services include `<protocol>://<region>/<servername>` where protocol is string `asazure` or `link` when using a [server name alias](/azure/analysis-services/analysis-services-server-alias), region is the Uri where the server was created (for example, westus.asazure.windows.net), and servername is the name of your unique server within the region.
 
 |Example  |Description  |
 |---------|---------|
@@ -167,7 +167,7 @@ Determines the security level used on the connection. Values supported depend on
 - **Pkt Integrity**. Encrypted connections. Verifies that all data is received from the client and that it has not been changed in transit.
 - **Pkt Privacy**. Signed encryption, supported only for TCP. Verifies that all data is received from the client, that it has not been changed in transit, and protects the privacy of the data by encrypting it.
 
-To learn more, see [Establishing Secure Connections in ADOMD.NET](https://docs.microsoft.com/analysis-services/adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections)
+To learn more, see [Establishing Secure Connections in ADOMD.NET](../adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections.md)
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
@@ -359,4 +359,4 @@ Used when connecting to a local cube. This property specifies whether the local 
 ## See also
 
 [AMO Fundamental Classes - Server objects](../amo/amo-fundamental-classes.md#server-objects)  
-[AdomdConnection Class - Properties](https://docs.microsoft.com/dotnet/api/microsoft.analysisservices.adomdclient.adomdconnection?view=analysisservices-dotnet&preserve-view=true#properties)
+[AdomdConnection Class - Properties](/dotnet/api/microsoft.analysisservices.adomdclient.adomdconnection?preserve-view=true&view=analysisservices-dotnet#properties)
