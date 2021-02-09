@@ -47,7 +47,6 @@ manager: kfile
  [Move an Analysis Services Database](../../analysis-services/multidimensional-models/move-an-analysis-services-database.md)   
  [Database ReadWriteModes](../../analysis-services/multidimensional-models/database-readwritemodes.md)   
  [Switch an Analysis Services database between ReadOnly and ReadWrite modes](../../analysis-services/multidimensional-models/switch-an-analysis-services-database-between-readonly-and-readwrite-modes.md)   
- [Detach Element](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/detach-element)   
- [Attach Element](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/attach-element)  
-  
+ [Detach Element](../xmla/xml-elements-commands/detach-element.md)   
+ [Attach Element](../xmla/xml-elements-commands/attach-element.md)  
   

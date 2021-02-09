@@ -36,11 +36,11 @@ DAX expressions are supported only within tabular models. You cannot use measure
 
 ### DAX Syntax
 
-The syntax of DAX formulas is very similar to that of Excel formulas, and uses a combination of functions, operators, and values. To learn more about syntax for individual functions, see the [DAX function reference](https://docs.microsoft.com/dax/dax-function-reference).
+The syntax of DAX formulas is very similar to that of Excel formulas, and uses a combination of functions, operators, and values. To learn more about syntax for individual functions, see the [DAX function reference](/dax/dax-function-reference).
 
 ## Multidimensional to tabular object mapping
 
-Analysis Services provides a tabular model metadata representation of a multidimensional model. Objects in a multidimensional models are then represented as tabular objects in Power BI. This mapping is exposed to Power BI by using the [DISCOVER_CSDL_METADATA](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas/520fdc02-1b18-4534-a03b-4e97a26aa606) schema rowset.
+Analysis Services provides a tabular model metadata representation of a multidimensional model. Objects in a multidimensional models are then represented as tabular objects in Power BI. This mapping is exposed to Power BI by using the [DISCOVER_CSDL_METADATA](/openspecs/sql_server_protocols/ms-ssas/520fdc02-1b18-4534-a03b-4e97a26aa606) schema rowset.
 
 ### Object mapping
 
@@ -202,7 +202,7 @@ The DISCOVER_CSDL_METADATA request has the following restrictions:
 
 The return CSDL out document represents the model as a namespace, containing entities, associations, and properties.
 
-To learn more about CSDLBI annotations, see [Technical Reference for BI Annotations to CSDL](../csdlbi/technical-reference-for-bi-annotations-to-csdl.md), and [[MS-CSDLBI]: Conceptual Schema Definitions File Format with Business Intelligence Annotations](https://docs.microsoft.com/openspecs/sql_data_portability/ms-csdlbi/336647b0-95bf-4375-962d-4024c4554faa).
+To learn more about CSDLBI annotations, see [Technical Reference for BI Annotations to CSDL](../csdlbi/technical-reference-for-bi-annotations-to-csdl.md), and [[MS-CSDLBI]: Conceptual Schema Definitions File Format with Business Intelligence Annotations](/openspecs/sql_data_portability/ms-csdlbi/336647b0-95bf-4375-962d-4024c4554faa).
 
 ## SuperDAXMD
 
@@ -212,4 +212,4 @@ While some existing DAX query patterns may need to be redesigned, SuperDAX funct
 
 ## See also
 
-[DAX reference](https://docs.microsoft.com/dax/)  
+[DAX reference](/dax/)

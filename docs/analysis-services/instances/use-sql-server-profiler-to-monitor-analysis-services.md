@@ -63,5 +63,5 @@ For **Power BI Premium**, users can view traces only for databases in which they
 
 ## See also
 
- [Analysis Services Trace Events](https://docs.microsoft.com/analysis-services/trace-events/analysis-services-trace-events)  
+ [Analysis Services Trace Events](../trace-events/analysis-services-trace-events.md)  
  [Create Profiler traces for replay Analysis Services](../../analysis-services/instances/create-profiler-traces-for-replay-analysis-services.md)

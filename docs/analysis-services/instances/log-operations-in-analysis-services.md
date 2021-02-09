@@ -118,9 +118,9 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
  After the configuration settings are specified, run an MDX query multiple times. If sampling is set to 10, run the query 11 times.Verify the table is created. In Management Studio, connect to the relational database engine, open the database folder, open the **Tables** folder, and verify that **OlapQueryLog** exists. If you do not immediately see the table, refresh the folder to pick up any changes to its contents.  
   
- Allow the query log to accumulate sufficient data for the Usage Based Optimization Wizard. If query volumes are cyclical, capture enough traffic to have a representative set of data. See [Usage Based Optimization Wizard](https://msdn.microsoft.com/library/ms189706.aspx) for instructions on how to run the wizard.  
+ Allow the query log to accumulate sufficient data for the Usage Based Optimization Wizard. If query volumes are cyclical, capture enough traffic to have a representative set of data. See [Usage Based Optimization Wizard](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15) for instructions on how to run the wizard.  
   
- See [Configuring the Analysis Services Query Log](https://technet.microsoft.com/library/Cc917676) to learn more about query log configuration. Although the paper is quite old, query log configuration has not changed in recent releases and the information it contains still applies.  
+ See [Configuring the Analysis Services Query Log](/previous-versions/sql/sql-server-2005/administrator/cc917676(v=technet.10)) to learn more about query log configuration. Although the paper is quite old, query log configuration has not changed in recent releases and the information it contains still applies.  
   
 ##  <a name="bkmk_mdmp"></a> Mini dump (.mdmp) files  
  Dump files capture data used for analyzing extraordinary events. Analysis Services automatically generates mini dumps (.mdmp) in response to a server crash, exception, and some configuration errors. The feature is enabled, but does not send crash reports automatically.  
@@ -180,5 +180,4 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
  [Analysis Services Instance Management](../../analysis-services/instances/analysis-services-instance-management.md)   
 
  [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)  
-  
   

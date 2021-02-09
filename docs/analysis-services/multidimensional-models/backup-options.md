@@ -22,9 +22,8 @@ manager: kfile
 >  The Analysis Services service account must have permission to write to the backup location specified for each file. Also, the user must have one of the following roles: administrator role on the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance, or a member of a database role with Full Control (Administrator) permissions on the database to be backed up.  
   
 ## See Also  
- [Backup Database Dialog Box &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/7811ce7d-6c37-4189-bfa6-ef36fb4932db)   
+ [Backup Database Dialog Box &#40;Analysis Services - Multidimensional Data&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15)   
  [Backup and Restore of Analysis Services Databases](../../analysis-services/multidimensional-models/backup-and-restore-of-analysis-services-databases.md)   
- [Backup Element &#40;XMLA&#41;](https://docs.microsoft.com/analysis-services/xmla/xml-elements-commands/backup-element-xmla)   
+ [Backup Element &#40;XMLA&#41;](../xmla/xml-elements-commands/backup-element-xmla.md)   
  [Backing Up, Restoring, and Synchronizing Databases &#40;XMLA&#41;](../../analysis-services/multidimensional-models-scripting-language-assl-xmla/backing-up-restoring-and-synchronizing-databases-xmla.md)  
-  
   
