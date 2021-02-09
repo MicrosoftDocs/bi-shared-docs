@@ -17,7 +17,7 @@ manager: kfile
   
  In [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], a KPI is a collection of calculations that are associated with a measure group in a cube that are used to evaluate business success. Typically, these calculations are a combination of Multidimensional Expressions (MDX) expressions or calculated members. KPIs also have additional metadata that provides information about how client applications should display the results of the KPI's calculations.  
   
- A KPI handles information about a goal set, the actual formula of the performance recorded in the cube, and measurement to show the trend and the status of the performance. AMO is used to define the formulas and other definitions about the values of a KPI. A query interface, such as ADOMD.NET, is used by the client application to retrieve and expose the KPI values to the end user. For more information see [Developing with ADOMD.NET](https://docs.microsoft.com/analysis-services/adomd/developing-with-adomd-net).  
+ A KPI handles information about a goal set, the actual formula of the performance recorded in the cube, and measurement to show the trend and the status of the performance. AMO is used to define the formulas and other definitions about the values of a KPI. A query interface, such as ADOMD.NET, is used by the client application to retrieve and expose the KPI values to the end user. For more information see [Developing with ADOMD.NET](../adomd/developing-with-adomd-net.md).  
   
  A simple <xref:Microsoft.AnalysisServices.Kpi> object is composed of: basic information, the goal, the actual value achieved, a status value, a trend value, and a folder where the KPI is viewed. Basic information includes the name and description of the KPI. The goal is an MDX expression that evaluates to a number. The actual value is an MDX expression that evaluates to a number. The status and trend value are MDX expressions that evaluate to a number. The folder is a suggested location for the KPI to be presented to the client.  
   
@@ -55,5 +55,4 @@ manager: kfile
  The display of KPIs depends on the implementation of the client application. For example, selecting **Browser View** on the toolbar on the **KPIs** tab of Cube Designer demonstrates one possible client implementation, with graphics used to display status and trend indicators, display folders used to group KPIs, and child KPIs displayed under parent KPIs.  
   
  You can use MDX functions to retrieve individual sections of the KPI, such as the value or goal, for use in MDX expressions, statements, and scripts.  
-  
   

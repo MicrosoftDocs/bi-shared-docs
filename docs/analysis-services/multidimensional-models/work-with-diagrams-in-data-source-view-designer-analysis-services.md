@@ -78,6 +78,5 @@ manager: kfile
   
 ## See Also  
  [Data Source Views in Multidimensional Models](../../analysis-services/multidimensional-models/data-source-views-in-multidimensional-models.md)   
- [Data Source View Designer &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/6f40a074-761f-440b-a999-09b755bd86ce)  
-  
+ [Data Source View Designer &#40;Analysis Services - Multidimensional Data&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15)  
   

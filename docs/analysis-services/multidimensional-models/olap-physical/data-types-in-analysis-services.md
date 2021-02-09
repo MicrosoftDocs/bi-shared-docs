@@ -13,7 +13,7 @@ manager: kfile
 ---
 # Data Types in Analysis Services
 [!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
-  For all <xref:Microsoft.AnalysisServices.DataItem> objects, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following subset of **System.Data.OleDb.OleDbType**. To set or read the data type, use [DataItem Data Type &#40;ASSL&#41;](https://docs.microsoft.com/analysis-services/assl/data-type/dataitem-data-type-assl).  
+  For all <xref:Microsoft.AnalysisServices.DataItem> objects, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following subset of **System.Data.OleDb.OleDbType**. To set or read the data type, use [DataItem Data Type &#40;ASSL&#41;](../../assl/data-type/dataitem-data-type-assl.md).  
   
 ## Supported Data Types  
   
@@ -53,5 +53,4 @@ manager: kfile
 |TableMiningStructureColumn|ForeignKeyColumns|All but Binary|  
 |MeasureGroupAttribute|KeyColumns|All but Binary|  
 |Distinct Count Measure|Source|BigInt, Currency, Double, Integer, Single, SmallInt, TinyInt, UnsignedBigInt, UnsignedInt, UnsignedSmallInt, UnsignedTinyInt|  
-  
   

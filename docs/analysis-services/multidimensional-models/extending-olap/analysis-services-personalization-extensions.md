@@ -34,7 +34,7 @@ manager: kfile
  When starting the service, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] loads the required assemblies and determines which classes have the Microsoft.AnalysisServices.AdomdServer.PlugInAttribute custom attribute.  
   
 > [!NOTE]  
->  The [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] defines custom attributes as a way to describe your code and affect run-time behavior. For more information, see the topic, "[Attributes Overview](https://go.microsoft.com/fwlink/?LinkId=82929)," in the [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] Developer's Guide on MSDN.  
+>  The [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] defines custom attributes as a way to describe your code and affect run-time behavior. For more information, see the topic, "[Attributes Overview](/previous-versions/visualstudio/visual-studio-2008/xtwkdas5(v=vs.90))," in the [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] Developer's Guide on MSDN.  
   
  For all classes with the Microsoft.AnalysisServices.AdomdServer.PlugInAttribute custom attribute, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] invokes their default constructors. Invoking all the constructors at startup provides a common location from which to build new objects and that is independent of any user activity.  
   
@@ -137,5 +137,4 @@ manager: kfile
  On MDSCHEMA_SETS *set_evaluation_context* column is added. Set evaluation context values are as follows: MDSET_RESOLUTION_STATIC = 1, MDSET_RESOLUTION_DYNAMIC = 2.  
   
  On MDSCHEMA_KPIS scope column is added. Scope values are as follows: MDKPI_SCOPE_GLOBAL=1, MDKPI_SCOPE_SESSION=2.  
-  
   

@@ -64,6 +64,5 @@ SELECT [<axis_specification>
 -   User-defined member properties should be preceded by the name of the level in which they reside. For more information about how to use the **PROPERTIES** keyword with user-defined member properties, see [User-Defined Member Properties &#40;MDX&#41;](../../../analysis-services/multidimensional-models/mdx/mdx-member-properties-user-defined-member-properties.md).  
   
 ## See Also  
- [Creating and Using Property Values &#40;MDX&#41;](https://msdn.microsoft.com/library/0cafb269-03c8-4183-b6e9-220f071e4ef2)  
-  
+ [Creating and Using Property Values &#40;MDX&#41;](?viewFallbackFrom=sql-server-ver15)  
   
