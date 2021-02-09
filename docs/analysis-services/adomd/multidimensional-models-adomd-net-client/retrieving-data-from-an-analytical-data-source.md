@@ -25,6 +25,6 @@ manager: kfile
 |Object|Interactivity|Overhead|Retains dimensionality|Usage Information|  
 |------------|-------------------|--------------|----------------------------|-----------------------|  
 |<xref:Microsoft.AnalysisServices.AdomdClient.CellSet>|Highest|Moderately high, which results in slowest retrieval of data|Yes|[Retrieving Data Using the CellSet](retrieving-data-using-the-cellset.md)|  
-|<xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataAdapter>|Moderate|Moderate|No|[Populating a DataSet from a DataAdapter](https://go.microsoft.com/fwlink/?LinkId=70016)|  
+|<xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataAdapter>|Moderate|Moderate|No|[Populating a DataSet from a DataAdapter](/dotnet/framework/data/adonet/populating-a-dataset-from-a-dataadapter)|  
 |<xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader>|Moderate|Moderate|No|[Retrieving Data Using the AdomdDataReader](retrieving-data-using-the-adomddatareader.md)|  
-|<xref:System.Xml.XmlReader>|Lowest|Lowest, which results in fastest data retrieval|Yes|[Retrieving Data Using the XmlReader](retrieving-data-using-the-xmlreader.md)|  
+|<xref:System.Xml.XmlReader>|Lowest|Lowest, which results in fastest data retrieval|Yes|[Retrieving Data Using the XmlReader](retrieving-data-using-the-xmlreader.md)|

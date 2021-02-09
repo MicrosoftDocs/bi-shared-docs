@@ -53,7 +53,7 @@ manager: kfile
   
  Microsoft SQL Server Data Mining provides an integrated environment for creating and working with data mining models. This environment includes SQL Server Development Studio, which contains data mining algorithms and query tools that make it easy to build a comprehensive solution for a variety of projects, and [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], which contains tools for browsing models and managing data mining objects. For more information, see [Creating Multidimensional Models Using SQL Server Data Tools &#40;SSDT&#41;](../../analysis-services/multidimensional-models/creating-multidimensional-models-using-sql-server-data-tools-ssdt.md).  
   
- For an example of how the [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] tools can be applied to a business scenario, see the [Basic Data Mining Tutorial](https://msdn.microsoft.com/library/6602edb6-d160-43fb-83c8-9df5dddfeb9c).  
+ For an example of how the [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] tools can be applied to a business scenario, see the [Basic Data Mining Tutorial](/previous-versions/sql/sql-server-2016/ms167167(v=sql.130)).  
   
 ##  <a name="DefiningTheProblem"></a> Defining the Problem  
  The first step in the data mining process, as highlighted in the following diagram, is to clearly define the problem, and consider ways that data can be utilized to provide an answer to the problem.  
@@ -153,7 +153,7 @@ manager: kfile
   
 -   Embed data mining functionality directly into an application. You can include Analysis Management Objects (AMO), which contains a set of objects that your application can use to create, alter, process, and delete mining structures and mining models. Alternatively, you can send XML for Analysis (XMLA) messages directly to an instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. For more information, see [Development (Analysis Services - Data Mining)](https://technet.microsoft.com/library/bb522473\(v=sql.110\).aspx).  
   
--   Use [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] to create a package in which a mining model is used to intelligently separate incoming data into multiple tables. For example, if a database is continually updated with potential customers, you could use a mining model together with [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] to split the incoming data into customers who are likely to purchase a product and customers who are likely to not purchase a product. For more information, see [Typical Uses of Integration Services](https://msdn.microsoft.com/3b97897a-d418-4ef4-b5a4-5aabf4fa6bca).  
+-   Use [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] to create a package in which a mining model is used to intelligently separate incoming data into multiple tables. For example, if a database is continually updated with potential customers, you could use a mining model together with [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] to split the incoming data into customers who are likely to purchase a product and customers who are likely to not purchase a product. For more information, see [Typical Uses of Integration Services](/previous-versions/sql/sql-server-2008-r2/ms137795(v=sql.105)).  
   
 -   Create a report that lets users directly query against an existing mining model. For more information, see [Reporting Services in SQL Server Data Tools &#40;SSDT&#41;](/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).  
   
@@ -164,5 +164,4 @@ manager: kfile
 ## See Also  
  [Data Mining Solutions](../../analysis-services/data-mining/data-mining-solutions.md)   
  [Data Mining Tools](../../analysis-services/data-mining/data-mining-tools.md)  
-  
   

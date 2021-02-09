@@ -33,12 +33,12 @@ manager: kfile
   
 -   Drillthrough works by retrieving information about the training cases that was cached when you processed the mining structure. Therefore, if you clear the cached data after processing the structure by changing the <xref:Microsoft.AnalysisServices.MiningStructureCacheMode> property to **ClearAfterProcessing**, drillthrough will not work. To enable drillthrough to structure columns, you must change the <xref:Microsoft.AnalysisServices.MiningStructureCacheMode> property to **KeepTrainingCases** and then reprocess the structure.  
   
--   Verify that both the mining structure and the mining model have the [AllowDrillThrough](https://docs.microsoft.com/analysis-services/assl/properties/allowdrillthrough-element-assl) property set to **True**. Moreover, you must be a member of a role that has drillthrough permissions on both the structure and the model.  
+-   Verify that both the mining structure and the mining model have the [AllowDrillThrough](../assl/properties/allowdrillthrough-element-assl.md) property set to **True**. Moreover, you must be a member of a role that has drillthrough permissions on both the structure and the model.  
   
 ## Security Issues for Drillthrough  
  Drillthrough permissions are set separately on the structure and model. The model permission lets you drill through from the model, even if you do not have permissions on the structure. Drillthrough permissions on the structure provide the additional ability to include structure columns in drillthrough queries from the model, by using the [StructureColumn &#40;DMX&#41;](/sql/dmx/structurecolumn-dmx) function.  
   
- For information about how to create roles and assign permissions in Analysis Services, see [Role Designer &#40;Analysis Services - Multidimensional Data&#41;](https://msdn.microsoft.com/library/e8ba42db-0565-4d68-b3ab-0c63d8d07192).  
+ For information about how to create roles and assign permissions in Analysis Services, see [Role Designer &#40;Analysis Services - Multidimensional Data&#41;](/previous-versions/sql/sql-server-2016/ms189696(v=sql.130)).  
   
 > [!NOTE]  
 >  If you enable drillthrough on both the mining structure and the mining model, any user who is a member of a role that has drillthrough permissions on the mining model can also view columns in the mining structure, even if those columns are not included in the mining model. Therefore, to protect sensitive data, you should set up the data source view to mask personal information, and allow drillthrough access on the mining structure only when necessary.  
@@ -54,5 +54,4 @@ manager: kfile
   
 ## See Also  
  [Drillthrough on Mining Models](../../analysis-services/data-mining/drillthrough-on-mining-models.md)  
-  
   

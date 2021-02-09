@@ -18,7 +18,7 @@ manager: kfile
   This section describes the attributes in the extensions to CSDL for tabular modeling that affect Power View query design.  
   
 ## Model Attributes  
- These attributes are defined on a sub-element of a CSDL [EntityContainer](https://msdn.microsoft.com/library/bb399169.aspx) element.  
+ These attributes are defined on a sub-element of a CSDL [EntityContainer](/previous-versions/dotnet/netframework-4.0/bb399169(v=vs.100)) element.  
   
 |Attribute name|Data type|Description|  
 |--------------------|---------------|-----------------|  
@@ -43,7 +43,7 @@ manager: kfile
 |**DefaultLocation**|MemberRef|A reference to a field whose value represents the default location associated with an entity instance. If omitted, the first location field in the entity is used, if any.|  
   
 ## Field Attributes  
- These attributes are defined on a sub-element of a CSDL Property or [NavigationProperty](https://msdn.microsoft.com/library/bb387104.aspx) element.  
+ These attributes are defined on a sub-element of a CSDL Property or [NavigationProperty](/previous-versions/dotnet/netframework-4.0/bb387104(v=vs.100)) element.  
   
 |Attribute name|Data type|Description|  
 |--------------------|---------------|-----------------|  
@@ -64,5 +64,4 @@ manager: kfile
 |**DefaultAggregateFunction**|Enum|A value indicating the default function, if any, typically used to aggregate this field. Possible values are **None**, **Sum**, **Average**, **Count**, **Min**, **Max**. If omitted, **Sum** is assumed for numeric fields, **None** for all other fields.|  
 |**IsSimpleMeasure**|Boolean|Indicates whether a measure is merely a simple aggregate of a numeric field. Such aggregates can be easily defined in the query as needed and therefore should be omitted from the model definition to improve performance. If omitted, **false** is assumed.|  
 |**Kpi**<br /><br /> **KpiGoal**<br /><br /> **KpiStatus**|Subelement|Indicates that the measure element is to be used as a KPI. The KPI subelement uses the KpiGoal and KpiStauts elements to define the associated display image and target ranges.|  
-  
   
