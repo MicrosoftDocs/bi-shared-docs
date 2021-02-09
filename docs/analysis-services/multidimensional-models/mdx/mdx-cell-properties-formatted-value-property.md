@@ -1,5 +1,6 @@
 ---
 title: "LANGUAGE and FORMAT_STRING on FORMATTED_VALUE | Microsoft Docs"
+description: Learn how the LANGUAGE and FORMAT_STRING cell property on FORMATTED_VALUE cell property.
 ms.date: 07/24/2020
 ms.prod: sql
 ms.technology: analysis-services

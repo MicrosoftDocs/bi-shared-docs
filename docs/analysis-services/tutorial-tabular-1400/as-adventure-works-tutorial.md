@@ -1,5 +1,6 @@
 ﻿---
 title: "Analysis Services Adventure Works Internet Sales tutorial (1500) | Microsoft Docs"
+description: Learn how to create a new Analysis Services tabular model in this tutorial.
 ms.date: 03/24/2020
 ms.prod: sql
 ms.technology: analysis-services
