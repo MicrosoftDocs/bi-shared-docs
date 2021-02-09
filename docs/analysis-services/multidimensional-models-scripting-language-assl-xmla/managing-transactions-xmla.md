@@ -1,6 +1,6 @@
 ---
 title: "Managing Transactions (XMLA) | Microsoft Docs"
-descriptions: Learn how to manage transactions by using the BeginTransaction, CommitTransaction, and RollbackTransaction XMLA commands.
+description: Learn how to manage transactions by using the BeginTransaction, CommitTransaction, and RollbackTransaction XMLA commands.
 ms.date: 05/02/2018
 ms.prod: sql
 ms.technology: analysis-services
