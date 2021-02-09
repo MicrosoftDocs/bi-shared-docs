@@ -26,5 +26,5 @@ Tabular models can be deployed to Power BI Premium, Azure Analysis Services, or 
 ## See also
 
 [Comparing tabular and multidimensional solutions](../comparing-tabular-and-multidimensional-solutions-ssas.md)  
-[Analysis Services in Power BI Premium](https://docs.microsoft.com/power-bi/service-premium-what-is#analysis-services-in-power-bi-premium-preview)  
-[Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
+[Analysis Services in Power BI Premium](/power-bi/service-premium-what-is#analysis-services-in-power-bi-premium-preview)  
+[Azure Analysis Services](/azure/analysis-services/)

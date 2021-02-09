@@ -60,6 +60,5 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 |[Set the data type of a column](../../analysis-services/tabular-models/set-the-data-type-of-a-column-ssas-tabular.md)|Describes how to change the data type of a column. The data type defines how data in the column is stored and presented.|  
 |[Hide or freeze columns](../../analysis-services/tabular-models/hide-or-freeze-columns-ssas-tabular.md)|Describes how to hide columns that you don't want to display and how to keep an area of a model visible while you scroll to another area of the model by freezing (locking) specific columns in one area.|  
 |[Calculated columns](../../analysis-services/tabular-models/ssas-calculated-columns.md)|Topics in this section describe how you can use calculated columns to add aggregated data to your model.|  
-|[Filter and sort data](https://msdn.microsoft.com/library/55ebd7a6-2458-4398-911f-fcfeb2413f1b)|Topics in this section describe how you can filter or sort data by using controls in the model designer.|  
-  
+|[Filter and sort data](./sort-data-in-a-table-ssas-tabular.md?viewFallbackFrom=sql-server-ver15)|Topics in this section describe how you can filter or sort data by using controls in the model designer.|  
   

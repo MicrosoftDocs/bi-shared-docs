@@ -43,7 +43,7 @@ This topic is the first lesson in a tabular model authoring tutorial. To complet
  
     ![Screenshot of the Tabular model designer dialog box with arrows pointing to the Integrated workspace option and Compatibility level drop-down list.](media/as-tabular-lesson1-tmd.png)
       
-    If you don't see SQL Server 2016 RTM (1200) in the Compatibility level listbox, you're not using the latest version of SQL Server Data Tools. To get the latest version, see [Install SQL Server Data tools](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).  
+    If you don't see SQL Server 2016 RTM (1200) in the Compatibility level listbox, you're not using the latest version of SQL Server Data Tools. To get the latest version, see [Install SQL Server Data tools](/sql/ssdt/download-sql-server-data-tools-ssdt).  
 
     If you're using the latest version of SSDT, you can also choose SQL Server 2017 (1400). However, to complete lesson 13: Deploy, you'll need a SQL Server 2017 or Azure server to deploy to.
       
@@ -78,12 +78,11 @@ Explore some of the dialogs and locations for various features specific to autho
 
 
 ## Additional resources
-To learn more about the different types of tabular model projects, see [Tabular Model Projects](../tabular-models/tabular-model-projects-ssas-tabular.md). To learn more about the tabular model authoring environment, see [Tabular Model Designer](../tabular-models/tabular-model-designer-ssas.md).  
+To learn more about the different types of tabular model projects, see [Tabular Model Projects](../tabular-models/tabular-model-designer-ssas.md). To learn more about the tabular model authoring environment, see [Tabular Model Designer](../tabular-models/tabular-model-designer-ssas.md).  
   
 
 ## What's next?
 Go to the next lesson: [Lesson 2: Add data](lesson-2-add-data.md).
 
-  
   
   

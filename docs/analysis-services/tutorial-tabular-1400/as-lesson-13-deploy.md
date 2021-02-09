@@ -14,7 +14,7 @@ ms.custom: contperf-fy20q4
 
 [!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
 
-In this lesson, you configure deployment properties by specifying an Analysis Services server or Power BI workspace to deploy to and a name for the model. You then deploy the model. After your model is deployed, users can connect to it by using a reporting client application. To learn more, see [Deploy to Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-deploy) and [Tabular model solution deployment](../deployment/tabular-model-solution-deployment.md).  
+In this lesson, you configure deployment properties by specifying an Analysis Services server or Power BI workspace to deploy to and a name for the model. You then deploy the model. After your model is deployed, users can connect to it by using a reporting client application. To learn more, see [Deploy to Azure Analysis Services](/azure/analysis-services/analysis-services-deploy) and [Tabular model solution deployment](../deployment/tabular-model-solution-deployment.md).  
   
 Estimated time to complete this lesson: **5 minutes**  
   
@@ -22,11 +22,11 @@ Estimated time to complete this lesson: **5 minutes**
 
 This article is part of a tabular modeling tutorial, which should be completed in order. Before performing the tasks in this lesson, you should have completed the previous lesson: [Lesson 12: Analyze in Excel](../tutorial-tabular-1400/as-lesson-12-analyze-in-excel.md).  
 
-If deploying to Azure Analysis Services, you must have [Administrator permissions](https://docs.microsoft.com/azure/analysis-services/analysis-services-server-admins) on the server.  
+If deploying to Azure Analysis Services, you must have [Administrator permissions](/azure/analysis-services/analysis-services-server-admins) on the server.  
 
 If deploying to Power BI Premium, you must have Admin or Contributor permission on the workspace.
 
-If you installed the AdventureWorksDW sample database on an on-premises or VM with SQL Server, and you are deploying your model to an Azure Analysis Services server, an [On-premises data gateway](https://docs.microsoft.com/azure/analysis-services/analysis-services-gateway) is required for the process operation to import data from the data source database into the deployed data model.
+If you installed the AdventureWorksDW sample database on an on-premises or VM with SQL Server, and you are deploying your model to an Azure Analysis Services server, an [On-premises data gateway](/azure/analysis-services/analysis-services-gateway) is required for the process operation to import data from the data source database into the deployed data model.
   
 ## Deploy the model  
   
@@ -105,7 +105,7 @@ Congratulations! You're finished authoring and deploying your first Analysis Ser
 
 ## Next step
 
-[Connect with Power BI Desktop](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect-pbi)  
+[Connect with Power BI Desktop](/azure/analysis-services/analysis-services-connect-pbi)  
 [Supplemental Lesson - Dynamic security](../tutorial-tabular-1400/as-supplemental-lesson-dynamic-security.md)  
 [Supplemental Lesson - Detail rows](../tutorial-tabular-1400/as-supplemental-lesson-detail-rows.md)  
-[Supplemental Lesson - Ragged hierarchies](../tutorial-tabular-1400/as-supplemental-lesson-ragged-hierarchies.md)  
+[Supplemental Lesson - Ragged hierarchies](../tutorial-tabular-1400/as-supplemental-lesson-ragged-hierarchies.md)

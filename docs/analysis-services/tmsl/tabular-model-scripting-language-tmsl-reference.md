@@ -39,9 +39,9 @@ manager: kfile
   
     - XMLA window in SSMS  
   
-    - [Invoke-ASCmd](https://docs.microsoft.com/powershell/module/sqlserver/invoke-ascmd) PowerShell cmdlet 
+    - [Invoke-ASCmd](/powershell/module/sqlserver/invoke-ascmd) PowerShell cmdlet 
   
-    - [Analysis Services Execute DDL Task](https://docs.microsoft.com/sql/integration-services/control-flow/analysis-services-execute-ddl-task) in SSIS.  
+    - [Analysis Services Execute DDL Task](/sql/integration-services/control-flow/analysis-services-execute-ddl-task) in SSIS.  
   
 ## Model definition schema
 

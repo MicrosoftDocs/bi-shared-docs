@@ -21,7 +21,7 @@ The tabular model designer is part of Analysis Services projects extension for M
 
  When you install Analysis Services projects extension for Visual Studio, new project templates for creating tabular models are added to the available project types. After creating a new tabular model project by using one of the templates, you can begin model authoring by using the tabular model designer tools and wizards.  
   
- In addition to new templates and tools for authoring professional multidimensional and tabular model solutions, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] environment provides debugging and project lifecycle capabilities that ensure you create most BI solutions for your organization. For more information about [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [Getting Started with Visual Studio](https://go.microsoft.com/fwlink/?LinkId=206389).  
+ In addition to new templates and tools for authoring professional multidimensional and tabular model solutions, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] environment provides debugging and project lifecycle capabilities that ensure you create most BI solutions for your organization. For more information about [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [Getting Started with Visual Studio](/previous-versions/visualstudio/visual-studio-2015/ide/get-started-developing-with-visual-studio).  
   
 ## Project templates  
 
@@ -120,5 +120,5 @@ The tabular model designer is part of Analysis Services projects extension for M
 
 ## See also  
 
-[Tabular model projects](../../analysis-services/tabular-models/tabular-model-projects-ssas-tabular.md)  
+[Tabular model projects]()  
 [Analysis Services tools](../tools-and-applications-used-in-analysis-services.md)
