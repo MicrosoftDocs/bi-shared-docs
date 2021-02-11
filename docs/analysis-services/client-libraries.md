@@ -33,7 +33,7 @@ Client libraries are necessary for client applications and tools to connect to A
 
 Analysis Services Management Objects (AMO) and ADOMD client libraries are available as installable packages from [NuGet.org](https://www.nuget.org/). It's recommended you migrate to NuGet references instead of using Windows Installer.
 
-Starting June 2020, *preview* versions of [.NET Core](/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. Preview versions have some limitations. To learn more, see [Known issues](#known-issues) later in this article.
+Starting Feb. 2021, versions of [.NET Core](/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. There are, however, a few scenarios not-supported by the .NET Core versions. To learn more, see [Known issues](#known-issues) later in this article.
 
 NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR.PATCH. NuGet references load the expected version even if there is a different version in the GAC (resulting from MSI install). PATCH is incremented for each release. AMO and ADOMD versions are kept in-sync.
 
@@ -44,7 +44,7 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 |[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.16.3      |
 |[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.16.3       |
 
-#### AMO and ADOMD .Net Core 
+#### AMO and ADOMD .Net Core
 
 |Package  | Version  |
 |---------|---------|
@@ -53,23 +53,21 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 ## Known issues
 
-#### AMO and ADOMD .Net Core (Preview)
+#### AMO and ADOMD .Net Core 
 
-- Features in preview should not be used in a production environment. Certain functionality, support, and documentation is limited. Refer to the [Microsoft Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) for details.
+Supported scenarios include connections to Azure Analysis Services, Power BI Premium, and SQL Server Analysis Services. TCP based connectivity is supported for Windows computers only.
 
-- There has been limited performance and stress testing done for the public preview.
+Interactive login with Azure Active Directory is supported for Windows computers only. The .NET Core Desktop runtime is required.
 
-#### 19.14.0 and higher - AMO and ADOMD .Net Core (Preview)
+Dependency in MSAL requires version 4.6.0 and higher.
 
-Version 19.14.0 of the .Net Core client libraries introduces preview support for Self-Contained publishing (both in a published directory, and in single-file mode), as well as support for consumption by .NET 5.0 projects. A number of issues related to connectivity to SQL Server Analysis Services that were identified in the previous release have been fixed.
+Version 19.14.0 of the .Net Core client libraries introduced preview support for Self-Contained publishing (both in a published directory, and in single-file mode), as well as support for consumption by .NET 5.0 projects. A number of issues related to connectivity to SQL Server Analysis Services that were identified in the previous release have been fixed.
 
-#### 19.12.7.2 and higher - AMO and ADOMD .Net Core (Preview)
+Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL Server Analysis Services. Lower preview versions only supported Azure Analysis Services and Power BI datasets.
 
-Version 19.12.7.2 of the .Net Core client libraries introduces preview support for SQL Server Analysis Services. Lower preview versions only supported Azure Analysis Services and Power BI datasets.
+#### AMO
 
-#### 19.12.3.0 - AMO
-
-This release introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
+Version 19.12.3.0 of AMO client library introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
 
 ## Understanding client libraries
 
