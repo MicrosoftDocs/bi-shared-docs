@@ -53,7 +53,7 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 ## Minimum required versions
 
-Beginning June 30th, 2021, Analysis Services requires the following or higher:
+Newer client library versions include important security enhancements. To minimize risk and potential security vulnerabilities, beginning June 30th, 2021 Analysis Services requires the following or higher versions:
 
 |Client lib  |File version  | Version  |
 |---------|---------|---------|
