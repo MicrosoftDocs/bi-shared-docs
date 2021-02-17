@@ -53,7 +53,9 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 ## Minimum required versions
 
-Newer client library versions include important security enhancements. To minimize risk and potential security vulnerabilities, beginning June 30th, 2021 Analysis Services requires the following or higher versions:
+Transport Layer Security (TLS) protocol version 1.0/1.1 is being deprecated in Azure Active Directory. Going forward, TLS 1.2 and higher is required. TLS 1.2 is not supported in earlier versions of the Analysis Services client libraries.
+
+Newer client library versions include support for TLS 1.2 and higher as well as other important security enhancements. To minimize risk and potential security vulnerabilities, beginning June 30th, 2021 Analysis Services requires the following or higher versions:
 
 |Client lib  |File version  | Version  |
 |---------|---------|---------|
