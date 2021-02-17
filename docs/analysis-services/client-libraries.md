@@ -53,7 +53,7 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 ## Minimum required versions
 
-Transport Layer Security (TLS) protocol version 1.0/1.1 will be [deprecated](/active-directory/fundamentals/whats-new#azure-active-directory-tls-10-tls-11-and-3des-deprecation) in Azure Active Directory by June 30, 2021. Going forward, TLS 1.2 and higher is required.
+Transport Layer Security (TLS) protocol version 1.0/1.1 will be [deprecated](/azure/active-directory/fundamentals/whats-new#november-2020) in Azure Active Directory by June 30, 2021. Going forward, TLS 1.2 and higher is required.
 
 TLS 1.2 is not supported in earlier versions of the Analysis Services client libraries. Newer client library versions include support for TLS 1.2 and higher as well as other important security enhancements. To minimize risk and potential security vulnerabilities, beginning June 30th, 2021 Analysis Services requires the following or higher versions:
 
