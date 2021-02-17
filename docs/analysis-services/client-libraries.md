@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 2/10/2021
+ms.date: 02/17/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -50,6 +50,16 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 |---------|---------|
 |[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.16.3      |
 |[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.16.3        |
+
+## Minimum required versions
+
+Beginning June 30th, 2021, Analysis Services requires the following or higher:
+
+|Client lib  |File version  | Version  |
+|---------|---------|---------|
+|MSOLAP     |   2018.151.37.40       |    15.1.37.40      |
+|AMO     |   15.1.37.40       |    18.7.0.1      |
+|ADOMD     |   15.1.37.40       |    18.7.0.1      |
 
 ## Known issues
 
