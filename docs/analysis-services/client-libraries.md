@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 02/17/2021
+ms.date: 02/18/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
