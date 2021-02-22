@@ -1,7 +1,7 @@
 ---
 title: "Import from Analysis Services | Microsoft Docs"
 description: Learn how to create a new tabular model project by importing the metadata from an existing tabular model by using the Import from Server project template in SQL Server Data Tools.
-ms.date: 01/29/2020
+ms.date: 02/22/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -18,7 +18,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   This article describes how to create a new tabular model project by importing the metadata from an existing tabular model by using the Import from Server project template in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
 ## Create a new model by importing metadata from an existing model in Analysis Services  
- You can use the Import from Server project template to create a new tabular model project by copying the metadata from an existing tabular model on an Analysis Services server. The new project will be created with the same data source connections, tables, relationships, measures, KPIs, roles, hierarchies, perspectives, and partitions as the model it was imported from. The data, however, is not copied from the existing model to the new model workspace. Once the import process has completed, and the new model project created, you must run a Process All to load the data from the data sources into the new model project workspace database.  
+ Use the Import from Server project template to create a new tabular model project by copying the metadata from an existing tabular model on an Analysis Services server. Importing Power BI dataset metadata is not supported. The new project will be created with the same data source connections, tables, relationships, measures, KPIs, roles, hierarchies, perspectives, and partitions as the model it was imported from. The data, however, is not copied from the existing model to the new model workspace. Once the import process has completed, and the new model project created, you must run a Process All to load the data from the data sources into the new model project workspace database.  
   
 #### To create a new model by importing metadata from an existing model  
   
