@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services tabular model object-level security | Microsoft Docs"
 description: Learn how you can define object-level security, which includes table-level security and column-level security in the Roles object.
-ms.date: 01/29/2020
+ms.date: 02/25/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Object-level security
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-Data model security starts with effectively implementing [roles](../../analysis-services/tabular-models/roles-ssas-tabular.md) and row-level filters to define user permissions on data model objects and data. Beginning with tabular 1400 models, you can also define object-level security, which includes table-level security and column-level security in the [Roles object](../tmsl/roles-object-tmsl.md).
+Data model security starts with effectively implementing [roles](../../analysis-services/tabular-models/roles-ssas-tabular.md)  and row-level filters to define user permissions on data model  objects and data. For tabular 1400 and higher models, you can also define object-level security (OLS), which includes table-level security and column-level security in the [Roles object](../tmsl/roles-object-tmsl.md).
 
 ## Table-level security
 
-With table-level security, you can not only restrict access to table data, but also sensitive table names, helping prevent malicious users from discovering if a table exists. 
+With table-level security, you can not only restrict access to table data, but also sensitive table names, helping prevent malicious users from discovering if a table exists.
 
  Table-level security is set in the JSON-based metadata in the Model.bim, [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scripting-language-tmsl-reference.md), or [Tabular Object Model (TOM)](../tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md). Set the **metadataPermission** property of the **tablePermissions** class in the [Roles object](../tmsl/roles-object-tmsl.md) to **none**.
 
@@ -74,7 +74,6 @@ In this example, the metadataPermission property of the columnPermissions class 
  For example, if there are relationships between tables A and B, and B and C, you cannot secure table B. If table B is secured, a query on table A cannot transit the relationships between table A and B, and B and C. In this case, a separate relationship could be configured between tables A and B.
 
     ![Table-level security](../../analysis-services/tabular-models/media/ssas-ols.png)  
-
 
 *  Row-level security and object-level security cannot be combined from different roles because it could introduce unintended access to secured data. An error is generated at query time for users who are members of such a combination of roles.
 

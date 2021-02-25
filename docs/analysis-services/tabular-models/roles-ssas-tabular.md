@@ -1,7 +1,7 @@
 ---
 title: "Configure Analysis Services tabular model roles | Microsoft Docs"
 description: Learn how to configure roles in tabular models so you can define member permissions for a model.
-ms.date: 11/03/2020
+ms.date: 02/25/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -119,7 +119,7 @@ The LOOKUPVALUE function returns values for the dimEmployees[DepartmentId] colum
   
 ## Testing roles
 
-When authoring a model project, you can use the Analyze in Excel feature to test the efficacy of the roles you have defined. From the **Model** menu in the model designer, when you click **Analyze in Excel**, before Excel opens, the **Choose Credentials and Perspective** dialog box appears. In this dialog, you can specify the current username, a different username, a role, and a perspective with which you will use to connect to the workspace model as a data source. To learn more, see [Analyze in Excel](./tabular-model-designer-ssas.md).  
+When authoring a model project in in Visual Studio, you can use the Analyze in Excel feature to test the efficacy of the roles you have defined. From the **Model** menu in the model designer, when you click **Analyze in Excel**, before Excel opens, the **Choose Credentials and Perspective** dialog box appears. In this dialog, you can specify the current username, a different username, a role, and a perspective with which you will use to connect to the workspace model as a data source. To learn more, see [Analyze in Excel](./tabular-model-designer-ssas.md).  
   
 ## Scripting roles
 
