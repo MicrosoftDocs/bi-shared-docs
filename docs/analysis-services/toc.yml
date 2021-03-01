@@ -212,8 +212,6 @@
       items:
       - name: Lesson 10 - Granting process database permissions
         href: ../analysis-services/multidimensional-tutorial/lesson-10-granting-process-database-permissions.md
-  - name: Data Mining
-    href: ../analysis-services/data-mining/data-mining-tutorials-analysis-services.md
 - name: How-to
   items:
   - name: Install and configure SSAS
