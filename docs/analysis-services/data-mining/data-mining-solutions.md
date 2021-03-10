@@ -76,7 +76,6 @@ manager: kfile
 |Customize a mining model by applying filters to the data used in training the mode.|[Add Mining Models to a Structure &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/add-mining-models-to-a-structure-analysis-services-data-mining.md)|  
 |Update and manage data mining solutions.|Link TBD|  
   
-## See Also  
- [Data Mining Tutorials &#40;Analysis Services&#41;](../../analysis-services/data-mining/data-mining-tutorials-analysis-services.md)  
+ 
   
   
