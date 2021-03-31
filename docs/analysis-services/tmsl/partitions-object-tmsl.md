@@ -35,7 +35,7 @@ manager: kfile
  mode  
  Defines the query mode of the partition. Valid values are **import**, **DirectQuery**, or **default** (inherited). This value is required.  
   
-|||  
+|Value|Description|  
 |-|-|  
 |**Import**|Indicates query requests are issued against the in-memory analytics engine storing imported data.|  
 |**DirectQuery**|Pass through query execution to an external relational database. DirectQuery mode uses partitions to provide sample data used during model design. When deployed on a production server, you should switch back to Full data view. Recall that DirectQuery mode requires one partition per table, and one data source per model.|  
@@ -44,7 +44,7 @@ manager: kfile
  source  
  Identifies the location of the data to be queried. Valid values are **query,calculated**, or **none**. This value is required.  
   
-|||  
+|Value|Description|  
 |-|-|  
 |**none**|Used for import mode, where data is loaded and stored in memory.|  
 |**query**|For DirectQuery mode, this is a SQL query executed against the relational database specified in the model's **DataSource**. See [DataSources object &#40;TMSL&#41;](datasources-object-tmsl.md).|  
