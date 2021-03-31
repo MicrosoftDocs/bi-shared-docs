@@ -156,6 +156,7 @@ manager: kfile
  To get information about the support in the training cases for specific values, see the marginal statistics node.  
   
  MSOLAP_MODEL_COLUMN  
+
 |Node|Content|  
 |----------|-------------|  
 |Model root|Blank|  

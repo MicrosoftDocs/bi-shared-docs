@@ -37,6 +37,7 @@ manager: kfile
 |Use the CellSet class.|Use the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdCommand> class.|  
   
  **To access the metadata that is used to display a cellset**  
+
 |ADO MD|ADOMD.NET|  
 |------------|---------------|  
 |Use the Position class.|Use the <xref:Microsoft.AnalysisServices.AdomdClient.Set> and <xref:Microsoft.AnalysisServices.AdomdClient.Tuple> objects.|  
