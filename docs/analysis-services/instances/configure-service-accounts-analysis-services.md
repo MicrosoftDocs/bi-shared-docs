@@ -54,7 +54,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
  Tabular instances use the following three additional privileges, which must be granted manually after the instance is installed.  
   
-|||  
+|Privilege|Description|  
 |-|-|  
 |**Increase a process working set** (SeIncreaseWorkingSetPrivilege)|This privilege is available to all users by default through the **Users** security group. If you lock down a server by removing privileges for this group, Analysis Services might fail to start, logging this error: "A required privilege is not held by the client." When this error occurs, restore the privilege to Analysis Services by granting it to the appropriate Analysis Services security group.|  
 |**Adjust memory quotas for a process** (SeIncreaseQuotaPrivilege)|This privilege is used to request more memory if a process has insufficient resources to complete its execution, subject to the memory thresholds established for the instance.|  
