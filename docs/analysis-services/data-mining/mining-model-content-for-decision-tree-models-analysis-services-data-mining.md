@@ -184,9 +184,9 @@ manager: kfile
 ###  <a name="NodeCaption"></a> Node Caption and Node Description  
  In a decision tree model, the node caption and node description contain similar information. However, the node description is more complete and contains more information as you move closer to the leaf nodes. Both the node caption and node description are localized strings.  
   
-|||  
+|Column|Description|  
 |-|-|  
-|**NODE_CAPTION**|Displays the attribute that distinguishes that particular node relative to the parent node. The node caption defines a sub-segment of the population based the split condition. For example, if the split was on [Age] and it was a three-way split, the node captions for the three child nodes might be "[Age] < 40", "40 <= [Age] < 50", "[Age] >= 50".|  
+**NODE_CAPTION**|Displays the attribute that distinguishes that particular node relative to the parent node. The node caption defines a sub-segment of the population based the split condition. For example, if the split was on [Age] and it was a three-way split, the node captions for the three child nodes might be "[Age] < 40", "40 <= [Age] < 50", "[Age] >= 50".|  
 |**NODE_DESCRIPTION**|Contains a full list of the attributes that distinguish that node from other nodes, starting from the model parent node. For example, Product name = Apple and Color = Red.|  
   
  [Top](#bkmk_Top)  

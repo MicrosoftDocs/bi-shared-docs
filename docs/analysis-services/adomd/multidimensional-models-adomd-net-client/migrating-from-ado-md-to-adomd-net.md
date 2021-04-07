@@ -17,24 +17,28 @@ manager: kfile
  Migrating existing client applications from ADO MD to ADOMD.NET is easy, but there are several important differences regarding migration:  
   
  **To provide connectivity and data access to client applications**  
- |ADO MD|ADOMD.NET|  
+ 
+|ADO MD|ADOMD.NET|  
 |------------|---------------|  
 |Requires references to both Adodb.dll and Adomd.dll.|Requires a single reference to Microsoft.AnalysisServices.AdomdClient.dll.|  
   
  The <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection> class provides connectivity support, in addition to access to metadata.  
   
  **To retrieve metadata for multidimensional objects**  
- |ADO MD|ADOMD.NET|  
+
+|ADO MD|ADOMD.NET|  
 |------------|---------------|  
 |Use the Catalog class.|Use the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.Cubes%2A> property of the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>.|  
   
  **To run queries and return cellset objects**  
- |ADO MD|ADOMD.NET|  
+
+|ADO MD|ADOMD.NET|  
 |------------|---------------|  
 |Use the CellSet class.|Use the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdCommand> class.|  
   
  **To access the metadata that is used to display a cellset**  
- |ADO MD|ADOMD.NET|  
+
+|ADO MD|ADOMD.NET|  
 |------------|---------------|  
 |Use the Position class.|Use the <xref:Microsoft.AnalysisServices.AdomdClient.Set> and <xref:Microsoft.AnalysisServices.AdomdClient.Tuple> objects.|  
   
