@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services developer documentation | Microsoft Docs"
 description: Learn about the contents of Analysis Services developer documentation, including writing managed code and using open standards like XMLA and MSOLAP.
-ms.date: 12/07/2020
+ms.date: 04/07/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -15,15 +15,15 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-In Analysis Services, almost every object and workload is programmable, and often there is more than one approach to choose from.  Options include writing managed code, script, or using open standards like XMLA and MSOLAP if your solution requirements preclude using the .NET framework.
+With Analysis Services, almost every object and workload is programmable, and often there is more than one approach to choose from.  Options include writing managed code, script, or using open standards like XMLA and MSOLAP if your solution requirements preclude using the .NET framework.
 
 ## What you can accomplish in code
 
-Typical programming scenarios include server and database deployment, administration, model and database creation, and data access from your custom applications and reports that consume Analysis Services data. Common to all these scenarios is a fixed architecture and object definition hierarchy, with well-understood operations that span data definition, processing, and query workloads.
+Typical programming scenarios include server and database deployment, administration, data refresh and partition management, data access from custom applications, and external tools. Common to all these scenarios is a fixed architecture and object definition hierarchy, with well-understood operations that span data definition, processing, and query workloads.
 
 Although objects and workloads are programmable, they are not extensible. Specifically, you cannot create custom data cartridges that retrieve data from unsupported data sources, customize or replace formula or storage engine behaviors, nor can you create new types of object metadata on a server, database, or model.
 
-To further elaborate on the last point about creating new object types: while you cannot create a new type of object, you can create calculated objects built from expressions or code at run time. Not everything in your model needs to be predefined and mapped to an existing data structure. Additionally, you can extend the schema via Annotations in AMO to pass object-specific information to your client application.
+To further elaborate on the last point about creating new object types, while you cannot create a new type of object, you can create calculated objects built from expressions or code at run time. Not everything in your model needs to be predefined and mapped to an existing data structure. Additionally, you can extend the schema via Annotations in AMO to pass object-specific information to your client application.
 
 ## Choose a platform or approach to development
 
