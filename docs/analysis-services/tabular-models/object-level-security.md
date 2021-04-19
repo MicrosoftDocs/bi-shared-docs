@@ -69,7 +69,7 @@ In this example, the metadataPermission property of the columnPermissions class 
 ## Restrictions
 
 *  Table-level security cannot be set for a model if it breaks a relationship chain. An error is generated at design time.
- For example, if there are relationships between tables A and B, and B and C, you cannot secure table B. If table B is secured, a query on table A cannot transit the relationships between table A and B, and B and C. In this case, a separate relationship could be configured between tables A and B.
+ For example, if there are relationships between tables A and B, and B and C, you cannot secure table B. If table B is secured, a query on table A cannot transit the relationships between table A and B, and B and C. In this case, a separate relationship could be configured between tables A and C.
 
     ![Table-level security](../../analysis-services/tabular-models/media/ssas-ols.png)  
 
