@@ -1,7 +1,7 @@
 ---
 title: "Delete command (TMSL) | Microsoft Docs"
 description: Use the Delete command to delete a database or an object in the current database and all child objects and collections.
-ms.date: 07/20/2018
+ms.date: 04/20/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
@@ -9,7 +9,6 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
 ---
 # Delete command (TMSL)
 
