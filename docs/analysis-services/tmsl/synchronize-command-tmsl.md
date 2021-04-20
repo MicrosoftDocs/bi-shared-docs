@@ -1,7 +1,7 @@
 ---
 title: "Synchronize command (TMSL) | Microsoft Docs"
 description: Learn about properties and usage of the Synchronize command, which synchronizes a tabular database with another existing database.
-ms.date: 07/20/2018
+ms.date: 04/20/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Synchronize command (TMSL)
 
