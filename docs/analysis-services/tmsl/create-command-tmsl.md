@@ -1,7 +1,7 @@
 ---
 title: "Create command (TMSL) | Microsoft Docs"
 description: Use the Create command to create the specified object and all of the descendant objects that are specified.
-ms.date: 04/16/2019
+ms.date: 04/20/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Create command (TMSL)
 
@@ -56,24 +56,6 @@ manager: kfile
     }  
   }  
 }  
-```  
-  
- [Tables object &#40;TMSL&#41;](tables-object-tmsl.md) Add columns to a table.  
-  
-```json   
-{   
-  "create": {   
-    "parentObject": {   
-      "database": "AdventureworksDW2016",   
-      "table": "DimSales"  
-    },   
-    "columns": {   
-      "type": ["calculated"  | "data" ]  
-      "name": "\<column-name>",   
-       "expression":  "<DAX expression>"  
-    }   
-  }   
-}   
 ```  
   
  [Partitions object &#40;TMSL&#41;](partitions-object-tmsl.md) Add a partition to a parent table object.  
