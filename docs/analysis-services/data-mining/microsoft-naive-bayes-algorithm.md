@@ -27,7 +27,7 @@ manager: kfile
   
  To understand how this works, use the [!INCLUDE[msCoName](../includes/msconame-md.md)] Naive Bayes Viewer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] (as shown in the following graphic) to visually explore how the algorithm distributes states.  
   
- ![Naive bayes distribution of states](../../analysis-services/data-mining/media/naive-bayes.gif "Naive bayes distribution of states")  
+ ![Naive bayes distribution of states](../../analysis-services/data-mining/media/naive-bayes.png "Naive bayes distribution of states")  
   
  Here, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Naive Bayes Viewer lists each input column in the dataset, and shows how the states of each column are distributed, given each state of the predictable column.  
   

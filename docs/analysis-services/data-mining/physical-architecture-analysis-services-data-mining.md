@@ -33,7 +33,7 @@ manager: kfile
 > [!WARNING]  
 >  DSO has been deprecated. You should not use DSO to develop solutions.  
   
- ![Analysis Services System Architecture Diagram](../../analysis-services/data-mining/media/analysisservicessystemarchitecture.gif "Analysis Services System Architecture Diagram")  
+ ![Analysis Services System Architecture Diagram](../../analysis-services/data-mining/media/analysisservicessystemarchitecture.png "Analysis Services System Architecture Diagram")  
   
 ## Server Configuration  
  One server instance can support multiple [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] databases, each with its own instance of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] service that responds to client requests and processes objects.  

@@ -19,7 +19,7 @@ author: minewiskan
   
  The following illustration shows the relationship of the classes that are explained in this topic.  
   
- ![AMO Other Classes](media/amo-otherclasses.gif)  
+ ![AMO Other Classes](media/amo-otherclasses.png)  
   
 ## Assembly objects
 

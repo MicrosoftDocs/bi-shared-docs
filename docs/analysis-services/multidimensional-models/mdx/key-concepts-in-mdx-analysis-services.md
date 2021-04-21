@@ -54,7 +54,7 @@ manager: kfile
   
  Expand the hierarchy, and eventually you get to the lowest level. This is called the **leaf member**. A leaf member is a member of a hierarchy that has no children. In this example, Southwest is the leaf member.  
   
- ![PivotTable with leaf member calle dout](../../../analysis-services/multidimensional-models/mdx/media/ssas-keyconcepts-pivot3-leafparent.PNG "PivotTable with leaf member calle dout")  
+ ![PivotTable with leaf member calle dout](../../../analysis-services/multidimensional-models/mdx/media/ssas-keyconcepts-pivot3-leafparent.png "PivotTable with leaf member calle dout")  
   
  Anything above it is called a **parent member**. United States is the parent of Southwest.  
   
@@ -80,7 +80,7 @@ manager: kfile
 
 :::row:::
     :::column:::
-        ![PivotTable with balanced hierarchy called out](../../../analysis-services/multidimensional-models/mdx/media/ssas-keyconcepts-pivot4-balancedhierarchy.PNG "PivotTable with balanced hierarchy called out")
+        ![PivotTable with balanced hierarchy called out](../../../analysis-services/multidimensional-models/mdx/media/ssas-keyconcepts-pivot4-balancedhierarchy.png "PivotTable with balanced hierarchy called out")
     :::column-end:::
     :::column span="2":::
         A **balanced hierarchy** is a hierarchy in which the same number of levels exists between the top level and any leaf member. 
@@ -100,7 +100,7 @@ manager: kfile
 
 :::row:::
     :::column:::
-        ![PivotTable with ragged hierarchy called out](../../../analysis-services/multidimensional-models/mdx/media/ssas-keyconcepts-pivot15-raggedhierarchy.PNG "PivotTable with ragged hierarchy called out")
+        ![PivotTable with ragged hierarchy called out](../../../analysis-services/multidimensional-models/mdx/media/ssas-keyconcepts-pivot15-raggedhierarchy.png "PivotTable with ragged hierarchy called out")
     :::column-end:::
     :::column span="2":::
         A **ragged hierarchy** or **unbalanced hierarchy** is a hierarchy in which different numbers of levels exist between the top level and the leaf members. Again, it's a hierarchy created by the BI developer, but in this case there are gaps in the data.

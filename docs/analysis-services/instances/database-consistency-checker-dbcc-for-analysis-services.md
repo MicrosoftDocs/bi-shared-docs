@@ -105,7 +105,7 @@ The command takes an object definition and returns either an empty result set or
 
  For ad hoc queries, open an MDX or XMLA query window in SQL Server Management Studio. To do this, right-click the database | **New Query** | **XMLA**) to run the command and read the output.  
   
- ![DBCC XML command in Management Studio](../../analysis-services/instances/media/ssas-dbcc-ssms.gif "DBCC XML command in Management Studio")  
+ ![DBCC XML command in Management Studio](../../analysis-services/instances/media/ssas-dbcc-ssms.png "DBCC XML command in Management Studio")  
   
  The Results tab will indicate an empty result set (as shown in the screenshot) if no problems were detected.  
   
@@ -168,7 +168,7 @@ Execution complete
   
 4. In SQL Server Profiler, DBCC activity is indicated through **Command** events having an event subclass of DBCC:  
   
-     ![Screenshot for the SQL Server Analysis Services DBCC profiler EventSubclass results.](../../analysis-services/instances/media/ssas-dbcc-profiler-eventsubclass.PNG "ssas-dbcc-profiler-eventsubclass")  
+     ![Screenshot for the SQL Server Analysis Services DBCC profiler EventSubclass results.](../../analysis-services/instances/media/ssas-dbcc-profiler-eventsubclass.png "ssas-dbcc-profiler-eventsubclass")  
   
      Event code 32 is DBCC execution.  
   

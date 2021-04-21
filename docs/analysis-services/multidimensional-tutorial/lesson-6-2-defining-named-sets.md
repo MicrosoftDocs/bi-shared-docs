@@ -89,7 +89,7 @@ In the tasks in this topic, you will define two named sets: a Core Products name
   
     The following image shows the **Calculation Expressions** pane for the **[Large Resellers]** named set.  
   
-    ![Calculation Expressions pane for [Large Resellers]](../media/l6-named-set-02.gif "Calculation Expressions pane for [Large Resellers]")  
+    ![Calculation Expressions pane for [Large Resellers]](../media/l6-named-set-02.png "Calculation Expressions pane for [Large Resellers]")  
   
 14. On the toolbar of the **Calculations** tab, click **Script View**, and then review the two named sets that you have just added to the calculation script.  
   
@@ -113,19 +113,19 @@ In the tasks in this topic, you will define two named sets: a Core Products name
   
 5.  Expand the Product dimension, and then add Category and Subcategory to the row area, as shown in the following image.  
   
-    ![Members of the Subcategory attribute](../media/l6-named-set-03.gif "Members of the Subcategory attribute")  
+    ![Members of the Subcategory attribute](../media/l6-named-set-03.png "Members of the Subcategory attribute")  
   
 6.  In the **Metadata** pane, in the **Product** dimension, drag **Core Products** to the filter area.  
   
     Notice that only the **Bike** member of the **Category** attribute and members of the **Bike** subcategories remain in the cube. This is because the **Core Products** named set is used to define a subcube. This subcube limits the members of the **Category** attribute in the **Product** dimension within the subcube to those members of the **Core Product** named set, as shown in the following image.  
   
-    ![Members of the Core Product named set](../media/l6-named-set-04.gif "Members of the Core Product named set")  
+    ![Members of the Core Product named set](../media/l6-named-set-04.png "Members of the Core Product named set")  
   
 7.  In the **Metadata** pane, expand **Reseller**, add **Large Resellers** to the filter area.  
   
     Notice that the Reseller Sales Amount measure in the Data pane only displays sales amounts for large resellers of bikes. Notice also that the Filter pane now displays the two named sets that are used to define this particular subcube, as shown in the following image.  
   
-    ![Filter pane containing two named sets](../media/l6-named-set-05.gif "Filter pane containing two named sets")  
+    ![Filter pane containing two named sets](../media/l6-named-set-05.png "Filter pane containing two named sets")  
   
 ## Next Lesson  
 [Lesson 7: Defining Key Performance Indicators &#40;KPIs&#41;](lesson-7-defining-key-performance-indicators-kpis.md)  

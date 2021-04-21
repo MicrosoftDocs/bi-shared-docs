@@ -38,7 +38,7 @@ In the following task, you browse the [!INCLUDE[ssASnoversion](../includes/ssasn
   
     Internet sales by region and product line for the month of February, 2006 appear as shown in the following image.  
   
-    ![Internet sales by region and product line](../media/l3-cube-browser-finish.gif "Internet sales by region and product line")  
+    ![Internet sales by region and product line](../media/l3-cube-browser-finish.png "Internet sales by region and product line")  
   
 ## Next Lesson  
 [Lesson 4: Defining Advanced Attribute and Dimension Properties](lesson-4-defining-advanced-attribute-and-dimension-properties.md)  

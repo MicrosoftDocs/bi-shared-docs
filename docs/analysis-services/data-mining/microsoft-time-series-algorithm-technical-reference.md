@@ -98,11 +98,11 @@ manager: kfile
   
  The following diagram illustrates how the model blends the algorithms when *PREDICTION_SMOOTHING* is set to the default value, 0.5. ARIMA and ARTXP are weighted equally at first, but as the number of prediction steps increases, ARIMA is weighed more heavily.  
   
- ![default curve for mix of time series algorithms](../../analysis-services/data-mining/media/time-series-mixing-default.gif "default curve for mix of time series algorithms")  
+ ![default curve for mix of time series algorithms](../../analysis-services/data-mining/media/time-series-mixing-default.png "default curve for mix of time series algorithms")  
   
  In contrast, the following diagram illustrates the blending of the algorithms when *PREDICTION_SMOOTHING* is set to 0.2. For step [!INCLUDE[tabValue](../includes/tabvalue-md.md)], the model weights ARIMA as 0.2 and ARTXP as 0.8. Thereafter, the weight of ARIMA exponentially increases and the weight of ARTXP exponentially decreases.  
   
- ![decay curve for time series model mixing](../../analysis-services/data-mining/media/time-series-blending-curve.gif "decay curve for time series model mixing")  
+ ![decay curve for time series model mixing](../../analysis-services/data-mining/media/time-series-blending-curve.png "decay curve for time series model mixing")  
   
 ### Setting Algorithm Parameters  
  The following table describes the parameters that can be used with the [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series algorithm.  

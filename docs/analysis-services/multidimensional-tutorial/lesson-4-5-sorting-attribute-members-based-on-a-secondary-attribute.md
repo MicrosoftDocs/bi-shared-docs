@@ -64,7 +64,7 @@ In the tasks in this topic, you will define a new attribute in the **Date** dime
   
     Notice that the months are now sorted in chronological order, as shown in the following image.  
   
-    ![Modified user hierarchy in chronological order](../media/l4-memberproperties-3.gif "Modified user hierarchy in chronological order")  
+    ![Modified user hierarchy in chronological order](../media/l4-memberproperties-3.png "Modified user hierarchy in chronological order")  
   
 ## Defining Attribute Relationships and Sort Order in the Customer Dimension  
   
@@ -74,7 +74,7 @@ In the tasks in this topic, you will define a new attribute in the **Date** dime
   
     The following image shows the members of the **Commute Distance** attribute hierarchy, sorted by the ASCII values of the member key.  
   
-    ![Commute Distance attribute hierarchy](../media/l4-memberproperties-4.gif "Commute Distance attribute hierarchy")  
+    ![Commute Distance attribute hierarchy](../media/l4-memberproperties-4.png "Commute Distance attribute hierarchy")  
   
 2.  Switch to the **Dimension Structure** tab in Dimension Designer for the Customer dimension, right-click **CommuteDistanceSort** in the **Customer** table in the **Data Source View** pane, and then click **New Attribute from Column**.  
   
@@ -110,7 +110,7 @@ In the tasks in this topic, you will define a new attribute in the **Date** dime
   
     Notice that the attribute hierarchy members are now sorted in a logical order based on increasing distance, as shown in the following image.  
   
-    ![Re-sorted Commute Distance attribute hierarchy](../media/l4-memberproperties-5.gif "Re-sorted Commute Distance attribute hierarchy")  
+    ![Re-sorted Commute Distance attribute hierarchy](../media/l4-memberproperties-5.png "Re-sorted Commute Distance attribute hierarchy")  
   
 ## Next Task in Lesson  
 [Specifying Attribute Relationships Between Attributes in a User-Defined Hierarchy](lesson-4-6-specifying-attribute-relationships-in-user-defined-hierarchy.md)  

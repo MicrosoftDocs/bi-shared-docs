@@ -22,7 +22,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ## Server Icons in Object Explorer  
  The easiest way to determine server mode is to connect to the server in SQL Server Management Studio and note the icon next to the server name in Object Explorer. The following illustration shows three instances of Analysis Services deployed in Multidimensional, Tabular, and [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] modes:  
   
- ![Object Explorer icons for each server mode](../../analysis-services/instances/media/ssas-ssms-servermodes.gif "Object Explorer icons for each server mode")  
+ ![Object Explorer icons for each server mode](../../analysis-services/instances/media/ssas-ssms-servermodes.png "Object Explorer icons for each server mode")  
   
 ## Viewing DeploymentMode Property in MSMDSRV.INI File  
  Alternatively, you can check the **DeploymentMode** property in the msmdsrv.ini file that is included in every Analysis Services instance. The value of this property identifies the server mode. Valid values are 0 (Multidimensional), 1 (SharePoint), or 2 (Tabular). You must be an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] administrator (that is, a member of the Server role) to open the msmdsrv.ini file. This file contains structured XML. You can use Notepad or another text editor to view the file.  

@@ -19,7 +19,7 @@ author: minewiskan
   
  The following illustration shows the relationship of the classes that are explained in this topic.  
   
- ![AMO Fundamental Classes](media/amo-fundamentalclasses.gif)  
+ ![AMO Fundamental Classes](media/amo-fundamentalclasses.png)  
   
 ## Server objects
 

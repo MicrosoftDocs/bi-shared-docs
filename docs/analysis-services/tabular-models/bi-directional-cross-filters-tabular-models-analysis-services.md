@@ -19,7 +19,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
  Breaking the concept down into its component parts: *cross filtering* is the ability to set a filter context on a table based on values in a related table, and *bi-directional* is the transference of a filter context to second related table on the other side of a table relationship. As the name implies, you can slice in both directions of the relationship rather than just one way.  Internally, two-way filtering expands filter context to query a superset of your data.  
   
- ![Screenshot of the Edit Relationship dialbo box with the Filter Direction section called out.](../../analysis-services/tabular-models/media/ssas-bidi-1-filteroption.PNG "SSAS-BIDI-1-Filteroption")  
+ ![Screenshot of the Edit Relationship dialbo box with the Filter Direction section called out.](../../analysis-services/tabular-models/media/ssas-bidi-1-filteroption.png "SSAS-BIDI-1-Filteroption")  
   
  There are two types of cross filters: One-way and two-way filtering. One-way is the traditional many-to-one filter direction between fact and dimensional tables in that relationship. Two-way is a cross-filter that enables the filter context of one relationship to be used as the filter context for another table relationship, with  one table common to both relationships.  
   

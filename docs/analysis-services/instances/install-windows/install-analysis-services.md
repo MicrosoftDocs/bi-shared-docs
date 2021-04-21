@@ -28,7 +28,7 @@ SQL Server Analysis Services is installed by using the [SQL Server Installation 
   
 1.  Select **Analysis Services** from the Feature Tree in Setup.  
   
-     ![Setup feature tree showing Analsyis Services](../../../analysis-services/instances/install-windows/media/ssas-setupas.gif "Setup feature tree showing Analsyis Services")  
+     ![Setup feature tree showing Analsyis Services](../../../analysis-services/instances/install-windows/media/ssas-setupas.png "Setup feature tree showing Analsyis Services")  
   
 2.  On the Analysis Services Configuration page, select a mode. Tabular mode is the default..  
   
