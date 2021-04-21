@@ -43,7 +43,7 @@ Excel Services in SharePoint 2013 includes data model functionality to enable in
   
  Deploying the Power Pivot for SharePoint 2013 add-in enables additional functionality and features in your SharePoint farm. The additional features include Power Pivot Gallery, Schedule Data Refresh, and the Power Pivot Management Dashboard.  
   
- ![SSAS PowerPivot Mode 2 Server Deployment](media/power-pivot-for-sharepoint-ssas/as-powerpivot-mode-2server-deployment.gif "SSAS PowerPivot Mode 2 Server Deployment")
+ ![SSAS PowerPivot Mode 2 Server Deployment](media/power-pivot-for-sharepoint-ssas/as-powerpivot-mode-2server-deployment.png "SSAS PowerPivot Mode 2 Server Deployment")
 
 ## Installation and configuration
 

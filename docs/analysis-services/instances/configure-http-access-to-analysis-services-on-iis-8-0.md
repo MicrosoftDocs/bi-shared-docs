@@ -46,7 +46,7 @@ On IIS, MSMDPUMP connects to Analysis Services using the Analysis Services OLE D
   
 When MSMDPUMP connects to Analysis Services, it does so under a Windows user identity. This account will either be the Anonymous account if you configured the virtual directory for anonymous connections, or a Windows user account. The account must have the appropriate data access rights on the Analysis Services server and database.  
   
-![Diagram showing connections between components](../../analysis-services/instances/media/ssas.gif "Diagram showing connections between components")  
+![Diagram showing connections between components](../../analysis-services/instances/media/ssas.png "Diagram showing connections between components")  
   
 The following table lists additional considerations when you enable HTTP access for different scenarios.  
   
@@ -100,7 +100,7 @@ The following table lists additional considerations when you enable HTTP access 
   
 1.  Copy the following files, found at \<drive>:\Program Files\Microsoft SQL Server\\<instance\>\OLAP\bin\isapi: MSMDPUMP.DLL, MSMDPUMP.INI, and a Resources folder.  
   
-     ![Folder structure of MSMDPUMP files](../../analysis-services/instances/media/ssas-httpaccess-msmdpumpfilecopy.PNG "Folder structure of MSMDPUMP files")  
+     ![Folder structure of MSMDPUMP files](../../analysis-services/instances/media/ssas-httpaccess-msmdpumpfilecopy.png "Folder structure of MSMDPUMP files")  
   
 2.  On the web server, create a new folder: \<drive>:\inetpub\wwwroot\\**OLAP**  
   
@@ -125,11 +125,11 @@ The following table lists additional considerations when you enable HTTP access 
   
 2.  Open the server folder, right-click **Application Pools** and then click **Add Application Pool**. Create an application pool named **OLAP**, using the .NET Framework, with Managed pipeline mode set to **Classic**.  
   
-     ![Screenshot of Add Application Pool dialog](../../analysis-services/instances/media/ssas-httpaccess.PNG "Screenshot of Add Application Pool dialog")  
+     ![Screenshot of Add Application Pool dialog](../../analysis-services/instances/media/ssas-httpaccess.png "Screenshot of Add Application Pool dialog")  
   
 3.  By default, IIS creates application pools using **ApplicationPoolIdentity** as the security identity, which is a valid choice for HTTP access to Analysis Services. If you have specific reasons for changing the identity, right-click **OLAP**, and then select **Advanced Settings**. Select **ApplicationPoolIdentity**. Click the **Change** button for this property to replace the built-in account with the custom account you want to use.  
   
-     ![Screenshot of Advanced Settings property page](../../analysis-services/instances/media/ssas-httpaccess-advsettings.PNG "Screenshot of Advanced Settings property page")  
+     ![Screenshot of Advanced Settings property page](../../analysis-services/instances/media/ssas-httpaccess-advsettings.png "Screenshot of Advanced Settings property page")  
   
 4.  By default, on a 64-bit operating system, IIS sets the **Enable 32-bit Applications** property to **false**. If you copied msmdpump.dll from a 64-bit installation of Analysis Services, this is the correct setting for the MSMDPUMP extension on a 64-bit IIS server. If you copied the MSMDPUMP binaries from a 32-bit installation, set it to **true**. Check this property now in **Advanced Settings** to ensure it is set correctly.  
   
@@ -271,7 +271,7 @@ The following table lists additional considerations when you enable HTTP access 
   
      Object Explorer displays the HTTP connection:  
   
-     ![HTTP connection shown in SSMS](../../analysis-services/instances/media/ssas-httpaccess-ssms.PNG "HTTP connection shown in SSMS")  
+     ![HTTP connection shown in SSMS](../../analysis-services/instances/media/ssas-httpaccess-ssms.png "HTTP connection shown in SSMS")  
   
 2.  Authentication must be Windows authentication, and the person using Management Studio must be an Analysis Services administrator. An administrator can grant further permissions to enable access by other users.  
   

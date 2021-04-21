@@ -20,17 +20,17 @@ manager: kfile
  **Normal**  
  The values for the continuous column form a histogram with a normal distribution.  
   
- ![Histogram with normal distribution](../../analysis-services/data-mining/media/normal-distribution.gif "Histogram with normal distribution")  
+ ![Histogram with normal distribution](../../analysis-services/data-mining/media/normal-distribution.png "Histogram with normal distribution")  
   
  **Log Normal**  
  The values for the continuous column form a histogram, where the curve is elongated at the upper end and is skewed toward the lower end.  
   
- ![Histogram with log normal distribution](../../analysis-services/data-mining/media/log-normal-distribution.gif "Histogram with log normal distribution")  
+ ![Histogram with log normal distribution](../../analysis-services/data-mining/media/log-normal-distribution.png "Histogram with log normal distribution")  
   
  **Uniform**  
  The values for the continuous column form a flat curve, in which all values are equally likely.  
   
- ![Histogram with uniform distribution](../../analysis-services/data-mining/media/uniform-distribution.gif "Histogram with uniform distribution")  
+ ![Histogram with uniform distribution](../../analysis-services/data-mining/media/uniform-distribution.png "Histogram with uniform distribution")  
   
  For more information about the algorithms that [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] provides, see [Data Mining Algorithms &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining.md).  
   

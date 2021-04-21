@@ -57,7 +57,7 @@ In the tasks in this topic, you define the Sales Reasons dimension and the Sales
   
     Notice that, for each line number within each order, a key value identifies the sales reason for the purchase of that line item, as shown in the following image.  
   
-    ![Key value to identify sales reason for purchases](../media/l5-many-to-many-1.gif "Key value to identify sales reason for purchases")  
+    ![Key value to identify sales reason for purchases](../media/l5-many-to-many-1.png "Key value to identify sales reason for purchases")  
   
 ## Defining the Intermediate Measure Group  
   
@@ -83,7 +83,7 @@ In the tasks in this topic, you define the Sales Reasons dimension and the Sales
   
     The following image shows the properties for the **Internet Sales Reason Count** measure.  
   
-    ![Properties for Internet Sales Reason Count measure](../media/l5-many-to-many-2.gif "Properties for Internet Sales Reason Count measure")  
+    ![Properties for Internet Sales Reason Count measure](../media/l5-many-to-many-2.png "Properties for Internet Sales Reason Count measure")  
   
 ## Defining the Many-to-Many Dimension  
   
@@ -139,7 +139,7 @@ In the tasks in this topic, you define the Sales Reasons dimension and the Sales
   
     The following image shows the changes in the **Define Relationship** dialog box.  
   
-    ![Define Relationship dialog box](../media/l5-many-to-many-3.gif "Define Relationship dialog box")  
+    ![Define Relationship dialog box](../media/l5-many-to-many-3.png "Define Relationship dialog box")  
   
 5.  Click **OK**.  
   
@@ -163,7 +163,7 @@ In the tasks in this topic, you define the Sales Reasons dimension and the Sales
   
     The following image shows the **Filter** pane and **Data** pane of Cube Designer.  
   
-    ![Filter and Data panes of Cube Designer](../media/l5-many-to-many-5.gif "Filter and Data panes of Cube Designer")  
+    ![Filter and Data panes of Cube Designer](../media/l5-many-to-many-5.png "Filter and Data panes of Cube Designer")  
   
 ## Next Task in Lesson  
 [Defining Dimension Granularity within a Measure Group](lesson-5-4-defining-dimension-granularity-within-a-measure-group.md)  

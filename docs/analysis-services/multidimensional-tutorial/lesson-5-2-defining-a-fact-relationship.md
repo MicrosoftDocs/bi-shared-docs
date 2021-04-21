@@ -89,7 +89,7 @@ In the tasks in this topic, you add a new cube dimension based on the **Customer
   
     The following image shows the fact relationship properties in the **Define Relationship** dialog box.  
   
-    ![Define Relationship dialog box](../media/l5-factrelationship-2.gif "Define Relationship dialog box")  
+    ![Define Relationship dialog box](../media/l5-factrelationship-2.png "Define Relationship dialog box")  
   
 3.  Click **Cancel**.  
   
@@ -111,7 +111,7 @@ In the tasks in this topic, you add a new cube dimension based on the **Customer
   
     The following image shows the result of the previous steps.  
   
-    ![Dimensioning of Internet Sales-Sales Amount](../media/l5-factrelationship-3.gif "Dimensioning of Internet Sales-Sales Amount")  
+    ![Dimensioning of Internet Sales-Sales Amount](../media/l5-factrelationship-3.png "Dimensioning of Internet Sales-Sales Amount")  
   
 ## Next Task in Lesson  
 [Defining a Many-to-Many Relationship](lesson-5-3-defining-a-many-to-many-relationship.md)  

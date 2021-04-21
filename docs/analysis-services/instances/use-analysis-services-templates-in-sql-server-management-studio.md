@@ -26,7 +26,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
  To open **Template Explorer**, select it from the **View** menu. Next, click the cube icon to see a list of the templates that are available for [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
- ![Template Explorer, filtered for Analysis Services](../../analysis-services/instances/media/ssas-templateexplorer.gif "Template Explorer, filtered for Analysis Services")  
+ ![Template Explorer, filtered for Analysis Services](../../analysis-services/instances/media/ssas-templateexplorer.png "Template Explorer, filtered for Analysis Services")  
   
  To open a template, right-click the template name and select **Open**, or drag the template into a query window that you already opened. After the query window is open, you can use commands on the toolbar or Query menu to help you build statements:  
   

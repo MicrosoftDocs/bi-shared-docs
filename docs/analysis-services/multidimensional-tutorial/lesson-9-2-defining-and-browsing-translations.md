@@ -48,7 +48,7 @@ In the tasks in this topic, you define metadata translations for a limited set o
   
 8.  In the **Translation columns** list, select **SpanishMonthName**, as shown in the following image.  
   
-    ![Attribute Data Translation dialog box](../media/l9-translations-4.gif "Attribute Data Translation dialog box")  
+    ![Attribute Data Translation dialog box](../media/l9-translations-4.png "Attribute Data Translation dialog box")  
   
 9. Click **OK**, and then click the ellipsis (**...**) for the **French (France)** translation for the **Month Name** attribute.  
   
@@ -62,7 +62,7 @@ In the tasks in this topic, you define metadata translations for a limited set o
   
     The metadata in the default language for each cube object appears, as shown in the following image. The default language in the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube is English.  
   
-    ![Default language in Translations tab](../media/l9-translations-5.gif "Default language in Translations tab")  
+    ![Default language in Translations tab](../media/l9-translations-5.png "Default language in Translations tab")  
   
 2.  On the toolbar of the **Translations** tab, click the **New Translation** button.  
   
@@ -100,7 +100,7 @@ In the tasks in this topic, you define metadata translations for a limited set o
   
     Notice that the items in the metadata pane are repopulated. After the items in the metadata pane are repopulated, notice that the Internet Sales-Sales Amount measure no longer appears in the Internet Sales display folder. Instead, it appears in Spanish in a new display folder named **Ventas del lnternet**, as shown in the following image.  
   
-    ![Repopulated metadata pane](../media/l9-translations-6.gif "Repopulated metadata pane")  
+    ![Repopulated metadata pane](../media/l9-translations-6.png "Repopulated metadata pane")  
   
 6.  In the metadata pane, right-click **Cantidad de las Ventas del Internet** and then select **Add to Query**.  
   
@@ -112,7 +112,7 @@ In the tasks in this topic, you define metadata translations for a limited set o
   
     Notice that the month names appear in Spanish, as shown in the following image.  
   
-    ![Month names in Spanish in data pane](../media/l9-translations-7.gif "Month names in Spanish in data pane")  
+    ![Month names in Spanish in data pane](../media/l9-translations-7.png "Month names in Spanish in data pane")  
   
 10. On the toolbar, select **French (France)** in the **Language** list.  
   

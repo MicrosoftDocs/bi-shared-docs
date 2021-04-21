@@ -41,7 +41,7 @@ manager: kfile
   
  This chart contains multiple models based on the same data. One of these models has been customized to target specific customers. You can customize a model by adding filters on the data used to train the mode. This filter restricts the cases used in both training and evaluation to customers who are under the age of 30. Notice that one effect of filtering is that the basic model and the filtered model use different data sets, and therefore the number of cases used for evaluation in the lift chart is different as well. This point is important to remember when you interpret the prediction results and other statistics.  
   
- ![lift chart showing two models](../../analysis-services/data-mining/media/newliftchart-tm30-30.gif "lift chart showing two models")  
+ ![lift chart showing two models](../../analysis-services/data-mining/media/newliftchart-tm30-30.png "lift chart showing two models")  
   
  The x-axis of the chart represents the percentage of the test dataset that is used to compare the predictions. The y-axis of the chart represents the percentage of predicted values.  
   
@@ -84,7 +84,7 @@ manager: kfile
   
  The x-axis is the same as in the chart with the predictable column specified, but the y-axis now represents the percentage of predictions that are correct. Therefore, the ideal line is the diagonal line, which shows that at 50 percent of the data, the model correctly predicts 50% of the cases, the maximum that can be expected.  
   
- ![Lift chart showing correct predictions](../../analysis-services/data-mining/media/lift1.gif "Lift chart showing correct predictions")  
+ ![Lift chart showing correct predictions](../../analysis-services/data-mining/media/lift1.png "Lift chart showing correct predictions")  
   
  You can click in the chart to move the vertical gray bar, and the **Mining Legend** displays the percentage of cases overall, and the percentage of cases that were predicted correctly. For example, if you position the gray slider bar at the 50 percent mark, the **Mining Legend** displays the following accuracy scores. These figures are based on the TM_Decision Tree model created in the Basic Data Mining Tutorial.  
   

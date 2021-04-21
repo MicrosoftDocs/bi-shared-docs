@@ -29,13 +29,13 @@ In the tasks in this topic, you will define several different perspectives and t
   
     All the objects and their object types appear in the **Perspectives** pane, as shown in the following image.  
   
-    ![Perspectives pane of Cube Designer](../media/l9-perspectives-1.gif "Perspectives pane of Cube Designer")  
+    ![Perspectives pane of Cube Designer](../media/l9-perspectives-1.png "Perspectives pane of Cube Designer")  
   
 2.  On the toolbar of the **Perspectives** tab, click the **New Perspective** button.  
   
     A new perspective appears in the **Perspective Name** column with a default name of **Perspective**, as shown in the following image. Notice that the check box for every object is selected; until you clear the check box for an object, this perspective is identical to the default perspective of this cube.  
   
-    ![New perspective in Perspective Name column](../media/l9-perspectives-2.gif "New perspective in Perspective Name column")  
+    ![New perspective in Perspective Name column](../media/l9-perspectives-2.png "New perspective in Perspective Name column")  
   
 3.  Change the perspective name to **Internet Sales**.  
   
@@ -166,11 +166,11 @@ In the tasks in this topic, you will define several different perspectives and t
   
 4.  Analyze in Excel prompts you to choose which perspective to use when browsing the model in Excel, as shown in the following image.  
   
-    ![Objects for the Internet Sales perspective](../media/l9-perspectives-3.gif "Objects for the Internet Sales perspective")  
+    ![Objects for the Internet Sales perspective](../media/l9-perspectives-3.png "Objects for the Internet Sales perspective")  
   
 5.  Alternatively, you can start Excel from the Windows Start menu, define a connection to the Analysis Services Tutorial database on localhost, and choose a perspective in the Data Connection wizard, as shown in the following image.  
   
-    ![Data Connection wizard in Excel](../media/l9-perspectives-3b.gif "Data Connection wizard in Excel")  
+    ![Data Connection wizard in Excel](../media/l9-perspectives-3b.png "Data Connection wizard in Excel")  
   
 6.  Select **Internet Sales** in the **Perspective** list and then review the measures and dimensions in the metadata pane.  
   
@@ -184,7 +184,7 @@ In the tasks in this topic, you will define several different perspectives and t
   
     Notice that in each of these measure groups, only a single measure appears, as shown in the following image.  
   
-    ![Internet Sales and Reseller Sales measures](../media/l9-perspectives-4.gif "Internet Sales and Reseller Sales measures")  
+    ![Internet Sales and Reseller Sales measures](../media/l9-perspectives-4.png "Internet Sales and Reseller Sales measures")  
   
 ## Next Task in Lesson  
 [Defining and Browsing Translations](lesson-9-2-defining-and-browsing-translations.md)  

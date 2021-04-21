@@ -41,7 +41,7 @@ manager: kfile
   
  What happens if the measure is unrelated to the dimensions used in query? Typically, Analysis Services will show the default measure, and the value will be the same for all members. In this example, **Internet Sales**, which measure direct sales placed by customers using the online catalog, has no relationship to the sales organization.  
   
- ![Pivottable showing repeated measure values](../../analysis-services/multidimensional-models/media/ssas-unrelatedmeasure.PNG "Pivottable showing repeated measure values")  
+ ![Pivottable showing repeated measure values](../../analysis-services/multidimensional-models/media/ssas-unrelatedmeasure.png "Pivottable showing repeated measure values")  
   
  To minimize the chances of encountering these behaviors in a client application, you could build multiple cubes or perspectives within the same database, and ensure that each cube or perspective contains only related objects. The relationships you need to check are between the measure group (mapped to the fact table) and the dimensions.  
   
