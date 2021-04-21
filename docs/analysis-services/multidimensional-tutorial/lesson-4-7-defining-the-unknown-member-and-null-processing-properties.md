@@ -45,7 +45,7 @@ In the tasks in this topic, you will add the product category and product subcat
   
     The following image shows the property settings for the **ErrorConfiguration** properties collection.  
   
-    ![ErrorConfiguration property collection](../media/l4-productdimensionerrorconfig-1.gif "ErrorConfiguration property collection")  
+    ![ErrorConfiguration property collection](../media/l4-productdimensionerrorconfig-1.png "ErrorConfiguration property collection")  
   
 5.  Click the **Browser** tab, verify that **Product Model Lines** is selected in the **Hierarchy** list, and then expand **All Products**.  
   
@@ -55,7 +55,7 @@ In the tasks in this topic, you will add the product category and product subcat
   
     This level contains the assembly components that are used when building other components, starting with the **Adjustable Race** product, as shown in the following image.  
   
-    ![Assembly components used to build other components](../media/l4-productdimensionerrorconfig-2.gif "Assembly components used to build other components")  
+    ![Assembly components used to build other components](../media/l4-productdimensionerrorconfig-2.png "Assembly components used to build other components")  
   
 ## Defining Attributes from Snowflaked Tables and a Product Category User-Defined Hierarchy  
   
@@ -113,7 +113,7 @@ In the tasks in this topic, you will add the product category and product subcat
   
     Notice that a WHERE clause has been added to the SELECT DISTINCT clause that removes those products that have no value in the ProductSubcategoryKey column, as shown in the following image.  
   
-    ![SELECT DISTINCT clause showing WHERE clause](../media/l4-productnametraceline-1.gif "SELECT DISTINCT clause showing WHERE clause")  
+    ![SELECT DISTINCT clause showing WHERE clause](../media/l4-productnametraceline-1.png "SELECT DISTINCT clause showing WHERE clause")  
   
 5.  Click **Close** three times to close all processing dialog boxes.  
   
@@ -171,7 +171,7 @@ To modify the behavior mentioned in the previous task, you will enable the **Unk
   
     Notice that all the assembly components now appear at the **Product Name** level, as shown in the following image.  
   
-    ![Product Name level showing assembly components](../media/l4-assemblycomponents-1.gif "Product Name level showing assembly components")  
+    ![Product Name level showing assembly components](../media/l4-assemblycomponents-1.png "Product Name level showing assembly components")  
   
 ## Next Lesson  
 [Lesson 5: Defining Relationships Between Dimensions and Measure Groups](lesson-5-defining-relationships-between-dimensions-and-measure-groups.md)  

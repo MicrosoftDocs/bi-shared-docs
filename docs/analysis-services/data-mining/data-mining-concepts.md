@@ -47,7 +47,7 @@ manager: kfile
   
  The following diagram describes the relationships between each step in the process, and the technologies in [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] that you can use to complete each step.  
   
- ![Key steps in data mining process](../../analysis-services/data-mining/media/data-mining-process.gif "Key steps in data mining process")  
+ ![Key steps in data mining process](../../analysis-services/data-mining/media/data-mining-process.png "Key steps in data mining process")  
   
  The process illustrated in the diagram is cyclical, meaning that creating a data mining model is a dynamic and iterative process. After you explore the data, you may find that the data is insufficient to create the appropriate mining models, and that you therefore have to look for more data. Alternatively, you may build several models and then realize that the models do not adequately answer the problem you defined, and that you therefore must redefine the problem. You may have to update the models after they have been deployed because more data has become available. Each step in the process might need to be repeated many times in order to create a good model.  
   
@@ -58,7 +58,7 @@ manager: kfile
 ##  <a name="DefiningTheProblem"></a> Defining the Problem  
  The first step in the data mining process, as highlighted in the following diagram, is to clearly define the problem, and consider ways that data can be utilized to provide an answer to the problem.  
   
- ![Data mining first step: defining the problem](../../analysis-services/data-mining/media/dmprocess-defining.gif "Data mining first step: defining the problem")  
+ ![Data mining first step: defining the problem](../../analysis-services/data-mining/media/dmprocess-defining.png "Data mining first step: defining the problem")  
   
  This step includes analyzing business requirements, defining the scope of the problem, defining the metrics by which the model will be evaluated, and defining specific objectives for the data mining project. These tasks translate into questions such as the following:  
   
@@ -81,7 +81,7 @@ manager: kfile
 ##  <a name="PreparingData"></a> Preparing Data  
  The second step in the data mining process, as highlighted in the following diagram, is to consolidate and clean the data that was identified in the [Defining the Problem](#DefiningTheProblem) step.  
   
- ![Data mining second step: preparing data](../../analysis-services/data-mining/media/dmprocess-preparing.gif "Data mining second step: preparing data")  
+ ![Data mining second step: preparing data](../../analysis-services/data-mining/media/dmprocess-preparing.png "Data mining second step: preparing data")  
   
  Data can be scattered across a company and stored in different formats, or may contain inconsistencies such as incorrect or missing entries. For example, the data might show that a customer bought a product before the product was offered on the market, or that the customer shops regularly at a store located 2,000 miles from her home.  
   
@@ -100,7 +100,7 @@ manager: kfile
 ##  <a name="ExploringData"></a> Exploring Data  
  The third step in the data mining process, as highlighted in the following diagram, is to explore the prepared data.  
   
- ![Data mining third step: exploring data](../../analysis-services/data-mining/media/dmprocess-exploring.gif "Data mining third step: exploring data")  
+ ![Data mining third step: exploring data](../../analysis-services/data-mining/media/dmprocess-exploring.png "Data mining third step: exploring data")  
   
  You must understand the data in order to make appropriate decisions when you create the mining models. Exploration techniques include calculating the minimum and maximum values, calculating mean and standard deviations, and looking at the distribution of the data. For example, you might determine by reviewing the maximum, minimum, and mean values that the data is not representative of your customers or business processes, and that you therefore must obtain more balanced data or review the assumptions that are the basis for your expectations. Standard deviations and other distribution values can provide useful information about the stability and accuracy of the results. A large standard deviation can indicate that adding more data might help you improve the model. Data that strongly deviates from a standard distribution might be skewed, or might represent an accurate picture of a real-life problem, but make it difficult to fit a model to the data.  
   
@@ -115,7 +115,7 @@ manager: kfile
 ##  <a name="BuildingModels"></a> Building Models  
  The fourth step in the data mining process, as highlighted in the following diagram, is to build the mining model or models. You will use the knowledge that you gained in the [Exploring Data](#ExploringData) step to help define and create the models.  
   
- ![Data mining fourth step: building mining models](../../analysis-services/data-mining/media/dmprocess-building.gif "Data mining fourth step: building mining models")  
+ ![Data mining fourth step: building mining models](../../analysis-services/data-mining/media/dmprocess-building.png "Data mining fourth step: building mining models")  
   
  You define the columns of data that you want to use by creating a mining structure. The mining structure is linked to the source of data, but does not actually contain any data until you process it. When you process the mining structure, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] generates aggregates and other statistical information that can be used for analysis. This information can be used by any mining model that is based on the structure. For more information about how mining structures are related to mining models, see [Logical Architecture &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/logical-architecture-analysis-services-data-mining.md).  
   
@@ -130,7 +130,7 @@ manager: kfile
 ##  <a name="ValidatingModels"></a> Exploring and Validating Models  
  The fifth step in the data mining process, as highlighted in the following diagram, is to explore the mining models that you have built and test their effectiveness.  
   
- ![Data mining fifth step: validating mining models](../../analysis-services/data-mining/media/dmprocess-validating.gif "Data mining fifth step: validating mining models")  
+ ![Data mining fifth step: validating mining models](../../analysis-services/data-mining/media/dmprocess-validating.png "Data mining fifth step: validating mining models")  
   
  Before you deploy a model into a production environment, you will want to test how well the model performs. Also, when you build a model, you typically create multiple models with different configurations and test all models to see which yields the best results for your problem and your data.  
   
@@ -143,7 +143,7 @@ manager: kfile
 ##  <a name="DeployingandUpdatingModels"></a> Deploying and Updating Models  
  The last step in the data mining process, as highlighted in the following diagram, is to deploy the models that performed the best to a production environment.  
   
- ![Data mining sixth step: deploying mining models](../../analysis-services/data-mining/media/dmprocess-deploying.gif "Data mining sixth step: deploying mining models")  
+ ![Data mining sixth step: deploying mining models](../../analysis-services/data-mining/media/dmprocess-deploying.png "Data mining sixth step: deploying mining models")  
   
  After the mining models exist in a production environment, you can perform many tasks, depending on your needs. The following are some of the tasks you can perform:  
   

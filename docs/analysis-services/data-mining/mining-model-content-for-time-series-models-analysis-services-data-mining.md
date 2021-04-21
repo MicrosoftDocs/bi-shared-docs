@@ -26,7 +26,7 @@ manager: kfile
   
  The following diagram shows an example of a time series data mining model that was created with the default settings, to create a mixed model. So that you can more easily compare the differences between the two models, here the ARTXP model is shown on the left side of the diagram and the ARIMA model is shown in the right side of the diagram.  Whereas ARTXP is a tree-like structure that splits into smaller and smaller branches, the structure created by the ARIMA algorithm is more like a pyramid built upwards from smaller components.  
   
- ![Structure of model content for time series models](../../analysis-services/data-mining/media/modelcontentstructure-ts.gif "Structure of model content for time series models")  
+ ![Structure of model content for time series models](../../analysis-services/data-mining/media/modelcontentstructure-ts.png "Structure of model content for time series models")  
   
  The important point to remember is that information is arranged within the ARIMA and ARTXP trees in completely different ways, and you should consider the two trees as related only at the root node. Although the two representations are presented in one model for convenience, they should be treated as two independent models. ARTXP represents an actual tree structure, but ARIMA does not.  
   

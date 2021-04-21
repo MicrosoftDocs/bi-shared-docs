@@ -28,7 +28,7 @@ In the tasks in this topic, you define calculated measures to let users view the
   
     The following image shows the **Calculations** tab of Cube Designer.  
   
-    ![Calculations tab of Cube Designer](../media/l6-calculatedmembers-1.gif "Calculations tab of Cube Designer")  
+    ![Calculations tab of Cube Designer](../media/l6-calculatedmembers-1.png "Calculations tab of Cube Designer")  
   
 2.  On the toolbar of the **Calculations** tab, click **New Calculated Member**.  
   
@@ -36,7 +36,7 @@ In the tasks in this topic, you define calculated measures to let users view the
   
     The following image shows the form that appears in the **Calculation Expressions** pane when you click **New Calculated Member**.  
   
-    ![Calculation Expressions pane form](../media/l6-calculatedmembers-02.gif "Calculation Expressions pane form")  
+    ![Calculation Expressions pane form](../media/l6-calculatedmembers-02.png "Calculation Expressions pane form")  
   
 3.  In the **Name** box, change the name of the calculated measure to **[Total Sales Amount]**.  
   
@@ -65,7 +65,7 @@ In the tasks in this topic, you define calculated measures to let users view the
   
     The following image shows the **Calculation Expressions** pane populated with the settings that you specified in the previous steps.  
   
-    ![Populated Calculation Expressions pane](../media/l6-calculatedmembers-03.gif "Populated Calculation Expressions pane")  
+    ![Populated Calculation Expressions pane](../media/l6-calculatedmembers-03.png "Populated Calculation Expressions pane")  
   
 10. On the toolbar of the **Calculations** tab, click **Script View**, and then review the calculation script in the **Calculation Expressions** pane.  
   
@@ -79,7 +79,7 @@ In the tasks in this topic, you define calculated measures to let users view the
   
     The following image shows the calculation scripts as they should appear in the **Calculation Expressions** pane at this point in the tutorial.  
   
-    ![Scripts in Calculation Expressions pane](../media/l6-calculatedmembers-04.gif "Scripts in Calculation Expressions pane")  
+    ![Scripts in Calculation Expressions pane](../media/l6-calculatedmembers-04.png "Scripts in Calculation Expressions pane")  
   
 12. On the toolbar of the **Calculations** tab, click **Form View**, verify that **[Total Sales Amount]** is selected in the **Script Organizer** pane, and then click **New Calculated Member**.  
   
@@ -157,7 +157,7 @@ In the tasks in this topic, you define calculated measures to let users view the
   
     The following image shows the **Expressions** pane with the three new calculations.  
   
-    ![New calculations in Calculation Expressions pane](../media/l6-calculatedmembers-05.gif "New calculations in Calculation Expressions pane")  
+    ![New calculations in Calculation Expressions pane](../media/l6-calculatedmembers-05.png "New calculations in Calculation Expressions pane")  
   
 ## Defining the Percent of Total Calculations  
   
@@ -268,7 +268,7 @@ In the tasks in this topic, you define calculated measures to let users view the
   
     Notice that the gross profit margin for reseller sales is significantly lower than for sales over the Internet, as shown in the following image.  
   
-    ![Data pane showing reseller sales](../media/l6-calculatedmembers-7b.gif "Data pane showing reseller sales")  
+    ![Data pane showing reseller sales](../media/l6-calculatedmembers-7b.png "Data pane showing reseller sales")  
   
 9. Add the **Total Sales Ratio to All Products**, **Internet Sales Ratio to All Products**, and **Reseller Sales Ratio to All Products** measures to the Values area.  
   

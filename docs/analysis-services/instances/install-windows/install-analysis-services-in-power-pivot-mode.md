@@ -147,11 +147,11 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 2.  In Object Explorer, right-click the instance name and select **Properties**.  
   
-     ![View Properties of an SSAS server](../../../analysis-services/instances/install-windows/media/as-ssms-proeprties.gif "View Properties of an SSAS server")  
+     ![View Properties of an SSAS server](../../../analysis-services/instances/install-windows/media/as-ssms-proeprties.png "View Properties of an SSAS server")  
   
 3.  In the left pane, select **Security**. Add the machine account that the Office Online Server is installed on.  
   
-     ![Security Settings of an SSAS Server](../../../analysis-services/instances/install-windows/media/as-ssms-security.gif "Security Settings of an SSAS Server")  
+     ![Security Settings of an SSAS Server](../../../analysis-services/instances/install-windows/media/as-ssms-security.png "Security Settings of an SSAS Server")  
   
 #### Register Analysis Services server with Office Online Server  
  You will want to perform these steps on the Office Online Server.  
@@ -175,11 +175,11 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 2.  In Object Explorer, right-click the instance name and select **Properties**.  
   
-     ![View Properties of an SSAS server](../../../analysis-services/instances/install-windows/media/as-ssms-proeprties.gif "View Properties of an SSAS server")  
+     ![View Properties of an SSAS server](../../../analysis-services/instances/install-windows/media/as-ssms-proeprties.png "View Properties of an SSAS server")  
   
 3.  In the left pane, select **Security**. Add the domain login you configured for the Excel Services Application in step 1.  
   
-     ![Security Settings of an SSAS Server](../../../analysis-services/instances/install-windows/media/as-ssms-security.gif "Security Settings of an SSAS Server")  
+     ![Security Settings of an SSAS Server](../../../analysis-services/instances/install-windows/media/as-ssms-security.png "Security Settings of an SSAS Server")  
   
 #### Configure Excel Services for Analysis Services integration  
   
@@ -275,7 +275,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 -   [Manage Excel Services data model settings (SharePoint 2013)](/SharePoint/administration/manage-excel-services-data-model-settings).  
   
- ![SharePoint Settings](../../../analysis-services/media/as-sharepoint2013-settings-gear.gif "SharePoint Settings") [Submit feedback and contact information through SQL Server Feedback](https://feedback.azure.com/forums/908035-sql-server).  
+ ![SharePoint Settings](../../../analysis-services/media/as-sharepoint2013-settings-gear.png "SharePoint Settings") [Submit feedback and contact information through SQL Server Feedback](https://feedback.azure.com/forums/908035-sql-server).  
   
 ## See Also  
  [Migrate Power Pivot to SharePoint 2013](../../power-pivot-for-sharepoint-ssas.md)   

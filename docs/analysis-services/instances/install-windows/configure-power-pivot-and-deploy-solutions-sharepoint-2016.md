@@ -73,7 +73,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 1.  Browse to your site URL that was created by the Configuration tool.  
   
-     Select **Settings**![SharePoint Settings](../../../analysis-services/media/as-sharepoint2013-settings-gear.gif "SharePoint Settings"), and then click **Site Settings**.  
+     Select **Settings**![SharePoint Settings](../../../analysis-services/media/as-sharepoint2013-settings-gear.png "SharePoint Settings"), and then click **Site Settings**.  
   
      Select **Site Collection Features**.  
   

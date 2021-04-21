@@ -32,7 +32,7 @@ manager: kfile
   
      On the left, the generic viewer displays a list of the nodes in the model. You can click a node to view its contents in the right-hand pane.  
   
- ![Overview of mining model designer](../../analysis-services/data-mining/media/generic-mining-model-tab1.gif "Overview of mining model designer")  
+ ![Overview of mining model designer](../../analysis-services/data-mining/media/generic-mining-model-tab1.png "Overview of mining model designer")  
   
 ## More about the Microsoft Generic Content Tree Viewer  
  Each model can also be viewed using the [Microsoft Generic Content Tree Viewer &#40;Data Mining&#41;](../analysis-services-overview.md?viewFallbackFrom=sql-server-ver15). This viewer presents the contents of the mining model according to a standard HTML table format. However, the arrangement of the nodes and the content of each node will differ greatly depending on the algorithm used to generate the results.  

@@ -73,7 +73,7 @@ In the tasks in this topic, you will disable social security numbers and other a
   
     The following image shows the **AttributeHierarchyEnabled** property set to False for the selected attributes.  
   
-    ![AttributeHierarchyEnabled property set to False](../media/l4-hierarchyenabled-1.gif "AttributeHierarchyEnabled property set to False")  
+    ![AttributeHierarchyEnabled property set to False](../media/l4-hierarchyenabled-1.png "AttributeHierarchyEnabled property set to False")  
   
 5.  On the **Build** menu, click **Deploy Analysis Services Tutorial**.  
   
@@ -103,7 +103,7 @@ In the tasks in this topic, you will disable social security numbers and other a
   
     The following image shows the **AttributeHierarchyVisible** property set to False.  
   
-    ![AttributeHierarchyVisible property set to False](../media/l4-hierarchyvisible-1.gif "AttributeHierarchyVisible property set to False")  
+    ![AttributeHierarchyVisible property set to False](../media/l4-hierarchyvisible-1.png "AttributeHierarchyVisible property set to False")  
   
 5.  Drag the **Postal Code** attribute from the **Attributes** pane into the **Customer Geography** user hierarchy in the **Hierarchies and Levels** pane, immediately under the **City** level.  
   

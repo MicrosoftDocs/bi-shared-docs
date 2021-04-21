@@ -26,7 +26,7 @@ Up to this point in the tutorial, each cube dimension that you defined was based
   
     Notice that the **Reseller Sales-Sales Amount** measure is not correctly dimensioned by the **Country-Region** attribute members in the **Regions** hierarchy. The value for **Reseller Sales-Sales Amount** repeats for each **Country-Region** attribute member.  
   
-    ![Dimensioned Reseller Sales-Sales Amount measure](../media/l5-referencedrelationship-1.gif "Dimensioned Reseller Sales-Sales Amount measure")  
+    ![Dimensioned Reseller Sales-Sales Amount measure](../media/l5-referencedrelationship-1.png "Dimensioned Reseller Sales-Sales Amount measure")  
   
 4.  Open Data Source View Designer for the **Adventure Works DW 2012** data source view.  
   
@@ -48,7 +48,7 @@ Up to this point in the tutorial, each cube dimension that you defined was based
   
     The following image shows the **Define Relationship** dialog box with a regular relationship between the **DimCustomer** dimension table and the **FactInternetSales** measure group table.  
   
-    ![Define Relationship dialog box with a regular relationship](../media/l5-referencedrelationship-4.gif "Define Relationship dialog box")  
+    ![Define Relationship dialog box with a regular relationship](../media/l5-referencedrelationship-4.png "Define Relationship dialog box")  
   
 9. Click **Cancel**.  
   
@@ -114,7 +114,7 @@ In the next task, you will solve this problem by defining an attribute that is b
   
     Notice that the **Reseller Sales-Sales Amount** measure is now correctly dimensioned by the **Country-Region** attribute of the **Geographies** user-defined hierarchy, as shown in the following image.  
   
-    ![Define Relationship dialog box](../media/l5-referencedrelationship-5.gif "Define Relationship dialog box")  
+    ![Define Relationship dialog box](../media/l5-referencedrelationship-5.png "Define Relationship dialog box")  
   
 ## Next Task in Lesson  
 [Defining a Fact Relationship](lesson-5-2-defining-a-fact-relationship.md)  

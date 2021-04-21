@@ -20,7 +20,7 @@ manager: kfile
 ## Specifying Cells  
  The [Cell](../xmla/xml-elements-properties/cell-element-xmla.md) property of the **UpdateCells** command contains the cells to be updated. You identify each cell in the **Cell** property using that cell's ordinal number. Conceptually, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] numbers cells in a cube as if the cube were a *p*-dimensional array, where *p* is the number of axes. Cells are addressed in row-major order. The following illustration shows the formula for calculating the ordinal number of a cell.  
   
- ![Formula to calculate the cell ordinal position](../../analysis-services/multidimensional-models-scripting-language-assl-xmla/media/cellordinalformula.gif "Formula to calculate the cell ordinal position")  
+ ![Formula to calculate the cell ordinal position](../../analysis-services/multidimensional-models-scripting-language-assl-xmla/media/cellordinalformula.png "Formula to calculate the cell ordinal position")  
   
  Once you know a cell's ordinal number, you can indicate the intended value of the cell in the [Value](../xmla/xml-elements-properties/value-element-xmla.md) property of the [Cell](../xmla/xml-elements-properties/cell-element-xmla.md) property.  
   

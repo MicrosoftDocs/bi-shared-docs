@@ -34,24 +34,24 @@ manager: kfile
 ### Predicting Discrete Columns  
  The way that the [!INCLUDE[msCoName](../includes/msconame-md.md)] Decision Trees algorithm builds a tree for a discrete predictable column can be demonstrated by using a histogram. The following diagram shows a histogram that plots a predictable column, Bike Buyers, against an input column, Age. The histogram shows that the age of a person helps distinguish whether that person will purchase a bicycle.  
   
- ![Histogram from Microsoft Decision Trees algorithm](../../analysis-services/data-mining/media/dt-histogram.gif "Histogram from Microsoft Decision Trees algorithm")  
+ ![Histogram from Microsoft Decision Trees algorithm](../../analysis-services/data-mining/media/dt-histogram.png "Histogram from Microsoft Decision Trees algorithm")  
   
  The correlation that is shown in the diagram would cause the [!INCLUDE[msCoName](../includes/msconame-md.md)] Decision Trees algorithm to create a new node in the model.  
   
- ![Decision tree node](../../analysis-services/data-mining/media/dt-tree.gif "Decision tree node")  
+ ![Decision tree node](../../analysis-services/data-mining/media/dt-tree.png "Decision tree node")  
   
  As the algorithm adds new nodes to a model, a tree structure is formed. The top node of the tree describes the breakdown of the predictable column for the overall population of customers. As the model continues to grow, the algorithm considers all columns.  
   
 ### Predicting Continuous Columns  
  When the [!INCLUDE[msCoName](../includes/msconame-md.md)] Decision Trees algorithm builds a tree based on a continuous predictable column, each node contains a regression formula. A split occurs at a point of non-linearity in the regression formula. For example, consider the following diagram.  
   
- ![Multiple regression lines showing non-linearity](../../analysis-services/data-mining/media/regression-tree1.gif "Multiple regression lines showing non-linearity")  
+ ![Multiple regression lines showing non-linearity](../../analysis-services/data-mining/media/regression-tree1.png "Multiple regression lines showing non-linearity")  
   
  In a standard regression model, you would attempt to derive a single formula that represents the trend and relationships for the data as a whole.  However, a single formula might do a poor job of capturing the discontinuity in complex data. Instead, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Decision Trees algorithm looks for segments of the tree that are largely linear and creates separate formulas for these segments. By breaking up the data into different segments, the model can do a much better job of approximating the data.  
   
  The following diagram represents the tree diagram for the model in the scatterplot above.  To predict the outcome, the model provides two different formulas: one for the left branch, with the formula y = .5x x 5, and one for the right branch, with the formula y = .25x + 8.75. The point where the two lines come together in the scatterplot is the point of non-linearity, and is the point where a node in a decision tree model would split.  
   
- ![Equation that represents a point of non-linearity](../../analysis-services/data-mining/media/regression-tree2.gif "Equation that represents a point of non-linearity")  
+ ![Equation that represents a point of non-linearity](../../analysis-services/data-mining/media/regression-tree2.png "Equation that represents a point of non-linearity")  
   
  This is a simple model with only two linear equations; therefore, the split in the tree is immediately after the **All** node. However, a split can occur at any level of the tree. That means that in a tree containing multiple levels and nodes, where each node is characterized by a different collection of attributes, a formula might be shared across multiple nodes, or apply only to a single node. For example, you might get one formula for a node defined as "customers over a certain age and income", and another in a node that represents "customers who commute long distances". To see the formula for an individual node or segment, just click the node.  
   

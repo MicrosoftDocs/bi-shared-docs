@@ -47,9 +47,9 @@ manager: kfile
   
 |Icon|Attribute Usage|  
 |----------|---------------------|  
-|![Attribute icon](../../analysis-services/multidimensional-models/media/as-icon-attribute.gif "Attribute icon")|Regular or AccountType|  
-|![Key attribute icon](../../analysis-services/multidimensional-models/media/as-icon-key-attribute.gif "Key attribute icon")|Key|  
-|![Parent attribute icon](../../analysis-services/multidimensional-models/media/as-icon-parent-attribute.gif "Parent attribute icon")|Parent|  
+|![Attribute icon](../../analysis-services/multidimensional-models/media/as-icon-attribute.png "Attribute icon")|Regular or AccountType|  
+|![Key attribute icon](../../analysis-services/multidimensional-models/media/as-icon-key-attribute.png "Key attribute icon")|Key|  
+|![Parent attribute icon](../../analysis-services/multidimensional-models/media/as-icon-parent-attribute.png "Parent attribute icon")|Parent|  
   
 ## See Also  
  [Dimension Attribute Properties Reference](../../analysis-services/multidimensional-models/dimension-attribute-properties-reference.md)  

@@ -53,7 +53,7 @@ In the tasks in this topic, you will create a naming template that defines the n
   
     The following image shows the Employees hierarchy expanded.  
   
-10. ![PivotTable showing Employees hierarchy](../media/l4-employee-1.gif "PivotTable showing Employees hierarchy")  
+10. ![PivotTable showing Employees hierarchy](../media/l4-employee-1.png "PivotTable showing Employees hierarchy")  
   
     Notice that the sales made by each manager in Level 03 are also displayed in Level 04. This is because each manager is also an employee of another manager. In the next task, you will hide these sale amounts.  
   
@@ -75,7 +75,7 @@ In the tasks in this topic, you will create a naming template that defines the n
   
     The following image shows the changes in the **Level Naming Template** dialog box.  
   
-    ![Level Naming Template dialog box](../media/l4-namingtemplate.gif "Level Naming Template dialog box")  
+    ![Level Naming Template dialog box](../media/l4-namingtemplate.png "Level Naming Template dialog box")  
   
 5.  Click **OK**.  
   

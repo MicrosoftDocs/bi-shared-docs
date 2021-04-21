@@ -82,7 +82,7 @@ In the tasks in this topic, you add a Sales Quotas measure group and define the 
   
     Notice that the Sales Territory cube dimension is not related, directly or indirectly, to the Fact Sales Quota table, as shown in the following image.  
   
-    ![Sales Territory cube dimension](../media/l5-granularity-2.gif "Sales Territory cube dimension")  
+    ![Sales Territory cube dimension](../media/l5-granularity-2.png "Sales Territory cube dimension")  
   
     In the next series of steps in this topic you will define a reference dimension relationship between this dimension and this fact table.  
   
@@ -213,7 +213,7 @@ In the tasks in this topic, you add a Sales Quotas measure group and define the 
   
     Notice that each member of the fiscal quarter level has the same value as the quarter level. Using **Q1 FY 2008** as an example, the quota of $9,180,000.00 for **Q1 FY 2008** is also the value for each of its members. This behavior occurs because the grain of the data in the fact table is at the quarter level and the grain of the Date dimension is also at the quarter level. In Lesson 6, you will learn how to allocate the quarterly amount proportionally to each month.  
   
-    ![Sales Quota measure group dimensioned correctly](../media/l5-granularity-7.gif "Sales Quota measure group dimensioned correctly")  
+    ![Sales Quota measure group dimensioned correctly](../media/l5-granularity-7.png "Sales Quota measure group dimensioned correctly")  
   
 ## Next Lesson  
 [Lesson 6: Defining Calculations](lesson-6-defining-calculations.md)  

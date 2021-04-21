@@ -1,5 +1,6 @@
 ---
 title: "Analysis Services samples | Microsoft Docs"
+description: Learn about samples available for Analysis Services.
 ms.date: 08/09/2019
 ms.prod: sql
 ms.technology: analysis-services

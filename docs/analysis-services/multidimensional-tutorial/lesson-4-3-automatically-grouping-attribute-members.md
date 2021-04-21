@@ -44,7 +44,7 @@ In the tasks in this topic, you will enable different types of groupings for the
   
     The following image shows the modified properties for **Yearly Income**.  
   
-    ![Modified properties for Yearly Income](../media/l4-discretizationmethod-1.gif "Modified properties for Yearly Income")  
+    ![Modified properties for Yearly Income](../media/l4-discretizationmethod-1.png "Modified properties for Yearly Income")  
   
 ## Grouping Attribute Hierarchy Members in the Employee Dimension  
   
@@ -90,7 +90,7 @@ In the tasks in this topic, you will enable different types of groupings for the
   
     The following image shows sales dimensioned by employee sick leave hours.  
   
-    ![Sales dimensioned by employee sick leave hours](../media/l4-discretizationmethod-2.gif "Sales dimensioned by employee sick leave hours")  
+    ![Sales dimensioned by employee sick leave hours](../media/l4-discretizationmethod-2.png "Sales dimensioned by employee sick leave hours")  
   
 10. Remove the **Sick Leave Hours** attribute hierarchy from the column area of the **Data** pane.  
   
