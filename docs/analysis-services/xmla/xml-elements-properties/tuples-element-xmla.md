@@ -49,10 +49,8 @@ author: minewiskan
 ## Example  
  The following example illustrates the structure of the **Tuples** element when a client specifies *TupleFormat* or *CustomFormat* for the **AxisFormat** XML for Analysis (XMLA) property, given the following members for the axis:  
   
-|||||  
-|-|-|-|-|  
-|**Time** hierarchy|1999|1999|2000|  
-|**Category** hierarchy|Actual|Budget|Budget|  
+**Time** hierarchy, 1999, 1999, 2000  
+**Category** hierarchy, Actual, Budget, Budget  
   
 ```xml  
 <Axes>  
