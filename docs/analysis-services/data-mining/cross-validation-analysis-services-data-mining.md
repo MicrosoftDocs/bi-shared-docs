@@ -50,7 +50,7 @@ manager: kfile
   
  The example in the diagram illustrates the usage of data if three folds are specified.  
   
- ![How cross-validation segments data](../../analysis-services/data-mining/media/xvoverviewmain.gif "How cross-validation segments data")  
+ ![How cross-validation segments data](../../analysis-services/data-mining/media/xvoverviewmain.png "How cross-validation segments data")  
   
  In the scenario in the diagram, the mining structure contains a holdout data set that is used for testing, but the test data set has not been included for cross-validation. As a result, all the data in the training data set, 70 percent of the data in the mining structure, is used for cross-validation. The cross-validation report shows the total number of cases used in each partition.  
   

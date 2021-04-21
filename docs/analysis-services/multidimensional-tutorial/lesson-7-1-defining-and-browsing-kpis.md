@@ -55,13 +55,13 @@ In the task in this lesson, you define  KPIs in the [!INCLUDE[ssASnoversion](../
   
     The following image shows the **KPIs** tab of Cube Designer.  
   
-    ![KPIs tab of Cube Designer](../media/l7-kpi-1.gif "KPIs tab of Cube Designer")  
+    ![KPIs tab of Cube Designer](../media/l7-kpi-1.png "KPIs tab of Cube Designer")  
   
 2.  On the toolbar of the **KPIs** tab, click the **New KPI** button.  
   
     A blank KPI template appears in the display pane, as shown in the following image.  
   
-    ![Blank KPI template in display pane](../media/l7-kpi-2.gif "Blank KPI template in display pane")  
+    ![Blank KPI template in display pane](../media/l7-kpi-2.png "Blank KPI template in display pane")  
   
 3.  In the **Name** box, type **Reseller Revenue**, and then select **Reseller Sales** in the **Associated measure group** list.  
   

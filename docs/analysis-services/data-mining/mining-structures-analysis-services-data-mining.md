@@ -15,7 +15,7 @@ manager: kfile
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
   The mining structure defines the data from which mining models are built: it specifies the source data view, the number and type of columns, and an optional partition into training and testing sets. A single mining structure can support multiple mining models that share the same domain. The following diagram illustrates the relationship of the data mining structure to the data source, and to its constituent data mining models.  
   
- ![Processing of data: source to structure to model](../../analysis-services/data-mining/media/dmcon-modelarch.gif "Processing of data: source to structure to model")  
+ ![Processing of data: source to structure to model](../../analysis-services/data-mining/media/dmcon-modelarch.png "Processing of data: source to structure to model")  
   
  The mining structure in the diagram is based on a data source that contains multiple tables or views, joined on the CustomerID field. One table contains information about customers, such as the geographical region, age, income and gender, while the related nested table contains multiple rows of additional information about each customer, such as products the customer has purchased. The diagram shows that multiple models can be built on one mining structure, and that the models can use different columns from the structure.  
   

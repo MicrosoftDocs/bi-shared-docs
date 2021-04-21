@@ -26,13 +26,13 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
     The following image shows the **Actions** tab of Cube Designer.  
   
-    ![Actions tab of Cube Designer](../media/l8-action1.gif "Actions tab of Cube Designer")  
+    ![Actions tab of Cube Designer](../media/l8-action1.png "Actions tab of Cube Designer")  
   
 2.  On the toolbar of the **Actions** tab, click the **New Drillthrough Action** button.  
   
     A blank action template appears in the display pane.  
   
-    ![Blank Action template in the display pane](../media/l8-action2.gif "Blank Action template in the display pane")  
+    ![Blank Action template in the display pane](../media/l8-action2.png "Blank Action template in the display pane")  
   
 3.  In the **Name** box, change the name of this action to **Internet Sales Details Drillthrough Action**.  
   
@@ -42,11 +42,11 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
 6.  In the **Return Columns** list, select the **Item Description** and the **Order Number** check boxes, and then click **OK**. The following image shows the Action template as it should appear at this point in this procedure.  
   
-    ![Drillthrough Columns box](../media/l8-action3.gif "Drillthrough Columns box")  
+    ![Drillthrough Columns box](../media/l8-action3.png "Drillthrough Columns box")  
   
 7.  Expand the **Additional Properties** box, as shown in the following image.  
   
-    ![Additional Properties box](../media/l8-action4.gif "Additional Properties box")  
+    ![Additional Properties box](../media/l8-action4.png "Additional Properties box")  
   
 8.  In the **Maximum Rows** box, type **10**.  
   
@@ -54,7 +54,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
     These settings limit the number of rows returned and specify the caption that appears in the client application menu. The following image shows these settings in the **AdditionalProperties** box.  
   
-    ![Additional Properties settings](../media/l8-action5.gif "Additional Properties box")  
+    ![Additional Properties settings](../media/l8-action5.png "Additional Properties box")  
   
 ## Using the Drillthrough Action  
   
@@ -76,7 +76,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
     The details of the orders that were shipped to Adam Powell are displayed in the **Data Sample Viewer**, as shown in the following image. However, some additional details would also be useful, such as the order date, due date, and ship date. In the next procedure, you will add these additional details.  
   
-    ![Orders shipped to Adam Powell in Data Sample Viewer](../media/l8-action6.gif "Orders shipped to Adam Powell")  
+    ![Orders shipped to Adam Powell in Data Sample Viewer](../media/l8-action6.png "Orders shipped to Adam Powell")  
   
 8.  Close Excel/  
   
@@ -118,7 +118,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
     The following image shows these columns selected.  
   
-    ![Item Description in Drillthrough Columns box](../media/l8-action7.gif "Drillthrough Columns box")  
+    ![Item Description in Drillthrough Columns box](../media/l8-action7.png "Drillthrough Columns box")  
   
 ## Reviewing the Modified Drillthrough Action  
   
@@ -136,7 +136,7 @@ In the tasks in this topic, you define a drillthrough action to return order det
   
     The details of these orders shipped to Adam Powell are displayed in a temporary worksheet. This includes item description, order number, order date, due date, and ship date information, as shown in the following image.  
   
-    ![Orders shipped to Adam Powell in temp worksheet](../media/l8-action8.gif "Orders shipped to Adam Powell")  
+    ![Orders shipped to Adam Powell in temp worksheet](../media/l8-action8.png "Orders shipped to Adam Powell")  
   
 ## Next Lesson  
 [Lesson 9: Defining Perspectives and Translations](lesson-9-defining-perspectives-and-translations.md)  

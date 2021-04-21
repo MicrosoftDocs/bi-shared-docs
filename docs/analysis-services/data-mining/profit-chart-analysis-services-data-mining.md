@@ -64,7 +64,7 @@ manager: kfile
   
  As shown here, you can use a profit chart to compare multiple models, as long as they all predict the same discrete attribute.  
   
- ![a profit chart comparing three models](../../analysis-services/data-mining/media/dm14-profitchartupdated.gif "a profit chart comparing three models")  
+ ![a profit chart comparing three models](../../analysis-services/data-mining/media/dm14-profitchartupdated.png "a profit chart comparing three models")  
   
  Notice the gray vertical line in the chart. As you click and drag the line, the ToolTip display the percentage of the target population that is included under the curve at that point.  
   

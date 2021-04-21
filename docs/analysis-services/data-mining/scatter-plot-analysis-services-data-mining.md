@@ -21,7 +21,7 @@ manager: kfile
 ## Interpreting the Results  
  The following diagram shows an example of a scatter plot, created for the scenario just described.  
   
- ![example of a scatter plot for linear regression](../../analysis-services/data-mining/media/scatterplot-callctr.gif "example of a scatter plot for linear regression")  
+ ![example of a scatter plot for linear regression](../../analysis-services/data-mining/media/scatterplot-callctr.png "example of a scatter plot for linear regression")  
   
  You can pause the mouse on any point scattered around the line to view the predicted and actual values in a tooltip. There is no **Mining Legend** for a scatter plot; however, the chart itself contains a legend that displays the score associated with the model. For more information about interpreting the score, see [Mining Model Content for Linear Regression Models &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/mining-model-content-for-linear-regression-models-analysis-services-data-mining.md).  
   

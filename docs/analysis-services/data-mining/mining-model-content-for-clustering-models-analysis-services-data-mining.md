@@ -17,7 +17,7 @@ author: minewiskan
 ## Understanding the Structure of a Clustering Model  
  A clustering model has a simple structure. Each model has a single parent node that represents the model and its metadata, and each parent node has a flat list of clusters (NODE_TYPE = 5). This organization is shown in the following image.  
   
- ![structure of model content for clustering](../../analysis-services/data-mining/media/modelcontentstructure-clust.gif "structure of model content for clustering")  
+ ![structure of model content for clustering](../../analysis-services/data-mining/media/modelcontentstructure-clust.png "structure of model content for clustering")  
   
  Each child node represents a single cluster and contains detailed statistics about the attributes of the cases in that cluster. This includes a count of the number of cases in the cluster, and the distribution of values that distinguish the cluster from other clusters.  
   

@@ -72,7 +72,7 @@ manager: kfile
   
      The following example confirms that the tables used in this procedure are linked using primary keys.  
   
-     ![DSV showing related tables](../../analysis-services/multidimensional-models/media/ssas-m2m-dsvpkeys.PNG "DSV showing related tables")  
+     ![DSV showing related tables](../../analysis-services/multidimensional-models/media/ssas-m2m-dsvpkeys.png "DSV showing related tables")  
   
 #### Step 2: Create dimensions and measure groups  
   
@@ -82,21 +82,21 @@ manager: kfile
   
      For attributes, select all.  
   
-     ![Attributes list in new dimension](../../analysis-services/multidimensional-models/media/ssas-m2m-dimsalesreason.PNG "Attributes list in new dimension")  
+     ![Attributes list in new dimension](../../analysis-services/multidimensional-models/media/ssas-m2m-dimsalesreason.png "Attributes list in new dimension")  
   
 3.  Create a second dimension based on existing table, Fact Internet Sales. Although this is a fact table, it contains Sales Order information. We'll use it to build a Sales Order dimension.  
   
 4.  In Specify Source Information, you will see a warning that indicates a Name column must be specified. Choose **SalesOrderNumber** as the Name.  
   
-     ![Sales Order dimension showing the name column](../../analysis-services/multidimensional-models/media/ssas-m2m-dimsalesordersource.PNG "Sales Order dimension showing the name column")  
+     ![Sales Order dimension showing the name column](../../analysis-services/multidimensional-models/media/ssas-m2m-dimsalesordersource.png "Sales Order dimension showing the name column")  
   
 5.  On the next page of the wizard, choose the attributes. In this example, you can select just **SalesOrderNumber**.  
   
-     ![Sales order dimension showing attribute list](../../analysis-services/multidimensional-models/media/ssas-m2m-dimsalesorderattrib.PNG "Sales order dimension showing attribute list")  
+     ![Sales order dimension showing attribute list](../../analysis-services/multidimensional-models/media/ssas-m2m-dimsalesorderattrib.png "Sales order dimension showing attribute list")  
   
 6.  Rename the dimension to **Dim Sales Orders**, so that you have a consistent naming convention for the dimensions.  
   
-     ![Wizard page showing dimension rename](../../analysis-services/multidimensional-models/media/ssas-m2m-dimsalesorders.PNG "Wizard page showing dimension rename")  
+     ![Wizard page showing dimension rename](../../analysis-services/multidimensional-models/media/ssas-m2m-dimsalesorders.png "Wizard page showing dimension rename")  
   
 7.  Right-click **Cubes** and select **New Cube**.  
   

@@ -34,7 +34,7 @@ manager: kfile
   
  A mining model is empty until the data provided by the mining structure has been processed and analyzed. After a mining model has been processed, it contains metadata, results, and bindings back to the mining structure.  
   
- ![model contains metadata, patterns, and bindings](../../analysis-services/data-mining/media/dmcon-modelarch2.gif "model contains metadata, patterns, and bindings")  
+ ![model contains metadata, patterns, and bindings](../../analysis-services/data-mining/media/dmcon-modelarch2.png "model contains metadata, patterns, and bindings")  
   
  The metadata specifies the name of the model and the server where it is stored, as well as a definition of the model, including the columns from the mining structure that were used in building the model, the definitions of any filters that were applied when processing the model, and the algorithm that was used to analyze the data. All these choices-the data columns and their data types, filters, and algorithm-have a powerful influence on the results of analysis.  
   

@@ -23,7 +23,7 @@ author: minewiskan
   
  The following illustration shows the relationship of the classes that are explained in this topic.  
   
- ![AMO DataMining Classes](media/amo-dataminingclasses.gif)  
+ ![AMO DataMining Classes](media/amo-dataminingclasses.png)  
   
 ## MiningStructure objects
 

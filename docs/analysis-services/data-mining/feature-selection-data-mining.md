@@ -26,8 +26,6 @@ manager: kfile
   
  During the process of feature selection, either the analyst or the modeling tool or algorithm actively selects or discards attributes based on their usefulness for analysis.  The analyst might perform feature engineering to add features, and remove or modify existing data, while the machine learning algorithm typically scores columns and validates their usefulness in the model.  
   
- ![Feature selection and engineering process](../../analysis-services/data-mining/media/ssdm-featureselectionprocess.png "Feature selection and engineering process")  
-  
  In short, feature selection helps solve two problems: having too much data that is of little value, or having too little data that is of high value. Your goal in feature selection should be to identify the minimum number of columns from the data source that are significant in building a model.  
   
 ## How Feature Selection Works in SQL Server Data Mining  

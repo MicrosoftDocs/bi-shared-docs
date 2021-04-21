@@ -76,7 +76,7 @@ Measures in multidimensional models are variants. This means the measures are no
 
 **Measure as variant**
 
-:::image type="content" source="media/dax-for-multidimensional-models/daxmd-nonaggrattrib.gif" alt-text="Measure as a variant":::
+:::image type="content" source="media/dax-for-multidimensional-models/daxmd-nonaggrattrib.png" alt-text="Measure as a variant":::
 
 ### Implicit measures
 
@@ -124,7 +124,7 @@ In multidimensional models, attributes of a dimension can have the **IsAggregata
 
 **Non-aggregatable hierarchy in Power BI**
 
-:::image type="content" source="media/dax-for-multidimensional-models/daxmd-nonaggrattrib.gif" alt-text="Measure as a variant":::
+:::image type="content" source="media/dax-for-multidimensional-models/daxmd-nonaggrattrib.png" alt-text="Measure as a variant":::
 
 ## Images
 
@@ -132,7 +132,7 @@ Power BI provides the ability to render images. In multidimensional models, one 
 
 **ImageURL dimension attribute type in SSDT**
 
-:::image type="content" source="media/dax-for-multidimensional-models/daxmd-dimattribute-properties.gif" alt-text="ImageURL dimension in SSDT":::
+:::image type="content" source="media/dax-for-multidimensional-models/daxmd-dimattribute-properties.png" alt-text="ImageURL dimension in SSDT":::
 
 ## Parent-child hierarchies
 

@@ -47,7 +47,7 @@ author: minewiskan
 
  The following screenshot shows an abbreviated version of the schema, collapsed to show the major objects.  
   
- ![SSAS_TabularMetadata](media/ssas-tabularmetadata.JPG)  
+ ![SSAS_TabularMetadata](media/ssas-tabularmetadata.png)  
   
 ## Scripting languages in Analysis Services
 
