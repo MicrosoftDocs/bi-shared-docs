@@ -1,7 +1,7 @@
 ---
 title: "Impersonation in Analysis Services tabular models | Microsoft Docs"
 description: Learn how sign in credentials are used by Analysis Services when connecting to a datasource to import and process (refresh) data.
-ms.date: 07/15/2020
+ms.date: 04/22/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -19,15 +19,13 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 
 ## Configuring impersonation
 
- Where, and in what context a model exists determines how impersonation information is configured. When creating a new model project, impersonation is configured in Visual Studio when you connect to a data source to import data. Once a model is deployed, impersonation can be configured in a model database connection string property by using SQL Server Management Studio (SSMS). For tabular models in Azure Analysis Services, you can use SSMS or the **View as: Script** mode in the browser-based designer to edit the Model.bim file in JSON.
+ Where, and in what context a model exists determines how impersonation is configured. When creating a new model project, impersonation is configured in Visual Studio when you connect to a data source to import data. When a model is deployed, impersonation can be configured in a model database connection string property by using SQL Server Management Studio (SSMS). For tabular models in Azure Analysis Services, you can use SSMS or the **View as: Script** mode in the browser-based designer to edit the Model.bim file in JSON.
   
 ## How impersonation is used
 
  *Impersonation* is the ability of a server application, such as Analysis Services, to assume the identity of a client application. Analysis Services runs using a service account, however, when the server establishes a connection to a datasource, it uses impersonation so that access checks for data import and processing can be performed.  
   
- Credentials used for impersonation are different from the credentials you are currently signed in on with. Sign in user credentials are used for particular client-side operations when authoring a model.  
-  
- It is important to understand how impersonation credentials are specified and secured, as well as the difference between contexts in which both your signed on user credentials are used and when other impersonation credentials are used.  
+It's important to understand how impersonation credentials are specified and secured, as well as the difference between contexts in which both your signed on user credentials are used and when other impersonation credentials are used.  
   
 ### Understanding server-side credentials
 
@@ -43,7 +41,7 @@ When data is imported or processed, impersonation credentials are used to connec
   
  Similarly, for existing models that have already been created, you use the **Table Properties** dialog to preview and filter data imported into a table.  
   
- The preview and filter features, **Table Properties**, and **Partition Manager** dialog boxes are an in-process *client-side* operation; that is, what is done during this operation are different from how the datasource is connected to and data is fetched from the datasource; a server-side operation. The credentials used to preview and filter data are the credentials of the user currently signed on. In-effect, your credentials. 
+ The preview and filter features, **Table Properties**, and **Partition Manager** dialog boxes are an in-process *client-side* operation; that is, what is done during this operation are different from how the datasource is connected to and data is fetched from the datasource; a server-side operation. The credentials used to preview and filter data are the credentials of the user currently signed on, in-effect, your credentials. 
   
  The separation of credentials used during server-side and client-side operations can lead to a mismatch in what you see and what data is fetched during an import or process (a server-side operation). If the credentials you are currently signed in with and the impersonation credentials specified are different, the data you see in the preview and filter features or the **Table Properties** dialog and the data fetched during an import or process can be different, depending on the credentials required by the datasource.  
   
@@ -76,10 +74,10 @@ When data is imported or processed, impersonation credentials are used to connec
   
 ## Security
 
- Credentials used with impersonation are persisted in-memory by the VertiPaq&trade; engine. Credentials are never written to disk. If the workspace database is not in-memory when the model is deployed, the user is prompted to enter the credentials used to connect to the datasource and fetch data.  
+ Credentials used with impersonation are persisted in-memory by the VertiPaq engine. Credentials are never written to disk. If the workspace database is not in-memory when the model is deployed, the user is prompted to enter the credentials used to connect to the datasource and fetch data.  
   
 > [!NOTE]  
-> It is recommended you specify a Windows user account and password for impersonation credentials. A Windows user account can be configured to use least privileges necessary to connect to and read data from the datasource.  
+> It's recommended you specify a Windows user account and password for impersonation credentials. A Windows user account can be configured to use least privileges necessary to connect to and read data from the datasource.  
 
 ## See also
 

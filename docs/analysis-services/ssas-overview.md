@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 [!INCLUDE[ssas-appliesto-sqlas-all](includes/ssas-appliesto-sqlas-all.md)]
 
-Analysis Services is an analytical data engine (Vertipaq) used in decision support and business analytics. It provides enterprise-grade semantic data models for business reports and client applications such as Power BI, Excel, Reporting Services reports, and other data visualization tools. 
+Analysis Services is an analytical data engine (VertiPaq) used in decision support and business analytics. It provides enterprise-grade semantic data models for business reports and client applications such as Power BI, Excel, Reporting Services reports, and other data visualization tools. 
 
 Installed as an on-premises server instance, SQL Server Analysis Services supports tabular models at all compatibility levels (depending on version), multidimensional models, data mining, and Power Pivot for SharePoint. 
 
