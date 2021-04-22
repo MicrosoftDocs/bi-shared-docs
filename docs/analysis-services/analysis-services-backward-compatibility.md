@@ -1,7 +1,7 @@
 ---
 title: "SQL Server Analysis Services backward compatibility | Microsoft Docs"
 description: Learn about changes in feature availability and behavior between the current version and the previous versions of SQL Server Analysis Services.
-ms.date: 01/29/2020
+ms.date: 04/22/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -68,7 +68,7 @@ The following features were deprecated in an earlier release and are no longer s
   
 | Mode/Category | Feature |
 | ------------- | ------- |
-|Tabular|VertipaqPagingPolicy memory property value (2), enable paging to disk using memory mapped files.|
+|Tabular|VertiPaqPagingPolicy memory property value (2), enable paging to disk using memory mapped files.|
 |Multidimensional|Remote partitions|  
 |Multidimensional|Remote linked measure groups|  
 |Multidimensional|Dimensional writeback|  
