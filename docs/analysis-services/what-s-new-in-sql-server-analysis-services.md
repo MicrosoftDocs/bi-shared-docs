@@ -1,6 +1,6 @@
 ---
 title: "What's new in SQL Server Analysis Services | Microsoft Docs"
-ms.date: 07/27/2020
+ms.date: 04/29/2021
 description: Learn about new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
 ms.prod: sql
 ms.technology: analysis-services
@@ -129,7 +129,7 @@ The modern Get Data experience provides support for a wide range of data sources
 
 ![Advanced mashup](../analysis-services/media/as-get-data-advanced.png)
 
-The modern Get Data experience and M mashup capabilities do not apply to existing tabular models upraded from the 1200 compatibility level to 1400. The new experience only applies to new models created at the 1400 compatibility level.
+The modern Get Data experience and M mashup capabilities do not apply to existing tabular models upgraded from the 1200 compatibility level to 1400. The new experience only applies to new models created at the 1400 compatibility level.
 
 ### Encoding hints
 
