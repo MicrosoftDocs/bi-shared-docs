@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services DAX properties | Microsoft Docs"
 description: Learn about the DAX section of msmdsrv.ini which contains settings used to control certain query behaviors in Analysis Services.
-ms.date: 09/07/2019
+ms.date: 05/03/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
