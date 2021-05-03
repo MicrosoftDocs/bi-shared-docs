@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services Feature properties | Microsoft Docs"
 description: Learn about the available feature properties in Analysis Services, like ManagedCodeEnabled and ComUdfEnabled. 
-ms.date: 09/07/2019
+ms.date: 05/03/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
+
 # Feature properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
 
   Feature properties pertain to product features, most of them advanced, including properties that control links between server instances.  
   

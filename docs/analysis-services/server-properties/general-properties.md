@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services general properties | Microsoft Docs"
 description:  Learn about the available general properties in Analysis Services, like AdminTimeout and ExternalCommandTimeout. 
-ms.date: 01/10/2020
+ms.date: 05/03/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # General properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
 
 [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following server properties. This articles describes those server properties in the msmdsrv.ini file that are not otherwise included in a specific section, such as Security, Network, or ThreadPool.
   

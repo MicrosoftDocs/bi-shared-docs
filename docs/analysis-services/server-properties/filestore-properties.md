@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services filestore properties | Microsoft Docs"
 description:  Learn about the available filestore properties in Analysis Services, like MemoryLimit and PerformanceTrace. 
-ms.date: 06/07/2018
+ms.date: 05/03/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -11,9 +11,10 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
+
 # Filestore properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
 
 [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following filestore properties. These are all advanced properties that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.
 

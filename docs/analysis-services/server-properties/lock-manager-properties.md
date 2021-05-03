@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services lock manager properties | Microsoft Docs"
 description: Learn about the available lock manager properties in Analysis Services, like DefaultLockTimeoutMS and DeadlockDetectionGranularityMS.
-ms.date: 09/07/2019
+ms.date: 05/03/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # Lock manager properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
 
 [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following lock manager server properties.  
   
