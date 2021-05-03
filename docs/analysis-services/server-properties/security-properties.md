@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services security properties | Microsoft Docs"
 description: Learn about the available security properties in Analysis Services, like RequireClientAuthentication and ServiceAccountIsServerAdmin.
-ms.date: 06/07/2018
+ms.date: 05/03/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # Security properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
 
 An [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following security properties. Not all properties apply to Azure Analysis Services and Power BI Premium. 
 
