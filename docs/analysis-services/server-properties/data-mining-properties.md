@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services Data mining properties | Microsoft Docs"
 description: Learn about the various data mining properties in Analysis Services, for example AllowSessionMiningModels and Microsoft_Neural_Network\ Enabled.
-ms.date: 09/07/2019
+ms.date: 05/03/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
