@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services log properties | Microsoft Docs"
 description: Learn how the Analysis Services instance logs server notifications, errors, and warnings to the msmdsrv.log file - one for each instance you install. 
-ms.date: 06/07/2018
+ms.date: 05/03/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -12,7 +12,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # Log Properties
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
 
   [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the log server properties listed in the following tables. For more information about additional server properties and how to set them, see [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
 
