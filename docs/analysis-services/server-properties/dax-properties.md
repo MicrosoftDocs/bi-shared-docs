@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # DAX properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
 
 For SQL Server Analysis Services, the DAX section of msmdsrv.ini contains settings used to control certain query behaviors in Analysis Services, such as the upper limit on the number of rows returned in a DAX query result set. For Azure Analysis Services, this property can be specified by using XMLA.
 
