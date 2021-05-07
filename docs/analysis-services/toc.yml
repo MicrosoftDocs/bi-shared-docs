@@ -1115,8 +1115,6 @@
             href: ../analysis-services/data-mining/view-the-formula-for-a-time-series-model-data-mining.md
           - name: Change the Colors Used in the Data Mining Viewer
             href: ../analysis-services/data-mining/change-the-colors-used-in-the-data-mining-viewer.md
-      - name: Data Mining Add-Ins for Office
-        href: ../analysis-services/data-mining/sql-server-data-mining-add-ins-for-office.md
     - name: Stored Procedures
       href: ../analysis-services/data-mining/data-mining-stored-procedures-analysis-services-data-mining.md
       items:
