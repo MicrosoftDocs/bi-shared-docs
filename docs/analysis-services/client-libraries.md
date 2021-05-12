@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 05/10/2021
+ms.date: 05/12/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -53,15 +53,15 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 ## Minimum required versions
 
-Transport Layer Security (TLS) protocol version 1.0/1.1 will be [deprecated](/azure/active-directory/fundamentals/whats-new#november-2020) in Azure Active Directory by June 30, 2021. Going forward, TLS 1.2 and higher is required.
+Transport Layer Security (TLS) protocol version 1.0/1.1 will be [deprecated](/azure/active-directory/fundamentals/whats-new#november-2020) in Azure Active Directory by June 30, 2021. Going forward, TLS 1.2 and higher is required. TLS 1.2 is not supported in earlier versions of the Analysis Services client libraries. Newer client library versions include support for TLS 1.2 and higher as well as other important security enhancements.
 
-TLS 1.2 is not supported in earlier versions of the Analysis Services client libraries. Newer client library versions include support for TLS 1.2 and higher as well as other important security enhancements. To minimize risk and potential security vulnerabilities, beginning June 30th, 2021 Analysis Services requires the following or higher versions:
+To minimize risk and potential security vulnerabilities, beginning June 30th, 2021, enhanced security in Azure Analysis Services and Power BI require the following or higher versions:
 
 |Client lib  |File version  | Version  |
 |---------|---------|---------|
-|MSOLAP     |   2018.151.37.40       |    15.1.37.40      |
-|AMO     |   15.1.37.40       |    18.7.0.1      |
-|ADOMD     |   15.1.37.40       |    18.7.0.1      |
+|MSOLAP     |   2018.151.61.21       |    15.1.61.21       |
+|AMO     |   15.1.61.21        |    19.12.3.0      |
+|ADOMD     |   15.1.61.21        |    19.12.3.0      |
 
 ## Known issues
 
