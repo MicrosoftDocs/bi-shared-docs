@@ -24,7 +24,7 @@ author: minewiskan
 ```json   
 {   
   "mergePartitions": {   
-    "object": {   
+    "target": {   
       "database": "salesdatabase",   
       "table": "sales",   
       "partition": "may2015"   
