@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services tabular model object-level security | Microsoft Docs"
 description: Learn how you can define object-level security, which includes table-level security and column-level security in the Roles object.
-ms.date: 03/16/2021
+ms.date: 07/01/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -80,8 +80,6 @@ In this example, the metadataPermission property of the columnPermissions class 
 *  Relationships that reference a secured column work provided the table the column is in is *not* secured.
 
 ## Power BI
-
-Support for OLS in Power BI is in **Preview**.
 
 Visualizations referencing a dataset object with OLS configured display the same message as for a deleted or non-existing object.
 
