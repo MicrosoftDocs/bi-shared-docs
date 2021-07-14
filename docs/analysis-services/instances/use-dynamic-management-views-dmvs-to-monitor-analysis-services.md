@@ -165,7 +165,7 @@ Note: This list may be incomplete. Refer to the [MS-SSAS-T] and [MS-SSAS] protoc
 |[DISCOVER_MEMORYGRANT](/openspecs/sql_server_protocols/ms-ssas/dff0cece-b91f-431d-b277-fdedb766ca0f)|Returns a list of internal memory quota grants that are taken by jobs that are currently running on the server.|  
 |[DISCOVER_MEMORYUSAGE](/openspecs/sql_server_protocols/ms-ssas/d9df279e-9610-43e3-a24d-5abb69462a97)|Returns the DISCOVER_MEMORYUSAGE statistics for various objects allocated by the server.|  
 |[DISCOVER_OBJECT_ACTIVITY](/openspecs/sql_server_protocols/ms-ssas/8bcedfa1-47d0-4662-9956-575486f0ec15)|Provides resource usage per object since the start of the service.|  
-|[DISCOVER_OBJECT_MEMORY_USAGE](/openspecs/sql_server_protocols/ms-ssas/d9df279e-9610-43e3-a24d-5abb69462a97)|Returns the DISCOVER_MEMORYUSAGE statistics for various objects allocated by the server.|  
+|[DISCOVER_OBJECT_MEMORY_USAGE](/openspecs/sql_server_protocols/ms-ssas/cbac2750-a93e-448b-aa6c-75b622ae8d0d)|Returns the DISCOVER_MEMORYUSAGE statistics for various objects allocated by the server.|  
 |[DISCOVER_PARTITION_DIMENSION_STAT](/openspecs/sql_server_protocols/ms-ssas/26e1111d-586a-4a3c-b1ba-ff8fadfdbd2a)|Returns statistics on the dimension that is associated with a partition.|  
 |[DISCOVER_PARTITION_STAT](/openspecs/sql_server_protocols/ms-ssas/70be72d3-6f3a-4e07-838a-c47bc0a9fb8b)|Returns statistics on aggregations in a particular partition.|  
 |[DISCOVER_PERFORMANCE_COUNTERS](/openspecs/sql_server_protocols/ms-ssas/ca07eb27-b7d8-42f5-a219-661c1ba6f119)|Returns the value of one or more specified performance counters. |  
