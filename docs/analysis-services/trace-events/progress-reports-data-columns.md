@@ -1,7 +1,7 @@
 ---
 title: "Progress Reports Data Columns | Microsoft Docs"
 description: Learn about the data columns for the Progress Reports event category.
-ms.date: 12/07/2018
+ms.date: 07/19/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: trace-events

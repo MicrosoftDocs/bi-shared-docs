@@ -1,7 +1,7 @@
 ---
 title: "Job Graph Events Data Columns | Microsoft Docs"
 description: Learn about the Job Graph Event class-data columns.
-ms.date: 11/11/2020
+ms.date: 07/19/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: trace-events

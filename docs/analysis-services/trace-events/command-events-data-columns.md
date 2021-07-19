@@ -1,7 +1,7 @@
 ---
 title: "Command Events Data Columns | Microsoft Docs"
 description: Learn about the the data columns for each event class in the Command Events event category.
-ms.date: 01/15/2021
+ms.date: 07/19/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: trace-events
