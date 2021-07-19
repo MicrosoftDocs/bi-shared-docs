@@ -1,7 +1,7 @@
 ---
 title: "File Load and Save Event Category | Microsoft Docs"
 description: Learn about the event classes for the File Load and Save event category.
-ms.date: 05/07/2018
+ms.date: 07/19/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: trace-events

@@ -1,7 +1,7 @@
 ---
 title: "CSDLBI Attributes for Report Design | Microsoft Docs"
 description: Learn about the attributes in the extensions to CSDL for tabular modeling that affect Power View query design.
-ms.date: 05/07/2018
+ms.date: 07/19/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
