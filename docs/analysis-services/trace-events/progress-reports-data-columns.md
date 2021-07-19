@@ -1,7 +1,7 @@
 ---
 title: "Progress Reports Data Columns | Microsoft Docs"
 description: Learn about the data columns for the Progress Reports event category.
-ms.date: 12/07/2018
+ms.date: 07/19/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: trace-events
@@ -41,10 +41,10 @@ manager: kfile
 |ObjectReference|15|8|Contains the object reference for the reported event, encoded as XML for all parents and using tags to describe the object.|  
 |ConnectionID|25|1|Contains the unique connection ID associated with the reported event.|  
 |DatabaseName|28|8|Contains the name of the database in which the reported event occurred.|  
-|NTUserName|32|8|Contains the Windows user account associated with the reported event.|  
-|NTDomainName|33|8|Contains the Windows domain account associated with the reported event.|  
+|NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |SessionID|39|8|Contains the session ID associated with the reported event.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Contains the server process ID (SPID) that uniquely identifies the user session associated with the reported event. The SPID directly corresponds to the session GUID used by XML for Analysis (XMLA).|  
 |TextData|42|9|Contains the text data associated with the reported event.|  
 |ServerName|43|8|Contains the name of the instance on which the reported event occurred.|  
@@ -74,10 +74,10 @@ manager: kfile
 |Error|24|1|Contains the error number of a given event.|  
 |ConnectionID|25|1|Contains the unique connection ID associated with the reported event.|  
 |DatabaseName|28|8|Contains the name of the database in which the reported event occurred.|  
-|NTUserName|32|8|Contains the Windows user account associated with the reported event.|  
+|NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
 |NTDomainName|33|8|Contains the Windows domain account associated with the reported event.|  
 |SessionID|39|8|Contains the session ID associated with the reported event.|  
-|NTCanonicalUserName|40|8|Contains the Windows user name associated with the reported event. The user name is in canonical form. For example, engineering.microsoft.com/software/user.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Contains the server process ID (SPID) that uniquely identifies the user session associated with the reported event. The SPID directly corresponds to the session GUID used by XML for Analysis (XMLA).|  
 |TextData|42|9|Contains the text data associated with the reported event.|  
 |ServerName|43|8|Contains the name of the instance on which the reported event occurred.|  
