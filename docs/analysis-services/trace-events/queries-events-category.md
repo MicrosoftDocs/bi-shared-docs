@@ -1,7 +1,7 @@
 ---
 title: "Queries Events Category | Microsoft Docs"
 description: Learn about the event classes for the Queries Events event category.
-ms.date: 05/07/2018
+ms.date: 07/19/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: trace-events

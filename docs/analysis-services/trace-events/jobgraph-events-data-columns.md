@@ -1,7 +1,7 @@
 ---
 title: "Job Graph Events Data Columns | Microsoft Docs"
 description: Learn about the Job Graph Event class-data columns.
-ms.date: 11/11/2020
+ms.date: 07/19/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: trace-events
@@ -32,8 +32,8 @@ author: minewiskan
 |EventSubclass|Contains the class of event within the event. Supported values are:<br /><br /> 1: Graph Begin<br /><br /> 2: Graph End|
 |Identity|Identity information of current user.|
 |IntegerData|An ordinal that identifies the position of a "TextData" portion in the entire graph|
-|NTDomainName|Contains the Windows domain associated with the event.|
-|NTUserName|Contains the Windows user name associated with the event. The user name is in canonical form. For example, engineering.microsoft.com/software/user.|
+|NTDomainName|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|
+|NTUserName|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|
 |RequestID|The request ID used to track a request.|
 |SPID|Contains the server process ID (SPID) that uniquely identifies the user session associated with the event. The SPID directly corresponds to the session GUID used by XMLA.|
 |ServerName|Contains the name of the instance on which the event occurred.|

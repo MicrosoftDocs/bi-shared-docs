@@ -1,7 +1,7 @@
 ---
 title: "Discover Events Data Columns | Microsoft Docs"
 description: Learn about the Discover Event data classes and Discover Begin class-data columns.
-ms.date: 01/07/2021
+ms.date: 07/19/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: trace-events
@@ -31,12 +31,12 @@ manager: kfile
 |StartTime|3|5|Time at which the event started, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  
 |ConnectionID|25|1|Contains the unique connection ID associated with the discover event.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTUserName|32|8|Contains the Windows user name associated with the discover event. The user name is in canonical form. For example, engineering.microsoft.com/software/user.|  
-|NTDomainName|33|8|Contains the Windows domain associated with the discover event.|  
+|NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |ClientProcessID|36|1|Contains the process ID of the client application.|  
 |ApplicationName|37|8|Name of the client application that created the connection to the server. This column is populated with the values passed by the application rather than the displayed name of the program.|  
 |SessionID|39|8|Contains the session ID associated with the discover event.|  
-|NTCanonicalUserName|40|8|Contains the Windows user name associated with the discover event. The user name is in canonical form. For example, engineering.microsoft.com/software/user.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Contains the server process ID (SPID) that uniquely identifies the user session associated with the discover event. The SPID directly corresponds to the session GUID used by XMLA.|  
 |TextData|42|9|Contains the text data associated with the event.|  
 |ServerName|43|8|Contains the name of the instance on which the discover event occurred.|  
@@ -59,11 +59,11 @@ manager: kfile
 |ConnectionID|25|1|Contains the unique connection ID associated with the discover event.|  
 |DatabaseName|28|8|Contains the name of the database in which the discover event occurred.|  
 |NTUserName|32|8|Contains the Windows user name associated with the object permission event.|  
-|NTDomainName|33|8|Contains the Windows domain account associated with the discover event.|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |ClientProcessID|36|1|Contains the client process ID of the application that initiated the event.|  
 |ApplicationName|37|8|Contains the name of the client application that created the connection to the server. This column is populated with the values passed by the application rather than the displayed name of the program.|  
 |SessionID|39|8|Contains the session ID associated with the discover event.|  
-|NTCanonicalUserName|40|8|Contains the Windows user name associated with the object permission event. The user name is in canonical form. For example, engineering.microsoft.com/software/user.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Contains the server process ID (SPID) that uniquely identifies the user session associated with the discover end event. The SPID directly corresponds to the session GUID used by XMLA.|  
 |TextData|42|9|Contains the text data associated with the event.|  
 |ServerName|43|8|Contains the name of the instance on which the discover event occurred.|  

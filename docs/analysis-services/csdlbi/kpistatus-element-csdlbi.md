@@ -1,7 +1,7 @@
 ---
 title: "KpiStatus Element (CSDLBI) | Microsoft Docs"
 description: Learn about the KpiStatus element, which defines a reference to the column that contains the value used as the status indicator in a KPI.
-ms.date: 05/07/2018
+ms.date: 07/19/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
