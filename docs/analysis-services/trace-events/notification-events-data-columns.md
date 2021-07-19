@@ -42,10 +42,10 @@ manager: kfile
 |ObjectReference|15|8|Contains the object reference for the progress report end event. The object reference is encoded as XML by all parents by using tags to describe the object.|  
 |ConnectionID|25|1|Contains the unique connection ID associated with the notification event.|  
 |DatabaseName|28|8|Contains the name of the database in which the notification event occurred.|  
-|NTUserName|32|8|Contains the Windows user name associated with the notification event.|  
-|NTDomainName|33|8|Windows domain to which the user belongs.|  
+|NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |SessionID|39|8|Contains the session ID associated with the notification event.|  
-|NTCanonicalUserName|40|8|Contains the Windows user name associated with the notification event. The user name is in canonical form. For example, engineering.microsoft.com/software/user.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Contains the server process ID (SPID) that uniquely identifies the user session associated with the notification event. The SPID directly corresponds to the session GUID used by XMLA.|  
 |TextData|42|9|Contains the text data associated with the notification event.|  
 |ServerName|43|8|Contains the name of the Analysis Services instance on which the notification event occurred.|  
@@ -61,8 +61,8 @@ manager: kfile
 |IntegerData|10|1|A specific user defined event information.|  
 |ConnectionID|25|1|Contains the unique connection ID associated with the notification event.|  
 |DatabaseName|28|8|Contains the name of the database in which the notification event occurred.|  
-|NTUserName|32|8|Contains the Windows user name associated with the notification event.|  
-|NTDomainName|33|8|Windows domain to which the user belongs.|  
+|NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |SessionID|39|8|Contains the session ID associated with the notification event.|  
 |NTCanonicalUserName|40|8|Contains the Windows user name associated with the notification event. The user name is in canonical form. For example, engineering.microsoft.com/software/user.|  
 |SPID|41|1|Contains the server process ID (SPID) that uniquely identifies the user session associated with the notification event. The SPID directly corresponds to the session GUID used by XMLA.|  

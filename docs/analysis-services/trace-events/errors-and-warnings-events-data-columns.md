@@ -31,8 +31,8 @@ manager: kfile
 |Error|24|1|Contains the error number of any error associated with the error event.|  
 |ConnectionID|25|1|Contains the unique connection ID associated with the error event.|  
 |DatabaseName|28|8|Contains the name of the Analysis Services instance on which the error event occurred.|  
-|NTUserName|32|8|Contains the Windows user name associated with the error event.|  
-|NTDomainName|33|8|Contains the Windows domain account associated with the login event.|  
+|NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |ClientHostName|35|8|Contains the name of the computer on which the client is running. This data column is populated if the host name is provided by the client.|  
 |ClientProcessID|36|1|Contains the process ID of the client application.|  
 |ApplicationName|37|8|Contains the name of the client application that created the connection to the server. This column is populated with the values passed by the application rather than the displayed name of the program.|  

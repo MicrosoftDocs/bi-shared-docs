@@ -58,7 +58,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -79,7 +79,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -100,7 +100,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -122,7 +122,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -143,7 +143,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -164,7 +164,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -186,7 +186,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -207,7 +207,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -229,7 +229,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -250,7 +250,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -272,7 +272,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -294,7 +294,7 @@ manager: kfile
 |ObjectPath|14|8|Object path. A comma-separated list of parents, starting with the object's parent.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -314,7 +314,7 @@ manager: kfile
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
 |SessionID|39|8|Session GUID.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -334,7 +334,7 @@ manager: kfile
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
 |SessionID|39|8|Session GUID.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -353,7 +353,7 @@ manager: kfile
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
 |SessionID|39|8|Session GUID.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -373,7 +373,7 @@ manager: kfile
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
 |SessionID|39|8|Session GUID.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -395,10 +395,10 @@ manager: kfile
 |ObjectReference|15|8|Object reference. Encoded as XML for all parents, using tags to describe the object.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTUserName|32|8|Windows user name.|  
-|NTDomainName|33|8|Windows domain to which the user belongs.|  
+|NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |SessionID|39|8|Session GUID.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -428,10 +428,10 @@ manager: kfile
 |Error|24|1|Error number of a given event.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTUserName|32|8|Windows user name.|  
-|NTDomainName|33|8|Windows domain to which the user belongs.|  
+|NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |SessionID|39|8|Session GUID.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -444,12 +444,12 @@ manager: kfile
 |CurrentTime|2|5|Time at which the event started, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTUserName|32|8|Windows user name.|  
-|NTDomainName|33|8|Windows domain to which the user belongs.|  
+|NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |ClientProcessID|36|1|The process ID of the client application.|  
 |ApplicationName|37|8|Name of the client application that created the connection to the server. This column is populated with the values passed by the application rather than the displayed name of the program.|  
 |SessionID|39|8|Session GUID.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
@@ -470,10 +470,10 @@ manager: kfile
 |ObjectReference|15|8|Object reference. Encoded as XML for all parents, using tags to describe the object.|  
 |ConnectionID|25|1|Unique connection ID.|  
 |DatabaseName|28|8|Name of the database in which the statement of the user is running.|  
-|NTUserName|32|8|Windows user name.|  
-|NTDomainName|33|8|Windows domain to which the user belongs.|  
+|NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |SessionID|39|8|Session GUID.|  
-|NTCanonicalUserName|40|8|User name in canonical form. For example, engineering.microsoft.com/software/someone.|  
+|NTCanonicalUserName|40|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account (Power BI Service)|  
 |SPID|41|1|Server process ID. This uniquely identifies a user session. This directly corresponds to the session GUID used by XML/A.|  
 |TextData|42|9|Text data associated with the event.|  
 |ServerName|43|8|Name of the server producing the event.|  
