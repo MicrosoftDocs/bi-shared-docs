@@ -437,6 +437,8 @@ Calculation groups are supported in Visual Studio with Analysis Services Project
 
 Implicit column aggregations in Power BI are not supported for models with calculation groups. Currently, if **DiscourageImplicitMeasures** property is set to **false** (default), aggregation options appear, however they cannot be applied. If **DiscourageImplicitMeasures** is set to **true**, aggregation options do not appear.
 
+In case of creating reports using LiveConnection, Dynamic format strings are not applied to report-level measures.
+
 ## See also  
 
 [DAX in tabular models](understanding-dax-in-tabular-models-ssas-tabular.md)   
