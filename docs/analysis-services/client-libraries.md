@@ -20,17 +20,14 @@ Client libraries are necessary for client applications and tools to connect to A
 
 ## Download the latest
 
-> [!IMPORTANT]
-> Client libraries are currently unavailable for download.
-
 ### Windows Installer  
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.105.16     |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.105.16        |
-|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.24.4.0    |
-|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.24.4.0      |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.99.21         |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.99.21             |
+|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.22.5.0         |
+|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.22.5.0           |
 
 ### NuGet packages
 
