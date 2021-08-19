@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 8/13/2021
+ms.date: 08/19/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -19,6 +19,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. Custom client applications also require client libraries are installed. Client libraries are updated monthly. Before downloading, be sure to see [Known issues](#known-issues).
 
 ## Download the latest
+
+> [!IMPORTANT]
+> Client libraries are currently unavailable for download.
 
 ### Windows Installer  
 
