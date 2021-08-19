@@ -1,7 +1,7 @@
 ---
 title: "Calculation groups in Analysis Services tabular models | Microsoft Docs"
 description: Learn how calculation groups can significantly reduce the number of redundant measures by grouping common measure expressions as calculation items. 
-ms.date: 12/01/2020
+ms.date: 08/17/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -436,6 +436,8 @@ Calculation groups are supported in Visual Studio with Analysis Services Project
 [Smart narrative](/power-bi/visuals/power-bi-visualization-smart-narrative) visuals in Power BI are not supported with calculation groups.
 
 Implicit column aggregations in Power BI are not supported for models with calculation groups. Currently, if **DiscourageImplicitMeasures** property is set to **false** (default), aggregation options appear, however they cannot be applied. If **DiscourageImplicitMeasures** is set to **true**, aggregation options do not appear.
+
+When creating Power BI reports using LiveConnection, Dynamic format strings are not applied to report-level measures.
 
 ## See also  
 
