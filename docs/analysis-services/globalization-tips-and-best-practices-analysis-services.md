@@ -97,7 +97,7 @@ These tips and guidelines can help increase the portability of your business int
   
 - In Object Explorer | **Connect** | **Analysis Services** | **Options**, click the **Additional Connection Parameters** tab.  
   
-- Enter `Local Identifier=1036` and then click **Connect**.  
+- Enter `Locale Identifier=1036` and then click **Connect**.  
   
 - Execute an MDX query against the Adventure Works database. The query results should be the French translations.  
   
