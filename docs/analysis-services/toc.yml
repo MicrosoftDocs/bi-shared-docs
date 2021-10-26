@@ -1577,26 +1577,24 @@
       href: ../analysis-services/data-mining/data-mining-programming.md
     - name: OLE DB for Data Mining
       href: ../analysis-services/data-mining/data-mining-programming-ole-db.md
-
   - name: Tabular Object Model (TOM)
     items: 
     - name: Tabular Object Model overview
       href: tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md
-    - name: Add a data source to tabular model (TOM)
-      href: tom/add-a-data-source-to-tabular-model-analysis-services-amo-tom.md
     - name: Connect to existing server and database (TOM)
       href: tom/connect-to-existing-analysis-services-tabular-server-and-database.md
+    - name: List existing tabular databases on a server (TOM)
+      href: tom/list-existing-databases-on-a-tabular-server-analysis-services-amo-tom.md
     - name: Create and deploy an empty database (TOM)
       href: tom/create-and-deploy-an-empty-database-analysis-services-amo-tom.md
+    - name: Add a data source to tabular model (TOM)
+      href: tom/add-a-data-source-to-tabular-model-analysis-services-amo-tom.md
     - name: Create tables, partitions, and columns (TOM)
       href: tom/create-tables-partitions-and-columns-in-a-tabular-model.md
     - name: Handling errors in the TOM API (TOM)
       href: tom/handling-errors-in-the-tom-api-analysis-services-amo-tom.md
     - name: Install, distribute, and reference AMO-TOM assemblies
       href: tom/install-distribute-and-reference-the-tabular-object-model.md
-    - name: List existing tabular databases on a server (TOM)
-      href: tom/list-existing-databases-on-a-tabular-server-analysis-services-amo-tom.md
-
   - name: Tabular Model Scripting Language (TMSL)
     items: 
     - name: Tabular Model Scripting Language overview
