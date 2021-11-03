@@ -40,11 +40,11 @@ Once you navigate to the **Premium** tab of the **Settings** pane, copy the Work
 
 :::image type="content" source="media/tom-pbi-datasets/dataset-connection-string.png" alt-text="Workspace connection string in dataset Settings." border="false":::
 
-The next step is to create a new .NET application in which you write the C# code that programs using TOM. You can create a Web application or a Desktop application using .NET 5, .NET Core 3.1, or older versions on the .NET Framework. In this article we create a simple C# console application using the [].NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0).
+The next step is to create a new .NET application in which you write the C# code that programs using TOM. You can create a Web application or a Desktop application using .NET 5, .NET Core 3.1, or older versions on the .NET Framework. In this article we create a simple C# console application using the [.NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0).
 
 ### Create a new console application
 
-Begin by using the .NET CLI to create a new console application.
+Begin by using the [.NET CLI](/dotnet/core/tools/) to create a new console application.
 
 ```dotnetcli
 dotnet new console --name`
