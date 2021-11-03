@@ -15,9 +15,9 @@ author: tedpattison
 
 [!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
-This article was initially created by the Power BI Customer Advisory Team (CAT) for [Power BI Dev Camp](https://www.powerbidevcamp.net/), a collection of sessions, articles, and videos about advanced programming for Power BI.
+This article was originally created by the Power BI Customer Advisory Team (CAT) for [Power BI Dev Camp](https://www.powerbidevcamp.net/), a collection of sessions, articles, and videos about advanced programming for Power BI.
 
-The XMLA endpoint is significant to Power BI developers because it provides APIs to interact with the Analysis Services engine running in the Power BI Service and to directly program against Power BI datasets. A growing number of Power BI professionals have found that they can create, view and manage Power BI datasets by using pre-existing tools that use the XMLA protocol such as SQL Server Management Studio, Tabular Editor, and DAX Studio. As a .NET developer, you can now write C# code in a .NET application to create and modify datasets directly in the Power BI Service.
+Power BI Premium datasets include the XMLA endpoint. The endpoint is significant to Power BI developers because it provides APIs to interact with the Analysis Services engine running in the Power BI Service and to directly program against Power BI datasets. A growing number of Power BI professionals have found that they can create, view and manage Power BI datasets by using pre-existing tools that use the XMLA protocol such as SQL Server Management Studio, Tabular Editor, and DAX Studio. As a .NET developer, you can now write C# code in a .NET application to create and modify datasets directly in the Power BI Service.
 
 The Tabular Object Model (TOM) is a .NET library that provides an abstract layer on top of the XMLA endpoint. It allows developers to write code in terms of a intuitive programming model that includes classes like **Model**, **Table**, **Column**, and **Measure**. Behind the scenes, TOM translates the read and write operations in your code into HTTP requests executed against the XMLA endpoint.
 
