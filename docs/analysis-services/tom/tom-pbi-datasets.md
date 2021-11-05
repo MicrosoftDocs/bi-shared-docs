@@ -1,7 +1,7 @@
 ---
 title: "Programming Power BI datasets with the Tabular Object Model (TOM) | Microsoft Docs"
 description: Overview of using the Tabular Object Model to create, view, and manage Power BI datasets through the XMLA endpoint.
-ms.date: 11/02/2021
+ms.date: 11/05/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -15,7 +15,7 @@ author: tedpattison
 
 [!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
-This article was originally created by the Power BI Customer Advisory Team (CAT) for [Power BI Dev Camp](https://www.powerbidevcamp.net/), a collection of sessions, articles, and videos about advanced programming for Power BI.
+This article was originally created by the Power BI Customer Advisory Team (CAT) for [Power BI Dev Camp](https://www.powerbidevcamp.net/), a collection of sessions, articles, and videos about advanced programming for Power BI. 
 
 Power BI Premium datasets include the XMLA endpoint. The endpoint is significant to Power BI developers because it provides APIs to interact with the Analysis Services engine running in the Power BI Service and to directly program against Power BI datasets. A growing number of Power BI professionals have found that they can create, view and manage Power BI datasets by using pre-existing tools that use the XMLA protocol such as SQL Server Management Studio, Tabular Editor, and DAX Studio. As a .NET developer, you can now write C# code in a .NET application to create and modify datasets directly in the Power BI Service.
 
@@ -23,7 +23,7 @@ The Tabular Object Model (TOM) is a .NET library that provides an abstract layer
 
 :::image type="content" source="media/tom-pbi-datasets/endpoint-diagram.png" alt-text="Diagram of application to dataset through the XMLA endpoint." border="false":::
 
-The focus of this article is getting started with TOM and demonstrating how to write the C# code required to create and modify datasets while they're running in the Power BI Service. However, TOM can also be used in scenarios that do not involve the XMLA endpoint such as when programming against a local dataset running in Power BI Desktop. You can read through Phil Seamark's blog series and watch the video from the Power BI Dev Camp titled How to Program Datasets using the Tabular Object Model (TOM) to learn more about using TOM with Power BI Desktop.
+The focus of this article is getting started with TOM and demonstrating how to write the C# code required to create and modify datasets while they're running in the Power BI Service. However, TOM can also be used in scenarios that do not involve the XMLA endpoint, such as when programming against a local dataset running in Power BI Desktop. To learn more about using TOM with Power BI Desktop, see Power BI CAT member Phil Seamark's [blog series](https://dax.tips/2020/07/09/using-visual-studio-code-with-power-bi/), and be sure watch the video from the Power BI Dev Camp titled [How to Program Datasets using the Tabular Object Model (TOM)](https://www.youtube.com/watch?v=Wt9jB2Had74).
 
 TOM represents a new and powerful API for Power BI developers that is separate and distinct from the Power BI REST APIs. While there is some overlap between these two APIs, each of these APIs includes a significant amount of functionality not included in the other. Furthermore, there are scenarios that require a developer to use both APIs together to implement a full solution.
 
