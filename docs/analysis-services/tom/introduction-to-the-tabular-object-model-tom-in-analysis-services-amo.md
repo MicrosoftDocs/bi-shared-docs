@@ -1,7 +1,7 @@
 ---
-title: "Tabular Object Model (TOM) in AMO | Microsoft Docs"
+title: "Tabular Object Model (TOM) | Microsoft Docs"
 description: Learn about the Tabular Object Model (TOM), which supports programming for tabular models created at compatibility level 1200 and higher.
-ms.date: 12/07/2020
+ms.date: 11/05/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -14,7 +14,7 @@ author: minewiskan
 
 [!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
-The Tabular Object Model (TOM) is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher. As with AMO, TOM provides a programmatic way to handle administrative functions like creating models, importing and refreshing data, and assigning roles and permissions. 
+The Tabular Object Model (TOM) is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher. As with AMO, TOM provides a programmatic way to handle administrative functions like creating models, importing and refreshing data, and assigning roles and permissions.
   
 TOM exposes native tabular metadata, such as **model**, **tables**, **columns**, and **relationships** objects. A high-level view of the object model tree, provided below, illustrates how the component parts are related.
   
@@ -32,7 +32,7 @@ Currently, the API is available only for managed code over the .NET framework. T
  The lowest level descendant of any parent object in this hierarchy is an **Annotation** object that can be used to optionally extend the schema as long as you provide the code to handle it.  
   
  ![object hierarchy diagram](media/ssastomobjectmodeldiagram.png "object hierarchy diagram")  
-  
+
 ## TOM and other related technologies
 
 TOM is built on top of the AMO infrastructure, which also accommodates multidimensional and tabular databases at compatibility levels below 1200. This has some practical implications. When you manage objects not specified in tabular metadata (such as a **Server** or **Database**), you need to leverage parts of the existing AMO stack that describe those objects. Along with the legacy API is the concept of major and minor objects that provide granular descriptions of object state as discovered from the server, or when saved to the server. The MajorObject class under Microsoft.AnalysisServices namespace exposes methods for **Refresh** and **Update**. Minor objects are only refresh or saved via the major object that contains them.
@@ -52,3 +52,19 @@ Although both TMSL and TOM expose the same objects, **Table**, **Column** and so
 As a user, you can choose whether to manage tabular databases through the TOM library from your C# program or PowerShell script, or through TMSL script executed through PowerShell, SQL Server Management Studio (SSMS), or a SQL Server Agent Job.
 
 The decision to use one or the other will come down to the specifics of your requirements. The TOM library provides richer functionality compared to TMSL. Specifically, whereas TMSL only offers coarse-grained operations at the database, table, partition, or role level, TOM allows operations at a much finer grain. To generate or update models programmatically, you will need the full extent of the API in the TOM library.
+
+## Using TOM with Power BI
+
+Power BI Premium, Premium Per User, and Power BI Embedded workspaces support open-platform connectivity through the XMLA endpoint. With the XMLA endpoint, custom tools, script, and automated processes can be used for data modeling and to perform workspace and dataset administrative tasks.
+
+Before creating a .Net application using TOM to work with Power BI datasets, be sure to read [Dataset connectivity with the XMLA endpoint](/power-bi/admin/service-premium-connect-tools) in the Power BI documentation. This article describes how to enable the XMLA endpoint for read-write access, get a workspace connection URL, and other important aspects for dataset management with external tools and scripts.  
+
+To learn more about using the tabular object model for dataset administration and management, see [Programming Power BI datasets (TOM)](tom-pbi-datasets.md).
+
+## See also
+
+[Compatibility level for tabular models](../tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md)  
+[Analysis Services client libraries](../client-libraries.md)  
+[XML for Analysis (XMLA) Reference](../xmla/xml-for-analysis-xmla-reference.md)  
+[Analysis Management Objects (AMO)](../amo/developing-with-analysis-management-objects-amo.md)
+
