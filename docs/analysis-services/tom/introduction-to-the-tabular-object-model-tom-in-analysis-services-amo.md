@@ -1,5 +1,5 @@
 ---
-title: "Tabular Object Model (TOM) in AMO | Microsoft Docs"
+title: "Tabular Object Model (TOM) | Microsoft Docs"
 description: Learn about the Tabular Object Model (TOM), which supports programming for tabular models created at compatibility level 1200 and higher.
 ms.date: 11/05/2021
 ms.prod: sql
@@ -14,7 +14,7 @@ author: minewiskan
 
 [!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
 
-The Tabular Object Model (TOM) is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher. As with AMO, TOM provides a programmatic way to handle administrative functions like creating models, importing and refreshing data, and assigning roles and permissions. 
+The Tabular Object Model (TOM) is an extension of the Analysis Management Object (AMO) client library, created to support programming scenarios for tabular models created at compatibility level 1200 and higher. As with AMO, TOM provides a programmatic way to handle administrative functions like creating models, importing and refreshing data, and assigning roles and permissions.
   
 TOM exposes native tabular metadata, such as **model**, **tables**, **columns**, and **relationships** objects. A high-level view of the object model tree, provided below, illustrates how the component parts are related.
   
@@ -53,16 +53,17 @@ As a user, you can choose whether to manage tabular databases through the TOM li
 
 The decision to use one or the other will come down to the specifics of your requirements. The TOM library provides richer functionality compared to TMSL. Specifically, whereas TMSL only offers coarse-grained operations at the database, table, partition, or role level, TOM allows operations at a much finer grain. To generate or update models programmatically, you will need the full extent of the API in the TOM library.
 
-## TOM and Power BI
+## Using TOM with Power BI
 
-Power BI Premium, Premium Per User, and Power BI Embedded workspaces support open-platform connectivity through the XMLA endpoint. With the XMLA endpoint, custom tools, administration scripts, and automated processes can be used to perform data modeling and administrative tasks.
+Power BI Premium, Premium Per User, and Power BI Embedded workspaces support open-platform connectivity through the XMLA endpoint. With the XMLA endpoint, custom tools, script, and automated processes can be used for data modeling and to perform workspace and dataset administrative tasks.
 
 Before creating a .Net application using TOM to work with Power BI datasets, be sure to read [Dataset connectivity with the XMLA endpoint](/power-bi/admin/service-premium-connect-tools) in the Power BI documentation. This article describes how to enable the XMLA endpoint for read-write access, get a workspace connection URL, and other important aspects for dataset management with external tools and scripts.  
 
-To learn more about using the tabular object model in particular for dataset administration and management, see [Programming Power BI datasets (TOM)](tom-pbi-datasets.md).
+To learn more about using the tabular object model for dataset administration and management, see [Programming Power BI datasets (TOM)](tom-pbi-datasets.md).
 
 ## See also
 
+[Compatibility level for tabular models](../tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md)  
 [Analysis Services client libraries](../client-libraries.md)  
 [XML for Analysis (XMLA) Reference](../xmla/xml-for-analysis-xmla-reference.md)  
 [Analysis Management Objects (AMO)](../amo/developing-with-analysis-management-objects-amo.md)
