@@ -57,9 +57,9 @@ The decision to use one or the other will come down to the specifics of your req
 
 Power BI Premium, Premium Per User, and Power BI Embedded workspaces support open-platform connectivity through the XMLA endpoint. With the XMLA endpoint, custom tools, script, and automated processes can be used for data modeling and to perform workspace and dataset administrative tasks.
 
-Before creating a .Net application using TOM to work with Power BI datasets, be sure to read [Dataset connectivity with the XMLA endpoint](/power-bi/admin/service-premium-connect-tools) in the Power BI documentation. This article describes how to enable the XMLA endpoint for read-write access, get a workspace connection URL, and other important aspects for dataset management with external tools and scripts.  
+Before creating a .Net application using TOM to work with Power BI datasets, be sure to read [Dataset connectivity with the XMLA endpoint](/power-bi/admin/service-premium-connect-tools) in the Power BI documentation. This article describes how to enable the XMLA endpoint for read-write access, get a workspace connection URL, and other important aspects for dataset management with custom apps, external tools, and scripts.  
 
-To learn more about using the tabular object model for dataset administration and management, see [Programming Power BI datasets (TOM)](tom-pbi-datasets.md).
+To learn more about using the Tabular Object Model for dataset administration and management, see [Programming Power BI datasets (TOM)](tom-pbi-datasets.md).
 
 ## See also
 
