@@ -22,9 +22,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 Tabular and multidimensional model projects are created by using project templates in Visual Studio with Analysis Services projects extensions (VSIX). Project templates provide model designers and wizards for creating the data model objects that comprise an Analysis Services solution. Analysis Services projects extensions are supported on all Visual Studio 2017 and 2019 editions, including the free Community edition.
 
 > [!IMPORTANT]
-> Analysis Services projects extension is not yet supported in Visual Studio 2022. Visual Studio 2019, including the free Community edition remains available for download [here](/visualstudio/releases/2019/system-requirements#download).
+> Analysis Services projects extension is not yet supported in Visual Studio 2022. Visual Studio 2019, including the free Community edition remains available for download.
 
-[Download Visual Studio](https://visualstudio.microsoft.com/downloads/)
+[Download Visual Studio 2019](/visualstudio/releases/2019/system-requirements#download)
 
 [Download Analysis Services projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects)
 
