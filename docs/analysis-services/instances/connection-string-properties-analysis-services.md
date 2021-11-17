@@ -1,7 +1,7 @@
 ---
 title: "Connection string properties (Analysis Services) | Microsoft Docs"
 description: Learn about connection string properties used to query Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium dataset data.
-ms.date: 01/15/2021
+ms.date: 11/17/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -107,7 +107,7 @@ Properties are listed in alphabetical order.
 
 ### EffectiveUserName
 
-Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. This property is currently not supported in Power BI Premium.
+Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS and Power BI Premium, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. In Power BI Premium, the caller must be a workspace admin where the dataset is located.
 
 ::: moniker-end
 
