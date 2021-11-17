@@ -1,7 +1,7 @@
 ---
 title: "Connection string properties (Analysis Services) | Microsoft Docs"
 description: Learn about connection string properties used to query Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium dataset data.
-ms.date: 01/15/2021
+ms.date: 11/17/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
