@@ -24,7 +24,7 @@ Tabular and multidimensional model projects are created by using project templat
 > [!IMPORTANT]
 > Analysis Services projects extension is not yet supported in Visual Studio 2022. Visual Studio 2019, including the free Community edition remains available for download.
 
-[Download Visual Studio 2019](https://docs.microsoft.com/visualstudio/releases/2019/system-requirements#download)
+[Download Visual Studio 2019](/visualstudio/releases/2019/system-requirements#download)
 
 [Download Analysis Services projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects)
 
