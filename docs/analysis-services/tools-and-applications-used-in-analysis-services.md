@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services tools | Microsoft Docs"
 description: Learn how to find the tools and applications you'll need for building Analysis Services models and managing deployed databases.  
-ms.date: 11/12/2021
+ms.date: 11/18/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -24,7 +24,7 @@ Tabular and multidimensional model projects are created by using project templat
 > [!IMPORTANT]
 > Analysis Services projects extension is not yet supported in Visual Studio 2022. Visual Studio 2019, including the free Community edition remains available for download.
 
-[Download Visual Studio 2019](https://docs.microsoft.com/visualstudio/releases/2019/system-requirements#download)
+[Download Visual Studio 2019](/visualstudio/releases/2019/system-requirements#download)
 
 [Download Analysis Services projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects)
 
