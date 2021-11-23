@@ -148,7 +148,7 @@ In the task in this lesson, you define  KPIs in the [!INCLUDE[ssASnoversion](../
   
 1.  Click the **Form View** button on the toolbar of the **KPIs** tab, and then click the **New KPI** button.  
   
-2.  In the **Name** box, type **Product Gross Profit Margin**, and then verify that **<All>** appears in the **Associated measure group** list.  
+2.  In the **Name** box, type **Product Gross Profit Margin**, and then verify that **\<All\>** appears in the **Associated measure group** list.  
   
 3.  In the **Metadata** tab in the **Calculation Tools** pane, drag the **Total GPM** measure to the **Value Expression** box.  
   

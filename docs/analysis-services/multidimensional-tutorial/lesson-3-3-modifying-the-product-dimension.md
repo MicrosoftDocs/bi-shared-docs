@@ -75,9 +75,9 @@ You can add a named calculation to a table in a data source view. In the followi
   
 1.  Drag the **Product Line** attribute from the **Attributes** pane into the **Hierarchies** pane.  
   
-2.  Drag the **Model Name** attribute from the **Attributes** pane into the **<new level>** cell in the **Hierarchies** pane, underneath the **Product Line** level.  
+2.  Drag the **Model Name** attribute from the **Attributes** pane into the **\<new level\>** cell in the **Hierarchies** pane, underneath the **Product Line** level.  
   
-3.  Drag the **Product Name** attribute from the **Attributes** pane into the **<new level>** cell in the **Hierarchies** pane, underneath the **Model Name** level. (You renamed Product Key to Product Name in the previous section.)  
+3.  Drag the **Product Name** attribute from the **Attributes** pane into the **\<new level\>** cell in the **Hierarchies** pane, underneath the **Model Name** level. (You renamed Product Key to Product Name in the previous section.)  
   
 4.  In the **Hierarchies** pane of the **Dimension Structure** tab, right-click the title bar of the **Hierarchy** hierarchy, click **Rename**, and then type **Product Model Lines**.  
   

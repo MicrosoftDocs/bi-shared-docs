@@ -32,7 +32,7 @@ In the following task, you define the AdventureWorksDWSQLServer2012 sample datab
   
 5.  In the **Server name** text box, type **localhost**.  
   
-    To connect to a named instance on your local computer, type **localhost\\<instance name>**. To connect to the specific computer instead of the local computer, type the computer name or IP address.  
+    To connect to a named instance on your local computer, type **localhost\\\<instance name\>**. To connect to the specific computer instead of the local computer, type the computer name or IP address.  
   
 6.  Verify that **Use Windows Authentication** is selected. In the **Select or enter a database name** list, select **AdventureWorksDW2012**.  
   
