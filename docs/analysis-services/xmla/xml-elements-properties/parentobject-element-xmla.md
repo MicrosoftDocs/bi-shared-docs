@@ -41,7 +41,7 @@ author: minewiskan
 |Relationship|Element|  
 |------------------|-------------|  
 |Parent elements|[Create](../xml-elements-commands/create-element-xmla.md)|  
-|Child elements|Required Analysis Services Scripting Language (ASSL) elements. Specified by listing the ID elements of the object and its ancestors (excluding the **Server** object.) For example, the following **ParentObject** element identifies a partition:<br /><br /> `<ParentObject><br /><br /> `\<DatabaseID\>Adventure Works DW Multidimensional 2012\</DatabaseID\><br /><br /> `<CubeID>Adventure Works</CubeID><br /><br /> `\<MeasureGroupID\>Internet Sales\</MeasureGroupID\><br /><br /> `<PartitionID>Inernet_Sales_2001</PartitionID><br /><br /> `</ParentObject>|  
+|Child elements|Required Analysis Services Scripting Language (ASSL) elements. Specified by listing the ID elements of the object and its ancestors (excluding the **Server** object.) For example, the following **ParentObject** element identifies a partition:<br /><br /> `<ParentObject><br /><br /> `<DatabaseID\>Adventure Works DW Multidimensional 2012\</DatabaseID\><br /><br /> `<CubeID>Adventure Works</CubeID><br /><br /> `\<MeasureGroupID\>Internet Sales\</MeasureGroupID\><br /><br /> `<PartitionID>Inernet_Sales_2001</PartitionID><br /><br /> `</ParentObject>|  
   
 ## Remarks  
  The order in which identifiers appear is not important.  
