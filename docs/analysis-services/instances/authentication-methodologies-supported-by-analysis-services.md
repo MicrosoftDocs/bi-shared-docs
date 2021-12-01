@@ -1,7 +1,7 @@
 ---
 title: "Authentication methodologies supported by Analysis Services | Microsoft Docs"
 description: Learn about the authentication methodologies supported by SQL Server Analysis Services. Claims authentication is not supported.
-ms.date: 05/02/2018
+ms.date: 12/01/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -25,7 +25,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 -   Stored credentials  
   
- Notice that Claims authentication is not supported. You cannot use a Windows Claims token to access Analysis Services. The Analysis Services client libraries only work with Windows security principles. If your BI solution includes claims identities, you will need Windows identity shadow accounts for each user, or use stored credentials to access Analysis Services data.  
+ Notice that Claims authentication is not supported. You cannot use a Windows Claims token to access Analysis Services. The Analysis Services client libraries only work with Windows security principals. If your BI solution includes claims identities, you will need Windows identity shadow accounts for each user, or use stored credentials to access Analysis Services data.  
   
  For more information about BI and Analysis Services authentication flows, see [Microsoft BI Authentication and Identity Delegation](/previous-versions/sql/sql-server-2012/dn186184(v=msdn.10)).  
   
