@@ -1,7 +1,7 @@
 ---
 title: "Programming Power BI datasets with the Tabular Object Model (TOM) | Microsoft Docs"
 description: Overview of using the Tabular Object Model to create, view, and manage Power BI datasets through the XMLA endpoint.
-ms.date: 11/05/2021
+ms.date: 12/01/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -101,7 +101,7 @@ string connectStringUser = $"DataSource={workspaceConnection};User ID={userId};P
 server.Connect(connectStringUser);
 ```
 
-#### Authenticating with a service principle
+#### Authenticating with a service principal
 
 It's also quite easy to authenticate as a service principal instead of as a user. If you've created an Azure AD application with an Application ID and an application secret, you can authenticate your code to run as the service principal for the Azure AD application by using the following code sample:
 
