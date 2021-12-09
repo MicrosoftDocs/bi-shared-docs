@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 11/10/2021
+ms.date: 12/08/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -24,8 +24,8 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    16.0.4.17         |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.4.17             |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.108.23         |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.108.23           |
 |[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.27.2.1         |
 |[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.27.2.1           |
 
