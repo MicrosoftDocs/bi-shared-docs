@@ -83,7 +83,7 @@ Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Micr
 
 #### MSOLAP
 
-A regression related to connection to cloud-based systems using AAD, was discovered in the 16.0.4.17 release of OLEDB [MSOLAP]; until this issue will be fixed in the next release, we have published an older release that does not have the problem. If you encountered the issue, please uninstall the problematic OLEDB release and install the older version [15.1.108.23] that we have republished.
+A regression related to connections to cloud-based systems using AAD was discovered in the 16.0.4.17 version of OLEDB [MSOLAP]. Until fixed in the next version, an earlier version that does not have the issue is currently available for download. If you are encountering the issue, uninstall your OLEDB version and install the earlier [15.1.108.23] version.
 
 ## Understanding client libraries
 
