@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 12/08/2021
+ms.date: 12/09/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -80,6 +80,10 @@ Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL S
 #### AMO
 
 Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
+
+#### MSOLAP
+
+A regression related to connection to cloud-based systems using AAD, was discovered in the 16.0.4.17 release of OLEDB [MSOLAP]; until this issue will be fixed in the next release, we have published an older release that does not have the problem. If you encountered the issue, please uninstall the problematic OLEDB release and install the older version [15.1.108.23] that we have republished.
 
 ## Understanding client libraries
 
