@@ -73,7 +73,7 @@ author: minewiskan
 ## Example  
   
 ## XMLA Rowset for Flat Data  
- For flat data, column names that are specific to the query are defined in the schema as the element names. Also, a pair of `<row\> tags encapsulates each row. 
+ For flat data, column names that are specific to the query are defined in the schema as the element names. Also, a pair of \<row\> tags encapsulates each row. 
   
  The following example shows the XMLA rowset format for flat data.  
   
