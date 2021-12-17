@@ -42,9 +42,9 @@ You can create a new hierarchy by dragging an attribute from the **Attributes** 
   
 1.  Drag the **Country-Region** attribute from the **Attributes** pane into the **Hierarchies** pane.  
   
-2.  Drag the **State-Province** attribute from the **Attributes** pane into the **<new level>** cell in the **Hierarchies** pane, underneath the **Country-Region** level.  
+2.  Drag the **State-Province** attribute from the **Attributes** pane into the **\<new level\>** cell in the **Hierarchies** pane, underneath the **Country-Region** level.  
   
-3.  Drag the **City** attribute from the **Attributes** pane into the **<new level>** cell in the **Hierarchies** pane, underneath the **State-Province** level.  
+3.  Drag the **City** attribute from the **Attributes** pane into the **\<new level\>** cell in the **Hierarchies** pane, underneath the **State-Province** level.  
   
 4.  In the **Hierarchies** pane of the **Dimension Structure** tab, right-click the title bar of the **Hierarchy** hierarchy, select **Rename**, and then type **Customer Geography**.  
   
@@ -105,7 +105,7 @@ After you have created a named calculation in the data source view, you can use 
   
 6.  Select **FullName** at the bottom of the **Source column** list, and then click **OK**.  
   
-7.  In the Dimensions Structure tab, drag the **Full Name** attribute from the **Attributes** pane into the **<new level>** cell in the **Hierarchies** pane, underneath the **City** level.  
+7.  In the Dimensions Structure tab, drag the **Full Name** attribute from the **Attributes** pane into the **\<new level\>** cell in the **Hierarchies** pane, underneath the **City** level.  
   
 8.  On the **File** menu, click **Save All**.  
   

@@ -19,7 +19,7 @@ manager: kfile
   
  Type elements, like objects elements, are never leaf-level elements in the ASSL schema, but have child elements and elements that correspond to object properties.  
   
- However a type element never appears as an element in a script that defines or describes Analysis Services objects. Instead it appears as the type of other object elements, normally designated with the **type** attribute from the XML Schema Instance schema using **xsi:type** or **xs:type**. For example, `<Assembly xsi:type="ClrAssembly">...</Assembly>.  
+ However a type element never appears as an element in a script that defines or describes Analysis Services objects. Instead it appears as the type of other object elements, normally designated with the **type** attribute from the XML Schema Instance schema using **xsi:type** or **xs:type**. For example, `<Assembly xsi:type="ClrAssembly"\>...</Assembly\>`.  
   
  In some cases, a type derives from another type. For example, the **CubeBinding** type derives from the parent **Binding** type.  
   

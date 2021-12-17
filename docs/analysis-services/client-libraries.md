@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 12/09/2021
+ms.date: 12/17/2021
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -24,10 +24,10 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    15.1.108.23         |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     15.1.108.23           |
-|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.27.2.1         |
-|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.27.2.1           |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    16.0.9.17         |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.9.17           |
+|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.32.0.0         |
+|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.32.0.0           |
 
 ### NuGet packages
 
@@ -41,15 +41,15 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.27.2.1     |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.27.2.1       |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.32.0.0     |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.32.0.0       |
 
 #### AMO and ADOMD .Net Core
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.27.2.1      |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.27.2.1        |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.32.0.0      |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.32.0.0        |
 
 ## Minimum required versions
 
@@ -83,7 +83,7 @@ Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Micr
 
 #### MSOLAP
 
-A regression related to connections to cloud-based systems using AAD was discovered in the 16.0.4.17 version of OLEDB [MSOLAP]. Until fixed in the next version, an earlier version that does not have the issue is currently available for download. If you are encountering the issue, uninstall your OLEDB version and install the earlier [15.1.108.23] version.
+A regression related to connections to cloud-based systems using AAD was discovered in the 16.0.4.17 version of OLEDB [MSOLAP]. It was fixed in the 16.0.9.17 version of MSOLAP. 
 
 ## Understanding client libraries
 
