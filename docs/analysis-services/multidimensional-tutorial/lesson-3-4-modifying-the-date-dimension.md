@@ -73,13 +73,13 @@ You can create a new hierarchy by dragging an attribute from the **Attributes** 
   
 1.  In **Dimension Structure** tab of the Dimension Designer for the **Date** dimension, drag the **Calendar Year** attribute from the **Attributes** pane into the **Hierarchies** pane.  
   
-2.  Drag the **Calendar Semester** attribute from the **Attributes** pane into the **<new level>** cell in the **Hierarchies** pane, underneath the **Calendar Year** level.  
+2.  Drag the **Calendar Semester** attribute from the **Attributes** pane into the **\<new level\>** cell in the **Hierarchies** pane, underneath the **Calendar Year** level.  
   
-3.  Drag the **Calendar Quarter** attribute from the **Attributes** pane into the **<new level>** cell in the **Hierarchies** pane, underneath the **Calendar Semester** level.  
+3.  Drag the **Calendar Quarter** attribute from the **Attributes** pane into the **\<new level\>** cell in the **Hierarchies** pane, underneath the **Calendar Semester** level.  
   
-4.  Drag the **English Month Name** attribute from the **Attributes** pane into the **<new level>** cell in the **Hierarchies** pane, underneath the **Calendar Quarter** level.  
+4.  Drag the **English Month Name** attribute from the **Attributes** pane into the **\<new level\>** cell in the **Hierarchies** pane, underneath the **Calendar Quarter** level.  
   
-5.  Drag the **Date Key** attribute from the **Attributes** pane into the **<new level>** cell in the **Hierarchies** pane, underneath the **English Month Name** level.  
+5.  Drag the **Date Key** attribute from the **Attributes** pane into the **\<new level\>** cell in the **Hierarchies** pane, underneath the **English Month Name** level.  
   
 6.  In the **Hierarchies** pane, right-click the title bar of the **Hierarchy** hierarchy, click **Rename**, and then type **Calendar Date**.  
   
