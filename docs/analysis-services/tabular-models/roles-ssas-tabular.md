@@ -1,7 +1,7 @@
 ---
 title: "Configure Analysis Services tabular model roles | Microsoft Docs"
 description: Learn how to configure roles in tabular models so you can define member permissions for a model.
-ms.date: 02/25/2021
+ms.date: 01/07/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-Roles in tabular models define member permissions for a model. Members of the role can perform actions on the model as defined by the role permission. Roles defined with read permissions can also provide additional security at the row-level by using row-level filters. 
+Roles in tabular models define member permissions for a model. Members of the role can perform actions on the model as defined by the role permission. Roles defined with read permissions can also provide additional security at the row-level by using row-level filters.
   
 For Azure Analysis Services and Power BI datasets, users must be in your Azure Active Directory and usernames and groups specified must be by organizational email address or UPN. For SQL Server Analysis Services, roles contain user members by Windows username or by Windows group, and permissions (read, process, administrator).
 
@@ -31,17 +31,21 @@ Information in this article is meant for tabular model authors who define roles 
 
 Roles are used in Analysis Services to manage model data access. There are two types of roles:  
   
-- The server role, a fixed role that provides administrator access to an Analysis Services server instance.  
+- The server role, a fixed role that provides administrator access to an Analysis Services server instance. Server roles do not apply to Power BI. Instead, Power BI uses [workspace roles](/power-bi/collaborate-share/service-roles-new-workspaces).
   
-- Database roles, roles defined by model authors and administrators to control access to a model database and data for non-administrator users.  
+- Database roles, roles defined by model authors and administrators to control access to a model database and data for non-administrator users.
   
-Roles defined for a tabular model are database roles. That is, the roles contain members consisting of users or groups that have specific permissions that define the action those members can take on the model database. A database role is created as a separate object in the database, and applies only to the database in which that role is created. Users and groups are included in the role by the model author, which, by default, has Administrator permissions on the workspace database server; for a deployed model, by an administrator.  
+Roles defined for a tabular model are database roles. That is, the roles contain members consisting of users or groups that have specific permissions that define the action those members can take on the model database. A role is created as a separate object in the database, and applies only to the database in which that role is created. Users and groups are included in the role by the model author, which by default has Administrator permissions on the workspace database server; for a deployed model, by an administrator.  
   
-Roles in tabular models can be further defined with row filters. Row filters use DAX expressions to define the rows in a table, and any related rows in the many direction, that a user can query. Row filters using DAX expressions can only be defined for the Read and Read and Process permissions. To learn more, see [Row Filters](#row-filters) later in this article.  
-  
-By default, when you create a new tabular model project, the model project does not have any roles. Roles can be defined by using the Role Manager dialog box in SSDT. When roles are defined during model authoring, they are applied to the model workspace database. When the model is deployed, the same roles are applied to the deployed model. After a model has been deployed, members of the server role ([Analysis Services Administrator) and database administrators can manage the roles associated with the model and the members associated with each role by using SSMS.  
-  
+Roles in tabular models can be further defined with row filters, also known as *row-level-security*. Row filters use DAX expressions to define the rows in a table, and any related rows in the many direction, that a user can query. Row filters using DAX expressions can only be defined for the Read and Read and Process permissions. In Power BI, model roles are defined in Power BI Desktop and apply only to row-level security. To learn more, see [Row filters](#row-filters) later in this article.
+
+By default, when you create a new tabular model project, the project does not have any roles. Roles can be defined by using the Role Manager dialog box in SSDT. When roles are defined during model authoring, they are applied to the model workspace database. When the model is deployed, the same roles are applied to the deployed model. After a model has been deployed, members of the server role ([Analysis Services Administrator) and database administrators can manage the roles associated with the model and the members associated with each role by using SSMS.  
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+
 ## Permissions
+
+Role permissions described in this section apply only to Azure Analysis Services and SQL Server Analysis Services. In Power BI, permissions are defined for the dataset. To learn more, see [Manage dataset access](/power-bi/connect-data/service-datasets-manage-access-permissions).
 
 Each role has a single defined database permission (except for the combined Read and Process permission). By default, a new role will have the None permission. That is, once members are added to the role with the None permission, they cannot modify the database, run a process operation, query data, or see the database unless a different permission is granted.  
   
@@ -49,17 +53,19 @@ A group or user can be a member of any number of roles, each role with a differe
   
 Each role can have one the following permissions defined:  
   
-|Permissions|Description|Row  filters using DAX|  
+|Permissions|Description|Row filters using DAX|  
 |-----------------|-----------------|----------------------------|  
 |None|Members cannot make any modifications to the model database schema and cannot query data.|Row filters do not apply. No data is visible to users in this role|  
 |Read|Members are allowed to query data (based on row filters) but cannot see the model database in SSMS, cannot make any changes to the model database schema, and the user cannot process the model.|Row filters can be applied. Only data specified in the row filter DAX formula is visible to users.|  
 |Read and Process|Members are allowed to query data (based on row-level filters) and run process operations by running a script or package that contains a process command, but cannot make any changes to the database. Cannot view the model database in SSMS.|Row filters can be applied. Only data specified in the row filter DAX formula can be queried.|  
 |Process|Members can run process operations by running a script or package that contains a process command. Cannot modify the model database schema. Cannot query data. Cannot query the model database in SSMS.|Row filters do not apply. No data can be queried in this role|  
 |Administrator|Members can make modifications to the model schema and can query all data in the model designer, reporting client, and SSMS.|Row filters do not apply. All data can be queried in this role.|  
-  
+
+::: moniker-end
+
 ## Row filters
 
-Row filters define which rows in a table can be queried by members of a particular role. Row filters are defined for each table in a model by using DAX formulas.  
+Row filters, commonly known as [row-level security in Power BI](/power-bi/admin/service-admin-rls), define which rows in a table can be queried by members of a particular role. Row filters are defined for each table in a model by using DAX formulas.  
   
 Row filters can be defined only for roles with Read and Read and Process permissions. By default, if a row filter is not defined for a particular table, members of a role that has Read or Read and Process permission can query all rows in the table unless cross-filtering applies from another table.  
   
@@ -76,10 +82,12 @@ Row filters apply to the specified rows as well as related rows. When a table ha
 The net effect of these permissions on the Transactions table is that members will be allowed to query rows of data where the customer is in the USA, and the product category is bicycles, and the year is 2020. Users would not be able to query any transactions outside of the USA, or any transactions that are not bicycles, or any transactions not in 2020 unless they are a member of another role that grants these permissions.  
   
 You can use the filter, *=FALSE()*, to deny access to all rows for an entire table.  
-  
+
+To learn more about model roles in Power BI, see [row-level security in Power BI](/power-bi/admin/service-admin-rls). 
+
 ### Dynamic security
 
-Dynamic security provides a way to define row level security based on the user name of the user currently logged on or the CustomData property returned from a connection string. In order to implement dynamic security, you must include in your model a table with login (Windows user name) values for users as well as a field that can be used to define a particular permission; for example, a dimEmployees table with a login ID (domain\username) as well as a department value for each employee.  
+Dynamic security provides a way to define row-level security based on the user name of the user currently logged on or the CustomData property returned from a connection string. In order to implement dynamic security, you must include in your model a table with login (Windows user name) values for users as well as a field that can be used to define a particular permission; for example, a dimEmployees table with a login ID (domain\username) as well as a department value for each employee.  
   
 To implement dynamic security, you can use the following functions as part of a DAX formula to return the user name of the user currently logged on, or the CustomData property in a connection string:  
   
