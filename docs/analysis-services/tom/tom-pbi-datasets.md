@@ -139,7 +139,7 @@ public static readonly string[] XmlaScopes = new string[] {
 };
 ```
 
-If you've been programming with the Power BI REST API, you might recognize familiar permissions such as **Content.Create**, **Dataset.ReadWrite.All** and **Workspace.ReadWrite.All**. An interesting observation is that TOM uses the same set of delegated permissions as the Power BI REST API defined within the scope of the Azure AD resource ID of https://analysis.windows.net/powerbi/api.
+If you've been programming with the Power BI REST API, you might recognize familiar permissions such as **Content.Create**, **Dataset.ReadWrite.All** and **Workspace.ReadWrite.All**. An interesting observation is that TOM uses the same set of delegated permissions as the Power BI REST API defined within the scope of the Azure AD resource ID of `https://analysis.windows.net/powerbi/api`.
 
 The fact that both the XMLA endpoint and the Power BI REST API share the same set of delegated permissions has its benefits. Access tokens can be used interchangeably between TOM and the Power BI REST API. Once you have acquired an access token to call into TOM to create a new dataset, you can use the same access token to call the Power BI REST API to set the data source credentials, as described later in this article.
 

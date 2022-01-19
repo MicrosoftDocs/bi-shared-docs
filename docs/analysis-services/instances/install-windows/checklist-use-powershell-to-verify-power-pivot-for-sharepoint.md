@@ -38,8 +38,6 @@ Add-PSSnapin Microsoft.Sharepoint.Powershell -EA 0
 ```  
   
  **Windows PowerShell**  
-  
- For more information on the PowerShell ISE, see [Introducing the Windows PowerShell ISE](https://technet.microsoft.com/library/dd315244.aspx) and [Use Windows PowerShell to administer SharePoint 2013](https://technet.microsoft.com/library/ee806878\(v=office.15\).aspx).  
 
 ![powerpivot in sharepoint general application set](../../../analysis-services/instances/install-windows/media/ssas-powerpivot-logo.png "powerpivot in sharepoint general application set") You can optionally verify a majority of the components in Central Administration, using the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] management dashboard. To open the dashboard in Central Administration, click **General Application Settings**, and then click **Management Dashboard** in the **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)]**. For more information on the dashboard, see [Power Pivot Management Dashboard and Usage Data](../../power-pivot-for-sharepoint-ssas.md).
 
@@ -50,7 +48,7 @@ Add-PSSnapin Microsoft.Sharepoint.Powershell -EA 0
 |-------------|-----------------|  
 |Data refresh is not running|See the section [Timer Jobs](#bkmk_timer_jobs) and verify the **Online [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Data Refresh Timer Job** is online.|  
 |Management dashboard data is old|See the section [Timer Jobs](#bkmk_timer_jobs) and verify the **Management Dashboard Processing Timer Job** is online.|  
-|Some portions of the Management Dashboard|If you install [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint into a farm that has the topology of Central Administration, without Excel Services or [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint, you must download and install the Microsoft ADOMD.NET client library if you want full access to the built-in reports in the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] management dashboard. Some reports in the dashboard use ADOMD.NET to access internal data that provides reporting data on [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] query processing and server health in the farm. See the section [ADOMD.Net client Library](#bkmk_adomd) and the topic [Install ADOMD.NET on Web Front-End Servers Running Central Administration](https://msdn.microsoft.com/c2372180-e847-4cdb-b267-4befac3faf7e).|  
+|Some portions of the Management Dashboard|If you install [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint into a farm that has the topology of Central Administration, without Excel Services or [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint, you must download and install the Microsoft ADOMD.NET client library if you want full access to the built-in reports in the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] management dashboard. Some reports in the dashboard use ADOMD.NET to access internal data that provides reporting data on [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] query processing and server health in the farm. 
   
 ##  <a name="bkmk_windows_service"></a> Analysis Services Windows Service  
  The script in this section verifies the instance of [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] in SharePoint mode. Verify the service is **running**.  
@@ -343,8 +341,6 @@ MSOLAP.4   Oledb        Microsoft OLE DB Provider for OLAP Services 10.0
 MSOLAP.5   Oledb        Microsoft OLE DB Provider for OLAP Services 11.0  
 ```  
   
- For more information, see [Install the Analysis Services OLE DB Provider on SharePoint Servers](https://msdn.microsoft.com/2c62daf9-1f2d-4508-a497-af62360ee859) and [Add MSOLAP.5 as a Trusted Data Provider in Excel Services](../../power-pivot-for-sharepoint-ssas.md?viewFallbackFrom=sql-server-ver15).  
-  
 ##  <a name="bkmk_adomd"></a> ADOMD.Net client Library  
   
 ```  
@@ -359,8 +355,6 @@ name                                                  version      vendor
 Microsoft SQL Server 2008 Analysis Services ADOMD.NET 10.1.2531.0  Microsoft Corporation  
 Microsoft SQL Server 2005 Analysis Services ADOMD.NET 9.00.1399.06 Microsoft Corporation  
 ```  
-  
- For more information, see [Install ADOMD.NET on Web Front-End Servers Running Central Administration](https://msdn.microsoft.com/c2372180-e847-4cdb-b267-4befac3faf7e).  
   
 ##  <a name="bkmk_health_collection"></a> Health Data Collection Rules  
  Verify the **Status** is Online and **Enabled** is True.  

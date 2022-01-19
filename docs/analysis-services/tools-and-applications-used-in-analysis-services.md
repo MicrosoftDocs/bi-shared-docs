@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services tools | Microsoft Docs"
 description: Learn how to find the tools and applications you'll need for building Analysis Services models and managing deployed databases.  
-ms.date: 11/18/2021
+ms.date: 01/19/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -68,4 +68,4 @@ The [Azure portal](https://portal.azure.com/) is the primary tool for creating a
 
  [Azure Analysis Services documentation](/azure/analysis-services/)   
  [Azure Analysis Services REST API](/rest/api/analysisservices/)   
- [Analysis Services scripting and API references](/bi-reference/)
+ [Analysis Services references](analysis-services-references.md)
