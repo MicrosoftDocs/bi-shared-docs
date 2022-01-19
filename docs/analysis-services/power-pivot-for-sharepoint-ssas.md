@@ -1,7 +1,7 @@
 ---
 title: "Power Pivot for SharePoint (SSAS) | Microsoft Docs"
 description: Learn how Analysis Services in Power Pivot mode provides server hosting of Power Pivot data in a SharePoint farm.
-ms.date: 01/29/2020
+ms.date: 01/19/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: ppvt-sharepoint
@@ -23,7 +23,7 @@ Analysis Services in Power Pivot mode provides server hosting of Power Pivot dat
 ## Power Pivot for SharePoint 2019
 
 Support for Power Pivot Gallery and Refresh was removed from SharePoint Server 2019, effectively ending Analysis Services Power Pivot for SharePoint support for SharePoint 2019 and later. To learn more, see [What's deprecated or removed from SharePoint Server 2019](
-https://docs.microsoft.com/sharepoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019#removed-features-in-sharepoint-server-2019). 
+/sharepoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019#removed-features-in-sharepoint-server-2019). 
 
 ## Power Pivot for SharePoint 2016
 

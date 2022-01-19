@@ -1,7 +1,7 @@
 ---
 title: "Lesson 5: Defining Relationships Between Dimensions and Measure Groups | Microsoft Docs"
 description: An overview of defining relationships between dimensions and measure groups for an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 01/19/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -19,7 +19,7 @@ In the previous lessons in this tutorial, you learned that database dimensions a
 For more information, see [Dimension Relationships](../multidimensional-models-olap-logical-cube-objects/dimension-relationships.md).  
   
 > [!NOTE]  
-> Completed projects for all of the lessons in this tutorial are available online. You can jump ahead to any lesson by using the completed project from the previous lesson as a starting point. [Click here](https://go.microsoft.com/fwlink/?LinkID=221866) to download the sample projects that go with this tutorial.  
+> Completed projects for all of the lessons in this tutorial are available online. You can jump ahead to any lesson by using the completed project from the previous lesson as a starting point. See [Analysis Services samples](../analysis-services-samples.md) to download the sample projects that go with this tutorial.  
   
 This lesson contains the following tasks:  
   

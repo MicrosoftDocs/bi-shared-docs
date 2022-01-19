@@ -1,7 +1,7 @@
 ---
 title: "CSDLBI Concepts | Microsoft Docs"
 description: Learn how CSDLBI is based on the Entity Data Framework, which represents data in a way that enables disparate data sets to be programmatically accessed.
-ms.date: 07/19/2021
+ms.date: 01/19/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # CSDLBI Concepts
 
@@ -19,7 +19,7 @@ manager: kfile
   
  This section explains how the CSDLBI representation maps to Analysis Services data models (both tabular and multidimensional), along with examples of each model type.  
   
- Examples used to illustrate these concepts are taken from the AdventureWorks sample database, available on Codeplex. For more information about the samples, see [Adventure Works Samples for SQL Server](https://go.microsoft.com/fwlink/?linkID=220093).  
+ Examples used to illustrate these concepts are taken from the AdventureWorks sample database, available on Codeplex. For more information about the samples, see [Adventure Works Samples for SQL Server](/sql/samples/adventureworks-install-configure).  
   
 ## Structure of a Tabular Model in CSDLBI
 

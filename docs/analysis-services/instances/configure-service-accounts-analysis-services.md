@@ -46,7 +46,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
  The sole member of the group is the per-service SID. Right next to it is the logon account. The logon account name is cosmetic, there to provide context to the per-service SID. If you subsequently change the logon account and then return to this page, you'll notice that the security group and per-service SID do not change, but the logon account label is different.  
   
 ##  <a name="bkmk_winpriv"></a> Windows privileges assigned to the Analysis Services service account  
- Analysis Services needs permissions from the operating system for service startup and to request system resources. Requirements vary by server mode and whether the instance is clustered. If you are unfamiliar with Windows privileges, see [Privileges](https://msdn.microsoft.com/library/windows/desktop/aa379306\(v=vs.85\).aspx) and [Privilege Constants (Windows)](/windows/desktop/SecAuthZ/privilege-constants) for details.  
+ Analysis Services needs permissions from the operating system for service startup and to request system resources. Requirements vary by server mode and whether the instance is clustered.
   
  All instances of Analysis Services require the **Log on as a service** (SeServiceLogonRight) privilege. SQL Server Setup assigns the privilege for you on the service account specified during installation. For servers running in Multidimensional and Data Mining mode, this is the only Windows privilege required by the Analysis Services service account for standalone server installations, and it is the only privilege that Setup configures for Analysis Services. For clustered and tabular instances, additional Windows privileges must be added manually.  
   

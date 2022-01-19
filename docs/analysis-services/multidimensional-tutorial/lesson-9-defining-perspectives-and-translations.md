@@ -1,7 +1,7 @@
 ---
 title: "Lesson 9: Defining Perspectives and Translations | Microsoft Docs"
 description: An overview of defining perspectives and translations for an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 01/19/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -17,7 +17,7 @@ manager: kfile
 In this lesson, you learn to define perspectives and translations. You can define perspectives to reduce the apparent complexity of a cube, and define translations that let users view the cube metadata in the language of their choice.  
   
 > [!NOTE]  
-> Completed projects for all of the lessons in this tutorial are available online. You can jump ahead to any lesson by using the completed project from the previous lesson as a starting point. [Click here](https://go.microsoft.com/fwlink/?LinkID=221866) to download the sample projects that go with this tutorial.  
+> Completed projects for all of the lessons in this tutorial are available online. You can jump ahead to any lesson by using the completed project from the previous lesson as a starting point. See [Analysis Services samples](../analysis-services-samples.md) to download the sample projects that go with this tutorial.  
   
 This lesson contains the following tasks:  
   

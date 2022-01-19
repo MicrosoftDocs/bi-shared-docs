@@ -16,7 +16,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
   An Analysis Services instance will log server notifications, errors, and warnings to the msmdsrv.log file - one for each instance you install. Administrators refer to this log for insights into routine and extraordinary events alike. In recent releases, logging has been enhanced to include more information. Log records now include product version and edition information, as well as processor, memory, connectivity, and blocking events. You can review the entire change list at [Logging improvements](https://support.microsoft.com/kb/2965035).  
   
- Besides the built-in logging feature, many administrators and developers also use tools provided by the Analysis Services community to collect data about server operations, such as **ASTrace**. See [Microsoft SQL Server Community Samples: Analysis Services](https://sqlsrvanalysissrvcs.codeplex.com/) for the download links.  
+ Besides the built-in logging feature, many administrators and developers also use tools provided by the Analysis Services community to collect data about server operations, such as **ASTrace**.
   
  This topic contains the following sections:  
   
@@ -170,11 +170,9 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ##  <a name="bkmk_tips"></a> Tips and best practices  
  This section is a recap of the tips mentioned throughout this article.  
   
--   Configure the msmdsrv.log file to control the size and number of msmdsrv log file. The settings are not enabled by default, so be sure to add them as post-installation step. See [MSMDSRV service log file](#bkmk_msmdsrv) in this topic.  
+-   Configure the msmdsrv.log file to control the size and number of msmdsrv log file. The settings are not enabled by default, so be sure to add them as post-installation step. See [MSMDSRV service log file](#bkmk_msmdsrv) in this topic.    
   
--   Review this blog post from Microsoft Customer Support to learn what resources they use to get information about server operations: [Initial Data Collection](https://blogs.msdn.com/b/as_emea/archive/2012/01/02/initial-data-collection-for-troubleshooting-analysis-services-issues.aspx)  
-  
--   Use ASTrace2012, rather than a query log, to find out who is querying cubes. The query log is typically used to provide input into the Usage Based Optimization Wizard, and the data it captures is not easy to read or interpret. ASTrace2012 is a community tool, widely used, that captures query operations. See [Microsoft SQL Server Community Samples: Analysis Services](https://sqlsrvanalysissrvcs.codeplex.com/).  
+-   Use ASTrace, rather than a query log, to find out who is querying cubes. The query log is typically used to provide input into the Usage Based Optimization Wizard, and the data it captures is not easy to read or interpret. ASTrace is a community tool, widely used, that captures query operations.
   
 ## See also
  [Analysis Services Instance Management](../../analysis-services/instances/analysis-services-instance-management.md)   
