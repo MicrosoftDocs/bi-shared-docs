@@ -29,7 +29,7 @@ author: minewiskan
                   and administrator.
   
  **members**  
- Members consist of both a member name and ID, where member name is the alias or friendly name of a Windows security principal, and the ID is the security identifier. Both are specified in  role definition.See [SID components](https://msdn.microsoft.com/library/windows/desktop/aa379597\(v=vs.85\).aspx) for details about identifiers.  
+ Members consist of both a member name and ID, where member name is the alias or friendly name of a Windows security principal, and the ID is the security identifier. Both are specified in  role definition.  
   
  **tablePermissions**  
  A table permission is a named object with permissions defined via a DAX expression. This property is optional, used to apply a security filter.  

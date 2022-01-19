@@ -48,8 +48,6 @@ manager: kfile
 > [!NOTE]  
 >  When you use a cube as a data source for a [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] workbook, the data that you get from the cube is defined as an MDX query; however, the data is imported as a flattened snapshot. You cannot interactively work with the data or refresh the data from the cube.  
   
- For more information about using an SSAS cube as a data source, see the [Power Pivot for Excel](https://go.microsoft.com/fwlink/?LinkId=164234).  
-  
 ### Interfaces for Power Pivot Client  
  [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] interacts with the VertiPaq in-memory analytics engine storage engine within the workbook by using the established interfaces and languages for Analysis Services: AMO and ADOMD.NET, and MDX and XMLA. Within the add-in, measures are defined by using a formula language similar to Excel, Data Analysis Expressions (DAX). DAX expressions are embedded within the XMLA messages that are sent to the in-process server.  
   
