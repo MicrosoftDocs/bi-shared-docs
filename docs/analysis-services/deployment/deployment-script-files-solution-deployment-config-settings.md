@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 # Deployment Script Files - Solution Deployment Config Settings
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  The [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard reads the partition and role deployment options that you use in the deployment script from the \<*project name*>.configsettings file. [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] creates this file when you build the [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project. [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] uses the configuration settings of the current project to create the \<*project name*>.configsettings file.  
+  The [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard reads the partition and role deployment options that you use in the deployment script from the \<*project name*>.configsettings file. [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] does not create this file when you build the [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project. You can generate it using the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard in answer mode. [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] uses the configuration settings of the current project to create the \<*project name*>.configsettings file.  
   
 ## Reviewing the Configuration Settings for Deployment  
  The following are the configuration settings stored in the \<*project name*>.configsettings file:  
@@ -44,11 +44,14 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
      -or-  
   
 -   Run the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard at the command prompt and set the wizard to run in answer file mode. For more information about answer file mode, see [Running the Analysis Services Deployment Wizard](../../analysis-services/deployment/running-the-analysis-services-deployment-wizard.md).  
-  
      -or-  
   
 -   Modify the \<*project name*>.configsettings file by using any text editor.  
   
+#### To generate configuration settings file  
+
+-   Run the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard at the command prompt and set the wizard to run in answer file mode. After the wizard finishes, it generates a .configsettings file with your configured values. For more information about answer file mode, see [Running the Analysis Services Deployment Wizard](../../analysis-services/deployment/running-the-analysis-services-deployment-wizard.md).  
+
 ## See Also  
  [Specifying the Installation Target](../../analysis-services/deployment/deployment-script-files-specifying-the-installation-target.md)   
  [Specifying Partition and Role Deployment Options](../../analysis-services/deployment/deployment-script-files-partition-and-role-deployment-options.md)   
