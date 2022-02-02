@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 12/17/2021
+ms.date: 2/2/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -83,7 +83,7 @@ Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Micr
 
 #### MSOLAP
 
-A regression related to connections to cloud-based systems using AAD was discovered in the 16.0.4.17 version of OLEDB [MSOLAP]. It was fixed in the 16.0.9.17 version of MSOLAP. 
+A regression related to connections to cloud-based systems using AAD was discovered in the 16.0.4.17 version of OLEDB (MSOLAP). It was fixed in the 16.0.9.17 version. Due to the nature of the issue, an installed 16.0.4.17 version cannot be corrected by simply upgrading the provider, even if setup is run in repair mode. It’s recommended to completely uninstall the 16.0.4.17 version and then install the 16.0.9.17 or later version. 
 
 ## Understanding client libraries
 
