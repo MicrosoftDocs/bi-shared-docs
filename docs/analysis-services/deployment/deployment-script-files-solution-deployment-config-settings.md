@@ -1,7 +1,7 @@
 ---
 title: "Specifying Configuration Settings for Solution Deployment | Microsoft Docs"
 description: Learn how to specify configuration settings for solution deployment in SQL Server Analysis Services.
-ms.date: 05/02/2018
+ms.date: 02/03/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 # Deployment Script Files - Solution Deployment Config Settings
 [!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
 
-  The [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard reads the partition and role deployment options that you use in the deployment script from the \<*project name*>.configsettings file. [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] creates this file when you build the [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project. [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] uses the configuration settings of the current project to create the \<*project name*>.configsettings file.  
+  The [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Deployment Wizard reads the partition and role deployment options that you use in the deployment script from the \<*project name*>.configsettings file. For multidimensional projects, [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] creates this file when you build the project. For tabular projects, depending on the version, it may be necessary to run Deployment Wizard in Answer mode to generate the .configsettings file. [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] uses the configuration settings of the current project to create the \<*project name*>.configsettings file.  
   
 ## Reviewing the Configuration Settings for Deployment  
  The following are the configuration settings stored in the \<*project name*>.configsettings file:  
