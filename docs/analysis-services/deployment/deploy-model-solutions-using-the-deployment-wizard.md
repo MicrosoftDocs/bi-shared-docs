@@ -181,15 +181,15 @@ The Deployment Wizard reads the partition and role deployment options that you u
 
  The following are the configuration settings stored in the \<*project name*>.configsettings file:  
   
-- **Data Source Connection Strings** These are the connection strings for each data source based on the values specified in the project. The user id and password are always removed from the connection string before the remainder of the string is stored in this file. However, if the Deployment Wizard is deploying directly to an Analysis Services instance, you can add the appropriate user id and password information within the wizard to enable a successful processing of the deployment database. This connection information will not be stored in the deployment script itself if one is saved by the Deployment Wizard.  
+- **Data Source Connection Strings** - These are the connection strings for each data source based on the values specified in the project. The user id and password are always removed from the connection string before the remainder of the string is stored in this file. However, if the Deployment Wizard is deploying directly to an Analysis Services instance, you can add the appropriate user id and password information within the wizard to enable a successful processing of the deployment database. This connection information will not be stored in the deployment script itself if one is saved by the Deployment Wizard.  
   
-- **Impersonation Accounts** This setting specifies the user name that [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses to run statements in each data source. If no impersonation account is specified, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses its logon account to run statements. If the logon account is granted permissions directly in the data source, all database administrators in all databases in the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance have access to the data source through the logon account. If a user account and password is specified, this information is always removed before the impersonation information is stored in this file. However, if the Deployment Wizard is deploying directly to an Analysis Services instance, you can add the appropriate user id and password information within the wizard to enable a successful processing of the deployment database. This impersonation information will not be stored in the deployment script itself if one is saved by the Deployment Wizard.  
+- **Impersonation Accounts** - This setting specifies the user name that [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses to run statements in each data source. If no impersonation account is specified, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses its logon account to run statements. If the logon account is granted permissions directly in the data source, all database administrators in all databases in the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance have access to the data source through the logon account. If a user account and password is specified, this information is always removed before the impersonation information is stored in this file. However, if the Deployment Wizard is deploying directly to an Analysis Services instance, you can add the appropriate user id and password information within the wizard to enable a successful processing of the deployment database. This impersonation information will not be stored in the deployment script itself if one is saved by the Deployment Wizard.  
   
-- **Key Error Log Files** This setting specifies the file name and path of the key error log file for each cube, measure group, partition, and dimension in the database.  
+- **Key Error Log Files** - This setting specifies the file name and path of the key error log file for each cube, measure group, partition, and dimension in the database.  
   
-- **Storage Locations** This setting specifies the storage location for each cube, measure group, and partition in the database. If no value is provided for an object, the Deployment Wizard uses the default location for the object. For example, partitions use the location for the measure group, measure groups use the location for the cube, and cubes use the default location for objects on the server instance. The storage location can be a local or a Universal Naming Convention (UNC) path.  
+- **Storage Locations** - This setting specifies the storage location for each cube, measure group, and partition in the database. If no value is provided for an object, the Deployment Wizard uses the default location for the object. For example, partitions use the location for the measure group, measure groups use the location for the cube, and cubes use the default location for objects on the server instance. The storage location can be a local or a Universal Naming Convention (UNC) path.  
   
-- **Report Server** This setting specifies the report server and folder location for each report action defined in each cube in the database.  
+- **Report Server** - This setting specifies the report server and folder location for each report action defined in each cube in the database.  
   
 ### Modifying configuration settings
 
@@ -220,7 +220,7 @@ The Deployment Wizard reads the processing options from the \<*project name*>.de
 
 The configuration settings stored within the \<*project name*>.deploymentoptions file are:  
   
-- **Processing Method** This setting controls whether the deployed objects are processed after deployment and the type of processing that will be performed. There are three processing options:  
+- **Processing Method** - This setting controls whether the deployed objects are processed after deployment and the type of processing that will be performed. There are three processing options:  
   
   - Default processing (default) detects the process state of database objects, and performs processing necessary to deliver unprocessed or partially processed objects to a fully processed state.
   
@@ -228,7 +228,7 @@ The configuration settings stored within the \<*project name*>.deploymentoptions
   
   - None means no processing is performed.
 
-- **Writeback table options** If writeback is enabled in the project, this setting defines how writeback is handled. There are three writeback table options:  
+- **Writeback table options** - If writeback is enabled in the project, this setting defines how writeback is handled. There are three writeback table options:  
   
   - By default, if a writeback table exists, it will be used. If a writeback table does not exist, a new writeback table will be created.  
   
@@ -236,7 +236,7 @@ The configuration settings stored within the \<*project name*>.deploymentoptions
   
   - Regardless of whether a writeback table already exists, a new writeback table will be created. In this case, the Deployment Wizard will delete any existing table and replace it with a new writeback table.  
   
-- **Transactional deployment** This setting controls whether the deployment of metadata changes and process commands occurs in a single transaction or in separate transactions.  
+- **Transactional deployment** - This setting controls whether the deployment of metadata changes and process commands occurs in a single transaction or in separate transactions.  
   
   - If this option is **True** (default), [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] deploys all metadata changes and all process commands within a single transaction.  
   
