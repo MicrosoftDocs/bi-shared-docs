@@ -4877,6 +4877,41 @@
         "source_path": "docs/analysis-services/data-mining/sql-server-data-mining-add-ins-for-office.md",
         "redirect_url": "/analysis-services/data-mining/data-mining-tools",
         "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/deployment/running-the-analysis-services-deployment-wizard.md",
+        "redirect_url": "/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/deployment/understanding-the-analysis-services-deployment-script.md",
+        "redirect_url": "/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/deployment/deployment-script-files-input-used-to-create-deployment-script.md",
+        "redirect_url": "/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/deployment/deployment-script-files-specifying-the-installation-target.md",
+        "redirect_url": "/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/deployment/deployment-script-files-partition-and-role-deployment-options.md",
+        "redirect_url": "/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/deployment/deployment-script-files-solution-deployment-config-settings.md",
+        "redirect_url": "/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/deployment/deployment-script-files-specifying-processing-options.md",
+        "redirect_url": "/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard",
+        "redirect_document_id": false
     }
 
   ]

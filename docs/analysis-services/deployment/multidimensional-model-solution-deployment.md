@@ -1,7 +1,7 @@
 ---
-title: "Multidimensional Model Solution Deployment | Microsoft Docs"
+title: "Learn about multidimensional model solution deployment | Microsoft Docs"
 description: Learn about methods to deploy a database to a SQL Server Analysis Services server after you complete a project.
-ms.date: 05/02/2018
+ms.date: 02/07/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -11,12 +11,13 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
-# Multidimensional Model Solution Deployment
+# Multidimensional model solution deployment
+
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
 
-  After you have completed the development of an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project, you can deploy the database to an Analysis Services server. Analysis Services provides six possible deployment methods that can be used to move the database to a test or production server. The methods are listed here in order of advantage: AMO Automation, XMLA, Deployment Wizard, Deployment Utility, Synchronize Wizard, Backup and Restore.  
+After you have completed the development of an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project, you can deploy the database to an Analysis Services server. Analysis Services provides six possible deployment methods that can be used to move the database to a test or production server. The methods are listed here in order of advantage: AMO Automation, XMLA, Deployment Wizard, Deployment Utility, Synchronize Wizard, Backup and Restore.  
   
-##  <a name="bkmk_meth"></a> Deployment Methods  
+## Deployment methods  
   
 |Method|Description|Link|  
 |------------|-----------------|----------|  
@@ -27,22 +28,20 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 |**Synchronize Database Wizard**|Use the Synchronize Database Wizard to synchronize the metadata and data between any two [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] databases.<br /><br /> The Synchronize Wizard can be used to copy both data and metadata from a source server to a destination server. If the destination server does not have a copy of the database that you want to deploy, a new database is copied to the destination server. If the destination server already has a copy of the same database, the database on the destination server is updated to use the metadata and data of the source database.|[Synchronize Analysis Services Databases](../../analysis-services/multidimensional-models/synchronize-analysis-services-databases.md)|  
 |**Backup and Restore**|Backup offers the simplest approach to transferring [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] databases. From the **Backup** dialog box, you can set the options configuration, and then you can run the backup from the dialog box itself. Or, you can create a script that can be saved and run as frequently as required.<br /><br /> Backup and restore is not used as frequently as the other deployment methods, but is a way to quickly complete a deployment with minimal infrastructure requirements.|[Backup and Restore of Analysis Services Databases](../../analysis-services/multidimensional-models/backup-and-restore-of-analysis-services-databases.md)|  
   
-##  <a name="bkmk_considerations"></a> Deployment considerations  
+## Deployment considerations
+
  Before you deploy an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project, consider which of these questions apply to your solution and then review the related link to learn ways of addressing the issue:  
   
 |Consideration|Link to more information|  
 |-------------------|------------------------------|  
 |How will you deploy related objects that are outside the scope of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project, such as [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] packages, reports, or relational database schemas?||  
-|How will you load and update the data in the deployed [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database?<br /><br /> How will you update the metadata (such as calculations) in the deployed [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database?|[Deployment Methods](#bkmk_meth) in this topic.|  
+|How will you load and update the data in the deployed [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database?<br /><br /> How will you update the metadata (such as calculations) in the deployed [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database?|[Deployment Methods](#deployment-methods) in this topic.|  
 |Do you want to give users access to [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data through the Internet?|[Configure HTTP Access to Analysis Services on Internet Information Services &#40;IIS&#41; 8.0](../../analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0.md)|  
 |Do you want to deploy objects in a distributed environment by using linked objects or remote partitions?|[Create and Manage a Local Partition &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/create-and-manage-a-local-partition-analysis-services.md), [Create and Manage a Remote Partition &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/create-and-manage-a-remote-partition-analysis-services.md) and [Linked Measure Groups](../../analysis-services/multidimensional-models/linked-measure-groups.md).|  
 |How will you secure the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data?|[Authorizing access to objects and operations &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/authorizing-access-to-objects-and-operations-analysis-services.md)|  
   
-##  <a name="bkmk_rel"></a> Related Tasks  
-  
- [Deploy model solutions by using XMLA](../../analysis-services/deployment/deploy-model-solutions-using-xmla.md)  
-  
- [Deploy model solutions by using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md)  
-  
- [Deploy model solutions with the Deployment Utility](../../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md)  
-  
+## See also
+
+[Deploy model solutions by using XMLA](../../analysis-services/deployment/deploy-model-solutions-using-xmla.md)  
+[Deploy model solutions by using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md)  
+[Deploy model solutions by using the Deployment Utility](../../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md)  

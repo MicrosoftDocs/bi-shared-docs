@@ -1,7 +1,7 @@
 ---
 title: "Server Properties in Analysis Services | Microsoft Docs"
 description: Learn how to modify default server configuration properties of an Azure Analysis Services (Azure AS) or SQL Server Analysis Services (SSAS) instance.
-ms.date: 05/03/2021
+ms.date: 02/07/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -73,6 +73,6 @@ Properties that cannot be set by using Properties in SSMS or in msmdrsrv.ini fil
   
 ## See also
 
- [Analysis Services Instance Management](../../analysis-services/instances/analysis-services-instance-management.md)   
- [Specifying Configuration Settings for Solution Deployment](../../analysis-services/deployment/deployment-script-files-solution-deployment-config-settings.md)  
+ [Analysis Services instance management](../../analysis-services/instances/analysis-services-instance-management.md)   
+ [Deploy by using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md)  
   
