@@ -35,16 +35,13 @@ After you have completed the development of an [!INCLUDE[ssASnoversion](../inclu
 |Consideration|Link to more information|  
 |-------------------|------------------------------|  
 |How will you deploy related objects that are outside the scope of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project, such as [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] packages, reports, or relational database schemas?||  
-|How will you load and update the data in the deployed [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database?<br /><br /> How will you update the metadata (such as calculations) in the deployed [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database?|[Deployment Methods](#bkmk_meth) in this topic.|  
+|How will you load and update the data in the deployed [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database?<br /><br /> How will you update the metadata (such as calculations) in the deployed [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database?|[Deployment Methods](#deployment-methods) in this topic.|  
 |Do you want to give users access to [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data through the Internet?|[Configure HTTP Access to Analysis Services on Internet Information Services &#40;IIS&#41; 8.0](../../analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0.md)|  
 |Do you want to deploy objects in a distributed environment by using linked objects or remote partitions?|[Create and Manage a Local Partition &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/create-and-manage-a-local-partition-analysis-services.md), [Create and Manage a Remote Partition &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/create-and-manage-a-remote-partition-analysis-services.md) and [Linked Measure Groups](../../analysis-services/multidimensional-models/linked-measure-groups.md).|  
 |How will you secure the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data?|[Authorizing access to objects and operations &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/authorizing-access-to-objects-and-operations-analysis-services.md)|  
   
-## See also  
-  
- [Deploy model solutions by using XMLA](../../analysis-services/deployment/deploy-model-solutions-using-xmla.md)  
-  
- [Deploy model solutions by using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md)  
-  
- [Deploy model solutions by using the Deployment Utility](../../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md)  
-  
+## See also
+
+[Deploy model solutions by using XMLA](../../analysis-services/deployment/deploy-model-solutions-using-xmla.md)  
+[Deploy model solutions by using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md)  
+[Deploy model solutions by using the Deployment Utility](../../analysis-services/deployment/deploy-model-solutions-with-the-deployment-utility.md)  
