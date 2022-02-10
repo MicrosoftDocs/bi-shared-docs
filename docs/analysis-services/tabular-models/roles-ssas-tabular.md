@@ -1,7 +1,7 @@
 ---
 title: "Configure Analysis Services tabular model roles | Microsoft Docs"
 description: Learn how to configure roles in tabular models so you can define member permissions for a model.
-ms.date: 01/07/2022
+ms.date: 02/10/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -60,6 +60,9 @@ Each role can have one the following permissions defined:
 |Read and Process|Members are allowed to query data (based on row-level filters) and run process operations by running a script or package that contains a process command, but cannot make any changes to the database. Cannot view the model database in SSMS.|Row filters can be applied. Only data specified in the row filter DAX formula can be queried.|  
 |Process|Members can run process operations by running a script or package that contains a process command. Cannot modify the model database schema. Cannot query data. Cannot query the model database in SSMS.|Row filters do not apply. No data can be queried in this role|  
 |Administrator|Members can make modifications to the model schema and can query all data in the model designer, reporting client, and SSMS.|Row filters do not apply. All data can be queried in this role.|  
+
+> [!NOTE]
+> Members with Read and Read and Process permissions can query data based on row filters but cannot see the model database in SSMS. Members cannot make changes to the model database schema and cannot process the model. However, in SQL Server Analysis Services 2019 and earlier, members can use [DMVs](../instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md?preserve-view=true) to determine measure definitions. SQL Server Analysis Services 2022 and later block access to DMVs for improved security.
 
 ::: moniker-end
 
