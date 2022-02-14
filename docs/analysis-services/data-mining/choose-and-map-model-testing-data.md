@@ -1,7 +1,7 @@
 ---
 title: "Choose and Map Model Testing Data | Microsoft Docs"
 description: Learn how to choose and map model testing data. You can also learn how to specify an external source of data.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Choose and Map Model Testing Data
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   To create an accuracy chart in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], you must choose the data that will be used to test the model, and map the data to the model.  
   
  By default, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] will use the mining model testing data, provided that you created a holdout data set when you built the mining structure. Creating a holdout test set is the easiest way to test models that are based on the same mining structure, because the column names and data types will always match the model, and you can be reasonably assured that the distribution of the data is similar. Also, the designer will automatically create the relationships between the input and model columns.  

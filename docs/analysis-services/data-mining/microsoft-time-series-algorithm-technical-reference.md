@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Time Series Algorithm Technical Reference | Microsoft Docs"
 description: Learn about the Microsoft Time Series algorithm, which includes two algorithms for analyzing time series in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Microsoft Time Series Algorithm Technical Reference
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series algorithm includes two separate algorithms for analyzing time series:  
   
 -   The ARTXP algorithm, which was introduced in [!INCLUDE[ssVersion2005](../includes/ssversion2005-md.md)], is optimized for predicting the next likely value in a series.  

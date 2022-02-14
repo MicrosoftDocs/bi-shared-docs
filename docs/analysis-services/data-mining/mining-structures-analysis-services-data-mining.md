@@ -1,7 +1,7 @@
 ---
 title: "Mining Structures (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about the basic architecture of data mining structures, such as how you define a mining structure, how you populate it, and how you create models.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Mining Structures (Analysis Services - Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The mining structure defines the data from which mining models are built: it specifies the source data view, the number and type of columns, and an optional partition into training and testing sets. A single mining structure can support multiple mining models that share the same domain. The following diagram illustrates the relationship of the data mining structure to the data source, and to its constituent data mining models.  
   
  ![Processing of data: source to structure to model](../../analysis-services/data-mining/media/dmcon-modelarch.png "Processing of data: source to structure to model")  

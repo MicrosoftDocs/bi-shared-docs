@@ -1,7 +1,7 @@
 ---
 title: "SystemGetAccuracyResults (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about SystemGetAccuracyResults, which returns cross-validation accuracy metrics for a mining structure and related models, excluding clustering models.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # SystemGetAccuracyResults (Analysis Services - Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   Returns cross-validation accuracy metrics for a mining structure and all related models, excluding clustering models.  
   
  This stored procedure returns metrics for the whole data set as a single partition. To partition the dataset into cross-sections and return metrics for each partition, use [SystemGetCrossValidationResults &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/systemgetcrossvalidationresults-analysis-services-data-mining.md).  

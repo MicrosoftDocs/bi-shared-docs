@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Services and Data Sources | Microsoft Docs"
 description: Learn about connecting to an instance of SQL Server Analysis Services to create, process, deploy, and query data mining models.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Data Mining Services and Data Sources
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   Data mining requires a connection to an instance of SQL Server Analysis Services. Data from a cube is not required for data mining and the use of relational sources is recommended; however, data mining uses components provided by the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] engine.  
   
  This topic provides information that you need to know when connecting to an instance of SQL Server [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to create, process, deploy, or query data mining models.  

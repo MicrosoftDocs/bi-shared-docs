@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Association Algorithm | Microsoft Docs"
 description: Learn about the Microsoft Association Algorithm in SQL Server Analysis Services, an algorithm that is often used for recommendation engines.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Microsoft Association Algorithm
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Association algorithm is an algorithm that is often used for recommendation engines. A recommendation engine recommends items to customers based on items they have already bought, or in which they have indicated an interest. The [!INCLUDE[msCoName](../includes/msconame-md.md)] Association algorithm is also useful for market basket analysis.   
   
  Association models are built on datasets that contain identifiers both for individual cases and for the items that the cases contain. A group of items in a case is called an *itemset*. An association model consists of a series of itemsets and the rules that describe how those items are grouped together within the cases. The rules that the algorithm identifies can be used to predict a customer's likely future purchases, based on the items that already exist in the customer's shopping cart. The following diagram shows a series of rules in an itemset.  

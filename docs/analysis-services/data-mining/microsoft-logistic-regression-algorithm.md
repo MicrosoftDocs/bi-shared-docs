@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Logistic Regression Algorithm | Microsoft Docs"
 description: Learn about the advantages of the Microsoft Logistic Regression algorithm in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Microsoft Logistic Regression Algorithm
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   Logistic regression is a well-known statistical technique that is used for modeling binary outcomes.  
   
  There are various implementations of logistic regression in statistics research, using different learning techniques. The [!INCLUDE[msCoName](../includes/msconame-md.md)] Logistic Regression algorithm has been implemented by using a variation of the [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm. This algorithm shares many of the qualities of neural networks but is easier to train.  

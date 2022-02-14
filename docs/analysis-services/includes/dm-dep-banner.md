@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Data mining is deprecated in SQL Server Analysis Services 2017 and will be discontinued in a future release. Documentation is not updated for deprecated features. To learn more, see [Analysis Services backward compatibility](../analysis-services-backward-compatibility.md).

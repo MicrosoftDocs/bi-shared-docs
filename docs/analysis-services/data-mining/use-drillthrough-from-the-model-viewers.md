@@ -1,7 +1,7 @@
 ---
 title: "Use Drillthrough from the Model Viewers | Microsoft Docs"
 description: Learn how to use drillthrough from the browse viewers in Data Mining Designer to explore cases used in the mining model or columns in the mining structure.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Use Drillthrough from the Model Viewers
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   Depending on the model type, you can use drillthrough from the browse viewers on the **Mining Model Viewer** tab of Data Mining Designer to explore the cases used in the mining model or to see additional columns in the mining structure. Although many model types do not support drillthrough because the patterns in the model cannot be directly linked to specific cases, the following model types do support drillthrough.  
   
  Note that drillthrough must have been enabled on the model, and you must have the appropriate permissions. The drillthrough option might also be disabled if the model is in an unprocessed state, regardless of whether the model was previously processed and has content. To retrieve model case data by using drillthrough, the cache of the structure and model must be current.  

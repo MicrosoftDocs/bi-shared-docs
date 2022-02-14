@@ -1,7 +1,7 @@
 ---
 title: "Missing Values (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about missing values and the features provided in to work with missing values when building data mining structures and mining models.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Missing Values (Analysis Services - Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   Handling  *missing values* correctly is an important part of effective modeling. This section explains what missing values are, and describes the features provided in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to work with missing values when building data mining structures and mining models.  
   
 ## Definition of Missing Values in Data Mining  

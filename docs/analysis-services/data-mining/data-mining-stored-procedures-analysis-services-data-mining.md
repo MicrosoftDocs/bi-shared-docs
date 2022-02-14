@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Stored Procedures (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about data mining stored procedures that can be written in any managed language in SQL Server Analysis Services.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Data Mining Stored Procedures (Analysis Services - Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   Beginning in [!INCLUDE[ssVersion2005](../includes/ssversion2005-md.md)], [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports stored procedures that can be written in any managed language. The managed languages that are supported include [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] .NET, C#, and managed C++. In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], you can call the stored procedures directly by using the **CALL** statement, or as part of a Data Mining Extensions (DMX) query.  
   
  For more information about calling [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] stored procedures, see [Calling Stored Procedures](../../analysis-services/multidimensional-models-extending-olap-stored-procedures/calling-stored-procedures.md).  

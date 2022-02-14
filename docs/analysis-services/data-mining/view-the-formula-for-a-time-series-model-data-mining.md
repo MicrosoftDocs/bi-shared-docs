@@ -1,7 +1,7 @@
 ---
 title: "View the Formula for a Time Series Model (Data Mining) | Microsoft Docs"
 description: Learn how to use the Microsoft Time Series Viewer to see the regression equation for a mining model in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # View the Formula for a Time Series Model (Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   If you created a time series model using [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] Data Mining, the easiest way to see the regression equation for the model is to use the **Mining Legend** of the [Microsoft Time Series Viewer](../../analysis-services/data-mining/browse-a-model-using-the-microsoft-time-series-viewer.md), which presents all the constants in a readable format.  
   
 ### To view the ARTXP regression formula for a time series model  

@@ -1,7 +1,7 @@
 ---
 title: "Customize Mining Models and Structure | Microsoft Docs"
 description: Learn about options to customize a mining model after you select an algorithm that meets your business needs.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Customize Mining Models and Structure
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   After you have selected an algorithm that meets your business needs, you can customize the mining model in the following ways to potentially improve results.  
   
 -   Use different columns of data in the model, or change the usage, content type, or discretization method for the columns.  

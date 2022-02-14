@@ -1,7 +1,7 @@
 ---
 title: "Create an OLAP Mining Structure | Microsoft Docs"
 description: Learn how to create an OLAP mining structure based on a dimension and related measures in an existing multidimensional solution.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Create an OLAP Mining Structure
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   There are many advantages to creating a data mining model based on an OLAP cube or other multidimensional data store. An OLAP solution already contains huge amounts of data that is well organized, cleaned and properly formatted; however, the complexity of the data is such that users are unlikely to find meaningful patterns by ad hoc exploration. Data mining offers the ability to discover new correlations and provide actionable insight.  
   
  This topic describes how to create an OLAP mining structure, based on a dimension and related measures in an existing multidimensional solution.  

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Clustering Algorithm Technical Reference | Microsoft Docs"
 description: Learn about the implementation of the Microsoft Clustering algorithm in SQL Server Analysis Services, with guidance improving performance of clustering models.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Microsoft Clustering Algorithm Technical Reference
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   This section explains the implementation of the [!INCLUDE[msCoName](../includes/msconame-md.md)] Clustering algorithm, including the parameters that you can use to control the behavior of clustering models. It also provides guidance about how to improve performance when you create and process clustering models.  
   
  For additional information about how to use clustering models, see the following topics:  

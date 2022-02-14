@@ -1,7 +1,7 @@
 ---
 title: "Drillthrough Queries (Data Mining) | Microsoft Docs"
 description: Learn about options for drillthrough queries that let you get details from the underlying cases or structure data by sending a query to the mining model.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Drillthrough Queries (Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   A *drillthrough query* lets you retrieve details from the underlying cases or structure data, by sending a query to the mining model. Drillthrough is useful if you want to view the cases that were used to train the model, versus the cases that are used to test the model, or if you want to see additional details from the case data.  
   
  [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Data Mining provides two different options for drillthrough:  

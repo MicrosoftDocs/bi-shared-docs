@@ -1,7 +1,7 @@
 ---
 title: "Choose an Accuracy Chart Type and Set Chart Options | Microsoft Docs"
 description: In this article, learn how to choose an accuracy chart type. You can also learn how to set chart options.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Choose an Accuracy Chart Type and Set Chart Options
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] provides multiple methods for determining the validity of your mining models. The type of accuracy chart that you can create for each model or structure depends on these factors:  
   
 -   The type of algorithm that was used to create the model  

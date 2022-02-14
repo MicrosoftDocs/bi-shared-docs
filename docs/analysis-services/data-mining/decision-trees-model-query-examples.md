@@ -1,7 +1,7 @@
 ---
 title: "Decision Trees Model Query Examples | Microsoft Docs"
 description: Learn about how to create queries for models that are based on the Microsoft Decision Trees algorithm.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Decision Trees Model Query Examples
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   When you create a query against a data mining model, you can create a content query, which provides details about the patterns discovered in analysis, or you can create a prediction query, which uses the patterns in the model to make predictions for new data. For example, a content query for a decision trees model might provide statistics about the number of cases at each level of the tree, or the rules that differentiate between cases. Alternatively, a prediction query maps the model to new data in order to generate recommendations, classifications, and so forth. You can also retrieve metadata about the model by using a query.  
   
  This section explains how to create queries for models that are based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] Decision Trees algorithm.  

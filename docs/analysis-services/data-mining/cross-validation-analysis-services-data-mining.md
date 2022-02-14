@@ -1,7 +1,7 @@
 ---
 title: "Cross-Validation (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn how to use the cross-validation features provided for data mining and interpret the results for a model or for multiple models based on a data set.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Cross-Validation (Analysis Services - Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   *Cross-validation* is a standard tool in analytics and is an important feature for helping you develop and fine-tune data mining models. You use cross-validation after you have created a mining structure and related mining models to ascertain the validity of the model.  Cross-validation has the following applications:  
   
 -   Validating the robustness of a particular mining model.  

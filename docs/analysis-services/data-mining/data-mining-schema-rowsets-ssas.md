@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Schema Rowsets (SSAs) | Microsoft Docs"
 description: Learn how to create queries for the data mining schema rowset to identify services, get models/structures updates, and get model content/parameters details.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Data Mining Schema Rowsets (SSAs)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   In [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)], many of the existing OLE DB data mining schema rowsets are exposed as a set of system tables that you can query by using Data Mining Extensions (DMX) statements. By creating queries against the data mining schema rowset, you can identify the services that are available, get updates on the status of your models and structures, and find out details about the model content or parameters.  
   
 > [!NOTE]  

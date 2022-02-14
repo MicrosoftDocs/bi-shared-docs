@@ -1,7 +1,7 @@
 ---
 title: "Create an Alias for a Model Column | Microsoft Docs"
 description: Learn how to create an alias for a model column in SQL Server 2017 to make the label more descriptive or improve readability.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Create an Alias for a Model Column
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   In [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)], you can create an alias for a model column. This might be useful when the mining structure name is too long to easily work with, or when you want to rename the column to be more descriptive of its contents or usage in the model. For example, if you make a copy of a structure column and then discretize the column differently for a particular model, you can rename the column to reflect the content more accurately.  
   
  To create an alias for a model column, you use the **Properties** pane and set the [Name](../assl/properties/name-element-assl.md) property of the column.  
