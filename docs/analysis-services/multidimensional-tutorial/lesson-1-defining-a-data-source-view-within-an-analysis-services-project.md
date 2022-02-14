@@ -9,7 +9,7 @@ ms.topic: tutorial
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Lesson 1: Defining a Data Source View within an Analysis Services Project
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]

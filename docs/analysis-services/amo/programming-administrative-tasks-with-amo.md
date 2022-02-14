@@ -1,7 +1,7 @@
 ---
 title: "Programming Administrative Tasks with AMO | Microsoft Docs"
 description: Learn how Analysis Management Objects (AMO) is a programming library used from client applications to manage Analysis Services.
-ms.date: 12/07/2020
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo

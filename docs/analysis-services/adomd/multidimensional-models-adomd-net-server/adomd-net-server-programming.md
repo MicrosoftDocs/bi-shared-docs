@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # ADOMD.NET Server Programming
   The ADOMD.NET server components of ADOMD.NET reside within the **Microsoft.AnalysisServices.AdomdServer** namespace (in msmgdsrv.dll). You use these server components to create custom Multidimensional Expressions (MDX) functions and stored procedures that are run on an instance of Microsoft SQL Server Analysis Services. The server objects provide the capabilities for querying cubes and mining models, and for evaluating expressions in a given context. The benefits for creating custom functions and stored procedures include fast execution, centralized deployment, and improved maintainability.  

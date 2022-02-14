@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Monitoring Traces (XMLA)
   You can use the [Subscribe](../xmla/xml-elements-commands/subscribe-element-xmla.md) command in XML for Analysis (XMLA) to monitor an existing trace defined on an instance of [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. The **Subscribe** command returns the results of a trace as a rowset.  

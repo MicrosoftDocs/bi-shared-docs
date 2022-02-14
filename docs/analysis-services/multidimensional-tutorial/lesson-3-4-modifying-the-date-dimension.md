@@ -9,7 +9,7 @@ ms.topic: tutorial
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Lesson 3-4 - Modifying the Date Dimension
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]

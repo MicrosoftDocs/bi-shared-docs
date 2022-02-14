@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Connections in ADOMD.NET - Working with Connections and Sessions
   In XML for Analysis (XMLA), sessions provide support for stateful operations during analytical data access. Sessions frame the scope and context of commands and transactions for an analytical data source. The XMLA elements used to manage sessions are BeginSession, Session, and EndSession.  

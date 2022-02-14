@@ -9,7 +9,7 @@ ms.topic: tutorial
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Lesson 1-2 - Defining a Data Source
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]

@@ -9,7 +9,7 @@ ms.technology: analysis-services
 ms.topic: reference
 author: minewiskan
 ms.author: owend
-manager: kfile
+
 ---
 # UnknownMemberName Element (ASSL)
 

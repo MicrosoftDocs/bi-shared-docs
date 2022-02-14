@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Designing Aggregations (XMLA)
   Aggregation designs are associated with the partitions of a particular measure group to make sure that the partitions use the same structure when storing aggregations. Using the same storage structure for partitions lets you to easily define partitions that can be later merged using the [MergePartitions](../xmla/xml-elements-commands/mergepartitions-element-xmla.md) command. For more information about aggregation designs, see [Aggregations and Aggregation Designs](../../analysis-services/multidimensional-models-olap-logical-cube-objects/aggregations-and-aggregation-designs.md).  

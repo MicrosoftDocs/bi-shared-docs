@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Managing Connections and Sessions (XMLA)
   *Statefulness* is a condition during which the server preserves the identity and context of a client between method calls. *Statelessness* is a condition during which the server does not remember the identity and context of a client after a method call finishes.  

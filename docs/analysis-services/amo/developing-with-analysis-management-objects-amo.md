@@ -1,7 +1,7 @@
 ---
 title: "Analysis Management Objects (AMO) | Microsoft Docs"
 description: Learn how Analysis Management Objects (AMO) is a library of programmatically accessed objects that enables an application to manage an Analysis Services instance.
-ms.date: 01/05/2021
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo

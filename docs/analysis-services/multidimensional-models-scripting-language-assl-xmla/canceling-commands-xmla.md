@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Canceling Commands (XMLA)
   Depending on the administrative permissions of the user issuing the command, the [Cancel](../xmla/xml-elements-commands/cancel-element-xmla.md) command in XML for Analysis (XMLA) can cancel a command on a session, a session, a connection, a server process, or an associated session or connection.  

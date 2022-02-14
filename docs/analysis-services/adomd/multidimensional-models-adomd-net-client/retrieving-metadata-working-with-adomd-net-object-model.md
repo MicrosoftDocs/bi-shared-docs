@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Retrieving Metadata - Working with ADOMD.NET Object Model
   ADOMD.NET provides an object model for viewing the cubes and subordinate objects contained by an analytical data source. However, not all metadata for a given analytical data source is available through the object model. The object model provides access to only the information that is most useful for a client application to display in order to allow a user to interactively construct commands. Because of the reduced complexity of the metadata to present, the ADOMD.NET object model is easier to use.  
