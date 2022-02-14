@@ -1,7 +1,7 @@
 ---
 title: "User Defined Functions and Stored Procedures | Microsoft Docs"
 description: Use ADOMD.NET server objects to create user defined function (UDF) or stored procedures for Microsoft SQL Server Analysis Services.
-ms.date: 05/02/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: adomd
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # User Defined Functions and Stored Procedures
   With ADOMD.NET server objects, you can create user defined function (UDF) or stored procedures for Microsoft SQL Server Analysis Services that interact with metadata and data from the server. These in-process methods are called through Multidimensional Expressions (MDX) or Data Mining Extensions (DMX) statements to provide added functionality without the latencies associated with network communications.  

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Neural Network Algorithm Technical Reference | Microsoft Docs"
 description: Learn about the Microsoft Neural Network algorithm, which uses a Multilayer Perceptron network in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Microsoft Neural Network Algorithm Technical Reference
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network uses a *Multilayer Perceptron* network, also called a *Back-Propagated Delta Rule network*, composed of up to three layers of neurons, or *perceptrons*. These layers are an input layer, an optional hidden layer, and an output layer.  
   
  A detailed discussion of Multilayer Perceptron neural networks is outside the scope of this documentation. This topic explains the basic implementation of the algorithm, including the method used to normalize input and output values, and feature selection methods used to reduce attribute cardinality. This topic describes the parameters and other settings that can be used to customize the behavior of the algorithm, and provides links to additional information about querying the model.  

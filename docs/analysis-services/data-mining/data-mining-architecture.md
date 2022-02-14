@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Architecture | Microsoft Docs"
 description: Learn about the architecture of data mining solutions, including the architecture of an Analysis Services instance that supports data mining.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Data Mining Architecture
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   This section describes the architecture of data mining solutions that are hosted in an instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. The topics in this section describe the logical and physical architecture of an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance that supports data mining, and also provide information about the clients, providers, and protocols that can be used to communicate with data mining servers, and to work with data mining objects either locally or remotely.  
   
  In general, SQL Server Data Mining operates as a service that is provided as part of an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance running in multidimensional mode; therefore, we recommend that you also review the following sections of Books Online that describe the operation, maintenance, and configuration of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] multidimensional solutions.  

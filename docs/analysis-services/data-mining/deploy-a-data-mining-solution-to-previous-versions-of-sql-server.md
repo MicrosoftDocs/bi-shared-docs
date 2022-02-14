@@ -1,7 +1,7 @@
 ---
 title: "Deploy a Data Mining Solution to Previous Versions of SQL Server | Microsoft Docs"
 description: Learn how to deploy your data mining models to a production environment in SQL Server Analysis Services to a previous version of SQL Server.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Deploy a Data Mining Solution to Previous Versions of SQL Server
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   This section describes known compatibility issues that may arise when you attempt to deploy a data mining model or data mining structure that was created in an instance of [!INCLUDE[ssASCurrent](../includes/ssascurrent-md.md)] to a database that uses SQL Server 2005 Analysis Services, or when you deploy models created in SQL Server 2005 to an instance of [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)].  
   
  Deployment to an instance of SQL Server 2000 Analysis Services is not supported.  

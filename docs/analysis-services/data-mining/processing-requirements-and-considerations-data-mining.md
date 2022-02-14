@@ -1,7 +1,7 @@
 ---
 title: "Processing Requirements and Considerations (Data Mining) | Microsoft Docs"
 description: Learn about some technical considerations to keep in mind when processing data mining objects in SQL Server Analysis Services. 
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Processing Requirements and Considerations (Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   This topic describes some technical considerations to keep in mind when processing data mining objects. For a general explanation of what processing is, and how it applies to data mining, see [Processing Data Mining Objects](../../analysis-services/data-mining/processing-data-mining-objects.md).  
   
  [Queries on Relational Store](#bkmk_QueryReqs)  

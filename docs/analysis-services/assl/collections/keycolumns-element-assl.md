@@ -1,7 +1,7 @@
 ---
 title: "KeyColumns Element (ASSL) | Microsoft Docs"
 description: Learn about the KeyColumns collection element in the Analysis Services Scripting Language (ASSL) schema.
-ms.date: 07/25/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: assl
@@ -9,7 +9,7 @@ ms.topic: reference
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # KeyColumns Element (ASSL)
 

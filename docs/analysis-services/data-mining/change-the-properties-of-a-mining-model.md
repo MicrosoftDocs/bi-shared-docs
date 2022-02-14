@@ -1,7 +1,7 @@
 ---
 title: "Change the Properties of a Mining Model | Microsoft Docs"
 description: In this article, learn how to change the properties of a mining model and mining model column.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Change the Properties of a Mining Model
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   Some mining model properties apply to the model as a whole, and other model properties apply to individual columns. Examples of properties that apply to the entire model would be the **Drillthrough** property, which specifies whether the case data should be available for querying, and the **Description** property. Properties that apply to the column include **Usage** and **ModelingFlags**, which control how data in the column is used within the model.  
   
  The following model properties have advanced editors that you can use to create expressions or configure complex model properties. The following properties provide:  

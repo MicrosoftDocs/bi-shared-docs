@@ -1,7 +1,7 @@
 ---
 title: "Enable Drillthrough for a Mining Model | Microsoft Docs"
 description: Learn how to enable drillthrough for a mining model, so you can retrieve detailed information about the cases that were used to create a model.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Enable Drillthrough for a Mining Model
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   If you have enabled drillthrough for a mining model, when you browse the model you can retrieve detailed information about the cases that were used to create the model. To view this information, you must have the necessary permissions, and the structure must have already been processed.  
   
  **Permissions** For a user to drill through to either model data or structure data, the user must be a member of a role that has [AllowDrillThrough](../assl/properties/allowdrillthrough-element-assl.md) permissions on the mining model or mining structure. Drillthrough permissions are set separately on the structure and model.  

@@ -1,7 +1,7 @@
 ---
 title: "Retrieving Metadata from an Analytical Data Source | Microsoft Docs"
 description: Learn how to retrieve two forms of metadata from an analytical data source by using ADOMD.NET.
-ms.date: 05/02/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: adomd
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Retrieving Metadata from an Analytical Data Source
   Metadata is important to applications that retrieve and work with analytical data. When retrieving data from a relational data source, the dimensionality of such data is predictable, even with nested datasets. Result sets from a relational database are typically two-dimensional or scalar in structure. However, data retrieved from analytical data sources can be of variable dimensionality, organized along potentially deep hierarchies.  

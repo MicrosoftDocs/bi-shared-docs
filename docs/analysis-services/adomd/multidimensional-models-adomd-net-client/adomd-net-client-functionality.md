@@ -1,7 +1,7 @@
 ---
 title: "ADOMD.NET Client Functionality | Microsoft Docs"
 description: Learn how ADOMD.NET not only allows you to retrieve data, but also to retrieve metadata and change the structure of the analytical data store.
-ms.date: 05/02/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: adomd
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # ADOMD.NET Client Functionality
   ADOMD.NET, as with other Microsoft .NET Framework data providers, serves as a bridge between an application and a data source. However, ADOMD.NET is unlike other .NET Framework data providers in that ADOMD.NET works with analytical data. To work with analytical data, ADOMD.NET supports functionality that is very different than other .NET Framework data providers. ADOMD.NET not only allows you to retrieve data, but also to retrieve metadata and change the structure of the analytical data store:  

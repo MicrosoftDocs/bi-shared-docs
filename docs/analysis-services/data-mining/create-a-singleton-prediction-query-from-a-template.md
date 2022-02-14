@@ -1,7 +1,7 @@
 ---
 title: "Create a Singleton Prediction Query from a Template | Microsoft Docs"
 description: Learn how to use the Template Explorer in SQL Server Management Studio to create a singleton prediction query.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Create a Singleton Prediction Query from a Template
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   A singleton query is useful when you have a model that you want to use for prediction, but don't want to map it to an external input data set or make bulk predictions. With a singleton query, you can provide a value or values to the model and instantly see the predicted value.  
   
  For example, the following DMX query represents a singleton query against the targeted mailing model, TM_Decision_Tree.  

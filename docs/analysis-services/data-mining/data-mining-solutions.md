@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Solutions | Microsoft Docs"
 description: Learn how to design and implement a data mining solution, which contains data mining projects in SQL Server Analysis Services.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Data Mining Solutions
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   A data mining solution is an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] solution that contains one or more data mining projects.  
   
  The topics in this section provide information about how to design and implement an integrated data mining solution by using [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. For an overview of the data mining design process and related tools, see [Data Mining Concepts](../../analysis-services/data-mining/data-mining-concepts.md).  

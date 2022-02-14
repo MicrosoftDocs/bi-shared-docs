@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Projects | Microsoft Docs"
 description: Learn how data mining projects are part of a SQL Server Analysis Services solution and design choices you can make to support testing a querying.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Data Mining Projects
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   A data mining project is part of an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] solution. During the design process, the objects that you create in this project are available for testing and querying as part of a workspace database. When you want users to be able to query or browse the objects in the project, you must deploy the project to an instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] running in multidimensional mode.  
   
  This topic provides you with the basic information needed to understand and create data mining projects.  

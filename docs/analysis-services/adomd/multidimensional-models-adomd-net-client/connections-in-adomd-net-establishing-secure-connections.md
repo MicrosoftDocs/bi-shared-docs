@@ -1,7 +1,7 @@
 ---
 title: "Establishing Secure Connections in ADOMD.NET | Microsoft Docs"
 description: Learn how to establish a secure connection in ADOMD.NET by using the ProtectionLevel property in the connection string.
-ms.date: 05/02/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: adomd
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Connections in ADOMD.NET - Establishing Secure Connections
   When you use a connection in ADOMD.NET, the security method that is used for the connection depends on the value of the **ProtectionLevel** property of the connection string used when you call the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.Open%2A> method of the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>.  

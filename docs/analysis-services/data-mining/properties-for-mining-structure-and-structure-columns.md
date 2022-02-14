@@ -1,7 +1,7 @@
 ---
 title: "Properties for Mining Structure and Structure Columns | Microsoft Docs"
 description: Learn how to set or change the properties for a mining structure and its associated columns and nested tables by using the Data Mining Designer.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Properties for Mining Structure and Structure Columns
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   You can set or change the properties for a mining structure and for its associated columns and nested tables by using the **Mining Structure** tab of Data Mining Designer. Properties that you set in this tab are propagated to each mining model that is associated with the structure.  
   
 > [!NOTE]  

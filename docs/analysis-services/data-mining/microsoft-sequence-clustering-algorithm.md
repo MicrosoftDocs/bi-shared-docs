@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Sequence Clustering Algorithm | Microsoft Docs"
 description: Learn about the Microsoft Sequence Clustering algorithm, which that combines sequence analysis with clustering in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Microsoft Sequence Clustering Algorithm
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Sequence Clustering algorithm is a unique algorithm that combines sequence analysis with clustering. You can use this algorithm to explore data that contains events that can be linked in a *sequence*. The algorithm finds the most common sequences, and performs clustering to find  sequences that are similar. The following examples illustrate the types of sequences that you might capture as data for machine learning, to provide insight about common problems or business scenarios:  
   
 -   Clickstreams or click paths generated when users navigate or browse a Web site  

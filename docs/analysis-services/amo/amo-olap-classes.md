@@ -1,7 +1,7 @@
 ---
 title: "AMO OLAP Classes | Microsoft Docs"
 description: Learn how Analysis Management Objects (AMO) OLAP classes help you create, modify, delete, and process cubes, dimensions, and related objects.
-ms.date: 12/07/2020
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo

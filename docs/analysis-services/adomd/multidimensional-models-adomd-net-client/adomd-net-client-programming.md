@@ -1,7 +1,7 @@
 ---
 title: "ADOMD.NET Client Programming | Microsoft Docs"
 description: The ADOMD.NET client components provide the functionality for client and middle-tier applications to easily query data and metadata from an analytical data store.
-ms.date: 05/02/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: adomd
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # ADOMD.NET Client Programming
   The ADOMD.NET client components reside within the **Microsoft.AnalysisServices.AdomdClient** namespace (in microsoft.analysisservices.adomdclient.dll). These client components provide the functionality for client and middle-tier applications to easily query data and metadata from an analytical data store, such as Microsoft SQL Server Analysis Services.  

@@ -1,7 +1,7 @@
 ---
 title: "Modeling Flags (Data Mining) | Microsoft Docs"
 description: Learn about modeling flags in SQL Server Analysis Services to provide information to a data mining algorithm about the data that is defined in a case table.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Modeling Flags (Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   You can use modeling flags in [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to provide additional information to a data mining algorithm about the data that is defined in a case table. The algorithm can use this information to build a more accurate data mining model.  
   
  Some modeling flags are defined at the level of the mining structure, whereas others are defined at the level of the mining model column. For example, the **NOT NULL** modeling flag is used with mining structure columns. You can define additional modeling flags on the mining model columns, depending on the algorithm you use to create the model.  

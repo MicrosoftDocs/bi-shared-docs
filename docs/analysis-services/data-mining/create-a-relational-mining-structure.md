@@ -1,7 +1,7 @@
 ---
 title: "Create a Relational Mining Structure | Microsoft Docs"
 description: Learn how to use the Data Mining Wizard to create a relational mining structure from relational data sources.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Create a Relational Mining Structure
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   Most data mining models are based on relational data sources. The advantages of creating a relational data mining model are that you can assemble ad hoc data and train and update a model without the complexity of creating a cube.  
   
  A relational mining structure can draw data from disparate sources. The raw data can be stored in tables, files, or relational database systems, so long as the data can be defined as part of data source view. For example, you should use a relational mining structure if your data is in Excel, a SQL Server data warehouse or SQL Server reporting database, or in external sources that are accessed via the OLE DB or ODBC providers.  

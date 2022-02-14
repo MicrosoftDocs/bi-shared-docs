@@ -1,7 +1,7 @@
 ---
 title: "Create a Data Mining Query by Using XMLA | Microsoft Docs"
 description: Learn how to create a variety of queries for data mining objects by using XML/A in SQL Server Data Tools.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Create a Data Mining Query by Using XMLA
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   You can create a variety of queries against data mining objects by using AMO, DMX, or XML/A.  
   
  XML is used for communication between the Analysis Services server and all clients. Therefore, although it is generally much easier to create content queries by using DMX, you can write queries by using the DISCOVER and COMMAND statements in XML/A, either by using a client that supports the SOAP protocol, or by creating an XML/A query in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)].  

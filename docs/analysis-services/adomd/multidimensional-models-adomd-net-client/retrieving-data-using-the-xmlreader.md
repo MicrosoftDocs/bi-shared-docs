@@ -1,7 +1,7 @@
 ---
 title: "Retrieving Data Using the XmlReader | Microsoft Docs"
 description: In this article, learn how to retrieve data from an analytical data source by using the XmlReader object in ADOMD.NET.
-ms.date: 05/02/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: adomd
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Retrieving Data Using the XmlReader
   The **XmlReader** class, part of the **System.Xml** namespace for the Microsoft .NET Framework Class Library, is similar to the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdDataReader> class in that the **XmlReader** class also provides fast, non-cached, forward-only access to data. If there is no need for an in-memory, analytical view of the data using the <xref:Microsoft.AnalysisServices.AdomdClient.CellSet> object, the **XmlReader** object is perfect for retrieving XML data, especially for large quantities of data. Because **XmlReader** streams data, **XmlReader** does not have to retrieve and cache all the data before exposing the data to the caller, as would be the case if a <xref:Microsoft.AnalysisServices.AdomdClient.CellSet> object were used to convert the XML for Analysis response into an analytical object model representation.  

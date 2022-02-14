@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Neural Network Algorithm | Microsoft Docs"
 description: Learn how to use the Microsoft Neural Network algorithm to create a mining model in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Microsoft Neural Network Algorithm
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm is an implementation of the popular and adaptable neural network architecture for machine learning.  The algorithm works by testing each possible state of the input attribute against each possible state of the predictable attribute, and calculating probabilities for each combination based on the training data. You can use these probabilities for both classification or regression tasks, to predict an outcome  based on some input attributes. A neural network can also be used for association analysis.  
   
  When you create a mining model using the [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm, you can include multiple outputs, and the algorithm will create multiple networks. The number of networks contained in a single mining model contains depends on the number of states (or attribute values) in the input columns, as well as the number of predictable columns that the mining model uses and the number of states in those columns.  

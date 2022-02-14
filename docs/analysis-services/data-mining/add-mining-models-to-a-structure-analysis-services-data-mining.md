@@ -1,7 +1,7 @@
 ---
 title: "Add Mining Models to a Structure (Analysis Services - Data Mining) | Microsoft Docs"
 description: In this article, learn to use the Data Mining Wizard to create a new mining model and create a mining structure.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Add Mining Models to a Structure (Analysis Services - Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   A mining structure is intended to support multiple mining models. Therefore, after you finish the wizard, you can open the structure and add new mining models. Each time that you create a model, you can use a different algorithm, change the parameters, or apply filters to use a different subset of the data.  
   
 ## Adding New Mining Models  

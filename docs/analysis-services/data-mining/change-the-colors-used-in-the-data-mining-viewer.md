@@ -1,7 +1,7 @@
 ---
 title: "Change the Colors Used in the Data Mining Viewer | Microsoft Docs"
 description: Learn how to change the colors that are used in the data mining viewers to display data series, nodes, or clusters.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Change the Colors Used in the Data Mining Viewer
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   You can change the colors that are used in the data mining viewers to display data series, nodes, or clusters. You do this by setting options in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] or [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]. After you have changed the settings, the color selections apply to all models that you view by using [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)]; however, you must close [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] and reopen the model in the viewer to see the new colors.  
   
 ### To change the colors used in the data mining viewers  

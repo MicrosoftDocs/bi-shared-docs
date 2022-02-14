@@ -1,7 +1,7 @@
 ---
 title: "Create a Prediction Query Using the Prediction Query Builder | Microsoft Docs"
 description: Learn how to create a prediction query by using the Prediction Query Builder while building a data mining solution or for an existing solution.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Create a Prediction Query Using the Prediction Query Builder
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   You can create prediction queries either while you are building a data mining solution in BI Development Studio, or by right-clicking an existing mining model in SQL Server Management Studio, and then choosing the option, **Build Prediction Query**.  
   
  The **Prediction Query Builder** has the following three design modes, which you can switch among by clicking the icons in the upper-left corner.  

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Handling Errors and Warnings (XMLA)
   Error handling is required when an XML for Analysis (XMLA) [Discover](../xmla/xml-elements-methods-discover.md) or [Execute](../xmla/xml-elements-methods-execute.md) method call does not run, runs successfully but generates errors or warnings, or runs successfully but returns results that contain errors.  

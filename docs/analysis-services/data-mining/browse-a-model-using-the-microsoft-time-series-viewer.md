@@ -1,7 +1,7 @@
 ---
 title: "Browse a Model Using the Microsoft Time Series Viewer | Microsoft Docs"
 description: The Microsoft Time Series Viewer in Microsoft SQL Server Analysis Services displays mining models that are built with the Microsoft Time Series algorithm. 
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Browse a Model Using the Microsoft Time Series Viewer
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series Viewer in [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] displays mining models that are built with the [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series algorithm. The [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series algorithm is a regression algorithm that creates data mining models for prediction of continuous columns, such as product sales, in a forecasting scenario. These time series models can include information based on different algorithms:  
   
 -   The ARTxp algorithm, which is optimized for short-term prediction.  

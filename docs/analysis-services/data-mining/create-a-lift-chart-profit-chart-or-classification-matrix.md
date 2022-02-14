@@ -1,7 +1,7 @@
 ---
 title: "Create a Lift Chart, Profit Chart, or Classification Matrix | Microsoft Docs"
 description: Learn how to create an accuracy chart, and use the same steps for the lift chart, profit chart, and classification matrix in SQL Server Data Tools.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Create a Lift Chart, Profit Chart, or Classification Matrix
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   You can create an accuracy chart for an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] data mining model in five basic steps:  
   
 -   Select the mining structure that contains the mining models that you want to compare.  

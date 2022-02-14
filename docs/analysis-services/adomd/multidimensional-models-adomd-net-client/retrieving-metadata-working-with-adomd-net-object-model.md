@@ -1,7 +1,7 @@
 ---
 title: "Working with the ADOMD.NET Object Model | Microsoft Docs"
 description: The AdomdConnection object provides access to information on the online analytical processing (OLAP) cubes and mining models defined on an analytical data source.
-ms.date: 05/02/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: adomd
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Retrieving Metadata - Working with ADOMD.NET Object Model
   ADOMD.NET provides an object model for viewing the cubes and subordinate objects contained by an analytical data source. However, not all metadata for a given analytical data source is available through the object model. The object model provides access to only the information that is most useful for a client application to display in order to allow a user to interactively construct commands. Because of the reduced complexity of the metadata to present, the ADOMD.NET object model is easier to use.  

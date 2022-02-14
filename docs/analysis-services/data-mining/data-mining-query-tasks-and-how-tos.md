@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Query Tasks and How-tos | Microsoft Docs"
 description: Learn how to create queries to make use of data mining models by using these examples in SQL Server Management Studio and SQL Server Data Tools.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Data Mining Query Tasks and How-tos
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The ability to create queries is critical if you are to make use of your data mining models. This section provides links to examples of how to create queries against a data mining model by using the tools provided in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] and [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)]. If you need more information about what a data mining query is, or the different types of queries you can create, see [Data Mining Queries](../../analysis-services/data-mining/data-mining-queries.md).  
   
 ## Creating Queries with Prediction Query Builder  

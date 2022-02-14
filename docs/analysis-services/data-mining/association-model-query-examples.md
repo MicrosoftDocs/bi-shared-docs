@@ -1,7 +1,7 @@
 ---
 title: "Association Model Query Examples | Microsoft Docs"
 description: Learn how to create these kinds of queries for models that are based on the Microsoft Association Rules algorithm.
-ms.date: 06/05/2019
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Association Model Query Examples
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   When you create a query against a data mining model, you can create either a content query, which provides details about the rules and itemsets discovered during analysis, or you can create a prediction query, which uses the associations discovered in the data to make predictions. For an association model, predictions typically are based on rules, and can be used to make recommendations, whereas queries on content typically explore the relationship among itemsets. You can also retrieve metadata about the model.  
   
  This section explains how to create these kinds of queries for models that are based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] Association Rules algorithm.  

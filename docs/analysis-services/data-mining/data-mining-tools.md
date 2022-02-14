@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Tools (Analysis Services) | Microsoft Docs"
 description: Learn about data mining tools in SQL Server Analysis Services, including the Data Mining Wizard, model viewers, and the Prediction Query Builder.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Data Mining Tools
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] provides the following tools that you can use to create data mining solutions:  
   
 -   The **Data Mining Wizard** in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] makes it easy to create mining structures and mining models, using either relational data sources or multidimensional data in cubes.  

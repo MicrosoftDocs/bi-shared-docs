@@ -1,7 +1,7 @@
 ---
 title: "Copy a View of a Mining Model | Microsoft Docs"
 description: Learn how to create a copy of a view of a mining model by using the Data Mining Designer in SQL Server Data Tools.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -9,10 +9,13 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Copy a View of a Mining Model
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The **Mining Model Viewer** tab of Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] uses a separate viewer for each type of mining model. Several of the viewers have components from which you can copy the contents to the Clipboard, and from there paste the contents into a document or into image manipulation software. The following components make this functionality available:  
   
 -   Cluster Diagram in the [!INCLUDE[msCoName](../includes/msconame-md.md)] Cluster Viewer and the [!INCLUDE[msCoName](../includes/msconame-md.md)] Sequence Cluster Viewer  
