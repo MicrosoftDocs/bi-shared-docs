@@ -1,7 +1,7 @@
 ---
 title: "ADOMD.NET Client Functionality | Microsoft Docs"
 description: Learn how ADOMD.NET not only allows you to retrieve data, but also to retrieve metadata and change the structure of the analytical data store.
-ms.date: 05/02/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: adomd
