@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Linear Regression Algorithm Technical Reference | Microsoft Docs"
 description: Learn about the implementation of the Microsoft Linear Regression algorithm and how to customize the behavior of the algorithm in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Microsoft Linear Regression Algorithm Technical Reference
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Linear Regression algorithm is a special version of the Microsoft Decision Trees algorithm that is optimized for modeling pairs of continuous attributes. This topic explains the implementation of the algorithm, describes how to customize the behavior of the algorithm, and provides links to additional information about querying models.  
   
 ## Implementation of the Linear Regression Algorithm  

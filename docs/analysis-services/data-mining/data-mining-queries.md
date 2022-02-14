@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Queries (Analysis Services) | Microsoft Docs"
 description: Learn about the uses of data mining queries, the types of queries, and the tools and query languages in SQL Server Data Mining.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Data Mining Queries
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   Data mining queries are useful for many purposes. You can:  
   
 -   Apply the model to new data, to make single or multiple predictions. You can provide input values as parameters, or in a batch.  

@@ -1,7 +1,7 @@
 ---
 title: "Security Overview (Data Mining) | Microsoft Docs"
 description: Learn about securing your data mining project, which occurs at multiple levels in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Security Overview (Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The process of securing [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] occurs at multiple levels. You must secure each instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] and its data sources to make sure that only authorized users have read or read/write permissions to selected dimensions, mining models, and data sources. You must also secure underlying data sources to prevent unauthorized users from maliciously compromising sensitive business information. The process of securing an instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] is described in the following topics.  
   
 ##  <a name="bkmk_Architecture"></a> Security Architecture  

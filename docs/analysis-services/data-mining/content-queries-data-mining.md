@@ -1,7 +1,7 @@
 ---
 title: "Content Queries (Data Mining) | Microsoft Docs"
 description: Learn that a content query is a way of extracting information about the internal statistics and structure of the mining model. 
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Content Queries (Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   A content query is a way of extracting information about the internal statistics and structure of the mining model. Sometimes a content query can provide details that are not readily available in the viewer. You can also use the results of a content query to extract information programmatically for other uses.  
   
  This section provides general information about the types of information that you can retrieve by using a content query, and the general DMX syntax for content queries.  

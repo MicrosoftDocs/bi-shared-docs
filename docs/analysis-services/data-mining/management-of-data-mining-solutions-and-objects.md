@@ -1,7 +1,7 @@
 ---
 title: "Management of Data Mining Solutions and Objects | Microsoft Docs"
 description: Learn about the management operations for data mining solutions and object in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Management of Data Mining Solutions and Objects
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] provides client tools that you can use to manage existing mining structures and mining models. This section describes the management operations that you can perform using each environment.  
   
  In addition to these tools, you can manage data mining objects programmatically, by using AMO, or use other clients that connect to an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database, such as the Data Mining Add-ins for [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)] 2007.  

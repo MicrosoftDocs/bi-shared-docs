@@ -1,7 +1,7 @@
 ---
 title: "Create a Content Query on a Mining Model | Microsoft Docs"
 description: Learn how to query a mining model by using DMX and query the data mining schema rowsets in SQL Server Data Tools.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Create a Content Query on a Mining Model
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   You can query the mining model content programmatically by using AMO or XML/A, but it is easier to create queries by using DMX. You can also create queries against the data mining schema rowsets by establishing a connection to the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance and creating a query using the DMVs provided by [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
  The following procedures demonstrate how to create queries against a mining model by using DMX, and how to query the data mining schema rowsets.  

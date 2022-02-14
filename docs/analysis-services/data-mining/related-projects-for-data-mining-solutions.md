@@ -1,7 +1,7 @@
 ---
 title: "Related Projects for Data Mining Solutions | Microsoft Docs"
 description: Learn about other features of SQL Server 2017 that support data preparation and data mining, or support users by providing tools for analysis and action.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Related Projects for Data Mining Solutions
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The minimum that is required for a data mining solution is the data mining project, which defines data sources, data source views, mining structures and mining models. However, when data mining models are used in daily decision making, it is important that data mining be integrated with other part of a predictive analytics solution, which can include these processes and components:  
   
 -   Preparation and selection of data and of variables. Includes data cleansing, metadata management and integration of multiple data sources, and the conversion, merging, and uploading of data into a data warehouse.  

@@ -1,7 +1,7 @@
 ---
 title: "Feature Selection (Data Mining) | Microsoft Docs"
 description: Learn about features selection, which refers to the process of reducing the inputs for processing and analysis, or of finding the most meaningful inputs.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Feature Selection (Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   *Feature selection* is an important part of machine learning. Feature selection refers to the process of reducing the inputs for processing and analysis, or of finding the most meaningful inputs. A related term, *feature engineering* (or *feature extraction*), refers to the process of extracting useful information or features from existing data.  
   
 ## Why Do Feature Selection?  

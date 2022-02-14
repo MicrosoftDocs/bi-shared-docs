@@ -1,7 +1,7 @@
 ---
 title: "Browse a Model Using the Microsoft Naive Bayes Viewer | Microsoft Docs"
 description: The Microsoft Naive Bayes Viewer in Microsoft SQL Server Analysis Services displays mining models that are built with the Microsoft Naive Bayes algorithm. 
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Browse a Model Using the Microsoft Naive Bayes Viewer
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Naive Bayes Viewer in [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] displays mining models that are built with the [!INCLUDE[msCoName](../includes/msconame-md.md)] Naive Bayes algorithm. The [!INCLUDE[msCoName](../includes/msconame-md.md)] Naive Bayes algorithm is a classification algorithm that is highly adaptable to predictive modeling tasks. For more information about this algorithm, see [Microsoft Naive Bayes Algorithm](../../analysis-services/data-mining/microsoft-naive-bayes-algorithm.md).  
   
  Because one of the main purposes of a naive Bayes model is to provide a way to quickly explore the data in a dataset, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Naive Bayes Viewer provides several methods for displaying the interaction between predictable attributes and input attributes.  

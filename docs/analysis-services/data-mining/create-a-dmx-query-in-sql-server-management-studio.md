@@ -1,7 +1,7 @@
 ---
 title: "Create a DMX Query in SQL Server Management Studio | Microsoft Docs"
 description: Learn how to build a DMX query by using the Metadata Explorer and the DMX query editor SQL Server Data Tools.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Create a DMX Query in SQL Server Management Studio
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] provides a set of features to help you create prediction queries, content queries, and data definition queries against mining models and mining structures.  
   
 -   The graphical Prediction Query Builder is available in both [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] and [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], to simplify the process of writing prediction queries and mapping data sets to a model.  

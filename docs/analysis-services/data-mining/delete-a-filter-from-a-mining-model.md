@@ -1,7 +1,7 @@
 ---
 title: "Delete a Filter from a Mining Model | Microsoft Docs"
 description: Learn how to remove conditions on a filter or remove the filter entirely from a mining model in SQL Server Analysis Services.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Delete a Filter from a Mining Model
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   When you create a filter on a mining model, you can create models on a subset of the data in the data source view. Filters are also useful for testing the accuracy of the model on a subset of the original data.  
   
  However, you must delete the filter if you want to view the complete set of cases again. This procedure describes how to remove conditions on a filter, or delete the filter completely.  

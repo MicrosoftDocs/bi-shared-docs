@@ -1,7 +1,7 @@
 ---
 title: "Filter an Itemset in an Association Rules Model | Microsoft Docs"
 description: Learn how to filter an Itemset in an Association Rules Model by using Data Mining Designer in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Filter an Itemset in an Association Rules Model
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   In [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], you can filter the itemsets that are displayed in the **Itemsets** tab of the [!INCLUDE[msCoName](../includes/msconame-md.md)] Association Rules Viewer.  
   
 ### To filter an itemset  

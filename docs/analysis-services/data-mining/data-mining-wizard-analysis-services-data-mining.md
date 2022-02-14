@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Wizard (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about the Data Mining Wizard that helps you choose a data source, set up a data source view that defines data for analysis, and create an initial model.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Data Mining Wizard (Analysis Services - Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The Data Mining Wizard in [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] starts every time that you add a new mining structure to a data mining project. The wizard helps you choose a data source and set up a data source view that defines the data to be used for analysis, and then helps you create an initial model.  
   
  In the final phase of the wizard, you can optionally divide your data into training and testing sets, and enable features such as drillthrough.  

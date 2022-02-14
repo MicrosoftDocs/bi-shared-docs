@@ -1,7 +1,7 @@
 ---
 title: "Mining Structure Tasks and How-tos | Microsoft Docs"
 description: Learn about the Mining Structure tab of Data Mining Designer in SQL Server Data Tools that contains tools to create, edit, and process a mining structure.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Mining Structure Tasks and How-tos
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The **Mining Structure** tab of Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] contains tools that you can use to create, edit, and process a mining structure.  
   
 ## In This Section  

@@ -1,7 +1,7 @@
 ---
 title: "Create a Cross-Validation Report | Microsoft Docs"
 description: Learn how to create a cross-validation report by using the Accuracy Chart tab of Data Mining Designer in SQL Server Data Tools.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Create a Cross-Validation Report
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   This topic walks you through creation of a cross-validation report using the Accuracy Chart tab in Data Mining Designer. For general information about what a cross-validation report looks like, and the statistical measures it includes, see [Cross-Validation &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/cross-validation-analysis-services-data-mining.md).  
   
  A cross-validation report is fundamentally different from an accuracy chart, such as a lift chart or classification matrix.  

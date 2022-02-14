@@ -1,7 +1,7 @@
 ---
 title: "Mining Model Tasks and How-tos | Microsoft Docs"
 description: Learn how to manage and process mining models in a mining structure by using the Data Mining Designer in SQL Server Data Tools.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Mining Model Tasks and How-tos
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   Use the **Mining Models** tab of Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] to manage and process mining models in a mining structure.  
   
 ## In This Section  

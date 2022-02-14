@@ -1,7 +1,7 @@
 ---
 title: "Create a Data Mining Dimension | Microsoft Docs"
 description: Learn how to create a data mining dimension to browse the dimension, use it to explore the model results, or query in SQL Server Data Tools.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Create a Data Mining Dimension
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   If your mining structure is based on an OLAP cube, you can create a dimension that contains the content of the mining model. You can then incorporate the dimension back into the source cube.  
   
  You can also browse the dimension, use it to explore the model results, or query the dimension using MDX.  

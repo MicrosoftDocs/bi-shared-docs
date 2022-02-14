@@ -1,7 +1,7 @@
 ---
 title: "Import a Data Mining Project using the Analysis Services Import Wizard | Microsoft Docs"
 description: Learn how to import the metadata of an existing data mining project to create a new data mining project in SQL Server Data Tools.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Import a Data Mining Project using the Analysis Services Import Wizard
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   This topic describes how to create a new data mining project by importing the metadata from an existing data mining project on another server, using the template, **Import from Server (Multidimensional and Data Mining) Project**, in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
 ## Import data sources, mining structures, and mining models from an existing data mining project  

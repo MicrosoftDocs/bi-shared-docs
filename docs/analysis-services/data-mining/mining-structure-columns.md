@@ -1,7 +1,7 @@
 ---
 title: "Mining Structure Columns | Microsoft Docs"
 description: Learn about columns in mining structures, which are designed to be flexible and extensible in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Mining Structure Columns
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   You define the columns in a mining structure when you create the mining structure, by choosing columns of external data and then specifying how the data is to be used for modeling. Therefore, mining structure columns are more than copies of data from a data source: they define how the data from the source is to be used by the mining model. You can assign properties that determine how the data is discretized, properties that describe how the data values are distributed  
   
  Mining structure columns are designed to be flexible and extensible, because each algorithm that you use to build a mining model may use different columns from the structure to interpret the data. Rather than have one set of data for each model, you can use a single mining structure and use the columns in it to customize the data for each model.  

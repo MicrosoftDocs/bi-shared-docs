@@ -1,7 +1,7 @@
 ---
 title: "Using Nested Table Data as an Input for an Accuracy Chart | Microsoft Docs"
 description: Learn how to work with nested tables for model testing, map nested & case tables in mode and external data, and how to apply a filter to a nested table.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Using Nested Table Data as an Input for an Accuracy Chart
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   When you test the accuracy of a mining model by using external data, if the mining model contains nested tables, the external data must also contain a case table and an associated nested table.  
   
  This topic describes how to work with nested tables used for model testing, how to map nested and case tables in the mode and in the external data, and how to apply a filter to a nested table.  

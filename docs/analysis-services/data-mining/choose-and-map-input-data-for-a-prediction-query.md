@@ -1,7 +1,7 @@
 ---
 title: "Choose and Map Input Data for a Prediction Query | Microsoft Docs"
 description: Learn how to choose and map input data for a prediction query. You can also learn how to remove a relationship between input tables.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Choose and Map Input Data for a Prediction Query
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   When you create predictions from a mining model, you generally do this by feeding new data into the model. (The exception is time series models, which can make predictions based on historical data only.) To provide the model with new data, you must make sure that the data is available as part of a data source view. If you know in advance which data you will use for prediction, you can include it in the data source view that you used to create the model. Otherwise, you might have to create a new data source view. For more information, see [Data Source Views in Multidimensional Models](../../analysis-services/multidimensional-models/data-source-views-in-multidimensional-models.md).  
   
  Sometimes the data that you need might be contained within more than one table in a one-to-many join. This is the case with data used for association models or sequence clustering models, which use a case table linked to a nested table that contains product or transaction details. If your model uses a case-nested table structure, the data that you use for prediction must also have a case-nested table structure.  

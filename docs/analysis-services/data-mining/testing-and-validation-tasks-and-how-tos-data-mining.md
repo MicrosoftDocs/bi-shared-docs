@@ -1,7 +1,7 @@
 ---
 title: "Testing and Validation Tasks and How-tos (Data Mining) | Microsoft Docs"
 description: Learn how to compare the predictive accuracy of the mining models in your mining structure by using Data Mining Designer in SQL Server Data Tools.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Testing and Validation Tasks and How-tos (Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   You can use the **Mining Accuracy Chart** tab of Data Mining Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] to compare the predictive accuracy of the mining models in your mining structure.  
   
  You can create four kinds of charts:  

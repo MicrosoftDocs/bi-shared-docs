@@ -1,7 +1,7 @@
 ---
 title: "Browse a Model Using the Microsoft Association Rules Viewer | Microsoft Docs"
 description: The Microsoft Association Rules Viewer in Microsoft SQL Server Analysis Services displays mining models that are built with the Microsoft Association algorithm. 
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Browse a Model Using the Microsoft Association Rules Viewer
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Association Rules Viewer in [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] displays mining models that are built with the [!INCLUDE[msCoName](../includes/msconame-md.md)] Association algorithm. The [!INCLUDE[msCoName](../includes/msconame-md.md)] Association algorithm is an association algorithm for use in creating data mining models that you can use for market basket analysis. For more information about this algorithm, see [Microsoft Association Algorithm](../../analysis-services/data-mining/microsoft-association-algorithm.md).  
   
  Following are the primary reasons for using the [!INCLUDE[msCoName](../includes/msconame-md.md)] Association algorithm:  

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Linear Regression Algorithm | Microsoft Docs"
 description: Learn about the Microsoft Linear Regression Algorithm, which calculates a linear relationship between a dependent and independent variable for prediction.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Microsoft Linear Regression Algorithm
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Linear Regression algorithm is a variation of the [!INCLUDE[msCoName](../includes/msconame-md.md)] Decision Trees algorithm that helps you calculate a linear relationship between a dependent and independent variable, and then use that relationship for prediction.  
   
  The relationship takes the form of an equation for a line that best represents a series of data. For example, the line in the following diagram is the best possible linear representation of the data.  

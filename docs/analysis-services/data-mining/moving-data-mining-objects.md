@@ -1,7 +1,7 @@
 ---
 title: "Moving Data Mining Objects | Microsoft Docs"
 description: Learn how to use the tools and scripting languages provided by SQL Server Analysis Services to move data mining objects.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Moving Data Mining Objects
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The most common scenarios for moving data mining objects are to deploy a model from a testing or analysis environment to a production environment, or to share models with other users.  
   
  This topic describes how you can use the tools and scripting languages provided by [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], for moving data mining objects.  

@@ -1,7 +1,7 @@
 ---
 title: "Clustering Model Query Examples | Microsoft Docs"
 description: In this article, learn how to create queries for models that are based on the Microsoft Clustering algorithm.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Clustering Model Query Examples
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   When you create a query against a data mining model, you can retrieve metadata about the model, or create a content query that provides details about the patterns discovered in analysis. Alternatively, you can create a prediction query, which uses the patterns in the model to make predictions for new data. Each type of query will provide different information. For example, a content query might provide additional details about the clusters that were found, whereas a prediction query might tell you in which cluster a new data point is most likely to belong.  
   
  This section explains how to create queries for models that are based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] Clustering algorithm.  

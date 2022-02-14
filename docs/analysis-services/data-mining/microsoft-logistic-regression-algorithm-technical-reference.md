@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Logistic Regression Algorithm Technical Reference | Microsoft Docs"
 description: Learn about the implemenation of the Microsoft Logistic Regression algorithm in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Microsoft Logistic Regression Algorithm Technical Reference
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Logistic Regression algorithm is a variation of the [!INCLUDE[msCoName](../includes/msconame-md.md)] Neural Network algorithm, where the *HIDDEN_NODE_RATIO* parameter is set to 0. This setting will create a neural network model that does not contain a hidden layer, and that therefore is equivalent to logistic regression.  
   
 ## Implementation of the Microsoft Logistic Regression Algorithm  

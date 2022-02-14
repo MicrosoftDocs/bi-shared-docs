@@ -1,7 +1,7 @@
 ---
 title: "Data Definition Queries (Data Mining) | Microsoft Docs"
 description: Learn about the category data definition query, which includes DMX statements or XMLA commands to manage data mining objects.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Data Definition Queries (Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   For data mining, the category *data definition query* means DMX statements or XMLA commands that do the following:  
   
 -   Create, alter, or manipulate data mining objects, such as a model.  

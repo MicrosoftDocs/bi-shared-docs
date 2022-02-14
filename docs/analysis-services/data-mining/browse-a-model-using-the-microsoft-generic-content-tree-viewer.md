@@ -1,7 +1,7 @@
 ---
 title: "Browse a Model Using the Microsoft Generic Content Tree Viewer | Microsoft Docs"
 description: The Microsoft Generic Mining Model Content Viewer provides detailed information about the patterns found by the mining algorithm.
-ms.date: 05/01/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Browse a Model Using the Microsoft Generic Content Tree Viewer
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   The [!INCLUDE[msCoName](../includes/msconame-md.md)] Generic Mining Model Content Viewer provides detailed information about the patterns found by the mining algorithm, and also provides access to various statistics generated during the analysis process. The amount and type of information depends on the algorithm that was used, but can include the following categories:  
   
 -   Segments of data, and their characteristics.  

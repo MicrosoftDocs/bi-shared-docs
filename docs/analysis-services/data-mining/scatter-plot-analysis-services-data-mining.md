@@ -1,7 +1,7 @@
 ---
 title: "Scatter Plot (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about how a scatter plot graphs the actual values in your data against values predicted by the data mining model in SQL Server Analysis Services.
-ms.date: 05/08/2018
+ms.date: 02/14/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: data-mining
@@ -13,6 +13,9 @@ manager: kfile
 ---
 # Scatter Plot (Analysis Services - Data Mining)
 [!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+
+[!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
+
   A *scatter plot* graphs the actual values in your data against the values predicted by the model. The scatter plot displays the actual values along the X-axis, and displays the predicted values along the Y-axis. It also displays a line that illustrates the perfect prediction, where the predicted value exactly matches the actual value. The distance of a point from this ideal 45-degree angle line indicates how well or how poorly the prediction performed.  
   
 ## Understanding the Scatter Plot  
