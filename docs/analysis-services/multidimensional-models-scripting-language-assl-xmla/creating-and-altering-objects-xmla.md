@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Creating and Altering Objects (XMLA)
   Major objects can be independently created, altered, and deleted. Major objects include the following objects:  

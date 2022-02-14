@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # ADOMD.NET Server Object Architecture
   The ADOMD.NET server objects are helper objects that can be used to create user defined functions (UDFs) or stored procedures in Microsoft SQL Server Analysis Services.  

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Connections in ADOMD.NET - Establishing Secure Connections
   When you use a connection in ADOMD.NET, the security method that is used for the connection depends on the value of the **ProtectionLevel** property of the connection string used when you call the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.Open%2A> method of the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection>.  

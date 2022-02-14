@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-manager: kfile
+
 ---
 # Connections in ADOMD.NET
   In ADOMD.NET, you use the <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection> object to open connections with analytical data sources, such as Microsoft SQL Server Analysis Services databases. When the connection is no longer needed, you should explicitly close the connection.  
