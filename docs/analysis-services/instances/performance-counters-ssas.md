@@ -226,7 +226,9 @@ Azure Analysis Services uses Azure Metrics Explorer in the portal. To learn more
 |VertiPaq Memory-Mapped KB|Kilobytes of pageable memory in use for in-memory data.|  
 |Memory Limit Hard KB|Hard memory limit, from configuration file.|  
 |Memory Limit VertiPaq KB|In-memory limit, from configuration file.|  
-  
+|Vertipaq Paged-in KB/sec|Unavailable. Reserved for future use.|
+|Vertipaq Paged-out KB/sec|Unavailable. Reserved for future use.|
+
 ###  <a name="bkmk_ProactiveCaching"></a> Proactive Caching  
  Statistics related to Microsoft Analysis Services Proactive Caching.  
   
