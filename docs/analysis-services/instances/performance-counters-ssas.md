@@ -43,6 +43,7 @@ Azure Analysis Services uses Azure Metrics Explorer in the portal. To learn more
 |[Processing](#bkmk_Processing)|Statistics related to processing of data.|  
 |[Storage Engine Query](#bkmk_StorageEngineQuery)|Statistics related to Microsoft Analysis Services storage engine queries.|  
 |[Threads](#bkmk_Threads)|Statistics related to Microsoft Analysis Services threads.|  
+|[Reliability](#bkmk_Reliability)|Statistics related to Microsoft Analysis Services reliability.|
   
 ###  <a name="bkmk_Cache"></a> Cache  
  Statistics related to the Microsoft Analysis Services aggregation cache.  
@@ -226,7 +227,9 @@ Azure Analysis Services uses Azure Metrics Explorer in the portal. To learn more
 |VertiPaq Memory-Mapped KB|Kilobytes of pageable memory in use for in-memory data.|  
 |Memory Limit Hard KB|Hard memory limit, from configuration file.|  
 |Memory Limit VertiPaq KB|In-memory limit, from configuration file.|  
-  
+|Vertipaq Paged-in KB/sec|Unavailable. Reserved for future use.|
+|Vertipaq Paged-out KB/sec|Unavailable. Reserved for future use.|
+
 ###  <a name="bkmk_ProactiveCaching"></a> Proactive Caching  
  Statistics related to Microsoft Analysis Services Proactive Caching.  
   
@@ -315,7 +318,17 @@ Azure Analysis Services uses Azure Metrics Explorer in the portal. To learn more
 |Measure group cache hits/sec|Rate of measure group cache hits.|  
 |Aggregation lookups/sec|Rate of aggregation lookups.|  
 |Aggregation hits/sec|Rate of aggregation hits.|  
-  
+|Direct Queries queries/sec|Rate of direct queries sent by server to clients|
+|Total Direct Queries|Total number of direct queries sent by server to clients|
+|Total queries|Total number of queries|
+|Total query failures|Total number of query failures|
+|Total json operations|Total number of json operations|
+|Total json operation failures|Total number of json operation failures|
+|Total discover operations|Total number of discover operations|
+|Total discover operation failures|Total number of discover operation failures|
+|Total query wait time|Total query wait time in milliseconds|
+|Total waited queries|Total number of queries which waited for at least 1 millisecond|
+
 ###  <a name="bkmk_Threads"></a> Threads  
  Statistics related to Microsoft Analysis Services threads.  
   
@@ -341,4 +354,20 @@ Azure Analysis Services uses Azure Metrics Explorer in the portal. To learn more
 |Processing pool busy I/O job threads|Number of threads running I/O jobs in the processing thread pool.|  
 |Processing pool I/O job queue length|Number of I/O jobs in the queue of the processing thread pool.|  
 |Processing pool I/O job completion rate|Rate of I/O jobs through the processing thread pool.|  
-  
+
+###  <a name="bkmk_Reliability"></a> Reliability  
+ Statistics related to Microsoft Analysis Services reliability.
+
+|Counter|Description|
+|-------------|-----------------|
+|Total memory allocation errors|Total number of memory allocation errors|
+|Current panic mode|A value of 1 indicates that Analysis Services has entered panic mode|
+|Total dumps|Total number of dump events|
+|Total user errors|Total number of user errors|
+|Total system errors|Total number of system errors|
+|Total unclassified errors|Total number of unclassified errors|
+|User errors/sec|Rate of user errors|
+|System errors/sec|Rate of system errors|
+|Unclassified errors/sec|Rate of unclassified errors|
+|Number of threads waiting for memory due to high memory state|Current number of threads waiting for memory to be freed due to high memory state.|
+
