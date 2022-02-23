@@ -44,6 +44,7 @@ Azure Analysis Services uses Azure Metrics Explorer in the portal. To learn more
 |[Storage Engine Query](#bkmk_StorageEngineQuery)|Statistics related to Microsoft Analysis Services storage engine queries.|  
 |[Threads](#bkmk_Threads)|Statistics related to Microsoft Analysis Services threads.|  
 |[Reliability](#bkmk_Reliability)|Statistics related to Microsoft Analysis Services reliability.|
+|Database Auto Image Load|Unavailable. Not supported.|
   
 ###  <a name="bkmk_Cache"></a> Cache  
  Statistics related to the Microsoft Analysis Services aggregation cache.  
