@@ -1,7 +1,7 @@
 ﻿---
 title: "Analysis Services Adventure Works Internet Sales tutorial (1500) | Microsoft Docs"
 description: Learn how to create a new Analysis Services tabular model in this tutorial.
-ms.date: 03/24/2020
+ms.date: 02/24/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -44,7 +44,7 @@ To complete lessons 1-12, you need:
 
 - An [Azure Synapse Analytics](/azure/sql-data-warehouse/create-data-warehouse-portal) (SQL Data Warehouse) named **AdventureWorksDW** with the sample **AdventureWorksDW database**. If using a paid subscription, after completing this tutorial, you can pause or delete this resource in the portal to prevent unwanted charges.
 
-- The latest version of [Visual Studio](https://visualstudio.microsoft.com/downloads/). Any edition, including the free Community edition work fine.
+- [Visual Studio](../tools-and-applications-used-in-analysis-services.md). Any edition, including the free Community edition work fine.
 
 - The latest [Microsoft Analysis Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) (VSIX) package installed in Visual Studio.
 
