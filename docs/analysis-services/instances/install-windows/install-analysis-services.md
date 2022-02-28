@@ -1,7 +1,7 @@
 ---
 title: "Install SQL Server Analysis Services | Microsoft Docs"
 description: Learn how to use the SQL Server Installation Wizard to install SQL Server Analysis Services and the three modes determined during setup.
-ms.date: 01/29/2020
+ms.date: 02/28/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -75,4 +75,5 @@ Setup.exe /q /IAcceptSQLServerLicenseTerms /ACTION=install /FEATURES=AS /ASSERVE
 
 ## See also
 
- [Determine the Server Mode of an Analysis Services Instance](../../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)
+ [Determine the Server Mode of an Analysis Services Instance](../../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
+ [SQL Server 2014 and later evaluation editions](https://www.microsoft.com/evalcenter/evaluate-sql-server)
