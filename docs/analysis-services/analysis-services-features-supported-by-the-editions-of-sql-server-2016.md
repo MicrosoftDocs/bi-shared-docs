@@ -21,7 +21,8 @@ This article describes features supported by different editions of SQL Server 20
 |Feature|Enterprise|Standard|Web|Express with Advanced Services|Express with Tools|Express|Developer|  
 |-------------|----------------|--------------|---------|------------------------------------|------------------------|-------------|---------------|  
 |Scalable shared databases|Yes||||||Yes|  
-|Backup/Restore & Attach/Detach databases|Yes|Yes|||||Yes|  
+|Backup/Restore|Yes|Yes|||||Yes|
+|Attach/Detach databases|Yes||||||Yes|  
 |Synchronize databases|Yes||||||Yes|  
 |Failover cluster instances|Yes<br /><br /> Number of nodes is the operating system maximum|Yes<br /><br /> Support for 2 nodes|||||Yes<br /><br /> Number of nodes is the operating system maximum|  
 |Programmability (AMO, ADOMD.Net, OLEDB, XML/A, ASSL, TMSL)|Yes|Yes|||||Yes|  
