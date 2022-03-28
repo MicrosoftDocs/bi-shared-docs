@@ -1,7 +1,7 @@
 ---
 title: "Connection string properties (Analysis Services) | Microsoft Docs"
 description: Learn about connection string properties used to query Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium dataset data.
-ms.date: 11/17/2021
+ms.date: 03/28/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -169,7 +169,7 @@ Determines the security level used on the connection. Values supported depend on
 
 To learn more, see [Establishing Secure Connections in ADOMD.NET](../adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections.md)
 
-::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
 ### Roles
 
