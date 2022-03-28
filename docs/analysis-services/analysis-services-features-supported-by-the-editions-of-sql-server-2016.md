@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services features supported by SQL Server edition | Microsoft Docs"
 description: Learn about features supported by different editions of SQL Server 2016, 2017, 2019 Analysis Services.
-ms.date: 01/29/2020
+ms.date: 03/23/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -21,7 +21,8 @@ This article describes features supported by different editions of SQL Server 20
 |Feature|Enterprise|Standard|Web|Express with Advanced Services|Express with Tools|Express|Developer|  
 |-------------|----------------|--------------|---------|------------------------------------|------------------------|-------------|---------------|  
 |Scalable shared databases|Yes||||||Yes|  
-|Backup/Restore & Attach/Detach databases|Yes|Yes|||||Yes|  
+|Backup/Restore|Yes|Yes|||||Yes|
+|Attach/Detach databases|Yes||||||Yes|  
 |Synchronize databases|Yes||||||Yes|  
 |Failover cluster instances|Yes<br /><br /> Number of nodes is the operating system maximum|Yes<br /><br /> Support for 2 nodes|||||Yes<br /><br /> Number of nodes is the operating system maximum|  
 |Programmability (AMO, ADOMD.Net, OLEDB, XML/A, ASSL, TMSL)|Yes|Yes|||||Yes|  
