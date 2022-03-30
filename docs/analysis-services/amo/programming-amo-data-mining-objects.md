@@ -1,7 +1,7 @@
 ---
 title: "Programming AMO Data Mining objects | Microsoft Docs"
 description: In this article, learn how to program data mining objects by using Analysis Management Objects (AMO).
-ms.date: 02/14/2022
+ms.date: 03/30/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -9,11 +9,11 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-
+monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019"
 ---
 # Programming AMO Data Mining objects
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas.md)]
 
   Programming data mining objects by using AMO is simple and straightforward. The first step is to create the data structure model to support the mining project. Then you create the data mining model that supports the mining algorithm you want to use in order to predict or to find the unseen relationships underlying your data. With your mining project created (including structure and algorithms), you can then process the mining models to obtain the trained models that you will use later when querying and predicting from the client application.  
   

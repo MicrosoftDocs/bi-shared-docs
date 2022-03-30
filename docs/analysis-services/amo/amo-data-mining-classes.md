@@ -1,7 +1,7 @@
 ---
 title: "AMO Data Mining Classes | Microsoft Docs"
 description: Learn how defining objects in Analysis Management Objects (AMO) requires setting a number of properties on each object to set up the correct context.
-ms.date: 02/14/2022
+ms.date: 03/30/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: amo
@@ -9,11 +9,11 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-
+monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019"
 ---
 # AMO Data Mining Classes
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas.md)]
 
   Data mining classes help you create, modify, delete, and process data mining objects. Working with data mining objects includes creating data mining structures, creating data mining models, and processing the models.  
   
