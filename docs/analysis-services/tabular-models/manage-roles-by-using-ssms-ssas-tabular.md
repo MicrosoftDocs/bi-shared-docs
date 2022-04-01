@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Create and manage roles in SSMS
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 This article describes how to use [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] (SSMS) to create roles, define role permissions, and add users for deployed tabular models or Power BI Premium datasets. To learn about using Visual Studio to create and manage roles for tabular model projects, see [Create and manage roles in Visual Studio](create-and-manage-roles-ssas-tabular.md).
 

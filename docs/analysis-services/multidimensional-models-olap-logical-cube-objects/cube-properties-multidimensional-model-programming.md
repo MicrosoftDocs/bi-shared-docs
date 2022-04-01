@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Cube Properties - Multidimensional Model Programming
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Cubes have a number of properties that you can set to affect cube-wide behavior. These properties are summarized in the following table.  
   
 > [!NOTE]  

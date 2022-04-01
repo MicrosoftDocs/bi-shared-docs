@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # MDX Member Properties - User-Defined Member Properties
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   User-defined member properties can be added to a specific named level in a dimension as attribute relationships. User-defined member properties cannot be added to the **(All)** level of a hierarchy, or to the hierarchy itself.  
   
 ## Creating User-Defined Member Properties  

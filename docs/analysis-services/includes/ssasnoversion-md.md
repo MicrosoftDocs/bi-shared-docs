@@ -1,1 +1,1 @@
- Analysis Services 
+SQL Server Analysis Services 

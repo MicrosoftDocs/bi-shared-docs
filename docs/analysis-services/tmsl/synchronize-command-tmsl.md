@@ -13,7 +13,7 @@ author: minewiskan
 ---
 # Synchronize command (TMSL)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
   Synchronizes a tabular database with another existing database.  
   

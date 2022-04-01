@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Error Configuration for Cube, Partition, and Dimension Processing
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Error configuration properties on cube, partition, or dimension objects determine how the server responds when data integrity errors occur during processing. Duplicate keys, missing keys, and null values in a key column typically trigger such errors, and while the record causing the error will not be added to the database, you can set properties that determine what happens next. By default, processing stops. However, during cube development, you might want processing to continue when errors occur so that you can test cube behaviors with imported data, even if it is incomplete.  
   
  This topic includes the following sections:  

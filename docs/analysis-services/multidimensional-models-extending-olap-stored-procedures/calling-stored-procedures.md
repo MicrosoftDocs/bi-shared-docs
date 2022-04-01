@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Calling Stored Procedures
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Stored procedures can be called on the server or from client application. In either case, stored procedures always run on the server, either the context of the server or of a database. There are no special permissions required to execute a stored procedure. Once a stored procedure is added by an assembly to the server or database context, any user can execute the stored procedure as long as the role for the user permits the actions performed by the stored procedure.  
   
  Calling a stored procedure in MDX is done in the same manner as calling an intrinsic MDX function. For a stored procedure that takes no parameters, the name of the procedure and an empty pair of parentheses are used, as shown here:  

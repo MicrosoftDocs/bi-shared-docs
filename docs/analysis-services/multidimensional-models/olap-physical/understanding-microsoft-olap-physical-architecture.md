@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Understanding Microsoft OLAP Physical Architecture
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
     
 ## In This Section  
  The following topics provide more information about the architecture of an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] solution.  

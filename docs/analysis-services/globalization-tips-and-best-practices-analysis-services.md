@@ -13,11 +13,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Globalization tips and best practices (Analysis Services)
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
-
-  [!INCLUDE[applies](includes/applies-md.md)] Multidimensional only  
+**Important:** Information in this article applies to **multidimensional** model solutions only.
   
-These tips and guidelines can help increase the portability of your business intelligence solutions and avoid errors that are directly related to language and collation settings.  
+These tips and guidelines can help increase the portability of your multidimensional business intelligence solutions and avoid errors that are directly related to language and collation settings.  
   
 ##  <a name="bkmk_sameColl"></a> Use similar collations throughout the stack
 

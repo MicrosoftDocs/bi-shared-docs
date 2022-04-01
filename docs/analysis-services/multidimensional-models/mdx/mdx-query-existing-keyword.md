@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # MDX Query - EXISTING Keyword
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   Forces a specified set to be evaluated within the current context.  
   
 ## Syntax  

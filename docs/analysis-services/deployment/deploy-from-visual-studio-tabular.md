@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Deploy a tabular model from Visual Studio
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 Deploying a tabular model project from Visual Studio is a simple process, however, certain steps must be taken to ensure your model is deployed to the correct server instance or Power BI workspace and with the right configuration options.  
   

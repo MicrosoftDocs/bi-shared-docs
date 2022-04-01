@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 
 # Feature properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
+
+ **Applies to:** Multidimensional server mode only  
 
   Feature properties pertain to product features, most of them advanced, including properties that control links between server instances.  
   
  [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the server properties listed in the following table. For more information about additional server properties and how to set them, see [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
-  
- **Applies to:** Multidimensional server mode only  
-  
+
 ## Properties  
   
 |Property|Default|Description|  

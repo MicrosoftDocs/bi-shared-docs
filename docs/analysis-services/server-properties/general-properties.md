@@ -13,12 +13,12 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # General properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
+
+**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
 
 [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following server properties. This articles describes those server properties in the msmdsrv.ini file that are not otherwise included in a specific section, such as Security, Network, or ThreadPool.
-  
-**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
-  
+
 ## Non-specific category
 
  **AdminTimeout**  

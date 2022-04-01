@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # View Attributes in Dimension Designer
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   This procedure describes how to change the way that attributes are displayed in the Dimension Designer.  
   
 ### To change the format of the Attributes pane in Dimension Designer  

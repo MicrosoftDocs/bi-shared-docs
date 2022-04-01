@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Translations in tabular models
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas-pbip](../includes/ssas-appliesto-sql2017-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2017-later-aas-pbip](../includes/appliesto-sql2017-later-aas-pbip.md)]
 
 In tabular models, an object can have multiple translations of a name or description, making it possible to support multi-language versions within the model definition.  
   

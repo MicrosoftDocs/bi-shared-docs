@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Analysis Services Personalization Extensions
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] personalization extensions are the foundation of the idea of implementing a plug-in architecture. In a plug-in architecture, you can develop new cube objects and functionality dynamically and share them easily with other developers. As such, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] personalization extensions provide the functionality that makes it possible to achieve the following:  
   
 -   **Dynamic design and deployment** Immediately after you design and deploy [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] personalization extensions, users have access to the objects and functionality at the start of the next user session.  

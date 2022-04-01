@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Disconnect users and sessions from Analysis Services
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
 
   As an administrator, you may want to end user activity as part of workload management. You do this by canceling sessions and connections. Sessions can be formed automatically when a query is run (implicit), or named at the time of creation by the administrator (explicit). Connections to SQL Server Analysis Services are open conduits over which queries can be run. Azure Analysis Services and Power BI workspaces use sessions over HTTP. Both sessions and connections can be ended while they are active. For example, you may want to end processing for a session if the processing is taking too long, or if some doubt has arisen as to whether the command being executed was written correctly.  
   

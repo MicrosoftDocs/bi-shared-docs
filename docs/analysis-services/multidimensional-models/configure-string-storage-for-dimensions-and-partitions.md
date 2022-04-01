@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Configure String Storage for Dimensions and Partitions
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can reconfigure string storage to accommodate very large strings in dimension attributes or partitions that exceed the 4 GB file size limit for string stores. If your dimensions or partitions include string stores of this size, you can work around the file size constraint by changing the **StringStoresCompatibilityLevel** property at the dimension or partition level, for local as well as linked (local or remote) objects.  
   
  Note that you can increase string storage on just those objects that require additional capacity. In most multidimensional models, string data is associated with dimensions. However, partitions that contain distinct count measures on top of strings can also benefit from this setting. Because the setting is for strings, numeric data is unaffected.  

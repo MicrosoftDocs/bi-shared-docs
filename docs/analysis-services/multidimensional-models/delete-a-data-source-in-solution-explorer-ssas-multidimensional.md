@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Delete a Data Source in Solution Explorer (SSAS Multidimensional)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can delete a data source object to permanently remove it from an Analysis Services multidimensional model project.  
   
  In [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], data sources provide the basis on which data source views are constructed, and data source views are in turn used to define dimensions, cubes, and mining structures in an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project or database. Therefore, deleting a data source may invalidate other [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] objects in an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project. You should always review the list of dependent objects that is provided before deleting the object.  

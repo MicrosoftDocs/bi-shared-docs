@@ -11,7 +11,7 @@ ms.reviewer: owend
 author: minewiskan
 ---
 # Mining Model Content for Clustering Models (Analysis Services - Data Mining)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
 [!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
 

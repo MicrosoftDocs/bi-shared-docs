@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Tabular model designer
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 The tabular model designer is part of Analysis Services projects extension for Microsoft Visual Studio, with additional project type templates specifically for developing professional tabular model solutions. To learn more, see [Tools](../tools-and-applications-used-in-analysis-services.md).
   

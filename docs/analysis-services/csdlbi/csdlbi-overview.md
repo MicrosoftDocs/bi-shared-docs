@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # Conceptual Schema Definition Language (CSDLBI) overview
 
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
   Analysis Services supports the presentation of the definition of multidimensional models and tabular models at the 1103 and lower compatibility levels in an XML format called Conceptual Schema Definition Language with Business Intelligence annotations (CSDLBI). This article provides an overview of CSDLBI and how it is used with Analysis Services data models.  
   

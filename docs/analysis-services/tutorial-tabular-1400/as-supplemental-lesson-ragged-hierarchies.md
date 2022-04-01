@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # Supplemental lesson - Ragged hierarchies
 
-[!INCLUDE[ssas-appliesto-sql2017-later-aas](../includes/ssas-appliesto-sql2017-later-aas.md)]
+[!INCLUDE[appliesto-sql2017-later-aas](../includes/appliesto-sql2017-later-aas.md)]
 
 In this supplemental lesson, you resolve a common problem when pivoting on hierarchies that contain blank values (members) at different levels. For example, an organization where a high-level manager has both departmental managers and non-managers as direct reports. Or, geographic hierarchies composed of Country-Region-City, where some cities lack a parent State or Province, such as Washington D.C., Vatican City. When a hierarchy has blank members, it often descends to different, or ragged, levels.
 

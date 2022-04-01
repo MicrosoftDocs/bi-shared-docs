@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Create a Dimension Using the Dimension Wizard
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can create a new dimension by using the Dimension Wizard in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
 ### To create a new dimension  

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Lesson 13: Deploy
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[appliesto-sql2016-later-aas](../includes/appliesto-sql2016-later-aas.md)]
 
 In this lesson, you will configure deployment properties; specifying an on-premises or Azure server instance, and a name for the model. You'll then deploy the model to that instance. After your model is deployed, users can connect to it by using a reporting client application. To learn more about deploying, see [Tabular model solution deployment](../deployment/tabular-model-solution-deployment.md) and [Deploy to Azure Analysis Services](/azure/analysis-services/analysis-services-deploy).  
   

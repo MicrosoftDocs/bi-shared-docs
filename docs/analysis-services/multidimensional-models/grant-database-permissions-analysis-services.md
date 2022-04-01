@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Grant database permissions (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   If you are approaching Analysis Services database administration with a background in relational databases, the first thing you need to understand is that, in terms of data access, the database is not the primary securable object in Analysis Services.  
   
  The primary query structure in Analysis Services is a cube (or a tabular model), with user permissions set on those particular objects. Contrasted with the relational database engine ─ where database logins and user permissions (often **db_datareader**) are set on the database itself ─ an Analysis Services database is mostly a container for the main query objects in a data model. If your immediate objective is to enable data access for a cube or tabular model, you can bypass database permissions for now and go straight to this topic: [Grant cube or model permissions &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/grant-cube-or-model-permissions-analysis-services.md).  

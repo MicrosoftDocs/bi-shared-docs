@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 # Monitor Analysis Services with SQL Server Profiler
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
   SQL Server Profiler, installed with SQL Server Management Studio (SSMS), tracks engine process events such as the start of a batch or a transaction. It captures data about those events, enabling you to monitor server and database activity (for example, user queries or login activity). You can capture profiler data to a SQL table or a file for later analysis, and you can also replay the events captured on the same or another Analysis Services instance to see what happened. You can replay events in real time or on a step-by-step basis. It's also useful to run the trace events along with the Performance counters on the same instance. The profiler can correlate these two based on time and display them together along a single timeline. Trace events will give you more details while Performance counters give you an aggregate view. To learn more about how to create and run traces, see [Create Profiler traces for replay &#40;Analysis Services&#41;](../../analysis-services/instances/create-profiler-traces-for-replay-analysis-services.md).  
   

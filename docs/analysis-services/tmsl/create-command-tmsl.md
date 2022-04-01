@@ -13,7 +13,7 @@ author: minewiskan
 ---
 # Create command (TMSL)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
   Creates the specified object and all of the descendant objects that are specified. If the object already exists, the command raises an error.  
   
