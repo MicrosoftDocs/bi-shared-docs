@@ -35,12 +35,11 @@ TOM is an extension of the Analysis Management Object (AMO) client library, crea
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
-### [Analysis Management Objects](./amo/developing-with-analysis-management-objects-amo.md)
+### [Analysis Management Objects (AMO)](./amo/developing-with-analysis-management-objects-amo.md)
 
 Analysis Management Objects (AMO) is a library of programmatically accessed objects that enables an application to manage an Analysis Services instance.
 
 ::: moniker-end
-
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
@@ -95,6 +94,14 @@ A SOAP-based XML protocol for tabular and multidimensional data sources. Fundame
 ### [Data Analysis Expressions (DAX)](/dax/)
 
 A library of functions and operators that can be combined to build formulas and expressions in Power BI Desktop, Azure Analysis Services, SQL Server Analysis Services, and Power Pivot in Excel.
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+
+### [Multidimensional Expressions (MDX)](/sql/mdx/multidimensional-expressions-mdx-reference)
+
+A library of functions and operators that can be combined to build formulas and expressions for SQL Server Analysis Services multidimensional models.
 
 ::: moniker-end
 

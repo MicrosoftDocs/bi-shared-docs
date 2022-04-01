@@ -15,10 +15,10 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 
 [!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
 
+**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
+
 An [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following security properties. Not all properties apply to Azure Analysis Services and Power BI Premium. 
 
-**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
-  
 ## Properties
 
  **RequireClientAuthentication**  
