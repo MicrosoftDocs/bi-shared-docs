@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Calculations in Multidimensional Models
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Use the **Calculations** tab of Cube Designer to create calculated members, named sets, and other Multidimensional Expressions (MDX) calculations.  
   
  The **Calculations** tab has the following three panes:  

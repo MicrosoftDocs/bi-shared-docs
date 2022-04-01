@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # Impersonation
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
 
   This article provides tabular model authors an understanding of how sign in credentials are used by Analysis Services when connecting to a datasource to import and process (refresh) data.  
 

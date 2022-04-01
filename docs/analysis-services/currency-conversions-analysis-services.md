@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Currency conversions in Analysis Services
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](includes/appliesto-sqlas-all-aas-pbip.md)]
 
  Analysis Services uses a combination of features, guided by Multidimensional Expressions (MDX) scripts, to provide currency conversion support in data models supporting multiple currencies.  
   

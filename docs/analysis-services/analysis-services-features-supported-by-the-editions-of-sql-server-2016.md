@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Analysis Services features supported by SQL Server editions
 
-[!INCLUDE[ssas-appliesto-sql2016-later](includes/ssas-appliesto-sql2016-later.md)]
+[!INCLUDE[appliesto-sql2016-later](includes/appliesto-sql2016-later.md)]
 
 This article describes features supported by different editions of SQL Server 2016, 2017, 2019 Analysis Services. Evaluation edition supports Enterprise edition features.
 

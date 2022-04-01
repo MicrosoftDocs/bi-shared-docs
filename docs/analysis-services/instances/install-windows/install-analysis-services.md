@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Install SQL Server Analysis Services
 
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   
 SQL Server Analysis Services is installed by using the [SQL Server Installation Wizard](/sql/database-engine/install-windows/installation-for-sql-server).
 

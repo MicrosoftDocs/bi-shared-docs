@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Actions (Analysis Services - Multidimensional Data)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Actions can be of different types and they have to be created accordingly. Actions can be:  
   
 -   Drillthrough actions, which return the set of rows that represents the underlying data of the selected cells of the cube where the action occurs.  

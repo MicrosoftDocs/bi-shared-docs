@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Define Assignments and Other Script Commands
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   On the **Calculations** tab of Cube Designer, click the **New ScriptCommand** icon on the toolbar to create an empty script. When you create a new script, it initially is displayed with a blank title in the **Script Organizer** pane of the Calculations tab. The characters you type in the Calculation Expressions pane will be visible as the name of the item in **Script Organizer**. Therefore, you may want to type a commented name on the first line to more easily identify the script in the **Script Organizer** pane. For more information, see [Introduction to MDX Scripting in Microsoft SQL Server 2005](/previous-versions/sql/sql-server-2005/administrator/ms345116(v=sql.90)).  
   
 > [!IMPORTANT]  

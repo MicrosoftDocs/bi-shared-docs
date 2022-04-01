@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Grant custom access to cell data (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Cell security is used to allow or deny access to measure data within a cube. The following illustration shows a combination of allowed and denied measures in a PivotTable, when connected as a user whose role only allows access to certain measures. In this example, **Reseller Sales Amount** and **Reseller Total Product Cost** are the only measures available through this role. All other measures are implicitly denied (the steps used to get this result are provided below in the next section, Allow access to specific measures).  
   
  ![Pivottable showing allowed and denied cells](../../analysis-services/multidimensional-models/media/ssas-permscellsallowed.png "Pivottable showing allowed and denied cells")  

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # ASSL XML Conventions
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   Analysis Services Scripting Language (ASSL) represents the hierarchy of objects as a set of element types, each of which defines the child elements they can contain.  
   
  To represent the object hierarchy, ASSL uses the following XML conventions:  

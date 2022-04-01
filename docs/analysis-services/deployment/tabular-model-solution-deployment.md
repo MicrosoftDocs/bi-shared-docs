@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Tabular model solution deployment
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 After authoring a tabular model project, you must deploy it to an Azure Analysis Services server resource, SQL Server Analysis Services server instance, or dataset in a Power BI Premium workspace in order for users to browse the model by using a reporting client application. This article describes the various methods you can use when deploying tabular model project.  
 

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Processing Options and Settings (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   When you process objects in [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], you can select a processing option to control the type of processing that occurs for each object. Processing types differ from one object to another, and by changes that have occurred to the object since it was last processed. If you enable [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to automatically select a processing method, it will use the method that returns the object to a fully processed state in the least time.  
   
  Processing settings let you control the objects that are processed, and the methods that are used to process those objects. Some processing settings are primarily used for batch processing jobs. For more information about batch processing, see [Batch Processing &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/batch-processing-analysis-services.md).  

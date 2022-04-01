@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Tools and Approaches for Processing (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Processing is an operation in which Analysis Services queries a relational data source and populates Analysis Services objects using that data.  
   
  As an Analysis Services system administrator, you can execute and monitor the processing of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] objects using these approaches:  

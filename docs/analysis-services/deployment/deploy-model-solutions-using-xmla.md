@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Deploy model solutions by using XMLA
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
   In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], the **CREATE To** option of the **Script Database As** command creates an XML script of an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database or one of its constituent objects. The resulting script can then be run to recreate the schema (metadata) of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database. The script generates the entire database, and there is no mechanism for incrementally updating already deployed objects when using the script. After running the script and deploying the database, the newly created database must be processed before users can browse it.  
   

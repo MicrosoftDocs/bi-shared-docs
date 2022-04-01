@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # ASSL Objects and Object Characteristics
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   Objects in Analysis Services Scripting Language (ASSL) follow specific guidelines in regards to object groups, inheritance, naming, expansion, and processing.  
   
 ## Object Groups  

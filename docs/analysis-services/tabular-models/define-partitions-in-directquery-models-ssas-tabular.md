@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Define partitions in DirectQuery models
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 This article describes how partitions are used in DirectQuery models. For more general information about partitions in tabular models, see [Partitions in tabular models](../../analysis-services/tabular-models/partitions-ssas-tabular.md).  
   

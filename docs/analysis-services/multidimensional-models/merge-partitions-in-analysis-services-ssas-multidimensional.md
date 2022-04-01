@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Merge Partitions in Analysis Services (SSAS - Multidimensional)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can merge partitions in an existing [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database to consolidate fact data from multiple partitions of the same measure group.  
   
  [Common scenarios](#bkmk_Scenario)  

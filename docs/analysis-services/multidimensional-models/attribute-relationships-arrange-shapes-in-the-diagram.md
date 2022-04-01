@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Attribute Relationships - Arrange Shapes in the Diagram
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can change the layout of the shapes on the **Attribute Relationships** tab of the Dimension Structure view in Dimension Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
 ### To arrange shapes in the attribute relationship diagram  

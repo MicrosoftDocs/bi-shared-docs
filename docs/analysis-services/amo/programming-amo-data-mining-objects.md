@@ -13,7 +13,7 @@ author: minewiskan
 ---
 # Programming AMO Data Mining objects
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[appliesto-sqlas-aas](../includes/appliesto-sqlas-aas.md)]
 
   Programming data mining objects by using AMO is simple and straightforward. The first step is to create the data structure model to support the mining project. Then you create the data mining model that supports the mining algorithm you want to use in order to predict or to find the unseen relationships underlying your data. With your mining project created (including structure and algorithms), you can then process the mining models to obtain the trained models that you will use later when querying and predicting from the client application.  
   

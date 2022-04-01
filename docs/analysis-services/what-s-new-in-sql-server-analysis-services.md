@@ -12,7 +12,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # What's New in SQL Server Analysis Services
 
-[!INCLUDE[ssas-appliesto-sql2016-later](includes/ssas-appliesto-sql2016-later.md)]
+[!INCLUDE[appliesto-sql2016-later](includes/appliesto-sql2016-later.md)]
 
 This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
 
