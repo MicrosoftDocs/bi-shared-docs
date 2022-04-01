@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # DirectQuery mode in tabular models
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 This article describes *DirectQuery mode* for Analysis Services tabular models at the 1200 and higher compatibility levels. DirectQuery mode can be enabled for models you're designing in Visual Studio, or for tabular models that have already been deployed, you can change to DirectQuery mode by using SQL Server Management Studio (SSMS). Before choosing DirectQuery mode, it's important to understand both the benefits and limitations.
   

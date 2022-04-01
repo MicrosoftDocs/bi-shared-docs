@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # User Hierarchies - Properties
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   The following table describes the properties of a user-defined hierarchy.  
   
 |Property|Description|  

@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-an
 ---
 # AMO concepts and object model
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[appliesto-sqlas-aas](../includes/appliesto-sqlas-aas.md)]
 
   This article describes Analysis Management Objects (AMO), how AMO is related to other tools and libraries provided in the architecture of Analysis Services, and a conceptual explanation of all major objects in AMO.  
   

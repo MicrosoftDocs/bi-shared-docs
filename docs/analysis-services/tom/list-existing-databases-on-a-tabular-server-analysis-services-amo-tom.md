@@ -13,7 +13,7 @@ author: minewiskan
 ---
 # List existing databases on a tabular server (AMO-TOM)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
 When you have a **Server** object that is connected to a server instance, you can iterate over **Server.Databases** collection to list all databases hosted by the instance. 
 

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Modify or Delete an Analysis Services Database
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can change the name and description of an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database before deployment in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] and after deployment in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)]. You can also adjust additional settings on an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database, depending on the environment.  
   
 > [!NOTE]  

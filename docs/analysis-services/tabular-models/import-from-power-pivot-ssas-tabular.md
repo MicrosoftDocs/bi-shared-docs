@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Import from Power Pivot
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
   This article describes how to create a new tabular model project by importing the metadata and data from a [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] workbook by using the Import from [!INCLUDE[ssGemini](../includes/ssgemini-md.md)] project template in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   

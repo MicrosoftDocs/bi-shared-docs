@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Supported Data Sources (SSAS - Multidimensional)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   This topic describes the types of data sources that you can use in a multidimensional model.  
   
 ##  <a name="bkmk_supported_ds"></a> Supported Data Sources  

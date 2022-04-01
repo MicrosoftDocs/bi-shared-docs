@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Cube Objects (Analysis Services - Multidimensional Data)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
     
 ## Introducing Cube Objects  
  A simple <xref:Microsoft.AnalysisServices.Cube> object is composed of: basic information, dimensions, and measure groups. Basic information includes the name of the cube, the default measure of the cube, the data source, the storage mode, and others.  

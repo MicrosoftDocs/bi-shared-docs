@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Attributes and Attribute Hierarchies
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Dimensions are collections of attributes, which are bound to one or more columns in a table or view in the data source view.  
   
 ## Key Attribute  

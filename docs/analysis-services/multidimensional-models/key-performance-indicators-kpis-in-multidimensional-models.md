@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Key Performance Indicators (KPIs) in Multidimensional Models
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   In business terminology, a Key Performance Indicator (KPI) is a quantifiable measurement for gauging business success.  
   
  In [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], a KPI is a collection of calculations that are associated with a measure group in a cube that are used to evaluate business success. Typically, these calculations are a combination of Multidimensional Expressions (MDX) expressions or calculated members. KPIs also have additional metadata that provides information about how client applications should display the results of the KPI's calculations.  

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Authorizing access to objects and operations (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Non-administrative user access to cubes, dimensions, and mining models within an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database is granted through membership in one or more database roles. [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] administrators create these database roles, granting Read or Read/Write permissions on [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] objects, and then assigning [!INCLUDE[msCoName](../includes/msconame-md.md)] Windows users and groups to each role.  
   
  [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] determines the effective permissions for a specific Windows user or group by combining the permissions that are associated with each database role to which the user or group belongs. As a result, if one database role does not give a user or group permission to view a dimension, measure, or attribute, but a different database role does give that user or group permission, the user or group will have permission to view the object.  

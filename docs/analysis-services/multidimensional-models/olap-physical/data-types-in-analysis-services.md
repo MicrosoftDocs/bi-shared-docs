@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Data Types in Analysis Services
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   For all <xref:Microsoft.AnalysisServices.DataItem> objects, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] supports the following subset of **System.Data.OleDb.OleDbType**. To set or read the data type, use [DataItem Data Type &#40;ASSL&#41;](../../assl/data-type/dataitem-data-type-assl.md).  
   
 ## Supported Data Types  

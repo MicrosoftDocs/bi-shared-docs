@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Lesson 1-4 - Modifying Default Table Names
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
 You can change the value of the **FriendlyName** property for objects in the data source view to make them easier to notice and use.  
   

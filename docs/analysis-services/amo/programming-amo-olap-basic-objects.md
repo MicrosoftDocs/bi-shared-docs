@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-an
 ---
 # Programming AMO OLAP basic objects
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[appliesto-sqlas-aas](../includes/appliesto-sqlas-aas.md)]
 
   Creating complex Analysis Services objects is simple and straightforward but requires attention to detail. This topic explains the programming details of OLAP basic objects. This topic contains the following sections:  
 

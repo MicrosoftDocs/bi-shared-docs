@@ -13,7 +13,7 @@ author: minewiskan
 ---
 # Restore command (TMSL)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
   Restores a tabular database from a backup file.  
   

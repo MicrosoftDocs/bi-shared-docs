@@ -1262,9 +1262,9 @@
       href: ../analysis-services/instances/create-analysis-services-scripts-in-management-studio.md
     - name: Schedule administrative tasks with SQL Server Agent
       href: ../analysis-services/instances/schedule-ssas-administrative-tasks-with-sql-server-agent.md
-    - name: Use Analysis Services templates in SSMS
+    - name: Use templates in SSMS
       href: ../analysis-services/instances/use-analysis-services-templates-in-sql-server-management-studio.md
-    - name: Automate Analysis Services administrative tasks with SSIS
+    - name: Automate administrative tasks with SSIS
       href: ../analysis-services/instances/automate-analysis-services-administrative-tasks-with-ssis.md
   - name: Connect
     items:

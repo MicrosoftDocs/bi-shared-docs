@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Key Concepts in MDX (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   Before you can use Multidimensional Expressions (MDX) to query multidimensional data or create MDX expressions within a cube, it helps to understand multidimensional concepts and terms.  
   
  The best place to start is with a data summarization example you already know, and then see how MDX relates to it. Here's a PivotTable created in Excel, populated with data from an Analysis Services sample cube.  

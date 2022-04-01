@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Configure Measure Properties
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Measures have properties that enable you to define how the measures function and to control how the measures appear to users.  
   
  You can set properties in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] when creating or editing a cube or measure. You can also set them programmatically, using MDX or AMO. See [Create Measures and Measure Groups in Multidimensional Models](../../analysis-services/multidimensional-models/create-measures-and-measure-groups-in-multidimensional-models.md) or [CREATE MEMBER Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-member) or [Programming AMO OLAP Basic Objects](../amo/programming-amo-olap-basic-objects.md) for details.  

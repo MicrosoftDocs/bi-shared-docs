@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 # SQL Server Analysis Services backward compatibility (2019, 2017, 2016)
 
-[!INCLUDE[ssas-appliesto-sql2016-later](includes/ssas-appliesto-sql2016-later.md)]
+[!INCLUDE[appliesto-sql2016-later](includes/appliesto-sql2016-later.md)]
 
 This article describes changes in feature availability and behavior between the current version and the previous versions.
 

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Attribute Relationships - Configure Attribute Properties
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   The following table lists and describes the properties of an attribute relationship.  
   
 |Property|Description|  

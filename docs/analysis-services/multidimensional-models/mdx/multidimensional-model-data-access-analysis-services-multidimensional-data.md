@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Multidimensional Model Data Access (Analysis Services - Multidimensional Data)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   Use the information in this topic to learn how to access [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] multidimensional data using programmatic methods, script, or client applications that include built-in support for connecting to an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] server on your network.  
   
  This topic contains the following sections:  

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Synchronize Analysis Services Databases
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] includes a database synchronization feature that makes two [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] databases equivalent by copying the data and metadata a database on a source server to a database on a destination server. Use the Synchronize Database feature to accomplish any of the following tasks:  
   
 -   Deploy a database from a staging server onto a production server.  

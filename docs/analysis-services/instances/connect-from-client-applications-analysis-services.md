@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Connect to SQL Server Analysis Services
 
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
 This article describes connecting to an instance of SQL Server Analysis Services (SSAS) using common tools and applications. This article also explains how to connect under different user identities for testing purposes.  
 

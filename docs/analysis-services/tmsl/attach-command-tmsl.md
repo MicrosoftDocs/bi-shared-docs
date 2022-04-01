@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # Attach command (TMSL)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
   Attaches a tabular database file to a server.  
   

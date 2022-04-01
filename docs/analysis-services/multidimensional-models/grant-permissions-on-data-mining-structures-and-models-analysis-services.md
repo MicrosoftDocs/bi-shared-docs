@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-an
 
 ---
 # Grant permissions on data mining structures and models (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   By default, only an Analysis Services server administrator has permissions to view data mining structures or mining models in the database. Follow the instructions below to grant permissions to non-administrator users.  
   
 ## Set permissions to access a mining structure  

@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-an
 ---
 # Programming AMO complementary classes and methods
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[appliesto-sqlas-aas](../includes/appliesto-sqlas-aas.md)]
 
 ## Assembly class
 

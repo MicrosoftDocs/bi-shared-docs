@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Adventure Works Internet Sales tutorial (1200)
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[appliesto-sql2016-later-aas](../includes/appliesto-sql2016-later-aas.md)]
 
 This tutorial provides lessons on how to create an Analysis Services tabular model at the [1200 compatibility level](../tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) by using Visual Studio, and deploy your model to an Analysis Services server on-premises or in Azure.  
 

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Dimension Attribute Properties Reference
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   In [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], there are many properties that determine how dimensions and dimension attributes function. The following table lists and describes each of these attribute properties.  
   
 |Property|Description|  

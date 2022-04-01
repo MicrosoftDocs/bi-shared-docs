@@ -12,7 +12,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Install or Uninstall the Power Pivot for SharePoint Add-in (SharePoint 2013)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   [!INCLUDE[ssGeminiShort2017](../../includes/ssgeminishort2017-md.md)] is a collection of application server components and back-end services that provide [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data access in a [!INCLUDE[SPS2013](../../includes/sps2013-md.md)] farm. The [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint add-in (**spPowerpivot.msi**) is an installer package used to install the application server components.  
   
 -   The add-in is not required for SharePoint 2010 deployments.  
