@@ -13,7 +13,7 @@ author: minewiskan
 ---
 # TMSL Reference - Objects overview
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
   Applications that create, consume, or administer tabular databases or that connect to a server instance can use the Tabular Model Scripting Language (TMSL) for commands and object representations in JSON format.  
   

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Attribute Properties - Bind an Attribute to a Name Column
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   This procedure describes how to bind an attribute to a name column manually by using the **Attributes** pane in the Dimension Designer and by using the **Object Binding** dialog box.  
   
 ### To bind an attribute to a name column  

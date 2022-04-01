@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Create and manage roles in Visual Studio
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 This article describes how to use Role Manager in Visual Studio to create roles, define role permissions, and add users for a tabular model project. To learn about creating and managing roles for a deployed model, see [Create and manage roles in SSMS](manage-roles-by-using-ssms-ssas-tabular.md).
 

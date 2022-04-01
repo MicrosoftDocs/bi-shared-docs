@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Partitions - Partition Storage Modes and Processing
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   The storage mode of a partition affects the query and processing performance, storage requirements, and storage locations of the partition and its parent measure group and cube. The choice of storage mode also affects processing choices.  
   
  A partition can use one of three basic storage modes:  

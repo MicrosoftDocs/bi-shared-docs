@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Partitions in tabular models
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 Partitions divide portions of data you need to process (refresh) frequently from data that can be processed less frequently. For example, a fact table may include certain row sets that contain data that rarely changes, but other row sets have data that changes often. There's no need to process *all* of the data when only a portion of it needs to be processed.
 

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Processing a multidimensional model (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Processing is the step, or series of steps, in which Analysis Services loads data from a relational data source into a multidimensional model. For objects that use MOLAP storage, data is saved on disk in the database file folder. For ROLAP storage, processing occurs on demand, in response to an MDX query on an object. For objects that use ROLAP storage, processing refers to updating the cache before returning query results.  
   
  By default, processing occurs when you deploy a solution to the server. You can also process all or part of a solution, either ad hoc using tools such as [!INCLUDE[ssManStudio](../includes/ssmanstudio-md.md)] or [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)], or on a schedule using [!INCLUDE[ssISnoversion](../includes/ssisnoversion-md.md)] and SQL Server Agent. When making a structural change to the model, such as removing a dimension or changing its compatibility level, you will need to process again to synchronize the physical and logical aspects of the model.  

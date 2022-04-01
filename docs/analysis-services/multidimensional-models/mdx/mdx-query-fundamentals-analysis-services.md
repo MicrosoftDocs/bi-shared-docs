@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # MDX Query Fundamentals (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   Multidimensional Expressions (MDX) lets you query multidimensional objects, such as cubes, and return multidimensional cellsets that contain the cube's data. This topic and its subtopics provide an overview of MDX queries.  
   
  The following topics describe MDX queries and the cellsets they produce, and provide more detailed information about basic MDX syntax.  

@@ -12,7 +12,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Configure Power Pivot and Deploy Solutions (SharePoint 2013)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   This topics describes the deployment and configuration of middle-tier enhancements to the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] features in [!INCLUDE[SPS2013](../../includes/sps2013-md.md)] including [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Gallery, Schedule data refresh, Management Dashboard, and data providers. Run **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint 2013 Configuration** tool to complete the following:  
   
 -   Deploy SharePoint solution files.  

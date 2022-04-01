@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Lesson 4: Defining Advanced Attribute and Dimension Properties
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
 In this lesson, you will learn how to use some of the advanced properties of attributes, attribute hierarchies, and dimension properties.  
   

@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # Install sample data and multidimensional projects 
 
-[!INCLUDE[ssas-appliesto-sqlas-all](../includes/ssas-appliesto-sqlas-all.md)]
+[!INCLUDE[appliesto-sqlas-all](../includes/appliesto-sqlas-all.md)]
 
 Use the instructions and links provided in this article to install the data and project files used in the Analysis Services tutorials. 
   

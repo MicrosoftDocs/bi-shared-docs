@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Create a Prediction Query Using the Prediction Query Builder
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
 [!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
 

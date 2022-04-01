@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 
 # Feature properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
 
   Feature properties pertain to product features, most of them advanced, including properties that control links between server instances.  
   

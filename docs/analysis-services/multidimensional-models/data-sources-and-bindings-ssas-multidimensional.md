@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Data Sources and Bindings (SSAS Multidimensional)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Cubes, dimensions, and other [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] objects can be bound to a data source. A data source can be one of the following objects:  
   
 -   A relational data source.  

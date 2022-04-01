@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Use a Template to Create an Action
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   The **Actions** view in Cube Designer contains a number of templates that you can use to create common actions. Cube Designer can be accessed from [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
 > [!NOTE]  

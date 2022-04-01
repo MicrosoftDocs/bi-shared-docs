@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # MDX Named Sets - Creating Query-Scoped Named Sets
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   If a named set is only required for a single Multidimensional Expressions (MDX) query, you can define that named set by using the WITH keyword. A named set that is created by using the WITH keyword no longer exists after the query has finished running.  
   
  As discussed in this topic, the syntax of the WITH keyword is quite flexible, even accommodating the use of functions to define the named set.  

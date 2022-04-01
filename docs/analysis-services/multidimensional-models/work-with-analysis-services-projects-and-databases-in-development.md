@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Work with Analysis Services Projects and Databases in Development
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can develop an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database by using [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] in either project mode or online mode.  
   
 ## Single Developer  

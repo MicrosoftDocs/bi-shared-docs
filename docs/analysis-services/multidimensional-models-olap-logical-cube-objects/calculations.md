@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Calculations
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   A calculation is a Multidimensional Expressions (MDX) expression or script that is used to define a calculated member, a named set, or a scoped assignment in a cube in [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. Calculations let you add objects that are defined not by the data of the cube, but by expressions that can reference other parts of the cube, other cubes, or even information outside the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database. Calculations let you extend the capabilities of a cube, adding flexibility and power to business intelligence applications. For more information about scripting calculations, see [Introduction to MDX Scripting in Microsoft SQL Server 2005](/previous-versions/sql/sql-server-2005/administrator/ms345116(v=sql.90)). 
   
 ## Calculated Members  

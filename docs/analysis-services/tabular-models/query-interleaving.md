@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Query interleaving
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 Query interleaving is a tabular mode system configuration that can improve query performance in high-concurrency scenarios. By default, the Analysis Services tabular engine works in a first-in, first-out (FIFO) fashion with regards to CPU. This means, for example, if one resource expensive and possibly slow storage-engine query is received, and then followed by two otherwise fast queries, the fast queries can potentially get blocked waiting for the expensive query to complete. This is shown in the following diagram, which shows Q1, Q2 and Q3 as the respective queries, their duration, and CPU time. 
 

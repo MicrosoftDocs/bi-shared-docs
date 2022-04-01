@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Create and Manage a Remote Partition (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   When partitioning a measure group, you can configure a secondary database on a remote [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance as partition storage.  
   
  Remote partitions for a cube (called the master database) are stored in a dedicated [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database on the remote instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] (called the secondary database).  

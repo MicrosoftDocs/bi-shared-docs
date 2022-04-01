@@ -13,7 +13,7 @@ author: minewiskan
 ---
 # Analysis Services references
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](includes/appliesto-sqlas-all-aas-pbip.md)]
 
 ## References
 

@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # Create calculated columns
 
-[!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2019-later-aas-pbip](../includes/appliesto-sql2019-later-aas-pbip.md)]
 
 In this lesson, you create data in your model by adding calculated columns. You can create calculated columns (as custom columns) when using Get Data, by using the Power Query Editor, or later in the model designer like you do in this lesson. To learn more, see [Calculated columns](../tabular-models/ssas-calculated-columns.md).
   

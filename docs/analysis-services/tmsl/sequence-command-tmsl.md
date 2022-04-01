@@ -13,7 +13,7 @@ author: minewiskan
 ---
 # Sequence command (TMSL)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
   Use the **Sequence** command to run a consecutive set of operations in batch mode on an instance of Analysis Services.  The entire command and all of its component parts must complete in order for the transaction to succeed.  
   

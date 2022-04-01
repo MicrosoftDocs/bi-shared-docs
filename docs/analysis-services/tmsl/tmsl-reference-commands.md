@@ -13,7 +13,7 @@ author: minewiskan
 ---
 # TMSL Reference - Commands overview
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
 You can execute commands on an XMLA endpoint, formulating object definitions in JSON using the Tabular Model Scripting Language (TMSL), against tabular model databases. See [TMSL Reference - Objects overview](tmsl-reference-tabular-objects.md) for a list of objects used with the following commands.  
   

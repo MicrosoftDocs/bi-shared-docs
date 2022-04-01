@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Configure Analysis Services Project Properties
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   In [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project is defined with certain default properties that affect building and deploying the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project.  
   
  To change project properties, right-click the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project object and then click **Properties**. Alternatively, you can click **Properties** on the Project menu.  

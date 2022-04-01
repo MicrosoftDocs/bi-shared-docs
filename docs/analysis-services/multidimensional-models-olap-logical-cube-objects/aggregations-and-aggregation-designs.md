@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Aggregations and Aggregation Designs
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   An <xref:Microsoft.AnalysisServices.AggregationDesign> object defines a set of aggregation definitions that can be shared across multiple partitions.  
   
  An <xref:Microsoft.AnalysisServices.Aggregation> object represents the summarization of measure group data at certain granularity of the dimensions.  

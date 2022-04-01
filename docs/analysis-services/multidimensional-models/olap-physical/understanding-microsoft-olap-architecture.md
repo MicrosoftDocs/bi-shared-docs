@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Understanding Microsoft OLAP Architecture
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   Use these topics to better understand [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] multidimensional databases and plan how to implement multidimensional databases in your business intelligence solution.  
   
  ![Small File Folder Icon](../../../analysis-services/media/filefolder-small.png "Small File Folder Icon") **Logical Architecture**  

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Define Linked Dimensions
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   A linked dimension is based on a dimension created and stored in another Analysis Services database of the same version and compatibility level. By using a linked dimension, you can create, store, and maintain a dimension on one database, while making it available to users of multiple databases. To users, a linked dimension appears like any other dimension.  
   
  Linked dimensions are read-only. If you want to modify the dimension or create new relationships, you must change the source dimension, then delete and recreate the linked dimension and its relationships. You cannot refresh a linked dimension to pick up changes from the source object.  

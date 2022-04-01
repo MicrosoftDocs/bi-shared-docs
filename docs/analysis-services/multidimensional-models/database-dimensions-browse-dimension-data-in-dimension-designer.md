@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Database Dimensions - Browse Dimension Data in Dimension Designer
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can browse the data in a dimension by using the **Browser** view in Dimension Designer, which is accessed from [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)].  
   
  In order for dimension data to be displayed in the **Browser** view, the dimension must be in a processed state. For more information, see [Processing a multidimensional model &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/processing-a-multidimensional-model-analysis-services.md).  
