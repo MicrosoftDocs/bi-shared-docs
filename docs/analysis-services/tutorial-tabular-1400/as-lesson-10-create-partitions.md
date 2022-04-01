@@ -9,7 +9,6 @@ ms.topic: tutorial
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-"
 ---
 # Create partitions
 
