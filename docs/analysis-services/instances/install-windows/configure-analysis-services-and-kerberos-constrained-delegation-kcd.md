@@ -12,7 +12,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Configure Analysis Services and Kerberos Constrained Delegation (KCD)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   Kerberos constrained delegation (KCD) is an authentication protocol you can configure with Windows authentication to delegate client credentials from service to service throughout your environment. KCD requires additional infrastructure, for example a Domain Controller, and additional configuration of your environment. KCD is a requirement in some scenarios that involve [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] and [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data with SharePoint 2016. In SharePoint 2016, Excel Services has moved outside the SharePoint farm to a separate and new server, the **Office Online Server**. Because the Office Online Server is separate, there is an increased need for a way to delegate client credentials in the typical two hop scenarios.  
   
 ## Overview  

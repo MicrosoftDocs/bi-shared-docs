@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Define Logical Relationships in a Data Source View (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   The Data Source View Wizard and Data Source View Designer automatically define relationships between tables added to a data source view (DSV) based on underlying database relationships or name matching criteria you specify.  
   
  In cases where you are working with data from multiple data sources, you may need to manually define logical relationships in the DSV to supplement those relationships that are defined automatically. Relationships are required in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to identify fact and dimension tables, to construct queries for retrieving data and metadata from underlying data sources, and to take advantage of advanced business intelligence features.  

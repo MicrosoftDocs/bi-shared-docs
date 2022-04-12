@@ -14,12 +14,12 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 
 # Filestore properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
+
+**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
 
 [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following filestore properties. These are all advanced properties that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.
 
-**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
-  
 ## Properties
 
  **MemoryLimit**  

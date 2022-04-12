@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Define Time Intelligence Calculations using the Business Intelligence Wizard
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   The time intelligence enhancement is a cube enhancement that adds time calculations (or time views) to a selected hierarchy. This enhancement supports the following categories of calculations:  
   
 -   Period to date.  

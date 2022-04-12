@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Power Pivot for SharePoint
 
-[!INCLUDE[ssas-appliesto-sql2016-later](includes/ssas-appliesto-sql2016-later.md)]
+[!INCLUDE[appliesto-sql2016-later](includes/appliesto-sql2016-later.md)]
   
 Analysis Services in Power Pivot mode provides server hosting of Power Pivot data in a SharePoint farm. Power Pivot data is an analytical data model users create with Power Pivot in Excel. Server hosting of workbooks requires SharePoint, Excel Services, and an installation of Power Pivot for SharePoint. Data is loaded on Power Pivot for SharePoint instances where it can be refreshed at scheduled intervals using the Power Pivot data refresh capability.
 

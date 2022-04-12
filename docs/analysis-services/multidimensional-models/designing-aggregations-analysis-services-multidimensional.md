@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Designing Aggregations (Analysis Services - Multidimensional)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Aggregations are precalculated summaries of cube data that help enable [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to provide rapid query responses.  
   
  To set storage options and design aggregations for a partition, use the Aggregation Design Wizard. The wizard operates on a single partition of a measure group at a time so that you can select different options and designs for each partition. The wizard takes you through steps to configure storage and design aggregation for a partition. For more information about configuring storage, see.  

@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Set the Data Type of a Column
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
   When you import data or paste data into a model, the model designer will automatically detect and apply data types. After you have added the data to the model, you can manually modify the data type of a column to change how data is stored. If you just want to change the format of how the data is displayed without changing the way it is stored, you can do that instead.  
   

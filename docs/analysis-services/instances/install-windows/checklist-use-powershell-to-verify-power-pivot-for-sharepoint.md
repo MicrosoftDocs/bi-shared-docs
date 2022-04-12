@@ -12,7 +12,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Use PowerShell to Verify Power Pivot for SharePoint
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   No [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)] installation or recovery operation is complete without a solid verification test pass that confirms your services and data are operational. In this article, we show you how to perform these steps using Windows PowerShell. We put each step into its own section so that you can go straight to specific tasks. For example, run the script in the [Databases](#bkmk_databases) section of this topic to verify the name of the service application and content databases if you want to schedule them for maintenance or backup.  
 
 A full PowerShell script is included at the bottom of the topic. Use the full script as a starting point to build a custom script for auditing your full [!INCLUDE[ssGeminiShort](../../includes/ssgeminishort-md.md)] deployment.

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Remote Processing (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can run scheduled or unattended processing on a remote [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance, where the processing request originates from one computer but executes on another computer on the same network.  
   
 ## Prerequisites  

@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-an
 ---
 # AMO Classes
 
-[!INCLUDE[ssas-appliesto-sqlas-aas](../includes/ssas-appliesto-sqlas-aas.md)]
+[!INCLUDE[appliesto-sqlas-aas](../includes/appliesto-sqlas-aas.md)]
 
   Analysis Management Objects (AMO) is a library of classes designed to manage an Analysis Services instance from a client application. You use AMO classes to administer Analysis Services objects such as databases, dimensions, cubes, mining structures and models, roles and permissions, exceptions, and others  
   

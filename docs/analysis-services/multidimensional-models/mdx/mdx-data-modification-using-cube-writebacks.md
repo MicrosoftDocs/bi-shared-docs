@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # MDX Data Modification - Using Cube Writebacks
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   You update a cube by using the [UPDATE CUBE](/sql/mdx/mdx-data-manipulation-update-cube) statement. This statement lets you update a tuple with a specific value. To effectively use the UPDATE CUBE statement to update a cube, you have to understand the syntax for the statement, the error conditions that can occur, and the affect that updates can have on a cube.  
   
 ## UPDATE CUBE Statement Syntax  

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Grant process permissions (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   As an administrator, you can create a role dedicated to Analysis Services processing operations, allowing you to delegate that particular task to other users, or to applications used for unattended scheduled processing. Process permissions can be granted at the database, cube, dimension, and mining structure levels. Unless you are working with a very large cube or tabular database, we recommend granting processing rights at the database level, inclusive of all objects, including those having dependencies on each other.  
   
  Permissions are granted through roles that associate objects with permissions and Windows user or group accounts. Remember that permissions are additive. If one role grants permission to process a cube, while a second role gives the same user permission to process a dimension, the permissions from the two different roles combine to give the user permission to both process the cube and process the specified dimension within that database.  

@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Switch an Analysis Services database between ReadOnly and ReadWrite modes
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database administrators can change the read/write mode of a Tabular or Multidimensional database as part of larger effort that distributes a query workload among multiple query-only servers.  
   
  A database mode can be switched in several ways. This document explains the following common scenarios:  

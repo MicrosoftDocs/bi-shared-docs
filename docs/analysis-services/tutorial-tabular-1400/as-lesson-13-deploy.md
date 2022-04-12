@@ -12,7 +12,7 @@ ms.custom: contperf-fy20q4
 ---
 # Deploy
 
-[!INCLUDE[ssas-appliesto-sql2019-later-aas-pbip](../includes/ssas-appliesto-sql2019-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2019-later-aas-pbip](../includes/appliesto-sql2019-later-aas-pbip.md)]
 
 In this lesson, you configure deployment properties by specifying an Analysis Services server or Power BI workspace to deploy to and a name for the model. You then deploy the model. After your model is deployed, users can connect to it by using a reporting client application. To learn more, see [Deploy to Azure Analysis Services](/azure/analysis-services/analysis-services-deploy) and [Tabular model solution deployment](../deployment/tabular-model-solution-deployment.md).  
   

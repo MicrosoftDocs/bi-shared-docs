@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Server Objects (Analysis Services - Multidimensional Data)
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
     
 ## Introducing Server Objects  
  The <xref:Microsoft.AnalysisServices.Server> object represents the server and the instance of [!INCLUDE[msCoName](../../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] that you want to work with.  

@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Roles
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 Roles in tabular models define member permissions for a model. Members of the role can perform actions on the model as defined by the role permission. Roles defined with read permissions can also provide additional security at the row-level by using row-level filters.
   

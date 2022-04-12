@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # MDX Calculated Members - Query-Scoped Calculated Members
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   If a calculated member is only required for a single Multidimensional Expressions (MDX) query, you can define that calculated member by using the WITH keyword. A calculated member that is created by using the WITH keyword no longer exists after the query has finished running.  
   
  As discussed in this topic, the syntax of the WITH keyword is quite flexible, even allowing a calculated member to be based on another calculated member.  

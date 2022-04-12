@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Calculated Members in Subselects and Subcubes
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   A calculated member is a dimension member whose value is calculated from an expression at run time, and can be used in subselects and subcubes to more precisely define the cubespace of a query.  
   
 ## Enabling calculated members in the subspace  

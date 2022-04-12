@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Use Aggregate Functions
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   When a dimension is used to slice a measure, the measure is summarized along the hierarchies contained in that dimension. The summation behavior depends on the aggregate function specified for the measure. For most measures containing numeric data, the aggregate function is **Sum**. The value of the measure will sum to different amounts depending on which level of the hierarchy is active.  
   
  In Analysis Services, every measure that you create is backed by an aggregation function that determines the measure's operation. Predefined aggregation types include **Sum**, **Min**, **Max**, **Count**, **Distinct Count**, and several other more specialized functions. Alternatively, if you require aggregations based on complex or custom formulas, you can build an MDX calculation in lieu of using a prebuilt aggregation function. For example, if you want to define a measure for a percentage value, you would do that in MDX, using a calculated measure. See [CREATE MEMBER Statement &#40;MDX&#41;](/sql/mdx/mdx-data-definition-create-member).  

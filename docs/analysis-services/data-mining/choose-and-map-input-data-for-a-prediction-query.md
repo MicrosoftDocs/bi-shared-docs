@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Choose and Map Input Data for a Prediction Query
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
 [!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
 

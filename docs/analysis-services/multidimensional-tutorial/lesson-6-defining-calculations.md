@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Lesson 6: Defining Calculations
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
 In this lesson, you learn to define calculations, which are Multidimensional Expressions (MDX) expressions or scripts. Calculations enable you to define calculated members, named sets, and execute other script commands to extend the capabilities of an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] cube. For example, you can run a script command to define a subcube and then assign a calculation to the cells in the subcube.  
   

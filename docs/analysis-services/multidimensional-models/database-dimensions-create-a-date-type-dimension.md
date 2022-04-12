@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Database Dimensions - Create a Date type Dimension
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   In [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], a time dimension is a dimension type whose attributes represent time periods, such as years, semesters, quarters, months, and days. The periods in a time dimension provide time-based levels of granularity for analysis and reporting. The attributes are organized in hierarchies, and the granularity of the time dimension is determined largely by the business and reporting requirements for historical data. For example, most financial and sales data in business intelligence applications use a monthly or quarterly granularity.  
   
  Typically, cubes in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] incorporate a time dimension in one form or another. A cube may include more than one time dimension, or several hierarchies from the same time dimension, depending on the granularity of the data and the reporting requirements. However, not all cubes require a time dimension. Some OLAP applications, such as activity-based costing, do not require a time dimension, because .costing in an activity-based dimension is based on activity instead of time.  

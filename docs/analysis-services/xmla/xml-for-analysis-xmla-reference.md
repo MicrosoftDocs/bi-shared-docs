@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # XML for Analysis (XMLA) Reference
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium use XML for Analysis (XMLA) protocol for communications between client applications and an Analysis Services instance. At their most basic level, other client libraries such as ADOMD.NET and AMO construct requests and decode responses in XMLA, serving as an intermediary to an Analysis Services instance, which uses XMLA exclusively.  
   

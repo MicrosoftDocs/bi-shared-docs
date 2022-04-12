@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # DAX for multidimensional models
 
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
 This article describes how Power BI uses DAX (Data Analysis Expressions) queries to report against multidimensional models in SQL Server Analysis Services.
 

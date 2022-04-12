@@ -12,7 +12,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Grant server admin rights to an  Analysis Services instance
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   Members of the Server administrator role within an instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] have unrestricted access to all [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] objects and data in that instance. A user must be a member of the Server administrator role to perform any server-wide task, such as creating or processing a database, modifying server properties, or launching a trace (other than for processing events).  
   
  Role membership is established when [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] is installed. The user running the Setup program can add him or herself to the role, or add another user. You must specify at least one administrator before Setup will allow you to continue.  

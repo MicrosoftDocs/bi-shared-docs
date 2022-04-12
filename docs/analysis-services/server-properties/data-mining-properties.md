@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-an
 ---
 # Data mining properties
 
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
   [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the data mining server properties listed in the following tables. For more information about additional server properties and how to set them, see [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
   

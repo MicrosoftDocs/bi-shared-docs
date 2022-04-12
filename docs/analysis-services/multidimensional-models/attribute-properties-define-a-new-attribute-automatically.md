@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Attribute Properties - Define a New Attribute Automatically
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can create a new attribute in a dimension by using drag-and-drop editing in the Dimension Designer.  
   
 ### To create a new attribute automatically  

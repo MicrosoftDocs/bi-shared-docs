@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Attribute Properties - Modify the KeyColumn Property
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can modify the **KeyColumns** property of an attribute. For example, you might want to specify a composite key instead of a single key as the key for the attribute.  
   
 ### To modify the KeyColumns property of an attribute  

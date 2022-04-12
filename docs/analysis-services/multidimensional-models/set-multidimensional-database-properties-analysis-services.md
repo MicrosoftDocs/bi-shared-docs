@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Set Multidimensional Database Properties (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   There are a number of [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] database properties that you can configure in the [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] database designer.  
   
  In this designer, you can perform the following types of tasks:  

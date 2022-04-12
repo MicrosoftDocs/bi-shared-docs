@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Delete relationships
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
   You can delete existing relationships by using the model designer in Diagram View or by using the Manage Relationships dialog box. For information about how relationships are used in tabular models, see [Relationships](../../analysis-services/tabular-models/relationships-ssas-tabular.md).  
   

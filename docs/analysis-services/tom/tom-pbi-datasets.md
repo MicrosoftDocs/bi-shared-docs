@@ -13,7 +13,7 @@ author: tedpattison
 ---
 # Programming Power BI datasets with the Tabular Object Model (TOM)
 
-[!INCLUDE[ssas-appliesto-sql2016-later-aas-pbip](../includes/ssas-appliesto-sql2016-later-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
 This article was originally created by the Power BI Customer Advisory Team (CAT) for [Power BI Dev Camp](https://www.powerbidevcamp.net/), a collection of sessions, articles, and videos about advanced programming for Power BI. 
 

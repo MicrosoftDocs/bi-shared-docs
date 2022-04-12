@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Create and Manage a Local Partition (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   You can create additional partitions for a measure group to improve processing performance. Having multiple partitions allows you to allocate fact data across a corresponding number of physical data files on local as well as remote servers. In Analysis Services, partitions can be processed independently and in parallel, giving you more control over processing workloads on the server.  
   
  Partitions can be created in [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)] during model design, or after the solution is deployed using [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] or XMLA. We recommend that you choose one approach only. If you alternate between tools, you might find that changes made to a deployed database in [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] are overwritten when you subsequently redeploy the solution from [!INCLUDE[ssBIDevStudio](../includes/ssbidevstudio-md.md)].  

@@ -13,11 +13,11 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 ---
 # Lock manager properties
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas](../includes/ssas-appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
+
+ **Applies to:** Multidimensional and tabular server mode  
 
 [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following lock manager server properties.  
-  
- **Applies to:** Multidimensional and tabular server mode  
   
 ## Properties
 

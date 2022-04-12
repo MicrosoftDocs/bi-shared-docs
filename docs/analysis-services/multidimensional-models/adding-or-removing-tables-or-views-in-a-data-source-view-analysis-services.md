@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Adding or Removing Tables or Views in a Data Source View (Analysis Services)
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   After you have created a data source view (DSV) in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)], you can modify it in Data Source View Designer by adding or removing tables and columns, including tables and columns from another data source.  
   
  To open the DSV in Data Source View Designer, you double-click the DSV in Solution Explorer. Once you open the DSV, you can use the **Add/Remove Tables** command on the button bar or menu to modify or extend the DSV. You can also work with the objects in the diagram. For example, you can select an object and then use the Delete key on your keyboard to remove an object.  

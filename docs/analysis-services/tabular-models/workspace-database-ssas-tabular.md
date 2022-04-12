@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Workspace database
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 The tabular model workspace database, used during model authoring, is created when you create a new tabular model project in Visual Studio with Analysis Services projects.
   

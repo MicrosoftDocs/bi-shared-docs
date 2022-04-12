@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Create a Time Dimension by Generating a Time Table
-[!INCLUDE[ssas-appliesto-sqlas](../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
   In [!INCLUDE[msCoName](../includes/msconame-md.md)] [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], you can use the Dimension Wizard in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] to create a time dimension when no time table is available in the source database. You do this by selecting one of the following options on the **Select Creation Method** page:  
   
 -   **Generate a time table in the data source** Select this option when you have permission to create objects in the underlying data source. The wizard will then generate a time table and store this table in the data source. The wizard then creates the time dimension from this time table.  

@@ -12,7 +12,7 @@ author: minewiskan
 ---
 # XML for Analysis (XMLA) Compliance
   
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
   The XML for Analysis 1.1 specification describes an open standard that supports data access to data sources that reside on the World Wide Web. This article details the level of compliance with the XML for Analysis 1.1 specification supported by all Analysis Services platforms: Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium.  
   

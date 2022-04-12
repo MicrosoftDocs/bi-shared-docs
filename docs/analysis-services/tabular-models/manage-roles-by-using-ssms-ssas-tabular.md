@@ -1,7 +1,7 @@
 ---
 title: "Manage Analysis Services tabular model roles by using SSMS | Microsoft Docs"
 description: Learn how to create, edit, and manage roles for a deployed tabular model by using SQL Server Management Studio.
-ms.date: 11/03/2020
+ms.date: 04/12/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Create and manage roles in SSMS
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 This article describes how to use [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] (SSMS) to create roles, define role permissions, and add users for deployed tabular models or Power BI Premium datasets. To learn about using Visual Studio to create and manage roles for tabular model projects, see [Create and manage roles in Visual Studio](create-and-manage-roles-ssas-tabular.md).
 
@@ -27,7 +27,7 @@ This article describes how to use [!INCLUDE[ssManStudioFull](../includes/ssmanst
   
 3. In the general settings window, in the **Name** field, type a name for the role.  
   
-     By default, the name of the default role will be incrementally numbered for each new role. It is recommended you type a name that clearly identifies the member type, for example, Finance Managers or Human Resources Specialists.  
+     Use names that clearly identify the member type, for example, Finance Managers or Human Resources Specialists, and be sure the name doesn't include a comma. By default, the name of the default role will be incrementally numbered for each new role.
   
 4. In **Set the database permissions for this role**, select one of the following permissions options:  
   

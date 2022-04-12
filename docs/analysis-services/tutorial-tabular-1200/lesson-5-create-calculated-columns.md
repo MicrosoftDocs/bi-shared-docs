@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Lesson 5: Create Calculated Columns
-[!INCLUDE[ssas-appliesto-sql2016-later-aas](../includes/ssas-appliesto-sql2016-later-aas.md)]
+[!INCLUDE[appliesto-sql2016-later-aas](../includes/appliesto-sql2016-later-aas.md)]
 
 In this lesson, you will create new data in your model by adding calculated columns. A calculated column is based on data that already exists in the model. To learn more, see [Calculated Columns](../tabular-models/ssas-calculated-columns.md).  
   

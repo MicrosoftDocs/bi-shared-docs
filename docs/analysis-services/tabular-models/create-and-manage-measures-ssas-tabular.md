@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 ---
 # Create and manage measures
 
-[!INCLUDE[ssas-appliesto-sqlas-all-aas-pbip](../includes/ssas-appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
   A measure is a formula that is created for use in a report or Excel PivotTable (or PivotChart). Measures can be based on standard aggregation functions, such as COUNT or SUM, or you can define your own formula by using DAX. The tasks in this article describe how to create and manage measures by using a table's measure grid.  
   

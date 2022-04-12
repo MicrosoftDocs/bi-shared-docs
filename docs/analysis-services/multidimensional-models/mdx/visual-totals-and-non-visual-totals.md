@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Visual Totals and Non Visual Totals
-[!INCLUDE[ssas-appliesto-sqlas](../../includes/ssas-appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
   Visual Totals are totals at the end of a column or row that add up all of the items visible in the column or row. This is the default behavior for most tables when displayed. However, there are times when the user wants to display only certain columns in a table but keep the totals for the entire row, including those that are not displayed. These are called **Non Visual Totals**, because the total comes from both the visible and non-visible values.  
   
  The following scenario demonstrates the behavior of Non Visual totals. The first step shows the default behavior of Visual Totals.  
