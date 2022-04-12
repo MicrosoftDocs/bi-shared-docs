@@ -1,7 +1,7 @@
 ---
 title: "Create and manage roles for Analysis Services tabular models projects | Microsoft Docs"
 description: Learn how to create and manage roles during model authoring by using the Role Manager dialog box in SQL Server Data Tools.
-ms.date: 11/03/2020
+ms.date: 04/12/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -35,7 +35,7 @@ To create, edit, copy, and delete roles, use the **Role Manager** dialog box. To
   
 1. In the **Roles** list, in the **Name** field, type a name for the role.  
   
-     By default, the name of the default role will be incrementally numbered for each new role. It is recommended you type a name that clearly identifies the member type, for example, Finance Managers or Human Resources Specialists.  
+     It's recommended you type a name that clearly identifies the member type, for example, Finance Managers or Human Resources Specialists, and be sure the name doesn't include a comma. By default, the name of the default role will be incrementally numbered for each new role. 
   
 1. In the **Permissions** field, click the down arrow and then select one of the following permission types:  
   
