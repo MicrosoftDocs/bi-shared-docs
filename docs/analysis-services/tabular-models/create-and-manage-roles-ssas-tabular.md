@@ -32,7 +32,7 @@ To create, edit, copy, and delete roles, use the **Role Manager** dialog box. To
   
 1. In the **Roles** list, in the **Name** field, type a name for the role.  
   
-     Use names that clearly identifies the member type, for example, Finance Managers or Human Resources Specialists, and be sure the name doesn't include a comma. By default, the name of the default role will be incrementally numbered for each new role.
+     Use names that clearly identify the member type, for example, Finance Managers or Human Resources Specialists, and be sure the name doesn't include a comma. By default, the name of the default role will be incrementally numbered for each new role.
   
 1. In the **Permissions** field, click the down arrow and then select one of the following permission types:  
   

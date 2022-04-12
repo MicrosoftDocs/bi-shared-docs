@@ -27,7 +27,7 @@ This article describes how to use [!INCLUDE[ssManStudioFull](../includes/ssmanst
   
 3. In the general settings window, in the **Name** field, type a name for the role.  
   
-     Use names that clearly identifies the member type, for example, Finance Managers or Human Resources Specialists, and be sure the name doesn't include a comma. By default, the name of the default role will be incrementally numbered for each new role.
+     Use names that clearly identify the member type, for example, Finance Managers or Human Resources Specialists, and be sure the name doesn't include a comma. By default, the name of the default role will be incrementally numbered for each new role.
   
 4. In **Set the database permissions for this role**, select one of the following permissions options:  
   
