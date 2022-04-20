@@ -1,7 +1,7 @@
 ﻿---
 title: "Analysis Services Adventure Works Internet Sales tutorial (1500) | Microsoft Docs"
 description: Learn how to create a new Analysis Services tabular model in this tutorial.
-ms.date: 02/24/2022
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -46,13 +46,13 @@ To complete lessons 1-12, you need:
 
 - [Visual Studio](../tools-and-applications-used-in-analysis-services.md). Any edition, including the free Community edition work fine.
 
-- The latest [Microsoft Analysis Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) (VSIX) package installed in Visual Studio.
+- The latest [Microsoft Analysis Services Projects](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) (VSIX) extension package installed in Visual Studio.
 
 - Microsoft Excel.
 
 To complete lesson 13 - Deploy, you need one of the following:
 
-- An Azure Analysis Services server (recommended).  See [create a server](/azure/analysis-services/analysis-services-create-server).
+- An Azure Analysis Services server at the Developer or Standard tier (recommended).  See [Create a server - Portal](/azure/analysis-services/analysis-services-create-server).
 
 - SQL Server 2019 Analysis Services server in Tabular mode. Download a free [SQL Server 2019 Developer Edition](https://www.microsoft.com/sql-server/sql-server-downloads).
 
