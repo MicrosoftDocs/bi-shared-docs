@@ -1,7 +1,7 @@
 ---
 title: "Defining a Dimension | Microsoft Docs"
 description: Learn how to use the Dimension Wizard to build a Date dimension for an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -27,7 +27,7 @@ In the following task, you will use the Dimension Wizard to build a Date dimensi
   
 3.  On the **Select Creation Method** page, verify that the **Use an existing table** option is selected, and then click **Next**.  
   
-4.  On the **Specify Source Information** page, verify that the **Adventure Works DW 2012** data source view is selected.  
+4.  On the **Specify Source Information** page, verify that the **Adventure Works DW 2019** data source view is selected.  
   
 5.  In the **Main table** list, select **Date**.  
   

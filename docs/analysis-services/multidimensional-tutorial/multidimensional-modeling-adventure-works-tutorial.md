@@ -1,7 +1,7 @@
 ---
 title: "Multidimensional Modeling (Adventure Works Tutorial) | Microsoft Docs"
 description: An overview of how to use SQL Server Data Tools to develop and deploy an Analysis Services project, using the fictitious company Adventure Works Cycles for all examples.
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -29,16 +29,18 @@ In this tutorial, you will learn the following:
   
 A scenario description accompanies this tutorial so that you can better understand the context for these lessons. For more information, see [Analysis Services Tutorial Scenario](analysis-services-tutorial-scenario.md).  
   
-## Prerequisites  
+## Prerequisites
+
 You will need sample data, sample project files, and software to complete all of the lessons in this tutorial. For instructions on how to find and install the prerequisites for this tutorial, see [Install Sample Data and Projects for the Analysis Services Multidimensional Modeling Tutorial](install-sample-data-and-projects.md).  
   
 Additionally, the following permissions must be in place to successfully complete this tutorial:  
   
 -   You must be a member of the Administrators local group on the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] computer or be a member of the server administration role in the instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
--   You must have Read permissions in the **AdventureWorksDW** sample database. This sample database is valid for the [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] release.  
+-   You must have Read permissions in the **AdventureWorksDW** sample database. This sample database is valid for the SQL Server 2019 and later release.  
   
-## Lessons  
+## Lessons
+
 This tutorial includes the following lessons.  
   
 |Lesson|Estimated time to complete|  

@@ -1,7 +1,7 @@
 ---
 title: "Defining Parent Attribute Properties in a Parent-Child Hierarchy | Microsoft Docs"
 description: Learn how to define level names in a parent-child dimension and specify whether data related to parent members is displayed for an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models

@@ -1,7 +1,7 @@
 ---
 title: "Defining a Many-to-Many Relationship | Microsoft Docs"
 description: Learn how to relate a fact to multiple dimension members through the definition of a many-to-many relationship between dimension tables and fact tables for an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -29,7 +29,7 @@ In the tasks in this topic, you define the Sales Reasons dimension and the Sales
   
 ## Adding Required Tables to the Data Source View  
   
-1.  Open Data Source View Designer for the **Adventure Works DW 2012** data source view.  
+1.  Open Data Source View Designer for the **Adventure Works DW 2019** data source view.  
   
 2.  Right-click anywhere in the **Diagram Organizer** pane, click **New Diagram**, and specify **Internet Sales Order Reasons** as the name for this new diagram.  
   
@@ -93,7 +93,7 @@ In the tasks in this topic, you define the Sales Reasons dimension and the Sales
   
 3.  On the **Select Creation Method** page, verify that the **Use an existing table** option is selected, and then click **Next**.  
   
-4.  On the **Specify Source Information** page, verify that the [!INCLUDE[ssSampleDBCoShort](../includes/sssampledbcoshort-md.md)] DW 2012 data source view is selected.  
+4.  On the **Specify Source Information** page, verify that the [!INCLUDE[ssSampleDBCoShort](../includes/sssampledbcoshort-md.md)] DW 2019 data source view is selected.  
   
 5.  In the **Main table** list, select **SalesReason**.  
   

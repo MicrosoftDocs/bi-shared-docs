@@ -1,7 +1,7 @@
 ---
 title: "Defining a Data Source View | Microsoft Docs"
 description: Learn how to define a data source view for an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -16,7 +16,7 @@ author: minewiskan
 
 After you define the data sources that you will use in an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project, the next step is generally to define a data source view for the project. A data source view is a single, unified view of the metadata from the specified tables and views that the data source defines in the project. Storing the metadata in the data source view enables you to work with the metadata during development without an open connection to any underlying data source. For more information, see [Data Source Views in Multidimensional Models](../multidimensional-models/data-source-views-in-multidimensional-models.md).  
   
-In the following task, you define a data source view that includes five tables from the **AdventureWorksDW2012** data source.  
+In the following task, you define a data source view that includes five tables from the **AdventureWorksDW2019** data source.  
   
 ### To define a new data source view  
   
@@ -24,7 +24,7 @@ In the following task, you define a data source view that includes five tables f
   
 2.  On the **Welcome to the Data Source View Wizard** page, click **Next**. The **Select a Data Source** page appears.  
   
-3.  Under **Relational data sources**, the **Adventure Works DW 2012** data source is selected. Click **Next**.  
+3.  Under **Relational data sources**, the **Adventure Works DW 2019** data source is selected. Click **Next**.  
   
     > [!NOTE]  
     > To create a data source view that is based on multiple data sources, first define a data source view that is based on a single data source. This data source is then called the primary data source. You can then add tables and views from a secondary data source. When designing dimensions that contain attributes based on related tables in multiple data sources, you might need to define a [!INCLUDE[msCoName](../includes/msconame-md.md)][!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] data source as the primary data source to use its distributed query engine capabilities.  
@@ -50,9 +50,9 @@ In the following task, you define a data source view that includes five tables f
   
 6.  Click **Next.**  
   
-7.  In the Name field, make sure **Adventure Works DW 2012** displays, and then click **Finish**.  
+7.  In the Name field, make sure **Adventure Works DW 2019** displays, and then click **Finish**.  
   
-    The **Adventure Works DW 2012** data source view appears in the **Data Source Views** folder in Solution Explorer. The content of the data source view is also displayed in Data Source View Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)]. This designer contains the following elements:  
+    The **Adventure Works DW 2019** data source view appears in the **Data Source Views** folder in Solution Explorer. The content of the data source view is also displayed in Data Source View Designer in [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)]. This designer contains the following elements:  
   
     -   A **Diagram** pane in which the tables and their relationships are represented graphically.  
   
