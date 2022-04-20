@@ -1,7 +1,7 @@
 ---
 title: "Defining a Data Source | Microsoft Docs"
 description: Learn how to define a data source for an Analysis Services project. 
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -16,7 +16,7 @@ author: minewiskan
 
 After you create an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] project, you generally start working with the project by defining one or more data sources that the project will use. When you define a data source, you are defining the connection string information that will be used to connect to the data source. For more information, see [Create a Data Source &#40;SSAS Multidimensional&#41;](../multidimensional-models/create-a-data-source-ssas-multidimensional.md).  
   
-In the following task, you define the AdventureWorksDWSQLServer2012 sample database as the data source for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial project. While this database is located on your local computer for the purposes of this tutorial, source databases are frequently hosted on one or more remote computers.  
+In the following task, you define the AdventureWorksDW2019 sample database as the data source for the project. While this database is located on your local computer for the purposes of this tutorial, source databases are frequently hosted on one or more remote computers.  
   
 ### To define a new data source  
   
@@ -34,7 +34,7 @@ In the following task, you define the AdventureWorksDWSQLServer2012 sample datab
   
     To connect to a named instance on your local computer, type **localhost\\\<instance name\>**. To connect to the specific computer instead of the local computer, type the computer name or IP address.  
   
-6.  Verify that **Use Windows Authentication** is selected. In the **Select or enter a database name** list, select **AdventureWorksDW2012**.  
+6.  Verify that **Use Windows Authentication** is selected. In the **Select or enter a database name** list, select **AdventureWorksDW2019**.  
   
 7.  Click **Test Connection** to test the connection to the database.  
   
@@ -42,7 +42,7 @@ In the following task, you define the AdventureWorksDWSQLServer2012 sample datab
   
 9. On the **Impersonation Information** page of the wizard, you define the security credentials for [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to use to connect to the data source. Impersonation affects the Windows account used to connect to the data source when Windows Authentication is selected. [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] does not support impersonation for processing OLAP objects. Select **Use the service account**, and then click **Next**.  
   
-10. On the **Completing the Wizard** page, accept the default name, **Adventure Works DW 2012**, and then click **Finish** to create the new data source.  
+10. On the **Completing the Wizard** page, accept the default name, **Adventure Works DW 2019**, and then click **Finish** to create the new data source.  
   
 > [!NOTE]  
 > To modify the properties of the data source after it has been created, double-click the data source in the **Data Sources** folder to display the data source properties in **Data Source Designer**.  

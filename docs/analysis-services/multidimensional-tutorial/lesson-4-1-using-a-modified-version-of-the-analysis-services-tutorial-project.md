@@ -1,7 +1,7 @@
 ---
 title: "Using a Modified Version of the Analysis Services Tutorial Project | Microsoft Docs"
 description: Learn how to open, review, and deploy a modified version of an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -14,7 +14,7 @@ author: minewiskan
 # Lesson 4-1 - Using a Modified Version of the Analysis Services Tutorial Project
 [!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
-The remaining lessons in this tutorial are based on an enhanced version of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial project that you completed in the first three lessons. Additional tables and named calculations have been added to the **Adventure Works DW 2012** data source view, additional dimensions have been added to the project, and these new dimensions have been added to the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube. In addition, a second measure group has been added, which contains measures from a second fact table. This enhanced project will enable you to continue learning how to add functionality to your business intelligence application without having to repeat the skills you have already learned.  
+The remaining lessons in this tutorial are based on an enhanced version of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial project that you completed in the first three lessons. Additional tables and named calculations have been added to the **Adventure Works DW 2019** data source view, additional dimensions have been added to the project, and these new dimensions have been added to the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube. In addition, a second measure group has been added, which contains measures from a second fact table. This enhanced project will enable you to continue learning how to add functionality to your business intelligence application without having to repeat the skills you have already learned.  
   
 Before you can continue with the tutorial, you must download, extract, load and process the enhanced version of the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial project.  Use the instructions in this lesson to ensure you have performed all the steps.  
   
@@ -55,7 +55,7 @@ The data source view in the enhanced project contains one additional fact table 
 Notice that with ten tables in the data source view, the \<All Tables\> diagram is becoming crowded. This makes it difficult to easily understand the relationships between the tables and to locate specific tables. To solve this problem, the tables are organized into two logical diagrams, the **Internet Sales** diagram and the **Reseller Sales** diagram. These diagrams are each organized around a single fact table. Creating logical diagrams lets you view and work with a specific subset of the tables in a data source view instead of always viewing all the tables and their relationships in a single diagram.  
   
 #### Internet Sales Diagram  
-The **Internet Sales** diagram contains the tables that are related to the sale of [!INCLUDE[ssSampleDBCoShort](../includes/sssampledbcoshort-md.md)] products directly to customers through the Internet. The tables in the diagram are the four dimension tables and one fact table that you added to the **Adventure Works DW 2012** data source view in Lesson 1. These tables are as follows:  
+The **Internet Sales** diagram contains the tables that are related to the sale of [!INCLUDE[ssSampleDBCoShort](../includes/sssampledbcoshort-md.md)] products directly to customers through the Internet. The tables in the diagram are the four dimension tables and one fact table that you added to the **Adventure Works DW 2019** data source view in Lesson 1. These tables are as follows:  
   
 -   **Geography**  
   
@@ -92,22 +92,22 @@ Notice that the **DimGeography**, **DimDate**, and **DimProduct** tables are use
 The [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial project contains five new database dimensions, and the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial cube contains these same five dimensions as cube dimensions. These dimensions have been defined to have user hierarchies and attributes that were modified by using named calculations, composition member keys, and display folders. The new dimensions are described in the following list.  
   
 Reseller Dimension  
-The Reseller dimension is based on the **Reseller** table in the **Adventure Works DW 2012** data source view.  
+The Reseller dimension is based on the **Reseller** table in the **Adventure Works DW 2019** data source view.  
   
 Promotion Dimension  
-The Promotion dimension is based on the **Promotion** table in the **Adventure Works DW 2012** data source view.  
+The Promotion dimension is based on the **Promotion** table in the **Adventure Works DW 2019** data source view.  
   
 Sales Territory Dimension  
-The Sales Territory dimension is based on the **SalesTerritory** table in the **Adventure Works DW 2012** data source view.  
+The Sales Territory dimension is based on the **SalesTerritory** table in the **Adventure Works DW 2019** data source view.  
   
 Employee Dimension  
-The Employee dimension is based on the **Employee** table in the **Adventure Works DW 2012** data source view.  
+The Employee dimension is based on the **Employee** table in the **Adventure Works DW 2019** data source view.  
   
 Geography Dimension  
-The Geography dimension is based on the **Geography** table in the **Adventure Works DW 2012** data source view.  
+The Geography dimension is based on the **Geography** table in the **Adventure Works DW 2019** data source view.  
   
 #### Analysis Services Cube  
-The **Analysis Services Tutorial** cube now contains two measure groups, the original measure group based on the **InternetSales** table and a second measure group based on the **ResellerSales** table in the **Adventure Works DW 2012** data source view.  
+The **Analysis Services Tutorial** cube now contains two measure groups, the original measure group based on the **InternetSales** table and a second measure group based on the **ResellerSales** table in the **Adventure Works DW 2019** data source view.  
   
 ## Next Task in Lesson  
 [Defining Parent Attribute Properties in a Parent-Child Hierarchy](lesson-4-2-defining-parent-attribute-properties-in-a-parent-child-hierarchy.md)  

@@ -1,7 +1,7 @@
 ---
 title: "Deploying an Analysis Services Project | Microsoft Docs"
 description: Learn how to deploy the cube of an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -38,7 +38,7 @@ In the following task, you review the deployment properties of the [!INCLUDE[ssA
 4.  In Solution Explorer, right-click the **Analysis Services Tutorial** project, and then click **Deploy**. You might need to wait.  
   
     > [!NOTE]  
-    > If you get errors during deployment, use SQL Server Management Studio to check the database permissions. The account you specified for the data source connection must have a login on the SQL Server instance. Double-click the login to view User Mapping properties. The account must have db_datareader permissions on the **AdventureWorksDW2012** database.  
+    > If you get errors during deployment, use SQL Server Management Studio to check the database permissions. The account you specified for the data source connection must have a login on the SQL Server instance. Double-click the login to view User Mapping properties. The account must have db_datareader permissions on the **AdventureWorksDW2019** database.  
   
     [!INCLUDE[ssBIDevStudioFull](../includes/ssbidevstudiofull-md.md)] builds and then deploys the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] Tutorial project to the specified instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] by using a deployment script. The progress of the deployment is displayed in two windows: the **Output** window and the **Deployment Progress - Analysis Services Tutorial** window.  
   

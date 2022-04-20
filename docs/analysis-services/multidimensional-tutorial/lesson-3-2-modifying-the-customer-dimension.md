@@ -1,7 +1,7 @@
 ---
 title: "Modifying the Customer Dimension | Microsoft Docs"
 description: Learn how to define a user hierarchy, create named calculations, modify attributes to use named calculations, and group attributes and user hierarchies into display folders for an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -57,7 +57,7 @@ You can add a named calculation, which is a SQL expression that is represented a
   
 #### To add a named calculation  
   
-1.  Open the **[!INCLUDE[ssSampleDBCoShort](../includes/sssampledbcoshort-md.md)] DW 2012** data source view by double-clicking it in the **Data Source Views** folder in Solution Explorer.  
+1.  Open the **Adventure Works DW 2019** data source view by double-clicking it in the **Data Source Views** folder in Solution Explorer.  
   
 2.  In the **Tables** pane on the left, right-click **Customer**, and then click **New Named Calculation**.  
   
