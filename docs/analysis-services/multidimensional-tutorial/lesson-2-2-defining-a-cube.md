@@ -1,7 +1,7 @@
 ---
 title: "Defining a Cube (Analysis Services) | Microsoft Docs"
 description: Learn how to define the measure groups and dimensions for a cube for an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -24,7 +24,7 @@ The Cube Wizard helps you define the measure groups and dimensions for a cube. I
   
 3.  On the **Select Creation Method** page, verify that the **Use existing tables** option is selected, and then click **Next**.  
   
-4.  On the **Select Measure Group Tables** page, verify that the **Adventure Works DW 2012** data source view is selected.  
+4.  On the **Select Measure Group Tables** page, verify that the **Adventure Works DW 2019** data source view is selected.  
   
 5.  Click **Suggest** to have the cube wizard suggest tables to use to create measure groups.  
   

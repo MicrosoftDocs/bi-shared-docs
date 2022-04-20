@@ -1,7 +1,7 @@
 ---
 title: "Lesson 3: Modifying Measures, Attributes and Hierarchies | Microsoft Docs"
 description: An overview of modifying measures, attributes and hierarchies of a cube for an Analysis Services project.
-ms.date: 01/19/2022
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
