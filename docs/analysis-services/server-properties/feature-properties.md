@@ -24,7 +24,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 |Property|Default|Description|  
 |--------------|-------------|-----------------|  
-|**ManagedCodeEnabled**|1|A Boolean property that indicates whether CLR storage procedures are enabled. |  
+|**ManagedCodeEnabled**|1|A Boolean property that indicates whether CLR storage procedures are enabled. Applies to Multidimensional mode server instances only. |  
 |**LinkInsideInstanceEnabled**|1|A Boolean property that indicates whether a linked object can be created inside the same server instance. Applies to Multidimensional mode server instances only.|  
 |**LinkToOtherInstanceEnabled**|0|A Boolean property that indicates whether objects on remote servers can be linked to. Applies to Multidimensional mode server instances only.|  
 |**LinkFromOtherInstanceEnabled**|0|A Boolean property that indicates whether objects can be linked to from other server instances. Applies to Multidimensional mode server instances only.|  
