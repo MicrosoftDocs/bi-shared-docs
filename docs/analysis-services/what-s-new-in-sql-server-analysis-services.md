@@ -16,13 +16,16 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
 
-## Cumulative updates
+## SQL Server 2022 Analysis Services CTP 2.0
+
+This releases introduces public preview of SQL Server 2022 Analysis Services. 
+
+
+## SQL Server 2019 Analysis Services CU5
 
 SQL Server Analysis Services cumulative updates are included with SQL Server cumulative updates. To learn more about and download the latest cumulative update, see [SQL Server 2019 latest cumulative update](https://www.microsoft.com/download/details.aspx?id=100809). Cumulative update KB pages summarize known issues, improvements, and fixes for all SQL Server features, including SSAS. Additional details for major feature updates for SSAS are described here.
 
-### SQL Server 2019 Analysis Services CU5
-
-#### SuperDAX for multidimensional models (SuperDAXMD)
+### SuperDAX for multidimensional models (SuperDAXMD)
 
 With CU5, DAX-based clients can now use *SuperDAX* functions and query patterns against multidimensional models, providing improved performance when querying model data. SuperDAX first introduced DAX query optimizations for tabular models with Power BI and SQL Server Analysis Services 2016. SuperDAXMD now brings these improvements to multidimensional models.
 
