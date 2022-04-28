@@ -1,7 +1,7 @@
 ---
 title: "Defining a Referenced Relationship | Microsoft Docs"
 description: Learn how to link a dimension to a fact table indirectly through a dimension that is linked directly through a primary key-foreign key relationship for an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
@@ -28,7 +28,7 @@ Up to this point in the tutorial, each cube dimension that you defined was based
   
     ![Dimensioned Reseller Sales-Sales Amount measure](../media/l5-referencedrelationship-1.png "Dimensioned Reseller Sales-Sales Amount measure")  
   
-4.  Open Data Source View Designer for the **Adventure Works DW 2012** data source view.  
+4.  Open Data Source View Designer for the **Adventure Works DW 2019** data source view.  
   
 5.  In the **Diagram Organizer** pane, view the relationship between the **Geography** table and the **ResellerSales** table.  
   

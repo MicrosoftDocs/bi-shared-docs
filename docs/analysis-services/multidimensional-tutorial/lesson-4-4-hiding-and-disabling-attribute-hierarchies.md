@@ -1,7 +1,7 @@
 ---
 title: "Hiding and Disabling Attribute Hierarchies | Microsoft Docs"
 description: Learn how and when to disable or hide attribute hierarchies for an Analysis Services project.
-ms.date: 05/06/2019
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models

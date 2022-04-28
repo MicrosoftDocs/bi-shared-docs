@@ -1,7 +1,7 @@
 ---
 title: "Install Analysis Services sample data and projects | Microsoft Docs"
 description: Learn how to install the data and project files used in the Analysis Services tutorials. 
-ms.date: 01/27/2020
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -16,12 +16,13 @@ author: minewiskan
 
 Use the instructions and links provided in this article to install the data and project files used in the Analysis Services tutorials. 
   
-## Step 1: Install prerequisites 
+## Step 1: Install prerequisites
+
 The lessons in this tutorial assume that you have the following software installed. You can install all of the features on a single computer. To install these features, run SQL Server Setup and select them from the Feature Selection page.  
   
 -   SQL Server Database Engine  
   
--   SQL Server Analysis Services  (SSAS) 
+-   SQL Server Analysis Services (SSAS)
   
     Analysis Services is available in these editions only: Evaluation, Enterprise, Business Intelligence, Standard. Multidimensional models are not supported in Azure Analysis Services.
   
@@ -29,9 +30,7 @@ The lessons in this tutorial assume that you have the following software install
   
 ## Step 2: Download and install developer and management tools
 
-Visual Studio is downloaded and installed separately from other SQL Server features. The designers and project templates used to create models are included in the [Analysis Services projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects) for Visual Studio.  
-  
-[Download Visual Studio](https://visualstudio.microsoft.com/downloads/).   
+Visual Studio is downloaded and installed separately from other SQL Server features. The designers and project templates used to create models are included in the Analysis Services projects extension for Visual Studio. To learn more about installing supported Visual Studio versions and Analysis Services projects extension, see [Analysis Services tools - Create and deploy models](../tools-and-applications-used-in-analysis-services.md#create-and-deploy-models).
 
 SQL Server Management Studio (SSMS) is downloaded and installed separately from other SQL Server features.  
 
@@ -45,13 +44,13 @@ Alternatively, you can browse data using the built-in MDX query designer that is
 
 An Analysis Services multidimensional model uses transactional data that you import from a relational database management system. For the purposes of this tutorial, you use the following relational database as your data source.  
   
--   **AdventureWorksDW2012 or later** - This is a relational data warehouse that runs on a Database Engine instance. It provides the original data  used by the Analysis Services databases and projects that you build and deploy throughout the tutorial. The tutorial assumes you are using AdventureWorksDW2012, however, later versions do work.
+-   **AdventureWorksDW2019** - This is a relational data warehouse that runs on a Database Engine instance. It provides the original data used by the Analysis Services databases and projects that you build and deploy throughout the tutorial. The tutorial assumes you are using AdventureWorksDW2019, however, earlier versions do work.
   
-    You can use this sample database with [!INCLUDE[ssSQL11](../includes/sssql11-md.md)] and later. In-general, you should use the sample database version matching your database engine version.
+    You can use this sample database with SQL Server 2019 and later. In-general, you should use the sample database version matching your database engine version.
   
 To install the database, do the following:  
   
-1.  Download an [AdventureWorksDW](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks) database backup from GitHub.  
+1.  Download an [AdventureWorksDW2019](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks) database backup from GitHub.  
   
 2.  Copy the backup file to the backup directory of the local SQL Server Database Engine instance.
   
@@ -83,8 +82,6 @@ The sample projects use data source impersonation settings that specify the secu
 The tutorial includes sample projects so that you can compare your results against a finished project, or start a lesson that is further on in the sequence.  
   
 1.  Download the [adventure-works-multidimensional-tutorial-projects.zip](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks-analysis-services) from the Adventure Works for Analysis Services samples page on GitHub.  
-  
-    The tutorial projects work for [!INCLUDE[ssSQL11](../includes/sssql11-md.md)] and later.  
   
 2.  Move the .zip file to a folder just below the root drive (for example, C:\Tutorial). This step mitigates the "Path too long" error that sometimes occurs if you attempt to unzip the files in the Downloads folder.  
   

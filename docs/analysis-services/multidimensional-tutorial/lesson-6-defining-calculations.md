@@ -1,7 +1,7 @@
 ---
 title: "Lesson 6: Defining Calculations | Microsoft Docs"
 description: An overview of defining calculations for an Analysis Services project.
-ms.date: 01/19/2022
+ms.date: 04/20/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: multidimensional-models
