@@ -18,8 +18,31 @@ This article summarizes new features and improvements in the most recent version
 
 ## SQL Server 2022 Analysis Services CTP 2.0
 
-This releases introduces public preview of SQL Server 2022 Analysis Services. 
+This releases introduces public preview of SQL Server 2022 Analysis Services. This release includes the following improvements:
 
+### Power BI support for SQL Server Analysis Services datasets as a source over DirectQuery
+
+This release introduces support for Power BI datasets with DirectQuery to connect to SQL Server Analysis Services models. Power BI users can now combine imported data with DirectQuery data from SQL Server 2022 Analysis Services. Report authors can combine the data from their enterprise semantic model with other data they own, such as an Excel spreadsheet, or personalize or enrich the metadata from their enterprise semantic model, will find this feature especially useful.
+
+To learn more, see [Using DirectQuery for datasets and Azure Analysis Services | Power BI Documentation](/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
+
+### Improved MDX query performance
+
+First introduced in Power BI and now in SSAS 2022, MDX Fusion includes Formula Engine (FE) optimization reducing the number of Storage Engine (SE) queries per MDX query. Client applications that use Multidimensional Expressions (MDX) to query model/dataset data such as Microsoft Excel will see improved query performance. Common MDX query patterns now require fewer SE queries where previously numerous SE queries were necessary to support different granularities. Fewer SE queries mean fewer expensive scans over large models, which results in significant performance gains, especially when connecting to a tabular models in Direct Query mode.
+
+To learn more, see [Announcing improved MDX query performance in Power BI | Microsoft Power BI Blog](https://powerbi.microsoft.com/blog/announcing-improved-mdx-query-performance-in-power-bi/).
+
+### Improved resource governance
+
+This release includes improved accuracy for the Memory\QueryMemoryLimit server property and DbpropMsmdRequestMemoryLimit connection string property. 
+
+First introduced in SSAS 2019, the [Memory\QueryMemoryLimit](server-properties/memory-properties.md#property-reference?preserve-view=true) server property applied only to memory spools where intermediate DAX query results are created during query processing. Now in SSAS 2022, it also applies to MDX queries, effectively covering all queries. You can better control process expensive queries that result in significant materialization. If the query hits the limit specified, the engine cancels the query and returns an error to the caller. This helps to reduce the impact on other concurrent users.
+
+Client applications can further reduce the memory allowed per query by specifying the [DbpropMsmdRequestMemoryLimit](instances/connection-string-properties-analysis-services.md#dbpropmsmdrequestmemorylimit?preserve-view=true) command property. Specified in Kilobytes, this property overrides the Memory\QueryMemoryLimit server property value for a connection.
+
+### Query interleaving - Short query bias
+
+This release introduces a new property setting to specify *Short query bias* when enabling query interleaving by setting the SchedulingBehavior property setting. This property setting improves user query response times in high-concurrency scenarios. To learn more, see [Query interleaving](tabular-models/query-interleaving.md#enable-query-interleaving?preserve-view=true).
 
 ## SQL Server 2019 Analysis Services CU5
 
