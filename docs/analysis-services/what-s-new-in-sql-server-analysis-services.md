@@ -36,13 +36,13 @@ To learn more, see [Announcing improved MDX query performance in Power BI | Micr
 
 This release includes improved accuracy for the Memory\QueryMemoryLimit server property and DbpropMsmdRequestMemoryLimit connection string property. 
 
-First introduced in SSAS 2019, the [Memory\QueryMemoryLimit](server-properties/memory-properties.md#property-reference?preserve-view=true) server property applied only to memory spools where intermediate DAX query results are created during query processing. Now in SSAS 2022, it also applies to MDX queries, effectively covering all queries. You can better control process expensive queries that result in significant materialization. If the query hits the limit specified, the engine cancels the query and returns an error to the caller. This helps to reduce the impact on other concurrent users.
+First introduced in SSAS 2019, the [Memory\QueryMemoryLimit](server-properties/memory-properties.md#property-reference) server property applied only to memory spools where intermediate DAX query results are created during query processing. Now in SSAS 2022, it also applies to MDX queries, effectively covering all queries. You can better control process expensive queries that result in significant materialization. If the query hits the limit specified, the engine cancels the query and returns an error to the caller. This helps to reduce the impact on other concurrent users.
 
-Client applications can further reduce the memory allowed per query by specifying the [DbpropMsmdRequestMemoryLimit](instances/connection-string-properties-analysis-services.md#dbpropmsmdrequestmemorylimit?preserve-view=true) command property. Specified in Kilobytes, this property overrides the Memory\QueryMemoryLimit server property value for a connection.
+Client applications can further reduce the memory allowed per query by specifying the [DbpropMsmdRequestMemoryLimit](instances/connection-string-properties-analysis-services.md#dbpropmsmdrequestmemorylimit) command property. Specified in Kilobytes, this property overrides the Memory\QueryMemoryLimit server property value for a connection.
 
 ### Query interleaving - Short query bias
 
-This release introduces a new property setting to specify *Short query bias* when enabling query interleaving by setting the SchedulingBehavior property setting. This property setting improves user query response times in high-concurrency scenarios. To learn more, see [Query interleaving](tabular-models/query-interleaving.md#enable-query-interleaving?preserve-view=true).
+This release introduces a new property setting to specify *Short query bias* when enabling query interleaving by setting the SchedulingBehavior property setting. This property setting improves user query response times in high-concurrency scenarios. To learn more, see [Query interleaving](tabular-models/query-interleaving.md#enable-query-interleaving).
 
 ## SQL Server 2019 Analysis Services CU5
 
