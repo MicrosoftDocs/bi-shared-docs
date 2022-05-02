@@ -26,13 +26,13 @@ This release introduces support for Power BI datasets with DirectQuery to connec
 
 To learn more, see [Using DirectQuery for datasets and Azure Analysis Services | Power BI Documentation](/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
 
-### Improved MDX query performance
+### MDX query performance
 
-First introduced in Power BI and now in SSAS 2022, MDX Fusion includes Formula Engine (FE) optimization reducing the number of Storage Engine (SE) queries per MDX query. Client applications that use Multidimensional Expressions (MDX) to query model/dataset data such as Microsoft Excel will see improved query performance. Common MDX query patterns now require fewer SE queries where previously numerous SE queries were necessary to support different granularities. Fewer SE queries mean fewer expensive scans over large models, which results in significant performance gains, especially when connecting to a tabular models in Direct Query mode.
+First introduced in Power BI and now in SSAS 2022, MDX Fusion includes Formula Engine (FE) optimization reducing the number of Storage Engine (SE) queries per MDX query. Client applications that use Multidimensional Expressions (MDX) to query model/dataset data such as Microsoft Excel will see improved query performance. Common MDX query patterns now require fewer SE queries where previously numerous SE queries were necessary to support different granularity. Fewer SE queries mean fewer expensive scans over large models, which results in significant performance gains, especially when connecting to a tabular models in Direct Query mode.
 
 To learn more, see [Announcing improved MDX query performance in Power BI | Microsoft Power BI Blog](https://powerbi.microsoft.com/blog/announcing-improved-mdx-query-performance-in-power-bi/).
 
-### Improved resource governance
+### Resource governance
 
 This release includes improved accuracy for the Memory\QueryMemoryLimit server property and DbpropMsmdRequestMemoryLimit connection string property. 
 
