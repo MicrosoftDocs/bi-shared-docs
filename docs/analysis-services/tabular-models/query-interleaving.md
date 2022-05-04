@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Query interleaving is a tabular mode system configuration that can improve query performance in high-concurrency scenarios. By default, the Analysis Services tabular engine works in a first-in, first-out (FIFO) fashion with regards to CPU. This means, for example, if one resource expensive and possibly slow storage-engine query is received, and then followed by two otherwise fast queries, the fast queries can potentially get blocked waiting for the expensive query to complete. This is shown in the following diagram, which shows Q1, Q2 and Q3 as the respective queries, their duration, and CPU time. 
+Query interleaving is a tabular mode system configuration that can improve query performance in high-concurrency scenarios. By default, the Analysis Services tabular engine works in a first-in, first-out (FIFO) fashion with regards to CPU. This means, for example, if one resource expensive and possibly slow storage-engine query is received, and then followed by two otherwise fast queries, the fast queries can potentially get blocked waiting for the expensive query to complete. This is shown in the following diagram, which shows Q1, Q2 and Q3 as the respective queries, their duration, and CPU time.
 
 ![First in, first out](media/query-interleaving/query-interleaving-fifo.png)
 
@@ -34,18 +34,18 @@ Before determining if query interleaving is right for your scenario, keep the fo
 - A single DAX query can result in multiple VertiPaq storage engine queries. A DAX query is deemed *fast* or *slow* based on CPU consumed by its storage engine queries. The DAX query is the unit of measurement. 
 - Refresh operations are by default protected from query interleaving. Long-running refresh operations are categorized differently to long-running queries. 
 
-## Configure query interleaving
+## Configure
 
-To configure query interleaving, set the **SchedulingBehavior** property under the **ThreadPool** config section. This property can be specified with the following values:
+To configure query interleaving, set the **Threadpool\SchedulingBehavior** property. This property can be specified with the following values:
 
 |Value  |Description  |
 |---------|---------|
 |-1     |  Automatic. The engine will choose the queue type.        |
 | 0  (default for SSAS 2019)   |  First in, first out (FIFO).       |
 | 1     |  Short query bias. The engine gradually throttles long running queries when under pressure in favor of fast queries.       |
-| 3 (default for SSAS 2022 and later) | Short query bias with fast cancellation. Applies to Azure Analysis Services and SQL Server 2022 and later Analysis Services only. |
+| 3 (default for Azure AS, Power BI, SSAS 2022 and later) | Short query bias with fast cancellation. Applies to Azure Analysis Services, Power BI, SQL Server 2022 and later Analysis Services only. |
 
-At this time, the SchedulingBehavior property can be set only by using XMLA. In SQL Server Management Studio, the following XMLA snippet sets the **SchedulingBehavior** property to **1**, short query bias. 
+At this time, the SchedulingBehavior property can be set only by using XMLA. In SQL Server Management Studio, the following XMLA snippet sets the **SchedulingBehavior** property to **1**, short query bias.
 
 ```xmla
 <Alter AllowCreate="true" ObjectExpansion="ObjectProperties" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">

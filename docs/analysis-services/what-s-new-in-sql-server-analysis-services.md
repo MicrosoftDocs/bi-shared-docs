@@ -22,7 +22,7 @@ This releases introduces public preview of SQL Server 2022 Analysis Services. It
 
 ### Support for Power BI DirectQuery datasets
 
-This release introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using Power BI Desktop can now combine imported data with DirectQuery data from datasets, Azure Analysis Services, and now SSAS 2022. Modelers can also customize their model by making changes to model metadata.
+This release introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using Power BI Desktop can now combine other data with DirectQuery data from Power BI datasets, Azure Analysis Services, and now SSAS 2022.
 
 To learn more, see [Using DirectQuery for datasets and Analysis Services | Power BI Documentation](/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
 
@@ -42,7 +42,7 @@ Client applications can further reduce the memory allowed per query by specifyin
 
 ### Query interleaving - Short query bias with fast cancellation
 
-This release introduces a new value that specifies *Short query bias with fast cancellation* for the SchedulingBehavior property setting. This property setting improves user query response times in high-concurrency scenarios. To learn more, see [Query interleaving](tabular-models/query-interleaving.md#configure-query-interleaving).
+This release introduces a new value that specifies *Short query bias with fast cancellation* for the Threadpool\SchedulingBehavior property setting. This property setting improves user query response times in high-concurrency scenarios. To learn more, see [Query interleaving - Configure](tabular-models/query-interleaving.md#configure).
 
 ## SQL Server 2019 Analysis Services CU5
 
