@@ -62,12 +62,11 @@ Setup.exe /q /IAcceptSQLServerLicenseTerms /ACTION=install /FEATURES=AS /ASSERVE
 |MULTIDIMENSIONAL|This value is optional.|  
 |POWERPIVOT|This value is optional. In practice, if you set the **ROLE** parameter, the server mode is automatically set to 1, making **ASSERVERMODE** optional for a [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint installation.|  
   
-
 ## Get tools and designers
 
  SQL Server Setup no longer installs the model designers or management tools used for solution design or server administration. In this release, tools have a separate installation, which you can get from the following links:  
   
--   [Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) 
+-   [Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
   
 -   [Download Analysis Services projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects)
   
