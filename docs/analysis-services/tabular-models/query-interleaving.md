@@ -34,15 +34,16 @@ Before determining if query interleaving is right for your scenario, keep the fo
 - A single DAX query can result in multiple VertiPaq storage engine queries. A DAX query is deemed *fast* or *slow* based on CPU consumed by its storage engine queries. The DAX query is the unit of measurement. 
 - Refresh operations are by default protected from query interleaving. Long-running refresh operations are categorized differently to long-running queries. 
 
-## Enable query interleaving
+## Configure query interleaving
 
-To enable query interleaving, set the **SchedulingBehavior** property. This property can be specified with the following values: 
+To configure query interleaving, set the **SchedulingBehavior** property under the **ThreadPool** config section. This property can be specified with the following values:
 
 |Value  |Description  |
 |---------|---------|
 |-1     |  Automatic. The engine will choose the queue type.        |
-| 0  (default)   |  First in, first out (FIFO).       |
+| 0  (default for SSAS 2019)   |  First in, first out (FIFO).       |
 | 1     |  Short query bias. The engine gradually throttles long running queries when under pressure in favor of fast queries.       |
+| 3 (default for SSAS 2022 and later) | Short query bias with fast cancellation. Applies to Azure Analysis Services and SQL Server 2022 and later Analysis Services only. |
 
 At this time, the SchedulingBehavior property can be set only by using XMLA. In SQL Server Management Studio, the following XMLA snippet sets the **SchedulingBehavior** property to **1**, short query bias. 
 

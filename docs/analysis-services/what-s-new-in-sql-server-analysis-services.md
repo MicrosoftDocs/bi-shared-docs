@@ -18,13 +18,13 @@ This article summarizes new features and improvements in the most recent version
 
 ## SQL Server 2022 Analysis Services CTP 2.0
 
-This releases introduces public preview of SQL Server 2022 Analysis Services. This release includes the following improvements:
+This releases introduces public preview of SQL Server 2022 Analysis Services. It includes the following improvements:
 
-### Power BI support for SQL Server Analysis Services datasets as a source over DirectQuery
+### Support for Power BI DirectQuery datasets
 
-This release introduces support for Power BI datasets with DirectQuery to connect to SQL Server Analysis Services models. Power BI users can now combine imported data with DirectQuery data from SQL Server 2022 Analysis Services. Report authors can combine the data from their enterprise semantic model with other data they own, such as an Excel spreadsheet, or personalize or enrich the metadata from their enterprise semantic model, will find this feature especially useful.
+This release introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using Power BI Desktop can now combine imported data with DirectQuery data from datasets, Azure Analysis Services, and now SSAS 2022. Modelers can also customize their model by making changes to model metadata.
 
-To learn more, see [Using DirectQuery for datasets and Azure Analysis Services | Power BI Documentation](/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
+To learn more, see [Using DirectQuery for datasets and Analysis Services | Power BI Documentation](/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
 
 ### MDX query performance
 
@@ -36,13 +36,13 @@ To learn more, see [Announcing improved MDX query performance in Power BI | Micr
 
 This release includes improved accuracy for the Memory\QueryMemoryLimit server property and DbpropMsmdRequestMemoryLimit connection string property. 
 
-First introduced in SSAS 2019, the [Memory\QueryMemoryLimit](server-properties/memory-properties.md#property-reference) server property applied only to memory spools where intermediate DAX query results are created during query processing. Now in SSAS 2022, it also applies to MDX queries, effectively covering all queries. You can better control process expensive queries that result in significant materialization. If the query hits the limit specified, the engine cancels the query and returns an error to the caller. This helps to reduce the impact on other concurrent users.
+First introduced in SSAS 2019, the [QueryMemoryLimit](server-properties/memory-properties.md#property-reference) server property applied only to memory spools where intermediate DAX query results are created during query processing. Now in SSAS 2022, it also applies to MDX queries, effectively covering all queries. You can better control process expensive queries that result in significant materialization. If the query hits the limit specified, the engine cancels the query and returns an error to the caller. This helps to reduce the impact on other concurrent users.
 
 Client applications can further reduce the memory allowed per query by specifying the [DbpropMsmdRequestMemoryLimit](instances/connection-string-properties-analysis-services.md#dbpropmsmdrequestmemorylimit) command property. Specified in Kilobytes, this property overrides the Memory\QueryMemoryLimit server property value for a connection.
 
-### Query interleaving - Short query bias
+### Query interleaving - Short query bias with fast cancellation
 
-This release introduces a new property setting to specify *Short query bias* when enabling query interleaving by setting the SchedulingBehavior property setting. This property setting improves user query response times in high-concurrency scenarios. To learn more, see [Query interleaving](tabular-models/query-interleaving.md#enable-query-interleaving).
+This release introduces a new value that specifies *Short query bias with fast cancellation* for the SchedulingBehavior property setting. This property setting improves user query response times in high-concurrency scenarios. To learn more, see [Query interleaving](tabular-models/query-interleaving.md#enable-query-interleaving).
 
 ## SQL Server 2019 Analysis Services CU5
 
