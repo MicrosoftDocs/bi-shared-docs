@@ -19,16 +19,15 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 ## Create and deploy models  
 
-Tabular and multidimensional model projects are created by using project templates in Visual Studio with Analysis Services projects extensions (VSIX). Project templates provide model designers and wizards for creating the data model objects that comprise an Analysis Services solution. Analysis Services projects extensions are supported on all Visual Studio 2017 and 2019 editions, including the free Community edition.
+Tabular and multidimensional model projects are created by using project templates in Visual Studio with Analysis Services projects extensions (VSIX). Project templates provide model designers and wizards for creating the data model objects that comprise an Analysis Services solution. Analysis Services projects extensions are supported on all Visual Studio 2017 and later editions, including the free Community edition.
 
-> [!IMPORTANT]
-> Analysis Services projects extension is not yet supported in Visual Studio 2022. Visual Studio 2019, including the free Community edition remains available for download.
+[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
 
 [Download Visual Studio 2019](/visualstudio/releases/2019/system-requirements#download)
 
 [Download Analysis Services projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects)
 
-SQL Server Data Tools (SSDT) has been an integral part of creating Analysis Services solutions since SQL 2005. With the introduction of project extensions in Visual Studio, SSDT has been phased out in favor of Visual Studio with Analysis Services projects. Much of the Analysis Services documentation here refers to SSDT, and images often show SSDT windows and dialogs. While Visual Studio 2017 and 2019 with Analysis Services extensions are installed differently and offer even more functionality, the user interface in Visual Studio is much the same as SSDT. Documentation will be updated with new naming and images over time.
+SQL Server Data Tools (SSDT) has been an integral part of creating Analysis Services solutions since SQL 2005. With the introduction of project extensions in Visual Studio, SSDT has been phased out in favor of Visual Studio with Analysis Services projects. Much of the Analysis Services documentation here refers to SSDT, and images often show SSDT windows and dialogs. While Visual Studio with Analysis Services extensions are installed differently and offer even more functionality, the user interface in Visual Studio is much the same as SSDT. Documentation will be updated with new naming and images over time.
 
 ## Administer servers and databases  
 
