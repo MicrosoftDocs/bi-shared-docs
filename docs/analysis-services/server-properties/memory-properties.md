@@ -48,7 +48,9 @@ The following properties apply to both tabular and multidimensional modes unless
 **QueryMemoryLimit**
  Applies to Azure Analysis Services and SQL Server 2019 and later Analysis Services only. An advanced property to control how much memory can be used during a query. 
 
-In Azure Analysis Services and SQL Server 2022 and later Analysis Services, if the **ResourceTrackingEnabled** [Feature property](feature-properties.md) is enabled, this setting is not limited only to memory spools. It applies to all memory utilized by both DAX and MDX queries. In SQL Server 2019 and later Analysis Services, this setting applies only to memory spools where intermediate DAX query results are created during query processing. It does not apply to MDX queries.
+In SQL Server 2019 and later Analysis Services, this setting applies only to memory spools where intermediate DAX query results are created during query processing. It does not apply to MDX queries.
+
+In Azure Analysis Services and SQL Server 2022 and later Analysis Services, if the **ResourceTrackingEnabled** [Feature property](feature-properties.md) is enabled, this setting is not limited only to memory spools. It applies to all memory utilized by both DAX and MDX queries.
 
 Specified in percentage up to 100. When more than 100, it's in bytes. Setting a value of 0 means no limit is specified. For Azure Analysis Services, the default value is determined by your plan. 
 
