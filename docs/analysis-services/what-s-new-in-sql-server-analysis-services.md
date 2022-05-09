@@ -1,6 +1,6 @@
 ---
 title: "What's new in SQL Server Analysis Services | Microsoft Docs"
-ms.date: 05/06/2022
+ms.date: 05/09/2022
 description: Learn about new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
 ms.prod: sql
 ms.technology: analysis-services
@@ -22,7 +22,7 @@ This releases introduces public preview of SQL Server 2022 Analysis Services. It
 
 ### Support for Power BI DirectQuery datasets
 
-This release introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using Power BI Desktop can now combine other imported data with DirectQuery data from Power BI datasets, Azure Analysis Services, and now SSAS 2022.
+This release introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using Power BI Desktop can now combine other imported and DirectQuery data from Power BI datasets, Azure Analysis Services, and now SSAS 2022.
 
 To learn more, see [Using DirectQuery for datasets and Analysis Services | Power BI Documentation](/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
 
