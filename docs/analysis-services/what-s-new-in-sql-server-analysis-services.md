@@ -22,7 +22,7 @@ This releases introduces public preview of SQL Server 2022 Analysis Services. It
 
 ### Support for Power BI DirectQuery datasets
 
-This release introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using Power BI Desktop can now combine other data with DirectQuery data from Power BI datasets, Azure Analysis Services, and now SSAS 2022.
+This release introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using Power BI Desktop can now combine other imported data with DirectQuery data from Power BI datasets, Azure Analysis Services, and now SSAS 2022.
 
 To learn more, see [Using DirectQuery for datasets and Analysis Services | Power BI Documentation](/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
 
