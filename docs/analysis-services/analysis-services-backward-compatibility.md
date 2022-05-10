@@ -1,7 +1,7 @@
 ---
 title: "SQL Server Analysis Services backward compatibility | Microsoft Docs"
 description: Learn about changes in feature availability and behavior between the current version and the previous versions of SQL Server Analysis Services.
-ms.date: 04/22/2021
+ms.date: 05/06/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -11,7 +11,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 
-# SQL Server Analysis Services backward compatibility (2019, 2017, 2016)
+# SQL Server Analysis Services backward compatibility (2022, 2019, 2017, 2016)
 
 [!INCLUDE[appliesto-sql2016-later](includes/appliesto-sql2016-later.md)]
 
@@ -27,6 +27,23 @@ A *breaking change* causes a feature, data model, application code, or script to
 
 A *behavior change* affects how the same feature works in the current release as compared to the previous release. Only significant behavior changes are described. Changes in  user interface are not included.
 
+## SQL Server 2022 CTP 2.0
+
+### Deprecated features
+
+There are no deprecated features announced with this release.
+
+### Discontinued features
+
+Data Mining was deprecated in SQL Server 2017 Analysis Services and is now fully discontinued in SQL Server 2022 Analysis Services.
+
+### Breaking changes
+
+There are no breaking changes in this release, however, Data Mining is not supported in this release.
+
+### Behavior changes
+
+There are no behavior changes in this release.
 
 ## SQL Server 2019
 
@@ -44,7 +61,7 @@ There are no breaking changes in this release.
 
 ### Behavior changes
 
-There are no breaking changes in this release.
+There are no behavior changes in this release.
 
 ## SQL Server 2017
 
