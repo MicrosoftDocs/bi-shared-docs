@@ -47,4 +47,4 @@ Excel Services in SharePoint 2013 includes data model functionality to enable in
 
 ## Installation and configuration
 
-To learn more about installation and configuration, see [Install Analysis Services in Power Pivot Mode](instances/install-windows/install-analysis-services-in-power-pivot-mode.md). Additional Power Pivot for SharePoint documentation common to all versions going back to SharePoint 2010 is available in the [SQL Server 2014 Analysis Services documentation](/previous-versions/sql/2014/analysis-services/analysis-services?view=sql-server-2014).
+To learn more about installation and configuration, see [Install Analysis Services in Power Pivot Mode](instances/install-windows/install-analysis-services-in-power-pivot-mode.md). Additional Power Pivot for SharePoint documentation common to all versions going back to SharePoint 2010 is available in the [SQL Server 2014 Analysis Services documentation](/previous-versions/sql/2014/analysis-services/analysis-services?view=sql-server-2014&preserve-view=true).
