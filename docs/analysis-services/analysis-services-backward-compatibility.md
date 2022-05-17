@@ -1,7 +1,7 @@
 ---
 title: "SQL Server Analysis Services backward compatibility | Microsoft Docs"
 description: Learn about changes in feature availability and behavior between the current version and the previous versions of SQL Server Analysis Services.
-ms.date: 05/06/2022
+ms.date: 05/16/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -31,15 +31,23 @@ A *behavior change* affects how the same feature works in the current release as
 
 ### Deprecated features
 
-There are no deprecated features announced with this release.
+The following features are deprecated in this release:
+
+| Mode/Category | Feature |
+| ------------- | ------- |
+|Power Pivot mode|[Power Pivot for SharePoint](power-pivot-for-sharepoint-ssas.md)|
 
 ### Discontinued features
 
-Data Mining was deprecated in SQL Server 2017 Analysis Services and is now fully discontinued in SQL Server 2022 Analysis Services.
+The following features were deprecated in an earlier release and are no longer supported in this release:
+  
+| Mode/Category | Feature |
+| ------------- | ------- |
+|Multidimensional|[Data Mining](data-mining/data-mining-ssas.md)|
 
 ### Breaking changes
 
-There are no breaking changes in this release, however, Data Mining is not supported in this release.
+There are no breaking changes in this release.
 
 ### Behavior changes
 
@@ -81,7 +89,7 @@ The following features are deprecated in this release:
 
 ### Discontinued features
 
-The following features were deprecated in an earlier release and are no longer supported in this release.
+The following features were deprecated in an earlier release and are no longer supported in this release:
   
 | Mode/Category | Feature |
 | ------------- | ------- |

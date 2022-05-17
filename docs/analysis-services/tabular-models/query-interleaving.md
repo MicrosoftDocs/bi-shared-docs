@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services tabular query interleaving | Microsoft Docs"
 description: Learn how query interleaving is a tabular mode system configuration that can improve query performance in high-concurrency scenarios.
-ms.date: 03/03/2020
+ms.date: 05/17/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -43,7 +43,7 @@ To configure query interleaving, set the **Threadpool\SchedulingBehavior** prope
 |-1     |  Automatic. The engine will choose the queue type.        |
 | 0  (default for SSAS 2019)   |  First in, first out (FIFO).       |
 | 1     |  Short query bias. The engine gradually throttles long running queries when under pressure in favor of fast queries.       |
-| 3 (default for Azure AS, Power BI, SSAS 2022 and later) | Short query bias with fast cancellation. Applies to Azure Analysis Services, Power BI, SQL Server 2022 and later Analysis Services only. |
+| 3 (default for Azure AS, Power BI, SSAS 2022 and later) | Short query bias with fast cancellation. Improves user query response times in high-concurrency scenarios. Applies to Azure AS, Power BI, SSAS 2022 and later only. |
 
 At this time, the SchedulingBehavior property can be set only by using XMLA. In SQL Server Management Studio, the following XMLA snippet sets the **SchedulingBehavior** property to **1**, short query bias.
 

@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 [!INCLUDE[appliesto-sql2016-later](includes/appliesto-sql2016-later.md)]
 
-This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
+This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS). To learn about changes in existing feature availability and behavior between the current version and the previous versions, see [Backward compatibility](analysis-services-backward-compatibility.md).
 
 ## SQL Server 2022 Analysis Services CTP 2.0
 
@@ -22,7 +22,7 @@ This releases introduces public preview of SQL Server 2022 Analysis Services. It
 
 ### Support for Power BI DirectQuery datasets
 
-This release introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using Power BI Desktop can now combine other imported and DirectQuery data from Power BI datasets, Azure Analysis Services, and now SSAS 2022.
+This release introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using the May 2022 and later versions of Power BI Desktop can now combine other imported and DirectQuery data from Power BI datasets, Azure Analysis Services, and now SSAS 2022.
 
 To learn more, see [Using DirectQuery for datasets and Analysis Services | Power BI Documentation](/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
 
@@ -34,9 +34,9 @@ To learn more, see [Announcing improved MDX query performance in Power BI | Micr
 
 ### Resource governance
 
-This release includes improved accuracy for the QueryMemoryLimit server memory property and DbpropMsmdRequestMemoryLimit connection string property. 
+This release includes improved accuracy for the QueryMemoryLimit server memory property and DbpropMsmdRequestMemoryLimit connection string property.
 
-First introduced in SSAS 2019, the [QueryMemoryLimit](server-properties/memory-properties.md#property-reference) server memory property applied only to memory spools where intermediate DAX query results are created during query processing. Now in SSAS 2022, it also applies to MDX queries, effectively covering all queries. You can better control process expensive queries that result in significant materialization. If the query hits the limit specified, the engine cancels the query and returns an error to the caller, reducing impact on other concurrent users.
+First introduced in SSAS 2019, the [QueryMemoryLimit](server-properties/memory-properties.md#querymemorylimit) server memory property applied only to memory spools where intermediate DAX query results are created during query processing. Now in SSAS 2022, it also applies to MDX queries, effectively covering all queries. You can better control process expensive queries that result in significant materialization. If the query hits the limit specified, the engine cancels the query and returns an error to the caller, reducing impact on other concurrent users.
 
 Client applications can further reduce the memory allowed per query by specifying the [DbpropMsmdRequestMemoryLimit](instances/connection-string-properties-analysis-services.md#dbpropmsmdrequestmemorylimit) connection string property. Specified in Kilobytes, this property overrides the QueryMemoryLimit server memory property value for a connection.
 
