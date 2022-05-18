@@ -15,11 +15,11 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Query interleaving is a tabular mode system configuration that can improve query performance in high-concurrency scenarios. By default, the Analysis Services tabular engine works in a first-in, first-out (FIFO) fashion with regards to CPU. This means, for example, if one resource expensive and possibly slow storage-engine query is received, and then followed by two otherwise fast queries, the fast queries can potentially get blocked waiting for the expensive query to complete. This is shown in the following diagram, which shows Q1, Q2 and Q3 as the respective queries, their duration, and CPU time.
+Query interleaving is a tabular mode system configuration that can improve query performance in high-concurrency scenarios. By default, the Analysis Services tabular engine works in a first-in, first-out (FIFO) fashion with regards to CPU. With FIFO, for example, if one resource expensive and possibly slow storage-engine query is received, and then followed by two otherwise fast queries, the fast queries can potentially get blocked waiting for the expensive query to complete. This behavior is shown in the following diagram, which shows Q1, Q2 and Q3 as the respective queries, their duration, and CPU time.
 
 ![First in, first out](media/query-interleaving/query-interleaving-fifo.png)
 
-Query interleaving with *short query bias* allows concurrent queries to share CPU resources. This means fast queries are not blocked behind slow queries. The time it takes to complete all three queries is still about the same, but in our example Q2 and Q3 are not blocked until the end. Short-query bias means fast queries, defined by how much CPU each query has already consumed at a given point in time can be allocated a higher proportion of resources than long-running queries. In the following diagram, Q2 and Q3 queries are deemed *fast* and allocated more CPU than Q1. 
+Query interleaving with *short query bias* allows concurrent queries to share CPU resources, which means fast queries are not blocked behind slow queries. The time it takes to complete all three queries is still about the same, but in our example Q2 and Q3 are not blocked until the end. Short-query bias means fast queries, defined by how much CPU each query has already consumed at a given point in time can be allocated a higher proportion of resources than long-running queries. In the following diagram, Q2 and Q3 queries are deemed *fast* and allocated more CPU than Q1. 
 
 ![Short query bias](media/query-interleaving/query-interleaving-sqb.png)
 

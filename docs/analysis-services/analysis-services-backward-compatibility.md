@@ -21,7 +21,7 @@ This article describes changes in feature availability and behavior between the 
 
 A *deprecated feature* will be discontinued from the product in a future release, but is still supported and included in the current release to maintain backward compatibility. It's recommended you discontinue using deprecated features in new and existing projects to maintain compatibility with future releases. Documentation is not updated for deprecated features.
 
-A *discontinued feature* was deprecated in an earlier release. It may continue to be included in the current release, but is no longer supported. Discontinued features may be removed entirely in a future release or update.
+A *discontinued feature* was deprecated in an earlier release. It may continue to be included in the current release, but is no longer supported. Discontinued features may be removed entirely in the stated or future release.
 
 A *breaking change* causes a feature, data model, application code, or script to no longer function after upgrading to the current release.
 
@@ -31,19 +31,16 @@ A *behavior change* affects how the same feature works in the current release as
 
 ### Deprecated features
 
-The following features are deprecated in this release:
-
-| Mode/Category | Feature |
-| ------------- | ------- |
-|Power Pivot mode|[Power Pivot for SharePoint](power-pivot-for-sharepoint-ssas.md)|
+There are no deprecated features announced with this release.
 
 ### Discontinued features
 
-The following features were deprecated in an earlier release and are no longer supported in this release:
+The following features are no longer supported in this release:
   
 | Mode/Category | Feature |
 | ------------- | ------- |
 |Multidimensional|[Data Mining](data-mining/data-mining-ssas.md)|
+|Power Pivot mode|[Power Pivot for SharePoint](power-pivot-for-sharepoint-ssas.md)|
 
 ### Breaking changes
 
