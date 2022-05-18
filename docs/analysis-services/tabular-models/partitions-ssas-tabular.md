@@ -129,7 +129,7 @@ Analysis Services utilizes parallel processing for two or more partitions, incre
 
 #### MaxConnections
 
-By default, each processing operation will connect to and query a data source for each partition. The default maximum number of connections, specified as the **MacConnections** property to a single data source is **10**. Analysis Services determines the number of concurrent processing operations to be run based on the number of cores and available threads. These threads are shared across the server instance. A single command like process may not receive all the available threads. The threads that do launch for processing, one for each parallel processing operation, can be delayed to stay within the MaxConnections limit.
+By default, each processing operation will connect to and query a data source for each partition. The default maximum number of connections, specified as the **MaxConnections** property to a single data source is **10**. Analysis Services determines the number of concurrent processing operations to be run based on the number of cores and available threads. These threads are shared across the server instance. A single command like process may not receive all the available threads. The threads that do launch for processing, one for each parallel processing operation, can be delayed to stay within the MaxConnections limit.
 
 #### MaxParallelism
 
