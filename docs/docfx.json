@@ -74,12 +74,11 @@
       "monikerRange": {
         "analysis-services/multidimensional-models*/**/*.md": "asallproducts-allversions || >= sql-analysis-services-2016",
         "analysis-services/multidimensional-tutorial/**/*.md": "asallproducts-allversions || >= sql-analysis-services-2016",
-        "analysis-services/data-mining/**/*.md": "asallproducts-allversions || >= sql-analysis-services-2016",
+        "analysis-services/data-mining/**/*.md": "asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019",
         "analysis-services/tabular-model-programming-compatibility-levels-1050-1103/**/*.md": "asallproducts-allversions || >= sql-analysis-services-2016 <= sql-analysis-services-2017",
         "analysis-services/tabular-model-programming-compatibility-levels-1200/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
         "analysis-services/tom/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
         "analysis-services/tmsl/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
-        "analysis-services/amo/**/*.md": "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016",
         "analysis-services/trace-events/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
         "analysis-services/adomd/**/*.md": "asallproducts-allversions || >= sql-analysis-services-2016",
         "analysis-services/xmla/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
