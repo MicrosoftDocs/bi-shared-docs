@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services features supported by SQL Server edition | Microsoft Docs"
 description: Learn about features supported by different editions of SQL Server 2016, 2017, 2019 Analysis Services.
-ms.date: 03/23/2022
+ms.date: 03/30/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -27,7 +27,7 @@ This article describes features supported by different editions of SQL Server 20
 |Failover cluster instances|Yes<br /><br /> Number of nodes is the operating system maximum|Yes<br /><br /> Support for 2 nodes|||||Yes<br /><br /> Number of nodes is the operating system maximum|  
 |Programmability (AMO, ADOMD.Net, OLEDB, XML/A, ASSL, TMSL)|Yes|Yes|||||Yes|  
   
-## Tabular models 
+## Tabular models
   
 |Feature|Enterprise|Standard|Web|Express with Advanced Services|Express with Tools|Express|Developer|  
 |-------------|----------------|--------------|---------|------------------------------------|------------------------|-------------|---------------|  
@@ -44,7 +44,7 @@ This article describes features supported by different editions of SQL Server 20
 |In-memory storage mode|Yes|Yes|||||Yes|  
 |DirectQuery mode|Yes|Yes (beginning with SQL Server 2019)|||||Yes|  
 
-## Multidimensional models 
+## Multidimensional models
   
 |Feature|Enterprise|Standard|Web|Express with Advanced Services|Express with Tools|Express|Developer|  
 |-------------|----------------|--------------|---------|------------------------------------|------------------------|-------------|---------------|  
@@ -94,7 +94,9 @@ This article describes features supported by different editions of SQL Server 20
 |Power Pivot gallery|Yes||||||Yes|  
 |Power Pivot data refresh|Yes||||||Yes|  
 |Power Pivot data feeds|Yes||||||Yes|  
-  
+
+::: moniker range="asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019"
+
 ## Data Mining  
 
 > [!NOTE]
@@ -117,5 +119,4 @@ This article describes features supported by different editions of SQL Server 20
 |Sequence prediction|Yes||||||Yes|  
 |Multiple prediction targets for naïve Bayes, neural network and logistic regression|Yes||||||Yes|  
   
-
-
+::: moniker-end
