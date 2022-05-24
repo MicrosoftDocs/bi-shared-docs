@@ -1,6 +1,6 @@
 ---
 title: "What's new in SQL Server Analysis Services | Microsoft Docs"
-ms.date: 03/30/2022
+ms.date: 05/09/2022
 description: Learn about new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
 ms.prod: sql
 ms.technology: analysis-services
@@ -10,17 +10,45 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
-# What's New in SQL Server Analysis Services
+# What's new in SQL Server Analysis Services
 
-[!INCLUDE[appliesto-sql2016-later](includes/appliesto-sql2016-later.md)]
+[!INCLUDE[appliesto-sqlas-all](includes/appliesto-sqlas-all.md)]
 
-This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
+This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS). To learn about changes in existing feature availability and behavior between versions, see [Backward compatibility](analysis-services-backward-compatibility.md).
 
-## Cumulative updates
+## SQL Server 2022 Analysis Services CTP 2.0
+
+This releases introduces public preview of SQL Server 2022 Analysis Services. It includes the following improvements:
+
+### Support for Power BI DirectQuery datasets
+
+This release introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using the May 2022 and later versions of Power BI Desktop can now combine other imported and DirectQuery data from Power BI datasets, Azure Analysis Services, and now SSAS 2022.
+
+To learn more, see [Using DirectQuery for datasets and Analysis Services | Power BI Documentation](/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
+
+### MDX query performance
+
+First introduced in Power BI and now in SSAS 2022, *MDX Fusion* includes Formula Engine (FE) optimization reducing the number of Storage Engine (SE) queries per MDX query. Client applications that use Multidimensional Expressions (MDX) to query model/dataset data such as Microsoft Excel will see improved query performance. Common MDX query patterns now require fewer SE queries where previously numerous SE queries were necessary to support different granularity. Fewer SE queries mean fewer expensive scans over large models, which results in significant performance gains, especially when connecting to a tabular models in Direct Query mode.
+
+To learn more, see [Announcing improved MDX query performance in Power BI | Microsoft Power BI Blog](https://powerbi.microsoft.com/blog/announcing-improved-mdx-query-performance-in-power-bi/).
+
+### Resource governance
+
+This release includes improved accuracy for the QueryMemoryLimit server memory property and DbpropMsmdRequestMemoryLimit connection string property.
+
+First introduced in SSAS 2019, the [QueryMemoryLimit](server-properties/memory-properties.md#querymemorylimit) server memory property applied only to memory spools where intermediate DAX query results are created during query processing. Now in SSAS 2022, it also applies to MDX queries, effectively covering all queries. You can better control process expensive queries that result in significant materialization. If the query hits the limit specified, the engine cancels the query and returns an error to the caller, reducing impact on other concurrent users.
+
+Client applications can further reduce the memory allowed per query by specifying the [DbpropMsmdRequestMemoryLimit](instances/connection-string-properties-analysis-services.md#dbpropmsmdrequestmemorylimit) connection string property. Specified in Kilobytes, this property overrides the QueryMemoryLimit server memory property value for a connection.
+
+### Query interleaving - Short query bias with fast cancellation
+
+This release introduces a new value that specifies *Short query bias with fast cancellation* for the Threadpool\SchedulingBehavior property setting. This property setting improves user query response times in high-concurrency scenarios. To learn more, see [Query interleaving - Configure](tabular-models/query-interleaving.md#configure).
+
+## SQL Server 2019 Analysis Services
+
+### SQL Server 2019 Analysis Services CU 5
 
 SQL Server Analysis Services cumulative updates are included with SQL Server cumulative updates. To learn more about and download the latest cumulative update, see [SQL Server 2019 latest cumulative update](https://www.microsoft.com/download/details.aspx?id=100809). Cumulative update KB pages summarize known issues, improvements, and fixes for all SQL Server features, including SSAS. Additional details for major feature updates for SSAS are described here.
-
-### SQL Server 2019 Analysis Services CU5
 
 #### SuperDAX for multidimensional models (SuperDAXMD)
 
@@ -32,25 +60,25 @@ Optimized query patterns should use [SUMMARIZECOLUMNS](/dax/summarizecolumns-fun
 
 To learn more about how DAX works with multidimensional models, and important patterns and constraints to be aware of, be sure to see [DAX for multidimensional models](multidimensional-models/dax-for-multidimensional-models.md).
 
-## SQL Server 2019 Analysis Services GA (Generally Available)
+### SQL Server 2019 Analysis Services GA (Generally Available)
 
-### Tabular model compatibility level
+#### Tabular model compatibility level
 
 This release introduces the 1500 [compatibility level](tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) for tabular models.
 
-### Query interleaving
+#### Query interleaving
 
 Query interleaving is a tabular mode system configuration that can improve user query response times in high-concurrency scenarios. Query interleaving with *short query bias* allows concurrent queries to share CPU resources. To learn more, see [Query interleaving](tabular-models/query-interleaving.md).
 
-### Calculation groups in tabular models
+#### Calculation groups in tabular models
 
 Calculation groups can significantly reduce the number of redundant measures by grouping common measure expressions as *calculation items*. Calculation groups are shown in reporting clients as a table with a single column. Each value in the column represents a reusable calculation, or calculation item, that can be applied to any of the measures. A calculation group can have any number of calculation items. Each calculation item is defined by a DAX expression. To learn more, see [Calculation groups](tabular-models/calculation-groups.md).
 
-### Governance setting for Power BI cache refreshes
+#### Governance setting for Power BI cache refreshes
 
 The **ClientCacheRefreshPolicy** property setting is now supported in SSAS 2019 and later. This property setting is already available for Azure Analysis Services. The Power BI service caches dashboard tile data and report data for initial load of Live Connect report, causing an excessive number of cache queries being submitted to the engine, and in extreme cases overload the server. The **ClientCacheRefreshPolicy** property allows you to override this behavior at the server level.  To learn more, see [General Properties](../analysis-services/server-properties/general-properties.md).
 
-### Online attach
+#### Online attach
 
 This feature provides the ability to attach a tabular model as an online operation. Online attach can be used for synchronization of read-only replicas in on-premises query scale-out environments. To perform an online-attach operation, use the **AllowOverwrite** option of the Attach XMLA command.
 
@@ -77,13 +105,13 @@ Without this feature, admins are first required to detach the database and then 
 
 When this new flag is specified, version 1 of the database is deleted atomically within the same transaction with no downtime. However, it comes at the cost of having both databases loaded into memory simultaneously.
 
-### Many-to-many relationships in tabular models
+#### Many-to-many relationships in tabular models
 
 This improvement allows many-to-many relationships between tables where both columns are non-unique. A relationship can be defined between a dimension and fact table at a granularity higher than the key column of the dimension. This avoids having to normalize dimension tables and can improve the user experience because the resulting model has a smaller number of tables with logically grouped columns.
 
 Many-to-many relationships require models be at the 1500 and higher compatibility level. You can create many-to-many relationships by using Visual Studio 2019 with Analysis Services projects VSIX update 2.9.2 and higher, the Tabular Object Model (TOM) API, Tabular Model Scripting Language (TMSL), and the open-source Tabular Editor tool.
 
-### Memory settings for resource governance
+#### Memory settings for resource governance
 
 The following property settings provide improved resource governance:
 

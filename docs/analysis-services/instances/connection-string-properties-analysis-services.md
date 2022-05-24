@@ -21,7 +21,7 @@ Use the **Version** selector above the table of contents to the left to see only
 
 ## Connection properties
 
-### Data Source
+##### Data Source
 
 Specifies the server instance. This property is required for all connections.
 
@@ -60,15 +60,7 @@ Valid values for SQL Server Analysis Services include the network name or IP add
 
 ::: moniker-end
 
-### Initial Catalog or Catalog
-
-Specifies the name of the Analysis Services database or Power BI Premium dataset to connect to. The database must be deployed on Analysis Services or a Power BI Premium workspace and you must have permission to connect to it. For SSAS, the first allowed database is automatically selected. For Azure AS and Power BI Premium, a database is not automatically selected, but a catalog can be specified using the Catalog property after opening the connection. This property is optional for AMO and ADOMD.NET connections.
-
-|Example  |Description  |
-|---------|---------|
-|`Initial catalog=AdventureWorks`| Database or dataset name|
-
-### Provider
+##### Provider
 
 This property is required on the connection string when using an OLE DB provider like MSOLAP. It allows you to use either a version independent provider (usually the latest) like "Provider=MSOLAP", or you can also specify a version dependent provider like "Provider=MSOLAP.7". Valid version dependent values follow the pattern MSOLAP.\<version>, where \<version> is either 7 or 8. For example, MSOLAP.7 released in SQL Server 2016. Version ".8" is the latest and considered "evergreen". It's expected to keep updating with backward compatibility maintained. Earlier version numbers are also possible, but those releases of MSOLAP are now out of standard support.
 
@@ -78,7 +70,7 @@ This property is optional for ADOMD.NET and AMO. It's allowed for convenience 
 |---------|---------|
 |`Provider=MSOLAP.7`|Connections requiring SQL Server 2016 version of the OLE DB provider for Analysis Services.|
 
-### Cube
+##### Cube
 
 Cube name or perspective name. A database can contain multiple cubes and perspectives. When multiple targets are possible, include the cube or perspective name on the connection string.
 
@@ -105,19 +97,19 @@ Properties are listed in alphabetical order.
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
-### EffectiveUserName
+##### EffectiveUserName
 
-Use when an end user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS and Power BI Premium, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. In Power BI Premium, the caller must be a workspace admin where the dataset is located.
+Use when an user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS and Power BI Premium, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. In Power BI Premium, the caller must be a workspace admin where the dataset is located.
 
 ::: moniker-end
 
-### CustomData
+##### CustomData
 
 A string value to be passed to the engine in the connection string and then retrieved by using the CustomData() MDX function or CUSTOMDATA() DAX function. Most commonly used to pass a userID or username as a value, and then specify that value in the definition of a security expression.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### Encrypt Password
+##### Encrypt Password
 
 Specifies whether a local password is to be used to encrypt local cubes. Valid values are **True** or **False**. The default is False.
 
@@ -125,7 +117,7 @@ Specifies whether a local password is to be used to encrypt local cubes. Valid v
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### Encryption Password
+##### Encryption Password
 
 The password used to decrypt an encrypted local cube. Default value is empty. This value must be explicitly set by the user.
 
@@ -133,7 +125,7 @@ The password used to decrypt an encrypted local cube. Default value is empty. Th
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### Impersonation Level
+##### Impersonation Level
 
 Indicates the level of impersonation that the server is allowed to use when impersonating the client. Valid values include:
 
@@ -144,7 +136,7 @@ Indicates the level of impersonation that the server is allowed to use when impe
 
 ::: moniker-end
 
-### Integrated Security
+##### Integrated Security
 
 The Windows identity of the caller is used to connect to Analysis Services. Valid values are  **SSPI**, **blank**, **Basic**, and **ClaimsToken***.
 
@@ -154,11 +146,11 @@ blank is the default value for HTTP connections.
 
 *ClaimsToken is supported for Azure AS and Power BI Premium.
 
-### Persist Security Info
+##### Persist Security Info
 
 Valid values are **True** or **False**. When set to True, security information, such as the user identity or password previously specified on the connection string, can be obtained from the connection after the connection is made. The default value is False.
 
-### Protection Level
+##### Protection Level
 
 Determines the security level used on the connection. Values supported depend on the underlying transport. Valid values are:
 
@@ -179,7 +171,7 @@ An administrator using this property connects using the permissions conveyed by 
 
 ::: moniker-end
 
-### SSPI
+##### SSPI
 
 Explicitly specifies which security package to use for client authentication when **Integrated Security** is set to **SSPI**. SSPI supports multiple packages, but you can use this property to specify a particular package. Valid values are:
 
@@ -190,11 +182,11 @@ Explicitly specifies which security package to use for client authentication whe
 
 If this property is not set, all packages will be available to the connection.
 
-### Use Encryption for Data
+##### Use Encryption for Data
 
 Encrypts data transmissions. Valid values are **True** or **False**.
 
-### User ID=...; Password=
+##### User ID=...; Password=
 
 User ID and Password properties provide the appropriate credentials to the server when the current active user in the client application cannot be automatically propagated to the server. The behavior depends on the transport protocol and the server being connected to:
 
@@ -209,13 +201,13 @@ User ID and Password properties provide the appropriate credentials to the serve
 
  These properties are used to ensure specific connection behaviors required by an application. Properties are listed in alphabetical order.  
 
-### Application Name
+##### Application Name
 
 Sets the name of the application associated with the connection. This value can be useful when monitoring tracing events, especially when you have several applications accessing the same databases. For example, adding Application Name='test' to a connection string causes 'test' to appear in a SQL Server Profiler trace. Aliases for this property include **SspropInitAppName**, **AppName**. To learn more, see [Application Name for SQL Server Connections](https://www.connectionstrings.com/use-application-name-sql-server/).
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### Auto Synch Period
+##### Auto Synch Period
 
 Sets the frequency (in milliseconds) of client and server cache synchronization. ADOMD.NET provides client caching for frequently used objects that have minimal memory overhead. This helps reduce the number of round trips to the server. The default is 10000 milliseconds (or 10 seconds). When set to null or 0, automatic synchronization is turned off.
 
@@ -225,19 +217,19 @@ For performance reasons, the client libraries cache some information from the se
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### Character Encoding
+##### Character Encoding
 
 Defines how characters are encoded on the request. Valid values are **Default** or **UTF-8** (these are equivalent), and **UTF-16**.
 
 ::: moniker-end
 
-### CommitTimeout
+##### CommitTimeout
 
 An XMLA property. Determines how long, in milliseconds, the commit phase of a currently running command waits before rolling back. When greater than 0, overrides the value of the corresponding CommitTimeout property in the server configuration.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### CompareCaseSensitiveStringFlags
+##### CompareCaseSensitiveStringFlags
 
 Adjusts case-sensitive string comparisons for a specified locale.
 
@@ -245,17 +237,17 @@ Adjusts case-sensitive string comparisons for a specified locale.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### Compression Level
+##### Compression Level
 
 If **TransportCompression** is compressed, you can set the compression level to control how much compression is used. Valid values are **0** through **9**, with 0 having least compression, and 9 having the most compression. Increased compression slows performance. The default value is 0.
 
 ::: moniker-end
 
-### Connect Timeout
+##### Connect Timeout
 
 Determines the maximum amount of time (in seconds) the client attempts a connection before timing out. If a connection does not succeed within this period, the client quits trying to connect and generates an error.
 
-### DbpropMsmdRequestMemoryLimit
+##### DbpropMsmdRequestMemoryLimit
 
 Overrides the [Memory\QueryMemoryLimit](../server-properties/memory-properties.md) server property value for a connection.
 
@@ -263,7 +255,7 @@ Specified in kilobytes, this property can *reduce* the amount of memory used dur
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### Default MDX Visual Mode
+##### Default MDX Visual Mode
 
 Set this property to control how members are aggregated when dimension security is applied.
 
@@ -283,28 +275,28 @@ The alias for this property is **VisualMode**.
 
 ::: moniker-end
 
-### MDX Compatibility
+##### MDX Compatibility
 
 The purpose of this property is to ensure a consistent set of MDX behaviors for applications that issue MDX queries. Excel, which uses MDX queries to populate and calculate a PivotTable connected to Analysis Services, sets this property to 1, to ensure that placeholder members in ragged hierarchies are visible in a PivotTable. Valid values include 0, 1, 2.
 
 0 and 1 expose placeholder members; 2 does not. If this is empty, 0 is assumed.
 
-### MDX Missing Member Mode
+##### MDX Missing Member Mode
 
 Indicates whether missing members are ignored in MDX statements. Valid values are **Default**, **Error**, and **Ignore**. Default uses a server-defined value. Error generates an error when a member does not exist. Ignore specifies that missing values should be ignored.
 
-### Optimize Response
+##### Optimize Response
 
 A bitmask indicating which of the following query response optimizations are enabled.
 
 - 0x01 Use the NormalTupleSet (default).
 - 0x02 Use when slicers are empty.
 
-### Packet Size
+##### Packet Size
 
 Applies to TCP connections only. A network packet size (in bytes) between 512 and 32,767. The default network packet size is 4096.
 
-### Protocol Format
+##### Protocol Format
 
 Sets the format of the XML used by the XMLA communication protocol. Valid values are **Default**, **XML**, or **Binary**. You can specify the XML be sent in a binary format or as text XML. Binary format encodes XML elements and attributes, making them smaller. In addition, compression can also be enabled for the messages to reduce the size of requests and responses using the Transport Compression option. Requests and responses can use different protocol formats depending on what the client and server supports. For example, a client library may only support binary for responses, but not for requests, or a server may have disabled binary for incoming requests.
 
@@ -314,7 +306,7 @@ This connection string property is equivalent to the **EnableBinaryXML** and **E
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### Real Time Olap
+##### Real Time Olap
 
 Set this property to bypass caching, causing all storage queries to fetch data from the source system. By default, this property is not set.
 
@@ -322,7 +314,7 @@ Set this property to bypass caching, causing all storage queries to fetch data f
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### Safety Options
+##### Safety Options
 
 Sets the safety level for user-defined functions and actions. Valid values are **0**, **1**, **2**. In an Excel connection, this property is Safety Options=2. Details about this option can be found in <xref:Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectionString%2A>.
 
@@ -330,19 +322,19 @@ Sets the safety level for user-defined functions and actions. Valid values are *
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### SQLQueryMode
+##### SQLQueryMode
 
 Specifies whether SQL queries include calculations. Valid values are **Data**, Calculated, **IncludeEmpty**. Data means that no calculations are allowed. Calculated allows calculations. IncludeEmpty allows calculations and empty rows to be returned in the query result.
 
 ::: moniker-end
 
-### Timeout
+##### Timeout
 
 Specifies how long (in seconds) the client library waits for a command to complete before generating an error.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### Transport Compression
+##### Transport Compression
 
 Defines how client and server communications are compressed. Valid values are **Default**, **None**, **Compressed**. None indicates no compression is used. Compressed uses XPRESS compression.
 
@@ -350,7 +342,7 @@ Defines how client and server communications are compressed. Valid values are **
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-### UseExistingFile
+##### UseExistingFile
 
 Used when connecting to a local cube. This property specifies whether the local cube is overwritten. Valid values are **True** or **False**. If set to True, the cube file must exist. The existing file will be the target of the connection. If set to False, the cube file is overwritten.
 
