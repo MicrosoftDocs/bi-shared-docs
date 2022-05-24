@@ -1,7 +1,7 @@
 ---
 title: "SQL Server Analysis Services backward compatibility | Microsoft Docs"
 description: Learn about changes in feature availability and behavior between the current version and the previous versions of SQL Server Analysis Services.
-ms.date: 04/22/2021
+ms.date: 05/16/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -11,7 +11,7 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 
-# SQL Server Analysis Services backward compatibility (2019, 2017, 2016)
+# SQL Server Analysis Services backward compatibility (2022, 2019, 2017, 2016)
 
 [!INCLUDE[appliesto-sql2016-later](includes/appliesto-sql2016-later.md)]
 
@@ -21,12 +21,34 @@ This article describes changes in feature availability and behavior between the 
 
 A *deprecated feature* will be discontinued from the product in a future release, but is still supported and included in the current release to maintain backward compatibility. It's recommended you discontinue using deprecated features in new and existing projects to maintain compatibility with future releases. Documentation is not updated for deprecated features.
 
-A *discontinued feature* was deprecated in an earlier release. It may continue to be included in the current release, but is no longer supported. Discontinued features may be removed entirely in a future release or update.
+A *discontinued feature* was deprecated in an earlier release. It may continue to be included in the current release, but is no longer supported. Discontinued features may be removed entirely in the stated or future release.
 
 A *breaking change* causes a feature, data model, application code, or script to no longer function after upgrading to the current release.
 
 A *behavior change* affects how the same feature works in the current release as compared to the previous release. Only significant behavior changes are described. Changes in  user interface are not included.
 
+## SQL Server 2022 CTP 2.0
+
+### Deprecated features
+
+There are no deprecated features announced with this release.
+
+### Discontinued features
+
+The following features are no longer supported in this release:
+  
+| Mode/Category | Feature |
+| ------------- | ------- |
+|Multidimensional|[Data Mining](data-mining/data-mining-ssas.md)|
+|Power Pivot mode|[Power Pivot for SharePoint](power-pivot-for-sharepoint-ssas.md)|
+
+### Breaking changes
+
+There are no breaking changes in this release.
+
+### Behavior changes
+
+There are no behavior changes in this release.
 
 ## SQL Server 2019
 
@@ -44,7 +66,7 @@ There are no breaking changes in this release.
 
 ### Behavior changes
 
-There are no breaking changes in this release.
+There are no behavior changes in this release.
 
 ## SQL Server 2017
 
@@ -64,7 +86,7 @@ The following features are deprecated in this release:
 
 ### Discontinued features
 
-The following features were deprecated in an earlier release and are no longer supported in this release.
+The following features were deprecated in an earlier release and are no longer supported in this release:
   
 | Mode/Category | Feature |
 | ------------- | ------- |
