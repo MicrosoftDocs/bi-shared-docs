@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Power Pivot for SharePoint
 
-[!INCLUDE[appliesto-sql2019-earlier](../../includes/appliesto-sql2019-earlier.md)]
+[!INCLUDE[appliesto-sql2019-earlier](includes/appliesto-sql2019-earlier.md)]
   
 > [!IMPORTANT]
 > Power Pivot mode is [discontinued](analysis-services-backward-compatibility.md) in SQL Server 2022 Analysis Services. Power Pivot mode in SQL Server 2019, 2017, 2016 Analysis Services remains supported for SharePoint 2016 and SharePoint 2013. Microsoft's BI strategy has shifted away from Power Pivot in Excel integration with SharePoint. [Power BI](https://powerbi.com/) and [Power BI Report Server](https://powerbi.microsoft.com/report-server/) are now the recommended platforms to host Excel workbooks with Power Pivot models.
