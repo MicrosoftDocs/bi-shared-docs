@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Choose and Map Input Data for a Prediction Query
-[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sql2019-earlier](../includes/appliesto-sql2019-earlier.md)]
 
 [!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
 

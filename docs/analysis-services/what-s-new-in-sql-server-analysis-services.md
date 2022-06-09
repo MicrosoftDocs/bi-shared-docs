@@ -14,7 +14,9 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 [!INCLUDE[appliesto-sqlas-all](includes/appliesto-sqlas-all.md)]
 
-This article summarizes new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS). To learn about changes in existing feature availability and behavior between versions, see [Backward compatibility](analysis-services-backward-compatibility.md).
+This article summarizes new features, improvements, deprecated and discontinued features, and behavior and breaking changes in the most recent versions of SQL Server Analysis Services (SSAS).
+
+::: moniker range="asallproducts-allversions || sql-analysis-services-2022"
 
 ## SQL Server 2022 Analysis Services CTP 2.0
 
@@ -43,6 +45,31 @@ Client applications can further reduce the memory allowed per query by specifyin
 ### Query interleaving - Short query bias with fast cancellation
 
 This release introduces a new value that specifies *Short query bias with fast cancellation* for the Threadpool\SchedulingBehavior property setting. This property setting improves user query response times in high-concurrency scenarios. To learn more, see [Query interleaving - Configure](tabular-models/query-interleaving.md#configure).
+
+### Deprecated features in SSAS 2022
+
+There are no [deprecated](#definitions) features announced with this release.
+
+### Discontinued features in SSAS 2022
+
+The following features are [discontinued](#definitions) in this release:
+  
+| Mode/Category | Feature |
+| ------------- | ------- |
+|Multidimensional|[Data Mining](data-mining/data-mining-ssas.md)|
+|Power Pivot mode|[Power Pivot for SharePoint](power-pivot-for-sharepoint-ssas.md)|
+
+### Breaking changes in SSAS 2022
+
+There are no [breaking changes](#definitions) in this release.
+
+### Behavior changes in SSAS 2022
+
+There are no [behavior changes](#definitions) in this release.
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || sql-analysis-services-2019"
 
 ## SQL Server 2019 Analysis Services
 
@@ -121,6 +148,26 @@ The following property settings provide improved resource governance:
 
 These properties can be set by using the latest version of SQL Server Management Studio (SSMS). These settings are already available for Azure Analysis Services.
 
+#### Deprecated features in SSAS 2019
+
+There are no [deprecated](#definitions) features announced with this release.
+
+#### Discontinued features in SSAS 2019
+
+There are no [discontinued](#definitions) features announced with this release.
+
+#### Breaking changes in SSAS 2019
+
+There are no [breaking changes](#definitions) in this release.
+
+#### Behavior changes in SSAS 2019
+
+There are no [behavior changes](#definitions) in this release.
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || sql-analysis-services-2017"
+
 ## SQL Server 2017 Analysis Services
 
 SQL Server 2017 Analysis Services see some of the most important enhancements since SQL Server 2012. Building on the success of Tabular mode (first introduced in SQL Server 2012 Analysis Services), this release makes tabular models more powerful than ever.
@@ -135,7 +182,7 @@ Let's take a look at some of the key new features in this release.
 
 ### 1400 Compatibility level for tabular models
 
-  To take advantage of many of the new features and functionality described here, new or existing tabular models must be set or upgraded to the 1400 compatibility level. Models at the 1400 compatibility level cannot be deployed to SQL Server 2016 SP1 or earlier, or downgraded to lower compatibility levels. To learn more, see [Compatibility level for Analysis Services tabular models](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md).
+To take advantage of many of the new features and functionality described here, new or existing tabular models must be set or upgraded to the 1400 compatibility level. Models at the 1400 compatibility level cannot be deployed to SQL Server 2016 SP1 or earlier, or downgraded to lower compatibility levels. To learn more, see [Compatibility level for Analysis Services tabular models](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md).
   
 In Visual Studio, you can select the new 1400 compatibility level when creating new tabular model projects.
 
@@ -155,7 +202,7 @@ The modern Get Data experience provides support for a wide range of data sources
 
 ![AS_Get_Data_in_SSDT](../analysis-services/media/as-get-data-in-ssdt.png)
 
- A powerful and intuitive user interface makes selecting your data and data transformation/mashup capabilities easier than ever.
+A powerful and intuitive user interface makes selecting your data and data transformation/mashup capabilities easier than ever.
 
 ![Advanced mashup](../analysis-services/media/as-get-data-advanced.png)
 
@@ -194,8 +241,8 @@ This release introduces the **Hide Members** property. You can set the **Hide Me
 
 ![AS_Hide_Blank_Members](../analysis-services/media/as-hide-blank-members.png)
 
- >[!NOTE]
- > Blank members in the model are represented by a DAX blank value, not an empty string.
+>[!NOTE]
+> Blank members in the model are represented by a DAX blank value, not an empty string.
 
 When set to **Hide blank members**, and the model deployed, an easier to read version of the hierarchy is shown in reporting clients like Excel.
 
@@ -358,6 +405,44 @@ In addition to all the new features, Analysis Services, SSDT, and SSMS also incl
 - Existing DirectQuery data sources support for M queries.
 - SSMS improvements, such as viewing, editing, and scripting support for structured data sources.
 
+### Deprecated features in SSAS 2017
+
+The following features are [deprecated](#definitions) in this release:
+  
+| Mode/Category | Feature |
+| ------------- | ------- |
+|Multidimensional|Data Mining|
+|Multidimensional|Remote linked measure groups|
+|Tabular|Models at the 1100 and 1103 compatibility level|
+|Tabular|Tabular Object Model properties: Column.TableDetailPosition, Column.IsDefaultLabel, Column.IsDefaultImage|
+|Tools|SQL Server Profiler for Trace Capture<br /><br /> The replacement is to use Extended Events Profiler embedded in SQL Server Management Studio.  <br /> See [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md).|  
+|Tools|Server Profiler for Trace Replay <br />Replacement. There is no replacement.|  
+|Trace Management Objects and Trace APIs|Microsoft.AnalysisServices.Trace objects (contains the APIs for Analysis Services Trace and Replay objects). The replacement is multi-part:<br /><br /> -   Trace Configuration: Microsoft.SqlServer.Management.XEvent<br />-   Trace Reading: Microsoft.SqlServer.XEvent.Linq<br />-   Trace Replay: None|  
+
+### Discontinued features in SSAS 2017
+
+The following features are [discontinued](#definitions) in this release:
+  
+| Mode/Category | Feature |
+| ------------- | ------- |
+|Tabular|VertiPaqPagingPolicy memory property value (2), enable paging to disk using memory mapped files.|
+|Multidimensional|Remote partitions|  
+|Multidimensional|Remote linked measure groups|  
+|Multidimensional|Dimensional writeback|  
+|Multidimensional|Linked dimensions|
+
+### Breaking changes in SSAS 2017
+
+There are no [breaking changes](#definitions) in this release.
+
+### Behavior changes in SSAS 2017
+
+Changes to MDSCHEMA_MEASUREGROUP_DIMENSIONS and DISCOVER_CALC_DEPENDENCY, detailed in the [What's new in SQL Server 2017 CTP 2.1 for Analysis Services](/archive/blogs/analysisservices/whats-new-in-sql-server-2017-ctp-2-1-for-analysis-services) announcement.
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || sql-analysis-services-2016"
+
 ## SQL Server 2016 Analysis Services
 
 SQL Server 2016 Analysis Services includes many new enhancements providing improved performance, easier solution authoring, automated database management, enhanced relationships with bi-directional cross filtering, parallel partition processing, and much more. At the heart of most enhancements for this release is the new 1200 compatibility level for tabular model databases. 
@@ -400,61 +485,61 @@ New in this release is a built-in approach for enabling bi-directional cross fil
 
 #### Translations
 
- You can now store translated metadata in a tabular 1200 model. Metadata in the model includes fields for **Culture**, translated captions, and translated descriptions. To add translations, use the **Model** > **Translations** command in [!INCLUDE[ssBIDevStudio](includes/ssbidevstudio-md.md)]. See [Translations in tabular models &#40;Analysis Services&#41;](../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md) for details.
+You can now store translated metadata in a tabular 1200 model. Metadata in the model includes fields for **Culture**, translated captions, and translated descriptions. To add translations, use the **Model** > **Translations** command in [!INCLUDE[ssBIDevStudio](includes/ssbidevstudio-md.md)]. See [Translations in tabular models &#40;Analysis Services&#41;](../analysis-services/tabular-models/translations-in-tabular-models-analysis-services.md) for details.
 
 #### Pasted tables
 
- You can now upgrade an 1100 or 1103 tabular model to 1200 when the model contains pasted tables. We recommend using [!INCLUDE[ssBIDevStudio](includes/ssbidevstudio-md.md)]. In SSDT, set **CompatibilityLevel** to 1200 and then deploy to a [!INCLUDE[ssCurrent](includes/sscurrent-md.md)] instance of [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)]. See [Compatibility Level for Tabular models in Analysis Services](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) for details.
+You can now upgrade an 1100 or 1103 tabular model to 1200 when the model contains pasted tables. We recommend using [!INCLUDE[ssBIDevStudio](includes/ssbidevstudio-md.md)]. In SSDT, set **CompatibilityLevel** to 1200 and then deploy to a [!INCLUDE[ssCurrent](includes/sscurrent-md.md)] instance of [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)]. See [Compatibility Level for Tabular models in Analysis Services](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) for details.
 
 #### Calculated tables in SSDT
 
 A *calculated table* is a model-only construction based on a DAX expression or query in SSDT. When deployed in a database, a calculated table is indistinguishable from regular tables.
 
- There are several uses for calculated tables, including the creation of new tables to expose an existing table in a specific role. The classic example is a Date table that operates in multiple contexts (order date, ship date, and so forth). By creating a calculated table for a given role, you can now activate a table relationship to facilitate queries or data interaction using the calculated table. Another use for calculated tables is to combine parts of existing tables into an entirely new table that exists only in the model.  See [Create a Calculated Table](../analysis-services/tabular-models/create-a-calculated-table-ssas-tabular.md) to learn more.
+There are several uses for calculated tables, including the creation of new tables to expose an existing table in a specific role. The classic example is a Date table that operates in multiple contexts (order date, ship date, and so forth). By creating a calculated table for a given role, you can now activate a table relationship to facilitate queries or data interaction using the calculated table. Another use for calculated tables is to combine parts of existing tables into an entirely new table that exists only in the model.  See [Create a Calculated Table](../analysis-services/tabular-models/create-a-calculated-table-ssas-tabular.md) to learn more.
 
 #### Formula fixup
 
- With formula fixup on a tabular 1200 model,  SSDT will automatically update any measures that is referencing a column or table that was renamed.
+With formula fixup on a tabular 1200 model,  SSDT will automatically update any measures that is referencing a column or table that was renamed.
 
 #### Support for Visual Studio configuration manager
 
- To support multiple environments, like Test and Pre-production environments, Visual Studio allows developers to create multiple project configurations using the configuration manager. Multidimensional models already leverage this but tabular models did not. With this release, you can now use configuration manager to deploy to different servers.
+To support multiple environments, like Test and Pre-production environments, Visual Studio allows developers to create multiple project configurations using the configuration manager. Multidimensional models already leverage this but tabular models did not. With this release, you can now use configuration manager to deploy to different servers.
 
 ### Instance management
 
 #### Administer Tabular 1200 models in SSMS
 
- In this release, an Analysis Services instance in Tabular server mode can run tabular models at any compatibility level (1100, 1103, 1200). The latest [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) is updated to display properties and provide database model administration for tabular models at the 1200 compatibility level.
+In this release, an Analysis Services instance in Tabular server mode can run tabular models at any compatibility level (1100, 1103, 1200). The latest [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) is updated to display properties and provide database model administration for tabular models at the 1200 compatibility level.
 
 #### Parallel processing for multiple table partitions in tabular models
 
- This release includes new parallel processing functionality for tables with two or more partitions, increasing processing performance. There are no configuration settings for this feature. For more information about configuring partitions and processing tables, see [Tabular model partitions](../analysis-services/tabular-models/partitions-ssas-tabular.md).
+This release includes new parallel processing functionality for tables with two or more partitions, increasing processing performance. There are no configuration settings for this feature. For more information about configuring partitions and processing tables, see [Tabular model partitions](../analysis-services/tabular-models/partitions-ssas-tabular.md).
 
 #### Add computer accounts as Administrators in SSMS
 
- [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] administrators can now use [!INCLUDE[ssManStudioFull](includes/ssmanstudiofull-md.md)] to configure computer accounts to be members of the [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] administrators group. In the **Select Users or Groups** dialog, set the **Locations** for the computers domain and then add the **Computers** object type. For more information, see [Grant server admin rights to an  Analysis Services instance](../analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance.md).  
+[!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] administrators can now use [!INCLUDE[ssManStudioFull](includes/ssmanstudiofull-md.md)] to configure computer accounts to be members of the [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] administrators group. In the **Select Users or Groups** dialog, set the **Locations** for the computers domain and then add the **Computers** object type. For more information, see [Grant server admin rights to an  Analysis Services instance](../analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance.md).  
 
 #### DBCC for Analysis Services
 
- Database Consistency Checker (DBCC) runs internally to detect potential data corruption issues on database load, but can also be run on demand if you suspect problems in your data or model. DBCC runs different checks depending on whether the model is tabular or multidimensional. See [Database Consistency Checker &#40;DBCC&#41; for Analysis Services tabular and multidimensional databases](../analysis-services/instances/database-consistency-checker-dbcc-for-analysis-services.md) for details.
+Database Consistency Checker (DBCC) runs internally to detect potential data corruption issues on database load, but can also be run on demand if you suspect problems in your data or model. DBCC runs different checks depending on whether the model is tabular or multidimensional. See [Database Consistency Checker &#40;DBCC&#41; for Analysis Services tabular and multidimensional databases](../analysis-services/instances/database-consistency-checker-dbcc-for-analysis-services.md) for details.
 
 #### Extended Events updates
 
- This release adds a graphical user interface to [!INCLUDE[ssManStudioFull](includes/ssmanstudiofull-md.md)] to configure and manage [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] Extended Events. You can set up live data streams to monitor server activity in real time, keep session data loaded in memory for faster analysis, or save data streams to a file for offline analysis. For more information, see [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md).
+This release adds a graphical user interface to [!INCLUDE[ssManStudioFull](includes/ssmanstudiofull-md.md)] to configure and manage [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] Extended Events. You can set up live data streams to monitor server activity in real time, keep session data loaded in memory for faster analysis, or save data streams to a file for offline analysis. For more information, see [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md).
 
 ### Scripting
 
 #### PowerShell for Tabular models
 
- This release includes PowerShell enhancements for tabular models at compatibility level 1200. You can use all of the applicable cmdlets, plus cmdlets specific to Tabular mode: Invoke-ProcessASDatabase and Invoke-ProcessTable cmdlet.
+This release includes PowerShell enhancements for tabular models at compatibility level 1200. You can use all of the applicable cmdlets, plus cmdlets specific to Tabular mode: Invoke-ProcessASDatabase and Invoke-ProcessTable cmdlet.
 
 #### SSMS scripting database operations
 
- In the [latest SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms), script is now enabled for database commands, including Create, Alter, Delete, Backup, Restore, Attach, Detach. Output is Tabular Model Scripting Language (TMSL) in JSON. See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](./tmsl/tabular-model-scripting-language-tmsl-reference.md) for more information.
+In the [latest SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms), script is now enabled for database commands, including Create, Alter, Delete, Backup, Restore, Attach, Detach. Output is Tabular Model Scripting Language (TMSL) in JSON. See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](./tmsl/tabular-model-scripting-language-tmsl-reference.md) for more information.
 
 #### Analysis Services Execute DDL Task
 
- Analysis Services Execute DDL Task now also accepts Tabular Model Scripting Language (TMSL) commands.
+Analysis Services Execute DDL Task now also accepts Tabular Model Scripting Language (TMSL) commands.
 
 #### SSAS PowerShell cmdlet
 
@@ -464,9 +549,9 @@ SSAS PowerShell cmdlet **Invoke-ASCmd** now accepts Tabular Model Scripting Lang
 
 Using the [latest version of SSMS](/sql/ssms/download-sql-server-management-studio-ssms), you can now create scripts to automate most administrative tasks for tabular 1200 models. Currently, the following tasks can be scripted: Process at any level, plus CREATE, ALTER, DELETE at the database level.
 
- Functionally, TMSL is equivalent to the XMLA ASSL extension that provides multidimensional object definitions, except that TMSL uses native descriptors like **model**, **table**, and **relationship** to describe tabular metadata. See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](./tmsl/tabular-model-scripting-language-tmsl-reference.md) for details about the schema.
+Functionally, TMSL is equivalent to the XMLA ASSL extension that provides multidimensional object definitions, except that TMSL uses native descriptors like **model**, **table**, and **relationship** to describe tabular metadata. See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](./tmsl/tabular-model-scripting-language-tmsl-reference.md) for details about the schema.
 
- A generated JSON-based script for a tabular model might look like the following:
+A generated JSON-based script for a tabular model might look like the following:
 
 ```json  
 {
@@ -523,11 +608,11 @@ You can now save incomplete DAX measures directly in a tabular 1200 model projec
 
 #### Microsoft.AnalysisServices.Tabular namespace for Tabular 1200 programmability in AMO
 
- Analysis Services Management Objects (AMO) is updated to include a new tabular namespace for managing a Tabular Mode instance of SQL Server 2016 Analysis Services, as well as provide the data definition language for creating or modifying tabular 1200 models programmatically. Visit [Microsoft.AnalysisServices.Tabular](/dotnet/api/microsoft.analysisservices.tabular) to read up on the API.
+Analysis Services Management Objects (AMO) is updated to include a new tabular namespace for managing a Tabular Mode instance of SQL Server 2016 Analysis Services, as well as provide the data definition language for creating or modifying tabular 1200 models programmatically. Visit [Microsoft.AnalysisServices.Tabular](/dotnet/api/microsoft.analysisservices.tabular) to read up on the API.
 
 #### Analysis Services Management Objects (AMO) updates
 
- [Analysis Services Management Objects &#40;AMO&#41;](/dotnet/api/) has been re-factored to include a second assembly, Microsoft.AnalysisServices.Core.dll. The new assembly separates out common classes like Server, Database, and Role that have broad application in Analysis Services, irrespective of server mode. Previously, these classes were part of the original Microsoft.AnalysisServices assembly. Moving them to a new assembly paves the way for future extensions to AMO, with clear division between generic and context-specific APIs. Existing applications are unaffected by the new assemblies. However, should you choose to rebuild applications using the new AMO assembly for any reason, be sure to add a reference to Microsoft.AnalysisServices.Core. Similarly, PowerShell scripts that load and call into AMO must now load Microsoft.AnalysisServices.Core.dll. Be sure to update any scripts.  
+[Analysis Services Management Objects &#40;AMO&#41;](/dotnet/api/) has been re-factored to include a second assembly, Microsoft.AnalysisServices.Core.dll. The new assembly separates out common classes like Server, Database, and Role that have broad application in Analysis Services, irrespective of server mode. Previously, these classes were part of the original Microsoft.AnalysisServices assembly. Moving them to a new assembly paves the way for future extensions to AMO, with clear division between generic and context-specific APIs. Existing applications are unaffected by the new assemblies. However, should you choose to rebuild applications using the new AMO assembly for any reason, be sure to add a reference to Microsoft.AnalysisServices.Core. Similarly, PowerShell scripts that load and call into AMO must now load Microsoft.AnalysisServices.Core.dll. Be sure to update any scripts.  
 
 #### JSON editor for BIM files
 
@@ -574,6 +659,101 @@ This release sees significant enhancements in DirectQuery for tabular 1200 model
 
 Data sources supported for tabular 1200 models in DirectQuery mode now include Oracle, Teradata and Microsoft Analytics Platform (formerly known as Parallel Data Warehouse). To learn more, see [DirectQuery Mode](../analysis-services/tabular-models/directquery-mode-ssas-tabular.md).
 
+::: moniker-end
+
+### Deprecated features in SSAS 2016
+
+The following features are [deprecated](#definitions) in this release:
+  
+| Mode/Category | Feature |
+| ------------- | ------- |
+|Multidimensional|Remote partitions|  
+|Multidimensional|Remote linked measure groups|  
+|Multidimensional|Dimensional writeback|  
+|Multidimensional|Linked dimensions|   
+|Multidimensional|SQL Server table notifications for proactive caching.  <br />The replacement is to use polling for proactive caching. <br />See [Proactive Caching &#40;Dimensions&#41;](../analysis-services/multidimensional-models-olap-logical-dimension-objects/proactive-caching-dimensions.md) and [Proactive Caching &#40;Partitions&#41;](../analysis-services/multidimensional-models-olap-logical-cube-objects/partitions-proactive-caching.md).|  
+|Multidimensional|Session cubes. There is no replacement.|  
+|Multidimensional|Local cubes. There is no replacement.|  
+|Tabular|Tabular model 1100 and 1103 compatibility levels will not be supported in a future release. The replacement is to set models at compatibility level 1200 or higher, converting model definitions to tabular metadata. See [Compatibility Level for Tabular models in Analysis Services](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md).|  
+|Tools|SQL Server Profiler for Trace Capture<br /><br /> The replacement is to use Extended Events Profiler embedded in SQL Server Management Studio.  <br /> See [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md).|  
+|Tools|Server Profiler for Trace Replay <br />Replacement. There is no replacement.|  
+|Trace Management Objects and Trace APIs|Microsoft.AnalysisServices.Trace objects (contains the APIs for Analysis Services Trace and Replay objects). The replacement is multi-part:<br /><br /> -   Trace Configuration: Microsoft.SqlServer.Management.XEvent<br />-   Trace Reading: Microsoft.SqlServer.XEvent.Linq<br />-   Trace Replay: None|  
+  
+### Discontinued features in SSAS 2016
+
+The following features are [discontinued](#definitions) in this release:
+
+| Feature | Replacement or workaround |
+| ------- | ------------------------- |  
+|CalculationPassValue &#40;MDX&#41;|None. This feature was deprecated in SQL Server 2005.|  
+|CalculationCurrentPass &#40;MDX&#41;|None. This feature was deprecated in SQL Server 2005.|  
+|NON_EMPTY_BEHAVIOR query optimizer hint|None. This feature was deprecated in SQL Server 2008.|  
+|COM assemblies|None. This feature was deprecated in SQL Server 2008.|  
+|CELL_EVALUATION_LIST intrinsic cell property|None. This feature was deprecated in SQL Server 2005.|  
+
+### Breaking changes in SSAS 2016
+  
+#### .NET 4.0 version upgrade
+
+Analysis Services Management Objects (AMO), ADOMD.NET, and Tabular Object Model (TOM) client libraries now target the .NET 4.0 runtime. This can be a breaking change for applications that target .NET 3.5. Applications using newer versions of these assemblies must now target .NET 4.0 or later.  
+  
+#### AMO version upgrade
+
+This release is a version upgrade for [Analysis Services Management Objects &#40;AMO&#41;](/dotnet/api/) and is  a breaking change under certain circumstances.  Existing code and scripts that call into AMO will continue to run as before if you upgrade from a previous version. However, if you need to *recompile* your application and you are targeting a SQL Server 2016 Analysis Services instance, you must add the following namespace to make your code or script operational:  
+  
+```c#
+using Microsoft.AnalysisServices;  
+using Microsoft.AnalysisServices.Core;  
+  
+```  
+  
+The [Microsoft.AnalysisServices.Core](/dotnet/api/microsoft.analysisservices.core) namespace is now required whenever you reference the Microsoft.AnalysisServices assembly in your code. Objects that were previously only in the **Microsoft.AnalysisServices** namespace are moved to the Core namespace in this release if the object is used the same way in both tabular and multidimensional scenarios.  For example, server-related APIs are relocated to the Core namespace.  
+  
+Although there are now multiple namespaces, both exist in the same assembly (Microsoft.AnalysisServices.dll).  
+  
+#### XEvent DISCOVER changes
+
+To better support XEvent DISCOVER streaming in SSMS for SQL Server 2016 Analysis Services, `DISCOVER_XEVENT_TRACE_DEFINITION` is replaced with the following XEvent traces:  
+  
+- DISCOVER_XEVENT_PACKAGES  
+  
+- DISCOVER_XEVENT_OBJECT  
+  
+- DISCOVER_XEVENT_OBJECT_COLUMNS  
+  
+- DISCOVER_XEVENT_SESSION_TARGETS  
+
+### Behavior changes in SSAS 2016
+  
+#### Analysis Services in SharePoint mode
+
+Running the Power Pivot Configuration wizard is no longer required as a post-installation task. This is true for all supported versions of SharePoint that load models from the current SQL Server 2016 Analysis Services.
+  
+#### DirectQuery mode for Tabular models
+
+*DirectQuery* is a data access mode for tabular models, where query execution is performed on a backend relational database, retrieving a result set in real time. It's often used for very large datasets that cannot fit in memory or when data is volatile and you want the most recent data returned in queries against a tabular model.
+  
+DirectQuery has existed as a data access mode for the last several releases. In SQL Server 2016 Analysis Services, the implementation has been slightly revised, assuming the tabular model is at compatibility level 1200 or higher. DirectQuery has fewer restrictions than before. It also has different database properties.
+  
+If you are using DirectQuery in an existing tabular model, you can keep the model at its currently compatibility level of 1100 or 1103 and continue to use DirectQuery as its implemented for those levels. Alternatively, you can upgrade to 1200 or higher to benefit from enhancements made to DirectQuery.
+  
+There is no in-place upgrade of a DirectQuery model because the settings from older compatibility levels do not have exact counterparts in the newer 1200 and higher compatibility levels. If you have an existing tabular model that runs in DirectQuery mode, you should open the model in SQL Server Data Tools, turn DirectQuery off, set the **Compatibility Level** property to 1200 or higher, and then reconfigure the DirectQuery properties. See [DirectQuery Mode](../analysis-services/tabular-models/directquery-mode-ssas-tabular.md) for details.
+
 ## Earlier versions
 
-[SQL Server 2014 Analysis Services](/sql/analysis-services/analysis-services?preserve-view=true&view=sql-server-2014)
+[SQL Server 2014 Analysis Services](/previous-versions/sql/2014/analysis-services/what-s-new-in-analysis-services?preserve-view=true&view=sql-server-2014)
+
+## Definitions
+
+A *deprecated feature* will be discontinued from the product in a future release, but is still supported and included in the current release to maintain backward compatibility. It's recommended you discontinue using deprecated features in new and existing projects to maintain compatibility with future releases. Documentation is not updated for deprecated features.
+
+A *discontinued feature* was deprecated in an earlier release. It may continue to be included in the current release, but is no longer supported. Discontinued features may be removed entirely in the stated or future release.
+
+A *breaking change* causes a feature, data model, application code, or script to no longer function after upgrading to the current release.
+
+A *behavior change* affects how the same feature works in the current release as compared to the previous release. Only significant behavior changes are described. Changes in  user interface are not included. Changes to  default values, manual configuration required to complete an upgrade or restore functionality, or a new implementation of an existing feature are all examples of a behavior change.
+
+## See also
+
+[Analysis Services features supported by SQL Server edition](analysis-services-features-by-edition.md)  
+[SQL Server Analysis Services overview](ssas-overview.md)  

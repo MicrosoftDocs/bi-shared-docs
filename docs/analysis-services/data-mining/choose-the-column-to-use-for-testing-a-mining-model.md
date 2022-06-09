@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Choose the Column to Use for Testing a Mining Model
-[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sql2019-earlier](../includes/appliesto-sql2019-earlier.md)]
 
 [!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
 

@@ -1,7 +1,7 @@
 ---
 title: "Verify a Power Pivot for SharePoint Installation | Microsoft Docs"
 description: Learn how to verify a Power Pivot for SharePoint installation by publishing a sample workbook with Power Pivot data.
-ms.date: 05/18/2022
+ms.date: 06/09/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: ppvt-sharepoint
@@ -12,8 +12,12 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Verify a Power Pivot for SharePoint Installation
-[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
-  A [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint instance that you install in a SharePoint farm is administered through SharePoint Central Administration. At a minimum, you can check pages in Central Administration and on SharePoint sites to verify that [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] server components and features are available. However, to fully verify an installation, you must have a [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] workbook that you can publish to SharePoint and access from a library. For testing purposes, you can publish a sample workbook that already contains [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data and use it to confirm that SharePoint integration is correctly configured.  
+
+[!INCLUDE[appliesto-sql2019-earlier](../../includes/appliesto-sql2019-earlier.md)]
+
+[!INCLUDE[dm-dep-banner](../../includes/dm-dep-banner.md)]
+
+A [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint instance that you install in a SharePoint farm is administered through SharePoint Central Administration. At a minimum, you can check pages in Central Administration and on SharePoint sites to verify that [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] server components and features are available. However, to fully verify an installation, you must have a [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] workbook that you can publish to SharePoint and access from a library. For testing purposes, you can publish a sample workbook that already contains [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data and use it to confirm that SharePoint integration is correctly configured.  
 
   
 ##  <a name="verifyinstall"></a> Verify Central Administration Integration  

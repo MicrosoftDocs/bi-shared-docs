@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services features supported by SQL Server edition | Microsoft Docs"
 description: Learn about features supported by different editions of SQL Server 2016, 2017, 2019 Analysis Services.
-ms.date: 03/30/2022
+ms.date: 06/09/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.topic: conceptual
@@ -10,11 +10,11 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
-# Analysis Services features supported by SQL Server editions
+# Analysis Services features supported by SQL Server edition
 
-[!INCLUDE[appliesto-sql2016-later](includes/appliesto-sql2016-later.md)]
+[!INCLUDE[appliesto-sqlas](includes/appliesto-sqlas.md)]
 
-This article describes features supported by different editions of SQL Server 2016, 2017, 2019 Analysis Services. Evaluation edition supports Enterprise edition features.
+This article describes features supported by different editions of SQL Server 2016, 2017, 2019, 2022 Analysis Services. Evaluation edition supports Enterprise edition features.
 
 ## Analysis Services (servers)
   
@@ -83,9 +83,14 @@ This article describes features supported by different editions of SQL Server 20
 <a name="wb">[2]</a> Writeback dimensions are discontinued in SQL Server Analysis Services 2019 and later.
  
 <a name="linkmd">[3]</a> Standard edition supports linking measures and dimensions within the same database, but not from other databases or instances.
-  
-## Power Pivot for SharePoint  
-  
+
+::: moniker range="asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019"
+
+## Power Pivot for SharePoint
+
+> [!IMPORTANT]
+> Power Pivot mode is [discontinued](analysis-services-backward-compatibility.md#deprecated-features) in SQL Server Analysis Services 2022. To learn more, see [Backward compatibility](analysis-services-backward-compatibility.md).
+
 |Feature|Enterprise|Standard|Web|Express with Advanced Services|Express with Tools|Express|Developer|  
 |-------------|----------------|--------------|---------|------------------------------------|------------------------|-------------|---------------|  
 |SharePoint farm integration based on shared service architecture|Yes||||||Yes|  
@@ -95,12 +100,10 @@ This article describes features supported by different editions of SQL Server 20
 |Power Pivot data refresh|Yes||||||Yes|  
 |Power Pivot data feeds|Yes||||||Yes|  
 
-::: moniker range="asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019"
-
 ## Data Mining  
 
-> [!NOTE]
-> Data mining is [deprecated](analysis-services-backward-compatibility.md#deprecated-features) in SQL Server Analysis Services 2017.
+> [!IMPORTANT]
+> Data mining is [discontinued](analysis-services-backward-compatibility.md#deprecated-features) in SQL Server Analysis Services 2022. To learn more, see [Backward compatibility](analysis-services-backward-compatibility.md).
   
 |Feature Name|Enterprise|Standard|Web|Express with Advanced Services|Express with Tools|Express|Developer|  
 |------------------|----------------|--------------|---------|------------------------------------|------------------------|-------------|---------------|  
