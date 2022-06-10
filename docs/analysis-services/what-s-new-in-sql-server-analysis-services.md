@@ -109,12 +109,7 @@ The **ClientCacheRefreshPolicy** property setting is now supported in SSAS 2019 
 
 This feature provides the ability to attach a tabular model as an online operation. Online attach can be used for synchronization of read-only replicas in on-premises query scale-out environments. To perform an online-attach operation, use the **AllowOverwrite** option of the Attach XMLA command.
 
-```xmla
-<Attach xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <Folder>C:\Program Files\Microsoft SQL Server\MSAS15\OLAP\Data\AdventureWorks.0.db\</Folder>
-  <AllowOverwrite>True</AllowOverwrite>
-</Attach>
-```
+:::image type="content" source="media/as-allow-overwrite.png" alt-text="AllowOverwrite":::
 
 This operation may require *double the model memory* to keep the old version online while loading the new version.
 
@@ -300,7 +295,7 @@ EVALUATE DETAILROWS([Internet Total Sales])
 
 This release introduces [object-level security](../analysis-services/tabular-models/object-level-security.md) for tables and columns. In addition to restricting access to table and column data, sensitive table and column names can be secured. This helps prevent a malicious user from discovering such a table exists.
 
-Object-level security must be set using the JSON-based metadata, Tabular Model Scripting Language (TMSL), or Tabular Object Model (TOM). 
+Object-level security must be set using the JSON-based metadata, Tabular Model Scripting Language (TMSL), or Tabular Object Model (TOM).
 
 For example, the following code helps secure the Product table in the sample Adventure Works tabular model by setting the **MetadataPermission** property of the **TablePermission** class to **None**.
 
@@ -414,7 +409,7 @@ The following features are [deprecated](#definitions) in this release:
 |Multidimensional|Data Mining|
 |Multidimensional|Remote linked measure groups|
 |Tabular|Models at the 1100 and 1103 compatibility level|
-|Tabular|Tabular Object Model properties: Column.TableDetailPosition, Column.IsDefaultLabel, Column.IsDefaultImage|
+|Tabular|Tabular Object Model properties - Column.TableDetailPosition, Column.IsDefaultLabel, Column.IsDefaultImage|
 |Tools|SQL Server Profiler for Trace Capture<br /><br /> The replacement is to use Extended Events Profiler embedded in SQL Server Management Studio.  <br /> See [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md).|  
 |Tools|Server Profiler for Trace Replay <br />Replacement. There is no replacement.|  
 |Trace Management Objects and Trace APIs|Microsoft.AnalysisServices.Trace objects (contains the APIs for Analysis Services Trace and Replay objects). The replacement is multi-part:<br /><br /> -   Trace Configuration: Microsoft.SqlServer.Management.XEvent<br />-   Trace Reading: Microsoft.SqlServer.XEvent.Linq<br />-   Trace Replay: None|  
@@ -445,13 +440,13 @@ Changes to MDSCHEMA_MEASUREGROUP_DIMENSIONS and DISCOVER_CALC_DEPENDENCY, detail
 
 ## SQL Server 2016 Analysis Services
 
-SQL Server 2016 Analysis Services includes many new enhancements providing improved performance, easier solution authoring, automated database management, enhanced relationships with bi-directional cross filtering, parallel partition processing, and much more. At the heart of most enhancements for this release is the new 1200 compatibility level for tabular model databases. 
+SQL Server 2016 Analysis Services includes many new enhancements providing improved performance, easier solution authoring, automated database management, enhanced relationships with bi-directional cross filtering, parallel partition processing, and much more. At the heart of most enhancements for this release is the new 1200 compatibility level for tabular model databases.
 
 ### SQL Server 2016 Service Pack 1 (SP1) Analysis Services
 
-[Download SQL Server 2016 SP1](https://www.microsoft.com/download/details.aspx?id=54276) 
+[Download SQL Server 2016 SP1](https://www.microsoft.com/download/details.aspx?id=54276)
 
-SQL Server 2016 Service SP1 Analysis Services provides improved performance and scalability through Non-Uniform Memory Access (NUMA) awareness and optimized memory allocation based on **Intel Threading Building Blocks** (Intel TBB). This new functionality helps lower Total Cost of Ownership (TCO) by supporting more users on fewer, more powerful enterprise servers. 
+SQL Server 2016 Service SP1 Analysis Services provides improved performance and scalability through Non-Uniform Memory Access (NUMA) awareness and optimized memory allocation based on **Intel Threading Building Blocks** (Intel TBB). This new functionality helps lower Total Cost of Ownership (TCO) by supporting more users on fewer, more powerful enterprise servers.
 
 In particular, SQL Server 2016 SP1 Analysis Services features improvements in these key areas:
 
@@ -659,8 +654,6 @@ This release sees significant enhancements in DirectQuery for tabular 1200 model
 
 Data sources supported for tabular 1200 models in DirectQuery mode now include Oracle, Teradata and Microsoft Analytics Platform (formerly known as Parallel Data Warehouse). To learn more, see [DirectQuery Mode](../analysis-services/tabular-models/directquery-mode-ssas-tabular.md).
 
-::: moniker-end
-
 ### Deprecated features in SSAS 2016
 
 The following features are [deprecated](#definitions) in this release:
@@ -670,7 +663,7 @@ The following features are [deprecated](#definitions) in this release:
 |Multidimensional|Remote partitions|  
 |Multidimensional|Remote linked measure groups|  
 |Multidimensional|Dimensional writeback|  
-|Multidimensional|Linked dimensions|   
+|Multidimensional|Linked dimensions|
 |Multidimensional|SQL Server table notifications for proactive caching.  <br />The replacement is to use polling for proactive caching. <br />See [Proactive Caching &#40;Dimensions&#41;](../analysis-services/multidimensional-models-olap-logical-dimension-objects/proactive-caching-dimensions.md) and [Proactive Caching &#40;Partitions&#41;](../analysis-services/multidimensional-models-olap-logical-cube-objects/partitions-proactive-caching.md).|  
 |Multidimensional|Session cubes. There is no replacement.|  
 |Multidimensional|Local cubes. There is no replacement.|  
@@ -738,6 +731,8 @@ DirectQuery has existed as a data access mode for the last several releases. In 
 If you are using DirectQuery in an existing tabular model, you can keep the model at its currently compatibility level of 1100 or 1103 and continue to use DirectQuery as its implemented for those levels. Alternatively, you can upgrade to 1200 or higher to benefit from enhancements made to DirectQuery.
   
 There is no in-place upgrade of a DirectQuery model because the settings from older compatibility levels do not have exact counterparts in the newer 1200 and higher compatibility levels. If you have an existing tabular model that runs in DirectQuery mode, you should open the model in SQL Server Data Tools, turn DirectQuery off, set the **Compatibility Level** property to 1200 or higher, and then reconfigure the DirectQuery properties. See [DirectQuery Mode](../analysis-services/tabular-models/directquery-mode-ssas-tabular.md) for details.
+
+::: moniker-end
 
 ## Earlier versions
 
