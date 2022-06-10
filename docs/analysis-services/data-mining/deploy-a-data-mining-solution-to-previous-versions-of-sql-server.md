@@ -66,8 +66,3 @@ author: minewiskan
  Database synchronization is not supported from [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] to SQL Server 2005.  
   
  If you attempt to synchronize a [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] database, the server returns an error and database synchronization fails.  
-  
-## See Also  
- [Analysis Services Backward Compatibility](../../analysis-services/analysis-services-backward-compatibility.md)  
-  
-  

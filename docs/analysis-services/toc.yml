@@ -12,8 +12,6 @@
       href: ssas-overview.md
     - name: What's new in SQL Server Analysis Services
       href: what-s-new-in-sql-server-analysis-services.md
-    - name: Backward compatibility
-      href: analysis-services-backward-compatibility.md
     - name: Features supported by SQL Server editions
       href: analysis-services-features-by-edition.md
     - name: Power Pivot for Sharepoint

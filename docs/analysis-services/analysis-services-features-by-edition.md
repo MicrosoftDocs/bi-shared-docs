@@ -89,7 +89,7 @@ This article describes features supported by different editions of SQL Server 20
 ## Power Pivot for SharePoint
 
 > [!IMPORTANT]
-> Power Pivot mode is [discontinued](analysis-services-backward-compatibility.md#deprecated-features) in SQL Server Analysis Services 2022. To learn more, see [Backward compatibility](analysis-services-backward-compatibility.md).
+> Power Pivot mode is **Discontinued** in SQL Server Analysis Services 2022. To learn more, see [What's new in SQL Server 2022 Analysis Services - Discontinued features](what-s-new-in-sql-server-analysis-services.md?view=sql-analysis-services-2022&preserve-view=true#discontinued-features-in-ssas-2022).
 
 |Feature|Enterprise|Standard|Web|Express with Advanced Services|Express with Tools|Express|Developer|  
 |-------------|----------------|--------------|---------|------------------------------------|------------------------|-------------|---------------|  
@@ -103,7 +103,7 @@ This article describes features supported by different editions of SQL Server 20
 ## Data Mining  
 
 > [!IMPORTANT]
-> Data mining is [discontinued](analysis-services-backward-compatibility.md#deprecated-features) in SQL Server Analysis Services 2022. To learn more, see [Backward compatibility](analysis-services-backward-compatibility.md).
+> Data mining is **Discontinued** in SQL Server Analysis Services 2022. To learn more, see [What's new in SQL Server 2022 Analysis Services - Discontinued features](what-s-new-in-sql-server-analysis-services.md?view=sql-analysis-services-2022&preserve-view=true#discontinued-features-in-ssas-2022).
   
 |Feature Name|Enterprise|Standard|Web|Express with Advanced Services|Express with Tools|Express|Developer|  
 |------------------|----------------|--------------|---------|------------------------------------|------------------------|-------------|---------------|  

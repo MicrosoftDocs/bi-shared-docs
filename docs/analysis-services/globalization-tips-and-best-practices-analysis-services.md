@@ -71,7 +71,7 @@ These tips and guidelines can help increase the portability of your multidimensi
  Only object identifiers, and not object names, are subject to the casing behaviors described in the table. If you see a change in how your solution works (a before and after comparison -- after installing SQL Server 2012 SP2 or later), it will most likely be a processing issue. Queries are not impacted by object identifiers. For both query languages (DAX and MDX), the formula engine uses the object name (not the identifier).  
   
 > [!NOTE]  
-> Code changes related to case-sensitivity have been a breaking change for some applications. See [Breaking Changes to Analysis Services Features in SQL Server 2016](analysis-services-backward-compatibility.md#breaking-changes) for more information.  
+> Code changes related to case-sensitivity have been a breaking change for some applications..
   
 ##  <a name="bkmk_test"></a> Locale testing using Excel, SQL Server Profiler and SQL Server Management Studio
 
