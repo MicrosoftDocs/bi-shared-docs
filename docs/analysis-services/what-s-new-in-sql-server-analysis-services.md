@@ -734,10 +734,6 @@ There is no in-place upgrade of a DirectQuery model because the settings from ol
 
 ::: moniker-end
 
-## Earlier versions
-
-[SQL Server 2014 Analysis Services](/previous-versions/sql/2014/analysis-services/what-s-new-in-analysis-services?preserve-view=true&view=sql-server-2014)
-
 ## Definitions
 
 A *deprecated feature* will be discontinued from the product in a future release, but is still supported and included in the current release to maintain backward compatibility. It's recommended you discontinue using deprecated features in new and existing projects to maintain compatibility with future releases. Documentation is not updated for deprecated features.
@@ -748,7 +744,3 @@ A *breaking change* causes a feature, data model, application code, or script to
 
 A *behavior change* affects how the same feature works in the current release as compared to the previous release. Only significant behavior changes are described. Changes in  user interface are not included. Changes to  default values, manual configuration required to complete an upgrade or restore functionality, or a new implementation of an existing feature are all examples of a behavior change.
 
-## See also
-
-[Analysis Services features supported by SQL Server edition](analysis-services-features-by-edition.md)  
-[SQL Server Analysis Services overview](ssas-overview.md)  
