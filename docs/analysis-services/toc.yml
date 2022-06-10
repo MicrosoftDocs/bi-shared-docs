@@ -30,7 +30,7 @@
       href: translation-support-in-analysis-services.md
     - name: Currency conversions
       href: currency-conversions-analysis-services.md
-    - name: Tips and best practices
+    - name: Globalization tips and best practices
       href: globalization-tips-and-best-practices-analysis-services.md
 - name: Tutorials
   items:
@@ -1246,18 +1246,18 @@
         href: ../analysis-services/server-properties/thread-pool-properties.md
     - name: SQL Server Analysis Services server management
       items: 
-      - name: SQL Server Analysis Services server management overview
+      - name: SSAS server management overview
         href: ../analysis-services/instances/analysis-services-instance-management.md
       - name: High availability and scalability
         href: ../analysis-services/instances/high-availability-and-scalability-in-analysis-services.md
       - name: Automate administrative tasks with SSIS
         href: ../analysis-services/instances/automate-analysis-services-administrative-tasks-with-ssis.md
-      - name: Clear server caches
-        href: ../analysis-services/instances/clear-the-analysis-services-caches.md
       - name: Database Consistency Checker (DBCC)
         href: ../analysis-services/instances/database-consistency-checker-dbcc-for-analysis-services.md
       - name: Schedule administrative tasks with SQL Server Agent
         href: ../analysis-services/instances/schedule-ssas-administrative-tasks-with-sql-server-agent.md
+    - name: Clear server caches
+      href: ../analysis-services/instances/clear-the-analysis-services-caches.md
     - name: Query interleaving
       href: ../analysis-services/tabular-models/query-interleaving.md
     - name: Analysis Services scripts project in SSMS
