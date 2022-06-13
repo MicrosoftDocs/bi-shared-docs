@@ -30,7 +30,7 @@
       href: translation-support-in-analysis-services.md
     - name: Currency conversions
       href: currency-conversions-analysis-services.md
-    - name: Globalization tips and best practices
+    - name: Tips and best practices
       href: globalization-tips-and-best-practices-analysis-services.md
 - name: Tutorials
   items:
@@ -264,7 +264,7 @@
       href: ../analysis-services/tabular-models/tabular-model-designer-ssas.md
     - name: Workspace database
       href: ../analysis-services/tabular-models/workspace-database-ssas-tabular.md
-    - name: DAX for tabular models
+    - name: DAX in tabular models
       href: ../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md
     - name: String storage and collation
       href: ../analysis-services/tabular-models/string-storage-and-collation-in-tabular-models.md

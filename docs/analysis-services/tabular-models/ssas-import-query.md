@@ -1,7 +1,7 @@
 ---
 title: "Import data by using a native query (Analysis Services) | Microsoft Docs"
 description: Learn how to create a connection to a datasource and then create a native SQL query to specify data import.
-ms.date: 08/28/2020
+ms.date: 06/10/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -15,14 +15,14 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sql2017-later-aas-pbip](../includes/appliesto-sql2017-later-aas-pbip.md)]
 
-For tabular 1400 models, the new Get Data experience in Visual Studio Analysis Services projects provides immense flexibility in how you can mashup your data during import. This article describes creating a connection to a datasource and then creating a native SQL query to specify data import.
+For tabular 1400 and higher models, the new Get Data experience in Visual Studio Analysis Services projects provides immense flexibility in how you can mashup your data during import. This article describes creating a connection to a data source and then creating a native SQL query to specify data import.
 
-## Create a datasource connection
+## Create a data source connection
 
-If you don't already have a connection to your datasource, you need to create one.
+If you don't already have a connection to your data source, you need to create one.
 
 1. In Visual Studio > **Tabular Model Explorer**, right-click **Data Sources**, and then click **New Data Source**.
-2. In **Get Data**, select your datasource type, and then click **Connect**. Follow any additional steps required to connect to your datasource.
+2. In **Get Data**, select your datasource type, and then click **Connect**. Follow any additional steps required to connect to your data source.
 
 ## Enter a query as a named expression
 
@@ -36,7 +36,7 @@ If you don't already have a connection to your datasource, you need to create on
 
 ## Example
 
-This native query creates an Employee table in the model that includes all columns from the Dimension.Employee table at the datasource.
+This native query creates an Employee table in the model that includes all columns from the Dimension.Employee table at the data source.
 
 ```
 = Value.NativeQuery(#"SQL/myserver;WideWorldImportersDW", "SELECT * FROM Dimension.Employee")
