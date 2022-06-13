@@ -12,27 +12,33 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Configure Analysis Services and Kerberos Constrained Delegation (KCD)
+
 [!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
-  Kerberos constrained delegation (KCD) is an authentication protocol you can configure with Windows authentication to delegate client credentials from service to service throughout your environment. KCD requires additional infrastructure, for example a Domain Controller, and additional configuration of your environment. KCD is a requirement in some scenarios that involve [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] and [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data with SharePoint 2016. In SharePoint 2016, Excel Services has moved outside the SharePoint farm to a separate and new server, the **Office Online Server**. Because the Office Online Server is separate, there is an increased need for a way to delegate client credentials in the typical two hop scenarios.  
+
+Kerberos constrained delegation (KCD) is an authentication protocol you can configure with Windows authentication to delegate client credentials from service to service throughout your environment. KCD requires additional infrastructure, for example a Domain Controller, and additional configuration of your environment. KCD is a requirement in some scenarios that involve [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] and [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data with SharePoint 2016. In SharePoint 2016, Excel Services has moved outside the SharePoint farm to a separate and new server, the **Office Online Server**. Because the Office Online Server is separate, there is an increased need for a way to delegate client credentials in the typical two hop scenarios.  
   
-## Overview  
+## Overview
+
  KCD enables an account to impersonate another account for the purpose of providing access to resources. The impersonating account would be a service account assigned to a web application or the computer account of a web server while the impersonated account would be a user account requiring access to resources. KCD operates at the service level, so that selected services on a server can be granted access by the impersonating account, while other services on the same server, or services on other servers are denied for access.  
   
  The sections in this topic review common scenarios with [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] and [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] where KCD is required as well as an example server deployment with a high level summary of what you need to install and configure. See the [More Information and community content](#bkmk_moreinfo) section for links to more detailed information on the technologies involved such as Domain Controllers and KCD.  
   
-## Scenario 1: Workbook as data source (WDS).  
+## Scenario 1: Workbook as data source (WDS).
+
  ![see 1](../../../analysis-services/instances/install-windows/media/ssas-callout1.png "see 1") Office Online Server opens an Excel workbook and ![see 2](../../../analysis-services/instances/install-windows/media/ssas-callout2.png "see 2") detects a data connection to another workbook. Office Online Server sends a request to the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Redirector Service ![see 3](../../../analysis-services/instances/install-windows/media/ssas-callout3.png "see 3") to open the second workbook and the data ![see 4](../../../analysis-services/instances/install-windows/media/ssas-callout4.png "see 4").  
   
  In this scenario, user credentials need to be delegated from the Office Online Server to the SharePoint [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Redirector Service in SharePoint.  
   
  ![workbook as a data source](../../../analysis-services/instances/install-windows/media/ssas-kcd-wtih-wds.png "workbook as a data source")  
   
-## Scenario 2: An Analysis Services Tabular model links to an Excel workbook  
+## Scenario 2: An Analysis Services Tabular model links to an Excel workbook
+
  An Analysis Services Tabular model ![see 1](../../../analysis-services/instances/install-windows/media/ssas-callout1.png "see 1") links to an Excel workbook which contains a Power Pivot model. In this scenario, when [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] loads the Tabular model, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] detects the link to the workbook. When processing the model, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] sends a query request to SharePoint to load the workbook. In this scenario, client credentials do **not** need to be delegated from Analysis Services to SharePoint, however a client application can overwrite the data source information in an out-of-line binding. If the out-of-line binding request specifies to impersonate the current user, then the user credentials must be delegated, which requires KCD to be configured between [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] and SharePoint.  
   
  ![office online server](../../../analysis-services/instances/install-windows/media/ssas-kcd-wtih-oos.png "office online server")  
   
-## Example deployment of KCD with Office Online Server and Analysis Services  
+## Example deployment of KCD with Office Online Server and Analysis Services
+
  This section describes an example deployment that uses four computers. The following sections summarize the key installation and configuration steps for each computer. Before you begin deployments, it is advised the computers are up to date with operating system patching and you know the computer names because they are needed in some of the configuration steps.  
   
 -   Domain Controller  
@@ -45,7 +51,8 @@ monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
   
  ![domain controller](../../../analysis-services/instances/install-windows/media/ssas-kcd-domainserver-icon.png "domain controller")  
   
-### Domain Controller  
+### Domain Controller
+
  The following is a summary of what to install for the domain controller (DC).  
   
 -   **Role:** Active Directory Domain Services.   
@@ -80,11 +87,12 @@ monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
   
     10. Repeat the steps for IPv4.  
   
--   **Note:** you can join computers to the domain from Windows Control panel, in the System settings. For more information, see [How To Join Windows Server 2012 to a Domain](https://social.technet.microsoft.com/wiki/contents/articles/20260.how-to-join-windows-server-2012-to-a-domain.aspx).  
+    **Note:** you can join computers to the domain from Windows Control panel, in the System settings. For more information, see [How To Join Windows Server 2012 to a Domain](https://social.technet.microsoft.com/wiki/contents/articles/20260.how-to-join-windows-server-2012-to-a-domain.aspx).  
   
  ![ssas server in powerpivot mode](../../../analysis-services/instances/install-windows/media/ssas-kcd-powerpivotserver-icon.png "ssas server in powerpivot mode")  
   
-### 2016 SQL Server Database engine and Analysis services in Power Pivot mode  
+### 2016 SQL Server Database engine and Analysis services in Power Pivot mode
+
  The following is a summary of what to install on the [!INCLUDE[ssNoVersion](../../includes/ssnoversion-md.md)] computer.  
   
  ![note](../../../analysis-services/instances/install-windows/media/ssrs-fyi-note.png "note") In the [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)] setup wizard, [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] in Power Pivot mode is installed as part of the feature selection workflow.  
@@ -183,7 +191,8 @@ monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
   
  ![sharepoint server](../../../analysis-services/instances/install-windows/media/ssas-kcd-sharepointserver-icon.png "sharepoint server")  
   
-### SharePoint Server 2016  
+### SharePoint Server 2016
+
  The following is a summary of SharePoint Server installation.  
   
 1.  Run SharePoint Pre-requisite installer  
@@ -198,7 +207,7 @@ monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
   
 6.  Configure SharePoint Authentication providers for Kerberos. **This is needed for scenario 1**. For more information, see [Plan for Kerberos authentication in SharePoint 2013](/SharePoint/security-for-sharepoint-server/kerberos-authentication-planning).  
   
-##  <a name="bkmk_moreinfo"></a> See also 
+##  <a name="bkmk_moreinfo"></a> See also
 
   
  [Microsoft® Kerberos Configuration Manager for SQL Server®](https://www.microsoft.com/download/details.aspx?id=39046)  

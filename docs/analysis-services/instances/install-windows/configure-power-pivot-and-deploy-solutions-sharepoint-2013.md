@@ -1,7 +1,7 @@
 ---
 title: "Configure Power Pivot and Deploy Solutions (SharePoint 2013) | Microsoft Docs"
 description: Learn how to deploy and configure middle-tier enhancements to the Power Pivot features in SharePoint Server 2013.
-ms.date: 05/18/2022
+ms.date: 06/09/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: ppvt-sharepoint
@@ -12,8 +12,12 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Configure Power Pivot and Deploy Solutions (SharePoint 2013)
-[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
-  This topics describes the deployment and configuration of middle-tier enhancements to the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] features in [!INCLUDE[SPS2013](../../includes/sps2013-md.md)] including [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Gallery, Schedule data refresh, Management Dashboard, and data providers. Run **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint 2013 Configuration** tool to complete the following:  
+
+[!INCLUDE[appliesto-sql2019-earlier](../../includes/appliesto-sql2019-earlier.md)]
+
+[!INCLUDE[dm-dep-banner](../../includes/dm-dep-banner.md)]
+
+This topics describes the deployment and configuration of middle-tier enhancements to the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] features in [!INCLUDE[SPS2013](../../includes/sps2013-md.md)] including [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] Gallery, Schedule data refresh, Management Dashboard, and data providers. Run **[!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint 2013 Configuration** tool to complete the following:  
   
 -   Deploy SharePoint solution files.  
   

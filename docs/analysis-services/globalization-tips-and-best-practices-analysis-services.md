@@ -1,7 +1,7 @@
 ---
 title: "Globalization tips and best practices (Analysis Services) | Microsoft Docs"
 description: Learn globalization tips for increasing the portability of business intelligence solutions and avoid errors that are directly related to language settings. 
-ms.date: 01/05/2021
+ms.date: 06/10/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -9,9 +9,11 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Globalization tips and best practices (Analysis Services)
+
+[!INCLUDE[appliesto-sqlas](includes/appliesto-sqlas.md)]
 
 **Important:** Information in this article applies to **multidimensional** model solutions only.
   
@@ -71,7 +73,7 @@ These tips and guidelines can help increase the portability of your multidimensi
  Only object identifiers, and not object names, are subject to the casing behaviors described in the table. If you see a change in how your solution works (a before and after comparison -- after installing SQL Server 2012 SP2 or later), it will most likely be a processing issue. Queries are not impacted by object identifiers. For both query languages (DAX and MDX), the formula engine uses the object name (not the identifier).  
   
 > [!NOTE]  
-> Code changes related to case-sensitivity have been a breaking change for some applications. See [Breaking Changes to Analysis Services Features in SQL Server 2016](analysis-services-backward-compatibility.md#breaking-changes) for more information.  
+> Code changes related to case-sensitivity have been a breaking change for some applications..
   
 ##  <a name="bkmk_test"></a> Locale testing using Excel, SQL Server Profiler and SQL Server Management Studio
 

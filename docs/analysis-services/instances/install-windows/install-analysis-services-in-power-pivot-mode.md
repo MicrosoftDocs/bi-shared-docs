@@ -1,7 +1,7 @@
 ---
 title: "Install Analysis Services in Power Pivot Mode | Microsoft Docs"
 description: Learn about the procedures for a single server installation of a Analysis Services server in Power Pivot mode for a SharePoint deployment.
-ms.date: 05/18/2022
+ms.date: 06/09/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: ppvt-sharepoint
@@ -12,8 +12,12 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Install Analysis Services in Power Pivot Mode
-[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
-  The procedures in this topic guide you through a single server installation of a [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] server in [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] mode for a SharePoint deployment. The steps include running the SQL Server installation wizard as well as configuration tasks that use SharePoint Central Administration.  
+
+[!INCLUDE[appliesto-sql2019-earlier](../../includes/appliesto-sql2019-earlier.md)]
+
+[!INCLUDE[dm-dep-banner](../../includes/dm-dep-banner.md)]
+
+The procedures in this topic guide you through a single server installation of a [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] server in [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] mode for a SharePoint deployment. The steps include running the SQL Server installation wizard as well as configuration tasks that use SharePoint Central Administration.  
   
 ##  <a name="bkmk_background"></a> Background  
  [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint is a collection of middle-tier and backend services that provide [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data access in a SharePoint 2016, or SharePoint 2013, farm.  
@@ -49,7 +53,7 @@ monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 6.  Review the release notes at [SQL Server 2016 Release Notes](/sql/sql-server/sql-server-2016-release-notes).  
   
 ###  <a name="bkmk_sqleditions"></a> SQL Server Edition Requirements  
- Business intelligence features are not all available in all editions of [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)]. For details, see [Analysis Services Features Supported by the Editions of SQL Server 2016](../../../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md) and [Editions and Components of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016).  
+ Business intelligence features are not all available in all editions of [!INCLUDE[ssCurrent](../../includes/sscurrent-md.md)]. For details, see [Analysis Services Features Supported by the Editions of SQL Server 2016](../../../analysis-services/analysis-services-features-by-edition.md) and [Editions and Components of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016).  
   
 ##  <a name="InstallSQL"></a> Step 1: Install Power Pivot for SharePoint  
  In this step, you run SQL Server Setup to install an [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] server in [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] mode. In a subsequent step, you configure Excel Services to use this server for workbook data models.  
