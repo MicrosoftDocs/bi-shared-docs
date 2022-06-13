@@ -1,10 +1,9 @@
 ---
 title: "Analysis Services tools | Microsoft Docs"
 description: Learn how to find the tools and applications you'll need for building Analysis Services models and managing deployed databases.  
-ms.date: 01/19/2022
+ms.date: 06/13/2022
 ms.prod: sql
 ms.technology: analysis-services
-ms.custom:
 ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
@@ -41,7 +40,7 @@ The [Azure portal](https://portal.azure.com/) is the primary tool for creating a
   
 **[Download SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms)** 
   
-#### SQL Server Profiler 
+#### SQL Server Profiler
 
  [SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler), installed with SSMS, is a graphical user interface to SQL Trace for monitoring a server instance. You can capture and save data about each event to a file or table to analyze later. 
 
@@ -55,7 +54,7 @@ The [Azure portal](https://portal.azure.com/) is the primary tool for creating a
 
  Azure Analysis Services has its own set of PowerShell commands for managing Azure resources. To learn more, see [Manage Azure Analysis Services with PowerShell](/azure/analysis-services/analysis-services-powershell).
 
-### Open source tools
+## Open source tools
 
 **Tabular Editor** - An open-source tool for creating, maintaining, and managing tabular models using an intuitive, lightweight editor. A hierarchical view shows all objects in your tabular model. Objects are organized by display folders with support for multi-select property editing and DAX syntax highlighting. XMLA read-only is required for query operations. Read-write is required for metadata operations. To learn more, see [tabulareditor.github.io](https://tabulareditor.github.io/).
 
@@ -65,6 +64,6 @@ The [Azure portal](https://portal.azure.com/) is the primary tool for creating a
 
 ## See also
 
- [Azure Analysis Services documentation](/azure/analysis-services/)   
- [Azure Analysis Services REST API](/rest/api/analysisservices/)   
+ [Azure Analysis Services documentation](/azure/analysis-services/)  
+ [Azure Analysis Services REST API](/rest/api/analysisservices/)  
  [Analysis Services references](analysis-services-references.md)
