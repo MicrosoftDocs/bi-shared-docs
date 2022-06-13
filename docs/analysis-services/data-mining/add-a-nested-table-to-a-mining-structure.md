@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Add a Nested Table to a Mining Structure
-[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sql2019-earlier](../includes/appliesto-sql2019-earlier.md)]
   Use Data Mining Designer to add a nested table to a mining structure after it has been created by the Data Mining Wizard.  
 
 [!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]

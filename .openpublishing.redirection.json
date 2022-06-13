@@ -4912,7 +4912,16 @@
         "source_path": "docs/analysis-services/deployment/deployment-script-files-specifying-processing-options.md",
         "redirect_url": "/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard",
         "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md",
+        "redirect_url": "/analysis-services/analysis-services-features-by-edition",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/analysis-services/analysis-services-backward-compatibility.md",
+        "redirect_url": "/analysis-services/what-s-new-in-sql-server-analysis-services",
+        "redirect_document_id": false
     }
-
   ]
 }

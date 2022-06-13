@@ -1,7 +1,7 @@
 ---
 title: "Power Pivot for SharePoint (SSAS) | Microsoft Docs"
 description: Learn how Analysis Services in Power Pivot mode provides server hosting of Power Pivot data in a SharePoint farm.
-ms.date: 05/18/2022
+ms.date: 06/09/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: ppvt-sharepoint
@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Power Pivot for SharePoint
 
-[!INCLUDE[appliesto-sql2016-later](includes/appliesto-sql2016-later.md)]
+[!INCLUDE[appliesto-sql2019-earlier](includes/appliesto-sql2019-earlier.md)]
   
-Analysis Services in Power Pivot mode provides server hosting of Power Pivot data in a SharePoint farm. Power Pivot data is an analytical data model users create with Power Pivot in Excel. Server hosting of workbooks requires SharePoint, Excel Services, and an installation of Power Pivot for SharePoint. Data is loaded on Power Pivot for SharePoint instances where it can be refreshed at scheduled intervals using the Power Pivot data refresh capability. 
-
 > [!IMPORTANT]
-> Power Pivot mode is [discontinued](analysis-services-backward-compatibility.md) in SQL Server 2022 Analysis Services. Power Pivot mode in SQL Server 2019, 2017, 2016 Analysis Services remains supported for SharePoint 2016 and SharePoint 2013. Microsoft's BI strategy has shifted away from Power Pivot in Excel integration with SharePoint. [Power BI](https://powerbi.com/) and [Power BI Report Server](https://powerbi.microsoft.com/report-server/) are now the recommended platforms to host Excel workbooks with Power Pivot models. 
-  
+> Power Pivot mode is [Discontinued](what-s-new-in-sql-server-analysis-services.md?view=sql-analysis-services-2022&preserve-view=true#discontinued-features-in-ssas-2022) in SQL Server 2022 Analysis Services. Power Pivot mode in SQL Server 2019, 2017, 2016 Analysis Services remains supported for SharePoint 2016 and SharePoint 2013. Microsoft's BI strategy has shifted away from Power Pivot in Excel integration with SharePoint. [Power BI](https://powerbi.com/) and [Power BI Report Server](https://powerbi.microsoft.com/report-server/) are now the recommended platforms to host Excel workbooks with Power Pivot models.
+
+Analysis Services in Power Pivot mode provides server hosting of Power Pivot data in a SharePoint farm. Power Pivot data is an analytical data model users create with Power Pivot in Excel. Server hosting of workbooks requires SharePoint, Excel Services, and an installation of Power Pivot for SharePoint. Data is loaded on Power Pivot for SharePoint instances where it can be refreshed at scheduled intervals using the Power Pivot data refresh capability.
+
 ## Power Pivot for SharePoint 2019
 
 Support for Power Pivot Gallery and Refresh was removed from SharePoint Server 2019, effectively ending Analysis Services Power Pivot for SharePoint support for SharePoint 2019 and later. To learn more, see [What's deprecated or removed from SharePoint Server 2019](

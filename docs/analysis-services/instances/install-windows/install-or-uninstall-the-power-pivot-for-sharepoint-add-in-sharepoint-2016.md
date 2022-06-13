@@ -1,7 +1,7 @@
 ---
 title: "Install or Uninstall the Power Pivot for SharePoint Add-in (SharePoint 2016) | Microsoft Docs"
 description: Learn how to install or uninstall the Power Pivot for SharePoint Add-in, a collection of application server components and back-end services in SharePoint 2016.
-ms.date: 05/18/2022
+ms.date: 06/09/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: ppvt-sharepoint
@@ -12,8 +12,12 @@ author: minewiskan
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Install or Uninstall the Power Pivot for SharePoint Add-in (SharePoint 2016)
-[!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
-  [!INCLUDE[ssGeminiShort2017](../../includes/ssgeminishort2017-md.md)] is a collection of application server components and back-end services that provide [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data access in a [!INCLUDE[SPS2016](../../includes/sps2016-md.md)] farm. The [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint add-in (**spPowerpivot16.msi**) is an installer package used to install the application server components.  
+
+[!INCLUDE[appliesto-sql2019-earlier](../../includes/appliesto-sql2019-earlier.md)]
+
+[!INCLUDE[dm-dep-banner](../../includes/dm-dep-banner.md)]
+
+[!INCLUDE[ssGeminiShort2017](../../includes/ssgeminishort2017-md.md)] is a collection of application server components and back-end services that provide [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] data access in a [!INCLUDE[SPS2016](../../includes/sps2016-md.md)] farm. The [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint add-in (**spPowerpivot16.msi**) is an installer package used to install the application server components.  
   
  **Note:** This topic describes installing the [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] solution files and [!INCLUDE[ssGemini](../../includes/ssgemini-md.md)] for SharePoint 2016 Configuration tool. After the installation, see the following topic for information on the configuration tool and additional features, [Configure Power Pivot and Deploy Solutions &#40;SharePoint 2013&#41;](../../../analysis-services/instances/install-windows/configure-power-pivot-and-deploy-solutions-sharepoint-2013.md).  
   

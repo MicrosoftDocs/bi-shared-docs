@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Select a Mining Model and a Data Mining Viewer
-[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sql2019-earlier](../includes/appliesto-sql2019-earlier.md)]
 
 [!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
 

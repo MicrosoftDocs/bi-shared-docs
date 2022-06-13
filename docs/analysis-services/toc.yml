@@ -12,10 +12,8 @@
       href: ssas-overview.md
     - name: What's new in SQL Server Analysis Services
       href: what-s-new-in-sql-server-analysis-services.md
-    - name: Analysis Services features supported by SQL Server editions
-      href: analysis-services-features-supported-by-the-editions-of-sql-server-2016.md
-    - name: Backward compatibility
-      href: analysis-services-backward-compatibility.md
+    - name: Features supported by SQL Server edition
+      href: analysis-services-features-by-edition.md
     - name: Power Pivot for Sharepoint
       href: power-pivot-for-sharepoint-ssas.md
   - name: Analysis Services tools
@@ -266,7 +264,7 @@
       href: ../analysis-services/tabular-models/tabular-model-designer-ssas.md
     - name: Workspace database
       href: ../analysis-services/tabular-models/workspace-database-ssas-tabular.md
-    - name: DAX for tabular models
+    - name: DAX in tabular models
       href: ../analysis-services/tabular-models/understanding-dax-in-tabular-models-ssas-tabular.md
     - name: String storage and collation
       href: ../analysis-services/tabular-models/string-storage-and-collation-in-tabular-models.md
@@ -1218,12 +1216,6 @@
       href: ../analysis-services/instances/log-operations-in-analysis-services.md
   - name: Manage servers
     items:
-    - name: SQL Server Analysis Services server management overview
-      href: ../analysis-services/instances/analysis-services-instance-management.md
-    - name: High availability and scalability
-      href: ../analysis-services/instances/high-availability-and-scalability-in-analysis-services.md
-    - name: Query interleaving
-      href: ../analysis-services/tabular-models/query-interleaving.md
     - name: Server properties
       items:
       - name: Server properties overview
@@ -1252,20 +1244,28 @@
         href: ../analysis-services/server-properties/security-properties.md
       - name: Thread pool properties
         href: ../analysis-services/server-properties/thread-pool-properties.md
+    - name: SQL Server Analysis Services server management
+      items: 
+      - name: SSAS server management overview
+        href: ../analysis-services/instances/analysis-services-instance-management.md
+      - name: High availability and scalability
+        href: ../analysis-services/instances/high-availability-and-scalability-in-analysis-services.md
+      - name: Automate administrative tasks with SSIS
+        href: ../analysis-services/instances/automate-analysis-services-administrative-tasks-with-ssis.md
+      - name: Database Consistency Checker (DBCC)
+        href: ../analysis-services/instances/database-consistency-checker-dbcc-for-analysis-services.md
+      - name: Schedule administrative tasks with SQL Server Agent
+        href: ../analysis-services/instances/schedule-ssas-administrative-tasks-with-sql-server-agent.md
     - name: Clear server caches
       href: ../analysis-services/instances/clear-the-analysis-services-caches.md
-    - name: Database Consistency Checker (DBCC)
-      href: ../analysis-services/instances/database-consistency-checker-dbcc-for-analysis-services.md
+    - name: Query interleaving
+      href: ../analysis-services/tabular-models/query-interleaving.md
     - name: Analysis Services scripts project in SSMS
       href: ../analysis-services/instances/analysis-services-scripts-project-in-sql-server-management-studio.md
     - name: Create Analysis Services scripts in SSMS
       href: ../analysis-services/instances/create-analysis-services-scripts-in-management-studio.md
-    - name: Schedule administrative tasks with SQL Server Agent
-      href: ../analysis-services/instances/schedule-ssas-administrative-tasks-with-sql-server-agent.md
     - name: Use templates in SSMS
       href: ../analysis-services/instances/use-analysis-services-templates-in-sql-server-management-studio.md
-    - name: Automate administrative tasks with SSIS
-      href: ../analysis-services/instances/automate-analysis-services-administrative-tasks-with-ssis.md
   - name: Connect
     items:
     - name: Connection string properties

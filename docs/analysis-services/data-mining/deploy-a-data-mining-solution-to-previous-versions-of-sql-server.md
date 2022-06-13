@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Deploy a Data Mining Solution to Previous Versions of SQL Server
-[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sql2019-earlier](../includes/appliesto-sql2019-earlier.md)]
 
 [!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
 
@@ -66,8 +66,3 @@ author: minewiskan
  Database synchronization is not supported from [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] to SQL Server 2005.  
   
  If you attempt to synchronize a [!INCLUDE[ssCurrent](../includes/sscurrent-md.md)] database, the server returns an error and database synchronization fails.  
-  
-## See Also  
- [Analysis Services Backward Compatibility](../../analysis-services/analysis-services-backward-compatibility.md)  
-  
-  

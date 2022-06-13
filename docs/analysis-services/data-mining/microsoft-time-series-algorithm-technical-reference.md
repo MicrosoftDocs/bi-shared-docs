@@ -12,7 +12,7 @@ author: minewiskan
 
 ---
 # Microsoft Time Series Algorithm Technical Reference
-[!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
+[!INCLUDE[appliesto-sql2019-earlier](../includes/appliesto-sql2019-earlier.md)]
 
 [!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
 
@@ -66,7 +66,7 @@ author: minewiskan
  The [!INCLUDE[msCoName](../includes/msconame-md.md)] Time Series algorithm supports the following parameters that affect the behavior, performance, and accuracy of the resulting mining model.  
   
 > [!NOTE]  
->  The Microsoft Time Series algorithm is available in all editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)]; however, some advanced features, including parameters for customizing the time series analysis, are supported only in specific editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)]. For a list of features that are supported by the editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)], see [Features Supported by the Editions of SQL Server](../../analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016.md).  
+>  The Microsoft Time Series algorithm is available in all editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)]; however, some advanced features, including parameters for customizing the time series analysis, are supported only in specific editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)]. For a list of features that are supported by the editions of [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)], see [Features Supported by the Editions of SQL Server](../../analysis-services/analysis-services-features-by-edition.md).  
   
 ### Detection of Seasonality  
  Both ARIMA and ARTXP algorithms support detection of seasonality or periodicity. [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses Fast Fourier transformation to detect seasonality before training. However, you can affect seasonality detection, and the results of time series analysis, by setting algorithm parameters.  
