@@ -67,7 +67,7 @@ To minimize risk and potential security vulnerabilities, beginning June 30th, 20
 
 #### AMO and ADOMD
 
-Beginning with version 19.42.0.4, ADOMD.NET and AMO/TOM use MSAL ([Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/)) version 4.43.0 and higher instead of ADAL to authenticate users with AAD when establishing a connection to cloud-based services like Power-BI and Azure Analysis Services. If your application or another component the application depends on is using MSAL, it may be necessary to update the application's binding redirect settings if there are conflicts between the versions of MSAL loaded by the components.
+Beginning with version 19.42.0.4, ADOMD.NET and AMO/TOM use MSAL ([Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/)) version 4.43.0 instead of ADAL to authenticate users with AAD when establishing a connection to cloud-based services like Power-BI and Azure Analysis Services. If your application or another component the application depends on is using MSAL, it may be necessary to update the application's binding redirect settings if there are conflicts between the versions of MSAL loaded by the components.
 
 #### AMO and ADOMD .Net Core 
 
