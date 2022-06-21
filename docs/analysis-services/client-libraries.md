@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 06/20/2022
+ms.date: 06/21/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -65,13 +65,17 @@ To minimize risk and potential security vulnerabilities, beginning June 30th, 20
 
 ## Known issues
 
+#### AMO and ADOMD
+
+Beginning with version 19.42.0.4, ADOMD.NET and AMO/TOM use MSAL [Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/) instead of ADAL to authenticate users with AAD when a establishing a connection to cloud-based services like Power-BI and Azure Analysis Services. If your application or any other component your application depends on is using MSAL, it may be necessary to update binding redirect settings if there are conflicts between the versions of MSAL loaded by the components.
+
 #### AMO and ADOMD .Net Core 
 
 Supported scenarios include connections to Azure Analysis Services, Power BI Premium, and SQL Server Analysis Services. TCP based connectivity is supported for Windows computers only.
 
 Interactive login with Azure Active Directory is supported for Windows computers only. The .NET Core Desktop runtime is required.
 
-Dependency in MSAL requires version 4.6.0 and higher.
+Dependency in MSAL requires version 4.43.0 and higher.
 
 Version 19.14.0 of the .Net Core client libraries introduced preview support for Self-Contained publishing (both in a published directory, and in single-file mode), as well as support for consumption by .NET 5.0 projects. A number of issues related to connectivity to SQL Server Analysis Services that were identified in the previous release have been fixed.
 
