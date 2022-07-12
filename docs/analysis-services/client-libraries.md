@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 06/21/2022
+ms.date: 07/11/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -24,10 +24,10 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    16.0.35.23         |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.35.23           |
-|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.42.0.4         |
-|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.42.0.4           |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    16.0.39.19         |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.39.19           |
+|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.46.0.0         |
+|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.46.0.0           |
 
 ### NuGet packages
 
@@ -41,15 +41,15 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.42.0.4     |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.42.0.4       |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.46.0.0     |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.46.0.0       |
 
 #### AMO and ADOMD .Net Core
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.42.0.4      |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.42.0.4        |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.46.0.0      |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.46.0.0        |
 
 ## Minimum required versions
 
