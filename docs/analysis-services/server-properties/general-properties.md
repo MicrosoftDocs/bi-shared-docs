@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services general properties | Microsoft Docs"
 description:  Learn about the available general properties in Analysis Services, like AdminTimeout and ExternalCommandTimeout. 
-ms.date: 05/03/2021
+ms.date: 07/21/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -9,41 +9,40 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # General properties
 
-[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
 **Applies to:** Multidimensional and tabular server mode unless noted otherwise.
 
-[!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following server properties. This articles describes those server properties in the msmdsrv.ini file that are not otherwise included in a specific section, such as Security, Network, or ThreadPool.
+Analysis Services includes the following server/workspace properties. This articles describes those properties that are not otherwise included in a specific collection, such as Security, Network, or ThreadPool.
 
 ## Non-specific category
 
- **AdminTimeout**  
- A signed 32-bit integer property that defines the administrator timeout in seconds. This is an advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+**AdminTimeout**  
+A signed 32-bit integer property that defines the administrator timeout in seconds. This is an advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- The default value for this property is zero (0), which indicates there is no timeout.  
+The default value for this property is zero (0), which indicates there is no timeout.  
   
- **AllowedBrowsingFolders**  
- A string property that specifies in a delimited list the folders that can be browsed when saving, opening, and finding files in Analysis Services dialog boxes. The Analysis Services service account must have read and write permissions to any folders that you add to the list.  
- 
- **AutoSetDefaultInitialCatalog**   
-A Boolean property. When set to true, new client connections automatically default to the first catalog (database) the user has permissions to connect to.   
-When set to false, no initial catalog is specified. Clients must select a default catalog prior to running queries or discover operations against a database on the server. If no default catalog is specified, an error is returned. If Initial Catalog property is specified in the connection string, the default catalog will be applied from this property.   
+**AllowedBrowsingFolders**  
+A string property that specifies in a delimited list the folders that can be browsed when saving, opening, and finding files in Analysis Services dialog boxes. The Analysis Services service account must have read and write permissions to any folders that you add to the list.  
+
+**AutoSetDefaultInitialCatalog**
+A Boolean property. When set to true, new client connections automatically default to the first catalog (database) the user has permissions to connect to.
+When set to false, no initial catalog is specified. Clients must select a default catalog prior to running queries or discover operations against a database on the server. If no default catalog is specified, an error is returned. If Initial Catalog property is specified in the connection string, the default catalog will be applied from this property.
 
 The default value for this property is true.
   
  **BackupDir**  
  A string property that identifies the name of the directory where backup files are stored by default, in the event a path is not specified as part of the Backup command.  
- 
+
 **ClientCacheRefreshPolicy**
- Applies to Azure Analysis Services and SQL Server 2019 and later only. Overrides the **Scheduled cache refresh** setting for all Power BI datasets. All Live Connect reports will observe the server-level setting irrespective of the dataset-level setting, or which workspace they reside on.
+ Applies to Power BI, Azure Analysis Services and SQL Server 2019 and later only. Overrides the **Scheduled cache refresh** setting for all Power BI datasets. All Live Connect reports will observe the server-level setting irrespective of the dataset-level setting, or which workspace they reside on.
 
 The default value for this property is -1, which allows all background cache refreshes as specified in the Scheduled cache refresh setting for the dataset. To discourage all background cache refreshes, specify zero (0).
 
-  
  **CollationName**  
  A string property that identifies the server collation. For more information, see [Languages and Collations &#40;Analysis Services&#41;](../../analysis-services/languages-and-collations-analysis-services.md).  
   
@@ -107,12 +106,12 @@ The default value for this property is -1, which allows all background cache ref
  The default value for this property is 30 seconds (30000 milliseconds), which indicates that other commands will not be forced to timeout until the commit transaction has been waiting for 30 seconds.  
   
 > [!NOTE]  
->  Queries and processes cancelled by this event will report the following error message: "`Server: The operation has been cancelled`"  
+> Queries and processes cancelled by this event will report the following error message: "`Server: The operation has been cancelled`"  
   
  For more information about this property, see [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
   
 > [!IMPORTANT]  
->  **ForceCommitTimeout** applies to cube processing commands and to writeback operations.  
+> **ForceCommitTimeout** applies to cube processing commands and to writeback operations.  
   
  **IdleConnectionTimeout**  
  An integer property that specifies a timeout, in seconds, for connections that are inactive.  
@@ -150,7 +149,7 @@ The default value for this property is -1, which allows all background cache ref
  **TempDir**  
  A string property that specifies the location for storing temporary files used during processing, restoring, and other operations. The default value for this property is determined by setup. If not specified, the default is the Data directory.  
   
-## RequestPrioritization category  
+## RequestPrioritization category
  **Enabled**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   

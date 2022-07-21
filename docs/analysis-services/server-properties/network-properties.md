@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services network properties | Microsoft Docs"
 description: Learn about the available network properties in Analysis Services, like ListenOnlyOnLocalConnections and MaxAllowedRequestSize.
-ms.date: 05/03/2021
+ms.date: 07/21/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -9,16 +9,14 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 
 # Network properties
 
-[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-[!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following server properties. Not all properties apply to Azure Analysis Services and Power BI Premium.
-
-**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
+Analysis Services supports the following server properties.
   
 ## General
 

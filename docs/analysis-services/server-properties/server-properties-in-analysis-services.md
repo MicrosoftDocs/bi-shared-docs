@@ -1,7 +1,7 @@
 ---
 title: "Server Properties in Analysis Services | Microsoft Docs"
 description: Learn how to modify default server configuration properties of an Azure Analysis Services (Azure AS) or SQL Server Analysis Services (SSAS) instance.
-ms.date: 02/07/2022
+ms.date: 07/21/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -9,67 +9,89 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Server properties in Analysis Services
 
-[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Administrators can modify default server configuration properties of an Azure Analysis Services (Azure AS) or SQL Server Analysis Services (SSAS) instance. To configure server properties, use SQL Server Management Studio.
+Administrators can modify many default configuration properties of an Azure Analysis Services (Azure AS) server resource instance, SQL Server Analysis Services (SSAS) server instance, or a Power BI workspace.
 
-Properties pages in SQL Server Management Studio show a subset of the properties most likely to be modified.  For SSAS, all properties are in the msmdsrv.ini file. In a default installation, msmdsrv.ini can be found in the \Program Files\Microsoft SQL Server\MSAS13.MSSQLSERVER\OLAP\Config folder.
+> [!NOTE]
+> In Power BI, a workspace is effectively an Analysis Services server. In context of Analysis Services, the terms workspace, server, and instance are synonymous.
+
+Properties pages in SQL Server Management Studio show a subset of the properties most likely to be modified. For SSAS, all properties are in the msmdsrv.ini file.
+
+## Permissions
+
+- For Azure AS and SSAS, server administrator permissions are required to modify server properties. 
+- For Power BI, workspace admin permissions are required to modify workspace properties. Non-admin workspace users have Read only permissions to view workspace settings.
+
+## Power BI XMLA-based workspace settings
+
+In Power BI, the following workspace settings can override equivalent capacity settings for workspaces assigned to the capacity:
+
+- ExternalCommandTimeout
+- ExternalConnectionTimeout
+- ForceCommitTimeout
+- ClientCacheRefreshPolicy
+- DefaultSegmentRowCount
+- CommitTimeout
+- AdminTimeOut
+
+Capacity admins can enable or disable the ability for workspace admins to modify these workspace settings by using XMLA script in SQL Server Management Studio. By default, this setting is enabled, meaning workspace admins can modify the settings. Capacity admins can disable this setting in the Admin portal, in **Capacity settings** > **Workloads** > **DATASETS** > **Observe XMLA-based settings**.
+
+:::image type="content" source="media/pbi-workspace-enable-xmla.png" alt-text="Image of Power BI Workload Datasets settings. ":::
+
+## Configure properties by using SQL Server Management Studio
   
-## Configure properties by using SQL Server Management Studio 
-  
-1.  In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], connect to an Azure AS or SSAS instance.  
+1. In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], connect to an SSAS, Azure AS, or Power BI instance.  
   
 2. In Object Explorer, right-click the instance, and then click **Properties**. The General page appears, displaying the more commonly used properties.  
 
-3.  To view additional properties, click the **Show Advanced (All) Properties** checkbox at the bottom of the page.  
+3. To view additional properties, click the **Show Advanced (All) Properties** checkbox at the bottom of the page.  
   
      Modifying server properties is supported only for tabular mode and multidimensional mode servers. If you installed [!INCLUDE[ssGeminiShort](../includes/ssgeminishort-md.md)], always use the default values unless otherwise directed otherwise by Microsoft Support.  
-  
-## Configure properties in msmdsrv.ini
-  
-Some properties can only be set in the msmdrsrv.ini file. These properties do not apply to Azure Analysis Services.
-If the property you want to set is not visible even after you show advanced properties, you might need to edit the msmdsrv.ini file directly. 
-  
-1.  Check the **DataDir** property in the General property page in Management Studio to verify the location of the Analysis Services program files, including the msmdsrv.ini file.
-
-     On a server that has multiple instances, checking the program file location ensures you're modifying the correct file.  
-  
-2.  Navigate to the **config** folder of the program files folder location.
-
-3. Create a backup of the file in case you need to revert to the original file.  
-  
-4.  Use a text editor to view or edit the msmdsrv.ini file.  
-  
-5.  Save the file and restart the service.  
-
 
 ## Configure properties by using XMLA
 
-Properties that cannot be set by using Properties in SSMS or in msmdrsrv.ini file can be set by using the [XMLA Alter Element](../xmla/xml-elements-commands/alter-element-xmla.md) in an XMLA script in SSMS. 
+Properties that cannot be set by using Properties in SSMS or in the msmdrsrv.ini file can be set by using the [XMLA Alter Element](../xmla/xml-elements-commands/alter-element-xmla.md) in an XMLA script in SSMS.
+
+## Configure properties in msmdsrv.ini
+  
+For SSAS, some properties can only be set in the msmdrsrv.ini file. These properties do not apply to Azure Analysis Services or Power BI. If the property you want to set is not visible even after you show advanced properties, you might need to edit the msmdsrv.ini file directly. For a default installation, msmdsrv.ini can be found in the \Program Files\Microsoft SQL Server\MSAS13.MSSQLSERVER\OLAP\Config folder.
+  
+1. Check the **DataDir** property in the General property page in Management Studio to verify the location of the Analysis Services program files, including the msmdsrv.ini file.
+
+     On a server that has multiple instances, checking the program file location ensures you're modifying the correct file.  
+  
+2. Navigate to the **config** folder of the program files folder location.
+
+3. Create a backup of the file in case you need to revert to the original file.  
+  
+4. Use a text editor to view or edit the msmdsrv.ini file.  
+  
+5. Save the file and restart the service.  
 
 ## Server property categories  
   
- The following topics describe the various [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] configuration properties:  
+ The following articles describe the various configuration properties:  
   
-|Topic|Description|  
-|-----------|-----------------|  
-|[General Properties](../../analysis-services/server-properties/general-properties.md)|The general properties are both basic and advanced properties, and include properties that define the data directory, backup directory, and other server behaviors.|  
-|[Data Mining Properties](../../analysis-services/server-properties/data-mining-properties.md)|The data mining properties control which data mining algorithms are enabled and which are disabled. By default, all of the algorithms are enabled.| 
-|[DAX Properties](../../analysis-services/server-properties/dax-properties.md)|Defines properties related to DAX queries.|
-|DSO|DSO is no longer supported. DSO properties are ignored.|  
-|[Feature Properties](../../analysis-services/server-properties/feature-properties.md)|The feature properties pertain to product features, most of them advanced, including properties that control links between server instances.|  
-|[Filestore Properties](../../analysis-services/server-properties/filestore-properties.md)|The file store properties are for advanced use only. They include advanced memory management settings.|  
-|[Lock Manager Properties](../../analysis-services/server-properties/lock-manager-properties.md)|The lock manager properties define server behaviors pertaining to locking and timeouts. Most of these properties are for advanced use only.|  
-|[Log Properties](../../analysis-services/server-properties/log-properties.md)|The log properties controls if, where, and how events are logged on the server. This includes error logging, exception logging, flight recorder, query logging, and traces.|  
-|[Memory Properties](../../analysis-services/server-properties/memory-properties.md)|The memory properties control how the server uses memory. They are primarily for advanced use.|  
-|[Network Properties](../../analysis-services/server-properties/network-properties.md)|The network properties control server behavior pertaining to networking, including properties that control compression and binary XML. Most of these properties are for advanced use only.|  
-|[OLAP Properties](../../analysis-services/server-properties/olap-properties.md)|The OLAP properties control cube and dimension processing, lazy processing, data caching, and query behavior. These include both basic and advanced properties.|  
-|[Security Properties](../../analysis-services/server-properties/security-properties.md)|The security section contains both basic and advanced properties that define access permissions. This includes settings pertaining to administrators and users.|  
-|[Thread Pool Properties](../../analysis-services/server-properties/thread-pool-properties.md)|The thread pool properties control how many threads the server creates. These are primarily advanced properties.|  
+|Topic|Applies to | Description|  
+|-----------|-----------------|-----------------|  
+|[General Properties](../../analysis-services/server-properties/general-properties.md)|Azure AS, SSAS, Power BI|General properties are both basic and advanced properties, and include properties that define the data directory, backup directory, and other server behaviors. |  
+|[Data Mining Properties](../../analysis-services/server-properties/data-mining-properties.md)|SSAS|Data mining properties control which data mining algorithms are enabled and which are disabled. By default, all of the algorithms are enabled.| 
+|[DAX Properties](../../analysis-services/server-properties/dax-properties.md)|Azure AS, SSAS, Power BI|Defines properties related to DAX queries.|
+|DSO|N/A|DSO is no longer supported. DSO properties are ignored.|  
+|[Feature Properties](../../analysis-services/server-properties/feature-properties.md)|Azure AS, SSAS, Power BI|Feature properties pertain to product features, most of them advanced, including properties that control links between server instances.|  
+|[Filestore Properties](../../analysis-services/server-properties/filestore-properties.md)|Azure AS, SSAS, Power BI|File store properties are for advanced use only. They include advanced memory management settings.|  
+|[Lock Manager Properties](../../analysis-services/server-properties/lock-manager-properties.md)|Azure AS, SSAS, Power BI|Lock manager properties define server behaviors pertaining to locking and timeouts. Most of these properties are for advanced use only.|  
+|[Log Properties](../../analysis-services/server-properties/log-properties.md)|Azure AS, SSAS, Power BI|Log properties controls if, where, and how events are logged on the server. This includes error logging, exception logging, flight recorder, query logging, and traces.|  
+|[Memory Properties](../../analysis-services/server-properties/memory-properties.md)|Azure AS, SSAS, Power BI|Memory properties control how the server uses memory. They are primarily for advanced use.|  
+|[Network Properties](../../analysis-services/server-properties/network-properties.md)|Azure AS, SSAS, Power BI|Network properties control server behavior pertaining to networking, including properties that control compression and binary XML. Most of these properties are for advanced use only.|  
+|[OLAP Properties](../../analysis-services/server-properties/olap-properties.md)|Azure AS, SSAS|OLAP properties control cube and dimension processing, lazy processing, data caching, and query behavior. These include both basic and advanced properties.|  
+|[Security Properties](../../analysis-services/server-properties/security-properties.md)|Azure AS, SSAS, Power BI|Security properties contain both basic and advanced properties that define access permissions. This includes settings pertaining to administrators and users.|  
+|[Thread Pool Properties](../../analysis-services/server-properties/thread-pool-properties.md)|Azure AS, SSAS|Thread pool properties control how many threads the server creates. These are primarily advanced properties.|  
   
 ## See also
 

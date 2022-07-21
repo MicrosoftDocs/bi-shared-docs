@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services filestore properties | Microsoft Docs"
 description:  Learn about the available filestore properties in Analysis Services, like MemoryLimit and PerformanceTrace. 
-ms.date: 05/03/2021
+ms.date: 07/21/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -9,16 +9,14 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 
 # Filestore properties
 
-[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
-
-[!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following filestore properties. These are all advanced properties that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.
+Analysis Services includes the following filestore properties. These are all advanced properties that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.
 
 ## Properties
 
@@ -41,7 +39,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
   
  You will need to run comparison tests to determine whether query performance is improved as the result of changing this property. For best practices on running comparison tests, including clearing the cache and avoiding common mistakes, see the [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)). For additional information on the tradeoffs of using this property, see [https://support.microsoft.com/kb/2549369](https://support.microsoft.com/kb/2549369).  
   
- To view or modify this property in Management Studio, enable the advanced properties list in the server properties page. You can also change the property in the msmdsrv.ini file. Restarting the server is recommended after setting this property; otherwise files that are already open will continue to be accessed in the previous mode.  
+ To view or modify this property in SQL Server Management Studio, enable the advanced properties list in the server properties page. You can also change the property in the msmdsrv.ini file. Restarting the server is recommended after setting this property; otherwise files that are already open will continue to be accessed in the previous mode.  
   
  **UnbufferedThreshold**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  

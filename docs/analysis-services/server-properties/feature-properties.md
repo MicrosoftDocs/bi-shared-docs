@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services Feature properties | Microsoft Docs"
 description: Learn about the available feature properties in Analysis Services, like ManagedCodeEnabled and ComUdfEnabled. 
-ms.date: 05/04/2022
+ms.date: 07/21/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -9,16 +9,14 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 
 # Feature properties
 
-[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-  Feature properties pertain to product features, most of them advanced, including properties that control links between server instances.  
-  
- Analysis Services supports the server properties listed in the following table. To learn more about additional server properties and how to set them, see [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).  
+Feature properties pertain to product features, most of them advanced, including properties that control links between server instances. In Power BI, all Feature properties are Read Only.
 
 ## Properties  
   
@@ -37,7 +35,6 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 ## See also
 
- [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
- [Determine the server mode of an Analysis Services instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)   
- [Use Dynamic Management Views &#40;DMVs&#41; to monitor Analysis Services](../../analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md)  
-  
+[Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
+[Determine the server mode of an Analysis Services instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)   
+[Use Dynamic Management Views &#40;DMVs&#41; to monitor Analysis Services](../../analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md)  
