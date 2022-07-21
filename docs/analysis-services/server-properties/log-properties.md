@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Analysis Services includes log server properties listed in the following tables. Not all properties apply to Azure Analysis Services or Power BI. Log properties in Power BI are either Read only or unsupported.
+Analysis Services includes log properties listed in the following tables. Not all properties apply to Azure Analysis Services or Power BI. Log properties in Power BI are either Read only or unsupported.
 
 ## General
 

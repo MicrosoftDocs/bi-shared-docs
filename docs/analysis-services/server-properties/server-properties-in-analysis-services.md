@@ -27,9 +27,11 @@ Properties pages in SQL Server Management Studio show a subset of the properties
 - For Azure AS and SSAS, server administrator permissions are required to modify server properties. 
 - For Power BI, workspace admin permissions are required to modify workspace properties. Non-admin workspace users have Read only permissions to view workspace settings.
 
-## Power BI XMLA-based workspace settings
+## Power BI XMLA-based workspace properties
 
-In Power BI, the following workspace settings can override equivalent capacity settings for workspaces assigned to the capacity:
+Most properties in each of the categories described below support Read\Write, Read Only, or are unsupported for Power BI workspaces.
+
+The following [General](general-properties.md) workspace property settings can override equivalent capacity settings for workspaces assigned to the capacity:
 
 - ExternalCommandTimeout
 - ExternalConnectionTimeout
@@ -39,11 +41,11 @@ In Power BI, the following workspace settings can override equivalent capacity s
 - CommitTimeout
 - AdminTimeOut
 
-Capacity admins can enable or disable the ability for workspace admins to modify these workspace settings by using XMLA script in SQL Server Management Studio. By default, this setting is enabled, meaning workspace admins can modify the settings. Capacity admins can disable this setting in the Admin portal, in **Capacity settings** > **Workloads** > **DATASETS** > **Observe XMLA-based settings**.
+Capacity admins can enable or disable the ability for workspace admins to modify these workspace property settings by using XMLA script in SQL Server Management Studio. By default, this setting is enabled, meaning workspace admins can modify the property settings. Capacity admins can disable this setting in the Admin portal, in **Capacity settings** > **Workloads** > **DATASETS** > **Observe XMLA-based settings**.
 
 :::image type="content" source="media/pbi-workspace-enable-xmla.png" alt-text="Image of Power BI Workload Datasets settings. ":::
 
-## Configure properties by using SQL Server Management Studio
+## Configure by using SQL Server Management Studio
   
 1. In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], connect to an SSAS, Azure AS, or Power BI instance.  
   
@@ -53,15 +55,15 @@ Capacity admins can enable or disable the ability for workspace admins to modify
   
      Modifying server properties is supported only for tabular mode and multidimensional mode servers. If you installed [!INCLUDE[ssGeminiShort](../includes/ssgeminishort-md.md)], always use the default values unless otherwise directed otherwise by Microsoft Support.  
 
-## Configure properties by using XMLA
+## Configure by using XMLA
 
 Properties that cannot be set by using Properties in SSMS or in the msmdrsrv.ini file can be set by using the [XMLA Alter Element](../xmla/xml-elements-commands/alter-element-xmla.md) in an XMLA script in SSMS.
 
-## Configure properties in msmdsrv.ini
+## Configure in msmdsrv.ini
   
 For SSAS, some properties can only be set in the msmdrsrv.ini file. These properties do not apply to Azure Analysis Services or Power BI. If the property you want to set is not visible even after you show advanced properties, you might need to edit the msmdsrv.ini file directly. For a default installation, msmdsrv.ini can be found in the \Program Files\Microsoft SQL Server\MSAS13.MSSQLSERVER\OLAP\Config folder.
   
-1. Check the **DataDir** property in the General property page in Management Studio to verify the location of the Analysis Services program files, including the msmdsrv.ini file.
+1. Check the **DataDir** property in the General properties page in Management Studio to verify the location of the Analysis Services program files, including the msmdsrv.ini file.
 
      On a server that has multiple instances, checking the program file location ensures you're modifying the correct file.  
   
@@ -82,7 +84,6 @@ For SSAS, some properties can only be set in the msmdrsrv.ini file. These proper
 |[General Properties](../../analysis-services/server-properties/general-properties.md)|Azure AS, SSAS, Power BI|General properties are both basic and advanced properties, and include properties that define the data directory, backup directory, and other server behaviors. |  
 |[Data Mining Properties](../../analysis-services/server-properties/data-mining-properties.md)|SSAS|Data mining properties control which data mining algorithms are enabled and which are disabled. By default, all of the algorithms are enabled.| 
 |[DAX Properties](../../analysis-services/server-properties/dax-properties.md)|Azure AS, SSAS, Power BI|Defines properties related to DAX queries.|
-|DSO|N/A|DSO is no longer supported. DSO properties are ignored.|  
 |[Feature Properties](../../analysis-services/server-properties/feature-properties.md)|Azure AS, SSAS, Power BI|Feature properties pertain to product features, most of them advanced, including properties that control links between server instances.|  
 |[Filestore Properties](../../analysis-services/server-properties/filestore-properties.md)|Azure AS, SSAS, Power BI|File store properties are for advanced use only. They include advanced memory management settings.|  
 |[Lock Manager Properties](../../analysis-services/server-properties/lock-manager-properties.md)|Azure AS, SSAS, Power BI|Lock manager properties define server behaviors pertaining to locking and timeouts. Most of these properties are for advanced use only.|  
@@ -95,6 +96,6 @@ For SSAS, some properties can only be set in the msmdrsrv.ini file. These proper
   
 ## See also
 
- [Analysis Services instance management](../../analysis-services/instances/analysis-services-instance-management.md)   
+ [Analysis Services instance management](../../analysis-services/instances/analysis-services-instance-management.md)  
  [Deploy by using the Deployment Wizard](../../analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard.md)  
   

@@ -42,7 +42,7 @@ An advanced property that you should not change, except under the guidance of [!
 
 ##### HardMemoryLimit
 
-Specifies a memory threshold after which the instance aggressively terminates active user sessions to reduce memory usage. All terminated sessions will receive an error about being canceled by memory pressure. The default value, zero (0), means the **HardMemoryLimit** will be set to a midway value between **TotalMemoryLimit** and the total physical memory of the system; if the physical memory of the system is larger than the virtual address space of the process, then virtual address space will be used instead to calculate **HardMemoryLimit**. This value isn't configurable for Azure Analysis Services. 
+Specifies a memory threshold after which the instance aggressively terminates active user sessions to reduce memory usage. All terminated sessions will receive an error about being canceled by memory pressure. The default value, zero (0), means the **HardMemoryLimit** will be set to a midway value between **TotalMemoryLimit** and the total physical memory of the system; if the physical memory of the system is larger than the virtual address space of the process, then virtual address space will be used instead to calculate **HardMemoryLimit**. This value isn't configurable for Azure Analysis Services.
 
 ##### HeapTypeForObjects
 
@@ -57,11 +57,11 @@ Setting | Description
 
 ##### HighMemoryPrice
 
-An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support. 
+An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.
 
 ##### LowMemoryLimit
 
- A signed 64-bit double-precision floating-point number property that defines the first threshold at which Analysis Services begins releasing memory for low-priority objects, such as an infrequently used cache. Once the memory is allocated, the server does not release memory below this limit. The default value is 65; which indicates the low memory limit is 65% of physical memory or the virtual address space, whichever is less.  
+A signed 64-bit double-precision floating-point number property that defines the first threshold at which Analysis Services begins releasing memory for low-priority objects, such as an infrequently used cache. Once the memory is allocated, the server does not release memory below this limit. The default value is 65; which indicates the low memory limit is 65% of physical memory or the virtual address space, whichever is less.  
 
 ##### MemoryHeapType
 
