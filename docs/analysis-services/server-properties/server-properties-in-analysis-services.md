@@ -36,7 +36,6 @@ The following [General](general-properties.md) workspace property settings can o
 - ExternalCommandTimeout
 - ExternalConnectionTimeout
 - ForceCommitTimeout
-- ClientCacheRefreshPolicy
 - DefaultSegmentRowCount
 - CommitTimeout
 - AdminTimeOut
@@ -84,14 +83,14 @@ For SSAS, some properties can only be set in the msmdrsrv.ini file. These proper
 |[General Properties](../../analysis-services/server-properties/general-properties.md)|Azure AS, SSAS, Power BI|General properties are both basic and advanced properties, and include properties that define the data directory, backup directory, and other server behaviors. |  
 |[Data Mining Properties](../../analysis-services/server-properties/data-mining-properties.md)|SSAS|Data mining properties control which data mining algorithms are enabled and which are disabled. By default, all of the algorithms are enabled.| 
 |[DAX Properties](../../analysis-services/server-properties/dax-properties.md)|Azure AS, SSAS, Power BI|Defines properties related to DAX queries.|
-|[Feature Properties](../../analysis-services/server-properties/feature-properties.md)|Azure AS, SSAS, Power BI|Feature properties pertain to product features, most of them advanced, including properties that control links between server instances.|  
-|[Filestore Properties](../../analysis-services/server-properties/filestore-properties.md)|Azure AS, SSAS, Power BI|File store properties are for advanced use only. They include advanced memory management settings.|  
-|[Lock Manager Properties](../../analysis-services/server-properties/lock-manager-properties.md)|Azure AS, SSAS, Power BI|Lock manager properties define server behaviors pertaining to locking and timeouts. Most of these properties are for advanced use only.|  
-|[Log Properties](../../analysis-services/server-properties/log-properties.md)|Azure AS, SSAS, Power BI|Log properties controls if, where, and how events are logged on the server. This includes error logging, exception logging, flight recorder, query logging, and traces.|  
+|[Feature Properties](../../analysis-services/server-properties/feature-properties.md)|Azure AS, SSAS|Feature properties pertain to product features, most of them advanced, including properties that control links between server instances.|  
+|[Filestore Properties](../../analysis-services/server-properties/filestore-properties.md)|Azure AS, SSAS|File store properties are for advanced use only. They include advanced memory management settings.|  
+|[Lock Manager Properties](../../analysis-services/server-properties/lock-manager-properties.md)|Azure AS, SSAS|Lock manager properties define server behaviors pertaining to locking and timeouts. Most of these properties are for advanced use only.|  
+|[Log Properties](../../analysis-services/server-properties/log-properties.md)|Azure AS, SSAS|Log properties controls if, where, and how events are logged on the server. This includes error logging, exception logging, flight recorder, query logging, and traces.|  
 |[Memory Properties](../../analysis-services/server-properties/memory-properties.md)|Azure AS, SSAS, Power BI|Memory properties control how the server uses memory. They are primarily for advanced use.|  
-|[Network Properties](../../analysis-services/server-properties/network-properties.md)|Azure AS, SSAS, Power BI|Network properties control server behavior pertaining to networking, including properties that control compression and binary XML. Most of these properties are for advanced use only.|  
-|[OLAP Properties](../../analysis-services/server-properties/olap-properties.md)|Azure AS, SSAS|OLAP properties control cube and dimension processing, lazy processing, data caching, and query behavior. These include both basic and advanced properties.|  
-|[Security Properties](../../analysis-services/server-properties/security-properties.md)|Azure AS, SSAS, Power BI|Security properties contain both basic and advanced properties that define access permissions. This includes settings pertaining to administrators and users.|  
+|[Network Properties](../../analysis-services/server-properties/network-properties.md)|Azure AS, SSAS|Network properties control server behavior pertaining to networking, including properties that control compression and binary XML. Most of these properties are for advanced use only.|  
+|[OLAP Properties](../../analysis-services/server-properties/olap-properties.md)|Azure AS, SSAS, Power BI|OLAP properties control cube and dimension processing, lazy processing, data caching, and query behavior. These include both basic and advanced properties.|  
+|[Security Properties](../../analysis-services/server-properties/security-properties.md)|Azure AS, SSAS|Security properties contain both basic and advanced properties that define access permissions. This includes settings pertaining to administrators and users.|  
 |[Thread Pool Properties](../../analysis-services/server-properties/thread-pool-properties.md)|Azure AS, SSAS|Thread pool properties control how many threads the server creates. These are primarily advanced properties.|  
   
 ## See also

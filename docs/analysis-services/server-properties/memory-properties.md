@@ -17,6 +17,10 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 Analysis Services pre-allocates a modest amount of memory at startup so requests can be handled immediately. Additional memory is allocated as query and processing workloads increase. By specifying configuration settings, you can control the thresholds at which memory is released. For example, the **HardMemoryLimit** setting specifies a self-imposed out-of-memory condition (by default, this threshold is not enabled), where new requests are rejected outright until more resources become available. Settings apply to both tabular and multidimensional servers unless noted otherwise.  
 
+> [!NOTE]
+> QueryMemoryLimit is the only Memory property that applies to Power BI. 
+
+
 ## Default memory configuration
 
 Under the default configuration, each instance allocates a small amount of RAM (40 MB to 50 MB) at startup, even if the instance is idle. Configuration settings are per instance. If you are running multiple instances, such as a tabular and multidimensional instance on the same hardware, each instance will allocate its own memory independently of other instances.

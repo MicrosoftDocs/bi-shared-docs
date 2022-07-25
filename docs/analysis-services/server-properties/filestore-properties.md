@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 
 # Filestore properties
 
-[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
 
 Analysis Services includes the following filestore properties. These are all advanced properties that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.
 

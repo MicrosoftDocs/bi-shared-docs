@@ -9,15 +9,14 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # OLAP properties
 
-[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-[!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following OLAP server properties. Not all properties apply to Azure Analysis Services and Power BI Premium.
-
-Applies to both Tabular and Multidimensional server modes unless noted otherwise.
+> [!NOTE]
+> RowsetSerializationLimit is the only OLAP property that applies to Power BI.
 
 ## Memory
 
@@ -270,7 +269,7 @@ Approach for estimating dimension cache requirements:
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
  
  **RowsetSerializationLimit**   
- Applies to Azure Analysis Services and SQL Server 2019 and later only. Limits the number of rows returned in a rowset to clients. Default value is -1, meaning no limit is applied. Applies to both DAX and MDX queries. It can be used to protect server resources from extensive data export. Queries submitted to the server that exceed the limit are cancelled and an error is returned. **Warning:** Do not set to 0, which can result in errors for common operations and could prevent further server access by Analysis Services server administrators.
+ Applies to Power BI, Azure Analysis Services, and SQL Server 2019 and later only. Limits the number of rows returned in a rowset to clients. Default value is -1, meaning no limit is applied. Applies to both DAX and MDX queries. It can be used to protect server resources from extensive data export. Queries submitted to the server that exceed the limit are cancelled and an error is returned. **Warning:** Do not set to 0, which can result in errors for common operations and could prevent further server access by Analysis Services server administrators.
 
  **UseCalculationCacheRegistry**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  

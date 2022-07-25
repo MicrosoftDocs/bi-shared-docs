@@ -43,6 +43,6 @@ To increase the upper limit, specify the **MaxIntermediateRowSize** setting. You
 Setting |Value |Description
 --------|-------|-----------
 MaxIntermediateRowsetSize | 1000000 | Maximum number of rows returned in a DAX query. For SSAS, manually add this entry to the msmdsrv.ini file and increase the value if the default is too low.
-PredicateCheckSpoolCardinalityThreshold| 5000 | An advanced property that you should not change, except under the guidance of Microsoft support.
+PredicateCheckSpoolCardinalityThreshold| 5000 | Does not apply to Power BI. An advanced property that you should not change, except under the guidance of Microsoft support.
 
 To learn more about additional server properties and how to set them, see [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md).

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 
 # Network properties
 
-[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
 
 Analysis Services supports the following network properties.
   
