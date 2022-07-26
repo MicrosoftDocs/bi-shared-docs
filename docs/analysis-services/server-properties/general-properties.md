@@ -157,7 +157,11 @@ Does not apply to Power BI. A string property that identifies the name of the di
 ##### MaxIdleSessionTimeout
 
 Does not apply to Power BI. An integer property that defines the maximum idle session timeout, in seconds. The default is zero (0), indicating that sessions are never timed out. However, idle sessions will still be removed if the server is under resource constraints.  
-  
+
+##### MaxOfflineDatasetSizeGB
+
+Applies to Power BI only. Maximum size of the offline dataset in memory. This is the compressed size on disk. The default value is 0, which is the highest limit defined by SKU. The allowable range is between 0 and the capacity size limit.
+
 ##### MinIdleSessionTimeout
 
 Does not apply to Power BI. An integer property that defines the minimum time, in seconds, that idle sessions will timeout. The default is 2700 seconds. After this time expires, the server is permitted to end the idle session, but will only do so as memory is needed.  
