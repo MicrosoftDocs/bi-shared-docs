@@ -42,7 +42,7 @@ Does not apply to Power BI. A string property that identifies the name of the di
 
 ##### ClientCacheRefreshPolicy
 
-Applies to Power BI, Azure Analysis Services and SQL Server 2019 and later only. Overrides the **Scheduled cache refresh** setting for all Power BI datasets. All Live Connect reports will observe the server-level setting irrespective of the dataset-level setting, or which workspace they reside on.
+Applies to Azure Analysis Services and SQL Server 2019 and later only. Overrides the **Scheduled cache refresh** setting for all Power BI datasets. All Live Connect reports will observe the server-level setting irrespective of the dataset-level setting, or which workspace they reside on.
 
 The default value for this property is -1, which allows all background cache refreshes as specified in the Scheduled cache refresh setting for the dataset. To discourage all background cache refreshes, specify zero (0).
 
@@ -84,7 +84,7 @@ Does not apply to Power BI. A string property that identifies the name of the di
 
 ##### DefaultSegmentRowCount
 
-Defines the number of data rows per segment. Every table partition has at least one segment of data. The default is 8 million rows.
+Defines the number of data rows per segment. Every table partition has at least one segment of data. The default is 8 * 1024 * 1024 rows.
   
 ##### DeploymentMode
 
