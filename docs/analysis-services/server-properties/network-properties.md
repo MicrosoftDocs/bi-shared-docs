@@ -20,12 +20,14 @@ Analysis Services supports the following network properties.
   
 ## General
 
-**ListenOnlyOnLocalConnections**  
+##### ListenOnlyOnLocalConnections
+
 A Boolean property that identifies whether to listen only on local connections, for example localhost.  
   
 ## Listener
 
-**IPV4Support**  
+##### IPV4Support
+
 A signed 32-bit integer property that defines support for IPv4 protocol. This property has one of the values listed in the following table:  
   
 |Value|Description|  
@@ -34,7 +36,8 @@ A signed 32-bit integer property that defines support for IPv4 protocol. This pr
 |*1*|(Default) IPv4 is required; server won't start if it cannot listen to IPv4.|  
 |*2*|IPv4 is optional; server tries to listen to IPv4 but starts even if unable to.|  
   
-**IPV6Support**  
+##### IPV6Support
+
 A signed 32-bit integer property that defines support for IPv6 protocol. This property has one of the values listed in the following table:  
   
 |Value|Description|  
@@ -43,79 +46,102 @@ A signed 32-bit integer property that defines support for IPv6 protocol. This pr
 |*1*|(Default) IPv6 is required; server won't start if it cannot listen to IPv6.|  
 |*2*|IPv6 is optional; server tries to listen to IPv6 but starts even if unable to.|  
   
-**MaxAllowedRequestSize**  
+##### MaxAllowedRequestSize
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**RequestSizeThreshold**  
+##### RequestSizeThreshold
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**ServerReceiveTimeout**  
+##### ServerReceiveTimeout
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**ServerSendTimeout**  
+##### ServerSendTimeout
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
 ## Requests
 
-**EnableBinaryXML**  
+##### EnableBinaryXML
+
 A Boolean property that specifies whether the server will recognize requests binary xml format.  
   
-**EnableCompression**  
+##### EnableCompression
+
 A Boolean property that specifies whether compression is enabled for requests.  
   
 ## Responses
 
-**CompressionLevel**  
+##### CompressionLevel
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**EnableBinaryXML**  
+##### EnableBinaryXML
+
 A Boolean property that specifies whether the server is enabled for binary xml responses.  
   
-**EnableCompression**  
+##### EnableCompression
+
 A Boolean property that specifies whether compression is enabled for responses to client requests.  
   
 ## TCP
 
-**InitialConnectTimeout**  
+##### InitialConnectTimeout
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**MaxCompletedReceiveCount**  
+##### MaxCompletedReceiveCount
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**MaxPendingAcceptExCount**  
+##### MaxPendingAcceptExCount
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**MaxPendingReceiveCount**  
+##### MaxPendingReceiveCount
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**MaxPendingSendCount**  
+##### MaxPendingSendCount
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**MinPendingAcceptExCount**  
+##### MinPendingAcceptExCount
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**MinPendingReceiveCount**  
+##### MinPendingReceiveCount
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**ScatterReceiveMultiplier**  
+##### ScatterReceiveMultiplier
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**SocketOptions\ DisableNonblockingMode**  
+##### SocketOptions\ DisableNonblockingMode
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**SocketOptions\ EnableLingerOnClose**  
+##### SocketOptions\ EnableLingerOnClose
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**SocketOptions\EnableNagleAlgorithm**  
+##### SocketOptions\EnableNagleAlgorithm
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**SocketOptions\ LingerTimeout**  
+##### SocketOptions\ LingerTimeout
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**SocketOptions\ ReceiveBufferSize**  
+##### SocketOptions\ ReceiveBufferSize
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
-**SocketOptions\ SendBufferSize**  
+##### SocketOptions\ SendBufferSize
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
 ## See also

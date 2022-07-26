@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services memory properties | Microsoft Docs"
 description: Learn about memory properties and how to specify configuration settings so you can control the thresholds at which memory is released.
-ms.date: 07/21/2022
+ms.date: 07/26/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -18,8 +18,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 Analysis Services pre-allocates a modest amount of memory at startup so requests can be handled immediately. Additional memory is allocated as query and processing workloads increase. By specifying configuration settings, you can control the thresholds at which memory is released. For example, the **HardMemoryLimit** setting specifies a self-imposed out-of-memory condition (by default, this threshold is not enabled), where new requests are rejected outright until more resources become available. Settings apply to both tabular and multidimensional servers unless noted otherwise.  
 
 > [!NOTE]
-> QueryMemoryLimit is the only Memory property that applies to Power BI. 
-
+> [QueryMemoryLimit](#querymemorylimit) is the only Memory property that applies to Power BI.
 
 ## Default memory configuration
 

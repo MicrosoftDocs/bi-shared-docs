@@ -19,15 +19,18 @@ Analysis Services includes the following lock manager server properties.
   
 ## Properties
 
-**DeadlockDetectionGranularityMS**  
+##### DeadlockDetectionGranularityMS
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
 
-**DefaultLockTimeoutMS**  
+##### DefaultLockTimeoutMS
+
 A signed 32-bit integer property that defines default lock timeout in milliseconds for internal lock requests.  
   
 The default value for this property is -1, which indicates there is no timeout for internal lock requests.  
   
-**LockWaitGranularityMS**  
+##### LockWaitGranularityMS
+
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
 ## See also

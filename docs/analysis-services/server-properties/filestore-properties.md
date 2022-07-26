@@ -20,19 +20,24 @@ Analysis Services includes the following filestore properties. These are all adv
 
 ## Properties
 
- **MemoryLimit**  
+##### MemoryLimit
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **MemoryLimitMin**  
+##### MemoryLimitMin
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **PercentScanPerPrice**  
+##### PercentScanPerPrice
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **PerformanceTrace**  
+##### PerformanceTrace
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **RandomFileAccessMode**  
+##### RandomFileAccessMode
+
  A Boolean property that indicates whether database files and cached files are accessed in random file access mode. This property is off by default. By default, the server does not set the random file access flag when opening partition data files for read access.  
   
  On high-end systems, particularly those with large memory resources and multiple NUMA nodes, it can be advantageous to use random file access. In random access mode, Windows bypasses page-mapping operations that read data from disk into the system file cache, thereby lowering contention on the cache.  
@@ -41,24 +46,30 @@ Analysis Services includes the following filestore properties. These are all adv
   
  To view or modify this property in SQL Server Management Studio, enable the advanced properties list in the server properties page. You can also change the property in the msmdsrv.ini file. Restarting the server is recommended after setting this property; otherwise files that are already open will continue to be accessed in the previous mode.  
   
- **UnbufferedThreshold**  
+##### UnbufferedThreshold
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
 ## Memory Model category
 
- **MemoryModel\Tax**  
+##### MemoryModel\Tax
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **MemoryModel\Income**  
+##### MemoryModel\Income
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **MemoryModel\MaximumBalance**  
+##### MemoryModel\MaximumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **MemoryModel\MinimumBalance**  
+##### MemoryModel\MinimumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **MemoryModel\InitialBonus**  
+##### MemoryModel\InitialBonus
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
 ## See also

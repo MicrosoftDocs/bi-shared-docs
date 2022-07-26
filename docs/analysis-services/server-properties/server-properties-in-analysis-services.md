@@ -1,6 +1,6 @@
 ---
 title: "Server Properties in Analysis Services | Microsoft Docs"
-description: Learn how to modify default server configuration properties of an Azure Analysis Services (Azure AS) or SQL Server Analysis Services (SSAS) instance.
+description: Learn how to modify default server configuration properties of an Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), or Power BI workspace instance.
 ms.date: 07/21/2022
 ms.prod: sql
 ms.technology: analysis-services
@@ -24,12 +24,13 @@ Properties pages in SQL Server Management Studio show a subset of the properties
 
 ## Permissions
 
-- For Azure AS and SSAS, server administrator permissions are required to modify server properties. 
-- For Power BI, workspace admin permissions are required to modify workspace properties. Non-admin workspace users have Read only permissions to view workspace settings.
+For Azure AS and SSAS, server administrator permissions are required to modify server properties.
+
+For Power BI, workspace admin permissions are required to modify workspace properties. Non-admin workspace users have Read only permissions to view workspace settings.
 
 ## Power BI XMLA-based workspace properties
 
-Most properties in each of the categories described below support Read\Write, Read Only, or are unsupported for Power BI workspaces.
+Power BI workspaces support modifying (Read\Write) for a limited subset of properties.
 
 The following [General](general-properties.md) workspace property settings can override equivalent capacity settings for workspaces assigned to the capacity:
 
