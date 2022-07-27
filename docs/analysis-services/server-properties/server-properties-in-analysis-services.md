@@ -57,7 +57,7 @@ Capacity admins can enable or disable the ability for workspace admins to modify
 
 ## Configure by using XMLA
 
-Properties that cannot be set by using Properties in SSMS or in the msmdrsrv.ini file can be set by using the [XMLA Alter Element](../xmla/xml-elements-commands/alter-element-xmla.md) in an XMLA script in SSMS.
+Properties that cannot be set by using Properties in SSMS or in the msmdrsrv.ini file (SSAS only) can be set by using the [XMLA Alter Element](../xmla/xml-elements-commands/alter-element-xmla.md) in an XMLA script in SSMS.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 

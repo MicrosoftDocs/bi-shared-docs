@@ -139,14 +139,17 @@ The default value for this property is 60 (seconds).
 An integer property that specifies how long, in milliseconds, a write commit operation should wait before canceling other commands that preceded the current command, including queries in progress. This allows the commit transaction to proceed by canceling lower priority operations, such as queries.  
   
 The default value for this property is 30 seconds (30000 milliseconds), which indicates that other commands will not be forced to timeout until the commit transaction has been waiting for 30 seconds. A setting of 0 implies infinite.  
-  
-> [!NOTE]  
-> Queries and processes cancelled by this event will report the following error message: "`Server: The operation has been cancelled`"  
-  
+
+Queries and processes cancelled by this event will report the following error message: "`Server: The operation has been cancelled`"  
+
+::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 For more information about this property, see [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
   
 > [!IMPORTANT]  
 > **ForceCommitTimeout** applies to cube processing commands and to writeback operations.  
+
+::: moniker-end
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
