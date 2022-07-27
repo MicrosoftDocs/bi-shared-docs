@@ -84,7 +84,9 @@ Does not apply to Power BI. A string property that identifies the name of the di
 
 ##### DefaultSegmentRowCount
 
-Defines the number of data rows per segment. Every table partition has at least one segment of data. The default is 8 * 1024 * 1024 rows.
+Defines the number of data rows per segment. Every table partition has at least one segment of data. The default is 8,388,608 (8\*1024\*1024) rows.
+
+In general, the larger the segment, the better the compression.However, increasing segment size can negatively affect processing time. With very large tables, it's important to test different segment sizes, measuring memory usage to determine optimal compression.
   
 ##### DeploymentMode
 
@@ -106,13 +108,13 @@ Does not apply to Power BI. An advanced property that you should not change, exc
   
 ##### ExternalCommandTimeout
 
-An integer property that defines the timeout, in seconds, for commands issued to external servers, including relational data sources and external [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] servers.  
+An integer property that defines the timeout, in seconds, for commands issued to external servers, including relational data sources and external Analysis Services servers.  
   
 The default value for this property is 3600 (seconds).  
   
 ##### ExternalConnectionTimeout
 
-An integer property that defines the timeout, in seconds, for creating connections to external servers, including relational data sources and external [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] servers. This property is ignored if a connection timeout is specified on the connection string.  
+An integer property that defines the timeout, in seconds, for creating connections to external servers, including relational data sources and external Analysis Services servers. This property is ignored if a connection timeout is specified on the connection string.  
   
 The default value for this property is 60 (seconds).  
   
@@ -120,7 +122,7 @@ The default value for this property is 60 (seconds).
 
 An integer property that specifies how long, in milliseconds, a write commit operation should wait before canceling other commands that preceded the current command, including queries in progress. This allows the commit transaction to proceed by canceling lower priority operations, such as queries.  
   
-The default value for this property is 30 seconds (30000 milliseconds), which indicates that other commands will not be forced to timeout until the commit transaction has been waiting for 30 seconds.  
+The default value for this property is 30 seconds (30000 milliseconds), which indicates that other commands will not be forced to timeout until the commit transaction has been waiting for 30 seconds. A setting of 0 implies infinite.  
   
 > [!NOTE]  
 > Queries and processes cancelled by this event will report the following error message: "`Server: The operation has been cancelled`"  
@@ -158,10 +160,6 @@ Does not apply to Power BI. A string property that identifies the name of the di
 
 Does not apply to Power BI. An integer property that defines the maximum idle session timeout, in seconds. The default is zero (0), indicating that sessions are never timed out. However, idle sessions will still be removed if the server is under resource constraints.  
 
-##### MaxOfflineDatasetSizeGB
-
-Applies to Power BI only. Maximum size of the offline dataset in memory. This is the compressed size on disk. The default value is 0, which is the highest limit defined by SKU. The allowable range is between 0 and the capacity size limit.
-
 ##### MinIdleSessionTimeout
 
 Does not apply to Power BI. An integer property that defines the minimum time, in seconds, that idle sessions will timeout. The default is 2700 seconds. After this time expires, the server is permitted to end the idle session, but will only do so as memory is needed.  
@@ -175,6 +173,8 @@ The default value for this property is zero (0), which in turn defaults to port 
 ##### ServerTimeout
 
 An integer that defines the timeout, in seconds, for queries. The default is 3600 seconds (or 60 minutes). Zero (0) specifies that no queries will timeout.  
+
+In Power BI, reports will override the default with a much smaller timeout for each of the queries to the capacity. Typically, it is approximately 3 minutes.
   
 ##### TempDir
 
