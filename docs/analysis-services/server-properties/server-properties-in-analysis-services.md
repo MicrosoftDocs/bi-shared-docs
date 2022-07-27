@@ -15,12 +15,12 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Administrators can modify many default configuration properties of an Azure Analysis Services (Azure AS) server resource instance, SQL Server Analysis Services (SSAS) server instance, or a Power BI workspace.
+Administrators can modify many default configuration properties of an Azure Analysis Services (Azure AS) server resource, SQL Server Analysis Services (SSAS) server instance, or a Power BI workspace.
 
 > [!NOTE]
 > In Power BI, a workspace is effectively an Analysis Services server. In context of Analysis Services, the terms workspace, server, and instance are synonymous.
 
-Properties pages in SQL Server Management Studio show a subset of the properties most likely to be modified. For SSAS, all properties are in the msmdsrv.ini file.
+Properties pages in SQL Server Management Studio (SSMS) show a subset of those properties most likely to be modified. For Azure AS and Power BI, all applicable properties can be modified by using XMLA script in SSMS. For SSAS, all applicable properties can be modified in the msmdsrv.ini file.
 
 ## Permissions
 
@@ -57,13 +57,13 @@ Capacity admins can enable or disable the ability for workspace admins to modify
 
 ## Configure by using XMLA
 
-Properties that cannot be set by using Properties in SSMS or in the msmdrsrv.ini file (SSAS only) can be set by using the [XMLA Alter Element](../xmla/xml-elements-commands/alter-element-xmla.md) in an XMLA script in SSMS.
+Those properties that cannot be set in the Properties page in SSMS or in the msmdrsrv.ini file (SSAS only) can be set by using the [XMLA Alter Element](../xmla/xml-elements-commands/alter-element-xmla.md) in an XMLA script in SSMS.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
 ## Configure in msmdsrv.ini
   
-For SSAS, some properties can only be set in the msmdrsrv.ini file. These properties do not apply to Azure Analysis Services or Power BI. If the property you want to set is not visible even after you show advanced properties, you might need to edit the msmdsrv.ini file directly. For a default installation, msmdsrv.ini can be found in the \Program Files\Microsoft SQL Server\MSAS13.MSSQLSERVER\OLAP\Config folder.
+For SSAS, server properties are in the msmdsrv.ini file. If the property you want to set is not visible even after you show advanced properties in SSMS, you might need to edit the msmdsrv.ini file directly. For a default installation, msmdsrv.ini can be found in the \Program Files\Microsoft SQL Server\MSAS13.MSSQLSERVER\OLAP\Config folder.
   
 1. Check the **DataDir** property in the General properties page in Management Studio to verify the location of the Analysis Services program files, including the msmdsrv.ini file.
 

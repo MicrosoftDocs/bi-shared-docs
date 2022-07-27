@@ -41,7 +41,7 @@ For SSAS, you must manually add the entire element to the DAX section of the con
 
 ::: moniker-end
 
-## Property descriptions
+## Properties
 
 Setting |Value |Description
 --------|-------|-----------

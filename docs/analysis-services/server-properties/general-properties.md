@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Analysis Services includes the following server properties. This articles describes those properties that are not otherwise included in a specific category such as Filestore, Network, or ThreadPool.
+Analysis Services includes the following server properties. This articles describes those properties that are not otherwise included in a specific category such as Filestore, OLAP, or Memory.
 
 ## Non-specific category
 

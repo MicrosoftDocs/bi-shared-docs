@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Analysis Services pre-allocates a modest amount of memory at startup so requests can be handled immediately. Additional memory is allocated as query and processing workloads increase. By specifying configuration settings, you can control the thresholds at which memory is released. For example, the **HardMemoryLimit** setting specifies a self-imposed out-of-memory condition (by default, this threshold is not enabled), where new requests are rejected outright until more resources become available.
+Analysis Services pre-allocates a modest amount of memory at startup so requests can be handled immediately. Additional memory is allocated as query and processing workloads increase. By specifying configuration settings, you can control the thresholds at which memory is released.
 
 > [!NOTE]
 > [QueryMemoryLimit](#querymemorylimit) is the only Memory property that applies to Power BI.
@@ -37,7 +37,7 @@ HardMemoryLimit | Another threshold at which Analysis Services begins rejecting 
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 
-## Property reference
+## Properties
 
 Values between 1 and 100 represent percentages of **Total Physical Memory** or **Virtual Address Space**, whichever is less. Values over 100 represent memory limits in bytes.
 
@@ -102,7 +102,6 @@ An advanced property that you should not change, except under the guidance of [!
 
 ::: moniker-end
 
-
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2019"
 
 ##### QueryMemoryLimit
@@ -113,7 +112,16 @@ In SQL Server 2019 and later Analysis Services, this setting applies only to mem
 
 In Power BI, Azure Analysis Services, and SQL Server 2022 and later Analysis Services, if the **ResourceTrackingEnabled** [Feature property](feature-properties.md) is enabled, this setting is not limited only to memory spools. It applies to all memory utilized by both DAX and MDX queries.
 
-Specified in percentage up to 100. When more than 100, it's in bytes. Setting a value of 0 means no limit is specified. For Azure Analysis Services, the default value is determined by your plan.
+Specified in percentage up to 100. When more than 100, it's in bytes. Setting a value of 0 means no limit is specified. 
+
+For Azure Analysis Services, the default value is determined by your plan.
+
+
+|Plan  |Default  |
+|---------|---------|
+|D1     |      80   |
+|All others     |    20     |
+
 
 ::: moniker-end
 
