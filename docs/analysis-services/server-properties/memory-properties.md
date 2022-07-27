@@ -107,11 +107,6 @@ In Power BI, Azure Analysis Services, and SQL Server 2022 and later Analysis Ser
 
 Specified in percentage up to 100. When more than 100, it's in bytes. Setting a value of 0 means no limit is specified. For Azure Analysis Services, the default value is determined by your plan.
 
-|Plan  |Default  |
-|---------|---------|
-|D1     |   80      |
-|All other plans     |    20     |
-
 ::: moniker-end
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"

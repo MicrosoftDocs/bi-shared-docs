@@ -20,7 +20,7 @@ Analysis Services includes the following filestore properties. These are all adv
 
 ## Properties
 
-::: moniker range="asallproducts-allversions || power-bi-premium-current"
+::: moniker range="power-bi-premium-current"
 
 ##### MaxOfflineDatasetSizeGB
 
@@ -88,4 +88,3 @@ Does not apply to Power BI. An advanced property that you should not change, exc
 
  [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
-  
