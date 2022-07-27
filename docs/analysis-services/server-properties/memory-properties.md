@@ -15,10 +15,12 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Analysis Services pre-allocates a modest amount of memory at startup so requests can be handled immediately. Additional memory is allocated as query and processing workloads increase. By specifying configuration settings, you can control the thresholds at which memory is released. For example, the **HardMemoryLimit** setting specifies a self-imposed out-of-memory condition (by default, this threshold is not enabled), where new requests are rejected outright until more resources become available. Settings apply to both tabular and multidimensional servers unless noted otherwise.  
+Analysis Services pre-allocates a modest amount of memory at startup so requests can be handled immediately. Additional memory is allocated as query and processing workloads increase. By specifying configuration settings, you can control the thresholds at which memory is released. For example, the **HardMemoryLimit** setting specifies a self-imposed out-of-memory condition (by default, this threshold is not enabled), where new requests are rejected outright until more resources become available.
 
 > [!NOTE]
 > [QueryMemoryLimit](#querymemorylimit) is the only Memory property that applies to Power BI.
+
+::: moniker range=">= sql-analysis-services-2016"
 
 ## Default memory configuration
 
@@ -31,9 +33,15 @@ VertiPaqMemoryLimit | For tabular instances, a lower threshold at which the serv
 TotalMemoryLimit | An upper threshold at which Analysis Services begins releasing memory more aggressively to  make room for requests that are in execution as well as new high priority requests. 
 HardMemoryLimit | Another threshold at which Analysis Services begins rejecting requests outright due to memory pressure.
 
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+
 ## Property reference
 
 Values between 1 and 100 represent percentages of **Total Physical Memory** or **Virtual Address Space**, whichever is less. Values over 100 represent memory limits in bytes.
+
+::: moniker-end
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 

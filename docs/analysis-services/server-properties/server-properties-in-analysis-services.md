@@ -59,6 +59,8 @@ Capacity admins can enable or disable the ability for workspace admins to modify
 
 Properties that cannot be set by using Properties in SSMS or in the msmdrsrv.ini file can be set by using the [XMLA Alter Element](../xmla/xml-elements-commands/alter-element-xmla.md) in an XMLA script in SSMS.
 
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+
 ## Configure in msmdsrv.ini
   
 For SSAS, some properties can only be set in the msmdrsrv.ini file. These properties do not apply to Azure Analysis Services or Power BI. If the property you want to set is not visible even after you show advanced properties, you might need to edit the msmdsrv.ini file directly. For a default installation, msmdsrv.ini can be found in the \Program Files\Microsoft SQL Server\MSAS13.MSSQLSERVER\OLAP\Config folder.
@@ -74,6 +76,8 @@ For SSAS, some properties can only be set in the msmdrsrv.ini file. These proper
 4. Use a text editor to view or edit the msmdsrv.ini file.  
   
 5. Save the file and restart the service.  
+
+::: moniker-end
 
 ## Server property categories  
   
