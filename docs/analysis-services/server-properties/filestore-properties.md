@@ -18,12 +18,16 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 Analysis Services includes the following filestore properties. These are all advanced properties that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.
 
+::: moniker range="asallproducts-allversions || power-bi-premium-current"
+
 > [!NOTE]
 > [MaxOfflineDatasetSizeGB](#maxofflinedatasetsizegb) is the only OLAP property that exclusively applies to Power BI.
 
+::: moniker-end
+
 ## Properties
 
-::: moniker range="power-bi-premium-current"
+::: moniker range="asallproducts-allversions || power-bi-premium-current"
 
 ##### MaxOfflineDatasetSizeGB
 

@@ -92,12 +92,12 @@ Does not apply to Power BI. A string property that identifies the name of the di
 
 ##### DefaultSegmentRowCount
 
-Defines the number of data rows per segment. Every table partition has at least one segment of data. The default is 8,388,608 (8\*1024\*1024) rows.
+A VertiPaq property that defines the number of data rows per segment. Every table partition has at least one segment of data. The default is 8,388,608 (8\*1024\*1024) rows.
 
 In general, the larger the segment, the better the compression.However, increasing segment size can negatively affect processing time. With very large tables, it's important to test different segment sizes, measuring memory usage to determine optimal compression.
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
- 
+::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
 ##### DeploymentMode
 
 Does not apply to Power BI. Determines the operational context of an Analysis Services server instance. This property is referred to as 'server mode' in dialog boxes, messages, and documentation. This property is configured by SQL Server Setup based on the server mode you selected when installing Analysis Services. This property should be considered internal only, always using the value specified by Setup.  
@@ -111,7 +111,11 @@ Valid values for this property include the following:
 |2|Specifies Tabular mode used for hosting tabular model databases that use in-memory storage or DirectQuery storage.|  
   
 Each mode is exclusive of the other. A server that is configured for tabular mode cannot run Analysis Services databases that contain cubes and dimensions. If the underlying computer hardware can support it, you can install multiple instances of Analysis Services on the same computer and configure each instance to use a different deployment mode. Remember that Analysis Services is a resource intensive application. Deploying multiple instances on the same system is recommended only for high-end servers.  
-  
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+
 ##### EnableFast1033Locale
 
 Does not apply to Power BI. An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
@@ -145,7 +149,7 @@ For more information about this property, see [SQL Server 2008 R2 Analysis Servi
 > **ForceCommitTimeout** applies to cube processing commands and to writeback operations.  
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
- 
+
 ##### IdleConnectionTimeout
 
 Does not apply to Power BI. An integer property that specifies a timeout, in seconds, for connections that are inactive.  

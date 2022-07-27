@@ -16,11 +16,12 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-For Azure Analysis Services and Power BI, DAX property settings can be specified by using XMLA. For SQL Server Analysis Services, the DAX section of msmdsrv.ini contains settings used to control certain query behaviors in Analysis Services, such as the upper limit on the number of rows returned in a DAX query result set.
 
-For very large rowsets, such as those returned in DirectQuery models, the default of one million rows could be insufficient. You'll know whether the limit needs adjusting if you get this error: "The result set of a query to external data source has exceeded the maximum allowed size of '1000000' rows."
+Analysis Services includes properties that determine DAX query response. For very large rowsets, such as those returned by a DAX query in DirectQuery models, the default of one million rows could be insufficient. To increase the upper limit, specify the **MaxIntermediateRowSize** setting. You'll know whether the limit needs adjusting if you get this error: "The result set of a query to external data source has exceeded the maximum allowed size of '1000000' rows."
 
-To increase the upper limit, specify the **MaxIntermediateRowSize** setting. You must manually add the entire element to the DAX section of the configuration file. The setting is not present in the file until you add it.
+::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+
+For SSAS, you must manually add the entire element to the DAX section of the configuration file. The setting is not present in the file until you add it.
 
 ## Configuration snippet (msmdsrv.ini)
 
@@ -37,6 +38,8 @@ To increase the upper limit, specify the **MaxIntermediateRowSize** setting. You
 </DAX>
 . . .
 ```
+
+::: moniker-end
 
 ## Property descriptions
 
