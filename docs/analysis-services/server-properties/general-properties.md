@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Analysis Services includes the following server properties. This articles describes those properties that are not otherwise included in a specific category such as Security, Network, or ThreadPool.
+Analysis Services includes the following server properties. This articles describes those properties that are not otherwise included in a specific category such as Filestore, Network, or ThreadPool.
 
 ## Non-specific category
 
@@ -24,6 +24,8 @@ Analysis Services includes the following server properties. This articles descri
 A signed 32-bit integer property that defines the administrator timeout in seconds. This is an advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
 The default value for this property is zero (0), which indicates there is no timeout.  
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
   
 ##### AllowedBrowsingFolders
 
@@ -48,14 +50,18 @@ The default value for this property is -1, which allows all background cache ref
 
 ##### CollationName
 
-Does not apply to Power BI. A string property that identifies the server collation. For more information, see [Languages and Collations &#40;Analysis Services&#41;](../../analysis-services/languages-and-collations-analysis-services.md).  
-  
+Does not apply to Power BI. A string property that identifies the server collation. For more information, see [Languages and Collations &#40;Analysis Services&#41;](../../analysis-services/languages-and-collations-analysis-services.md).
+
+::: moniker-end
+
 ##### CommitTimeout
 
 An integer property that specifies how long (in milliseconds) the server will wait to acquire a write lock for the purpose of committing a transaction. A waiting period is often required because the server must wait for other locks to be released before it can take a write lock that commits the transaction.  
   
 The default value for this property is zero (0), which indicates that the server will wait indefinitely. For more information about lock-related properties, see [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
-  
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+
 ##### CoordinatorBuildMaxThreads
 
 Does not apply to Power BI. A signed 32-bit integer property that defines the maximum number of threads allocated to building partition indexes. Increase this value in order to speed-up partition indexing, at the cost of memory usage. For more information about this property, see [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
@@ -82,12 +88,16 @@ Does not apply to Power BI. A Boolean property that defines coordinator shutdown
 
 Does not apply to Power BI. A string property that identifies the name of the directory where data is stored.  
 
+::: moniker-end
+
 ##### DefaultSegmentRowCount
 
 Defines the number of data rows per segment. Every table partition has at least one segment of data. The default is 8,388,608 (8\*1024\*1024) rows.
 
 In general, the larger the segment, the better the compression.However, increasing segment size can negatively affect processing time. With very large tables, it's important to test different segment sizes, measuring memory usage to determine optimal compression.
-  
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+ 
 ##### DeploymentMode
 
 Does not apply to Power BI. Determines the operational context of an Analysis Services server instance. This property is referred to as 'server mode' in dialog boxes, messages, and documentation. This property is configured by SQL Server Setup based on the server mode you selected when installing Analysis Services. This property should be considered internal only, always using the value specified by Setup.  
@@ -105,7 +115,9 @@ Each mode is exclusive of the other. A server that is configured for tabular mod
 ##### EnableFast1033Locale
 
 Does not apply to Power BI. An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
+
+::: moniker-end
+
 ##### ExternalCommandTimeout
 
 An integer property that defines the timeout, in seconds, for commands issued to external servers, including relational data sources and external Analysis Services servers.  
@@ -131,7 +143,9 @@ For more information about this property, see [SQL Server 2008 R2 Analysis Servi
   
 > [!IMPORTANT]  
 > **ForceCommitTimeout** applies to cube processing commands and to writeback operations.  
-  
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+ 
 ##### IdleConnectionTimeout
 
 Does not apply to Power BI. An integer property that specifies a timeout, in seconds, for connections that are inactive.  
@@ -169,13 +183,17 @@ Does not apply to Power BI. An integer property that defines the minimum time, i
 Does not apply to Power BI. An integer property that defines the port number on which server will listen for client connections. If not set, server dynamically finds first unused port.  
   
 The default value for this property is zero (0), which in turn defaults to port 2383. For more information about port configuration, see [Configure the Windows Firewall to Allow Analysis Services Access](../../analysis-services/instances/configure-the-windows-firewall-to-allow-analysis-services-access.md).  
-  
+
+::: moniker-end
+
 ##### ServerTimeout
 
 An integer that defines the timeout, in seconds, for queries. The default is 3600 seconds (or 60 minutes). Zero (0) specifies that no queries will timeout.  
 
 In Power BI, reports will override the default with a much smaller timeout for each of the queries to the capacity. Typically, it is approximately 3 minutes.
-  
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+
 ##### TempDir
 
 Does not apply to Power BI. A string property that specifies the location for storing temporary files used during processing, restoring, and other operations. The default value for this property is determined by setup. If not specified, the default is the Data directory.  
@@ -189,7 +207,9 @@ Does not apply to Power BI. An advanced property that you should not change, exc
 ##### StatisticsStoreSize
 
 Does not apply to Power BI. An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
+
+::: moniker-end
+
 ## See also
   
 [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
