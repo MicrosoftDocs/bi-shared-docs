@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services filestore properties | Microsoft Docs"
 description:  Learn about the available filestore properties in Analysis Services, like MemoryLimit and PerformanceTrace. 
-ms.date: 07/21/2022
+ms.date: 07/27/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -27,6 +27,8 @@ Analysis Services includes the following filestore properties. These are all adv
 Applies to Power BI only. Maximum size of the offline dataset in memory. This is the compressed size on disk. The default value is 0, which is the highest limit defined by SKU. The allowable range is between 0 and the capacity size limit.
 
 ::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
 ##### MemoryLimit
 
@@ -79,7 +81,9 @@ Does not apply to Power BI. An advanced property that you should not change, exc
 ##### MemoryModel\InitialBonus
 
 Does not apply to Power BI. An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
+
+::: moniker-end
+
 ## See also
 
  [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   

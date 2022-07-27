@@ -35,6 +35,8 @@ HardMemoryLimit | Another threshold at which Analysis Services begins rejecting 
 
 Values between 1 and 100 represent percentages of **Total Physical Memory** or **Virtual Address Space**, whichever is less. Values over 100 represent memory limits in bytes.
 
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+
 ##### DefaultPagesCountToReuse
 
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
@@ -90,6 +92,9 @@ An advanced property that you should not change, except under the guidance of [!
 
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
 
+::: moniker-end
+
+
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2019"
 
 ##### QueryMemoryLimit
@@ -108,6 +113,8 @@ Specified in percentage up to 100. When more than 100, it's in bytes. Setting a 
 |All other plans     |    20     |
 
 ::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
 ##### SessionMemoryLimit
 
@@ -145,7 +152,9 @@ When set to 1, processing is less likely to fail due to memory constraints becau
 ##### WaitCountIfHighMemory
 
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
+
+::: moniker-end
+
 ## See also
 
  [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   

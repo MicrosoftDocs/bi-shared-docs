@@ -18,6 +18,8 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 > [!NOTE]
 > [RowsetSerializationLimit](#rowsetserializationlimit) is the only OLAP property that applies to Power BI.
 
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+
 ## Memory
 
 ##### DefaultPageSizeForData
@@ -253,8 +255,16 @@ An advanced property that you should not change, except under the guidance of [!
 ##### ROLAPDimensionProcessingEffort
 
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+
 ## Query
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
 ##### AggregationsUseEnabled
 
@@ -332,9 +342,17 @@ Approach for estimating dimension cache requirements:
 
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
 
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+
 ##### RowsetSerializationLimit
 
  Applies to Power BI, Azure Analysis Services, and SQL Server 2019 and later only. Limits the number of rows returned in a rowset to clients. Default value is -1, meaning no limit is applied. Applies to both DAX and MDX queries. It can be used to protect server resources from extensive data export. Queries submitted to the server that exceed the limit are cancelled and an error is returned. **Warning:** Do not set to 0, which can result in errors for common operations and could prevent further server access by Analysis Services server administrators.
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
 ##### UseCalculationCacheRegistry
 
@@ -503,7 +521,9 @@ An advanced property that you should not change, except under the guidance of [!
 ##### ProcessAggregation\ ProcessProperty\ Tax
 
 An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
+
+::: moniker-end
+
 ## See also
 
  [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
