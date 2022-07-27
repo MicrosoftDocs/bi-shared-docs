@@ -348,7 +348,7 @@ Approach for estimating dimension cache requirements:
 
 ##### RowsetSerializationLimit
 
- Applies to Power BI, Azure Analysis Services, and SQL Server 2019 and later only. Limits the number of rows returned in a rowset to clients. Default value is -1, meaning no limit is applied. Applies to both DAX and MDX queries. It can be used to protect server resources from extensive data export. Queries submitted to the server that exceed the limit are cancelled and an error is returned. **Warning:** Do not set to 0, which can result in errors for common operations and could prevent further server access by Analysis Services server administrators.
+ Applies to Power BI, Azure Analysis Services, and SQL Server 2019 and later only. Limits the number of rows returned in a rowset to clients. Default value is -1, meaning no limit is applied. Applies to both DAX and MDX queries. It can be used to protect server resources from extensive data export. Queries submitted to the server that exceed the limit are cancelled and an error is returned. **Warning:** Do not set to 0, which can result in errors for common operations and could prevent further server access by server administrators.
 
 ::: moniker-end
 
