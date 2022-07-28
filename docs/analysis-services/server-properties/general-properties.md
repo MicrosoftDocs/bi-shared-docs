@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Analysis Services includes the following server properties. This articles describes those properties that are not otherwise included in a specific category such as Filestore, OLAP, or Memory.
+Analysis Services includes the following server properties. This article describes those properties that are not otherwise included in a specific category such as Filestore, OLAP, or Memory.
 
 ## Non-specific category
 
@@ -40,7 +40,7 @@ The default value for this property is true.
   
 ##### BackupDir
 
-Does not apply to Power BI. A string property that identifies the name of the directory where backup files are stored by default, in the event a path is not specified as part of the Backup command.  
+Does not apply to Power BI. A string property that identifies the name of the directory where backup files are stored by default in the event a path is not specified as part of the Backup command.  
 
 ##### ClientCacheRefreshPolicy
 
@@ -56,7 +56,7 @@ Does not apply to Power BI. A string property that identifies the server collati
 
 ##### CommitTimeout
 
-An integer property that specifies how long (in milliseconds) the server will wait to acquire a write lock for the purpose of committing a transaction. A waiting period is often required because the server must wait for other locks to be released before it can take a write lock that commits the transaction.  
+An integer property that specifies how long (in milliseconds) the server will wait to acquire a write lock when committing a transaction. A waiting period is often required because the server must wait for other locks to be released before it can take a write lock that commits the transaction.  
   
 The default value for this property is zero (0), which indicates that the server will wait indefinitely. For more information about lock-related properties, see [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
 
@@ -64,7 +64,7 @@ The default value for this property is zero (0), which indicates that the server
 
 ##### CoordinatorBuildMaxThreads
 
-Does not apply to Power BI. A signed 32-bit integer property that defines the maximum number of threads allocated to building partition indexes. Increase this value in order to speed-up partition indexing, at the cost of memory usage. For more information about this property, see [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
+Does not apply to Power BI. A signed 32-bit integer property that defines the maximum number of threads allocated to building partition indexes. Increase this value in order to speed up partition indexing, at the cost of memory usage. For more information about this property, see [SQL Server 2008 R2 Analysis Services Operations Guide](/previous-versions/sql/sql-server-2008-r2/hh226085(v=msdn.10)).  
   
 ##### CoordinatorCancelCount
 
@@ -140,7 +140,7 @@ An integer property that specifies how long, in milliseconds, a write commit ope
   
 The default value for this property is 30 seconds (30000 milliseconds), which indicates that other commands will not be forced to timeout until the commit transaction has been waiting for 30 seconds. A setting of 0 implies infinite.  
 
-Queries and processes cancelled by this event will report the following error message: "`Server: The operation has been cancelled`"  
+Queries and processes canceled by this event will report the following error message: "`Server: The operation has been canceled`"  
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
