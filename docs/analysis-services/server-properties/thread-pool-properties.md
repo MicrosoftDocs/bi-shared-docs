@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 
 [!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
 
-[!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] uses multi-threading for many operations, improving overall server performance by running multiple jobs in parallel. To manage threads more efficiently, the engine uses thread pools to pre-allocate threads and facilitate thread availability for the next job.  
+Analysis Services uses multi-threading for many operations, improving overall server performance by running multiple jobs in parallel. To manage threads more efficiently, the engine uses thread pools to pre-allocate threads and facilitate thread availability for the next job.  
   
 Each instance maintains its own set of thread pools. There are differences in how tabular and multidimensional instances use thread pools. For example, only multidimensional instances use the **IOProcess** thread pool. As such, the **PerNumaNode** property, described in this article, is not meaningful for Tabular instances. In the [Property reference](#bkmk_propref) section below, mode requirements are called out for each property.
   
