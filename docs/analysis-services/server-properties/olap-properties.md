@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services OLAP properties | Microsoft Docs"
 description: Learn about the available OLAP server properties in Analysis Services, like DefaultPageSizeForData and SleepIntervalSecs.
-ms.date: 05/03/2021
+ms.date: 07/26/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -9,400 +9,522 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # OLAP properties
 
-[!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
+[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-[!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following OLAP server properties. Not all properties apply to Azure Analysis Services and Power BI Premium.
+> [!NOTE]
+> [RowsetSerializationLimit](#rowsetserializationlimit) is the only OLAP property that applies to Power BI.
 
-Applies to both Tabular and Multidimensional server modes unless noted otherwise.
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
 ## Memory
 
- **DefaultPageSizeForData**  
+##### DefaultPageSizeForData
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DefaultPageSizeForDataHeader**  
+##### DefaultPageSizeForDataHeader
+  
+An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+  
+##### DefaultPageSizeForIndex
+
+An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+  
+##### **DefaultPageSizeForIndexHeader
+
+An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+  
+##### DefaultPageSizeForString
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DefaultPageSizeForIndex**  
+##### DefaultPageSizeForHash
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DefaultPageSizeForIndexHeader**  
- An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
- **DefaultPageSizeForString**  
- An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
- **DefaultPageSizeForHash**  
- An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
- **DefaultPageSizeForProp**  
+##### DefaultPageSizeForProp
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
 ## LazyProcessing
 
- **Enabled**  
+##### Enabled
+
  A Boolean property that specifies whether lazy aggregation processing is enabled.  
   
- **SleepIntervalSecs**  
+##### SleepIntervalSecs
+
  A signed 32-bit integer property that defines the interval, in seconds, that the server checks whether there are lazy processing jobs pending.  
   
- **MaxCPUUsage**  
+##### MaxCPUUsage
+
  A signed 64-bit double-precision floating-point number property that defines maximum CPU usage for lazy processing, expressed as a percentage. The server monitors average CPU use based on snapshots. It is normal behavior for the CPU to spike above this threshold.  
   
  The default value for this property is 0.5, indicating a maximum of 50% of the CPU will be devoted to lazy processing.  
   
- **MaxObjectsInParallel**  
+##### MaxObjectsInParallel
+
  A signed 32-bit integer property that specifies the maximum number of partitions that can be lazily processed in parallel.  
   
- **MaxRetries**  
+##### MaxRetries
+
  A signed 32-bit integer property that defines the number of retries in the event that lazy processing fails before an error is raised.  
   
 ## ProcessPlan
 
- **CacheRowsetRows**  
+##### CacheRowsetRows
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **CacheRowsetToDisk**  
+##### CacheRowsetToDisk
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DistinctBuffer**  
+##### DistinctBuffer
+
  A signed 32-bit integer property that defines the size of an internal buffer used for distinct counts. Increase this value to speed up distinct count processing at the cost of memory use.  
   
- **EnableRolapDimQueryTableGrouping**  
+##### EnableRolapDimQueryTableGrouping
+
  A Boolean property that specifies whether table grouping is enabled for ROLAP dimensions. If True, when querying ROLAP dimensions at runtime, entire ROLAP dimension tables are queried at once, as opposed to separate queries for each attribute.  
   
- **EnableTableGrouping**  
+##### EnableTableGrouping
+
  A Boolean property that specifies whether table grouping is enabled. If True, when processing dimensions, entire dimension tables are queried at once, as opposed to separate queries for each attribute.  
   
- **ForceMultiPass**  
+##### ForceMultiPass
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **MaxTableDepth**  
+##### MaxTableDepth
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **MemoryAdjustConst**  
+##### MemoryAdjustConst
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **MemoryAdjustFactor**  
+##### MemoryAdjustFactor
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **MemoryLimit**  
+##### MemoryLimit
+
  A signed 64-bit double-precision floating-point number property that defines the maximum amount of memory to be devoted to processing, expressed as a percentage of physical memory.  
   
  The default value for this property is 65, indicating that 65% of physical memory may be devoted to cube and dimension processing.  
   
- **MemoryLimitErrorEnabled**  
+##### MemoryLimitErrorEnabled
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **OptimizeSchema**  
+##### OptimizeSchema
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
 ## ProactiveCaching
 
- **DefaultRefreshInterval**  
+##### DefaultRefreshInterval
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DimensionLatencyAccuracy**  
+##### DimensionLatencyAccuracy
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **PartitionLatencyAccuracy**  
+##### PartitionLatencyAccuracy
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
 ## Process
 
- **AggregationMemoryLimitMax**  
+##### AggregationMemoryLimitMax
+
  A signed 64-bit double-precision floating-point number property that defines the maximum amount of memory that can be devoted to aggregation processing, expressed as a percentage of physical memory.  
   
  The default value for this property is 80, indicating that 80% of physical memory may be devoted to aggregation processing.  
   
- **AggregationMemoryLimitMin**  
+##### AggregationMemoryLimitMin
+
  A signed 64-bit double-precision floating-point number property that defines the minimum amount of memory that can be devoted to aggregation processing, expressed as a percentage of physical memory. A larger value may speed up aggregation processing at the cost of memory usage.  
   
  The default value for this property is 10, indicating that minimally 10% of physical memory will be devoted to aggregation processing.  
   
- **AggregationNewAlgo**  
+##### AggregationNewAlgo
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **AggregationPerfLog2**  
+##### AggregationPerfLog2
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **AggregationsBuildEnabled**  
+##### AggregationsBuildEnabled
+
  A Boolean property that specifies whether aggregation building is enabled. This is a mechanism to benchmark aggregation building without changing aggregation design.  
   
- **BufferMemoryLimit**  
+##### BufferMemoryLimit
+
  A signed 64-bit double-precision floating-point number property that defines the processing buffer memory limit, expressed as a percent of physical memory.  
   
  The default value for this property is 60, which indicates that up to 60% of physical memory can be used for buffer memory.  
   
- **BufferRecordLimit**  
+##### BufferRecordLimit
+
  A signed 32-bit integer property that defines the number of records that can be buffered during processing.  
   
  The default value for this property is 1048576 (records).  
   
- **CacheRecordLimit**  
+##### CacheRecordLimit
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **CheckDistinctRecordSortOrder**  
+##### CheckDistinctRecordSortOrder
+
  A Boolean property that defines if the sort order for the results of a distinct count query are meaningful when processing partitions. True indicates the sort order is not meaningful and must be "checked" by the server. When processing partitions with distinct count measure, query sent to SQL with order-by. Set to false to speed up processing.  
   
  The default value for this property is True, which indicates that the sort order is not meaningful and must be checked.  
   
- **DatabaseConnectionPoolConnectTimeout**  
+##### DatabaseConnectionPoolConnectTimeout
+
  A signed 32-bit integer property that specifies timeout when opening a new connection in seconds.  
   
- **DatabaseConnectionPoolGeneralTimeout**  
+##### DatabaseConnectionPoolGeneralTimeout
+
  A signed 32-bit integer property that specifies database connection timeout for use with external OLEDB connections in seconds.  
   
- **DatabaseConnectionPoolMax**  
+##### DatabaseConnectionPoolMax
+
  A signed 32-bit integer property that specifies the maximum number of pooled database connections.  
   
  The default value for this property is 50 (connections).  
   
- **DatabaseConnectionPoolTimeout**  
+##### DatabaseConnectionPoolTimeout
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataFileInitEnabled**  
+##### DataFileInitEnabled
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataPlacementOptimization**  
+##### DataPlacementOptimization
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataSliceInitEnabled**  
+##### DataSliceInitEnabled
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DeepCompressValue**  
+##### DeepCompressValue
+
  A Boolean property applying to measures with Double data type that specifies whether numbers can be compressed, causing a loss in numeric precision. A value of False indicates no compression and no precision loss.  
   
  The default value for this property is True, which indicates that compression is enabled and precision will be lost.  
   
- **DimensionPropertyKeyCache**  
+##### DimensionPropertyKeyCache
+
  A Boolean property that specifies whether dimension property keys are cached. Must be set to True if keys are non-unique.  
   
- **IndexBuildEnabled**  
+##### IndexBuildEnabled
+
  A Boolean property that specifies whether indexes are built upon processing. This property is for benchmarking and informational purposes.  
   
- **IndexBuildThreshold**  
+##### IndexBuildThreshold
+
  A signed 32-bit integer property that specifies a row count threshold below which indexes will not be built for partitions.  
   
  The default value for this property is 4096 (rows).  
   
- **IndexFileInitEnabled**  
+##### IndexFileInitEnabled
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **MapFormatMask**  
+##### MapFormatMask
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **RecordsReportGranularity**  
+##### RecordsReportGranularity
+
  A signed 32-bit integer property that specifies how often the server records Trace events during processing, in rows.  
   
  The default value for this property is 1000, which indicates that a Trace event is logged once every 1000 rows.  
   
- **ROLAPDimensionProcessingEffort**  
+##### ROLAPDimensionProcessingEffort
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+
 ## Query
 
- **AggregationsUseEnabled**  
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+
+##### AggregationsUseEnabled
+
  A Boolean property that defines whether stored aggregations are used at runtime. This property allows aggregations to be disabled without changing the aggregation design or re-processing, for informational and benchmarking purposes.  
   
  The default value for this property is True, indicating that aggregations are enabled.  
   
- **AllowSEFiltering**  
+##### AllowSEFiltering
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **CalculationCacheRegistryMaxIterations**  
+##### CalculationCacheRegistryMaxIterations
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **CalculationEvaluationPolicy**  
+##### CalculationEvaluationPolicy
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ConvertDeletedToUnknown**  
+##### ConvertDeletedToUnknown
+
  A Boolean property that specifies whether deleted dimension members are converted to Unknown member.  
   
- **CopyLinkedDataCacheAndRegistry**  
+##### CopyLinkedDataCacheAndRegistry
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCacheRegistryMaxIterations**  
+##### DataCacheRegistryMaxIterations
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DefaultDrillthroughMaxRows**  
+##### DefaultDrillthroughMaxRows
+
  A signed 32-bit integer property that specifies the maximum number of rows that will return from a drill-through query.  
   
  The default value for this property is 10000 (rows).  
   
- **DimensionPropertyCacheSize**  
+##### DimensionPropertyCacheSize
+
  A signed 32-bit integer property that specifies the amount of memory (in bytes) used to cache dimension members used in a query.  
   
  The default is 4,000,000 bytes (or 4 MB) per attribute hierarchy, per active query. The default value provides a well-balanced cache size for solutions having typical hierarchies. However, dimensions with a very large number of members (in the millions) or deep hierarchies perform better if you increase this value.  
   
  Implications of increasing cache size:  
   
--   Memory utilization costs increase when you allow more memory to be used by the dimension cache. Actual usage depends on query execution. Not all queries will use the allowable maximum.  
+- Memory utilization costs increase when you allow more memory to be used by the dimension cache. Actual usage depends on query execution. Not all queries will use the allowable maximum.  
   
      Note that the memory used by these caches is considered nonshrinkable and will be included when accounting against the **TotalMemoryLimit**.  
   
--   Affects all databases on the server. **DimensionPropertyCachesize** is a server-wide property. Changing this property affects all databases running on the current instance.  
+- Affects all databases on the server. **DimensionPropertyCachesize** is a server-wide property. Changing this property affects all databases running on the current instance.  
   
 Approach for estimating dimension cache requirements:  
   
-1.  Start by increasing the size by a large number to determine whether there is a benefit to increasing the dimension cache size. For example, you might want to double the default value as an initial step.  
+1. Start by increasing the size by a large number to determine whether there is a benefit to increasing the dimension cache size. For example, you might want to double the default value as an initial step.  
   
-2.  If a performance improvement is evident, incrementally reduce the value until you reach a balance between performance and memory utilization.  
+2. If a performance improvement is evident, incrementally reduce the value until you reach a balance between performance and memory utilization.
 
+##### ExpressNonEmptyUseEnabled
 
- **ExpressNonEmptyUseEnabled**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **IgnoreNullRolapRows**  
+##### IgnoreNullRolapRows
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **IndexUseEnabled**  
+##### IndexUseEnabled
+
  A Boolean property that defines whether indexes are used at runtime. This property is for informational and benchmarking purposes.  
   
- **MapHandleAlgorithm**  
- An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
- **MaxRolapOrConditions**  
- An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
- 
- **RowsetSerializationLimit**   
- Applies to Azure Analysis Services and SQL Server 2019 and later only. Limits the number of rows returned in a rowset to clients. Default value is -1, meaning no limit is applied. Applies to both DAX and MDX queries. It can be used to protect server resources from extensive data export. Queries submitted to the server that exceed the limit are cancelled and an error is returned. **Warning:** Do not set to 0, which can result in errors for common operations and could prevent further server access by Analysis Services server administrators.
+##### MapHandleAlgorithm
 
- **UseCalculationCacheRegistry**  
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **UseDataCacheFreeLastPageMemory**  
+##### MaxRolapOrConditions
+
+ An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
+
+##### RowsetSerializationLimit
+
+ Applies to Power BI, Azure Analysis Services, and SQL Server 2019 and later only. Limits the number of rows returned in a rowset to clients. Default value is -1, meaning no limit is applied. Applies to both DAX and MDX queries. It can be used to protect server resources from extensive data export. Queries submitted to the server that exceed the limit are cancelled and an error is returned. **Warning:** Do not set to 0, which can result in errors for common operations and could prevent further server access by server administrators.
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+
+##### UseCalculationCacheRegistry
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **UseDataCacheRegistry**  
+##### UseDataCacheFreeLastPageMemory
+
+ An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+  
+##### UseDataCacheRegistry
+
  A Boolean property that specifies whether to enable the data cache registry, where query results are cached (though not calculated results).  
   
- **UseDataCacheRegistryHashTable**  
+##### UseDataCacheRegistryHashTable
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **UseDataCacheRegistryMultiplyKey**  
+##### UseDataCacheRegistryMultiplyKey
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **UseDataSlice**  
+##### UseDataSlice
+
  A Boolean property that defines whether to use partition data slices at runtime for query optimization. This property is for benchmarking and informational purposes.  
   
- **UseMaterializedIterators**  
+##### UseMaterializedIterators
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **UseSinglePassForDimSecurityAutoExist**  
+##### UseSinglePassForDimSecurityAutoExist
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **UseVBANet**  
+##### UseVBANet
+
  A Boolean property that defines whether to use the VBA .net assembly for user-defined functions.  
   
- **CalculationPrefetchLocality\ ApplyIntersect**  
+##### CalculationPrefetchLocality\ ApplyIntersect
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **CalculationPrefetchLocality\ ApplySubtract**  
+##### CalculationPrefetchLocality\ ApplySubtract
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **CalculationPrefetchLocality\ PrefetchLowerGranularities**  
+##### CalculationPrefetchLocality\ PrefetchLowerGranularities
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\  CachedPageAlloc\ Income**  
+##### DataCache\  CachedPageAlloc\ Income
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\  CachedPageAlloc\ InitialBonus**  
+##### DataCache\  CachedPageAlloc\ InitialBonus
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\  CachedPageAlloc\ MaximumBalance**  
+##### DataCache\  CachedPageAlloc\ MaximumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\  CachedPageAlloc\ MinimumBalance**  
+##### DataCache\  CachedPageAlloc\ MinimumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\  CachedPageAlloc\ Tax**  
+##### DataCache\  CachedPageAlloc\ Tax
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\CellStore\ Income**  
+##### DataCache\CellStore\ Income
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\CellStore\ InitialBonus**  
+##### DataCache\CellStore\ InitialBonus
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\CellStore\ MaximumBalance**  
+##### DataCache\CellStore\ MaximumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\CellStore\ MinimumBalance**  
+##### DataCache\CellStore\ MinimumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\CellStore\ Tax**  
+##### DataCache\CellStore\ Tax
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\ MemoryModel \ Income**  
+##### DataCache\ MemoryModel \ Income
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\ MemoryModel \ InitialBonus**  
+##### DataCache\ MemoryModel \ InitialBonus
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\ MemoryModel \ MaximumBalance**  
+##### DataCache\ MemoryModel \ MaximumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\ MemoryModel \ MinimumBalance**  
+##### DataCache\ MemoryModel \ MinimumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **DataCache\ MemoryModel\ Tax**  
+##### DataCache\ MemoryModel\ Tax
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
 ## Jobs
 
- **ProcessAggregation\ MemoryModel\ Income**  
+##### ProcessAggregation\ MemoryModel\ Income
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ MemoryModel\ InitialBonus**  
+##### ProcessAggregation\ MemoryModel\ InitialBonus
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ MemoryModel\ MaximumBalance**  
+##### ProcessAggregation\ MemoryModel\ MaximumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ MemoryModel\ MinimumBalance**  
+##### ProcessAggregation\ MemoryModel\ MinimumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ MemoryModel\ Tax**  
+##### ProcessAggregation\ MemoryModel\ Tax
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ ProcessPartition\ Income**  
+##### ProcessAggregation\ ProcessPartition\ Income
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ ProcessPartition \ InitialBonus**  
+##### ProcessAggregation\ ProcessPartition \ InitialBonus
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ ProcessPartition \ MaximumBalance**  
+##### ProcessAggregation\ ProcessPartition \ MaximumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ ProcessPartition \ MinimumBalance**  
+##### ProcessAggregation\ ProcessPartition \ MinimumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ ProcessPartition \ Tax**  
+##### ProcessAggregation\ ProcessPartition \ Tax
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ ProcessProperty\ Income**  
+##### ProcessAggregation\ ProcessProperty\ Income
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ ProcessProperty\ InitialBonus**  
+##### ProcessAggregation\ ProcessProperty\ InitialBonus
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ ProcessProperty\ MaximumBalance**  
+##### ProcessAggregation\ ProcessProperty\ MaximumBalance
+
  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ ProcessProperty\ MinimumBalance**  
- An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+##### ProcessAggregation\ ProcessProperty\ MinimumBalance
+
+An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
   
- **ProcessAggregation\ ProcessProperty\ Tax**  
- An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
+##### ProcessAggregation\ ProcessProperty\ Tax
+
+An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+
+::: moniker-end
+
 ## See also
 
  [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
  [Determine the Server Mode of an Analysis Services Instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
-  
-  
