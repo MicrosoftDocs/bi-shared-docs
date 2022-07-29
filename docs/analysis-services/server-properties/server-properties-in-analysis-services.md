@@ -34,12 +34,12 @@ Power BI workspaces support modifying a limited subset of properties in the Gene
 
 The following [General](general-properties.md) workspace property settings can override equivalent *capacity settings* for workspaces assigned to the capacity:
 
+- AdminTimeOut
+- CommitTimeout
+- DefaultSegmentRowCount
 - ExternalCommandTimeout
 - ExternalConnectionTimeout
 - ForceCommitTimeout
-- DefaultSegmentRowCount
-- CommitTimeout
-- AdminTimeOut
 
 Capacity admins can enable or disable the ability for workspace admins to modify these workspace property settings. By default, this setting is enabled, meaning workspace admins can modify the property settings by using XMLA script in SQL Server Management Studio. Capacity admins can disable this setting in the Admin portal, in **Capacity settings** > **Workloads** > **DATASETS** > **Observe XMLA-based settings**.
 
@@ -51,9 +51,7 @@ Capacity admins can enable or disable the ability for workspace admins to modify
   
 2. In Object Explorer, right-click the instance, and then click **Properties**. The General page appears, displaying the more commonly used properties.  
 
-3. To view additional properties, click the **Show Advanced (All) Properties** checkbox at the bottom of the page.  
-  
-     Modifying server properties is supported only for tabular mode and multidimensional mode servers. If you installed [!INCLUDE[ssGeminiShort](../includes/ssgeminishort-md.md)], always use the default values unless otherwise directed otherwise by Microsoft Support.  
+3. To show additional properties, click the **Show Advanced (All) Properties** checkbox at the bottom of the page.
 
 ## Configure by using XMLA script
 
