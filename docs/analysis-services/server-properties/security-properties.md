@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services security properties | Microsoft Docs"
 description: Learn about the available security properties in Analysis Services, like RequireClientAuthentication and ServiceAccountIsServerAdmin.
-ms.date: 05/03/2021
+ms.date: 07/21/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -15,47 +15,44 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || >
 
 [!INCLUDE[appliesto-sqlas-all-aas](../includes/appliesto-sqlas-all-aas.md)]
 
-**Applies to:** Multidimensional and tabular server mode unless noted otherwise.
-
-An [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] supports the following security properties. Not all properties apply to Azure Analysis Services and Power BI Premium. 
+Analysis Services supports the following security properties.
 
 ## Properties
 
- **RequireClientAuthentication**  
- A Boolean property that indicates whether client authentication is required.  
-  
- The default value for this property is True, which indicates that client authentication is required.  
-  
- **SecurityPackageList**  
- A string property that contains a comma-separated list of SSPI packages used by the server for client authentication.  
-  
- **DisableClientImpersonation**  
- A Boolean property that indicates whether client impersonation (for example, from stored procedures) is disabled.  
-  
- The default value for this property is False, which indicates that client impersonation is enabled.  
-  
- **BuiltinAdminsAreServerAdmins**  
- A Boolean property that indicates whether members of the local machine administrators group are administrators.  
-  
- **ServiceAccountIsServerAdmin**  
- A Boolean property that indicates whether the service account is a server administrator.  
-  
- The default value for this property is True, which indicates that the service account is a server administrator.  
-  
- **ErrorMessageMode**  
- An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
-  
- **DataProtection\ RequiredProtectionLevel**  
- A signed 32-bit integer property that defines the required protection level for all client requests. This property has one of the values listed in the following table.  
+**AdministrativeDataProtection\ RequiredProtectionLevel**  An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+
+**BuiltinAdminsAreServerAdmins**  
+Does not apply to Power BI. A Boolean property that indicates whether members of the local machine administrators group are administrators.
+
+**DataProtection\ RequiredProtectionLevel**  
+A signed 32-bit integer property that defines the required protection level for all client requests. This property has one of the values listed in the following table.  
   
 |Value|Description|  
 |-----------|-----------------|  
 |*0*|None, clear text allowed.|  
 |*1*|(Default) Encryption required, no clear-text logging.|  
-|*2*|Clear-text requests allowed but only with signatures (weaker protection than encryption).|  
+|*2*|Clear-text requests allowed but only with signatures (weaker protection than encryption).|
+
+**DisableClientImpersonation**  
+A Boolean property that indicates whether client impersonation (for example, from stored procedures) is disabled.  
   
- **AdministrativeDataProtection\ RequiredProtectionLevel**  
- An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+The default value for this property is False, which indicates that client impersonation is enabled.
+
+**ErrorMessageMode**  
+An advanced property that you should not change, except under the guidance of [!INCLUDE[msCoName](../includes/msconame-md.md)] support.  
+
+**RequireClientAuthentication**  
+A Boolean property that indicates whether client authentication is required.  
+  
+The default value for this property is True, which indicates that client authentication is required.  
+  
+**SecurityPackageList**  
+Does not apply to Power BI. A string property that contains a comma-separated list of SSPI packages used by the server for client authentication.  
+  
+**ServiceAccountIsServerAdmin**  
+Does not apply to Power BI. A Boolean property that indicates whether the service account is a server administrator.  
+  
+The default value for this property is True, which indicates that the service account is a server administrator.  
   
 ## See also
 
