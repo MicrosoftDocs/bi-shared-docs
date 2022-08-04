@@ -1,7 +1,7 @@
 ---
 title: "Relationships in Analysis Services tabular models | Microsoft Docs"
 description: Learn how a relationship is a connection between two tables of data, and how the relationship establishes how the data in the two tables should be correlated.
-ms.date: 04/28/2020
+ms.date: 08/04/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -131,7 +131,7 @@ If you want to create a relationship between two tables in the model designer, a
   
 ### Many-to-many relationships
 
-Tabular models at the 1500 and higher compatibility level deployed to Azure Analysis Services, SQL Server 2019 Analysis Services, and Power BI Premium support many-to-many relationships.
+Tabular models at the 1500 and higher compatibility level deployed to Azure Analysis Services, SQL Server 2019 and later Analysis Services, and Power BI Premium support many-to-many relationships.
 
 Many-to-many relationships are those between tables where both columns are non-unique. A relationship can be defined between a dimension and fact table at a granularity higher than the key column of the dimension. This avoids having to normalize dimension tables and can improve the user experience because the resulting model has a smaller number of tables with logically grouped columns.
 

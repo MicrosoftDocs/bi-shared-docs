@@ -1,7 +1,7 @@
 ﻿---
 title: "Tabular Model Scripting Language (TMSL) Reference | Microsoft Docs"
 description: Learn that Tabular Model Scripting Language (TMSL) is the command and object model definition syntax for tabular data models at compatibility level 1200 or higher.
-ms.date: 10/20/2020
+ms.date: 08/04/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tmsl
@@ -58,13 +58,15 @@ author: minewiskan
 > [!NOTE]  
 >  In [SQL Server Data Tools (SSDT), you can upgrade an earlier version tabular model to use TMSL by switching up its **CompatibilityLevel** to 1200 or higher. Remember that upgrade is irreversible. Prior to upgrading, back up your model in case you need the original version later.  
   
- The following table is the scripting language matrix for Analysis Services data models across different versions, at specific compatibility levels.  
+ The following table is the scripting language matrix for Analysis Services data models across different platforms/versions at specific compatibility levels.  
 
-| Version | Multidimensional | Tabular 110x | Tabular 1200 | Tabular 1400 | Tabular 1500 |
-| ------- | ---------------- | ------------ | ------------ | ------------ | ------------ |
-|Azure Analysis Services|NA|NA|TMSL|TMSL|TMSL|
-|SQL Server 2019 Analysis Services|ASSL|ASSL|TMSL|TMSL|TMSL|
-|SQL Server 2017 Analysis Services|ASSL|ASSL|TMSL|TMSL|NA|
-|SQL Server 2016 Analysis Services|ASSL|ASSL|TMSL|NA|NA|
-|SQL Server 2014 Analysis Services|ASSL|ASSL|NA|NA|NA|
-|SQL Server 2012 Analysis Services|ASSL|ASSL|NA|NA|NA|
+| Version | Multidimensional | Tabular 110x | Tabular 1200 | Tabular 1400 | Tabular 1500 |Tabular 1600|
+| ------- | ---------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+|Power BI Premium|NA|NA|NA|NA|TMSL|TMSL|
+|Azure Analysis Services|NA|NA|TMSL|TMSL|TMSL|TMSL|
+|SQL Server 2022 Analysis Services|ASSL|ASSL|TMSL|TMSL|TMSL|TMSL|
+|SQL Server 2019 Analysis Services|ASSL|ASSL|TMSL|TMSL|TMSL|TMSL|
+|SQL Server 2017 Analysis Services|ASSL|ASSL|TMSL|TMSL|NA|NA|
+|SQL Server 2016 Analysis Services|ASSL|ASSL|TMSL|NA|NA|NA|
+|SQL Server 2014 Analysis Services|ASSL|ASSL|NA|NA|NA|NA|
+|SQL Server 2012 Analysis Services|ASSL|ASSL|NA|NA|NA|NA|
