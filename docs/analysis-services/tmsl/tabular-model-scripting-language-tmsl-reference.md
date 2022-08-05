@@ -65,7 +65,7 @@ author: minewiskan
 |Power BI Premium|NA|NA|NA|NA|TMSL|TMSL|
 |Azure Analysis Services|NA|NA|TMSL|TMSL|TMSL|TMSL|
 |SQL Server 2022 Analysis Services|ASSL|ASSL|TMSL|TMSL|TMSL|TMSL|
-|SQL Server 2019 Analysis Services|ASSL|ASSL|TMSL|TMSL|TMSL|TMSL|
+|SQL Server 2019 Analysis Services|ASSL|ASSL|TMSL|TMSL|TMSL|NA|
 |SQL Server 2017 Analysis Services|ASSL|ASSL|TMSL|TMSL|NA|NA|
 |SQL Server 2016 Analysis Services|ASSL|ASSL|TMSL|NA|NA|NA|
 |SQL Server 2014 Analysis Services|ASSL|ASSL|NA|NA|NA|NA|
