@@ -32,7 +32,7 @@ For Power BI, workspace admin permissions are required to modify workspace prope
 
 Power BI workspaces support modifying a limited subset of XMLA-based Analysis Services properties in the General, DAX, Filestore, Memory, and OLAP categories by using SSMS. When modified, the change applies only to that workspace.
 
-Some XMLA-based workspace properties have equivalent capacity settings that can be set in the Admin portal, in **Capacity settings**/**Workloads**/**DATASETS**. These settings apply to *all* workspaces assigned to the capacity, however workspace admins can override settings for a specific workspace by using SSMS.
+Some XMLA-based workspace properties have equivalent capacity settings that can be set in the Admin portal, in **Capacity settings**/**Workloads**/**DATASETS**. These settings apply to *all* workspaces assigned to the capacity, however, workspace admins can override settings for a specific workspace by using SSMS.
 
 |Analysis Services property  |Category | Power BI Capacity setting  |
 |---------|---------|---------|
