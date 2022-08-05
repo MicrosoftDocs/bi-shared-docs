@@ -36,17 +36,17 @@ Some properties have equivalent capacity settings that can be set in  the Admin 
 
 |Analysis Services property  |Category | Power BI Capacity setting  |
 |---------|---------|---------|
-|[AdminTimeOut](general-properties.md?view=power-bi-premium-current#admintimeout)    | General |  NA     |
-|[CommitTimeout](general-properties.md?view=power-bi-premium-current#committimeout)     | General |   NA    |
-|[DefaultSegmentRowCount](general-properties.md?view=power-bi-premium-current#defaultsegmentrowcount)    |  General |   NA   |
-|[ExternalCommandTimeout](general-properties.md?view=power-bi-premium-current#externalcommandtimeout)    |  General |   NA   |
-|[ExternalConnectionTimeout](general-properties.md?view=power-bi-premium-current#externalconnectiontimeout)     |  General |   NA   |
-|[ForceCommitTimeout](general-properties.md?view=power-bi-premium-current#forcecommittimeout)    |  General |  NA    |
-|[MaxIntermediateRowsetSize](dax-properties.md?view=power-bi-premium-current#properties)      | DAX |[Max Intermediate Row Set Count](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-intermediate-row-set-count) |
-|[MaxOfflineDatasetSize](filestore-properties.md?view=power-bi-premium-current#maxofflinedatasetsizegb)     |  Filestore | [Max Offline Dataset Size](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-offline-dataset-size)       |
-|[RowsetSerializationLimit](olap-properties.md?view=power-bi-premium-current#rowsetserializationlimit)        |  OLAP | [Max Result Row Count](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-result-row-set-count)      |
-|[QueryMemoryLimit](memory-properties.md?view=power-bi-premium-current#querymemorylimit)        | Memory | [Query Memory Limit](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#query-memory-limit)      |
-|[ServerTimeout](general-properties?view=power-bi-premium-current#servertimeout)     | General  | [Query Timeout](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#query-timeout)      |
+|[AdminTimeOut](general-properties.md#admintimeout)    | General |  NA     |
+|[CommitTimeout](general-properties.md#committimeout)     | General |   NA    |
+|[DefaultSegmentRowCount](general-properties.md#defaultsegmentrowcount)    |  General |   NA   |
+|[ExternalCommandTimeout](general-properties.md#externalcommandtimeout)    |  General |   NA   |
+|[ExternalConnectionTimeout](general-properties.md#externalconnectiontimeout)     |  General |   NA   |
+|[ForceCommitTimeout](general-properties.md#forcecommittimeout)    |  General |  NA    |
+|[MaxIntermediateRowsetSize](dax-properties.md#properties)      | DAX |[Max Intermediate Row Set Count](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-intermediate-row-set-count) |
+|[MaxOfflineDatasetSize](filestore-properties.md#maxofflinedatasetsizegb)     |  Filestore | [Max Offline Dataset Size](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-offline-dataset-size)       |
+|[RowsetSerializationLimit](olap-properties.md#rowsetserializationlimit)        |  OLAP | [Max Result Row Count](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-result-row-set-count)      |
+|[QueryMemoryLimit](memory-properties.md#querymemorylimit)        | Memory | [Query Memory Limit](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#query-memory-limit)      |
+|[ServerTimeout](general-properties.md#servertimeout)     | General  | [Query Timeout](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#query-timeout)      |
 
 Capacity admins can enable or disable the ability for workspace admins to modify XMLA-based workspace property settings. By default, this setting is enabled, meaning workspace admins can modify workspace property settings by using SSMS. Capacity admins can disable this setting in the Admin portal, in **Capacity settings** > **Workloads** > **DATASETS** > **Observe XMLA-based settings**. When disabled, workspace admins cannot modify *any* XMLA-based property setting.
 
