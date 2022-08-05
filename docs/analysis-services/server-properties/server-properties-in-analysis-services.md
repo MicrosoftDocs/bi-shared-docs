@@ -1,7 +1,7 @@
 ---
 title: "Server Properties in Analysis Services | Microsoft Docs"
 description: Learn how to modify default server configuration properties of an Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), or Power BI workspace instance.
-ms.date: 07/21/2022
+ms.date: 08/05/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -30,18 +30,25 @@ For Power BI, workspace admin permissions are required to modify workspace prope
 
 ## Power BI XMLA-based workspace properties
 
-Power BI workspaces support modifying a limited subset of properties in the General, DAX, Filestore, Memory, and OLAP categories.
+Power BI workspaces support modifying a limited subset of properties in the General, DAX, Filestore, Memory, and OLAP categories by using SSMS.  When modified, the change applies only to that workspace.
 
-The following [General](general-properties.md) workspace property settings can override equivalent *capacity settings* for workspaces assigned to the capacity:
+Some properties have equivalent capacity settings that can be set in  the Admin portal, in **Capacity settings**/**Workloads**/**DATASETS**. These settings apply to *all* workspaces assigned to the capacity. However, by default, workspace admins can override settings for a specific workspace by using SSMS.
 
-- AdminTimeOut
-- CommitTimeout
-- DefaultSegmentRowCount
-- ExternalCommandTimeout
-- ExternalConnectionTimeout
-- ForceCommitTimeout
+|Analysis Services property  |Category | Power BI Capacity setting  |
+|---------|---------|---------|
+|[AdminTimeOut](general-properties.md?view=power-bi-premium-current#admintimeout)    | General |  NA     |
+|[CommitTimeout](general-properties.md?view=power-bi-premium-current#committimeout)     | General |   NA    |
+|[DefaultSegmentRowCount](general-properties.md?view=power-bi-premium-current#defaultsegmentrowcount)    |  General |   NA   |
+|[ExternalCommandTimeout](general-properties.md?view=power-bi-premium-current#externalcommandtimeout)    |  General |   NA   |
+|[ExternalConnectionTimeout](general-properties.md?view=power-bi-premium-current#externalconnectiontimeout)     |  General |   NA   |
+|[ForceCommitTimeout](general-properties.md?view=power-bi-premium-current#forcecommittimeout)    |  General |  NA    |
+|[MaxIntermediateRowsetSize](dax-properties.md?view=power-bi-premium-current#properties)      | DAX |[Max Intermediate Row Set Count](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-intermediate-row-set-count) |
+|[MaxOfflineDatasetSize](filestore-properties.md?view=power-bi-premium-current#maxofflinedatasetsizegb)     |  Filestore | [Max Offline Dataset Size](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-offline-dataset-size)       |
+|[RowsetSerializationLimit](olap-properties.md?view=power-bi-premium-current#rowsetserializationlimit)        |  OLAP | [Max Result Row Count](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-result-row-set-count)      |
+|[QueryMemoryLimit](memory-properties.md?view=power-bi-premium-current#querymemorylimit)        | Memory | [Query Memory Limit](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#query-memory-limit)      |
+|[ServerTimeout](general-properties?view=power-bi-premium-current#servertimeout)     | General  | [Query Timeout](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#query-timeout)      |
 
-Capacity admins can enable or disable the ability for workspace admins to modify these workspace property settings. By default, this setting is enabled, meaning workspace admins can modify the property settings by using XMLA script in SQL Server Management Studio. Capacity admins can disable this setting in the Admin portal, in **Capacity settings** > **Workloads** > **DATASETS** > **Observe XMLA-based settings**.
+Capacity admins can enable or disable the ability for workspace admins to modify XMLA-based workspace property settings. By default, this setting is enabled, meaning workspace admins can modify workspace property settings by using SSMS. Capacity admins can disable this setting in the Admin portal, in **Capacity settings** > **Workloads** > **DATASETS** > **Observe XMLA-based settings**. When disabled, workspace admins cannot modify *any* XMLA-based property setting.
 
 :::image type="content" source="media/pbi-workspace-enable-xmla.png" alt-text="Image of Power BI Workload Datasets settings. ":::
 
