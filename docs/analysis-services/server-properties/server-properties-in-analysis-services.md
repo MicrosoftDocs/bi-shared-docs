@@ -43,7 +43,7 @@ Some XMLA-based workspace properties have equivalent capacity settings that can 
 |[ExternalConnectionTimeout](general-properties.md#externalconnectiontimeout)     |  General |   NA   |
 |[ForceCommitTimeout](general-properties.md#forcecommittimeout)    |  General |  NA    |
 |[MaxIntermediateRowsetSize](dax-properties.md#properties)      | DAX |[Max Intermediate Row Set Count](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-intermediate-row-set-count) |
-|[MaxOfflineDatasetSize](filestore-properties.md#maxofflinedatasetsizegb)     |  Filestore | [Max Offline Dataset Size](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-offline-dataset-size)       |
+|[MaxOfflineDatasetSizeGB](filestore-properties.md#maxofflinedatasetsizegb)     |  Filestore | [Max Offline Dataset Size](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-offline-dataset-size)       |
 |[RowsetSerializationLimit](olap-properties.md#rowsetserializationlimit)        |  OLAP | [Max Result Row Count](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#max-result-row-set-count)      |
 |[QueryMemoryLimit](memory-properties.md#querymemorylimit)        | Memory | [Query Memory Limit](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#query-memory-limit)      |
 |[ServerTimeout](general-properties.md#servertimeout)     | General  | [Query Timeout](/power-bi/enterprise/service-admin-premium-workloads?tabs=gen2#query-timeout)      |
