@@ -22,6 +22,9 @@ Properties pages in SQL Server Management Studio (SSMS) show a subset of those p
 > [!NOTE]
 > In Power BI, a workspace is effectively an Analysis Services server. In context of Analysis Services, the terms workspace, server, and instance are synonymous.
 
+> [!NOTE]
+> In Power BI, modifying server (workspace) properties is not supported for Premium per user.
+
 ## Permissions
 
 For Azure AS and SSAS, server administrator permissions are required to modify server properties.
