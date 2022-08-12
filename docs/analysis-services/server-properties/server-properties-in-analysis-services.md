@@ -15,15 +15,12 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Administrators can modify many default configuration properties of an Azure Analysis Services (Azure AS) server resource, SQL Server Analysis Services (SSAS) server instance, or a Power BI workspace.
+Administrators can modify many default configuration properties of an Azure Analysis Services (Azure AS) server resource, SQL Server Analysis Services (SSAS) server instance, or a Power BI workspace assigned to a Premium capacity. Modifying default configuration properties is not supported for Power BI Premium per user.
 
 Properties pages in SQL Server Management Studio (SSMS) show a subset of those properties most likely to be modified. For Azure AS and Power BI, all applicable properties can be modified by using XMLA script in SSMS. For SQL Server Analysis Services, all applicable properties can be modified in the msmdsrv.ini file.
 
 > [!NOTE]
 > In Power BI, a workspace is effectively an Analysis Services server. In context of Analysis Services, the terms workspace, server, and instance are synonymous.
-
-> [!NOTE]
-> In Power BI, modifying server (workspace) properties is not supported for Premium per user.
 
 ## Permissions
 
