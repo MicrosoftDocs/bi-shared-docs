@@ -24,11 +24,11 @@ This article summarizes new features, improvements, deprecated and discontinued 
 
 #### Horizontal fusion
 
-This release introduces Horizontal Fusion, a query execution plan optimization aimed at reducing the number of data source queries required to generate and return results. Multiple smaller data source queries are fused together into a larger data source query. Fewer data source queries mean fewer round trips and fewer expensive scans over large data sources, which ultimately results in sizeable DAX performance gains and reduced processing demand at the data source. DAX queries run faster with Horizontal Fusion, especially in DirectQuery mode, but scalability also increases.
+This release introduces Horizontal Fusion, a query execution plan optimization aimed at reducing the number of data source queries required to generate and return results. Multiple smaller data source queries are fused together into a larger data source query. Fewer data source queries mean fewer round trips and fewer expensive scans over large data sources, which results in sizeable DAX performance gains and reduced processing demand at the data source. DAX queries run faster with Horizontal Fusion, especially in DirectQuery mode. In addition, scalability also increases.
 
 #### Parallel Execution Plans for DirectQuery
 
-This improvement enables the Analysis Services engine to analyze DAX queries against a DirectQuery source and identify independent storage engine operations. The engine can then execute those operations against the data source in parallel. By executing operations in parallel, the Analysis Services engine can improve query performance by taking advantage of scalability large data sources may be able to provide. To ensure query processing does not overburden your data source, use the [MaxParallelism](tabular-models/partitions-ssas-tabular.md#maxparallelism) property setting to specify a fixed number of threads that can be used for parallel operations.
+This improvement enables the Analysis Services engine to analyze DAX queries against a DirectQuery data source and identify independent storage engine operations. The engine can then execute those operations against the data source in parallel. By executing operations in parallel, the Analysis Services engine can improve query performance by taking advantage of scalability large data sources may be able to provide. To ensure query processing does not overburden your data source, use the [MaxParallelism](tabular-models/partitions-ssas-tabular.md#maxparallelism) property setting to specify a fixed number of threads that can be used for parallel operations.
 
 ### CTP 2.0
 
@@ -60,11 +60,11 @@ This release introduces a new value that specifies *Short query bias with fast c
 
 ### Deprecated features in SSAS 2022
 
-There are no [deprecated](#definitions) features announced with this release.
+There are no [deprecated](#definitions) features announced with this version.
 
 ### Discontinued features in SSAS 2022
 
-The following features are [discontinued](#definitions) in this release:
+The following features are [discontinued](#definitions) in this version:
   
 | Mode/Category | Feature |
 | ------------- | ------- |
@@ -74,11 +74,11 @@ The following features are [discontinued](#definitions) in this release:
 
 ### Breaking changes in SSAS 2022
 
-Tabular model 1100, 1103 compatibility levels are discontinued in this release. To prevent a [breaking change](#definitions) to 1100, 1103 models, upgrade them to 1200 prior to upgrading an earlier SSAS release to SSAS 2022.
+Tabular model 1100 and 1103 compatibility levels are discontinued in this version. To prevent a [breaking change](#definitions), upgrade models to the 1200 compatibility level prior to upgrading an earlier SSAS version to SSAS 2022.
 
 ### Behavior changes in SSAS 2022
 
-There are no [behavior changes](#definitions) in this release.
+There are no [behavior changes](#definitions) in this version.
 
 ::: moniker-end
 
