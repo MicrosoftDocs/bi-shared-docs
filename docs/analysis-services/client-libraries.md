@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 08/16/2022
+ms.date: 08/17/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom:
@@ -16,7 +16,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. Custom client applications also require client libraries are installed. Client libraries are updated monthly. Before downloading, be sure to see [Known issues](#known-issues).
+Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. Custom client applications also require client libraries are installed. Client libraries are updated monthly. 
+
+**Important:** Before getting the latest versions, be sure to see [Known issues](#known-issues).
 
 ## Download the latest
 
@@ -31,7 +33,7 @@ Client libraries are necessary for client applications and tools to connect to A
 
 ### NuGet packages
 
-Analysis Services Management Objects (AMO) and ADOMD client libraries are available as installable packages from [NuGet.org](https://www.nuget.org/). It's recommended you migrate to NuGet references instead of using Windows Installer.
+Analysis Services Management Objects (AMO/TOM) and ADOMD client libraries are available as installable packages from [NuGet.org](https://www.nuget.org/). It's recommended you migrate to NuGet references instead of using Windows Installer.
 
 Starting Feb. 2021, versions of [.NET Core](/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. There are, however, a few scenarios not-supported by the .NET Core versions. To learn more, see [Known issues](#known-issues) later in this article.
 
@@ -51,6 +53,8 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 |[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.48.0.0      |
 |[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.48.0.0        |
 
+Beginning with AMO (AMO/TOM) and ADOMD .Net Core version 19.48.0.0, HTTP-based communications with cloud services like Power BI and Azure Analysis Services are significantly improved. It's recommended you update to the latest version to take advantage of these performance improvements.
+
 ## Minimum required versions
 
 Transport Layer Security (TLS) protocol version 1.0/1.1 will be [deprecated](/azure/active-directory/fundamentals/whats-new#november-2020) in Azure Active Directory by June 30, 2021. Going forward, TLS 1.2 and higher is required. TLS 1.2 is not supported in earlier versions of the Analysis Services client libraries. Newer client library versions include support for TLS 1.2 and higher as well as other important security enhancements.
@@ -67,7 +71,7 @@ To minimize risk and potential security vulnerabilities, beginning June 30th, 20
 
 #### AMO and ADOMD
 
-Beginning with version 19.42.0.4, ADOMD.NET and AMO/TOM use MSAL ([Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/)) version 4.43.0 instead of ADAL to authenticate users with AAD when establishing a connection to cloud-based services like Power-BI and Azure Analysis Services. If your application or another component the application depends on is using MSAL, it may be necessary to update the application's binding redirect settings if there are conflicts between the versions of MSAL loaded by the components.
+Beginning with version 19.42.0.4, ADOMD.NET and AMO/TOM use MSAL ([Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/)) version 4.43.0 or higher instead of ADAL to authenticate users with AAD when establishing a connection to cloud-based services like Power-BI and Azure Analysis Services. If your application or another component the application depends on is using MSAL, it may be necessary to update the application's binding redirect settings if there are conflicts between the versions of MSAL loaded by the components.
 
 #### AMO and ADOMD .Net Core 
 
@@ -75,7 +79,7 @@ Supported scenarios include connections to Azure Analysis Services, Power BI Pre
 
 Interactive login with Azure Active Directory is supported for Windows computers only. The .NET Core Desktop runtime is required.
 
-Dependency in MSAL requires version 4.43.0 and higher.
+Dependency in MSAL requires version 4.43.0 or higher.
 
 Version 19.14.0 of the .Net Core client libraries introduced preview support for Self-Contained publishing (both in a published directory, and in single-file mode), as well as support for consumption by .NET 5.0 projects. A number of issues related to connectivity to SQL Server Analysis Services that were identified in the previous release have been fixed.
 
@@ -86,6 +90,8 @@ Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL S
 Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
 
 #### MSOLAP
+
+Beginning with version 16.0.43.20, MSOLAP uses MSAL ([Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/)) version 4.43.0 or higher instead of ADAL to authenticate users with AAD when establishing a connection to cloud-based services like Power-BI and Azure Analysis Services. If your application or another component the application depends on is using MSAL, it may be necessary to update the application's binding redirect settings if there are conflicts between the versions of MSAL loaded by the components
 
 A regression related to connections to cloud-based systems using AAD was discovered in the 16.0.4.17 version of OLEDB (MSOLAP). It was fixed in the 16.0.20.201 version. Due to the nature of the issue, an installed 16.0.4.17 version, as well any other version prior to 16.0.20.201, cannot be corrected by simply upgrading the provider, even if setup is run in repair mode. It’s recommended to completely uninstall the 16.0.4.17 [or other problematic] version and then install the 16.0.20.201 or later version. 
 
