@@ -27,7 +27,10 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 -   For [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instances running on Windows Azure Virtual Machines, use alternate instructions for configuring server access. See [SQL Server Business Intelligence in Windows Azure Virtual Machines](/previous-versions/azure/jj992719(v=azure.100)).  
   
- Although the default instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] listens on TCP port 2383, you can configure the server to listen on a different fixed port, connecting to the server in this format: \<servername>:\<portnumber>.  
+ Although the default instance of [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] listens on TCP port 2383, you can configure the server to listen on a different fixed port, connecting to the server in this format: \<servername>:\<portnumber>. 
+
+> [!NOTE]  
+> You cannot use a non-default port for Analysis services if you need to connect to your instance using Kerberos. For more information review [SPN registration for SSAS instances listening on fixed ports](https://docs.microsoft.com/analysis-services/instances/spn-registration-for-an-analysis-services-instance#bkmk_spnFixedPorts)
   
  Only one TCP port can be used by an [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance. On computers having multiple network cards or multiple IP addresses, [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] listens on one TCP port for all IP addresses assigned or aliased to the computer. If you have specific multi-port requirements, consider configuring [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] for HTTP access. You can then set up multiple HTTP endpoints on whatever ports you choose. See [Configure HTTP Access to Analysis Services on Internet Information Services &#40;IIS&#41; 8.0](../../analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0.md).  
   
