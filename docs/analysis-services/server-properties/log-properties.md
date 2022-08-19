@@ -124,7 +124,7 @@ A signed 32-bit integer property that defines the snapshot frequency, in seconds
 **FlightRecorder\TraceDefinitionFile**  
 A string property that specifies the name of the flight recorder trace definition file.  
   
-The default value for this property is blank, which in turn defaults to FlightRecorderTraceDef.xml.  
+The default value for this property is blank, which in turn defaults to FlightRecorderTraceDef.xml. SQL Server Analysis Services Flight Recorder provides a mechanism to record server activity into a short-term log. Information captured by Flight Recorder can be helpful for troubleshooting specific issues, however the load placed on the server when capturing the snapshots and trace events can have a small impact on overall performance.  For optimal performance the flight recorder should be disabled unless attempting to capture diagnostic information relevant to troubleshooting a specific problem. 
   
 ## Query Log
 **Applies to:** Multidimensional server mode only  
