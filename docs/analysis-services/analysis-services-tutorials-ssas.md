@@ -17,7 +17,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2019"
 
-[Tabular modeling (1500 compatibility level)](tutorial-tabular-1400/as-adventure-works-tutorial.md)   
+[Tabular modeling (1500 and higher compatibility level)](tutorial-tabular-1400/as-adventure-works-tutorial.md)   
 Applies to Azure Analysis Services, Power BI Premium, SQL Server 2019 Analysis Services and later. This tutorial provides lessons on how to author a basic Analysis Services tabular model for the fictitious company, Adventure Works, by using Visual Studio. This tutorial can also be used for tabular models at the 1400 compatibility level to be deployed to SQL Server 2017 Analysis Services.
 
 ::: moniker-end
