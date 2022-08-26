@@ -1,7 +1,7 @@
 ---
 title: "Compatibility level for tabular models in Analysis Services | Microsoft Docs"
 description: Learn how to set compatibility levels for tabular models in Analysis Services.
-ms.date: 03/23/2020
+ms.date: 08/04/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: tabular-models
@@ -15,25 +15,20 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-  The *compatibility level* refers to release-specific behaviors in the Analysis Services engine. For example, DirectQuery and tabular object metadata have different implementations depending on the compatibility level. In-general, you should choose the latest compatibility level supported by your servers.
+  The *compatibility level* refers to release-specific behaviors in the Analysis Services engine. For example, DirectQuery and tabular object metadata have different implementations depending on the compatibility level. In-general, you should choose the latest compatibility level supported by your platform.
 
-  **The latest supported compatibility level is 1500** 
-  
-Major features in the 1500 compatibility level include:
-
-*  [Calculation groups](calculation-groups.md)
-*  [Many-to-many relationships](../what-s-new-in-sql-server-analysis-services.md#many-to-many-relationships-in-tabular-models)
-*  Supported in [Power BI Premium](/power-bi/service-premium-connect-tools)
+  **The latest supported compatibility level is 1600**
   
 ## Supported compatibility levels by version
   
 | Compatibility level | Server version |
 | ------------------- | -------------- |
-|1500|Power BI Premium, Azure Analysis Services, SQL Server 2019 | 
+|1600|Power BI Premium, Azure Analysis Services, SQL Server 2022 |
+|1500|Power BI Premium, Azure Analysis Services, SQL Server 2019 |
 |1400|Azure Analysis Services, SQL Server 2019, SQL Server 2017 |  
-|1200|Azure Analysis Services, SQL Server 2019, SQL Server 2017, SQL Server 2016| 
+|1200|Azure Analysis Services, SQL Server 2019, SQL Server 2017, SQL Server 2016|
 |1103|SQL Server 2017*, SQL Server 2016, SQL Server 2014, SQL Server 2012 SP1|  
-|1100|SQL Server 2017*, SQL Server 2016, SQL Server 2014, SQL Server 2012 SP1, SQL Server 2012| 
+|1100|SQL Server 2017*, SQL Server 2016, SQL Server 2014, SQL Server 2012 SP1, SQL Server 2012|
 
 \* 1100 and 1103 compatibility levels are deprecated in SQL Server 2017.
   
@@ -57,10 +52,8 @@ Major features in the 1500 compatibility level include:
 
  This property specifies the highest compatibility level of a database that will run on the server. The supported compatibility level is read-only cannot be changed.
  
-> [!NOTE]  
->  In SSMS, when connected to a SQL Server Analysis Services server, Azure Analysis Services server, or Power BI Premium workspace, the Supported Compatibility Level property will show 1200. This is a known issue and will be resolved in an upcoming SSMS update. When resolved, this property will show the highest supported compatibility level. 
   
-## See also  
+## See also
  [Compatibility Level of a multidimensional database](../../analysis-services/multidimensional-models/compatibility-level-of-a-multidimensional-database-analysis-services.md)   
  [Create a new tabular model project](../../analysis-services/tabular-models/create-a-new-tabular-model-project-analysis-services.md)  
   
