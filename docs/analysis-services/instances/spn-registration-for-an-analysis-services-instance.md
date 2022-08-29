@@ -119,19 +119,32 @@ Setspn -s msolapsvc.3/AW-SRV01.Adventureworks.com AdventureWorks\SSAS-Service
   
 ```  
 Setspn -s MSOLAPSvc.3/AW-SRV01.AdventureWorks.com AW-SRV01  
+```
+
+##  <a name="bkmk_spnNamed"></a> SPN registration for a named instance
+
+ By default, named instances of Analysis Services use dynamic port assignments that are detected by the SQL Server Browser service. You only need to create a NetBIOS and FQDN SPNs for the named instance to enable Kerberos connections.
+
+### Example syntax for a named instance running as a domain user
+
+The following example shows the `setspn` syntax for Analysis Services named instance `AW-FINANCE` running under a domain user account, SSAS-Service, in the AdventureWorks domain. In this example, the computer host name is AW-SRV01.
+
 ```  
-  
-##  <a name="bkmk_spnNamed"></a> SPN registration for a named instance  
- Named instances of Analysis Services use dynamic port assignments that are detected by the SQL Server Browser service. When using a named instance, register an SPN for both the SQL Server Browser Service and the Analysis Services named instance. For more information, see [An SPN for the SQL Server Browser service is required when you establish a connection to a named instance of SQL Server Analysis Services or of SQL Server](https://support.microsoft.com/kb/950599).  
-  
- **Example of SPN syntax for the SQL Browser Service running as LocalService**  
-  
- The service class is **MSOLAPDisco.3**. By default, this service runs as NT AUTHORITY\LocalService, which means SPN registration is set for the machine account. In this example, the machine account is **AW-SRV01**, corresponding to the computer name.  
-  
-```  
-Setspn -S MSOLAPDisco.3/AW-SRV01.AdventureWorks.com AW-SRV01  
-```  
-  
+FQDN SPN: Setspn -s MSOLAPSvc.3/AW-SRV01.AdventureWorks.com:AW-FINANCE AdventureWorks\SSAS-Service 
+
+NetBIOS SPN: Setspn -s MSOLAPSvc.3/AW-SRV01:AW-FINANCE AdventureWorks\SSAS-Service 
+```
+
+> [!NOTE]
+> If you configured your named instance to listen on a fixed port, perform the following steps to use Kerberos connections from your client application:
+> 1. Start the SQL Server Browser service.
+> 1. If you're using a port number in your connection string, remove the port number, add the instance name, and let the application receive the port number through the SQL Server Browser service.
+
+> [!TIP]
+> Verify whether the SPN was created for the SQL named instance by running the `Setspn -L <domain account>` or `Setspn -L <machinename>` command, depending on how the SPN was registered.
+
+Microsoft Kerberos Configuration Manager for SQL Server is a diagnostic tool that helps troubleshoot Kerberos related connectivity issues with SQL Server. This tool can help identify potential problems in SPNs and delegations and provide automated procedures to fix the identified issues. For more information, see [Microsoft Kerberos Configuration Manager for SQL Server](https://www.microsoft.com/en-us/download/details.aspx?id=39046).  
+
 ##  <a name="bkmk_spnCluster"></a> SPN registration for an SSAS cluster  
  For Analysis Services failover clusters, the host name should be the virtual name assigned to the cluster. This is the SQL Server network name, specified during SQL Server Setup when you installed Analysis Services on top of an existing WSFC. You can find this name in Active Directory. You can also find it in **Failover Cluster Manager** | **Role** | **Resources** tab. The server name on the Resources tab is what should be used as the 'virtual name' in the SPN command.  
   
