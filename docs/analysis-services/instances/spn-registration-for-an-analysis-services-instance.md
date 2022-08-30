@@ -151,7 +151,8 @@ Microsoft Kerberos Configuration Manager for SQL Server is a diagnostic tool tha
 
 For Analysis Services failover clusters, the host name should be the virtual name assigned to the cluster. This is the SQL Server network name, specified during SQL Server Setup when you installed Analysis Services on top of an existing WSFC. You can find this name in Active Directory. You can also find it in **Failover Cluster Manager** | **Role** | **Resources** tab. The server name on the Resources tab is what should be used as the 'virtual name' in the SPN command.  
   
- **SPN syntax for an Analysis Services cluster**
+**SPN syntax for an Analysis Services cluster**
+
 ```
 Setspn -s msolapsvc.3/<virtualname.FQDN > <domain user account>  
 ```  
