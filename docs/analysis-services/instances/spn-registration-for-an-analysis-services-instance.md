@@ -148,7 +148,8 @@ NetBIOS SPN: Setspn -s MSOLAPSvc.3/AW-SRV01:AW-FINANCE AdventureWorks\SSAS-Servi
 Microsoft Kerberos Configuration Manager for SQL Server is a diagnostic tool that helps troubleshoot Kerberos related connectivity issues with SQL Server. This tool can help identify potential problems in SPNs and delegations and provide automated procedures to fix the identified issues. For more information, see [Microsoft Kerberos Configuration Manager for SQL Server](https://www.microsoft.com/download/details.aspx?id=39046).  
 
 ##  <a name="bkmk_spnCluster"></a> SPN registration for an SSAS cluster  
- For Analysis Services failover clusters, the host name should be the virtual name assigned to the cluster. This is the SQL Server network name, specified during SQL Server Setup when you installed Analysis Services on top of an existing WSFC. You can find this name in Active Directory. You can also find it in **Failover Cluster Manager** | **Role** | **Resources** tab. The server name on the Resources tab is what should be used as the 'virtual name' in the SPN command.  
+
+For Analysis Services failover clusters, the host name should be the virtual name assigned to the cluster. This is the SQL Server network name, specified during SQL Server Setup when you installed Analysis Services on top of an existing WSFC. You can find this name in Active Directory. You can also find it in **Failover Cluster Manager** | **Role** | **Resources** tab. The server name on the Resources tab is what should be used as the 'virtual name' in the SPN command.  
   
  **SPN syntax for an Analysis Services cluster**
 ```
