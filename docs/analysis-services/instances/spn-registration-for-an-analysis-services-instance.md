@@ -126,7 +126,7 @@ Setspn -s MSOLAPSvc.3/AW-SRV01.AdventureWorks.com AW-SRV01
 
 ##  <a name="bkmk_spnNamed"></a> SPN registration for a named instance
 
- By default, named instances of Analysis Services use dynamic port assignments that are detected by the SQL Server Browser service. You only need to create a NetBIOS and FQDN SPNs for the named instance to enable Kerberos connections.
+By default, named instances of Analysis Services use dynamic port assignments that are detected by the SQL Server Browser service. You only need to create a NetBIOS and FQDN SPNs for the named instance to enable Kerberos connections.
 
 ### Example syntax for a named instance running as a domain user
 The following example shows the `setspn` syntax for Analysis Services named instance `AW-FINANCE` running under a domain user account, SSAS-Service, in the AdventureWorks domain. In this example, the computer host name is AW-SRV01.
