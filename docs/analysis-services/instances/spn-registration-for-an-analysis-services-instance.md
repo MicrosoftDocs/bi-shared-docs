@@ -111,7 +111,7 @@ Setspn -s msolapsvc.3/AW-SRV01.Adventureworks.com AdventureWorks\SSAS-Service
 ```  
   
 > [!TIP]  
->  Verify whether the SPN was created for the Analysis Services server by running `Setspn -L <domain account>` or `Setspn -L <machinename>`, depending on how the SPN was registered. You should see `MSOLAPSVC.3/\<hostname>` in the list.  
+>  Verify whether the SPN was created for the Analysis Services server by running `Setspn -L <domain account>` or `Setspn -L <machinename>`, depending on how the SPN was registered. You should see MSOLAPSVC.3/\<hostname> in the list.  
   
 ##  <a name="bkmk_builtin"></a> SPN registration for a built-in account  
  Although this practice is not recommended, older Analysis Services installations are sometimes configured to run under built-in accounts like Network Service, Local Service, or Local System.  
