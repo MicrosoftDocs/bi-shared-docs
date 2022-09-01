@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: Analysis Services documentation
-summary: Analysis Services is available in Azure, Power BI, and on premises with SQL Server. Analysis Services documentation is located at different places in docs.microsoft.com depending on the platform or version. For example, documentation specific to creating and managing an Azure Analysis Services resource is included in Azure documentation. Analysis Services also has core documentation that can apply to just one platform, like SQL Server Analysis Services, or to all Analysis Services platforms including Azure and Power BI. This is because how you create and deploy a tabular model by using Visual Studio, or manage certain server properties or databases by using SQL Server Management Studio and other tools is much the same, regardless of platform.
+summary: Analysis Services is available in Azure, Power BI, and on premises with SQL Server. Analysis Services documentation is located in different areas of Microsoft Docs, depending on the platform or version. For example, documentation specific to creating and managing an Azure Analysis Services resource is included in Azure documentation. Analysis Services also has core documentation that can apply to just one platform, like SQL Server Analysis Services, or to all Analysis Services platforms including Azure and Power BI. This is because how you create and deploy a tabular model by using Visual Studio, or manage certain server properties or databases by using SQL Server Management Studio and other tools is much the same, regardless of platform.
 
 metadata:
   title: Analysis Services core documentation | Microsoft Docs
