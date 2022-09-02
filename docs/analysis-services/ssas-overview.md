@@ -30,7 +30,7 @@ To use a model, it's deployed to a server instance that runs databases in a part
 
 ## Documentation
 
-Analysis Services documentation is located at different places in docs.microsoft.com depending on the platform or version you are using. All SQL Server Analysis Services documentation is accessible by using the Table of Contents to the left. To see only those articles relevant to a particular version, use the **Version** selector above the ToC.
+Analysis Services documentation is located in different areas in Microsoft Docs, depending on the platform or version you are using. All SQL Server Analysis Services documentation is accessible by using the Table of Contents to the left. To see only those articles relevant to a particular version, use the **Version** selector above the ToC.
 
 ![version selector](media/ssas-overview/version-selector-ssas.png)
 
@@ -38,7 +38,7 @@ Documentation you see in the ToC to the left is known as the core Analysis Servi
 
 In the core documentation, at the top of each article an **APPLIES TO** banner indicates the platforms and versions the article applies to. Keep in mind, feature and functionality changes are happening to each platform all the time. When they do, we make every effort to update the documentation.
 
-Looking for **SQL Server 2014 Analysis Services** documentation? - SQL Server 2014 Analysis Services documentation is kept separate from later version documentation. This is due to changing documentation models used on docs.microsoft.com compared to MSDN, where SQL Server 2014 and earlier Books Online documentation was originally published. Go to [SQL Server 2014 Analysis Services documentation](/sql/analysis-services/analysis-services?preserve-view=true&view=sql-server-2014). Keep in mind, SQL Server 2014 is no longer in mainstream support. Need to go back even further? See [SQL Server previous versions documentation](/previous-versions/sql/).
+Looking for **SQL Server 2014 Analysis Services** documentation? - SQL Server 2014 Analysis Services documentation is kept separate from later version documentation. This is due to changing documentation models used on Microsoft technical documentation compared to MSDN, where SQL Server 2014 and earlier Books Online documentation was originally published. Go to [SQL Server 2014 Analysis Services documentation](/sql/analysis-services/analysis-services?preserve-view=true&view=sql-server-2014). Keep in mind, SQL Server 2014 is no longer in mainstream support. Need to go back even further? See [SQL Server previous versions documentation](/previous-versions/sql/).
 
 ## See also
 
