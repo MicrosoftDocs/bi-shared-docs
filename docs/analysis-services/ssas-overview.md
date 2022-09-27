@@ -1,5 +1,5 @@
 ---
-title: "SQL Server Analysis Services overview| Microsoft Docs"
+title: SQL Server Analysis Services overview
 description: Describes SQL Server Analysis Services.
 ms.date: 12/14/2020
 ms.prod: sql
@@ -30,7 +30,7 @@ To use a model, it's deployed to a server instance that runs databases in a part
 
 ## Documentation
 
-Analysis Services documentation is located in different areas in Microsoft Docs, depending on the platform or version you are using. All SQL Server Analysis Services documentation is accessible by using the Table of Contents to the left. To see only those articles relevant to a particular version, use the **Version** selector above the ToC.
+Analysis Services documentation is located in different areas in Microsoft Learn, depending on the platform or version you are using. All SQL Server Analysis Services documentation is accessible by using the Table of Contents to the left. To see only those articles relevant to a particular version, use the **Version** selector above the ToC.
 
 ![version selector](media/ssas-overview/version-selector-ssas.png)
 

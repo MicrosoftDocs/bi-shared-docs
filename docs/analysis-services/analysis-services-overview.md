@@ -1,5 +1,5 @@
 ---
-title: "What is Analysis Services? | Microsoft Docs"
+title: "What is Analysis Services?"
 description: Describes the three platforms for Analysis Services.
 ms.date: 03/30/2022
 ms.prod: sql
@@ -24,4 +24,4 @@ Analysis Services is an analytical data engine (VertiPaq) used in decision suppo
 
 ## Documentation
 
-Analysis Services documentation is located in different areas of Microsoft Docs, depending on the platform or version you're using. To learn more, see [Understanding Analysis Services documentation](analysis-services-docs.md).
+Analysis Services documentation is located in different areas of Microsoft Learn, depending on the platform or version you're using. To learn more, see [Understanding Analysis Services documentation](analysis-services-docs.md).
