@@ -73,7 +73,7 @@ landingContent:
     linkLists:
       - linkListType: concept
         links:
-        - url: /power-bi/service-premium-what-is#analysis-services-in-power-bi-premium-preview
+        - url: /power-bi/service-premium-what-is#analysis-services-in-power-bi-premium
           text: Analysis Services in Power BI Premium
         - url: /power-bi/service-premium-connect-tools
           text: Dataset connectivity with the XMLA Endpoint
