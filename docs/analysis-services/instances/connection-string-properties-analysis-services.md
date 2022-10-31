@@ -95,7 +95,7 @@ SQL Server Analysis Services uses Windows authentication only, but you can set p
   
 Properties are listed in alphabetical order.
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
 ##### EffectiveUserName
 
@@ -123,7 +123,7 @@ The password used to decrypt an encrypted local cube. Default value is empty. Th
 
 ::: moniker-end
 
-::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
 ##### Impersonation Level
 
@@ -161,7 +161,7 @@ Determines the security level used on the connection. Values supported depend on
 
 To learn more, see [Establishing Secure Connections in ADOMD.NET](../adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections.md)
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
 ### Roles
 
