@@ -95,7 +95,7 @@ SQL Server Analysis Services uses Windows authentication only, but you can set p
   
 Properties are listed in alphabetical order.
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
 ##### EffectiveUserName
 
@@ -123,7 +123,7 @@ The password used to decrypt an encrypted local cube. Default value is empty. Th
 
 ::: moniker-end
 
-::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
 
 ##### Impersonation Level
 
@@ -161,15 +161,13 @@ Determines the security level used on the connection. Values supported depend on
 
 To learn more, see [Establishing Secure Connections in ADOMD.NET](../adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections.md)
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
-
 ### Roles
 
-Specify a comma-delimited list of predefined roles to connect to a server or database using permissions conveyed by that role. If this property is omitted, all roles are used, and the effective permissions are the combination of all roles. Setting the property to an empty value, for example, `Roles=' '` means the client connection has no role membership.
+Specify a comma-delimited list of predefined roles to connect to a server or database using permissions conveyed by that role. If this property is omitted, all roles are used, and the effective permissions are the combination of all roles. Setting the property to an empty value, for example, `Roles=' '` means the client connection has no role membership. 
 
 An administrator using this property connects using the permissions conveyed by the role. Some commands might fail if the role does not provide sufficient permission.
 
-::: moniker-end
+If specifying roles when connecting to a Power BI Premium workspace, use [workspace roles](/power-bi/collaborate-share/service-roles-new-workspaces) from the Power BI security model. 
 
 ##### SSPI
 
