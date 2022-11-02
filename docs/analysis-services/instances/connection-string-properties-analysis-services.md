@@ -95,13 +95,11 @@ SQL Server Analysis Services uses Windows authentication only, but you can set p
   
 Properties are listed in alphabetical order.
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
-
 ##### EffectiveUserName
 
 Use when an user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS and Power BI Premium, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. In Power BI Premium, the caller must be a workspace admin where the dataset is located.
 
-::: moniker-end
+
 
 ##### CustomData
 
@@ -123,8 +121,6 @@ The password used to decrypt an encrypted local cube. Default value is empty. Th
 
 ::: moniker-end
 
-::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current"
-
 ##### Impersonation Level
 
 Indicates the level of impersonation that the server is allowed to use when impersonating the client. Valid values include:
@@ -134,7 +130,6 @@ Indicates the level of impersonation that the server is allowed to use when impe
 - **Impersonate**. This is the default value. The client identity can be impersonated, but only when the connection is established, and not on every call. 
 - **Delegate**. The server process can impersonate the client security context while acting on behalf of the client. The server process can also make outgoing calls to other servers while acting on behalf of the client.
 
-::: moniker-end
 
 ##### Integrated Security
 
