@@ -108,7 +108,5 @@ For SSAS, server properties are in the msmdsrv.ini file. If the property you wan
   
 ## See also
 
-[Create Analysis Services Scripts in SSMS](../../analysis-services/instances/create-analysis-services-scripts-in-management-studio.md)  
+[Create Analysis Services scripts in SSMS](../../analysis-services/instances/create-analysis-services-scripts-in-management-studio.md)  
 [Analysis Services instance management](../../analysis-services/instances/analysis-services-instance-management.md)  
-
-  
