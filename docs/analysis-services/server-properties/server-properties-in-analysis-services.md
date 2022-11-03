@@ -1,7 +1,7 @@
 ---
 title: "Server Properties in Analysis Services | Microsoft Docs"
 description: Learn how to modify default server configuration properties of an Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), or Power BI workspace instance.
-ms.date: 08/05/2022
+ms.date: 11/03/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -37,6 +37,7 @@ Some XMLA-based workspace properties have equivalent capacity settings that can 
 |Analysis Services property  |Category | Power BI Capacity setting  |
 |---------|---------|---------|
 |[AdminTimeOut](general-properties.md#admintimeout)    | General |  NA     |
+|[ClientCacheRefreshPolicy](general-properties.md#clientcacherefreshpolicy)     | General |   NA    |
 |[CommitTimeout](general-properties.md#committimeout)     | General |   NA    |
 |[DefaultSegmentRowCount](general-properties.md#defaultsegmentrowcount)    |  General |   NA   |
 |[ExternalCommandTimeout](general-properties.md#externalcommandtimeout)    |  General |   NA   |

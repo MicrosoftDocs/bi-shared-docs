@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services general properties | Microsoft Docs"
 description:  Learn about the available general properties in Analysis Services, like AdminTimeout and ExternalCommandTimeout. 
-ms.date: 07/21/2022
+ms.date: 11/03/2022
 ms.prod: sql
 ms.technology: analysis-services
 ms.custom: 
@@ -42,11 +42,19 @@ The default value for this property is true.
 
 Does not apply to Power BI. A string property that identifies the name of the directory where backup files are stored by default in the event a path is not specified as part of the Backup command.  
 
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2019"
+
 ##### ClientCacheRefreshPolicy
 
-Applies to Azure Analysis Services and SQL Server 2019 and later only. Overrides the **Scheduled cache refresh** setting for all Power BI datasets. All Live Connect reports will observe the server-level setting irrespective of the dataset-level setting, or which workspace they reside on.
+Overrides the **Scheduled cache refresh** setting for all Power BI datasets. All Live Connect reports will observe the server-level setting irrespective of the dataset-level setting, or which workspace they reside on.
 
 The default value for this property is -1, which allows all background cache refreshes as specified in the Scheduled cache refresh setting for the dataset. To discourage all background cache refreshes, specify zero (0).
+
+::: moniker-end
+
+::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
 ##### CollationName
 
