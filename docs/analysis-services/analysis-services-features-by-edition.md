@@ -58,7 +58,6 @@ This article describes features supported by different editions of SQL Server 20
 |Custom rollups|Yes|Yes|||||Yes|  
 |Writeback cube|Yes|Yes|||||Yes|  
 |Writeback dimensions|Yes <sup>[2](#wb)</sup>||||||Yes <sup>[2](#wb)</sup>|  
-|Writeback cells|Yes|Yes|||||Yes|  
 |Drillthrough|Yes|Yes|||||Yes|  
 |Advanced hierarchy types (parent-child and ragged hierarchies)|Yes|Yes|||||Yes|  
 |Advanced dimensions (reference dimensions, many-to-many dimensions)|Yes|Yes|||||Yes|  
