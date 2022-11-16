@@ -1,6 +1,6 @@
 ---
 title: "What's new in SQL Server Analysis Services | Microsoft Docs"
-ms.date: 08/09/2022
+ms.date: 11/08/2022
 description: Learn about new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
 ms.prod: sql
 ms.technology: analysis-services
@@ -20,23 +20,19 @@ This article summarizes new features, improvements, deprecated and discontinued 
 
 ## SQL Server 2022 Analysis Services
 
-### RC 0
+### Generally Available (GA)
 
 #### Horizontal fusion
 
-This release introduces Horizontal Fusion, a query execution plan optimization aimed at reducing the number of data source queries required to generate and return results. Multiple smaller data source queries are fused together into a larger data source query. Fewer data source queries mean fewer round trips and fewer expensive scans over large data sources, which results in sizeable DAX performance gains and reduced processing demand at the data source. DAX queries run faster with Horizontal Fusion, especially in DirectQuery mode. In addition, scalability also increases.
+This version introduces Horizontal Fusion, a query execution plan optimization aimed at reducing the number of data source queries required to generate and return results. Multiple smaller data source queries are fused together into a larger data source query. Fewer data source queries mean fewer round trips and fewer expensive scans over large data sources, which results in sizeable DAX performance gains and reduced processing demand at the data source. DAX queries run faster with Horizontal Fusion, especially in DirectQuery mode. In addition, scalability also increases.
 
 #### Parallel Execution Plans for DirectQuery
 
 This improvement enables the Analysis Services engine to analyze DAX queries against a DirectQuery data source and identify independent storage engine operations. The engine can then execute those operations against the data source in parallel. By executing operations in parallel, the Analysis Services engine can improve query performance by taking advantage of scalability large data sources may be able to provide. To ensure query processing does not overburden your data source, use the [MaxParallelism](tabular-models/partitions-ssas-tabular.md#maxparallelism) property setting to specify a fixed number of threads that can be used for parallel operations.
 
-### CTP 2.0
-
-This release introduces public preview of SQL Server 2022 Analysis Services. It includes the following improvements.
-
 #### Support for Power BI DirectQuery datasets
 
-This release introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using the May 2022 and later versions of Power BI Desktop can now combine other imported and DirectQuery data from Power BI datasets, Azure Analysis Services, and now SSAS 2022.
+This version introduces support for Power BI datasets with DirectQuery connections to SQL Server 2022 Analysis Services models. Data modelers and report authors using the May 2022 and later versions of Power BI Desktop can now combine other imported and DirectQuery data from Power BI datasets, Azure Analysis Services, and now SSAS 2022.
 
 To learn more, see [Using DirectQuery for datasets and Analysis Services | Power BI Documentation](/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
 
@@ -48,7 +44,7 @@ To learn more, see [Announcing improved MDX query performance in Power BI | Micr
 
 #### Resource governance
 
-This release includes improved accuracy for the QueryMemoryLimit server memory property and DbpropMsmdRequestMemoryLimit connection string property.
+This version includes improved accuracy for the QueryMemoryLimit server memory property and DbpropMsmdRequestMemoryLimit connection string property.
 
 First introduced in SSAS 2019, the [QueryMemoryLimit](server-properties/memory-properties.md#querymemorylimit) server memory property applied only to memory spools where intermediate DAX query results are created during query processing. Now in SSAS 2022, it also applies to MDX queries, effectively covering all queries. You can better control process expensive queries that result in significant materialization. If the query hits the limit specified, the engine cancels the query and returns an error to the caller, reducing impact on other concurrent users.
 
@@ -56,7 +52,11 @@ Client applications can further reduce the memory allowed per query by specifyin
 
 #### Query interleaving - Short query bias with fast cancellation
 
-This release introduces a new value that specifies *Short query bias with fast cancellation* for the Threadpool\SchedulingBehavior property setting. This property setting improves user query response times in high-concurrency scenarios. To learn more, see [Query interleaving - Configure](tabular-models/query-interleaving.md#configure).
+This version introduces a new value that specifies *Short query bias with fast cancellation* for the Threadpool\SchedulingBehavior property setting. This property setting improves user query response times in high-concurrency scenarios. To learn more, see [Query interleaving - Configure](tabular-models/query-interleaving.md#configure).
+
+#### Tabular model 1600 compatibility level
+
+This version introduces the 1600 [compatibility level](tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md) for tabular models. The 1600 compatibility level coincides with the latest functionality in Power BI and Azure Analysis Services.
 
 ### Deprecated features in SSAS 2022
 
