@@ -110,7 +110,7 @@ Applies to Power BI, Azure Analysis Services, and SQL Server 2019 and later Anal
 
 In SQL Server 2019 and later Analysis Services, this setting applies only to memory spools where intermediate DAX query results are created during query processing. It does not apply to MDX queries.
 
-In Power BI, Azure Analysis Services, and SQL Server 2022 and later Analysis Services, if the **ResourceTrackingEnabled** [Feature property](feature-properties.md) is enabled, this setting is not limited only to memory spools. It applies to all memory utilized by both DAX and MDX queries.
+In Power BI, Azure Analysis Services, and SQL Server 2022 and later Analysis Services, if the **ResourceTrackingEnabled** [Feature property](feature-properties.md) is enabled, this setting is not limited only to memory spools. It applies to all memory utilized by both DAX and MDX queries in tabular mode only.
 
 Specified in percentage up to 100. When more than 100, it's in bytes. Setting a value of 0 means no limit is specified. 
 
