@@ -2,8 +2,7 @@
 title: "Multidimensional Modeling (Adventure Works Tutorial) | Microsoft Docs"
 description: An overview of how to use SQL Server Data Tools to develop and deploy an Analysis Services project, using the fictitious company Adventure Works Cycles for all examples.
 ms.date: 04/20/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: owend

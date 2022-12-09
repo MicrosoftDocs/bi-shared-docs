@@ -2,8 +2,7 @@
 title: "Data Mining Schema Rowsets (SSAs) | Microsoft Docs"
 description: Learn how to create queries for the data mining schema rowset to identify services, get models/structures updates, and get model content/parameters details.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
 ms.author: owend

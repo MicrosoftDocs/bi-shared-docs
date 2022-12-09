@@ -2,8 +2,7 @@
 title: "Import from Power Pivot in Analysis Services | Microsoft Docs"
 description: Learn how to create a new tabular model project by importing the metadata and data from a Power Pivot workbookS.
 ms.date: 01/29/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

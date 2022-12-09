@@ -2,8 +2,7 @@
 title: "Use PowerShell to Verify Power Pivot for SharePoint | Microsoft Docs"
 description: Learn how to verify Power Pivot for SharePoint by using a PowerShell script, including preparing your scripting environment. 
 ms.date: 06/09/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: ppvt-sharepoint
 ms.topic: conceptual
 ms.author: owend

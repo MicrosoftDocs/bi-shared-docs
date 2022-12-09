@@ -2,8 +2,7 @@
 title: "Register an Analysis Services Instance in a Server Group | Microsoft Docs"
 description: Learn how to create server groups in Management Studio to make server administration easier for a large number of Analysis Services server instances.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
 ms.author: owend

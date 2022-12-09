@@ -2,8 +2,7 @@
 title: "Microsoft Neural Network Algorithm | Microsoft Docs"
 description: Learn how to use the Microsoft Neural Network algorithm to create a mining model in SQL Server Analysis Services.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
 ms.author: owend

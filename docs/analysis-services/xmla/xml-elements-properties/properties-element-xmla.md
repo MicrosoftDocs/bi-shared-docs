@@ -2,8 +2,7 @@
 title: "Properties Element (XMLA) | Microsoft Docs"
 description: Learn how the Properties element contains XML for Analysis (XMAL) properties used by the Discover and Execute methods.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

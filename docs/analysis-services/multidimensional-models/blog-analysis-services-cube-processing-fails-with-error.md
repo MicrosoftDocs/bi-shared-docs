@@ -4,8 +4,7 @@ description: This article describes background troubleshooting information and s
 author: minewiskan
 ms.author: owend
 ms.reviewer: owend
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.topic: conceptual
 ms.date: 04/13/2019
 ---

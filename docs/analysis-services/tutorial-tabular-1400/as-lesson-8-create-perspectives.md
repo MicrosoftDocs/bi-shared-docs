@@ -2,8 +2,7 @@
 title: "Analysis Services tutorial lesson 8 Create perspectives | Microsoft Docs"
 description: Learn how to create perspectives for an Analysis Services tabular model project.
 ms.date: 02/20/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: tutorial
 ms.author: owend

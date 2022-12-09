@@ -2,8 +2,7 @@
 title: "Defining a Data Source View (Analysis Services) | Microsoft Docs"
 description: Learn about the data source view, which contains the logical model of the schema used by Analysis Services multidimensional database objects.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

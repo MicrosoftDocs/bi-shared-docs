@@ -2,8 +2,7 @@
 title: "ADOMD.NET Server Functionality | Microsoft Docs"
 description: Learn how to use ADOMD.NET server objects to create a user defined function (UDF) or a stored procedure for Microsoft SQL Server Analysis Services.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: adomd
 ms.topic: conceptual
 ms.author: owend

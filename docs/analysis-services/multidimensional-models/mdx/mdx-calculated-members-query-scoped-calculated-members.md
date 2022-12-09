@@ -2,8 +2,7 @@
 title: "Creating Query-Scoped Calculated Members (MDX) | Microsoft Docs"
 description: Learn how the syntax of the WITH keyword allows a calculated member to be based on another calculated member.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

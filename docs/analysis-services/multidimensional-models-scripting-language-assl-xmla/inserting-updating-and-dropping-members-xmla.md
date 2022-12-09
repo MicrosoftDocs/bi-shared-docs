@@ -2,8 +2,7 @@
 title: "Inserting, Updating, and Dropping Members (XMLA) | Microsoft Docs"
 description: Learn how to use the Insert, Update, and Drop commands in XML for Analysis (XMLA) to respectively insert, update, or delete members from a write-enabled dimension.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Monitoring Traces (XMLA) | Microsoft Docs"
 description: Learn how to use the Subscribe command in XML for Analysis (XMLA) to monitor an existing trace defined on an instance of Microsoft SQL Server Analysis Services. 
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
 ms.author: owend

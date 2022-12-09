@@ -2,8 +2,7 @@
 title: "Bind an attribute to a Key column | Microsoft Docs"
 description: Learn how to bind an attribute to a key column by changing the setting for the Name property of an attribute in a dimension.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

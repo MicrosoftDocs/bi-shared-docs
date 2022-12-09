@@ -2,8 +2,7 @@
 title: "Analysis Services Tutorials | Microsoft Docs"
 description: Learn about the different models and data mining that the Analysis Services tutorials cover.
 ms.date: 01/28/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom:
 ms.topic: tutorial
 ms.author: owend

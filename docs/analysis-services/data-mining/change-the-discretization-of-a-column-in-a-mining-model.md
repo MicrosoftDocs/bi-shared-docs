@@ -2,8 +2,7 @@
 title: "Change the Discretization of a Column in a Mining Model | Microsoft Docs"
 description: In this article, learn how to display the properties and change the discretization of a column in a mining model.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
 ms.author: owend

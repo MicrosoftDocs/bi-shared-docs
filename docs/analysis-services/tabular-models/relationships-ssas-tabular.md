@@ -2,8 +2,7 @@
 title: "Relationships in Analysis Services tabular models | Microsoft Docs"
 description: Learn how a relationship is a connection between two tables of data, and how the relationship establishes how the data in the two tables should be correlated.
 ms.date: 08/04/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

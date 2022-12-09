@@ -2,8 +2,7 @@
 title: "Configure the (All) Level for Attribute Hierarchies | Microsoft Docs"
 description: Learn about the All member and how to configure the (All) Level for Attribute Hierarchies in Database Dimensions.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

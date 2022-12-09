@@ -2,8 +2,7 @@
 title: "Designing Stored Procedures | Microsoft Docs"
 description: Learn details aboug designing stored procedures and related dependent assemblies.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
 ms.author: owend

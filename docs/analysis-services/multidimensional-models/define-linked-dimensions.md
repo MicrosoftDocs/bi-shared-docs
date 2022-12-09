@@ -2,8 +2,7 @@
 title: "Define Linked Dimensions | Microsoft Docs"
 description: Use a linked dimension to create, store, and maintain a dimension on one database, while making it available to users of multiple databases.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

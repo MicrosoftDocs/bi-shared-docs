@@ -2,8 +2,7 @@
 title: "Designing Aggregations (XMLA) | Microsoft Docs"
 description: Learn how aggregation designs are associated with the partitions of a particular measure group to so the partitions use the same structure when storing aggregations. 
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
 ms.author: owend

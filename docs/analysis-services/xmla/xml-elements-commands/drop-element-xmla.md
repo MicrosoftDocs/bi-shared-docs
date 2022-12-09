@@ -2,8 +2,7 @@
 title: "Drop Element (XMLA) | Microsoft Docs"
 description: Learn how the Drop element deletes attribute members from a dimension.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Add Account Intelligence to a Dimension | Microsoft Docs"
 description: Add the account intelligence enhancement to a cube or a dimension to assign standard account classifications to members of an account attribute.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

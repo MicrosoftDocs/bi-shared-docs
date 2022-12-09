@@ -2,8 +2,7 @@
 title: "Work with Diagrams in Data Source View Designer (Analysis Services) | Microsoft Docs"
 description: Work with the DSV diagram interactively to add, hide, delete or modify specific objects, or create multiple diagrams on the same DSV.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

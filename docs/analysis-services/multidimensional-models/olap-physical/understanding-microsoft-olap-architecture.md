@@ -2,8 +2,7 @@
 title: "Understanding Microsoft OLAP Architecture | Microsoft Docs"
 description: Learn about Analysis Services multidimensional databases and plan how to implement multidimensional databases in your business intelligence solution.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
 ms.author: owend

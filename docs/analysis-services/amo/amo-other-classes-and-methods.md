@@ -2,8 +2,7 @@
 title: "AMO Other Classes and Methods | Microsoft Docs"
 description: Learn about AMO common classes that are not specific to OLAP or data mining, and that are helpful when administering or managing objects in Analysis Services.
 ms.date: 03/30/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: amo
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "EntitySet Element (CSDLBI) | Microsoft Docs"
 description: Learn about the EntitySet element, which defines a collection of entities of a particular type in a CSDLBI data model.
 ms.date: 07/19/2021
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
 ms.author: owend

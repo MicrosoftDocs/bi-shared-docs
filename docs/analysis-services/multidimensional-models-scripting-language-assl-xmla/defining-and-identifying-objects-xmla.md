@@ -2,8 +2,7 @@
 title: "Defining and Identifying Objects (XMLA) | Microsoft Docs"
 description: Learn how objects are identified in XMLA commands by using object identifiers and object references, and defined by using ASSL elements XMLA commands.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
 ms.author: owend

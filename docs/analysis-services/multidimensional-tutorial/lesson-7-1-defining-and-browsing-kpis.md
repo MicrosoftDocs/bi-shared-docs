@@ -2,8 +2,7 @@
 title: "Defining and Browsing KPIs | Microsoft Docs"
 description: Learn how to define KPIs in the Form view and then switch to the Browser view to browse the cube data by using the KPIs for an Analysis Services project.
 ms.date: 04/20/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: owend

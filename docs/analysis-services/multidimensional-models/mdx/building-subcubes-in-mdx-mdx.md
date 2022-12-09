@@ -2,8 +2,7 @@
 title: "Building Subcubes in MDX (MDX) | Microsoft Docs"
 description: In this article, learn how to use the CREATE SUBCUBE statement to define a subcube.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

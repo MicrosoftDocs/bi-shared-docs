@@ -2,8 +2,7 @@
 title: "Using Cube Writebacks (MDX) | Microsoft Docs"
 description: Learn how to use the UPDATE CUBE statement to update a tuple with a specific value.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Copy a View of a Mining Model | Microsoft Docs"
 description: Learn how to create a copy of a view of a mining model by using the Data Mining Designer in SQL Server Data Tools.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
 ms.author: owend
