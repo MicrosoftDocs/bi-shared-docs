@@ -2,8 +2,7 @@
 title: "Error Element (XMLA) | Microsoft Docs"
 description: Learn how the Error element contains information about an error returned by an instance of Analysis Services.
 ms.date: 04/10/2019
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

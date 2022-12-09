@@ -2,8 +2,7 @@
 title: "View the Cube Schema | Microsoft Docs"
 description: Use the Data Source View pane of the Cube Structure tab in Cube Designer to display the cube schema.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Currency Conversions in Analysis Services | Microsoft Docs"
 description: Learn how Analysis Services, guided by Multidimensional Expressions (MDX) scripts, providess currency conversion support in models supporting multiple currencies.
 ms.date: 01/05/2021
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Configure Analysis Services and Kerberos Constrained Delegation (KCD) | Microsoft Docs"
 description: Learn how to configure Analysis Services and Kerberos Constrained Delegation to delegate client credentials from service to service throughout your environment.
 ms.date: 05/18/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
 ms.author: owend

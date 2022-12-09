@@ -2,8 +2,7 @@
 title: "Understanding the Database Schemas | Microsoft Docs"
 description: Learn how The Schema Generation Wizard generates a denormalized relational schema for the subject area database based on the dimensions and measure groups.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

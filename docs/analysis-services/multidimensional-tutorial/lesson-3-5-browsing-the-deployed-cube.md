@@ -2,8 +2,7 @@
 title: "Browsing the Deployed Cube | Microsoft Docs"
 description: Learn how to browse cube data by using the browser in Cube Designer for an Analysis Services project.
 ms.date: 04/20/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Source Element (Synchronize) (XMLA) | Microsoft Docs"
 description: Learn how the Source element (synchronize) represents a source database from which to synchronize a target database during a Synchronize command. 
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

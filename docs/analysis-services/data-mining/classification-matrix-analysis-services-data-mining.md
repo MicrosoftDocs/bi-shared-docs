@@ -2,8 +2,7 @@
 title: "Classification Matrix (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn how a classification matrix sorts all cases from the model into categories by determining whether the predicted value matched the actual value.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
 ms.author: owend

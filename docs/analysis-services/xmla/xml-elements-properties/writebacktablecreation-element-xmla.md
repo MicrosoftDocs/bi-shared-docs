@@ -2,8 +2,7 @@
 title: "WritebackTableCreation Element (XMLA) | Microsoft Docs"
 description: Learn how the WritebackTableCreation element determines whether a writeback table is created during the Process operation.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

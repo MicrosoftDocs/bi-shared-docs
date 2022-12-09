@@ -2,8 +2,7 @@
 title: "Using a Modified Version of the Analysis Services Tutorial Project | Microsoft Docs"
 description: Learn how to open, review, and deploy a modified version of an Analysis Services project.
 ms.date: 04/20/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: owend

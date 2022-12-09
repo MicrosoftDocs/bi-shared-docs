@@ -2,8 +2,7 @@
 title: "ObjectDefinition Element (XMLA) | Microsoft Docs"
 description: Learn how the ObjectDefinition element contains one or more Analysis Services Scripting Language (ASSL) elements, used to create or alter objects on an instance of Analysis Services.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

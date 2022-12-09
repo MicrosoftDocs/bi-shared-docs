@@ -2,8 +2,7 @@
 title: "Multidimensional Model Programming | Microsoft Docs"
 description: Learn about the APIs you can use to program against an Analysis Services instance and the multidimensional databases that it makes available.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

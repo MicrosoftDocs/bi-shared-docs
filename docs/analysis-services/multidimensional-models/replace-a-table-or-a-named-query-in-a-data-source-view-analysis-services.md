@@ -2,8 +2,7 @@
 title: "Replace a Table or a Named Query in a Data Source View (Analysis Services) | Microsoft Docs"
 description: Replace a table, view, or named query in a data source view (DSV) with a different table, view, or named query.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

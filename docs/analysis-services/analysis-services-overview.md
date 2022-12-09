@@ -2,8 +2,7 @@
 title: "What is Analysis Services?"
 description: Describes the three platforms for Analysis Services.
 ms.date: 03/30/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.topic: overview
 ms.author: owend
 ms.reviewer: owend

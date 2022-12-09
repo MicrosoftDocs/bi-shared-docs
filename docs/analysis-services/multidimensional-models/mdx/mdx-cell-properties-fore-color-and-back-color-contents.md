@@ -2,8 +2,7 @@
 title: "FORE_COLOR and BACK_COLOR Contents (MDX) | Microsoft Docs"
 description: Learn how the FORE_COLOR and BACK_COLOR cell properties store color information for the text and the background of a cell, respectively. 
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

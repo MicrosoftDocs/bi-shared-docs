@@ -2,8 +2,7 @@
 title: "Create and manage KPIs in Analysis Services tabular models | Microsoft Docs"
 description: Learn how to create, edit, or delete a Key Performance Indicator (KPI) in a tabular model.
 ms.date: 01/29/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

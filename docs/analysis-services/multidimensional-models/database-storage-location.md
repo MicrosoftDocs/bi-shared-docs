@@ -2,8 +2,7 @@
 title: "Database Storage Location | Microsoft Docs"
 description: Learn how to use the the DbStorageLocation database property to specify the database location in a local disk or network device.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

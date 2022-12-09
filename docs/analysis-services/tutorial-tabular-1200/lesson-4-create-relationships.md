@@ -2,8 +2,7 @@
 title: "Lesson 4: Create Relationships | Microsoft Docs"
 description: Learn how to create relationships for a tabular model project.
 ms.date: 05/07/2019
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: tutorial
 ms.author: owend

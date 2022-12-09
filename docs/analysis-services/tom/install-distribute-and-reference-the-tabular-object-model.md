@@ -2,8 +2,7 @@
 title: "Install, distribute, and reference the Tabular Object Model | Microsoft Docs"
 description: Download, reference, and redistribute Tabular Object Model (TOM), a C# library for creating and managing tabular models and databases in managed code.
 ms.date: 12/07/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Materialize Element (XMLA) | Microsoft Docs"
 description: Learn how the Materialize element specifies whether to materialize the aggregations designed by the DesignAggregations command. 
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

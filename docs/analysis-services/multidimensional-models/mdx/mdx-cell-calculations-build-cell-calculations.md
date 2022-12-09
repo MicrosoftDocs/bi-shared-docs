@@ -2,8 +2,7 @@
 title: "Building Cell Calculations in MDX (MDX) | Microsoft Docs"
 description: Learn how to build cell calculations in MDX to define a specific slice of cells, called a calculation subcube.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

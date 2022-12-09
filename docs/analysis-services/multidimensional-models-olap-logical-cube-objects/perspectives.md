@@ -2,8 +2,7 @@
 title: "Perspectives (Analysis Services OLAP cube objects)| Microsoft Docs"
 description: Learn how a perspective is a definition that allows users to see a cube in a simpler way.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
 ms.author: owend

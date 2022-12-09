@@ -2,8 +2,7 @@
 title: "Change the Properties of a Mining Model | Microsoft Docs"
 description: In this article, learn how to change the properties of a mining model and mining model column.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
 ms.author: owend

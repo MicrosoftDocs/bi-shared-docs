@@ -2,8 +2,7 @@
 title: "ErrorConfiguration Element (XMLA) | Microsoft Docs"
 description: Learn how the ErrorConfiguration element specifies settings for handling errors that can occur during a Batch or Process operation.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

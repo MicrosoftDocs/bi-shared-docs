@@ -2,8 +2,7 @@
 title: "Analysis Services tabular model project properties | Microsoft Docs"
 description: Learn about tabular model project deployment options and deployment server properties that specify how the project and model is deployed. 
 ms.date: 01/29/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Mining Model Content for Clustering Models (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about mining model content that is specific to models that use the Microsoft Clustering algorithm in SQL Server Analysis Services. 
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
 ms.author: owend

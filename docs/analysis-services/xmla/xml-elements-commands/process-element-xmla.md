@@ -2,8 +2,7 @@
 title: "Process Element (XMLA) | Microsoft Docs"
 description: Learn how the Process element processes objects on a Analysis Services instance.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

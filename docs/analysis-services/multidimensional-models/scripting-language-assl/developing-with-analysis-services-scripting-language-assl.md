@@ -2,8 +2,7 @@
 title: "Developing with Analysis Services Scripting Language (ASSL) | Microsoft Docs"
 description: Learn how you can use ASSL in custom applications to communicate with Analysis Services over the XMLA protocol.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
 ms.author: owend

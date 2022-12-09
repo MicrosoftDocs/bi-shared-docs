@@ -2,8 +2,7 @@
 title: "DatabaseName Element (XMLA) | Microsoft Docs"
 description: Learn how the DatabaseName element identifies the Analysis Services database to be restored by the parent Restore command.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

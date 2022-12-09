@@ -2,8 +2,7 @@
 title: "Dimension Types (Analysis Services)| Microsoft Docs"
 description: Learn how the dimension type provides information about the contents of a dimension to server and client applications. 
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
 ms.author: owend

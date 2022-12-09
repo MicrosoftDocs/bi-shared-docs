@@ -2,8 +2,7 @@
 title: "Data Sources in Multidimensional Models | Microsoft Docs"
 description: Learn about external data sources in Analysis Services Multidimensional Models and see a list of related topics.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

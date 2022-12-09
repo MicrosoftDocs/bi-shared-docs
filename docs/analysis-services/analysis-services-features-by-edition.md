@@ -2,8 +2,7 @@
 title: "Analysis Services features supported by SQL Server edition | Microsoft Docs"
 description: Learn about features supported by different editions of SQL Server 2016, 2017, 2019 Analysis Services.
 ms.date: 06/09/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend

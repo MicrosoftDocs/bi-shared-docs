@@ -2,8 +2,7 @@
 title: "Data sources supported in SQL Server Analysis Services tabular 1200 models | Microsoft Docs"
 description: Learn about the types of data sources that can be used with SQL Server Analysis Services (SSAS) tabular models at the 1200 and lower compatibility level.
 ms.date: 06/29/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

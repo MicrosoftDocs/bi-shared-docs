@@ -2,8 +2,7 @@
 title: "Define a Fact Relationship and Fact Relationship Properties | Microsoft Docs"
 description: Learn how to view or edit a fact dimension relationship on the Dimension Usage tab of Cube Designer.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Understanding Pass Order and Solve Order (MDX) | Microsoft Docs"
 description: Learn about how you can understand pass order and solve order related to MDX data manipulation.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

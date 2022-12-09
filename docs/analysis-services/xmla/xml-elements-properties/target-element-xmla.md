@@ -2,8 +2,7 @@
 title: "Target Element (XMLA) | Microsoft Docs"
 description: Learn how the Target element represents the target partition to be merged during a MergePartitions command.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

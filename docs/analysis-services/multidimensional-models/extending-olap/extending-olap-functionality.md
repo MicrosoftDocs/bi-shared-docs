@@ -2,8 +2,7 @@
 title: "Extending OLAP functionality | Microsoft Docs"
 description: Learn how to extend Analysis Services OLAP functionality by writing assemblies, personalized extensions, and stored procedures.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
 ms.author: owend

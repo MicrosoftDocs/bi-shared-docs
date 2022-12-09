@@ -2,8 +2,7 @@
 title: "DataSourceType Element (XMLA) | Microsoft Docs"
 description: Learn how the DataSourceType element indicates whether a Location element specified for a Restore or Synchronize command is local or remote.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

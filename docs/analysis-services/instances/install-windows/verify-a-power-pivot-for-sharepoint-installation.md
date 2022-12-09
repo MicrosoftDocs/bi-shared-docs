@@ -2,8 +2,7 @@
 title: "Verify a Power Pivot for SharePoint Installation | Microsoft Docs"
 description: Learn how to verify a Power Pivot for SharePoint installation by publishing a sample workbook with Power Pivot data.
 ms.date: 06/09/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: ppvt-sharepoint
 ms.topic: conceptual
 ms.author: owend

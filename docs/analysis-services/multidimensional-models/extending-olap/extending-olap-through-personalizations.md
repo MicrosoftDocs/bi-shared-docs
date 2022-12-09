@@ -2,8 +2,7 @@
 title: "Extending OLAP through personalizations | Microsoft Docs"
 description: Learn about extending OLAP by adding assemblies and personalized extensions to an instance of the service. 
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
 ms.author: owend

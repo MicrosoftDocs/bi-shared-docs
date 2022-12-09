@@ -2,8 +2,7 @@
 title: "MDX Scripting Fundamentals (Analysis Services) | Microsoft Docs"
 description: Learn MDX scripting fundamentals like how changing an MDX script associated with a cube immediately changes the calculation process for the cube.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

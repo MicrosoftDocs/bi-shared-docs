@@ -2,8 +2,7 @@
 title: "Grant read definition permissions on object metadata (Analysis Services) | Microsoft Docs"
 description: Grant permission to view object information, without modifying the object's definition or structure, or viewing the actual data for the object.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

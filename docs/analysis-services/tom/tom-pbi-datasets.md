@@ -2,8 +2,7 @@
 title: "Programming Power BI datasets with the Tabular Object Model (TOM) | Microsoft Docs"
 description: Overview of using the Tabular Object Model to create, view, and manage Power BI datasets through the XMLA endpoint.
 ms.date: 12/01/2021
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
 ms.author: owend

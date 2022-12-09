@@ -2,8 +2,7 @@
 title: "MDX Query Fundamentals (Analysis Services) | Microsoft Docs"
 description: Use these linked articles to learn about MDX queries and the cellsets they produce.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend
