@@ -2,8 +2,7 @@
 title: "Proactive Caching (Dimensions) | Microsoft Docs"
 description: Learn how proactive caching provides automatic MOLAP cache creation and management for OLAP objects. 
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
 ms.author: owend

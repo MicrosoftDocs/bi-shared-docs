@@ -2,8 +2,7 @@
 title: "Reviewing Cube and Dimension Properties | Microsoft Docs"
 description: Learn how to review the cube and its dimension properties you created for an Analysis Services project.
 ms.date: 04/20/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: owend

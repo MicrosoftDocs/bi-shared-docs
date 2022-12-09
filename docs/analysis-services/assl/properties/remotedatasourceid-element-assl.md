@@ -2,10 +2,10 @@
 title: "RemoteDatasourceID Element (ASSL) | Microsoft Docs"
 description: Learn about the RemoteDatasourceID property element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 7/25/2018
-ms.prod: sql
+ms.service: analysis-services
 ms.custom: assl
 ms.reviewer: owend
-ms.technology: analysis-services
+
 ms.topic: reference
 author: minewiskan
 ms.author: owend

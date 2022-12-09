@@ -2,8 +2,7 @@
 title: "Analysis Services tabular model table properties | Microsoft Docs"
 description: Learn about Analysis Services tabular model table properties and how to configure them.
 ms.date: 01/29/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

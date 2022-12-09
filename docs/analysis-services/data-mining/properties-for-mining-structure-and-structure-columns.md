@@ -2,8 +2,7 @@
 title: "Properties for Mining Structure and Structure Columns | Microsoft Docs"
 description: Learn how to set or change the properties for a mining structure and its associated columns and nested tables by using the Data Mining Designer.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
 ms.author: owend

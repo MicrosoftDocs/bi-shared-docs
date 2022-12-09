@@ -2,8 +2,7 @@
 title: "ServerMode Element | Microsoft Docs"
 description: Learn how the ServerMode server element specifies the mode the server is operating in.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

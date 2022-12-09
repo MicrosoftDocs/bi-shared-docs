@@ -2,8 +2,7 @@
 title: "Adding or Removing Tables or Views in a Data Source View (Analysis Services) | Microsoft Docs"
 description: Learn to modify a data source view (DSV) in Data Source View Designer by adding or removing tables and columns.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

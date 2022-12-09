@@ -2,8 +2,7 @@
 title: "CubeBinding Data Type (out-of-line) (ASSL) | Microsoft Docs"
 description: Learn about the CubeBinding data type element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: assl
 ms.topic: reference
 ms.author: owend

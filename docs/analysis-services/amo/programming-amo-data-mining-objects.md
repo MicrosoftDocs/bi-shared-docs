@@ -2,8 +2,7 @@
 title: "Programming AMO Data Mining objects | Microsoft Docs"
 description: In this article, learn how to program data mining objects by using Analysis Management Objects (AMO).
 ms.date: 03/30/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: amo
 ms.topic: conceptual
 ms.author: owend

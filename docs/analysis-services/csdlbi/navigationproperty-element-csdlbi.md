@@ -2,8 +2,7 @@
 title: "NavigationProperty Element (CSDLBI) | Microsoft Docs"
 description: Learn about the NavigationProperty element, a complex type that extends the CSDL Member type to support navigation in business intelligence data models.
 ms.date: 07/19/2021
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
 ms.author: owend

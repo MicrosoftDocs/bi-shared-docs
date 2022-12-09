@@ -2,8 +2,7 @@
 title: "Sequence command (TMSL) | Microsoft Docs"
 description: Use the Sequence command to run a consecutive set of operations in batch mode on an instance of Analysis Services.
 ms.date: 07/11/2019
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tmsl
 ms.topic: reference
 ms.author: owend

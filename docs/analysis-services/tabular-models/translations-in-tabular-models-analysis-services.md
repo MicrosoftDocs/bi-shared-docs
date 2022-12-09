@@ -2,8 +2,7 @@
 title: "Translations in Analysis Services tabular models | Microsoft Docs"
 description: Learn how in tabular models, an object can have multiple translations of a name or description, making it possible to support multi-language versions within the model definition.  
 ms.date: 04/20/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

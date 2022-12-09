@@ -2,8 +2,7 @@
 title: "Create an Analysis Services Project  | Microsoft Docs"
 description: Define an Analysis Services project in SQL Server Data Tools by using the Analysis Services Project template or the Import Analysis Services Database Wizard.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Create and manage roles for Analysis Services tabular models projects | Microsoft Docs"
 description: Learn how to create and manage roles during model authoring by using the Role Manager dialog box in SQL Server Data Tools.
 ms.date: 04/12/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

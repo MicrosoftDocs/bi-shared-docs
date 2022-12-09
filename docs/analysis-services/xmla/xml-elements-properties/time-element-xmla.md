@@ -2,8 +2,7 @@
 title: "Time Element (XMLA) | Microsoft Docs"
 description: Learn how the Time element specifies the time limit used by the DesignAggregations command to design aggregations.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

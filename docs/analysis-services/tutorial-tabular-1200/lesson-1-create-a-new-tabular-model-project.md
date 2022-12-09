@@ -2,8 +2,7 @@
 title: "Lesson 1: Create a New Tabular Model Project | Microsoft Docs"
 description: Learn how to create a new tabular model project.
 ms.date: 05/07/2019
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: tutorial
 ms.author: owend

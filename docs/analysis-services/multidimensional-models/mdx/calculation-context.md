@@ -2,8 +2,7 @@
 title: "Calculation Context (Analysis Services) | Microsoft Docs"
 description: Learn that The calculation context is the known subspace of the cube where an expression is evaluated.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

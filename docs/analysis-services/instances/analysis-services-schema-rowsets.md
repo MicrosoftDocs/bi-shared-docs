@@ -2,8 +2,7 @@
 title: "Analysis Services Schema Rowsets | Microsoft Docs"
 description: Learn about schema rowsets, which are predefined tables that contain information about Analysis Services objects and server state.
 ms.date: 03/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: schema-rowsets
 ms.topic: reference
 ms.author: owend

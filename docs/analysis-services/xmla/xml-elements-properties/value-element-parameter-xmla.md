@@ -2,8 +2,7 @@
 title: "Value Element (Parameter) (XMLA) | Microsoft Docs"
 description: Learn how the Value element (parameter) contains the value of a parameter represented by the Parameter element.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

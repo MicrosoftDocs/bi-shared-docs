@@ -2,8 +2,7 @@
 title: "Delete a column in an Analysis Services tabular model | Microsoft Docs"
 description: Learn how to delete a column in an Analysis Services tabular model.
 ms.date: 01/29/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

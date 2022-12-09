@@ -2,8 +2,7 @@
 title: "Manipulating Data (MDX) | Microsoft Docs"
 description: Learn how Multidimensional Expressions (MDX) can be used to manipulate the data in a variety of ways.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

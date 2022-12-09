@@ -2,8 +2,7 @@
 title: "Dimensions (Analysis Services - Multidimensional Data) | Microsoft Docs"
 description: Learn how dimensions organize data with relation to an area of interest, such as customers, stores, or employees, to users in Analysis Services.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
 ms.author: owend

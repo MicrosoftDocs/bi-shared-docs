@@ -2,8 +2,7 @@
 title: "Modify or Delete a Database Dimension in Solution Explorer | Microsoft Docs"
 description: Learn how to modify or delete a dimension by using Dimension Designer in SQL Server Data Tools Solution Explorer.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

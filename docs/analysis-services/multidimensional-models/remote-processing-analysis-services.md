@@ -2,8 +2,7 @@
 title: "Remote Processing (Analysis Services) | Microsoft Docs"
 description: Run scheduled or unattended processing on a remote Analysis Services instance, where the processing executes on a different computer on the same network.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

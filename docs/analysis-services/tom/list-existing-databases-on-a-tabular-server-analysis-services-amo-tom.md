@@ -2,8 +2,7 @@
 title: "List existing databases on a tabular server (AMO-TOM) | Microsoft Docs"
 description: Learn how to iterate over the Server.Databases collection to list all databases hosted by a server instance.
 ms.date: 12/07/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
 ms.author: owend

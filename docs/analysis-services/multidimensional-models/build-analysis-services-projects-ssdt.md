@@ -2,8 +2,7 @@
 title: "Build Analysis Services Projects | Microsoft Docs"
 description: Learn to build an Analysis Services project In SQL Server Data Tools much like you build any programming project in Visual Studio.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

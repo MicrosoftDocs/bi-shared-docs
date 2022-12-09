@@ -2,8 +2,7 @@
 title: "Defining and Using a Drillthrough Action | Microsoft Docs"
 description: Learn how to define, use, and then modify a drillthrough action through the fact dimension relationship that you defined earlier in this tutorial for an Analysis Services project.
 ms.date: 04/20/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: owend

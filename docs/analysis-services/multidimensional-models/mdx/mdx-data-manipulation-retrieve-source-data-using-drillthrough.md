@@ -2,8 +2,7 @@
 title: "Using DRILLTHROUGH to Retrieve Source Data (MDX) | Microsoft Docs"
 description: Learn how Multidimensional Expressions (MDX) uses the DRILLTHROUGH statement to retrieve a rowset from the source data for a cube cell.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Synchronize Element (XMLA) | Microsoft Docs"
 description: Learn how the Synchronize element synchronizes a Analysis Services database with another existing database.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

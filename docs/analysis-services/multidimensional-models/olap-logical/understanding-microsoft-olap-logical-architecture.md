@@ -2,8 +2,7 @@
 title: "Logical Architecture (Analysis Services - Multidimensional Data) | Microsoft Docs"
 description: Learn that SSAS uses both server and client components to supply OLAP and data mining functionality for business intelligence applications.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
 ms.author: owend

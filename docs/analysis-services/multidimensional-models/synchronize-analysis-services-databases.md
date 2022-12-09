@@ -2,8 +2,7 @@
 title: "Synchronize Analysis Services Databases | Microsoft Docs"
 description: Use Synchronize Database to make two databases equivalent by copying the data and metadata on a source server to a database on a destination server.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

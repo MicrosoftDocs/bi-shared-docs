@@ -2,8 +2,7 @@
 title: "Import from Analysis Services | Microsoft Docs"
 description: Learn how to create a new tabular model project by importing the metadata from an existing tabular model by using the Import from Server project template in SQL Server Data Tools.
 ms.date: 02/22/2021
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Impersonation in Analysis Services tabular models | Microsoft Docs"
 description: Learn how sign in credentials are used by Analysis Services when connecting to a datasource to import and process (refresh) data.
 ms.date: 04/22/2021
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend
