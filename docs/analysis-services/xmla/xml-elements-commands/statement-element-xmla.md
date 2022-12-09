@@ -2,8 +2,7 @@
 title: "Statement Element (XMLA) | Microsoft Docs"
 description: Learn how the Statement element contains a query or statement to be sent using the Execute method to an instance of Analysis Services.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

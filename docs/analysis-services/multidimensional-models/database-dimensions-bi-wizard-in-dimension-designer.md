@@ -2,8 +2,7 @@
 title: "Start the Business Intelligence Wizard in Dimension Designer | Microsoft Docs"
 description: Create custom rollup operators and custom member formulas and configure dimensions for writeback by using the Business Intelligence Wizard.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Defining a Dimension | Microsoft Docs"
 description: Learn how to use the Dimension Wizard to build a Date dimension for an Analysis Services project.
 ms.date: 04/20/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: owend

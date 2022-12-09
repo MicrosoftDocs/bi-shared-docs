@@ -2,8 +2,7 @@
 title: "Define the Relationship Type of an Attribute Relationship | Microsoft Docs"
 description: Define the relationship type of an attribute relationship by using the Attribute Relationships tab in Dimension Designer.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

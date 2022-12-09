@@ -2,8 +2,7 @@
 title: "Roles object (TMSL) | Microsoft Docs"
 description: Learn to use the Roles object to define a role on the model that specifies a collection of permissions.
 ms.date: 12/02/2021
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tmsl
 ms.topic: reference
 ms.author: owend

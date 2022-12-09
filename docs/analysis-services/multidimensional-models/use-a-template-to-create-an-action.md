@@ -2,8 +2,7 @@
 title: "Use a Template to Create an Action | Microsoft Docs"
 description: Learn how to use templates in the Cube Designer Actions view in SQL Server Data Tools to create common actions.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

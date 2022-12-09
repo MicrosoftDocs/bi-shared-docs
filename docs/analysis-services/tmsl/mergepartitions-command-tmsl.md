@@ -2,8 +2,7 @@
 title: "MergePartitions command (TMSL) | Microsoft Docs"
 description: Use the MergePartitions command to merge the data of one or more source partitions into a target partition, and then delete the source partition.
 ms.date: 04/20/2021
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tmsl
 ms.topic: reference
 ms.author: owend

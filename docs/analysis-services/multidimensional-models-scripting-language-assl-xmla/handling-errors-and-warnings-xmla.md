@@ -2,8 +2,7 @@
 title: "Handling Errors and Warnings (XMLA) | Microsoft Docs"
 description: Learn how error handling is required when an XMLA Discover or Execute method call does not run, runs successfully but generates errors or warnings, or runs successfully but returns results that contain errors.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Keys Element (XMLA) | Microsoft Docs"
 description: Learn how the Keys element contains a collection of Key elements used to identify the member keys of the attribute member represented by the parent Attribute element. 
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

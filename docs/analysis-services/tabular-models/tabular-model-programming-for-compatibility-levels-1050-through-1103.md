@@ -2,8 +2,7 @@
 title: "Analysis Services tabular model programming for levels 1050 - 1103 | Microsoft Docs"
 description: Learn how tabular models use relational constructs to model Analysis Services data in compatibility levels 1050 and 1103.
 ms.date: 12/07/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
 ms.author: owend

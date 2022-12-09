@@ -2,8 +2,7 @@
 title: "Backup and Restore of Analysis Services Databases | Microsoft Docs"
 description: Learn how to use backup and restore in Analysis Services to recover a database and its objects from a particular point in time.
 ms.date: 03/12/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Multidimensional Model Databases (SSAS) | Microsoft Docs"
 description: Get an overview of multidimensional model Analysis Services databases that consist of data sources, data source views, cubes, dimensions, and roles.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

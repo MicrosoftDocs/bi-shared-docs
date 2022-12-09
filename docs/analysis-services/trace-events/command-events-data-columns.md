@@ -2,8 +2,7 @@
 title: "Command Events Data Columns | Microsoft Docs"
 description: Learn about the the data columns for each event class in the Command Events event category.
 ms.date: 03/04/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: trace-events
 ms.topic: reference
 ms.author: owend

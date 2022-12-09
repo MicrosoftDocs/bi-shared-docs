@@ -2,8 +2,7 @@
 title: "Calculated columns in Analysis Services tabular models | Microsoft Docs"
 description: Learn how calculated columns enable you to add new data to your model.
 ms.date: 04/03/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Cubes in Multidimensional Models | Microsoft Docs"
 description: Learn about cubes, multidimensional structures that contain dimensions and measures for analytical purposes.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

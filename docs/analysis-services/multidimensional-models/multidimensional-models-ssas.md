@@ -2,8 +2,7 @@
 title: "Multidimensional models | Microsoft Docs"
 description: Learn how an Analysis Services multidimensional solution uses cube structures for analyzing business data across multiple dimensions.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

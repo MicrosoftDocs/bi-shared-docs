@@ -2,8 +2,7 @@
 title: "ASSL Objects and Object Characteristics | Microsoft Docs"
 description: Learn how objects in Analysis Services Scripting Language (ASSL) follow specific guidelines in regards to object groups, inheritance, naming, and processing.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
 ms.author: owend

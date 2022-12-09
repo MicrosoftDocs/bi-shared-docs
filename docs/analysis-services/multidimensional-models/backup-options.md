@@ -2,8 +2,7 @@
 title: "Backup Options (Analysis Services multidimensional) | Microsoft Docs"
 description: Learn about backup and synchronization options for Microsoft SQL Server Analysis Services databases.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

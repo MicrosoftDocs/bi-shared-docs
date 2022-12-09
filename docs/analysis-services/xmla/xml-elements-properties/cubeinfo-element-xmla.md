@@ -2,8 +2,7 @@
 title: "CubeInfo Element (XMLA) | Microsoft Docs"
 description: Learn how the CubeInfo element contains the cube metadata contained by the parent OlapInfo element.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

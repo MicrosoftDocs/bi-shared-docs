@@ -2,8 +2,7 @@
 title: "Enable Dimension Writeback | Microsoft Docs"
 description: Add the dimension writeback enhancement to a cube or dimension to allow users to manually modify the dimension structure and members.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

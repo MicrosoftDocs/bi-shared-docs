@@ -2,8 +2,7 @@
 title: "LastDataUpdate Element (XMLA) | Microsoft Docs"
 description: Learn how the LastDataUpdate element contains the date and time that the data of the cube represented by the parent Cube element was last updated.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

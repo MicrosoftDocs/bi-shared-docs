@@ -2,8 +2,7 @@
 title: "Work with Analysis Services Projects and Databases in Development | Microsoft Docs"
 description: Develop an Analysis Services database by using SQL Server Data Tools in either project mode or online mode.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

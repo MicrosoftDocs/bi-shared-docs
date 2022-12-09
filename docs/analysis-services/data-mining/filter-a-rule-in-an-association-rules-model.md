@@ -2,8 +2,7 @@
 title: "Filter a Rule in an Association Rules Model | Microsoft Docs"
 description: Learn how to filter a rule in an Association Rules Model by using Data Mining Designer in SQL Server Analysis Services.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "AMO Data Mining Classes | Microsoft Docs"
 description: Learn how defining objects in Analysis Management Objects (AMO) requires setting a number of properties on each object to set up the correct context.
 ms.date: 03/30/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: amo
 ms.topic: conceptual
 ms.author: owend

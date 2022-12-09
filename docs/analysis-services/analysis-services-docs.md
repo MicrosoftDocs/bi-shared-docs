@@ -2,8 +2,7 @@
 title: Analysis Services documentation overview
 description: Describes Analysis Services documentation.
 ms.date: 01/19/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.topic: overview
 ms.author: owend
 ms.reviewer: owend

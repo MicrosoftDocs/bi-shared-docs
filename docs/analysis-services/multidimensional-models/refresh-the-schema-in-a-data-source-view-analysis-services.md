@@ -2,8 +2,7 @@
 title: "Refresh the Schema in a Data Source View (Analysis Services) | Microsoft Docs"
 description: Update the DSV so that it matches the external data source by refreshing the DSV in Business Intelligence Development Studio (BIDS).
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Grant custom access to cell data (Analysis Services) | Microsoft Docs"
 description: Specify whether role members have read, read contingent, or read/write permissions on cells within a cube. 
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

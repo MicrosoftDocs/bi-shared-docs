@@ -2,8 +2,7 @@
 title: "return Element (XMLA) | Microsoft Docs"
 description: Learn how the return element contains information returned by a DiscoverResponse element in response to a Discover method call or an ExecuteResponse element in response to an Execute method call.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

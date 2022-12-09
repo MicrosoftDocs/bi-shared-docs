@@ -2,8 +2,7 @@
 title: "Post-install Configuration (Analysis Services) | Microsoft Docs"
 description: Learn about further configuration after installing Analysis Services that is required to make the server fully operational and available for general use.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
 ms.author: owend

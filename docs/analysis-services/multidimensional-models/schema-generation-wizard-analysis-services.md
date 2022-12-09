@@ -2,8 +2,7 @@
 title: "Schema Generation Wizard (Analysis Services) | Microsoft Docs"
 description: Use the Schema Generation Wizard to create the underlying data source view and data source objects for the OLAP objects in a project or database.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

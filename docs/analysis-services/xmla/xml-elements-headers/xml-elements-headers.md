@@ -2,8 +2,7 @@
 title: "Headers (XMLA) | Microsoft Docs"
 description: Learn how the XMLA protocol uses XML elements within the SOAP header to manage protocol-level features, such as session support and the negotiation of supported features.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

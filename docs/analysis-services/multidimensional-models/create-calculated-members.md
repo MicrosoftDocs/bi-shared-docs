@@ -2,8 +2,7 @@
 title: "Create Calculated Members | Microsoft Docs"
 description: Create customized measures or dimension members, called calculated members, by combining cube data, arithmetic operators, numbers, and functions.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

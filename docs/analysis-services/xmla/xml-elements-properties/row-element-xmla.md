@@ -2,8 +2,7 @@
 title: "row Element (XMLA) | Microsoft Docs"
 description: Learn how the row element contains a single row of data for a root element that contains tabular data returned by a Discover or Execute method call.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

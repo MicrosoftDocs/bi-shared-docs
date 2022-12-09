@@ -2,8 +2,7 @@
 title: "EditionId Element | Microsoft Docs"
 description: Learn how the EditionId element contains the numeric edition identifier code of the parent Server Element (ASSL) element.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

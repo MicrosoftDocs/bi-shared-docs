@@ -2,8 +2,7 @@
 title: "EndSession Element (XMLA) | Microsoft Docs"
 description: Learn how the EndSession element uses the SOAP header in a SOAP request message to end an existing session on an instance of Analysis Services.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

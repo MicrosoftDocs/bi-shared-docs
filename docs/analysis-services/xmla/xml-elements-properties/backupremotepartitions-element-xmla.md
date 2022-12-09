@@ -2,8 +2,7 @@
 title: "BackupRemotePartitions Element (XMLA) | Microsoft Docs"
 description: Learn how the BackupRemotePartitions element determines whether the parent Backup command backs up remote partitions associated with the object.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

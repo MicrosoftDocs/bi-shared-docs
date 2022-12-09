@@ -2,8 +2,7 @@
 title: "UpdateCells Element (XMLA) | Microsoft Docs"
 description: Learn how the UpdateCells element updates cells in a write-enabled cube.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

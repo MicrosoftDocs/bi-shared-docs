@@ -2,8 +2,7 @@
 title: "Define a New Attribute Automatically | Microsoft Docs"
 description: Learn how to create a new attribute in a dimension automatically by using drag-and-drop editing in the Dimension Designer.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

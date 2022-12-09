@@ -2,8 +2,7 @@
 title: "Automate Analysis Services Administrative Tasks with SSIS | Microsoft Docs"
 description: Learn how to automate administrative tasks for SQL Server Analysis Services with SQL Server Integration Services.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
 ms.author: owend

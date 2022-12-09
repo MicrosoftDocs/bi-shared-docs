@@ -2,8 +2,7 @@
 title: "Analysis Services lock manager properties | Microsoft Docs"
 description: Learn about the available lock manager properties in Analysis Services, like DefaultLockTimeoutMS and DeadlockDetectionGranularityMS.
 ms.date: 07/21/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: 
 ms.topic: conceptual
 ms.author: owend

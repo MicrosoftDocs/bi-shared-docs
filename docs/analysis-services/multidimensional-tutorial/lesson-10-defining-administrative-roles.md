@@ -2,8 +2,7 @@
 title: "Lesson 10: Defining Administrative Roles | Microsoft Docs"
 description: Learn how to define administrative roles for an Analysis Services project.
 ms.date: 04/20/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: owend

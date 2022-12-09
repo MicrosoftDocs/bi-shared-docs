@@ -2,8 +2,7 @@
 title: "Test an Analysis Services tabular model in DirectQuery mode | Microsoft Docs"
 description: Describes how to test a DirectQuery tabular models by using Analyse in Excel.
 ms.date: 08/27/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

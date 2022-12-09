@@ -2,8 +2,7 @@
 title: "Query Processing Events Data Columns | Microsoft Docs"
 description: Learn about the data columns for the Query Processing Events event category.
 ms.date: 07/19/2021
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: trace-events
 ms.topic: reference
 ms.author: owend
