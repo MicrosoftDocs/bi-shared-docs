@@ -2,8 +2,7 @@
 title: "Error Configuration for Cube, Partition, and Dimension Processing | Microsoft Docs"
 description: Learn about error properties for cubes, partitions, and dimensions that determine how the server responds to data integrity errors during processing.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Configure Power Pivot and Deploy Solutions (SharePoint 2013) | Microsoft Docs"
 description: Learn how to deploy and configure middle-tier enhancements to the Power Pivot features in SharePoint Server 2013.
 ms.date: 06/09/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: ppvt-sharepoint
 ms.topic: conceptual
 ms.author: owend

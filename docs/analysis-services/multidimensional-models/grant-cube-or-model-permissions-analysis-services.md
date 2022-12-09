@@ -2,8 +2,7 @@
 title: "Grant cube or model permissions (Analysis Services) | Microsoft Docs"
 description: Learn how to create roles, assign memberships, and grant the necessary permissions for cube or tabular data access.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

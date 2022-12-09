@@ -2,8 +2,7 @@
 title: "Create command (TMSL) | Microsoft Docs"
 description: Use the Create command to create the specified object and all of the descendant objects that are specified.
 ms.date: 04/20/2021
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tmsl
 ms.topic: reference
 ms.author: owend

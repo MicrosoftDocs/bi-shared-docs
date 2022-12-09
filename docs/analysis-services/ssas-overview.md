@@ -2,8 +2,7 @@
 title: SQL Server Analysis Services overview
 description: Describes SQL Server Analysis Services.
 ms.date: 12/14/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.topic: overview
 ms.author: owend
 ms.reviewer: owend

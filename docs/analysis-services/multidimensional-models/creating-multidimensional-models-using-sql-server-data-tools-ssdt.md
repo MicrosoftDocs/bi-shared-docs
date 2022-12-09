@@ -2,8 +2,7 @@
 title: "Creating Multidimensional Models Using SQL Server Data Tools | Microsoft Docs"
 description: Learn about creating Multidimensional Models by using SQL Server Data Tools or SQL Server Management Studio.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

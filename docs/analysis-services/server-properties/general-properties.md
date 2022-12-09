@@ -2,8 +2,7 @@
 title: "Analysis Services general properties | Microsoft Docs"
 description:  Learn about the available general properties in Analysis Services, like AdminTimeout and ExternalCommandTimeout. 
 ms.date: 11/03/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: 
 ms.topic: conceptual
 ms.author: owend

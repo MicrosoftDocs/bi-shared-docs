@@ -2,8 +2,7 @@
 title: "Features off by default (Analysis Services) | Microsoft Docs"
 description: Learn about the features that are installed in a disabled state in SQL Server Analysis Services for security reasons.  
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
 ms.author: owend

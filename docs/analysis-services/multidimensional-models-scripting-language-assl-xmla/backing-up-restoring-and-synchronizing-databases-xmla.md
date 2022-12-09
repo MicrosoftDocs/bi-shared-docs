@@ -2,8 +2,7 @@
 title: "Backing Up, Restoring, and Synchronizing Databases (XMLA) | Microsoft Docs"
 description: Learn about the three commands for backing up, restoring, and synchronizing databases.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
 ms.author: owend

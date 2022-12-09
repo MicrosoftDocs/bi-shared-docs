@@ -2,8 +2,7 @@
 title: "Analysis Services tutorial lesson 2: Get data | Microsoft Docs"
 description: Learn how to get data for an Analysis Services tabular model project.
 ms.date: 08/28/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: tutorial
 ms.author: owend

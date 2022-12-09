@@ -2,8 +2,7 @@
 title: "Analysis Services tabular model tables and columns | Microsoft Docs"
 description: Learn how to add new columns of data, create relationships between tables, define calculations that extend the data, and filter and sort data in the tables for easier viewing.
 ms.date: 07/15/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: owend

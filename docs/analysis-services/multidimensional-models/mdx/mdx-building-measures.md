@@ -2,8 +2,7 @@
 title: "Building Measures in MDX | Microsoft Docs"
 description: Learn how the ability to construct and use measures in an MDX query provides a great deal of manipulation capability for tabular data.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

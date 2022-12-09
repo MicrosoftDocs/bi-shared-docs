@@ -2,8 +2,7 @@
 title: "Calculated Members in Subselects and Subcubes | Microsoft Docs"
 description: Learn about calculated members in subselects and subcubes.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

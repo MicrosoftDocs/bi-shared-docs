@@ -2,8 +2,7 @@
 title: "Retrieving Data Using the CellSet | Microsoft Docs"
 description: In this article, learn how to retrieve data from an analytical data source by using the CellSet object in ADOMD.NET.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: adomd
 ms.topic: conceptual
 ms.author: owend

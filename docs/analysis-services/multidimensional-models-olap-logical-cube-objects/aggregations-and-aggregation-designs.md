@@ -2,8 +2,7 @@
 title: "Aggregations and Aggregation Designs | Microsoft Docs"
 description: Learn how an AggregationDesign object defines a set of aggregation definitions that can be shared across multiple partitions.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Grant custom access to dimension data (Analysis Services) | Microsoft Docs"
 description: Set additional permissions that explicitly allow or deny access to dimension members and measures used in a cube.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

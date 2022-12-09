@@ -2,8 +2,7 @@
 title: "Restricting the Query with Query and Slicer Axis (MDX) | Microsoft Docs"
 description: "Learn how an application typically examines a cube and divides the set of hierarchies into two subsets: query axes and slicer axes."
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

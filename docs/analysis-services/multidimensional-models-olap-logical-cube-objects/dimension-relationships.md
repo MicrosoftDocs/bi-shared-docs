@@ -2,8 +2,7 @@
 title: "Dimension Relationships | Microsoft Docs"
 description: Learn about dimension relationships and how dimension usage defines the relationships between a cube dimension and the measure groups in a cube.
 ms.date: 08/28/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
 ms.author: owend

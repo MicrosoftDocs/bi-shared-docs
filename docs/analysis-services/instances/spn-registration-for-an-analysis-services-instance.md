@@ -2,8 +2,7 @@
 title: "SPN registration for an Analysis Services instance | Microsoft Docs"
 description: Learn how to register a Service Principal Name for a SQL Server Analysis Services instance for use with authentication.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
 ms.author: owend

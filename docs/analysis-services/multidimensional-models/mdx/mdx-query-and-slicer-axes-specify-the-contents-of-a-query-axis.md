@@ -2,8 +2,7 @@
 title: "Specifying the Contents of a Query Axis (MDX) | Microsoft Docs"
 description: Learn how the query axes specify the edges of a cellset returned by a Multidimensional Expressions (MDX) SELECT statement.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

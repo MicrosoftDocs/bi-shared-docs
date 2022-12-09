@@ -2,8 +2,7 @@
 title: "Roles and Permissions (Analysis Services) | Microsoft Docs"
 description: Learn about the Analysis Services role-based authorization model that grants access to operations, objects, and data.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

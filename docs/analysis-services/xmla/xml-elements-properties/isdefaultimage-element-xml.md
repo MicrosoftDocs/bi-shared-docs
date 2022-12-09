@@ -2,8 +2,7 @@
 title: "IsDefaultImage Element (XML) | Microsoft Docs"
 description: Learn how the IsDefaultImage element indicates that it is possible to obtain the default image for this entity.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

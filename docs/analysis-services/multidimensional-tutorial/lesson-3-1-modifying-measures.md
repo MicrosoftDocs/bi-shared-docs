@@ -2,8 +2,7 @@
 title: "Modifying Measures (Analysis Services multidimensional) | Microsoft Docs"
 description: Learn how to specify formatting properties for the currency and percentage measures for an Analysis Services project.
 ms.date: 04/20/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: owend

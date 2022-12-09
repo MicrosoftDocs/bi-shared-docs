@@ -2,8 +2,7 @@
 title: "Modify or Delete an Analysis Services Database | Microsoft Docs"
 description: Modify or delete an Analysis Services database before deployment in SQL Server Data Tools and after deployment in SQL Server Management Studio.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

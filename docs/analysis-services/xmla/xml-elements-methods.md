@@ -2,8 +2,7 @@
 title: "Methods (XMLA) | Microsoft Docs"
 description: Learn about how the the Discover and Execute XMLA methods allow applications to access information on an instance of Analysis Services. 
 ms.date: 01/05/2021
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

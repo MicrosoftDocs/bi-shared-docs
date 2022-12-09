@@ -2,8 +2,7 @@
 title: "Create a Cube using a Data Source View | Microsoft Docs"
 description: Learn how to use the Cube Wizard to build a new cube if you intend to use an existing data source view.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Data Mining Queries (Analysis Services) | Microsoft Docs"
 description: Learn about the uses of data mining queries, the types of queries, and the tools and query languages in SQL Server Data Mining.
 ms.date: 02/14/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
 ms.author: owend

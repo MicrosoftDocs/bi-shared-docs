@@ -2,8 +2,7 @@
 title: "Merging Partitions (XMLA) | Microsoft Docs"
 description: Learn how to merge the partition by using the MergePartitions command in XML for Analysis (XMLA). 
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
 ms.author: owend

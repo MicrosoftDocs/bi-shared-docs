@@ -2,8 +2,7 @@
 title: "Database Consistency Checker (DBCC) for Analysis Services | Microsoft Docs"
 description: Learn how Database Consistency Checker provides on-demand database validation for databases on an Analysis Services instance.
 ms.date: 12/29/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
 ms.author: owend

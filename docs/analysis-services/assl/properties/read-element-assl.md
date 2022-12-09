@@ -2,10 +2,10 @@
 title: "Read Element (ASSL) | Microsoft Docs"
 description: Learn about the Read property element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 09/14/2020
-ms.prod: sql
+ms.service: analysis-services
 ms.custom: assl
 ms.reviewer: owend
-ms.technology: analysis-services
+
 ms.topic: reference
 author: minewiskan
 ms.author: owend

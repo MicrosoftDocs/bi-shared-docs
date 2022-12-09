@@ -2,8 +2,7 @@
 title: "Document and Script an Analysis Services Database | Microsoft Docs"
 description: Use SQL Server Management Studio to output the metadata of the database, or of an object contained in the database, as an XML for Analysis (XMLA) script.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: owend

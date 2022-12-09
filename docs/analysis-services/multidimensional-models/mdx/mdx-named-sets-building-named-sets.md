@@ -2,8 +2,7 @@
 title: "Building Named Sets in MDX (MDX) | Microsoft Docs"
 description: Learn how to make complex or commonly used expressions easier by using Multidimensional Expressions (MDX) like a named set.
 ms.date: 05/02/2018
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
 ms.author: owend

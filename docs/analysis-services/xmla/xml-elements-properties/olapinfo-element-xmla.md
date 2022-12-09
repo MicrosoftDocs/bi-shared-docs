@@ -2,8 +2,7 @@
 title: "OlapInfo Element (XMLA) | Microsoft Docs"
 description: Learn how the OlapInfo element contains the axis and cell metadata contained by a root element that uses the MDDataSet data type.
 ms.date: 01/05/2020
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
 ms.author: owend

@@ -2,8 +2,7 @@
 title: "Create Analysis Services Scripts in Management Studio | Microsoft Docs"
 description: Learn about SQL Server Management Studio script generation features, templates, and editors for scripting Analysis Services objects and tasks.
 ms.date: 07/28/2022
-ms.prod: sql
-ms.technology: analysis-services
+ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
 ms.author: owend
