@@ -22,6 +22,7 @@ You can deploy by using the wizard as described here. You can also automate depl
   
 > [!IMPORTANT]  
 > Neither the output files nor the deployment script will contain the user id or password if these are specified in either the connection string for a data source or for impersonation purposes. Since these are required for processing purposes in this scenario, you will add this information manually. If the deployment will not include processing, you can add this connection and impersonation information as needed after deployment. If the deployment will include processing, you can either add this information within the wizard or in the deployment script after it is saved.  
+> Retain configuration settings for exstiing objects option will not retain the structured/mashup connection credentail in a tabular model. The existing credentail stored in a structured/mashup connection in Analysis Services tabular model database is always overwritten after deployment
   
 ## Run the Deployment Wizard
 
