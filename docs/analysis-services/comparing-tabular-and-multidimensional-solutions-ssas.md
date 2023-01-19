@@ -36,7 +36,7 @@ Tabular and multidimensional solutions created by using Visual Studio and are in
 |Multidimensional|OLAP modeling constructs (cubes, dimensions, measures).|SQL Server 2000  </br> SQL Server 2012 and later|  1050 </br> 1100 |
 |Power Pivot|Originally an add-in, but now fully integrated into Excel. Tabular model infrastructure. APIs and scripting not supported.|  SQL Server 2008 R2| N\A |
 |Tabular|Relational modeling constructs (model, tables, columns). Internally, metadata is inherited from OLAP modeling constructs (cubes, dimensions, measures). Code and script use OLAP metadata.|SQL Server 2012 </br> SQL Server 2014 |  1050  </br>  1103  |
-|Tabular in SQL Server 2016 and later|Relational modeling constructs (model, tables, columns), articulated in tabular metadata object definitions in [Tabular Model Scripting Language (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) and [Tabular Object Model (TOM)](tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md) code.|SQL Server 2016</br> SQL Server 2014</br> SQL Server 2019</br> SQL Server 2022| 1200 </br> 1400 </br> 1500</br> 1600|
+|Tabular in SQL Server 2016 and later|Relational modeling constructs (model, tables, columns), articulated in tabular metadata ct definitions in [Tabular Model Scripting Language (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) and [Tabular Object Model (TOM)](tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md) code.|SQL Server 2016</br> SQL Server 2014</br> SQL Server 2019</br> SQL Server 2022| 1200 </br> 1400 </br> 1500</br> 1600|
 |Tabular in Azure Analysis Services <sup>[1](#aas)</sup>|Relational modeling constructs (model, tables, columns), articulated in tabular metadata object definitions in [Tabular Model Scripting Language (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) and [Tabular Object Model (TOM)](tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md) code.|2016| 1200 and higher |
 |Tabular in Power BI Premium <sup>[2](#pbip)</sup> |Relational modeling constructs (model, tables, columns), articulated in tabular metadata object definitions in [Tabular Model Scripting Language (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) and [Tabular Object Model (TOM)](tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md) code.|2020 | 1500 and higher |
 
@@ -137,7 +137,7 @@ All databases support XMLA.
 
 All Analysis Services solutions can be secured at the database level. More granular security options vary by mode. If granular security settings are requirement for your solution, review the following list to ensure the level of security you want is supported in the type of solution you want to build:  
 
-- Tabular model databases can use row-level and column-level security, using [role-based permissions](tabular-models/roles-ssas-tabular.md).  
+- Tabular model databases can use row-level and object-level security, using [role-based permissions](tabular-models/roles-ssas-tabular.md).  
   
 - Multidimensional model databases can use dimension and cell-level security, using [role-based permissions](multidimensional-models/roles-and-permissions-analysis-services.md).  
   
