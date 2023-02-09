@@ -42,5 +42,5 @@ To upgrade encryption, backup the database and then restore with the **EnsurePro
 
 ## See also
 
-[Backup and restore Analysis Services Databases](multidimensional-models/backup-and-restore-of-analysis-services-databases)  
+[Backup and restore Analysis Services Databases](../multidimensional-models/backup-and-restore-of-analysis-services-databases.md)  
 [Compatibility level for tabular models](../tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md)  

@@ -23,7 +23,9 @@ This article summarizes new features, improvements, deprecated and discontinued 
 
 #### Encryption upgrade
 
-This update includes enhancement to the schema write operation encryption algorithm. This enhancement may require you to upgrade tabular and multidimensional model databases to ensure proper encryption. To learn more, see [Upgrade encryption](../instances/encryption-upgrade.md?view=sql-analysis-services-2022&preserve-view=true).
+This update includes enhancement to the schema write operation encryption algorithm. This enhancement may require you to upgrade tabular and multidimensional model databases to ensure proper encryption. To learn more, see [Upgrade encryption](../analysis-services/instances/encryption-upgrade.md?view=sql-analysis-services-2022&preserve-view=true).
+
+
 
 ### Generally Available (GA)
 
