@@ -16,6 +16,9 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2022"
 
 SQL Server 2022 Analysis Services CU1 includes enhanced encryption for certain write operations to the model database schema. To ensure your model databases use the latest encryption, those databases must be upgraded. If encryption isn't upgraded, certain database schema write operations, such as adding a new data source or altering connection strings are blocked and an error is returned.
 
+> [!CAUTION]
+> New or upgraded Analysis Services databases with enhanced encryption cannot be loaded if SQL Server CU1 is uninstalled.
+
 ## Tabular mode
 
 For tabular model databases at the 1200 and higher compatibility level, the following error can be returned during certain schema write operations:
@@ -39,6 +42,8 @@ For multidimensional model databases at all compatibility levels, the following 
 "**Multi-dimensional database '%{DatabaseName/}' is not using latest encryption schema. Please create a backup file and restore DB from backup file with the option EnsureProperEncryption to upgrade to the latest encryption.**"
 
 To upgrade encryption, backup the database and then restore with the **EnsureProperEncryption** option enabled.
+
+
 
 ## See also
 
