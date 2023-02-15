@@ -1248,6 +1248,8 @@
       items: 
       - name: SSAS server management overview
         href: ../analysis-services/instances/analysis-services-instance-management.md
+      - name: Upgrade encryption (SSAS 2022)
+        href: ../analysis-services/instances/encryption-upgrade.md
       - name: High availability and scalability
         href: ../analysis-services/instances/high-availability-and-scalability-in-analysis-services.md
       - name: Automate administrative tasks with SSIS
