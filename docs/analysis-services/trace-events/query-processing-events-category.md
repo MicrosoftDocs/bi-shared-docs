@@ -32,7 +32,7 @@ author: minewiskan
 |Execute MDX Script Current|79|Execute MDX script current.|  
 |Execute MDX Script End|80|Execute MDX script end.|  
 |Query Dimension|81|Query dimension.|  
-|VertiPaq SE Query Begin|82|VertiPaq SE query|  
-|VertiPaq SE Query End|83|VertiPaq SE query|  
+|VertiPaq SE Query Begin|82|Vertipaq storage engine query start time.|  
+|VertiPaq SE Query End|83|Vertipaq storage engine query end time.|  
   
  For information about the columns associated with each of the Query Processing event classes, see [Query Processing Events Data Columns](query-processing-events-data-columns.md).  
