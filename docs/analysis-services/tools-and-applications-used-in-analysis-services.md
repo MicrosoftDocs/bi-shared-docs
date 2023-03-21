@@ -13,7 +13,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](includes/appliesto-sqlas-all-aas-pbip.md)]
 
-  Find the tools and applications you'll need for building Analysis Services models and managing deployed databases.  
+  Find the tools and applications you need for building Analysis Services models and managing deployed databases.  
 
 ## Create and deploy models  
 
