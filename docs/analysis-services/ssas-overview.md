@@ -1,7 +1,7 @@
 ---
 title: SQL Server Analysis Services overview
 description: Describes SQL Server Analysis Services.
-ms.date: 12/14/2020
+ms.date: 03/21/2023
 ms.service: analysis-services
 ms.topic: overview
 ms.author: owend
@@ -13,9 +13,9 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 [!INCLUDE[appliesto-sqlas-all](includes/appliesto-sqlas-all.md)]
 
-Analysis Services is an analytical data engine (VertiPaq) used in decision support and business analytics. It provides enterprise-grade semantic data models for business reports and client applications such as Power BI, Excel, Reporting Services reports, and other data visualization tools. 
+Analysis Services is an analytical data engine (VertiPaq) used in decision support and business analytics. It provides enterprise-grade semantic data models for business reports and client applications such as Power BI, Excel, Reporting Services reports, and other data visualization tools.
 
-Installed as an on-premises server instance, SQL Server Analysis Services supports tabular models at all compatibility levels (depending on version), multidimensional models, data mining, and Power Pivot for SharePoint. 
+Installed as an on-premises or virtual machine server instance, SQL Server Analysis Services supports tabular models at all compatibility levels (depending on version), multidimensional models, data mining, and Power Pivot for SharePoint.
 
 ## SQL Server Analysis Services workflow
 
@@ -25,7 +25,7 @@ To create a model, use Visual Studio with Analysis Services projects extension, 
 
 Models are populated with data from external data systems, usually data warehouses hosted on a SQL Server or Oracle relational database engine (Tabular models support additional data source types). Models specify query objects, such as cubes, but also specify dimensions that can be used in multiple cubes, calculations and KPIs that encapsulate business logic, and interactions such as navigation and drill-through behaviors.
 
-To use a model, it's deployed to a server instance that runs databases in a particular server mode, making the data available to authorized users who connect through Excel or other applications. 
+To use a model, it's deployed to a server instance that runs databases in a particular server mode, making the data available to authorized users who connect through Excel or other applications.
 
 ## Documentation
 

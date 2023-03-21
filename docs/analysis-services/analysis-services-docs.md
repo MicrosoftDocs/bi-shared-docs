@@ -1,7 +1,7 @@
 ---
 title: Analysis Services documentation overview
 description: Describes Analysis Services documentation.
-ms.date: 01/19/2022
+ms.date: 03/21/2023
 ms.service: analysis-services
 ms.topic: overview
 ms.author: owend
@@ -13,13 +13,13 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](includes/appliesto-sqlas-all-aas-pbip.md)]
 
-If you're using Azure Analysis Services, SQL Server Analysis Services, or Power BI Premium datasets, this article can help you understand and find the documentation you are looking for. Be sure to take a few minutes to read this now. It could save you a lot of frustration down the road.
+If you're using Azure Analysis Services, SQL Server Analysis Services, or Power BI Premium, this article can help you understand and find the documentation you are looking for. Be sure to take a few minutes to read this now. It could save you a lot of frustration down the road.
 
 ## One engine - three platforms
 
 Analysis Services provides enterprise grade semantic modeling, governance, lifecycle, and data management on three different platforms: the cloud in **Azure**, on-premises with **SQL Server**, and under the hood the Analysis Services engine powers **Power BI Premium** workspaces and datasets. This presents a unique challenge where some Analysis Services documentation applies to only one platform, like Azure Analysis Services, or applies to all three platforms, including Power BI Premium. For example, how you provision an Analysis Services resource in Azure is quite different from how you create a server instance in SQL Server Analysis Services. On the other hand, how you use Visual Studio to create and deploy a tabular model project, or how SQL Server Profiler is used to capture data about process events in the Analysis Services engine are much the same, regardless of platform.
 
-All Analysis Services documentation is published to[Microsoft Learn](/). To reduce redundancy, where possible, articles that apply to more than one platform are included here in the *shared* Analysis Services documentation. Documentation specific to Azure Analysis Services or Power BI Premium are in other places.
+All Analysis Services documentation is published to [Microsoft Learn](/). To reduce redundancy, where possible, articles that apply to more than one platform are included here in the *shared* Analysis Services documentation. Documentation specific to Azure Analysis Services or Power BI Premium are in other places.
 
 ### Azure Analysis Services
 
