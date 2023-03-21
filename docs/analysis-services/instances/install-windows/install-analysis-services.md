@@ -1,7 +1,7 @@
 ---
 title: "Install SQL Server Analysis Services | Microsoft Docs"
 description: Learn how to use the SQL Server Installation Wizard to install SQL Server Analysis Services and the three modes determined during setup.
-ms.date: 09/06/2022
+ms.date: 03/21/2023
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
@@ -35,7 +35,7 @@ After you install the server in a particular mode, you can use it host solutions
      ![Setup page with Analysis Services config options](../../../analysis-services/instances/install-windows/media/install-analysis-services/ssas-install-asmode-config.png "Setup page with Analysis Services config options")  
   
   Tabular mode uses the VertiPaq in-memory analytics engine (VertiPaq), which is the default storage for tabular models. After you deploy tabular models to the server, you can selectively configure tabular solutions to use DirectQuery disk storage as an alternative to memory-bound storage.  
- 
+
 Multidimensional mode uses MOLAP as the default storage for models deployed to Analysis Services. After deploying to the server, you can configure a solution to use ROLAP if you want to run queries directly against the relational database rather than storing query data in an Analysis Services  multidimensional database .  
 
 Memory management and IO settings can be adjusted to get better performance when using non-default storage modes. See [Server properties in Analysis Services](../../../analysis-services/server-properties/server-properties-in-analysis-services.md) for more information.  
@@ -61,13 +61,7 @@ Setup.exe /q /IAcceptSQLServerLicenseTerms /ACTION=install /FEATURES=AS /ASSERVE
   
 ## Get tools and designers
 
- The Wizard no longer installs SQL Server Data Tools \(SSDT) used for designing models or SQL Server Management Studio \(SSMS) used for server administration. Designers and tools now have a separate installation, which you can get from the following links:  
-  
-- [Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
-  
-- [Download Analysis Services projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects)
-
-- [Download SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms)
+ The Wizard no longer installs SQL Server Data Tools \(SSDT) used for designing models or SQL Server Management Studio \(SSMS) used for server administration. Designers and tools now have a separate installation. To learn about and install both Microsoft and third party tools, see [Analysis Services tools](../../tools-and-applications-used-in-analysis-services.md).
   
  You'll need both Visual Studio with the Analysis Services projects extension and SSMS to create, deploy, and work with Analysis Services instances and databases. Tools can be installed anywhere, but be sure to configure ports on the server before attempting a connection. See [Configure the Windows Firewall to Allow Analysis Services Access](../../../analysis-services/instances/configure-the-windows-firewall-to-allow-analysis-services-access.md) for details.  
 
