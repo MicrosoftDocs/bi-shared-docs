@@ -19,13 +19,13 @@ Installed as an on-premises or virtual machine server instance, SQL Server Analy
 
 ## SQL Server Analysis Services workflow
 
-A typical implementation workflow includes installing a SQL Server Analysis Services instance, creating a tabular or multidimensional data model, deploying the model as a database to a server instance, processing the database to load it with data, and then assigning permissions to allow data access. When ready to go, the data model can be accessed by any client application supporting Analysis Services as a data source.
+A common workflow includes installing a SQL Server Analysis Services instance, creating a tabular or multidimensional data model, deploying the model as a database to a server instance, processing the database to load it with data, and then assigning permissions to allow data access. When ready to go, the data model is accessed by any client application supporting Analysis Services as a data source.
 
 To create a model, use Visual Studio with Analysis Services projects extension, also known as SQL Server Data Tools or simply SSDT, choosing either a Tabular or Multidimensional project template. The project template contains folders for all of the objects needed in a model. You can use wizards to create all of the basic elements, such as data sources, data source views, dimensions, cubes, and roles. Visual Studio and DevOps supports efficient CI/CD pipelines.
 
-Models are populated with data from external data systems, usually data warehouses hosted on a SQL Server or Oracle relational database engine (Tabular models support additional data source types). Models specify query objects, such as cubes, but also specify dimensions that can be used in multiple cubes, calculations and KPIs that encapsulate business logic, and interactions such as navigation and drill-through behaviors.
+Models are populated with data from other data systems, usually data warehouses hosted on a SQL Server or Oracle relational database engine (Tabular models support more data source types). Models specify query objects, calculations, and KPIs that encapsulate business logic.
 
-To use a model, it's deployed to a server instance that runs databases in a particular server mode, making the data available to authorized users who connect through Excel or other applications.
+To use a model, deploy it  to a server instance and make it available to authorized users who connect through Excel or other applications.
 
 ## Documentation
 
@@ -33,7 +33,7 @@ Analysis Services documentation is located in different areas in Microsoft Learn
 
 ![version selector](media/ssas-overview/version-selector-ssas.png)
 
-Documentation you see in the ToC to the left is known as the core Analysis Services documentation. Core documentation can apply to just one platform, like SQL Server Analysis Services, or to all Analysis Services platforms including Azure Analysis Services and Analysis Services in Power BI. This is because how you create and deploy a tabular model, or manage certain server properties or databases is much the same, regardless of platform.
+Documentation you see in the ToC to the left is known as the core Analysis Services documentation. Core documentation can apply to just one platform, like SQL Server Analysis Services, or to all Analysis Services platforms including Azure Analysis Services and Analysis Services in Power BI. This is because how you create and deploy a tabular model, or manage certain server properties or databases is much the same regardless of platform.
 
 In the core documentation, at the top of each article an **APPLIES TO** banner indicates the platforms and versions the article applies to. Keep in mind, feature and functionality changes are happening to each platform all the time. When they do, we make every effort to update the documentation.
 
