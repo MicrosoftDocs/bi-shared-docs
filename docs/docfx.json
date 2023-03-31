@@ -67,7 +67,9 @@
       "docs/analysis-services/assl/**.md": false,
       "docs/analysis-services/csdlbi/**.md": false,
       "docs/analysis-services/trace-events/**.md": false,
-      "docs/analysis-services/xmla/**.md": false
+      "docs/analysis-services/xmla/**.md": false,
+      "docs/analysis-services/tmsl/**.md": false,
+      "docs/analysis-services/tmdl/**.md": false
     },
 
     "fileMetadata": {
@@ -79,6 +81,7 @@
         "analysis-services/tabular-model-programming-compatibility-levels-1200/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
         "analysis-services/tom/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
         "analysis-services/tmsl/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
+        "analysis-services/tmdl/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
         "analysis-services/trace-events/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
         "analysis-services/adomd/**/*.md": "asallproducts-allversions || >= sql-analysis-services-2016",
         "analysis-services/xmla/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016",
