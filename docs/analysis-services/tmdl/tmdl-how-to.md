@@ -17,7 +17,7 @@ author: minewiskan
 > [!IMPORTANT]
 > Tabular Model Definition Language (TMDL) is currently in preview. When in preview, functionality and documentation are likely to change.
 
-Before completing this article, be sure to thoroughly understand TMDL concepts described in [Tabular Model Definition Language (TMDL) overview](tmdl-overview.md).
+Before getting started this article, be sure to thoroughly understand TMDL concepts described in [Tabular Model Definition Language (TMDL) overview](tmdl-overview.md).
 
 The easiest way to explore the Tabular Model Definition Language (TMDL) is to reference the preview Nuget package and use the API methods to serialize and deserialize to and from TMDL.
 
@@ -70,7 +70,7 @@ table Sales
     measure 'Sales Amount' = SUMX('Sales', [Quantity] * [Net Price])
         formatString:= $ #,##0
 
-    measure 'Sales Amount (Computers)' = CALCULATE([Sales Amount], ‘Product’[Category] = "Computers")
+    measure 'Sales Amount (Computers)' = CALCULATE([Sales Amount], 'Product'[Category] = "Computers")
         formatString:= $ #,##0
 
 ```

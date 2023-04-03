@@ -35,20 +35,20 @@ model Model
     ID: Sales
 
 table Sales
-partition ‘Sales-Partition’ = M
+partition 'Sales-Partition' = M
         mode: Import
         expression:= 
             let
                 Source = Sql.Database(Server, Database)
                 …
-measure ‘Sales Amount’ = SUMX('Sales', 'Sales'[Quantity] * 'Sales'[Net Price])
+measure 'Sales Amount' = SUMX('Sales', 'Sales'[Quantity] * 'Sales'[Net Price])
         formatString:= $ #,##0
 column Quantity
         dataType: Int64
         isHidden
         sourceColumn: Quantity
         summarizeBy: None
-column ‘Net Price’
+column 'Net Price'
         dataType: Int64
         isHidden
         sourceColumn: "Net Price"
@@ -204,7 +204,7 @@ partition 'Sales-Partition' = M
 
 ### Partial  declaration
 
-TMDL doesn’t force object declaration in the same document. It is, however, similar to [C# partial classes](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods) where it's possible split the object definition between multiple files. For example, it’s possible to declare a table definition in a [table].tmd file and then have all the measures from all tables defined in a single [measures].tmd file, like shown here:
+TMDL doesn't force object declaration in the same document. It is, however, similar to [C# partial classes](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods) where it's possible split the object definition between multiple files. For example, it's possible to declare a table definition in a [table].tmd file and then have all the measures from all tables defined in a single [measures].tmd file, like shown here:
 
 ```tmdl
 table Table1
@@ -360,7 +360,7 @@ table Table1
 
 The following special rules apply to expressions:
 
-- All outer indentation whitespace are stripped beyond the indented level of the parent object. Relative indentation within the expression is retained. The end delimiter (**```**) determines the expression left boundary (see ‘Measure 2’ in the previous example).
+- All outer indentation whitespace are stripped beyond the indented level of the parent object. Relative indentation within the expression is retained. The end delimiter (**```**) determines the expression left boundary (see 'Measure 2' in the previous example).
 - New lines and indentation are preserved, making it easy to copy and paste DAX and M expressions into TMDL.
 
 The following properties are treated as expressions and should be delimited with a colon and equals sign  (**:=**):
@@ -425,7 +425,7 @@ table Sales
 
 ```
 
-Child objects don’t have to be contiguous. You can declare columns and measures in any order.
+Child objects don't have to be contiguous. You can declare columns and measures in any order.
 
 ## Considerations and limitations
 
