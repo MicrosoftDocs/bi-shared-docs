@@ -19,20 +19,14 @@ author: minewiskan
 
 Tabular Model Definition Language (TMDL) is an object model definition syntax for tabular data models at compatibility level 1200 or higher.
 
-Key elements of TMDL:
+Key elements of TMDL include:
 
-- Full compatibility with entire Tabular Object Model (TOM).
-- Text-based and optimized for human interaction and readability, borrow grammar syntax from YAML. Each TMDL object is represented in text, with minimal delimiters, and uses indentation to demark its parent-child relationship.
-- Better edit experience, especially on properties with embed expressions from different content-types like DAX/M scripts.
-- Better for collaboration due to its folder representation where each model object has an individual file representation.
+- Full compatibility with the entire [Tabular Object Model (TOM)](../tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md).
+- Text-based and optimized for human interaction and readability. It uses the same grammar syntax as YAML. Each TMDL object is represented in text with minimal delimiters and uses indentation to demark its parent-child relationship.
+- Better editing experience, especially on properties with embed expressions from different content-types, like DAX/M scripts.
+- Better for collaboration because of its folder representation where each model object has an individual file representation, making it more source control friendly.
 
-The goal of TMDL is to provide a more readable, editable, and collaborative experience than Tabular Model Scripting Language (TMSL). Let's compare the two.
-
-|TMDL  |TMSL  |
-|---------|---------|
-|Human Readable. </br>Better editing experience using text editors: no escaping, native inline language (DAX, M). </br>OOB folder layout. </br>Source control friendly.    |   Programmatic editing with any JSON Parser on any platform. No need for external API. </br>Easy syntax IntelliSense. Highlight and validation on any IDE with JSON schema. </br>No need to worry about finding white spaces and indentation.|
-
-An important aspect of TMDL is use of whitespace indentation to denote a TOM object structure. As you see in the following example, it's to represent a tabular data model with TMDL.
+A particularly important aspect of TMDL is use of whitespace indentation to denote a TOM object structure. The following example shows how easy it is to represent a tabular model when using TMDL:
 
 ```tmdl
 model Model
@@ -57,11 +51,11 @@ column Quantity
 column ‘Net Price’
         dataType: Int64
         isHidden
-        sourceColumn: “Net Price”
+        sourceColumn: "Net Price"
         summarizeBy: None
 
 table Product
-partition ‘Product-Partition’ = M
+partition 'Product-Partition' = M
         mode: Import
         expression:= 
             let
@@ -73,7 +67,7 @@ column ProductKey
         sourceColumn: ProductKey
         summarizeBy: None
 
-relationship ‘cdb6e6a9-c9d1-42b9-b9e0-484a1bc7e123’
+relationship 'cdb6e6a9-c9d1-42b9-b9e0-484a1bc7e123'
     fromColumn: Sales.ProductKey
     toColumn: Product.ProductKey
 
@@ -91,7 +85,7 @@ expression Database = "Contoso" meta [IsParameterQuery=true, Type="Text", IsPara
 
 ## TMDL API
 
-Similar to TMSL, there's a class to handle TMDL Serialization. For TMDL, the class is  **TmdlSerializer** and it's under the Microsoft.AnalysisServices.Tabular namespace.
+Similar to TMSL, there's a class to handle TMDL Serialization. For TMDL, the class is  **TmdlSerializer**, under the Microsoft.AnalysisServices.Tabular namespace.
 
 The TmdlSerializer class exposes two public methods:
 
@@ -104,6 +98,41 @@ The TmdlSerializer class exposes two public methods:
 
 - Receives a TOM model object and the TMDL output path.
 - Serializes the TOM model into a TMDL folder representation.
+
+#### Handling errors in the TMDL API
+
+When an error is detected in TMDL serialization methods, besides throwing a few common .NET exceptions like `ArgumentException` and `InvalidOperationException`, TMDL can also return TMDL-specific exceptions.
+
+TmdlFormatException is returned during TMDL folder deserialization. In addition to exception details, the following is included:
+
+- Path
+        - Path to the TMDL file with errors
+- LineNumber
+        - Line number with errors
+- LineText
+        - Line text with errors
+
+Code example handling `TmdlFormatException`.
+
+```csharp
+try
+        {
+            var tmdlPath = "<TMDL Folder Path>";
+
+            var model = TmdlSerializer.DeserializeModel(tmdlPath);
+        }
+        catch (TmdlFormatException ex)
+        {
+            var errorMsg = ex.Message;
+            var path = ex.Path;
+            var line = ex.LineNumber;
+            var lineText = ex.LineText;
+
+            Console.WriteLine($"Error on Deserializing TMDL '{errorMsg}', path: '{path}'  line: '{line}', line text: '{lineText}'");
+            throw;
+        }    
+
+```
 
 ## TMDL folder structure
 
@@ -130,9 +159,9 @@ Definitions include:
 - One file for all relationships in the model 
 - One file for each culture linguistic schema 
 - One file for each translation (in CSV format) along side culture linguistic schema
-- One file for each perspective 
-- One file for each role 
-- One file for each table 
+- One file for each perspective
+- One file for each role
+- One file for each table
 - All inner metadata properties of tables (Column, Hierarchies, Partitions,…)  metadata lives in the parent table TMD file
 
 ## TMDL language
@@ -153,7 +182,7 @@ model Model
 
 table Sales
 
-partition ‘Sales-Partition’ = M
+partition 'Sales-Partition' = M
         expression:= 
             let
               Source = Sql.Database(Server, Database)
@@ -166,16 +195,16 @@ partition ‘Sales-Partition’ = M
 
     column Customer_Key
         datatype: Int64
-        sourceColumn: “CustomerKey”
-    column ‘Order Date’
+        sourceColumn: "CustomerKey"
+    column 'Order Date'
         dataType: DateTime
-        sourceColumn: “OrderDate”
+        sourceColumn: "OrderDate"
 
 ```
 
 ### Partial  declaration
 
-TMDL doesn’t force object declaration in the same document. It is, however, similar to [C# partial classes](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods) where it's possible split the object definition between multiple files. For example, it’s possible to declare a table definition in a [table].tmd file and then have all the measures from all tables defined in a single [measures].tmd file.
+TMDL doesn’t force object declaration in the same document. It is, however, similar to [C# partial classes](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods) where it's possible split the object definition between multiple files. For example, it’s possible to declare a table definition in a [table].tmd file and then have all the measures from all tables defined in a single [measures].tmd file, like shown here:
 
 ```tmdl
 table Table1
@@ -200,7 +229,7 @@ Within a TMDL document, there are situations where you need to reference an obje
 - 'partition sales – 2023'
 - 'partition "sales – 2023"' (In TOM, this reference would be "partition 'sales – 2023'")
 
-If needed to reference a fully qualified name, TMDL uses dot notation to reference an object from another object, as shown in the following example.
+If needed to reference a fully qualified name, TMDL uses dot notation to reference an object from another object, as shown in the following example:
 
 ```tmdl
 perspective Perspective1
@@ -215,6 +244,26 @@ perspective Perspective1
             column: 'Table1'.'Col 2'
 ```
 
+### Descriptions
+
+TMDL syntax supports descriptions. For model documentation purposes, it's considered a best practice to provide descriptions for each TOM object. TMDL treats descriptions as a special property with explicit syntax support. Following the examples from many other languages, descriptions are provided on top of each object declaration using triple-slash  (**///**) syntax.
+
+No whitespace is allowed between the description block end and the object type token.
+
+Descriptions can be split across multiple lines. The TMDL serializer breaks object descriptions into multiple lines in-order to keep emitted document lines within a certain maximum length. The default is 80 characters.
+
+```tmdl
+/// Table Description
+table Table1
+    prop1: value
+        
+    /// This is the Measure Description
+    /// One more line
+    measure Measure1 = SUM(...)
+        formatString:= #,##0
+
+```
+
 ### Default properties
 
 In addition to special treatment of name and description, some object types have a default property that most of the time are treated like expressions during TMDL parsing. The default property is object type specific and where applicable the property value is provided following the equals (**=**) delimiter, after the section declaration.
@@ -224,7 +273,7 @@ Two possible syntaxes are supported:
 - The value is specified on the same line as the section header.
 - The value is specified  as a multi-line block following the section header. Outer left indentation of the expression isn't considered.
 
-In the following example, Measure1 is single line and Measure2 is a multi-line block.
+In the following example, Measure1 is single line and Measure2 is a multi-line block:
 
 ```tmdl
 table Table1
@@ -278,7 +327,7 @@ Default property and expression language by object type include the following:
 
 Despite being a string scalar in TOM, in TMDL, certain object properties get a special parsing. The entire text is read verbatim because it can include special characters like quotes or square brackets in M or DAX expressions.
 
-An expression value in TMDL is provided following a colon and equals delimiter (**:=**) enclosed with the three backticks (**```**), like in the following example.
+An expression value in TMDL is provided following a colon and equals delimiter (**:=**) enclosed with the three backticks (**```**), like in the following example:
 
 ```tmdl
 table Table1
@@ -314,7 +363,7 @@ The following special rules apply to expressions:
 - All outer indentation whitespace are stripped beyond the indented level of the parent object. Relative indentation within the expression is retained. The end delimiter (**```**) determines the expression left boundary (see ‘Measure 2’ in the previous example).
 - New lines and indentation are preserved, making it easy to copy and paste DAX and M expressions into TMDL.
 
-The following properties are always treated as expressions and should be delimited with a colon and equals sign  (**:=**).
+The following properties are treated as expressions and should be delimited with a colon and equals sign  (**:=**):
 
 |Object Type |Property  |Expression language  |
 |---------|---------|---------|
@@ -332,7 +381,7 @@ The following properties are always treated as expressions and should be delimit
 
 ### Multi-line / Block
 
-TMDL supports multi-line blocks of embedded expressions as property values. Blocks are delimited by using three backtick (**```**) notation. The delimiter should be applied immediately following the colon and equal sign (**:=**) and after the line following the expression, like in the following example.
+TMDL supports multi-line blocks of embedded expressions as property values. Blocks are delimited by using three backtick (**```**) notation. The delimiter should be applied immediately following the colon and equal sign (**:=**) and after the line following the expression, like in the following example:
 
 ```tmdl
 table Table1
@@ -354,26 +403,6 @@ table Table1
 
 Everything between three backticks (**```**) is considered part of the multi-block expression and TMDL indentation rules aren't applied. The end delimiter determines the indentation within the expression.
 
-### Descriptions
-
-TMDL syntax supports descriptions. For model documentation purposes, it's considered a best practice to provide descriptions for each TOM object. TMDL treats descriptions as a special property with explicit syntax support. Following the examples from many other languages, descriptions are provided on top of each object declaration using triple-slash  (**///**) syntax.
-
-No whitespace is allowed between the description block end and the object type token.
-
-Descriptions can be split across multiple lines. The TMDL serializer breaks object descriptions into multiple lines in-order to keep emitted document lines within a certain maximum length. The default is 80 characters.
-
-```tmdl
-/// Table Description
-table Table1
-    prop1: value
-        
-    /// This is the Measure Description
-    /// One more line
-    measure Measure1 = SUM(...)
-        formatString:= #,##0
-
-```
-
 ### Child objects
 
 The TOM object tree contains child objects in many places and at different levels. For example:
@@ -381,9 +410,20 @@ The TOM object tree contains child objects in many places and at different level
 - A model object contains table, role, and expression objects.
 - A table object contains column, measure, and hierarchy objects.
 
-TMDL doesn't declare child collections explicitly. Instead, all applicable child elements within the scope of their respective parent implicitly make up the elements of the corresponding collection. For example, all column elements within the scope of a particular table become elements of the columns collection of that table in TOM.  
+TMDL doesn't declare child collections explicitly. Instead, all applicable child elements within the scope of their respective parent implicitly make up the elements of the corresponding collection. For example, all column elements within the scope of a particular table become elements of the columns collection of that table in TOM, like shown here:  
 
-:::image type="content" source="media/child-elements.png" alt-text="Child elements":::
+```tmdl
+table Sales
+
+    measure 'Sales Amount' = SUMX('Sales', [Quantity] * [Net Price])
+
+    measure 'Total Quantity' = SUM('Sales'[Quantity])
+
+    measure 'Sales Amount YTD' = TOTALYTD([Sales Amount], 'Calendar'[Date])
+
+    measure 'Sales Amount (ly)' = CALCULATE([Sales Amount], SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+```
 
 Child objects don’t have to be contiguous. You can declare columns and measures in any order.
 

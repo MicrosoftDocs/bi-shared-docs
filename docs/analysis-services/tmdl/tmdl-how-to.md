@@ -27,7 +27,7 @@ The easiest way to explore the Tabular Model Definition Language (TMDL) is to re
 
 The following code example shows how to get a TMDL model representation of a dataset in a Power BI Premium workspace.
 
-```tmdl
+```c#
 var workspaceXmla = " <Workspace XMLA address>";
 var datasetName = "<dataset name>";
 var outputPath = System.Environment.CurrentDirectory;
@@ -52,13 +52,34 @@ The output is a folder with a TMDL representation of the dataset.
 
 After serialization into a folder, you can use a text-editor to edit the TMDL files. For example, using VS Code we can add a new measure, **[Sales Amount (Computers)]**:
 
-:::image type="content" source="media/sales-amount-computer-measure.png" alt-text="Sales amount computer measure in VS Code":::
+```tmdl
+/// Sales data for year over year analysis
+table Sales
+    lineageTag: bb123cb2-11dc-4309-9793-d5e84bb2442c
+    ordinal: 6
+
+    partition 'Sales-3cf1ff71-eddc-4dfd-8fae-62e8f227e647' = M
+        mode: Import
+        attributes: ""
+        expression:=
+            let
+                …
+            in
+                #"Filtered Rows1"
+
+    measure 'Sales Amount' = SUMX('Sales', [Quantity] * [Net Price])
+        formatString:= $ #,##0
+
+    measure 'Sales Amount (Computers)' = CALCULATE([Sales Amount], ‘Product’[Category] = "Computers")
+        formatString:= $ #,##0
+
+```
 
 ## Deploy a TMDL model representation
 
 The following code sample shows how to deploy a TMDL model representation of the dataset to a Power BI Premium workspace.
 
-```tmdl
+```c#
 var xmlaServer = "<Workspace XMLA address>";
 
 var tmdlFolderPath = $"{System.Environment.CurrentDirectory}\\Contoso-tmdl";
