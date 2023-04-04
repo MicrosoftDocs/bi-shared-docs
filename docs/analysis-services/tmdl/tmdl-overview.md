@@ -105,14 +105,14 @@ When an error is detected in TMDL serialization methods, besides throwing a few 
 
 `TmdlFormatException` is returned during TMDL folder deserialization. In addition to exception details, the following is included:
 
-- Path
-        - Path to the TMDL file with errors
-- LineNumber
-        - Line number with errors
-- LineText
-        - Line text with errors
+- `Path`
+        - to the TMDL file with errors.
+- `LineNumber`
+        - with errors.
+- `LineText`
+        - with errors.
 
-Code example handling `TmdlFormatException`.
+Code example handling `TmdlFormatException`:
 
 ```csharp
 try
@@ -155,14 +155,14 @@ Here's an example of a TMDL folder:
 
 Definitions include:
 
-- One file for model definition
-- One file for all relationships in the model 
-- One file for each culture linguistic schema 
-- One file for each translation (in CSV format) along side culture linguistic schema
-- One file for each perspective
-- One file for each role
-- One file for each table
-- All inner metadata properties of tables (Column, Hierarchies, Partitions,…)  metadata lives in the parent table TMD file
+- One file for model definition.
+- One file for all relationships in the model.
+- One file for each culture linguistic schema.
+- One file for each translation (in CSV format) along side culture linguistic schema.
+- One file for each perspective.
+- One file for each role.
+- One file for each table.
+- All inner metadata properties of tables (Column, Hierarchies, Partitions,…)  metadata lives in the parent table TMD file.
 
 ## TMDL language
 
@@ -172,7 +172,7 @@ Except for Server and Database objects, TMDL exposes the entire TOM *Model* obje
 
 :::image type="content" source="media/object-classes-diagram.png" alt-text="Object classes diagram":::
 
-A TMDL object is declared by specifying the TOM object type followed by its name. In the following code example, you see each object type: model, table, partition, measure, column, and another column are followed by an object name. While database isn't a valid TMDL object, compatibilityLevel, culture, and ID properties from the database object are exposed in the TMDL model object.
+A TMDL object is declared by specifying the TOM object type followed by its name. In the following code example, you see each object type: `model`, `table`, `partition`, `measure`, `column`, and another column are followed by an object name. While `database` isn't a valid TMDL object, `compatibilityLevel`, `culture`, and `ID` properties from the database object are exposed in the TMDL model object.
 
 ```tmdl
 model Model
@@ -225,9 +225,9 @@ To avoid a parsing error, the same property can't be declared twice. For example
 
 Within a TMDL document, there are situations where you need to reference an object from another object, like with partitions. An object reference should be by name. If the name includes a non-alphanumeric or an underscore character, it should be enclosed in quotes. For example:
 
-- Partition_sales_2023
-- 'partition sales – 2023'
-- 'partition "sales – 2023"' (In TOM, this reference would be "partition 'sales – 2023'")
+- `Partition_sales_2023`
+- `'partition sales – 2023'`
+- `'partition "sales – 2023"'` (In TOM, this reference would be `"partition 'sales – 2023'"`)
 
 If needed to reference a fully qualified name, TMDL uses *dot* notation to reference an object from another object, as shown here:
 
@@ -273,7 +273,7 @@ Two possible syntaxes are supported:
 - The value is specified on the same line as the section header.
 - The value is specified  as a multi-line block following the section header. Outer left indentation of the expression isn't considered.
 
-In the following example, Measure1 is single line and Measure2 is a multi-line block:
+In the following example, `Measure1` is single line and `Measure2` is a multi-line block:
 
 ```tmdl
 table Table1
