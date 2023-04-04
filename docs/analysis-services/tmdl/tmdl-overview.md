@@ -22,11 +22,11 @@ Tabular Model Definition Language (TMDL) is an object model definition syntax fo
 Key elements of TMDL include:
 
 - Full compatibility with the entire [Tabular Object Model (TOM)](../tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md).
-- Text-based and optimized for human interaction and readability. It uses the same grammar syntax as YAML. Each TMDL object is represented in text with minimal delimiters and uses indentation to demark its parent-child relationship.
-- Better editing experience, especially on properties with embed expressions from different content-types, like DAX/M scripts.
+- Text-based and optimized for human interaction and readability. It uses the same grammar syntax as YAML. Each TMDL object is represented in text with minimal delimiters and uses indentation to demark parent-child relationships.
+- Better editing experience, especially on properties with embed expressions from different content-types, like Data Analysis Expression (DAX) and M.
 - Better for collaboration because of its folder representation where each model object has an individual file representation, making it more source control friendly.
 
-A particularly important aspect of TMDL is use of whitespace indentation to denote a TOM object structure. The following example shows how easy it is to represent a tabular model when using TMDL:
+An important aspect of TMDL is use of whitespace indentation to denote a TOM object structure. The following example shows how easy it is to represent a tabular model when using TMDL:
 
 ```tmdl
 model Model
@@ -85,7 +85,7 @@ expression Database = "Contoso" meta [IsParameterQuery=true, Type="Text", IsPara
 
 ## TMDL API
 
-Similar to TMSL, there's a class to handle TMDL Serialization. For TMDL, the class is  **TmdlSerializer**, under the Microsoft.AnalysisServices.Tabular namespace.
+Similar to [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scripting-language-tmsl-reference.md), there's a class to handle TMDL Serialization. For TMDL, the class is  **TmdlSerializer**, under the **Microsoft.AnalysisServices.Tabular** namespace.
 
 The TmdlSerializer class exposes two public methods:
 
@@ -101,9 +101,9 @@ The TmdlSerializer class exposes two public methods:
 
 #### Handling errors in the TMDL API
 
-When an error is detected in TMDL serialization methods, besides throwing a few common .NET exceptions like `ArgumentException` and `InvalidOperationException`, TMDL can also return TMDL-specific exceptions.
+When an error is detected in TMDL serialization methods, besides throwing a few common .NET exceptions like `ArgumentException` and `InvalidOperationException`, TMDL-specific exceptions are also returned.
 
-TmdlFormatException is returned during TMDL folder deserialization. In addition to exception details, the following is included:
+`TmdlFormatException` is returned during TMDL folder deserialization. In addition to exception details, the following is included:
 
 - Path
         - Path to the TMDL file with errors
@@ -149,7 +149,7 @@ And *root files* for:
 - model
 - relationships
 
-Here's an example of a TMDL folder.
+Here's an example of a TMDL folder:
 
 :::image type="content" source="media/folder-tmdl-dataset.png" alt-text="Folder with a TMDL representation of a dataset":::
 
@@ -223,13 +223,13 @@ To avoid a parsing error, the same property can't be declared twice. For example
 
 ### Object reference
 
-Within a TMDL document, there are situations where you need to reference an object from another object, like in partitions. An object reference should be by name. If the name includes a non-alphanumeric or an underscore character, it should be enclosed in quotes. For example:
+Within a TMDL document, there are situations where you need to reference an object from another object, like with partitions. An object reference should be by name. If the name includes a non-alphanumeric or an underscore character, it should be enclosed in quotes. For example:
 
 - Partition_sales_2023
 - 'partition sales – 2023'
 - 'partition "sales – 2023"' (In TOM, this reference would be "partition 'sales – 2023'")
 
-If needed to reference a fully qualified name, TMDL uses dot notation to reference an object from another object, as shown in the following example:
+If needed to reference a fully qualified name, TMDL uses *dot* notation to reference an object from another object, as shown here:
 
 ```tmdl
 perspective Perspective1

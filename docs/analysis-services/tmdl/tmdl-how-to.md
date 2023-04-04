@@ -17,15 +17,15 @@ author: minewiskan
 > [!IMPORTANT]
 > Tabular Model Definition Language (TMDL) is currently in preview. When in preview, functionality and documentation are likely to change.
 
-Before getting started this article, be sure to thoroughly understand TMDL concepts described in [Tabular Model Definition Language (TMDL) overview](tmdl-overview.md).
+Before getting started with this article, be sure to thoroughly understand concepts described in [Tabular Model Definition Language (TMDL) overview](tmdl-overview.md).
 
-The easiest way to explore the Tabular Model Definition Language (TMDL) is to reference the preview Nuget package and use the API methods to serialize and deserialize to and from TMDL.
+The easiest way to explore TMDL is to reference the preview Nuget package and use the API methods to serialize and deserialize to and from TMDL.
 
 [Get the preview Nuget package](need url)
 
 ## Get a TMDL model representation
 
-The following code example shows how to get a TMDL model representation of a dataset in a Power BI Premium workspace.
+The following code example shows how to get a TMDL model representation of a dataset in a Power BI Premium workspace:
 
 ```c#
 var workspaceXmla = " <Workspace XMLA address>";
@@ -46,11 +46,11 @@ using (var server = new Server())
 
 ```
 
-The output is a folder with a TMDL representation of the dataset.
+The output is a folder with a TMDL representation of the dataset, like this:
 
 :::image type="content" source="media/folder-tmdl-dataset.png" alt-text="Folder with a TMDL representation of a dataset":::
 
-After serialization into a folder, you can use a text-editor to edit the TMDL files. For example, using VS Code we can add a new measure, **[Sales Amount (Computers)]**:
+After serialization into a folder, use a text-editor to edit the TMDL files. For example, by using VS Code we can add a new measure, **[Sales Amount (Computers)]**:
 
 ```tmdl
 /// Sales data for year over year analysis
@@ -77,7 +77,7 @@ table Sales
 
 ## Deploy a TMDL model representation
 
-The following code sample shows how to deploy a TMDL model representation of the dataset to a Power BI Premium workspace.
+The following code example shows how to deploy a TMDL model representation of the dataset to a Power BI Premium workspace:
 
 ```c#
 var xmlaServer = "<Workspace XMLA address>";
