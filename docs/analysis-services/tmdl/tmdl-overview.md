@@ -35,33 +35,36 @@ model Model
     ID: Sales
 
 table Sales
-partition 'Sales-Partition' = M
+    
+    partition 'Sales-Partition' = M
         mode: Import
         expression:= 
             let
                 Source = Sql.Database(Server, Database)
                 …
-measure 'Sales Amount' = SUMX('Sales', 'Sales'[Quantity] * 'Sales'[Net Price])
+    measure 'Sales Amount' = SUMX('Sales', 'Sales'[Quantity] * 'Sales'[Net Price])
         formatString:= $ #,##0
-column Quantity
+    
+    column Quantity
         dataType: Int64
         isHidden
         sourceColumn: Quantity
         summarizeBy: None
-column 'Net Price'
+    column 'Net Price'
         dataType: Int64
         isHidden
         sourceColumn: "Net Price"
         summarizeBy: None
 
 table Product
-partition 'Product-Partition' = M
+    
+    partition 'Product-Partition' = M
         mode: Import
         expression:= 
             let
                 Source = Sql.Database(Server, Database),
                 …
-column ProductKey
+    column ProductKey
         dataType: Int64
         isKey
         sourceColumn: ProductKey
@@ -116,21 +119,21 @@ Code example handling `TmdlFormatException`:
 
 ```csharp
 try
-        {
-            var tmdlPath = "<TMDL Folder Path>";
+    {
+        var tmdlPath = "<TMDL Folder Path>";
 
-            var model = TmdlSerializer.DeserializeModel(tmdlPath);
-        }
-        catch (TmdlFormatException ex)
-        {
-            var errorMsg = ex.Message;
-            var path = ex.Path;
-            var line = ex.LineNumber;
-            var lineText = ex.LineText;
+        var model = TmdlSerializer.DeserializeModel(tmdlPath);
+    }
+    catch (TmdlFormatException ex)
+    {
+        var errorMsg = ex.Message;
+        var path = ex.Path;
+        var line = ex.LineNumber;
+        var lineText = ex.LineText;
 
-            Console.WriteLine($"Error on Deserializing TMDL '{errorMsg}', path: '{path}'  line: '{line}', line text: '{lineText}'");
-            throw;
-        }    
+        Console.WriteLine($"Error on Deserializing TMDL '{errorMsg}', path: '{path}'  line: '{line}', line text: '{lineText}'");
+        throw;
+    }    
 
 ```
 
@@ -182,7 +185,7 @@ model Model
 
 table Sales
 
-partition 'Sales-Partition' = M
+    partition 'Sales-Partition' = M
         expression:= 
             let
               Source = Sql.Database(Server, Database)
@@ -209,12 +212,12 @@ TMDL doesn't force object declaration in the same document. It is, however, simi
 ```tmdl
 table Table1
 
-measure Measure1 = SUM(…)
+    measure Measure1 = SUM(…)
         formatString:= $ #,##0
 
 table Table2
 
-measure Measure1 = SUM(…)
+    measure Measure1 = SUM(…)
         formatString:= $ #,##0
 
 ```

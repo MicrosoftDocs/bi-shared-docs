@@ -40,7 +40,7 @@ using (var server = new Server())
 
     var destinationFolder = $"{outputPath}\\{database.Name}-tmdl";
 
-    TmdlSerializer.SerializeModel(database.Model, older);
+    TmdlSerializer.SerializeModel(database.Model, destinationFolder);
 
 }
 
