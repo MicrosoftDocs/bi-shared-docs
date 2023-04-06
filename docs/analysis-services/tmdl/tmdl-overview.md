@@ -379,7 +379,7 @@ The following properties are treated as expressions and should be delimited with
 
 ### Multi-line / Block
 
-TMDL supports multi-line blocks of embedded expressions as property values. Blocks are delimited by using three backtick (**```**) notation. The delimiter should be applied immediately following the colon and equal sign (**:=**) and after the line following the expression, like in the following example:
+TMDL supports multi-line blocks of embedded expressions as property values. Blocks are delimited by using three backtick (**```**) notation. The delimiter should be applied immediately following the equal sign (**=**) and the line following the expression, like in the following example:
 
 ```tmdl
 table Table1
@@ -390,7 +390,7 @@ table Table1
             prop2: value
 
     partition 'partition 1' = M
-        expression:= ```
+        expression = ```
             let
             ...
             in
