@@ -212,12 +212,12 @@ TMDL doesn't force object declaration in the same document. It is, however, simi
 ```tmdl
 table Table1
 
-    measure Measure1 = SUM(…)
+    measure Measure1Table1 = SUM(…)
         formatString:= $ #,##0
 
 table Table2
 
-    measure Measure1 = SUM(…)
+    measure Measure1Table2 = SUM(…)
         formatString:= $ #,##0
 
 ```
@@ -226,11 +226,11 @@ To avoid a parsing error, the same property can't be declared twice. For example
 
 ### Object reference
 
-Within a TMDL document, there are situations where you need to reference an object from another object, like with partitions. An object reference should be by name. If the name includes a non-alphanumeric or an underscore character, it should be enclosed in quotes. For example:
+Within a TMDL document, there are situations where you need to reference an object from another object, like with partitions. An object reference should be by name. If the name includes an alphanumeric or underscore character, it should be enclosed in quotes. For example:
 
 - `Partition_sales_2023`
 - `'partition sales – 2023'`
-- `'partition "sales – 2023"'` (In TOM, this reference would be `"partition 'sales – 2023'"`)
+- ``partition "sales – 2023"'` (In TOM, this reference would be `"partition 'sales – 2023'"`)
 
 If needed to reference a fully qualified name, TMDL uses *dot* notation to reference an object from another object, as shown here:
 
@@ -269,18 +269,18 @@ table Table1
 
 ### Default properties
 
-In addition to special treatment of name and description, some object types have a default property that most of the time are treated like expressions during TMDL parsing. The default property is object type specific and where applicable the property value is provided following the equals (**=**) delimiter, after the section declaration.
+In addition to special treatment of name and description, some object types have a default property that most of the time are treated like expressions during TMDL parsing. The default property is object type specific. Where applicable, the property value or expression is provided following the equals (**=**) delimiter - after the section declaration.
 
-Two possible syntaxes are supported:
+Supported syntax:
 
 - The value is specified on the same line as the section header.
-- The value is specified  as a multi-line block following the section header. Outer left indentation of the expression isn't considered.
+- The value is specified  as a multi-line block following the section header.
 
 In the following example, `Measure1` is single line and `Measure2` is a multi-line block:
 
 ```tmdl
 table Table1
-    
+
     partition 'partition 1' = M
         expression:= ```
             let
@@ -320,7 +320,7 @@ Default property and expression language by object type include the following:
 |ColumnPermission    |   MetadataPermission      |    [MetadataPermission Enum](/dotnet/api/microsoft.analysisservices.tabular.metadatapermission?view=analysisservices-dotnet&preserve-view=true)     |
 |NamedExpression     |   Expression      |    M     |
 |JsonExtendedProperty     |   Value      |    Json     |
-|Annotation     |    Key & Value     |   Text      |
+|Annotation     |    Value     |   Text      |
 |StringExtendedProperty     |   Value      |    Text     |
 |DataSource    |    Type     |    [DataSourceType Enum](/dotnet/api/microsoft.analysisservices.tabular.datasourcetype?view=analysisservices-dotnet&preserve-view=true)     |
 |Partition     |    SourceType     |    [PartitionSourceType Enum](/dotnet/api/microsoft.analysisservices.tabular.partitionsourcetype?view=analysisservices-dotnet&preserve-view=true)     |
@@ -328,20 +328,17 @@ Default property and expression language by object type include the following:
 
 ### Expressions
 
-Despite being a string scalar in TOM, in TMDL, certain object properties get a special parsing. The entire text is read verbatim because it can include special characters like quotes or square brackets in M or DAX expressions.
+There are certain object properties that, while being a string scalar in TOM, get special parsing in TMDL
+The entire text is read verbatim because it can include special characters like quotes or square brackets in M or DAX expressions.
 
-An expression value in TMDL is provided following a colon and equals delimiter (**:=**) enclosed with the three backticks (**```**), like in the following example:
+An expression value in TMDL is provided following a colon and equals (**:=**) or equals (**=**) delimiter  enclosed with the three backticks (**```**), in case you want to consider the expression verbatim including indentation, like in the following example:
 
 ```tmdl
 table Table1
-    prop1: value
-    bool1
-    struct:
-            prop1: value
-            prop2: value
-    
+    lineageTag: value
+
     partition 'partition 1' = M
-        expression:= ```
+        expression := ```
             let
             ...
             in
@@ -350,15 +347,13 @@ table Table1
         mode: Import
     
     measure Measure1 = SUM(...)
-        formatString:= #,##0
-        boolProp
 
     measure 'Measure 2' = ```
         SUMX ( 
             ...
         )
     ```
-        formatString:= $ #,##0
+
 ```
 
 The following special rules apply to expressions:
@@ -402,9 +397,18 @@ table Table1
                 #finalStep
             ```
         mode: Import
+
+    measure Measure1 = ```
+        var myVar = Today()
+        …
+        return result
+        ```
+
 ```
 
 Everything between three backticks (**```**) is considered part of the multi-block expression and TMDL indentation rules aren't applied. The end delimiter determines the indentation within the expression.
+
+Using this delimiter is optional and only required in unique situations. For most situations, using correct indentation and object declaration ensures correct parsing of whatever expression you add to the property.
 
 ### Child objects
 
