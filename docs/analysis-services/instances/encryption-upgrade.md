@@ -19,9 +19,16 @@ SQL Server 2022 Analysis Services CU1 includes enhanced encryption for certain w
 > [!CAUTION]
 > New or upgraded Analysis Services databases with enhanced encryption cannot be loaded if SQL Server CU1 is uninstalled.
 
+> [!CAUTION]
+> After SQL Server 2022 CU1, switching the SSAS service account can cause SSAS unable to start. The \Log\msmdsrv.log file has the following error 
+> Message: Server Gen2 cryptokey is not present, but server assembly object System is set to use server gen2 cryptokey. Terminating server. (Source: \\?\C:\Program Files\Microsoft SQL Server\MSAS16.SQL22TAB\OLAP\Log\msmdsrv.log, Type: 1, Category: 289, Event ID: 0x4121005C)
+> To fix the error, go to the Data folder, delete the folders that ends with .asm, and delete all the files that ends with .asm.xml
+![image](https://user-images.githubusercontent.com/32279676/230489234-d9772fd5-aa20-40fd-962e-b0faafab156b.png)
+
+
 ## Tabular mode
 
-For tabular model databases at the 1200 and higher compatibility level, the following error can be returned during certain schema write operations:
+For tabular model databases at the 1600 and higher compatibility level, the following error can be returned during certain schema write operations:
 
 "**New Tabular database '%{DatabaseName/}' is not using latest encryption schema. Please run RemoveDiscontinuedFeatured command with EnsureProperEncryption option (or restore DB from backup file with the same option) to upgrade to the latest encryption.**"
 
