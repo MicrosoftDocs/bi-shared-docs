@@ -50,6 +50,7 @@ table Sales
         isHidden
         sourceColumn: Quantity
         summarizeBy: None
+
     column 'Net Price'
         dataType: Int64
         isHidden
@@ -64,6 +65,7 @@ table Product
             let
                 Source = Sql.Database(Server, Database),
                 …
+
     column ProductKey
         dataType: Int64
         isKey
@@ -119,21 +121,21 @@ Code example handling `TmdlFormatException`:
 
 ```csharp
 try
-    {
-        var tmdlPath = "<TMDL Folder Path>";
+{
+    var tmdlPath = "<TMDL Folder Path>";
 
-        var model = TmdlSerializer.DeserializeModel(tmdlPath);
-    }
-    catch (TmdlFormatException ex)
-    {
-        var errorMsg = ex.Message;
-        var path = ex.Path;
-        var line = ex.LineNumber;
-        var lineText = ex.LineText;
+    var model = TmdlSerializer.DeserializeModel(tmdlPath);
+}
+catch (TmdlFormatException ex)
+{
+    var errorMsg = ex.Message;
+    var path = ex.Path;
+    var line = ex.LineNumber;
+    var lineText = ex.LineText;
 
-        Console.WriteLine($"Error on Deserializing TMDL '{errorMsg}', path: '{path}'  line: '{line}', line text: '{lineText}'");
-        throw;
-    }    
+    Console.WriteLine($"Error on Deserializing TMDL '{errorMsg}', path: '{path}'  line: '{line}', line text: '{lineText}'");
+    throw;
+}    
 
 ```
 
@@ -199,6 +201,7 @@ table Sales
     column Customer_Key
         datatype: Int64
         sourceColumn: "CustomerKey"
+
     column 'Order Date'
         dataType: DateTime
         sourceColumn: "OrderDate"
@@ -210,15 +213,14 @@ table Sales
 TMDL doesn't force object declaration in the same document. It is, however, similar to [C# partial classes](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods) where it's possible split the object definition between multiple files. For example, it's possible to declare a table definition in a [table].tmd file and then have all the measures from all tables defined in a single [measures].tmd file, like shown here:
 
 ```tmdl
-table Table1
+table Sales
 
-    measure Measure1Table1 = SUM(…)
+    measure 'Sales Amount' = SUM(…)
         formatString:= $ #,##0
 
-table Table2
+table Product
 
-    measure Measure1Table2 = SUM(…)
-        formatString:= $ #,##0
+    measure CountOfProduct = COUNTROWS(…)
 
 ```
 
@@ -226,11 +228,11 @@ To avoid a parsing error, the same property can't be declared twice. For example
 
 ### Object reference
 
-Within a TMDL document, there are situations where you need to reference an object from another object, like with partitions. An object reference should be by name. If the name includes an alphanumeric or underscore character, it should be enclosed in quotes. For example:
+Within a TMDL document, there are situations where you need to reference an object from another object, like with partitions. An object reference should be by name. If the name contains any characters other than alphanumeric or an underscore character, it must be enclosed in quotes. For example:
 
-- `Partition_sales_2023`
+- `partition_sales_2023`
 - `'partition sales – 2023'`
-- ``partition "sales – 2023"'` (In TOM, this reference would be `"partition 'sales – 2023'"`)
+- `'partition ''sales – 2023'''` (In TOM, this reference would be `partition 'sales – 2023'`)
 
 If needed to reference a fully qualified name, TMDL uses *dot* notation to reference an object from another object, as shown here:
 
@@ -383,11 +385,6 @@ TMDL supports multi-line blocks of embedded expressions as property values. Bloc
 
 ```tmdl
 table Table1
-    prop1: value
-    bool1
-    struct:
-            prop1: value
-            prop2: value
 
     partition 'partition 1' = M
         expression = ```
