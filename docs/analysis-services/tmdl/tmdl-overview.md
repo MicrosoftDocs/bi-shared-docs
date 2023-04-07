@@ -160,6 +160,7 @@ And *root files* for:
 - expressions
 - model
 - relationships
+- datasources
 
 Here's an example of a TMDL folder:
 
@@ -169,6 +170,7 @@ Definitions include:
 
 - One file for model definition.
 - One file for *all* relationships in the model.
+- One file for *all* datasources in the model.
 - One file for *each* culture linguistic schema.
 - One file for *each* perspective.
 - One file for *each* role.
@@ -399,9 +401,9 @@ table Product
 
 The following rules apply to scalar values:
 
-- Text property scalar values are enclosed in double quotes (**"**) when the text contains special characters like spaces, quotes, or double quotes.
-- If the value has double quotes within it, it must be escaped. For example, `"""folder with quotes""\'SubFolder'"`. Leading and trailing double quotes are removed during deserialization.
-- Boolean properties can be set by using standard key/value pair syntax (`'isDataTypeInferred'`) or by using a shortcut syntax where only the property name needs to be declared. No value is set. `true` is implicitly applied ('isHidden').
+- Text property scalar values are enclosed in double quotes (**"**) when the text contains special characters like spaces, quotes, or double quotes. Leading and trailing double quotes are removed during deserialization.
+- If the value has double quotes within it, they must be escaped by repeating the double quote characters. For example, `"Text ""SubText"""`.
+- Boolean properties can be set by using standard key/value pair syntax, like in the `'isDataTypeInferred'` property in the code example above. They can also be set by using a shortcut syntax where only the property name needs to be declared and `true` is implicitly applied, like in the 'isHidden' property in the code example above.
 
 ### Expressions
 
@@ -508,9 +510,8 @@ Child objects don't have to be contiguous. You can declare columns and measures 
 
 ## Considerations and limitations
 
-- RoleMember
-- Translations as CSV files
-- Backtick (\`) expression block syntax
+- Role members won’t be serialized.
+- Object translations won’t be serialized.
 
 ## What's next?
 

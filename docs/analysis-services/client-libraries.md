@@ -54,6 +54,15 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 Beginning with AMO (AMO/TOM) and ADOMD .Net Core version 19.48.0.0, HTTP-based communications with cloud services like Power BI and Azure Analysis Services are significantly improved. It's recommended you update to the latest version to take advantage of these performance improvements.
 
+#### TMDL Preview packages
+
+Beginning with AMO release 19.61.1.4., preview packages with the Microsoft.AnalysisServices.Tabular.Tmdl assembly, both for .NET Framework and .NET Core, are now available. These packages are dependent on the main AMO packages. Both packages are required for any project that have dependency on them. To learn more about TMDL, see [Tabular Model Definition Language overview](tmdl/tmdl-overview.md).
+
+|Package  | Version  |
+|---------|---------|
+|[AMO]()    |    19.61.1.4      |
+|[ADOMD]()     |   19.61.1.4        |
+
 ## Minimum required versions
 
 Transport Layer Security (TLS) protocol version 1.0/1.1 will be [deprecated](/azure/active-directory/fundamentals/whats-new#november-2020) in Azure Active Directory by June 30, 2021. Going forward, TLS 1.2 and higher is required. TLS 1.2 is not supported in earlier versions of the Analysis Services client libraries. Newer client library versions include support for TLS 1.2 and higher as well as other important security enhancements.
@@ -87,6 +96,10 @@ Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL S
 #### AMO
 
 Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
+
+#### ADOMD
+
+Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, compression is fully available in the XMLA transport layer. Previous releases after version 19.55.3.1 had implemented some partial support for compression. Reports about issues with those releases were received. Those issues were fixed as part of the 16.61.1.4 release. Be sure to upgrade to 19.61.1.4 or later if you're experiencing problems related to compression.
 
 #### MSOLAP
 
