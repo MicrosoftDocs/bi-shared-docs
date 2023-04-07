@@ -1,7 +1,7 @@
 ---
 title: "Tabular Model Definition Language (TMDL) | Microsoft Docs"
 description: Learn about Tabular Model Definition Language (TMDL)
-ms.date: 03/30/2023
+ms.date: 04/07/2023
 ms.service: analysis-services
 ms.custom: tmdl
 ms.topic: conceptual
@@ -42,9 +42,16 @@ table Sales
             let
                 Source = Sql.Database(Server, Database)
                 …
+    
     measure 'Sales Amount' = SUMX('Sales', 'Sales'[Quantity] * 'Sales'[Net Price])
         formatString:= $ #,##0
-    
+   
+    column ProductKey
+        dataType: Int64
+        isHidden
+        sourceColumn: ProductKey
+        summarizeBy: None
+ 
     column Quantity
         dataType: Int64
         isHidden
@@ -150,7 +157,7 @@ Unlike TMSL, TMDL implements a folder structure. The default folder structure ha
 
 And *root files* for:
 
-- dataSources
+- expressions
 - model
 - relationships
 
@@ -161,12 +168,11 @@ Here's an example of a TMDL folder:
 Definitions include:
 
 - One file for model definition.
-- One file for all relationships in the model.
-- One file for each culture linguistic schema.
-- One file for each translation (in CSV format) along side culture linguistic schema.
-- One file for each perspective.
-- One file for each role.
-- One file for each table.
+- One file for *all* relationships in the model.
+- One file for *each* culture linguistic schema.
+- One file for *each* perspective.
+- One file for *each* role.
+- One file for *each* table.
 - All inner metadata properties of tables (Column, Hierarchies, Partitions,…)  metadata lives in the parent table TMD file.
 
 ## TMDL language
@@ -208,7 +214,7 @@ table Sales
 
 ```
 
-### Partial  declaration
+#### Partial  declaration
 
 TMDL doesn't force object declaration in the same document. It is, however, similar to [C# partial classes](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods) where it's possible split the object definition between multiple files. For example, it's possible to declare a table definition in a [table].tmd file and then have all the measures from all tables defined in a single [measures].tmd file, like shown here:
 
@@ -249,6 +255,51 @@ perspective Perspective1
             column: 'Table1'.'Col 2'
 ```
 
+### Indentation
+
+TMDL uses strict whitespace indentation rules for denoting structure of the TOM hierarchy. A TMDL project uses a default single **tab** indentation rule.
+
+Within a TMDL document, indentation is applied:
+
+- Between an object section header and the object’s properties (table -> properties).
+
+    ```tmdl
+    table Sales
+        lineageTag: 9a48bea0-e5fb-40fa-9e81-f61288e31a02
+    ```
+
+- Between an object and its child objects (table -> measures).
+
+    ```tmdl
+    table Sales
+    
+        measure 'Sales Amount' = SUMX('Sales', [Quantity] * [Net Price])
+    
+        measure 'Total Quantity' = SUM('Sales'[Quantity])
+    ```
+
+- Between a struct property and its respective properties (table -> refreshPolicy -> properties).
+
+    ```tmdl
+    table Sales
+        lineageTag: 97143e5b-7736-4fcb-8042-26b92b1f5684
+        refreshPolicy:
+            incrementalGranularity: Month
+    ```
+
+The following are direct child objects of Model and don't need to be indented because they are implicitly assumed nested under the root Model:
+
+- tables
+- shared expressions
+- roles
+- cultures
+- perspectives
+- relationships
+- data sources
+- query groups
+- model-level annotations
+- model-level extended properties
+
 ### Descriptions
 
 TMDL syntax supports descriptions. For model documentation purposes, it's considered a best practice to provide descriptions for each TOM object. TMDL treats descriptions as a special property with explicit syntax support. Following the examples from many other languages, descriptions are provided on top of each object declaration using triple-slash  (**///**) syntax.
@@ -278,7 +329,7 @@ Supported syntax:
 - The value is specified on the same line as the section header.
 - The value is specified  as a multi-line block following the section header.
 
-In the following example, `Measure1` is single line and `Measure2` is a multi-line block:
+In the following example, `Measure1` is single line and `Measure2` is multi-line:
 
 ```tmdl
 table Table1
@@ -327,6 +378,30 @@ Default property and expression language by object type include the following:
 |DataSource    |    Type     |    [DataSourceType Enum](/dotnet/api/microsoft.analysisservices.tabular.datasourcetype?view=analysisservices-dotnet&preserve-view=true)     |
 |Partition     |    SourceType     |    [PartitionSourceType Enum](/dotnet/api/microsoft.analysisservices.tabular.partitionsourcetype?view=analysisservices-dotnet&preserve-view=true)     |
 |ChangedProperty     |   Property      |    [Property Text](/dotnet/api/microsoft.analysisservices.tabular.changedproperty.property?view=analysisservices-dotnet&preserve-view=true#microsoft-analysisservices-tabular-changedproperty-property)     |
+
+### Scalar values
+
+Object property values are provided following the colon (**:**) delimiter. For example:
+
+```tmdl
+table Product
+    lineageTag: e9374b9a-faee-4f9e-b2e7-d9aafb9d6a91
+    ordinal: 3
+
+    column Product
+        dataType: String
+        isDataTypeInferred: false
+        isHidden
+        lineageTag: da435585-1f9a-44bd-ba2c-34c98f298cfc
+        sourceColumn: Product
+        summarizeBy: None
+```
+
+The following rules apply to scalar values:
+
+- Text property scalar values are enclosed in double quotes (**"**) when the text contains special characters like spaces, quotes, or double quotes.
+- If the value has double quotes within it, it must be escaped. For example, `"""folder with quotes""\'SubFolder'"`. Leading and trailing double quotes are removed during deserialization.
+- Boolean properties can be set by using standard key/value pair syntax (`'isDataTypeInferred'`) or by using a shortcut syntax where only the property name needs to be declared. No value is set. `true` is implicitly applied ('isHidden').
 
 ### Expressions
 
@@ -433,9 +508,9 @@ Child objects don't have to be contiguous. You can declare columns and measures 
 
 ## Considerations and limitations
 
-- line item.
-- line item.
-- line item.
+- RoleMember
+- Translations as CSV files
+- Backtick (\`) expression block syntax
 
 ## What's next?
 

@@ -1,7 +1,7 @@
 ---
 title: "Get started with Tabular Model Definition Language (TMDL) | Microsoft Docs"
 description: Learn how to get started using the Tabular Model Definition Language (TMDL)
-ms.date: 03/30/2023
+ms.date: 04/07/2023
 ms.service: analysis-services
 ms.custom: tmdl
 ms.topic: conceptual
@@ -19,9 +19,9 @@ author: minewiskan
 
 Before getting started with this article, be sure to thoroughly understand concepts described in [Tabular Model Definition Language (TMDL) overview](tmdl-overview.md).
 
-The easiest way to explore TMDL is to reference the preview Nuget package and use the API methods to serialize and deserialize to and from TMDL.
+The easiest way to explore TMDL is to reference the **Preview Nuget package** and use the API methods to serialize and deserialize to and from TMDL.
 
-[Get the preview Nuget package](https://go.microsoft.com/fwlink/?linkid=2230930)
+[Get the **Preview Nuget package**](/analysis-services/client-libraries?view=asallproducts-allversions&preserve-view=true#nuget-packages)
 
 ## Get a TMDL model representation
 
