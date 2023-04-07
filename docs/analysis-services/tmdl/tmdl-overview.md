@@ -302,7 +302,7 @@ The following are direct child objects of Model and don't need to be indented be
 
 ### Descriptions
 
-TMDL syntax supports descriptions. For model documentation purposes, it's considered a best practice to provide descriptions for each TOM object. TMDL treats descriptions as a special property with explicit syntax support. Following the examples from many other languages, descriptions are provided on top of each object declaration using triple-slash  (**///**) syntax.
+TMDL syntax supports descriptions. For model documentation purposes, it's considered a best practice to provide descriptions for each TOM object. TMDL treats descriptions as a special property with explicit syntax support. Following the examples from many other languages, descriptions are specified on top of each object declaration using triple-slash  (**///**) syntax.
 
 No whitespace is allowed between the description block end and the object type token.
 
@@ -322,7 +322,7 @@ table Table1
 
 ### Default properties
 
-In addition to special treatment of name and description, some object types have a default property that most of the time are treated like expressions during TMDL parsing. The default property is object type specific. Where applicable, the property value or expression is provided following the equals (**=**) delimiter - after the section declaration.
+In addition to special treatment of name and description, some object types have a default property that most of the time are treated like expressions during TMDL parsing. The default property is object type specific. Where applicable, the property value or expression is specified following the equals (**=**) delimiter - after the section declaration.
 
 Supported syntax:
 
@@ -381,7 +381,7 @@ Default property and expression language by object type include the following:
 
 ### Scalar values
 
-Object property values are provided following the colon (**:**) delimiter. For example:
+Object property values are specified following the colon (**:**) delimiter. For example:
 
 ```tmdl
 table Product
@@ -408,7 +408,7 @@ The following rules apply to scalar values:
 There are certain object properties that, while being a string scalar in TOM, get special parsing in TMDL
 The entire text is read verbatim because it can include special characters like quotes or square brackets in M or DAX expressions.
 
-An expression value in TMDL is provided following a colon and equals (**:=**) or equals (**=**) delimiter  enclosed with the three backticks (**```**), in case you want to consider the expression verbatim including indentation, like in the following example:
+An expression value in TMDL is specified following a colon and equals (**:=**) or equals (**=**) delimiter  enclosed with the three backticks (**```**), in case you want to consider the expression verbatim including indentation, like in the following example:
 
 ```tmdl
 table Table1
