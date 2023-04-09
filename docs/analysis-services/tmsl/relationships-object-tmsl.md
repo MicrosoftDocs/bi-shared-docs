@@ -39,7 +39,7 @@ author: minewiskan
   
 - DatePartOnly (2) - When joining two date time columns, join on date part only.  
   
- **elyOnReferentialIntegrity**  
+ **relyOnReferentialIntegrity**  
  Unused; reserved for future use.  
   
  **securityFilteringBehavior**  
