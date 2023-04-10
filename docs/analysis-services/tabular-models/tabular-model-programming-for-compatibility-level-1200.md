@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services tabular model programming for compatibility level 1200 | Microsoft Docs"
 description: Learn how tabular metadata is used to describe model constructs beginning with compatibility level 1200.
-ms.date: 12/07/2020
+ms.date: 04/03/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
@@ -23,15 +23,17 @@ You can create new models at compatibility level 1200 or higher by using the Mic
   
 Upgrading an existing tabular solution is recommended but not required. Existing script and custom solutions that access or manage tabular models or databases can be used as-is. Azure Analysis Services supports compatibility level 1200 and higher only.
   
- New Tabular models will require different code and script, summarized below.  
+New tabular models require different code and script, summarized below.  
   
 ## Object model definitions as tabular metadata constructs
 
- The Tabular Object Model for 1200 or higher models is exposed in JSON through the [Tabular Model Scripting Language](../tmsl/tabular-model-scripting-language-tmsl-reference.md) and through the AMO data definition language through a new namespace, [Microsoft.AnalysisServices.Tabular](/dotnet/api/microsoft.analysisservices.tabular)
+The Tabular Object Model for 1200 or higher models is exposed in JSON through the [Tabular Model Scripting Language](../tmsl/tabular-model-scripting-language-tmsl-reference.md) and through the AMO data definition language through a new namespace, [Microsoft.AnalysisServices.Tabular](/dotnet/api/microsoft.analysisservices.tabular)
+
+The [Tabular Model Definition Language (TMDL)](../tmdl/tmdl-overview.md) is text-based object model definition syntax for tabular data models at compatibility level 1200 or higher. It is fully compatible with the TOM.
 
 ## Script for tabular models and databases
 
- TMSL is a JSON scripting language for Tabular models, with support for create, read, update, an delete operations. You can refresh data via TMSL and invoke database operations for attach, detach, backup, restore, and synchronize. AMO PowerShell accepts TMSL script as input.  
+ TMSL is a JSON scripting language for tabular models, with support for create, read, update, an delete operations. You can refresh data via TMSL and invoke database operations for attach, detach, backup, restore, and synchronize. AMO PowerShell accepts TMSL script as input.  
   
  See [Tabular Model Scripting Language &#40;TMSL&#41; Reference](../tmsl/tabular-model-scripting-language-tmsl-reference.md) and [Analysis Services PowerShell Reference](../../analysis-services/powershell/analysis-services-powershell-reference.md) for more information.  
   
