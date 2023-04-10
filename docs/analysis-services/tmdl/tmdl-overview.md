@@ -22,7 +22,7 @@ Tabular Model Definition Language (TMDL) is an object model definition syntax fo
 Key elements of TMDL include:
 
 - Full compatibility with the entire [Tabular Object Model (TOM)](../tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md).
-- Text-based and optimized for human interaction and readability. It uses the same grammar syntax as YAML. Each TMDL object is represented in text with minimal delimiters and uses indentation to demark parent-child relationships.
+- Text-based and optimized for human interaction and readability. TMDL uses a grammar syntax similar to YAML. Each TMDL object is represented in text with minimal delimiters and uses indentation to demark parent-child relationships.
 - Better editing experience, especially on properties with embed expressions from different content-types, like Data Analysis Expression (DAX) and M.
 - Better for collaboration because of its folder representation where each model object has an individual file representation, making it more source control friendly.
 

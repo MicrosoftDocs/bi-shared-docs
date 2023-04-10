@@ -49,19 +49,19 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.61.1.4      |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.61.1.4        |
+|[AMO .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.61.1.4      |
+|[ADOMD .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.61.1.4        |
 
 Beginning with AMO (AMO/TOM) and ADOMD .Net Core version 19.48.0.0, HTTP-based communications with cloud services like Power BI and Azure Analysis Services are significantly improved. It's recommended you update to the latest version to take advantage of these performance improvements.
 
-#### TMDL Preview packages
+#### TMDL Preview
 
-Beginning with AMO release 19.61.1.4., preview packages with the Microsoft.AnalysisServices.Tabular.Tmdl assembly, both for .NET Framework and .NET Core, are now available. These packages are dependent on the main AMO packages. Both packages are required for any project that have dependency on them. To learn more about TMDL, see [Tabular Model Definition Language overview](tmdl/tmdl-overview.md).
+Beginning with AMO release 19.61.1.4., preview packages with the Microsoft.AnalysisServices.Tabular.Tmdl assembly are now available. These packages are dependent on the main AMO package. Both packages are required for any project that have a dependency on them. To learn more about TMDL, see [Tabular Model Definition Language overview](tmdl/tmdl-overview.md).
 
 |Package  | Version  |
 |---------|---------|
-|[AMO]()    |    19.61.1.4      |
-|[ADOMD]()     |   19.61.1.4        |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.retail.amd64)    |    19.61.1.4      |
+|[AMO .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.NetCore.retail.amd64)    |    19.61.1.4      |
 
 ## Minimum required versions
 

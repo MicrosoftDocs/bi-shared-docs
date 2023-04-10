@@ -21,7 +21,7 @@ Before getting started with this article, be sure to thoroughly understand conce
 
 The easiest way to explore TMDL is to reference the **Preview Nuget package** and use the API methods to serialize and deserialize to and from TMDL.
 
-[Get the **Preview Nuget package**](/analysis-services/client-libraries?view=asallproducts-allversions&preserve-view=true#nuget-packages)
+[Get the **Preview Nuget packages**](../client-libraries.md#tmdl-preview)
 
 ## Get a TMDL model representation
 
