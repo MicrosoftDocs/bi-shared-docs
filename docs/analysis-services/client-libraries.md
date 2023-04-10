@@ -60,8 +60,8 @@ Beginning with AMO release 19.61.1.4., preview packages with the Microsoft.Analy
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.retail.amd64)    |    19.61.1.4      |
-|[AMO .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.NetCore.retail.amd64)    |    19.61.1.4      |
+|[TMDL](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.retail.amd64)    |    19.61.1.4      |
+|[TMDL .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.NetCore.retail.amd64)    |    19.61.1.4      |
 
 ## Minimum required versions
 
