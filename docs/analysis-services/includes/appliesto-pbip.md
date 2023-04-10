@@ -1,0 +1,1 @@
+**Applies to:** :::image type="icon" source="media/no.png":::SQL Server Analysis Services :::image type="icon" source="media/no.png":::Azure Analysis Services :::image type="icon" source="media/yes.png":::Power BI Premium

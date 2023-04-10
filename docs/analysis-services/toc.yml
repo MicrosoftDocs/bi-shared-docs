@@ -1633,7 +1633,12 @@
         href: tmsl/roles-object-tmsl.md
       - name: Tables object (TMSL)
         href: tmsl/tables-object-tmsl.md
-
+  - name: Tabular Model Definition Language (TMDL)
+    items: 
+    - name: Tabular Model Definition Language overview
+      href: tmdl/tmdl-overview.md
+    - name: Get started with TMDL
+      href: tmdl/tmdl-how-to.md
   - name: Analysis Management Objects (AMO)
     items:
     - name: Developing with Analysis Management Objects (AMO)
