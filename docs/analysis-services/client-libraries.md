@@ -65,9 +65,9 @@ Beginning with AMO release 19.61.1.4., preview packages with the Microsoft.Analy
 
 ## Minimum required versions
 
-Transport Layer Security (TLS) protocol version 1.0/1.1 will be [deprecated](/azure/active-directory/fundamentals/whats-new#november-2020) in Azure Active Directory by June 30, 2021. Going forward, TLS 1.2 and higher is required. TLS 1.2 is not supported in earlier versions of the Analysis Services client libraries. Newer client library versions include support for TLS 1.2 and higher as well as other important security enhancements.
+Transport Layer Security (TLS) protocol version 1.0/1.1 will be [deprecated](/azure/active-directory/fundamentals/whats-new#november-2020) in Azure Active Directory by June 30, 2021. Going forward, TLS 1.2 and higher is required. TLS 1.2 is not supported in earlier versions of the Analysis Services client libraries. Newer client library versions include support for TLS 1.2 and higher in addition to other important security enhancements.
 
-To minimize risk and potential security vulnerabilities, beginning June 30th, 2021, enhanced security in Azure Analysis Services and Power BI require the following or higher versions:
+To minimize risk and potential security vulnerabilities, beginning June 30, 2021, enhanced security in Azure Analysis Services and Power BI require the following or higher versions:
 
 |Client lib  |File version  | Version  |
 |---------|---------|---------|
@@ -89,7 +89,7 @@ Interactive login with Azure Active Directory is supported for Windows computers
 
 Dependency in MSAL requires version 4.43.0 or higher.
 
-Version 19.14.0 of the .Net Core client libraries introduced preview support for Self-Contained publishing (both in a published directory, and in single-file mode), as well as support for consumption by .NET 5.0 projects. A number of issues related to connectivity to SQL Server Analysis Services that were identified in the previous release have been fixed.
+Version 19.14.0 of the .Net Core client libraries introduced preview support for Self-Contained publishing (both in a published directory, and in single-file mode), in addition to support for consumption by .NET 5.0 projects. Several issues related to connectivity to SQL Server Analysis Services that were identified in the previous release have been fixed.
 
 Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL Server Analysis Services. Lower preview versions only supported Azure Analysis Services and Power BI datasets.
 
@@ -97,11 +97,11 @@ Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL S
 
 Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
 
-Version 19.61.1.4 of the AMO client library introduces a change in the behavior of **Microsoft.AnalysisServices.Server** in regards to handling of transaction rollback. In earlier versions, a call to **Server.RollbackTransaction()** sends a request to the engine to rollback the transaction and then attempt to rollback local changes. Unlike those earlier versions, in 19.61.1.4 and later, if the local changes can't be rolled back safely a tabular database included in the transaction blocks any additional changes until it can be fully synced and the obsolete changes from the transaction that were rolled back are removed. An **InvalidOperationException** is raised when a change is made to the relevant tabular database. If your code is calling **Server.RollbackTransaction()**, it's recommended to follow that call with a full sync **[Database.Refresh(true)]** of any tabular database that is modified as part of the transaction.
+Version 19.61.1.4 of the AMO client library introduces a change in the behavior of **Microsoft.AnalysisServices.Server** in regards to handling of transaction rollback. In earlier versions, a call to **Server.RollbackTransaction()** sends a request to the engine to rollback the transaction and then attempt to rollback local changes. Unlike those earlier versions, in 19.61.1.4 and later, if local changes cannot be rolled back safely a tabular database included in the transaction blocks any additional changes until it can be fully synced and the obsolete changes from the transaction that were rolled back are removed. An **InvalidOperationException** is raised when a change is made to the relevant tabular database. If your code is calling **Server.RollbackTransaction()**, it's recommended to follow that call with a full sync **[Database.Refresh(true)]** of any tabular database that is modified as part of the transaction.
 
 #### ADOMD
 
-Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, compression is fully available in the XMLA transport layer. Previous releases after version 19.55.3.1 had implemented some partial support for compression. Reports about issues with those releases were received. Those issues were fixed as part of the 16.61.1.4 release. Be sure to upgrade to 19.61.1.4 or later if you're experiencing problems related to compression.
+Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, compression is fully available in the XMLA transport layer. Previous releases after version 19.55.3.1 implemented some partial support for compression. Reports about issues with those releases were received. Those issues were fixed as part of the 16.61.1.4 release. Be sure to upgrade to 19.61.1.4 or later if you're experiencing problems related to compression.
 
 #### MSOLAP
 
