@@ -36,7 +36,7 @@ Analysis Services Management Objects (AMO/TOM) and ADOMD client libraries are av
 
 Starting Feb. 2021, versions of [.NET Core](/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. There are, however, a few scenarios not-supported by the .NET Core versions. To learn more, see [Known issues](#known-issues) later in this article.
 
-NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR.PATCH. NuGet references load the expected version even if there is a different version in the GAC (resulting from MSI install). PATCH is incremented for each release. AMO and ADOMD versions are kept in-sync.
+NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR.PATCH. NuGet references load the expected version even if there's a different version in the GAC (resulting from MSI install). PATCH is incremented for each release. AMO and ADOMD versions are kept in-sync.
 
 #### AMO and ADOMD
 
@@ -65,7 +65,7 @@ Beginning with AMO release 19.61.1.4., preview packages with the Microsoft.Analy
 
 ## Minimum required versions
 
-Transport Layer Security (TLS) protocol version 1.0/1.1 will be [deprecated](/azure/active-directory/fundamentals/whats-new#november-2020) in Azure Active Directory by June 30, 2021. Going forward, TLS 1.2 and higher is required. TLS 1.2 is not supported in earlier versions of the Analysis Services client libraries. Newer client library versions include support for TLS 1.2 and higher in addition to other important security enhancements.
+Transport Layer Security (TLS) protocol version 1.0/1.1 will be [deprecated](/azure/active-directory/fundamentals/whats-new#november-2020) in Azure Active Directory by June 30, 2021. Going forward, TLS 1.2 and higher is required. TLS 1.2 isn't supported in earlier versions of the Analysis Services client libraries. Newer client library versions include support for TLS 1.2 and higher in addition to other important security enhancements.
 
 To minimize risk and potential security vulnerabilities, beginning June 30, 2021, enhanced security in Azure Analysis Services and Power BI require the following or higher versions:
 
@@ -95,7 +95,7 @@ Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL S
 
 #### AMO
 
-Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration simply as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
+Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
 
 Version 19.61.1.4 of the AMO client library introduces a change in the behavior of **Microsoft.AnalysisServices.Server** in regards to handling of transaction rollback. In earlier versions, a call to **Server.RollbackTransaction()** sends a request to the engine to rollback the transaction and then attempt to rollback local changes. Unlike those earlier versions, in 19.61.1.4 and later, if local changes cannot be rolled back safely a tabular database included in the transaction blocks any additional changes until it can be fully synced and the obsolete changes from the transaction that were rolled back are removed. An **InvalidOperationException** is raised when a change is made to the relevant tabular database. If your code is calling **Server.RollbackTransaction()**, it's recommended to follow that call with a full sync **[Database.Refresh(true)]** of any tabular database that is modified as part of the transaction.
 
@@ -107,7 +107,7 @@ Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, com
 
 Beginning with version 16.0.43.20, MSOLAP uses MSAL ([Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/)) version 4.43.0 or higher instead of ADAL to authenticate users with AAD when establishing a connection to cloud-based services like Power-BI and Azure Analysis Services. If your application or another component the application depends on is using MSAL, it may be necessary to update the application's binding redirect settings if there are conflicts between the versions of MSAL loaded by the components
 
-A regression related to connections to cloud-based systems using AAD was discovered in the 16.0.4.17 version of OLEDB (MSOLAP). It was fixed in the 16.0.20.201 version. Due to the nature of the issue, an installed 16.0.4.17 version, as well any other version prior to 16.0.20.201, cannot be corrected by simply upgrading the provider, even if setup is run in repair mode. It’s recommended to completely uninstall the 16.0.4.17 [or other problematic] version and then install the 16.0.20.201 or later version. 
+A regression related to connections to cloud-based systems using AAD was discovered in the 16.0.4.17 version of OLEDB (MSOLAP). It was fixed in the 16.0.20.201 version. Due to the nature of the issue, an installed 16.0.4.17 version, as well any other version prior to 16.0.20.201, cannot be corrected by supgrading the provider, even if setup is run in repair mode. It’s recommended to completely uninstall the 16.0.4.17 [or other problematic] version and then install the 16.0.20.201 or later version. 
 
 ## Understanding client libraries
 
