@@ -187,6 +187,8 @@ The return table shows calculations for each calculation item applied. For examp
 
 Tabular models support dynamic formatting of measures by using DAX's [FORMAT](/dax/format-function-dax) function. However, the FORMAT function has the disadvantage of returning a string, forcing measures that would otherwise be numeric to also be returned as a string. This can have some limitations, such as not working with most Power BI visuals depending on numeric values, like charts.
 
+In Power BI, Dynamic format strings for measures also allow conditional application of format strings to a specific measure without forcing them to return a string and without the use of calculation groups. To learn more, see [Dynamic format strings for measures](/power-bi/create-reports/desktop-dynamic-format-strings).
+
 ### Dynamic format strings for time intelligence
 
 If we look at the Time Intelligence example shown above, all the calculation items except **YOY%** should use the format of the current measure in context. For example, **YTD** calculated on the Sales base measure should be currency. If this were a calculation group for something like an Orders base measure, the format would be numeric. **YOY%**, however, should be a percentage regardless of the format of the base measure.
