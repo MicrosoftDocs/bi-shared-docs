@@ -14,14 +14,14 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2022"
 
 [!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
-SQL Server 2022 Analysis Services CU1 includes enhanced encryption for certain write operations to the model database schema. To ensure your model databases use the latest encryption, those databases must be upgraded. If encryption isn't upgraded, certain database schema write operations, such as adding a new data source or altering connection strings are blocked and an error is returned.
+SQL Server 2022 Analysis Services CU1 and later includes enhanced encryption for certain write operations to the model database schema. To ensure your model databases use the latest encryption, those databases must be upgraded. If encryption isn't upgraded, certain database schema write operations, such as adding a new data source or altering connection strings are blocked and an error is returned.
 
 > [!CAUTION]
 > New or upgraded Analysis Services databases with enhanced encryption cannot be loaded if SQL Server CU1 is uninstalled.
 
 ## Tabular mode
 
-For tabular model databases at the 1200 and higher compatibility level, the following error can be returned during certain schema write operations:
+For tabular model databases at the 1600 and higher compatibility level, the following error can be returned during certain schema write operations:
 
 "**New Tabular database '%{DatabaseName/}' is not using latest encryption schema. Please run RemoveDiscontinuedFeatured command with EnsureProperEncryption option (or restore DB from backup file with the same option) to upgrade to the latest encryption.**"
 
