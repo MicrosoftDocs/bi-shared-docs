@@ -54,7 +54,7 @@ dotnet new console --name`
 After creating the console application, add the **Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64** NuGet package which contains the Tabular Object Model (TOM). You can install the package in a .NET 5 application by using the following .NET CLI:
 
 ```dotnetcli
-dotnet add package Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64
+dotnet add package Microsoft.AnalysisServices.NetCore.retail.amd64
 ```
 
 #### Add the connection string
