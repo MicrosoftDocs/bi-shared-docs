@@ -513,7 +513,7 @@ Child objects don't have to be contiguous. You can declare columns and measures 
 
 - Role members won’t be serialized.
 - Object translations won’t be serialized.
-- Error deserializing models with Perspectives and ProviderDataSources (Legacy).
+- Error deserializing models with ProviderDataSources (Legacy).
 
 ## What's next?
 

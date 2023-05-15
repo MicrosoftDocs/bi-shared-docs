@@ -23,9 +23,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 | Compatibility level | Server version |
 | ------------------- | -------------- |
 |1600|Power BI Premium, Azure Analysis Services, SQL Server 2022 |
-|1500|Power BI Premium, Azure Analysis Services, SQL Server 2019 |
-|1400|Azure Analysis Services, SQL Server 2019, SQL Server 2017 |  
-|1200|Azure Analysis Services, SQL Server 2019, SQL Server 2017, SQL Server 2016|
+|1500|Power BI Premium, Azure Analysis Services, SQL Server 2022, SQL Server 2019 |
+|1400|Azure Analysis Services, SQL Server 2022, SQL Server 2019, SQL Server 2017 |  
+|1200|Azure Analysis Services, SQL Server 2022, SQL Server 2019, SQL Server 2017, SQL Server 2016|
 |1103|SQL Server 2017*, SQL Server 2016, SQL Server 2014, SQL Server 2012 SP1|  
 |1100|SQL Server 2017*, SQL Server 2016, SQL Server 2014, SQL Server 2012 SP1, SQL Server 2012|
 
