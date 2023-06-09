@@ -109,7 +109,7 @@ Beginning with version 16.0.43.20, MSOLAP uses MSAL ([Microsoft.Identity.Client]
 
 A regression related to connections to cloud-based systems using AAD was discovered in the 16.0.4.17 version of OLEDB (MSOLAP). It was fixed in the 16.0.20.201 version. Due to the nature of the issue, an installed 16.0.4.17 version, as well any other version prior to 16.0.20.201, cannot be corrected by supgrading the provider, even if setup is run in repair mode. It’s recommended to completely uninstall the 16.0.4.17 [or other problematic] version and then install the 16.0.20.201 or later version. 
 
-Beginning with version 16.0.87.16, MSOLAP setup no longer installs the native Azure Active Directory Authentication Library for .NET (ADAL.NET) client. Authentication for cloud-based Analysis Services is based only on the managed Microsoft Authentication Library for .NET (MSAL.NET) client. If using the MSAL client isn't possible in your environment, contact Microsoft Customer Support to determine a workaround.
+Beginning with version 16.0.87.16, MSOLAP setup no longer installs the native Azure Active Directory Authentication Library for .NET (ADAL.NET) client. Authentication for cloud-based Analysis Services is based only on the managed Microsoft Authentication Library for .NET (MSAL.NET) client.
 
 ## Understanding client libraries
 
