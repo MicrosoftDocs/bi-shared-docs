@@ -43,7 +43,22 @@ For multidimensional model databases at all compatibility levels, the following 
 
 To upgrade encryption, backup the database and then restore with the **EnsureProperEncryption** option enabled.
 
+## Known issues
 
+**Problem:** Changing SQL Server 2022 Analysis Services service account can cause the service to fail to start.
+
+The following message in the Log\msmdsrv.log file indicates the service is unable to start because the service account has been changed:
+
+"**Server Gen2 cryptokey is not present, but server assembly object System is set to use server gen2 cryptokey. Terminating server. (Source: \\?\C:\Program Files\Microsoft SQL Server\MSAS16.MSSQLSERVER\OLAP\Log\msmdsrv.log, Type: 1, Category: 289, Event ID: 0x4121005C**"
+
+**Solution:** In msmdsrv.ini, in <ConfigurationSettings>, in <DataDir>, determine the location of the **Data** folder. Then in the **Data** folder, delete the files with the name containing **.asm.xml**, and all folders with an **.asm** extension.
+
+After deleting the files, restart the Analysis Services service. The .asm files are automatically created again.
+
+The following encrypted properties must then be configured by using SQL Server Management Studio (SSMS):
+
+- Log\QueryLog\QueryLogConnectionString 
+- Each database data dource ImpersonationAccount Password or authentication password
 
 ## See also
 
