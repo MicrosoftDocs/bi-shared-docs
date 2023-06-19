@@ -65,7 +65,7 @@ Beginning with AMO release 19.61.1.4., preview packages with the Microsoft.Analy
 
 ## Minimum required versions
 
-Transport Layer Security (TLS) protocol version 1.0/1.1 will be [deprecated](/azure/active-directory/fundamentals/whats-new#november-2020) in Azure Active Directory by June 30, 2021. Going forward, TLS 1.2 and higher is required. TLS 1.2 isn't supported in earlier versions of the Analysis Services client libraries. Newer client library versions include support for TLS 1.2 and higher in addition to other important security enhancements.
+Transport Layer Security (TLS) protocol version 1.0/1.1 was [deprecated](/azure/active-directory/fundamentals/whats-new#november-2020) in Azure Active Directory on June 30, 2021. TLS 1.2 or higher is now required. TLS 1.2 isn't supported in earlier versions of the Analysis Services client libraries. Newer client library versions include support for TLS 1.2 and higher in addition to other important security enhancements.
 
 To minimize risk and potential security vulnerabilities, beginning June 30, 2021, enhanced security in Azure Analysis Services and Power BI require the following or higher versions:
 
