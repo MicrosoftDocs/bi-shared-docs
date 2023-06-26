@@ -19,7 +19,7 @@ Analysis Services is an analytical data engine (VertiPaq) used in decision suppo
 
 **Power BI Premium** - The Analysis Services VertiPaq engine provides programmability, client application, and tool support for Power BI Premium and Premium Per User datasets at the 1500 and higher compatibility levels through client libraries and APIs that support the open-standard XMLA protocol. Power BI Premium datasets support connections through XMLA endpoints for *read-only* and *read-write* operations from Microsoft and third-party client applications and tools. To learn more, see [Analysis Services in Power BI Premium](/power-bi/service-premium-what-is#analysis-services-in-power-bi-premium) and [Power BI Premium dataset connectivity with the XMLA Endpoint](/power-bi/service-premium-connect-tools).
 
-**SQL Server Analysis Services** - Installed as an on-premises or VM server instance, SQL Server Analysis Services supports tabular models at all compatibility levels (depending on version), multidimensional models, and Power Pivot for SharePoint. To learn more, see (SQL Server Analysis Services overview)[ssas-overview.md].
+**SQL Server Analysis Services** - Installed as an on-premises or VM server instance, SQL Server Analysis Services supports tabular models at all compatibility levels (depending on version), multidimensional models, and Power Pivot for SharePoint. To learn more, see [SQL Server Analysis Services overview](ssas-overview.md).
 
 ## Documentation
 
