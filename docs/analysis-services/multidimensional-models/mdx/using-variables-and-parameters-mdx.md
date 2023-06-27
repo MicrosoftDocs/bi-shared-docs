@@ -18,7 +18,7 @@ author: minewiskan
   
  MDX supports only parameters for literal or scalar values. To create a parameter that references a member, set, or tuple, you would have to use a function such as [StrToMember](/sql/mdx/strtomember-mdx) or [StrToSet](/sql/mdx/strtoset-mdx).  
   
- In the following XML for Analysis (XMLA) example, the @CountryName parameter will contain the country for which customer data is retrieved:  
+ In the following XML for Analysis (XMLA) example, the @CountryName parameter will contain the country/region for which customer data is retrieved:  
   
 ```  
 <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">  
