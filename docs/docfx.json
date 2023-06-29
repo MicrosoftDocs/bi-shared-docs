@@ -50,6 +50,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-MSPowerBI",
       "layout": "Conceptual",
       "breadcrumb_path": "/analysis-services/breadcrumb/toc.json",
       "extendBreadcrumb": true,
