@@ -24,7 +24,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 ### To rename an instance of Analysis Services  
   
-1.  Launch the **Instance Rename** tool, **asinstancerename.exe**, from C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio.  
+1.  Launch the **Instance Rename** tool, **ASInstanceRename.exe**, from C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE.  
   
 2.  In the **Rename Instance** dialog box, in the **Instance to rename** list, select the instance that you want to rename.  
   
