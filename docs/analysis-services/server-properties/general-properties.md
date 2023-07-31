@@ -100,7 +100,7 @@ Does not apply to Power BI. A string property that identifies the name of the di
 
 ##### DefaultSegmentRowCount
 
-A VertiPaq property that defines the number of data rows per segment. Every table partition has at least one segment of data. The value has to be the power of 2. The default value is 8,388,608 (8\*1024\*1024) rows.
+A VertiPaq property that defines the number of data rows per segment. Every table partition has at least one segment of data. The value must be the power of 2. The default value is 8,388,608 (8\*1024\*1024) rows.
 
 In general, the larger the segment, the better the compression. However, increasing segment size can negatively affect processing time. With very large tables, it's important to test different segment sizes, measuring memory usage to determine optimal compression.
 
