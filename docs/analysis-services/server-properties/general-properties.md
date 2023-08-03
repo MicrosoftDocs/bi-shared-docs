@@ -10,6 +10,7 @@ ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
+
 # General properties
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
@@ -99,7 +100,7 @@ Does not apply to Power BI. A string property that identifies the name of the di
 
 ##### DefaultSegmentRowCount
 
-A VertiPaq property that defines the number of data rows per segment. Every table partition has at least one segment of data. The default is 8,388,608 (8\*1024\*1024) rows.
+A VertiPaq property that defines the number of data rows per segment. Every table partition has at least one segment of data. The value must be the power of 2. The default value is 8,388,608 (8\*1024\*1024) rows.
 
 In general, the larger the segment, the better the compression. However, increasing segment size can negatively affect processing time. With very large tables, it's important to test different segment sizes, measuring memory usage to determine optimal compression.
 
@@ -228,3 +229,4 @@ Does not apply to Power BI. An advanced property that you should not change, exc
   
 [Server properties in Analysis Services](../../analysis-services/server-properties/server-properties-in-analysis-services.md)   
 [Determine the server mode of an Analysis Services instance](../../analysis-services/instances/determine-the-server-mode-of-an-analysis-services-instance.md)  
+
