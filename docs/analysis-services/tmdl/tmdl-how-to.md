@@ -40,7 +40,7 @@ using (var server = new Server())
 
     var destinationFolder = $"{outputPath}\\{database.Name}-tmdl";
 
-    TmdlSerializer.SerializeModel(database.Model, destinationFolder);
+    TmdlSerializer.SerializeModelToFolder(database.Model, destinationFolder);
 
 }
 
@@ -84,7 +84,7 @@ var xmlaServer = "<Workspace XMLA address>";
 
 var tmdlFolderPath = $"{System.Environment.CurrentDirectory}\\Contoso-tmdl";
 
-var model = TmdlSerializer.DeserializeModel(tmdlFolderPath);            
+var model = TmdlSerializer.DeserializeModelFromFolder(tmdlFolderPath);            
 
 using (var server = new Server())
 {
