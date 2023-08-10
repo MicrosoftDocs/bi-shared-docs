@@ -101,12 +101,12 @@ Similar to [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scrip
 
 The TmdlSerializer class exposes two public methods:
 
-`public static Model DeserializeModel(string path)`
+`public static Model DeserializeModelFromFolder (string path)`
 
 - Receives a full path to a TMDL folder.
 - Returns the TOM model object representation of the TMDL folder.
 
-`public static void SerializeModel(Model model, string path)`
+`public static void SerializeModelToFolder (Model model, string path)`
 
 - Receives a TOM model object and the TMDL output path.
 - Serializes the TOM model into a TMDL folder representation.
@@ -131,7 +131,7 @@ try
 {
     var tmdlPath = "<TMDL Folder Path>";
 
-    var model = TmdlSerializer.DeserializeModel(tmdlPath);
+    var model = TmdlSerializer.DeserializeModelFromFolder(tmdlPath);
 }
 catch (TmdlFormatException ex)
 {
