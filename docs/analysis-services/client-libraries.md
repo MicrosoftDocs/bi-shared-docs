@@ -118,7 +118,6 @@ Starting version 19.65.12, the public methods of the TmdlSerializer class were r
     -	SerializeModel was renamed to SerializeModelToFolder [without any change in the method signature]
 This is part of finalizing the TMDL API surface; please update your code accordingly.
 
-
 ## Understanding client libraries
 
 Analysis Services utilizes three client libraries. ADOMD.NET and Analysis Services Management Objects (AMO) are managed client libraries. And Analysis Services OLE DB Provider (MSOLAP DLL) is a native client library. Typically, all three are installed at the same time.
