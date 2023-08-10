@@ -114,8 +114,9 @@ In an earlier release, MSOLAP was updated to connect to cloud-based Analysis Ser
 #### TMDL
 
 Starting version 19.65.12, the public methods of the TmdlSerializer class were renamed:
-    -	DeserializeModel was renamed to DeserializeModelFromFolder [without any change in the method signature]
-    -	SerializeModel was renamed to SerializeModelToFolder [without any change in the method signature]
+- DeserializeModel was renamed to DeserializeModelFromFolder [without any change in the method signature]
+- SerializeModel was renamed to SerializeModelToFolder [without any change in the method signature]
+
 This is part of finalizing the TMDL API surface; please update your code accordingly.
 
 ## Understanding client libraries
