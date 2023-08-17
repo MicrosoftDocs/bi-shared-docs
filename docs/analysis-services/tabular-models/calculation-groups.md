@@ -298,7 +298,7 @@ But keep in mind, the combination is nested in such a way that the output won't 
 
 For simple transformations, the evaluation will be from lower to higher precedence. For example, 10 has 2 added, then it's multiplied by 2. In DAX there are functions like CALCULATE that apply filters or context changes to inner expressions, so in this case the higher precedence will alter a lower precedence expression.
 
-Precedence also determines which dynamic format string is applied to the combined DAX expression for each measure. The highest precedence dynamic format string is applied. If a measure itself has a dynamic format string, it's considered a lower precedence to any calculation group in the model.
+Precedence also determines which dynamic format string is applied to the combined DAX expression for each measure. The highest precedence calculation group dynamic format string is the only one applied. If a measure itself has a dynamic format string, it's considered a lower precedence to any calculation group in the model.
 
 ### Precedence with averages example
 
