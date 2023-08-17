@@ -274,9 +274,7 @@ In Power BI Desktop, it looks like this:
 
 To combine these DAX expressions, we start with the highest precedence, 200, and replace the `SELECTEDMEASURE() * 2` argument with the next highest, 100, like this,**`( SELECTEDMEASURE() + 2 ) * 2`**.
 
-And in Power BI Desktop, it looks like this:
 
-:::image type="content" source="media/calculation-groups/calc-groups-precedence-combined.png" alt-text="Measure group separate expressions.":::
 
 If there are more calculation items, we continue until we get to the underlying measure, like this:
 
@@ -289,6 +287,10 @@ When there are no more SELECTEDMEASURE() arguments, the combined DAX expression 
 ```dax
 ( ( 10 ) + 2 ) * 2 = 24
 ``````
+
+In Power BI Desktop, when both calculation groups are applied with a  slicer, the measure output looks like this:
+
+:::image type="content" source="media/calculation-groups/calc-groups-precedence-combined.png" alt-text="Measure group combined expressions.":::
 
 But keep in mind, the combination is nested in such a way that the output won't be 10 + 2 * 2 = 14, as you see here:
 
