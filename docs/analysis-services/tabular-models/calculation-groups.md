@@ -180,7 +180,6 @@ The return table shows calculations for each calculation item applied. For examp
 
 ![Time intelligence query return](media/calculation-groups/calc-groups-query-return.png)
 
-
 ## Dynamic format strings
 
 *Dynamic format strings* with calculation groups allow conditional application of format strings to measures without forcing them to return strings.
@@ -247,6 +246,7 @@ SELECTEDVALUE(
     SELECTEDMEASUREFORMATSTRING()
 )
 ```
+
 The format string expression must return a scalar string. It uses the new [SELECTEDMEASUREFORMATSTRING](/dax/selectedmeasureformatstring-function-dax) function to revert to the base measure format string if there are multiple currencies in filter context.
 
 The following animation shows the dynamic format currency conversion of the **Sales** measure in a report.
@@ -255,19 +255,64 @@ The following animation shows the dynamic format currency conversion of the **Sa
 
 ## Precedence
 
-Precedence is a property defined for a calculation group. It specifies the order of evaluation when there is more than one calculation group. A higher number indicates greater precedence, meaning it will be evaluated before calculation groups with lower precedence.
+Precedence is a property defined for a calculation group. It specifies the order the calculation groups are combined with the underlying measure when using SELECTEDMEASURE() in the calculation item.
 
-For this example, we'll use same model as the time intelligence example above, but also add an **Averages** calculation group. The Averages calculation group contains average calculations that are independent of traditional time intelligence in that they don't change the date filter context - they just apply average calculations within it.
+### Precedence example
+
+Let's look at a simple example. Here's calculation group with two calculation items:
+
+```dax
+‘Measure group’[Measure] = 10
+    (Precedence 100): ‘Calc Group 1’[Calc item 1 (Plus 2)] = SELECTEDMEASURE() + 2
+    (Precedence 200): ‘Calc Group 2’[Calc item 2 (Time 2)] = SELECTEDMEASURE() * 2
+
+```
+
+In Power BI Desktop, it looks like this:
+
+:::image type="content" source="media/calculation-groups/calc-groups-precedence-separate.png" alt-text="Measure group separate expressions.":::
+
+To combine these DAX expressions, we start with the highest precedence, 200, and replace the `SELECTEDMEASURE() * 2` argument with the next highest, 100, like this,**`( SELECTEDMEASURE() + 2 ) * 2`**.
+
+
+
+If there are more calculation items, we continue until we get to the underlying measure, like this:
+
+```dax
+( SELECTEDMEASURE() + 2 ) * 2  ( ( 10 ) + 2 ) * 2
+``````
+
+When there are no more SELECTEDMEASURE() arguments, the combined DAX expression is then evaluated:
+
+```dax
+( ( 10 ) + 2 ) * 2 = 24
+``````
+
+In Power BI Desktop, when both calculation groups are applied with a  slicer, the measure output looks like this:
+
+:::image type="content" source="media/calculation-groups/calc-groups-precedence-combined.png" alt-text="Measure group combined expressions.":::
+
+But keep in mind, the combination is nested in such a way that the output won't be 10 + 2 * 2 = 14, as you see here:
+
+:::image type="content" source="media/calculation-groups/calc-groups-precedence-nested.png" alt-text="Measure group nested expressions.":::
+
+For simple transformations, the evaluation will be from lower to higher precedence. For example, 10 has 2 added, then it's multiplied by 2. In DAX there are functions like CALCULATE that apply filters or context changes to inner expressions, so in this case the higher precedence will alter a lower precedence expression.
+
+Precedence also determines which dynamic format string is applied to the combined DAX expression for each measure. The highest precedence calculation group dynamic format string is the only one applied. If a measure itself has a dynamic format string, it's considered a lower precedence to any calculation group in the model.
+
+### Precedence with averages example
+
+Let's look at another example using same model as shown in the time intelligence example described earlier in this article. But this time, let's also add an **Averages** calculation group. The Averages calculation group contains average calculations that are independent of traditional time intelligence in that they don't change the date filter context - they just apply average calculations within it.
 
 In this example, a daily average calculation is defined. Calculations such as average barrels of oil per day are common in oil-and-gas applications. Other common business examples include store sales average in retail.
 
 While such calculations are calculated independently of time intelligence calculations, there may well be a requirement to combine them. For example, a user might want to see barrels of oil per day YTD to view the daily oil rate from the beginning of the year to the current date. In this scenario, precedence should be set for calculation items.
 
-### Averages example
+Our assumptions are:
 
-Table name is **Averages**.   
-Column name is **Average Calculation**.   
-Precedence is **10**.   
+Table name is **Averages**.  
+Column name is **Average Calculation**.  
+Precedence is **10**.  
 
 #### Calculation items for Averages
 
@@ -323,7 +368,6 @@ EVALUATE
 ![Averages query return](media/calculation-groups/calc-groups-ytd-daily-avg.png)
 
 The following table shows how the March 2012 values are calculated.
-
 
 |Column name  |Calculation |
 |---------|---------|
