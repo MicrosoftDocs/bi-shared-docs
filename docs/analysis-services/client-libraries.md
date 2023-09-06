@@ -79,6 +79,8 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 
 #### AMO and ADOMD
 
+Beginning with version 19.67.0, connectivity objects like Microsoft.AnalysisServices.AdomdClient.AdomdConnection and Microsoft.AnalysisServices.Server, support a new **AccessToken** property that enables an improved way to pass external OAuth tokens to be used by the XMLA connectivity layer. To learn more, see [Connection string properties](../analysis-services/instances/connection-string-properties-analysis-services.md#user-id-password).
+
 Beginning with version 19.42.0.4, ADOMD.NET and AMO/TOM use MSAL ([Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/)) version 4.43.0 or higher instead of ADAL to authenticate users with AAD when establishing a connection to cloud-based services like Power-BI and Azure Analysis Services. If your application or another component the application depends on is using MSAL, it may be necessary to update the application's binding redirect settings if there are conflicts between the versions of MSAL loaded by the components.
 
 #### AMO and ADOMD .Net Core 
