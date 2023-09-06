@@ -1,7 +1,7 @@
 ---
 title: "Connection string properties (Analysis Services) | Microsoft Docs"
 description: Learn about connection string properties used to query Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium dataset data.
-ms.date: 03/28/2022
+ms.date: 09/06/2023
 ms.service: analysis-services
 ms.topic: conceptual
 ms.author: owend
@@ -185,7 +185,10 @@ User ID and Password properties provide the appropriate credentials to the serve
 - When connecting over TCP to SSAS, the client library will impersonate the Windows user using the specified username and password, and then connect as usual to the server.
 - When connecting over HTTP(S) to SSAS, the credentials are provided to the web server based on the authentication mode configured on the web server, for example Basic auth or Windows auth. The web server will perform the appropriate Windows impersonation before connecting to the SSAS server, therefore providing the correct credentials flow to the server.
 - When connecting to Azure AS or Power BI Premium, the User ID and Password are used to obtain an Azure Active Directory (AAD) token which is then presented to the service during authentication. AAD may also require multi-factor authentication (MFA), which can require additional user interaction before the token can be generated.
-- If you've already acquired a valid AAD *bearer* access token from your own application, you can omit the **User ID** property and specify only the access token in the **Password** property. Authentication is supported for bearer tokens acquired interactively for a user, and by using [OAuth 2.0 On-Behalf-Of flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow) (for example, a middle-tier web application connecting to Analysis Services on behalf of the user). Omit the token type when passing the access token in the Password property. The Analysis Services client libraries automatically add the auth-scheme value "Bearer" to the access token.
+- If you've already acquired a valid AAD *bearer* access token from your own application, you can set the **AccessToken** property of the AdomdConnection object before establishing the connection. In the **AccessToken** property, make sure you set the access token and specify its expiration time. Authentication is supported for bearer tokens acquired interactively for a user, and by using [OAuth 2.0 On-Behalf-Of flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow) (for example, a middle-tier web application connecting to Analysis Services on behalf of the user). Omit the token type when passing the access token in the **AccessToken** property. The Analysis Services client libraries automatically add the auth-scheme value **"Bearer"** to the access token. Be sure to keep the following in mind:
+
+  - AAD bearer access tokens have a limited lifetime. By default, between 60-90 minutes. If your application performs long-running operations that exceed the access token lifetime, you can provide a callback function through the **OnAccessTokenExpired** property of the AdomdConnection object to refresh the access token when the current access token is about to expire. Alternatively, you can update the **AccessToken** property directly without the help of a callback function. The use of a callback function is recommended to ensure the access token is refreshed within the current access token’s lifetime.
+  - Using the **Password** connection string property to pass an access token is discouraged. You can still omit the **User ID** property in the connection string and specify only the access token in the **Password** property, but in those cases the access token can't be refreshed. Use the **AccessToken** property instead so that you can provide a fresh access token for an existing connection when required. Setting both the **Password** property and the **AccessToken** property isn't supported.
 
 **Note:** "User ID" has an embedded space. An alternate alias for User ID is **UID** and an alternate alias for Password is **PWD**.  
 
