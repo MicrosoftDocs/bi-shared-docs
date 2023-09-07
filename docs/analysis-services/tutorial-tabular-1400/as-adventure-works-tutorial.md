@@ -55,7 +55,7 @@ To complete lesson 13 - Deploy, you need one of the following:
 
 - SQL Server 2019 Analysis Services server in Tabular mode. Download a free [SQL Server 2019 Developer Edition](https://www.microsoft.com/sql-server/sql-server-downloads).
 
-- Power BI Premium workspace assigned to a capacity with the Datasets workload XMLA Endpoint property set to read-write. To learn more, see [Dataset connectivity with the XMLA endpoint](/power-bi/service-premium-connect-tools).
+- Power BI Premium workspace assigned to a capacity with the Semantic models workload XMLA Endpoint property set to read-write. To learn more, see [Semantic model connectivity with the XMLA endpoint](/power-bi/service-premium-connect-tools).
 
 Lessons in this tutorial do not use the following, but they're good to install for connecting to a deployed model.
 
