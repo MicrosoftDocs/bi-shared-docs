@@ -16,7 +16,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 Roles in tabular models define member permissions for a model. Members of the role can perform actions on the model as defined by the role permission. Roles defined with read permissions can also provide additional security at the row-level by using row-level filters.
   
-For Azure Analysis Services and Power BI datasets, users must be in your Azure Active Directory and usernames and groups specified must be by organizational email address or UPN. For SQL Server Analysis Services, roles contain user members by Windows username or by Windows group, and permissions (read, process, administrator).
+For Azure Analysis Services and Power BI semantic models, users must be in your Azure Active Directory and usernames and groups specified must be by organizational email address or UPN. For SQL Server Analysis Services, roles contain user members by Windows username or by Windows group, and permissions (read, process, administrator).
 
 > [!IMPORTANT]  
 > When using Visual Studio to create roles and add organizational users to a tabular model project that will be deployed to Azure Analysis Services or Power BI, use [Integrated workspace](workspace-database-ssas-tabular.md).
@@ -44,7 +44,7 @@ By default, when you create a new tabular model project, the project does not ha
 
 ## Permissions
 
-Role permissions described in this section apply only to Azure Analysis Services and SQL Server Analysis Services. In Power BI, permissions are defined for the dataset. To learn more, see [Manage dataset access](/power-bi/connect-data/service-datasets-manage-access-permissions).
+Role permissions described in this section apply only to Azure Analysis Services and SQL Server Analysis Services. In Power BI, permissions are defined for the semantic model. To learn more, see [Manage semantic model access](/power-bi/connect-data/service-datasets-manage-access-permissions).
 
 Each role has a single defined database permission (except for the combined Read and Process permission). By default, a new role will have the None permission. That is, once members are added to the role with the None permission, they cannot modify the database, run a process operation, query data, or see the database unless a different permission is granted.  
   
@@ -133,7 +133,7 @@ When authoring a model project in Visual Studio, you can use the Analyze in Exce
   
 ## Scripting roles
 
-Roles for deployed models and datasets can be scripted by using [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scripting-language-tmsl-reference.md) to create or modify the [Roles object](../tmsl/roles-object-tmsl.md). TMSL scripts can be executed in SSMS or with the [Invoke-ASCmd](/powershell/module/sqlserver/invoke-ascmd?view=sqlserver-ps&preserve-view=true) PowerShell cmdlet.
+Roles for deployed models and semantic models can be scripted by using [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scripting-language-tmsl-reference.md) to create or modify the [Roles object](../tmsl/roles-object-tmsl.md). TMSL scripts can be executed in SSMS or with the [Invoke-ASCmd](/powershell/module/sqlserver/invoke-ascmd?view=sqlserver-ps&preserve-view=true) PowerShell cmdlet.
   
 ## See also
 

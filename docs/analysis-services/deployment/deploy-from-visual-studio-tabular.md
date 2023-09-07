@@ -16,7 +16,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 Deploying a tabular model project from Visual Studio is a simple process, however, certain steps must be taken to ensure your model is deployed to the correct server instance or Power BI workspace and with the right configuration options.  
   
-Tabular models are defined with several deployment-specific properties. When you deploy, a connection to the instance specified in the **Server** property is established. A new model database or dataset with the name specified in the **Database** property is then created on that instance, if one does not already exist. Metadata from the model project's Model.bim file is used to configure objects in the model database on the deployment server. With the **Processing Option**, you can specify whether or not just the model metadata is deployed, creating the model database, or if **Default** or **Full** is specified, impersonation credentials used to connect to data sources are passed in-memory from the model workspace database to the deployed model database. Analysis Services then runs processing to populate data into the deployed model. Once the deployment and processing is complete, the model can then be connected to by client reporting applications like Power BI and Excel.  
+Tabular models are defined with several deployment-specific properties. When you deploy, a connection to the instance specified in the **Server** property is established. A new model with the name specified in the **Database** property is then created on that instance, if one does not already exist. Metadata from the model project's Model.bim file is used to configure objects in the model database on the deployment server. With the **Processing Option**, you can specify whether or not just the model metadata is deployed, creating the model database, or if **Default** or **Full** is specified, impersonation credentials used to connect to data sources are passed in-memory from the model workspace database to the deployed model database. Analysis Services then runs processing to populate data into the deployed model. Once the deployment and processing is complete, the model can then be connected to by client reporting applications like Power BI and Excel.  
 
 ::: moniker range="asallproducts-allversions || power-bi-premium-current"
 
@@ -68,12 +68,12 @@ Deploying a tabular model project from Visual Studio to a **Power BI Premium** w
 
 ### Deploying to a Power BI Premium workspace
 
-When deployed the first time, a dataset is created in the workspace by using metadata from the model.bim. As part of the deployment operation, after the dataset has been created in the workspace from model metadata, processing to load data into the dataset from data sources **will fail**.
+When deployed the first time, a semantic model is created in the workspace by using metadata from the model.bim. As part of the deployment operation, after the model has been created in the workspace from model metadata, processing to load data into the model from data sources **will fail**.
 
-Processing fails because unlike when deploying to an Azure or SQL Server Analysis Server instance, where data source credentials are prompted for as part of the deployment operation, when deploying to a Premium workspace data source credentials cannot be specified as part of the deployment operation. Instead, after metadata deployment has succeeded and the dataset has been created, data source credentials are then specified in the Power BI Service in dataset settings. In the workspace, click **Datasets** > **Settings** > **Data source credentials** > **Edit credentials**.
+Processing fails because unlike when deploying to an Azure or SQL Server Analysis Server instance, where data source credentials are prompted for as part of the deployment operation, when deploying to a Premium workspace data source credentials cannot be specified as part of the deployment operation. Instead, after metadata deployment has succeeded and the model has been created, data source credentials are then specified in the Power BI Service in semantic model settings. In the workspace, click **Semantic models** > **Settings** > **Data source credentials** > **Edit credentials**.
 
 > [!IMPORTANT]
-> During public preview, role memberships cannot be specified in the model project. If your model project fails to deploy, make sure there are no users specified in any roles. After the model has successfully deployed, specify users for dataset roles in the Power BI service.
+> During public preview, role memberships cannot be specified in the model project. If your model project fails to deploy, make sure there are no users specified in any roles. After the model has successfully deployed, specify users for model roles in the Power BI service.
 
 ::: moniker-end
 

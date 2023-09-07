@@ -25,7 +25,7 @@ The easiest way to explore TMDL is to reference the **Preview Nuget package** an
 
 ## Get a TMDL model representation
 
-The following code example shows how to get a TMDL model representation of a dataset in a Power BI Premium workspace:
+The following code example shows how to get a TMDL model representation of a semantic model in a Power BI Premium workspace:
 
 ```c#
 var workspaceXmla = " <Workspace XMLA address>";
@@ -46,9 +46,9 @@ using (var server = new Server())
 
 ```
 
-The output is a folder with a TMDL representation of the dataset, like this:
+The output is a folder with a TMDL representation of the model, like this:
 
-:::image type="content" source="media/folder-tmdl-dataset.png" alt-text="Folder with a TMDL representation of a dataset":::
+:::image type="content" source="media/folder-tmdl-dataset.png" alt-text="Folder with a TMDL representation of a model":::
 
 After serialization into a folder, use a text-editor to edit the TMDL files. For example, by using VS Code we can add a new measure, **[Sales Amount (Computers)]**:
 
@@ -77,7 +77,7 @@ table Sales
 
 ## Deploy a TMDL model representation
 
-The following code example shows how to deploy a TMDL model representation of the dataset to a Power BI Premium workspace:
+The following code example shows how to deploy a TMDL model representation of the model to a Power BI Premium workspace:
 
 ```c#
 var xmlaServer = "<Workspace XMLA address>";
@@ -100,6 +100,6 @@ using (var server = new Server())
 
 ```
 
-When executed, the new measure is deployed to the dataset.
+When executed, the new measure is deployed to the model.
 
 :::image type="content" source="media/sales-amount-measure-in-dataset.png" alt-text="Sales Amount (Computers) measure in dataset ":::

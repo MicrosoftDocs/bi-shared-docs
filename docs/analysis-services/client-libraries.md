@@ -91,7 +91,7 @@ Dependency in MSAL requires version 4.43.0 or higher.
 
 Version 19.14.0 of the .Net Core client libraries introduced preview support for Self-Contained publishing (both in a published directory, and in single-file mode), in addition to support for consumption by .NET 5.0 projects. Several issues related to connectivity to SQL Server Analysis Services that were identified in the previous release have been fixed.
 
-Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL Server Analysis Services. Lower preview versions only supported Azure Analysis Services and Power BI datasets.
+Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL Server Analysis Services. Lower preview versions only supported Azure Analysis Services and Power BI semantic models.
 
 #### AMO
 
