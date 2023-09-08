@@ -22,7 +22,7 @@ The Tabular Object Model (TOM) is a .NET library that provides an abstract layer
 
 :::image type="content" source="media/tom-pbi-datasets/endpoint-diagram.png" alt-text="Diagram of application to model through the XMLA endpoint." border="false":::
 
-The focus of this article is getting started with TOM and demonstrating how to write the C# code required to create and modify models while they're running in the Power BI Service. However, TOM can also be used in scenarios that do not involve the XMLA endpoint, such as when programming against a local model running in Power BI Desktop. To learn more about using TOM with Power BI Desktop, see Power BI CAT member Phil Seamark's [blog series](https://dax.tips/2020/07/09/using-visual-studio-code-with-power-bi/), and be sure watch the [How to Program Datasets using the Tabular Object Model (TOM)](https://www.youtube.com/watch?v=Wt9jB2Had74) video from the Power BI Dev Camp.
+The focus of this article is getting started with TOM and demonstrating how to write the C# code required to create and modify models while they're running in the Power BI Service. However, TOM can also be used in scenarios that do not involve the XMLA endpoint, such as when programming against a local model running in Power BI Desktop. To learn more about using TOM with Power BI Desktop, see Power BI CAT member Phil Seamark's [blog series](https://dax.tips/2020/07/09/using-visual-studio-code-with-power-bi/), and be sure watch the [How to program datasets using the Tabular Object Model (TOM)](https://www.youtube.com/watch?v=Wt9jB2Had74) video from the Power BI Dev Camp.
 
 TOM represents a new and powerful API for Power BI developers that is separate and distinct from the Power BI REST APIs. While there is some overlap between these two APIs, each of these APIs includes a significant amount of functionality not included in the other. Furthermore, there are scenarios that require a developer to use both APIs together to implement a full solution.
 
@@ -37,7 +37,7 @@ The first thing you need to get before you can program with TOM is the URL for a
 
 Once you navigate to the **Premium** tab of the **Settings** pane, copy the Workspace Connection URL to the clipboard.
 
-:::image type="content" source="media/tom-pbi-datasets/dataset-connection-string.png" alt-text="Workspace connection string in dataset Settings." border="false":::
+:::image type="content" source="media/tom-pbi-datasets/dataset-connection-string.png" alt-text="Workspace connection string in semantic model Settings." border="false":::
 
 The next step is to create a new .NET application in which you write the C# code that programs using TOM. You can create a Web application or a Desktop application using .NET 5, .NET Core 3.1, or older versions on the .NET Framework. In this article we create a simple C# console application using the [.NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0).
 
