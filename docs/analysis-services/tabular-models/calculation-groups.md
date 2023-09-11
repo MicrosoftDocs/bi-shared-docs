@@ -20,7 +20,7 @@ Calculation groups can significantly reduce the number of redundant measures by 
 
 Calculation groups address an issue in complex models where there can be a proliferation of redundant measures using the same calculations - most common with time intelligence calculations. For example, a sales analyst wants to view sales totals and orders by month-to-date (MTD), quarter-to-date (QTD), year-to-date (YTD), orders year-to-date for the previous year (PY), and so on. The data modeler has to create separate measures for each calculation, which can lead to dozens of measures. For the user, this can mean having to sort through just as many measures, and apply them individually to their report. 
 
-Let's first take a look at how calculation groups appear to users in a reporting tool like Power BI. We'll then take a look at what makes up a calculation group, and how they're created in a model.
+Let's first look at how calculation groups appear to users in a reporting tool like Power BI. We'll then look at what makes up a calculation group, and how they're created in a model.
 
 Calculation groups are shown in reporting clients as a table with a single column. The column isn't like a typical column or dimension, instead it represents one or more reusable calculations, or *calculation items* that can be applied to any measure already added to the Values filter for a visualization.
 
@@ -30,13 +30,13 @@ With a calculation group, in this example named **Time Intelligence**, when the 
 
 ![Calculation group being applied in Power BI](media/calculation-groups/calc-groups-pbi.gif)
 
-Calculation groups work with **explicit** DAX measures. In this example, **Sales** is an explicit measure already created in the model. Calculation groups do not work with implicit DAX measures. For example, in Power BI implicit measures are created when a user drags columns onto visuals to view aggregated values, without creating an explicit measure. At this time, Power BI generates DAX for implicit measures written as inline DAX calculations - meaning implicit measures cannot work with calculation groups. A new model property visible in the Tabular Object Model (TOM) has been introduced, **DiscourageImplicitMeasures**. Currently, in order to create calculation groups this property must be set to **true**. When set to true, Power BI Desktop in Live Connect mode disables creation of implicit measures.
+Calculation groups work with **explicit** DAX measures. In this example, **Sales** is an explicit measure already created in the model. Calculation groups don't work with implicit DAX measures. For example, in Power BI implicit measures are created when a user drags columns onto visuals to view aggregated values, without creating an explicit measure. At this time, Power BI generates DAX for implicit measures written as inline DAX calculations - meaning implicit measures can't work with calculation groups. A new model property visible in the Tabular Object Model (TOM) has been introduced, **DiscourageImplicitMeasures**. Currently, in order to create calculation groups this property must be set to **true**. When set to true, Power BI Desktop in Live Connect mode disables creation of implicit measures.
 
 Calculation groups also support Multidimensional Data Expressions (MDX) queries. This means, Microsoft Excel users, which query tabular data models by using MDX, can take full advantage of calculation groups in worksheet PivotTables and charts.
 
 ## How they work
 
-Now that you've seen how calculation groups benefit users, let's take a look at how the Time Intelligence calculation group example shown is created.
+Now that you've seen how calculation groups benefit users, let's look at how the Time Intelligence calculation group example shown is created.
 
 Before we go into the details, let's introduce some new DAX functions specifically for calculation groups: 
 
@@ -443,7 +443,7 @@ But keep in mind, the combination is nested in such a way that the output won't 
 
 :::image type="content" source="media/calculation-groups/calc-groups-precedence-nested.png" alt-text="Measure group nested expressions.":::
 
-For simple transformations, the evaluation is from lower to higher precedence. For example, 10 has 2 added, then it's multiplied by 2. In DAX there are functions like CALCULATE that apply filters or context changes to inner expressions. In this case the higher precedence alters a lower precedence expression.
+For simple transformations, the evaluation is from lower to higher precedence. For example, 10 has 2 added, then it's multiplied by 2. In DAX, there are functions like CALCULATE that apply filters or context changes to inner expressions. In this case, the higher precedence alters a lower precedence expression.
 
 Precedence also determines which dynamic format string is applied to the combined DAX expression for each measure. The highest precedence calculation group dynamic format string is the only one applied. If a measure itself has a dynamic format string, it's considered a lower precedence to any calculation group in the model.
 
@@ -565,7 +565,7 @@ DIVIDE(
 )
 ```
 
-In this case, both expressions are evaluated separately because they are using different calculate statements. Other types of recursion are not supported.
+In this case, both expressions are evaluated separately because they are using different calculate statements. Other types of recursion aren't supported.
 
 ## Single calculation item in filter context
 
@@ -583,7 +583,7 @@ The YTD argument to the CALCULATE() function overrides the filter context to reu
 
 ## Ordering
 
-By default, when a column from a calculation group is placed in a report, calculation items are ordered alphabetically by name in the report. The order in which calculation items appear in a report can be changed by specifying the Ordinal property. Specifying calculation item order with the Ordinal property does not change [precedence](#precedence), the order in which calculation items are evaluated. It also does not change the order in which calculation items appear in Tabular Model Explorer. 
+By default, when a column from a calculation group is placed in a report, calculation items are ordered alphabetically by name. The order in which calculation items appear in a report can be changed by specifying the Ordinal property. Specifying calculation item order with the Ordinal property doesn't change [precedence](#precedence), the order in which calculation items are evaluated. It also doesn't change the order in which calculation items appear in Tabular Model Explorer.
 
 To specify the ordinal property for calculation items, you must add a second column to the calculation group. Unlike the default column where Data Type is Text, a second column used for ordering calculation items has a Whole Number data type. The only purpose for this column is to specify the numeric order in which calculation items in the calculation group appear. Because this column provides no value in a report, it's best to set the **Hidden** property to True.  
 
@@ -607,29 +607,29 @@ Calculation groups are supported in Visual Studio with Analysis Services Project
 
 3. To enter a DAX formula expression for the default calculation item, right-click and then click **Edit Formula** to open DAX Editor. Enter a valid expression.
 
-4. To add additional calculation items, right-click **Calculation Items**, and then click **New Calculation Item**. 
+4. To add more calculation items, right-click **Calculation Items**, and then click **New Calculation Item**.
 
 ### To order calculation items
 
-1. In Tabular Model Explorer, right-click a calculation group, and then click **Add column**. 
+1. In Tabular Model Explorer, right-click a calculation group, and then click **Add column**.
 
 2. Name the column Ordinal (or something similar), enter a description, and then set the **Hidden** property to True.
 
-3. For each calculation item you want to order, set the **Ordinal** property to a positive number. Each number is sequential, for example, a calculation item with an Ordinal property of 1 appears first, a property of 2 appears second, and so on. Calculation items with the default -1 are not included in the ordering, but appear before ordered items in a report.
+3. For each calculation item you want to order, set the **Ordinal** property to a positive number. Each number is sequential, for example, a calculation item with an Ordinal property of 1 appears first, a property of 2 appears second, and so on. Calculation items with the default -1 aren't included in the ordering, but appear before ordered items in a report.
 
 ## Limitations
 
-[Object level security](object-level-security.md) (OLS) defined on calculation group tables is not supported. However, OLS can be defined on other tables in the same model. If a calculation item refers to an OLS secured object, a generic error is returned.
+[Object level security](object-level-security.md) (OLS) defined on calculation group tables isn't supported. However, OLS can be defined on other tables in the same model. If a calculation item refers to an OLS secured object, a generic error is returned.
 
-[Row level security](roles-ssas-tabular.md#row-filters) (RLS) is not supported. Define RLS on tables in the same model, but not on calculation groups themselves (directly or indirectly).
+[Row level security](roles-ssas-tabular.md#row-filters) (RLS) isn't supported. Define RLS on tables in the same model, but not on calculation groups themselves (directly or indirectly).
 
-[Detail Rows Expressions](../tutorial-tabular-1400/as-supplemental-lesson-detail-rows.md) are not supported with calculation groups.
+[Detail Rows Expressions](../tutorial-tabular-1400/as-supplemental-lesson-detail-rows.md) aren't supported with calculation groups.
 
-[Smart narrative](/power-bi/visuals/power-bi-visualization-smart-narrative) visuals in Power BI are not supported with calculation groups.
+[Smart narrative](/power-bi/visuals/power-bi-visualization-smart-narrative) visuals in Power BI aren't supported with calculation groups.
 
-Implicit column aggregations in Power BI are not supported for models with calculation groups. Currently, if **DiscourageImplicitMeasures** property is set to **false** (default), aggregation options appear, however they cannot be applied. If **DiscourageImplicitMeasures** is set to **true**, aggregation options do not appear.
+Implicit column aggregations in Power BI aren't supported for models with calculation groups. Currently, if **DiscourageImplicitMeasures** property is set to **false** (default), aggregation options appear, however they cannot be applied. If **DiscourageImplicitMeasures** is set to **true**, aggregation options don't appear.
 
-When creating Power BI reports using LiveConnection, Dynamic format strings are not applied to report-level measures.
+When creating Power BI reports using LiveConnection, Dynamic format strings aren't applied to report-level measures.
 
 ## See also  
 
