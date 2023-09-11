@@ -1,7 +1,7 @@
 ---
 title: "Calculation groups in Analysis Services tabular models | Microsoft Docs"
 description: Learn how calculation groups can significantly reduce the number of redundant measures by grouping common measure expressions as calculation items. 
-ms.date: 08/17/2021
+ms.date: 09/11/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
@@ -15,18 +15,6 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 [!INCLUDE[appliesto-sql2019-later-aas-pbip](../includes/appliesto-sql2019-later-aas-pbip.md)]
 
 Calculation groups can significantly reduce the number of redundant measures by grouping common measure expressions as *calculation items*. Calculation groups are supported in tabular models at the 1500 and higher [compatibility level](compatibility-level-for-tabular-models-in-analysis-services.md).  
-
-This article describes: 
-
-> [!div class="checklist"]
-> * Benefits 
-> * How calculation groups work
-> * Dynamic format strings
-> * Precedence
-> * Sideways recursion
-> * Ordering
-> * How to create
-> * Limitations
 
 ## Benefits
 
@@ -259,44 +247,203 @@ Precedence is a property defined for a calculation group. It specifies the order
 
 ### Precedence example
 
-Let's look at a simple example. Here's calculation group with two calculation items:
+Let's look at a simple example. This model has a measure with a specified value of 10, and two calculation groups, each with a single calculation item. We're going to apply both calculation group’s calculation item to the measure, like this:
 
 ```dax
 ‘Measure group’[Measure] = 10
-    (Precedence 100): ‘Calc Group 1’[Calc item 1 (Plus 2)] = SELECTEDMEASURE() + 2
-    (Precedence 200): ‘Calc Group 2’[Calc item 2 (Time 2)] = SELECTEDMEASURE() * 2
 
 ```
 
-In Power BI Desktop, it looks like this:
+The first calculation group is 'Calc Group 1 (Precedence 100)' and the calculation item is 'Calc item (Plus 2)':
+
+```dax
+'Calc Group 1 (Precedence 100)'[Calc item (Plus 2)] = SELECTEDMEASURE() + 2
+``````
+
+The second calculation group is 'Calc Group 2 (Precedence 200)' and the calculation item is 'Calc item (Times 2)':
+
+```dax
+'Calc Group 2 (Precedence 200)'[Calc item (Times 2)] = SELECTEDMEASURE() * 2
+``````
+
+You can see calculation group 1 has a precedence value of 100, and calculation group 2 has a precedence value of 200.
+
+By using SQL Server Management Studio (SSMS) or an external tool with [XMLA read-write](/power-bi/enterprise/service-premium-connect-tools.md) features, like the open-source Tabular Editor, you can use XMLA scripts to create calculation groups and set the precedence values. Here we add :::no-loc text=""Calc group 1 (Precedence 100)""::::
+
+```xml
+{
+  "createOrReplace": {
+    "object": {
+      "database": "CHANGE TO YOUR DATASET NAME",
+      "table": "Calc group 1 (Precedence 100)"
+    },
+    "table": {
+      "name": "Calc group 1 (Precedence 100)",
+      "calculationGroup": {
+        "precedence": 100,
+        "calculationItems": [
+          {
+            "name": "Calc item (Plus 2)",
+            "expression": "SELECTEDMEASURE() + 2",
+          }
+        ]
+      },
+      "columns": [
+        {
+          "name": "Calc group 1 (Precedence 100)",
+          "dataType": "string",
+          "sourceColumn": "Name",
+          "sortByColumn": "Ordinal",
+          "summarizeBy": "none",
+          "annotations": [
+            {
+              "name": "SummarizationSetBy",
+              "value": "Automatic"
+            }
+          ]
+        },
+        {
+          "name": "Ordinal",
+          "dataType": "int64",
+          "isHidden": true,
+          "sourceColumn": "Ordinal",
+          "summarizeBy": "sum",
+          "annotations": [
+            {
+              "name": "SummarizationSetBy",
+              "value": "Automatic"
+            }
+          ]
+        }
+      ],
+      "partitions": [
+        {
+          "name": "Partition",
+          "mode": "import",
+          "source": {
+            "type": "calculationGroup"
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+And this script adds :::no-loc text=""Calc group 2 (Precedence 200)""::::
+
+```xml
+{
+  "createOrReplace": {
+    "object": {
+      "database": "CHANGE TO YOUR DATASET NAME",
+      "table": "Calc group 2 (Precedence 200)"
+    },
+    "table": {
+      "name": "Calc group 2 (Precedence 200)",
+      "calculationGroup": {
+        "precedence": 200,
+        "calculationItems": [
+          {
+            "name": "Calc item (Times 2)",
+            "expression": "SELECTEDMEASURE() * 2"
+          }
+        ]
+      },
+      "columns": [
+        {
+          "name": "Calc group 2 (Precedence 200)",
+          "dataType": "string",
+          "sourceColumn": "Name",
+          "sortByColumn": "Ordinal",
+          "summarizeBy": "none",
+          "annotations": [
+            {
+              "name": "SummarizationSetBy",
+              "value": "Automatic"
+            }
+          ]
+        },
+        {
+          "name": "Ordinal",
+          "dataType": "int64",
+          "isHidden": true,
+          "sourceColumn": "Ordinal",
+          "summarizeBy": "sum",
+          "annotations": [
+            {
+              "name": "SummarizationSetBy",
+              "value": "Automatic"
+            }
+          ]
+        }
+      ],
+      "partitions": [
+        {
+          "name": "Partition",
+          "mode": "import",
+          "source": {
+            "type": "calculationGroup"
+          }
+        }
+      ]
+    }
+  }
+}
+
+``````
+
+In Power BI Desktop, we have a card visual showing the measure and a slicer for each of the calculation groups in the report view:
 
 :::image type="content" source="media/calculation-groups/calc-groups-precedence-separate.png" alt-text="Measure group separate expressions.":::
 
-To combine these DAX expressions, we start with the highest precedence, 200, and replace the `SELECTEDMEASURE() * 2` argument with the next highest, 100, like this,**`( SELECTEDMEASURE() + 2 ) * 2`**.
+When both slicers are selected, we need to combine the DAX expressions. To do that, we start with the highest precedence calculation item, 200, and then replace the SELECTEDMEASURE() argument with the next highest, 100.
 
-
-
-If there are more calculation items, we continue until we get to the underlying measure, like this:
+So, our highest precedence calculation item DAX expression is:
 
 ```dax
-( SELECTEDMEASURE() + 2 ) * 2  ( ( 10 ) + 2 ) * 2
+SELECTEDMEASURE() * 2 
 ``````
 
-When there are no more SELECTEDMEASURE() arguments, the combined DAX expression is then evaluated:
+And our second highest precedence calculation item DAX expression is:
+
+```dax
+SELECTEDMEASURE() + 2 
+```
+
+Now they're combined by replacing the SELECTEDMEASURE() portion of the highest precedence calculation item with the next highest precedence calculation item, like this:
+
+```dax
+( SELECTEDMEASURE() + 2 ) * 2
+``````
+
+Then if there are more calculation items we continue until we get to the underlying measure. There are only two calculation groups in this model, so we now replace the SELECTEDMEASURE() with the measure itself, like this:
+
+```dax
+( ( [Measure] ) + 2 ) * 2
+``````
+
+As our :::no-loc text="Measure = 10":::, this is the same as:
+
+```dax
+( ( 10 ) + 2 ) * 2
+``````
+
+When there are no more SELECTEDMEASURE() arguments, the combined DAX expression is evaluated:
 
 ```dax
 ( ( 10 ) + 2 ) * 2 = 24
 ``````
 
-In Power BI Desktop, when both calculation groups are applied with a  slicer, the measure output looks like this:
+In Power BI Desktop, when both calculation groups are applied with a slicer, the measure output looks like this:
 
 :::image type="content" source="media/calculation-groups/calc-groups-precedence-combined.png" alt-text="Measure group combined expressions.":::
 
-But keep in mind, the combination is nested in such a way that the output won't be 10 + 2 * 2 = 14, as you see here:
+But keep in mind, the combination is nested in such a way that the output won't be 10 + 2 * 2 = 14 as you see here:
 
 :::image type="content" source="media/calculation-groups/calc-groups-precedence-nested.png" alt-text="Measure group nested expressions.":::
 
-For simple transformations, the evaluation will be from lower to higher precedence. For example, 10 has 2 added, then it's multiplied by 2. In DAX there are functions like CALCULATE that apply filters or context changes to inner expressions, so in this case the higher precedence will alter a lower precedence expression.
+For simple transformations, the evaluation is from lower to higher precedence. For example, 10 has 2 added, then it's multiplied by 2. In DAX there are functions like CALCULATE that apply filters or context changes to inner expressions. In this case the higher precedence alters a lower precedence expression.
 
 Precedence also determines which dynamic format string is applied to the combined DAX expression for each measure. The highest precedence calculation group dynamic format string is the only one applied. If a measure itself has a dynamic format string, it's considered a lower precedence to any calculation group in the model.
 
@@ -454,7 +601,7 @@ Calculation groups are supported in Visual Studio with Analysis Services Project
 
 ### To create a calculation group by using Visual Studio
 
-1. In Tabular Model Explorer, right-click **Calculation Groups**, and then click **New Calculation Group**. By default, a new calculation group will have a single column and a single calculation item.
+1. In Tabular Model Explorer, right-click **Calculation Groups**, and then click **New Calculation Group**. By default, a new calculation group has a single column and a single calculation item.
 
 2. Use **Properties** to change the name and enter a description for the calculation group, column, and default calculation item.
 
@@ -468,7 +615,7 @@ Calculation groups are supported in Visual Studio with Analysis Services Project
 
 2. Name the column Ordinal (or something similar), enter a description, and then set the **Hidden** property to True.
 
-3. For each calculation item you want to order, set the **Ordinal** property to a positive number. Each number is sequential, for example, a calculation item with an Ordinal property of 1 will appear first, a property of 2 will appear second, and so on. Calculation items with the default -1 are not included in the ordering, but will appear before ordered items in a report.
+3. For each calculation item you want to order, set the **Ordinal** property to a positive number. Each number is sequential, for example, a calculation item with an Ordinal property of 1 appears first, a property of 2 appears second, and so on. Calculation items with the default -1 are not included in the ordering, but appear before ordered items in a report.
 
 ## Limitations
 
