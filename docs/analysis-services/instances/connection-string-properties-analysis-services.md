@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-This article describes connection string properties used by client applications that connect to and query Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), and Power BI Premium dataset data. These properties are used by the Analysis Services client libraries, ADOMD.NET, AMO, and OLE DB (MSOLAP) provider for Analysis Services. The majority of connection string properties can be used with all three client libraries. Exceptions are called out in the description.
+This article describes connection string properties used by client applications that connect to and query Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), and Power BI Premium dataset data. These properties are used by the Analysis Services client libraries, ADOMD.NET, AMO, and OLE DB (MSOLAP) provider for Analysis Services. Most connection string properties can be used with all three client libraries. Exceptions are called out in the description.
 
 Use the **Version** selector above the table of contents to the left to see only those properties that apply to a particular platform or version.
 
@@ -134,7 +134,7 @@ Indicates the level of impersonation that the server is allowed to use when impe
 
 The Windows identity of the caller is used to connect to Analysis Services. Valid values are  **SSPI**, **blank**, **Basic**, and **ClaimsToken***.
 
-SSPI is the default value for TCP connections, allowing NTLM, Kerberos, or Anonymous authentication. For Azure AS and Power BI Premium **SSPI** indicates AD Translation. When using SSPI, **ProtectionLevel** property must be set to Connect, Pkt Integrity, or Pkt Privacy.
+SSPI is the default value for TCP connections, allowing NTLM, Kerberos, or Anonymous authentication. For Azure AS and Power BI Premium, **SSPI** indicates AD Translation. When using SSPI, **ProtectionLevel** property must be set to Connect, Pkt Integrity, or Pkt Privacy.
 
 blank is the default value for HTTP connections.
 
