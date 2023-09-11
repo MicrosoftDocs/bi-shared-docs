@@ -268,7 +268,7 @@ The second calculation group is 'Calc Group 2 (Precedence 200)' and the calculat
 
 You can see calculation group 1 has a precedence value of 100, and calculation group 2 has a precedence value of 200.
 
-By using SQL Server Management Studio (SSMS) or an external tool with [XMLA read-write](/power-bi/enterprise/service-premium-connect-tools.md) features, like the open-source Tabular Editor, you can use XMLA scripts to create calculation groups and set the precedence values. Here we add :::no-loc text=""Calc group 1 (Precedence 100)""::::
+By using SQL Server Management Studio (SSMS) or an external tool with [XMLA read-write](/power-bi/enterprise/service-premium-connect-tools) features, like the open-source Tabular Editor, you can use XMLA scripts to create calculation groups and set the precedence values. Here we add :::no-loc text=""Calc group 1 (Precedence 100)""::::
 
 ```xml
 {
