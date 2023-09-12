@@ -247,20 +247,20 @@ Precedence is a property defined for a calculation group. It specifies the order
 
 ### Precedence example
 
-Let's look at a simple example. This model has a measure with a specified value of 10, and two calculation groups, each with a single calculation item. We're going to apply both calculation group’s calculation item to the measure, like this:
+Let's look at a simple example. This model has a measure with a specified value of 10, and two calculation groups, each with a single calculation item. We’re going to apply both calculation group’s calculation items to the measure. This is how we set it up:
 
 ```dax
-‘Measure group’[Measure] = 10
+'Measure group'[Measure] = 10
 
 ```
 
-The first calculation group is 'Calc Group 1 (Precedence 100)' and the calculation item is 'Calc item (Plus 2)':
+The first calculation group is `'Calc Group 1 (Precedence 100)'` and the calculation item is `'Calc item (Plus 2)'`:
 
 ```dax
 'Calc Group 1 (Precedence 100)'[Calc item (Plus 2)] = SELECTEDMEASURE() + 2
 ``````
 
-The second calculation group is 'Calc Group 2 (Precedence 200)' and the calculation item is 'Calc item (Times 2)':
+The second calculation group is `'Calc Group 2 (Precedence 200)'` and the calculation item is `'Calc item (Times 2)'`:
 
 ```dax
 'Calc Group 2 (Precedence 200)'[Calc item (Times 2)] = SELECTEDMEASURE() * 2
@@ -268,7 +268,7 @@ The second calculation group is 'Calc Group 2 (Precedence 200)' and the calculat
 
 You can see calculation group 1 has a precedence value of 100, and calculation group 2 has a precedence value of 200.
 
-By using SQL Server Management Studio (SSMS) or an external tool with [XMLA read-write](/power-bi/enterprise/service-premium-connect-tools) features, like the open-source Tabular Editor, you can use XMLA scripts to create calculation groups and set the precedence values. Here we add :::no-loc text=""Calc group 1 (Precedence 100)""::::
+By using SQL Server Management Studio (SSMS) or an external tool with [XMLA read-write](/power-bi/enterprise/service-premium-connect-tools) features, like the open-source Tabular Editor, you can use XMLA scripts to create calculation groups and set the precedence values. Here we add `"Calc group 1 (Precedence 100)"`:
 
 ```xml
 {
@@ -330,7 +330,7 @@ By using SQL Server Management Studio (SSMS) or an external tool with [XMLA read
 }
 ```
 
-And this script adds :::no-loc text=""Calc group 2 (Precedence 200)""::::
+And this script adds `"Calc group 2 (Precedence 200)"`:
 
 ```xml
 {
