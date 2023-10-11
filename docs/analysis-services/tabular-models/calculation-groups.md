@@ -235,11 +235,100 @@ SELECTEDVALUE(
 )
 ```
 
+> [!NOTE]
+> [Selection expressions](#selection-expressions-preview) for calculation groups are currently in preview and can be used to implement automatic currency conversion on calculation groups, removing the need to have two seperate calculation items.
+
 The format string expression must return a scalar string. It uses the new [SELECTEDMEASUREFORMATSTRING](/dax/selectedmeasureformatstring-function-dax) function to revert to the base measure format string if there are multiple currencies in filter context.
 
 The following animation shows the dynamic format currency conversion of the **Sales** measure in a report.
 
 ![Currency conversion dynamic format string applied](media/calculation-groups/calc-groups-dynamic-format-string.gif)
+
+## Selection expressions (preview)
+
+Selection expressions are optional properties defined for a calculation group. There are two types of selection expressions:
+-	**MultipleOrEmptySelectionExpression**. This selection expression is applied when multiple calculation items have been selected, an non-existing calculation item has been selected or when a conflicting selection has been made.
+- **NoSelectionExpression**. This selection expression is applied when the calculation group is not filtered.
+
+Both of these selection expressions also have a [dynamic format string](#dynamic-format-strings) expression. 
+
+ > [!NOTE]  
+ > These expressions, if specified are only applied for the specific situations mentioned. A single selection of a valid calculation group item is not impacted.
+
+ Here is an overview of these expressions and their default behavior if not specified:
+ |Type of selection|Selection expression not defined (default)|Selection expression defined|
+ |--|--|--|
+ |Single selection|Selection is applied, calculation group is filtered to selection|Selection is applied, calculation group is filtered to selection|
+ |Multiple selection|Return a blank result|Return result of evaluating MultipleOrEmptySelectionExpression|
+ |Empty selection|Return a blank result|Return result of evaluating MultipleOrEmptySelectionExpression|
+ |No selection|No selection is applied, calculation group is not filtered|Return result of evaluating NoSelectionExpression|
+ 
+ ### Multiple or Empty selection
+
+ If multiple selections on the same calculation group are made, the calculation group will evaluate and return the result of the MultipleOrEmptySelectionExpression if defined. If this expression has not been defined the calculation group will return the following result:
+
+```dax
+BLANK()
+```
+
+As an example, let's look at a calculation group called MyCalcGroup that has a MultiplOrEmptySelectionExpression configured as follows:
+```dax
+IF (
+ISFILTERED ( 'Time Intelligence' ),
+    "Filters: " 
+         & CONCATENATEX ( 
+  	            FILTERS ( 'Time Intelligence'[Time Calc] ),
+            'Time Intelligence'[Time Calc], 
+            ", "
+     	   )
+)
+```
+
+Now, imagine the following selection on the calculation group:
+```dax
+EVALUATE
+{
+    CALCULATE (
+        [MyMeasure],
+        'MyCalcGroup'[Name] = "item1" || 'MyCalcGroup'[Name] = "item2"
+    )
+}
+
+```
+
+Here, we select two items on the calculation group, "item1" and "item2". This is a multiple selection and hence the MultipleOrEmptySelection expression is evaluated and returns the following result: **"Filters: item1, item2"**.
+
+### No selection
+The NoSelectionExpression on a calculation group will be applied if the calculation group has not been filtered. This is mostly used to perform default actions without the need for the user to take action while still providing flexibliity to the user to override the default action.
+For example, let's look at automatic currency conversion with US Dollar as the central pivot currency.
+
+We can set up a calculation group with the following NoSelectionExpression:
+```dax
+IF (
+    //Check one currency in context & not US Dollar, which is the pivot currency:
+    SELECTEDVALUE (
+        DimCurrency[CurrencyName],
+        "US Dollar"
+    ) = "US Dollar",
+    SELECTEDMEASURE (),
+    SUMX (
+        VALUES ( DimDate[DateKey] ),
+        CALCULATE (
+            DIVIDE ( SELECTEDMEASURE (), MAX ( FactCurrencyRate[EndOfDayRate] ) )
+        )
+    )
+)
+```
+
+We will also set a dynamic format string for this expression:
+```dax
+SELECTEDVALUE(
+  DimCurrency[FormatString],
+  SELECTEDMEASUREFORMATSTRING()
+)
+```
+
+Now, if no currency is selected all currencies will be automatically converted to the pivot currency (US Dollar) as necessary. On top of that, you can still pick another currency to convert to that currency without having to switch calculation items as you would have to do without the NoSelectionExpression.
 
 ## Precedence
 
