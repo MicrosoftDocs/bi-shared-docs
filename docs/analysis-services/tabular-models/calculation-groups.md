@@ -247,38 +247,54 @@ The following animation shows the dynamic format currency conversion of the **Sa
 ## Selection expressions (preview)
 
 Selection expressions are optional properties defined for a calculation group. There are two types of selection expressions:
--	**MultipleOrEmptySelectionExpression**. This selection expression is applied when multiple calculation items have been selected, an non-existing calculation item has been selected or when a conflicting selection has been made.
-- **NoSelectionExpression**. This selection expression is applied when the calculation group is not filtered.
+-	**multipleOrEmptySelectionExpression**. This selection expression is applied when multiple calculation items have been selected, a non-existing calculation item has been selected or when a conflicting selection has been made.
+- **noSelectionExpression**. This selection expression is applied when the calculation group is not filtered.
 
-Both of these selection expressions also have a [dynamic format string](#dynamic-format-strings) expression. 
+Both of these selection expressions also have a formatStringDefinition[dynamic format string](#dynamic-format-strings) expression. 
+
+In summary, on a calculation group the following can be defined:
+```
+...
+calculationGroup": {
+  "multipleOrEmptySelectionExpression": {
+  "expression": "",
+  "formatStringDefinition": ""
+  },
+  "noSelectionExpression": {
+  "expression": "",
+  "formatStringDefinition": ""
+  }
+...
+}
+```
 
  > [!NOTE]  
- > These expressions, if specified are only applied for the specific situations mentioned. A single selection of a valid calculation group item is not impacted.
+ > These expressions, if specified, are only applied for the specific situations mentioned. Selections for a single calculation item are not impacted by these expressions.
 
  Here is an overview of these expressions and their default behavior if not specified:
  |Type of selection|Selection expression not defined (default)|Selection expression defined|
  |--|--|--|
- |Single selection|Selection is applied, calculation group is filtered to selection|Selection is applied, calculation group is filtered to selection|
- |Multiple selection|Return a blank result|Return result of evaluating MultipleOrEmptySelectionExpression|
- |Empty selection|Return a blank result|Return result of evaluating MultipleOrEmptySelectionExpression|
- |No selection|No selection is applied, calculation group is not filtered|Return result of evaluating NoSelectionExpression|
+ |Single selection|Selection is applied|Selection is applied|
+ |Multiple selection|Return a blank result|Return result of evaluating multipleOrEmptySelectionExpression|
+ |Empty selection|Return a blank result|Return result of evaluating multipleOrEmptySelectionExpression|
+ |No selection|Nothing is applied, calculation group is not filtered|Return result of evaluating noSelectionExpression|
  
  ### Multiple or Empty selection
 
- If multiple selections on the same calculation group are made, the calculation group will evaluate and return the result of the MultipleOrEmptySelectionExpression if defined. If this expression has not been defined the calculation group will return the following result:
+ If multiple selections on the same calculation group are made, the calculation group will evaluate and return the result of the multipleOrEmptySelectionExpression if defined. If this expression has not been defined the calculation group will return the following result:
 
 ```dax
 BLANK()
 ```
 
-As an example, let's look at a calculation group called MyCalcGroup that has a MultiplOrEmptySelectionExpression configured as follows:
+As an example, let's look at a calculation group called MyCalcGroup that has a multipleOrEmptySelectionExpression configured as follows:
 ```dax
 IF (
-ISFILTERED ( 'Time Intelligence' ),
+ISFILTERED ( 'MyCalcGroup' ),
     "Filters: " 
          & CONCATENATEX ( 
-  	            FILTERS ( 'Time Intelligence'[Time Calc] ),
-            'Time Intelligence'[Time Calc], 
+  	            FILTERS ( 'MyCalcGroup'[Name] ),
+            'MyCalcGroup'[Name], 
             ", "
      	   )
 )
@@ -296,13 +312,27 @@ EVALUATE
 
 ```
 
-Here, we select two items on the calculation group, "item1" and "item2". This is a multiple selection and hence the MultipleOrEmptySelection expression is evaluated and returns the following result: **"Filters: item1, item2"**.
+Here, we select two items on the calculation group, "item1" and "item2". This is a multiple selection and hence the multipleOrEmptySelectionExpression is evaluated and returns the following result: **"Filters: item1, item2"**.
+
+Next, take the following selection on the calculation group:
+
+```dax
+EVALUATE
+{
+    CALCULATE (
+        [MyMeasure],
+        'MyCalcGroup'[Name] = "item4" -- item4 does not exists
+    )
+}
+```
+
+This is an example of an empty selection, as "item4" does not exist on this calculation group. Therefore, the multipleOrEmptySelectionExpression is evaluated and returns the following result: **"Filters: "**.
 
 ### No selection
-The NoSelectionExpression on a calculation group will be applied if the calculation group has not been filtered. This is mostly used to perform default actions without the need for the user to take action while still providing flexibliity to the user to override the default action.
+The noSelectionExpression on a calculation group will be applied if the calculation group has not been filtered. This is mostly used to perform default actions without the need for the user to take action while still providing flexibliity to the user to override the default action.
 For example, let's look at automatic currency conversion with US Dollar as the central pivot currency.
 
-We can set up a calculation group with the following NoSelectionExpression:
+We can set up a calculation group with the following noSelectionExpression:
 ```dax
 IF (
     //Check one currency in context & not US Dollar, which is the pivot currency:
@@ -320,7 +350,7 @@ IF (
 )
 ```
 
-We will also set a dynamic format string for this expression:
+We will also set a formatStringDefinition for this expression:
 ```dax
 SELECTEDVALUE(
   DimCurrency[FormatString],
@@ -328,7 +358,7 @@ SELECTEDVALUE(
 )
 ```
 
-Now, if no currency is selected all currencies will be automatically converted to the pivot currency (US Dollar) as necessary. On top of that, you can still pick another currency to convert to that currency without having to switch calculation items as you would have to do without the NoSelectionExpression.
+Now, if no currency is selected all currencies will be automatically converted to the pivot currency (US Dollar) as necessary. On top of that, you can still pick another currency to convert to that currency without having to switch calculation items as you would have to do without the noSelectionExpression.
 
 ## Precedence
 
