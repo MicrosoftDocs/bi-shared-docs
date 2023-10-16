@@ -102,7 +102,7 @@ server.Connect(connectStringUser);
 
 #### Authenticating with a service principal
 
-It's also quite easy to authenticate as a service principal instead of as a user. If you've created an Azure AD application with an Application ID and an application secret, you can authenticate your code to run as the service principal for the Azure AD application by using the following code sample:
+It's also quite easy to authenticate as a service principal instead of as a user. If you've created a Microsoft Entra application with an Application ID and an application secret, you can authenticate your code to run as the service principal for the Microsoft Entra application by using the following code sample:
 
 ```dotnetcli
 string workspaceConnection = "powerbi://api.powerbi.com/v1.0/myorg/YOUR_WORKSPACE";
@@ -115,9 +115,11 @@ server.Connect(connectStringApp);
 
 To program with TOM and access a dataset as a service principal, you must configure a tenant-level Power BI setting in the Power BI Admin portal. The steps for configuring Power BI to support connecting as a service principal is described in [Embed Power BI content with service principal and an application secret](/power-bi/developer/embedded/embed-service-principal).
 
-#### Authenticating with an Azure AD access token
+<a name='authenticating-with-an-azure-ad-access-token'></a>
 
-TOM also provides flexibility when establishing a connection using a valid Azure AD access token. If you have the developer skills to implement an authentication flow with Azure AD and acquire access tokens, you can format your TOM connection string without a user name, but include the access token as the password instead, as shown in the following code sample:
+#### Authenticating with a Microsoft Entra access token
+
+TOM also provides flexibility when establishing a connection using a valid Microsoft Entra access token. If you have the developer skills to implement an authentication flow with Microsoft Entra ID and acquire access tokens, you can format your TOM connection string without a user name, but include the access token as the password instead, as shown in the following code sample:
 
 ```dotnetcli
 public static void ConnectToPowerBIAsUser() {
@@ -138,7 +140,7 @@ public static readonly string[] XmlaScopes = new string[] {
 };
 ```
 
-If you've been programming with the Power BI REST API, you might recognize familiar permissions such as **Content.Create**, **Dataset.ReadWrite.All** and **Workspace.ReadWrite.All**. An interesting observation is that TOM uses the same set of delegated permissions as the Power BI REST API defined within the scope of the Azure AD resource ID of `https://analysis.windows.net/powerbi/api`.
+If you've been programming with the Power BI REST API, you might recognize familiar permissions such as **Content.Create**, **Dataset.ReadWrite.All** and **Workspace.ReadWrite.All**. An interesting observation is that TOM uses the same set of delegated permissions as the Power BI REST API defined within the scope of the Microsoft Entra resource ID of `https://analysis.windows.net/powerbi/api`.
 
 The fact that both the XMLA endpoint and the Power BI REST API share the same set of delegated permissions has its benefits. Access tokens can be used interchangeably between TOM and the Power BI REST API. Once you have acquired an access token to call into TOM to create a new dataset, you can use the same access token to call the Power BI REST API to set the data source credentials, as described later in this article.
 
