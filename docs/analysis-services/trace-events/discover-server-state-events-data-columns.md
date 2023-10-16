@@ -32,7 +32,7 @@ author: minewiskan
 |StartTime|3|5|Contains the time at which the event started, when available. For filtering, expected formats are 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'.|  
 |ConnectionID|25|1|Contains the unique connection ID associated with the server state discover event.|  
 |NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
-|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Microsoft Entra accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |ClientProcessID|36|1|Contains the process ID of the client application that created the connection to the server.|  
 |ApplicationName|37|8|Contains the name of the client application that created the connection to the server. This column is populated with the values passed by the application rather than the displayed name of the program.|  
 |SessionID|39|8|Contains the session ID associated with the server state discover event.|  
@@ -69,7 +69,7 @@ author: minewiskan
 |CPUTime|6|2|Contains the amount of CPU time (in milliseconds) used by the server state discover event.|  
 |ConnectionID|25|1|Contains the unique connection ID associated with the server state discover event.|  
 |NTUserName|32|8|Contains the user name associated with the command event. Depending on the environment, the user name is in the following form:</br> - Windows user account (DOMAIN\UserName)</br> - User Principal Name (UPN) (username@domain.com)</br> - Service  Principal Name (SPN) (appid@tenantid)</br> - Power BI Service Account  (Power BI Service)</br> - Power BI Service on behalf of a UPN or SPN (Power BI Service (UPN/SPN))|  
-|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
+|NTDomainName|33|8|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Microsoft Entra accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|  
 |ClientProcessID|36|1|Contains the process ID of the client application that initiated the XMLA request.|  
 |ApplicationName|37|8|Contains the name of the client application that created the connection to the server. This column is populated with the values passed by the application rather than the displayed name of the program.|  
 |SessionID|39|8|Contains the Windows domain account associated with the server state discover event.|  

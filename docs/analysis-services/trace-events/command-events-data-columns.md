@@ -37,7 +37,7 @@ author: minewiskan
 |SPID|Contains the server process ID (SPID) that uniquely identifies the user session that is associated with the command event. The SPID directly corresponds to the session GUID used by XMLA.|  
 |StartTime|Contains the time at which the command event started, if available.|  
 |SessionType|Contains the entity that caused the operation.|  
-|NTDomainName|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|
+|NTDomainName|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Microsoft Entra accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|
 |ClientProcessID|Contains the unique client process ID associated with the command event.|  
   
 ##  <a name="bkmk_2"></a> Command End Class—Data Columns  
@@ -61,7 +61,7 @@ author: minewiskan
 |Severity|Contains the severity level of an exception associated with the command event. Values are:<br /><br /> 0 = Success<br /><br /> 1 = Informational<br /><br /> 2 = Warning<br /><br /> 3 = Error|  
 |Success|Contains the success or failure of the command event. Values are:<br /><br /> 0 = Failure<br /><br /> 1 = Success|  
 |SessionType|Contains the entity that caused the operation associated with the command end event.|  
-|NTDomainName|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Azure Active Directory accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|
+|NTDomainName|Contains the domain name associated with the user account that triggered the command event. </br> - Windows domain name for Windows user accounts</br> - AzureAD for Microsoft Entra accounts</br> - NT AUTHORITY accounts without a Windows domain name, such as the Power BI service|
 |ClientProcessID|Contains the unique client process ID associated with the command event.|  
 
 <a name="extauth">1</a> - An internal service-generated command to perform authentication.
