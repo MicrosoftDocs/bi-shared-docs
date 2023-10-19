@@ -1,6 +1,7 @@
 - name: Power Platform
   tocHref: /analysis-services/
   topicHref: /power-platform/index
+  items:
   - name: Power BI
     tocHref: /analysis-services/
     topicHref: /power-bi/index
