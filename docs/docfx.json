@@ -53,7 +53,6 @@
       "uhfHeaderId": "MSDocsHeader-MSPowerBI",
       "layout": "Conceptual",
       "breadcrumb_path": "/analysis-services/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
       "feedback_system": "Standard",
       "_op_documentIdPathDepotMapping": {
         "analysis-services/": {
@@ -90,7 +89,22 @@
         "analysis-services/csdlbi/**/*.md": "asallproducts-allversions || >= sql-analysis-services-2016",
         "analysis-services/tutorial-tabular-1200/**/*.md": "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016",
         "analysis-services/tutorial-tabular-1400/**/*.md": "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2017"
-      }
+      },
+
+      "ms.custom": {
+        "adomd/*.md": "UpdateFrequency3",
+        "amo/*.md": "UpdateFrequency3",
+        "assl/guide/data/*.md": "UpdateFrequency5",
+        "data-mining/*.md": "UpdateFrequency5",
+        "multidimensional-models/*.md": "UpdateFrequency5",
+        "multidimensional-models-extending-olap-stored-procedures/*.md": "UpdateFrequency5",
+        "multidimensional-models-olap-logical-cube-objects/*.md": "UpdateFrequency5",
+        "multidimensional-models-olap-logical-dimension-objects/*.md": "UpdateFrequency5",
+        "multidimensional-models-scripting-language-assl-xmla/*.md": "UpdateFrequency5",
+        "multidimensional-tutorial/*.md": "UpdateFrequency3",
+        "trace-events/*.md": "UpdateFrequency5",
+        "xmla/*.md": "UpdateFrequency5"
+        }   
     },
 
     "template": [],
