@@ -53,7 +53,15 @@ For multidimensional model databases at all compatibility levels, the following 
 
 "**Multi-dimensional database '%{DatabaseName/}' is not using latest encryption schema. Please create a backup file and restore DB from backup file with the option EnsureProperEncryption to upgrade to the latest encryption.**"
 
-To upgrade encryption, backup the database and then restore with the **EnsureProperEncryption** option enabled.
+To upgrade encryption, backup the database and then restore with the **EnsureProperEncryption** option enabled OR, starting SQL Server 2022 Analysis CU9,  run the following XMLA command in SQL Server Management Studio:
+
+```xml
+<RemoveDiscontinuedFeatures xmlns='http://schemas.microsoft.com/analysisservices/2003/engine' xmlns:ddl922='http://schemas.microsoft.com/analysisservices/2022/engine/922'>
+  <DatabaseID>DatabaseName</DatabaseID>
+  <ddl922:EnsureProperEncryption>true</ddl922:EnsureProperEncryption>
+</RemoveDiscontinuedFeatures>
+
+```
 
 ## Known issues
 
