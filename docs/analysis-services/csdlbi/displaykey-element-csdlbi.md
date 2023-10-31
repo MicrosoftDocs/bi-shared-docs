@@ -1,7 +1,7 @@
 ---
 title: "DisplayKey Element (CSDLBI) | Microsoft Docs"
 description: Learn about the DisplayKey element, a child of the EntityType element that contains elements that together constitute a strong identifier.
-ms.date: 07/19/2021
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference

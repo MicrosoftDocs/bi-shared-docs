@@ -1,7 +1,7 @@
 ---
 title: "Customize Mining Models and Structure | Microsoft Docs"
 description: Learn about options to customize a mining model after you select an algorithm that meets your business needs.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

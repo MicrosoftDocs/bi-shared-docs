@@ -1,7 +1,7 @@
 ---
 title: "Logical Architecture (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about the logical architecture of the objects in a data mining solution in SQL Server Analysis Services.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
 title: "DefaultDetails Element (CSDLBI) | Microsoft Docs"
 description: Learn how the DefaultDetails element represents a list of property references that together define the "default field set" of columns in the table. 
-ms.date: 07/19/2021
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference

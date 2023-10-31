@@ -1,7 +1,7 @@
 ---
 title: "Redistributing ADOMD.NET | Microsoft Docs"
 description: Learn how to redistribute ADOMD.NET and include the ADOMD.NET setup program in your application's setup program.
-ms.date: 01/19/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
 ms.topic: conceptual

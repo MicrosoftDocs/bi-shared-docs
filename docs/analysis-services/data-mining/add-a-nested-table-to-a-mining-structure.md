@@ -1,7 +1,7 @@
 ---
 title: "Add a Nested Table to a Mining Structure | Microsoft Docs"
 description: Use Data Mining Designer to add a nested table to a mining structure after it has been created by the Data Mining Wizard.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
