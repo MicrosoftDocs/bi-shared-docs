@@ -1,7 +1,7 @@
 ---
 title: "Mining Model Content (Analysis Services - Data Mining) | Microsoft Docs"
 description: learn about the basic structure of the content provided for all kinds of mining models and the node types that are common to all mining model content.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

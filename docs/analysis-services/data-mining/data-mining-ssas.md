@@ -1,7 +1,7 @@
 ---
 title: "Data Mining (Analysis Services) | Microsoft Docs"
 description: Learn about the benefits and key features of data mining, also called predictive analytics and machine learning, in SQL Server Analysis Services.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

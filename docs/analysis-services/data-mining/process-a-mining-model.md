@@ -1,7 +1,7 @@
 ---
 title: "Process a Mining Model | Microsoft Docs"
 description: Learn about the tools in Data Mining Designer you can use to process a mining model in SQL Server Analysis Services.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

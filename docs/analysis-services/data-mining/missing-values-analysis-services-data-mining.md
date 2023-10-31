@@ -1,7 +1,7 @@
 ---
 title: "Missing Values (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about missing values and the features provided in to work with missing values when building data mining structures and mining models.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
 title: "Enable Drillthrough for a Mining Model | Microsoft Docs"
 description: Learn how to enable drillthrough for a mining model, so you can retrieve detailed information about the cases that were used to create a model.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

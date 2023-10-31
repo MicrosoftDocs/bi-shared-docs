@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Logistic Regression Algorithm Technical Reference | Microsoft Docs"
 description: Learn about the implemenation of the Microsoft Logistic Regression algorithm in SQL Server Analysis Services.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

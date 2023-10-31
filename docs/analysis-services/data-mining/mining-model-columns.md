@@ -1,7 +1,7 @@
 ---
 title: "Mining Model Columns | Microsoft Docs"
 description: Learn about usage of mining model columns contained in a mining structure in SQL Server Analysis Services.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

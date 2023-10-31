@@ -1,7 +1,7 @@
 ---
 title: "KpiGoal Element (CSDLBI) | Microsoft Docs"
 description: Learn about the KpiGoal element, which provides a reference to the column that is used to define the goal for a key performance indicator (KPI).
-ms.date: 07/19/2021
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference

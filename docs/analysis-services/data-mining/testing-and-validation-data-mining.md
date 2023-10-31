@@ -1,7 +1,7 @@
 ---
 title: "Testing and Validation (Data Mining) | Microsoft Docs"
 description: Learn about basic concepts related to model quality and the strategies for model validation that are provided in SQL Server Analysis Services.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

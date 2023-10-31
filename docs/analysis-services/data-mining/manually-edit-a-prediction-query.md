@@ -1,7 +1,7 @@
 ---
 title: "Manually Edit a Prediction Query | Microsoft Docs"
 description: Learn how to manually edit a prediction query by using the Prediction Query Builder in Data Mining Designer.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

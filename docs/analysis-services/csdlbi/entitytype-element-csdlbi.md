@@ -1,7 +1,7 @@
 ---
 title: "EntityType Element (CSDLBI) | Microsoft Docs"
 description: Learn about the EntityType element, a complex type that represents the structure of a high-level entity, such as a customer or order, in a data model.
-ms.date: 07/19/2021
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
