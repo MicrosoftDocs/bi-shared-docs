@@ -1,7 +1,7 @@
 ---
 title: "Technical Reference for BI Annotations to CSDL | Microsoft Docs"
 description: See the elements, attributes, and properties in CSDL that are used to represent Analysis Services tabular models.
-ms.date: 07/26/2018
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "Exclude a Column from a Mining Model | Microsoft Docs"
 description: Learn how to excluded a column from a data mining model in SQL Server Analysis Services and when excluding a column is helpful.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

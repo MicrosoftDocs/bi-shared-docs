@@ -1,7 +1,7 @@
 ---
 title: "Choose the Column to Use for Testing a Mining Model | Microsoft Docs"
 description: Learn how to choose the column to use for testing a mining model and how to specify the outcome to predict.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

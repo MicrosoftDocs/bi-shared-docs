@@ -1,7 +1,7 @@
 ---
 title: "ADOMD.NET Client Programming | Microsoft Docs"
 description: The ADOMD.NET client components provide the functionality for client and middle-tier applications to easily query data and metadata from an analytical data store.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Query Tasks and How-tos | Microsoft Docs"
 description: Learn how to create queries to make use of data mining models by using these examples in SQL Server Management Studio and SQL Server Data Tools.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

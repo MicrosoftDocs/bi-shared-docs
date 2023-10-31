@@ -1,7 +1,7 @@
 ---
 title: "EntityContainer Element (CSDLBI) | Microsoft Docs"
 description: Learn about the EntityContainer element, a complex type based on EntityContainer, which defines a collection of entities within a single data model.
-ms.date: 07/19/2021
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference

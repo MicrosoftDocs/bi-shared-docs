@@ -1,7 +1,7 @@
 ---
 title: "Import a Data Mining Project using the Analysis Services Import Wizard | Microsoft Docs"
 description: Learn how to import the metadata of an existing data mining project to create a new data mining project in SQL Server Data Tools.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

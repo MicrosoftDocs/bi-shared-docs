@@ -1,7 +1,7 @@
 ---
 title: "Data Mining Concepts | Microsoft Docs"
 description: Learn about the concepts involved in data mining, the process of discovering actional information in large sets of data.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

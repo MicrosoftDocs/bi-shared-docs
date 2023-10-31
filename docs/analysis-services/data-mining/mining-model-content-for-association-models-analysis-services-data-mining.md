@@ -1,7 +1,7 @@
 ---
 title: "Mining Model Content for Association Models (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about mining model content that is specific to models that use the Microsoft Association Rules algorithm in SQL Server Analysis Services.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
