@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Clustering Algorithm Technical Reference | Microsoft Docs"
 description: Learn about the implementation of the Microsoft Clustering algorithm in SQL Server Analysis Services, with guidance improving performance of clustering models.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
 title: "Developing with ADOMD.NET | Microsoft Docs"
 description: Learn how  ADOMD.NET is a Microsoft .NET Framework data provider designed to communicate with Microsoft SQL Server Analysis Services (SSAS).
-ms.date: 04/01/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
 ms.topic: conceptual

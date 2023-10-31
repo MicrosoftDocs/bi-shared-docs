@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Sequence Clustering Algorithm | Microsoft Docs"
 description: Learn about the Microsoft Sequence Clustering algorithm, which that combines sequence analysis with clustering in SQL Server Analysis Services.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

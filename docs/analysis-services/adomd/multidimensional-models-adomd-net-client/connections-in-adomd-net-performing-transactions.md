@@ -1,7 +1,7 @@
 ---
 title: "Performing Transactions in ADOMD.NET | Microsoft Docs"
 description: Learn how to use the AdomdTransaction object in ADOMD.NET to manage transaction context for a given AdomdConnection object.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
 ms.topic: conceptual

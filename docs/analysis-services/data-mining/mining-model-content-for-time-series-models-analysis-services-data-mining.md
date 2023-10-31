@@ -1,7 +1,7 @@
 ---
 title: "Mining Model Content for Time Series Models (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about how nodes that contain information are organized, and what each node means, for mining models that are based on the Microsoft Time Series algorithm.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

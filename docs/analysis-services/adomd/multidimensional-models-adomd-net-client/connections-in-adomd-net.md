@@ -1,7 +1,7 @@
 ---
 title: "Establishing Connections in ADOMD.NET | Microsoft Docs"
 description: Learn how to use the AdomdConnection object in ADOMD.NET to open connections with analytical data sources, such as Microsoft SQL Server Analysis Services databases.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
 ms.topic: conceptual

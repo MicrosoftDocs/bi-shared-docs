@@ -1,7 +1,7 @@
 ---
 title: "Mining Models (Analysis Services - Data Mining) | Microsoft Docs"
 description:  Learn about mining models in SQL Server Analysis Services, which are created by applying an algorithm to make predictions and inferences about relationships.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
