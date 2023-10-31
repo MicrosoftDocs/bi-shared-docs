@@ -1,7 +1,7 @@
 ---
 title: "SystemGetClusterCrossValidationResults (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn how SystemGetClusterCrossValidationResults partitions the mining structure, trains a model for each partition, and returns accuracy metrics.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

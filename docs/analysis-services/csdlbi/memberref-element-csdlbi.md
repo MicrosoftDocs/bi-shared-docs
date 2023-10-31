@@ -1,7 +1,7 @@
 ---
 title: "MemberRef Element (CSDLBI) | Microsoft Docs"
 description: Learn about the MemberRefs element, which identifies the name of a property that is the target of a reference.
-ms.date: 07/19/2021
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference

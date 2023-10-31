@@ -1,7 +1,7 @@
 ---
 title: "ADOMD.NET Server Programming | Microsoft Docs"
 description: Learn how to use ADOMD.NET server components to create custom Multidimensional Expressions (MDX) functions and stored procedures.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
 ms.topic: conceptual

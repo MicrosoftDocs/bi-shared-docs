@@ -1,7 +1,7 @@
 ---
 title: "Conceptual Schema Definition Language for Business Intelligence Reference (Archived)| Microsoft Docs"
 description: Learn about the CSDL schema, which supports data modeling, custom calculations, and enhanced presentation.
-ms.date: 03/13/2020
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference

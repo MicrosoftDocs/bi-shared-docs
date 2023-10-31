@@ -1,7 +1,7 @@
 ---
 title: "Filters for Mining Models (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn how to build, use and manage filters on mining models that help you create mining models that use subsets of data in a mining structure.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

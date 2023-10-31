@@ -1,7 +1,7 @@
 ---
 title: "Conceptual Schema Definition Language (CSDLBI) overview | Microsoft Docs"
 description: Learn about the definition of multidimensional models and tabular models in an XML format called CSDLBI.
-ms.date: 03/13/2020
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference

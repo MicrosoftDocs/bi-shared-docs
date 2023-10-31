@@ -1,7 +1,7 @@
 ---
 title: "Query the Parameters Used to Create a Mining Model | Microsoft Docs"
 description: Learn how to find the parameters that were used when a mining model was created by querying against one of the mining model schema rowsets.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

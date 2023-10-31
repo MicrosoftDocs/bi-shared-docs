@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Time Series Algorithm | Microsoft Docs"
 description: Learn about the Microsoft Time Series algorithm, which provides algorithms optimized for forecasting continuous values, such as product sales, over time.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
