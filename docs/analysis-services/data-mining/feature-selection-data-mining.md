@@ -1,7 +1,7 @@
 ---
 title: "Feature Selection (Data Mining) | Microsoft Docs"
 description: Learn about features selection, which refers to the process of reducing the inputs for processing and analysis, or of finding the most meaningful inputs.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

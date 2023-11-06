@@ -1,7 +1,7 @@
 ---
 title: "Property Element (CSDLBI) | Microsoft Docs"
 description: Learn about the Property element, a complex type that provides additions to the CSDL Property element in support of business intelligence data models.
-ms.date: 07/19/2021
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "Mining Model Tasks and How-tos | Microsoft Docs"
 description: Learn how to manage and process mining models in a mining structure by using the Data Mining Designer in SQL Server Data Tools.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

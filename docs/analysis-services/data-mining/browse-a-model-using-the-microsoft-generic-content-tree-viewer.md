@@ -1,7 +1,7 @@
 ---
 title: "Browse a Model Using the Microsoft Generic Content Tree Viewer | Microsoft Docs"
 description: The Microsoft Generic Mining Model Content Viewer provides detailed information about the patterns found by the mining algorithm.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual

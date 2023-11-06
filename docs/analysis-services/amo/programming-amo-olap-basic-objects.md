@@ -1,7 +1,7 @@
 ---
 title: "Programming AMO OLAP basic objects | Microsoft Docs"
 description: In this article, learn how to program OLAP basic objects by using Analysis Management Objects (AMO).
-ms.date: 03/30/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: amo
 ms.topic: conceptual

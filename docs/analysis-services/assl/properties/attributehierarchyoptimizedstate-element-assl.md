@@ -1,7 +1,7 @@
 ---
 title: "AttributeHierarchyOptimizedState Element (ASSL) | Microsoft Docs"
 description: Learn about the AttributeHierarchyOptimizedState property element in the Analysis Services Scripting Language (ASSL) schema.
-ms.date: 02/14/2022
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: assl
 ms.topic: reference

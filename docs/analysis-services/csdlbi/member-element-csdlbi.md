@@ -1,7 +1,7 @@
 ---
 title: "Member Element (CSDLBI) | Microsoft Docs"
 description: Learn about the Member element, a complex type whose attributes can appear in columns, measures, navigation properties, hierarchies, and levels.
-ms.date: 07/19/2021
+ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
