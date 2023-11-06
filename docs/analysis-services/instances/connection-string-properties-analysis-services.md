@@ -1,7 +1,7 @@
 ---
 title: "Connection string properties (Analysis Services) | Microsoft Docs"
 description: Learn about connection string properties used to query Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium semantic model data.
-ms.date: 03/28/2022
+ms.date: 09/06/2023
 ms.service: analysis-services
 ms.topic: conceptual
 ms.author: owend
@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-This article describes connection string properties used by client applications that connect to and query Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), and Power BI Premium semantic models. These properties are used by the Analysis Services client libraries, ADOMD.NET, AMO, and OLE DB (MSOLAP) provider for Analysis Services. The majority of connection string properties can be used with all three client libraries. Exceptions are called out in the description.
+This article describes connection string properties used by client applications that connect to and query Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), and Power BI Premium semantic models. These properties are used by the Analysis Services client libraries, ADOMD.NET, AMO, and OLE DB (MSOLAP) provider for Analysis Services. Most connection string properties can be used with all three client libraries. Exceptions are called out in the description.
 
 Use the **Version** selector above the table of contents to the left to see only those properties that apply to a particular platform or version.
 
