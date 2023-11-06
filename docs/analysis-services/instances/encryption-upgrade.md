@@ -25,7 +25,19 @@ For tabular model databases at the 1600 and higher compatibility level, the foll
 
 "**New Tabular database '%{DatabaseName/}' is not using latest encryption schema. Please run RemoveDiscontinuedFeatured command with EnsureProperEncryption option (or restore DB from backup file with the same option) to upgrade to the latest encryption.**"
 
-To upgrade encryption, either backup the database and then restore with the **EnsureProperEncryption** option enabled, or if the database is already loaded, run the following XMLA command in SQL Server Management Studio:
+To upgrade encryption, either backup the database and then restore with the **EnsureProperEncryption** option enabled by running the following XMLA command in SQL Server Management Studio:
+
+```xml
+<Batch xmlns="http://schemas.microsoft.com/analysisservices/2003/engine" Transaction="false" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl100="http://schemas.microsoft.com/analysisservices/2008/engine/100">
+<Restore xmlns="http://schemas.microsoft.com/analysisservices/2003/engine" xmlns:ddl922="http://schemas.microsoft.com/analysisservices/2022/engine/922">
+<File>your_backup_file_pathname</File>
+<AllowOverwrite>true</AllowOverwrite>
+<ddl922:EnsureProperEncryption>true</ddl922:EnsureProperEncryption>
+</Restore>
+</Batch>
+```
+
+or if the database is already loaded, run the following XMLA command in SQL Server Management Studio:
 
 ```xml
 <RemoveDiscontinuedFeatures xmlns='http://schemas.microsoft.com/analysisservices/2003/engine' xmlns:ddl922='http://schemas.microsoft.com/analysisservices/2022/engine/922'>

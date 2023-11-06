@@ -16,6 +16,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 Roles in tabular models define member permissions for a model. Members of the role can perform actions on the model as defined by the role permission. Roles defined with read permissions can also provide additional security at the row-level by using row-level filters.
   
+For Azure Analysis Services and Power BI datasets, users must be in your Microsoft Entra ID and usernames and groups specified must be by organizational email address or UPN. For SQL Server Analysis Services, roles contain user members by Windows username or by Windows group, and permissions (read, process, administrator).
 For Azure Analysis Services and Power BI semantic models, users must be in your Azure Active Directory and usernames and groups specified must be by organizational email address or UPN. For SQL Server Analysis Services, roles contain user members by Windows username or by Windows group, and permissions (read, process, administrator).
 
 > [!IMPORTANT]  

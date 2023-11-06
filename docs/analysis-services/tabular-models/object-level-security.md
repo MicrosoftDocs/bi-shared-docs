@@ -16,7 +16,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 Data model security starts with effectively implementing [roles](../../analysis-services/tabular-models/roles-ssas-tabular.md) and row-level filters to define user permissions on data model objects and data. For tabular 1400 and higher models, you can also define object-level security (OLS), which includes table-level security and column-level security in the [Roles object](../tmsl/roles-object-tmsl.md). When configured, table and column data are secured, along with metadata to help prevent a malicious user from discovering that such an object exists.
 
-OLS can be configured by using the open-source [Tabular Editor](https://tabulareditor.github.io/), [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scripting-language-tmsl-reference.md), or [Tabular Object Model (TOM)](../tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md).
+OLS can be configured by using the open-source [Tabular Editor](https://tabulareditor.com/), [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scripting-language-tmsl-reference.md), or [Tabular Object Model (TOM)](../tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo.md).
 
 ## Table-level security
 
