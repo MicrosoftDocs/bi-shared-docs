@@ -76,7 +76,7 @@ landingContent:
         - url: /power-bi/service-premium-what-is#analysis-services-in-power-bi-premium
           text: Analysis Services in Power BI Premium
         - url: /power-bi/service-premium-connect-tools
-          text: Dataset connectivity with the XMLA Endpoint
+          text: Semantic model connectivity with the XMLA Endpoint
 
   # Card
   - title: Tools
@@ -93,7 +93,7 @@ landingContent:
             url: https://daxstudio.org/
           - text: Tabular Editor (open-source)
             url: https://tabulareditor.com/
-          - text: ALM Toolkit for Power BI Datasets (open-source)
+          - text: ALM Toolkit for Power BI semantic models (open-source)
             url: http://alm-toolkit.com/
 
   # Card

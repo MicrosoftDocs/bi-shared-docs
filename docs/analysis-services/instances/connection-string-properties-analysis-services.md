@@ -1,6 +1,6 @@
 ---
 title: "Connection string properties (Analysis Services) | Microsoft Docs"
-description: Learn about connection string properties used to query Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium dataset data.
+description: Learn about connection string properties used to query Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium semantic model data.
 ms.date: 09/06/2023
 ms.service: analysis-services
 ms.topic: conceptual
@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-This article describes connection string properties used by client applications that connect to and query Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), and Power BI Premium dataset data. These properties are used by the Analysis Services client libraries, ADOMD.NET, AMO, and OLE DB (MSOLAP) provider for Analysis Services. Most connection string properties can be used with all three client libraries. Exceptions are called out in the description.
+This article describes connection string properties used by client applications that connect to and query Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), and Power BI Premium semantic models. These properties are used by the Analysis Services client libraries, ADOMD.NET, AMO, and OLE DB (MSOLAP) provider for Analysis Services. Most connection string properties can be used with all three client libraries. Exceptions are called out in the description.
 
 Use the **Version** selector above the table of contents to the left to see only those properties that apply to a particular platform or version.
 
@@ -96,7 +96,7 @@ Properties are listed in alphabetical order.
 
 ##### EffectiveUserName
 
-Use when an user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS and Power BI Premium, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. In Power BI Premium, the caller must be a workspace admin where the dataset is located.
+Use when an user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS and Power BI Premium, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. In Power BI Premium, the caller must be a workspace admin where the semantic model is located.
 
 
 

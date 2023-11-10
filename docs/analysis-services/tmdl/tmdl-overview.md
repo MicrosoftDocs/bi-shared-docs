@@ -164,7 +164,7 @@ And *root files* for:
 
 Here's an example of a TMDL folder:
 
-:::image type="content" source="media/folder-tmdl-dataset.png" alt-text="Folder with a TMDL representation of a dataset":::
+:::image type="content" source="media/folder-tmdl-dataset.png" alt-text="Folder with a TMDL representation of a model":::
 
 Definitions include:
 
@@ -517,4 +517,4 @@ Child objects don't have to be contiguous. You can declare columns and measures 
 
 ## What's next?
 
-Now that you have an understanding of TMDL, be sure to see [Get started with TMDL](tmdl-how-to.md) to learn how to get and deploy a TMDL model representation of a Power BI dataset.
+Now that you have an understanding of TMDL, be sure to see [Get started with TMDL](tmdl-how-to.md) to learn how to get and deploy a TMDL model representation of a Power BI semantic model.

@@ -67,9 +67,9 @@ If you installed the AdventureWorksDW sample database on an on-premises or VM wi
 
 ### To deploy to a Power BI Premium workspace
 
-Deploying to a Power BI Premium workspace is a little different than deploying to SQL Server or Azure Analysis Services. When deployed the first time, a dataset is created in the workspace by using metadata from the model.bim. As part of the deployment operation, after the dataset has been created in the workspace from model metadata, processing to load data from the data source into the dataset from data sources **will fail**.
+Deploying to a Power BI Premium workspace is a little different than deploying to SQL Server or Azure Analysis Services. When deployed the first time, a semantic model is created in the workspace by using metadata from the model.bim. As part of the deployment operation, after the model has been created in the workspace from model metadata, processing to load data from the data source into the model from data sources **will fail**.
 
-Processing fails because unlike when deploying to an Azure or SQL Server Analysis Server server, where data source credentials are prompted for as part of the deployment operation, when deploying to a Premium workspace data source credentials cannot be specified as part of the deployment operation. Instead, after metadata deployment has succeeded and the dataset has been created, data source credentials are then specified in the Power BI Service in dataset settings. After data source credentials are specified, you can then refresh the dataset in the Power BI service, configure schedule refresh, or process (refresh) from SQL Server Management Studio to load data into the dataset.
+Processing fails because unlike when deploying to an Azure or SQL Server Analysis Server server, where data source credentials are prompted for as part of the deployment operation, when deploying to a Premium workspace data source credentials cannot be specified as part of the deployment operation. Instead, after metadata deployment has succeeded and the model has been created, data source credentials are then specified in the Power BI Service in Semantic model settings. After data source credentials are specified, you can then refresh the model in the Power BI service, configure schedule refresh, or process (refresh) from SQL Server Management Studio to load data into the model.
 
 1. In **Solution Explorer**, right-click the **AW Internet Sales** project > **Build**.  
 
@@ -79,11 +79,11 @@ Processing fails because unlike when deploying to an Azure or SQL Server Analysi
 
 3. When deployment completes, go ahead and click **Close**.
 
-4. In the Power BI Service, click **Workspaces** > workspace > **Datasets** > **Settings** (under ACTIONS > More options) > **Data source credentials** > **Edit credentials**. Enter the username and password for your AdventureWorksDW data source.
+4. In the Power BI Service, click **Workspaces** > workspace > **Semantic models** > **Settings** (under ACTIONS > More options) > **Data source credentials** > **Edit credentials**. Enter the username and password for your AdventureWorksDW data source.
 
     ![Screenshot of the Configure Adventure Works Edit sign in dialog box with the Authentication Method, User name, Password, and Privacy level setting fot this data source fields called out.](../tutorial-tabular-1400/media/as-lesson13-edit-credentials.png)
     
-5. In the Power BI Service, in the workspace > **Datasets** > **Settings** (under ACTIONS), select **Refresh**. 
+5. In the Power BI Service, in the workspace > **Semantic models** > **Settings** (under ACTIONS), select **Refresh**. 
 
     ![Screenshot of the Power BI Service UI showing Refresh selected.](../tutorial-tabular-1400/media/as-lesson13-dataset-refresh.png)
 
