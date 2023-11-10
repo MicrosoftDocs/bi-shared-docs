@@ -46,8 +46,8 @@ At least one table must already exist before you can create a calculated table. 
 =DimDate  
 ```  
   
-### Summarized or filtered dataset  
- In the Formula bar, enter a DAX expression that filters, summarizes, or otherwise manipulates a dataset to contain the rows you want. This example groups by sales by color and currency.  
+### Summarized or filtered  
+ In the Formula bar, enter a DAX expression that filters, summarizes, or otherwise manipulates a model to contain the rows you want. This example groups by sales by color and currency.  
   
 ```  
 =SUMMARIZECOLUMNS(DimProduct[Color]  

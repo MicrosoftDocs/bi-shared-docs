@@ -1581,7 +1581,7 @@
       href: tom/handling-errors-in-the-tom-api-analysis-services-amo-tom.md
     - name: Install, distribute, and reference AMO-TOM assemblies
       href: tom/install-distribute-and-reference-the-tabular-object-model.md
-    - name: Programming Power BI datasets (TOM)
+    - name: Programming Power BI semantic models (TOM)
       href: tom/tom-pbi-datasets.md
   - name: Tabular Model Scripting Language (TMSL)
     items: 

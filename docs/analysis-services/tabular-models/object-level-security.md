@@ -80,13 +80,13 @@ In this example, the metadataPermission property of the columnPermissions class 
 
 ## Power BI
 
-Visualizations referencing a dataset object with OLS configured display the same message as for a deleted or non-existing object.
+Visualizations referencing a semantic model object with OLS configured display the same message as for a deleted or non-existing object.
 
 ![OLS message in Power BI visualizations](../../analysis-services/tabular-models/media/powerbi-ols-message.png)  
 
 ### Limitations
 
-Datasets with OLS configured for one or more table or column objects are not supported with these Power BI features:
+Models with OLS configured for one or more table or column objects are not supported with these Power BI features:
 
 - Q&A visualizations
 - Quick insights visualizations

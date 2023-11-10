@@ -48,9 +48,9 @@ Does not apply to Power BI. A string property that identifies the name of the di
 
 ##### ClientCacheRefreshPolicy
 
-Overrides the **Scheduled cache refresh** setting for all Power BI datasets. All Live Connect reports will observe the server-level setting irrespective of the dataset-level setting, or which workspace they reside on.
+Overrides the **Scheduled cache refresh** setting for all Power BI semantic models. All Live Connect reports will observe the server-level setting irrespective of the model-level setting, or which workspace they reside on.
 
-The default value for this property is -1, which allows all background cache refreshes as specified in the Scheduled cache refresh setting for the dataset. To discourage all background cache refreshes, specify zero (0).
+The default value for this property is -1, which allows all background cache refreshes as specified in the Scheduled cache refresh setting for the model. To discourage all background cache refreshes, specify zero (0).
 
 ::: moniker-end
 
