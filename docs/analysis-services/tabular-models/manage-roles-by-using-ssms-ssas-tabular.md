@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-This article describes how to use [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] (SSMS) to create roles, define role permissions, and add users for deployed tabular models or Power BI Premium datasets. To learn about using Visual Studio to create and manage roles for tabular model projects, see [Create and manage roles in Visual Studio](create-and-manage-roles-ssas-tabular.md).
+This article describes how to use [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)] (SSMS) to create roles, define role permissions, and add users for deployed tabular models or Power BI Premium semantic models. To learn about using Visual Studio to create and manage roles for tabular model projects, see [Create and manage roles in Visual Studio](create-and-manage-roles-ssas-tabular.md).
 
 ## Use SSMS
 
@@ -65,7 +65,7 @@ This article describes how to use [!INCLUDE[ssManStudioFull](../includes/ssmanst
 
 ## Script
 
-Roles for deployed models and datasets can be scripted by using [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scripting-language-tmsl-reference.md) to create or modify the [Roles object](../tmsl/roles-object-tmsl.md). TMSL scripts can be executed in SSMS or with the [Invoke-ASCmd](/powershell/module/sqlserver/invoke-ascmd?view=sqlserver-ps&preserve-view=true) PowerShell cmdlet.
+Roles for deployed models and semantic models can be scripted by using [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scripting-language-tmsl-reference.md) to create or modify the [Roles object](../tmsl/roles-object-tmsl.md). TMSL scripts can be executed in SSMS or with the [Invoke-ASCmd](/powershell/module/sqlserver/invoke-ascmd?view=sqlserver-ps&preserve-view=true) PowerShell cmdlet.
 
 Right-click the database object > **Script** > **Script database as** > **CREATE or REPLACE To** > **New Query Editor Window**. Roles are defined in the roles object, for example:
 

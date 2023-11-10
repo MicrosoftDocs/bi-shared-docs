@@ -5,7 +5,7 @@ ms.date: 04/07/2021
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: owend
+ms.author: owendowend
 ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
@@ -18,7 +18,7 @@ With Analysis Services, almost every object and workload is programmable, and of
 
 ## What you can accomplish in code
 
-Typical programming scenarios include server, database, and dataset deployment, administration, data refresh and partition management, data access from custom applications, and external tools. Common to all these scenarios is a fixed architecture and object definition hierarchy, with well-understood operations that span data definition, processing, and query workloads.
+Typical programming scenarios include server, database, and semantic model deployment, administration, data refresh and partition management, data access from custom applications, and external tools. Common to all these scenarios is a fixed architecture and object definition hierarchy, with well-understood operations that span data definition, processing, and query workloads.
 
 Although objects and workloads are programmable, they're not extensible. Specifically, you cannot create custom data cartridges that retrieve data from unsupported data sources, customize or replace formula or storage engine behaviors, nor can you create new types of object metadata on a server, database, or model.
 

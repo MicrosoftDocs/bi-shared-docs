@@ -22,7 +22,7 @@ author: minewiskan
   
 - Provide data source credentials as part of a **Refresh** command,  in the **ConnectionString** property of a **DataSource**  object. This  approach could be considered more secure, as credentials are provided and used temporarily for the duration of the operation, rather than stored.  
 ::: moniker range="asallproducts-allversions || power-bi-premium-current"
-- Override default Power BI dataset incremental refresh policy.   
+- Override default Power BI semantic model incremental refresh policy.   
 ::: moniker-end
 
  See the examples in this topic for an illustration of these property overrides.  
@@ -123,7 +123,7 @@ author: minewiskan
 ::: moniker range="asallproducts-allversions || power-bi-premium-current"
 ### Optional parameters
 
-For Power BI datasets, the following parameters can be added to a TMSL refresh command to override the default incremental refresh behavior:
+For Power BI semantic models, the following parameters can be added to a TMSL refresh command to override the default incremental refresh behavior:
 
 - **applyRefreshPolicy** – If a table has an incremental refresh policy defined, applyRefreshPolicy will determine if the policy is applied or not. If the policy is not applied, a process full operation will leave partition definitions unchanged and all partitions in the table will be fully refreshed. Default value is true.
 
