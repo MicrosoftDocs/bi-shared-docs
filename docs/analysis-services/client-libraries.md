@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 11/8/2023
+ms.date: 12/11/2023
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
@@ -25,10 +25,10 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    16.0.108.20        |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.108.20           |
-|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.69.6.2         |
-|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.69.6.2           |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    16.0.113.20        |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.113.20           |
+|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.72.0.0         |
+|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.72.0.0           |
 
 ### NuGet packages
 
@@ -42,26 +42,27 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.69.6.2     |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.69.6.2     |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.72.0     |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.72.0     |
 
 #### AMO and ADOMD .Net Core
 
 |Package  | Version  |
 |---------|---------|
-|[AMO .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.69.6.2      |
-|[ADOMD .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.69.6.2        |
+|[AMO .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.72.0      |
+|[ADOMD .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.72.0        |
 
-Beginning with AMO (AMO/TOM) and ADOMD .Net Core version 19.48.0.0, HTTP-based communications with cloud services like Power BI and Azure Analysis Services are significantly improved. It's recommended you update to the latest version to take advantage of these performance improvements.
+Beginning with AMO (AMO/TOM) and ADOMD .Net Core version 19.48.0.0, HTTP-based communications with cloud services like Power BI and Azure Analysis Services are significantly improved. It's recommended you update to the latest version to take advantage of these performance improvements. 
 
 #### TMDL Preview
 
-Beginning with AMO release 19.61.1.4., preview packages with the Microsoft.AnalysisServices.Tabular.Tmdl assembly are now available. These packages are dependent on the main AMO package. Both packages are required for any project that have a dependency on them. To learn more about TMDL, see [Tabular Model Definition Language overview](tmdl/tmdl-overview.md).
+Beginning with AMO release 19.72.0, TMDL functionality is now included in Microsoft.AnalysisServices.Tabular.dll. If you've been using the [Microsoft.AnalysisServices.Tabular.Tmdl](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.retail.amd64/19.69.6.2-TmdlPreview) NuGet package, be sure to **remove it from your project and recompile**. 
 
-|Package  | Version  |
-|---------|---------|
-|[TMDL](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.retail.amd64)    |    19.69.6.2      |
-|[TMDL .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.NetCore.retail.amd64)    |    19.69.6.2      |
+The following changes were made to the TMDL API that could impact your code:
+
+- TmdlFormatException property name changes. For example, **Path** changed to **Document**.
+
+To learn more about TMDL, see [Tabular Model Definition Language overview](tmdl/tmdl-overview.md).
 
 ## Minimum required versions
 
@@ -112,14 +113,6 @@ Beginning with version 16.0.43.20, MSOLAP uses MSAL ([Microsoft.Identity.Client]
 A regression related to connections to cloud-based systems using Microsoft Entra ID was discovered in the 16.0.4.17 version of OLEDB (MSOLAP). It was fixed in the 16.0.20.201 version. Due to the nature of the issue, an installed 16.0.4.17 version, as well any other version prior to 16.0.20.201, cannot be corrected by supgrading the provider, even if setup is run in repair mode. It’s recommended to completely uninstall the 16.0.4.17 [or other problematic] version and then install the 16.0.20.201 or later version. 
 
 In an earlier release, MSOLAP was updated to connect to cloud-based Analysis Services using the managed Microsoft Authentication Library (MSAL). Beginning with version 16.0.87.16, MSOLAP setup no longer installs the original native Azure Active Directory Authentication Library (ADAL) component.
-
-#### TMDL
-
-Starting version 19.65.12, the public methods of the TmdlSerializer class were renamed:
-- DeserializeModel was renamed to DeserializeModelFromFolder [without any change in the method signature]
-- SerializeModel was renamed to SerializeModelToFolder [without any change in the method signature]
-
-This is part of finalizing the TMDL API surface; please update your code accordingly.
 
 ## Understanding client libraries
 
