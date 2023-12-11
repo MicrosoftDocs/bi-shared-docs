@@ -56,7 +56,7 @@ Beginning with AMO (AMO/TOM) and ADOMD .Net Core version 19.48.0.0, HTTP-based c
 
 #### TMDL Preview
 
-Beginning with AMO release 19.72.0, TMDL functionality is now included in Microsoft.AnalysisServices.Tabular.dll. If you've been using the Microsoft.[AnalysisServices.Tabular.Tmdl](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.retail.amd64/19.69.6.2-TmdlPreview) NuGet package, be sure to remove it from your project and recompile. 
+Beginning with AMO release 19.72.0, TMDL functionality is now included in Microsoft.AnalysisServices.Tabular.dll. If you've been using the [Microsoft.AnalysisServices.Tabular.Tmdl](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.retail.amd64/19.69.6.2-TmdlPreview) NuGet package, be sure to **remove it from your project and recompile**. 
 
 The following changes were made to the TMDL API that could impact your code:
 
