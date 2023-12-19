@@ -55,33 +55,31 @@ For multidimensional model databases at all compatibility levels, the following 
 
 To upgrade encryption, backup the database and then restore with the **EnsureProperEncryption** option enabled.
 
-## Analysis Services Service Account Change Procedure Limitations after installing SQL Server 2022 CU1
+## Analysis Services service account change procedure limitations after installing SQL Server 2022 CU1
 
 Changing service accounts directly is not supported because of the new design.
 
-Starting from SQL Server 2022 CU1, Analysis Services server encrypts secret artifacts, such as database connection strings, using an encryption key that is protected per identity of the service account.
+Beginning with SQL Server 2022 CU1, Analysis Services server encrypts secret artifacts, such as database connection strings, by using an encryption key that is protected per identity of the service account.
  
-If you require the transfer of databases between services operating under different accounts, it is essential to follow the backup and restore method. This approach guarantees a seamless transition between service accounts while preserving the integrity of your data.
+If you require the transfer of databases between services operating under different accounts, it's essential to follow the backup and restore method. This approach ensures a more seamless transition between service accounts while preserving the integrity of your data.
  
-1. Use SSMS to backup each database into .abf file
+1. Use SSMS to backup each database into .abf file.
 
-2. Stop SSAS service
+2. Stop SSAS service.
 
-3. Change the SSAS service account
+3. Change the SSAS service account.
 
-4. Delete the content of the Data folder, except the administrators.n.xml file and master.vmp file 
+4. Delete the content of the Data folder, except the administrators.n.xml file and master.vmp file .
 
-5. Start SSAS service
+5. Start SSAS service.
 
-6. Restore the databases from the backup .abf files
+6. Restore the databases from the backup .abf files.
 
-By adhering to this process, you can ensure a secure and organized transition between service accounts, all while maintaining data security and accessibility.
-
-Please exercise caution when implementing these steps to avoid data loss or security vulnerabilities. Always perform data backups and seek guidance from your system administrator prior to making substantial changes to service accounts or server configurations.
+Use caution when implementing these steps to avoid data loss or security vulnerabilities. Always perform data backups and seek guidance from your system administrator prior to making substantial changes to service accounts or server configurations.
 
 ## Known issues
 
-**Problem:** If the above back/restore steps above are not followed, changing SQL Server 2022 Analysis Services service account can cause the service to fail to start.
+**Problem:** If the backup/restore steps above aren't followed, changing SQL Server 2022 Analysis Services service account can cause the service to fail to start.
 
 The following message in the Log\msmdsrv.log file indicates the service is unable to start because the service account has been changed:
 
