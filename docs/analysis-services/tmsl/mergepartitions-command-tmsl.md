@@ -29,16 +29,8 @@ author: minewiskan
       "partition": "may2015"   
     },   
     "sources": [   
-      {   
-        "database": "salesdatabase",   
-        "table": "Sales",   
-        "partition": "partition1"   
-      },   
-      {   
-        "database": "salesdatabase",   
-        "table": "Sales",   
-        "partition": "partition2"   
-      }   
+        "partition1",
+        "partition2"
     ]   
   }   
 }  
