@@ -248,9 +248,9 @@ The following rules apply to property values:
 
   - Leading and trailing Double-quotes are optional and automatically stripped during serialization.
   - Must be enclosed in double quotes (**"**) if the text contains trailing or leading whitespace.
-  - When enclosed in double quotes, if the value contains double quotes they must be escaped by duplication (see `displayFolder` property in the code example above).
+  - When enclosed in double quotes, if the value contains double quotes, use two double quotes to escape them (see `displayFolder` property in the code example above).
 
-- **Boolean properties** can be set by using standard key/value pair syntax, like with the `'isAvailableInMdx'` property in the code example above. They can also be set by using a shortcut syntax where only the property name is declared and `true` is implied. See, for example, the 'isHidden' property in the code above.
+- **Boolean properties** can be set by using standard key/value pair syntax, like with the `'isAvailableInMdx'` property in the previous example. They can also be set by using a shortcut syntax where only the property name is declared and `true` is implied. See, for example, the 'isHidden' property in the previous examplee.
 
 #### Named object references
 
@@ -372,7 +372,7 @@ The following special rules apply to expressions:
 - Multi-line expressions must be indented one level deeper to the parent object properties and the entire expression must be within that indentation level.
 - All outer indentation whitespaces are stripped beyond the indented level of the parent object.
 - Vertical whitespaces (blank lines without whitespaces) are allowed and are considered part of the expression.
-- Trailing blank lines and whitespaces will be removed.
+- Trailing blank lines and whitespaces are removed.
 - To enforce a different indentation or to preserve trailing blank lines or whitespaces, use the three backticks (**```**) enclosing.
 - By default, TMDL serializer will enclose with backticks if the expression value contains anything that could cause a modification on roundtrip (for example, trailing whitespaces, blank lines with whitespaces).
 
@@ -429,7 +429,7 @@ The following properties are treated as expressions:
 
 #### Default properties by object type
 
-Default property and expression language by object type include the following:
+The following table shows default property and expression language by object type:
 
 |Object type    |Default property  |Expression language  |
 |---------|---------|---------|
@@ -452,12 +452,12 @@ Default property and expression language by object type include the following:
 |Partition     |    SourceType     |    [PartitionSourceType Enum](/dotnet/api/microsoft.analysisservices.tabular.partitionsourcetype?view=analysisservices-dotnet&preserve-view=true)     |
 |ChangedProperty     |   Property      |    [Property Text](/dotnet/api/microsoft.analysisservices.tabular.changedproperty.property?view=analysisservices-dotnet&preserve-view=true#microsoft-analysisservices-tabular-changedproperty-property)     |
 |ExternalModelRoleMember     |   MemberType      |    [RoleMemberType Enum](/dotnet/api/microsoft.analysisservices.tabular.rolemembertype?view=analysisservices-dotnet)     |
-|Any Custom JSON Property (e.g. DataAccessOptions)     |   JSON Document      |    Json|
+|Any Custom JSON Property (for example, DataAccessOptions)     |   JSON Document      |    Json|
 |LinguisticMetadata     |   Content      |    Json|
 
 ### Descriptions
 
-TMDL provides first class support for descriptions. For model documentation purposes, it's considered a best practice to provide descriptions for each TOM object. TMDL treats descriptions as a special property with explicit syntax support. Following the examples from many other languages, descriptions are specified on top of each object declaration using triple-slash  (**///**) syntax.
+TMDL provides first class support for descriptions. For model documentation purposes, best practice is to provide descriptions for each TOM object. TMDL treats descriptions as a special property with explicit syntax support. Following the examples from many other languages, descriptions are specified on top of each object declaration using triple-slash  (**///**) syntax.
 
 No whitespace is allowed between the description block end and the object type token.
 
@@ -496,7 +496,7 @@ To avoid a parsing error, the same property can't be declared twice. For example
 
 Its possible to reference another TMDL object using the **ref** keyword followed by the object type and name. 
 
-For example, if you serialize a Column object using the string serialization API, this will be the outcome:
+For example, if you serialize a Column object using the string serialization API, the outcome will be:
 
 ```tmdl
 ref table Table1
@@ -507,7 +507,7 @@ ref table Table1
 
 #### Deterministic collection ordering
 
-The **ref** keyword is also used to define and preserve the collection ordering on TOM <> TMDL roundtrips. This is particular important to avoid source control diff's on TMDL objects that get serialized into individual files: Tables, Roles, Cultures and Perspectives. The **ref** keyword will be used on the parent object TMDL file to declare the item ordering from TOM:
+The **ref** keyword is also used to define and preserve the collection ordering on TOM <> TMDL roundtrips. It's particularly important to avoid source control diff's on TMDL objects that get serialized into individual files: Tables, Roles, Cultures and Perspectives. The **ref** keyword is used on the parent object TMDL file to declare the item ordering from TOM:
 
 ```tmdl
 
@@ -544,7 +544,7 @@ There are only two delimiters/symbols to assign a property value:
 - Equals (**=**)
 
   - Used at object declaration with [default property](#default-properties) (multi and single line)
-  - Used at every [expression property](#expressions), e.g., partition.expression
+  - Used at every [expression property](#expressions), for example, partition.expression
 - Colon (**:**)
   - Used for every non-expression [property value](#object-properties). Including properties that hold model references.
 
@@ -557,8 +557,7 @@ Each object can have three levels of indentation:
     - Level 2 - Object Properties
         - Level 3 - Object property multi-line expressions
 
-
-Within a TMDL document, indentation is applied:
+Within a TMDL document, indentation is applied in the following cases:
 
 - Between an object section header and the object’s properties (table -> properties).
 
@@ -605,7 +604,7 @@ Database and direct child objects of Model don't need to be indented because the
 - model-level annotations
 - model-level extended properties
 
-Not following these indention rules, will generate a parsing error.
+Not following these indention rules generates a parsing error.
 
 ### Whitespace
 

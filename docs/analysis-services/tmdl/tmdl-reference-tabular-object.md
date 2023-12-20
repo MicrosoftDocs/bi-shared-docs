@@ -101,12 +101,12 @@ culture pt-PT
 
 ## Role Members in TMDL
 
-Role members could number in the hundreds or thousands, so serializing each member as a separate object using its native TOM representation ([WindowsModelRoleMember](/dotnet/api/microsoft.analysisservices.tabular.windowsmodelrolemember?view=analysisservices-dotnet) or [ExternalModelRoleMember](/dotnet/api/microsoft.analysisservices.tabular.externalmodelrolemember?view=analysisservices-dotnet)) would be unreadable. To optimize for interaction and readability, TMDL breaks the principle of alignment with TOM object tree, and optimizes role members representation for the most common scenario: Azure AD and Windows Identity.
+Role members could number in the hundreds or thousands, so serializing each member as a separate object using its native TOM representation ([WindowsModelRoleMember](/dotnet/api/microsoft.analysisservices.tabular.windowsmodelrolemember?view=analysisservices-dotnet) or [ExternalModelRoleMember](/dotnet/api/microsoft.analysisservices.tabular.externalmodelrolemember?view=analysisservices-dotnet)) would be unreadable. To optimize for interaction and readability, TMDL breaks the principle of alignment with TOM object tree, and optimizes role members representation for the most common scenario: Microsoft Entra ID (formerly known as Azure AD) and Windows Identity.
 
 The following rules are applied:
 
-- Member ID is not serialized and assumes the same value as name
-- Blank lines between members are not emitted
+- Member ID isn't serialized and assumes the same value as name
+- Blank lines between members aren't emitted
 - Members are emitted in the end after permissions
 
 Default property of the member determines the member type:
