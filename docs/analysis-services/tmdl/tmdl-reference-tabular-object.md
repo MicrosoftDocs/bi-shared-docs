@@ -14,7 +14,7 @@ author: minewiskan
 
 [!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
-All TMDL objects have an exact match with their Tabular Object Model (TOM) Properties, except for [Translations](#translations-in-tmdl) and [Role members](#role-members-in-tmdl).
+All **TMDL** objects have an exact match with their **Tabular Object Model (TOM)** properties, except for [Translations](#translations-in-tmdl) and [Role members](#role-members-in-tmdl).
 
 For example, look at the following TMDL calculated column representation:
 
