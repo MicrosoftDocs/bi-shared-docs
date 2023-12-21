@@ -21,7 +21,7 @@ Before getting started with this article, be sure to thoroughly understand conce
 
 The easiest way to explore TMDL is to reference the  Analysis Services Management Objects (AMO) **Nuget package** and use the TMDL API methods to serialize and deserialize to and from TMDL.
 
-[Get the **Nuget packages**](../client-libraries.md#NuGet-packages)
+[Get the **Nuget packages**](../client-libraries.md#nuget-packages)
 
 ## Get a TMDL model representation
 

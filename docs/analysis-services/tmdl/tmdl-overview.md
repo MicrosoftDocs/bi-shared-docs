@@ -142,14 +142,14 @@ The TmdlSerializer class exposes methods to serialize and deserialize TMDL docum
 - Receives a TOM database object and the TMDL output path.
 - Serializes the TOM database into a TMDL folder representation.
 
-Learn more [here](tmdl-how-to.md?#Get-a-TMDL-model-representation) on how serialize to a folder.
+Learn more [here](tmdl-how-to.md?#get-a-tmdl-model-representation) on how serialize to a folder.
 
 `public static Database DeserializeDatabaseFromFolder (string path)`
 
 - Receives a full path to a TMDL folder.
 - Returns the TOM database object representation of the TMDL folder.
 
-Learn more [here](tmdl-how-to.md?#Deploy-a-TMDL-model-representation) on how deserialize from folders.
+Learn more [here](tmdl-how-to.md?#deploy-a-tmdl-model-representation) on how deserialize from folders.
 
 ### String Serialization
 
@@ -157,7 +157,7 @@ Learn more [here](tmdl-how-to.md?#Deploy-a-TMDL-model-representation) on how des
 
 - Receives a TOM object and returns it's TMDL text representation.
 
-Learn more [here](tmdl-how-to.md?#Object-text-serialization) on how serialize an object to a string.
+Learn more [here](tmdl-how-to.md?#object-text-serialization) on how serialize an object to a string.
 
 ### Stream Serialization
 
@@ -165,7 +165,7 @@ You can serialize/deserialize TMDL to/from streams, allowing you to convert a TO
 
 TMDL Stream serialization is handled by the [**MetadataSerializationContext**](/dotnet/api/microsoft.analysisservices.tabular.serialization.metadataserializationcontext?view=analysisservices-dotnet) class.
 
-Learn more [here](tmdl-how-to.md?#Stream-serialization) on how to serialize to/from TMDL using streams.
+Learn more [here](tmdl-how-to.md?#stream-serialization) on how to serialize to/from TMDL using streams.
 
 ## TMDL language
 
@@ -588,7 +588,7 @@ Within a TMDL document, indentation is applied in the following cases:
             formatString: $ #,##0
     ```
 
-- Multi-line expressions must be indented one level deeper than object properties and the entire expression must be within that indentation level (see [expressions](#Expressions)).
+- Multi-line expressions must be indented one level deeper than object properties and the entire expression must be within that indentation level (see [expressions](#expressions)).
 
 Database and direct child objects of Model don't need to be indented because they are implicitly assumed nested under the root Model or Database:
 
