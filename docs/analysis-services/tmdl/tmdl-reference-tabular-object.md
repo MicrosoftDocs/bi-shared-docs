@@ -14,9 +14,12 @@ author: mberdugo
 
 [!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
+> [!IMPORTANT]
+> Tabular Model Definition Language (TMDL) is currently in preview. When in preview, functionality and documentation are likely to change.
+
 All **TMDL** objects have an exact match with their **Tabular Object Model (TOM)** properties, except for [Translations](#translations-in-tmdl) and [Role members](#role-members-in-tmdl).
 
-For example, look at the following TMDL calculated column representation:
+For example, here's s TMDL calculated column representation:
 
 ```tmdl
 
