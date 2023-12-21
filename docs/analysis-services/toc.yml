@@ -1640,7 +1640,7 @@
     - name: Get started with TMDL
       href: tmdl/tmdl-how-to.md
     - name: TMDL objects overview
-      href: tmdl/tmdl-reference-taular-object.md
+      href: tmdl/tmdl-reference-tabular-object.md
   - name: Analysis Management Objects (AMO)
     items:
     - name: Developing with Analysis Management Objects (AMO)
