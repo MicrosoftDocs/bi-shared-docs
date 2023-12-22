@@ -13,11 +13,11 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](includes/appliesto-sqlas-all-aas-pbip.md)]
 
-If you're using Azure Analysis Services, SQL Server Analysis Services, or Power BI Premium, this article can help you understand and find the documentation you are looking for. Be sure to take a few minutes to read this article now. It could save you from frustrations down the road.
+If you're using Azure Analysis Services, SQL Server Analysis Services, or Fabric/Power BI Premium, this article can help you understand and find the documentation you are looking for. Be sure to take a few minutes to read this article now. It could save you from frustrations down the road.
 
 ## One engine - three platforms
 
-Analysis Services provides enterprise grade semantic modeling, governance, lifecycle, and data management on three different platforms: the cloud in **Azure**, on-premises with **SQL Server**, and under the hood the Analysis Services engine powers **Power BI Premium** workspaces and semantic models. Being on several platforms presents a unique challenge where some documentation applies to only one platform, like Azure, or applies to all three platforms including Power BI Premium. For example, how you provision an Analysis Services resource in Azure is different from how you create a server instance in SQL Server Analysis Services. On the other hand, how you use Visual Studio to create and deploy a tabular model project or how SQL Server Profiler is used to capture data about process events in the Analysis Services engine are much the same regardless of platform.
+Analysis Services provides enterprise grade semantic modeling, governance, lifecycle, and data management on three different platforms: the cloud in **Azure**, on-premises with **SQL Server**, and under the hood the Analysis Services engine powers **Fabric/Power BI Premium** workspaces and semantic models. Being on several platforms presents a unique challenge where some documentation applies to only one platform, like Azure, or applies to all three platforms including Fabric/Power BI Premium. For example, how you provision an Analysis Services resource in Azure is different from how you create a server instance in SQL Server Analysis Services. On the other hand, how you use Visual Studio to create and deploy a tabular model project or how SQL Server Profiler is used to capture data about process events in the Analysis Services engine are much the same regardless of platform.
 
 All Analysis Services documentation is published to [Microsoft Learn](/). To reduce redundancy, where possible, articles that apply to more than one platform are included here in the *shared* Analysis Services documentation. Documentation specific to Azure Analysis Services or Power BI Premium are in other places.
 
@@ -25,9 +25,9 @@ All Analysis Services documentation is published to [Microsoft Learn](/). To red
 
 If you're using Azure Analysis Services, it's best to start with [Azure Analysis Services documentation](/azure/analysis-services/). This documentation is where you can learn about Analysis Services' specific implementation in Azure. For example, using the Azure portal to create an Analysis Services server resource in your Azure subscription, configure a firewall, or configure scale-out to create a *query pool* where queries are distributed among *query replicas*.
 
-### Power BI Premium
+### Fabric/Power BI Premium
 
-If you're using Power BI Premium, many of the same tools, Tabular Model Scripting Language (TMSL), and Tabular Object Model (TOM) used for Azure Analysis Services and SQL Server Analysis Services now work with Power BI Premium workspaces and semantic models. To learn more, it's best to start with the [Analysis Services in Power BI Premium](/power-bi/service-premium-what-is#analysis-services-in-power-bi-premium).
+If you're using Fabric/Power BI Premium, many of the same tools, Tabular Model Scripting Language (TMSL), and Tabular Object Model (TOM) used for Azure Analysis Services and SQL Server Analysis Services now work with Power BI Premium workspaces and semantic models. To learn more, it's best to start with the [What is Power BI Premium](/power-bi/service-premium-what-is).
 
 ### SQL Server Analysis Services
 
