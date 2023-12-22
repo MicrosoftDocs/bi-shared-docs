@@ -513,7 +513,6 @@ The **ref** keyword is also used to define and preserve the collection ordering 
 ```tmdl
 
 model Model
-	culture: en-US
 
 ref table Calendar
 ref table Sales
