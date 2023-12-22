@@ -34,17 +34,17 @@ table Calendar
     annotation SummarizationSetBy = automatic
 ```
 
-Each of the preceding TMDL properties maps to the [CalculatedTableColumn](/dotnet/api/microsoft.analysisservices.tabular.calculatedtablecolumn?view=analysisservices-dotnet) class properties as follows:
+Each of the preceding TMDL properties maps to the [CalculatedTableColumn](/dotnet/api/microsoft.analysisservices.tabular.calculatedtablecolumn) class properties as follows:
 
-- [expression](/dotnet/api/microsoft.analysisservices.tabular.calculatedcolumn.expression?view=analysisservices-dotnet#microsoft-analysisservices-tabular-calculatedcolumn-expression) - Default Property
-- [dataType](/dotnet/api/microsoft.analysisservices.tabular.column.datatype?view=analysisservices-dotnet#microsoft-analysisservices-tabular-column-datatype)
-- [formatString](/dotnet/api/microsoft.analysisservices.tabular.column.formatstring?view=analysisservices-dotnet#microsoft-analysisservices-tabular-column-formatstring)
-- [lineageTag](/dotnet/api/microsoft.analysisservices.tabular.column.lineagetag?view=analysisservices-dotnet#microsoft-analysisservices-tabular-column-lineagetag)
-- [summarizeBy](/dotnet/api/microsoft.analysisservices.tabular.column.summarizeby?view=analysisservices-dotnet#microsoft-analysisservices-tabular-column-summarizeby)
+- [expression](/dotnet/api/microsoft.analysisservices.tabular.calculatedcolumn.expression#microsoft-analysisservices-tabular-calculatedcolumn-expression) - Default Property
+- [dataType](/dotnet/api/microsoft.analysisservices.tabular.column.datatype#microsoft-analysisservices-tabular-column-datatype)
+- [formatString](/dotnet/api/microsoft.analysisservices.tabular.column.formatstring#microsoft-analysisservices-tabular-column-formatstring)
+- [lineageTag](/dotnet/api/microsoft.analysisservices.tabular.column.lineagetag#microsoft-analysisservices-tabular-column-lineagetag)
+- [summarizeBy](/dotnet/api/microsoft.analysisservices.tabular.column.summarizeby#microsoft-analysisservices-tabular-column-summarizeby)
 
 ## Translations in TMDL
 
-In TOM, translations are represented as a collection of [ObjectTranslation](/dotnet/api/microsoft.analysisservices.tabular.objecttranslation?view=analysisservices-dotnet) objects. For optimal interaction and readability, TMDL breaks the principle of alignment with the TOM object tree and replicates the model hierarchy underneath each culture as virtual TMDL properties.
+In TOM, translations are represented as a collection of [ObjectTranslation](/dotnet/api/microsoft.analysisservices.tabular.objecttranslation) objects. For optimal interaction and readability, TMDL breaks the principle of alignment with the TOM object tree and replicates the model hierarchy underneath each culture as virtual TMDL properties.
 
 For each object, translations can be added for the following properties:
 
@@ -104,7 +104,7 @@ culture pt-PT
 
 ## Role Members in TMDL
 
-Role members could number in the hundreds or thousands, so serializing each member as a separate object using its native TOM representation ([WindowsModelRoleMember](/dotnet/api/microsoft.analysisservices.tabular.windowsmodelrolemember?view=analysisservices-dotnet) or [ExternalModelRoleMember](/dotnet/api/microsoft.analysisservices.tabular.externalmodelrolemember?view=analysisservices-dotnet)) would be unreadable. To optimize for interaction and readability, TMDL breaks the principle of alignment with TOM object tree, and optimizes role members representation for the most common scenario: Microsoft Entra ID (formerly known as Azure AD) and Windows Identity.
+Role members could number in the hundreds or thousands, so serializing each member as a separate object using its native TOM representation ([WindowsModelRoleMember](/dotnet/api/microsoft.analysisservices.tabular.windowsmodelrolemembert) or [ExternalModelRoleMember](/dotnet/api/microsoft.analysisservices.tabular.externalmodelrolemember)) would be unreadable. To optimize for interaction and readability, TMDL breaks the principle of alignment with TOM object tree, and optimizes role members representation for the most common scenario: Microsoft Entra ID (formerly known as Azure AD) and Windows Identity.
 
 The following rules are applied:
 

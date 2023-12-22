@@ -132,7 +132,7 @@ Definitions include:
 
 ## TMDL API
 
-Similar to [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scripting-language-tmsl-reference.md), there's a class to handle TMDL Serialization. For TMDL, the class is  [**TmdlSerializer**](/dotnet/api/microsoft.analysisservices.tmdlserializer?view=analysisservices-dotnet), under the [**Microsoft.AnalysisServices.Tabular**](/dotnet/api/microsoft.analysisservices.tabular?view=analysisservices-dotnet) namespace.
+Similar to [Tabular Model Scripting Language (TMSL)](../tmsl/tabular-model-scripting-language-tmsl-reference.md), there's a class to handle TMDL Serialization. For TMDL, the class is  [**TmdlSerializer**](/dotnet/api/microsoft.analysisservices.tmdlserializer), under the [**Microsoft.AnalysisServices.Tabular**](/dotnet/api/microsoft.analysisservices.tabular) namespace.
 
 The TmdlSerializer class exposes methods to serialize and deserialize TMDL documents:
 
@@ -164,7 +164,7 @@ Learn more [here](tmdl-how-to.md?#object-text-serialization) on how serialize an
 
 You can serialize/deserialize TMDL to/from streams, allowing you to convert a TOM object into byte streams for storage, transmission, and interoperability across platforms. The Stream API also allows you to control which TMDL documents are loaded and which TMDL documents are outputted.
 
-TMDL Stream serialization is handled by the [**MetadataSerializationContext**](/dotnet/api/microsoft.analysisservices.tabular.serialization.metadataserializationcontext?view=analysisservices-dotnet) class.
+TMDL Stream serialization is handled by the [**MetadataSerializationContext**](/dotnet/api/microsoft.analysisservices.tabular.serialization.metadataserializationcontext) class.
 
 Learn more [here](tmdl-how-to.md?#stream-serialization) on how to serialize to/from TMDL using streams.
 
@@ -172,7 +172,7 @@ Learn more [here](tmdl-how-to.md?#stream-serialization) on how to serialize to/f
 
 ### Object declaration
 
-Except for Server object, TMDL exposes the entire TOM *Database* object tree in the [Microsoft.AnalysisServices.Tabular namespace](/dotnet/api/microsoft.analysisservices?view=analysisservices-dotnet&preserve-view=true).
+Except for Server object, TMDL exposes the entire TOM *Database* object tree in the [Microsoft.AnalysisServices.Tabular namespace](/dotnet/api/microsoft.analysisservices).
 
 A TMDL object is declared by specifying the TOM object type followed by its name. In the following code example, each object type: `model`, `table`, `column` is followed by an object name.
 
@@ -442,17 +442,17 @@ The following table shows default property and expression language by object typ
 |CalculationExpression     |   Expression      |   DAX      |
 |DataCoverageDefinition     |  Expression       |   DAX      |
 |TablePermission    |  FilterExpression       |    DAX     |
-|ColumnPermission    |   MetadataPermission      |    [MetadataPermission Enum](/dotnet/api/microsoft.analysisservices.tabular.metadatapermission?view=analysisservices-dotnet&preserve-view=true)     |
+|ColumnPermission    |   MetadataPermission      |    [MetadataPermission Enum](/dotnet/api/microsoft.analysisservices.tabular.metadatapermission)     |
 |NamedExpression     |   Expression      |    M     |
 |MPartitionSource     |   Expression      |    M     |
 |CalculatedPartitionSource     |   Expression      |    DAX     |
 |JsonExtendedProperty     |   Value      |    Json     |
 |Annotation     |    Value     |   Text      |
 |StringExtendedProperty     |   Value      |    Text     |
-|DataSource    |    Type     |    [DataSourceType Enum](/dotnet/api/microsoft.analysisservices.tabular.datasourcetype?view=analysisservices-dotnet&preserve-view=true)     |
-|Partition     |    SourceType     |    [PartitionSourceType Enum](/dotnet/api/microsoft.analysisservices.tabular.partitionsourcetype?view=analysisservices-dotnet&preserve-view=true)     |
-|ChangedProperty     |   Property      |    [Property Text](/dotnet/api/microsoft.analysisservices.tabular.changedproperty.property?view=analysisservices-dotnet&preserve-view=true#microsoft-analysisservices-tabular-changedproperty-property)     |
-|ExternalModelRoleMember     |   MemberType      |    [RoleMemberType Enum](/dotnet/api/microsoft.analysisservices.tabular.rolemembertype?view=analysisservices-dotnet)     |
+|DataSource    |    Type     |    [DataSourceType Enum](/dotnet/api/microsoft.analysisservices.tabular.datasourcetype)     |
+|Partition     |    SourceType     |    [PartitionSourceType Enum](/dotnet/api/microsoft.analysisservices.tabular.partitionsourcetype)     |
+|ChangedProperty     |   Property      |    [Property Text](/dotnet/api/microsoft.analysisservices.tabular.changedproperty.property#microsoft-analysisservices-tabular-changedproperty-property)     |
+|ExternalModelRoleMember     |   MemberType      |    [RoleMemberType Enum](/dotnet/api/microsoft.analysisservices.tabular.rolemembertype)     |
 |Any Custom JSON Property (for example, DataAccessOptions)     |   JSON Document      |    Json|
 |LinguisticMetadata     |   Content      |    Json|
 
