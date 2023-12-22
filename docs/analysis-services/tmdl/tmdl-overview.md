@@ -97,7 +97,7 @@ expression Database = "Contoso" meta [IsParameterQuery=true, Type="Text", IsPara
 
 ## TMDL folder structure
 
-Unlike TMSL, TMDL implements a folder structure. The default folder structure has only one level of *sub-folders*, all with inner .tmd files:
+Unlike TMSL, TMDL implements a folder structure. The default folder structure has only one level of *sub-folders*, all with inner .tmdl files:
 
 - cultures
 - perspectives
@@ -106,9 +106,10 @@ Unlike TMSL, TMDL implements a folder structure. The default folder structure ha
 
 And *root files* for:
 
-- expressions
+- database
 - model
 - relationships
+- expressions
 - datasources
 
 Here's an example of a TMDL folder:
@@ -476,7 +477,7 @@ table Sales
 
 ### Partial declaration
 
-TMDL doesn't force object declaration in the same document. It is, however, similar to [C# partial classes](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods) where it's possible split the object definition between multiple files. For example, it's possible to declare a table definition in a [table].tmd file and then have all the measures from all tables defined in a single [measures].tmd file, like shown here:
+TMDL doesn't force object declaration in the same document. It is, however, similar to [C# partial classes](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods) where it's possible split the object definition between multiple files. For example, it's possible to declare a table definition in a [table].tmdl file and then have all the measures from all tables defined in a single [measures].tmdl file, like shown here:
 
 ```tmdl
 table Sales
