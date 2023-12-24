@@ -35,7 +35,9 @@ author: minewiskan
 >  For example, rather than using the range operator (:) to define a range, you would need to enumerate each member by the specific years.  
 >   
 >  If you need to define a complex slice, we recommend that you define the tuples in the slice by using an XMLA Alter script. Then, you can use either the ascmd command-line tool or the [Analysis Services Execute DDL Task](/sql/integration-services/control-flow/analysis-services-execute-ddl-task) in Integration Services to run the script and create the specified set of members immediately before you process the partition.  
-  
+>   
+>  Slicer cannot be defined on a dimension that has a Many-To-Many relationship or unmaterialized referenced relationship with the partition measure group. The slicer validation fails with error "The slice specified for the ... attribute is incorrect". This is because an unmaterialized relationship has no valid dimension attribute data ID range data for evaluation of slicer validation.   
+
 ## See Also  
  [Create and Manage a Local Partition &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/create-and-manage-a-local-partition-analysis-services.md)  
   
