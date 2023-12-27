@@ -1,7 +1,7 @@
 ---
 title: "Tabular Model Definition Language (TMDL) | Microsoft Docs"
 description: Learn about Tabular Model Definition Language (TMDL)
-ms.date: 04/07/2023
+ms.date: 12/27/2023
 ms.service: analysis-services
 ms.custom: tmdl
 ms.topic: conceptual
@@ -97,7 +97,7 @@ expression Database = "Contoso" meta [IsParameterQuery=true, Type="Text", IsPara
 
 ## TMDL folder structure
 
-Unlike TMSL, TMDL implements a folder structure. The default folder structure has only one level of *sub-folders*, all with inner .tmdl files:
+Unlike TMSL, TMDL uses a folder structure. The default folder structure has only one level of *sub-folders*, all with .tmdl files inside:
 
 - cultures
 - perspectives
@@ -150,13 +150,13 @@ Learn more [here](tmdl-how-to.md?#get-a-tmdl-model-representation) on how serial
 - Receives a full path to a TMDL folder.
 - Returns the TOM database object representation of the TMDL folder.
 
-Learn more [here](tmdl-how-to.md?#deploy-a-tmdl-model-representation) on how deserialize from folders.
+Learn more [here](tmdl-how-to.md?#deploy-a-tmdl-model-representation) on how to deserialize from folders.
 
 ### String Serialization
 
 `public static string SerializeObject (MetadataObject object, bool qualifyObject = true)`
 
-- Receives a TOM object and returns it's TMDL text representation.
+- Receives a TOM object and returns its TMDL text representation.
 
 Learn more [here](tmdl-how-to.md?#object-text-serialization) on how serialize an object to a string.
 
@@ -191,7 +191,7 @@ table Sales
 
 ```
 
-Objects like `partition` or `measure` have [default properties](#default-properties) that can be assigned after the equals (**=**) delimiter in the same line of the object declaration or in the following line if its a multi-line [expression](#expressions):
+Objects like `partition` or `measure` have [default properties](#default-properties) that can be assigned after the equals (**=**) delimiter in the same line of the object declaration or in the following line for a multi-line [expression](#expressions):
 
 ```tmdl
 table Sales
@@ -251,7 +251,7 @@ The following rules apply to property values:
   - Must be enclosed in double quotes (**"**) if the text contains trailing or leading whitespace.
   - When enclosed in double quotes, if the value contains double quotes, use two double quotes to escape them (see `displayFolder` property in the code example above).
 
-- **Boolean properties** can be set by using standard key/value pair syntax, like with the `'isAvailableInMdx'` property in the previous example. They can also be set by using a shortcut syntax where only the property name is declared and `true` is implied. See, for example, the 'isHidden' property in the previous examplee.
+- **Boolean properties** can be set by using standard key/value pair syntax, like with the `'isAvailableInMdx'` property in the previous example. They can also be set by using a shortcut syntax where only the property name is declared and `true` is implied. See, for example, the 'isHidden' property in the previous example.
 
 #### Named object references
 
@@ -317,7 +317,7 @@ Supported syntax:
 - The value is specified on the same line as the section header.
 - The value is specified as a multi-line expression following the section header.
 
-In the following code example, measure `Sales Amount` and partition 'Sales-Partition1' are single line and measure `Quantity` is multi-line:
+In the following code example, measure `Sales Amount` and partition `Sales-Partition1` are single line and measure `Quantity` is multi-line:
 
 ```tmdl
 table Sales
@@ -377,7 +377,7 @@ The following special rules apply to expressions:
 - To enforce a different indentation or to preserve trailing blank lines or whitespaces, use the three backticks (**```**) enclosing.
 - By default, TMDL serializer will enclose with backticks if the expression value contains anything that could cause a modification on roundtrip (for example, trailing whitespaces, blank lines with whitespaces).
 
-Expressions enclosed with three backtick (**```**) are read verbatim including indentation, blank lines and whitespaces. The delimiter should be applied immediately following the equal sign (**=**) and the line following the expression and cannot have anything after it, like in the following example:
+Expressions enclosed with three backticks (**```**) are read verbatim including indentation, blank lines and whitespaces. The delimiter should be applied immediately following the equal sign (**=**) and the line following the expression and cannot have anything after it, like in the following example:
 
 ```tmdl
 table Table1
@@ -400,7 +400,7 @@ table Table1
 
 ```
 
-Using three backtick (**```**) delimiter is optional and only required in unique situations. For most situations, using correct indentation and object declaration ensures correct parsing of whatever expression you add to the property.
+Using the three backticks (**```**) delimiter is optional and only required in unique situations. For most situations, using correct indentation and object declaration ensures correct parsing of whatever expression you add to the property.
 
 When the expression is enclosed within backticks, the following rules apply:
 
@@ -416,8 +416,8 @@ The following properties are treated as expressions:
 |CalculatedPartitionSource    |    Expression     |   DAX      |
 |QueryPartitionSource     |    Query     |    NativeQuery    |
 |CalculationItem     |   Expression     |     DAX    |
-|BasicRefreshPolicy     |    SourceExpression,PollingExpression     |     M    |
-|KPI     |    StatusExpression,TargetExpression,TrendExpression     |     DAX    |
+|BasicRefreshPolicy     |    SourceExpression, PollingExpression     |     M    |
+|KPI     |    StatusExpression, TargetExpression, TrendExpression     |     DAX    |
 |LinguisticMetadata     |    Content     |    XML or Json     |
 |JsonExtendedProperty     |    Value     |    Json     |
 |FormatStringDefintion     |    Expression     |    DAX     |
@@ -477,7 +477,7 @@ table Sales
 
 ### Partial declaration
 
-TMDL doesn't force object declaration in the same document. It is, however, similar to [C# partial classes](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods) where it's possible split the object definition between multiple files. For example, it's possible to declare a table definition in a [table].tmdl file and then have all the measures from all tables defined in a single [measures].tmdl file, like shown here:
+TMDL doesn't force object declaration in the same document. It is, however, similar to [C# partial classes](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods) where it's possible split the object definition between multiple files. For example, you can declare a table definition in a [table].tmdl file and then have all the measures from all tables defined in a single [measures].tmdl file, as shown here:
 
 ```tmdl
 table Sales
@@ -495,7 +495,7 @@ To avoid a parsing error, the same property can't be declared twice. For example
 
 ### Object references
 
-Its possible to reference another TMDL object using the **ref** keyword followed by the object type and name. 
+You can reference another TMDL object using the **ref** keyword followed by the object type and name. 
 
 For example, if you serialize a Column object using the string serialization API, the outcome will be:
 

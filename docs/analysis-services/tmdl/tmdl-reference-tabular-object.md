@@ -1,5 +1,5 @@
 ---
-title: "Object Definitions in Tabular Model Definition Language (TMDL) | Microsoft Docs"
+title: "Object definitions in Tabular Model Definition Language (TMDL) | Microsoft Docs"
 description: See a list of the major TMDL schema objects.
 ms.date: 12/25/2023
 ms.service: analysis-services
@@ -102,7 +102,7 @@ culture pt-PT
 
 ```
 
-## Role Members in TMDL
+## Role members in TMDL
 
 Role members could number in the hundreds or thousands, so serializing each member as a separate object using its native TOM representation ([WindowsModelRoleMember](/dotnet/api/microsoft.analysisservices.tabular.windowsmodelrolemember) or [ExternalModelRoleMember](/dotnet/api/microsoft.analysisservices.tabular.externalmodelrolemember)) would be unreadable. To optimize for interaction and readability, TMDL breaks the principle of alignment with TOM object tree, and optimizes role members representation for the most common scenario: Microsoft Entra ID (formerly known as Azure AD) and Windows Identity.
 

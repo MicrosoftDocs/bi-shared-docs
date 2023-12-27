@@ -183,7 +183,7 @@ Console.WriteLine(output.ToString());
 
 ```
 
-The following code example shows how deserialize from TMDL, excluding the roles:
+The following code example shows how to deserialize from TMDL, excluding the roles:
 
 ```csharp
 var context = MetadataSerializationContext.Create(MetadataSerializationStyle.Tmdl);
