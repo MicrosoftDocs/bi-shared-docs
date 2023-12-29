@@ -87,9 +87,9 @@ author: minewiskan
   
  `}`  
   
-1.  In your C# application, invoke `MoveDb()` with the necessary parameters.  
+2.  In your C# application, invoke `MoveDb()` with the necessary parameters.  
   
-2.  Compile and execute your code to move the database.  
+3.  Compile and execute your code to move the database.  
   
 #### Moving a database by script using XMLA  
   
@@ -109,13 +109,13 @@ author: minewiskan
   
  `</Detach>`  
   
-1.  Replace `%dbName%` with the name of the database and `%password%` with the password. The % characters are part of the template and must be removed.  
+3.  Replace `%dbName%` with the name of the database and `%password%` with the password. The % characters are part of the template and must be removed.  
   
-2.  Execute the XMLA command.  
+4.  Execute the XMLA command.  
   
-3.  Use any operating system mechanism or your standard method for moving files to move the database folder to the new location.  
+5.  Use any operating system mechanism or your standard method for moving files to move the database folder to the new location.  
   
-4.  Copy the following script template for XMLA in a new XMLA tab  
+6.  Copy the following script template for XMLA in a new XMLA tab  
   
  `<Attach xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">`  
   
@@ -125,9 +125,9 @@ author: minewiskan
   
  `</Attach>`  
   
-1.  Replace `%dbFolder%` with the complete UNC path of the database folder, `%ReadOnlyMode%` with the corresponding value **ReadOnly** or **ReadWrite**, and `%password%` with the password. The % characters are part of the template and must be removed.  
+7.  Replace `%dbFolder%` with the complete UNC path of the database folder, `%ReadOnlyMode%` with the corresponding value **ReadOnly** or **ReadWrite**, and `%password%` with the password. The % characters are part of the template and must be removed.  
   
-2.  Execute the XMLA command.  
+8.  Execute the XMLA command.  
   
 ## See Also  
  [Attach and Detach Analysis Services Databases](../../analysis-services/multidimensional-models/attach-and-detach-analysis-services-databases.md)   
