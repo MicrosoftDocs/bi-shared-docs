@@ -1,7 +1,7 @@
 ---
 title: "Get started with Tabular Model Definition Language (TMDL) | Microsoft Docs"
 description: Learn how to get started using the Tabular Model Definition Language (TMDL)
-ms.date: 04/07/2023
+ms.date: 12/20/2023
 ms.service: analysis-services
 ms.custom: tmdl
 ms.topic: conceptual
@@ -19,9 +19,9 @@ author: minewiskan
 
 Before getting started with this article, be sure to thoroughly understand concepts described in [Tabular Model Definition Language (TMDL) overview](tmdl-overview.md).
 
-The easiest way to explore TMDL is to reference the **Preview Nuget package** and use the API methods to serialize and deserialize to and from TMDL.
+The easiest way to explore TMDL is to reference the  Analysis Services Management Objects (AMO) **Nuget package** and use the TMDL API methods to serialize and deserialize to and from TMDL.
 
-[Get the **Preview Nuget packages**](../client-libraries.md#tmdl-preview)
+[Get the **Nuget packages**](../client-libraries.md#nuget-packages)
 
 ## Get a TMDL model representation
 
@@ -40,7 +40,7 @@ using (var server = new Server())
 
     var destinationFolder = $"{outputPath}\\{database.Name}-tmdl";
 
-    TmdlSerializer.SerializeModelToFolder(database.Model, destinationFolder);
+    TmdlSerializer.SerializeDatabaseToFolder(database.Model, destinationFolder);
 
 }
 
@@ -50,30 +50,29 @@ The output is a folder with a TMDL representation of the model, like this:
 
 :::image type="content" source="media/folder-tmdl-dataset.png" alt-text="Folder with a TMDL representation of a model":::
 
-After serialization into a folder, use a text-editor to edit the TMDL files. For example, by using VS Code we can add a new measure, **[Sales Amount (Computers)]**:
+After serialization into a folder, use a text-editor to edit the TMDL files. For example, by using Visual Studio Code we can add a new measure, **[Sales Amount (Computers)]**:
 
 ```tmdl
 /// Sales data for year over year analysis
-table Sales
-    lineageTag: bb123cb2-11dc-4309-9793-d5e84bb2442c
-    ordinal: 6
+table Sales        
 
-    partition 'Sales-3cf1ff71-eddc-4dfd-8fae-62e8f227e647' = M
-        mode: Import
-        attributes: ""
-        expression:=
+    partition 'Sales-Part1' = m
+        mode: Import        
+        source =
             let
                 …
             in
                 #"Filtered Rows1"
 
     measure 'Sales Amount' = SUMX('Sales', [Quantity] * [Net Price])
-        formatString:= $ #,##0
+        formatString: $ #,##0
 
     measure 'Sales Amount (Computers)' = CALCULATE([Sales Amount], 'Product'[Category] = "Computers")
-        formatString:= $ #,##0
+        formatString: $ #,##0
 
 ```
+
+For a better experience you can install [Visual Studio Code TMDL language extension](https://marketplace.visualstudio.com/items?itemName=analysis-services.TMDL).
 
 ## Deploy a TMDL model representation
 
@@ -84,7 +83,7 @@ var xmlaServer = "<Workspace XMLA address>";
 
 var tmdlFolderPath = $"{System.Environment.CurrentDirectory}\\Contoso-tmdl";
 
-var model = TmdlSerializer.DeserializeModelFromFolder(tmdlFolderPath);            
+var model = TmdlSerializer.DeserializeDatabaseFromFolder(tmdlFolderPath);            
 
 using (var server = new Server())
 {
@@ -103,3 +102,105 @@ using (var server = new Server())
 When executed, the new measure is deployed to the model.
 
 :::image type="content" source="media/sales-amount-measure-in-dataset.png" alt-text="Sales Amount (Computers) measure in dataset ":::
+
+## Handling TMDL serialization errors
+
+When an error is detected in TMDL serialization methods, besides throwing a few common .NET exceptions like `ArgumentException` and `InvalidOperationException`, TMDL-specific exceptions are also returned.
+
+- `TmdlFormatException` is thrown if the TMDL text is not a valid syntax. For example, invalid keyword or indentation.
+
+- `TmdlSerializationException` is thrown if the TMDL text is valid, but violates the TOM metadata logic. For example, type of value does not match the expected type.
+
+In addition to exception details, the following is included:
+
+- `document path`: Path to the TMDL file with errors.
+- `line number`: line number with errors.
+- `line text`: line text with errors.
+
+Code example handling `TmdlFormatException`:
+
+```csharp
+try
+{
+    var tmdlPath = "<TMDL Folder Path>";
+
+    var model = TmdlSerializer.DeserializeDatabaseFromFolder(tmdlPath);
+}
+catch (TmdlFormatException ex)
+{
+    Console.WriteLine($"Error on Deserializing TMDL '{ex.Message}', document path: '{ex.Document}'  line number: '{ex.Line}', line text: '{ex.LineText}'");
+
+    throw;
+}    
+
+```
+
+## Object text serialization
+
+The following code example shows how to serialize a column into TMDL:
+
+```csharp
+
+var output = TmdlSerializer.SerializeObject(model.Tables["Product"].Columns["ProductKey"], qualifyObject: true);
+
+Console.WriteLine(output);
+
+```
+
+Output:
+
+```tmdl
+ref table Product
+
+ column ProductKey
+  dataType: int64
+  isKey
+  formatString: 0
+  isAvailableInMdx: false
+  lineageTag: 4184d53e-cd2d-4cbe-b8cb-04c72a750bc4
+  summarizeBy: none
+  sourceColumn: ProductKey
+
+  annotation SummarizationSetBy = Automatic
+```
+
+## Stream serialization
+
+The following code example shows how to serialize a semantic model to a single text variable:
+
+```csharp
+var output = new StringBuilder();
+
+foreach (MetadataDocument document in model.ToTmdl())
+{
+    using (TextWriter writer = new StringWriter(output))
+    {
+        document.WriteTo(writer);
+    }
+}
+
+Console.WriteLine(output.ToString());
+
+```
+
+The following code example shows how to deserialize from TMDL, excluding the roles:
+
+```csharp
+var context = MetadataSerializationContext.Create(MetadataSerializationStyle.Tmdl);
+
+var files = Directory.GetFiles("[TMDL Directory Path]", "*.tmdl", SearchOption.AllDirectories);
+
+foreach (var file in files)
+{
+    if (file.Contains("/roles/"))
+        continue;
+
+    using (TextReader reader = File.OpenText(file))
+    {                    
+        context.ReadFromDocument(file, reader);
+    }
+}
+
+var model = context.ToModel();
+
+```
