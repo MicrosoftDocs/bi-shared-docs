@@ -5,7 +5,7 @@ ms.date: 04/07/2021
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: owendowend
+ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
