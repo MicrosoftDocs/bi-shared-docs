@@ -31,7 +31,7 @@ When you import data or use a value in a formula, even if the original data sour
 |Boolean|Boolean|Either a True or False value.|  
 |Text|String|A Unicode character data string. Can be strings, numbers, or dates represented in a text format.|  
 |Date|Date/time|Dates and times in an accepted date-time representation.<br /><br /> Valid dates are all dates after March 1, 1900.|  
-|Currency|Currency|Currency data type allows values between -922,337,203,685,477.5808 to 922,337,203,685,477.5807 with four decimal digits of fixed precision.|  
+|Currency|Currency|Currency data type allows values between -922,337,203,685,477.5807 to 922,337,203,685,477.5806 with four decimal digits of fixed precision.|  
 |N/A|Blank|A blank is a data type in DAX that represents and replaces SQL nulls. You can create a blank by using the BLANK function, and test for blanks by using the logical function, ISBLANK.|  
   
  \* If you attempt to import data that has large numeric values, import might fail with the following error:  
@@ -45,7 +45,7 @@ When you import data or use a value in a formula, even if the original data sour
 |9223372036854775807|  
 |-9223372036854775808|  
 |1.7976931348623158e+308|  
-|2.2250738585072014e-308|  
+|-1.7976931348623158e+308|  
   
  Remove the value from your data and try importing again.  
   
