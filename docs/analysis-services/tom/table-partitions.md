@@ -1,6 +1,6 @@
 ---
-title: "Leverage hot and cold table partitions to optimize very large Power BI data models"
-description: Learn how to leverage hot and cold table partitions to optimize very large data models in Analysis Services Management Objects (AMO) Tabular Object Model (TOM).
+title: "Use hot and cold table partitions to optimize very large Power BI data models"
+description: Learn how to use hot and cold table partitions to optimize very large data models in Analysis Services Management Objects (AMO) Tabular Object Model (TOM).
 ms.date: 01/30/2024
 ms.service: analysis-services
 ms.custom: tabular-models
@@ -10,9 +10,9 @@ ms.reviewer: Kay, Rui
 author: mberdugo
 ---
 
-# Leverage hot and cold table partitions to optimize very large Power BI data models
+# Use hot and cold table partitions to optimize very large Power BI data models
 
-This article describes how to leverage hot and cold table partitions to optimize very large data models. Partitions provide a way to divide a table’s data into discrete subsets. Partitions are *not* directly exposed in the standard Power BI data modelling tools, but you can take advantage of advanced partitioning methods by configuring an incremental refresh policy in Power BI Desktop. Incremental refresh relies on partitions, as explained in [Incremental refresh and real-time data for datasets](/power-bi/connect-data/incremental-refresh-overview). This feature enables data model creators of any skill level to optimize data import without having to dive too deeply into table partitioning concepts.
+This article describes how to use hot and cold table partitions to optimize very large data models. Partitions provide a way to divide a table’s data into discrete subsets. Partitions are *not* directly exposed in the standard Power BI data modeling tools, but you can take advantage of advanced partitioning methods by configuring an incremental refresh policy in Power BI Desktop. Incremental refresh relies on partitions, as explained in [Incremental refresh and real-time data for datasets](/power-bi/connect-data/incremental-refresh-overview). This feature enables data model creators of any skill level to optimize data import without having to dive too deeply into table partitioning concepts.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ Using hot and cold table partitions goes beyond what an incremental refresh poli
 
 1. Knowledge of the requirements of the DAX functions you can use to specify a `DataCoverageDefinition`. This is a new property for *DirectQuery* partitions to describe what data the *DirectQuery* partition of a hybrid table contains so that the Power BI engine can exclude this partition from query processing where appropriate. Excluding the *DirectQuery* partition can help to avoid unnecessary data source queries and improve the performance of DAX query processing.
 
-1. Understanding the difference between regular and limited table relationships. For example, the RELATED function is useful if you want to define the data coverage of a facts table partition based on the values from a related date dimension table. Keep in mind that the facts table partition is a *DirectQuery* partition with a chance of a limited relationship to the date table over which the RELATED function cannot fetch values. In this scenario, RELATED will only work if the date dimension table is a dual table. The date table would have to be in *DirectQuery* or *Dual* mode. It can't be pure import.  
+1. Understanding the difference between regular and limited table relationships. For example, the RELATED function is useful if you want to define the data coverage of a facts table partition based on the values from a related date dimension table. Keep in mind that the facts table partition is a *DirectQuery* partition with a chance of a limited relationship to the date table over which the RELATED function can't fetch values. In this scenario, RELATED only works if the date dimension table is a dual table. The date table has to be in *DirectQuery* or *Dual* mode. It can't be pure import.  
 
 Be aware that an incorrectly defined `DataCoverageDefinition` could lead to wrong results because Power BI might incorrectly exclude the *DirectQuery* partition from query processing. So, make sure you compare the results with and without the `DataCoverageDefinition` to ensure they add up.
 
@@ -42,7 +42,7 @@ First, configure the sales table with a **hot** import mode partition for the mo
 
 If you have an [AdventureWorks sample data warehouse](/sql/samples/adventureworks-install-configure) and want to follow along, here are the general steps:
 
-1. **Create the dataset**. Use Power BI Desktop to create an AdventureWorks dataset and report. Include all the tables in pure *DirectQuery* mode. Subsequently, convert all the tables except the `FactInternetSales` table to *Dual* mode. Leave the `FactInternetSales` table in *DirectQuery* mode.
+1. **Create the dataset**. Use Power BI Desktop to create an AdventureWorks dataset and report. Include all the tables in pure *DirectQuery* mode. Then, convert all the tables except the `FactInternetSales` table to *Dual* mode. Leave the `FactInternetSales` table in *DirectQuery* mode.
 
 1. **Upload the dataset**. Use a workspace hosted on Power BI Premium with the XMLA endpoint enabled for write operations.  
 
@@ -90,13 +90,13 @@ If you have an [AdventureWorks sample data warehouse](/sql/samples/adventurework
 
 1. **Process the data model**. In the Power BI portal, open the workspace with your *AdventureWorks* dataset and perform an on-demand refresh of the dataset to load the import partition with data.
 
-1. **Verify that the reports show recent and historical data**. Open your *AdventureWorks* and verify that the report is able to show results for sales transactions before and after Jan 1st 2020, as in the following screenshot.
+1. **Verify that the reports show recent and historical data**. Open your *AdventureWorks* and verify that the report is able to show results for sales transactions before and after Jan 1, 2020, as in the following screenshot.
 
 :::image type="content" source="./media/table-partitions/internet-sales-before-after.png" alt-text="Screenshot of two different reports. One shows data from 2020 and one shows data from 2019.":::
 
 ## Define the data coverage of the *DirectQuery* partition
 
-The solution works seamlessly over recent and historical data. However, by default Power BI queries all table partitions, because it does not know what data each partition covers. Therefore, Power BI still queries the DirectQuery partition even for those years that the DirectQuery partition does not cover. The sales data is readily available in the import partition and the DirectQuery partition doesn't contribute any rows, but this superfluous source querying can still cause noticeable load on the data source and contribute delays to DAX query processing. To avoid this superfluous source querying, use the `DataCoverageDefinition`.
+The solution works seamlessly over recent and historical data. However, by default Power BI queries all table partitions, because it doesn't know what data each partition covers. Therefore, Power BI still queries the DirectQuery partition even for those years that the DirectQuery partition doesn't cover. The sales data is readily available in the import partition and the DirectQuery partition doesn't contribute any rows, but this superfluous source querying can still cause noticeable load on the data source and contribute delays to DAX query processing. To avoid this superfluous source querying, use the `DataCoverageDefinition`.
 
 As the following screenshot shows, the Power BI report still sends several unnecessary SQL queries for 2020 to the data source as each visual’s DAX query causes Power BI to query the *DirectQuery* partition.
 
@@ -127,7 +127,7 @@ By setting the `dataCoverageDefinition` property on the *DirectQuery* partition 
         } 
 ```
 
-As mentioned earlier, the `dataCoverageDefinition` property helps eliminate unnecessary data source load. It also improves the analysis performance for recent data because now Power BI can exclude the DirectQuery partition from DAX query processing where appropriate. You can define straightforward data coverage expressions for single values as well as ranges with simple AND, OR, and NOT operators. You can also use the RELATED function to define the data coverage based on a column from a dimension table that has a regular relationship to the fact table. If a data coverage expression uses columns from a dimension table, make sure the dimension table is in *dual* mode.You can also define the data coverage based on columns from the fact table itself. Refer to the following table for supported operations, categorized into three groups.  
+As mentioned earlier, the `dataCoverageDefinition` property helps eliminate unnecessary data source load. It also improves the analysis performance for recent data because now Power BI can exclude the DirectQuery partition from DAX query processing where appropriate. You can define straightforward data coverage expressions for single values as well as ranges with simple AND, OR, and NOT operators. You can also use the RELATED function to define the data coverage based on a column from a dimension table that has a regular relationship to the fact table. If a data coverage expression uses columns from a dimension table, make sure the dimension table is in *dual* mode. You can also define the data coverage based on columns from the fact table itself. Refer to the following table for supported operations, categorized into three groups.  
 
 |       Type                           |                                                           Comments                                                        |                                                                                                                                                                                                        Examples                                                                                                                                                                                                    |
 |--------------------------------------|:-------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
