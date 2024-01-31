@@ -40,7 +40,7 @@ First, configure the sales table with a **hot** import mode partition for the mo
 
 :::image type="content" source="./media/table-partitions/sample-data-model.png" alt-text="Screenshot of the Fact Internet Sales table of an Adventure Works sample data model. The fact internet dales table is opened with the filtered rows showing.":::
 
-If you have an [AdventureWorks sample data warehouse](/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms) and want to follow along, here are the general steps:
+If you have an [AdventureWorks sample data warehouse](/sql/samples/adventureworks-install-configure) and want to follow along, here are the general steps:
 
 1. **Create the dataset**. Use Power BI Desktop to create an AdventureWorks dataset and report. Include all the tables in pure *DirectQuery* mode. Subsequently, convert all the tables except the `FactInternetSales` table to *Dual* mode. Leave the `FactInternetSales` table in *DirectQuery* mode.
 
@@ -100,7 +100,7 @@ The solution works seamlessly over recent and historical data. However, by defau
 
 As the following screenshot shows, the Power BI report still sends several unnecessary SQL queries for 2020 to the data source as each visual’s DAX query causes Power BI to query the *DirectQuery* partition.
 
-:::image type="content" source="./media/table-partitions/prtition-queries.png" alt-text="Screenshot of DAX queries.":::
+:::image type="content" source="./media/table-partitions/partition-queries.png" alt-text="Screenshot of DAX queries.":::
 
 By setting the `dataCoverageDefinition` property on the *DirectQuery* partition as in the following TMSL snippet, these SQL queries are avoided. Keep in mind, however, that you must refresh the dataset after you apply or change a data coverage definition. A process recalc is enough to evaluate the data coverage definition. If you forget this step, queries that touch the partition fail with an error message stating "DataCoverageDefinition of the DQ partition in table '[Table Name]' is not yet calculated after a recent change. It needs to be reprocessed".  
 
