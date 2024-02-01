@@ -1551,6 +1551,8 @@
       href: tom/install-distribute-and-reference-the-tabular-object-model.md
     - name: Programming Power BI semantic models (TOM)
       href: tom/tom-pbi-datasets.md
+    - name: Use hot and cold table partitions to optimize very large Power BI data models
+      href: /tom/table-partitions.md
   - name: Tabular Model Scripting Language (TMSL)
     items: 
     - name: Tabular Model Scripting Language overview
