@@ -7,7 +7,6 @@ ms.topic: conceptual
 ms.author: owend
 ms.reviewer: owend
 author: minewiskan
-ms.custom: contperf-fy20q4
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Connection string properties
