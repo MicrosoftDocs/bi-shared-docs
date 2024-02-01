@@ -12,13 +12,13 @@ author: mberdugo
 
 # Use hot and cold table partitions to optimize very large Power BI data models
 
-This article describes how to use hot and cold table partitions to optimize very large data models. Partitions provide a way to divide a table’s data into discrete subsets. Partitions are *not* directly exposed in the standard Power BI data modeling tools, but you can take advantage of advanced partitioning methods by configuring an incremental refresh policy in Power BI Desktop. Incremental refresh relies on partitions, as explained in [Incremental refresh and real-time data for datasets](/power-bi/connect-data/incremental-refresh-overview). This feature enables data model creators of any skill level to optimize data import without having to dive too deeply into table partitioning concepts.
+This article describes how to use hot and cold table partitions to optimize very large data models. Partitions provide a way to divide a table’s data into discrete subsets. Partitions are *not* directly exposed in the standard Power BI data modeling tools, but you can take advantage of advanced partitioning methods by configuring an incremental refresh policy in Power BI Desktop. Incremental refresh relies on partitions, as explained in [Incremental refresh and real-time data for datasets](/power-bi/connect-data/incremental-refresh-overview). However, configuring hot and cold table partitions goes beyond what an incremental refresh policy can accomplish and assumes familiarity with typical table partitioning schemes and XMLA-based tools. 
 
 ## Prerequisites
 
-Using hot and cold table partitions goes beyond what an incremental refresh policy can accomplish and assumes familiarity with typical table partitioning schemes and XMLA-based tools. Due to the relative complexity of this technique, it's most suitable for advanced users with experience in the following areas:
+Due to the relative complexity of this partitioning technique, it's most suitable for advanced users with experience in the following areas:
 
-1. Understanding table partitioning concepts, how to import mode partitions, *DirectQuery* mode, and *Dual* mode work.
+1. Understanding table partitioning concepts, how import mode partitions, *DirectQuery* mode, and *Dual* mode work.
 
 1. Knowledge of how to create hybrid tables using XMLA-based tools. Hybrid tables use one or more import-mode partitions and one *DirectQuery* partition.
 
@@ -52,7 +52,7 @@ If you have an [AdventureWorks sample data warehouse](/sql/samples/adventurework
 
 1. **Configure the *FactInternetSales* table partitions**.  Right click the **AdventureWorks dataset** > **Script** > **Script Database as** **Create or Replace to**, and select **New query editor window**. Replace the entire partitions section with the following section. Make sure you update the Sql.Database lines to point to the *AdventureWorksDW* database in your environment. Select **Execute** or press F5. Verify that the operation finishes successfully.
 
-    ```sql
+    ```json
        "partitions": [ 
         { 
           "name": "FactInternetSales-DQ-Partition", 
@@ -104,7 +104,7 @@ As the following screenshot shows, the Power BI report still sends several unnec
 
 By setting the `dataCoverageDefinition` property on the *DirectQuery* partition as in the following TMSL snippet, these SQL queries are avoided. Keep in mind, however, that you must refresh the dataset after you apply or change a data coverage definition. A process recalc is enough to evaluate the data coverage definition. If you forget this step, queries that touch the partition fail with an error message stating "DataCoverageDefinition of the DQ partition in table '[Table Name]' is not yet calculated after a recent change. It needs to be reprocessed".  
 
-```sql
+```json
         { 
           "name": "FactInternetSales-DQ-Partition", 
           "mode": "directQuery", 
@@ -136,4 +136,4 @@ As mentioned earlier, the `dataCoverageDefinition` property helps eliminate unne
 |      Multiple predicates             |     Equality, inequality, and comparison <br> Does not support IN operator <br> Limited to a single dimension table in dual mode  |     RELATED('Date'[Year]) > 2010 && RELATED('Date'[Year]) > 2020  <br> RELATED('Date'[Year]) = 2020 && RELATED('Date'[Calendar Quarter]) = 1  <br> RELATED('Date'[Year]) > 2020 && NOT RELATED('Date'[Calendar Quarter]) = 1  <br> RELATED('Date'[Year]) > 2020 && RELATED('Date'[Calendar Quarter]) < 3 <br>  RELATED('Date'[Year]) > 2020 && (RELATED('Date'[Calendar Quarter]) = 1 \|\| RELATED('Date'[Calendar Quarter]) = 2)  |
 
 The `DataCoverageDefinition` property on *DirectQuery* partitions enables you to optimize even the largest Power BI data models based on hot partitions in import mode and cold partitions in *DirectQuery* mode by avoiding unnecessary querying of the data source.
-This source query reduction helps to boost report performance when analyzing hot data. It also helps to decrease the load on the data source, and in this way helps to maximize the scale of your data source. Optimizing a data model by using the `dataCoverageDefinition` property is still an advanced scenario.
+This source query reduction helps to boost report performance when analyzing hot data. It also helps to decrease the load on the data source, and in this way helps to maximize the scale of your data source. Yet, keep in mind that optimizing a data model by using the `dataCoverageDefinition` property is still an advanced scenario. Make sure you verify the results carefully.
