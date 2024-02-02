@@ -38,7 +38,7 @@ Without support for hot and cold partitions, this kind of historic analysis woul
 
 First, configure the sales table with a **hot** import mode partition for the most recent data and keep the older data in a **cold** *DirectQuery* partition, as the following diagram illustrates for the FactInternetSales table of an AdventureWorks sample data model. Any rows with an *OrderDateKey* greater than or equal to 20200101 are imported into the data model via the hot import-mode partition. Rows with an *OrderDateKey* less than 20200101 are covered through the cold *DirectQuery* partition. Now, Power BI can deliver the primary use cases quickly with import mode, and you don’t need to import vast volumes of historical data that you only analyze occasionally because the *DirectQuery* partition has this covered.
 
-:::image type="content" source="./media/table-partitions/sample-data-model.png" alt-text="Screenshot of the Fact Internet Sales table of an Adventure Works sample data model. The fact internet dales table is opened with the filtered rows showing.":::
+:::image type="content" source="./media/table-partitions/sample-data-model.png" alt-text="Screenshot of the Fact Internet Sales table of an Adventure Works sample data model. The fact internet sales table is opened with the filtered rows showing.":::
 
 If you have an [AdventureWorks sample data warehouse](/sql/samples/adventureworks-install-configure) and want to follow along, here are the general steps:
 
