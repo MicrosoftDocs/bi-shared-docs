@@ -5,8 +5,8 @@ ms.date: 03/29/2019
 ms.service: analysis-services
 ms.custom: assl
 ms.topic: reference
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 
 ---

@@ -5,8 +5,8 @@ ms.date: 04/20/2022
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 ---
 # Install sample data and multidimensional projects 

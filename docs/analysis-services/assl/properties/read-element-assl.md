@@ -4,11 +4,11 @@ description: Learn about the Read property element in the Analysis Services Scri
 ms.date: 09/14/2020
 ms.service: analysis-services
 ms.custom: assl
-ms.reviewer: owend
+ms.reviewer: kfollis
 
 ms.topic: reference
 author: minewiskan
-ms.author: owend
+ms.author: kfollis
 
 ---
 # Read Element (ASSL)

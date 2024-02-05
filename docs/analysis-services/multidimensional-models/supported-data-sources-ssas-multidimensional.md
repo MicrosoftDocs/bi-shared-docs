@@ -5,8 +5,8 @@ ms.date: 02/20/2020
 ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 
 ---

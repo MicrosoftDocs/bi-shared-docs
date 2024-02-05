@@ -4,8 +4,8 @@ description: Learn about connection string properties used to query Azure Analys
 ms.date: 09/06/2023
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---

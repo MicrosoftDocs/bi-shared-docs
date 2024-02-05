@@ -5,8 +5,8 @@ ms.date: 07/19/2021
 ms.service: analysis-services
 ms.custom: trace-events
 ms.topic: reference
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 ---
 # Analysis Services object type codes used in traces

@@ -4,8 +4,8 @@ description: Describes Analysis Services documentation.
 ms.date: 03/21/2023
 ms.service: analysis-services
 ms.topic: overview
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---

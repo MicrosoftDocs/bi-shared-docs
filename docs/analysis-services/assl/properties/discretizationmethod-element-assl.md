@@ -4,11 +4,11 @@ description: Learn about the DiscretizationMethod property element in the Analys
 ms.date: 7/25/2018
 ms.service: analysis-services
 ms.custom: assl
-ms.reviewer: owend
+ms.reviewer: kfollis
 
 ms.topic: reference
 author: minewiskan
-ms.author: owend
+ms.author: kfollis
 
 ---
 # DiscretizationMethod Element (ASSL)

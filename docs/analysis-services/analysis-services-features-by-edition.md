@@ -4,8 +4,8 @@ description: Learn about features supported by different editions of SQL Server 
 ms.date: 06/09/2022
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---

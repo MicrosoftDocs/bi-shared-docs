@@ -4,11 +4,11 @@ description: Learn about the Type property element for MiningStructureColumn in 
 ms.date: 7/25/2018
 ms.service: analysis-services
 ms.custom: assl
-ms.reviewer: owend
+ms.reviewer: kfollis
 
 ms.topic: reference
 author: minewiskan
-ms.author: owend
+ms.author: kfollis
 
 ---
 # Type Element (MiningStructureColumn) (ASSL)

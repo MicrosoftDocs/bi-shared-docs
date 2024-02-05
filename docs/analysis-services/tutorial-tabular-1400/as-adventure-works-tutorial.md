@@ -5,8 +5,8 @@ ms.date: 04/20/2022
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: tutorial
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 ---
 # Adventure Works Internet Sales tutorial (1500)

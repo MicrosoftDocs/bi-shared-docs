@@ -5,8 +5,8 @@ ms.date: 03/05/2020
 ms.service: analysis-services
 ms.custom: schema-rowsets
 ms.topic: reference
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---

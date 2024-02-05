@@ -4,11 +4,11 @@ description: Learn about the TrendGraphic property element in the Analysis Servi
 ms.date: 7/25/2018
 ms.service: analysis-services
 ms.custom: assl
-ms.reviewer: owend
+ms.reviewer: kfollis
 
 ms.topic: reference
 author: minewiskan
-ms.author: owend
+ms.author: kfollis
 
 ---
 # TrendGraphic Element (ASSL)

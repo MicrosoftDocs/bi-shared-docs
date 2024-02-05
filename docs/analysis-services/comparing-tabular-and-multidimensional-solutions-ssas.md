@@ -4,8 +4,8 @@ description: Describes the differences between Analysis Services multidimensiona
 ms.date: 01/19/2022
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---

@@ -4,11 +4,11 @@ description: Learn about the Name property element in the Analysis Services Scri
 ms.date: 7/25/2018
 ms.service: analysis-services
 ms.custom: assl
-ms.reviewer: owend
+ms.reviewer: kfollis
 
 ms.topic: reference
 author: minewiskan
-ms.author: owend
+ms.author: kfollis
 
 ---
 # Name Element (ASSL)

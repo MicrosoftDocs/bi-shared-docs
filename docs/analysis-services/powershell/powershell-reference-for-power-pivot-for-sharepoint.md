@@ -5,8 +5,8 @@ ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: powershell
 ms.topic: reference
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---

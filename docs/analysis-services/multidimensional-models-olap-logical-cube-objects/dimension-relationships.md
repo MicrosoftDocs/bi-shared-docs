@@ -5,8 +5,8 @@ ms.date: 08/28/2020
 ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 
 ---

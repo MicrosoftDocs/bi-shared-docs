@@ -5,8 +5,8 @@ ms.date: 04/19/2019
 ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 
 ---

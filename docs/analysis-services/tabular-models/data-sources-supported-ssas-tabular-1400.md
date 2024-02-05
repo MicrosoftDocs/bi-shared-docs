@@ -5,8 +5,8 @@ ms.date: 02/03/2021
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
+ms.author: kfollis
+ms.reviewer: kfollis
 author: minewiskan
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
