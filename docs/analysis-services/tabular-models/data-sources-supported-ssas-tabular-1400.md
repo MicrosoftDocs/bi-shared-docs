@@ -5,9 +5,9 @@ ms.date: 02/03/2021
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Data sources supported in SQL Server Analysis Services tabular 1400 and higher models
