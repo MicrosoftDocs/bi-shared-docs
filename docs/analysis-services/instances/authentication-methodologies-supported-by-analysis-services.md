@@ -5,9 +5,9 @@ ms.date: 12/01/2021
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Authentication methodologies supported by Analysis Services

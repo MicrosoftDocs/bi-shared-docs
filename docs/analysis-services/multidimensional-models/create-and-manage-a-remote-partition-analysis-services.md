@@ -5,9 +5,9 @@ ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 
 ---
 # Create and Manage a Remote Partition (Analysis Services)
