@@ -5,9 +5,9 @@ ms.date: 09/14/2020
 ms.service: analysis-services
 ms.custom: assl
 ms.topic: reference
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 
 ---
 # AllMemberAggregationUsage Element (ASSL)

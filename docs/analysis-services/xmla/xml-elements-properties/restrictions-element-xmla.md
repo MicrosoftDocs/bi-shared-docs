@@ -5,9 +5,9 @@ ms.date: 01/05/2020
 ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 ---
 
 # Restrictions Element (XMLA)

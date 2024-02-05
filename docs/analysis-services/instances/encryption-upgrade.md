@@ -5,9 +5,9 @@ ms.date: 02/09/2023
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2022"
 ---
 # Upgrade encryption

@@ -5,9 +5,9 @@ ms.date: 06/06/2019
 ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 
 ---
 # Updating Cells (XMLA)
