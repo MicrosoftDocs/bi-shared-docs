@@ -7,7 +7,7 @@ ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Define a Many-to-Many Relationship and Many-to-Many Relationship Properties

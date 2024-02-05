@@ -7,7 +7,7 @@ ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Lesson 2-3 - Adding Attributes to Dimensions

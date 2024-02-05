@@ -7,7 +7,7 @@ ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # 4-6-Specifying Attribute Relationships in User-Defined Hierarchy

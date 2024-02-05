@@ -7,7 +7,7 @@ ms.custom: adomd
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Migrating From ADO MD To ADOMD.NET

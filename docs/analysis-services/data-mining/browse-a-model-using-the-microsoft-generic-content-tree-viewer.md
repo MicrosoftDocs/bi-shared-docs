@@ -7,7 +7,7 @@ ms.custom: data-mining
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Browse a Model Using the Microsoft Generic Content Tree Viewer

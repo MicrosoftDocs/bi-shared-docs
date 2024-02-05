@@ -7,7 +7,7 @@ ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Lesson 2-5 - Deploying an Analysis Services Project

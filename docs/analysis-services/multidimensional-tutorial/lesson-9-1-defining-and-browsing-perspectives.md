@@ -7,7 +7,7 @@ ms.custom: multidimensional-models
 ms.topic: tutorial
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Lesson 9-1 - Defining and Browsing Perspectives

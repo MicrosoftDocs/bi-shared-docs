@@ -7,7 +7,7 @@ ms.custom: olap
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Cube Cells (Analysis Services - Multidimensional Data)

@@ -7,7 +7,7 @@ ms.custom: data-mining
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 ---
 # Mining Model Content for Clustering Models (Analysis Services - Data Mining)
 [!INCLUDE[appliesto-sql2019-earlier](../includes/appliesto-sql2019-earlier.md)]

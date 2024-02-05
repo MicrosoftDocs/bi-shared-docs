@@ -7,7 +7,7 @@ ms.custom: tabular-models
 ms.topic: tutorial
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 ---
 
 # Get data

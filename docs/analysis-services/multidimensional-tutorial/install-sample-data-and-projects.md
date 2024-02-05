@@ -7,7 +7,7 @@ ms.custom:
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 ---
 # Install sample data and multidimensional projects 
 

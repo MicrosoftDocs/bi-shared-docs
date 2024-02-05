@@ -7,7 +7,7 @@ ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Use a Template to Create an Action

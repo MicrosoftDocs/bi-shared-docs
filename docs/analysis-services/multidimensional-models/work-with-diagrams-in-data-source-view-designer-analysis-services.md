@@ -7,7 +7,7 @@ ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Work with Diagrams in Data Source View Designer (Analysis Services)

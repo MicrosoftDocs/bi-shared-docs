@@ -7,7 +7,7 @@ ms.custom: data-mining
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Add Mining Models to a Structure (Analysis Services - Data Mining)

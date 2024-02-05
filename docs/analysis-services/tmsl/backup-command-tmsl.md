@@ -7,7 +7,7 @@ ms.custom: tmsl
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 ---
 # Backup command (TMSL)
 

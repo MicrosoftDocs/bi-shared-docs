@@ -7,7 +7,7 @@ ms.custom: tmsl
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Tabular Model Scripting Language (TMSL) Reference

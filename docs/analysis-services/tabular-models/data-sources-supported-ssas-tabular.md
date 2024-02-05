@@ -7,7 +7,7 @@ ms.custom: tabular-models
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Data sources supported in SQL Server Analysis Services tabular 1200 models

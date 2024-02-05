@@ -7,7 +7,7 @@ ms.custom: data-mining
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Find a Specific Node in a Dependency Network

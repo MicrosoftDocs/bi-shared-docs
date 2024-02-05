@@ -7,7 +7,7 @@ ms.custom: assl
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # PerspectiveCalculation Data Type (ASSL)

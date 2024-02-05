@@ -7,7 +7,7 @@ ms.custom: schema-rowsets
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Analysis Services Schema Rowsets

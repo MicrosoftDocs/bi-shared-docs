@@ -7,7 +7,7 @@ ms.custom: data-mining
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Filters for Mining Models (Analysis Services - Data Mining)

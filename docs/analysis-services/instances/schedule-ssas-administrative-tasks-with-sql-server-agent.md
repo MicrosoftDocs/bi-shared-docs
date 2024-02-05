@@ -7,7 +7,7 @@ ms.custom:
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Schedule SSAS Administrative Tasks with SQL Server Agent

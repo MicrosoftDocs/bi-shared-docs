@@ -7,7 +7,7 @@ ms.custom: xmla
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Backing Up, Restoring, and Synchronizing Databases (XMLA)

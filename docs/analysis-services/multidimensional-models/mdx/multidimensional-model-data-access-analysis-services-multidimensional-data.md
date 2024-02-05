@@ -7,7 +7,7 @@ ms.custom: mdx
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Multidimensional Model Data Access (Analysis Services - Multidimensional Data)

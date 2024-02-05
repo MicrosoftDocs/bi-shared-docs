@@ -7,7 +7,7 @@ ms.custom: assl
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Analysis Services Scripting Language XML Data Types (ASSL)

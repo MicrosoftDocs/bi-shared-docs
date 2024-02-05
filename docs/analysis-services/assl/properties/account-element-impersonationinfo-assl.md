@@ -7,7 +7,7 @@ ms.custom: assl
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Account Element (ImpersonationInfo) (ASSL)

@@ -7,7 +7,7 @@ ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Document and Script an Analysis Services Database

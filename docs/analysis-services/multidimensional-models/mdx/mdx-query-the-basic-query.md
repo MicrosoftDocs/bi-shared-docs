@@ -7,7 +7,7 @@ ms.custom: mdx
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # MDX Query - The Basic Query

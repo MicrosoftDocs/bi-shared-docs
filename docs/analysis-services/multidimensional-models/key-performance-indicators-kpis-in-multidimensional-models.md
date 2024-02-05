@@ -7,7 +7,7 @@ ms.custom: multidimensional-models
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Key Performance Indicators (KPIs) in Multidimensional Models

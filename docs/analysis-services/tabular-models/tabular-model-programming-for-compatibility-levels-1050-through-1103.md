@@ -7,7 +7,7 @@ ms.custom: tabular-models
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Tabular model programming for compatibility levels 1050 and 1103

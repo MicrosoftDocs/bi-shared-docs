@@ -6,7 +6,7 @@ ms.service: analysis-services
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Analysis Services features supported by SQL Server edition

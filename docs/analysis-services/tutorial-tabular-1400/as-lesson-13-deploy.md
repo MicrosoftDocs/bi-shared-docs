@@ -6,7 +6,7 @@ ms.service: analysis-services
 ms.topic: tutorial
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 ---
 # Deploy
 

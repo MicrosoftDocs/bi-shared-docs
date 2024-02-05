@@ -7,7 +7,7 @@ ms.custom: xmla
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Developing with Analysis Services Scripting Language (ASSL)

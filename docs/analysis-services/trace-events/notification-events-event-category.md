@@ -7,7 +7,7 @@ ms.custom: trace-events
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Notification Events Event Category

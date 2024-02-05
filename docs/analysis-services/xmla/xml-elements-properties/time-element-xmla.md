@@ -7,7 +7,7 @@ ms.custom: xmla
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Time Element (XMLA)

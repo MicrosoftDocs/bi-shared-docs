@@ -7,7 +7,7 @@ ms.custom: powershell
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # PowerShell Reference for Power Pivot for SharePoint

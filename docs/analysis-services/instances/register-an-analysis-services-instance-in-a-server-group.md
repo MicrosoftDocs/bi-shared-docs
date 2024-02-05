@@ -7,7 +7,7 @@ ms.custom:
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Register an Analysis Services Instance in a Server Group

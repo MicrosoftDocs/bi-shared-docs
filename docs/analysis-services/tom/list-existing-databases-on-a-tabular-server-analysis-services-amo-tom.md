@@ -7,7 +7,7 @@ ms.custom: tabular-models
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # List existing databases on a tabular server (AMO-TOM)

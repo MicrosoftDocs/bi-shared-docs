@@ -7,7 +7,7 @@ ms.custom: xmla
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 
 ---
 # Parallel Element (XMLA)

@@ -7,7 +7,7 @@ ms.custom: ppvt-sharepoint
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
-author: minewiskan
+author: kfollis
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Configure Power Pivot and Deploy Solutions (SharePoint 2016)
