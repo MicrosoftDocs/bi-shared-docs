@@ -5,9 +5,9 @@ ms.date: 04/22/2020
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Configure HTTP Access to Analysis Services on IIS 8.0

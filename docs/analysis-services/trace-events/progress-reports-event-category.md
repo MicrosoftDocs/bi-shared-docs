@@ -5,9 +5,9 @@ ms.date: 07/19/2021
 ms.service: analysis-services
 ms.custom: trace-events
 ms.topic: reference
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 
 ---
 # Progress Reports Event Category

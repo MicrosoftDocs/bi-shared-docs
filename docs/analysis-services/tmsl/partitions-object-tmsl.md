@@ -5,9 +5,9 @@ ms.date: 10/20/2020
 ms.service: analysis-services
 ms.custom: tmsl
 ms.topic: reference
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 
 ---
 # Partitions object (TMSL)

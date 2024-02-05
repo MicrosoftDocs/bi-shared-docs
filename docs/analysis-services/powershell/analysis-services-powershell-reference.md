@@ -5,9 +5,9 @@ ms.date: 08/17/2020
 ms.service: analysis-services
 ms.custom: powershell
 ms.topic: reference
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Analysis Services PowerShell Reference
