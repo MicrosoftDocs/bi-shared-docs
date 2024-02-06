@@ -1,7 +1,7 @@
 ---
 title: "Use hot and cold table partitions to optimize very large Power BI data models"
 description: Learn how to use hot and cold table partitions to optimize very large data models in Analysis Services Management Objects (AMO) Tabular Object Model (TOM).
-ms.date: 01/30/2024
+ms.date: 02/06/2024
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
