@@ -5,9 +5,9 @@ ms.date: 05/18/2022
 ms.service: analysis-services
 ms.custom: ppvt-sharepoint
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Install or Uninstall the Power Pivot for SharePoint Add-in (SharePoint 2013)

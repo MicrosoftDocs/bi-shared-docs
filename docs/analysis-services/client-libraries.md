@@ -1,13 +1,13 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 1/5/2023
+ms.date: 2/5/2024
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 
@@ -25,10 +25,10 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    16.0.117.17        |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.117.17           |
-|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.74.2.0         |
-|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.74.2.0           |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    16.0.121.23        |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.121.23           |
+|[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.76.0.0         |
+|[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.76.0.0           |
 
 ### NuGet packages
 
@@ -42,15 +42,15 @@ NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.74.2     |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.74.2     |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.76.0     |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.76.0     |
 
 #### AMO and ADOMD .Net Core
 
 |Package  | Version  |
 |---------|---------|
-|[AMO .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.74.2      |
-|[ADOMD .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.74.2        |
+|[AMO .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.76.0      |
+|[ADOMD .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.76.0        |
 
 Beginning with AMO (AMO/TOM) and ADOMD .Net Core version 19.48.0.0, HTTP-based communications with cloud services like Power BI and Azure Analysis Services are significantly improved. It's recommended you update to the latest version to take advantage of these performance improvements. 
 

@@ -5,9 +5,9 @@ ms.date: 12/07/2020
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 
 ---
 # Create Tables, Partitions, and Columns in a Tabular model

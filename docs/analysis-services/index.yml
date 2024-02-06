@@ -8,8 +8,8 @@ metadata:
   description: Learn how to create and manage Analysis Services solutions in the cloud and on-premises. 
   ms.topic: landing-page
   ms.service: analysis-services
-  author: minewiskan
-  ms.author: owend
+  author: kfollis
+  ms.author: kfollis
   ms.date: 04/07/2021
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
