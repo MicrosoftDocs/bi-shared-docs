@@ -5,9 +5,9 @@ ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 
 ---
 # MDX Calculated Members - Session-Scoped Calculated Members

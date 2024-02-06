@@ -5,9 +5,9 @@ ms.date: 02/20/2020
 ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
-ms.author: owend
-ms.reviewer: owend
-author: minewiskan
+ms.author: kfollis
+ms.reviewer: kfollis
+author: kfollis
 
 ---
 # Supported Data Sources (SSAS - Multidimensional)

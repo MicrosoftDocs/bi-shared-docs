@@ -4,11 +4,11 @@ description: Learn about the NullKeyNotAllowed property element in the Analysis 
 ms.date: 7/25/2018
 ms.service: analysis-services
 ms.custom: assl
-ms.reviewer: owend
+ms.reviewer: kfollis
 
 ms.topic: reference
-author: minewiskan
-ms.author: owend
+author: kfollis
+ms.author: kfollis
 
 ---
 # NullKeyNotAllowed Element (ASSL)
