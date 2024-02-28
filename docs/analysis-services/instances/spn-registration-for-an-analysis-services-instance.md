@@ -178,7 +178,7 @@ You can't specify a port number on an Analysis Services SPN registration.The Ana
 
  [Microsoft BI Authentication and Identity Delegation](/previous-versions/sql/sql-server-2012/dn186184(v=msdn.10))   
  [Mutual Authentication Using Kerberos](/windows/win32/ad/mutual-authentication-using-kerberos)    
- [Service Principal Names (SPNs) SetSPN Syntax (Setspn.exe)](https://social.technet.microsoft.com/wiki/contents/articles/717.service-principal-names-spns-setspn-syntax-setspn-exe.aspx)   
+ [Service Principal Names (SPNs) SetSPN Syntax (Setspn.exe)](https://social.technet.microsoft.com/wiki/contents/articles/717.service-principal-names-spn-setspn-syntax.aspx)   
  [SetSPN](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc731241(v=ws.11))   
  [Service Accounts Step-by-Step Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd548356(v=ws.10))   
  [Configure Windows Service Accounts and Permissions](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)   
