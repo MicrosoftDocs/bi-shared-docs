@@ -415,7 +415,7 @@ powerpivotwebapp.wsp Online     True WebApplicationDeployed {uesql11spoint2}
 ##  <a name="bkmk_more_resources"></a> More Resources  
  [Web Server (IIS) Administration Cmdlets in Windows PowerShell](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee790599(v=technet.10)).  
   
- [PowerShell to check services, IIS sites and Application Pool status in SharePoint](/powershell/module/sharepoint-server/get-spserviceapplicationpool?view=sharepoint-server-ps).  
+ [PowerShell to check services, IIS sites and Application Pool status in SharePoint](/powershell/module/sharepoint-server/get-spserviceapplicationpool).  
   
  [Windows PowerShell for SharePoint 2013 reference](https://technet.microsoft.com/library/ee890108\(v=office.15\).aspx)  
   
