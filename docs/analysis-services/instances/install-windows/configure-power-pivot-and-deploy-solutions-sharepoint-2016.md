@@ -113,7 +113,7 @@ This topics describes the deployment and configuration of middle-tier enhancemen
   
 5.  Select **OK**.  
   
- For more information on trouble shooting data refresh, see [Troubleshooting Power Pivot Data Refresh](https://social.technet.microsoft.com/wiki/contents/articles/3870.troubleshooting-powerpivot-data-refresh.aspx) (https://social.technet.microsoft.com/wiki/contents/articles/3870.troubleshooting-powerpivot-data-refresh.aspx).  
+ For more information on trouble shooting data refresh, see [Troubleshooting Power Pivot Data Refresh](https://social.technet.microsoft.com/wiki/contents/articles/3870.powerpivot-troubleshooting-data-refresh.aspx) (https://social.technet.microsoft.com/wiki/contents/articles/3870.powerpivot-troubleshooting-data-refresh.aspx).  
   
  For more information on the configuration tool, see [Power Pivot Configuration Tools](../../power-pivot-for-sharepoint-ssas.md).  
   
