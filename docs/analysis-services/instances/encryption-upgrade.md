@@ -55,6 +55,15 @@ For multidimensional model databases at all compatibility levels, the following 
 
 To upgrade encryption, backup the database and then restore with the **EnsureProperEncryption** option enabled.
 
+or if the database is already loaded, run the following XMLA command in SQL Server Management Studio:
+
+```xml
+<RemoveDiscontinuedFeatures xmlns='http://schemas.microsoft.com/analysisservices/2003/engine' xmlns:ddl922='http://schemas.microsoft.com/analysisservices/2022/engine/922'>
+  <DatabaseID>DatabaseName</DatabaseID>
+  <ddl922:EnsureProperEncryption>true</ddl922:EnsureProperEncryption>
+</RemoveDiscontinuedFeatures>
+
+```
 ## Analysis Services service account change procedure limitations after installing SQL Server 2022 CU1
 
 Changing service accounts directly is not supported because of the new design.
