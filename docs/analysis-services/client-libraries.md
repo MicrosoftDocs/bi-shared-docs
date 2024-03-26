@@ -102,6 +102,13 @@ Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Micr
 
 Version 19.61.1.4 of the AMO client library introduces a change in transaction rollback behavior of **Microsoft.AnalysisServices.Server**. In earlier versions, a call to [**Server.RollbackTransaction()**](/dotnet/api/microsoft.analysisservices.server.rollbacktransaction) sends a request to the engine to roll back the transaction and then attempt to roll back local changes. Unlike earlier versions, in 19.61.1.4 and later, if local changes cannot be rolled back safely, tabular databases included in the transaction block any additional changes until they can be fully synced and the obsolete changes from the transaction that were rolled back are removed. An **InvalidOperationException** is raised when a change is made to the relevant tabular database. If your code is calling **Server.RollbackTransaction()**, it's recommended to follow that call with a full sync [**[Database.Refresh(true)]**](/dotnet/api/microsoft.analysisservices.majorobject.refresh) for any tabular database that is modified as part of the transaction.
 
+Beginning with version 19.77.0, when cloning or copying a MetadataObject into another instance of a MetadataObject by using the Tabular Object Model (TOM), TOM returns null for properties that cross-reference objects outside of the MetadataObject’s direct tree of child objects. You must add the cloned MetadataObject instance to the semantic model so that cross references to objects outside of the MetadataObject tree can be resolved.
+For example, when cloning a table with a partition that references a named expression in an EntityPartitionSource, the ExpressionSource property of the EntityPartitionSource returns null until the cloned table is added to the semantic model as in the code snippet below so that the cloned ExpressionSource reference can be resolved. The clone must be added to the model because the cross-referenced named expression is a member of the model’s Expressions collection and not part of the table’s tree of child objects. 
+```
+Table tableClone = model.Tables[0].Clone();
+anotherModel.Tables.Add(tableClone);
+```
+
 #### ADOMD
 
 Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, compression is fully available in the XMLA transport layer. Previous releases after version 19.55.3.1 implemented some partial support for compression. Reports about issues with those releases were received. Those issues were fixed as part of the 16.61.1.4 release. Be sure to upgrade to 19.61.1.4 or later if you're experiencing problems related to compression.
