@@ -272,19 +272,20 @@ calculationGroup": {
  > These expressions, if specified, are only applied for the specific situations mentioned. Selections for a single calculation item are not impacted by these expressions.
 
  Here is an overview of these expressions and their default behavior if not specified:
+ 
  |Type of selection|Selection expression not defined (default)|Selection expression defined|
  |--|--|--|
  |Single selection|Selection is applied|Selection is applied|
- |Multiple selection|Return a blank result|Return result of evaluating multipleOrEmptySelectionExpression|
- |Empty selection|Return a blank result|Return result of evaluating multipleOrEmptySelectionExpression|
- |No selection|Nothing is applied, calculation group is not filtered|Return result of evaluating noSelectionExpression|
+ |Multiple selection|Calculation group is not filtered|Return result of evaluating multipleOrEmptySelectionExpression|
+ |Empty selection|Calculation group is not filtered|Return result of evaluating multipleOrEmptySelectionExpression|
+ |No selection|Calculation group is not filtered|Return result of evaluating noSelectionExpression|
  
  ### Multiple or Empty selection
 
  If multiple selections on the same calculation group are made, the calculation group will evaluate and return the result of the multipleOrEmptySelectionExpression if defined. If this expression has not been defined the calculation group will return the following result:
 
 ```dax
-BLANK()
+SELECTEDMEASURE()
 ```
 
 As an example, let's look at a calculation group called MyCalcGroup that has a multipleOrEmptySelectionExpression configured as follows:
