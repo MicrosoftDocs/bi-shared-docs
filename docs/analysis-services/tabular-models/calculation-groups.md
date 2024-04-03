@@ -250,19 +250,19 @@ Selection expressions are optional properties defined for a calculation group. T
 -	**multipleOrEmptySelectionExpression**. This selection expression is applied when multiple calculation items have been selected, a non-existing calculation item has been selected or when a conflicting selection has been made.
 - **noSelectionExpression**. This selection expression is applied when the calculation group is not filtered.
 
-Both of these selection expressions also have a formatStringDefinition[dynamic format string](#dynamic-format-strings) expression. 
+Both of these selection expressions also have a formatStringDefinition [dynamic format string](#dynamic-format-strings) expression. 
 
 In summary, on a calculation group the following can be defined:
-```
+```json
 ...
-calculationGroup": {
+"calculationGroup": {
   "multipleOrEmptySelectionExpression": {
-  "expression": "",
-  "formatStringDefinition": ""
+    "expression": "",
+    "formatStringDefinition": {...}
   },
   "noSelectionExpression": {
-  "expression": "",
-  "formatStringDefinition": ""
+    "expression": "",
+    "formatStringDefinition": {...}
   }
 ...
 }
