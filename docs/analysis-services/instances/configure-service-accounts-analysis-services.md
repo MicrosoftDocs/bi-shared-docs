@@ -1,20 +1,20 @@
 ---
 title: "Configure Service Accounts (Analysis Services) | Microsoft Docs"
-description: Learn about additional permissions necessary for tabular and clustered installations in SQL Server Analysis Services.
-ms.date: 05/02/2018
+description: Learn about permissions necessary for tabular and clustered installations in SQL Server Analysis Services.
+ms.date: 04/04/2024
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
 ms.author: kfollis
-ms.reviewer: kfollis
+ms.reviewer: kayunkroth
 author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Configure Service Accounts (Analysis Services)
 [!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
-  Product-wide account provisioning is documented in [Configure Windows Service Accounts and Permissions](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions), a topic that provides comprehensive service account information for all [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] services, including [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. Refer to it to learn about valid account types, Windows privileges assigned by setup, file system permissions, registry permissions, and more.  
+Product-wide account provisioning is documented in [Configure Windows Service Accounts and Permissions](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions), a topic that provides comprehensive service account information for all [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] services, including [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)]. Refer to it to learn about valid account types, Windows privileges assigned by setup, file system permissions, registry permissions, and more.  
   
- This topic provides supplemental information for [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], including additional permissions necessary for tabular and clustered installations. It also covers permissions needed to support server operations. For example, you can configure processing and query operations to execute under the service account ─ in which case you will need to grant additional permissions to get this to work.  
+This topic provides supplemental information for [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)], including additional permissions necessary for tabular and clustered installations. It also covers permissions needed to support server operations. For example, you can configure processing and query operations to execute under the service account ─ in this scenario, additional permissions are needed.  
   
 -   [Windows privileges assigned to Analysis Services](#bkmk_winpriv)  
   
@@ -22,32 +22,34 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
   
 -   [Granting additional permissions for specific server operations](#bkmk_tasks)  
   
- An additional configuration step, not documented here, is to register a Service Principal Name (SPN) for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance and service account. This step enables pass-through authentication from client applications to backend data sources in double-hop scenarios. This step only applies for services configured for Kerberos constrained delegation. See [Configure Analysis Services for Kerberos constrained delegation](../../analysis-services/instances/configure-analysis-services-for-kerberos-constrained-delegation.md) for further instructions.  
+Another configuration step, not documented here, is to register a Service Principal Name (SPN) for the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] instance and service account. This step enables pass-through authentication from client applications to backend data sources in double-hop scenarios. This step only applies for services configured for Kerberos constrained delegation. See [Configure Analysis Services for Kerberos constrained delegation](../../analysis-services/instances/configure-analysis-services-for-kerberos-constrained-delegation.md) for further instructions.  
   
-## Logon account recommendations  
+## Logon account recommendations
+The startup account of the MSSQLServerOLAPService Windows service can be a Windows domain user account, virtual account, managed service account (MSA) or a built-in account such as a per-service SID, NetworkService, or LocalSystem. [Using a domain user account as a service logon account](/windows/win32/ad/domain-user-accounts) provides details about user account formats.
+
  In a failover cluster, all instances of Analysis Services should be configured to use a Windows domain user account. Assign the same account to all instances. See [How to Cluster Analysis Services](/previous-versions/sql/sql-server-2012/dn736073(v=msdn.10)) for details.  
   
  Standalone instances should use the default virtual account, **NT Service\MSSQLServerOLAPService** for the default instance, or **NT Service\MSOLAP$**_instance-name_ for a named instance. This recommendation applies to Analysis Services instances in all server modes, assuming Windows Server 2008 R2 and later for the operating system, and SQL Server 2012 and later for Analysis Services.  
   
-## Granting permissions to Analysis Services  
- This section explains the permissions that Analysis Services requires for local, internal operations, such as starting the executable, reading the configuration file, and loading databases from the data directory. If instead you're looking for guidance on setting permissions for external data access and interoperability with other services and applications, see [Granting additional permissions for specific server operations](#bkmk_tasks) further on in this topic.  
+## Grant permissions to Analysis Services  
+This section explains the permissions that Analysis Services requires for local, internal operations. These operations include starting the executable, reading the configuration file, and loading databases from the data directory. Guidance on setting permissions for external data access and interoperability with other services and applications, is available in [Granting additional permissions for specific server operations](#bkmk_tasks) further on in this topic.  
   
- For internal operations, the permission holder in Analysis Services is not the logon account, but a local Windows security group created by Setup that contains the per-service SID. Assigning permissions to the security group is consistent with previous versions of Analysis Services. Also, logon accounts can change over time, but the per-service SID and local security group are constant for the lifetime of the server installation. For Analysis Services, this makes the security group, rather than the logon account, a better choice for holding permissions. Whenever you manually grant rights to the service instance, whether file system permissions or Windows privileges, be sure to grant permissions to the local security group created for the server instance.  
+For internal operations, the permission holder in Analysis Services is not the logon account, but a local Windows security group created by setup that contains the per-service SID. Assigning permissions to the security group is consistent with previous versions of Analysis Services. Also, logon accounts can change over time, but the per-service SID and local security group are constant for the lifetime of the server installation. For Analysis Services, the security group is a better choice for holding permissions than the logon account. Whenever you manually grant rights to the service instance, whether file system permissions or Windows privileges, be sure to grant permissions to the local security group created for the server instance.  
   
- The name of the security group follows a pattern. The prefix is always **SQLServerMSASUser$**, followed by the computer name, ending with the instance name. The default instance is **MSSQLSERVER**. A named instance is the name given during set up.  
+ The name of the security group follows a pattern. The prefix is always **SQLServerMSASUser$**, followed by the computer name, ending with the instance name. The default instance is **MSSQLSERVER**. A named instance is the name given during setup.  
   
  You can see this security group in the local security settings:  
   
 -   Run compmgmt.msc | **Local Users and Groups** | **Groups** | **SQLServerMSASUser$**\<server-name>**$MSSQLSERVER** (for a default instance).  
   
--   Double-click the security group to view its members.  
+-   To view its members, double-click the security group.  
   
- The sole member of the group is the per-service SID. Right next to it is the logon account. The logon account name is cosmetic, there to provide context to the per-service SID. If you subsequently change the logon account and then return to this page, you'll notice that the security group and per-service SID do not change, but the logon account label is different.  
+ The sole member of the group is the per-service SID. Right next to it is the logon account. The logon account name is cosmetic, there to provide context to the per-service SID. If you change the logon account the security group and per-service SID don't change. Only the logon account label is different.  
   
 ##  <a name="bkmk_winpriv"></a> Windows privileges assigned to the Analysis Services service account  
- Analysis Services needs permissions from the operating system for service startup and to request system resources. Requirements vary by server mode and whether the instance is clustered.
+Analysis Services needs permissions from the operating system for service startup and to request system resources. Requirements vary by server mode and whether the instance is clustered.
   
- All instances of Analysis Services require the **Log on as a service** (SeServiceLogonRight) privilege. SQL Server Setup assigns the privilege for you on the service account specified during installation. For servers running in Multidimensional and Data Mining mode, this is the only Windows privilege required by the Analysis Services service account for standalone server installations, and it is the only privilege that Setup configures for Analysis Services. For clustered and tabular instances, additional Windows privileges must be added manually.  
+All instances of Analysis Services require the **Log on as a service** (SeServiceLogonRight) privilege. SQL Server Setup assigns the privilege for you on the service account specified during installation. For servers running in Multidimensional and Data Mining mode, this is the only Windows privilege required by the Analysis Services service account for standalone server installations, and it is the only privilege that Setup configures for Analysis Services. For clustered and tabular instances, additional Windows privileges must be added manually.  
   
  Failover cluster instances, in either Tabular or Multidimensional mode, must have **Increase scheduling priority** (SeIncreaseBasePriorityPrivilege).  
   
@@ -80,7 +82,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 6.  Repeat for **Adjust memory quotas for a process**, and optionally, for **Lock pages in memory** or **Increase scheduling priority**.  
   
 > [!NOTE]  
->  Previous versions of Setup inadvertently added the Analysis Services service account to the **Performance Log Users** group. Although this defect has been fixed, existing installations might have this unnecessary group membership. Because the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] service account does not require membership in the **Performance Log Users** group, you can remove it from the group.  
+>  Previous versions of Setup inadvertently added the Analysis Services service account to the **Performance Log Users** group. Although this defect has been fixed, existing installations might have this unnecessary group membership. Because the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] service account doesn't require membership in the **Performance Log Users** group, you can remove it from the group.  
   
 ##  <a name="bkmk_FilePermissions"></a> File System Permissions assigned to the Analysis Services service account  
   
@@ -89,7 +91,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 >   
 >  See [Configure HTTP Access to Analysis Services on Internet Information Services &#40;IIS&#41; 8.0](../../analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0.md) for file permission information related to IIS configuration and [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
- All file system permissions required for server operations─ including permissions needed for loading and unloading databases from a designated data folder─ are assigned by SQL Server Setup during installation.  
+ All file system permissions required for server operations, including permissions needed for loading and unloading databases from a designated data folder, are assigned by SQL Server Setup during installation.  
   
  The permission holder on data files, program file executables, configuration files, log files, and temporary files is a local security group created by SQL Server Setup.  
   
@@ -137,7 +139,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 |Writeback|Add the service account to Analysis Services database roles defined on the remote server|When enabled in client applications, writeback is a feature of multidimensional models that allows the creation of new data values during data analysis. If writeback is enabled within any dimension or cube, the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] service account must have write permissions to the writeback table in the source [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] relational database. If this table does not already exist and needs to be created, the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] service account must also have create table permissions within the designated [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] database.|  
 |Write to a query log table in a [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] relational database|Create a database login for the service account and assign write permissions on the query log table|You can enable query logging to collect usage data in a database table for subsequent analysis. The [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] service account must have write permissions to the query log table in the designated [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] database. If this table does not already exist and needs to be created, the [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] logon account must also have create table permissions within the designated [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] database. For more information, see [Improve SQL Server Analysis Services Performance with the Usage Based Optimization Wizard (Blog)](https://www.mssqltips.com/sqlservertip/2876/improve-sql-server-analysis-services-performance-with-the-usage-based-optimization-wizard/) and [Query Logging in Analysis Services (Blog)](https://weblogs.asp.net/miked/archive/2013/07/31/query-logging-in-analysis-services.aspx).|  
   
-## See Also  
+## Related content 
  [Configure Windows Service Accounts and Permissions](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)   
  [SQL Server Service Account and Per-Service SID (Blog)](https://www.travisgan.com/2013/06/sql-server-service-account-and-per.html)   
  [SQL Server uses a service SID to provide service isolation (KB Article)](https://support.microsoft.com/kb/2620201)   
