@@ -142,4 +142,4 @@ This source query reduction helps to boost report performance when analyzing hot
 
 - Currently, the `DataCoverageDefinition` property on *DirectQuery* partitions requires static values, such as RELATED('Date'[Year]) = 2020 or RELATED('Date'[Year]) IN {2020, 2021, 2022}. Dynamic assignments are not supported, such as RELATED('Date'[DateKey]) = TODAY().
 
-- Incremental Refresh does not leverage the `DataCoverageDefinition` property. Any data coverage definitions must be reapplied programmatically after Incremental Refresh merged, dropped, or recreated partitions.
+- Incremental refresh with real-time data does not leverage the `DataCoverageDefinition` property. If you apply a data coverage definition to a DirectQuery (real-time) partition, Incremental Refresh drops the data coverage definition when recreating the partition.
