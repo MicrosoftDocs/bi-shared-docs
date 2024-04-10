@@ -87,7 +87,7 @@ Azure Analysis Services and Power BI Premium use Microsoft Entra ID - Universal 
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-SQL Server Analysis Services uses Windows authentication only, but you can set properties on the connection string to pass in a specific user name and password.
+SQL Server Analysis Services uses Windows authentication only. Basic authentication and anonymous authentication can be used if HTTP access is enabled through MSMDPUMP.dll, as explained in the article [Configure HTTP Access to Analysis Services on IIS 8.0](/analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0). Refer to [Step 3: Configure IIS authentication](/analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0#bkmk_auth) for details on how to configure supported authentication methods for Analysis Services over HTTP.
 
 ::: moniker-end
   
