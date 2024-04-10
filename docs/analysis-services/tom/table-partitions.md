@@ -1,7 +1,7 @@
 ---
 title: "Use hot and cold table partitions to optimize very large Power BI data models"
 description: Learn how to use hot and cold table partitions to optimize very large data models in Analysis Services Management Objects (AMO) Tabular Object Model (TOM).
-ms.date: 02/06/2024
+ms.date: 04/10/2024
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
@@ -138,7 +138,7 @@ As mentioned earlier, the `dataCoverageDefinition` property helps eliminate unne
 The `DataCoverageDefinition` property on *DirectQuery* partitions enables you to optimize even the largest Power BI data models based on hot partitions in import mode and cold partitions in *DirectQuery* mode by avoiding unnecessary querying of the data source.
 This source query reduction helps to boost report performance when analyzing hot data. It also helps to decrease the load on the data source, and in this way helps to maximize the scale of your data source. Yet, keep in mind that optimizing a data model by using the `dataCoverageDefinition` property is still an advanced scenario. Make sure you verify the results carefully.
 
-## Known issues and limitations
+## Considerations and limitations
 
 - Currently, the `DataCoverageDefinition` property on *DirectQuery* partitions requires static values, such as RELATED('Date'[Year]) = 2020 or RELATED('Date'[Year]) IN {2020, 2021, 2022}. Dynamic assignments are not supported, such as RELATED('Date'[DateKey]) = TODAY().
 
