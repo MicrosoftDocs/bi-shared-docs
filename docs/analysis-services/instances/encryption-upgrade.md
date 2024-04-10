@@ -25,7 +25,7 @@ For tabular model databases at the 1600 and higher compatibility level, the foll
 
 "**New Tabular database '%{DatabaseName/}' is not using latest encryption schema. Please run RemoveDiscontinuedFeatured command with EnsureProperEncryption option (or restore DB from backup file with the same option) to upgrade to the latest encryption.**"
 
-To upgrade encryption, either backup the database and then restore with the **EnsureProperEncryption** option enabled by running the following XMLA command in SQL Server Management Studio:
+To upgrade encryption, either back up the database and then restore with the **EnsureProperEncryption** option enabled by running the following XMLA command in SQL Server Management Studio:
 
 ```xml
 <Batch xmlns="http://schemas.microsoft.com/analysisservices/2003/engine" Transaction="false" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl100="http://schemas.microsoft.com/analysisservices/2008/engine/100">
@@ -37,7 +37,7 @@ To upgrade encryption, either backup the database and then restore with the **En
 </Batch>
 ```
 
-or if the database is already loaded, run the following XMLA command in SQL Server Management Studio:
+Or, if the database is already loaded, run the following XMLA command in SQL Server Management Studio:
 
 ```xml
 <RemoveDiscontinuedFeatures xmlns='http://schemas.microsoft.com/analysisservices/2003/engine' xmlns:ddl922='http://schemas.microsoft.com/analysisservices/2022/engine/922'>
@@ -53,9 +53,9 @@ For multidimensional model databases at all compatibility levels, the following 
 
 "**Multi-dimensional database '%{DatabaseName/}' is not using latest encryption schema. Please create a backup file and restore DB from backup file with the option EnsureProperEncryption to upgrade to the latest encryption.**"
 
-To upgrade encryption, backup the database and then restore with the **EnsureProperEncryption** option enabled.
+To upgrade encryption, back up the database and then restore with the **EnsureProperEncryption** option enabled.
 
-or if the database is already loaded, run the following XMLA command in SQL Server Management Studio:
+Or, if the database is already loaded, run the following XMLA command in SQL Server Management Studio:
 
 ```xml
 <RemoveDiscontinuedFeatures xmlns='http://schemas.microsoft.com/analysisservices/2003/engine' xmlns:ddl922='http://schemas.microsoft.com/analysisservices/2022/engine/922'>
@@ -64,21 +64,22 @@ or if the database is already loaded, run the following XMLA command in SQL Serv
 </RemoveDiscontinuedFeatures>
 
 ```
+
 ## Analysis Services service account change procedure limitations after installing SQL Server 2022 CU1
 
-Changing service accounts directly is not supported because of the new design.
+Changing service accounts directly isn't supported because of the new design.
 
 Beginning with SQL Server 2022 CU1, Analysis Services server encrypts secret artifacts, such as database connection strings, by using an encryption key that is protected per identity of the service account.
- 
+
 If you require the transfer of databases between services operating under different accounts, it's essential to follow the backup and restore method. This approach ensures a more seamless transition between service accounts while preserving the integrity of your data.
- 
-1. Use SSMS to backup each database into .abf file.
+
+1. Use SSMS to back up each database into .abf file.
 
 2. Stop SSAS service.
 
 3. Change the SSAS service account.
 
-4. Delete the content of the Data folder, except the administrators.n.xml file and master.vmp file .
+4. Delete the content of the Data folder, except the administrators.n.xml file and master.vmp file.
 
 5. Start SSAS service.
 
@@ -105,5 +106,5 @@ The following encrypted properties must then be configured by using SQL Server M
 
 ## See also
 
-[Backup and restore Analysis Services Databases](../multidimensional-models/backup-and-restore-of-analysis-services-databases.md)  
+[Back up and restore Analysis Services Databases](../multidimensional-models/backup-and-restore-of-analysis-services-databases.md)  
 [Compatibility level for tabular models](../tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md)  
