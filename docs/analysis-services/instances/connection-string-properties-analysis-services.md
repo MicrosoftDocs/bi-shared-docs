@@ -87,7 +87,7 @@ Azure Analysis Services and Power BI Premium use Microsoft Entra ID - Universal 
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
-SQL Server Analysis Services uses Windows authentication only, but you can set properties on the connection string to pass in a specific user name and password.
+SQL Server Analysis Services uses Windows authentication only. Basic authentication and anonymous authentication can be used if HTTP access is enabled through MSMDPUMP.dll, as explained in the article [Configure HTTP Access to Analysis Services on IIS 8.0](/analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0). Refer to [Step 3: Configure IIS authentication](/analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0#bkmk_auth) for details on how to configure supported authentication methods for Analysis Services over HTTP.
 
 ::: moniker-end
   
@@ -95,7 +95,7 @@ Properties are listed in alphabetical order.
 
 ##### EffectiveUserName
 
-Use when an user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS and Power BI Premium, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. In Power BI Premium, the caller must be a workspace admin where the semantic model is located.
+Use when a user identity must be impersonated on the server. For SSAS, specify in a domain\user format. For Azure AS and Power BI Premium, specify in UPN format. To use this property, the caller must have administrative permissions in Analysis Services. In Power BI Premium, the caller must be a workspace admin where the semantic model is located.
 
 
 
@@ -123,8 +123,8 @@ The password used to decrypt an encrypted local cube. Default value is empty. Th
 
 Indicates the level of impersonation that the server is allowed to use when impersonating the client. Valid values include:
 
-- **Anonymous**. The client is anonymous to the server. The server process cannot obtain information about the client, nor can the client be impersonated. 
-- **Identify**. The server process can get the client identity. The server can impersonate the client identity for authorization purposes but cannot access system objects as the client.
+- **Anonymous**. The client is anonymous to the server. The server process can't obtain information about the client, nor can the client be impersonated. 
+- **Identify**. The server process can get the client identity. The server can impersonate the client identity for authorization purposes but can't access system objects as the client.
 - **Impersonate**. This is the default value. The client identity can be impersonated, but only when the connection is established, and not on every call. 
 - **Delegate**. The server process can impersonate the client security context while acting on behalf of the client. The server process can also make outgoing calls to other servers while acting on behalf of the client.
 
@@ -149,8 +149,8 @@ Determines the security level used on the connection. Values supported depend on
 
 - **None**. Unauthenticated or anonymous connections. Performs no authentication on data sent to the server.
 - **Connect**. Authenticated connections. Authenticates only when the client establishes a relationship with a server.
-- **Pkt Integrity**. Encrypted connections. Verifies that all data is received from the client and that it has not been changed in transit.
-- **Pkt Privacy**. Signed encryption, supported only for TCP. Verifies that all data is received from the client, that it has not been changed in transit, and protects the privacy of the data by encrypting it.
+- **Pkt Integrity**. Encrypted connections. Verifies that all data is received from the client and that it hasn't been changed in transit.
+- **Pkt Privacy**. Signed encryption, supported only for TCP. Verifies that all data is received from the client, that it hasn't been changed in transit, and protects the privacy of the data by encrypting it.
 
 To learn more, see [Establishing Secure Connections in ADOMD.NET](../adomd/multidimensional-models-adomd-net-client/connections-in-adomd-net-establishing-secure-connections.md)
 
@@ -158,7 +158,7 @@ To learn more, see [Establishing Secure Connections in ADOMD.NET](../adomd/multi
 
 Specify a comma-delimited list of predefined roles to connect to a server or database using permissions conveyed by that role. If this property is omitted, all roles are used, and the effective permissions are the combination of all roles. Setting the property to an empty value, for example, `Roles=' '` means the client connection has no role membership. 
 
-An administrator using this property connects using the permissions conveyed by the role. Some commands might fail if the role does not provide sufficient permission.
+An administrator using this property connects using the permissions conveyed by the role. Some commands might fail if the role doesn't provide sufficient permission.
 
 If specifying roles when connecting to a Power BI Premium workspace, use [workspace roles](/power-bi/collaborate-share/service-roles-new-workspaces) from the Power BI security model. 
 
@@ -171,7 +171,7 @@ Explicitly specifies which security package to use for client authentication whe
 - **NTLM**
 - **Anonymous User**
 
-If this property is not set, all packages will be available to the connection.
+If this property isn't set, all packages will be available to the connection.
 
 ##### Use Encryption for Data
 
@@ -179,11 +179,11 @@ Encrypts data transmissions. Valid values are **True** or **False**.
 
 ##### User ID=...; Password=
 
-User ID and Password properties provide the appropriate credentials to the server when the current active user in the client application cannot be automatically propagated to the server. The behavior depends on the transport protocol and the server being connected to:
+User ID and Password properties provide the appropriate credentials to the server when the current active user in the client application can't be automatically propagated to the server. The behavior depends on the transport protocol and the server being connected to:
 
 - When connecting over TCP to SSAS, the client library will impersonate the Windows user using the specified username and password, and then connect as usual to the server.
 - When connecting over HTTP(S) to SSAS, the credentials are provided to the web server based on the authentication mode configured on the web server, for example Basic auth or Windows auth. The web server will perform the appropriate Windows impersonation before connecting to the SSAS server, therefore providing the correct credentials flow to the server.
-- When connecting to Azure AS or Power BI Premium, the User ID and Password are used to obtain a Microsoft Entra token which is then presented to the service during authentication. Microsoft Entra ID may also require multi-factor authentication (MFA), which can require additional user interaction before the token can be generated.
+- When connecting to Azure AS or Power BI Premium, the User ID and Password are used to obtain a Microsoft Entra token which is then presented to the service during authentication. Microsoft Entra ID may also require multifactor authentication (MFA), which can require additional user interaction before the token can be generated.
 - If you've already acquired a valid Microsoft Entra ID *bearer* access token from your own application, you can set the **AccessToken** property of the AdomdConnection object before establishing the connection. In the **AccessToken** property of the relevant connectivity object (AdomdConnection, Server, etc.), make sure you set the access token and specify its expiration time. Authentication is supported for bearer tokens acquired interactively for a user, and by using [OAuth 2.0 On-Behalf-Of flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow) (for example, a middle-tier web application connecting to Analysis Services on behalf of the user). Omit the token type when passing the access token in the **AccessToken** property. The Analysis Services client libraries automatically add the auth-scheme value **"Bearer"** to the access token. Be sure to keep the following in mind:
 
   - Microsoft Entra bearer access tokens have a limited lifetime. By default, between 60-90 minutes. If your application performs long-running operations that exceed the access token lifetime, you can provide a callback function through the **OnAccessTokenExpired** property of the AdomdConnection object to refresh the access token when the current access token is about to expire. Alternatively, you can update the **AccessToken** property directly without the help of a callback function. The use of a callback function is recommended to ensure the access token is refreshed within the current access token’s lifetime.
@@ -203,9 +203,9 @@ Sets the name of the application associated with the connection. This value can 
 
 ##### Auto Synch Period
 
-Sets the frequency (in milliseconds) of client and server cache synchronization. ADOMD.NET provides client caching for frequently used objects that have minimal memory overhead. This helps reduce the number of round trips to the server. The default is 10000 milliseconds (or 10 seconds). When set to null or 0, automatic synchronization is turned off.
+Sets the frequency (in milliseconds) of client and server cache synchronization. ADOMD.NET provides client caching for frequently used objects that have minimal memory overhead. This helps reduce the number of round trips to the server. The default is 10,000 milliseconds (or 10 seconds). When set to null or 0, automatic synchronization is turned off.
 
-For performance reasons, the client libraries cache some information from the server, for example, certain schema rowsets. Auto Synch Period allows a user to change the time period after which the client library checks with the server whether or not the caches need to be emptied. In general, you should not need to change the value from default.
+For performance reasons, the client libraries cache some information from the server, for example, certain schema rowsets. Auto Synch Period allows a user to change the time period after which the client library checks with the server whether or not the caches need to be emptied. In general, you shouldn't need to change the value from default.
 
 ::: moniker-end
 
@@ -239,13 +239,13 @@ If **TransportCompression** is compressed, you can set the compression level to 
 
 ##### Connect Timeout
 
-Determines the maximum amount of time (in seconds) the client attempts a connection before timing out. If a connection does not succeed within this period, the client quits trying to connect and generates an error.
+Determines the maximum amount of time (in seconds) the client attempts a connection before timing out. If a connection doesn't succeed within this period, the client quits trying to connect and generates an error.
 
 ##### DbpropMsmdRequestMemoryLimit
 
 Overrides the [Memory\QueryMemoryLimit](../server-properties/memory-properties.md) server property value for a connection.
 
-Specified in kilobytes, this property can *reduce* the amount of memory used during a query from the maximum allowed memory (specified as a percentage) in QueryMemoryLimit. It cannot increase the amount of memory used beyond the maximum allowed memory specified in QueryMemoryLimit.
+Specified in kilobytes, this property can *reduce* the amount of memory used during a query from the maximum allowed memory (specified as a percentage) in QueryMemoryLimit. It can't increase the amount of memory used beyond the maximum allowed memory specified in QueryMemoryLimit.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
@@ -277,7 +277,7 @@ The purpose of this property is to ensure a consistent set of MDX behaviors for 
 
 ##### MDX Missing Member Mode
 
-Indicates whether missing members are ignored in MDX statements. Valid values are **Default**, **Error**, and **Ignore**. Default uses a server-defined value. Error generates an error when a member does not exist. Ignore specifies that missing values should be ignored.
+Indicates whether missing members are ignored in MDX statements. Valid values are **Default**, **Error**, and **Ignore**. Default uses a server-defined value. Error generates an error when a member doesn't exist. Ignore specifies that missing values should be ignored.
 
 ##### Optimize Response
 
@@ -292,7 +292,7 @@ Applies to TCP connections only. A network packet size (in bytes) between 512 an
 
 ##### Protocol Format
 
-Sets the format of the XML used by the XMLA communication protocol. Valid values are **Default**, **XML**, or **Binary**. You can specify the XML be sent in a binary format or as text XML. Binary format encodes XML elements and attributes, making them smaller. In addition, compression can also be enabled for the messages to reduce the size of requests and responses using the Transport Compression option. Requests and responses can use different protocol formats depending on what the client and server supports. For example, a client library may only support binary for responses, but not for requests, or a server may have disabled binary for incoming requests.
+Sets the format of the XML used by the XMLA communication protocol. Valid values are **Default**, **XML**, or **Binary**. You can specify the XML be sent in a binary format or as text XML. Binary format encodes XML elements and attributes, making them smaller. In addition, compression can also be enabled for the messages to reduce the size of requests and responses using the Transport Compression option. Requests and responses can use different protocol formats depending on what the client and server supports. For example, a client library might only support binary for responses, but not for requests, or a server might have disabled binary for incoming requests.
 
 OLE DB provider can format requests and responses in binary or compressed format. AMO and ADOMD.NET format the requests as Text, but accept responses in binary or compressed format.
 
@@ -302,7 +302,7 @@ This connection string property is equivalent to the **EnableBinaryXML** and **E
 
 ##### Real Time Olap
 
-Set this property to bypass caching, causing all storage queries to fetch data from the source system. By default, this property is not set.
+Set this property to bypass caching, causing all storage queries to fetch data from the source system. By default, this property isn't set.
 
 ::: moniker-end
 
