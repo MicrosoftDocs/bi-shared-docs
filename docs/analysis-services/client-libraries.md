@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 4/9/2024
+ms.date: 04/10/2024
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
@@ -17,7 +17,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. Custom client applications also require client libraries are installed. Client libraries are updated monthly. 
 
-**Important:** Before getting the latest versions, be sure to see [Known issues](#known-issues).
+**Important:** Before getting the latest versions, be sure to see [Considerations and limitations](#considerations-and-limitations).
 
 ## Download the latest
 
@@ -34,7 +34,7 @@ Client libraries are necessary for client applications and tools to connect to A
 
 Analysis Services Management Objects (AMO/TOM) and ADOMD client libraries are available as installable packages from [NuGet.org](https://www.nuget.org/). It's recommended you migrate to NuGet references instead of using Windows Installer.
 
-Starting Feb. 2021, versions of [.NET Core](/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. There are, however, a few scenarios not-supported by the .NET Core versions. To learn more, see [Known issues](#known-issues) later in this article.
+Starting Feb. 2021, versions of [.NET Core](/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. There are, however, a few scenarios not-supported by the .NET Core versions. To learn more, see [considerations and limitations](#considerations-and-limitations) later in this article.
 
 NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR.PATCH. NuGet references load the expected version even if there's a different version in the GAC (resulting from MSI install). PATCH is incremented for each release. AMO and ADOMD versions are kept in-sync.
 
@@ -76,7 +76,7 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 |AMO     |   15.1.61.21        |    19.12.3.0      |
 |ADOMD     |   15.1.61.21        |    19.12.3.0      |
 
-## Known issues
+## Considerations and limitations
 
 #### AMO and ADOMD
 

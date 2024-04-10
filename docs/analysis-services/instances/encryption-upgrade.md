@@ -86,7 +86,7 @@ If you require the transfer of databases between services operating under differ
 
 Use caution when implementing these steps to avoid data loss or security vulnerabilities. Always perform data backups and seek guidance from your system administrator prior to making substantial changes to service accounts or server configurations.
 
-## Known issues
+## Troubleshooting
 
 **Problem:** If the backup/restore steps above aren't followed, changing SQL Server 2022 Analysis Services service account can cause the service to fail to start.
 
