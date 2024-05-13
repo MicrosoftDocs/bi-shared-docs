@@ -173,9 +173,9 @@ Multidimensional metadata is represented as a tabular model namespace in a CSDLB
 **Example: DISCOVER_CSDL_METADATA request** 
 
 ```xml
-<Envelopexmlns="http://schemas.xmlsoap.org/soap/envelope/">
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
    <Body>
-      <Discoverxmlns="urn:schemas-microsoft-com:xml-analysis">
+      <Discover xmlns="urn:schemas-microsoft-com:xml-analysis">
          <RequestType>DISCOVER_CSDL_METADATA</RequestType>
          <Restrictions>
             <RestrictionList>
