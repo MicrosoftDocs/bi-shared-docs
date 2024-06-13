@@ -116,6 +116,13 @@ Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, com
 
 #### MSOLAP
 
+Beginning with version 16.0.134.22, MSOLAP supports silent Single Sign-On (SSO) using Web Account Manager (WAM), available on Windows 10 and higher as well as Window Server 2019 and higher. When a new HTTP connection is opened, MSOLAP obtains an access token as follows:
+1. If token caching is enabled and a suitable token is available in the cache, MSOLAP uses the cached token.
+2. If a suitable cached token is not available, MSOLAP attempts to obtain an access token silently through WAM.
+3. If SSO using WAM failed, MSOLAP falls back to interactive authentication and pop-up the login window.
+
+Users can bypass the silent SSO flow and immediately launch the interactive authentication experience by providing an 'empty' user id in the connection-string (User ID='').
+
 Beginning with version 16.0.43.20, MSOLAP uses MSAL ([Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/)) version 4.43.0 or higher instead of ADAL to authenticate users with Microsoft Entra ID when establishing a connection to cloud-based services like Power-BI and Azure Analysis Services. If your application or another component the application depends on is using MSAL, it may be necessary to update the application's binding redirect settings if there are conflicts between the versions of MSAL loaded by the components
 
 A regression related to connections to cloud-based systems using Microsoft Entra ID was discovered in the 16.0.4.17 version of OLEDB (MSOLAP). It was fixed in the 16.0.20.201 version. Due to the nature of the issue, an installed 16.0.4.17 version, as well any other version prior to 16.0.20.201, cannot be corrected by supgrading the provider, even if setup is run in repair mode. It’s recommended to completely uninstall the 16.0.4.17 [or other problematic] version and then install the 16.0.20.201 or later version. 
