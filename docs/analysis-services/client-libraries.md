@@ -117,9 +117,9 @@ Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, com
 #### MSOLAP
 
 Beginning with version 16.0.134.22, MSOLAP supports silent Single Sign-On (SSO) using Web Account Manager (WAM), available on Windows 10 and higher as well as Window Server 2019 and higher. When a new HTTP connection is opened, MSOLAP obtains an access token as follows:
-1.	If token caching is enabled and a suitable token is available in the cache, MSOLAP uses the cached token.
-2.	If a suitable cached token is not available, MSOLAP attempts to obtain an access token silently through WAM.
-3.	If SSO using WAM failed, MSOLAP falls back to interactive authentication and pop-up the login window.
+1. If token caching is enabled and a suitable token is available in the cache, MSOLAP uses the cached token.
+2. If a suitable cached token is not available, MSOLAP attempts to obtain an access token silently through WAM.
+3. If SSO using WAM failed, MSOLAP falls back to interactive authentication and pop-up the login window.
 
 Users can bypass the silent SSO flow and immediately launch the interactive authentication experience by providing an 'empty' user id in the connection-string (User ID='').
 
