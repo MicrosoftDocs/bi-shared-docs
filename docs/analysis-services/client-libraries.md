@@ -80,9 +80,9 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 
 #### AMO and ADOMD
 
-Beginning with version 19.82.0.0, AMO and ADOMD support Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](../power-bi/developer/embedded/embed-multi-tenancy).
+Beginning with version 19.82.0.0, AMO and ADOMD support Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](../power-bi/developer/embedded/embed-multi-tenancy.md).
 
-***Data Source=powerbi://api.powerbi.com/v1.0/myorg/<WorkspaceName>;User ID=app:<service principal id>@<tenant id>;SPN Profile=<service-principal profile id>;Password=<service-principal's secret>***
+***`Data Source=powerbi://api.powerbi.com/v1.0/myorg/<WorkspaceName>;User ID=app:<service principal id>@<tenant id>;SPN Profile=<service-principal profile id>;Password=<service-principal's secret>`***
 
 Beginning with version 19.67.0, connectivity objects like Microsoft.AnalysisServices.AdomdClient.AdomdConnection and Microsoft.AnalysisServices.Server, support a new **AccessToken** property that enables an improved way to pass external OAuth tokens to be used by the XMLA connectivity layer. To learn more, see [Connection string properties - User ID=...; Password=](../analysis-services/instances/connection-string-properties-analysis-services.md#user-idpassword).
 
@@ -120,9 +120,9 @@ Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, com
 
 #### MSOLAP
 
-Beginning with version 16.0.139.27, MSOLAP supports Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](../power-bi/developer/embedded/embed-multi-tenancy).
+Beginning with version 16.0.139.27, MSOLAP supports Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](../power-bi/developer/embedded/embed-multi-tenancy.md).
 
-***Data Source=powerbi://api.powerbi.com/v1.0/myorg/<WorkspaceName>;User ID=app:<service principal id>@<tenant id>;SPN Profile=<service-principal profile id>;Password=<service-principal's secret>***
+***`Data Source=powerbi://api.powerbi.com/v1.0/myorg/<WorkspaceName>;User ID=app:<service principal id>@<tenant id>;SPN Profile=<service-principal profile id>;Password=<service-principal's secret>`***
 
 Beginning with version 16.0.134.22, MSOLAP supports silent Single Sign-On (SSO) using Web Account Manager (WAM), available on Windows 10 and higher as well as Window Server 2019 and higher. When a new HTTP connection is opened, MSOLAP obtains an access token as follows:
 1. If token caching is enabled and a suitable token is available in the cache, MSOLAP uses the cached token.
