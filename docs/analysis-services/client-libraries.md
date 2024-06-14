@@ -80,7 +80,7 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 
 #### AMO and ADOMD
 
-Beginning with version 19.82.0.0, AMO and ADOMD support Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](../power-bi/developer/embedded/embed-multi-tenancy.md).
+Beginning with version 19.82.0.0, AMO and ADOMD support Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](/power-bi/developer/embedded/embed-multi-tenancy).
 
 ***`Data Source=powerbi://api.powerbi.com/v1.0/myorg/<WorkspaceName>;User ID=app:<service principal id>@<tenant id>;SPN Profile=<service-principal profile id>;Password=<service-principal's secret>`***
 
@@ -120,7 +120,7 @@ Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, com
 
 #### MSOLAP
 
-Beginning with version 16.0.139.27, MSOLAP supports Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](../power-bi/developer/embedded/embed-multi-tenancy.md).
+Beginning with version 16.0.139.27, MSOLAP supports Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](/power-bi/developer/embedded/embed-multi-tenancy).
 
 ***`Data Source=powerbi://api.powerbi.com/v1.0/myorg/<WorkspaceName>;User ID=app:<service principal id>@<tenant id>;SPN Profile=<service-principal profile id>;Password=<service-principal's secret>`***
 
