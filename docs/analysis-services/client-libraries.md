@@ -22,7 +22,6 @@ Client libraries are necessary for client applications and tools to connect to A
 ## Download the latest
 
 ### Windows Installer  
-
 |Download  | Version  |
 |---------|---------|
 |[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    16.0.142.20        |
@@ -45,7 +44,6 @@ Starting September 2022, AMO (AMO/TOM) and ADOMD .Net Core (version 19.48.0.0), 
 Starting Feb. 2021, [.NET Core](/dotnet/core/about) runtime support is available for the AMO and ADOMD client packages. There are, however, a few scenarios not-supported by the .NET Core versions. To learn more, see [considerations and limitations](#considerations-and-limitations) later in this article.
 
 #### AMO and ADOMD
-
 |Package  | Version  |
 |---------|---------|
 |[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices/)    |    19.84.1     |
