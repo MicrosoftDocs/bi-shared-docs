@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. Custom client applications for Analysis Services may also require one or more of these client libraries to be installed. New versions of the client libraries are updated monthly. 
+Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. Custom client applications for Analysis Services may also require one or more of these client libraries to be installed. New versions of the client libraries are updated approximately monthly. 
 
 **Important:** Before getting the latest versions, be sure to see [Considerations and limitations](#considerations-and-limitations).
 
@@ -29,7 +29,8 @@ Client libraries are necessary for client applications and tools to connect to A
 |[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.142.20           |
 |[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.84.1.0         |
 |[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.84.1.0           |
-* **Note**: The Windows Installer downloads for Analysis Services Management Objects (AMO/TOM) and ADOMD are no longer being updated and will not be available after Dec. 31st 2024. Applications relying on these Windows Installer downloads should be migrated to NuGet packages.
+
+**Note:** The Windows Installer downloads for Analysis Services Management Objects (AMO/TOM) and ADOMD are no longer being updated and will not be available after Dec. 31st 2024. Applications relying on these Windows Installer downloads should be migrated to NuGet packages.
 
 ### NuGet packages
 
@@ -50,7 +51,7 @@ Starting Feb. 2021, [.NET Core](/dotnet/core/about) runtime support is available
 |[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices/)    |    19.84.1     |
 |[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient/)     |   19.84.1     |
 
-**Note**:
+**Note:**
 
 The new multi-runtime packages no longer have the ".retail.amd64" suffix in the package identity and are now simply called Microsoft.AnalysisServices and Microsoft.AnalysisServices.AdomdClient.
 
