@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 07/03/2024
+ms.date: 07/11/2024
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. Custom client applications also require client libraries are installed. Client libraries are updated monthly. 
+Client libraries are necessary for client applications and tools to connect to Analysis Services. Microsoft client applications like Power BI Desktop, Excel, SQL Server Management Studio (SSMS), and Analysis Services projects extension for Visual Studio install all three client libraries and update them along with regular application updates. Custom client applications for Analysis Services may also require one or more of these client libraries to be installed. New versions of the client libraries are updated monthly. 
 
 **Important:** Before getting the latest versions, be sure to see [Considerations and limitations](#considerations-and-limitations).
 
@@ -29,40 +29,32 @@ Client libraries are necessary for client applications and tools to connect to A
 |[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.142.20           |
 |[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.84.1.0         |
 |[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.84.1.0           |
+* **Note**: The Windows Installer downloads for Analysis Services Management Objects (AMO/TOM) and ADOMD are no longer being updated and will not be available after Dec. 31st 2024. Applications relying on these Windows Installer downloads should be migrated to NuGet packages.
 
 ### NuGet packages
 
-Analysis Services Management Objects (AMO/TOM) and ADOMD client libraries are available as installable packages from [NuGet.org](https://www.nuget.org/). It's recommended you migrate to NuGet references instead of using Windows Installer.
-
-Starting Feb. 2021, versions of [.NET Core](/dotnet/core/about) packages equivalent to the AMO and ADOMD client packages are also available. There are, however, a few scenarios not-supported by the .NET Core versions. To learn more, see [considerations and limitations](#considerations-and-limitations) later in this article.
+Analysis Services Management Objects (AMO/TOM) and ADOMD client libraries are available as installable packages from [NuGet.org](https://www.nuget.org/). It's strongly recommended you migrate to NuGet references instead of using the Windows Installer.
 
 NuGet package assemblies AssemblyVersion follow semantic versioning: MAJOR.MINOR.PATCH. NuGet references load the expected version even if there's a different version in the GAC (resulting from MSI install). PATCH is incremented for each release. AMO and ADOMD versions are kept in-sync.
+
+Starting July 2024, the AMO and ADOMD packages contain multi-runtime releases for all the supported target runtimes, both .NET FX as well as .NET Core; prior releases of the packages that only targeted a single runtime, either .NET FX or .NET Core, are available for backward compatibility, but are no longer updated.
+
+Starting September 2022, AMO (AMO/TOM) and ADOMD .Net Core (version 19.48.0.0), HTTP-based communication with cloud services like Power BI and Azure Analysis Services is significantly improved. It's recommended you update to the latest version to take advantage of the performance improvements.
+
+Starting Feb. 2021, [.NET Core](/dotnet/core/about) runtime support is available for the AMO and ADOMD client packages. There are, however, a few scenarios not-supported by the .NET Core versions. To learn more, see [considerations and limitations](#considerations-and-limitations) later in this article.
 
 #### AMO and ADOMD
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/)    |    19.84.1     |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/)     |   19.84.1     |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices/)    |    19.84.1     |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient/)     |   19.84.1     |
 
-#### AMO and ADOMD .Net Core
+**Note**:
 
-|Package  | Version  |
-|---------|---------|
-|[AMO .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64)    |    19.84.1      |
-|[ADOMD .Net Core](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64)     |   19.84.1        |
+The new multi-runtime packages no longer have the ".retail.amd64" suffix in the package identity and are now simply called Microsoft.AnalysisServices and Microsoft.AnalysisServices.AdomdClient.
 
-Beginning with AMO (AMO/TOM) and ADOMD .Net Core version 19.48.0.0, HTTP-based communications with cloud services like Power BI and Azure Analysis Services are significantly improved. It's recommended you update to the latest version to take advantage of these performance improvements. 
-
-#### TMDL Preview
-
-Beginning with AMO release 19.72.0, TMDL functionality is now included in Microsoft.AnalysisServices.Tabular.dll. If you've been using the [Microsoft.AnalysisServices.Tabular.Tmdl](https://www.nuget.org/packages/Microsoft.AnalysisServices.Tabular.Tmdl.retail.amd64/19.69.6.2-TmdlPreview) NuGet package, be sure to **remove it from your project and recompile**. 
-
-The following changes were made to the TMDL API that could impact your code:
-
-- TmdlFormatException property name changes. For example, **Path** changed to **Document**.
-
-To learn more about TMDL, see [Tabular Model Definition Language overview](tmdl/tmdl-overview.md).
+The older .NET Framework and .NET Core packages are still available in nuget.org for backward compatibility under the old identity with the ".retail.amd64" suffix for .NET Framework, and the ".NetCore.retail.amd64" suffix for .NET Core.
 
 ## Minimum required versions
 
