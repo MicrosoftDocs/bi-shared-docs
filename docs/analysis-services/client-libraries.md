@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 07/11/2024
+ms.date: 08/02/2024
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
@@ -25,8 +25,8 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    16.0.142.20        |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.142.20           |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    16.0.147.21        |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     16.0.147.21           |
 |[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.84.1.0         |
 |[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.84.1.0           |
 
@@ -48,8 +48,8 @@ Starting Feb. 2021, [.NET Core](/dotnet/core/about) runtime support is available
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices/)    |    19.84.1     |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient/)     |   19.84.1     |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices/)    |    19.84.6     |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient/)     |   19.84.6     |
 
 **Note:**
 
@@ -73,6 +73,8 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 
 #### AMO and ADOMD
 
+Starting with version 19.84.6, the support for .NET FX 4.5 and .NET Core 3.0 in the managed assemblies are no longer available. AS client-side assemblies are now released with support for .NET FX 4.7.2, as well as .NET 6.0 and .NET 8.0 only.
+
 Beginning with version 19.82.0.0, AMO and ADOMD support Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](/power-bi/developer/embedded/embed-multi-tenancy).
 
 ***`Data Source=powerbi://api.powerbi.com/v1.0/myorg/<WorkspaceName>;User ID=app:<service principal id>@<tenant id>;SPN Profile=<service-principal profile id>;Password=<service-principal's secret>`***
@@ -94,6 +96,8 @@ Version 19.14.0 of the .Net Core client libraries introduced preview support for
 Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL Server Analysis Services. Lower preview versions only supported Azure Analysis Services and Power BI semantic models.
 
 #### AMO
+
+Starting with version 19.84.6, the support for TMDL in AMO\TOM is considered as in General-Availability status, and there won’t be any breaking changes in the API surface. 
 
 Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
 
