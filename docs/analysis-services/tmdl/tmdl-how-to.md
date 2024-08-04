@@ -14,9 +14,6 @@ author: kfollis
 
 [!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
-> [!IMPORTANT]
-> Tabular Model Definition Language (TMDL) is currently in preview. When in preview, functionality and documentation are likely to change.
-
 Before getting started with this article, be sure to thoroughly understand concepts described in [Tabular Model Definition Language (TMDL) overview](tmdl-overview.md).
 
 The easiest way to explore TMDL is to reference the  Analysis Services Management Objects (AMO) **Nuget package** and use the TMDL API methods to serialize and deserialize to and from TMDL.
