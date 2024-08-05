@@ -14,9 +14,6 @@ author: kfollis
 
 [!INCLUDE[appliesto-sql2016-later-aas-pbip](../includes/appliesto-sql2016-later-aas-pbip.md)]
 
-> [!IMPORTANT]
-> Tabular Model Definition Language (TMDL) is currently in preview. When in preview, functionality and documentation are likely to change.
-
 Tabular Model Definition Language (TMDL) is an object model definition syntax for tabular data models at compatibility level 1200 or higher.
 
 Key elements of TMDL include:
@@ -30,7 +27,7 @@ An important aspect of TMDL is use of whitespace indentation to denote a TOM obj
 
 ```tmdl
 database Sales
-	compatibilityLevel: 1567	
+	compatibilityLevel: 1567
 
 model Model    
     culture: en-US    
@@ -623,8 +620,6 @@ By default TMDL API on serialize/write use **camelCase**, applied to:
 - Enum values
 
 On deserialize/read, TMDL API is case insensitive.
-
-## Considerations and limitations
 
 ## Related content
 
