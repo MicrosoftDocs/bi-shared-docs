@@ -42,8 +42,8 @@ A signed 32-bit integer property that defines support for IPv6 protocol. This pr
 |Value|Description|  
 |-----------|-----------------|  
 |*0*|IPv6 disabled; clients can't connect.|  
-|*1*|(Default) IPv6 is required; server won't start if it cannot listen to IPv6.|  
-|*2*|IPv6 is optional; server tries to listen to IPv6 but starts even if unable to.|  
+|*1*|IPv6 is required; server won't start if it cannot listen to IPv6.|  
+|*2*|(Default) IPv6 is optional; server tries to listen to IPv6 but starts even if unable to.|  
   
 ##### MaxAllowedRequestSize
 
