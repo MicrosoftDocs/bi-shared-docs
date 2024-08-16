@@ -37,7 +37,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 For Azure Analysis Services and SQL Server Analysis Services, members of the Analysis Services server administrator role can view all server and database traces. Users not in a server administrator role can view traces only for databases in which they are a member of the database administrator role.
 
-For **Power BI Premium**, users can view traces only for databases in which they are a member of the database administrator role. Only those events that require database administrator permissions are available. Trace events requiring server administrator permissions are not available for a Power BI Premium workspace.
+For **Power BI Premium**, users can view traces only for databases in which they are a member of the database administrator role. Only those events that require database administrator permissions are available. Trace events requiring server administrator permissions are not available for a Power BI Premium workspace.   
 
 ## Using SQL Server Profiler
 
@@ -53,7 +53,9 @@ For **Power BI Premium**, users can view traces only for databases in which they
   
 - A trace can continue when Analysis Services stops and restarts.  
   
-- Passwords are not revealed in trace events, but are replaced by \*\*\*\*\*\* in the event.  
+- Passwords are not revealed in trace events, but are replaced by \*\*\*\*\*\* in the event.
+
+- If [Power BI Semantic model scale-out](https://learn.microsoft.com/power-bi/enterprise/service-premium-scale-out) is enabled on the dataset, then SQL Server Profiler does not return any results.  Disabling model scale out will allow results to be returned.  
   
  For optimal performance, use SQL Server Profiler to monitor only those events in which you are most interested. Monitoring too many events adds overhead and can cause the trace file or table to grow very large, especially when you monitor over a long period of time. In addition, use filtering to limit the amount of data that is collected and to prevent traces from becoming too large.
 
