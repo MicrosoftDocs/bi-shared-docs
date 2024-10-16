@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 10/10/2024
+ms.date: 10/15/2024
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
@@ -75,7 +75,7 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 
 Starting with version 19.84.6, the support for .NET FX 4.5 and .NET Core 3.0 in the managed assemblies are no longer available. AS client-side assemblies are now released with support for .NET FX 4.7.2, as well as .NET 6.0 and .NET 8.0 only.
 
-Beginning with version 19.82.0.0, AMO and ADOMD support Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](/power-bi/developer/embedded/embed-multi-tenancy).
+Beginning with version 19.82.0.0, AMO and ADOMD support Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](/power-bi/developer/embedded/embed-multi-tenancy). Users can't connect to workspaces associated with a Premium Per-User license using Service Principal Profiles through the XMLA endpoint.
 
 ***`Data Source=powerbi://api.powerbi.com/v1.0/myorg/<WorkspaceName>;User ID=app:<service principal id>@<tenant id>;SPN Profile=<service-principal profile id>;Password=<service-principal's secret>`***
 
