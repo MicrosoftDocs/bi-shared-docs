@@ -1,7 +1,7 @@
 ---
 title: "Configure Analysis Services tabular model roles | Microsoft Docs"
 description: Learn how to configure roles in tabular models so you can define member permissions for a model.
-ms.date: 02/10/2022
+ms.date: 10/28/2024
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
@@ -14,9 +14,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 [!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
 
-Roles in tabular models define member permissions for a model. Members of the role can perform actions on the model as defined by the role permission. Roles defined with read permissions can also provide additional security at the row-level by using row-level filters.
+Roles in tabular models define member permissions for a model. Members of the role can perform actions on the model as defined by the role permission. Roles defined with read permissions can also provide more security at the row-level by using row-level filters.
   
-For Azure Analysis Services and Power BI semantic models, users must be in your Microsoft Entra ID and usernames and groups specified must be by organizational email address or UPN. For SQL Server Analysis Services, roles contain user members by Windows username or by Windows group, and permissions (read, process, administrator).
+For Azure Analysis Services and Power BI semantic models, users must be in your Microsoft Entra ID and usernames and groups specified must be by organizational email address or user principal name (UPN). For SQL Server Analysis Services, roles contain user members by Windows username or by Windows group, and permissions (read, process, administrator).
 
 > [!IMPORTANT]  
 > When using Visual Studio to create roles and add organizational users to a tabular model project that will be deployed to Azure Analysis Services or Power BI, use [Integrated workspace](workspace-database-ssas-tabular.md).
@@ -24,7 +24,7 @@ For Azure Analysis Services and Power BI semantic models, users must be in your 
 > [!IMPORTANT]  
 > For users to connect to a deployed model by using a reporting client application, you must create at least one role with at least Read permission to which those users are members.  
   
-Information in this article is meant for tabular model authors who define roles by using the Role Manager dialog box in SSDT. Roles defined during model authoring apply to the model workspace database. After a model database has been deployed, model database administrators can manage (add, edit, delete) role members by using SSMS.
+Information in this article is meant for tabular model authors who define roles by using the Role Manager dialog box in SSDT. Roles defined during model authoring apply to the model workspace database. After a model database is deployed, model database administrators can manage (add, edit, delete) role members by using SSMS.
   
 ## Understanding roles
 
@@ -34,11 +34,11 @@ Roles are used in Analysis Services to manage model data access. There are two t
   
 - Database roles, roles defined by model authors and administrators to control access to a model database and data for non-administrator users.
   
-Roles defined for a tabular model are database roles. That is, the roles contain members consisting of users or groups that have specific permissions that define the action those members can take on the model database. A role is created as a separate object in the database, and applies only to the database in which that role is created. Users and groups are included in the role by the model author, which by default has Administrator permissions on the workspace database server; for a deployed model, by an administrator.  
+Roles defined for a tabular model are database roles. That is, the roles contain members consisting of users or groups that have specific permissions that define the action those members can take on the model database. A role is created as a separate object in the database, and applies only to the database in which that role is created. The model author adds users and groups to the role, which by default has Administrator permissions on the workspace database server; for a deployed model, by an administrator.  
   
 Roles in tabular models can be further defined with row filters, also known as *row-level-security*. Row filters use DAX expressions to define the rows in a table, and any related rows in the many direction, that a user can query. Row filters using DAX expressions can only be defined for the Read and Read and Process permissions. In Power BI, model roles are defined in Power BI Desktop and apply only to row-level security. To learn more, see [Row filters](#row-filters) later in this article.
 
-By default, when you create a new tabular model project, the project does not have any roles. Roles can be defined by using the Role Manager dialog box in SSDT. When roles are defined during model authoring, they are applied to the model workspace database. When the model is deployed, the same roles are applied to the deployed model. After a model has been deployed, members of the server role ([Analysis Services Administrator) and database administrators can manage the roles associated with the model and the members associated with each role by using SSMS.  
+By default, when you create a new tabular model project, the project does not have any roles. Roles can be defined by using the Role Manager dialog box in SSDT. When roles are defined during model authoring, they are applied to the model workspace database. When the model is deployed, the same roles are applied to the deployed model. After a model is deployed, members of the server role (Analysis Services Administrator) and database administrators can manage the roles associated with the model and the members associated with each role by using SSMS.  
 
 ::: moniker range="asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 
@@ -46,9 +46,9 @@ By default, when you create a new tabular model project, the project does not ha
 
 Role permissions described in this section apply only to Azure Analysis Services and SQL Server Analysis Services. In Power BI, permissions are defined for the semantic model. To learn more, see [Manage semantic model access](/power-bi/connect-data/service-datasets-manage-access-permissions).
 
-Each role has a single defined database permission (except for the combined Read and Process permission). By default, a new role will have the None permission. That is, once members are added to the role with the None permission, they cannot modify the database, run a process operation, query data, or see the database unless a different permission is granted.  
+Each role has a single defined database permission (except for the combined Read and Process permission). By default, a new role has the None permission. That is, once members are added to the role with the None permission, they cannot modify the database, run a process operation, query data, or see the database unless a different permission is granted.  
   
-A group or user can be a member of any number of roles, each role with a different permission. When a user is a member of multiple roles, the permissions defined for each role are cumulative. For example, if a user is a member of a role with the Read permission, and also a member of a role with None permission, that user will have Read permissions.  
+A group or user can be a member of any number of roles, each role with a different permission. When a user is a member of multiple roles, the permissions defined for each role are cumulative. For example, if a user is a member of a role with the Read permission, and also a member of a role with None permission, that user has Read permissions.  
   
 Each role can have one the following permissions defined:  
   
@@ -129,7 +129,7 @@ The LOOKUPVALUE function returns values for the dimEmployees[DepartmentId] colum
   
 ## Testing roles
 
-When authoring a model project in Visual Studio, you can use the Analyze in Excel feature to test the efficacy of the roles you have defined. From the **Model** menu in the model designer, when you click **Analyze in Excel**, before Excel opens, the **Choose Credentials and Perspective** dialog box appears. In this dialog, you can specify the current username, a different username, a role, and a perspective with which you will use to connect to the workspace model as a data source. To learn more, see [Analyze in Excel](./tabular-model-designer-ssas.md).  
+When ing a model project in Visual Studio, you can use the Analyze in Excel feature to test the efficacy of the roles you have defined. From the **Model** menu in the model designer, when you click **Analyze in Excel**, before Excel opens, the **Choose Credentials and Perspective** dialog box appears. In this dialog, you can specify the current username, a different username, a role, and a perspective with which you will use to connect to the workspace model as a data source. To learn more, see [Analyze in Excel](./tabular-model-designer-ssas.md).  
   
 ## Scripting roles
 
