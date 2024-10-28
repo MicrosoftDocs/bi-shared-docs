@@ -19,10 +19,10 @@ Roles in tabular models define member permissions for a model. Members of the ro
 For Azure Analysis Services and Power BI semantic models, users must be in your Microsoft Entra ID. Usernames and groups are specified by organizational email address or user principal name (UPN). For SQL Server Analysis Services, roles contain user members specified by Windows username or by Windows group, and permissions (read, process, administrator).
 
 > [!IMPORTANT]  
-> When using Visual Studio to create roles and add organizational users to a tabular model project that will be deployed to Azure Analysis Services or Power BI, use [Integrated workspace](workspace-database-ssas-tabular.md).
+> If you use Visual Studio to create roles and add users to a tabular model project that will be deployed to Azure Analysis Services or Power BI, use [Integrated workspace](workspace-database-ssas-tabular.md).
 
 > [!IMPORTANT]  
-> For users to connect to a deployed model by using a reporting client application, you must create at least one role with at least Read permission and add those users as members.  
+> For users to connect to a deployed model by using a reporting client application, you must create at least one role that has at least Read permission. Add users of the reporting client app to the role as members.  
   
 Information in this article is meant for tabular model authors who define roles by using the Role Manager dialog box in SSDT. Roles defined during model authoring apply to the model workspace database. After a model database is deployed, model database administrators can manage (add, edit, delete) role members by using SSMS.
   
@@ -32,9 +32,9 @@ Roles are used in Analysis Services to manage model data access. There are two t
   
 - The server role is a fixed role that provides administrator access to an Analysis Services server instance. Server roles don't apply to Power BI. Instead, Power BI uses [workspace roles](/power-bi/collaborate-share/service-roles-new-workspaces).
   
-- Database roles are defined by model authors and administrators to control access to a model database and data for non-administrator users.
+- Database roles are defined by model authors and administrators to control access to a model database and data for users.
   
-Roles defined for a tabular model are database roles. These roles contain members consisting of users or groups that have specific permissions that define the action those members can take on the model database. A role is created as a separate object in the database, and applies only to the database in which that role is created. The model author adds users and groups to the role, who by default has Administrator permissions on the workspace database server; for a deployed model, role members are added by an administrator.  
+Roles defined for a tabular model are database roles. These roles contain users or groups that have specific permissions that define the action those members can take on the model database. A role is created as a separate object in the database, and applies only to the database that the role is created in. The model author adds users and groups to the role. By default, the model author has Administrator permissions on the workspace database server; for a deployed model, role members are added by an administrator.  
   
 Roles in tabular models can be further defined with row filters, also known as *row-level-security*. Row filters use DAX expressions to define the rows in a table, and any related rows in the many direction, that a user can query. Row filters using DAX expressions can only be defined for the *Read* and *Read and Process* permissions. In Power BI, model roles are defined in Power BI Desktop and apply only to row-level security. To learn more, see [Row filters](#row-filters) later in this article.
 
@@ -46,7 +46,7 @@ By default, when you create a new tabular model project, the project doesn't hav
 
 Role permissions described in this section apply only to Azure Analysis Services and SQL Server Analysis Services. In Power BI, permissions are defined for the semantic model. To learn more, see [Manage semantic model access](/power-bi/connect-data/service-datasets-manage-access-permissions).
 
-Each role has a single defined database permission (except for the combined Read and Process permission). By default, a new role has the *None* permission. When members are added to the role with the None permission, they can't modify the database, run a process operation, query data, or see the database unless a different permission is granted.  
+Each role has a single defined database permission (except for the combined Read and Process permission). By default, a new role has the *None* permission. When members are added to a role that has the None permission, they can't modify the database, run a process operation, query data, or see the database unless a different permission is granted.  
   
 A group or user can be a member of any number of roles, each role having a different permission. When a user is a member of multiple roles, the permissions defined for each role are cumulative. For example, if a user is a member of a role with the Read permission, and also a member of a role with None permission, that user has Read permissions.  
   
@@ -54,14 +54,14 @@ Each role can have one the following permissions defined:
   
 |Permissions|Description|Row filters using DAX|  
 |-----------------|-----------------|----------------------------|  
-|None|Members cannot make any modifications to the model database schema and cannot query data.|Row filters do not apply. No data is visible to users in this role|  
-|Read|Members are allowed to query data (based on row filters) but cannot see the model database in SSMS, cannot make any changes to the model database schema, and the user cannot process the model.|Row filters can be applied. Only data specified in the row filter DAX formula is visible to users.|  
-|Read and Process|Members are allowed to query data (based on row-level filters) and run process operations by running a script or package that contains a process command, but cannot make any changes to the database. Cannot view the model database in SSMS.|Row filters can be applied. Only data specified in the row filter DAX formula can be queried.|  
-|Process|Members can run process operations by running a script or package that contains a process command. Cannot modify the model database schema. Cannot query data. Cannot query the model database in SSMS.|Row filters do not apply. No data can be queried in this role|  
-|Administrator|Members can make modifications to the model schema and can query all data in the model designer, reporting client, and SSMS.|Row filters do not apply. All data can be queried in this role.|  
+|None|Members can't make any changes to the model database schema and can't query data.|Row filters don't apply. No data is visible to users in this role|  
+|Read|Members are allowed to query data (based on row filters) but can't see the model database in SSMS, can't make any changes to the model database schema, and the user can't process the model.|Row filters can be applied. Only data specified in the row filter DAX formula is visible to users.|  
+|Read and Process|Members are allowed to query data (based on row-level filters) and run process operations by running a script or package that contains a process command, but can't make any changes to the database. Users with permission can't view the model database in SSMS.|Row filters can be applied. Only data specified in the row filter DAX formula can be queried.|  
+|Process|Members can run process operations by running a script or package that contains a process command. Members can't modify the model database schema, can't query data, and can't query the model database in SSMS.|Row filters don't apply. No data can be queried in this role|  
+|Administrator|Members can make modifications to the model schema and can query all data in the model designer, reporting client, and SSMS.|Row filters don't apply. All data can be queried in this role.|  
 
 > [!NOTE]
-> Members with Read and Read and Process permissions can query data based on row filters but cannot see the model database in SSMS. Members cannot make changes to the model database schema and cannot process the model. However, in SQL Server Analysis Services 2019 and earlier, members can use [DMVs](../instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md?preserve-view=true) to determine measure definitions. SQL Server Analysis Services 2022 and later block access to DMVs for improved security.
+> Members with Read and Read and Process permissions can query data based on row filters but can't see the model database in SSMS. Members can't make changes to the model database schema and can't process the model. However, in SQL Server Analysis Services 2019 and earlier, members can use [DMVs](../instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services.md?preserve-view=true) to determine measure definitions. SQL Server Analysis Services 2022 and later block access to DMVs for improved security.
 
 ::: moniker-end
 
