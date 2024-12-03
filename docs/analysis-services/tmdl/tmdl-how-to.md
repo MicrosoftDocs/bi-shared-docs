@@ -29,7 +29,7 @@ var workspaceXmla = " <Workspace XMLA address>";
 var datasetName = "<dataset name>";
 var outputPath = System.Environment.CurrentDirectory;
 
-using (var server = new Server())
+using (var server = new Microsoft.AnalysisServices.Tabular.Server())
 {
     server.Connect(workspaceXmla);
 
@@ -37,7 +37,7 @@ using (var server = new Server())
 
     var destinationFolder = $"{outputPath}\\{database.Name}-tmdl";
 
-    TmdlSerializer.SerializeDatabaseToFolder(database.Model, destinationFolder);
+    Microsoft.AnalysisServices.Tabular.TmdlSerializer.SerializeDatabaseToFolder(database.Model, destinationFolder);
 
 }
 
@@ -80,9 +80,9 @@ var xmlaServer = "<Workspace XMLA address>";
 
 var tmdlFolderPath = $"{System.Environment.CurrentDirectory}\\Contoso-tmdl";
 
-var model = TmdlSerializer.DeserializeDatabaseFromFolder(tmdlFolderPath);            
+var model = Microsoft.AnalysisServices.Tabular.TmdlSerializer.DeserializeModelFromFolder(tmdlFolderPath);            
 
-using (var server = new Server())
+using (var server = new Microsoft.AnalysisServices.Tabular.Server())
 {
     server.Connect(xmlaServer);
 
@@ -121,9 +121,9 @@ try
 {
     var tmdlPath = "<TMDL Folder Path>";
 
-    var model = TmdlSerializer.DeserializeDatabaseFromFolder(tmdlPath);
+    var model = Microsoft.AnalysisServices.Tabular.TmdlSerializer.DeserializeDatabaseFromFolder(tmdlPath);
 }
-catch (TmdlFormatException ex)
+catch (Microsoft.AnalysisServices.Tabular.Tmdl.TmdlFormatException ex)
 {
     Console.WriteLine($"Error on Deserializing TMDL '{ex.Message}', document path: '{ex.Document}'  line number: '{ex.Line}', line text: '{ex.LineText}'");
 
@@ -138,7 +138,7 @@ The following code example shows how to serialize a column into TMDL:
 
 ```csharp
 
-var output = TmdlSerializer.SerializeObject(model.Tables["Product"].Columns["ProductKey"], qualifyObject: true);
+var output = Microsoft.AnalysisServices.Tabular.TmdlSerializer.SerializeObject(model.Tables["Product"].Columns["ProductKey"], qualifyObject: true);
 
 Console.WriteLine(output);
 
@@ -168,7 +168,7 @@ The following code example shows how to serialize a semantic model to a single t
 ```csharp
 var output = new StringBuilder();
 
-foreach (MetadataDocument document in model.ToTmdl())
+foreach (Microsoft.AnalysisServices.Tabular.Serialization.MetadataDocument document in model.ToTmdl())
 {
     using (TextWriter writer = new StringWriter(output))
     {
@@ -183,7 +183,7 @@ Console.WriteLine(output.ToString());
 The following code example shows how to deserialize from TMDL, excluding the roles:
 
 ```csharp
-var context = MetadataSerializationContext.Create(MetadataSerializationStyle.Tmdl);
+var context = Microsoft.AnalysisServices.Tabular.Serialization.MetadataSerializationContext.Create(MetadataSerializationStyle.Tmdl);
 
 var files = Directory.GetFiles("[TMDL Directory Path]", "*.tmdl", SearchOption.AllDirectories);
 
