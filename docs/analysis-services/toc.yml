@@ -1554,6 +1554,8 @@ items:
       href: tom/tom-pbi-datasets.md
     - name: Use hot and cold table partitions to optimize very large Power BI data models
       href: tom/table-partitions.md
+    - name: Add lineage tags for Power BI semantic models
+      href: tom/lineage-tags-for-power-bi-semantic-models.md
   - name: Tabular Model Scripting Language (TMSL)
     items: 
     - name: Tabular Model Scripting Language overview
