@@ -1,5 +1,5 @@
 ---
-title: "Create lineage tags for Power BI semantic models"
+title: "Lineage tags for Power BI semantic models"
 description: Add a lineage tag for Power BI semantic models.
 ms.date: 12/16/2024
 ms.service: analysis-services
@@ -10,7 +10,7 @@ ms.reviewer: davidi
 author: davidiseminger
 
 ---
-# Add a lineage tag for Power BI semantic models
+# Lineage tags for Power BI semantic models
 
 You can use [lineage tags](/dotnet/api/microsoft.analysisservices.tabular.imetadataobjectwithlineage.lineagetag) in semantic model objects to enable stable identification of such objects across different semantic models. Using lineage tags enables Power BI features such as [composite models](/power-bi/transform-model/desktop-composite-models) to maintain their binding to referenced tables or columns (by use of [SourceLineageTag](/dotnet/api/microsoft.analysisservices.tabular.imetadataobjectwithlineage.sourcelineagetag)), even if the source semantic model object is renamed. 
 
