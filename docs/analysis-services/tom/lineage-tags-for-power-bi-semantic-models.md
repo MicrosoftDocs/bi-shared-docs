@@ -32,9 +32,9 @@ The following objects/properties synchronize with the data source and require yo
 |DirectLake      |Tables, Columns           |Name, DataType           |All tables in the Lakehouse not included in the model          |
 
 
-### The ChangedProperties value
+### The ChangedProperties collection
 
-The *ChangedProperties* enables you to specify which object property values have been modified, indicating that those values may no longer be synchronized with the source.  
+The *ChangedProperties* collection enables you to specify which object property values have been modified, indicating that those values may no longer be synchronized with the source.  
 
 For example, when creating a composite model on Power BI semantic models, the column names originate from the source model. If you rename a column in your local model, you need to specify the *Name* property as a changed property.  
 
