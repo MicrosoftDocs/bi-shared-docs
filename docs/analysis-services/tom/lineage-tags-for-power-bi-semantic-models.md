@@ -1,7 +1,7 @@
 ---
 title: "Lineage tags for Power BI semantic models"
 description: Add a lineage tag for Power BI semantic models.
-ms.date: 12/16/2024
+ms.date: 12/17/2024
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
@@ -20,17 +20,18 @@ Lineage tags must be unique within their scope; for instance, two tables in the 
 
 Semantic models can include objects and properties derived from other models or data sources. For example, when creating a [composite model on Power BI semantic models](/power-bi/transform-model/desktop-composite-models#composite-models-on-power-bi-semantic-models-and-analysis-services), the table and column names, data types, format strings, and other properties originate from the source model. 
 
-When customizing properties or removing objects in the model that have been synced from the data source, the modeling engine expects the [changedProperties property](/dotnet/api/microsoft.analysisservices.tabular.table.changedproperties) and *PBI_RemovedChildren* annotation to be set to indicate a user customization so that the customizations are maintained during the next schema synchronization with the data source. 
+When customizing properties or removing objects in the model that have been synced from the data source, Power BI expects the [changedProperties property](/dotnet/api/microsoft.analysisservices.tabular.table.changedproperties) and *PBI_RemovedChildren* annotation to be set to indicate a user customization so that the customizations are maintained during the next schema synchronization with the data source. 
 
 The following objects/properties synchronize with the data source and require you to declare both any modified properties and object removals: 
 
 
 |Scenario  |Objects  |Property customization  |Removal customization  |
 |---------|---------|---------|---------|
-|Import / DirectQuery  |Tables, Columns, Relationships  |Name, DataType  |Relationships  |
+|Import / DirectQuery  |Tables, Columns, Relationships  |Name, DataType  |Relationships <sup>[1](#sameas)</sup>  |
 |Composite     |Tables, Columns, Relationships, Measures, Hierarchies, Levels           |Name, DataType, IsHidden, FormatString, Description, SummarizeBy, DataCategory, SortByColumn, GroupByColumns, DisplayFolder, IsNullable           |All tables in the remote model not included in the local model     |
 |DirectLake      |Tables, Columns           |Name, DataType           |All tables in the Lakehouse not included in the model          |
 
+<a name="sameas">[1]</a> Power BI automatically creates relationships based on primary and foreign key information from the data source. If users remove those relationships, Power BI keeps track of the changes to prevent re-adding them during future schema synchronization.
 
 ### The ChangedProperties collection
 
@@ -55,7 +56,7 @@ table Products
 
 ### The PBI_RemovedChildren annotation
 
-The *PBI_RemovedChildren* annotation is a model annotation declared on the parent object of the removed item that declares the user's intent to exclude an object from the local object. For example, when constructing a composite model you [can choose which tables to load](/power-bi/transform-model/desktop-composite-models#loading-a-subset-of-tables-from-a-power-bi-semantic-model-or-analysis-services-model), and all the non-selected tables are included in the *PBI_RemovedChildren* of the shared named expression of data source. 
+The *PBI_RemovedChildren* annotation is a model annotation declared on the parent object of the removed item that declares the user's intent to exclude an object from the local object. For example, when constructing a composite model you [can choose which tables to load](/power-bi/transform-model/desktop-composite-models#loading-a-subset-of-tables-from-a-power-bi-semantic-model-or-analysis-services-model), and all the non-selected tables are included in the *PBI_RemovedChildren* annotation stored in the *NamedExpression* of the data source. In Import and DirectQuery models, the annotation is stored within the model to keep track of relationship removals.
 
 Not declaring this annotation causes semantic model objects to be retrieved during schema synchronization with the source.  
 
@@ -76,7 +77,7 @@ expression 'DirectQuery to AS - AdventureWorks' =
 ## Considerations and limitations
 
 * For Import/DirectQuery models, the *changedProperty* is required only when the change cannot be folded into the M query of the table, such as in DirectQuery tables utilizing a native query. 
-* For DirectLake models, the *sourceLineageTag* must be the name of the table in the Lakehouse. 
+* For DirectLake models, the *sourceLineageTag* must be the name of the table/column in the Lakehouse/data warehouse. 
 
 
 ## Next step
