@@ -1,7 +1,7 @@
 ---
 title: "Lineage tags for Power BI semantic models"
 description: Add a lineage tag for Power BI semantic models.
-ms.date: 12/17/2024
+ms.date: 01/06/2025
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
@@ -42,7 +42,7 @@ For example, when creating a composite model on Power BI semantic models, the co
 In the following example, the *ProductID* column from the source model was renamed to *ProductKey*: 
 
 
-```dax
+```tmdl
 table Products 
 
     column ProductKey 
@@ -62,7 +62,7 @@ Not declaring this annotation causes semantic model objects to be retrieved duri
 
 In the following example a table is removed from the composite model. The lineage tag of the source model table is used instead of its name to ensure a stable identification: 
 
-```dax
+```tmdl
 expression 'DirectQuery to AS - AdventureWorks' = 
         let 
             Source = AnalysisServices.Database("[XMLA Endpoint]"), 
