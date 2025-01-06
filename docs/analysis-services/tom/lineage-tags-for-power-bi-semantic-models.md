@@ -42,7 +42,7 @@ For example, when creating a composite model on Power BI semantic models, the co
 In the following example, the *ProductID* column from the source model was renamed to *ProductKey*: 
 
 
-```tmdl
+```TMDL
 table Products 
 
     column ProductKey 
@@ -62,7 +62,7 @@ Not declaring this annotation causes semantic model objects to be retrieved duri
 
 In the following example a table is removed from the composite model. The lineage tag of the source model table is used instead of its name to ensure a stable identification: 
 
-```tmdl
+```TMDL
 expression 'DirectQuery to AS - AdventureWorks' = 
         let 
             Source = AnalysisServices.Database("[XMLA Endpoint]"), 
