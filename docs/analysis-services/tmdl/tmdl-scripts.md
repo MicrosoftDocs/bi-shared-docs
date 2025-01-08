@@ -5,9 +5,9 @@ ms.date: 01/12/2025
 ms.service: analysis-services
 ms.custom: tmdl
 ms.topic: reference
-ms.author: davidiseminger
+ms.author: davidi
 ms.reviewer: rromano
-author: davidi
+author: davidiseminger
 ---
 
 # TMDL scripts
@@ -104,7 +104,7 @@ The following articles describe more about TMDL and its uses.
 
 * [Get started with TMDL](/analysis-services/tmdl/tmdl-how-to)
 * [Tabular Model Definition Language (TMDL)](/analysis-services/tmdl/tmdl-overview)
-* [Power BI Desktop projects (preview)](../developer/projects/projects-overview.md)
-* [Power BI Desktop project semantic model folder](../developer/projects/projects-dataset.md)
+* [Power BI Desktop projects (preview)](/power-bi/developer/projects/projects-overview)
+* [Power BI Desktop project semantic model folder](/power-bi/developer/projects/projects-dataset)
 
 
