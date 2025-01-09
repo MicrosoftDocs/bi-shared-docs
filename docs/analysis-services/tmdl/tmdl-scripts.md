@@ -52,46 +52,30 @@ createOrReplace
     measure '# Products (with Sales)' = DISTINCTCOUNT('Sales'[ProductKey])
         formatString: #,##0
     
-    table Product
+  table Product
 
     measure '# Products' = COUNTROWS('Product')
         formatString: #,##0
 
-        column Product
-            dataType: string
-            isDefaultLabel
-            summarizeBy: none
-            sourceColumn: Product
+    column Product
+        dataType: string
+        isDefaultLabel
+        summarizeBy: none
+        sourceColumn: Product
 
-        column ProductKey
-            dataType: int64
-            isKey
-            summarizeBy: none
-            sourceColumn: ProductKey        
+    column Category
+        dataType: string
+        summarizeBy: none
+        sourceColumn: Category
 
-        column Manufacturer
-            dataType: string
-            summarizeBy: none
-            sourceColumn: Manufacturer      
-
-        column 'Unit Price'
-            dataType: decimal
-            summarizeBy: none
-            sourceColumn: Unit Price
-
-        column Category
-            dataType: string
-            summarizeBy: none
-            sourceColumn: Category
-
-        partition Product-partition = m
-            mode: import
-            source =
-                    let
-                        Source = #"RAW-Product",
-                        #"Renamed Columns" = Table.RenameColumns(Source,{{"Product Name", "Product"}})
-                    in
-                        #"Renamed Columns"
+    partition Product-partition = m
+        mode: import
+        source =
+                let
+                    Source = #"RAW-Product",
+                    #"Renamed Columns" = Table.RenameColumns(Source,{{"Product Name", "Product"}})
+                in
+                    #"Renamed Columns"
 ```
 
 ## Considerations and limitations
