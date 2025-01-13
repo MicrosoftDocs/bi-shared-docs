@@ -1,7 +1,7 @@
 ---
 title: "TMDL scripts"
 description: Learn how to use TMDL scripts.
-ms.date: 01/12/2025
+ms.date: 01/14/2025
 ms.service: analysis-services
 ms.custom: tmdl
 ms.topic: reference
@@ -41,7 +41,7 @@ The semantics of TMDL language are applied to objects within the *createOrReplac
 
 ## Example
 
-Create or replace the measure *# Products (with Sales)* from the table *Sales’*and the full definition of the table *Product*:
+Create or replace the measure *# Products (with Sales)* from the table *Sales*and the full definition of the table *Product*:
 
 
 
@@ -62,10 +62,12 @@ createOrReplace
         isDefaultLabel
         summarizeBy: none
         sourceColumn: Product
+
     column Category
         dataType: string
         summarizeBy: none
         sourceColumn: Category
+
     partition Product-partition = m
         mode: import
         source =
