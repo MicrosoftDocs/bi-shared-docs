@@ -41,7 +41,7 @@ The semantics of TMDL language are applied to objects within the *createOrReplac
 
 ## Example
 
-Create or replace the measure *# Products (with Sales)* from the table *Sales*and the full definition of the table *Product*:
+Create or replace the measure *# Products (with Sales)* from the table *Sales* and the full definition of the table *Product*:
 
 
 
