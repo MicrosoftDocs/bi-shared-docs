@@ -17,7 +17,7 @@ You can use [lineage tags](/dotnet/api/microsoft.analysisservices.tabular.imetad
 Lineage tags must be unique within their scope; for instance, two tables in the same semantic model can't have the same lineage tag. Power BI Desktop typically assigns a GUID for each semantic model object requiring lineage, but such assignment is not mandatory and lineage tags can be changed to any other string format.
 
 > [!IMPORTANT]
-> If semantic model objects don't have a lineage tag, Power BI defaults to using the object name. This can lead to the loss of customizations if the object is renamed.
+> If semantic model objects don't have a lineage tag, Power BI defaults to using the object name, which can lead to the loss of customizations if the object is renamed.
 
 ## Tracking user customizations to semantic models
 
