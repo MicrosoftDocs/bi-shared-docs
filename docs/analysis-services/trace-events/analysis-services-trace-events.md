@@ -181,4 +181,7 @@ author: kfollis
 |42|Existing Session|Existing session.|  
 |43|Session Initialize|Session Initialize.|  
   
-  
+ [ExecutionMetrics event](/power-bi/transform-model/log-analytics/desktop-log-analytics-configure?tabs=refresh#executionmetrics-event)  
+
+For every Discover, Command and Query event, an event named ExecutionMetrics is produced at the end of the request. This event contains execution metrics for the request, which can assist you in diagnosing and troubleshooting more effectively. The ExecutionMetrics trace is correlated with the nearest [Discover|Command|Query]End event.
+
