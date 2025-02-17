@@ -180,5 +180,13 @@ author: kfollis
 |41|Existing Connection|Existing user connection.|  
 |42|Existing Session|Existing session.|  
 |43|Session Initialize|Session Initialize.|  
+
   
+ [Execution Metrics Events Category](executionmetrics-events-category.md)  
   
+ Collection of events related to execution metrics.
+  
+|**Event Id**|**Event Name**|**Event Description**|  
+|------------------|--------------------|---------------------------|  
+|136|Execution Metrics|Contains execution metrics for the nearest [Discover\|Command\|Query]End event.|  
+
