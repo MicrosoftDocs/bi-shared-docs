@@ -16,7 +16,7 @@ author: kfollis
   
 |**Event ID**|**Event Name**|**Event Description**|  
 |------------------|--------------------|---------------------------|  
-|136|Execution Metrics|Contains execution metrics for the nearest [Discover\|Command\|Query]End event.|  
+|136|Execution Metrics|Contains execution metrics for the nearest [Discover\|Command\|Query]End event with the same RequestId.|  
   
  The following table lists the data columns for this event class.  
   
@@ -32,4 +32,4 @@ author: kfollis
 |RequestID|47|8|The request ID used to track a request.|
 |SPID|41|1|Contains the server process ID (SPID) that uniquely identifies the user session associated with the server state discover event. The SPID directly corresponds to the session GUID used by XMLA.|  
 |ServerName|43|8|Contains the name of the instance on which the command event occurred.| 
-|TextData|42|9|Contains the execution metrics for the command in JSON format. For details on possible properties, refer to [this document](/power-bi/transform-model/log-analytics/desktop-log-analytics-configure?tabs=refresh#executionmetrics-event).  |
+|TextData|42|9|Contains the execution metrics for the correlated command in JSON format. For details on possible properties, refer to [this document](/power-bi/transform-model/log-analytics/desktop-log-analytics-configure?tabs=refresh#executionmetrics-event).  |

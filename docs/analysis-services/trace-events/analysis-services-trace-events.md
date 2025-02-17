@@ -188,5 +188,5 @@ author: kfollis
   
 |**Event Id**|**Event Name**|**Event Description**|  
 |------------------|--------------------|---------------------------|  
-|136|Execution Metrics|Contains execution metrics for the nearest [Discover\|Command\|Query]End event.|  
+|136|Execution Metrics|Contains execution metrics for the nearest [Discover\|Command\|Query]End event with the same RequestId.|  
 
