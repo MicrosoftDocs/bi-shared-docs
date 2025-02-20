@@ -10,13 +10,13 @@ ms.reviewer: kfollis
 author: kfollis
 
 ---
-# Session Events Data Columns
-
-  The Session Events event category has the following event class:  
+# Execution Metrics Data Columns
+  
+  The Execution Metrics event category has the following event classes:  
   
 |**Event ID**|**Event Name**|**Event Description**|  
 |------------------|--------------------|---------------------------|  
-|136|Execution Metrics|Contains execution metrics for the nearest [Discover\|Command\|Query]End event with the same RequestId.|  
+|136|Execution Metrics|Contains execution metrics for the corresponding XMLA request (e.g. DiscoverEnd/CommandEnd/QueryEnd) with the same RequestId.|  
   
  The following table lists the data columns for this event class.  
   

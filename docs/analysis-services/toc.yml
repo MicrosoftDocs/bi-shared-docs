@@ -1173,6 +1173,10 @@ items:
           href: trace-events/session-events-event-category.md
         - name: Session Events Data Columns
           href: trace-events/session-events-data-columns.md
+        - name: Execution Metrics Event Category
+          href: trace-events/executionmetrics-events-category.md
+        - name: Execution Metrics Data Columns
+          href: trace-events/executionmetrics-events-data-columns.md
     - name: Extended Events
       href: ../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md
     - name: Dynamic Management Views (DMVs)

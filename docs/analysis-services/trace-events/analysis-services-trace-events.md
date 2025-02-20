@@ -188,5 +188,5 @@ author: kfollis
   
 |**Event Id**|**Event Name**|**Event Description**|  
 |------------------|--------------------|---------------------------|  
-|136|Execution Metrics|Contains execution metrics for the corresponding nearest XMLA request (e.g. DiscoverEnd/CommandEnd/QueryEnd) with the same RequestId.|
+|136|Execution Metrics|Contains execution metrics for the corresponding XMLA request (e.g. DiscoverEnd/CommandEnd/QueryEnd) with the same RequestId.|
 
