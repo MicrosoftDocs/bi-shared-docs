@@ -1,17 +1,18 @@
 ---
-title: Learn how to install On-premises data gateway for Azure Analysis Services | Microsoft Docs
+title: Install On-premises data gateway for Azure Analysis
 description: Learn how to install and configure an On-premises data gateway to connect to on-premises data sources from an Azure Analysis Services server.
 author: kfollis
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 08/25/2023
 ms.author: kfollis
 ms.reviewer: minewiskan 
 ms.custom:
+#customer intent: As an Azure Analysis Services user I want to learn how to confiture an On-premisis data gateway.
 ---
 # Install and configure an on-premises data gateway
 
-An on-premises data gateway is required when one or more Azure Analysis Services servers in the same region connect to on-premises data sources. While the gateway you install is the same as used by other services like Power BI, Power Apps, and Logic Apps, when installing for Azure Analysis Services, there are some additional steps you need to complete. This install article is specific to **Azure Analysis Services**. 
+An on-premises data gateway is required when one or more Azure Analysis Services servers in the same region connect to on-premises data sources. While the gateway you install is the same as used by other services like Power BI, Power Apps, and Logic Apps, when installing for Azure Analysis Services, there are some additional steps you need to complete. This install article is specific to **Azure Analysis Services**.
 
 To learn more about how Azure Analysis Services works with the gateway, see [Connecting to on-premises data sources](analysis-services-gateway.md). To learn more about advanced installation scenarios and the gateway in general, see [On-premises data gateways documentation](/data-integration/gateway/service-gateway-onprem).
 
@@ -28,18 +29,17 @@ To learn more about how Azure Analysis Services works with the gateway, see [Con
 * 8 GB Memory
 * 64-bit version of Windows 8 / Windows Server 2012 R2 (or later)
 
-**Important considerations:**
+> [!IMPORTANT]
 
-* During setup, when registering your gateway with Azure, the default region for your subscription is selected. You can choose a different subscription and region. If you have servers in more than one region, you must install a gateway for each region. 
-* The gateway cannot be installed on a domain controller.
-* Only one gateway can be installed on a single computer.
-* Install the gateway on a computer that remains on and does not go to sleep.
-* Do not install the gateway on a computer with a wireless only connection to your network. Performance can be diminished.
-* When installing the gateway, the user account you're signed in to your computer with must have Log on as service privileges. When install is complete, the On-premises data gateway service uses the NT SERVICE\PBIEgwService account to log on as a service. A different account can be specified during setup or in Services after setup is complete. Ensure Group Policy settings allow both the account you're signed in with when installing and the service account you choose have Log on as service privileges.
-* Sign in to Azure with an account in Microsoft Entra ID for the same [tenant](/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant) as the subscription you are registering the gateway in. Azure B2B (guest) accounts are not supported when installing and registering a gateway.
-* If data sources are on an Azure Virtual Network (VNet), you must configure the [AlwaysUseGateway](analysis-services-vnet-gateway.md) server property.
-* If installing the gateway on an Azure Virtual Machine (VM), ensure optimal networking performance by configuring Accelerated networking. To learn more, see [Create a Windows VM with accelerated networking](../virtual-network/create-vm-accelerated-networking-powershell.md).
-
+>* During setup, when registering your gateway with Azure, the default region for your subscription is selected. You can choose a different subscription and region. If you have servers in more than one region, you must install a gateway for each region. 
+>* The gateway cannot be installed on a domain controller.
+>* Only one gateway can be installed on a single computer.
+>* Install the gateway on a computer that remains on and does not go to sleep.
+>* Do not install the gateway on a computer with a wireless only connection to your network. Performance can be diminished.
+>* When installing the gateway, the user account you're signed in to your computer with must have Log on as service privileges. When install is complete, the On-premises data gateway service uses the NT SERVICE\PBIEgwService account to log on as a service. A different account can be specified during setup or in Services after setup is complete. Ensure Group Policy settings allow both the account you're signed in with when installing and the service account you choose have Log on as service privileges.
+>* Sign in to Azure with an account in Microsoft Entra ID for the same [tenant](/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant) as the subscription you are registering the gateway in. Azure B2B (guest) accounts are not supported when installing and registering a gateway.
+>* If data sources are on an Azure Virtual Network (VNet), you must configure the [AlwaysUseGateway](analysis-services-vnet-gateway.md) server property.
+>* If installing the gateway on an Azure Virtual Machine (VM), ensure optimal networking performance by configuring Accelerated networking. To learn more, see [Create a Windows VM with accelerated networking](../virtual-network/create-vm-accelerated-networking-powershell.md).
 
 ## Download
 
