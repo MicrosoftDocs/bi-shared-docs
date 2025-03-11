@@ -120,7 +120,7 @@ After you've installed and registered your gateway, you need to create a gateway
 
 2. In **Pick an On-Premises Data Gateway to connect**, select your gateway resource, and then click **Connect selected gateway**.
 
-   ![Screenshot showing Connect server to gateway resource](media/analysis-services-gateway-install/aas-gateway-connect-resource.png)
+   ![Screenshot showing Connect server to gateway resource.](media/analysis-services-gateway-install/aas-gateway-connect-resource.png)
 
     > [!NOTE]
     > If your gateway does not appear in the list, your server is likely not in the same region as the region you specified when registering the gateway.

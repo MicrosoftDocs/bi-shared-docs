@@ -19,16 +19,15 @@ This quickstart describes how to create an Analysis Services server resource in 
 * **Azure subscription**: Visit [Azure Free Trial](https://azure.microsoft.com/offers/ms-azr-0044p/) to create an account.
 * **Microsoft Entra ID**: Your subscription must be associated with a Microsoft Entra tenant. And, you need to be signed in to Azure with an account in that Microsoft Entra ID. To learn more, see [Authentication and user permissions](analysis-services-manage-users.md).
 
-## Sign in to the Azure portal 
+## Sign in to the Azure portal
 
-[Sign in to the portal](https://portal.azure.com)
-
+[Sign in to the portal.](https://portal.azure.com)
 
 ## Create a server
 
 1. Click **+ Create a resource** > **Analytics** > **Analysis Services**.
 
-    ![Portal](./media/analysis-services-create-server/aas-create-server-portal.png)
+    ![Screenshot of Portal.](./media/analysis-services-create-server/aas-create-server-portal.png)
 
 2. In **Analysis Services**, fill in the required fields, and then press **Create**.
    
@@ -47,11 +46,10 @@ Creating the server usually takes under a minute. If you selected **Add to Porta
 
 When no longer needed, delete your server. In your server's **Overview**, click **Delete**. 
 
- ![Cleanup](./media/analysis-services-create-server/aas-create-server-cleanup.png)
-
+ ![Screenshot of Cleanup.](./media/analysis-services-create-server/aas-create-server-cleanup.png)
 
 ## Next steps
 In this quickstart, you learned how to create a server in your Azure subscription. Now that you have server, you can help secure it by configuring an (optional) server firewall. You can also add a basic sample data model to your server right from the portal. Having a sample model is helpful when learning about configuring model database roles and testing client connections. To learn more, continue to the tutorial for adding a sample model.
 
 > [!div class="nextstepaction"]
-> [Quickstart: Configure server firewall - Portal](analysis-services-qs-firewall.md)   
+> [Quickstart: Configure server firewall - Portal](analysis-services-qs-firewall.md)

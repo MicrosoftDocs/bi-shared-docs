@@ -58,7 +58,7 @@ A single [Microsoft.AnalysisServices/servers](/azure/templates/microsoft.analysi
 
 3. Select **Purchase**. After the server has been deployed successfully, you get a notification:
 
-   ![ARM template, deploy portal notification](./media/analysis-services-create-template/notification.png)
+   ![Screenshot of ARM template, deploy portal notification.](./media/analysis-services-create-template/notification.png)
 
 ## Validate the deployment
 

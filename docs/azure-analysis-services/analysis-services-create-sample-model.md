@@ -57,11 +57,11 @@ These steps describe how to delete a model from a server by using SSMS.
 
 2. In **Connect to Server**, paste in the server name, then in **Authentication**, choose **Active Directory - Universal with MFA support**, enter your username, and then click **Connect**.
 
-    ![Sign in](./media/analysis-services-create-sample-model/aas-create-sample-cleanup-signin.png)
+    ![Screenshot of Sign in.](./media/analysis-services-create-sample-model/aas-create-sample-cleanup-signin.png)
 
 3. In **Object Explorer**, right-click the `adventureworks` sample database, and then click **Delete**.
 
-    ![Delete sample database](./media/analysis-services-create-sample-model/aas-create-sample-cleanup-delete.png)
+    ![Screenshot of Delete sample database.](./media/analysis-services-create-sample-model/aas-create-sample-cleanup-delete.png)
 
 ## Next steps 
 
