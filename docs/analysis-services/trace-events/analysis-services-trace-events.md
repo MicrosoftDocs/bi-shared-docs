@@ -171,7 +171,7 @@ author: kfollis
 |18|Audit Object Permission Event|Records object permission changes.|  
 |19|Audit Admin Operations Event|Records server backup/restore/synchronize/attach/detach/imageload/imagesave.|  
   
- [Session Events Event Category](session-events-event-category.md)  
+ **[Session Events Event Category](session-events-event-category.md)** 
   
  Collection of session events.  
   
@@ -180,5 +180,13 @@ author: kfollis
 |41|Existing Connection|Existing user connection.|  
 |42|Existing Session|Existing session.|  
 |43|Session Initialize|Session Initialize.|  
+
   
+ **[Execution Metrics Events Category](executionmetrics-events-category.md)**
   
+ Collection of events related to execution metrics.
+  
+|**Event Id**|**Event Name**|**Event Description**|  
+|------------------|--------------------|---------------------------|  
+|136|Execution Metrics|Contains execution metrics for the corresponding XMLA request (e.g. DiscoverEnd/CommandEnd/QueryEnd) with the same RequestId.|
+
