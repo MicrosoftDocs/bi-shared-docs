@@ -32,8 +32,9 @@ When you import data or use a value in a formula, even if the original data sour
 |Text|String|A Unicode character data string. Can be strings, numbers, or dates represented in a text format.|  
 |Date|Date/time|Dates and times in an accepted date-time representation.<br /><br /> Valid dates are all dates after March 1, 1900.|  
 |Currency|Currency|Currency data type allows values between -922,337,203,685,477.5807 to 922,337,203,685,477.5806 with four decimal digits of fixed precision.|  
+|Variant|Variant|Used for expressions, such as DAX measures, that may return different data types. For example, a DAX measure that returns either a whole number or a string will be of type variant.|
 |N/A|Blank|A blank is a data type in DAX that represents and replaces SQL nulls. You can create a blank by using the BLANK function, and test for blanks by using the logical function, ISBLANK.|  
-  
+
  \* If you attempt to import data that has large numeric values, import might fail with the following error:  
   
  In-memory database error: The '\<column name>' column of the '\<table name>' table contains a value, '1.7976931348623157e+308', which is not supported. The operation has been canceled.  
