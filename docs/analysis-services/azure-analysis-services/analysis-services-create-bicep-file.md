@@ -15,7 +15,7 @@ ms.custom: devx-track-bicep
 
 This quickstart describes how to create an Analysis Services server resource in your Azure subscription by using [Bicep](/azure/azure-resource-manager/bicep/overview).
 
-[!INCLUDE [About Bicep](/azure/reusable-content/ce-skilling/azure/includes/resource-manager-quickstart-bicep-introduction.md)]
+[!INCLUDE [About Bicep](/azure/reusable-content/ce-skilling/azure/includes/resource-manager-quickstart-bicep-introduction)]
 
 ## Prerequisites
 
