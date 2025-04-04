@@ -737,6 +737,9 @@ Calculation groups are supported in Visual Studio with Analysis Services Project
 
 3. For each calculation item you want to order, set the **Ordinal** property to a positive number. Each number is sequential, for example, a calculation item with an Ordinal property of 1 appears first, a property of 2 appears second, and so on. Calculation items with the default -1 aren't included in the ordering, but appear before ordered items in a report.
 
+## Considerations
+As soon as a calculation group is added to a semantic model, Power BI reports will use the **variant** data type for all measures. If afterwards, all calculation groups are removed from the model the measures will be returned to their original data types again.
+
 ## Limitations
 
 [Object level security](object-level-security.md) (OLS) defined on calculation group tables isn't supported. However, OLS can be defined on other tables in the same model. If a calculation item refers to an OLS secured object, a generic error is returned.
