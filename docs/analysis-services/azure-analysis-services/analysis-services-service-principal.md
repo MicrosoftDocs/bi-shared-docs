@@ -15,21 +15,21 @@ Service principals are a Microsoft Entra application resource you create within 
 
 In Analysis Services, service principals are used with Azure Automation, PowerShell unattended mode, custom client applications, and web apps to automate common tasks. For example, provisioning servers, deploying models, data refresh, scale up/down, and pause/resume can all be automated by using service principals. Permissions are assigned to service principals through role membership, much like regular Microsoft Entra UPN accounts.
 
-Analysis Services does not support operations performed by managed identities using service principals. To learn more, see [Managed identities for Azure resources](../active-directory/managed-identities-azure-resources/overview.md) and [Azure services that support Microsoft Entra authentication](../active-directory/managed-identities-azure-resources/services-support-managed-identities.md#azure-analysis-services).    
+Analysis Services does not support operations performed by managed identities using service principals. To learn more, see [Managed identities for Azure resources](/azure/active-directory/managed-identities-azure-resources/overview) and [Azure services that support Microsoft Entra authentication](/azure/active-directory/managed-identities-azure-resources/services-support-managed-identities#azure-analysis-services).    
 
 ## Create service principals
  
 Service principals can be created in the Azure portal or by using PowerShell. To learn more, see:
 
-[Create service principal - Azure portal](../active-directory/develop/howto-create-service-principal-portal.md)   
-[Create service principal - PowerShell](../active-directory/develop/howto-authenticate-service-principal-powershell.md)
+[Create service principal - Azure portal](/azure/active-directory/develop/howto-create-service-principal-portal)   
+[Create service principal - PowerShell](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 
 ## Store credential and certificate assets in Azure Automation
 
 Service principal credentials and certificates can be stored securely in Azure Automation for runbook operations. To learn more, see:
 
-[Credential assets in Azure Automation](../automation/shared-resources/credentials.md)   
-[Certificate assets in Azure Automation](../automation/shared-resources/certificates.md)
+[Credential assets in Azure Automation](/azure/automation/shared-resources/credentials)   
+[Certificate assets in Azure Automation](/azure/automation/shared-resources/certificates)
 
 ## Add service principals to server admin role
 
@@ -41,7 +41,7 @@ Service principal appID and password or certificate can be used in connection st
 
 ### PowerShell
 
-[!INCLUDE [updated-for-az](~/reusable-content/ce-skilling/azure/includes/updated-for-az.md)]
+[!INCLUDE [updated-for-az](/azure/reusable-content/ce-skilling/azure/includes/updated-for-az)]
 
 #### <a name="azmodule"></a>Using Az.AnalysisServices module
 
