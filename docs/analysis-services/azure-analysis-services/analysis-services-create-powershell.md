@@ -11,7 +11,7 @@ ms.custom: references_regions, devx-track-azurepowershell, mode-api
 #Customer intent: As a BI developer, I want to create an Azure Analysis Services server by using PowerShell.
 ---
 
-# Quickstart: Create a server - PowerShell
+# Quickstart: Create a server - PowerShell 
 
 This quickstart describes using PowerShell from the command line to create an Azure Analysis Services server in your Azure subscription.
 
