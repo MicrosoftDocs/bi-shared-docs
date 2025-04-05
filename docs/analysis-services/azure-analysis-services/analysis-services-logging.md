@@ -18,7 +18,7 @@ This article describes how to set up, view, and manage [Azure Monitor resource l
 
 ![Resource logging to Storage, Event Hubs, or Azure Monitor logs](./media/analysis-services-logging/aas-logging-overview.png)
 
-[!INCLUDE [updated-for-az](~/reusable-content/ce-skilling/azure/includes/updated-for-az.md)]
+[!INCLUDE [updated-for-az](/azure/reusable-content/ce-skilling/azure/includes/updated-for-az)]
 
 ## What's logged?
 
@@ -44,7 +44,7 @@ To view your diagnostic data, in Log Analytics workspace, open **Logs**  from th
 
 In the query builder, expand **LogManagement** > **AzureDiagnostics**. AzureDiagnostics includes Engine and Service events. Notice a query is created on-the-fly. The EventClass\_s field contains xEvent names, which may look familiar if you've used xEvents for on-premises logging. Click **EventClass\_s** or one of the event names and Log Analytics workspace continues constructing a query. Be sure to save your queries to reuse later.
 
-For more queries you can use with Analysis Services, see [Sample Kusto queries](monitor-analysis-services.md#sample-kusto-queries).
+For more queries you can use with Analysis Services, see [Sample Kusto queries](/azure/monitor-analysis-services#sample-kusto-queries).
 
 ## Turn on logging by using PowerShell
 
