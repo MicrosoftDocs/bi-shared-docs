@@ -26,10 +26,10 @@ For more information about the resource types for Analysis Services, see [Analys
 
 <a name="server-metrics"></a>
 [!INCLUDE [horz-monitor-platform-metrics](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-platform-metrics.md)]
-For a list of available metrics for Analysis Services, see [Analysis Services monitoring data reference](/azure/monitor-analysis-services-reference#metrics).
+For a list of available metrics for Analysis Services, see [Analysis Services monitoring data reference](~/../monitor-analysis-services-reference.md#metrics).
 
-[!INCLUDE [horz-monitor-resource-logs](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-resource-logs)]
-- For the available resource log categories, associated Log Analytics tables, and the logs schemas for Analysis Services, see [Analysis Services monitoring data reference](/azure/monitor-analysis-services-reference#resource-logs).
+[!INCLUDE [horz-monitor-resource-logs](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-resource-logs.md)]
+- For the available resource log categories, associated Log Analytics tables, and the logs schemas for Analysis Services, see [Analysis Services monitoring data reference](~/../monitor-analysis-services-reference.md#resource-logs).
 
 ## Analysis Services resource logs
 
@@ -37,11 +37,11 @@ To learn how to set up diagnostics logging, see [Set up diagnostic logging](anal
 
 When you set up logging for Analysis Services, you can select **Engine** or **Service** events to log, or select **AllMetrics** to log metrics data. For more information, see [Supported resource logs for Microsoft.AnalysisServices/servers](monitor-analysis-services-reference.md#supported-resource-logs-for-microsoftanalysisservicesservers).
 
-[!INCLUDE [horz-monitor-activity-log](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-activity-log)]
+[!INCLUDE [horz-monitor-activity-log](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-activity-log.md)]
 
-[!INCLUDE [horz-monitor-analyze-data](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-analyze-data)]
+[!INCLUDE [horz-monitor-analyze-data](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-analyze-data.md)]
 
-[!INCLUDE [horz-monitor-external-tools](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-external-tools)]
+[!INCLUDE [horz-monitor-external-tools](~/./reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-external-tools.md)]
 
 ### Analyze Analysis Services metrics
 
@@ -64,7 +64,7 @@ To view your diagnostic data, in Log Analytics workspace, open **Logs**  from th
 In the query builder, expand **LogManagement** > **AzureDiagnostics**. AzureDiagnostics includes **Engine** and **Service** events. Notice a query is created on the fly. The **EventClass\_s** field contains xEvent names, which might look familiar if you use xEvents for on-premises logging. Select **EventClass\_s** or one of the event names, and Log Analytics workspace continues constructing a query. Be sure to save your queries to reuse later.
 
 <a name="example-queries"></a>
-[!INCLUDE [horz-monitor-kusto-queries](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-kusto-queries)]
+[!INCLUDE [horz-monitor-kusto-queries](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-kusto-queries.md)]
 
 The following queries are useful for monitoring your Analysis Services server.
 
@@ -114,7 +114,7 @@ window
 | order by TimeGenerated asc 
 ```
 
-[!INCLUDE [horz-monitor-alerts](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-alerts)]
+[!INCLUDE [horz-monitor-alerts](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-alerts.md)]
 
 ### Analysis Services alert rules
 The following table lists some common and popular alert rules for Analysis Services.
@@ -124,7 +124,7 @@ The following table lists some common and popular alert rules for Analysis Servi
 |Metric | Whenever the maximum qpu_metric is greater than dynamic threshold. | If your QPU regularly maxes out, it means the number of queries against your models is exceeding the QPU limit for your plan.|
 |Metric | Whenever the maximum QueryPoolJobQueueLength is greater than dynamic threshold. | The number of queries in the query thread pool queue exceeds available QPU.|
 
-[!INCLUDE [horz-monitor-advisor-recommendations](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-advisor-recommendations)]
+[!INCLUDE [horz-monitor-advisor-recommendations](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-advisor-recommendations.md)]
 
 ## Related content
 
