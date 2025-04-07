@@ -19,13 +19,13 @@ Analysis Services also provides several non-Azure Monitor monitoring mechanisms:
 - Extended Events (xEvents) is a light-weight tracing and performance monitoring system that uses few system resources, making it an ideal tool for diagnosing problems on both production and test servers. For more information, see [Monitor Analysis Services with SQL Server Extended Events](/analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events).
 - Dynamic Management Views (DMVs) use SQL syntax to interface schema rowsets that return metadata and monitoring information about server instances. For more information, see [Use Dynamic Management Views (DMVs) to monitor Analysis Services](/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services).
 
-[!INCLUDE [horz-monitor-resource-types](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-resource-types)]
+[!INCLUDE [horz-monitor-resource-types](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-resource-types.md)]
 For more information about the resource types for Analysis Services, see [Analysis Services monitoring data reference](monitor-analysis-services-reference.md).
 
-[!INCLUDE [horz-monitor-data-storage](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-data-storage)]
+[!INCLUDE [horz-monitor-data-storage](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-data-storage.md)]
 
 <a name="server-metrics"></a>
-[!INCLUDE [horz-monitor-platform-metrics](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-platform-metrics)]
+[!INCLUDE [horz-monitor-platform-metrics](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-platform-metrics.md)]
 For a list of available metrics for Analysis Services, see [Analysis Services monitoring data reference](/azure/monitor-analysis-services-reference#metrics).
 
 [!INCLUDE [horz-monitor-resource-logs](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-resource-logs)]
