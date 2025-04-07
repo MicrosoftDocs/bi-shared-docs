@@ -32,35 +32,35 @@
   "need_preview_pull_request": true,
   "dependent_repositories": [
       {
-      "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "main",
-      "branch_mapping": {}
-  },
-  {
-      "path_to_root": "_themes.pdf",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "main",
-      "branch_mapping": {}
-  },
-  {
-      "path_to_root": "reusable-content",
-      "url": "https://github.com/MicrosoftDocs/reusable-content",
-      "branch": "main",
-      "branch_mapping": {}
-  },
-  {
-      "path_to_root": "terraform_samples",
-      "url": https://github.com/Azure/terraform,
-      "branch": "master",
-      "branch_mapping": {}
-  },
-  {
-      "path_to_root": "azure-dev-docs-pr",
-      "url": "https://github.com/MicrosoftDocs/azure-dev-docs-pr",
-      "branch": "main",
-      "branch_mapping": {}
-}
+        "path_to_root": "_themes",
+        "url": "https://github.com/Microsoft/templates.docs.msft",
+        "branch": "main",
+        "branch_mapping": {}
+      },
+      {
+        "path_to_root": "_themes.pdf",
+        "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+        "branch": "main",
+        "branch_mapping": {}
+      },
+      {
+        "path_to_root": "reusable-content",
+        "url": "https://github.com/MicrosoftDocs/reusable-content",
+        "branch": "main",
+        "branch_mapping": {}
+      },
+      { 
+        "path_to_root": "terraform_samples",
+        "url": https://github.com/Azure/terraform,
+        "branch": "master",
+        "branch_mapping": {}
+      },
+      {
+        "path_to_root": "azure-dev-docs-pr",
+        "url": "https://github.com/MicrosoftDocs/azure-dev-docs-pr",
+        "branch": "main",
+        "branch_mapping": {}
+      }
   ],
   "branch_target_mapping": {
     "live": [
