@@ -51,7 +51,7 @@ In this article, you learn how to:
 
 1. Create a file named `variables.tf` and insert the following code:
 
-    [!code-terraform[master](/azure/terraform/terraform_samples/quickstart/101-analysis-services-create/variables.tf)]
+    [!code-terraform[master](~/../terraform_samples/quickstart/101-analysis-services-create/variables.tf)]
 
 ## Initialize Terraform
 
@@ -90,7 +90,7 @@ In this article, you learn how to:
 
 ## Clean up resources
 
-[!INCLUDE [terraform-plan-destroy.md](~/azure-dev-docs-pr/articles/terraform/includes/terraform-plan-destroy.md)]
+[!INCLUDE [terraform-plan-destroy.md](~/../azure-dev-docs-pr/articles/terraform/includes/terraform-plan-destroy.md)]
 
 ## Troubleshoot Terraform on Azure
 
