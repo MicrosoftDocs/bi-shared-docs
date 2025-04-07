@@ -41,7 +41,7 @@ When you set up logging for Analysis Services, you can select **Engine** or **Se
 
 [!INCLUDE [horz-monitor-analyze-data](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-analyze-data.md)]
 
-[!INCLUDE [horz-monitor-external-tools](~/./reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-external-tools.md)]
+[!INCLUDE [horz-monitor-external-tools](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-external-tools.md)]
 
 ### Analyze Analysis Services metrics
 
@@ -51,7 +51,7 @@ To determine if scale-out for your server is necessary, monitor your server **QP
 
 ![Query scale out metrics](media/analysis-services-scale-out/aas-scale-out-monitor.png)
 
-For a complete listing of metrics collected for Analysis Services, see [Analysis Services monitoring data reference](/azure/monitor-analysis-services-reference#metrics).
+For a complete listing of metrics collected for Analysis Services, see [Analysis Services monitoring data reference](../monitor-analysis-services-reference.md#metrics).
 
 ### Analyze logs in Log Analytics workspace
 
