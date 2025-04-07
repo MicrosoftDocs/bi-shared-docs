@@ -39,31 +39,31 @@ In this article, you learn how to:
 
 1. Create a file named `main.tf` and insert the following code:
 
-    [!code-terraform[master](../terraform_samples/quickstart/101-analysis-services-create/main.tf)]
+    [!code-terraform[master](~/terraform_samples/quickstart/101-analysis-services-create/main.tf)]
 
 1. Create a file named `outputs.tf` and insert the following code:
 
-    [!code-terraform[master](../terraform_samples/quickstart/101-analysis-services-create/outputs.tf)]
+    [!code-terraform[master](~/terraform_samples/quickstart/101-analysis-services-create/outputs.tf)]
 
 1. Create a file named `providers.tf` and insert the following code:
 
-    [!code-terraform[master](../terraform_samples/quickstart/101-analysis-services-create/providers.tf)]
+    [!code-terraform[master](~/terraform_samples/quickstart/101-analysis-services-create/providers.tf)]
 
 1. Create a file named `variables.tf` and insert the following code:
 
-    [!code-terraform[master](../terraform_samples/quickstart/101-analysis-services-create/variables.tf)]
+    [!code-terraform[master](~/terraform_samples/quickstart/101-analysis-services-create/variables.tf)]
 
 ## Initialize Terraform
 
-[!INCLUDE [terraform-init.md](~/../azure-dev-docs-pr/articles/terraform/includes/terraform-init)]
+[!INCLUDE [terraform-init.md](~/azure-dev-docs-pr/articles/terraform/includes/terraform-init.md)]
 
 ## Create a Terraform execution plan
 
-[!INCLUDE [terraform-plan.md](~/../azure-dev-docs-pr/articles/terraform/includes/terraform-plan.md)]
+[!INCLUDE [terraform-plan.md](~/azure-dev-docs-pr/articles/terraform/includes/terraform-plan.md)]
 
 ## Apply a Terraform execution plan
 
-[!INCLUDE [terraform-apply-plan.md](~/../azure-dev-docs-pr/articles/terraform/includes/terraform-apply-plan.md)]
+[!INCLUDE [terraform-apply-plan.md](~/azure-dev-docs-pr/articles/terraform/includes/terraform-apply-plan.md)]
 
 ## Verify the results
 
@@ -90,7 +90,7 @@ In this article, you learn how to:
 
 ## Clean up resources
 
-[!INCLUDE [terraform-plan-destroy.md](~/../azure-dev-docs-pr/articles/terraform/includes/terraform-plan-destroy)]
+[!INCLUDE [terraform-plan-destroy.md](~/azure-dev-docs-pr/articles/terraform/includes/terraform-plan-destroy.md)]
 
 ## Troubleshoot Terraform on Azure
 
