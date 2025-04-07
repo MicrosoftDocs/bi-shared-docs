@@ -19,11 +19,11 @@ See [Monitor Azure Analysis Services](monitor-analysis-services.md) for details 
 
 ### Supported metrics for Microsoft.AnalysisServices/servers
 The following table lists the metrics available for the Microsoft.AnalysisServices/servers resource type.
-[!INCLUDE [horz-monitor-ref-metrics-tableheader](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals.md/horz-monitor-ref-metrics-tableheader)]
-[!INCLUDE [Microsoft.AnalysisServices/servers](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/reference/metrics.md/microsoft-analysisservices-servers-metrics-include)]
+[!INCLUDE [horz-monitor-ref-metrics-tableheader](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-ref-metrics-tableheader.md)]
+[!INCLUDE [Microsoft.AnalysisServices/servers](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/reference/metrics/microsoft-analysisservices-servers-metrics-include.md)]
 
-[!INCLUDE [horz-monitor-ref-metrics-dimensions-intro](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals.md/horz-monitor-ref-metrics-dimensions-intro)]
-[!INCLUDE [horz-monitor-ref-metrics-dimensions](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals.md/horz-monitor-ref-metrics-dimensions)]
+[!INCLUDE [horz-monitor-ref-metrics-dimensions-intro](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-ref-metrics-dimensions-intro.md)]
+[!INCLUDE [horz-monitor-ref-metrics-dimensions](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-ref-metrics-dimensions.md)]
 Analysis Services metrics have the dimension `ServerResourceType`.
 
 [!INCLUDE [horz-monitor-ref-resource-logs](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-ref-resource-logs.md)]
@@ -81,7 +81,7 @@ microsoft.analysisservices/servers
 - [AzureMetrics](/azure/azure-monitor/reference/tables/AzureMetrics#columns)
 - [AzureDiagnostics](/azure/azure-monitor/reference/tables/AzureDiagnostics#columns)
 
-When you set up logging, selecting **AllMetrics** logs the [server metrics](#metrics) to the [AzureMetrics](~/../azure-monitor/reference/tables/AzureMetrics.md) table. If you're using query [scale-out](analysis-services-scale-out.md) and need to separate metrics for each read replica, use the [AzureDiagnostics](/azure/azure-monitor/reference/tables/AzureDiagnostics) table instead, where **OperationName** is equal to **LogMetric**.
+When you set up logging, selecting **AllMetrics** logs the [server metrics](#metrics) to the [AzureMetrics](/azure/azure-monitor/reference/tables/AzureMetrics) table. If you're using query [scale-out](analysis-services-scale-out.md) and need to separate metrics for each read replica, use the [AzureDiagnostics](/azure/azure-monitor/reference/tables/AzureDiagnostics) table instead, where **OperationName** is equal to **LogMetric**.
 
 [!INCLUDE [horz-monitor-ref-activity-log](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-ref-activity-log.md)]
 - [Microsoft.AnalysisServices resource provider operations](/azure/role-based-access-control/resource-provider-operations#microsoftanalysisservices)
