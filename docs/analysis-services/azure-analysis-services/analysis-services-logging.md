@@ -46,7 +46,7 @@ In the query builder, expand **LogManagement** > **AzureDiagnostics**. AzureDiag
 
 For more queries you can use with Analysis Services, see [Sample Kusto queries](~/../monitor-analysis-services#sample-kusto-queries.md).
 
-## Turn on logging by using PowerShell
+## Turn on logging by using PowerShell 
 
 In this quick tutorial, you create a storage account in the same subscription and resource group as your Analysis Service server. You then use Set-AzDiagnosticSetting to turn on diagnostics logging, sending output to the new storage account.
 

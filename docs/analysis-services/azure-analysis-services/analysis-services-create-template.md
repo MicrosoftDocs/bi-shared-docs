@@ -15,7 +15,7 @@ ms.custom: subject-armqs, references_regions, mode-arm, devx-track-arm-template
 
 This quickstart describes how to create an Analysis Services server resource in your Azure subscription by using an Azure Resource Manager template (ARM template).
 
-[!INCLUDE [About Azure Resource Manager](/azure/reusable-content/ce-skilling/azure/includes/resource-manager-quickstart-introduction)]
+[!INCLUDE [About Azure Resource Manager](~/../reusable-content/ce-skilling/azure/includes/resource-manager-quickstart-introduction.md)]
 
 If your environment meets the prerequisites and you're familiar with using ARM templates, select the **Deploy to Azure** button. The template will open in the Azure portal.
 
@@ -30,7 +30,7 @@ If your environment meets the prerequisites and you're familiar with using ARM t
 
 The template used in this quickstart is from [Azure templates](https://azure.microsoft.com/resources/templates/analysis-services-create/).
 
-:::code language="json" source="/azure/quickstart-templates/quickstarts/microsoft.analysisservices/analysis-services-create/azuredeploy.json":::
+:::code language="json" source="/../quickstart-templates/quickstarts/microsoft.analysisservices/analysis-services-create/azuredeploy.json":::
 
 A single [Microsoft.AnalysisServices/servers](/azure/templates/microsoft.analysisservices/servers) resource with a firewall rule is defined in the template.
 

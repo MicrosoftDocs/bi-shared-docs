@@ -11,7 +11,7 @@ ms.service: analysis-services
 
 # Monitor Azure Analysis Services
 
-[!INCLUDE [horz-monitor-intro](/azure/reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-intro)]
+[!INCLUDE [horz-monitor-intro](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-intro.md)]
 
 Analysis Services also provides several non-Azure Monitor monitoring mechanisms:
 
