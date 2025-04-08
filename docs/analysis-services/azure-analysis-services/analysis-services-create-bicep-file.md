@@ -26,7 +26,7 @@ This quickstart describes how to create an Analysis Services server resource in 
 
 The Bicep file used in this quickstart is from [Azure quickstart templates](https://azure.microsoft.com/resources/templates/analysis-services-create/).
 
-:::code language="bicep" source="/../quickstart-templates/quickstarts/microsoft.analysisservices/analysis-services-create/main.bicep":::
+:::code language="bicep" source="~/../quickstart-templates/quickstarts/microsoft.analysisservices/analysis-services-create/main.bicep":::
 
 A single [Microsoft.AnalysisServices/servers](/azure/templates/microsoft.analysisservices/servers) resource with a firewall rule is defined in the Bicep file.
 
