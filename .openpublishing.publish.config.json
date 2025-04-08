@@ -66,14 +66,8 @@
         "url": "https://github.com/Azure/azure-functions-templates",
         "branch": "dev",
         "branch_mapping": {}
-      },
-      {
-        "path_to_root": "functions-quickstart-templates",
-        "url": "https://github.com/Azure/azure-functions-templates",
-        "branch": "dev",
-        "branch_mapping": {}
       }
-  ],
+        ],
   "branch_target_mapping": {
     "live": [
       "Publish",
