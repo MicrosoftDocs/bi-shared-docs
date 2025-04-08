@@ -26,10 +26,10 @@ For more information about the resource types for Analysis Services, see [Analys
 
 <a name="server-metrics"></a>
 [!INCLUDE [horz-monitor-platform-metrics](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-platform-metrics.md)]
-For a list of available metrics for Analysis Services, see [Analysis Services monitoring data reference](/monitor-analysis-services-reference.md#metrics).
+For a list of available metrics for Analysis Services, see [Analysis Services monitoring data reference](monitor-analysis-services-reference.md#metrics).
 
 [!INCLUDE [horz-monitor-resource-logs](~/../reusable-content/ce-skilling/azure/includes/azure-monitor/horizontals/horz-monitor-resource-logs.md)]
-- For the available resource log categories, associated Log Analytics tables, and the logs schemas for Analysis Services, see [Analysis Services monitoring data reference](/monitor-analysis-services-reference.md#resource-logs).
+- For the available resource log categories, associated Log Analytics tables, and the logs schemas for Analysis Services, see [Analysis Services monitoring data reference](monitor-analysis-services-reference.md#resource-logs).
 
 ## Analysis Services resource logs
 
@@ -51,7 +51,7 @@ To determine if scale-out for your server is necessary, monitor your server **QP
 
 ![Query scale out metrics](media/analysis-services-scale-out/aas-scale-out-monitor.png)
 
-For a complete listing of metrics collected for Analysis Services, see [Analysis Services monitoring data reference](/monitor-analysis-services-reference.md#metrics).
+For a complete listing of metrics collected for Analysis Services, see [Analysis Services monitoring data reference](monitor-analysis-services-reference.md#metrics).
 
 ### Analyze logs in Log Analytics workspace
 
