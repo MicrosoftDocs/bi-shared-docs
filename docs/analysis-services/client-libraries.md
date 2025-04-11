@@ -77,9 +77,9 @@ AdomdClient and AMO Packages of version 19.94.1.1 replace version 19.94.0.0. Ple
 
 With version 19.94.1.1:
 - The TMDL serialization options classes in the AMO package include a set of extension methods to simplify their usage. For more details, see the API reference documentation.
--	Error information in certain semantic model authoring scenarios includes additional details for compatibility violations and cross reference issues:
-    -	Compatibility violations: The CompatibilityViolationException class offers detailed information in the message text to assist with troubleshooting. Additional properties, such as SupportedCompatibilityLevel and CompatibilityLevelRequest also expose more detailed information.
-    -	Cross reference errors: The TmdlDeserializationWithReferenceErrorsException and JsonDeserializationWithReferenceErrorsException classes provide detailed error messages that list unresolved properties and offer additional details about cross-reference errors. These new exception classes can help to handle TMDL and TMSL deserialization issues.
+- Error information in certain semantic model authoring scenarios includes additional details for compatibility violations and cross reference issues:
+    - Compatibility violations: The CompatibilityViolationException class offers detailed information in the message text to assist with troubleshooting. Additional properties, such as SupportedCompatibilityLevel and CompatibilityLevelRequest also expose more detailed information.
+    - Cross reference errors: The TmdlDeserializationWithReferenceErrorsException and JsonDeserializationWithReferenceErrorsException classes provide detailed error messages that list unresolved properties and offer additional details about cross-reference errors. These new exception classes can help to handle TMDL and TMSL deserialization issues.
 
 Starting with version 19.84.6, the support for .NET FX 4.5 and .NET Core 3.0 in the managed assemblies are no longer available. AS client-side assemblies are now released with support for .NET FX 4.7.2, as well as .NET 6.0 and .NET 8.0 only.
 
