@@ -75,7 +75,7 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 
 AdomdClient and AMO Packages of version 19.94.0.0 were released with a minor bug, and are replaced by version 19.94.1.1; if you are currently using version 19.94.0.0, please upgrade to a later version.
 
-Beginning with version 19.94.1.1, the TMDL serialization options classes that are included in the AMO package, has a set of extension methods that simplify the usage of those classes, for more details please check the API reference documentation.
+Beginning with version 19.94.1.1, the TMDL serialization options classes that are included in the AMO package, have a set of extension methods that simplify the usage of those classes, for more details please check the API reference documentation.
 
 Beginning with version 19.94.1.1, there is an improvement in the error information that is raised in certain tabular authoring scenarios, like compatibility-violations and cross-reference errors.
 In the case of the compatibility-violation errors, the **CompatibilityViolationException** that is raised has more detailed messages and the properties related to the identifying the error, like SupportedCompatibilityLevel,  CompatibilityLevelRequest, etc., are exposing the detailed information in more cases.
