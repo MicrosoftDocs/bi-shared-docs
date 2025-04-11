@@ -24,6 +24,8 @@ items:
       items:
       - name: What is Azure Analysis Services?
         href: /docs/azure-analysis-services/analysis-services-overview.md
+      - name: What is Azure Analysis Services Dot Dot?
+        href: ../analysis-services/azure-analysis-services/analysis-services-overview.md
     - name: Quickstarts
       items:
       - name: Create a server - Portal
