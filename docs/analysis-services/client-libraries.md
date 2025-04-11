@@ -73,6 +73,14 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 
 #### AMO and ADOMD
 
+AdomdClient and AMO Packages of version 19.94.0.0 were released with a minor bug, and are replaced by version 19.94.1.1; if you are currently using version 19.94.0.0, please upgrade to a later version.
+
+Beginning with version 19.94.1.1, the TMDL serialization options classes that are included in the AMO package, has a set of extension methods that simplify the usage of those classes, for more details please check the API reference documentation.
+
+Beginning with version 19.94.1.1, there is an improvement in the error information that is raised in certain tabular authoring scenarios, like compatibility-violations and cross-reference errors.
+In the case of the compatibility-violation errors, the **CompatibilityViolationException** that is raised has more detailed messages and the properties related to the identifying the error, like SupportedCompatibilityLevel,  CompatibilityLevelRequest, etc., are exposing the detailed information in more cases.
+In the case of deserialization of TMDL or TMSL that is resulted in an error in cross-reference resolution, a new designated exception is raised, **TmdlDeserializationWithReferenceErrorsException** and **JsonDeserializationWithReferenceErrorsException** respectively, that include a detailed error message that specify the properties that were failed to be resolved, as well as a property with more details about the resolution errors.
+
 Starting with version 19.84.6, the support for .NET FX 4.5 and .NET Core 3.0 in the managed assemblies are no longer available. AS client-side assemblies are now released with support for .NET FX 4.7.2, as well as .NET 6.0 and .NET 8.0 only.
 
 Beginning with version 19.82.0.0, AMO and ADOMD support Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](/power-bi/developer/embedded/embed-multi-tenancy). Users can't connect to workspaces associated with a Premium Per-User license using Service Principal Profiles through the XMLA endpoint.
