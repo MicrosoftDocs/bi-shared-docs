@@ -73,6 +73,14 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 
 #### AMO and ADOMD
 
+AdomdClient and AMO Packages of version 19.94.1.1 replace version 19.94.0.0. Please upgrade to the latest version.
+
+With version 19.94.1.1:
+- The TMDL serialization options classes in the AMO package include a set of extension methods to simplify their usage. For more details, see the API reference documentation.
+- Error information in certain semantic model authoring scenarios includes additional details for compatibility violations and cross reference issues:
+    - Compatibility violations: The CompatibilityViolationException class offers detailed information in the message text to assist with troubleshooting. Additional properties, such as SupportedCompatibilityLevel and CompatibilityLevelRequest also expose more detailed information.
+    - Cross reference errors: The TmdlDeserializationWithReferenceErrorsException and JsonDeserializationWithReferenceErrorsException classes provide detailed error messages that list unresolved properties and offer additional details about cross-reference errors. These new exception classes can help to handle TMDL and TMSL deserialization issues.
+
 Starting with version 19.84.6, the support for .NET FX 4.5 and .NET Core 3.0 in the managed assemblies are no longer available. AS client-side assemblies are now released with support for .NET FX 4.7.2, as well as .NET 6.0 and .NET 8.0 only.
 
 Beginning with version 19.82.0.0, AMO and ADOMD support Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](/power-bi/developer/embedded/embed-multi-tenancy). Users can't connect to workspaces associated with a Premium Per-User license using Service Principal Profiles through the XMLA endpoint.
