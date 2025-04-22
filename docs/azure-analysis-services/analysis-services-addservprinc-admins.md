@@ -21,8 +21,8 @@ ms.custom: fasttrack-edit
 ## Before you begin
 Before completing this task, you must have a service principal registered in Microsoft Entra ID.
 
-[Create service principal - Azure portal](/azure/active-directory/develop/howto-create-service-principal-portal)   
-[Create service principal - PowerShell](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+[Create service principal - Azure portal](../active-directory/develop/howto-create-service-principal-portal.md)   
+[Create service principal - PowerShell](../active-directory/develop/howto-authenticate-service-principal-powershell.md)
 
 ## Using SQL Server Management Studio
 
@@ -40,7 +40,7 @@ You can configure server administrators using SQL Server Management Studio (SSMS
 
 ## Using a Resource Manager template
 
-You can also configure server administrators by deploying the Analysis Services server using an Azure Resource Manager template. The identity running the deployment must belong to the **Contributor** role for the resource in [Azure role-based access control (Azure RBAC)](/azure/role-based-access-control/overview).
+You can also configure server administrators by deploying the Analysis Services server using an Azure Resource Manager template. The identity running the deployment must belong to the **Contributor** role for the resource in [Azure role-based access control (Azure RBAC)](../role-based-access-control/overview.md).
 
 > [!IMPORTANT]
 > The service principal must be added using the format `app:{service-principal-client-id}@{azure-ad-tenant-id}`.

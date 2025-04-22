@@ -16,7 +16,7 @@ The example in this article uses the [SqlServer PowerShell module](/powershell/m
 
 ## Authentication
 
-All calls must be authenticated with a valid Microsoft Entra ID (OAuth 2) token.  The example in this article uses a Service Principal (SPN) to authenticate to Azure Analysis Services. To learn more, see [Create a service principal by using Azure portal](/azure/active-directory/develop/howto-create-service-principal-portal).
+All calls must be authenticated with a valid Microsoft Entra ID (OAuth 2) token.  The example in this article uses a Service Principal (SPN) to authenticate to Azure Analysis Services. To learn more, see [Create a service principal by using Azure portal](../active-directory/develop/howto-create-service-principal-portal.md).
 
 ## Prerequisites
 
@@ -39,7 +39,7 @@ All calls must be authenticated with a valid Microsoft Entra ID (OAuth 2) token.
  
 ### Create a Service Principal (SPN)
 
-To learn about creating a Service Principal, see [Create a service principal by using Azure portal](/azure/active-directory/develop/howto-create-service-principal-portal).
+To learn about creating a Service Principal, see [Create a service principal by using Azure portal](../active-directory/develop/howto-create-service-principal-portal.md).
 
 ### Configure permissions in Azure Analysis Services
  
@@ -167,7 +167,7 @@ An Azure Virtual Machine with a static public IP address can be used as an Azure
 > [!IMPORTANT]
 > Ensure the Virtual Machine public IP address is configured as static.
 >
->To learn more about configuring Azure Automation Hybrid Workers, see [Hybrid Runbook Worker installation](/azure/automation/automation-hybrid-runbook-worker#hybrid-runbook-worker-installation).
+>To learn more about configuring Azure Automation Hybrid Workers, see [Hybrid Runbook Worker installation](../automation/automation-hybrid-runbook-worker.md#hybrid-runbook-worker-installation).
 
 Once a Hybrid Worker is configured, create a Webhook as described in the section [Consume with Data Factory](#consume-with-data-factory).  The only difference here is to select the **Run on** > **Hybrid Worker** option when configuring the Webhook.
 

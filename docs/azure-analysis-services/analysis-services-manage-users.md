@@ -11,9 +11,9 @@ ms.reviewer: minewiskan
 ---
 # Authentication and user permissions
 
-Azure Analysis Services uses Microsoft Entra ID for identity management and user authentication. Any user creating, managing, or connecting to an Azure Analysis Services server must have a valid user identity in an [Microsoft Entra tenant](/azure/active-directory/fundamentals/active-directory-whatis) in the same subscription.
+Azure Analysis Services uses Microsoft Entra ID for identity management and user authentication. Any user creating, managing, or connecting to an Azure Analysis Services server must have a valid user identity in an [Microsoft Entra tenant](../active-directory/fundamentals/active-directory-whatis.md) in the same subscription.
 
-Azure Analysis Services supports [Microsoft Entra B2B collaboration](/azure/active-directory/external-identities/what-is-b2b). With B2B, users from outside an organization can be invited as guest users in a Microsoft Entra directory. Guests can be from another Microsoft Entra tenant directory or any valid email address. Once invited and the user accepts the invitation sent by email from Azure, the user identity is added to the tenant directory. Those identities can be added to security groups or as members of a server administrator or database role.
+Azure Analysis Services supports [Microsoft Entra B2B collaboration](../active-directory/external-identities/what-is-b2b.md). With B2B, users from outside an organization can be invited as guest users in a Microsoft Entra directory. Guests can be from another Microsoft Entra tenant directory or any valid email address. Once invited and the user accepts the invitation sent by email from Azure, the user identity is added to the tenant directory. Those identities can be added to security groups or as members of a server administrator or database role.
 
 ![Azure Analysis Services authentication architecture](./media/analysis-services-manage-users/aas-manage-users-arch.png)
 
@@ -63,7 +63,7 @@ Excel users can connect to a server by using a Windows account, an organization 
 
 ![Access control in Azure portal](./media/analysis-services-manage-users/aas-manage-users-rbac.png)
 
-Roles at this level apply to users or accounts that need to perform tasks that can be completed in the portal or by using Azure Resource Manager templates. To learn more, see [Azure role-based access control (Azure RBAC)](/azure/role-based-access-control/overview). 
+Roles at this level apply to users or accounts that need to perform tasks that can be completed in the portal or by using Azure Resource Manager templates. To learn more, see [Azure role-based access control (Azure RBAC)](../role-based-access-control/overview.md). 
 
 ## Database roles
 
@@ -77,7 +77,7 @@ Roles at this level apply to users or accounts that need to perform tasks that c
   
 ## Next steps
 
-[Manage access to resources with Microsoft Entra groups](/azure/active-directory/fundamentals/active-directory-manage-groups)   
+[Manage access to resources with Microsoft Entra groups](../active-directory/fundamentals/active-directory-manage-groups.md)   
 [Manage database roles and users](analysis-services-database-users.md)  
 [Manage server administrators](analysis-services-server-admins.md)  
-[Azure role-based access control (Azure RBAC)](/azure/role-based-access-control/overview)
+[Azure role-based access control (Azure RBAC)](../role-based-access-control/overview.md)

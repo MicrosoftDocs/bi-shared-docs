@@ -17,18 +17,18 @@ To learn more about using REST APIs with Azure Analysis Services, see [Asynchron
 
 ## Authentication
 
-All calls must be authenticated with a valid Microsoft Entra ID (OAuth 2) token.  The examples in this article will use a Service Principal (SPN) to authenticate to Azure Analysis Services. To learn more, see [Create a service principal by using Azure portal](/azure/active-directory/develop/howto-create-service-principal-portal).
+All calls must be authenticated with a valid Microsoft Entra ID (OAuth 2) token.  The examples in this article will use a Service Principal (SPN) to authenticate to Azure Analysis Services. To learn more, see [Create a service principal by using Azure portal](../active-directory/develop/howto-create-service-principal-portal.md).
 
 ## Design the logic app
 
 > [!IMPORTANT]
-> The following examples assume that the Azure Analysis Services firewall is disabled. If the firewall is enabled, the public IP address of the request initiator must be added to the approved list in the Azure Analysis Services firewall. To learn more about Azure Logic Apps IP ranges per region, see [Limits and configuration information for Azure Logic Apps](/azure/logic-apps/logic-apps-limits-and-config#configuration).
+> The following examples assume that the Azure Analysis Services firewall is disabled. If the firewall is enabled, the public IP address of the request initiator must be added to the approved list in the Azure Analysis Services firewall. To learn more about Azure Logic Apps IP ranges per region, see [Limits and configuration information for Azure Logic Apps](../logic-apps/logic-apps-limits-and-config.md#configuration).
 
 ### Prerequisites
 
 #### Create a Service Principal (SPN)
 
-To learn about creating a Service Principal, see [Create a service principal by using Azure portal](/azure/active-directory/develop/howto-create-service-principal-portal).
+To learn about creating a Service Principal, see [Create a service principal by using Azure portal](../active-directory/develop/howto-create-service-principal-portal.md).
 
 #### Configure permissions in Azure Analysis Services
  
