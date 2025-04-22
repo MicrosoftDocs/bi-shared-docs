@@ -13,7 +13,7 @@ ms.custom: references_regions
 
 # Analysis Services database backup and restore
 
-Backing up tabular model databases in Azure Analysis Services is much the same as for on-premises Analysis Services. The primary difference is where you store your backup files. Backup files must be saved to a container in an [Azure storage account](../storage/common/storage-account-create.md). You can use a storage account and container you already have, or they can be created when configuring storage settings for your server.
+Backing up tabular model databases in Azure Analysis Services is much the same as for on-premises Analysis Services. The primary difference is where you store your backup files. Backup files must be saved to a container in an [Azure storage account](/azure/storage/common/storage-account-create). You can use a storage account and container you already have, or they can be created when configuring storage settings for your server.
 
 > [!NOTE]
 > Creating a storage account can result in a new billable service. To learn more, see [Azure Storage Pricing](https://azure.microsoft.com/pricing/details/storage/blobs/).
@@ -74,7 +74,7 @@ Before backing up, you need to configure storage settings for your server.
 Use [Backup-ASDatabase](/powershell/module/sqlserver/backup-asdatabase) cmdlet.
 
 ## Restore
-When restoring, your backup file must be in the storage account you've configured for your server. If you need to move a backup file from an on-premises location to your storage account, use [Microsoft Azure Storage Explorer](../vs-azure-tools-storage-manage-with-storage-explorer.md) or the [AzCopy](../storage/common/storage-use-azcopy-v10.md) command-line utility. 
+When restoring, your backup file must be in the storage account you've configured for your server. If you need to move a backup file from an on-premises location to your storage account, use [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) or the [AzCopy](/azure/storage/common/storage-use-azcopy-v10) command-line utility. 
 
 
 
@@ -103,6 +103,6 @@ Use [Restore-ASDatabase](/powershell/module/sqlserver/restore-asdatabase) cmdlet
 
 ## Related information
 
-[Azure storage accounts](../storage/common/storage-account-create.md)  
+[Azure storage accounts](/azure/storage/common/storage-account-create)  
 [High availability](analysis-services-bcdr.md)      
 [Analysis Services network connectivity FAQ](analysis-services-network-faq.yml)
