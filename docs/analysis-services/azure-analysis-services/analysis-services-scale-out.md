@@ -71,7 +71,7 @@ For maximum performance for both processing and query operations, you can choose
 
 ## Monitor QPU usage
 
-To determine if scale-out for your server is necessary, [monitor your server metrics](monitor-analysis-services.md#platform-metrics) in the Azure portal. If your QPU regularly maxes out, it means the number of queries against your models is exceeding the QPU limit for your plan. The Query pool job queue length metric also increases when the number of queries in the query thread pool queue exceeds available QPU. 
+To determine if scale-out for your server is necessary, [monitor your server metrics](/azure/analysis-services/monitor-analysis-services#sample-kusto-queries) in the Azure portal. If your QPU regularly maxes out, it means the number of queries against your models is exceeding the QPU limit for your plan. The Query pool job queue length metric also increases when the number of queries in the query thread pool queue exceeds available QPU. 
 
 Another good metric to watch is average QPU by ServerResourceType. This metric compares average QPU for the primary server with the query pool.
 
@@ -86,7 +86,7 @@ Another good metric to watch is average QPU by ServerResourceType. This metric c
 
 ### Detailed diagnostic logging
 
-Use Azure Monitor Logs for more detailed diagnostics of scaled out server resources. With logs, you can use Log Analytics queries to break out QPU and memory by server and replica. For more information, see [Analyze logs in Log Analytics workspace](monitor-analysis-services.md#analyze-logs-in-log-analytics-workspace). For example queries, see [Sample Kusto queries](monitor-analysis-services.md#sample-kusto-queries).
+Use Azure Monitor Logs for more detailed diagnostics of scaled out server resources. With logs, you can use Log Analytics queries to break out QPU and memory by server and replica. For more information, see [Analyze logs in Log Analytics workspace](/azure/analysis-services/monitor-analysis-services#analyze-logs-in-log-analytics-workspace). For example queries, see [Sample Kusto queries](/azure/analysis-services/monitor-analysis-services#sample-kusto-queries).
 
 ## Configure scale-out
 
@@ -140,7 +140,7 @@ Return status codes:
 
 ### PowerShell
 
-[!INCLUDE [updated-for-az](~/reusable-content/ce-skilling/azure/includes/updated-for-az.md)]
+[!INCLUDE [updated-for-az](~/../reusable-content/ce-skilling/azure/includes/updated-for-az.md)]
 
 Before using PowerShell, [install or update the latest Azure PowerShell module](/powershell/azure/install-azure-powershell). 
 
