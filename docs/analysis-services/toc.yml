@@ -18,7 +18,7 @@ items:
     - name: Power Pivot for Sharepoint
       href: power-pivot-for-sharepoint-ssas.md
   - name: Azure Analysis Services
-    href: /docs/azure-analysis-services/index.yml
+    href: ./azure-analysis-services/index.yml
     items:
     - name: Overview
       items:
