@@ -23,9 +23,9 @@ Azure Analysis Services is a fully managed platform as a service (PaaS) that pro
 
 ## Get up and running quickly
 
-In Azure portal, you can [create a server](analysis-services-create-server.md) within minutes. And with Azure Resource Manager [templates](/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal) and PowerShell, you can create servers using a declarative template. With a single template, you can deploy server resources along with other Azure components such as storage accounts and Azure Functions. 
+In Azure portal, you can [create a server](analysis-services-create-server.md) within minutes. And with Azure Resource Manager [templates](../azure-resource-manager/templates/quickstart-create-templates-use-the-portal.md) and PowerShell, you can create servers using a declarative template. With a single template, you can deploy server resources along with other Azure components such as storage accounts and Azure Functions. 
 
-Azure Analysis Services integrates with many Azure services enabling you to build sophisticated analytics solutions. Integration with [Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-whatis) provides secure, role-based access to your critical data. Integrate with [Azure Data Factory](/azure/data-factory/introduction) pipelines by including an activity that loads data into the model. [Azure Automation](/azure/automation/automation-intro) and [Azure Functions](/azure/azure-functions/functions-overview) can be used for lightweight orchestration of models using custom code. 
+Azure Analysis Services integrates with many Azure services enabling you to build sophisticated analytics solutions. Integration with [Microsoft Entra ID](../active-directory/fundamentals/active-directory-whatis.md) provides secure, role-based access to your critical data. Integrate with [Azure Data Factory](../data-factory/introduction.md) pipelines by including an activity that loads data into the model. [Azure Automation](../automation/automation-intro.md) and [Azure Functions](../azure-functions/functions-overview.md) can be used for lightweight orchestration of models using custom code. 
 
 ## The right tier when you need it
 
@@ -158,7 +158,7 @@ Compatibility level refers to release-specific behaviors in the Analysis Service
 
 ## Your data is secure
 
-Azure Analysis Services provides security for your sensitive data at multiple levels. As an Azure service, Analysis Services provides the **Basic** level protection of Distributed denial of service (DDoS) attacks automatically enabled as part of the Azure platform. To learn more, see [Azure DDoS Protection overview](/azure/ddos-protection/ddos-protection-overview). 
+Azure Analysis Services provides security for your sensitive data at multiple levels. As an Azure service, Analysis Services provides the **Basic** level protection of Distributed denial of service (DDoS) attacks automatically enabled as part of the Azure platform. To learn more, see [Azure DDoS Protection overview](../ddos-protection/ddos-protection-overview.md). 
 
 At the server level, Analysis Services provides firewall, Azure authentication, server administrator roles, and Server-Side Encryption. At the data model level, user roles, row-level, and object-level security ensure your data is safe and gets seen by only those users who are meant to see it.
 
@@ -168,11 +168,11 @@ Azure Analysis Services Firewall blocks all client connections other than those 
 
 ### Authentication
 
-User authentication is handled by [Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-whatis). When logging in, users use an organization account identity with role-based access to the database. User identities must be members of the default Microsoft Entra ID for the subscription that the server is in. To learn more, see [Authentication and user permissions](analysis-services-manage-users.md).
+User authentication is handled by [Microsoft Entra ID](../active-directory/fundamentals/active-directory-whatis.md). When logging in, users use an organization account identity with role-based access to the database. User identities must be members of the default Microsoft Entra ID for the subscription that the server is in. To learn more, see [Authentication and user permissions](analysis-services-manage-users.md).
 
 ### Data security
 
-Azure Analysis Services uses Azure Blob storage to persist storage and metadata for Analysis Services databases. Data files within Blob are encrypted using [Azure Blob Server Side Encryption (SSE)](/azure/storage/common/storage-service-encryption). When you use Direct Query mode, only metadata is stored. The actual data is accessed through encrypted protocol from the data source at query time.
+Azure Analysis Services uses Azure Blob storage to persist storage and metadata for Analysis Services databases. Data files within Blob are encrypted using [Azure Blob Server Side Encryption (SSE)](../storage/common/storage-service-encryption.md). When you use Direct Query mode, only metadata is stored. The actual data is accessed through encrypted protocol from the data source at query time.
 
 Secure access to data sources on-premises in your organization is achieved by installing and configuring an [On-premises data gateway](analysis-services-gateway.md). Gateways provide access to data for both DirectQuery and in-memory modes.
 

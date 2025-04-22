@@ -11,7 +11,7 @@ ms.reviewer: minewiskan
 ---
 # Use gateway for data sources on an Azure Virtual Network (VNet)
 
-This article describes the Azure Analysis Services **AlwaysUseGateway** server property for use when data sources are on an [Azure Virtual Network (VNet)](/azure/virtual-network/virtual-networks-overview).
+This article describes the Azure Analysis Services **AlwaysUseGateway** server property for use when data sources are on an [Azure Virtual Network (VNet)](../virtual-network/virtual-networks-overview.md).
 
 ## Server access to VNet data sources
 
@@ -33,5 +33,5 @@ Azure SQL Managed Instance data sources run within Azure VNet with a private IP 
 ## See also
 [Connecting to on-premises data sources](analysis-services-gateway.md)   
 [Install and configure an on-premises data gateway](analysis-services-gateway-install.md)   
-[Azure Virtual Network (VNET)](/azure/virtual-network/virtual-networks-overview)   
+[Azure Virtual Network (VNET)](../virtual-network/virtual-networks-overview.md)   
 

@@ -11,13 +11,13 @@ ms.custom: references_regions, devx-track-azurepowershell, mode-api
 #Customer intent: As a BI developer, I want to create an Azure Analysis Services server by using PowerShell.
 ---
 
-# Quickstart: Create a server - PowerShell 
+# Quickstart: Create a server - PowerShell
 
 This quickstart describes using PowerShell from the command line to create an Azure Analysis Services server in your Azure subscription.
 
 ## Prerequisites
 
-[!INCLUDE [updated-for-az](~/../reusable-content/ce-skilling/azure/includes/updated-for-az.md)]
+[!INCLUDE [updated-for-az](~/reusable-content/ce-skilling/azure/includes/updated-for-az.md)]
 
 - **Azure subscription**: Visit [Azure Free Trial](https://azure.microsoft.com/offers/ms-azr-0044p/) to create an account.
 - **Microsoft Entra ID**: Your subscription must be associated with a Microsoft Entra tenant and you must have an account in that directory. To learn more, see [Authentication and user permissions](analysis-services-manage-users.md).
@@ -41,7 +41,7 @@ Connect-AzAccount
 
 ## Create a resource group
 
-An [Azure resource group](/azure/azure-resource-manager/management/overview) is a logical container where Azure resources are deployed and managed as a group. When you create your server, you must specify a resource group in your subscription. If you do not already have a resource group, you can create a new one by using the [New-AzResourceGroup](/powershell/module/az.resources/new-azresourcegroup) command. The following example creates a resource group named `myResourceGroup` in the West US region.
+An [Azure resource group](../azure-resource-manager/management/overview.md) is a logical container where Azure resources are deployed and managed as a group. When you create your server, you must specify a resource group in your subscription. If you do not already have a resource group, you can create a new one by using the [New-AzResourceGroup](/powershell/module/az.resources/new-azresourcegroup) command. The following example creates a resource group named `myResourceGroup` in the West US region.
 
 ```powershell
 New-AzResourceGroup -Name "myResourceGroup" -Location "WestUS"

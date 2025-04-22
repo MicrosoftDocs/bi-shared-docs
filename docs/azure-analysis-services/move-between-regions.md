@@ -19,9 +19,9 @@ In this and associated linked articles, you learn how to:
 
 > [!div class="checklist"]
 > 
-> * Backup a source server model database to [Blob storage](/azure/storage/blobs/storage-blobs-introduction).
-> * Export a source server [resource template](/azure/azure-resource-manager/templates/overview).
-> * Get a storage [shared access signature (SAS)](/azure/storage/common/storage-sas-overview).
+> * Backup a source server model database to [Blob storage](../storage/blobs/storage-blobs-introduction.md).
+> * Export a source server [resource template](../azure-resource-manager/templates/overview.md).
+> * Get a storage [shared access signature (SAS)](../storage/common/storage-sas-overview.md).
 > * Modify the resource template.
 > * Deploy the template to create a new target server.
 > * Restore a model database to the new target server.
@@ -131,7 +131,7 @@ To get a shared access signature by using the portal:
 
 # [PowerShell](#tab/azure-powershell)
 
-To get a shared access signature by using PowerShell, follow the steps in [Create a user delegation SAS for a container or blob with PowerShell](/azure/storage/blobs/storage-blob-user-delegation-sas-create-powershell#create-a-user-delegation-sas-for-a-blob).
+To get a shared access signature by using PowerShell, follow the steps in [Create a user delegation SAS for a container or blob with PowerShell](../storage/blobs/storage-blob-user-delegation-sas-create-powershell.md#create-a-user-delegation-sas-for-a-blob).
 
 ---
 
