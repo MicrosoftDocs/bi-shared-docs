@@ -248,9 +248,11 @@ The following animation shows the dynamic format currency conversion of the **Sa
 
 Selection expressions are optional properties defined for a calculation group. There are two types of selection expressions:
 -	[**multipleOrEmptySelectionExpression**](#multiple-or-empty-selection). This selection expression is applied when:
-  - multiple calculation items have been selected,
-  - a non-existing calculation item has been selected, or
-  - a conflicting selection has been made.
+
+  * multiple calculation items have been selected,
+  * a non-existing calculation item has been selected, or
+  * a conflicting selection has been made.
+
 - [**noSelectionExpression**](#no-selection). This selection expression is applied when the calculation group is not filtered.
 
 Both of these selection expressions also have a formatStringDefinition [dynamic format string](#dynamic-format-strings) expression. 
