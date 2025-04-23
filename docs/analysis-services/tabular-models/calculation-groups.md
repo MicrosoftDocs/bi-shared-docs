@@ -296,7 +296,7 @@ Use TMDL to set the property on your model:
 createOrReplace
     model Model
         ...
-        selectionExpressionBehavior: nonvisual
+        selectionExpressionBehavior: <automatic|nonvisual|visual>
 ...
 ```
 
