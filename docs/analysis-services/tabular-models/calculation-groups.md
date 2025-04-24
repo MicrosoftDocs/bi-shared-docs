@@ -260,7 +260,7 @@ In summary, on a calculation group the following can be defined, for example usi
 ```tmdl
 ...
 table Scenarios
-		calculationGroup
+	calculationGroup
 		...
     multipleOrEmptySelectionExpression = <expression>
         formatStringDefinition = <format string>
@@ -287,7 +287,7 @@ table Scenarios
 
 Models have a **selectionExpressionBehavior** setting that enables further control over how calculation groups in that model behave. This setting accepts the following three values:
 
-- **Automatic**. This is the default value and is the same as **nonvisual**. This ensures that your existing models do not change behavior. At some point in the future, new models set to automatic will use **visual** instead. There will be an announcement at that time.
+- **Automatic**. This is the default value and is the same as **nonvisual**. This ensures that your existing models do not change behavior. Models above a future compatibility level set to automatic will use **visual** instead. There will be an announcement at that time.
 - **Nonvisual**. If the calculation group does not define a [multipleOrEmptySelection](#multiple-or-empty-selection) expression the calculation group returns `SELECTEDMEASURE()` and when grouping by the calculation group, subtotal values are hidden.
 - **Visual**. If the calculation group does not define a [multipleOrEmptySelection](#multiple-or-empty-selection)  expression the calculation group returns `BLANK()`. When grouping by the calculation group, subtotal values are determined by evaluating the selected measure in the context of the calculation group.
 
