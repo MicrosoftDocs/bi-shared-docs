@@ -12,11 +12,11 @@ author: kfollis
 ---
 # MDX Member Properties - Intrinsic Member Properties
 [!INCLUDE[appliesto-sqlas](../../includes/appliesto-sqlas.md)]
-  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] exposes intrinsic properties on dimension members that you can include in a query to return additional data or metadata for use in a custom application, or to assist in model investigation or construction. If you are using the SQL Server client tools, you can view intrinsic properties in SQL Server Management Studio (SSMS).  
+  [!INCLUDE[ssASnoversion](../../includes/ssasnoversion-md.md)] exposes intrinsic properties on dimension members that you can include in a query to return additional data or metadata for use in a custom application, or to assist in model investigation or construction. If you're using the SQL Server client tools, you can view intrinsic properties in SQL Server Management Studio (SSMS).  
   
  Intrinsic properties include **ID**, **KEY**, **KEYx**, and **NAME**, which are properties exposed by every member, at any level. You can also return positional information, such as **LEVEL_NUMBER** or **PARENT_UNIQUE_NAME**, among others.  
   
- Depending on how you construct the query, and on the client application you are using to execute queries, member properties may or may not be visible in the result set. If you are using SQL Server Management Studio to test or run queries, you can double-click a member in the result set to open the Member Properties dialog box, showing the values for each intrinsic member property.  
+ Depending on how you construct the query, and on the client application you're using to execute queries, member properties may or may not be visible in the result set. If you're using SQL Server Management Studio to test or run queries, you can double-click a member in the result set to open the Member Properties dialog box, showing the values for each intrinsic member property.  
   
  For an introduction to using and viewing dimension member properties, see [Viewing SSAS Member Properties within an MDX Query Window in SSMS](https://go.microsoft.com/fwlink/?LinkId=317362).  
   
@@ -34,9 +34,9 @@ author: kfollis
  Notice how the following example includes the path for the **KEY** property: `MEMBER [Measures].[Parent Member Key] AS [Product].[Product Categories].CurrentMember.Parent.PROPERTIES("KEY")`.  
   
  Non-context sensitive member properties  
- These member properties cannot be used in the context of a specific dimension or level, and return values for all members on an axis.  
+ These member properties can't be used in the context of a specific dimension or level, and return values for all members on an axis.  
   
- Context-insensitive properties standalone and do not include path information. Notice how there is no dimension or level specified for **PARENT_UNIQUE_NAME** in the following example: `DIMENSION PROPERTIES PARENT_UNIQUE_NAME ON COLUMNS`  
+ Context-insensitive properties standalone and don't include path information. Notice how there's no dimension or level specified for **PARENT_UNIQUE_NAME** in the following example: `DIMENSION PROPERTIES PARENT_UNIQUE_NAME ON COLUMNS`  
   
  Regardless of whether the intrinsic member property is context sensitive or not, the following usage rules apply:  
   
@@ -55,7 +55,7 @@ author: kfollis
 |--------------|-----------------|  
 |**ID**|The internally maintained ID for the member.|  
 |**Key**|The value of the member key in the original data type. MEMBER_KEY is for backward-compatibility.  MEMBER_KEY has the same value as KEY0 for non-composite keys, and MEMBER_KEY property is null for composite keys.|  
-|**KEYx**|The key for the member, where x is the zero-based ordinal of the key. KEY0 is available for composite and non-composite keys, but primarily used for composite keys.<br /><br /> For composite keys, KEY0, KEY1, KEY2, and so on, collectively form the composite key. You can use each one independently in a query to return that portion of the composite key. For example, specifying KEY0 returns the first part of the composite key, specifying KEY1 returns the next part of the composite key, and so on.<br /><br /> If the key is non-composite, then KEY0 is equivalent to **Key**.<br /><br /> Note that **KEYx** can be used in context as well as without context. For this reason, it appears in both lists.<br /><br /> For an example of how to use this member property, see [A Simple MDX Tidbit: Key0, Key1, Key2](https://go.microsoft.com/fwlink/?LinkId=317364).|  
+|**KEYx**|The key for the member, where x is the zero-based ordinal of the key. KEY0 is available for composite and non-composite keys, but primarily used for composite keys.<br /><br /> For composite keys, KEY0, KEY1, KEY2, and so on, collectively form the composite key. You can use each one independently in a query to return that portion of the composite key. For example, specifying KEY0 returns the first part of the composite key, specifying KEY1 returns the next part of the composite key, and so on.<br /><br /> If the key is non-composite, then KEY0 is equivalent to **Key**.<br /><br /> Note that **KEYx** can be used in context as well as without context. For this reason, it appears in both lists.|  
 |**Name**|The name of the member.|  
   
 ### PROPERTIES Syntax for Context Sensitive Properties  
@@ -84,22 +84,22 @@ author: kfollis
 |Property|Description|  
 |--------------|-----------------|  
 |**CATALOG_NAME**|The name of the cube to which this member belongs.|  
-|**CHILDREN_CARDINALITY**|The number of children that the member has. This can be an estimate, so you should not rely on this to be the exact count. Providers should return the best estimate possible.|  
+|**CHILDREN_CARDINALITY**|The number of children that the member has. This can be an estimate, so you should't rely on this to be the exact count. Providers should return the best estimate possible.|  
 |**CUSTOM_ROLLUP**|The custom member expression.|  
 |**CUSTOM_ROLLUP_PROPERTIES**|The custom member properties.|  
 |**DESCRIPTION**|A human-readable description of the member.|  
 |**DIMENSION_UNIQUE_NAME**|The unique name of the dimension to which this member belongs. For providers that generate unique names by qualification, each component of this name is delimited.|  
-|**HIERARCHY_UNIQUE_NAME**|The unique name of the hierarchy. If the member belongs to more than one hierarchy, there is one row for each hierarchy to which the member belongs. For providers that generate unique names by qualification, each component of this name is delimited.|  
+|**HIERARCHY_UNIQUE_NAME**|The unique name of the hierarchy. If the member belongs to more than one hierarchy, there's one row for each hierarchy to which the member belongs. For providers that generate unique names by qualification, each component of this name is delimited.|  
 |**IS_DATAMEMBER**|A Boolean that indicates whether the member is a data member.|  
 |**IS_PLACEHOLDERMEMBER**|A Boolean that indicates whether the member is a placeholder.|  
-|**KEYx**|The key for the member, where x is the zero-based ordinal of the key. KEY0 is available for composite and non-composite keys.<br /><br /> If the key is non-composite, then KEY0 is equivalent to **Key**.<br /><br /> For composite keys, KEY0, KEY1, KEY2, and so on, collectively form the composite key. You can reference each one independently in a query to return that portion of the composite key. For example, specifying KEY0 returns the first part of the composite key, specifying KEY1 returns the next part of the composite key, and so on.<br /><br /> Note that **KEYx** can be used in context as well as without context. For this reason, it appears in both lists.<br /><br /> For an example of how to use this member property, see [A Simple MDX Tidbit: Key0, Key1, Key2](https://go.microsoft.com/fwlink/?LinkId=317364).|  
+|**KEYx**|The key for the member, where x is the zero-based ordinal of the key. KEY0 is available for composite and non-composite keys.<br /><br /> If the key is non-composite, then KEY0 is equivalent to **Key**.<br /><br /> For composite keys, KEY0, KEY1, KEY2, and so on, collectively form the composite key. You can reference each one independently in a query to return that portion of the composite key. For example, specifying KEY0 returns the first part of the composite key, specifying KEY1 returns the next part of the composite key, and so on.<br /><br /> Note that **KEYx** can be used in context as well as without context. For this reason, it appears in both lists.|  
 |**LCID** *x*|The translation of the member caption in the locale ID hexadecimal value, where *x* is the locale ID decimal value (for example, LCID1009 as English-Canada). This is only available if the translation has the caption column bound to the data source.|  
 |**LEVEL_NUMBER**|The distance of the member from the root of the hierarchy. The root level is zero.|  
 |**LEVEL_UNIQUE_NAME**|The unique name of the level to which the member belongs. For providers that generate unique names by qualification, each component of this name is delimited.|  
-|**MEMBER_CAPTION**|A label or caption associated with the member. The caption is primarily for display purposes. If a caption does not exist, the query returns **MEMBER_NAME**.|  
+|**MEMBER_CAPTION**|A label or caption associated with the member. The caption is primarily for display purposes. If a caption doesn't exist, the query returns **MEMBER_NAME**.|  
 |**MEMBER_KEY**|The value of the member key in the original data type. MEMBER_KEY is for backward-compatibility.  MEMBER_KEY has the same value as KEY0 for non-composite keys, and MEMBER_KEY property is null for composite keys.|  
 |**MEMBER_NAME**|The name of the member.|  
-|**MEMBER_TYPE**|The type of the member. This property can have one of the following values:<br /><br /> **MDMEMBER_TYPE_REGULAR**<br /><br /> **MDMEMBER_TYPE_ALL**<br /><br /> **MDMEMBER_TYPE_FORMULA**<br /><br /> **MDMEMBER_TYPE_MEASURE**<br /><br /> **MDMEMBER_TYPE_UNKNOWN**<br /><br /> <br /><br /> Note: MDMEMBER_TYPE_FORMULA takes precedence over MDMEMBER_TYPE_MEASURE. Therefore, if there is a formula (calculated) member on the Measures dimension, the **MEMBER_TYPE** property for the calculated member is MDMEMBER_TYPE_FORMULA.|  
+|**MEMBER_TYPE**|The type of the member. This property can have one of the following values:<br /><br /> **MDMEMBER_TYPE_REGULAR**<br /><br /> **MDMEMBER_TYPE_ALL**<br /><br /> **MDMEMBER_TYPE_FORMULA**<br /><br /> **MDMEMBER_TYPE_MEASURE**<br /><br /> **MDMEMBER_TYPE_UNKNOWN**<br /><br /> <br /><br /> Note: MDMEMBER_TYPE_FORMULA takes precedence over MDMEMBER_TYPE_MEASURE. Therefore, if there's a formula (calculated) member on the Measures dimension, the **MEMBER_TYPE** property for the calculated member is MDMEMBER_TYPE_FORMULA.|  
 |**MEMBER_UNIQUE_NAME**|The unique name of the member. For providers that generate unique names by qualification, each component of this name is delimited.|  
 |**MEMBER_VALUE**|The value of the member in the original type.|  
 |**PARENT_COUNT**|The number of parents that this member has.|  
@@ -114,13 +114,13 @@ author: kfollis
   
  `DIMENSION PROPERTIES Property`  
   
- Notice that this syntax does not allow the property to be qualified by a dimension or level. The property cannot be qualified because an intrinsic member property that is not context sensitive applies to all members of an axis.  
+ Notice that this syntax doesn't allow the property to be qualified by a dimension or level. The property cannot be qualified because an intrinsic member property that is not context sensitive applies to all members of an axis.  
   
  For example, an MDX statement that specifies the **DESCRIPTION** intrinsic member property would have the following syntax:  
   
  `DIMENSION PROPERTIES DESCRIPTION`  
   
- This statement returns the description of each member in the axis dimension. If you tried to qualify the property with a dimension or level, as in *Dimension*`.DESCRIPTION` or *Level*`.DESCRIPTION`, the statement would not validate.  
+ This statement returns the description of each member in the axis dimension. If you tried to qualify the property with a dimension or level, as in *Dimension*`.DESCRIPTION` or *Level*`.DESCRIPTION`, the statement wouldn't validate.  
   
 ### Example  
  The following examples show MDX queries that return intrinsic properties.  
