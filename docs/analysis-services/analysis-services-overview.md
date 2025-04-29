@@ -1,7 +1,7 @@
 ---
 title: "What is Analysis Services?"
 description: Describes the three platforms for Analysis Services.
-ms.date: 12/19/2023
+ms.date: 04/29/2025
 ms.service: analysis-services
 ms.topic: overview
 ms.author: kfollis
@@ -24,7 +24,3 @@ The Analysis Service engine also provides programmability, client application, a
 **Azure Analysis Services** - Created as an Azure resource, Azure Analysis Services server resources support tabular models at the 1200 and higher compatibility levels. DirectQuery, partitions, row-level security, bi-directional relationships, and translations are all supported. To learn more, see [What is Azure Analysis Services](/azure/analysis-services/analysis-services-overview).
 
 **SQL Server Analysis Services** - Installed as an on-premises or VM server instance, SQL Server Analysis Services supports tabular models at all compatibility levels (depending on version), multidimensional models, and Power Pivot for SharePoint. To learn more, see [SQL Server Analysis Services overview](ssas-overview.md).
-
-## Documentation
-
-Analysis Services documentation is located in different areas of Microsoft Learn, depending on the platform or version you're using. To learn more, see [Understanding Analysis Services documentation](analysis-services-docs.md).
