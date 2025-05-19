@@ -141,7 +141,7 @@ DIVIDE(
 )
 ```
 
-To test this calculation group, execute a DAX query in SSMS or the open-source [DAX Studio](https://daxstudio.org/). Note: YOY and YOY% are omitted from this query example.
+To test this calculation group, execute the following DAX query. Note: MTD, YOY and YOY% are omitted from this query example.
 
 #### Time Intelligence query
 
@@ -236,7 +236,7 @@ SELECTEDVALUE(
 ```
 
 > [!NOTE]
-> [Selection expressions](#selection-expressions-preview) for calculation groups are currently in preview and can be used to implement automatic currency conversion on calculation groups, removing the need to have two seperate calculation items.
+> [Selection expressions](#selection-expressions) for calculation groups can be used to implement automatic currency conversion on calculation groups, removing the need to have two seperate calculation items.
 
 The format string expression must return a scalar string. It uses the new [SELECTEDMEASUREFORMATSTRING](/dax/selectedmeasureformatstring-function-dax) function to revert to the base measure format string if there are multiple currencies in filter context.
 
@@ -244,30 +244,30 @@ The following animation shows the dynamic format currency conversion of the **Sa
 
 ![Currency conversion dynamic format string applied](media/calculation-groups/calc-groups-dynamic-format-string.gif)
 
-## Selection expressions (preview)
+## Selection expressions
 
 Selection expressions are optional properties defined for a calculation group. There are two types of selection expressions:
--	**multipleOrEmptySelectionExpression**. This selection expression is applied when multiple calculation items have been selected, a non-existing calculation item has been selected or when a conflicting selection has been made.
-- **noSelectionExpression**. This selection expression is applied when the calculation group is not filtered.
+-	[**multipleOrEmptySelectionExpression**](#multiple-or-empty-selection). This selection expression is applied when:
+      - multiple calculation items have been selected,
+      - a non-existing calculation item has been selected, or
+      - a conflicting selection has been made.
+- [**noSelectionExpression**](#no-selection). This selection expression is applied when the calculation group is not filtered.
 
 Both of these selection expressions also have a formatStringDefinition [dynamic format string](#dynamic-format-strings) expression. 
 
-In summary, on a calculation group the following can be defined:
-```json
-...
-"calculationGroup": {
-  "multipleOrEmptySelectionExpression": {
-    "expression": "",
-    "formatStringDefinition": {...}
-  },
-  "noSelectionExpression": {
-    "expression": "",
-    "formatStringDefinition": {...}
-  }
-...
-}
-```
+In summary, on a calculation group the following can be defined, for example using TMDL:
 
+```tmdl
+...
+table Scenarios
+	calculationGroup
+		...
+    multipleOrEmptySelectionExpression = <expression>
+        formatStringDefinition = <format string>
+    noSelectionExpression= <expression>
+        formatStringDefinition = <format string>
+...
+```
  > [!NOTE]  
  > These expressions, if specified, are only applied for the specific situations mentioned. Selections for a single calculation item are not impacted by these expressions.
 
@@ -280,12 +280,38 @@ In summary, on a calculation group the following can be defined:
  |Empty selection|Calculation group is not filtered|Return result of evaluating multipleOrEmptySelectionExpression|
  |No selection|Calculation group is not filtered|Return result of evaluating noSelectionExpression|
  
- ### Multiple or Empty selection
+> [!NOTE]
+> Use [the model's selectionExpressionBehavior](#selectionexpressionbehavior-model-setting) setting to further influence what a calculation group returns when selection expressions are not defined.
 
- If multiple selections on the same calculation group are made, the calculation group will evaluate and return the result of the multipleOrEmptySelectionExpression if defined. If this expression has not been defined the calculation group will return the following result:
+### SelectionExpressionBehavior model setting
+
+Models have a **selectionExpressionBehavior** setting that enables further control over how calculation groups in that model behave. This setting accepts the following three values:
+
+- **Automatic**. This is the default value and is the same as **nonvisual**. This ensures that your existing models do not change behavior. Models above a future compatibility level set to automatic will use **visual** instead. There will be an announcement at that time.
+- **Nonvisual**. If the calculation group does not define a [multipleOrEmptySelection](#multiple-or-empty-selection) expression the calculation group returns `SELECTEDMEASURE()` and when grouping by the calculation group, subtotal values are hidden.
+- **Visual**. If the calculation group does not define a [multipleOrEmptySelection](#multiple-or-empty-selection)  expression the calculation group returns `BLANK()`. When grouping by the calculation group, subtotal values are determined by evaluating the selected measure in the context of the calculation group.
+
+Use TMDL to set the property on your model:
+```tmdl
+createOrReplace
+    model Model
+        ...
+        selectionExpressionBehavior: <automatic|nonvisual|visual>
+...
+```
+
+### Multiple or Empty selection
+
+ If multiple selections on the same calculation group are made, the calculation group will evaluate and return the result of the multipleOrEmptySelectionExpression if defined. If this expression has not been defined the calculation group will return the following result if the model's [**selectionExpressionBehavior** setting](#selectionexpressionbehavior-model-setting) is set to automatic or nonvisual:
 
 ```dax
 SELECTEDMEASURE()
+```
+
+If the model's [selectionExpressionBehavior setting](#selectionexpressionbehavior-model-setting) is set to **visual**, then the calculation group will return:
+
+```dax
+BLANK()
 ```
 
 As an example, let's look at a calculation group called MyCalcGroup that has a multipleOrEmptySelectionExpression configured as follows:
