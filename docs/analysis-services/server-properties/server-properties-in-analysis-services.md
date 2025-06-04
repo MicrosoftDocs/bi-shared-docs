@@ -1,7 +1,7 @@
 ---
 title: "Server Properties in Analysis Services | Microsoft Docs"
 description: Learn how to modify default server configuration properties of an Azure Analysis Services (Azure AS), SQL Server Analysis Services (SSAS), or Power BI workspace instance.
-ms.date: 11/03/2022
+ms.date: 06/03/2025
 ms.service: analysis-services
 ms.custom: 
 ms.topic: conceptual
@@ -52,6 +52,10 @@ Capacity admins can enable or disable the ability for workspace admins to modify
 
 When disabled, workspace admins can't modify *any* XMLA-based property setting.
 
+### Limitation
+
+1. After some capacity operations (such as workspace capacity migration, scaling up/down sku), the XMLA-based workspace properties may drop. Workspace admins need to modify it again to make it effective.
+
 ## Configure by using SQL Server Management Studio
   
 1. In [!INCLUDE[ssManStudioFull](../includes/ssmanstudiofull-md.md)], connect to an SSAS, Azure AS, or Power BI instance.  
@@ -62,7 +66,7 @@ When disabled, workspace admins can't modify *any* XMLA-based property setting.
 
 ## Configure by using XMLA script
 
-Those properties that can't be set in the Properties page in SSMS or in the msmdrsrv.ini file (SSAS only) can be set by using the [XMLA Alter Element](../xmla/xml-elements-commands/alter-element-xmla.md) in an XMLA script in SSMS.
+Those properties that can't be set in the Properties page in SSMS (such as AdminTimeOut and MaxIntermediateRowsetSize) or in the msmdrsrv.ini file (SSAS only) can be set by using the [XMLA Alter Element](../xmla/xml-elements-commands/alter-element-xmla.md) in an XMLA script in SSMS.
 
 ::: moniker range="asallproducts-allversions || >= sql-analysis-services-2016"
 
