@@ -15,7 +15,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 This article summarizes new features, improvements, deprecated and discontinued features, and behavior and breaking changes in the most recent versions of SQL Server Analysis Services (SSAS).
 
-::: moniker range="asallproducts-allversions || __sql-analysis-services-2025__"  
+::: moniker range="asallproducts-allversions || sql-analysis-services-2025"  
 
 ## SQL Server 2025 Analysis Services
 
@@ -71,7 +71,7 @@ SSAS 2025 includes support for multiple new DAX functions and improvements inclu
 
 __Client Library Updates__
 
-Customers are encouraged to upgrade to the latest Analysis Services libraries to benefit from performance, reliability and functionality improvements such as binary XML support, TMDL serialization, and more. Specifically, we have switched XMLA-based communication from plain text XML to binary XML and enabled compression for the .NET client libraries.  For more details, visit [improving the communication performance of xmla based tools](https://powerbi.microsoft.com/blog/improving-the-communication-performance-of-xmla-based-tools/) blog. You can also always find the latest client libraries versions on the [Analysis Services client libraries download page](/analysis-services/client-libraries?view=asallproducts-allversions).
+Customers are encouraged to upgrade to the latest Analysis Services libraries to benefit from performance, reliability and functionality improvements such as binary XML support, TMDL serialization, and more. Specifically, we have switched XMLA-based communication from plain text XML to binary XML and enabled compression for the .NET client libraries.  For more details, visit [improving the communication performance of xmla based tools](https://powerbi.microsoft.com/blog/improving-the-communication-performance-of-xmla-based-tools/) blog. You can also always find the latest client libraries versions on the [Analysis Services client libraries download page](/analysis-services/client-libraries).
 
 __Unicode Character Handling Enhancements__
 
