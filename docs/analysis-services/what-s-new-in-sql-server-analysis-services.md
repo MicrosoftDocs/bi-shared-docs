@@ -23,7 +23,7 @@ This article summarizes new features, improvements, deprecated and discontinued 
 
 #### Models with calculation groups and format strings in Excel
 
-We have made significant performance improvements for MDX queries on models with Calculation Groups and Format Strings to reduce memory usage and improve responsiveness! The latest changes will greatly improve the performance and reliability of operations in Analyze in Excel on models that include one or both of:
+We made significant performance improvements for MDX queries on models with Calculation Groups and Format Strings to reduce memory usage and improve responsiveness! The latest changes greatly improve the performance and reliability of operations in Analyze in Excel on models that include one or both of:
 
 - Dynamic Format Strings for Measures
 
@@ -43,11 +43,11 @@ SSAS 2025 incorporates the latest version of Horizontal Fusion, a query performa
 
 #### Visual calculations         
 
-The way you write DAX changes today with the introduction of visual calculations! Visual calculations are DAX calculations that are defined and executed directly on a visual. A visual calculation can refer to any data in the visual, including columns, measures, or other visual calculations. This approach removes the complexity of the semantic model and simplifies the process of writing DAX. You can use visual calculations to complete common business calculations such as running sums or moving averages. Visual calculations make it easy to do calculations that were previously very hard or even almost impossible to do. To learn more about how to enable and use visual calculations, visit [Visual calculations overview](/power-bi/transform-model/desktop-visual-calculations-overview).
+The way you write DAX changes today with the introduction of visual calculations! Visual calculations are DAX calculations that are defined and executed directly on a visual. A visual calculation can refer to any data in the visual, including columns, measures, or other visual calculations. This approach removes the complexity of the semantic model and simplifies the process of writing DAX. You can use visual calculations to complete common business calculations such as running sums or moving averages. Visual calculations make it easy to do calculations that were previously hard to do. To learn more about how to enable and use visual calculations, visit [Visual calculations overview](/power-bi/transform-model/desktop-visual-calculations-overview).
 
 #### Value filter behavior
 
-We are introducing a new option to control value filter behavior. By enabling the "Independent Value Filters" setting, users can prevent the automatic combining of multiple filters on the same table into a single coalesced filter. This change offers greater flexibility, allowing for more precise and independent filtering to meet specific modeling needs, thereby enhancing the accuracy and control of data queries. To set this property for SSAS, you can use the Tabular Object Model or [TMSL](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) based on the [ValueFilterBehavior](/dotnet/api/microsoft.analysisservices.tabular.model.valuefilterbehavior) property. For more details, visit: [Value filter behavior](/power-bi/transform-model/value-filter-behavior).
+We are introducing a new option to control value filter behavior. By enabling the "Independent Value Filters" setting, users can prevent the automatic combining of multiple filters on the same table into a single coalesced filter. This change offers greater flexibility, allowing for more precise and independent filtering to meet specific modeling needs and enhancing the accuracy and control of data queries. To set this property for SSAS, you can use the Tabular Object Model or [TMSL](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) based on the [ValueFilterBehavior](/dotnet/api/microsoft.analysisservices.tabular.model.valuefilterbehavior) property. For more details, visit: [Value filter behavior](/power-bi/transform-model/value-filter-behavior).
 
 #### Selection expressions for calculation groups
 
@@ -57,15 +57,15 @@ Selection expressions allow fine-tuned control over how calculations behave when
 
 SSAS 2025 includes support for multiple new DAX functions and improvements including:
 
-- __LINEST and LINESTX__: These two functions perform linear regression, leveraging the Least Squares method, to calculate a straight line that best fits the given data and return a table describing that line. These functions are especially useful in predicting unknown values (Y) given known values (X). For more details, visit: [LINEST DAX function](/dax/linest-function-dax) and [LINESTX DAX function](/dax/linestx-function-dax).
+- __LINEST and LINESTX__: These two functions perform linear regression, using the Least Squares method, to calculate a straight line that best fits the given data and return a table describing that line. These functions are especially useful in predicting unknown values (Y) given known values (X). For more details, visit: [LINEST DAX function](/dax/linest-function-dax) and [LINESTX DAX function](/dax/linestx-function-dax).
 
 - __INFO Functions__: The existing TMSCHEMA DMVs are now available as a new family of DAX functions, which allows querying metadata about semantic models directly within DAX, offering integration with other DAX functions for enhanced diagnostics and analysis. For more details, visit: [Info DAX functions](/dax/info-functions-dax).
 
 - __APPROXIMATEDISTINCTCOUNT__: This function is currently available for DirectQuery mode and returns an estimated count of unique values in a column by invoking a corresponding aggregation operation in the data source, which is optimized for query performance. For more details, visit [Approximatedistinctcount DAX function](/dax/approximate-distinctcount-function-dax), which lists supported data sources.
 
-- __Window Functions__: This function retrieves a slice of results using absolute or relative positioning. The WINDOW function will make it easier to perform calculations such as adding a running total, moving average or similar calculations that rely on selecting a range of values. It also comes with two helper functions called ORDERBY and PARTITIONBY. For more details, visit: [Window DAX function](/dax/window-function-dax).
+- __Window Functions__: This function retrieves a slice of results using absolute or relative positioning. The WINDOW function makes it easier to perform calculations such as adding a running total, moving average or similar calculations that rely on selecting a range of values. It also comes with two helper functions called ORDERBY and PARTITIONBY. For more details, visit: [Window DAX function](/dax/window-function-dax).
 
-- __MINX/MAXX:__ We have added an optional variant parameter to MINX and MAXX DAX functions. Traditionally, these functions ignore text and Boolean values when there are variants or mixed data types, such as text and numeric. Now with the new optional variant parameter set to TRUE, the functions will consider the text values. For more details, visit [MINX DAX function](/dax/minx-function-dax) and [MAXX DAX function](/dax/maxx-function-dax).
+- __MINX/MAXX:__ We added an optional variant parameter to MINX and MAXX DAX functions. Traditionally, these functions ignore text and Boolean values when there are variants or mixed data types, such as text and numeric. Now with the new optional variant parameter set to TRUE, the functions consider the text values. For more details, visit [MINX DAX function](/dax/minx-function-dax) and [MAXX DAX function](/dax/maxx-function-dax).
 
 ### Additional features
 
@@ -219,7 +219,7 @@ A typical usage pattern could be as follows:
 
 - DB1 (version 2) is detached and placed on a location accessible to server B (either via a shared location, or using robocopy, etc.).
 
-- The <Attach> command with AllowOverwrite=True is executed on server B with the new location of DB1 (version 2).
+- The **Attach** command with AllowOverwrite=True is executed on server B with the new location of DB1 (version 2).
 
 Without this feature, admins are first required to detach the database and then attach the new version of the database. This leads to downtime when the database is unavailable to users, and queries against it will fail.
 
