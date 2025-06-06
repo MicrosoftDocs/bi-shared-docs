@@ -1,6 +1,6 @@
 ---
 title: "What's new in SQL Server Analysis Services | Microsoft Docs"
-ms.date: 11/08/2022
+ms.date: 06/06/2025
 description: Learn about new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
 ms.service: analysis-services
 ms.topic: conceptual
@@ -23,7 +23,7 @@ This article summarizes new features, improvements, deprecated and discontinued 
 
 #### Models with calculation groups and format strings in Excel
 
-We made significant performance improvements for MDX queries on models with Calculation Groups and Format Strings to reduce memory usage and improve responsiveness! The latest changes greatly improve the performance and reliability of operations in Analyze in Excel on models that include one or both of:
+We made significant performance improvements for MDX queries on models with Calculation Groups and Format Strings to reduce memory usage and improve responsiveness. The latest changes greatly improve the performance and reliability of operations in Analyze in Excel on models that include one or both of:
 
 - Dynamic Format Strings for Measures
 
@@ -43,7 +43,7 @@ SSAS 2025 incorporates the latest version of Horizontal Fusion, a query performa
 
 #### Visual calculations         
 
-The way you write DAX changes today with the introduction of visual calculations! Visual calculations are DAX calculations that are defined and executed directly on a visual. A visual calculation can refer to any data in the visual, including columns, measures, or other visual calculations. This approach removes the complexity of the semantic model and simplifies the process of writing DAX. You can use visual calculations to complete common business calculations such as running sums or moving averages. Visual calculations make it easy to do calculations that were previously hard to do. To learn more about how to enable and use visual calculations, visit [Visual calculations overview](/power-bi/transform-model/desktop-visual-calculations-overview).
+The way you write DAX changes today with the introduction of *visual calculations*. Visual calculations are DAX calculations that are defined and executed directly on a visual. A visual calculation can refer to any data in the visual, including columns, measures, or other visual calculations. This approach removes the complexity of the semantic model and simplifies the process of writing DAX. You can use visual calculations to complete common business calculations such as running sums or moving averages. To learn more about how to enable and use visual calculations, visit [Visual calculations overview](/power-bi/transform-model/desktop-visual-calculations-overview).
 
 #### Value filter behavior
 
@@ -51,13 +51,13 @@ We are introducing a new option to control value filter behavior. By enabling th
 
 #### Selection expressions for calculation groups
 
-Selection expressions allow fine-tuned control over how calculations behave when certain conditions are met. They introduce additional logic for handling cases where multiple calculation items are selected or when no specific selection is made on a calculation group. For more details, visit: [Calculations groups](/analysis-services/tabular-models/calculation-groups).  
+Selection expressions allow fine-tuned control over how calculations behave when certain conditions are met. Selection expressions introduce additional logic for handling cases where multiple calculation items are selected or when no specific selection is made on a calculation group. For more details, visit: [Calculations groups](/analysis-services/tabular-models/calculation-groups).  
 
 #### DAX functions improvements
 
 SSAS 2025 includes support for multiple new DAX functions and improvements including:
 
-- __LINEST and LINESTX__: These two functions perform linear regression, using the Least Squares method, to calculate a straight line that best fits the given data and return a table describing that line. These functions are especially useful in predicting unknown values (Y) given known values (X). For more details, visit: [LINEST DAX function](/dax/linest-function-dax) and [LINESTX DAX function](/dax/linestx-function-dax).
+- __LINEST and LINESTX__: These two functions perform linear regression, using the Least Squares method, to calculate a straight line that best fits the given data and return a table describing that line. These functions are especially useful in predicting unknown values (Y) when given known values (X). For more details, visit: [LINEST DAX function](/dax/linest-function-dax) and [LINESTX DAX function](/dax/linestx-function-dax).
 
 - __INFO Functions__: The existing TMSCHEMA DMVs are now available as a new family of DAX functions, which allows querying metadata about semantic models directly within DAX, offering integration with other DAX functions for enhanced diagnostics and analysis. For more details, visit: [Info DAX functions](/dax/info-functions-dax).
 
@@ -103,8 +103,6 @@ SSAS 2025 now uses a newer SQL client library. Customers may need to update mode
 
 This update includes enhancement to the schema write operation encryption algorithm. This enhancement may require you to upgrade tabular and multidimensional model databases to ensure proper encryption. To learn more, see [Upgrade encryption](../analysis-services/instances/encryption-upgrade.md?view=sql-analysis-services-2022&preserve-view=true).
 
-
-
 ### Generally Available (GA)
 
 #### Horizontal fusion
@@ -113,7 +111,7 @@ This version introduces Horizontal Fusion, a query execution plan optimization a
 
 #### Parallel Execution Plans for DirectQuery
 
-This improvement enables the Analysis Services engine to analyze DAX queries against a DirectQuery data source and identify independent storage engine operations. The engine can then execute those operations against the data source in parallel. By executing operations in parallel, the Analysis Services engine can improve query performance by taking advantage of scalability large data sources may be able to provide. To ensure query processing does not overburden your data source, use the [MaxParallelism](tabular-models/partitions-ssas-tabular.md#maxparallelism) property setting to specify a fixed number of threads that can be used for parallel operations.
+This improvement enables the Analysis Services engine to analyze DAX queries against a DirectQuery data source and identify independent storage engine operations. The engine can then execute those operations against the data source in parallel. By executing operations in parallel, the Analysis Services engine can improve query performance by taking advantage of scalability large data sources may be able to provide. To ensure query processing doesn't overburden your data source, use the [MaxParallelism](tabular-models/partitions-ssas-tabular.md#maxparallelism) property setting to specify a fixed number of threads that can be used for parallel operations.
 
 #### Support for Power BI DirectQuery semantic models
 
@@ -299,7 +297,7 @@ A powerful and intuitive user interface makes selecting your data and data trans
 
 ![Advanced mashup](../analysis-services/media/as-get-data-advanced.png)
 
-The modern Get Data experience and M mashup capabilities do not apply to existing tabular models upgraded from the 1200 compatibility level to 1400. The new experience only applies to new models created at the 1400 compatibility level.
+The modern Get Data experience and M mashup capabilities don't apply to existing tabular models upgraded from the 1200 compatibility level to 1400. The new experience only applies to new models created at the 1400 compatibility level.
 
 ### Encoding hints
 
@@ -311,7 +309,7 @@ This release introduces encoding hints, an advanced feature used to optimize pro
 
 Numeric columns can use either of these encoding methods. When Analysis Services starts processing a table, if either the table is empty (with or without partitions) or a full-table processing operation is being performed, samples values are taken for each numeric column to determine whether to apply value or hash encoding. By default, value encoding is chosen when the sample of distinct values in the column is large enough - otherwise hash encoding usually provides better compression. It is possible for Analysis Services to change the encoding method after the column is partially processed based on further information about the data distribution, and restart the encoding process; however, this increases processing time and is inefficient. The performance-tuning whitepaper discusses re-encoding in more detail and describes how to detect it using SQL Server Profiler.
 
-Encoding hints allow the modeler to specify a preference for the encoding method given prior knowledge from data profiling and/or in response to re-encoding trace events. Since aggregation over hash-encoded columns is slower than over value-encoded columns, value encoding may be specified as a hint for such columns. It is not guaranteed that the preference is applied. It is a hint as opposed to a setting. To specify an encoding hint, set the EncodingHint property on the column. Possible values are "Default", "Value" and "Hash". The following snippet of JSON-based metadata from the Model.bim file specifies value encoding for the Sales Amount column.
+Encoding hints allow the modeler to specify a preference for the encoding method given prior knowledge from data profiling and/or in response to re-encoding trace events. Since aggregation over hash-encoded columns is slower than over value-encoded columns, value encoding may be specified as a hint for such columns. It isn't guaranteed that the preference is applied. It is a hint as opposed to a setting. To specify an encoding hint, set the EncodingHint property on the column. Possible values are "Default", "Value" and "Hash". The following snippet of JSON-based metadata from the Model.bim file specifies value encoding for the Sales Amount column.
 
 ```json
 {
@@ -349,7 +347,7 @@ The following PivotTable shows Internet Total Sales by year from the Adventure W
 
 ![AS_Show_Details](../analysis-services/media/as-show-details.png)
 
-By default, the associated data in the Internet Sales table is displayed. This limited behavior is often not meaningful for the user because the table may not have the necessary columns to show useful information such as customer name and order information. With Detail Rows, you can specify a **Detail Rows Expression** property for measures.
+By default, the associated data in the Internet Sales table is displayed. This limited behavior is often not meaningful for the user because the table might not have the necessary columns to show useful information such as customer name and order information. With Detail Rows, you can specify a **Detail Rows Expression** property for measures.
 
 #### Detail Rows Expression property for measures
 
@@ -375,7 +373,7 @@ With the property defined and the model deployed, a custom row set is returned w
 
 #### Default Detail Rows Expression property for tables
 
-In addition to measures, tables also have a property to define a detail rows expression. The **Default Detail Rows Expression** property acts as the default for all measures within the table. Measures that do not have their own expression defined inherits the expression from the table and show the row set defined for the table. This allows reuse of expressions, and new measures added to the table later automatically inherits the expression.
+In addition to measures, tables also have a property to define a detail rows expression. The **Default Detail Rows Expression** property acts as the default for all measures within the table. Measures that don't have their own expression defined inherits the expression from the table and show the row set defined for the table. This allows reuse of expressions, and new measures added to the table later automatically inherits the expression.
 
 ![AS_Default_Detail_Rows_Expression](../analysis-services/media/as-default-detail-rows-expression.png)
 
@@ -596,7 +594,7 @@ With formula fixup on a tabular 1200 model,  SSDT will automatically update any 
 
 #### Support for Visual Studio configuration manager
 
-To support multiple environments, like Test and Pre-production environments, Visual Studio allows developers to create multiple project configurations using the configuration manager. Multidimensional models already leverage this but tabular models did not. With this release, you can now use configuration manager to deploy to different servers.
+To support multiple environments, like Test and Pre-production environments, Visual Studio allows developers to create multiple project configurations using the configuration manager. Multidimensional models already leverage this but tabular models didn't. With this release, you can now use configuration manager to deploy to different servers.
 
 ### Instance management
 
@@ -679,7 +677,7 @@ Updates to the formula bar help you write formulas with more ease by differentia
 
 #### DAX variables
 
-This release now includes support for variables in DAX. Variables can now store the result of an expression as a named variable, which can then be passed as an argument to other measure expressions. Once resultant values have been calculated for a variable expression, those values do not change, even if the variable is referenced in another expression. For more information, see [VAR Function](/dax/var-dax).
+This release now includes support for variables in DAX. Variables can now store the result of an expression as a named variable, which can then be passed as an argument to other measure expressions. Once resultant values have been calculated for a variable expression, those values don't change, even if the variable is referenced in another expression. For more information, see [VAR Function](/dax/var-dax).
 
 #### New DAX functions
 
@@ -734,7 +732,7 @@ The following elements have been added to the **TProperty** complex type defined
 |Element|Definition|
 |-------------|----------------|
 |DefaultValue|A property that specifies the value used when evaluating the query. The DefaultValue property is optional, but it is automatically selected if the values from the member cannot be aggregated.|
-|Statistics|A set of statistics from the underlying data that is associated with the column. These statistics are defined by the TPropertyStatistics complex type and are provided only if they are not computationally expensive to generate, as described in section 2.1.13.5 of the Conceptual Schema Definition File Format with Business Intelligence Annotations document.|
+|Statistics|A set of statistics from the underlying data that is associated with the column. These statistics are defined by the TPropertyStatistics complex type and are provided only if they aren't computationally expensive to generate, as described in section 2.1.13.5 of the Conceptual Schema Definition File Format with Business Intelligence Annotations document.|
 
 ### DirectQuery
 
@@ -765,7 +763,7 @@ The following features are [deprecated](#definitions) in this release:
 |Multidimensional|SQL Server table notifications for proactive caching.  <br />The replacement is to use polling for proactive caching. <br />See [Proactive Caching &#40;Dimensions&#41;](../analysis-services/multidimensional-models-olap-logical-dimension-objects/proactive-caching-dimensions.md) and [Proactive Caching &#40;Partitions&#41;](../analysis-services/multidimensional-models-olap-logical-cube-objects/partitions-proactive-caching.md).|  
 |Multidimensional|Session cubes. There is no replacement.|  
 |Multidimensional|Local cubes. There is no replacement.|  
-|Tabular|Tabular model 1100 and 1103 compatibility levels will not be supported in a future release. The replacement is to set models at compatibility level 1200 or higher, converting model definitions to tabular metadata. See [Compatibility Level for Tabular models in Analysis Services](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md).|  
+|Tabular|Tabular model 1100 and 1103 compatibility levels won't be supported in a future release. The replacement is to set models at compatibility level 1200 or higher, converting model definitions to tabular metadata. See [Compatibility Level for Tabular models in Analysis Services](../analysis-services/tabular-models/compatibility-level-for-tabular-models-in-analysis-services.md).|  
 |Tools|SQL Server Profiler for Trace Capture<br /><br /> The replacement is to use Extended Events Profiler embedded in SQL Server Management Studio.  <br /> See [Monitor Analysis Services with SQL Server Extended Events](../analysis-services/instances/monitor-analysis-services-with-sql-server-extended-events.md).|  
 |Tools|Server Profiler for Trace Replay <br />Replacement. There is no replacement.|  
 |Trace Management Objects and Trace APIs|Microsoft.AnalysisServices.Trace objects (contains the APIs for Analysis Services Trace and Replay objects). The replacement is multi-part:<br /><br /> -   Trace Configuration: Microsoft.SqlServer.Management.XEvent<br />-   Trace Reading: Microsoft.SqlServer.XEvent.Linq<br />-   Trace Replay: None|  
@@ -828,17 +826,17 @@ DirectQuery has existed as a data access mode for the last several releases. In 
   
 If you are using DirectQuery in an existing tabular model, you can keep the model at its currently compatibility level of 1100 or 1103 and continue to use DirectQuery as its implemented for those levels. Alternatively, you can upgrade to 1200 or higher to benefit from enhancements made to DirectQuery.
   
-There is no in-place upgrade of a DirectQuery model because the settings from older compatibility levels do not have exact counterparts in the newer 1200 and higher compatibility levels. If you have an existing tabular model that runs in DirectQuery mode, you should open the model in SQL Server Data Tools, turn DirectQuery off, set the **Compatibility Level** property to 1200 or higher, and then reconfigure the DirectQuery properties. See [DirectQuery Mode](../analysis-services/tabular-models/directquery-mode-ssas-tabular.md) for details.
+There is no in-place upgrade of a DirectQuery model because the settings from older compatibility levels don't have exact counterparts in the newer 1200 and higher compatibility levels. If you have an existing tabular model that runs in DirectQuery mode, you should open the model in SQL Server Data Tools, turn DirectQuery off, set the **Compatibility Level** property to 1200 or higher, and then reconfigure the DirectQuery properties. See [DirectQuery Mode](../analysis-services/tabular-models/directquery-mode-ssas-tabular.md) for details.
 
 ::: moniker-end
 
 ## Definitions
 
-A *deprecated feature* will be discontinued from the product in a future release, but is still supported and included in the current release to maintain backward compatibility. It's recommended you discontinue using deprecated features in new and existing projects to maintain compatibility with future releases. Documentation is not updated for deprecated features.
+A *deprecated feature* will be discontinued from the product in a future release, but is still supported and included in the current release to maintain backward compatibility. It's recommended you discontinue using deprecated features in new and existing projects to maintain compatibility with future releases. Documentation isn't updated for deprecated features.
 
 A *discontinued feature* was deprecated in an earlier release. It may continue to be included in the current release, but is no longer supported. Discontinued features may be removed entirely in the stated or future release.
 
 A *breaking change* causes a feature, data model, application code, or script to no longer function after upgrading to the current release.
 
-A *behavior change* affects how the same feature works in the current release as compared to the previous release. Only significant behavior changes are described. Changes in  user interface are not included. Changes to  default values, manual configuration required to complete an upgrade or restore functionality, or a new implementation of an existing feature are all examples of a behavior change.
+A *behavior change* affects how the same feature works in the current release as compared to the previous release. Only significant behavior changes are described. Changes in  user interface aren't included. Changes to  default values, manual configuration required to complete an upgrade or restore functionality, or a new implementation of an existing feature are all examples of a behavior change.
 
