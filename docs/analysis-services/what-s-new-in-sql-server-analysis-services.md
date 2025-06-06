@@ -21,17 +21,17 @@ This article summarizes new features, improvements, deprecated and discontinued 
 
 ### Performance improvements
 
-__Models with calculation groups and format strings in Excel__
+#### Models with calculation groups and format strings in Excel
 
 We have made significant performance improvements for MDX queries on models with Calculation Groups and Format Strings to reduce memory usage and improve responsiveness! The latest changes will greatly improve the performance and reliability of operations in Analyze in Excel on models that include one or both of:
 
-1. Dynamic Format Strings for Measures
+- Dynamic Format Strings for Measures
 
-1. Calculated Items with Format Strings
+- Calculated Items with Format Strings
 
 For more details, visit [Dynamic format strings](/power-bi/create-reports/desktop-dynamic-format-strings)
 
-__Parallel Query Execution for DirectQuery__
+#### Parallel Query Execution for DirectQuery
 
 Improved parallelism in DirectQuery mode enables faster response times for complex queries. The fundamental idea is to maximize query performance by parallelizing multiple queries to the datasource for a single DAX query. This query parallelization reduces the impact of data source delays and network latencies on query performance. For more details, visit this [blog](https://powerbi.microsoft.com/blog/query-parallelization-helps-to-boost-power-bi-dataset-performance-in-directquery-mode/).
 
@@ -41,19 +41,19 @@ SSAS 2025 incorporates the latest version of Horizontal Fusion, a query performa
 
 ### DAX functions and capabilities
 
-__Visual calculations__         
+#### Visual calculations         
 
 The way you write DAX changes today with the introduction of visual calculations! Visual calculations are DAX calculations that are defined and executed directly on a visual. A visual calculation can refer to any data in the visual, including columns, measures, or other visual calculations. This approach removes the complexity of the semantic model and simplifies the process of writing DAX. You can use visual calculations to complete common business calculations such as running sums or moving averages. Visual calculations make it easy to do calculations that were previously very hard or even almost impossible to do. To learn more about how to enable and use visual calculations, visit [Visual calculations overview](/power-bi/transform-model/desktop-visual-calculations-overview).
 
-__Value filter behavior__
+#### Value filter behavior
 
 We are introducing a new option to control value filter behavior. By enabling the "Independent Value Filters" setting, users can prevent the automatic combining of multiple filters on the same table into a single coalesced filter. This change offers greater flexibility, allowing for more precise and independent filtering to meet specific modeling needs, thereby enhancing the accuracy and control of data queries. To set this property for SSAS, you can use the Tabular Object Model or [TMSL](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) based on the [ValueFilterBehavior](/dotnet/api/microsoft.analysisservices.tabular.model.valuefilterbehavior) property. For more details, visit: [Value filter behavior](/power-bi/transform-model/value-filter-behavior).
 
-__Selection expressions for calculation groups__
+#### Selection expressions for calculation groups
 
 Selection expressions allow fine-tuned control over how calculations behave when certain conditions are met. They introduce additional logic for handling cases where multiple calculation items are selected or when no specific selection is made on a calculation group. For more details, visit: [Calculations groups](/analysis-services/tabular-models/calculation-groups).  
 
-__DAX functions improvements__
+#### DAX functions improvements
 
 SSAS 2025 includes support for multiple new DAX functions and improvements including:
 
@@ -69,25 +69,25 @@ SSAS 2025 includes support for multiple new DAX functions and improvements inclu
 
 ### Additional features
 
-__Client library updates__
+#### Client library updates
 
 Customers are encouraged to upgrade to the latest Analysis Services libraries to benefit from performance, reliability and functionality improvements such as binary XML support, TMDL serialization, and more. Specifically, we have switched XMLA-based communication from plain text XML to binary XML and enabled compression for the .NET client libraries.  For more details, visit [improving the communication performance of xmla based tools](https://powerbi.microsoft.com/blog/improving-the-communication-performance-of-xmla-based-tools/) blog. You can also always find the latest client libraries versions on the [Analysis Services client libraries download page](/analysis-services/client-libraries).
 
-__Unicode character handling enhancements__
+#### Unicode character handling enhancements
 
 SSAS now supports updated Unicode standards by providing Unicode surrogate pair support for character standards such as the Chinese government standard GB18030 in DAX.  
 
-__Execution metrics for diagnostics__
+#### Execution metrics for diagnostics
 
 Execution metrics are now exposed via XEvents and Profiler traces, enabling customers to analyze query performance more effectively.
 
 ### Deprecated features and breaking changes in SSAS 2025
 
-__Excel PowerPivot for SharePoint deprecated__
+#### Excel PowerPivot for SharePoint deprecated
 
 We have removed Excel PowerPivot for SharePoint mode from the installer. This feature was deprecated in prior releases and is no longer supported.
 
-__SQL Client assembly update__
+#### SQL Client assembly update
 
 SSAS 2025 now uses a newer SQL client library. Customers may need to update model definitions to reflect the new provider name (Microsoft.Data.SqlClient).
 
