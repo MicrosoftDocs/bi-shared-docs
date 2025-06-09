@@ -23,7 +23,7 @@ Beginning with SQL Server 2017, the Analysis Services build version number and S
 
 To verify component file version, 
 
-1. Go to [SQL Server 2017 build versions](https://learn.microsoft.com/troubleshoot/sql/releases/sqlserver-2017/build-versions). 
+1. Go to [SQL Server 2017 build versions](/troubleshoot/sql/releases/sqlserver-2017/build-versions). 
 2. In **SQL Server 2017 cumulative update (CU) builds**, click the **Knowledge Base Number** for the build you want to verify.
 3. In the **Cumulative Update (#) for SQL Server 2017** article, in the **Cumulative Update package information** section, expand **Cumulative update package file information**.
 4. In the **SQL Server 2017 Analysis Services** table, check the File version for the **msmdsrv.exe** component file. If the CU has been applied, the file version number should match the msmdsrv.exe file installed on your computer.
