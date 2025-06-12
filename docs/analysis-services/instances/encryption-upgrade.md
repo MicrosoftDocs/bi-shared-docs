@@ -10,16 +10,16 @@ ms.reviewer: kfollis
 author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2022"
 ---
-# Upgrade encryption
+# Enhanced encryption
 
 [!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
-SQL Server 2022 Analysis Services CU1 and later includes enhanced encryption for certain write operations to the model database schema. To ensure your model databases use the latest encryption, those databases must be upgraded. If encryption isn't upgraded, certain database schema write operations, such as adding a new data source or altering connection strings are blocked and an error is returned.
+SQL Server 2022 Analysis Services (SSAS) CU1 and later versions include enhanced encryption for certain write operations to the model database schema. When upgrading from an earlier SSAS version, you must update your model databases to use the latest encryption. If encryption isn't upgraded, certain database schema write operations, such as adding a new data source or altering connection strings are blocked and an error is returned.
 
 > [!CAUTION]
-> New or upgraded Analysis Services databases with enhanced encryption cannot be loaded if SQL Server CU1 is uninstalled.
+> New or upgraded Analysis Services databases with enhanced encryption cannot be loaded on earlier versions of SQL Server Analysis Services.
 
-## Tabular mode
+## Upgrading Tabular model databases
 
 For tabular model databases at the 1600 and higher compatibility level, the following error can be returned during certain schema write operations:
 
@@ -47,7 +47,7 @@ Or, if the database is already loaded, run the following XMLA command in SQL Ser
 
 ```
 
-## Multidimensional mode
+## Upgrading Multidimensional model databases
 
 For multidimensional model databases at all compatibility levels, the following error can be returned during certain schema write operations:
 
@@ -65,27 +65,66 @@ Or, if the database is already loaded, run the following XMLA command in SQL Ser
 
 ```
 
-## Analysis Services service account change procedure limitations after installing SQL Server 2022 CU1
+## Key Lifetime Management
 
-Changing service accounts directly isn't supported because of the new design.
+SQL Server Analysis Services uses a database encryption key to encrypt sensitive data on a per-database basis, such as data source credentials and connection strings. In SSAS 2025 and later versions, you can use the DBSCHEMA_CATALOGS schema rowset to determine the encryption level of your model databases as well as the age of the database key. Check the ENCRYPTION_LEVEL column and verify that the level is Analysis Services 2022 CU. Check the CRYPTOKEY_UPDATED column for the creation date or last regeneration date of the database encryption key.
 
-Beginning with SQL Server 2022 CU1, Analysis Services server encrypts secret artifacts, such as database connection strings, by using an encryption key that is protected per identity of the service account.
+You can regenerate the database encryption key by using the RemoveDiscontinuedFeatures command. Like upgrading from legacy encryption described earlier, the RemoveDiscontinuedFeatures command decrypts the securable data, generates a new database encryption key, and then re-encrypts the securable data using the new database encryption key.
 
-If you require the transfer of databases between services operating under different accounts, it's essential to follow the backup and restore method. This approach ensures a more seamless transition between service accounts while preserving the integrity of your data.
+```xml
+<RemoveDiscontinuedFeatures xmlns='http://schemas.microsoft.com/analysisservices/2003/engine' xmlns:ddl922='http://schemas.microsoft.com/analysisservices/2022/engine/922'>
+  <DatabaseID>DatabaseName</DatabaseID>
+  <ddl922:EnsureProperEncryption>true</ddl922:EnsureProperEncryption>
+</RemoveDiscontinuedFeatures>
 
-1. Use SSMS to back up each database into .abf file.
+```
 
-2. Stop SSAS service.
+## Service account change procedures
 
-3. Change the SSAS service account.
+SQL Server Analysis Services encrypts each database encryption key by using a server-wide encryption key. Enhanced encryption in SSAS 2022 CU1 and later versions then uses the data protection API (DPAPI) to securely protect and access the server encryption key by using information from the current service account and the local machine account. The server encryption key can only be decrypted using the same service account on the local machine. Because of the dependency on the current service account, make sure you follow the below procedures for changing the SQL Server Analysis Services service account.
 
-4. Delete the content of the Data folder, except the administrators.n.xml file and master.vmp file.
+### Changing the service account of a Multidimensional instance
 
-5. Start SSAS service.
+If you must change the service account of a server instance running in Multidimensional mode, it's essential to backup your model databases, uninstall and then re-install the server, and then restore the model databases. This approach ensures that all securables are properly encrypted, including QueryLogConnectionString and ImpersonationAccount credentials. Alternatively, you can also use an [attach/detach approach](../multidimensional-models/attach-and-detach-analysis-services-databases?view=sql-analysis-services-2025), but this approach requires you to preserve the existing data folder.
 
-6. Restore the databases from the backup .abf files.
+1.	Use SSMS to back up each database into .abf file.
+
+2.	Uninstall the SSAS server instance.
+
+3.	Delete any remnants of the uninstalled server instance, such as leftover data folders or configuration files.
+
+4.	Install a new SSAS server instance and assign a new service account.
+
+5.	Restore the databases from the backup .abf files.
 
 Use caution when implementing these steps to avoid data loss or security vulnerabilities. Always perform data backups and seek guidance from your system administrator prior to making substantial changes to service accounts or server configurations.
+
+### Changing the service account of a Tabular instance
+
+Tabular server instances do not require complete server reinstallation because Tabular servers do not use the server-wide QueryLogConnectionString or ImpersonationAccount credentials. Even though the procedure does not rely on database backups, you should always perform data backups and seek guidance from your system administrator prior to making substantial changes to service accounts or server configurations.
+
+1.	Recommended but optional, use SSMS to back up each database into .abf file.
+
+2.	Detach all model databases.
+
+3.	Stop the SSAS service.
+
+4.	Change the SSAS service account.
+
+5.	Start the SSAS service.
+
+6.	Re-attach all model databases.
+
+## Moving model databases to a different server instance
+
+If you must transfer model databases between servers, it's essential to use a backup/restore or detach/attach method. See [Move an Analysis Services Database](../multidimensional-models/move-an-analysis-services-database?view=sql-analysis-services-2025) for details about using the detach/attach approach using SSMS, AMO, or XMLA.
+
+## Failover Cluster support
+
+SQL Server 2025 Analysis Services with enhanced encryption can be installed into a Windows Server Failover Cluster (WSFC) to achieve high availability. In a WSFC environment, all server instances must use the same Active Directory domain user account as the service account so that the server encryption key can be decrypted on all server instances. Local Windows accounts, Build-In accounts, and Entra ID accounts are not supported.
+
+> [!NOTE]
+SQL Server 2022 Analysis Services CU1 with enhanced encryption does not provide Failover Cluster support. To benefit from enhanced encryption in a Failover Cluster environment, you must upgrade to SQL Server 2025 Analysis Services.
 
 ## Troubleshooting
 
