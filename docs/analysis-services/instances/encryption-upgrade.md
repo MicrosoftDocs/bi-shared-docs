@@ -85,7 +85,7 @@ SQL Server Analysis Services encrypts each database encryption key by using a se
 
 ### Changing the service account of a Multidimensional instance
 
-If you must change the service account of a server instance running in Multidimensional mode, it's essential to backup your model databases, uninstall and then re-install the server, and then restore the model databases. This approach ensures that all securables are properly encrypted, including QueryLogConnectionString and ImpersonationAccount credentials. Alternatively, you can also use an [attach/detach approach](../multidimensional-models/attach-and-detach-analysis-services-databases.md?view=sql-analysis-services-2025), but this approach requires you to preserve the existing data folder.
+If you must change the service account of a server instance running in Multidimensional mode, it's essential to backup your model databases, uninstall and then re-install the server, and then restore the model databases. This approach ensures that all securables are properly encrypted, including QueryLogConnectionString and ImpersonationAccount credentials. Alternatively, you can also use an [attach/detach approach](../multidimensional-models/attach-and-detach-analysis-services-databases.md?view=sql-analysis-services-2025&preserve-view=true), but this approach requires you to preserve the existing data folder.
 
 1.	Use SSMS to back up each database into .abf file.
 
@@ -117,7 +117,7 @@ Tabular server instances do not require complete server reinstallation because T
 
 ## Moving model databases to a different server instance
 
-If you must transfer model databases between servers, it's essential to use a backup/restore or detach/attach method. See [Move an Analysis Services Database](../multidimensional-models/move-an-analysis-services-database.md?view=sql-analysis-services-2025) for details about using the detach/attach approach using SSMS, AMO, or XMLA.
+If you must transfer model databases between servers, it's essential to use a backup/restore or detach/attach method. See [Move an Analysis Services Database](../multidimensional-models/move-an-analysis-services-database.md?view=sql-analysis-services-2025&preserve-view=true) for details about using the detach/attach approach using SSMS, AMO, or XMLA.
 
 ## Failover Cluster support
 
