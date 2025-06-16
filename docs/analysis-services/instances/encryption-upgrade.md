@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2022"
 
 [!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
-SQL Server 2022 Analysis Services (SSAS) CU1 and later versions include enhanced encryption for certain write operations to the model database schema. When upgrading from an earlier SSAS version, you must update your model databases to use the latest encryption. If encryption isn't upgraded, certain database schema write operations, such as adding a new data source or altering connection strings are blocked and an error is returned.
+SQL Server 2022 Analysis Services (SSAS) CU1 and later versions include enhanced encryption for certain write operations to the model database schema. When upgrading from an earlier SSAS version, you must update your model databases to use the latest encryption. If encryption isn't upgraded, certain database schema write operations are blocked. For example, you cannot add a new data source or alter connection strings.
 
 > [!CAUTION]
 > New or upgraded Analysis Services databases with enhanced encryption cannot be loaded on earlier versions of SQL Server Analysis Services.
@@ -37,7 +37,7 @@ To upgrade encryption, either back up the database and then restore with the **E
 </Batch>
 ```
 
-Or, if the database is already loaded, run the following XMLA command in SQL Server Management Studio:
+Or, if the database is already loaded, run the following XML for Analysis (XMLA) command in SQL Server Management Studio:
 
 ```xml
 <RemoveDiscontinuedFeatures xmlns='http://schemas.microsoft.com/analysisservices/2003/engine' xmlns:ddl922='http://schemas.microsoft.com/analysisservices/2022/engine/922'>
@@ -97,7 +97,7 @@ If you must change the service account of a server instance running in Multidime
 
 5.	Restore the databases from the backup .abf files.
 
-Use caution when implementing these steps to avoid data loss or security vulnerabilities. Always perform data backups and seek guidance from your system administrator prior to making substantial changes to service accounts or server configurations.
+Use caution when implementing these steps to avoid data loss or security vulnerabilities. Always perform data backups and seek guidance from your system administrator before making substantial changes to service accounts or server configurations.
 
 ### Changing the service account of a Tabular instance
 
@@ -130,7 +130,7 @@ SQL Server 2025 Analysis Services with enhanced encryption can be installed into
 
 **Problem:** If the backup/restore steps above aren't followed, changing SQL Server 2022 Analysis Services service account can cause the service to fail to start.
 
-The following message in the Log\msmdsrv.log file indicates the service is unable to start because the service account has been changed:
+The following message in the Log\msmdsrv.log file indicates the service is unable to start because the service account was changed:
 
 "**Server Gen2 cryptokey is not present, but server assembly object System is set to use server gen2 cryptokey. Terminating server. (Source: \\?\C:\Program Files\Microsoft SQL Server\MSAS16.MSSQLSERVER\OLAP\Log\msmdsrv.log, Type: 1, Category: 289, Event ID: 0x4121005C**"
 
