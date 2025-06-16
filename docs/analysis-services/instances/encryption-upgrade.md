@@ -65,7 +65,7 @@ Or, if the database is already loaded, run the following XMLA command in SQL Ser
 
 ```
 
-## Key Lifetime Management
+## Key lifetime management
 
 SQL Server Analysis Services uses a database encryption key to encrypt sensitive data on a per-database basis, such as data source credentials and connection strings. In SSAS 2025 and later versions, you can use the DBSCHEMA_CATALOGS schema rowset to determine the encryption level of your model databases as well as the age of the database key. Check the ENCRYPTION_LEVEL column and verify that the level is Analysis Services 2022 CU. Check the CRYPTOKEY_UPDATED column for the creation date or last regeneration date of the database encryption key.
 
@@ -124,7 +124,7 @@ If you must transfer model databases between servers, it's essential to use a ba
 SQL Server 2025 Analysis Services with enhanced encryption can be installed into a Windows Server Failover Cluster (WSFC) to achieve high availability. In a WSFC environment, all server instances must use the same Active Directory domain user account as the service account so that the server encryption key can be decrypted on all server instances. Local Windows accounts, Build-In accounts, and Entra ID accounts are not supported.
 
 > [!NOTE]
-SQL Server 2022 Analysis Services CU1 with enhanced encryption does not provide Failover Cluster support. To benefit from enhanced encryption in a Failover Cluster environment, you must upgrade to SQL Server 2025 Analysis Services.
+> SQL Server 2022 Analysis Services CU1 with enhanced encryption does not provide Failover Cluster support. To benefit from enhanced encryption in a Failover Cluster environment, you must upgrade to SQL Server 2025 Analysis Services.
 
 ## Troubleshooting
 
