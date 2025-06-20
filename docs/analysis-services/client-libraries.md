@@ -73,7 +73,7 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 
 #### AMO and ADOMD
 
-Starting with AdomdClient and AMO version 19.98.0.3, an additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](https://learn.microsoft.com/en-us/analysis-services/instances/connection-string-properties-analysis-services?view=sql-analysis-services-2025#user-idpassword) article in the product documentation.
+Starting with version 19.98.0.3, an additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](https://learn.microsoft.com/en-us/analysis-services/instances/connection-string-properties-analysis-services?view=sql-analysis-services-2025#user-idpassword) article in the product documentation.
 
 Starting with version 19.98.0.3, HTTP based communication is improved through better management of open HTTP channels at the transport layer, especially when using the .NET Core libraries.
 
