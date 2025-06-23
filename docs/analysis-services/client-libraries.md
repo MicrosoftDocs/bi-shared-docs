@@ -73,6 +73,10 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 
 #### AMO and ADOMD
 
+Starting with version 19.98.0.3:
+- An additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](https://learn.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=sql-analysis-services-2025#user-idpassword) article in the product documentation.
+- HTTP based communication is improved through better management of open HTTP channels at the transport layer, especially when using the .NET Core libraries.
+
 AdomdClient and AMO Packages of version 19.94.1.1 replace version 19.94.0.0. Please upgrade to the latest version.
 
 With version 19.94.1.1:
@@ -105,6 +109,8 @@ Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL S
 
 #### AMO
 
+Starting with version 19.98.0.3, the default compatibility level for tabular model databases is 1700. Databases created without explicitly specifying a compatibility level use level 1700, by default.
+
 Starting with version 19.84.6, the support for TMDL in AMO\TOM is considered as in General-Availability status, and there won’t be any breaking changes in the API surface. 
 
 Version 19.12.3.0 of the AMO client library introduces a new enumeration, **Microsoft.AnalysisServices.DataType**. However, the previous enumeration, **Microsoft.AnalysisServices.Tabular.DataType** still exists. If your code references the previous enumeration as **DataType** in a code file with statements to both namespaces (**Microsoft.AnalysisServices**, **Microsoft.AnalysisServices.Tabular**), due to the ambiguity, you could get an error when compiling. To resolve the error, fully qualify the reference to the enumeration.
@@ -124,6 +130,8 @@ anotherModel.Tables.Add(tableClone);
 Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, compression is fully available in the XMLA transport layer. Previous releases after version 19.55.3.1 implemented some partial support for compression. Reports about issues with those releases were received. Those issues were fixed as part of the 16.61.1.4 release. Be sure to upgrade to 19.61.1.4 or later if you're experiencing problems related to compression.
 
 #### MSOLAP
+
+Beginning with version 17.0.25.23, an additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](https://learn.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=sql-analysis-services-2025#user-idpassword) article in the product documentation.
 
 Beginning with version 16.0.139.27, MSOLAP supports Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](/power-bi/developer/embedded/embed-multi-tenancy).
 
