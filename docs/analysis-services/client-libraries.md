@@ -74,7 +74,7 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 #### AMO and ADOMD
 
 Starting with version 19.98.0.3:
-- An additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](https://learn.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=sql-analysis-services-2025#user-idpassword) article in the product documentation.
+- An additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](../analysis-services/instances/connection-string-properties-analysis-services.md#user-idpassword) article in the product documentation.
 - HTTP based communication is improved through better management of open HTTP channels at the transport layer, especially when using the .NET Core libraries.
 
 AdomdClient and AMO Packages of version 19.94.1.1 replace version 19.94.0.0. Please upgrade to the latest version.
@@ -131,7 +131,7 @@ Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, com
 
 #### MSOLAP
 
-Beginning with version 17.0.25.23, an additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](https://learn.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=sql-analysis-services-2025#user-idpassword) article in the product documentation.
+Beginning with version 17.0.25.23, an additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](../analysis-services/instances/connection-string-properties-analysis-services.md#user-idpassword) article in the product documentation.
 
 Beginning with version 16.0.139.27, MSOLAP supports Service Principal Profiles for authentication, as in the following connection string example. To learn more, see [Use service principal profiles to manage customer data in multitenant apps](/power-bi/developer/embedded/embed-multi-tenancy).
 
