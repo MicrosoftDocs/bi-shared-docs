@@ -28,46 +28,45 @@
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/bi-shared-docs",
   "git_repository_branch_open_to_public_contributors": "main",
-  "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "dependent_repositories": [
-      {
-        "path_to_root": "_themes",
-        "url": "https://github.com/Microsoft/templates.docs.msft",
-        "branch": "main",
-        "branch_mapping": {}
-      },
-      {
-        "path_to_root": "_themes.pdf",
-        "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-        "branch": "main",
-        "branch_mapping": {}
-      },
-      {
-        "path_to_root": "reusable-content",
-        "url": "https://github.com/MicrosoftDocs/reusable-content",
-        "branch": "main",
-        "branch_mapping": {}
-      },
-      { 
-        "path_to_root": "terraform_samples",
-        "url": "https://github.com/Azure/terraform",
-        "branch": "master",
-        "branch_mapping": {}
-      },
-      {
-        "path_to_root": "azure-dev-docs-pr",
-        "url": "https://github.com/MicrosoftDocs/azure-dev-docs-pr",
-        "branch": "main",
-        "branch_mapping": {}
-      },
-      {
-        "path_to_root": "functions-quickstart-templates",
-        "url": "https://github.com/Azure/azure-functions-templates",
-        "branch": "dev",
-        "branch_mapping": {}
-      }
-        ],
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "main",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "main",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "reusable-content",
+      "url": "https://github.com/MicrosoftDocs/reusable-content",
+      "branch": "main",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "terraform_samples",
+      "url": "https://github.com/Azure/terraform",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "azure-dev-docs-pr",
+      "url": "https://github.com/MicrosoftDocs/azure-dev-docs-pr",
+      "branch": "main",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "functions-quickstart-templates",
+      "url": "https://github.com/Azure/azure-functions-templates",
+      "branch": "dev",
+      "branch_mapping": {}
+    }
+  ],
   "branch_target_mapping": {
     "live": [
       "Publish",
@@ -78,12 +77,13 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": true,
   "targets": {
     "pdf": {
       "template_folder": "_themes.pdf"
     }
   },
   "docs_build_engine": {},
+  "skip_source_output_uploading": false,
+  "need_generate_pdf_url_template": true,
   "contribution_branch_mappings": {}
 }
