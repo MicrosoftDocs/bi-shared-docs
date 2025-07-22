@@ -129,7 +129,7 @@ Kerberos constrained delegation (KCD) is an authentication protocol you can conf
   
 6.  Create the SPN for the SQL Browser service on the Analysis Services machine.  
   
-     [Learn more](https://support.microsoft.com/kb/950599)  
+     [Learn more](/analysis-services/instances/spn-registration-for-an-analysis-services-instance)  
   
 7.  **Configure constrained delegation** settings on the Analysis Services service account for any external source you will be refreshing from such as SQL Server, or Excel files. On the Analysis Services service account, we want to make sure the following are set.  
   
