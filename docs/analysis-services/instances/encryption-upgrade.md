@@ -109,11 +109,13 @@ Tabular server instances do not require complete server reinstallation because T
 
 3.	Stop the SSAS service.
 
-4.	Change the SSAS service account.
+4.	Delete all files in the Data folder except Administrators.xml and master.vmp file, delete the query log connection string and impersonation password in msmdsrv.ini, and keep database directories.
 
-5.	Start the SSAS service.
+5.	Change the SSAS service account.
 
-6.	Re-attach all model databases.
+6.	Start the SSAS service.
+
+7.	Re-attach all model databases.
 
 ## Moving model databases to a different server instance
 
