@@ -3,11 +3,13 @@ title: "ConnectionString Element (XMLA) | Microsoft Docs"
 description: Learn how the ConnectionString element contains a connection string used by the parent Location or Source element.
 ms.date: 01/05/2020
 ms.service: analysis-services
-ms.custom: xmla
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
 author: kfollis
+ms.custom:
+  - xmla
+  - sfi-ropc-nochange
 
 ---
 # ConnectionString Element (XMLA)
