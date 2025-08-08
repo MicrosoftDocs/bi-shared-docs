@@ -253,7 +253,7 @@ When you try to connect to `http://localhost/OLAP/msmdpump.dll` using a copy of 
 
 **Test Environments**
 
-If you are working in a test environment and you dont have any concerns about leaking basic credentials in plaintext, you can disable the `RequireSecureChannel` configuration setting in `msmdpump.ini` like below:
+If you are working in a test environment and you don't have any concerns about leaking basic credentials in plaintext, you can disable the `RequireSecureChannel` configuration setting in `msmdpump.ini` like below:
 ```
 <ConfigurationSettings>
 	<ServerName>localhost</ServerName>
