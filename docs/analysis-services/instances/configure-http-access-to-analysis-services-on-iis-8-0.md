@@ -244,8 +244,30 @@ The following table lists additional considerations when you enable HTTP access 
 |Basic authentication|Add to the Membership list the Windows user or group accounts that will be passed on the connection string.<br /><br /> In addition, if you are passing credentials via **EffectiveUserName** on the connection string, then the application pool identity must have administrator rights on the Analysis Services instance. In SSMS, right-click the instance &#124; **Properties** &#124; **Security** &#124; **Add**. Enter the application pool identity. If you used the built-in default identity, the account is specified as **IIS AppPool\DefaultAppPool**.<br /><br /> ![Shows how to enter the AppPoolIdentity account](../../analysis-services/instances/media/ssas-httpaccess-iisapppoolidentity.png "Shows how to enter the AppPoolIdentity account")|  
   
  For more information about setting permissions, see [Authorizing access to objects and operations &#40;Analysis Services&#41;](../../analysis-services/multidimensional-models/authorizing-access-to-objects-and-operations-analysis-services.md).  
-  
-##  <a name="bkmk_test"></a> Step 6: Test your configuration  
+
+##  <a name="bkmk_test"></a> Step 6: Setup a secure channel
+Starting with SQL Server Analysis Services 2025, HTTP connections through msmdpump.dll will be disabled by default. 
+
+When you try to connect to `http://localhost/OLAP/msmdpump.dll` using a copy of this DLL from C:\Program Files\Microsoft SQL Server\\**MSAS17**.MSSQLSERVER\OLAP, you will see this error:
+> Connections to SQL Server Analysis Services through msmdpump.dll must use secure channels, for example HTTPS. (Unknown)
+
+**Test Environments**
+
+If you are working in a test environment and you dont have any concerns about leaking basic credentials in plaintext, you can disable the `RequireSecureChannel` configuration setting in `msmdpump.ini` like below:
+```
+<ConfigurationSettings>
+	<ServerName>localhost</ServerName>
+	<SessionTimeout>3600</SessionTimeout>
+	<ConnectionPoolSize>100</ConnectionPoolSize>
+	<RequireSecureChannel>false</RequireSecureChannel>
+</ConfigurationSettings>
+```
+
+**Production Environments**
+
+If you are setting up a production environment for connections to your SSAS instance you should configure SSL on your IIS site using the following instructions: [How to Set Up SSL on IIS 7](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).
+
+##  <a name="bkmk_test"></a> Step 7: Test your configuration  
  The connection string syntax for MSMDPUMP is the URL to the MSMDPUMP.dll file.  
   
  If the web application is listening on a fixed port, append the port number to the server name or IP address (for example, `http://my-web-srv01:8080/OLAP/msmdpump.dll` or `http://123.456.789.012:8080/OLAP/msmdpump.dll`.  
