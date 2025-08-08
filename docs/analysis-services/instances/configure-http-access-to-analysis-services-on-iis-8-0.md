@@ -1,7 +1,7 @@
 ---
 title: "Configure HTTP Access to Analysis Services on IIS 8.0 | Microsoft Docs"
 description: Learn how to configure HTTP access to SQL Server Analysis Services by using MSMDPUMP and learn about connections for various capabilities.
-ms.date: 04/22/2020
+ms.date: 08/08/2025
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
@@ -14,7 +14,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 
 [!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
 
-This article explains how to set up an HTTP endpoint for accessing an Analysis Services instance. You can enable HTTP access by configuring MSMDPUMP.dll, an ISAPI extension that runs in Internet Information Services (IIS) and pumps data to and from client applications and an Analysis Services server. This approach provides an alternative means for connecting to Analysis Services when your BI solution calls for the following capabilities:  
+This article explains how to set up an HTTP endpoint for accessing an Analysis Services instance. You can enable HTTP access by configuring MSMDPUMP.dll, an ISAPI extension that runs in Internet Information Services (IIS) and pumps data to and from client applications and an Analysis Services server. This approach provides an alternative means for connecting to Analysis Services when your solution calls for the following capabilities:  
   
 - Client access is over Internet or extranet connections, with restrictions on which ports can be enabled.  
   
@@ -22,16 +22,16 @@ This article explains how to set up an HTTP endpoint for accessing an Analysis S
   
 - Client application runs in a network environment that allows HTTP but not TCP/IP connections.  
   
-- Client applications cannot use the Analysis Services client libraries (for example, a Java application running on a UNIX server). If you cannot use the Analysis Services client libraries for data access, you can use SOAP and XML/A over a direct HTTP connection to an Analysis Services instance.  
+- Client applications can't use the Analysis Services client libraries (for example, a Java application running on a UNIX server). If you can't use the Analysis Services client libraries for data access, you can use SOAP and XML/A over a direct HTTP connection to an Analysis Services instance.  
   
 - Authentication methods other than Windows integrated security are required. Specifically, you can use Anonymous connections and Basic authentication when configuring Analysis Services for HTTP access. Digest, Forms, and ASP.NET authentication are not supported. A requirement of Basic authentication is one of the primary reasons for enabling HTTP access. To learn more, see [Microsoft BI Authentication and Identity Delegation](/previous-versions/sql/sql-server-2012/dn186184(v=msdn.10)).  
 
 > [!NOTE]
-> The client libraries required by client applications cannot connect to Analysis Services through proxy servers that require a username and password.
+> The client libraries required by client applications can't connect to Analysis Services through proxy servers that require a username and password.
   
-You can configure HTTP access for any supported version or edition of Analysis Services, running either tabular mode or multidimensional mode. Local cubes are an exception. You cannot connect to a local cube via an HTTP endpoint.  
+You can configure HTTP access for any supported version or edition of Analysis Services, running either tabular mode or multidimensional mode. Local cubes are an exception. You can't connect to a local cube via an HTTP endpoint.  
   
-Setting up HTTP access is a post-installation task. Analysis Services must be installed before you can configure it for HTTP access. As the Analysis Services administrator, you will need to grant permissions to Windows accounts before HTTP access is possible. Additionally, it is a best practice to validate your installation first, ensuring that it is fully operational before configuring the server any further. After HTTP access is configured, you can use both the HTTP endpoint and the regular network name of the server over TCP/IP. Setting up HTTP access does not invalidate other approaches for data access.  
+Setting up HTTP access is a post-installation task. Analysis Services has to be installed before you can configure it for HTTP access. As an administrator of Analysis Services, you'll need to grant permissions to Windows accounts before HTTP access is possible. It is also a best practice to validate your installation first, ensuring that it is fully operational before you do more configuration. After HTTP access is configured, you can use both the HTTP endpoint and the regular network name of the server over TCP/IP. Setting up HTTP access doesn't invalidate other approaches for data access.  
   
 As you move forward with MSMDPUMP configuration, remember there are two connections to consider: client-to-IIS, IIS-to-SSAS. The instructions in this article are about IIS-to-SSAS. Your client application might require additional configuration before it can connect to IIS. Decisions such as whether to use SSL, or how to configure bindings, are out of scope for this article. See [Web Server (IIS)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831725(v=ws.11)) for more information about IIS.  
   
@@ -39,11 +39,11 @@ As you move forward with MSMDPUMP configuration, remember there are two connecti
 
 MSMDPUMP is an ISAPI extension that loads into IIS and provides redirection to a local or remote Analysis Services instance. By configuring this ISAPI extension, you create an HTTP endpoint to an Analysis Services instance.  
   
-You must create and configure one virtual directory for each HTTP endpoint. Each endpoint will need its own set of MSMDPUMP files, for each Analysis Services instance you want to connect to. A configuration file in this file set specifies the name of the Analysis Services instance used for each HTTP endpoint.  
+You have to create and configure one virtual directory for each HTTP endpoint. Each endpoint will need its own set of MSMDPUMP files for each Analysis Services instance you want to connect to. A configuration file in this file set specifies the name of the Analysis Services instance used for each HTTP endpoint.  
   
 On IIS, MSMDPUMP connects to Analysis Services using the Analysis Services OLE DB provider over TCP/IP. Although client requests can originate outside of domain trust, both Analysis Services and IIS must be in the same domain or in trusted domains in order for the native connection to succeed.  
   
-When MSMDPUMP connects to Analysis Services, it does so under a Windows user identity. This account will either be the Anonymous account if you configured the virtual directory for anonymous connections, or a Windows user account. The account must have the appropriate data access rights on the Analysis Services server and database.  
+When MSMDPUMP connects to Analysis Services, it uses a Windows user identity. This account will be the Anonymous account if you configured the virtual directory for anonymous connections, or a Windows user account. The account must have the appropriate data access rights on the Analysis Services server and database.  
   
 ![Diagram showing connections between components](../../analysis-services/instances/media/ssas.png "Diagram showing connections between components")  
   
@@ -52,7 +52,7 @@ The following table lists additional considerations when you enable HTTP access 
 |Scenario|Configuration|  
 |--------------|-------------------|  
 |IIS and Analysis Services on the same computer|This is the simplest configuration because it allows you to use the default configuration (where the server name is localhost), the local Analysis Services OLE DB provider, and Windows integrated security with NTLM. Assuming that the client is also in the same domain, authentication is transparent to the user, with no additional work on your part.|  
-|IIS and Analysis Services on different computers|For this topology, you must install the Analysis Services OLE DB provider on the web server. You must also edit the msmdpump.ini file to specify the location of Analysis Services instance on the remote computer.<br /><br /> This topology adds a double-hop authentication step, where credentials must flow from the client to the web server, and on to the backend Analysis Services server. If you are using Windows credentials and NTLM, you will get an error because NTLM does not allow delegation of client credentials to a second server. The most common solution is to use Basic authentication with Secure Sockets Layer (SSL), but this will require users to provide a user name and password when accessing the MSMDPUMP virtual directory. A more straightforward approach might be to enable Kerberos and configure Analysis Services constrained delegation so that users can access Analysis Services in a transparent manner. See [Configure Analysis Services for Kerberos constrained delegation](../../analysis-services/instances/configure-analysis-services-for-kerberos-constrained-delegation.md) for details.<br /><br /> Consider which ports to unblock in Windows Firewall. You will need to unblock ports on both servers to allow access to the web application on IIS, and to Analysis Services on a remote server.|  
+|IIS and Analysis Services on different computers|For this topology, you must install the Analysis Services OLE DB provider on the web server. You must also edit the msmdpump.ini file to specify the location of Analysis Services instance on the remote computer.<br /><br /> This topology adds a double-hop authentication step, where credentials must flow from the client to the web server, and on to the backend Analysis Services server. If you are using Windows credentials and NTLM, you'll get an error because NTLM doesn't allow delegation of client credentials to a second server. The most common solution is to use Basic authentication with Secure Sockets Layer (SSL), but this requires users to provide a username and password when accessing the MSMDPUMP virtual directory. A more straightforward approach might be to enable Kerberos and configure Analysis Services constrained delegation so that users can access Analysis Services in a transparent manner. See [Configure Analysis Services for Kerberos constrained delegation](../../analysis-services/instances/configure-analysis-services-for-kerberos-constrained-delegation.md) for details.<br /><br /> Consider which ports to unblock in Windows Firewall. You'll need to unblock ports on both servers to allow access to the web application on IIS, and to Analysis Services on a remote server.|  
 |Client connections are from a non-trusted domain or an extranet connection|Client connections from a non-trusted domain introduce further restrictions on authentication. By default, Analysis Services uses Windows integrated authentication, which requires users to be on the same domain as the server. If you have Extranet users who connect to IIS from outside the domain, those users will get a connection error if the server is configured to use the default settings.<br /><br /> Workarounds include having Extranet users connect through a VPN using domain credentials. However, a better approach might be to enable Basic authentication and SSL on your IIS web site.|  
   
 ## Prerequisites
@@ -83,7 +83,7 @@ The following table lists additional considerations when you enable HTTP access 
   
 1.  Go to the download page for [SQL Server 2014 Feature Pack](https://www.microsoft.com/download/details.aspx?id=42295)  
   
-2.  Click the red Download button.  
+2.  Select **Download**.  
   
 3.  Scroll down to find ENU\x64\SQL_AS_OLEDB.msi  
   
@@ -93,7 +93,7 @@ The following table lists additional considerations when you enable HTTP access 
 >  Remember to unblock the ports in Windows Firewall to allow client connections to a remote Analysis Services server. For more information, see [Configure the Windows Firewall to Allow Analysis Services Access](../../analysis-services/instances/configure-the-windows-firewall-to-allow-analysis-services-access.md).  
   
 ##  <a name="bkmk_copy"></a> Step 1: Copy the MSMDPUMP files to a folder on the Web server  
- Each HTTP endpoint that you create must have its own set of MSMDPUMP files. In this step, you copy the MSMDPUMP executable, configuration file, and resource folder from the Analysis Services program folders to a new virtual directory folder that you will create on the file system of the computer running IIS.  
+ Each HTTP endpoint that you create must have its own set of MSMDPUMP files. In this step, you copy the MSMDPUMP executable, configuration file, and resource folder from the Analysis Services program folders to a new virtual directory folder that you'll create on the file system of the computer running IIS.  
   
  The drive must be formatted for the NTFS file system. The path to the folder that you create must not contain any spaces.  
   
@@ -111,7 +111,8 @@ The following table lists additional considerations when you enable HTTP access 
   
     -   \<drive>:\inetpub\wwwroot\OLAP\MSMDPUMP.ini  
   
-    -   \<drive>:\inetpub\wwwroot\OLAP\Resources  
+    -   \<drive>:\inetpub\wwwroot\OLAP\Resources
+       
 > [!NOTE]  
 >  The IIS manager might not be able to connect to the Analysis Services in the current version if the Database is a backup from a previous one. This is caused by changes in the MSMDPUMP and should be solved by copying the msmdpump.dll file from the previous working version.
   
@@ -138,13 +139,13 @@ The following table lists additional considerations when you enable HTTP access 
   
      ![OLAP folder before converted to an app](../../analysis-services/instances/media/ssas-httpaccess-convertfolderbefore.png "OLAP folder before converted to an app")  
   
-2.  Right-click the folder and choose **Convert to Application**.  
+2.  Right-click the folder and select **Convert to Application**.  
   
-3.  In Add Application, enter **OLAP** for the alias. Click **Select** to choose the OLAP application pool. Physical Path should be set to C:\inetpub\wwwroot\OLAP  
+3.  In Add Application, enter **OLAP** for the alias. **Select** to choose the OLAP application pool. The physical path should be set to C:\inetpub\wwwroot\OLAP  
   
      ![Settings for converting application](../../analysis-services/instances/media/ssas-httpaccess-convertedapp.png "Settings for converting application")  
   
-4.  Click **OK**. Refresh the web site and notice that the OLAP folder is now an application under the default web site. The virtual path to the MSMDPUMP file is now established.  
+4.  Click **OK**. Refresh the website and notice that the OLAP folder is now an application under the default website. The virtual path to the MSMDPUMP file is now established.  
   
      ![OLAP folder after conversion to an application](../../analysis-services/instances/media/ssas-httpaccess-convertfolderafter.png "OLAP folder after conversion to an application")  
   
@@ -152,7 +153,7 @@ The following table lists additional considerations when you enable HTTP access 
 >  Previous versions of these instructions included steps for creating a virtual directory. That step is no longer necessary.  
   
 ##  <a name="bkmk_auth"></a> Step 3: Configure IIS authentication and add the extension  
- In this step, you further configure the SSAS virtual directory you just created. You will specify an authentication method and then add a script map. Supported authentication methods for Analysis Services over HTTP include:  
+ In this step, you continue to configure the SSAS virtual directory you just created. You'll specify an authentication method and then add a script map. Supported authentication methods for Analysis Services over HTTP include: 
   
 -   Windows authentication (Kerberos or NTLM)  
   
@@ -162,15 +163,15 @@ The following table lists additional considerations when you enable HTTP access 
   
  **Windows authentication** is considered the most secure, and leverages existing infrastructure for networks that use Active Directory. To use Windows authentication effectively, all browsers, client applications, and server applications must support it. This is the most secure and recommended mode, but it requires that IIS be able to access a Windows domain controller that can authenticate the identity of the user requesting a connection.  
   
- For topologies that put Analysis Services and IIS on different computers, you will need to address double-hop issues that arise when a user identity needs to be delegated to a second service on a remote machine, typically by enabling Analysis Services for Kerberos constrained delegation. For more information, see [Configure Analysis Services for Kerberos constrained delegation](../../analysis-services/instances/configure-analysis-services-for-kerberos-constrained-delegation.md).  
+ For topologies that put Analysis Services and IIS on different computers, you'll need to address double-hop issues that happen when a user identity needs to be delegated to a second service on a remote machine, typically by enabling Analysis Services for Kerberos constrained delegation. For more information, see [Configure Analysis Services for Kerberos constrained delegation](../../analysis-services/instances/configure-analysis-services-for-kerberos-constrained-delegation.md).  
   
  **Basic authentication** is used when you have Windows identities, but user connections are from non-trusted domains, prohibiting the use of delegated or impersonated connections. Basic authentication lets you specify a user identity and password on a connection string. Instead of using the security context of the current user, credentials on the connection string are used to connect to Analysis Services. Because Analysis Services supports only Windows authentication, any credentials passed to it must be a Windows user or group that is a member of the domain in which Analysis Services is hosted.  
   
  **Anonymous authentication** is often used during initial testing because its ease of configuration helps you to quickly validate HTTP connectivity to Analysis Services. In just a few steps, you can assign a unique user account as the identity, grant that account permissions in Analysis Services, use the account to verify data access in a client application, and then disable Anonymous authentication when testing is complete.  
   
- You can also use Anonymous authentication in a production environment if your users do not have Windows user accounts, but follow best practices by locking down permissions on the host system, as called out in this article: [Enable Anonymous Authentication (IIS 7)](https://technet.microsoft.com/library/cc731244\(v=ws.10\).aspx). Be sure that authentication is set on the virtual directory, and not on the parent web site, to further reduce the level of account access.  
+ You can also use Anonymous authentication in a production environment if your users don't have Windows user accounts, but follow best practices by locking down permissions on the host system, as called out in this article: [Enable Anonymous Authentication (IIS 7)](https://technet.microsoft.com/library/cc731244\(v=ws.10\).aspx). Be sure that authentication is set on the virtual directory, and not on the parent website, to further reduce the level of account access.  
   
- When Anonymous is enabled, any user connection to the HTTP endpoint is allowed to connect as the anonymous user. You won't be able to audit individual user connections, nor use the user identity to select data from a model. As you can see, using Anonymous impacts everything from model design, to data refresh and access. However, if users do not have a Windows user login to start with, using the Anonymous account might be your only option.  
+ When Anonymous is enabled, any user connection to the HTTP endpoint is allowed to connect as the anonymous user. You won't be able to audit individual user connections or use the user identity to select data from a model. As you can see, using Anonymous affects everything from model design to data refresh and access. However, if users don't have a Windows user login to start with, using the Anonymous account might be your only option.  
   
 #### Set the authentication type and add a script map  
   
@@ -184,12 +185,12 @@ The following table lists additional considerations when you enable HTTP access 
   
      ![Screenshot of Vdir Authentication settings](../../analysis-services/instances/media/ssas-httpaccess-iisauth.png "Screenshot of Vdir Authentication settings")  
   
-4.  Alternatively, enable **Basic Authentication** if your client and server applications are in different domains. This mode requires the user to enter a user name and password. The user name and password are transmitted over the HTTP connection to IIS. IIS will try to impersonate the user using the provided credentials when connecting to MSMDPUMP, but the credentials will not be delegated to Analysis Services. Instead, you will need to pass a valid user name and password on a connection, as described in Step 6 in this document.  
+4.  Alternatively, enable **Basic Authentication** if your client and server applications are in different domains. This mode requires the user to enter a username and password. The username and password are transmitted over the HTTP connection to IIS. IIS will try to impersonate the user using the provided credentials when connecting to MSMDPUMP, but the credentials won't be delegated to Analysis Services. Instead, you'll need to pass a valid username and password on a connection, as described in Step 6 below.  
   
     > [!IMPORTANT]  
-    >  Please note that it is imperative for anyone building a system where the password is transmitted to have ways of securing the communication channel. IIS provides a set of tools that help you secure the channel. For more information, see [How to Set Up SSL on IIS 7](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).  
+    >  Please note that it is important for anyone building a system where the password is transmitted, to have ways of securing the communication channel. IIS provides a set of tools that help you secure the channel. For more information, see [How to Set Up SSL on IIS 7](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).  
   
-5.  Disable **Anonymous Authentication** if you are using Windows or Basic authentication. When Anonymous authentication is enabled, IIS will always use it first, even if other authentication methods are enabled.  
+5.  Disable **Anonymous Authentication** if you're using Windows or Basic authentication. When Anonymous authentication is enabled, IIS will always use it first, even if other authentication methods are enabled.  
   
      Under Anonymous authentication, the pump (msmdpump.dll) runs as the user account you established for anonymous user. There is no distinction between the user connecting to IIS and the user connecting to Analysis Services. By default, IIS uses the IUSR account, but you can change it to a domain user account that has network permissions. You'll need this capability if IIS and Analysis Services are on different computers.  
   
@@ -226,14 +227,14 @@ The following table lists additional considerations when you enable HTTP access 
   
  If the Analysis Services instance for which you are configuring HTTP access is located on the local computer and installed as a default instance, there is no reason to change this setting. Otherwise, you must specify the server name (for example, \<ServerName>ADWRKS-SRV01\</ServerName>). For a server that is installed as a named instance, be sure to append the instance name (for example, \<ServerName>ADWRKS-SRV01\Tabular\</ServerName>).  
   
- By default, Analysis Services listens on TCP/IP port 2383. If you installed Analysis Services as the default instance, you do not need to specify any port in \<ServerName> because Analysis Services knows how to listen on port 2383 automatically. However, you do need to allow inbound connections to that port in Windows Firewall. For more information, see [Configure the Windows Firewall to Allow Analysis Services Access](../../analysis-services/instances/configure-the-windows-firewall-to-allow-analysis-services-access.md).  
+ By default, Analysis Services listens on TCP/IP port 2383. If you installed Analysis Services as the default instance, you don't need to specify any port in \<ServerName> because Analysis Services knows how to listen on port 2383 automatically. However, you do need to allow inbound connections to that port in Windows Firewall. For more information, see [Configure the Windows Firewall to Allow Analysis Services Access](../../analysis-services/instances/configure-the-windows-firewall-to-allow-analysis-services-access.md).  
   
  If you configured a named or default instance of Analysis Services to listen on a fixed port, you must add the port number to the server name (for example, \<ServerName>AW-SRV01:55555\</ServerName>) and you must allow inbound connections in Windows Firewall to that port.  
   
 ## Step 5: Grant data access permissions  
- As previously noted, you will need to grant permissions on the Analysis Services instance. Each database object will have roles that provide a given level of permissions (read or read/write), and each role will have members consisting of Windows user identities.  
+ As previously noted, you'll need to grant permissions on the Analysis Services instance. Each database object will have roles that provide a given level of permissions (read or read/write), and each role will have members consisting of Windows user identities.  
   
- To set permissions, you can use SQL Server Management Studio. Under the **Database** | **Roles** folder, you can create roles, specify database permissions, assign membership to Windows user or group accounts, and then grant read or write permissions on specific objects. Typically, **Read** permissions on a cube are sufficient for client connections that use, but do not update, model data.  
+ To set permissions, you can use SQL Server Management Studio. Under the **Database** | **Roles** folder, you can create roles, specify database permissions, assign membership to Windows user or group accounts, and then grant read or write permissions on specific objects. Typically, **Read** permissions on a cube are sufficient for client connections that use model data but don't update it.  
   
  Role assignment varies depending on how you configured authentication.  
   
@@ -265,7 +266,7 @@ If you are working in a test environment and you don't have any concerns about l
 
 **Production Environments**
 
-If you are setting up a production environment for connections to your SSAS instance you should configure SSL on your IIS site using the following instructions: [How to Set Up SSL on IIS 7](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).
+If you're setting up a production environment for connections to your SSAS instance you should configure SSL on your IIS site using the following instructions: [How to Set Up SSL on IIS 7](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).
 
 ##  <a name="bkmk_test"></a> Step 7: Test your configuration  
  The connection string syntax for MSMDPUMP is the URL to the MSMDPUMP.dll file.  
@@ -274,7 +275,7 @@ If you are setting up a production environment for connections to your SSAS inst
   
  To quickly test the connection, you can open a connection using Internet Explorer, Microsoft Excel, or SQL Server Management Studio.  
   
- **Troubleshoot  connections using Internet Explorer**  
+ **Troubleshoot connections using Internet Explorer**  
   
  A connection request that terminates with this error might not give you much to go on:  "Either a connection cannot be made to '\<server name>', or Analysis Service is not running on the server".  
   
@@ -304,7 +305,7 @@ If you are setting up a production environment for connections to your SSAS inst
   
 3.  For Log on credentials, choose **Use Windows Authentication** if you are using Windows integrated security or NTLM, or Anonymous user.  
   
-     For Basic authentication, choose **Use the following User Name and Password**, and then specify the credentials used to sign on. The credentials you provide will be passed on the connection string to Analysis Services.  
+     For Basic authentication, choose **Use the following User Name and Password**, and then specify the credentials used to sign in. The credentials you provide will be passed on the connection string to Analysis Services.  
   
  **Test connections using AMO**  
   
