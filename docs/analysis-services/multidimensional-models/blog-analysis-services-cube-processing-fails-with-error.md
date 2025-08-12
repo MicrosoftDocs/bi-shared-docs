@@ -7,6 +7,7 @@ ms.reviewer: kfollis
 ms.service: analysis-services
 ms.topic: conceptual
 ms.date: 04/13/2019
+ms.custom: sfi-image-nochange
 ---
 
 # Troubleshoot the Analysis Services error "OLE DB error: OLE DB or ODBC error: Operation canceled; HY008"

@@ -7,6 +7,7 @@ ms.author: kfollis
 ms.reviewer: kfollis
 ms.topic: conceptual
 ms.date: 05/06/2019
+ms.custom: sfi-image-nochange
 ---
 
 # Analysis Services stops accepting new connections
