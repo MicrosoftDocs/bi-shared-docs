@@ -7,6 +7,7 @@ ms.topic: tutorial
 ms.author: kfollis
 ms.reviewer: kfollis
 author: kfollis
+ms.custom: sfi-image-nochange
 ---
 # Deploy
 
