@@ -3,11 +3,13 @@ title: "Programming Power BI semantic models with the Tabular Object Model (TOM)
 description: Overview of using the Tabular Object Model to create, view, and manage Power BI semantic models through the XMLA endpoint.
 ms.date: 12/01/2021
 ms.service: analysis-services
-ms.custom: tabular-models
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
 author: tedpattison
+ms.custom:
+  - tabular-models
+  - sfi-ropc-nochange
 
 ---
 # Programming Power BI semantic models with the Tabular Object Model (TOM)

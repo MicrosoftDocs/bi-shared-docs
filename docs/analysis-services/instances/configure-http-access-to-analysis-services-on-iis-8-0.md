@@ -10,6 +10,7 @@ author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ms.custom:
   - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 # Configure HTTP Access to Analysis Services on IIS 8.0
 
