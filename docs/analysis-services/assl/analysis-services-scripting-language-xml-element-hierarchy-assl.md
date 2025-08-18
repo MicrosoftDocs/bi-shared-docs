@@ -3,11 +3,13 @@ title: "Analysis Services Scripting Language XML Element Hierarchy (ASSL) | Micr
 description: See a table that displays the hierarchy of objects in the Analysis Services Scripting Language (ASSL).
 ms.date: 10/31/2023
 ms.service: analysis-services
-ms.custom: assl
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
 author: kfollis
+ms.custom:
+  - assl
+  - sfi-ropc-nochange
 
 ---
 # Analysis Services Scripting Language XML Element Hierarchy (ASSL)
