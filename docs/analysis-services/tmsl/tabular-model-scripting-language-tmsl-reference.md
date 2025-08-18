@@ -44,11 +44,11 @@ author: kfollis
   
 ## Model definition schema
 
- The following snippet shows an abbreviated version of the schema, collapsed to show the major objects.  
+ The following snippet shows an abbreviated version of the schema for database compatibility level 1200 and above, collapsed to show the major objects.  
 
 ```json
-{
-  "description": "Tabular model definition at compatibility level 1200",
+"database": {
+  "description": "Database object of Tabular Object Model (TOM)",
   "type": "object",
   "properties": {
     "name": {...},
@@ -57,7 +57,7 @@ author: kfollis
     "compatibilityLevel": {...},
     "readWriteMode": {...},
     "model": {
-      "description": "Model object definition",
+      "description": "Model object of Tabular Object Model (TOM)",
       "type": "object",
       "properties": {
         "name": {...},
@@ -68,13 +68,13 @@ author: kfollis
         "culture": {...},
         "collation": {...},
         "annotations": {...},
-        "cultures": {...},
-        "dataSources": {...},
-        "functions": {...},
-        "perspectives": {...},
+        "tables": {...},
         "relationships": {...},
+        "dataSources": {...},
+        "perspectives": {...},
+        "cultures": {...},
         "roles": {...},
-        "tables": {...}
+        // "functions": {...}, // For database compatibility level 1702 and above
       },
       "additionalProperties": false
     }
