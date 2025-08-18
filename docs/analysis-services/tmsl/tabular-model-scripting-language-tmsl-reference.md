@@ -46,7 +46,7 @@ author: kfollis
 
  The following snippet shows an abbreviated version of the schema for database compatibility level 1200 and above, collapsed to show the major objects.  
 
-```json
+```json5
 "database": {
   "description": "Database object of Tabular Object Model (TOM)",
   "type": "object",
