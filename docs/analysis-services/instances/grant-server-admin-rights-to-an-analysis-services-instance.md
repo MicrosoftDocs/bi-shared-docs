@@ -3,12 +3,13 @@ title: "Grant server admin rights to an  Analysis Services instance | Microsoft 
 description: Learn how and when to grant server administrator rights for a SQL Server Analysis Services instance.
 ms.date: 05/02/2018
 ms.service: analysis-services
-ms.custom:
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
 author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
+ms.custom:
+  - sfi-ropc-nochange
 ---
 # Grant server admin rights to an  Analysis Services instance
 [!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]

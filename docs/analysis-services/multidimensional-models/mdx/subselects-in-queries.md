@@ -3,11 +3,13 @@ title: "Subselects in Queries | Microsoft Docs"
 description: Learn how subselect expressions are nested SELECT expressions that are used to restrict the space of the cube from where the outer external SELECT is being evaluated.
 ms.date: 05/02/2018
 ms.service: analysis-services
-ms.custom: mdx
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
 author: kfollis
+ms.custom:
+  - mdx
+  - sfi-ropc-nochange
 
 ---
 # Subselects in Queries
