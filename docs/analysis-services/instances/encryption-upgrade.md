@@ -3,12 +3,13 @@ title: "Upgrade encryption schema (SQL Server 2022 Analysis Services) | Microsof
 description: Learn about upgrading SQL Server 2022 tabular and multidimensional databases to the latest encryption.  
 ms.date: 02/09/2023
 ms.service: analysis-services
-ms.custom:
 ms.topic: conceptual
 ms.author: kfollis
 ms.reviewer: kfollis
 author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2022"
+ms.custom:
+  - sfi-ropc-nochange
 ---
 # Enhanced encryption
 

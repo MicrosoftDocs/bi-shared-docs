@@ -3,11 +3,13 @@ title: "Create command (TMSL) | Microsoft Docs"
 description: Use the Create command to create the specified object and all of the descendant objects that are specified.
 ms.date: 04/20/2021
 ms.service: analysis-services
-ms.custom: tmsl
 ms.topic: reference
 ms.author: kfollis
 ms.reviewer: kfollis
 author: kfollis
+ms.custom:
+  - tmsl
+  - sfi-ropc-nochange
 
 ---
 # Create command (TMSL)
