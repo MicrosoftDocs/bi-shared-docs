@@ -108,7 +108,7 @@ And *root files* for:
 - relationships
 - expressions
 - datasources
-- DAX User Defined Functions
+- functions ([DAX User Defined Functions](todo.md))
 
 Here's an example of a TMDL folder:
 
@@ -120,7 +120,7 @@ Definitions include:
 - One file for model definition.
 - One file for *all* datasources in the model.
 - One file for *all* expressions in the model.
-- One file for *all* DAX User Defined Functions in the model.
+- One file for *all* functions ([DAX User Defined Functions](todo.md)) in the model.
 - One file for *all* relationships in the model.
 - One file for *each* culture linguistic schema.
 - One file for *each* perspective.
