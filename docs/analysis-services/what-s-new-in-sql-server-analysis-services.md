@@ -9,7 +9,7 @@ ms.reviewer: kfollis
 author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
-# What's new in SQL Server Analysis Services
+# What's new in SQL Server Analysis Services 
 
 [!INCLUDE[appliesto-sqlas-all](includes/appliesto-sqlas-all.md)]
 
@@ -17,7 +17,7 @@ This article summarizes new features, improvements, deprecated and discontinued 
 
 ::: moniker range="asallproducts-allversions || sql-analysis-services-2025"  
 
-## SQL Server 2025 Analysis Services
+## SQL Server 2025 Analysis Services (Preview)
 
 ### Performance improvements
 
@@ -90,6 +90,12 @@ We have removed Excel PowerPivot for SharePoint mode from the installer. This fe
 #### SQL Client assembly update
 
 SSAS 2025 now uses a newer SQL client library. Customers may need to update model definitions to reflect the new provider name (Microsoft.Data.SqlClient).
+
+### Known Issues
+
+#### Windows Arm64 not supported
+
+SSAS 2025 is not supported on Windows Arm64. Only Intel and AMD x86-64 CPUs with [up to 64 cores per NUMA node](https://github.com/MicrosoftDocs/sql-docs-pr/blob/release-2025-rc0/docs/sql-server/compute-capacity-limits-by-edition-of-sql-server.md#numa-64) are currently supported.
 
 ::: moniker-end  
 
