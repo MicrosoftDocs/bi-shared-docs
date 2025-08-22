@@ -411,6 +411,7 @@ The following properties are treated as expressions:
 |Object Type |Property  |Expression language  |
 |---------|---------|---------|
 |Measure     |   Expression     |     DAX    |
+|Function     |   Expression     |     DAX    |
 |MPartitionSource     |    Expression     |    M     |
 |CalculatedPartitionSource    |    Expression     |   DAX      |
 |QueryPartitionSource     |    Query     |    NativeQuery    |
@@ -434,6 +435,7 @@ The following table shows default property and expression language by object typ
 |Object type    |Default property  |Expression language  |
 |---------|---------|---------|
 |Measure     |  Expression       |    DAX     |
+|Function     |   Expression     |     DAX    |
 |CalculatedColumn    |  Expression       |    DAX     |
 |CalculationItem    |  Expression       |   DAX      |
 |FormatStringDefinition     |  Expression      |   DAX      |
