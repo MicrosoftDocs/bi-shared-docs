@@ -112,7 +112,30 @@ And *root files* for:
 
 Here's an example of a TMDL folder:
 
-:::image type="content" source="media/folder-tmdl-dataset.png" alt-text="Folder with a TMDL representation of a model":::
+```md
+TMDL/
+├── cultures/
+│   ├── en-US.tmdl
+│   └── pt-PT.tmdl
+├── perspectives/
+│   └── perspective1.tmdl
+├── roles/
+│   ├── role1.tmdl
+│   └── role2.tmdl
+├── tables/
+│   ├── About.tmdl
+│   ├── Calendar.tmdl
+│   ├── Customer.tmdl
+│   ├── Product.tmdl
+│   ├── Sales.tmdl
+│   └── Store.tmdl
+├── relationships.tmdl
+├── expressions.tmdl
+├── dataSources.tmdl
+├── functions.tmdl
+├── model.tmdl
+└── database.tmdl
+```
 
 Definitions include:
 
