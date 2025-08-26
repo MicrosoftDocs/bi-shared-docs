@@ -130,9 +130,9 @@ TMDL/
 │   ├── Sales.tmdl
 │   └── Store.tmdl
 ├── relationships.tmdl
+├── functions.tmdl
 ├── expressions.tmdl
 ├── dataSources.tmdl
-├── functions.tmdl
 ├── model.tmdl
 └── database.tmdl
 ```
