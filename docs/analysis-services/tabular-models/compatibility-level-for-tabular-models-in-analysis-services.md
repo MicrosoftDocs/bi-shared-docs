@@ -16,12 +16,13 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
   The *compatibility level* refers to release-specific behaviors in the Analysis Services engine. For example, DirectQuery and tabular object metadata have different implementations depending on the compatibility level. In-general, you should choose the latest compatibility level supported by your platform.
 
-  **The latest supported compatibility level is 1600**
+  **The latest supported compatibility level is 1700**
   
 ## Supported compatibility levels by version
   
 | Compatibility level | Server version |
 | ------------------- | -------------- |
+|1700|Power BI Premium, Azure Analysis Services, SQL Server 2025 |
 |1600|Power BI Premium, Azure Analysis Services, SQL Server 2022 |
 |1500|Power BI Premium, Azure Analysis Services, SQL Server 2022, SQL Server 2019 |
 |1400|Azure Analysis Services, SQL Server 2022, SQL Server 2019, SQL Server 2017 |  
