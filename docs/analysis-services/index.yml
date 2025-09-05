@@ -63,7 +63,7 @@ landingContent:
           - text: Install SQL Server Analysis Services
             url: instances/install-windows/install-analysis-services.md
           - text: Install SQL Server evaluation editions
-            url: https://www.microsoft.com/evalcenter/evaluate-sql-server-2019-rc/
+            url: https://www.microsoft.com/evalcenter/evaluate-sql-server-2019/
           - text: SQL Server 2014 Analysis Services
             url: /previous-versions/sql/2014/analysis-services/analysis-services?preserve-view=true&view=sql-server-2014
             

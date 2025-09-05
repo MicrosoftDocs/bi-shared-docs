@@ -248,7 +248,7 @@ For more information on the architecture of cube processing, see [Analysis Servi
 
 ## Aggregation memory impact on timeouts
 
-There's an advanced setting of **AggregationMemoryLimitMax**. For more information, see [this blog post](http://geekswithblogs.net/ManicArchitect/archive/2010/11/02/142558.aspx)
+There's an advanced setting of **AggregationMemoryLimitMax**.
 
 SQL Server Analysis Services uses memory quota to control the number of concurrent jobs. Each job calculates how much memory it needs to finish the job and requests the memory quota based on its estimate. The job proceeds only when the memory quota is granted. We estimate the quota for an aggregation job. The configuration settings that control the memory usage estimates are **AggregationMemoryLimitMin** and **AggregationMemoryLimitMax**.
 
