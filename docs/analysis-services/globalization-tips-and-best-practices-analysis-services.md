@@ -123,7 +123,7 @@ These tips and guidelines can help increase the portability of your multidimensi
   
 3. **Use ISO date formats for universal date and time information**  
   
-     One [Analysis Services expert](http://geekswithblogs.net/darrengosbell/Default.aspx) has this recommendation: "I always use the ISO date format yyyy-mm-dd for any date strings that I pass in to queries in SQL or MDX because it's unambiguous and will work regardless of the client or server's regional settings. I would agree that the server should defer to its regional settings when parsing an ambiguous date format, but I also think that if you've got an option that is not open to interpretation that you are better choosing that anyway".  
+     One [Analysis Services expert](https://darren.gosbell.com/) has this recommendation: "I always use the ISO date format yyyy-mm-dd for any date strings that I pass in to queries in SQL or MDX because it's unambiguous and will work regardless of the client or server's regional settings. I would agree that the server should defer to its regional settings when parsing an ambiguous date format, but I also think that if you've got an option that is not open to interpretation that you are better choosing that anyway".  
   
 4. **Use the Format function to enforce a specific format, regardless of regional language settings**  
   
