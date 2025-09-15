@@ -67,6 +67,27 @@ SSAS 2025 includes support for multiple new DAX functions and improvements inclu
 
 - __MINX/MAXX:__ We added an optional variant parameter to MINX and MAXX DAX functions. Traditionally, these functions ignore text and Boolean values when there are variants or mixed data types, such as text and numeric. Now with the new optional variant parameter set to TRUE, the functions consider the text values. For more details, visit [MINX DAX function](/dax/minx-function-dax) and [MAXX DAX function](/dax/maxx-function-dax).
 
+### New developer editions
+> [!Note]
+> Full edition and feature support for SQL Server Analysis Services 2025 isn't completely documented until the product is generally available (GA). The features and editions described in this article are subject to change until GA.
+
+The following free editions are designed to provide all the features of their corresponding paid editions. They can be used to develop SQL Server applications without requiring a paid license.
+
+For features by edition, review [Features supported by SQL Server Edition](https://learn.microsoft.com/en-us/analysis-services/analysis-services-features-by-edition?view=sql-analysis-services-2025)
+
+The editions and supported features for SQL Server 2025 (17.x) Preview are subject to change until the product is generally available.
+
+### Standard Developer edition
+SQL Server 2025 Standard Developer edition is a free edition licensed for development. It includes all features of SQL Server Standard edition.
+* Develop new applications for Standard edition.
+* Set up a staging environment to certify the upgrade of an existing application from the Standard edition to SQL Server 2025 Standard edition before deploying it in production.
+
+### Enterprise Developer edition
+SQL Server 2025 Enterprise Developer edition includes SQL Server Enterprise edition features.
+
+* Develop new applications for Enterprise edition.
+* Functionally equivalent to Developer edition in previous versions.
+
 ### Additional features
 
 #### Client library updates
