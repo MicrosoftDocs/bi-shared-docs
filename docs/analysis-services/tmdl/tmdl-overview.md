@@ -108,10 +108,34 @@ And *root files* for:
 - relationships
 - expressions
 - datasources
+- functions ([DAX User Defined Functions](/query-languages/dax/best-practices/dax-user-defined-functions)
 
 Here's an example of a TMDL folder:
 
-:::image type="content" source="media/folder-tmdl-dataset.png" alt-text="Folder with a TMDL representation of a model":::
+```md
+TMDL/
+├── cultures/
+│   ├── en-US.tmdl
+│   └── pt-PT.tmdl
+├── perspectives/
+│   └── perspective1.tmdl
+├── roles/
+│   ├── role1.tmdl
+│   └── role2.tmdl
+├── tables/
+│   ├── About.tmdl
+│   ├── Calendar.tmdl
+│   ├── Customer.tmdl
+│   ├── Product.tmdl
+│   ├── Sales.tmdl
+│   └── Store.tmdl
+├── relationships.tmdl
+├── functions.tmdl
+├── expressions.tmdl
+├── dataSources.tmdl
+├── model.tmdl
+└── database.tmdl
+```
 
 Definitions include:
 
@@ -119,6 +143,7 @@ Definitions include:
 - One file for model definition.
 - One file for *all* datasources in the model.
 - One file for *all* expressions in the model.
+- One file for *all* functions ([DAX User Defined Functions](/query-languages/dax/best-practices/dax-user-defined-functions)) in the model.
 - One file for *all* relationships in the model.
 - One file for *each* culture linguistic schema.
 - One file for *each* perspective.
@@ -409,6 +434,7 @@ The following properties are treated as expressions:
 |Object Type |Property  |Expression language  |
 |---------|---------|---------|
 |Measure     |   Expression     |     DAX    |
+|Function     |   Expression     |     DAX    |
 |MPartitionSource     |    Expression     |    M     |
 |CalculatedPartitionSource    |    Expression     |   DAX      |
 |QueryPartitionSource     |    Query     |    NativeQuery    |
@@ -432,6 +458,7 @@ The following table shows default property and expression language by object typ
 |Object type    |Default property  |Expression language  |
 |---------|---------|---------|
 |Measure     |  Expression       |    DAX     |
+|Function     |   Expression     |     DAX    |
 |CalculatedColumn    |  Expression       |    DAX     |
 |CalculationItem    |  Expression       |   DAX      |
 |FormatStringDefinition     |  Expression      |   DAX      |
