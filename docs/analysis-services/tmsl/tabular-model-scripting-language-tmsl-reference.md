@@ -44,9 +44,44 @@ author: kfollis
   
 ## Model definition schema
 
- The following screenshot shows an abbreviated version of the schema, collapsed to show the major objects.  
-  
- ![SSAS_TabularMetadata](media/ssas-tabularmetadata.png)  
+ The following snippet shows an abbreviated version of the schema for database compatibility level 1200 and above, collapsed to show the major objects.  
+
+```json5
+"database": {
+  "description": "Database object of Tabular Object Model (TOM)",
+  "type": "object",
+  "properties": {
+    "name": {...},
+    "id": {...},
+    "description": {...},
+    "compatibilityLevel": {...},
+    "readWriteMode": {...},
+    "model": {
+      "description": "Model object of Tabular Object Model (TOM)",
+      "type": "object",
+      "properties": {
+        "name": {...},
+        "description": {...},
+        "storageLocation": {...},
+        "defaultMode": {...},
+        "defaultDataView": {...},
+        "culture": {...},
+        "collation": {...},
+        "annotations": {...},
+        "tables": {...},
+        "relationships": {...},
+        "dataSources": {...},
+        "perspectives": {...},
+        "cultures": {...},
+        "roles": {...},
+        // "functions": {...}, // For database compatibility level 1702 and above
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
+```
   
 ## Scripting languages in Analysis Services
 
