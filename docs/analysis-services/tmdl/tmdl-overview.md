@@ -108,7 +108,7 @@ And *root files* for:
 - relationships
 - expressions
 - datasources
-- functions ([DAX User Defined Functions](/query-languages/dax/best-practices/dax-user-defined-functions)
+- functions ([DAX User Defined Functions](/dax/best-practices/dax-user-defined-functions)
 
 Here's an example of a TMDL folder:
 
@@ -143,7 +143,7 @@ Definitions include:
 - One file for model definition.
 - One file for *all* datasources in the model.
 - One file for *all* expressions in the model.
-- One file for *all* functions ([DAX User Defined Functions](/query-languages/dax/best-practices/dax-user-defined-functions)) in the model.
+- One file for *all* functions ([DAX User Defined Functions](/dax/best-practices/dax-user-defined-functions) in the model.
 - One file for *all* relationships in the model.
 - One file for *each* culture linguistic schema.
 - One file for *each* perspective.
