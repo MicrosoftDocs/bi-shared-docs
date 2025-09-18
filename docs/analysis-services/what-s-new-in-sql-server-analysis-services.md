@@ -81,6 +81,10 @@ SSAS now supports updated Unicode standards by providing Unicode surrogate pair 
 
 Execution metrics are now exposed via XEvents and Profiler traces, enabling customers to analyze query performance more effectively.
 
+#### Failover cluster support
+
+For more details, see this article on [Upgraded Encryption Schema](/analysis-services/instances/encryption-upgrade?view=sql-analysis-services-2025).
+
 ### Deprecated features and breaking changes in SSAS 2025
 
 #### Excel PowerPivot for SharePoint deprecated
