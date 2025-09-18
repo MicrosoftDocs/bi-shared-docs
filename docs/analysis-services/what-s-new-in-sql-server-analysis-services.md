@@ -97,7 +97,7 @@ SSAS 2025 now uses a newer SQL client library. Customers may need to update mode
 
 #### HTTP access changes
 
-Starting with SQL Server Analysis Services 2025, HTTP connections through msmdpump.dll will be disabled by default. For more details, see [Configure HTTP Access](/analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0?view=sql-analysis-services-2025).
+Starting with SQL Server Analysis Services 2025, HTTP connections through msmdpump.dll will be disabled by default. All connections through msmdpump.dll must be made through a secure channel like HTTPS. For more details, see [Configure HTTP Access](/analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0?view=sql-analysis-services-2025).
 
 ### Known Issues
 
