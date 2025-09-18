@@ -91,6 +91,10 @@ We have removed Excel PowerPivot for SharePoint mode from the installer. This fe
 
 SSAS 2025 now uses a newer SQL client library. Customers may need to update model definitions to reflect the new provider name (Microsoft.Data.SqlClient).
 
+#### HTTP access changes
+
+Starting with SQL Server Analysis Services 2025, HTTP connections through msmdpump.dll will be disabled by default. For more details, see [Configure HTTP Access](/analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0?view=sql-analysis-services-2025).
+
 ### Known Issues
 
 #### Windows Arm64 not supported
