@@ -81,6 +81,10 @@ SSAS now supports updated Unicode standards by providing Unicode surrogate pair 
 
 Execution metrics are now exposed via XEvents and Profiler traces, enabling customers to analyze query performance more effectively.
 
+#### Failover cluster support
+
+For more details, see this article on [Upgraded Encryption Schema](/analysis-services/instances/encryption-upgrade?view=sql-analysis-services-2025).
+
 ### Deprecated features and breaking changes in SSAS 2025
 
 #### Excel PowerPivot for SharePoint deprecated
@@ -90,6 +94,10 @@ We have removed Excel PowerPivot for SharePoint mode from the installer. This fe
 #### SQL Client assembly update
 
 SSAS 2025 now uses a newer SQL client library. Customers may need to update model definitions to reflect the new provider name (Microsoft.Data.SqlClient).
+
+#### HTTP access changes
+
+Starting with SQL Server Analysis Services 2025, HTTP connections through msmdpump.dll will be disabled by default. All connections through msmdpump.dll must be made through a secure channel like HTTPS. For more details, see [Configure HTTP Access](/analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0?view=sql-analysis-services-2025).
 
 ### Known Issues
 
