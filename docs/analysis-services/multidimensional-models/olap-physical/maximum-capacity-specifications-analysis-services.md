@@ -81,8 +81,10 @@ The following are theoretical limits. Performance will be diminished at lower nu
 |Hierarchies in a table|15,999|  
 |Levels in a hierarchy|15,999|  
 |Relationships|8,000|  
-|Key Columns in all table|15,999|  
-|Measures in a tables|2^31-1 = 2,147,483,647|  
+|Roles in a database|1,000|  
+|Members in a role|2,000|  
+|Key Columns in all tables|15,999|  
+|Measures in a table|2^31-1 = 2,147,483,647|  
 |Cells returned by a query|2^31-1 = 2,147,483,647|  
 |Record size of the source query|64K|  
 |Length of object names|512 characters|  
