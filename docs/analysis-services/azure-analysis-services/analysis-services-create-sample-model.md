@@ -17,7 +17,7 @@ In this tutorial, you add a sample Adventure Works tabular model database to you
 > * Add a completed sample tabular data model to a server 
 > * Connect to the model with SSMS
 
-If you don't have an Azure subscription, [create a free account](https://azure.microsoft.com/free/) before you begin.
+If you don't have an Azure subscription, [create a free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn) before you begin.
 
 ## Prerequisites
 
