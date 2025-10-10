@@ -39,7 +39,7 @@ If you intend to deploy to SQL Server 2017 Analysis Services, you can still comp
 
 To complete lessons 1-12, you need:  
 
-- An Azure subscription. If you don't already have a subscription, create a [free account](https://azure.microsoft.com/free/).
+- An Azure subscription. If you don't already have a subscription, create a [free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 - An [Azure Synapse Analytics](/azure/sql-data-warehouse/create-data-warehouse-portal) (SQL Data Warehouse) named **AdventureWorksDW** with the sample **AdventureWorksDW database**. If using a paid subscription, after completing this tutorial, you can pause or delete this resource in the portal to prevent unwanted charges.
 
