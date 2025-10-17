@@ -1,34 +1,34 @@
 ---
 title: "UpdateCulture command (TMSL) | Microsoft Docs"
-description: Learn about properties and usage of the UpdateCulture command, which updates the culture or collation of a database.
+description: Learn about properties and usage of the UpdateCulture command, which updates the culture or collation of a tabular database.
 ms.date: 10/16/2025
 ms.service: analysis-services
 ms.custom: tmsl
 ms.topic: reference
-ms.author: 
-ms.reviewer: 
-author: 
+ms.author: kayu
+ms.reviewer: kayu
+author: kayu
 
 ---
 # UpdateCulture command (TMSL)
 
-[!INCLUDE[appliesto-sqlas-all-aas-pbip](../includes/appliesto-sqlas-all-aas-pbip.md)]
+[!INCLUDE[appliesto-sql2025-later-aas-pbip](../includes/appliesto-sql2025-later-aas-pbip.md)]
 
-  Updates the culture or collation of a database.  
+  Updates the culture or collation of a tabular database at compatibility level 1200 or higher.  
   
 ## Request  
   
 ```json   
-{ 
+{  
    "updateCulture": {  
       "database": "AdventureWorksDW2014",  
       "culture": "en-US",  
       "collation": "Latin1_General_CI_AS"  
    }  
-} 
+}  
 ```  
   
- The properties accepted by the JSON updateCulture command are as follows.  
+ The updateCulture command has the following properties.  
   
 | Property | Default | Description |
 | -------- | ------- | ----------- |
@@ -50,16 +50,14 @@ author:
   
 - As an input to an SSIS task or SQL Server Agent job  
   
- You cannot generate a ready-made script for this command from SSMS. Instead, you can start with an example or write your own.  
+ You cannot generate a ready-made script for this command from SSMS. Instead, you can start with the above example.   
 
 ## Important Notes and Limitations  
 
- Changing the culture or collation of a semantic model is a breaking operation.  
+ Changing the culture or collation of a semantic model is a high-impact operation.  
 
-- Across all products: Updating either setting clears the VertiPaq in-memory data store — effectively performing a full process clear. The model must be fully refreshed before it can serve queries again.  
+- Across all versions of Analysis Services: For semantic models in import mode, updating the culture or collation clears the VertiPaq in-memory data store — effectively performing a full process-clear operation. You must subsequently perform a full data refresh to ensure consistency of linguistic and sorting rules and bring the model back into queryable state.  
 
-- SQL Server Analysis Services / Azure Analysis Services: You must re-enter data source credentials for all data connections after making this change.  
+- SQL Server Analysis Services / Azure Analysis Services: You must re-enter data source credentials for all data connections after updating the culture or collation.  
 
-- Recommendation: Always backup or save a version (Power BI) of your semantic model before modifying culture or collation.  
-
- This behavior is by design to ensure internal consistency of linguistic and sorting rules across all model objects.  
+- Always backup your semantic model before modifying the culture or collation.  
