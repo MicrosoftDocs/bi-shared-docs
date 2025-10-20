@@ -12,7 +12,7 @@ author: kayu
 ---
 # UpdateCulture command (TMSL)
 
-[!INCLUDE[appliesto-sql2025-later-aas-pbip](../includes/appliesto-sql2025-later-aas-pbip.md)]
+[!INCLUDE[applies-to-sql2025-later-aas-pbip](../includes/applies-to-sql2025-later-aas-pbip.md)]
 
   Updates the culture or collation of a tabular database at compatibility level 1200 or higher.  
   
