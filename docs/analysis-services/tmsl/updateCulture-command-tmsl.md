@@ -50,14 +50,14 @@ author: kayu
   
 - As an input to an SSIS task or SQL Server Agent job  
   
- You cannot generate a ready-made script for this command from SSMS. Instead, you can start with the above example.   
+ You can't generate a ready-made script for this command from SSMS. Instead, you can start with the above example.   
 
 ## Important Notes and Limitations  
 
  Changing the culture or collation of a semantic model is a high-impact operation.  
 
-- Across all versions of Analysis Services: For semantic models in import mode, updating the culture or collation clears the VertiPaq in-memory data store — effectively performing a full process-clear operation. You must subsequently perform a full data refresh to ensure consistency of linguistic and sorting rules and bring the model back into queryable state.  
+- Across all versions of Analysis Services: For semantic models in import mode, updating the culture or collation clears the VertiPaq in-memory data store—effectively performing a full process-clear operation. You must later perform a full data refresh to ensure consistency of linguistic and sorting rules and bring the model back into queryable state.  
 
-- SQL Server Analysis Services / Azure Analysis Services: You must re-enter data source credentials for all data connections after updating the culture or collation.  
+- SQL Server Analysis Services / Azure Analysis Services: You must reenter data source credentials for all data connections after updating the culture or collation.  
 
-- Always backup your semantic model before modifying the culture or collation.  
+- Always back up your semantic model before modifying the culture or collation.  
