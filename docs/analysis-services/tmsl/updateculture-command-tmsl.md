@@ -52,7 +52,7 @@ author: kayu
   
  You can't generate a ready-made script for this command from SSMS. Instead, you can start with the above example.   
 
-## Important Notes and Limitations  
+## Important notes and limitations  
 
  Changing the culture or collation of a semantic model is a high-impact operation.  
 
