@@ -1743,6 +1743,8 @@ items:
         href: tmsl/sequence-command-tmsl.md
       - name: Synchronize command (TMSL)
         href: tmsl/synchronize-command-tmsl.md
+      - name: UpdateCulture command (TMSL)
+        href: tmsl/updateCulture-command-tmsl.md
     - name: Objects
       items:
       - name: TMSL objects overview
