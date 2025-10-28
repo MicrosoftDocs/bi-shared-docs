@@ -24,6 +24,7 @@ You can execute commands on an XMLA endpoint, formulating object definitions in 
 |[Create command &#40;TMSL&#41;](create-command-tmsl.md)|Creates a new object, including its descendants.|  
 |[CreateOrReplace command &#40;TMSL&#41;](createorreplace-command-tmsl.md)|Create or replace parts of an object definition. The full definition must be provided.|  
 |[Delete command &#40;TMSL&#41;](delete-command-tmsl.md)|Delete an object, including its descendants.|  
+|[UpdateCulture command &#40;TMSL&#41;](updateCulture-command-tmsl.md)|Updates the culture or collation of a database.|  
   
 ## Data refresh operations  
   
