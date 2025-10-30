@@ -40,9 +40,9 @@ This article describes features supported by different editions of SQL Server 20
 |DAX calculations, DAX queries, MDX queries|Yes|Yes|||||Yes|Yes|
 |Row-level security|Yes|Yes|||||Yes|Yes|
 |Multiple partitions|Yes||||||Yes||
-|Calculation groups|Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|||||Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|
-|Query interleaving|Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|||||Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|
-|Many-to-many relationships|Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|||||Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|
+|Calculation groups|Yes (beginning with SQL Server 2019)|Yes |||||Yes (beginning with SQL Server 2019)|Yes|
+|Query interleaving|Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|||||Yes (beginning with SQL Server 2019)|Yes|
+|Many-to-many relationships|Yes (beginning with SQL Server 2019)|Yes (beginning with SQL Server 2019)|||||Yes (beginning with SQL Server 2019)|Yes|
 |In-memory storage mode|Yes|Yes|||||Yes|Yes|
 |DirectQuery mode|Yes|Yes (beginning with SQL Server 2019)|||||Yes|Yes|
 
