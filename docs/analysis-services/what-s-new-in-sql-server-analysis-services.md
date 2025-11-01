@@ -17,7 +17,7 @@ This article summarizes new features, improvements, deprecated and discontinued 
 
 ::: moniker range="asallproducts-allversions || sql-analysis-services-2025"  
 
-## SQL Server 2025 Analysis Services (Preview)
+## SQL Server 2025 Analysis Services
 
 ### Performance improvements
 
@@ -79,7 +79,7 @@ SSAS now supports updated Unicode standards by providing Unicode surrogate pair 
 
 #### Execution metrics for diagnostics
 
-Execution metrics are now exposed via XEvents and Profiler traces, enabling customers to analyze query performance more effectively.
+Execution metrics are now exposed via XEvents and Profiler traces, enabling customers to analyze query performance more effectively. For more details, visit this [blog](https://powerbi.microsoft.com/blog/new-executionmetrics-event-in-azure-log-analytics-for-power-bi-semantic-models/).
 
 #### Failover cluster support
 
@@ -87,9 +87,9 @@ For more details, see this article on [Upgraded Encryption Schema](/analysis-ser
 
 ### Deprecated features and breaking changes in SSAS 2025
 
-#### Excel PowerPivot for SharePoint deprecated
+#### Excel PowerPivot for SharePoint discontinued
 
-We have removed Excel PowerPivot for SharePoint mode from the installer. This feature was deprecated in prior releases and is no longer supported.
+We have removed Excel PowerPivot for SharePoint mode from the installer. This feature was deprecated in prior releases and is no longer supported in SSAS2025.
 
 #### SQL Client assembly update
 
