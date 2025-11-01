@@ -67,6 +67,9 @@ SSAS 2025 includes support for multiple new DAX functions and improvements inclu
 
 - __MINX/MAXX:__ We added an optional variant parameter to MINX and MAXX DAX functions. Traditionally, these functions ignore text and Boolean values when there are variants or mixed data types, such as text and numeric. Now with the new optional variant parameter set to TRUE, the functions consider the text values. For more details, visit [MINX DAX function](/dax/minx-function-dax) and [MAXX DAX function](/dax/maxx-function-dax).
 
+> [!TIP]
+> INFO functions may evolve in Power BI to support information discovery in new semantic model artifacts. See [MS-SSAS-T] for the set of artifacts which may have a corresponding INFO function in SSAS25.
+
 ### Additional features
 
 #### Client library updates
