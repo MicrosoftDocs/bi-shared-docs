@@ -417,11 +417,11 @@ powerpivotwebapp.wsp Online     True WebApplicationDeployed {uesql11spoint2}
   
  [PowerShell to check services, IIS sites and Application Pool status in SharePoint](/powershell/module/sharepoint-server/get-spserviceapplicationpool).  
   
- [Windows PowerShell for SharePoint 2013 reference](https://technet.microsoft.com/library/ee890108\(v=office.15\).aspx)  
+ [Windows PowerShell for SharePoint 2013 reference](/powershell/module/)  
   
- [Windows PowerShell for SharePoint Foundation 2010 reference](https://technet.microsoft.com/library/ee890105\(v=office.14\).aspx)  
+ [Windows PowerShell for SharePoint Foundation 2010 reference](/powershell/module/)  
   
- [Manage Excel Services with Windows PowerShell (SharePoint Server 2010)](https://technet.microsoft.com/library/ff191201\(v=office.14\).aspx)  
+ [Manage Excel Services with Windows PowerShell (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ff191201(v=office.14))  
   
  [View and Read SQL Server Setup Log Files](/sql/database-engine/install-windows/view-and-read-sql-server-setup-log-files)  
   
