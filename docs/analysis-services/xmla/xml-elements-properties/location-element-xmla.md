@@ -4,9 +4,6 @@ description: Learn how the Location element contains information about a remote 
 ms.date: 01/05/2020
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - xmla
   - sfi-ropc-nochange

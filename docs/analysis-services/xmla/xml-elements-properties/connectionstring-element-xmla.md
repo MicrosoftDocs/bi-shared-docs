@@ -4,9 +4,6 @@ description: Learn how the ConnectionString element contains a connection string
 ms.date: 01/05/2020
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - xmla
   - sfi-ropc-nochange

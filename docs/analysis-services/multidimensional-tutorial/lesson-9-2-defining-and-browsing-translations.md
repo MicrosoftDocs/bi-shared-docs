@@ -5,9 +5,6 @@ ms.date: 04/20/2022
 ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Lesson 9-2 - Defining and Browsing Translations

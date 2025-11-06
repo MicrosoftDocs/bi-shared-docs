@@ -4,9 +4,6 @@ description: Learn about the Refresh command, which processes objects in the cur
 ms.date: 06/22/2020
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - tmsl
   - sfi-ropc-nochange

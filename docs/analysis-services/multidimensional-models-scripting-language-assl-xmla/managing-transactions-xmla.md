@@ -5,9 +5,6 @@ ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Managing Transactions (XMLA)

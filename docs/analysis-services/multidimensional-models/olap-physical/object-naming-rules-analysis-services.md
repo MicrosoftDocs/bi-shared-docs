@@ -5,9 +5,6 @@ ms.date: 08/06/2019
 ms.service: analysis-services
 ms.custom: olap
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Object Naming Rules (Analysis Services)

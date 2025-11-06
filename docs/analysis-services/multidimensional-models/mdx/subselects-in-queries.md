@@ -4,9 +4,6 @@ description: Learn how subselect expressions are nested SELECT expressions that 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - mdx
   - sfi-ropc-nochange

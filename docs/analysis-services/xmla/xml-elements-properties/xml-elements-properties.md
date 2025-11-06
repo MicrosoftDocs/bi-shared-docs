@@ -4,9 +4,6 @@ description: Learn about the XML elements that the XMLA protocol uses to represe
 ms.date: 01/05/2020
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - xmla
   - sfi-ropc-nochange

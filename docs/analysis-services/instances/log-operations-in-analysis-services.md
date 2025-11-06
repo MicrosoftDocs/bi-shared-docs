@@ -4,9 +4,6 @@ description: Learn how SQL Server Analysis Services logs server notifications, e
 ms.date: 01/10/2020
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ms.custom:
   - sfi-image-nochange
