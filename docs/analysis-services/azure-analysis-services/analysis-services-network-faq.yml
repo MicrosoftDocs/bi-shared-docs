@@ -50,7 +50,7 @@ sections:
            
            In Azure Analysis Services, you can deploy a 64-bit Snowflake ODBC driver on an [on-premises gateway connected to your Azure Analysis Services server](analysis-services-gateway.md) and configure the ODBC connection to use key-pair authentication. On the data gateway machine, follow the [Snowflake documentation to generate the public/private key pair](https://docs.snowflake.com/user-guide/key-pair-auth) and grant the data gateway service account ("NT SERVICE\PBIEgwService") READ permission to the private key file. Then configure a System DSN as described in the [Snowflake Knowledge Base article How to set up ODBC Driver with key pair authentication to connect to Snowflake on Windows](https://community.snowflake.com/s/article/How-to-set-up-ODBC-Driver-with-key-pair-authentication-to-connect-to-Snowflake-on-Windows) and specify the DSN in the connection details. When using a structured data source, make sure to set the AuthenticationKind to Anonymous to avoid conflicting authentication settings, as in the following example:
 
-           ```Tabular model metadata
+           ```Tabular-model-metadata
                     { 
                       "type": "structured", 
                       "name": "Odbc/dsn=SF_KEY_PAIR_DSN_NAME", 
