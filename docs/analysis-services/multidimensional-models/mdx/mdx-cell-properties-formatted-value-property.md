@@ -5,9 +5,6 @@ ms.date: 07/24/2020
 ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # MDX Cell Properties - FORMATTED_VALUE Property

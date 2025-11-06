@@ -5,9 +5,6 @@ ms.date: 06/06/2019
 ms.service: analysis-services
 ms.custom: xmla
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Updating Cells (XMLA)

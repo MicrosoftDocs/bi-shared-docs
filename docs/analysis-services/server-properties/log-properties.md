@@ -4,9 +4,6 @@ description: Learn how the Analysis Services instance logs server notifications,
 ms.date: 07/21/2022
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ms.custom:
   - sfi-ropc-nochange

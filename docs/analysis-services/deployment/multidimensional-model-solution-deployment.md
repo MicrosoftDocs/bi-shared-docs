@@ -5,9 +5,6 @@ ms.date: 02/07/2022
 ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Multidimensional model solution deployment

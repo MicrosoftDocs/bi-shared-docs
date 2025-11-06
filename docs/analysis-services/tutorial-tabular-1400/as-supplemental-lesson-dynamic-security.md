@@ -5,9 +5,6 @@ ms.date: 03/08/2019
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: tutorial
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ---
 # Supplemental lesson - Dynamic security
 

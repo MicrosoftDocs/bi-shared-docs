@@ -5,9 +5,6 @@ ms.date: 11/05/2021
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ---
 # Tabular Object Model (TOM)
 

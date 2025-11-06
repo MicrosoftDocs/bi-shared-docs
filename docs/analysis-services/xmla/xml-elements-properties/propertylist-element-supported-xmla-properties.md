@@ -4,9 +4,6 @@ description: Learn how to use the supported XMLA properties in the Properties el
 ms.date: 01/05/2020
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - xmla
   - sfi-ropc-nochange

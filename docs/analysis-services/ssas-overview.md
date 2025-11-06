@@ -4,9 +4,6 @@ description: Describes SQL Server Analysis Services.
 ms.date: 04/29/2025
 ms.service: analysis-services
 ms.topic: overview
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # SQL Server Analysis Services overview

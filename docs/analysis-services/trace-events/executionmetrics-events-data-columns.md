@@ -5,9 +5,6 @@ ms.date: 02/17/2025
 ms.service: analysis-services
 ms.custom: trace-events
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Execution Metrics Data Columns
