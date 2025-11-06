@@ -5,9 +5,6 @@ ms.date: 08/09/2019
 ms.service: analysis-services
 ms.custom:
 ms.topic: sample
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Analysis Services samples

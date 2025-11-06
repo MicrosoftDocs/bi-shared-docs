@@ -104,7 +104,23 @@
         "multidimensional-tutorial/*.md": "UpdateFrequency3",
         "trace-events/*.md": "UpdateFrequency5",
         "xmla/*.md": "UpdateFrequency5"
-        }   
+      },
+      
+      "author": {
+        "analysis-services/**/*.md": "KayUnkroth"
+      },
+      
+      "ms.author": {
+        "analysis-services/**/*.md": "kayu"
+      },
+
+      "manager": {
+        "analysis-services/**/*.md": "kfollis"
+      },
+
+      "ms.update-cycle": {
+        "analysis-services/**/*.md": "1095-days"
+      }
     },
 
     "template": [],

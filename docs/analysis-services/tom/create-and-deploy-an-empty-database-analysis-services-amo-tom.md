@@ -4,9 +4,6 @@ description: Walk through the steps of generating tabular databases and correspo
 ms.date: 12/07/2020
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - tabular-models
   - sfi-ropc-nochange

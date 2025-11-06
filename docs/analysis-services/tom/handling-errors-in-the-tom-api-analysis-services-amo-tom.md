@@ -5,9 +5,6 @@ ms.date: 12/07/2020
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Handling errors in the TOM API (AMO-TOM)

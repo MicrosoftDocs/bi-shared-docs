@@ -4,9 +4,6 @@ description: Learn how the Source element (synchronize) represents a source data
 ms.date: 01/05/2020
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - xmla
   - sfi-ropc-nochange

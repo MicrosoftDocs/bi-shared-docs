@@ -5,9 +5,6 @@ ms.date: 05/18/2022
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Configure Analysis Services and Kerberos Constrained Delegation (KCD)

@@ -4,9 +4,6 @@ description: Learn about AMO common classes that are not specific to OLAP or dat
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019 || sql-analysis-services-2022"
 ms.custom:
   - amo

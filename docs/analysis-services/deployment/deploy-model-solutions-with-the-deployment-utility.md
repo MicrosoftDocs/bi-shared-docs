@@ -4,9 +4,6 @@ description: Learn how to deploy model solutions by using the Deployment utility
 ms.date: 02/07/2022
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Deploy model solutions by using the Deployment Utility

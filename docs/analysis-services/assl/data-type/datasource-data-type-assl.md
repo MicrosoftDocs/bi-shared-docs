@@ -4,9 +4,6 @@ description: Learn about the DataSource data type element in the Analysis Servic
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - assl
   - sfi-ropc-nochange

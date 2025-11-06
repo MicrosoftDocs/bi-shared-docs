@@ -5,9 +5,6 @@ ms.date: 12/02/2021
 ms.service: analysis-services
 ms.custom: tmsl
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Roles object (TMSL)

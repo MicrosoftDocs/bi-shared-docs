@@ -5,9 +5,6 @@ ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # MDX Query Fundamentals (Analysis Services)

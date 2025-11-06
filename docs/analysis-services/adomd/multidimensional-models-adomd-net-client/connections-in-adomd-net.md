@@ -4,9 +4,6 @@ description: Learn how to use the AdomdConnection object in ADOMD.NET to open co
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - adomd
   - sfi-ropc-nochange

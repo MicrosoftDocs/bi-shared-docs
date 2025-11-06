@@ -5,9 +5,6 @@ ms.date: 02/24/2020
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: tutorial
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ---
 # Create relationships
 
