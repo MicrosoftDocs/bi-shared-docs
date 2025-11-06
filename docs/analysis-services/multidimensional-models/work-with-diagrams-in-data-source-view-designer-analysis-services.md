@@ -5,9 +5,6 @@ ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Work with Diagrams in Data Source View Designer (Analysis Services)

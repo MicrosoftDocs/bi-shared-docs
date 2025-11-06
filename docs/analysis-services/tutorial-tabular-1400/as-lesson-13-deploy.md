@@ -4,9 +4,6 @@ description: Learn how to configure deployment properties for an Analysis Servic
 ms.date: 05/04/2020
 ms.service: analysis-services
 ms.topic: tutorial
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom: sfi-image-nochange
 ---
 # Deploy

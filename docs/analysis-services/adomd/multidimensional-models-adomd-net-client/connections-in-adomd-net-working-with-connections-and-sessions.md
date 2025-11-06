@@ -4,9 +4,6 @@ description: Learn to use three XMLA session elements in ADOMD.NET to start a se
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - adomd
   - sfi-ropc-nochange

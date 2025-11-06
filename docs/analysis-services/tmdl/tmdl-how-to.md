@@ -5,9 +5,6 @@ ms.date: 12/20/2023
 ms.service: analysis-services
 ms.custom: tmdl
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Get started with TMDL

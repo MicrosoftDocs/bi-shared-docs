@@ -5,9 +5,6 @@ ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ---
 # Mining Model Content for Clustering Models (Analysis Services - Data Mining)
 [!INCLUDE[appliesto-sql2019-earlier](../includes/appliesto-sql2019-earlier.md)]

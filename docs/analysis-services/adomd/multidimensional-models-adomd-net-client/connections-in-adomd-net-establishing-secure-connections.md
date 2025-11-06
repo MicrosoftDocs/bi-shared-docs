@@ -4,9 +4,6 @@ description: Learn how to establish a secure connection in ADOMD.NET by using th
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - adomd
   - sfi-ropc-nochange

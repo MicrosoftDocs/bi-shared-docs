@@ -4,9 +4,6 @@ ms.date: 06/06/2025
 description: Learn about new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # What's new in SQL Server Analysis Services 

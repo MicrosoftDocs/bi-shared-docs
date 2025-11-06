@@ -5,9 +5,6 @@ ms.date: 07/19/2021
 ms.service: analysis-services
 ms.custom: trace-events
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Discover Server State Events Data Columns

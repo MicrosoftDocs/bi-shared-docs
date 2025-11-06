@@ -5,9 +5,6 @@ ms.date: 04/22/2020
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Connect to SQL Server Analysis Services

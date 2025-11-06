@@ -4,9 +4,6 @@ description: See a table that displays the hierarchy of objects in the Analysis 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - assl
   - sfi-ropc-nochange

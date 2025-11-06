@@ -5,9 +5,6 @@ ms.date: 10/25/2018
 ms.service: analysis-services
 ms.custom: assl
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # DataAggregation Element (ASSL)
