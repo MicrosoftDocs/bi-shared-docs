@@ -4,9 +4,6 @@ description: Add a data source to a tabular model by adding an object of a class
 ms.date: 12/07/2020
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - tabular-models
   - sfi-ropc-nochange

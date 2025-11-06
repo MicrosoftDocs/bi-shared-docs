@@ -4,9 +4,6 @@ description: Use the Create command to create the specified object and all of th
 ms.date: 04/20/2021
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - tmsl
   - sfi-ropc-nochange

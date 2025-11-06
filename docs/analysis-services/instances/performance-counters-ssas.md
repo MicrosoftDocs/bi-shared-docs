@@ -4,9 +4,6 @@ description: Learn how to monitor the performance of a SQL Server Analysis Servi
 ms.date: 08/08/2019
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Performance counters

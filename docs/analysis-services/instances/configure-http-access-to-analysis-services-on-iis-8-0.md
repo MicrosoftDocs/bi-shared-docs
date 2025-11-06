@@ -4,9 +4,6 @@ description: Learn how to configure HTTP access to SQL Server Analysis Services 
 ms.date: 08/08/2025
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ms.custom:
   - sfi-image-nochange

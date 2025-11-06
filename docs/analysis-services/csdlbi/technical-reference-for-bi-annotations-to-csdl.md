@@ -5,9 +5,6 @@ ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Technical Reference for BI Annotations to CSDL

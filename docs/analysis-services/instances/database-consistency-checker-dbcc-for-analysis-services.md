@@ -5,9 +5,6 @@ ms.date: 12/29/2020
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Database Consistency Checker (DBCC) for Analysis Services

@@ -4,9 +4,6 @@ description: Learn how autoexists only applies to attributes from the same dimen
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - mdx
   - sfi-ropc-nochange

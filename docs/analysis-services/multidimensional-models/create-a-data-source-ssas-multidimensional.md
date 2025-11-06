@@ -4,9 +4,6 @@ description: Use the instructions in this topic to create a data source object f
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - multidimensional-models
   - sfi-ropc-nochange

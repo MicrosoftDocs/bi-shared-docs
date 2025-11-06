@@ -5,9 +5,6 @@ ms.date: 04/10/2019
 ms.service: analysis-services
 ms.custom: xmla
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Error Element (XMLA)

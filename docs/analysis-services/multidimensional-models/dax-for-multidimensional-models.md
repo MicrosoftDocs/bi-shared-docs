@@ -4,9 +4,6 @@ description: Learn how DAX works with multidimensional models.
 ms.date: 09/17/2020
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - multidimensional-models
   - sfi-image-nochange

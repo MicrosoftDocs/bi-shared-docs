@@ -5,9 +5,6 @@ ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: powershell
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # PowerShell Reference for Power Pivot for SharePoint
