@@ -26,13 +26,13 @@ For example, if you have 5 measures and want to create a prior year version for 
 
 [Measure 5 Prior Year] = CALCULATE([Measure 5], PARALLELPERIOD('Date'[Date], -1, YEAR))
 ```
-Instead of creating 5 addtional measures, you can use the pattern in a calculation item with a placeholder, [SELECTEDMEASURE](/dax/selectedmeasure-function-dax) applying the expression to any measure. 
+Instead of creating 5 additional measures, you can use the pattern in a calculation item with a placeholder, [SELECTEDMEASURE](/dax/selectedmeasure-function-dax) applying the expression to any measure. 
 
 ```dax
 CALCULATE(SELECTEDMEASURE(), PARALLELPERIOD('Date'[Date], -1, YEAR))
 ```
 
-The calcuation item is applied when you select the calcuation item in a filter or slicer, or use it to group the values in a visual.
+The calculation item is applied when you select the calculation item in a filter or slicer, or use it to group the values in a visual.
 
 ![Time intelligence query return](media/apply-calculation-group-item-in-power-bi-report.png)
 
@@ -42,14 +42,14 @@ Calculation groups can be created in many ways.
 
 ### To create a calculation group by using Power BI model view
 
-You can create a calcuation group in the **model view** of Power BI Desktop or when editing a Power BI semantic model in the browser. 
+You can create a calculation group in the **model view** of Power BI Desktop or when editing a Power BI semantic model in the browser. 
 
 1. Edit the semantic model
 2. Select **Calculation group** ribbon button.
-3. The first calculaton item is created for you.
+3. The first calculation item is created for you.
 4. Rename and adjust the expression.
 
-You can order and create additional calculation items by selecting the **Calculation items** node and using the **Properties pane**. The context menu of the calculation group or calculation items node can be used to create new calculation groups. The context menu of each calculation item has options to re-order them too.
+You can order and create more calculation items by selecting the **Calculation items** node and using the **Properties pane**. The context menu of the calculation group or calculation items node can be used to create new calculation groups. The context menu of each calculation item has options to re-order them too.
 
 For more information, see [Create calculation groups in Power BI](/power-bi/transform-model/calculation-groups).
 
@@ -106,13 +106,13 @@ Calculation groups are supported in Visual Studio with Analysis Services Project
 
 ## Benefits
 
-Calculation groups address an issue in complex models where there can be a proliferation of redundant measures using the same calculations - most common with time intelligence calculations. For example, a sales analyst wants to view sales totals and orders by month-to-date (MTD), quarter-to-date (QTD), year-to-date (YTD), orders year-to-date for the previous year (PY), and so on. The data modeler has to create separate measures for each calculation, which can lead to dozens of measures. For the user, this can mean having to sort through just as many measures, and apply them individually to their report. 
+Calculation groups address an issue in complex models where there can be a proliferation of redundant measures using the same calculations - most common with time intelligence calculations. For example, a sales analyst wants to view sales totals and orders by month-to-date (MTD), quarter-to-date (QTD), year-to-date (YTD), orders year-to-date for the previous year (PY), and so on. The data modeler has to create separate measures for each calculation, which can lead to dozens of measures. For the user, the outcome is having to sort through just as many measures, and apply them individually to their report. 
 
 Let's first look at how calculation groups appear to users in a reporting tool like Power BI. We'll then look at what makes up a calculation group, and how they're created in a model.
 
 Calculation groups are shown in reporting clients as a table with a single column. The column isn't like a typical column or dimension, instead it represents one or more reusable calculations, or *calculation items* that can be applied to any measure already added to the Values filter for a visualization.
 
-In the following animation, a user is analyzing sales data for years 2012 and 2013. Before applying a calculation group, the common base measure **Sales**  calculates a sum of total sales for each month. The user then wants to apply time intelligence calculations to get sales totals for month to date, quarter to date, year to date, and so on. Without calculation groups, the user would have to select individual time intelligence measures.
+In the following animation, a user is analyzing sales data for years 2012 and 2013. Before you apply a calculation group, the common base measure **Sales**  calculates a sum of total sales for each month. The user then wants to apply time intelligence calculations to get sales totals for month to date, quarter to date, year to date, and so on. Without calculation groups, the user would have to select individual time intelligence measures.
 
 With a calculation group, in this example named **Time Intelligence**, when the user drags the **Time Calculation** item to the **Columns** filter area, each calculation item appears as a separate column. Values for each row are calculated from the base measure, **Sales**.  
 
@@ -233,7 +233,7 @@ DIVIDE(
 
 #### Time Intelligence query
 
-To test this calculation group, execute the following DAX query. Note: MTD, YOY and YOY% are omitted from this query example. In Power BI use **DAX query view** to run the query.
+To test this calculation group, execute the following DAX query. Note: MTD, YOY and YOY% are omitted from this query example. In Power BI, use **DAX query view** to run the query.
 
 ```dax
 EVALUATE
@@ -326,7 +326,7 @@ SELECTEDVALUE(
 ```
 
 > [!NOTE]
-> [Selection expressions](#selection-expressions) for calculation groups can be used to implement automatic currency conversion on calculation groups, removing the need to have two seperate calculation items.
+> [Selection expressions](#selection-expressions) for calculation groups can be used to implement automatic currency conversion on calculation groups, removing the need to have two separate calculation items.
 
 The format string expression must return a scalar string. It uses the new [SELECTEDMEASUREFORMATSTRING](/dax/selectedmeasureformatstring-function-dax) function to revert to the base measure format string if there are multiple currencies in filter context.
 
@@ -378,7 +378,7 @@ table Scenarios
 Models have a **selectionExpressionBehavior** setting that enables further control over how calculation groups in that model behave. This setting accepts the following three values:
 
 - **Automatic**. This is the default value and is the same as **nonvisual**. This ensures that your existing models do not change behavior. Models above a future compatibility level set to automatic will use **visual** instead. There will be an announcement at that time.
-- **Nonvisual**. If the calculation group does not define a [multipleOrEmptySelection](#multiple-or-empty-selection) expression the calculation group returns `SELECTEDMEASURE()` and when grouping by the calculation group, subtotal values are hidden.
+- **Nonvisual**. If the calculation group does not define a [multipleOrEmptySelection](#multiple-or-empty-selection) expression the calculation group returns `SELECTEDMEASURE()` and when the measure is grouped by the calculation group, subtotal values are hidden.
 - **Visual**. If the calculation group does not define a [multipleOrEmptySelection](#multiple-or-empty-selection)  expression the calculation group returns `BLANK()`. When grouping by the calculation group, subtotal values are determined by evaluating the selected measure in the context of the calculation group.
 
 Use TMDL to set the property on your model:
@@ -429,7 +429,7 @@ EVALUATE
 
 ```
 
-Here, we select two items on the calculation group, "item1" and "item2". This is a multiple selection and hence the multipleOrEmptySelectionExpression is evaluated and returns the following result: **"Filters: item1, item2"**.
+Here, we select two items on the calculation group, "item1" and "item2". This is multiple selections and hence the multipleOrEmptySelectionExpression is evaluated and returns the following result: **"Filters: item1, item2"**.
 
 Next, take the following selection on the calculation group:
 
@@ -446,7 +446,7 @@ EVALUATE
 This is an example of an empty selection, as "item4" does not exist on this calculation group. Therefore, the multipleOrEmptySelectionExpression is evaluated and returns the following result: **"Filters: "**.
 
 ### No selection
-The noSelectionExpression on a calculation group will be applied if the calculation group has not been filtered. This is mostly used to perform default actions without the need for the user to take action while still providing flexibliity to the user to override the default action.
+The noSelectionExpression on a calculation group will be applied if the calculation group has not been filtered. This is mostly used to perform default actions without the need for the user to take action while still providing flexibility to the user to override the default action.
 For example, let's look at automatic currency conversion with US Dollar as the central pivot currency.
 
 We can set up a calculation group with the following noSelectionExpression:
@@ -475,7 +475,7 @@ SELECTEDVALUE(
 )
 ```
 
-Now, if no currency is selected all currencies will be automatically converted to the pivot currency (US Dollar) as necessary. On top of that, you can still pick another currency to convert to that currency without having to switch calculation items as you would have to do without the noSelectionExpression.
+Now, if no currency is selected, all currencies will be automatically converted to the pivot currency (US Dollar) as necessary. On top of that, you can still pick another currency to convert to that currency without having to switch calculation items as you would have to do without the noSelectionExpression.
 
 ## Precedence
 
@@ -659,7 +659,7 @@ Then if there are more calculation items we continue until we get to the underly
 ( ( [Measure] ) + 2 ) * 2
 ``````
 
-As our :::no-loc text="Measure = 10":::, this is the same as:
+As the measure is :::no-loc text="Measure = 10":::, this is the same as:
 
 ```dax
 ( ( 10 ) + 2 ) * 2
@@ -681,7 +681,7 @@ But keep in mind, the combination is nested in such a way that the output won't 
 
 For simple transformations, the evaluation is from lower to higher precedence. For example, 10 has 2 added, then it's multiplied by 2. In DAX, there are functions like CALCULATE that apply filters or context changes to inner expressions. In this case, the higher precedence alters a lower precedence expression.
 
-Precedence also determines which dynamic format string is applied to the combined DAX expression for each measure. The highest precedence calculation group dynamic format string is the only one applied. If a measure itself has a dynamic format string, it's considered a lower precedence to any calculation group in the model.
+Precedence also determines which dynamic format string is applied to the combined DAX expression for each measure. The highest precedence calculation group dynamic format string is the only one applied. If a measure itself has a dynamic format string, it's considered as a lower precedence to any calculation group in the model.
 
 ### Precedence with averages example
 
@@ -845,7 +845,7 @@ FORMAT([Dynamic format string], "")
 Alternatively, you can re-use your expression for dynamic format strings with a [DAX user-defined function](/power-bi/transform-model/desktop-user-defined-functions-overview) instead.
 
 ### Visuals error when a calculation item applies a math operation on a non-numeric measure
-Non-numeric measures are commonly used for dynamic titles in visuals and in dynamic format strings for measures. The error **Cannot convert value <expression> of type Text to type Numeric.** shows on visuals impacted. The calculation item expression can avoid this by adding a check to see if the measure is numeric before applying the math operation. Use the [ISNUMERIC](/dax/isnumeric-function-dax) in the calculation item.
+Non-numeric measures are commonly used for dynamic titles in visuals and in dynamic format strings for measures. The error **Cannot convert value <expression> of type Text to type Numeric** shows on visuals impacted. The calculation item expression can avoid this by adding a check to see if the measure is numeric before applying the math operation. Use the [ISNUMERIC](/dax/isnumeric-function-dax) in the calculation item.
 
 ```DAX
 Calculation item safe = 
