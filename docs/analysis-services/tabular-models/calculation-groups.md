@@ -34,7 +34,7 @@ CALCULATE(SELECTEDMEASURE(), PARALLELPERIOD('Date'[Date], -1, YEAR))
 
 The calculation item is applied when you select the calculation item in a filter or slicer, or use it to group the values in a visual.
 
-![Time intelligence query return](media/apply-calculation-group-item-in-power-bi-report.png)
+![Applying a caluculation group item in a Power BI report](/analysis-services/tabular-models/media/apply-calculation-group-item-in-power-bi-report.png)
 
 ## Create a calculation group
 
