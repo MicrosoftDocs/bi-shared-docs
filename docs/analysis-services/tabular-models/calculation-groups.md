@@ -11,7 +11,98 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
  
 [!INCLUDE[appliesto-sql2019-later-aas-pbip](../includes/appliesto-sql2019-later-aas-pbip.md)]
 
-Calculation groups can significantly reduce the number of redundant measures by grouping common measure expressions as *calculation items*. Calculation groups are supported in tabular models at the 1500 and higher [compatibility level](compatibility-level-for-tabular-models-in-analysis-services.md).  
+Calculation groups can significantly reduce the number of redundant measures by having common measure expression patterns as *calculation items*. Calculation groups are supported in tabular models at the 1500 and higher [compatibility level](compatibility-level-for-tabular-models-in-analysis-services.md).  This includes all Power BI semantic models.
+
+For example, if you have 5 measures and want to create a prior year version for each you use the same pattern for each with the same DAX functions.
+
+```dax
+[Measure 1 Prior Year] = CALCULATE([Measure 1], PARALLELPERIOD('Date'[Date], -1, YEAR))
+
+[Measure 2 Prior Year] = CALCULATE([Measure 2], PARALLELPERIOD('Date'[Date], -1, YEAR))
+
+[Measure 3 Prior Year] = CALCULATE([Measure 3], PARALLELPERIOD('Date'[Date], -1, YEAR))
+
+[Measure 4 Prior Year] = CALCULATE([Measure 4], PARALLELPERIOD('Date'[Date], -1, YEAR))
+
+[Measure 5 Prior Year] = CALCULATE([Measure 5], PARALLELPERIOD('Date'[Date], -1, YEAR))
+```
+Instead of creating 5 addtional measures, you can use the pattern in a calculation item with a placeholder, [SELECTEDMEASURE](/dax/selectedmeasure-function-dax) applying the expression to any measure. 
+
+```dax
+CALCULATE(SELECTEDMEASURE(), PARALLELPERIOD('Date'[Date], -1, YEAR))
+```
+
+The calcuation item is applied when you select the calcuation item in a filter or slicer, or use it to group the values in a visual.
+
+![Time intelligence query return](media/apply-calculation-group-item-in-power-bi-report.png)
+
+## Create a calculation group
+
+Calculation groups can be created in many ways. 
+
+### To create a calculation group by using Power BI model view
+
+You can create a calcuation group in the **model view** of Power BI Desktop or when editing a Power BI semantic model in the browser. 
+
+1. Edit the semantic model
+2. Select **Calculation group** ribbon button.
+3. The first calculaton item is created for you.
+4. Rename and adjust the expression.
+
+You can order and create additional calculation items by selecting the **Calculation items** node and using the **Properties pane**. The context menu of the calculation group or calculation items node can be used to create new calculation groups. The context menu of each calculation item has options to re-order them too.
+
+For more information, see [Create calculation groups in Power BI](/power-bi/transform-model/calculation-groups).
+
+### To create a calculation group by using Power BI TMDL view
+
+You can create a calculation group in the Tabular Model Definition Language or **TMDL view** of Power BI Desktop. Edit the semantic model and use this TMDL script.
+
+```TMDL
+createOrReplace
+
+	table 'Calculation group'
+
+		calculationGroup
+			precedence: 1
+
+			calculationItem 'Calculation item' = SELECTEDMEASURE()
+
+		column 'Calculation group column'
+			dataType: string
+			summarizeBy: none
+			sourceColumn: Name
+			sortByColumn: Ordinal
+
+			annotation SummarizationSetBy = Automatic
+
+		column Ordinal
+			dataType: int64
+			formatString: 0
+			summarizeBy: sum
+			sourceColumn: Ordinal
+
+			annotation SummarizationSetBy = Automatic
+```
+
+### To create a calculation group by using Visual Studio
+
+Calculation groups are supported in Visual Studio with Analysis Services Projects VSIX update 2.9.2 and later. Calculation groups can also be created by using Tabular Model Scripting Language (TMSL) or the open source [Tabular Editor](https://github.com/otykier/TabularEditor).
+
+1. In Tabular Model Explorer, right-click **Calculation Groups**, and then click **New Calculation Group**. By default, a new calculation group has a single column and a single calculation item.
+
+2. Use **Properties** to change the name and enter a description for the calculation group, column, and default calculation item.
+
+3. To enter a DAX formula expression for the default calculation item, right-click and then click **Edit Formula** to open DAX Editor. Enter a valid expression.
+
+4. To add more calculation items, right-click **Calculation Items**, and then click **New Calculation Item**.
+
+### To order calculation items
+
+1. In Tabular Model Explorer, right-click a calculation group, and then click **Add column**.
+
+2. Name the column Ordinal (or something similar), enter a description, and then set the **Hidden** property to True.
+
+3. For each calculation item you want to order, set the **Ordinal** property to a positive number. Each number is sequential, for example, a calculation item with an Ordinal property of 1 appears first, a property of 2 appears second, and so on. Calculation items with the default -1 aren't included in the ordering, but appear before ordered items in a report.
 
 ## Benefits
 
@@ -138,9 +229,11 @@ DIVIDE(
 )
 ```
 
-To test this calculation group, execute the following DAX query. Note: MTD, YOY and YOY% are omitted from this query example.
+
 
 #### Time Intelligence query
+
+To test this calculation group, execute the following DAX query. Note: MTD, YOY and YOY% are omitted from this query example. In Power BI use **DAX query view** to run the query.
 
 ```dax
 EVALUATE
@@ -722,7 +815,7 @@ CALCULATE(
 )
 ```
 
-The YTD argument to the CALCULATE() function overrides the filter context to reuse the logic already defined in the YTD calculation item. It's not possible to apply both PY and YTD in a single evaluation. Calculation groups are *only applied* if a single calculation item from the calculation group is in filter context.
+The YTD argument to the [CALCULATE](/dax/calculate-function-dax) function overrides the filter context to reuse the logic already defined in the YTD calculation item. It's not possible to apply both PY and YTD in a single evaluation. Calculation groups are *only applied* if a single calculation item from the calculation group is in filter context.
 
 ## Ordering
 
@@ -738,30 +831,33 @@ After a second column is added to the calculation group, you can specify the Ord
 
 To learn more, see [To order calculation items](#to-order-calculation-items).
 
-## Create a calculation group
-
-Calculation groups are supported in Visual Studio with Analysis Services Projects VSIX update 2.9.2 and later. Calculation groups can also be created by using Tabular Model Scripting Language (TMSL) or the open source [Tabular Editor](https://github.com/otykier/TabularEditor).
-
-### To create a calculation group by using Visual Studio
-
-1. In Tabular Model Explorer, right-click **Calculation Groups**, and then click **New Calculation Group**. By default, a new calculation group has a single column and a single calculation item.
-
-2. Use **Properties** to change the name and enter a description for the calculation group, column, and default calculation item.
-
-3. To enter a DAX formula expression for the default calculation item, right-click and then click **Edit Formula** to open DAX Editor. Enter a valid expression.
-
-4. To add more calculation items, right-click **Calculation Items**, and then click **New Calculation Item**.
-
-### To order calculation items
-
-1. In Tabular Model Explorer, right-click a calculation group, and then click **Add column**.
-
-2. Name the column Ordinal (or something similar), enter a description, and then set the **Hidden** property to True.
-
-3. For each calculation item you want to order, set the **Ordinal** property to a positive number. Each number is sequential, for example, a calculation item with an Ordinal property of 1 appears first, a property of 2 appears second, and so on. Calculation items with the default -1 aren't included in the ordering, but appear before ordered items in a report.
 
 ## Considerations
+
+### Model measures change to variant data type
 As soon as a calculation group is added to a semantic model, Power BI reports will use the **variant** data type for all measures. If afterwards, all calculation groups are removed from the model the measures will be returned to their original data types again.
+
+This may cause [dynamic format strings for measures](/power-bi/create-reports/desktop-dynamic-format-strings) using a measure for re-use to show an error. Use the [FORMAT](/dax/format-function-dax) DAX function to force the variant measure to be recognized as a string data type again.
+
+```DAX
+FORMAT([Dynamic format string], "")
+```
+Alternatively, you can re-use your expression for dynamic format strings with a [DAX user-defined function](/power-bi/transform-model/desktop-user-defined-functions-overview) instead.
+
+### Visuals error when a calculation item applies a math operation on a non-numeric measure
+Non-numeric measures are commonly used for dynamic titles in visuals and in dynamic format strings for measures. The error **Cannot convert value <expression> of type Text to type Numeric.** shows on visuals impacted. The calculation item expression can avoid this by adding a check to see if the measure is numeric before applying the math operation. Use the [ISNUMERIC](/dax/isnumeric-function-dax) in the calculation item.
+
+```DAX
+Calculation item safe = 
+    IF ( 
+        // Check the measure is numeric
+        ISNUMERIC( SELECTEDMEASURE() ),
+            SELECTEDMEASURE() * 2,
+            // Don't apply the calculation on a non-numeric measure
+            SELECTEDMEASURE()
+        )
+```
+
 
 ## Limitations
 
@@ -775,9 +871,13 @@ As soon as a calculation group is added to a semantic model, Power BI reports wi
 
 Implicit column aggregations in Power BI aren't supported for models with calculation groups. Currently, if **DiscourageImplicitMeasures** property is set to **false** (default), aggregation options appear, however they cannot be applied. If **DiscourageImplicitMeasures** is set to **true**, aggregation options don't appear.
 
-When creating Power BI reports using LiveConnection, Dynamic format strings aren't applied to report-level measures.
+When creating Power BI reports using Live Connection, dynamic format strings aren't applied to report-level measures.
 
 ## See also  
-
+[Create calculation groups in Power BI](/power-bi/transform-model/calculation-groups)
+[TMDL view](/power-bi/transform-model/desktop-tmdl-view)
+[DAX query view](/power-bi/transform-model/dax-query-view)
+[Dynamic format strings for measures](/power-bi/create-reports/desktop-dynamic-format-strings)
+[Model explorer in Power BI model view](/power-bi/transform-model/model-explorer)
 [DAX in tabular models](understanding-dax-in-tabular-models-ssas-tabular.md)   
 [DAX Reference](/dax/data-analysis-expressions-dax-reference)
