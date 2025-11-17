@@ -23,7 +23,7 @@ This article summarizes new features, improvements, deprecated and discontinued 
 
 #### Models with calculation groups and format strings in Excel
 
-We made significant performance improvements for MDX queries on models with Calculation Groups and Format Strings to reduce memory usage and improve responsiveness. The latest changes greatly improve the performance and reliability of operations in Analyze in Excel on models that include one or both of:
+We made significant performance improvements for MDX queries on models with Calculation Groups and Format Strings to reduce memory usage and improve responsiveness. The latest changes improve the performance and reliability of operations in Analyze in Excel on models that include one or both of:
 
 - Dynamic Format Strings for Measures
 
@@ -43,7 +43,7 @@ SSAS 2025 incorporates the latest version of Horizontal Fusion, a query performa
 
 #### Visual calculations         
 
-The way you write DAX changes today with the introduction of *visual calculations*. Visual calculations are DAX calculations that are defined and executed directly on a visual. A visual calculation can refer to any data in the visual, including columns, measures, or other visual calculations. This approach removes the complexity of the semantic model and simplifies the process of writing DAX. You can use visual calculations to complete common business calculations such as running sums or moving averages. To learn more about how to enable and use visual calculations, visit [Visual calculations overview](/power-bi/transform-model/desktop-visual-calculations-overview).
+The way you write DAX changes with the introduction of *visual calculations*. Visual calculations are DAX calculations that are defined and executed directly on a visual. A visual calculation can refer to any data in the visual, including columns, measures, or other visual calculations. This approach removes the complexity of the semantic model and simplifies the process of writing DAX. You can use visual calculations to complete common business calculations such as running sums or moving averages. To learn more about how to enable and use visual calculations, visit [Visual calculations overview](/power-bi/transform-model/desktop-visual-calculations-overview).
 
 #### Value filter behavior
 
@@ -73,7 +73,7 @@ SSAS 2025 includes support for multiple new DAX functions and improvements inclu
 
 The following free editions are designed to provide all the features of their corresponding paid editions. They can be used to develop SQL Server applications without requiring a paid license.
 
-For features by edition, review [Features supported by SQL Server Edition](https://learn.microsoft.com/analysis-services/analysis-services-features-by-edition)
+For features by edition, review [Features supported by SQL Server Edition](/analysis-services/analysis-services-features-by-edition)
 
 The editions and supported features for SQL Server 2025 (17.x) Preview are subject to change until the product is generally available.
 
