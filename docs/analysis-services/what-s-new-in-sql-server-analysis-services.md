@@ -1,6 +1,6 @@
 ---
 title: "What's new in SQL Server Analysis Services | Microsoft Docs"
-ms.date: 06/06/2025
+ms.date: 11/17/2025
 description: Learn about new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
 ms.service: analysis-services
 ms.topic: conceptual
@@ -73,7 +73,7 @@ SSAS 2025 includes support for multiple new DAX functions and improvements inclu
 
 The following free editions are designed to provide all the features of their corresponding paid editions. They can be used to develop SQL Server applications without requiring a paid license.
 
-For features by edition, review [Features supported by SQL Server Edition](https://learn.microsoft.com/en-us/analysis-services/analysis-services-features-by-edition?view=sql-analysis-services-2025)
+For features by edition, review [Features supported by SQL Server Edition](https://learn.microsoft.com/analysis-services/analysis-services-features-by-edition)
 
 The editions and supported features for SQL Server 2025 (17.x) Preview are subject to change until the product is generally available.
 
