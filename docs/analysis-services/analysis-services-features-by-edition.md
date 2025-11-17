@@ -16,7 +16,7 @@ monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 This article describes features supported by different editions of SQL Server 2016, 2017, 2019, 2022, 2025 Analysis Services. Evaluation edition supports Enterprise edition features.
 
 > [!IMPORTANT]
-> SQL Server 2025 introduces the **Standard Developer** edition. SQL Server 2025 **Standard Developer** edition is a free edition licensed for development. It includes all features of SQL Server **Standard** edition. **Enterprise Developer** is functionally equivalent to the **Developer** edition in previous versions, and includes all of the features enabled for the SQL Server **Enterpise** edition.
+> SQL Server 2025 introduces the **Standard Developer** edition. SQL Server 2025 **Standard Developer** edition is a free edition licensed for development. It includes all features of SQL Server **Standard** edition. **Enterprise Developer** is functionally equivalent to the **Developer** edition in previous versions, and includes all of the features enabled for the SQL Server **Enterprise** edition.
 
 ## Analysis Services (servers)
   
