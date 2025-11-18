@@ -5,9 +5,6 @@ ms.date: 07/16/2019
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Disconnect users and sessions from Analysis Services

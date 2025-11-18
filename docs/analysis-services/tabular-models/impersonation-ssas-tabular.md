@@ -5,9 +5,6 @@ ms.date: 04/22/2021
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # Impersonation

@@ -4,9 +4,6 @@ description: Use the CreateOrReplace command to create or replace the specified 
 ms.date: 04/20/2021
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - tmsl
   - sfi-ropc-nochange

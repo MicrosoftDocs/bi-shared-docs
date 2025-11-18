@@ -5,9 +5,6 @@ ms.date: 09/14/2020
 ms.service: analysis-services
 ms.custom: assl
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # CacheMode Element (ASSL)

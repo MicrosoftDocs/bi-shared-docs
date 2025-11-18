@@ -4,9 +4,6 @@ description: Learn how and when to disable or hide attribute hierarchies for an 
 ms.date: 04/20/2022
 ms.service: analysis-services
 ms.topic: tutorial
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - multidimensional-models
   - sfi-image-nochange

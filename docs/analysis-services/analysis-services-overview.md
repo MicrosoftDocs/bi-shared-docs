@@ -4,9 +4,6 @@ description: Describes the three platforms for Analysis Services.
 ms.date: 04/29/2025
 ms.service: analysis-services
 ms.topic: overview
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # What is Analysis Services?
@@ -20,6 +17,8 @@ Analysis Services is an analytical data engine (VertiPaq) used in decision suppo
 The Analysis Service engine also provides programmability, client application, and tool support for Power BI Premium and Premium Per User semantic models through client libraries and APIs that support the open-standard XMLA protocol. Premium models support connections through XMLA endpoints for *read-only* and *read-write* operations from Microsoft and third-party client applications and tools. To learn more, see [What is Power BI Premium](/power-bi/service-premium-what-is#analysis-services-in-power-bi-premium) and [Semantic model connectivity with the XMLA Endpoint](/power-bi/service-premium-connect-tools).
 
 **Microsoft Fabric** - Microsoft Fabric includes Power BI. And much like Power BI, the Analysis Services engine supports Microsoft Fabric semantic models. The [Lakehouse](/fabric/data-engineering/lakehouse-overview) architecture in Microsoft Fabric includes the concept of a *default semantic model* in the SQL endpoint, also supported by Analysis Services. Unique in Microsoft Fabric, with Lakehouse delta tables you have the option to use *Direct Lake storage mode*. Direct Lake mode is a groundbreaking data access technology for semantic models based on loading Delta-Parquet files directly from OneLake without having to import or duplicate the data. Direct Lake combines the advantages of DirectQuery and Import modes to deliver fast query performance without any data movement. To learn more, see [What is Microsoft Fabric](/fabric/get-started/microsoft-fabric-overview) and [Learn about Direct Lake in Power BI and Microsoft Fabric](/power-bi/enterprise/directlake-overview).
+
+ - **Mirroring to Microsoft Fabric** Mirroring to Fabric provides the ability to unify your data estate with OneLake in Fabric and open access to your data in Delta Parquet format. With Mirroring to Microsoft Fabric, you can continuously replicate your existing data estate directly into OneLake in Fabric, including data from SQL Server 2016+, Azure SQL Database, Azure SQL Managed Instance, Cosmos DB, Oracle, Snowflake, and more. For more information, see [Microsoft Fabric mirrored databases](/fabric/database/mirrored-database/overview).
 
 **Azure Analysis Services** - Created as an Azure resource, Azure Analysis Services server resources support tabular models at the 1200 and higher compatibility levels. DirectQuery, partitions, row-level security, bi-directional relationships, and translations are all supported. To learn more, see [What is Azure Analysis Services](/azure/analysis-services/analysis-services-overview).
 

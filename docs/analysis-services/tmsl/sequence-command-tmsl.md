@@ -5,9 +5,6 @@ ms.date: 07/11/2019
 ms.service: analysis-services
 ms.custom: tmsl
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Sequence command (TMSL)

@@ -5,9 +5,6 @@ ms.date: 08/04/2022
 ms.service: analysis-services
 ms.custom: tmsl
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 
 ---
 # Tabular Model Scripting Language (TMSL) Reference

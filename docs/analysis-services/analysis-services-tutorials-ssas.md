@@ -5,9 +5,6 @@ ms.date: 01/28/2020
 ms.service: analysis-services
 ms.custom:
 ms.topic: tutorial
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Analysis Services tutorials
@@ -27,7 +24,14 @@ Applies to Azure Analysis Services, Power BI Premium, SQL Server 2019 Analysis S
 Applies to SQL Server 2012 Analysis Services and later. Multidimensional models are not supported on Azure Analysis Services. This tutorial provides lessons for learning fundamental skills and concepts of multidimensional modeling in Visual Studio. When you're finished, you will have a cube database based on Adventure Works data that you can access from Excel, Reporting Services, or any other client application that connects to Analysis Services.  
 
 ::: moniker-end
-  
+
+> [!IMPORTANT]
+> **Mirroring to Microsoft Fabric is now available.** Mirroring to Fabric provides better analytical performance, the ability to unify your data estate with OneLake in Fabric, and open access to your data in Delta Parquet format.
+>
+> With Mirroring to Microsoft Fabric, you can continuously replicate your existing data estate directly into OneLake in Fabric, including data from SQL Server 2016+, Azure SQL Database, Azure SQL Managed Instance, Cosmos DB, Oracle, Snowflake, and more.
+> 
+> For more information, see [Microsoft Fabric mirrored databases](/fabric/database/mirrored-database/overview).
+
 ## Samples
 
 ### AdventureWorksDW on Azure Synapse

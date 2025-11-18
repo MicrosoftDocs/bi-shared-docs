@@ -5,9 +5,6 @@ ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom:
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # SPN registration for an Analysis Services instance
@@ -182,6 +179,6 @@ You can't specify a port number on an Analysis Services SPN registration.The Ana
  [SetSPN](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc731241(v=ws.11))   
  [Service Accounts Step-by-Step Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd548356(v=ws.10))   
  [Configure Windows Service Accounts and Permissions](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)   
- [How to use SPNs when you configure Web applications that are hosted on Internet Information Services](https://support.microsoft.com/kb/929650)   
+ [How to use SPNs when you configure Web applications that are hosted on Internet Information Services](https://techcommunity.microsoft.com/blog/iis-support-blog/how-to-use-spns-when-you-configure-web-applications-that-are-hosted-on-internet-/324648)   
  [what's new in service accounts](https://technet.microsoft.com/library/dd367859\(WS.10\).aspx)   
  [Configure Kerberos authentication for SharePoint 2010 Products (white paper)](/previous-versions/office/sharepoint-server-2010/ff829837(v=office.14))  

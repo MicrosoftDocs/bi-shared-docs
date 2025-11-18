@@ -4,9 +4,6 @@ description: Learn how to create and alter major objects by using the CREATE and
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.topic: conceptual
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - xmla
   - sfi-ropc-nochange

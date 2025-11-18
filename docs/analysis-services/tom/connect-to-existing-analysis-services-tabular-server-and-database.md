@@ -4,9 +4,6 @@ description: Establish a server connection using the Microsoft.AnalysisServices
 ms.date: 12/07/2020
 ms.service: analysis-services
 ms.topic: reference
-ms.author: kfollis
-ms.reviewer: kfollis
-author: kfollis
 ms.custom:
   - tabular-models
   - sfi-ropc-nochange
