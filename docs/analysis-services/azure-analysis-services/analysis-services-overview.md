@@ -17,6 +17,13 @@ ms.custom: references_regions
 
 Azure Analysis Services is a fully managed platform as a service (PaaS) that provides enterprise-grade data models in the cloud. Use advanced mashup and modeling features to combine data from multiple data sources, define metrics, and secure your data in a single, trusted tabular semantic data model. The data model provides an easier and faster way for users to perform ad hoc data analysis using tools like Power BI and Excel.
 
+> [!IMPORTANT]
+> **Mirroring to Microsoft Fabric is now available.** Mirroring to Fabric provides better analytical performance, the ability to unify your data estate with OneLake in Fabric, and open access to your data in Delta Parquet format.
+>
+> With Mirroring to Microsoft Fabric, you can continuously replicate your existing data estate directly into OneLake in Fabric, including data from SQL Server 2016+, Azure SQL Database, Azure SQL Managed Instance, Cosmos DB, Oracle, Snowflake, and more.
+> 
+> For more information, see [Microsoft Fabric mirrored databases](/fabric/database/mirrored-database/overview).
+
 ![Data sources](./media/analysis-services-overview/aas-overview-overall.png)
 
 **Video:** Check out [Azure Analysis Services Overview](https://www.youtube.com/watch?v=m1jnG1zIvTo&t=31s) to learn how Azure Analysis Services fits in with Microsoft's overall BI capabilities.
