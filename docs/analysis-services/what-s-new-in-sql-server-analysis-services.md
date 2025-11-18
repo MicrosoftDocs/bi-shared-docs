@@ -1,6 +1,6 @@
 ---
 title: "What's new in SQL Server Analysis Services | Microsoft Docs"
-ms.date: 06/06/2025
+ms.date: 11/17/2025
 description: Learn about new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
 ms.service: analysis-services
 ms.topic: conceptual
@@ -20,7 +20,7 @@ This article summarizes new features, improvements, deprecated and discontinued 
 
 #### Models with calculation groups and format strings in Excel
 
-We made significant performance improvements for MDX queries on models with Calculation Groups and Format Strings to reduce memory usage and improve responsiveness. The latest changes greatly improve the performance and reliability of operations in Analyze in Excel on models that include one or both of:
+We made significant performance improvements for MDX queries on models with Calculation Groups and Format Strings to reduce memory usage and improve responsiveness. The latest changes improve the performance and reliability of operations in Analyze in Excel on models that include one or both of:
 
 - Dynamic Format Strings for Measures
 
@@ -40,7 +40,7 @@ SSAS 2025 incorporates the latest version of Horizontal Fusion, a query performa
 
 #### Visual calculations         
 
-The way you write DAX changes today with the introduction of *visual calculations*. Visual calculations are DAX calculations that are defined and executed directly on a visual. A visual calculation can refer to any data in the visual, including columns, measures, or other visual calculations. This approach removes the complexity of the semantic model and simplifies the process of writing DAX. You can use visual calculations to complete common business calculations such as running sums or moving averages. To learn more about how to enable and use visual calculations, visit [Visual calculations overview](/power-bi/transform-model/desktop-visual-calculations-overview).
+The way you write DAX changes with the introduction of *visual calculations*. Visual calculations are DAX calculations that are defined and executed directly on a visual. A visual calculation can refer to any data in the visual, including columns, measures, or other visual calculations. This approach removes the complexity of the semantic model and simplifies the process of writing DAX. You can use visual calculations to complete common business calculations such as running sums or moving averages. To learn more about how to enable and use visual calculations, visit [Visual calculations overview](/power-bi/transform-model/desktop-visual-calculations-overview).
 
 #### Value filter behavior
 
@@ -63,6 +63,27 @@ SSAS 2025 includes support for multiple new DAX functions and improvements inclu
 - __Window Functions__: This function retrieves a slice of results using absolute or relative positioning. The WINDOW function makes it easier to perform calculations such as adding a running total, moving average or similar calculations that rely on selecting a range of values. It also comes with two helper functions called ORDERBY and PARTITIONBY. For more details, visit: [Window DAX function](/dax/window-function-dax).
 
 - __MINX/MAXX:__ We added an optional variant parameter to MINX and MAXX DAX functions. Traditionally, these functions ignore text and Boolean values when there are variants or mixed data types, such as text and numeric. Now with the new optional variant parameter set to TRUE, the functions consider the text values. For more details, visit [MINX DAX function](/dax/minx-function-dax) and [MAXX DAX function](/dax/maxx-function-dax).
+
+### New developer editions
+> [!Note]
+> Full edition and feature support for SQL Server Analysis Services 2025 isn't completely documented until the product is generally available (GA). The features and editions described in this article are subject to change until GA.
+
+The following free editions are designed to provide all the features of their corresponding paid editions. They can be used to develop SQL Server applications without requiring a paid license.
+
+For features by edition, review [Features supported by SQL Server Edition](/analysis-services/analysis-services-features-by-edition)
+
+The editions and supported features for SQL Server 2025 (17.x) Preview are subject to change until the product is generally available.
+
+### Standard Developer edition
+SQL Server 2025 Standard Developer edition is a free edition licensed for development. It includes all features of SQL Server Standard edition.
+* Develop new applications for Standard edition.
+* Set up a staging environment to certify the upgrade of an existing application from the Standard edition to SQL Server 2025 Standard edition before deploying it in production.
+
+### Enterprise Developer edition
+SQL Server 2025 Enterprise Developer edition includes SQL Server Enterprise edition features.
+
+* Develop new applications for Enterprise edition.
+* Functionally equivalent to Developer edition in previous versions.
 
 ### Additional features
 
