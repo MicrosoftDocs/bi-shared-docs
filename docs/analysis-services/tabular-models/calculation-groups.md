@@ -352,10 +352,10 @@ In summary, on a calculation group the following can be defined, for example usi
 table Scenarios
 	calculationGroup
 		...
-    multipleOrEmptySelectionExpression = <expression>
-        formatStringDefinition = <format string>
-    noSelectionExpression= <expression>
-        formatStringDefinition = <format string>
+    multipleOrEmptySelectionExpression = "replace with the DAX formula"
+        formatStringDefinition = "replace with the DAX formula"
+    noSelectionExpression= "replace with the DAX formula"
+        formatStringDefinition = "replace with the DAX formula"
 ...
 ```
  > [!NOTE]  
@@ -386,7 +386,7 @@ Use TMDL to set the property on your model:
 createOrReplace
     model Model
         ...
-        selectionExpressionBehavior: <automatic|nonvisual|visual>
+        selectionExpressionBehavior: automatic | nonvisual | visual
 ...
 ```
 
