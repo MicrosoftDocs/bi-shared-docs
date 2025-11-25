@@ -4,7 +4,7 @@ description: Learn how calculation groups can significantly reduce the number of
 ms.date: 09/11/2023
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Calculation groups
