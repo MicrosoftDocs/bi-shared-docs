@@ -3,7 +3,7 @@ title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
 ms.date: 12/03/2025
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ms.custom:
   - sfi-ropc-nochange
