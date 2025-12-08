@@ -3,7 +3,7 @@ title: "What's new in SQL Server Analysis Services | Microsoft Docs"
 ms.date: 11/17/2025
 description: Learn about new features and improvements in the most recent versions of SQL Server Analysis Services (SSAS).
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: article
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # What's new in SQL Server Analysis Services 
