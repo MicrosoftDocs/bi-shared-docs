@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services tools | Microsoft Docs"
 description: Learn how to find the tools and applications you'll need for building Analysis Services models and managing deployed databases.  
-ms.date: 06/13/2022
+ms.date: 12/08/2025
 ms.service: analysis-services
 ms.topic: conceptual
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
@@ -14,15 +14,9 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
 
 ## Create and deploy models  
 
-Tabular and multidimensional model projects are created by using project templates in Visual Studio with Analysis Services projects extensions (VSIX). Project templates provide model designers and wizards for creating the data model objects that comprise an Analysis Services solution. Analysis Services projects extensions are supported on all Visual Studio 2017 and later editions, including the free Community edition.
+Tabular and multidimensional model projects are created by using project templates in Visual Studio with Analysis Services projects extensions. Project templates provide model designers and wizards for creating the data model objects that comprise an Analysis Services solution. Analysis Services projects extensions are supported on all Visual Studio editions, including the free Community edition.
 
-[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
-
-[Download Visual Studio 2019](/visualstudio/releases/2019/system-requirements#download)
-
-[Download Analysis Services projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects)
-
-SQL Server Data Tools (SSDT) has been an integral part of creating Analysis Services solutions since SQL 2005. With the introduction of project extensions in Visual Studio, SSDT has been phased out in favor of Visual Studio with Analysis Services projects. Much of the Analysis Services documentation here refers to SSDT, and images often show SSDT windows and dialogs. While Visual Studio with Analysis Services extensions are installed differently and offer even more functionality, the user interface in Visual Studio is much the same as SSDT. Documentation will be updated with new naming and images over time.
+Learn more about installing the Analysis Services projects extension in Visual Studio with SQL Server Data Tools (SSDT) in [Install SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt?#install-extensions-for-analysis-services-integration-services-and-reporting-services).
 
 ## Administer servers and databases  
 
