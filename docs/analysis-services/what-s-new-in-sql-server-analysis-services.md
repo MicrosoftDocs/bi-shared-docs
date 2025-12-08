@@ -123,7 +123,7 @@ Starting with SQL Server Analysis Services 2025, HTTP connections through msmdpu
 
 #### Windows Arm64 not supported
 
-SQL Server Analysis Services 2025 is not supported on Windows Arm64. Only Intel and AMD x86-64 CPUs with [up to 64 cores per NUMA node](https://github.com/MicrosoftDocs/sql-docs-pr/blob/release-2025-rc0/docs/sql-server/compute-capacity-limits-by-edition-of-sql-server.md#numa-64) are currently supported.
+SQL Server Analysis Services 2025 is not supported on Windows Arm64. Only Intel and AMD x86-64 CPUs with [up to 64 cores per NUMA node](https://github.com/MicrosoftDocs/sql-docs-pr/blob/main/docs/sql-server/compute-capacity-limits-by-edition-of-sql-server.md) are currently supported.
 
 ::: moniker-end  
 
