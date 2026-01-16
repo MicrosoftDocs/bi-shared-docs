@@ -4,7 +4,7 @@ description: Learn how to verify the the SQL Server Analysis Services cumulative
 ms.date: 01/05/2021
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 

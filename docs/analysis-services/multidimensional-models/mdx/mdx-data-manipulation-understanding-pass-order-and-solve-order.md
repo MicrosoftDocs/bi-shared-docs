@@ -4,7 +4,7 @@ description: Learn about how you can understand pass order and solve order relat
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Data Manipulation - Understanding Pass Order and Solve Order

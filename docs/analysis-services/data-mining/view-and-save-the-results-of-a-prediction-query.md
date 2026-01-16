@@ -4,7 +4,7 @@ description: Learn how to run a prediction query and view the results by switchi
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # View and Save the Results of a Prediction Query

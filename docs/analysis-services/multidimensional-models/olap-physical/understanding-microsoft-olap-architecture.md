@@ -4,7 +4,7 @@ description: Learn about Analysis Services multidimensional databases and plan h
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: overview
 
 ---
 # Understanding Microsoft OLAP Architecture
