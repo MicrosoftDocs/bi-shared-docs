@@ -4,7 +4,7 @@ description: Learn about linked measure groups, which are is based on other meas
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Linked Measure Groups

@@ -4,7 +4,7 @@ description: Learn about the implemenation of the Microsoft Logistic Regression 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Microsoft Logistic Regression Algorithm Technical Reference

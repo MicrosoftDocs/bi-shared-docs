@@ -4,7 +4,7 @@ description: Learn how Multidimensional Expressions (MDX) can be used to manipul
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Data Manipulation - Manipulating Data
