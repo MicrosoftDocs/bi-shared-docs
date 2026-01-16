@@ -3,7 +3,7 @@ title: "Tabular modeling overview - Analysis Services  | Microsoft Docs"
 description: Learn how tabular models in Analysis Services are databases that run in-memory or in DirectQuery mode, connecting to data from back-end relational data sources.
 ms.date: 06/08/2021
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Tabular modeling overview

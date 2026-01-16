@@ -4,7 +4,7 @@ description: Learn how the Server object represents the server and the instance 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Server Objects (Analysis Services - Multidimensional Data)

@@ -4,7 +4,7 @@ description: Specify partition storage in the Partitions tab of the cube in SQL 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Set Partition Storage (Analysis Services - Multidimensional)
