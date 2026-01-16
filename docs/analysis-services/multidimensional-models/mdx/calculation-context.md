@@ -4,7 +4,7 @@ description: Learn that The calculation context is the known subspace of the cub
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: concept-article
+ms.topic: how-to
 
 ---
 # Calculation Context
