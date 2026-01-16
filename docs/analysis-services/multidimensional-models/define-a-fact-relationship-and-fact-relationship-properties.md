@@ -4,7 +4,7 @@ description: Learn how to view or edit a fact dimension relationship on the Dim
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Define a Fact Relationship and Fact Relationship Properties

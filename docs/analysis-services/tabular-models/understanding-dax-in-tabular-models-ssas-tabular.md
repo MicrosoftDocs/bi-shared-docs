@@ -4,7 +4,7 @@ description: Learn that for tabular models, DAX formulas are used in calculated 
 ms.date: 04/20/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # DAX in tabular models

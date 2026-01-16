@@ -4,7 +4,7 @@ description: Add semiadditive behavior to a cube to define an aggregation method
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Define Semiadditive Behavior

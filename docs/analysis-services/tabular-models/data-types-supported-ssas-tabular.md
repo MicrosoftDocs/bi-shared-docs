@@ -4,7 +4,7 @@ description: Learn about the data types that can be used in tabular models, and 
 ms.date: 01/29/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Data types supported in tabular models
