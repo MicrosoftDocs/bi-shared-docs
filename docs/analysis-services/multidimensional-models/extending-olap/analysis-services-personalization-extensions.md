@@ -4,7 +4,7 @@ description: Learn how SQL Server Analysis Services personalization extensions a
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Analysis Services Personalization Extensions

@@ -4,7 +4,7 @@ description: Learn how to manage thread pool properties so you can improve overa
 ms.date: 05/03/2021
 ms.service: analysis-services
 ms.custom: 
-ms.topic: conceptual
+ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # Thread pool properties
