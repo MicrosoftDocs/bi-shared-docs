@@ -4,7 +4,7 @@ description: Learn how to use backup and restore in Analysis Services to recover
 ms.date: 03/12/2020
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 # Backup and Restore of Analysis Services Databases
 [!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]
