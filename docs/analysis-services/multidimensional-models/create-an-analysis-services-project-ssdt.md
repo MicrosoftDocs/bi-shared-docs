@@ -4,7 +4,7 @@ description: Define an Analysis Services project in SQL Server Data Tools by usi
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create an Analysis Services Project

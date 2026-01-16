@@ -4,7 +4,7 @@ description: Configure a secondary database on a remote Analysis Services instan
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create and Manage a Remote Partition (Analysis Services)

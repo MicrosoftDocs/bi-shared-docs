@@ -3,7 +3,7 @@ title: "Create a Data Source (SSAS Multidimensional) | Microsoft Docs"
 description: Use the instructions in this topic to create a data source object for your Analysis Services multidimensional model.
 ms.date: 05/02/2018
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom:
   - multidimensional-models
   - sfi-ropc-nochange
