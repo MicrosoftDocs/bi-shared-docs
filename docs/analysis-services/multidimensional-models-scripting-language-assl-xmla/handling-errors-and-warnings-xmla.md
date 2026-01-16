@@ -4,7 +4,7 @@ description: Learn how error handling is required when an XMLA Discover or Execu
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Handling Errors and Warnings (XMLA)

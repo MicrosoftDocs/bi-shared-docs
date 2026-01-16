@@ -4,7 +4,7 @@ description: Learn about the procedures for a single server installation of a An
 ms.date: 06/09/2022
 ms.service: analysis-services
 ms.custom: ppvt-sharepoint
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Install Analysis Services in Power Pivot Mode
