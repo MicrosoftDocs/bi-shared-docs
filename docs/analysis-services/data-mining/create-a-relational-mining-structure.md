@@ -4,7 +4,7 @@ description: Learn how to use the Data Mining Wizard to create a relational mini
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: concept-article
+ms.topic: how-to
 
 ---
 # Create a Relational Mining Structure
