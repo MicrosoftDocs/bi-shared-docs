@@ -4,7 +4,7 @@ description: Learn about the APIs you can use to program against an Analysis Ser
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: overview
 
 ---
 # Multidimensional Model Programming

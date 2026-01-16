@@ -4,7 +4,7 @@ description: Learn about processing, the step or series of steps in which Analys
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Processing a multidimensional model (Analysis Services)
