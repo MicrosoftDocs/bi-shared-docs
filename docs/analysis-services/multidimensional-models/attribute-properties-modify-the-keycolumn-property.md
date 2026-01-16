@@ -4,7 +4,7 @@ description: Modify the KeyColumns property of an attribute, for example to sp
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Attribute Properties - Modify the KeyColumn Property

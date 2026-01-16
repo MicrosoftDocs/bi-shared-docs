@@ -4,7 +4,7 @@ description: Learn how to use the Subscribe command in XML for Analysis (XMLA) t
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Monitoring Traces (XMLA)
