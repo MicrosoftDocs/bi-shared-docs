@@ -4,7 +4,7 @@ description: Use the Schema Generation Wizard to create the underlying data sour
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Schema Generation Wizard (Analysis Services)

@@ -4,7 +4,7 @@ description: Learn about securing your data mining project, which occurs at mult
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Security Overview (Data Mining)

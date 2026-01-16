@@ -4,7 +4,7 @@ description: "Learn how an application typically examines a cube and divides the
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Query and Slicer Axes - Restricting the Query

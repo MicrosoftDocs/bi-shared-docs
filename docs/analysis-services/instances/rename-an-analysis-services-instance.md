@@ -4,7 +4,7 @@ description: Learn how to rename an existing instance of SQL Server Analysis Ser
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Rename an Analysis Services Instance

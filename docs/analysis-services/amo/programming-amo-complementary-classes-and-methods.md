@@ -4,7 +4,7 @@ description: Learn how to use programming AMO complementary classes and methodst
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: amo
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019 || sql-analysis-services-2022"
 
 ---

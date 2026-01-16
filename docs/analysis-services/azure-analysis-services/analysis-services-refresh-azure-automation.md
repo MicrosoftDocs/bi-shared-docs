@@ -3,7 +3,7 @@ title: Refresh Azure Analysis Services models with Azure Automation | Microsoft 
 description: This article describes how to code model refreshes for Azure Analysis Services by using Azure Automation.
 author: chrislound
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/01/2020
 ms.author: chlound
 

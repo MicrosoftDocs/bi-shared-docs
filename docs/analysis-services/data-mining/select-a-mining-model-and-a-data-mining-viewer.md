@@ -4,7 +4,7 @@ description: Learn how to explore a mining model by using a viewer in Data Minin
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Select a Mining Model and a Data Mining Viewer

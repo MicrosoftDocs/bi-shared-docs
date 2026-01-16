@@ -4,7 +4,7 @@ description: Learn about other features of SQL Server 2017 that support data pre
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Related Projects for Data Mining Solutions
