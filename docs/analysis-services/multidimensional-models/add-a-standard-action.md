@@ -4,7 +4,7 @@ description: Learn how to add an action to a database by using the Actions view 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Add a Standard Action

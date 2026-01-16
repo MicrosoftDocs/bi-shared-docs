@@ -4,7 +4,7 @@ description: Learn to modify a data source view (DSV) in Data Source View Design
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Adding or Removing Tables or Views in a Data Source View (Analysis Services)

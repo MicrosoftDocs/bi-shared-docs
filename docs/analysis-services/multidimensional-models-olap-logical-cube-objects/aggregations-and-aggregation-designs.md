@@ -4,7 +4,7 @@ description: Learn how an AggregationDesign object defines a set of aggregation 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Aggregations and Aggregation Designs

@@ -4,7 +4,7 @@ description: Learn about the contents of Analysis Services developer documentati
 ms.date: 04/07/2021
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Analysis Services developer documentation
