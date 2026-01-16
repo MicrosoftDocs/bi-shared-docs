@@ -4,7 +4,7 @@ description: Learn about options for drillthrough queries that let you get detai
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Drillthrough Queries (Data Mining)

@@ -4,7 +4,7 @@ description: Learn how you can use ASSL in custom applications to communicate wi
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Developing with Analysis Services Scripting Language (ASSL)

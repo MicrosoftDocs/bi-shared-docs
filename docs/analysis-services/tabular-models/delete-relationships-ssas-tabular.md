@@ -4,7 +4,7 @@ description: Learn how to delete existing relationships by using the model desig
 ms.date: 01/29/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Delete relationships

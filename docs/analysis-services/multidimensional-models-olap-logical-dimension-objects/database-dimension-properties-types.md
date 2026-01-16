@@ -4,7 +4,7 @@ description: Learn how the dimension type provides information about the content
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Database Dimension Properties - Types

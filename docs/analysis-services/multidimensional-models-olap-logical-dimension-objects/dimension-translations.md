@@ -4,7 +4,7 @@ description: Learn that dimension translations are a simple mechanism to change 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Dimension Translations

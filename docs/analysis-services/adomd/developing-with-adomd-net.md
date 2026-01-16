@@ -4,7 +4,7 @@ description: Learn how  ADOMD.NET is a Microsoft .NET Framework data provider de
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # ADOMD.NET
