@@ -4,7 +4,7 @@ description: Give a user access to the data source object to execute a DMX query
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Grant permissions on a data source object (Analysis Services)

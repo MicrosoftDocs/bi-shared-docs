@@ -4,7 +4,7 @@ description: Learn how to excluded a column from a data mining model in SQL Serv
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Exclude a Column from a Mining Model

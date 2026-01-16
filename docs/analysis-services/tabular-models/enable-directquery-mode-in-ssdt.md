@@ -4,7 +4,7 @@ description: Describes how to enable DirectQuery mode for tabular models by usin
 ms.date: 08/27/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Enable DirectQuery mode in Visual Studio

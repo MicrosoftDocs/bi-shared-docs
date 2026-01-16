@@ -3,7 +3,7 @@ title: "Establishing Secure Connections in ADOMD.NET | Microsoft Docs"
 description: Learn how to establish a secure connection in ADOMD.NET by using the ProtectionLevel property in the connection string.
 ms.date: 10/31/2023
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - adomd
   - sfi-ropc-nochange

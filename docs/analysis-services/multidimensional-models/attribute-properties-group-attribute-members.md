@@ -4,7 +4,7 @@ description: Learn to group members of an attribute into a number of member grou
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Attribute Properties - Group Attribute Members

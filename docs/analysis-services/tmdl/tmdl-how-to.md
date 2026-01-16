@@ -4,7 +4,7 @@ description: Learn how to get started using the Tabular Model Definition Languag
 ms.date: 12/20/2023
 ms.service: analysis-services
 ms.custom: tmdl
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Get started with TMDL

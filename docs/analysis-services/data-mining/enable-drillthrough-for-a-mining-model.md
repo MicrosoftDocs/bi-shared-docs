@@ -4,7 +4,7 @@ description: Learn how to enable drillthrough for a mining model, so you can ret
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Enable Drillthrough for a Mining Model
