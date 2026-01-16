@@ -4,7 +4,7 @@ description: Learn about the All member and how to configure the (All) Level for
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Database Dimensions - Configure the (All) Level for Attribute Hierarchies

@@ -4,7 +4,7 @@ description: Learn about column properties in Analysis Services tabular models, 
 ms.date: 01/29/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Column properties

@@ -4,7 +4,7 @@ description: Learn how to configure the Windows Firewall to allow access for SQL
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Configure the Windows Firewall to Allow Analysis Services Access

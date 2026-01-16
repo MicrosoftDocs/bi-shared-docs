@@ -4,7 +4,7 @@ description: Learn about the many attribute types that help classify an attribut
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Attribute Properties - Configure Attribute Types

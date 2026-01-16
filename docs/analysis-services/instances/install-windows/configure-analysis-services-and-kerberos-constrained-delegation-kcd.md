@@ -4,7 +4,7 @@ description: Learn how to configure Analysis Services and Kerberos Constrained D
 ms.date: 05/18/2022
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Configure Analysis Services and Kerberos Constrained Delegation (KCD)
