@@ -4,7 +4,7 @@ description: Learn about the measures used in the cross-validation report and th
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Cross-Validation Formulas

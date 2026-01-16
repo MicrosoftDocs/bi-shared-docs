@@ -4,7 +4,7 @@ description: "Learn how a simple Cube object is composed of: basic information, 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Cube Objects (Analysis Services - Multidimensional Data)

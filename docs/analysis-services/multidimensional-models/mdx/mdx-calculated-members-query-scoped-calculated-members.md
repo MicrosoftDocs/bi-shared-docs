@@ -4,7 +4,7 @@ description: Learn how the syntax of the WITH keyword allows a calculated member
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Calculated Members - Query-Scoped Calculated Members

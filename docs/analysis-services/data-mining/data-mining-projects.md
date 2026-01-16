@@ -4,7 +4,7 @@ description: Learn how data mining projects are part of a SQL Server Analysis Se
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Data Mining Projects

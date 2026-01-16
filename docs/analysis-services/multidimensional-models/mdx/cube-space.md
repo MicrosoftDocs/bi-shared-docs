@@ -4,7 +4,7 @@ description: Learn how cube space in Analysis Services is the product of the mem
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Cube Space
