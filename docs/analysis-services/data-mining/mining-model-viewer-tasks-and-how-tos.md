@@ -4,7 +4,7 @@ description: Learn about the tools that SQL Server Data Tools contains to explor
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: article
+ms.topic: how-to
 
 ---
 # Mining Model Viewer Tasks and How-tos
