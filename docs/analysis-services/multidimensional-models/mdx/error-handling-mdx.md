@@ -4,7 +4,7 @@ description: Learn how each cube can control how errors within a Multidimensiona
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: concept-article
+ms.topic: reference
 
 ---
 # Error Handling (MDX)
