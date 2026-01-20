@@ -4,7 +4,7 @@ description: Learn how Analysis Services exposes intrinsic properties on dimensi
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: concept-article
+ms.topic: reference
 
 ---
 # MDX Member Properties - Intrinsic Member Properties
