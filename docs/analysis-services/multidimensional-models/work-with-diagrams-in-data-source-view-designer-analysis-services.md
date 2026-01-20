@@ -4,7 +4,7 @@ description: Work with the DSV diagram interactively to add, hide, delete or mod
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: concept-article
+ms.topic: how-to
 
 ---
 # Work with Diagrams in Data Source View Designer (Analysis Services)
