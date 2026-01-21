@@ -137,6 +137,36 @@ blank is the default value for HTTP connections.
 
 *ClaimsToken is supported for Azure AS and Power BI Premium.
 
+##### Interactive Login, Identity Mode
+
+In HTTP connections to cloud-based analysis-services, the authentication is based by default on silent SSO flow, which will use the identity of the current user that is logged on to the Windows session. The properties listed below can be used to provide additional control for users and applications over the authentication process.
+
+Certain advanced connectivity aspects can be controlled by client-configuration settings.
+ 
+###### Interactive Login
+
+The ‘**Interactive Login**’ property can be used to control the usage of interactive authentication flow; possible values are:
+
+- **Default**. Application determines the authentication flow. Usually, SSO is enabled with a fallback to interactive if the silent authentication fails. The default behavior is also influenced by other connection-string properties, for example Integrated Security=SSPI will force a silent authentication.
+
+- **Enabled**. Interactive login is enabled, but only as a fallback to failure in the silent SSO flow.
+
+- **Disabled**. Interactive login is disabled - if the silent authentication fails, the connection attempt will fail.
+
+- **Always**. Silent authentication is disable and Interactive login will be used.
+
+###### Identity Mode
+
+The ‘**Identity Mode**’ property can be used to control what will be the identity that will be used when the connection-string does not explicitly define it using the ‘User Id’ property. Possible values are:
+
+- **Default**. Identity mode is determined by other connection-string properties and the system configuration.
+
+- **CurrentUser**. Use the current user logged in to the Windows session.
+
+- **Connection**. Identity is determined based on the data-source that is the target of the connection. The first time a connection is opened to a specific data-source, the user can select the identity interactively and that identity is used for any subsequent connection to the same data-source for the lifetime of the application process.
+
+- **Process**. First connection attempt is interactive, and subsequent attempts use the identity that was used on the first connection.
+
 ##### Persist Security Info
 
 Valid values are **True** or **False**. When set to True, security information, such as the user identity or password previously specified on the connection string, can be obtained from the connection after the connection is made. The default value is False.
