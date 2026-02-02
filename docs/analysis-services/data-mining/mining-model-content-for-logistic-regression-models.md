@@ -4,7 +4,7 @@ description: Learn about mining model content that is specific to models that us
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Mining Model Content for Logistic Regression Models

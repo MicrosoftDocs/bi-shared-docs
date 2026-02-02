@@ -4,7 +4,7 @@ description: Learn about the Mining Structure tab of Data Mining Designer in SQL
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Mining Structure Tasks and How-tos
