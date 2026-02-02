@@ -4,7 +4,7 @@ description: Set the Slice property to improve query performance by overriding d
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Set the Partition Slice Property (Analysis Services)

@@ -4,7 +4,7 @@ description: Learn how security for stored procedures is set with the Permission
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Setting Security for Stored Procedures

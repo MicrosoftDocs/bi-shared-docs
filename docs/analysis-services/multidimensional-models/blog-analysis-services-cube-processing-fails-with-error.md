@@ -5,7 +5,7 @@ author: kfollis
 ms.author: kfollis
 ms.reviewer: kfollis
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: troubleshooting-problem-resolution
 ms.date: 04/13/2019
 ms.custom: sfi-image-nochange
 ---

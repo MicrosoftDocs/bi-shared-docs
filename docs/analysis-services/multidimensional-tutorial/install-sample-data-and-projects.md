@@ -4,7 +4,7 @@ description: Learn how to install the data and project files used in the Analysi
 ms.date: 04/20/2022
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 ---
 # Install sample data and multidimensional projects 
 

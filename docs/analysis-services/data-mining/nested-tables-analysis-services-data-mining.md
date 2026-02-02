@@ -4,7 +4,7 @@ description: Learn about nested tables, a method that SQL Server Analysis Servic
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Nested Tables (Analysis Services - Data Mining)

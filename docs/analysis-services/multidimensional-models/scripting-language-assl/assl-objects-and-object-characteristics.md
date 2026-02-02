@@ -4,7 +4,7 @@ description: Learn how objects in Analysis Services Scripting Language (ASSL) fo
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # ASSL Objects and Object Characteristics

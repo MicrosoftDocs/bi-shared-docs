@@ -4,7 +4,7 @@ description: Learn about tools for data mining queries that use the Data Mining 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Data Mining Query Tools

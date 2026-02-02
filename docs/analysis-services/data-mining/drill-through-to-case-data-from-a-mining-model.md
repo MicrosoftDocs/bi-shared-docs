@@ -4,7 +4,7 @@ description: Learn how to drill through to case data from a mining model in SQL 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Drill Through to Case Data from a Mining Model

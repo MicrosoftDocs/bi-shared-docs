@@ -4,7 +4,7 @@ description: Learn globalization tips for increasing the portability of business
 ms.date: 06/10/2022
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: best-practice
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Globalization tips and best practices (Analysis Services)

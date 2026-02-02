@@ -4,7 +4,7 @@ description: Learn about the benefits and key features of data mining, also call
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Data Mining (SSAS)

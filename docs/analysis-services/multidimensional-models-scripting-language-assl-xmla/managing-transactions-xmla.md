@@ -4,7 +4,7 @@ description: Learn how to manage transactions by using the BeginTransaction, Com
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Managing Transactions (XMLA)

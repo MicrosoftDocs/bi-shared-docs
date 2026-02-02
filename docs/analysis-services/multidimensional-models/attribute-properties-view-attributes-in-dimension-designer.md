@@ -4,7 +4,7 @@ description: View, add, remove, and configure attributes by using Dimension Desi
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Attribute Properties - View Attributes in Dimension Designer

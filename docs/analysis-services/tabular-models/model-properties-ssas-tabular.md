@@ -4,7 +4,7 @@ description: Learn how model properties affect how the model you are authoring i
 ms.date: 01/29/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Model properties

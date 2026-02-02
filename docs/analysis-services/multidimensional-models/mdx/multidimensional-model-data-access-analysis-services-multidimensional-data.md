@@ -4,7 +4,7 @@ description:  Learn how to access Analysis Services multidimensional data using 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Multidimensional Model Data Access (Analysis Services - Multidimensional Data)

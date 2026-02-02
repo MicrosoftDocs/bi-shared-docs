@@ -4,7 +4,7 @@ description: Learn about the Microsoft Naive Bayes algorithm, by reviewing this 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Microsoft Naive Bayes Algorithm

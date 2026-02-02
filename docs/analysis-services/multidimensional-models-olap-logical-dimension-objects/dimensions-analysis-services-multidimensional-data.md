@@ -4,7 +4,7 @@ description: Learn how dimensions organize data with relation to an area of inte
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Dimensions (Analysis Services - Multidimensional Data)

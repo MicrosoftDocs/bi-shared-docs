@@ -4,7 +4,7 @@ description: Learn how the LANGUAGE and FORMAT_STRING cell property on FORMATTED
 ms.date: 07/24/2020
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # MDX Cell Properties - FORMATTED_VALUE Property

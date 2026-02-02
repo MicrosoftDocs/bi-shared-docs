@@ -4,7 +4,7 @@ description: Learn the maximum sizes and numbers of various objects defined in A
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: limits-and-quotas
 
 ---
 # Maximum capacity specifications (Analysis Services)

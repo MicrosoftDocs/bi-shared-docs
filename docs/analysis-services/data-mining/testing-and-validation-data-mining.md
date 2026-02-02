@@ -4,7 +4,7 @@ description: Learn about basic concepts related to model quality and the strateg
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Testing and Validation (Data Mining)

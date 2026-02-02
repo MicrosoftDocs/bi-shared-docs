@@ -4,7 +4,7 @@ description: In this article, learn to use the Data Mining Wizard to create a ne
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Add Mining Models to a Structure (Analysis Services - Data Mining)

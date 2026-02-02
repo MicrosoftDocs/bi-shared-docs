@@ -4,7 +4,7 @@ description: Find a specific node in a dependency network in a mining model by u
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Find a Specific Node in a Dependency Network

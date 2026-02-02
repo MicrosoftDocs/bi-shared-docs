@@ -4,7 +4,7 @@ description: Learn about further configuration after installing Analysis Service
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Post-install Configuration (Analysis Services)

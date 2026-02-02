@@ -4,7 +4,7 @@ description: Learn how ADOMD.NET not only allows you to retrieve data, but also 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # ADOMD.NET Client Functionality

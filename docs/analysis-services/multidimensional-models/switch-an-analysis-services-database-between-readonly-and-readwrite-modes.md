@@ -4,7 +4,7 @@ description: Change the read/write mode of a tabular or multidimensional databas
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Switch an Analysis Services database between ReadOnly and ReadWrite modes

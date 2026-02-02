@@ -4,7 +4,7 @@ description: Learn how to set or change the properties for a mining structure an
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # Properties for Mining Structure and Structure Columns

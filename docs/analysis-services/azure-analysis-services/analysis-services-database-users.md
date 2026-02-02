@@ -3,7 +3,7 @@ title: Learn how to manage database roles and users in Azure Analysis Services |
 description: Learn how to manage database roles and users on an Analysis Services server in Azure.
 author: kfollis
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/27/2023
 ms.author: kfollis
 ms.reviewer: minewiskan

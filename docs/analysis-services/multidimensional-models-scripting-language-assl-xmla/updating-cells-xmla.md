@@ -4,7 +4,7 @@ description: Learn how to use the UpdateCells command to change the value of one
 ms.date: 06/06/2019
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Updating Cells (XMLA)

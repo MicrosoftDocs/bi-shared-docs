@@ -4,7 +4,7 @@ description: Learn how the EXISTING keyword forces a specified set to be evaluat
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # MDX Query - EXISTING Keyword

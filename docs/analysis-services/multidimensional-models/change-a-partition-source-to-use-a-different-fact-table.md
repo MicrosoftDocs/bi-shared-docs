@@ -4,7 +4,7 @@ description: Learn how to change a partition source to use a different fact tabl
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Change a partition source to use a different fact table

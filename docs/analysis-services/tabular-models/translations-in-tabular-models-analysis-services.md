@@ -4,7 +4,7 @@ description: Learn how in tabular models, an object can have multiple translatio
 ms.date: 04/20/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2017"
 ---
 # Translations in tabular models

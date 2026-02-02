@@ -4,7 +4,7 @@ description: Learn about how nodes that contain information are organized, and w
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Mining Model Content for Time Series Models (Analysis Services - Data Mining)

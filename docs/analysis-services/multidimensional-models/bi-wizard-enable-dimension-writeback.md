@@ -4,7 +4,7 @@ description: Add the dimension writeback enhancement to a cube or dimension to a
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # BI Wizard - Enable Dimension Writeback

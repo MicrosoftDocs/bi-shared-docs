@@ -4,7 +4,7 @@ description: Learn how to find the parameters that were used when a mining model
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Query the Parameters Used to Create a Mining Model

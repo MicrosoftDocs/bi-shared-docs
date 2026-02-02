@@ -4,7 +4,7 @@ description: Use the WITH keyword syntax to define a named set that is only requ
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Named Sets - Creating Query-Scoped Named Sets

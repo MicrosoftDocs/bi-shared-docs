@@ -4,7 +4,7 @@ description: Learn how a tuple uniquely identifies a slice of data from a cube a
 ms.date: 06/06/2019
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Tuples

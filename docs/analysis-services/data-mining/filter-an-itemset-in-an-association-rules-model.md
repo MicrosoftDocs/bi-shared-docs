@@ -4,7 +4,7 @@ description: Learn how to filter an Itemset in an Association Rules Model by usi
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Filter an Itemset in an Association Rules Model

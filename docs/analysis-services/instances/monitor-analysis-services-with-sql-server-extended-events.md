@@ -4,7 +4,7 @@ description: Learn how to monitor Analysis Services with SQL Server Extended Eve
 ms.date: 02/22/2021
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 

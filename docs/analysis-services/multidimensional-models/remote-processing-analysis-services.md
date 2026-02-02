@@ -4,7 +4,7 @@ description: Run scheduled or unattended processing on a remote Analysis Service
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Remote Processing (Analysis Services)

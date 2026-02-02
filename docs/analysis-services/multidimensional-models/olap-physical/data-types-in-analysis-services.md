@@ -4,7 +4,7 @@ description: Learn about the supported data types in Analysis Services, includin
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # Data Types in Analysis Services

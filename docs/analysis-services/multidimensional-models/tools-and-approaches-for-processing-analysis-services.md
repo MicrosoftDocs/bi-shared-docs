@@ -4,7 +4,7 @@ description: Execute and monitor the processing of Analysis Services objects to
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Tools and Approaches for Processing (Analysis Services)

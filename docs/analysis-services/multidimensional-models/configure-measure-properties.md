@@ -4,7 +4,7 @@ description: Learn about Measures properties that enable you to define how the m
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # Configure Measure Properties

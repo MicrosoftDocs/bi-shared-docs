@@ -4,7 +4,7 @@ description: Learn how to create queries to make use of data mining models by us
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Data Mining Query Tasks and How-tos

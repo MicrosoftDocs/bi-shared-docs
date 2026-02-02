@@ -3,7 +3,7 @@ title: Learn about data sources supported in Azure Analysis Services | Microsoft
 description: Describes data sources and connectors supported for tabular 1200 and higher data models in Azure Analysis Services.
 author: kfollis
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 01/27/2023
 ms.author: kfollis
 ms.reviewer: minewiskan

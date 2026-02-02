@@ -3,7 +3,7 @@ title: Configure Azure Analysis Services for VNet data sources | Microsoft Docs
 description: Learn how to configure an Azure Analysis Services server to use a gateway for data sources on Azure Virtual Network (VNet).
 author: kfollis
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/02/2022
 ms.author: kfollis
 ms.reviewer: minewiskan

@@ -4,7 +4,7 @@ description: Learn how to delete a data source object to permanently remove it f
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Delete a Data Source in Solution Explorer (SSAS Multidimensional)

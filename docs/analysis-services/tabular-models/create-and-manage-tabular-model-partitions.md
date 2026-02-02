@@ -4,7 +4,7 @@ description: Learn how to create and manage partitions for a deployed model.
 ms.date: 10/22/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Create and manage tabular model partitions

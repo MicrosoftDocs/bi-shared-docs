@@ -4,7 +4,7 @@ description: In this article, learn how to use the CREATE SUBCUBE statement to d
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Building Subcubes in MDX (MDX)

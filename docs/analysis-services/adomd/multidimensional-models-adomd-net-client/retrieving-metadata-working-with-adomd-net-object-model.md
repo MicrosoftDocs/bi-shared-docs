@@ -4,7 +4,7 @@ description: The AdomdConnection object provides access to information on the on
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Retrieving Metadata - Working with ADOMD.NET Object Model

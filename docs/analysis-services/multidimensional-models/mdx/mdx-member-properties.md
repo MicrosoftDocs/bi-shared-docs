@@ -4,7 +4,7 @@ description: Learn how Member properties cover the basic information about each 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Member Properties

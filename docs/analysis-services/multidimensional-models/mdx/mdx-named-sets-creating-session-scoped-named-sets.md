@@ -4,7 +4,7 @@ description: Use the CREATE SET statement to create a named set that is availabl
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Named Sets - Creating Session-Scoped Named Sets

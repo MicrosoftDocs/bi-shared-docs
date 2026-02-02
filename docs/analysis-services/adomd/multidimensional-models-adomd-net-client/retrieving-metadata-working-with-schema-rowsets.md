@@ -4,7 +4,7 @@ description: Learn how ADOMD.NET provides can help retrieve the full range of XM
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Retrieving Metadata - Working with Schema Rowsets
