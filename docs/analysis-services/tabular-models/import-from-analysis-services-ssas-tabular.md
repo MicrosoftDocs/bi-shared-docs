@@ -4,7 +4,7 @@ description: Learn how to create a new tabular model project by importing the me
 ms.date: 02/22/2021
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # Import from Analysis Services

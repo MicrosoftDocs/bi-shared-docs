@@ -4,7 +4,7 @@ description: Learn about the properties of a level in a user-defined hierarchy.
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # User Hierarchies - Level Properties

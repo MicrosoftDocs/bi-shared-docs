@@ -4,7 +4,7 @@ description: Learn about key multidimensional concepts and terms so you can use 
 ms.date: 04/19/2019
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Key Concepts in MDX (Analysis Services)

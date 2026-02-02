@@ -4,7 +4,7 @@ description: Learn how sign in credentials are used by Analysis Services when co
 ms.date: 04/22/2021
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # Impersonation
