@@ -4,7 +4,7 @@ description: Learn how to rename a column or table during the Get Data\import pr
 ms.date: 07/15/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Rename a table or column

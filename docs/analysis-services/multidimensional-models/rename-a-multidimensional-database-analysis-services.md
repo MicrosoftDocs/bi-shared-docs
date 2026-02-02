@@ -4,7 +4,7 @@ description: Change the name of a multidimensional Analysis Services database in
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Rename a Multidimensional Database (Analysis Services)

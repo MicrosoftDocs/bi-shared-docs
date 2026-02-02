@@ -4,7 +4,7 @@ description: In this article, learn how to retrieve data from an analytical data
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Retrieving Data Using the AdomdDataReader

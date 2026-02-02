@@ -4,7 +4,7 @@ description: Learn how to retrieve data from an analytical data source by callin
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Retrieving Data from an Analytical Data Source
