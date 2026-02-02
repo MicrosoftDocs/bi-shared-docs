@@ -4,7 +4,7 @@ description: Learn about the management operations for data mining solutions and
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Management of Data Mining Solutions and Objects

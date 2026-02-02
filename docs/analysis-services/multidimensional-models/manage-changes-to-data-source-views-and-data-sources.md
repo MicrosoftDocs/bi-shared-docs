@@ -4,7 +4,7 @@ description: Understand how to manage changes to data source views and data sour
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Manage Changes to Data Source Views and Data Sources

@@ -4,7 +4,7 @@ description: Learn how to use the ClearCache command in XML for Analysis (XMLA) 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Managing Caches (XMLA)

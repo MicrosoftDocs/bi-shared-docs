@@ -4,7 +4,7 @@ description: Learn how to manually edit a prediction query by using the Predicti
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Manually Edit a Prediction Query
