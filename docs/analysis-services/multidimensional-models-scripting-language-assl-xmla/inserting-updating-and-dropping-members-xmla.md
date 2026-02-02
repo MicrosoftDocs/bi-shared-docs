@@ -4,7 +4,7 @@ description: Learn how to use the Insert, Update, and Drop commands in XML for A
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Inserting, Updating, and Dropping Members (XMLA)

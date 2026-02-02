@@ -4,7 +4,7 @@ description: Learn how query interleaving is a tabular mode system configuration
 ms.date: 05/17/2022
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2019"
 ---
 # Query interleaving

@@ -4,7 +4,7 @@ description: Use the Dimension Wizard in SQL Server Data Tools to create a time 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create a Time Dimension by Generating a Time Table

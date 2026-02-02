@@ -4,7 +4,7 @@ description: Learn about cubes, multidimensional structures that contain dimensi
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Cubes in Multidimensional Models

@@ -4,7 +4,7 @@ description: Use incremental translation to change cube and dimension definition
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Understanding Incremental Generation

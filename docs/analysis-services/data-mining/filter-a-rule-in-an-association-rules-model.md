@@ -4,7 +4,7 @@ description: Learn how to filter a rule in an Association Rules Model by using D
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Filter a Rule in an Association Rules Model

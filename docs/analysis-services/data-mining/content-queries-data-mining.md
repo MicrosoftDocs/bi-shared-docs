@@ -4,7 +4,7 @@ description: Learn that a content query is a way of extracting information about
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # Content Queries (Data Mining)

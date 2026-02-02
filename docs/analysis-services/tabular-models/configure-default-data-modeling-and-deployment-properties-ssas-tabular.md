@@ -4,7 +4,7 @@ description: Learn how to configure the default compatibility level and workspac
 ms.date: 04/03/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Configure default data modeling and deployment properties

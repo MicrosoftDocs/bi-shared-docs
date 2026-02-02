@@ -4,7 +4,7 @@ description: Learn how to change the default properties that affect building and
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # Configure Analysis Services Project Properties

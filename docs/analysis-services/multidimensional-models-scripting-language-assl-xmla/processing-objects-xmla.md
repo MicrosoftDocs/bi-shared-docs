@@ -4,7 +4,7 @@ description: Learn how to use the Process command to process an Analysis Service
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Processing Objects (XMLA)

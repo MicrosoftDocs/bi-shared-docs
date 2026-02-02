@@ -4,7 +4,7 @@ description: Learn how to use the cross-validation features provided for data mi
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Cross-Validation (Analysis Services - Data Mining)

@@ -4,7 +4,7 @@ description: Learn how to modify default server configuration properties of an A
 ms.date: 06/03/2025
 ms.service: analysis-services
 ms.custom: 
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Server properties in Analysis Services

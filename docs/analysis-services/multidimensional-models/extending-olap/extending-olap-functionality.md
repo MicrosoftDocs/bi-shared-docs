@@ -4,7 +4,7 @@ description: Learn how to extend Analysis Services OLAP functionality by writing
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Extending OLAP functionality

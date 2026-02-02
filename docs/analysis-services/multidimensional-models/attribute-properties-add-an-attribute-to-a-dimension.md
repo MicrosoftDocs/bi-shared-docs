@@ -4,7 +4,7 @@ description: Learn how to add an attribute to a dimension either automatically o
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Attribute Properties - Add an  Attribute to a Dimension

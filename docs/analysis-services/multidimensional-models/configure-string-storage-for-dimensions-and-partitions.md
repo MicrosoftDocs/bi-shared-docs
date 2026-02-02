@@ -4,7 +4,7 @@ description: Reconfigure string storage to accommodate very large strings in dim
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Configure String Storage for Dimensions and Partitions

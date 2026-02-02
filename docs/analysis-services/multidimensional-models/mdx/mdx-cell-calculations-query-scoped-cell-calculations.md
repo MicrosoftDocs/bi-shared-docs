@@ -4,7 +4,7 @@ description: Learn about MDX cell calculations, specifically query-scoped cell c
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Cell Calculations - Query-Scoped Cell Calculations

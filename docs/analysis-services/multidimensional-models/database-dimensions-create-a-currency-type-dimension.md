@@ -4,7 +4,7 @@ description: Use the Business Intelligence Wizard to define an MDX script comman
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Database Dimensions - Create a Currency type Dimension

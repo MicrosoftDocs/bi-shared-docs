@@ -4,7 +4,7 @@ description: Learn how to create server groups in Management Studio to make serv
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Register an Analysis Services Instance in a Server Group

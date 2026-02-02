@@ -4,7 +4,7 @@ description: Learn about options for drilling through into case data in a mining
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Drillthrough on Mining Models

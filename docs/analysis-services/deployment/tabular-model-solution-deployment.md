@@ -4,7 +4,7 @@ description: Learn how to deploy a tabular model project in order for users to b
 ms.date: 02/07/2022
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Tabular model solution deployment

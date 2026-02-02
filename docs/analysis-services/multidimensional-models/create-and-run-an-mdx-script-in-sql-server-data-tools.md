@@ -4,7 +4,7 @@ description: Follow these instructions to create and run a Multidimensional Expr
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create and Run an MDX Script in SQL Server Data Tools

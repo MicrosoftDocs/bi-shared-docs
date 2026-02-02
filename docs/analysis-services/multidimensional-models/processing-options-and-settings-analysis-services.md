@@ -4,7 +4,7 @@ description: Learn about selecting a processing option to control the type of pr
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # Processing Options and Settings (Analysis Services)

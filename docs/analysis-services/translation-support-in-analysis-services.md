@@ -4,7 +4,7 @@ description: Learn how Analysis Services supports translations to provide cultur
 ms.date: 01/05/2021
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Translations in Analysis Services

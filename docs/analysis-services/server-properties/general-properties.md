@@ -4,7 +4,7 @@ description:  Learn about the available general properties in Analysis Services,
 ms.date: 11/03/2022
 ms.service: analysis-services
 ms.custom: 
-ms.topic: conceptual
+ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 

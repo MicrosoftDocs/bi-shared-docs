@@ -4,7 +4,7 @@ description: Learn how to migrate existing client applications from ADO MD to AD
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Migrating From ADO MD To ADOMD.NET

@@ -4,7 +4,7 @@ description: Learn about the types of data sources that can be used with SQL Ser
 ms.date: 02/03/2021
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: reference
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Data sources supported in SQL Server Analysis Services tabular 1400 and higher models

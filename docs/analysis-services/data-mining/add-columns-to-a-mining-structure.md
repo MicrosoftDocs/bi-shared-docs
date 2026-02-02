@@ -4,7 +4,7 @@ description: Use Data Mining Designer in SQL Server Data Tools to add columns to
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Add Columns to a Mining Structure

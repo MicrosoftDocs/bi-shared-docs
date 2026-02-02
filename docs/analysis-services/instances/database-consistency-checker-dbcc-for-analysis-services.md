@@ -4,7 +4,7 @@ description: Learn how Database Consistency Checker provides on-demand database 
 ms.date: 12/29/2020
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Database Consistency Checker (DBCC) for Analysis Services

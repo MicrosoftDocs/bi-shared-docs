@@ -4,7 +4,7 @@ description: Learn how MDX provides numerous functions that return one or more m
 ms.date: 06/06/2019
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Working with Members, Tuples, and Sets (MDX)

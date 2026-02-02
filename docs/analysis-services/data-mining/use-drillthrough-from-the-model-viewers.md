@@ -4,7 +4,7 @@ description: Learn how to use drillthrough from the browse viewers in Data Minin
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Use Drillthrough from the Model Viewers

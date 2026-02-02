@@ -4,7 +4,7 @@ description: Learn how to remove conditions on a filter or remove the filter ent
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Delete a Filter from a Mining Model

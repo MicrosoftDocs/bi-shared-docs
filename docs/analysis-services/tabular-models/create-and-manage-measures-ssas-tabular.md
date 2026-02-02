@@ -4,7 +4,7 @@ description: Learn how to create and manage measures by using a table's measure 
 ms.date: 01/29/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Create and manage measures

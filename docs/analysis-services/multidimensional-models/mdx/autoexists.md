@@ -3,7 +3,7 @@ title: "Autoexists (Analysis Services multidimensional)| Microsoft Docs"
 description: Learn how autoexists only applies to attributes from the same dimension because it tries to prevent the dimension records excluded in one attribute expression from being included by the other attribute expressions. 
 ms.date: 05/02/2018
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - mdx
   - sfi-ropc-nochange

@@ -4,7 +4,7 @@ description: Learn how to discretize data in a mining model, which involves putt
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Discretization Methods (Data Mining)

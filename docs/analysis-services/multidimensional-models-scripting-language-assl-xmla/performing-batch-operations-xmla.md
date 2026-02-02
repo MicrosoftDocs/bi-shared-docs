@@ -4,7 +4,7 @@ description: Learn how to use the Batch command in XML for Analysis (XMLA) to ru
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Performing Batch Operations (XMLA)

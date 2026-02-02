@@ -4,7 +4,7 @@ description: Learn how to create an OLAP mining structure by using the Data Mini
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create a New OLAP Mining Structure

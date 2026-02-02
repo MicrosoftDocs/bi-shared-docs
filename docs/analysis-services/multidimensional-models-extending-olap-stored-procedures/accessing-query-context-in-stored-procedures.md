@@ -4,7 +4,7 @@ description: Learn how to access query context located in the code of the stored
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Accessing Query Context in Stored Procedures

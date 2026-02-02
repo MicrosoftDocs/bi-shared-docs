@@ -4,7 +4,7 @@ description: Learn about permissions necessary for tabular and clustered install
 ms.date: 04/04/2024
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: concept-article
 ms.author: kfollis
 ms.reviewer: kayunkroth
 author: kfollis

@@ -4,7 +4,7 @@ description: Learn about the statements and functions that are supported within 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # Supported MDX (MDX)

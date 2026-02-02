@@ -4,7 +4,7 @@ description: Learn how to delete mining models by using Data Mining Designer, by
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Delete a Mining Model from a Mining Structure

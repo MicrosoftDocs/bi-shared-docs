@@ -4,7 +4,7 @@ description: Learn about database dimensions, collections of related objects cal
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Dimensions in Multidimensional Models

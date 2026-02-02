@@ -4,7 +4,7 @@ description: Learn about the the database compatibility level property, determin
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Compatibility Level of a Multidimensional Database (Analysis Services)

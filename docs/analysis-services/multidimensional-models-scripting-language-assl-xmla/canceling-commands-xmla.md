@@ -4,7 +4,7 @@ description: Learn how the Cancel command in XML for Analysis (XMLA) can cancel 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Canceling Commands (XMLA)

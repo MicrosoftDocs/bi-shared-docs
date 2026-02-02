@@ -4,7 +4,7 @@ description: Grant permissions to non-administrator users to view data mining st
 ms.date: 03/30/2022
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019"
 
 ---

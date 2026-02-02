@@ -4,7 +4,7 @@ description: Lean about the Association Rules algorithm, which is a straightforw
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Microsoft Association Algorithm Technical Reference

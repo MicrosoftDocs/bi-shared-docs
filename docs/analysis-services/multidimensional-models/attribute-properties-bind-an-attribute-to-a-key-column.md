@@ -4,7 +4,7 @@ description: Learn how to bind an attribute to a key column by changing the sett
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Attribute Properties - Bind an Attribute to a Key Column

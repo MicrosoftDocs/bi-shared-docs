@@ -3,7 +3,7 @@ title: "Analysis Services performance counters  | Microsoft Docs"
 description: Learn how to monitor the performance of a SQL Server Analysis Services instance with performance counters in Performance Monitor. 
 ms.date: 08/08/2019
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Performance counters

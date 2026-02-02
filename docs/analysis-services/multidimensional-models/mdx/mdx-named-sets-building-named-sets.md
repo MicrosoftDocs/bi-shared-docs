@@ -4,7 +4,7 @@ description: Learn how to make complex or commonly used expressions easier by us
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Named Sets - Building Named Sets

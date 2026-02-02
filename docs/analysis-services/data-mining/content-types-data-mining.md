@@ -4,7 +4,7 @@ description: In Microsoft SQL Server Analysis Services, you can define the both 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Content Types (Data Mining)

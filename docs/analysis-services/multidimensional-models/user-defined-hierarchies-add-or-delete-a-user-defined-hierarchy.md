@@ -4,7 +4,7 @@ description: Add or remove a user-defined hierarchy from a dimension on the Dim
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # User-Defined Hierarchies - Add or Delete a User-Defined Hierarchy

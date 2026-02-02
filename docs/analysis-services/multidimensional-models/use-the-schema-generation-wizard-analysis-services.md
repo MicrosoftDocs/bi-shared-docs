@@ -4,7 +4,7 @@ description: Learn how to provide the information the Schema Generation Wizard r
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Use the Schema Generation Wizard (Analysis Services)

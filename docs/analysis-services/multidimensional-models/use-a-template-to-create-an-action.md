@@ -4,7 +4,7 @@ description: Learn how to use templates in the Cube Designer Actions view in S
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Use a Template to Create an Action

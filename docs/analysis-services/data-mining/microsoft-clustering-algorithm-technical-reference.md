@@ -4,7 +4,7 @@ description: Learn about the implementation of the Microsoft Clustering algorith
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Microsoft Clustering Algorithm Technical Reference

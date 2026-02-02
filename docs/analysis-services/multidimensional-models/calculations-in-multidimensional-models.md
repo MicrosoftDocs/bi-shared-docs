@@ -4,7 +4,7 @@ description: Use the Calculations tab of Cube Designer to create calculated me
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Calculations in Multidimensional Models

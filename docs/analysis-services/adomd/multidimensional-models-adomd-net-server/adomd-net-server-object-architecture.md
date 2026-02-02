@@ -4,7 +4,7 @@ description: Learn how ADOMD.NET server objects are helper objects that can be u
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # ADOMD.NET Server Object Architecture

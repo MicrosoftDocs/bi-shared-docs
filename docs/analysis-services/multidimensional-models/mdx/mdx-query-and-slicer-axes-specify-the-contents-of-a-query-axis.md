@@ -4,7 +4,7 @@ description: Learn how the query axes specify the edges of a cellset returned by
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Query and Slicer Axes - Specify the Contents of a Query Axis

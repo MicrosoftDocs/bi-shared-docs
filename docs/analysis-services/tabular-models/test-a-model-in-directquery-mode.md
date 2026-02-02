@@ -4,7 +4,7 @@ description: Describes how to test a DirectQuery tabular models by using Analyse
 ms.date: 08/27/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Test a model in DirectQuery mode

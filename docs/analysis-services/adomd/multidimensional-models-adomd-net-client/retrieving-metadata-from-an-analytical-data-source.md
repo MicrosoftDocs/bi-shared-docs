@@ -4,7 +4,7 @@ description: Learn how to retrieve two forms of metadata from an analytical data
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Retrieving Metadata from an Analytical Data Source

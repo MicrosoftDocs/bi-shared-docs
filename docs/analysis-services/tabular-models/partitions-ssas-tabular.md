@@ -4,7 +4,7 @@ description: Learn about partitions in Analysis Services tabular models, specifi
 ms.date: 10/19/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Partitions in tabular models

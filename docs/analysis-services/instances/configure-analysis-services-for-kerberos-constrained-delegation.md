@@ -4,7 +4,7 @@ description: Learn how to configure SQL Server Analysis Services for for Kerbero
 ms.date: 12/01/2021
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Configure Analysis Services for Kerberos constrained delegation

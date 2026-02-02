@@ -4,7 +4,7 @@ description: Learn about Measures and Measure Groups, and see a table with li
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Measures and Measure Groups

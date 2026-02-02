@@ -4,7 +4,7 @@ description: Learn how SystemGetClusterCrossValidationResults partitions the min
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # SystemGetClusterCrossValidationResults (Analysis Services - Data Mining)

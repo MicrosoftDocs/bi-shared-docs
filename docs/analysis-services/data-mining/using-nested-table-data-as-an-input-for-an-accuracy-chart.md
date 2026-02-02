@@ -4,7 +4,7 @@ description: Learn how to work with nested tables for model testing, map nested 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Using Nested Table Data as an Input for an Accuracy Chart

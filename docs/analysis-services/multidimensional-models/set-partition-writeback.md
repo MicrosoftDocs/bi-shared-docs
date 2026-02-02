@@ -4,7 +4,7 @@ description: Learn how to write-enable a partition, browse or delete writeback d
 ms.date: 01/05/2021
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 ---
 # Set Partition Writeback
 [!INCLUDE[appliesto-sqlas](../includes/appliesto-sqlas.md)]

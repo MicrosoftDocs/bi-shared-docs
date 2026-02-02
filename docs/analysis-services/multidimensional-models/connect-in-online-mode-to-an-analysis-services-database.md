@@ -4,7 +4,7 @@ description: Connect directly to an existing Microsoft SQL Server Analysis Servi
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Connect in Online Mode to an Analysis Services Database

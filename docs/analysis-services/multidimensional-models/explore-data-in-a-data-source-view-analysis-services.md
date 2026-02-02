@@ -4,7 +4,7 @@ description: Use the Explore Data dialog box in Data Source View Designer in S
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Explore Data in a Data Source View (Analysis Services)

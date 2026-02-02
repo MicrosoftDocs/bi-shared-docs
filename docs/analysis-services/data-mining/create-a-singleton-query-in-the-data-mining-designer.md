@@ -4,7 +4,7 @@ description: Learn how to use the Data Mining Designer to create a singleton pre
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create a Singleton Query in the Data Mining Designer
