@@ -4,7 +4,7 @@ description: Learn how to change the colors that are used in the data mining vie
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Change the Colors Used in the Data Mining Viewer

@@ -4,7 +4,7 @@ description: The Microsoft Tree Viewer in Microsoft SQL Server Analysis Services
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Browse a Model Using the Microsoft Tree Viewer

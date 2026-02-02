@@ -4,7 +4,7 @@ description: Learn how to choose and map input data for a prediction query. You 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Choose and Map Input Data for a Prediction Query
