@@ -4,7 +4,7 @@ description: Learn how the Multidimensional Expressions (MDX) RollupChildren fun
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Data Manipulation - RollupChildren Function
