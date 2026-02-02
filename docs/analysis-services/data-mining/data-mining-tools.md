@@ -4,7 +4,7 @@ description: Learn about data mining tools in SQL Server Analysis Services, incl
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Data Mining Tools
