@@ -4,7 +4,7 @@ description: Learn about Dynamic Management Views in SQL Server Analysis Service
 ms.date: 12/29/2020
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Dynamic Management Views (DMVs)

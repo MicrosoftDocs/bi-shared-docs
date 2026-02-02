@@ -4,7 +4,7 @@ description: Learn how to disconnect users and sessions on SQL Server Analysis S
 ms.date: 07/16/2019
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Disconnect users and sessions from Analysis Services

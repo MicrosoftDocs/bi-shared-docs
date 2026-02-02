@@ -4,7 +4,7 @@ description: Learn how to deploy your data mining models to a production environ
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Deployment of Data Mining Solutions
