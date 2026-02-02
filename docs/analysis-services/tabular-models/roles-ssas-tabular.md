@@ -4,7 +4,7 @@ description: Learn how to configure roles in tabular models so you can define me
 ms.date: 10/28/2024
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Roles

@@ -3,7 +3,7 @@ title: "Connection string properties (Analysis Services) | Microsoft Docs"
 description: Learn about connection string properties used to query Azure Analysis Services, SQL Server Analysis Services, and Power BI Premium semantic model data.
 ms.date: 09/06/2023
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ms.custom: sfi-ropc-nochange
 ---

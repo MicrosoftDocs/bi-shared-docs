@@ -4,7 +4,7 @@ description: Learn how a classification matrix sorts all cases from the model in
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Classification Matrix (Analysis Services - Data Mining)
