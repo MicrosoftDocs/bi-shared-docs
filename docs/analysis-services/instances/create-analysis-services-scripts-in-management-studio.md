@@ -4,7 +4,7 @@ description: Learn about SQL Server Management Studio script generation features
 ms.date: 07/28/2022
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Create Analysis Services Scripts in SSMS

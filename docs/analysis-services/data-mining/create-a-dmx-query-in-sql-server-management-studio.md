@@ -4,7 +4,7 @@ description: Learn how to build a DMX query by using the Metadata Explorer and t
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create a DMX Query in SQL Server Management Studio

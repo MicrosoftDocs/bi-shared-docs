@@ -4,7 +4,7 @@ description: Learn how to create a prediction query by using the Prediction Quer
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create a Prediction Query Using the Prediction Query Builder
