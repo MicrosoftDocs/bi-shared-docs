@@ -4,7 +4,7 @@ description: The ADOMD.NET client components provide the functionality for clien
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # ADOMD.NET Client Programming

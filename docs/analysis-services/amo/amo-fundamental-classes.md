@@ -3,7 +3,7 @@ title: "AMO Fundamental Classes | Microsoft Docs"
 description: Learn how Analysis Management Objects (AMO) fundamental classes help you establish your environment for the rest of the objects that will be used in your application.
 ms.date: 10/31/2023
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019 || sql-analysis-services-2022"
 ms.custom:
   - amo
