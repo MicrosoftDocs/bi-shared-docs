@@ -4,7 +4,7 @@ description: Learn how the FORE_COLOR and BACK_COLOR cell properties store color
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Cell Properties - FORE_COLOR and BACK_COLOR Contents

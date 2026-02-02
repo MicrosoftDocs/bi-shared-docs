@@ -4,7 +4,7 @@ description: Learn how to use an AdomdCommand object to execute commands against
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Executing Commands Against an Analytical Data Source

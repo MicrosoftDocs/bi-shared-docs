@@ -4,7 +4,7 @@ description: Learn about features selection, which refers to the process of redu
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Feature Selection (Data Mining)
