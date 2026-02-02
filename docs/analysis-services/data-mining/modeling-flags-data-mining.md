@@ -4,7 +4,7 @@ description: Learn about modeling flags in SQL Server Analysis Services to provi
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Modeling Flags (Data Mining)

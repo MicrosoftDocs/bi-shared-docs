@@ -4,7 +4,7 @@ description: Learn how to create a calculated member that is available throughou
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Calculated Members - Session-Scoped Calculated Members

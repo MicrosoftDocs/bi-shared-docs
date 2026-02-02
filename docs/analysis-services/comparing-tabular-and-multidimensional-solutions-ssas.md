@@ -3,7 +3,7 @@ title: "Comparing Analysis Services tabular and multidimensional models | Micros
 description: Describes the differences between Analysis Services multidimensional and tabular model solutions.
 ms.date: 01/19/2022
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: product-comparison
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Comparing tabular and multidimensional solutions

@@ -4,7 +4,7 @@ description: Learn how to deploy and configure middle-tier enhancements to the P
 ms.date: 06/09/2022
 ms.service: analysis-services
 ms.custom: ppvt-sharepoint
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Configure Power Pivot and Deploy Solutions (SharePoint 2016)

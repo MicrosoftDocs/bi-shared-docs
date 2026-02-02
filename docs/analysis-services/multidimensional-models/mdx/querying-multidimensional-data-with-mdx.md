@@ -4,7 +4,7 @@ description: Learn basic concepts in MDX and dimensional modeling, MDX syntax el
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Querying Multidimensional Data with MDX

@@ -4,7 +4,7 @@ description: Learn to use the Attach and Detach commands to take the database of
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Attach and Detach Analysis Services Databases

@@ -4,7 +4,7 @@ description: Learn how to debug stored procedures in the Visual Studio developme
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Debugging Stored Procedures

@@ -3,7 +3,7 @@ title: Learn about the On-premises data gateway for Azure Analysis Services | Mi
 description: An On-premises gateway is necessary if your Analysis Services server in Azure will connect to on-premises data sources.
 author: kfollis
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 01/27/2023
 ms.author: kfollis
 ms.reviewer: minewiskan

@@ -3,7 +3,7 @@ title: "Analysis Services log properties | Microsoft Docs"
 description: Learn how the Analysis Services instance logs server notifications, errors, and warnings to the msmdsrv.log file - one for each instance you install. 
 ms.date: 07/21/2022
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ms.custom:
   - sfi-ropc-nochange

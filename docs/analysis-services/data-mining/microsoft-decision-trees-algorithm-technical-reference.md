@@ -4,7 +4,7 @@ description: Learn about the Microsoft Decision Trees algorithm, a hybrid algori
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Microsoft Decision Trees Algorithm Technical Reference

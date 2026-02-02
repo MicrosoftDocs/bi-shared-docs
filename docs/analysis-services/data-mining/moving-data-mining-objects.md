@@ -4,7 +4,7 @@ description: Learn how to use the tools and scripting languages provided by SQL 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Moving Data Mining Objects

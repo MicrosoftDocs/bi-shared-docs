@@ -4,7 +4,7 @@ description: The Microsoft Neural Network Viewer in Microsoft SQL Server Analysi
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Browse a Model Using the Microsoft Neural Network Viewer

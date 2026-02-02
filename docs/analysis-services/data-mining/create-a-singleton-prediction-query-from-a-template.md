@@ -4,7 +4,7 @@ description: Learn how to use the Template Explorer in SQL Server Management Stu
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create a Singleton Prediction Query from a Template

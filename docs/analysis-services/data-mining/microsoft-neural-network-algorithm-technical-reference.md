@@ -4,7 +4,7 @@ description: Learn about the Microsoft Neural Network algorithm, which uses a Mu
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Microsoft Neural Network Algorithm Technical Reference

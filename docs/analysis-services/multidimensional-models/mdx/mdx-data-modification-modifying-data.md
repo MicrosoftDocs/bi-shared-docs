@@ -4,7 +4,7 @@ description: Learn how to use Multidimensional Expressions (MDX) to update or wr
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Data Modification - Modifying Data

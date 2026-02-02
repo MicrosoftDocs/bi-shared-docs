@@ -4,7 +4,7 @@ description: Learn about the kinds of properties in mining models and how you ca
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Mining Model Properties

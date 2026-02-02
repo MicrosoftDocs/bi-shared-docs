@@ -4,7 +4,7 @@ description: In this article, learn how to create queries for models that are ba
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # Clustering Model Query Examples

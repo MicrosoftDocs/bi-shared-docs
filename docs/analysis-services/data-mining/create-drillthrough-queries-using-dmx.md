@@ -4,7 +4,7 @@ description: Learn how to create drillthrough queries DMS to retrieve case data 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create Drillthrough Queries using DMX

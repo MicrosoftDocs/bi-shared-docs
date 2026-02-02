@@ -4,7 +4,7 @@ description: Learn how you can you can parameterize a Multidimensional Expressio
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Using Variables and Parameters (MDX)

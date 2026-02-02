@@ -4,7 +4,7 @@ description: Use the Data Source View pane of the Cube Structure tab in Cube Des
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # View the Cube Schema

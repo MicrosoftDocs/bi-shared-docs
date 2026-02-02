@@ -4,7 +4,7 @@ description: This section provides detailed information about the syntax for mod
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Model Filter Syntax and Examples (Analysis Services - Data Mining)

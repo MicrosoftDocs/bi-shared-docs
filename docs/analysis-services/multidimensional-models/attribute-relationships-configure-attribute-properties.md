@@ -4,7 +4,7 @@ description: See a table that lists and describes the properties of an attribute
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # Attribute Relationships - Configure Attribute Properties

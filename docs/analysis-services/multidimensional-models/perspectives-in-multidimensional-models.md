@@ -4,7 +4,7 @@ description: Learn about perspectives, subsets of a cube created for a particula
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Perspectives in Multidimensional Models

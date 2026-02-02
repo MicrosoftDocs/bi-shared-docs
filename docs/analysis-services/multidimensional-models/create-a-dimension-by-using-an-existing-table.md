@@ -4,7 +4,7 @@ description: Use the Dimension Wizard in SQL Server Data Tools to create a dimen
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create a Dimension by Using an Existing Table

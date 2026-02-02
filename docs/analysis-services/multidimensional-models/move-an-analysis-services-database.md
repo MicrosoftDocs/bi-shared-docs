@@ -4,7 +4,7 @@ description: Move a multidimensional or tabular model database to a different lo
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Move an Analysis Services Database

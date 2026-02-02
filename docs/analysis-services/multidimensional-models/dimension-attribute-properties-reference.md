@@ -4,7 +4,7 @@ description: Learn about the many properties that determine how dimensions and d
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Dimension Attribute Properties Reference

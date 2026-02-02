@@ -4,7 +4,7 @@ description: Learn how to define column distributions in a mining structure to a
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Column Distributions (Data Mining)

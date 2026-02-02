@@ -3,7 +3,7 @@ title: "Deploy model solutionsby usiong the Deployment Utility | Microsoft Docs"
 description: Learn how to deploy model solutions by using the Deployment utility from the command prompt in SQL Server Analysis Services.
 ms.date: 02/07/2022
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Deploy model solutions by using the Deployment Utility

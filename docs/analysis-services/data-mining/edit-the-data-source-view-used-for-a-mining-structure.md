@@ -4,7 +4,7 @@ description: Learn how to edit the Data Source View used for a mining structure 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Edit the Data Source View used for a Mining Structure

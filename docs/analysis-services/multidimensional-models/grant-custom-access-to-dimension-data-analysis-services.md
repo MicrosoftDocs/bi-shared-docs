@@ -4,7 +4,7 @@ description: Set additional permissions that explicitly allow or deny access to 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Grant custom access to dimension data (Analysis Services)

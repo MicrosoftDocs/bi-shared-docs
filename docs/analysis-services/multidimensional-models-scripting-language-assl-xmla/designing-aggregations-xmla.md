@@ -4,7 +4,7 @@ description: Learn how aggregation designs are associated with the partitions of
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Designing Aggregations (XMLA)

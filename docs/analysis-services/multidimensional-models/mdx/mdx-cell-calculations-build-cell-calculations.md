@@ -4,7 +4,7 @@ description: Learn how to build cell calculations in MDX to define a specific sl
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Cell Calculations - Build Cell Calculations

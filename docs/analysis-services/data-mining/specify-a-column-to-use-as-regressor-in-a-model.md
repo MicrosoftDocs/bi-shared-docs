@@ -4,7 +4,7 @@ description: Learn how to specify a column to act as a regressor in your model b
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Specify a Column to Use as Regressor in a Model

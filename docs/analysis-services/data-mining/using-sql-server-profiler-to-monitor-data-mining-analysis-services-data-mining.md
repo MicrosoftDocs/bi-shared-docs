@@ -4,7 +4,7 @@ description: Learn how to use SQL Server Profiler to monitor data mining activit
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Using SQL Server Profiler to Monitor Data Mining (Analysis Services - Data Mining)

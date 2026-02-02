@@ -4,7 +4,7 @@ description: Learn about dimension relationships and how dimension usage defines
 ms.date: 08/28/2020
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Dimension Relationships

@@ -4,7 +4,7 @@ description: Grant permission to view object information, without modifying the 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Grant read definition permissions on object metadata (Analysis Services)

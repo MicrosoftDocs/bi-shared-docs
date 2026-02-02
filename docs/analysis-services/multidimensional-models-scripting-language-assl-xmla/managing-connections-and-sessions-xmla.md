@@ -4,7 +4,7 @@ description: Learn how XML for Analysis (XMLA) supports sessions that allow a se
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Managing Connections and Sessions (XMLA)

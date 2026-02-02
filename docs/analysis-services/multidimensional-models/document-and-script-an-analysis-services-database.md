@@ -4,7 +4,7 @@ description: Use SQL Server Management Studio to output the metadata of the data
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Document and Script an Analysis Services Database

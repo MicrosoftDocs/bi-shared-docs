@@ -4,7 +4,7 @@ description: Learn about the various data mining properties in Analysis Services
 ms.date: 07/21/2022
 ms.service: analysis-services
 ms.custom: 
-ms.topic: conceptual
+ms.topic: reference
 monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019"
 ---
 # Data mining properties

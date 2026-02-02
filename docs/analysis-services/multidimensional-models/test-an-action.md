@@ -4,7 +4,7 @@ description: Learn how to test an action you created by using the Browser view i
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Test an Action

@@ -4,7 +4,7 @@ description: Learn that Tabular Model Scripting Language (TMSL) is the command a
 ms.date: 08/04/2022
 ms.service: analysis-services
 ms.custom: tmsl
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # Tabular Model Scripting Language (TMSL) Reference

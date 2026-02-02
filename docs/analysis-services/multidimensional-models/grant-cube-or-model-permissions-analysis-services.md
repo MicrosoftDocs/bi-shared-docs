@@ -4,7 +4,7 @@ description: Learn how to create roles, assign memberships, and grant the necess
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Grant cube or model permissions (Analysis Services)

@@ -4,7 +4,7 @@ description: Learn to work with Analysis Services projects and databases in prod
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Work with Analysis Services Projects and Databases in Production

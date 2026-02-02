@@ -4,7 +4,7 @@ description: Learn MDX scripting fundamentals like how changing an MDX script as
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Scripting Fundamentals (Analysis Services)

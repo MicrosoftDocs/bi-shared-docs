@@ -4,7 +4,7 @@ description: Learn how every MDX query runs within a specified cube context and 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Establishing Cube Context in a Query (MDX)

@@ -4,7 +4,7 @@ description: Learn how to use the Cube Wizard to build a new cube if you intend 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create a Cube using a Data Source View

@@ -4,7 +4,7 @@ description: Learn how to manage and process mining models in a mining structure
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Mining Model Tasks and How-tos

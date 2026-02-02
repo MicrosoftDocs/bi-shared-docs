@@ -4,7 +4,7 @@ description: Learn how to use Data Mining Designer to remove columns from a mini
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Remove Columns from a Mining Structure

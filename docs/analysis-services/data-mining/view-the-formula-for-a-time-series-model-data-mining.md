@@ -4,7 +4,7 @@ description: Learn how to use the Microsoft Time Series Viewer to see the regres
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # View the Formula for a Time Series Model (Data Mining)

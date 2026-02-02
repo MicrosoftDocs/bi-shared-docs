@@ -4,7 +4,7 @@ description: In this article, learn how to choose an accuracy chart type. You ca
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Choose an Accuracy Chart Type and Set Chart Options

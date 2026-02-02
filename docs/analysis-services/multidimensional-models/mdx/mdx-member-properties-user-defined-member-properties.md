@@ -4,7 +4,7 @@ description: Learn how user-defined member properties can be added to a specific
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Member Properties - User-Defined Member Properties

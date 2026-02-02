@@ -4,7 +4,7 @@ description: Learn how to register a Service Principal Name for a SQL Server Ana
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # SPN registration for an Analysis Services instance

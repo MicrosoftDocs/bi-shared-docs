@@ -4,7 +4,7 @@ description: Learn how to redistribute ADOMD.NET and include the ADOMD.NET setup
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Redistributing ADOMD.NET

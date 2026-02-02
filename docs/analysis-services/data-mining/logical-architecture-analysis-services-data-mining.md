@@ -4,7 +4,7 @@ description: Learn about the logical architecture of the objects in a data minin
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Logical Architecture (Analysis Services - Data Mining)

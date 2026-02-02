@@ -4,7 +4,7 @@ description: Learn about the tabular model designer that's a part of Analysis Se
 ms.date: 08/14/2020
 ms.service: analysis-services
 ms.custom: tabular-models
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Tabular model designer

@@ -4,7 +4,7 @@ description: Learn about options to customize a mining model after you select an
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Customize Mining Models and Structure

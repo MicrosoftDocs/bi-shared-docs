@@ -4,7 +4,7 @@ description: Learn about the the types of relational databases and other data so
 ms.date: 02/20/2020
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # Supported Data Sources (SSAS - Multidimensional)

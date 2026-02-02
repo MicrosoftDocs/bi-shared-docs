@@ -4,7 +4,7 @@ description: Learn about SystemGetAccuracyResults, which returns cross-validatio
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: reference
 
 ---
 # SystemGetAccuracyResults (Analysis Services - Data Mining)

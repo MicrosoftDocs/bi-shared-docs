@@ -4,7 +4,7 @@ description: Learn how to use data mining viewers to explore a data model, looki
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Data Mining Model Viewers

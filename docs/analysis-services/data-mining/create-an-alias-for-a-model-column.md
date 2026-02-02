@@ -4,7 +4,7 @@ description: Learn how to create an alias for a model column in SQL Server 2017 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Create an Alias for a Model Column

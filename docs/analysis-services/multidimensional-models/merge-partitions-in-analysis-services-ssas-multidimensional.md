@@ -4,7 +4,7 @@ description: Merge partitions in an existing Analysis Services database to conso
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Merge Partitions in Analysis Services (SSAS - Multidimensional)

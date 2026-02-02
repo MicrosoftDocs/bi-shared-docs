@@ -4,7 +4,7 @@ description: Learn to deploy a project to a development server in order to creat
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Deploy Analysis Services Projects

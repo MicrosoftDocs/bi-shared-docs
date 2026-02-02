@@ -4,7 +4,7 @@ description: Learn how and when to clear caches in SQL Server Analysis Services 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 # Clear Analysis Services Caches

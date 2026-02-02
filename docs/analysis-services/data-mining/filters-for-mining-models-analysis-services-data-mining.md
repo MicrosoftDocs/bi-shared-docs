@@ -4,7 +4,7 @@ description: Learn how to build, use and manage filters on mining models that he
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Filters for Mining Models (Analysis Services - Data Mining)

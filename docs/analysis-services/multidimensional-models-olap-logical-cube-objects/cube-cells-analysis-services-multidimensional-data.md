@@ -4,7 +4,7 @@ description: Learn about cube cells in Analysis Services.
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Cube Cells (Analysis Services - Multidimensional Data)

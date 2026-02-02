@@ -4,7 +4,7 @@ description: Add the dimension intelligence enhancement to a cube or a dimension
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # BI Wizard - Add Dimension Intelligence to a Dimension
