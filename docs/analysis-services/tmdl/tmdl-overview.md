@@ -4,7 +4,7 @@ description: Learn about Tabular Model Definition Language (TMDL)
 ms.date: 12/27/2023
 ms.service: analysis-services
 ms.custom: tmdl
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Tabular Model Definition Language (TMDL)
