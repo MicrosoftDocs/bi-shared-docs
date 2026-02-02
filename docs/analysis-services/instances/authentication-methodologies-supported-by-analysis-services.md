@@ -4,7 +4,7 @@ description: Learn about the authentication methodologies supported by SQL Serve
 ms.date: 12/01/2021
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Authentication methodologies supported by Analysis Services

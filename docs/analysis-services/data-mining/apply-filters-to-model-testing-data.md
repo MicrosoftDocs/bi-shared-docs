@@ -4,7 +4,7 @@ description: Learn to apply a filter to restrict the input data when you specify
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Apply Filters to Model Testing Data

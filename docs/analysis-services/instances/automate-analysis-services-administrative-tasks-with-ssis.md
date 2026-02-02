@@ -4,7 +4,7 @@ description: Learn how to automate administrative tasks for SQL Server Analysis 
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Automate Analysis Services Administrative Tasks with SSIS

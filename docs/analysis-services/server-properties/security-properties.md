@@ -4,7 +4,7 @@ description: Learn about the available security properties in Analysis Services,
 ms.date: 07/21/2022
 ms.service: analysis-services
 ms.custom: 
-ms.topic: conceptual
+ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"
 ---
 # Security properties
