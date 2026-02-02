@@ -4,7 +4,7 @@ description: Use ADOMD.NET server objects to create user defined function (UDF) 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # User Defined Functions and Stored Procedures

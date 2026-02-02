@@ -4,7 +4,7 @@ description: Learn how to use the SQL Server Profiler to monitor Analysis Servic
 ms.date: 12/29/2020
 ms.service: analysis-services
 ms.custom:
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---
 

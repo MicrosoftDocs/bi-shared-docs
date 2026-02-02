@@ -4,7 +4,7 @@ description: Learn how to verify a Power Pivot for SharePoint installation by pu
 ms.date: 06/09/2022
 ms.service: analysis-services
 ms.custom: ppvt-sharepoint
-ms.topic: conceptual
+ms.topic: how-to
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Verify a Power Pivot for SharePoint Installation

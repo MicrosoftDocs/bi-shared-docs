@@ -4,7 +4,7 @@ description: Learn how to view and modify the modeling flags associated with a m
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # View or Change Modeling Flags (Data Mining)

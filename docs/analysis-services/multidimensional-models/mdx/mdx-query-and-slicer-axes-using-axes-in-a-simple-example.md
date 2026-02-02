@@ -4,7 +4,7 @@ description: Learn the basics of specifying and using query and slicer axes by v
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: mdx
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # MDX Query and Slicer Axes - Using Axes in a Simple Example
