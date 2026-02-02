@@ -4,7 +4,7 @@ description: Learn how to build and understand a profit chart, which displays es
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Profit Chart (Analysis Services - Data Mining)

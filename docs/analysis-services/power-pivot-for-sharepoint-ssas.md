@@ -4,7 +4,7 @@ description: Learn how Analysis Services in Power Pivot mode provides server hos
 ms.date: 06/09/2022
 ms.service: analysis-services
 ms.custom: ppvt-sharepoint
-ms.topic: conceptual
+ms.topic: concept-article
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"
 ---
 # Power Pivot for SharePoint

@@ -4,7 +4,7 @@ description: Learn how to use the AdomdTransaction object in ADOMD.NET to manage
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: adomd
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Connections in ADOMD.NET - Performing Transactions

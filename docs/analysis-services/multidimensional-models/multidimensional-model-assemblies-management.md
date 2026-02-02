@@ -4,7 +4,7 @@ description: Add assemblies to an Analysis Services instance or database to crea
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Multidimensional Model Assemblies Management

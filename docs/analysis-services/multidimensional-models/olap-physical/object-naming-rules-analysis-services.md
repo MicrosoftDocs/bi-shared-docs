@@ -4,7 +4,7 @@ description: Learn object naming conventions, as well as the reserved words and 
 ms.date: 08/06/2019
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Object Naming Rules (Analysis Services)

@@ -4,7 +4,7 @@ description: Learn about partitions and that a partition is a container for a po
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: olap
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Partitions (Analysis Services - Multidimensional Data)

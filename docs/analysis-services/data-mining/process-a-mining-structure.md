@@ -4,7 +4,7 @@ description: Learn how to process a mining structure by using Data Mining Design
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: how-to
 
 ---
 # Process a Mining Structure
