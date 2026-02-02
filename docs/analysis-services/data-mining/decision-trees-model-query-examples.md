@@ -4,7 +4,7 @@ description: Learn about how to create queries for models that are based on the 
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Decision Trees Model Query Examples

@@ -3,7 +3,7 @@ title: "DAX for multidimensional models in SQL Server Analysis Services | Micros
 description: Learn how DAX works with multidimensional models.
 ms.date: 09/17/2020
 ms.service: analysis-services
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
   - multidimensional-models
   - sfi-image-nochange

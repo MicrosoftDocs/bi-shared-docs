@@ -4,7 +4,7 @@ description: Learn to create a new empty script from the Calculations tab of C
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: multidimensional-models
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Define Assignments and Other Script Commands

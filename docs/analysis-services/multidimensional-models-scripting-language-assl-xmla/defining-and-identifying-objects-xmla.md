@@ -4,7 +4,7 @@ description: Learn how objects are identified in XMLA commands by using object i
 ms.date: 05/02/2018
 ms.service: analysis-services
 ms.custom: xmla
-ms.topic: conceptual
+ms.topic: concept-article
 
 ---
 # Defining and Identifying Objects (XMLA)
