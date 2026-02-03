@@ -1,11 +1,11 @@
 ---
 title: Learn about Azure Analysis Services high availability | Microsoft Docs
 description: This article describes how Azure Analysis Services provides high availability during service disruption.
-author: kfollis
+author: eric-urban
 ms.service: analysis-services
 ms.topic: concept-article
 ms.date: 01/24/2023
-ms.author: kfollis
+ms.author: eur
 ms.reviewer: minewiskan
 ms.custom: references_regions 
 

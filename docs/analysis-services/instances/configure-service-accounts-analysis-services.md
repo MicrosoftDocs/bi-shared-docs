@@ -5,9 +5,9 @@ ms.date: 04/04/2024
 ms.service: analysis-services
 ms.custom:
 ms.topic: concept-article
-ms.author: kfollis
+ms.author: eur
 ms.reviewer: kayunkroth
-author: kfollis
+author: eric-urban
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Configure Service Accounts (Analysis Services)

@@ -4,11 +4,11 @@ description: Learn about the MemberUniqueNameStyle property element in the Analy
 ms.date: 09/14/2020
 ms.service: analysis-services
 ms.custom: assl
-ms.reviewer: kfollis
+ms.reviewer: eur
 
 ms.topic: reference
-author: kfollis
-ms.author: kfollis
+author: eric-urban
+ms.author: eur
 
 ---
 # MemberUniqueNameStyle Element (ASSL)

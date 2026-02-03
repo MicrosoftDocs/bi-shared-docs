@@ -4,11 +4,11 @@ description: Learn about the FiscalFirstDayOfMonth property element in the Analy
 ms.date: 7/25/2018
 ms.service: analysis-services
 ms.custom: assl
-ms.reviewer: kfollis
+ms.reviewer: eur
 
 ms.topic: reference
-author: kfollis
-ms.author: kfollis
+author: eric-urban
+ms.author: eur
 
 ---
 # FiscalFirstDayOfMonth Element (ASSL)
