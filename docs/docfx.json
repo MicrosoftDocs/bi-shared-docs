@@ -107,11 +107,11 @@
       },
       
       "author": {
-        "analysis-services/**/*.md": "KayUnkroth"
+        "analysis-services/**/*.md": "eric-urban"
       },
       
       "ms.author": {
-        "analysis-services/**/*.md": "kayu"
+        "analysis-services/**/*.md": "eur"
       },
 
       "manager": {

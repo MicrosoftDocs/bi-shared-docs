@@ -4,11 +4,11 @@ description: Learn about the Source COM assembly property element in the Analysi
 ms.date: 7/25/2018
 ms.service: analysis-services
 ms.custom: assl
-ms.reviewer: kfollis
+ms.reviewer: eur
 
 ms.topic: reference
-author: kfollis
-ms.author: kfollis
+author: eric-urban
+ms.author: eur
 
 ---
 # Source Element (ComAssembly) (ASSL)
