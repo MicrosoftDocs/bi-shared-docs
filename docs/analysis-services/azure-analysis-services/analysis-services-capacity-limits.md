@@ -1,11 +1,11 @@
 ---
 title: Learn about Azure Analysis Services resource and object limits | Microsoft Docs
 description: This article describes resource and object limits for an Azure Analysis Services server.
-author: kfollis
+author: eric-urban
 ms.service: analysis-services
 ms.topic: limits-and-quotas
 ms.date: 01/24/2023
-ms.author: kfollis
+ms.author: eur
 ms.reviewer: minewiskan
 
 ---
