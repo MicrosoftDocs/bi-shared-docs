@@ -4,8 +4,8 @@ description: This article contains important reference material you need when yo
 ms.date: 02/28/2024
 ms.custom: horz-monitor
 ms.topic: reference
-author: kfollis
-ms.author: kfollis
+author: eric-urban
+ms.author: eur
 ms.service: analysis-services
 ---
 
