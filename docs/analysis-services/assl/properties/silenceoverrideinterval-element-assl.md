@@ -4,11 +4,11 @@ description: Learn about the SilenceOverrideInterval property element in the Ana
 ms.date: 7/25/2018
 ms.service: analysis-services
 ms.custom: assl
-ms.reviewer: kfollis
+ms.reviewer: eur
 
 ms.topic: reference
-author: kfollis
-ms.author: kfollis
+author: eric-urban
+ms.author: eur
 
 ---
 # SilenceOverrideInterval Element (ASSL)
