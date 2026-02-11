@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 01/06/2026
+ms.date: 02/11/2026
 ms.service: analysis-services
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
@@ -23,8 +23,8 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    17.0.56.15        |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     17.0.56.15           |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    17.0.61.21        |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     17.0.61.21           |
 |[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.84.1.0         |
 |[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.84.1.0           |
 
@@ -46,8 +46,8 @@ Starting Feb. 2021, [.NET Core](/dotnet/core/about) runtime support is available
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices/)    |    19.108.5.0     |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient/)     |   19.108.5.0     |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices/)    |    19.112.0.0     |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient/)     |   19.112.0.0     |
 
 **Note:**
 
