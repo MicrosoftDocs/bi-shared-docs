@@ -4,8 +4,8 @@ description: Quickstart showing how to an Azure Analysis Services server resourc
 ms.date: 03/08/2022
 ms.topic: quickstart
 ms.service: analysis-services
-ms.author: jgao
-author: mumian
+ms.author: kfollis
+author: kfollis
 tags: azure-resource-manager, bicep
 ms.custom: devx-track-bicep
 #Customer intent: As a BI developer who is new to Azure, I want to use Azure Analysis Services to store and manage my organizations data models.
