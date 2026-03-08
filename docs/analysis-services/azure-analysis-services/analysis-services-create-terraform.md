@@ -5,8 +5,8 @@ ms.topic: quickstart
 ms.service: analysis-services
 ms.date: 4/14/2023
 ms.custom: devx-track-terraform
-author: TomArcherMsft
-ms.author: tarcher
+author: kfollis
+ms.author: kfollis
 content_well_notification: 
   - AI-contribution
 ai-usage: ai-assisted
