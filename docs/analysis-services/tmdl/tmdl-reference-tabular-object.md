@@ -5,9 +5,9 @@ ms.date: 12/25/2023
 ms.service: analysis-services
 ms.custom: tmdl
 ms.topic: reference
-ms.author: monaberdugo
+ms.author: kfollis
 ms.reviewer: rromano
-author: mberdugo
+author: kfollis
 ---
 
 # TMDL Reference - Objects overview

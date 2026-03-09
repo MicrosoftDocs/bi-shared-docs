@@ -4,9 +4,9 @@ description: Learn how to use hot and cold table partitions to optimize very lar
 ms.date: 04/10/2024
 ms.service: analysis-services
 ms.topic: how-to
-ms.author: monaberdugo
+ms.author: kfollis
 ms.reviewer: Kay, Rui
-author: mberdugo
+author: kfollis
 ms.custom:
   - tabular-models
   - sfi-image-nochange
