@@ -5,9 +5,8 @@ ms.date: 01/06/2025
 ms.service: analysis-services
 ms.custom: tabular-models
 ms.topic: reference
-ms.author: davidi
-ms.reviewer: davidi
-author: davidiseminger
+ms.author: kfollis
+author: kfollis
 
 ---
 # Lineage tags for Power BI semantic models

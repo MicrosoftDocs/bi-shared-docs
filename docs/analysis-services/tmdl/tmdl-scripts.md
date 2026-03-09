@@ -5,9 +5,8 @@ ms.date: 01/14/2025
 ms.service: analysis-services
 ms.custom: tmdl
 ms.topic: reference
-ms.author: davidi
-ms.reviewer: rromano
-author: davidiseminger
+ms.author: kfollis
+author: kfollis
 ---
 
 # TMDL scripts
