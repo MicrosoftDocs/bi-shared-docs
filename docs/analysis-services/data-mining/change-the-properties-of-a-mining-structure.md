@@ -4,7 +4,7 @@ description: Learn about the two kinds of properties on a mining structure and h
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: article
 
 ---
 # Change the Properties of a Mining Structure
