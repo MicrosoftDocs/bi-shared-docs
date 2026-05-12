@@ -4,7 +4,7 @@ description: Learn how to query a mining model by using DMX and query the data m
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: article
 
 ---
 # Create a Content Query on a Mining Model
