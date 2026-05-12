@@ -4,7 +4,7 @@ description: Learn how to compare the predictive accuracy of the mining models i
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: article
 
 ---
 # Testing and Validation Tasks and How-tos (Data Mining)

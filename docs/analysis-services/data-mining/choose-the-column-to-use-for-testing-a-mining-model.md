@@ -4,7 +4,7 @@ description: Learn how to choose the column to use for testing a mining model an
 ms.date: 10/31/2023
 ms.service: analysis-services
 ms.custom: data-mining
-ms.topic: conceptual
+ms.topic: article
 
 ---
 # Choose the Column to Use for Testing a Mining Model
