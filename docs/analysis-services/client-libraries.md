@@ -93,6 +93,8 @@ Beginning with version 19.67.0, connectivity objects like Microsoft.AnalysisServ
 
 Beginning with version 19.42.0.4, ADOMD.NET and AMO/TOM use MSAL ([Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/)) version 4.43.0 or higher instead of ADAL to authenticate users with Microsoft Entra ID when establishing a connection to cloud-based services like Power-BI and Azure Analysis Services. If your application or another component the application depends on is using MSAL, it may be necessary to update the application's binding redirect settings if there are conflicts between the versions of MSAL loaded by the components.
 
+The MSAL (Microsoft.Identity.Client) dependency has been upgraded in recent versions of the client libraries. Applications depending on specific MSAL versions may need to review compatibility and update their configurations accordingly.
+
 #### AMO and ADOMD .Net Core 
 
 Supported scenarios include connections to Azure Analysis Services, Power BI Premium, and SQL Server Analysis Services. TCP based connectivity is supported for Windows computers only.
