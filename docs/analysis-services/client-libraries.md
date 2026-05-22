@@ -71,6 +71,9 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 
 #### AMO and ADOMD
 
+Starting with version 19.114.0, 
+- The MSAL dependency has been upgraded.
+
 Starting with version 19.98.0.3:
 - An additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](../analysis-services/instances/connection-string-properties-analysis-services.md#user-idpassword) article in the product documentation.
 - HTTP based communication is improved through better management of open HTTP channels at the transport layer, especially when using the .NET Core libraries.
@@ -92,8 +95,6 @@ Beginning with version 19.82.0.0, AMO and ADOMD support Service Principal Profil
 Beginning with version 19.67.0, connectivity objects like Microsoft.AnalysisServices.AdomdClient.AdomdConnection and Microsoft.AnalysisServices.Server, support a new **AccessToken** property that enables an improved way to pass external OAuth tokens to be used by the XMLA connectivity layer. To learn more, see [Connection string properties - User ID=...; Password=](../analysis-services/instances/connection-string-properties-analysis-services.md#user-idpassword).
 
 Beginning with version 19.42.0.4, ADOMD.NET and AMO/TOM use MSAL ([Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/)) version 4.43.0 or higher instead of ADAL to authenticate users with Microsoft Entra ID when establishing a connection to cloud-based services like Power-BI and Azure Analysis Services. If your application or another component the application depends on is using MSAL, it may be necessary to update the application's binding redirect settings if there are conflicts between the versions of MSAL loaded by the components.
-
-The MSAL (Microsoft.Identity.Client) dependency has been upgraded in recent versions of the client libraries. Applications depending on specific MSAL versions may need to review compatibility and update their configurations accordingly.
 
 #### AMO and ADOMD .Net Core 
 
@@ -130,6 +131,8 @@ anotherModel.Tables.Add(tableClone);
 Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, compression is fully available in the XMLA transport layer. Previous releases after version 19.55.3.1 implemented some partial support for compression. Reports about issues with those releases were received. Those issues were fixed as part of the 16.61.1.4 release. Be sure to upgrade to 19.61.1.4 or later if you're experiencing problems related to compression.
 
 #### MSOLAP
+
+Beginning with version 19.114.0, the MSAL dependency has been upgraded.
 
 Beginning with version 17.0.25.23, an additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](../analysis-services/instances/connection-string-properties-analysis-services.md#user-idpassword) article in the product documentation.
 
