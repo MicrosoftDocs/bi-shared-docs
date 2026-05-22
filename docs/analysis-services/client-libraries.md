@@ -132,7 +132,7 @@ Beginning with ADOMD (both .NET Framework, and .NET Core) version 19.61.1.4, com
 
 #### MSOLAP
 
-Beginning with version 19.114.0, the MSAL dependency has been upgraded.
+Beginning with version 17.0.74.20, the MSAL dependency has been upgraded.
 
 Beginning with version 17.0.25.23, an additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](../analysis-services/instances/connection-string-properties-analysis-services.md#user-idpassword) article in the product documentation.
 
