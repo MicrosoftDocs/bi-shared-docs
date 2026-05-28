@@ -2,7 +2,7 @@
 title: "Lineage tags for Power BI semantic models"
 description: Add a lineage tag for Power BI semantic models.
 ms.date: 01/06/2025
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: reference
 ms.author: kfollis

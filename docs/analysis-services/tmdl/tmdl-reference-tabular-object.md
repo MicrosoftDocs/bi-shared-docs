@@ -2,7 +2,7 @@
 title: "Object definitions in Tabular Model Definition Language (TMDL) | Microsoft Docs"
 description: See a list of the major TMDL schema objects.
 ms.date: 12/25/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tmdl
 ms.topic: reference
 ms.author: kfollis
