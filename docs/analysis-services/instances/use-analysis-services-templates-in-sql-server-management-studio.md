@@ -2,7 +2,7 @@
 title: "Use Analysis Services Templates in SQL Server Management Studio | Microsoft Docs"
 description: Learn about Analysis Services Templates in SQL Server Management Studio that help you quickly create XMLA scripts and perform other tasks.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

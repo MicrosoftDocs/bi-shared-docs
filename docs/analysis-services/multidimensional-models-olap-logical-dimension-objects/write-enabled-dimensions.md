@@ -2,7 +2,7 @@
 title: "Write-Enabled Dimensions | Microsoft Docs"
 description: Learn how write-enabled dimensions give business users the ability to update members.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: concept-article
 

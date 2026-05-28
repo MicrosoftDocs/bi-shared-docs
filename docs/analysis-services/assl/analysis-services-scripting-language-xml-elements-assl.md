@@ -2,7 +2,7 @@
 title: "Analysis Services Scripting Language XML Elements (ASSL) | Microsoft Docs"
 description: An overview of the Objects, Collections, Properties, and Data types concepts represented in Analysis Services Scripting Language (ASSL).
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: assl
 ms.topic: reference
 

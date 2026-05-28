@@ -2,7 +2,7 @@
 title: Analysis Services documentation overview
 description: Describes Analysis Services documentation.
 ms.date: 04/29/2025
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: overview
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
 ---

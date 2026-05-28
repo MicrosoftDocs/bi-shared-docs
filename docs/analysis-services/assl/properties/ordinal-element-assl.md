@@ -2,7 +2,7 @@
 title: "Ordinal Element (ASSL) | Microsoft Docs"
 description: Learn about the Ordinal property element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 7/25/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: assl
 ms.reviewer: eur
 

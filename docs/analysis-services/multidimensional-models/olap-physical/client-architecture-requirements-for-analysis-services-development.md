@@ -2,7 +2,7 @@
 title: "Client Architecture Requirements for Analysis Services Development | Microsoft Docs"
 description: Learn about the client architecture requirements for Analysis Services development.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: concept-article
 

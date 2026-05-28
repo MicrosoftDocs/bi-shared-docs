@@ -2,7 +2,7 @@
 title: "Analysis Services memory properties | Microsoft Docs"
 description: Learn about memory properties and how to specify configuration settings so you can control the thresholds at which memory is released.
 ms.date: 07/26/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: 
 ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

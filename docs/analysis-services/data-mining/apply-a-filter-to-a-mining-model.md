@@ -2,7 +2,7 @@
 title: "Apply a Filter to a Mining Model | Microsoft Docs"
 description: "Learn how to create two kinds of filters: case filters, and filters on the nested table rows. Also learn how to apply a filter to a mining model."
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: how-to
 

@@ -2,7 +2,7 @@
 title: "Globalization tips and best practices (Analysis Services) | Microsoft Docs"
 description: Learn globalization tips for increasing the portability of business intelligence solutions and avoid errors that are directly related to language settings. 
 ms.date: 06/10/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: best-practice
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"

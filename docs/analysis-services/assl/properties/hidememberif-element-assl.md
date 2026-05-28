@@ -2,7 +2,7 @@
 title: "HideMemberIf Element (ASSL) | Microsoft Docs"
 description: Learn about the HideMemberIf property element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 09/14/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: assl
 ms.reviewer: eur
 

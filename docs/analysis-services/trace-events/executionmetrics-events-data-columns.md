@@ -2,7 +2,7 @@
 title: "Execution Metrics Data Columns | Microsoft Docs"
 description: Learn about the data columns for the Execution Metrics event category.
 ms.date: 02/17/2025
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: trace-events
 ms.topic: reference
 

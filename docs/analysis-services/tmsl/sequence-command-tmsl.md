@@ -2,7 +2,7 @@
 title: "Sequence command (TMSL) | Microsoft Docs"
 description: Use the Sequence command to run a consecutive set of operations in batch mode on an instance of Analysis Services.
 ms.date: 07/11/2019
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tmsl
 ms.topic: reference
 

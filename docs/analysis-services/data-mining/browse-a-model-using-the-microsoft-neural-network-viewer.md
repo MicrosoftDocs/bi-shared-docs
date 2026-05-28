@@ -2,7 +2,7 @@
 title: "Browse a Model Using the Microsoft Neural Network Viewer | Microsoft Docs"
 description: The Microsoft Neural Network Viewer in Microsoft SQL Server Analysis Services displays mining models that are built with the Microsoft Neural Network algorithm. 
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

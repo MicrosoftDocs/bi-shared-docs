@@ -2,7 +2,7 @@
 title: "Configure Analysis Services Project Properties| Microsoft Docs"
 description: Learn how to change the default properties that affect building and deploying an Analysis Services project.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: reference
 

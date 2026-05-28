@@ -2,7 +2,7 @@
 title: "Multidimensional Model Data Access (Analysis Services - Multidimensional Data) | Microsoft Docs"
 description:  Learn how to access Analysis Services multidimensional data using programmatic methods, script, or client applications.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: mdx
 ms.topic: concept-article
 

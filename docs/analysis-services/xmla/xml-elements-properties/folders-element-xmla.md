@@ -2,7 +2,7 @@
 title: "Folders Element (XMLA) | Microsoft Docs"
 description: Learn how the Folders element contains a collection of Folder elements used by the parent Location element during a Restore or Synchronize command.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

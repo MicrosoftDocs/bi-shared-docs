@@ -2,7 +2,7 @@
 title: "ConnectionString Element (XMLA) | Microsoft Docs"
 description: Learn how the ConnectionString element contains a connection string used by the parent Location or Source element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: reference
 ms.custom:
   - xmla

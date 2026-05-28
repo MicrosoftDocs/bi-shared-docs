@@ -2,7 +2,7 @@
 title: "Verify SQL Server Analysis Services cumulative update build version | Microsoft Docs"
 description: Learn how to verify the the SQL Server Analysis Services cumulative update build package version number.
 ms.date: 01/05/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"

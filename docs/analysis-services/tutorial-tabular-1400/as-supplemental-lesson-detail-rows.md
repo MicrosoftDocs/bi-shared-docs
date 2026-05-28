@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Analysis Services tutorial supplemental lesson: Detail Rows | Microsoft Docs"
 description: Learn how to use the DAX Editor to define a custom Detail Rows Expression for an Analysis Services tabular model project.
 ms.date: 08/28/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: tutorial
 ---

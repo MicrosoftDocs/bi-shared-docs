@@ -2,7 +2,7 @@
 title: "MDDataSet Data Type (XMLA) | Microsoft Docs"
 description: Learn how the MDDataSet data type defines a derived data type that represents multidimensional data returned by the Execute method.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

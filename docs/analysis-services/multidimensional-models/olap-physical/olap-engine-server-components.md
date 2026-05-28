@@ -2,7 +2,7 @@
 title: "OLAP Engine Server Components | Microsoft Docs"
 description: Learn about OLAP Engine Server components, for example security components, an XML for Analysis (XMLA) listener component, and a query processor component 
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: concept-article
 

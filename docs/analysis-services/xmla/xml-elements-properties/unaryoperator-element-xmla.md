@@ -2,7 +2,7 @@
 title: "UnaryOperator Element (XMLA) | Microsoft Docs"
 description: Learn how the UnaryOperator element contains the unary operator for an attribute member represented by the parent Attribute element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

@@ -2,7 +2,7 @@
 title: "Clustering Model Query Examples | Microsoft Docs"
 description: In this article, learn how to create queries for models that are based on the Microsoft Clustering algorithm.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: reference
 

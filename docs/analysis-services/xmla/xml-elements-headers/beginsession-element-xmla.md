@@ -2,7 +2,7 @@
 title: "BeginSession Element (XMLA) | Microsoft Docs"
 description: Learn how the BeginSession element uses a SOAP header in a SOAP request message to start a new session on an instance of Analysis Services.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

@@ -2,7 +2,7 @@
 title: "Authentication methodologies supported by Analysis Services | Microsoft Docs"
 description: Learn about the authentication methodologies supported by SQL Server Analysis Services. Claims authentication is not supported.
 ms.date: 12/01/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"

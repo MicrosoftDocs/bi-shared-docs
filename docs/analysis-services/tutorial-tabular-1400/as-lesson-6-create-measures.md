@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Analysis Services tutorial lesson 6: Create measures | Microsoft Docs"
 description: Learn how to create measures for an Analysis Services tabular model project.
 ms.date: 02/20/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: tutorial
 ---

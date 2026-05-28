@@ -2,7 +2,7 @@
 title: "Log operations in Analysis Services | Microsoft Docs"
 description: Learn how SQL Server Analysis Services logs server notifications, errors, and warnings for each instance you install.
 ms.date: 01/10/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ms.custom:

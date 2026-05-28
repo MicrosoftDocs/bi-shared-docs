@@ -2,7 +2,7 @@
 title: "Command Element (XMLA) | Microsoft Docs"
 description: Learn how the Command element contains the command to be executed by the Execute method.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

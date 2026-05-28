@@ -2,7 +2,7 @@
 title: "DirectQuery mode in Analysis Services | Microsoft Docs"
 description: Describes DirectQuery mode for tabular models.
 ms.date: 08/27/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

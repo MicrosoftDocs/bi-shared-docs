@@ -2,7 +2,7 @@
 title: "EXISTING Keyword (MDX) | Microsoft Docs"
 description: Learn how the EXISTING keyword forces a specified set to be evaluated within the current context. 
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: mdx
 ms.topic: reference
 

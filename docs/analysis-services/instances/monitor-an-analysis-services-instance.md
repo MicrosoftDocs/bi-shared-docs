@@ -2,7 +2,7 @@
 title: "Monitor an Analysis Services Instance overview | Microsoft Docs"
 description: Learn about the tools that SQL Server Analysis Services offer to help you monitor and tune the performance of your servers.
 ms.date: 12/29/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

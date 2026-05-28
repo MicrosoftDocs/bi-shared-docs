@@ -2,7 +2,7 @@
 title: "Change the Properties of a Mining Structure | Microsoft Docs"
 description: Learn about the two kinds of properties on a mining structure and how to change the properties of a mining structure.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: article
 

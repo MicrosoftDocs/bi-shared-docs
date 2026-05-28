@@ -2,7 +2,7 @@
 title: "ParentObject Element (XMLA) | Microsoft Docs"
 description: Learn how the ParentObject element contains the identifier of the parent object under which to create the objects defined by the parent Create element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

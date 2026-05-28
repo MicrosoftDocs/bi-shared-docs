@@ -2,7 +2,7 @@
 title: "Analysis Services workspace database | Microsoft Docs"
 description: Learn that the tabular model workspace database is created when you create a new tabular model project in Visual Studio with Analysis Services projects.
 ms.date: 04/20/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

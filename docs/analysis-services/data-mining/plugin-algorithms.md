@@ -2,7 +2,7 @@
 title: "Plugin Algorithms in Analysis Services Data Mining | Microsoft Docs"
 description: Learn how to plug in algorithms from third parties that follow standards to use them for data mining in SQL Server Analysis Services.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 
