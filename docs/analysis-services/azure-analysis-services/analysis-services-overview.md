@@ -261,7 +261,7 @@ Azure Analysis Services documentation also uses [GitHub Issues](/teamblog/a-new-
 
 ## Blogs
 
-Things are changing rapidly. Get the latest information on the [Power BI blog](https://powerbi.microsoft.com/blog/category/analysis-services/) and [Azure blog](https://azure.microsoft.com/blog/).
+Things are changing rapidly. Get the latest information on the [Power BI blog](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog/label-name/analysis%20services) and [Azure blog](https://azure.microsoft.com/blog/product/azure-analysis-services/).
 
 ## Q&A
 
