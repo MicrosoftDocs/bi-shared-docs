@@ -72,7 +72,7 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 #### AMO and ADOMD
 
 Starting with version 19.114.0: 
-- The MSAL dependency has been upgraded. The minimum supported version is 4.83.3.
+- The MSAL dependency is upgraded. The minimum supported version is 4.83.3.
 
 Starting with version 19.98.0.3:
 - An additional set of connection-string properties can be used to control the Entra-Id based authentication experience over HTTP connections. For more information, refer to the [Analysis-Services connection-string properties](../analysis-services/instances/connection-string-properties-analysis-services.md#user-idpassword) article in the product documentation.
