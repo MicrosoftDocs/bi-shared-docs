@@ -6,7 +6,7 @@ ms.custom: horz-monitor
 ms.topic: reference
 author: eric-urban
 ms.author: eur
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ---
 
 # Azure Analysis Services monitoring data reference

@@ -2,7 +2,7 @@
 title: "Remote Partitions (Analysis Services OLAP) | Microsoft Docs"
 description: Learn about remote partitions, specifically storage modes for remote partitions and merging remote partitions.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: concept-article
 

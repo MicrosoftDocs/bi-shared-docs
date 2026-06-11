@@ -2,7 +2,7 @@
 title: "Analysis Services Scripting Language XML Data Type Hierarchy (ASSL) | Microsoft Docs"
 description: See a table that displays the inheritance hierarchy of data types in Analysis Services Scripting Language (ASSL).
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: assl
 ms.topic: reference
 

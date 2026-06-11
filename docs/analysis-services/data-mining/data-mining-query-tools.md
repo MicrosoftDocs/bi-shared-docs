@@ -2,7 +2,7 @@
 title: "Data Mining Query Tools | Microsoft Docs"
 description: Learn about tools for data mining queries that use the Data Mining Extensions language, such as the Prediction Query Builder and Query Editor.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

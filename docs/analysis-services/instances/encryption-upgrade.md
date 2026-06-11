@@ -2,7 +2,7 @@
 title: "Upgrade encryption schema (SQL Server 2022 Analysis Services) | Microsoft Docs"
 description: Learn about upgrading SQL Server 2022 tabular and multidimensional databases to the latest encryption.  
 ms.date: 02/09/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2022"
 ms.custom:

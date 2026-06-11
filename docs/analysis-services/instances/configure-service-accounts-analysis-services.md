@@ -2,7 +2,7 @@
 title: "Configure Service Accounts (Analysis Services) | Microsoft Docs"
 description: Learn about permissions necessary for tabular and clustered installations in SQL Server Analysis Services.
 ms.date: 04/04/2024
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: concept-article
 ms.author: eur

@@ -2,7 +2,7 @@
 title: "Data Mining Model Viewers | Microsoft Docs"
 description: Learn how to use data mining viewers to explore a data model, looking for interesting trends in the data.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

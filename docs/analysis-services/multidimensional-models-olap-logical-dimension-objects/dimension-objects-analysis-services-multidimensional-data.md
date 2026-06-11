@@ -2,7 +2,7 @@
 title: "Dimension Objects (Analysis Services - Multidimensional Data) | Microsoft Docs"
 description: Learn that a simple dimension object is composed of basic information, attributes, and hierarchies. 
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: concept-article
 

@@ -2,7 +2,7 @@
 title: "Determine the Server Mode of an Analysis Services Instance | Microsoft Docs"
 description: Learn how to determine the server mode of an Analysis Services Instance, which is determined during setup when you choose options for installing the server.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"

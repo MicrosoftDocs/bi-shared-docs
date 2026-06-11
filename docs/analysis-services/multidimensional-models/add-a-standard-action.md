@@ -2,7 +2,7 @@
 title: "Add a Standard Action | Microsoft Docs"
 description: Learn how to add an action to a database by using the Actions view in Cube Designer to make it available to users after you reprocess the relevant cube.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 

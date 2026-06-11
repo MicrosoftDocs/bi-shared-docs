@@ -2,7 +2,7 @@
 title: "Browse a Model Using the Microsoft Sequence Cluster Viewer | Microsoft Docs"
 description: The Microsoft Sequence Cluster Viewer in Microsoft SQL Server Analysis Services displays mining models built with the Microsoft Sequence Clustering algorithm.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

@@ -2,7 +2,7 @@
 title: "Automatically Grouping Attribute Members | Microsoft Docs"
 description: Learn how to automatically create groupings of attribute members based on the distribution of the members within the attribute hierarchy for an Analysis Services project.
 ms.date: 04/20/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 

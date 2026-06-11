@@ -2,7 +2,7 @@
 title: "AxesInfo Element (XMLA) | Microsoft Docs"
 description: Learn how the AxesInfo element contains a collection of AxisInfo elements, representing the axis metadata contained by the parent OlapInfo element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

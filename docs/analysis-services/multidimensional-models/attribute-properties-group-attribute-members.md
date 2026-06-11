@@ -2,7 +2,7 @@
 title: "Group Attribute Members (Discretization) | Microsoft Docs"
 description: Learn to group members of an attribute into a number of member groups through a process called discretization.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: concept-article
 

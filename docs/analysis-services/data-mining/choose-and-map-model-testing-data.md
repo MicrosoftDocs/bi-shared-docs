@@ -2,7 +2,7 @@
 title: "Choose and Map Model Testing Data | Microsoft Docs"
 description: Learn how to choose and map model testing data. You can also learn how to specify an external source of data.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: how-to
 

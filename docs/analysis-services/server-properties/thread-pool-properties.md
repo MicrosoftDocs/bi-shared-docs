@@ -2,7 +2,7 @@
 title: "Analysis Services thread pool properties | Microsoft Docs"
 description: Learn how to manage thread pool properties so you can improve overall server performance.
 ms.date: 05/03/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: 
 ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"

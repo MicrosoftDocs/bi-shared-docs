@@ -2,7 +2,7 @@
 title: "Name Element (Parameter) (XMLA) | Microsoft Docs"
 description: Learn how the Name element (parameter) Scontains the name of a parameter represented by the Parameter element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

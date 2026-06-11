@@ -2,7 +2,7 @@
 title: "MergePartitions Element (XMLA) | Microsoft Docs"
 description: Learn how the MergePartitions element merges the data of one or more source partitions into a target partition, and then deletes the source partitions.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

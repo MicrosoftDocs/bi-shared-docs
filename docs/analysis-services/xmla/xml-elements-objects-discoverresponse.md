@@ -2,7 +2,7 @@
 title: "DiscoverResponse Element (XMLA) | Microsoft Docs"
 description: Learn how the DiscoverResponse element contains the information returned by an instance of Analysis Services in response to a Discover method call.
 ms.date: 01/05/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 ---

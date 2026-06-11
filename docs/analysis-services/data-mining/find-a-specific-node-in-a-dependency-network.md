@@ -2,7 +2,7 @@
 title: "Find a Specific Node in a Dependency Network | Microsoft Docs"
 description: Find a specific node in a dependency network in a mining model by using the Find Node dialog box in Data Mining Designer in SQL Server Analysis Services.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: how-to
 

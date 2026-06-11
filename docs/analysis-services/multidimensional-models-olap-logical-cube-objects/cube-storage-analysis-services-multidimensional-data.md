@@ -2,7 +2,7 @@
 title: "Cube Storage (Analysis Services - Multidimensional Data) | Microsoft Docs"
 description: Learn details about cube storage, for example how storage may include only cube metadata and how the amount of storage depends on the storage mode selected.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: concept-article
 

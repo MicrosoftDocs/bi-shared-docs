@@ -2,7 +2,7 @@
 title: "Cell Element (MDDataSet) (XMLA) | Microsoft Docs"
 description: Learn how the Cell element (MDDataSet) contains information about a single cell contained by a parent CellData element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

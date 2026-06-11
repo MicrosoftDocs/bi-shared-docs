@@ -2,7 +2,7 @@
 title: "Handling errors in the TOM API (AMO-TOM) | Microsoft Docs"
 description: Learn how to use exceptions to report error conditions to the user in Analysis Services Management Objects (AMO) Tabular Object Model (TOM).
 ms.date: 12/07/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: reference
 

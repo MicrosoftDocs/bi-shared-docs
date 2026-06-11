@@ -4,7 +4,7 @@ description: This article describes background troubleshooting information and s
 author: eric-urban
 ms.author: eur
 ms.reviewer: eur
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: troubleshooting-problem-resolution
 ms.date: 04/13/2019
 ms.custom: sfi-image-nochange

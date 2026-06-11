@@ -2,7 +2,7 @@
 title: "Define Attribute Relationships | Microsoft Docs"
 description: Learn about definitions and considerations for Attribute Relationships between attributes in a dimension.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: concept-article
 

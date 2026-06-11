@@ -2,7 +2,7 @@
 title: "Create and deploy an empty database (AMO-TOM) | Microsoft Docs"
 description: Walk through the steps of generating tabular databases and corresponding models on the fly using AMO-TOM.
 ms.date: 12/07/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: reference
 ms.custom:
   - tabular-models

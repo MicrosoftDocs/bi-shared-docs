@@ -2,7 +2,7 @@
 title: "Execution Metrics event Category | Microsoft Docs"
 description: Learn about the event classes for the Execution Metrics events category.
 ms.date: 02/17/2025
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: trace-events
 ms.topic: reference
 

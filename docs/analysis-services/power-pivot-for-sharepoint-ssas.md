@@ -2,7 +2,7 @@
 title: "Power Pivot for SharePoint (SSAS) | Microsoft Docs"
 description: Learn how Analysis Services in Power Pivot mode provides server hosting of Power Pivot data in a SharePoint farm.
 ms.date: 06/09/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: ppvt-sharepoint
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"

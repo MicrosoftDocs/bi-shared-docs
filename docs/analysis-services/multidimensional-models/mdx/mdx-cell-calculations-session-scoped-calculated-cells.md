@@ -2,7 +2,7 @@
 title: "Creating Session-Scoped Calculated Cells | Microsoft Docs"
 description: Learn how to create session-scoped calculated cells.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: mdx
 ms.topic: concept-article
 

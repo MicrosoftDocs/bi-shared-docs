@@ -2,7 +2,7 @@
 title: "Rename an Analysis Services tabular model table or column | Microsoft Docs"
 description: Learn how to rename a column or table during the Get Data\import process in Power Query Editor.
 ms.date: 07/15/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

@@ -2,7 +2,7 @@
 title: "Clear Analysis Services caches | Microsoft Docs"
 description: Learn how and when to clear caches in SQL Server Analysis Services for different kinds of models.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

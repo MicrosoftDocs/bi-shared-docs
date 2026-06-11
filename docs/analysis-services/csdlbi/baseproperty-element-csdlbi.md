@@ -2,7 +2,7 @@
 title: "BaseProperty Element (CSDLBI) | Microsoft Docs"
 description: Learn about the BaseProperty element, a complex type that serves as the base for other elements and whose attributes can appear in columns and in measures.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: reference
 

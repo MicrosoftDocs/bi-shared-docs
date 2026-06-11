@@ -2,7 +2,7 @@
 title: "Deploy a Data Mining Solution to Previous Versions of SQL Server | Microsoft Docs"
 description: Learn how to deploy your data mining models to a production environment in SQL Server Analysis Services to a previous version of SQL Server.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

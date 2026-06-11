@@ -2,7 +2,7 @@
 title: "SystemGetAccuracyResults (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about SystemGetAccuracyResults, which returns cross-validation accuracy metrics for a mining structure and related models, excluding clustering models.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: reference
 

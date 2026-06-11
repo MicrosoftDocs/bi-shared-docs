@@ -2,7 +2,7 @@
 title: "Specify a Column to Use as Regressor in a Model | Microsoft Docs"
 description: Learn how to specify a column to act as a regressor in your model by using Data Mining Designer in SQL Server Analysis Services.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: how-to
 

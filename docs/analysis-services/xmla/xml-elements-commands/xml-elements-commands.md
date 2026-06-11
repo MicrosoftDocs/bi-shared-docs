@@ -2,7 +2,7 @@
 title: "Commands (XMLA) | Microsoft Docs"
 description: Learn about the XML for Analysis (XMLA) elements that can be used within the Command element during an Execute method call.
 ms.date: 04/16/2019
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

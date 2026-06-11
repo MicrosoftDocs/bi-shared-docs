@@ -2,7 +2,7 @@
 title: "Grant permissions on data mining structures and models (Analysis Services) | Microsoft Docs"
 description: Grant permissions to non-administrator users to view data mining structures or mining models in the database. 
 ms.date: 03/30/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019"

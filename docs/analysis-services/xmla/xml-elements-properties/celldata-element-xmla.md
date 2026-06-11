@@ -2,7 +2,7 @@
 title: "CellData Element (XMLA) | Microsoft Docs"
 description: Learn how the CellData element contains a collection of Cell elements that represent the cell data contained by a root element that uses the MDDataSet data type.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 
