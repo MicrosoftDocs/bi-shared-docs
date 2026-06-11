@@ -1,7 +1,7 @@
 ---
 ms.topic: include
 ms.date: 10/16/2025
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tmsl
 ms.author: kayu
 author: kayu
