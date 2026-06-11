@@ -2,7 +2,7 @@
 title: "Install or Uninstall the Power Pivot for SharePoint Add-in (SharePoint 2013) | Microsoft Docs"
 description: Learn how to install or uninstall the Power Pivot for SharePoint Add-in, a collection of application server components and back-end services in SharePoint 2013.
 ms.date: 05/18/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: ppvt-sharepoint
 ms.topic: install-set-up-deploy
 monikerRange: "asallproducts-allversions || <= sql-analysis-services-2019"

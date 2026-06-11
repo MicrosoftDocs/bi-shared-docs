@@ -2,7 +2,7 @@
 title: "Apply Filters to Model Testing Data | Microsoft Docs"
 description: Learn to apply a filter to restrict the input data when you specify an external data source to use in testing a model.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: how-to
 

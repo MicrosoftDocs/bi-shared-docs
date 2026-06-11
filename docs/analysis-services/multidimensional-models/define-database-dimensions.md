@@ -2,7 +2,7 @@
 title: "Define Database Dimensions | Microsoft Docs"
 description: Use Dimension Designer in SQL Server Data Tools to configure an existing database dimension in a Microsoft SQL Server Analysis Services project or database.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: concept-article
 

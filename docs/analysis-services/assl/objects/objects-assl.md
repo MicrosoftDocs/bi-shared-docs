@@ -2,7 +2,7 @@
 title: "Objects (ASSL) | Microsoft Docs"
 description: An overview of the Objects (ASSL) reference section.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: assl
 ms.topic: reference
 

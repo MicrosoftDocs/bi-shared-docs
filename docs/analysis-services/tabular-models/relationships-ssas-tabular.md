@@ -2,7 +2,7 @@
 title: "Relationships in Analysis Services tabular models | Microsoft Docs"
 description: Learn how a relationship is a connection between two tables of data, and how the relationship establishes how the data in the two tables should be correlated.
 ms.date: 08/04/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

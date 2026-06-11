@@ -2,7 +2,7 @@
 title: "Object Element (Dimension) (XMLA) | Microsoft Docs"
 description: Learn how the Object element (dimension) contains an object reference for the dimension on which the parent Insert, Update, or Drop command is executed.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

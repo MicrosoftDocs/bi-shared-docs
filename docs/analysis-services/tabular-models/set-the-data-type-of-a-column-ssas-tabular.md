@@ -2,7 +2,7 @@
 title: "Column data type in an Analysis Services tabular model | Microsoft Docs"
 description: Learn how to manually modify the data type of a column to change how data is stored. 
 ms.date: 01/29/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

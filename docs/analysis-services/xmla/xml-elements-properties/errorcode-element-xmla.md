@@ -2,7 +2,7 @@
 title: "ErrorCode Element (XMLA) | Microsoft Docs"
 description: Learn how the ErrorCode element contains the numeric return code of the parent Error element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

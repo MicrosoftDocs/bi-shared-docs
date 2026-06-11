@@ -2,7 +2,7 @@
 title: "Maximum Capacity Specifications (Analysis Services) | Microsoft Docs"
 description: Learn the maximum sizes and numbers of various objects defined in Analysis Services components under different server deployment modes.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: limits-and-quotas
 

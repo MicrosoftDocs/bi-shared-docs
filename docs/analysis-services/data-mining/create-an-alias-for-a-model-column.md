@@ -2,7 +2,7 @@
 title: "Create an Alias for a Model Column | Microsoft Docs"
 description: Learn how to create an alias for a model column in SQL Server 2017 to make the label more descriptive or improve readability.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: how-to
 

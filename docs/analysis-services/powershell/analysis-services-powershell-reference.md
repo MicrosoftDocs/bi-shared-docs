@@ -2,7 +2,7 @@
 title: "Analysis Services PowerShell Reference | Microsoft Docs"
 description: See a list of the cmdlets corresponding to methods in the Microsoft.AnalysisServices namespace, and links to the corresponding AMO methods.
 ms.date: 08/17/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: powershell
 ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

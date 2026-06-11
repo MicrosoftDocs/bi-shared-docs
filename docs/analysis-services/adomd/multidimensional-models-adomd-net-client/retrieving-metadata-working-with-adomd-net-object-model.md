@@ -2,7 +2,7 @@
 title: "Working with the ADOMD.NET Object Model | Microsoft Docs"
 description: The AdomdConnection object provides access to information on the online analytical processing (OLAP) cubes and mining models defined on an analytical data source.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: adomd
 ms.topic: concept-article
 

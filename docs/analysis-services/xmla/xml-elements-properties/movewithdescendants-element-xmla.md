@@ -2,7 +2,7 @@
 title: "MoveWithDescendants Element (XMLA) | Microsoft Docs"
 description: Learn how the MoveWithDescendants element indicates whether the descendants of attribute members are also updated by the parent Update command.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

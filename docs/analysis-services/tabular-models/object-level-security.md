@@ -2,7 +2,7 @@
 title: "Analysis Services tabular model object-level security | Microsoft Docs"
 description: Learn how you can define object-level security, which includes table-level security and column-level security in the Roles object.
 ms.date: 07/01/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

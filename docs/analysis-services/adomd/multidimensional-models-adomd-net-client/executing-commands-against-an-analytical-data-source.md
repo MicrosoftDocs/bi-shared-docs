@@ -2,7 +2,7 @@
 title: "Executing Commands Against an Analytical Data Source | Microsoft Docs"
 description: Learn how to use an AdomdCommand object to execute commands against an Analytical Data source and return results from that source.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: adomd
 ms.topic: concept-article
 

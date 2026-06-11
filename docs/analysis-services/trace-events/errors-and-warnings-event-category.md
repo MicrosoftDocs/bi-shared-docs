@@ -2,7 +2,7 @@
 title: "Errors and Warnings Event Category | Microsoft Docs"
 description: Learn about the event classes for the Error and Warnings event category.
 ms.date: 07/19/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: trace-events
 ms.topic: reference
 

@@ -2,7 +2,7 @@
 title: Refresh with Logic Apps for Azure Analysis Services models | Microsoft Docs
 description: This article describes how to code asynchronous refresh for Azure Analysis Services by using Azure Logic Apps.
 author: kfollis
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: how-to
 ms.date: 10/30/2019
 ms.author: kfollis 

@@ -2,7 +2,7 @@
 title: "DbSchemaName Element (XMLA) | Microsoft Docs"
 description: Learn how the DbSchemaName element contains the name of the schema used by the parent TableNotification element in the table identified by the DbTableName element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

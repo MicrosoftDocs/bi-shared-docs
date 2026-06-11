@@ -2,7 +2,7 @@
 title: "AxisInfo Element (XMLA) | Microsoft Docs"
 description: Learn how the AxisInfo element represents the metadata of a single axis contained by the parent AxesInfo element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

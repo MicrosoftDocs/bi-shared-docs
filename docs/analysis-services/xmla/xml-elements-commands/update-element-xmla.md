@@ -2,7 +2,7 @@
 title: "Update Element (XMLA) | Microsoft Docs"
 description: Learn how the Update element updates attribute members in a dimension.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

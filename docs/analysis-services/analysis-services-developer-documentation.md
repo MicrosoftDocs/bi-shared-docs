@@ -2,7 +2,7 @@
 title: "Analysis Services developer documentation | Microsoft Docs"
 description: Learn about the contents of Analysis Services developer documentation, including writing managed code and using open standards like XMLA and MSOLAP.
 ms.date: 04/07/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

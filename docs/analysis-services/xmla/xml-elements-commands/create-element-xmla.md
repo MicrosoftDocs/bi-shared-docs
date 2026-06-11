@@ -2,7 +2,7 @@
 title: "Create Element (XMLA) | Microsoft Docs"
 description: Learn how the Create element contains Analysis Services Scripting Language (ASSL) elements used by the **Execute** method to create objects on a Analysis Services instance.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

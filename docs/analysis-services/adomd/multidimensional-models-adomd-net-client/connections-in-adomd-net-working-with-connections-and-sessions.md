@@ -2,7 +2,7 @@
 title: "Working with Connections and Sessions in ADOMD.NET | Microsoft Docs"
 description: Learn to use three XMLA session elements in ADOMD.NET to start a session, perform queries or retrieve data during the session, and close a session.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: concept-article
 ms.custom:
   - adomd

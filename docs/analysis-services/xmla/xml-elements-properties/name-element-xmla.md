@@ -2,7 +2,7 @@
 title: "Name Element (XMLA) | Microsoft Docs"
 description: Learn how the Name element contains the name of an attribute member for the parent Attribute or Translation element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

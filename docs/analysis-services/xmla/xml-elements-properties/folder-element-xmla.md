@@ -2,7 +2,7 @@
 title: "Folder Element (XMLA) | Microsoft Docs"
 description: Learn how the Folder element contains a file system storage location to be updated for a Location element during a Restore or Synchronize command.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

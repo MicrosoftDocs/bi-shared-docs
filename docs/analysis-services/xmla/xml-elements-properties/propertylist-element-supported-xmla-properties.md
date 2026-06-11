@@ -2,7 +2,7 @@
 title: "Supported XMLA Properties (XMLA) | Microsoft Docs"
 description: Learn how to use the supported XMLA properties in the Properties element of the Discover and Execute methods.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: reference
 ms.custom:
   - xmla

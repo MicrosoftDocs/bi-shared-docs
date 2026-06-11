@@ -6,7 +6,7 @@ ms.custom: horz-monitor
 ms.topic: concept-article
 author: eric-urban
 ms.author: eur
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ---
 
 # Monitor Azure Analysis Services

@@ -2,7 +2,7 @@
 title: "XML for Analysis (XMLA) Reference | Microsoft Docs"
 description: Learn how Azure Analysis Services and SQL Server Analysis Services use XMLA protocol for communications between client applications and an Analysis Services instance. 
 ms.date: 01/05/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 ---

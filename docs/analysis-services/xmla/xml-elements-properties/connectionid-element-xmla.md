@@ -2,7 +2,7 @@
 title: "ConnectionID Element (XMLA) | Microsoft Docs"
 description: Learn how the ConnectionID element identifies an active connection on which to execute the parent Cancel element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

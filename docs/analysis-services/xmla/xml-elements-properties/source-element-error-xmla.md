@@ -2,7 +2,7 @@
 title: "Source Element (Error) (XMLA) | Microsoft Docs"
 description: Learn how the Source element (error) contains the name of the component that generated the parent Error element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

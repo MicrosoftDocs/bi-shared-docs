@@ -2,7 +2,7 @@
 title: "TableNotification Element (XMLA) | Microsoft Docs"
 description: Learn how the TableNotification element represents a table notification for a NotifyTableChange command.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

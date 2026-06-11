@@ -2,7 +2,7 @@
 title: "DatabaseID Element (XMLA) | Microsoft Docs"
 description: Learn how the DatabaseID element, identifies a database within a parent element that contains an object reference.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

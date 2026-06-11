@@ -2,7 +2,7 @@
 title: "Creating Stored Procedures | Microsoft Docs"
 description: Learn about creating stored procedures and how all stored procedures must be associated with a CLR or COM class in order to be used.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: how-to
 

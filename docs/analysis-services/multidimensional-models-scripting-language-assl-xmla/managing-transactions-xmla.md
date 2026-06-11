@@ -2,7 +2,7 @@
 title: "Managing Transactions (XMLA) | Microsoft Docs"
 description: Learn how to manage transactions by using the BeginTransaction, CommitTransaction, and RollbackTransaction XMLA commands.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: concept-article
 

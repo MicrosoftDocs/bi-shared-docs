@@ -2,7 +2,7 @@
 title: "Properties (XMLA) | Microsoft Docs"
 description: Learn about the XML elements that the XMLA protocol uses to represent property information and values for XMLA headers, methods, objects, commands, and data types.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: reference
 ms.custom:
   - xmla

@@ -2,7 +2,7 @@
 title: "Define partitions in Analysis Services DirectQuery models | Microsoft Docs"
 description: Describes how to define table partitions for DirectQuery models.
 ms.date: 08/27/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

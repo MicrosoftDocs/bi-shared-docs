@@ -2,7 +2,7 @@
 title: "Processing Data Mining Objects | Microsoft Docs"
 description: Learn about processing a data mining object in SQL Server Analysis Services, which is only an empty container until it has been processed.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

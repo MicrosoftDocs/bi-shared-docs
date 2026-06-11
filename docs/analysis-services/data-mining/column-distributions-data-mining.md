@@ -2,7 +2,7 @@
 title: "Column Distributions (Data Mining) | Microsoft Docs"
 description: Learn how to define column distributions in a mining structure to affect how algorithms process the data in those columns when you create mining models.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

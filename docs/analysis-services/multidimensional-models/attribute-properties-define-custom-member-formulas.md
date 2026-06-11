@@ -2,7 +2,7 @@
 title: "Define Custom Member Formulas | Microsoft Docs"
 description: Define a Multidimensional Expressions (MDX) expression, called a custom member formula, to supply the values for the members of a specified attribute. 
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: concept-article
 

@@ -2,7 +2,7 @@
 title: "View or Change Algorithm Parameters | Microsoft Docs"
 description: Learn how to change the parameters in algorithms that you use to build data mining models to customize the results of the model in SQL Server Analysis Services.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: how-to
 

@@ -2,7 +2,7 @@
 title: "CancelAssociated Element (XMLA) | Microsoft Docs"
 description: Learn how the CancelAssociated element indicates whether the parent Cancel element should cancel all associated commands.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

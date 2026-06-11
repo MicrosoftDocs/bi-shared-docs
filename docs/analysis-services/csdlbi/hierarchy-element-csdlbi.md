@@ -2,7 +2,7 @@
 title: "Hierarchy Element (CSDLBI) | Microsoft Docs"
 description: Learn about the Hierarchy element, a logical container for fields in a table that can be linked to each other to form a hierarchy.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: reference
 

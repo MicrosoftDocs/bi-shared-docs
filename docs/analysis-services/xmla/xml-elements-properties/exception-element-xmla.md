@@ -2,7 +2,7 @@
 title: "Exception Element (XMLA) | Microsoft Docs"
 description: Learn how the Exception element indicates that an exception was returned from a Discover or Execute method call.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

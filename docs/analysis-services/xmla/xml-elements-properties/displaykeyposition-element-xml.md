@@ -2,7 +2,7 @@
 title: "DisplayKeyPosition Element (XML) | Microsoft Docs"
 description: Learn how the DisplayKeyPosition element contains information about the position of the element in a collection of elements.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 
