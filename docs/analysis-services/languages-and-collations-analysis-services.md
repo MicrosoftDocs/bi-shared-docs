@@ -62,7 +62,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
  To view a longer list, see [Locale IDs Assigned by Microsoft](/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c). For more background, see [Encoding and Code Pages](/globalization/encoding/encoding-overview).  
   
 > [!NOTE]  
->  The **Language** property does not determine the language for returning system messages, or which strings appear in the user interface. Errors, warnings, and messages are localized into all languages supported in Office and Office 365 and are used automatically when the client connection specifies one of the supported locales.  
+>  The **Language** property does not determine the language for returning system messages, or which strings appear in the user interface. Errors, warnings, and messages are localized into all languages supported in Office and Microsoft 365 and are used automatically when the client connection specifies one of the supported locales.  
   
 ##  <a name="bkmk_collations"></a> Collation support in Analysis Services  
  [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] uses Windows (versions _90 and _100) and binary collations exclusively. It does not use legacy SQL Server collations. Within a cube, a single collation is used throughout, with the exception of translations at the attribute level. For more information about defining attribute translations, see [Translation support in Analysis Services](../analysis-services/translation-support-in-analysis-services.md).  
