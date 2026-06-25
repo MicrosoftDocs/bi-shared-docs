@@ -4,11 +4,8 @@ description: Learn about the ProcessingPriority property element in the Analysis
 ms.date: 7/25/2018
 ms.service: azure-analysis-services
 ms.custom: assl
-ms.reviewer: eur
 
 ms.topic: reference
-author: eric-urban
-ms.author: eur
 
 ---
 # ProcessingPriority Element (ASSL)

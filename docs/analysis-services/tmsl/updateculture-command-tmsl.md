@@ -5,10 +5,7 @@ ms.date: 10/16/2025
 ms.service: azure-analysis-services
 ms.custom: tmsl
 ms.topic: reference
-ms.author: kayu
 ms.reviewer: kayu
-author: kayu
-
 ---
 # UpdateCulture command (TMSL)
 

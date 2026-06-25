@@ -4,11 +4,8 @@ description: Learn about the UnknownMember property element in the Analysis Serv
 ms.date: 7/25/2018
 ms.service: azure-analysis-services
 ms.custom: assl
-ms.reviewer: eur
 
 ms.topic: reference
-author: eric-urban
-ms.author: eur
 
 ---
 # UnknownMember Element (ASSL)

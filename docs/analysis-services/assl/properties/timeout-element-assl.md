@@ -4,11 +4,8 @@ description: Learn about the Timeout property element in the Analysis Services S
 ms.date: 7/25/2018
 ms.service: azure-analysis-services
 ms.custom: assl
-ms.reviewer: eur
 
 ms.topic: reference
-author: eric-urban
-ms.author: eur
 
 ---
 # Timeout Element (ASSL)
