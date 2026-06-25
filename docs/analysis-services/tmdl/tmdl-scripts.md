@@ -2,11 +2,9 @@
 title: "TMDL scripts"
 description: Learn how to use TMDL scripts.
 ms.date: 01/14/2025
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tmdl
 ms.topic: reference
-ms.author: kfollis
-author: kfollis
 ---
 
 # TMDL scripts

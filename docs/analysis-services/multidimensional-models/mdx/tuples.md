@@ -2,7 +2,7 @@
 title: "Tuples (Analysis Services multidimensional) | Microsoft Docs"
 description: Learn how a tuple uniquely identifies a slice of data from a cube and is formed by a combination of dimension members.
 ms.date: 06/06/2019
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: mdx
 ms.topic: concept-article
 

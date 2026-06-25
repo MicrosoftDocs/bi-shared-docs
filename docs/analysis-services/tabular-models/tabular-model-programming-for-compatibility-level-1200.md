@@ -2,7 +2,7 @@
 title: "Analysis Services tabular model programming for compatibility level 1200 | Microsoft Docs"
 description: Learn how tabular metadata is used to describe model constructs beginning with compatibility level 1200.
 ms.date: 04/03/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

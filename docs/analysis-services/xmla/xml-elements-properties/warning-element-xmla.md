@@ -2,7 +2,7 @@
 title: "Warning Element (XMLA) | Microsoft Docs"
 description: Learn how the Warning element contains information about a warning returned by an instance of Analysis Services.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

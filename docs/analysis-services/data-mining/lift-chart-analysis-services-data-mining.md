@@ -2,7 +2,7 @@
 title: "Lift Chart (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about a lift chart, which graphically represents the improvement that a mining model provides when compared against a random guess in SQL Server Analysis Services.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

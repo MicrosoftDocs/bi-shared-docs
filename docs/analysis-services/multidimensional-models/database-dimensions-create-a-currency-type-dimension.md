@@ -2,7 +2,7 @@
 title: "Create a Currency type Dimension | Microsoft Docs"
 description: Use the Business Intelligence Wizard to define an MDX script command that converts currency measures to values that are appropriate for the client locale.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: concept-article
 

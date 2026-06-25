@@ -2,7 +2,7 @@
 title: "AMO Concepts and Object Model | Microsoft Docs"
 description: Learn about Analysis Management Objects (AMO) concepts and how AMO is related to other tools and libraries provided in the architecture of Analysis Services.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: amo
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || sql-analysis-services-2016 || sql-analysis-services-2017 || sql-analysis-services-2019 || sql-analysis-services-2022"

@@ -2,7 +2,7 @@
 title: "Create a calculated column in Analysis Services | Microsoft Docs"
 description: Learn how to create calculated columns allow you to add new data to your model.
 ms.date: 01/29/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

@@ -2,7 +2,7 @@
 title: "Set the Partition Slice Property (Analysis Services) | Microsoft Docs"
 description: Set the Slice property to improve query performance by overriding default slices generated for MOLAP and HOLAP partitions.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: concept-article
 

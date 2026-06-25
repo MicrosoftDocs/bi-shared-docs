@@ -2,7 +2,7 @@
 title: "SessionID Element (XMLA) | Microsoft Docs"
 description: Learn how the SessionID element identifies an active session on which to execute the parent Cancel element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

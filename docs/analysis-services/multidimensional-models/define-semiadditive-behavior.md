@@ -2,7 +2,7 @@
 title: "Define Semiadditive Behavior | Microsoft Docs"
 description: Add semiadditive behavior to a cube to define an aggregation method for individual measures or members of the account type attribute.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: concept-article
 

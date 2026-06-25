@@ -2,7 +2,7 @@
 title: "Data Mining Algorithms (Analysis Services - Data Mining) | Microsoft Docs"
 description: Learn about data mining algorithms, which are heuristics and calculations that create a model from data in SQL Server Analysis Services.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

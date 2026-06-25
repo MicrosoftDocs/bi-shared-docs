@@ -2,7 +2,7 @@
 title: "DAX for multidimensional models in SQL Server Analysis Services | Microsoft Docs"
 description: Learn how DAX works with multidimensional models.
 ms.date: 09/17/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: concept-article
 ms.custom:
   - multidimensional-models

@@ -2,7 +2,7 @@
 title: "Location Element (XMLA) | Microsoft Docs"
 description: Learn how the Location element contains information about a remote server for the parent Backup, Restore, or Synchronize command.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: reference
 ms.custom:
   - xmla

@@ -2,7 +2,7 @@
 title: "Configure Measure Properties | Microsoft Docs"
 description: Learn about Measures properties that enable you to define how the measures function and to control how the measures appear to users.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: reference
 

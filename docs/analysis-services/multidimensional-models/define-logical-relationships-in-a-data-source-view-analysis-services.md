@@ -2,7 +2,7 @@
 title: "Define Logical Relationships in a Data Source View (Analysis Services) | Microsoft Docs"
 description: Manually define logical relationships in the Data Source View to supplement relationships that are defined automatically.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 

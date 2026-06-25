@@ -2,7 +2,7 @@
 title: "Set Partition Writeback | Microsoft Docs"
 description: Learn how to write-enable a partition, browse or delete writeback data, or convert writeback data to a partition.
 ms.date: 01/05/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 ---

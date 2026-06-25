@@ -2,7 +2,7 @@
 title: "Cube Objects (Analysis Services - Multidimensional Data) | Microsoft Docs"
 description: "Learn how a simple Cube object is composed of: basic information, dimensions, and measure groups."
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: concept-article
 

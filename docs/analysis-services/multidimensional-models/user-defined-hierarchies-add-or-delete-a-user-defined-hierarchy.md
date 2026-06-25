@@ -2,7 +2,7 @@
 title: "Add or Delete a User-Defined Hierarchy | Microsoft Docs"
 description: Add or remove a user-defined hierarchy from a dimension on the Dimension Structure tab in Dimension Designer in SQL Server Data Tools.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 

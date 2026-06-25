@@ -2,7 +2,7 @@
 title: "Creating Query-Scoped Named Sets (MDX) | Microsoft Docs"
 description: Use the WITH keyword syntax to define a named set that is only required for a single Multidimensional Expressions (MDX) query.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: mdx
 ms.topic: concept-article
 

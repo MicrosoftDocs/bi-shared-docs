@@ -2,7 +2,7 @@
 title: "Analysis Services filestore properties | Microsoft Docs"
 description:  Learn about the available filestore properties in Analysis Services, like MemoryLimit and PerformanceTrace. 
 ms.date: 07/27/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: 
 ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

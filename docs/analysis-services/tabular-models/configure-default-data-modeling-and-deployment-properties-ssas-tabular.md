@@ -2,7 +2,7 @@
 title: "Configure Analysis Services default data modeling and deployment properties | Microsoft Docs"
 description: Learn how to configure the default compatibility level and workspace database property settings for each new tabular model project you create in SQL Server Data Tools.
 ms.date: 04/03/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

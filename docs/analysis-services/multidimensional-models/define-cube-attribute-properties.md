@@ -2,7 +2,7 @@
 title: "Define Cube Attribute Properties | Microsoft Docs"
 description: Learn about cube attribute properties that specify unique settings for dimension attributes in cube dimensions based on the same database dimension.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: reference
 

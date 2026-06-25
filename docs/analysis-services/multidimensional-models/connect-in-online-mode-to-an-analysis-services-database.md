@@ -2,7 +2,7 @@
 title: "Connect in Online Mode to an Analysis Services Database | Microsoft Docs"
 description: Connect directly to an existing Microsoft SQL Server Analysis Services database and directly modify objects within that database.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 

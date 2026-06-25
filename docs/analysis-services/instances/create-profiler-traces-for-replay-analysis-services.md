@@ -2,7 +2,7 @@
 title: "Create Profiler Traces for Replay (Analysis Services) | Microsoft Docs"
 description: Learn how to create profiler traces for replay in SQL Server Analysis Services to replay queries, discovers, and commands.
 ms.date: 12/29/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

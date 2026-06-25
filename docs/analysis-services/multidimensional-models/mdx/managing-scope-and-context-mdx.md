@@ -2,7 +2,7 @@
 title: "Managing Scope and Context (MDX) | Microsoft Docs"
 description: Learn how to use a Multidimensional Expressions (MDX) script in Microsoft SQL Server Analysis Services to manage scope and context.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: mdx
 ms.topic: concept-article
 

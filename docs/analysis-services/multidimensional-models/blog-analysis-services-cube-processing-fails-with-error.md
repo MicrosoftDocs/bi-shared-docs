@@ -1,10 +1,7 @@
 ---
 title: SQL Server Analysis Services cube processing fails with Operation canceled HY008 error | Microsoft Docs
 description: This article describes background troubleshooting information and specific steps for one error that can occur when you use SQL Server Analysis Services when you process multi-dimensional models.
-author: eric-urban
-ms.author: eur
-ms.reviewer: eur
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: troubleshooting-problem-resolution
 ms.date: 04/13/2019
 ms.custom: sfi-image-nochange

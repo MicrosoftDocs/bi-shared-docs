@@ -7,9 +7,9 @@ metadata:
   title: Analysis Services core documentation
   description: Learn how to create and manage Analysis Services solutions in the cloud and on-premises. 
   ms.topic: landing-page
-  ms.service: analysis-services
-  author: eric-urban
-  ms.author: eur
+  ms.service: azure-analysis-services
+  ms.author: juliacawthra
+  author: julcsc
   ms.date: 04/29/2025
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new

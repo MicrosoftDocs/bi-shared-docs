@@ -2,7 +2,7 @@
 title: "Add an  Attribute to a Dimension | Microsoft Docs"
 description: Learn how to add an attribute to a dimension either automatically or manually in Microsoft SQL Server Analysis Services.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 

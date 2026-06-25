@@ -2,7 +2,7 @@
 title: "DbpropMsmdRequestMemoryLimit Element (XMLA) | Microsoft Docs"
 description: Learn how the DbpropMsmdRequestMemoryLimit element overrides the Memory QueryMemoryLimit server property value for a request. 
 ms.date: 08/21/2019
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 ---

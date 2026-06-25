@@ -2,7 +2,7 @@
 title: "Install SQL Server Analysis Services | Microsoft Docs"
 description: Learn how to use the SQL Server Installation Wizard to install SQL Server Analysis Services and the three modes determined during setup.
 ms.date: 03/21/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: install-set-up-deploy
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ms.custom:

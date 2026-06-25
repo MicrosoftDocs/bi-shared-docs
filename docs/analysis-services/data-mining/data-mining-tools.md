@@ -2,7 +2,7 @@
 title: "Data Mining Tools (Analysis Services) | Microsoft Docs"
 description: Learn about data mining tools in SQL Server Analysis Services, including the Data Mining Wizard, model viewers, and the Prediction Query Builder.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

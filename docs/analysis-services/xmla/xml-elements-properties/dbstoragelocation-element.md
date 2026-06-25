@@ -2,7 +2,7 @@
 title: "DbStorageLocation Element | Microsoft Docs"
 description: Learn how the DbStorageLocation element specifies the folder where Analysis Services creates and manages all the database data and metadata files.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

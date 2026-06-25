@@ -2,7 +2,7 @@
 title: "Set Usage Property in Analysis Services| Microsoft Docs"
 description: Set the usage for an attribute by using the Dimension Structure view in Dimension Designer, which is accessed from SQL Server Data Tools.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 

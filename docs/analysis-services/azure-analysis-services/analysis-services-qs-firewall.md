@@ -1,12 +1,9 @@
 ---
 title: Quickstart - Configure Azure Analysis Services server firewall | Microsoft Docs
 description: This quickstart helps you configure a firewall for an Azure Analysis Services server by using the Azure portal.
-author: eric-urban
-ms.author: eur
-ms.reviewer: minewiskan
 ms.date: 08/12/2020
 ms.topic: quickstart
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: mode-ui
 #Customer intent: As a BI developer, I want to secure my server by configuring a server firewall and create open IP address ranges for client computers in my organization.
 ---

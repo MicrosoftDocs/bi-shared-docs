@@ -2,7 +2,7 @@
 title: "Retrieving Data Using the XmlReader | Microsoft Docs"
 description: In this article, learn how to retrieve data from an analytical data source by using the XmlReader object in ADOMD.NET.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: adomd
 ms.topic: how-to
 

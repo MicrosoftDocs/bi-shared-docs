@@ -2,7 +2,7 @@
 title: "Analysis Services Tutorial Scenario | Microsoft Docs"
 description: Learn about the Analysis Services tutorial scenario for multidimensional models."
 ms.date: 04/20/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 

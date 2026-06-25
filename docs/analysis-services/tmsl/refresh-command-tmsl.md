@@ -2,7 +2,7 @@
 title: "Refresh command (TMSL) | Microsoft Docs"
 description: Learn about the Refresh command, which processes objects in the current database and always runs in parallel, unless you throttle it.
 ms.date: 06/22/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: reference
 ms.custom:
   - tmsl

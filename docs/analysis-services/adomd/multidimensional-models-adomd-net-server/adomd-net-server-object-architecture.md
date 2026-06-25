@@ -2,7 +2,7 @@
 title: "ADOMD.NET Server Object Architecture | Microsoft Docs"
 description: Learn how ADOMD.NET server objects are helper objects that can be used to create user defined functions (UDFs) or stored procedures in Microsoft SQL Server Analysis Services.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: adomd
 ms.topic: concept-article
 

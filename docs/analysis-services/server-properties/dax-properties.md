@@ -2,7 +2,7 @@
 title: "Analysis Services DAX properties | Microsoft Docs"
 description: Learn about the DAX settings used to control certain query behaviors in Analysis Services.
 ms.date: 07/21/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: 
 ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

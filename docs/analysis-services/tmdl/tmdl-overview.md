@@ -2,7 +2,7 @@
 title: "Tabular Model Definition Language (TMDL) | Microsoft Docs"
 description: Learn about Tabular Model Definition Language (TMDL)
 ms.date: 12/27/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tmdl
 ms.topic: concept-article
 

@@ -2,7 +2,7 @@
 title: "Arrange Shapes in the Attribute Relationship Diagram | Microsoft Docs"
 description: Change the layout of the shapes on the Attribute Relationships tab of the Dimension Structure view in Dimension Designer in SQL Server Data Tools.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 

@@ -2,7 +2,7 @@
 title: "Using Query and Slicer Axes in a Simple Example (MDX) | Microsoft Docs"
 description: Learn the basics of specifying and using query and slicer axes by viewing the simple example in this article.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: mdx
 ms.topic: concept-article
 

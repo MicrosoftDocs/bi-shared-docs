@@ -2,7 +2,7 @@
 title: "Migrating From ADO MD To ADOMD.NET | Microsoft Docs"
 description: Learn how to migrate existing client applications from ADO MD to ADOMD.NET and the differences you need to be aware of during migration.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: adomd
 ms.topic: concept-article
 

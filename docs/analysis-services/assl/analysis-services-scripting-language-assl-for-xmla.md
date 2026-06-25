@@ -2,7 +2,7 @@
 title: "Analysis Services Scripting Language (ASSL for XMLA) | Microsoft Docs"
 description: An overview of the Analysis Services Scripting Language (ASSL) reference section.
 ms.date: 03/29/2019
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: assl
 ms.topic: reference
 

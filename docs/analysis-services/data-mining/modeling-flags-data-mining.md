@@ -2,7 +2,7 @@
 title: "Modeling Flags (Data Mining) | Microsoft Docs"
 description: Learn about modeling flags in SQL Server Analysis Services to provide information to a data mining algorithm about the data that is defined in a case table.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

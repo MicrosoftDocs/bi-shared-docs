@@ -2,7 +2,7 @@
 title: "Introduction to Dimensions (Analysis Services - Multidimensional Data) | Microsoft Docs"
 description: Learn that all Microsoft SQL Server Analysis Services dimensions are groups of attributes based on columns from tables or views in a data source view.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: concept-article
 

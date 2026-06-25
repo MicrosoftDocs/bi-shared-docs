@@ -2,7 +2,7 @@
 title: "Add columns to an Analysis Services tabular model table | Microsoft Docs"
 description: Learn how to add columns to an Analysis Services tabular model table.
 ms.date: 03/12/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

@@ -2,7 +2,7 @@
 title: "Compatibility level for tabular models in Analysis Services | Microsoft Docs"
 description: Learn how to set compatibility levels for tabular models in Analysis Services.
 ms.date: 08/04/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

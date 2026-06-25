@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Analysis Services tutorial supplemental lesson: Dynamic security | Microsoft Docs"
 description: Learn how to create an additional role that implements dynamic security for an Analysis Services tabular model project.
 ms.date: 03/08/2019
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: tutorial
 ---

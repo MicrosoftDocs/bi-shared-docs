@@ -2,7 +2,7 @@
 title: "Detach Element | Microsoft Docs"
 description: Learn how the Detach element detaches a Analysis Services database from the current server instance.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

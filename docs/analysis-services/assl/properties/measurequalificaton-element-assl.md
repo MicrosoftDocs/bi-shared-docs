@@ -2,13 +2,10 @@
 title: "MeasureQualificaton Element (ASSL) | Microsoft Docs"
 description: Learn about the MeasureQualificaton property element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 09/14/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: assl
-ms.reviewer: eur
 
 ms.topic: reference
-author: eric-urban
-ms.author: eur
 
 ---
 # MeasureQualificaton Element (ASSL)

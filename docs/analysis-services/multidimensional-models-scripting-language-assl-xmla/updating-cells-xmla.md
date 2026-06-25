@@ -2,7 +2,7 @@
 title: "Updating Cells (XMLA) | Microsoft Docs"
 description: Learn how to use the UpdateCells command to change the value of one or more cells in a cube enabled for cube writeback.
 ms.date: 06/06/2019
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: concept-article
 

@@ -2,7 +2,7 @@
 title: "Change the Time-out Value for Data Mining Queries | Microsoft Docs"
 description: Learn how to change the time-out value for data mining queries to prevent a prediction query from timing out.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: how-to
 

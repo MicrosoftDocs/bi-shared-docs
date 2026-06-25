@@ -2,7 +2,7 @@
 title: "Notification Events Event Category | Microsoft Docs"
 description: Learn about the event classes for the Notification Events event category.
 ms.date: 07/19/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: trace-events
 ms.topic: reference
 

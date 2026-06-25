@@ -2,7 +2,7 @@
 title: "Locations Element (XMLA) | Microsoft Docs"
 description: Learn how the Locations element contains a collection of Location elements used by the parent Backup, Restore, or Synchronize command. 
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 
