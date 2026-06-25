@@ -3,11 +3,8 @@ title: "Properties (ASSL) | Microsoft Docs"
 description: Learn about the Properties property element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 7/25/2018
 ms.service: azure-analysis-services
-ms.reviewer: eur
 
 ms.topic: reference
-author: eric-urban
-ms.author: eur
 ms.custom:
   - assl
   - sfi-ropc-nochange

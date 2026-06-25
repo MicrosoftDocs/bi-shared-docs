@@ -4,11 +4,8 @@ description: Learn about the MemberUniqueNameStyle property element in the Analy
 ms.date: 09/14/2020
 ms.service: azure-analysis-services
 ms.custom: assl
-ms.reviewer: eur
 
 ms.topic: reference
-author: eric-urban
-ms.author: eur
 
 ---
 # MemberUniqueNameStyle Element (ASSL)

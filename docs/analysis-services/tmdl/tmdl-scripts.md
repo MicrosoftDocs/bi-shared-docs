@@ -5,8 +5,6 @@ ms.date: 01/14/2025
 ms.service: azure-analysis-services
 ms.custom: tmdl
 ms.topic: reference
-ms.author: kfollis
-author: kfollis
 ---
 
 # TMDL scripts

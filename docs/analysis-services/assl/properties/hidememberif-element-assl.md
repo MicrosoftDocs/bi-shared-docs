@@ -4,11 +4,8 @@ description: Learn about the HideMemberIf property element in the Analysis Servi
 ms.date: 09/14/2020
 ms.service: azure-analysis-services
 ms.custom: assl
-ms.reviewer: eur
 
 ms.topic: reference
-author: eric-urban
-ms.author: eur
 
 ---
 # HideMemberIf Element (ASSL)

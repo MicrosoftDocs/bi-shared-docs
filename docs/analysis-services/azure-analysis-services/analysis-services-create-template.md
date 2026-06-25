@@ -1,8 +1,6 @@
 ---
 title: Quickstart - Create an Azure Analysis Services server resource by using Azure Resource Manager template
 description: Quickstart showing how to an Azure Analysis Services server resource by using an Azure Resource Manager template.
-author: eric-urban
-ms.author: eur
 ms.date: 01/26/2023
 ms.topic: quickstart
 ms.service: azure-analysis-services

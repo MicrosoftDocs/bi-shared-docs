@@ -5,9 +5,7 @@ ms.date: 04/04/2024
 ms.service: azure-analysis-services
 ms.custom:
 ms.topic: concept-article
-ms.author: eur
-ms.reviewer: kayunkroth
-author: eric-urban
+ms.reviewer: kayu
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---
 # Configure Service Accounts (Analysis Services)
@@ -116,7 +114,7 @@ All instances of Analysis Services require the **Log on as a service** (SeServic
 3.  Use **Windows Explorer** | **Program Files** | **Microsoft SQL Server** | MSASxx.MSSQLServer | **OLAP** | **bin** to verify folder Security properties are granted to the security group in step 2.  
   
 > [!NOTE]  
->  Never remove or modify a SID. To restore a per-service SID that was inadvertently deleted, see [Using Service SIDs to grant permissions to services in SQL Server 2017](/sql/relational-databases/security/using-service-sids-to-grant-permissions-to-services-in-sql-server?view=sql-server-2017).  
+>  Never remove or modify a SID. To restore a per-service SID that was inadvertently deleted, see [Using Service SIDs to grant permissions to services in SQL Server 2017](/sql/relational-databases/security/using-service-sids-to-grant-permissions-to-services-in-sql-server?view=sql-server-2017&preserve-view=true).  
   
  **More about per-service SIDs**  
   
@@ -142,7 +140,7 @@ All instances of Analysis Services require the **Log on as a service** (SeServic
 ## Related content 
  [Configure Windows Service Accounts and Permissions](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)   
  [SQL Server Service Account and Per-Service SID (Blog)](https://www.travisgan.com/2013/06/sql-server-service-account-and-per.html)   
- [Using Service SIDs to grant permissions to services in SQL Server 2017](/sql/relational-databases/security/using-service-sids-to-grant-permissions-to-services-in-sql-server?view=sql-server-2017)   
+ [Using Service SIDs to grant permissions to services in SQL Server 2017](/sql/relational-databases/security/using-service-sids-to-grant-permissions-to-services-in-sql-server?view=sql-server-2017&preserve-view=true)   
  [Access Token (MSDN)](/windows/desktop/SecAuthZ/access-tokens)   
  [Security Identifiers (MSDN)](/windows/desktop/SecAuthZ/security-identifiers)   
  [Access Token (Wikipedia)](https://en.wikipedia.org/wiki/Access_token)   

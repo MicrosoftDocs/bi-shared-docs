@@ -4,9 +4,7 @@ description: Overview of using the Tabular Object Model to create, view, and man
 ms.date: 12/01/2021
 ms.service: azure-analysis-services
 ms.topic: reference
-ms.author: eur
-ms.reviewer: eur
-author: tedpattison
+ms.reviewer: edpattis
 ms.custom:
   - tabular-models
   - sfi-ropc-nochange

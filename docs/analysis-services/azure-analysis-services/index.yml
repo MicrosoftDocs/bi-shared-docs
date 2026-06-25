@@ -8,9 +8,8 @@ metadata:
   description: Azure Analysis Services is a fully managed platform as a service (PaaS) that provides enterprise-grade data models in the cloud. 
   ms.service: azure-analysis-services
   ms.topic: landing-page
-  author: eric-urban
-  ms.author: eur
-  manager: mtillman
+  ms.author: juliacawthra
+  author: julcsc
   ms.date: 10/30/2019
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
