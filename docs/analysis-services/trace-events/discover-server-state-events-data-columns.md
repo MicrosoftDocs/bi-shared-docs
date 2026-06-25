@@ -2,7 +2,7 @@
 title: "Discover Server State Events Data Columns | Microsoft Docs"
 description: Learn about the data columns for the Discover Server State event category.
 ms.date: 07/19/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: trace-events
 ms.topic: reference
 

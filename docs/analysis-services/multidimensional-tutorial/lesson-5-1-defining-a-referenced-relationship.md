@@ -2,7 +2,7 @@
 title: "Defining a Referenced Relationship | Microsoft Docs"
 description: Learn how to link a dimension to a fact table indirectly through a dimension that is linked directly through a primary key-foreign key relationship for an Analysis Services project.
 ms.date: 04/20/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 

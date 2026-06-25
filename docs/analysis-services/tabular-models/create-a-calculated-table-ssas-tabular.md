@@ -2,7 +2,7 @@
 title: "Create a calculated table in Analysis Services tabular models | Microsoft Docs"
 description: Learn how to create a calculated table in Analysis Services tabular models. A calculated table is a computed object derived from all or part of other tables in the same model.
 ms.date: 01/29/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

@@ -2,7 +2,7 @@
 title: "Analysis Services tutorial lesson 13: Deploy | Microsoft Docs"
 description: Learn how to configure deployment properties for an Analysis Services tabular model project.
 ms.date: 05/04/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: tutorial
 ms.custom: sfi-image-nochange
 ---

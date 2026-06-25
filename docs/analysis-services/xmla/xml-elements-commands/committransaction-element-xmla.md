@@ -2,7 +2,7 @@
 title: "CommitTransaction Element (XMLA) | Microsoft Docs"
 description: Learn how the CommitTransaction element commits a transaction on the current session with a Analysis Services instance.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

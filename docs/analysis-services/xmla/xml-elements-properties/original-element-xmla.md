@@ -2,7 +2,7 @@
 title: "Original Element (XMLA) | Microsoft Docs"
 description: Learn how the Original element contains the original file system storage location used by a Folder element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

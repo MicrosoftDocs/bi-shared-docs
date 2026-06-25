@@ -2,7 +2,7 @@
 title: "Create a Dimension Using the Dimension Wizard | Microsoft Docs"
 description: Use the instructions in this topic to create a new dimension by using the Dimension Wizard in SQL Server Data Tools.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 

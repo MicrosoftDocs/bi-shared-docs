@@ -2,7 +2,7 @@
 title: "Mining Model Content for Sequence Clustering Models | Microsoft Docs"
 description: Learn about mining model content that is specific to models that use the Microsoft Sequence Clustering algorithm in SQL Server Analysis Services.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

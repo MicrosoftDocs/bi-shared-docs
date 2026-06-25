@@ -2,7 +2,7 @@
 title: "Attribute Element (XMLA) | Microsoft Docs"
 description: Learn how the Attribute element defines or filters a member in an attribute on which a parent Insert, Update, or Drop command performs.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

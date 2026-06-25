@@ -2,7 +2,7 @@
 title: "ConnectionString Element (ASSL) | Microsoft Docs"
 description: Learn about the ConnectionString property element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: reference
 ms.custom:
   - assl

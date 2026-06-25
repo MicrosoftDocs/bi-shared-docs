@@ -2,7 +2,7 @@
 title: "Restore Element (XMLA) | Microsoft Docs"
 description: Learn how the Restore element restores a Analysis Services database from a backup file.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

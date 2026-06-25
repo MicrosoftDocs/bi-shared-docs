@@ -4,9 +4,7 @@ description: Start here to learn how to monitor Azure Analysis Services.
 ms.date: 02/28/2024
 ms.custom: horz-monitor
 ms.topic: concept-article
-author: eric-urban
-ms.author: eur
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ---
 
 # Monitor Azure Analysis Services

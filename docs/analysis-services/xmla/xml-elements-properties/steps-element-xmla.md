@@ -2,7 +2,7 @@
 title: "Steps Element (XMLA) | Microsoft Docs"
 description: Learn how the Steps element specifies the maximum number of steps used by the DesignAggregations command to design aggregations.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

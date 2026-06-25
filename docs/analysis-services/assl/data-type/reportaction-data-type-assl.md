@@ -2,7 +2,7 @@
 title: "ReportAction Data Type (ASSL) | Microsoft Docs"
 description: Learn about the ReportAction data type element in the Analysis Services Scripting Language (ASSL) schema.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: assl
 ms.topic: reference
 

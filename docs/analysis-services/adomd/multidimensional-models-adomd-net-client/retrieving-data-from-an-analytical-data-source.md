@@ -2,7 +2,7 @@
 title: "Retrieving Data from an Analytical Data Source | Microsoft Docs"
 description: Learn how to retrieve data from an analytical data source by calling one of the Execute methods of the AdomdCommand object.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: adomd
 ms.topic: concept-article
 

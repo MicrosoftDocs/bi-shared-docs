@@ -2,7 +2,7 @@
 title: "Analysis Services OLAP properties | Microsoft Docs"
 description: Learn about the available OLAP server properties in Analysis Services, like DefaultPageSizeForData and SleepIntervalSecs.
 ms.date: 07/26/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: 
 ms.topic: reference
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

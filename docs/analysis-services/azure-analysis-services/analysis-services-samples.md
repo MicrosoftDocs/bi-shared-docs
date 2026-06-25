@@ -1,12 +1,9 @@
 ---
 title: Azure Analysis Services code, project, and database samples
 description: This article describes resources to learn about code, project, and database samples for Azure Analysis Services.
-author: eric-urban
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: concept-article
 ms.date: 04/27/2021
-ms.author: eur
-ms.reviewer: minewiskan
 
 ---
 # Azure Analysis Services samples

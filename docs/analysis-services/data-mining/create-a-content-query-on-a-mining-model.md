@@ -2,7 +2,7 @@
 title: "Create a Content Query on a Mining Model | Microsoft Docs"
 description: Learn how to query a mining model by using DMX and query the data mining schema rowsets in SQL Server Data Tools.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: article
 

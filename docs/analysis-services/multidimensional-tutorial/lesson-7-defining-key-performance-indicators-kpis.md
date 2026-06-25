@@ -2,7 +2,7 @@
 title: "Lesson 7: Defining Key Performance Indicators (KPIs) | Microsoft Docs"
 description: An overview of defining KPIs for an Analysis Services project.
 ms.date: 04/20/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: tutorial
 

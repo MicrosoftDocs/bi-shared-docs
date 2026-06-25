@@ -2,7 +2,7 @@
 title: "Enable Analysis Services DirectQuery mode in SSMS | Microsoft Docs"
 description: Describes how to enable DirectQuery mode for tabular models by using SQL Server Management Studio.
 ms.date: 01/29/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

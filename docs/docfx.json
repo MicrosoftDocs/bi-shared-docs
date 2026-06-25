@@ -107,15 +107,11 @@
       },
       
       "author": {
-        "analysis-services/**/*.md": "eric-urban"
+        "analysis-services/**/*.md": "JulCsc"
       },
       
       "ms.author": {
-        "analysis-services/**/*.md": "eur"
-      },
-
-      "manager": {
-        "analysis-services/**/*.md": "kfollis"
+        "analysis-services/**/*.md": "juliacawthra"
       },
 
       "ms.update-cycle": {

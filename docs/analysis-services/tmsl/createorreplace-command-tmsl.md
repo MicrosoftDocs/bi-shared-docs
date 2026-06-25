@@ -2,7 +2,7 @@
 title: "CreateOrReplace command (TMSL) | Microsoft Docs"
 description: Use the CreateOrReplace command to create or replace the specified object and all of the descendant objects that are specified.
 ms.date: 04/20/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: reference
 ms.custom:
   - tmsl

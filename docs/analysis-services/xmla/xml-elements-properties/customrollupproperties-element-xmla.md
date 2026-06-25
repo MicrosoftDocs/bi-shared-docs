@@ -2,7 +2,7 @@
 title: "CustomRollupProperties Element (XMLA) | Microsoft Docs"
 description: Learn how the CustomRollupProperties element contains the custom rollup properties for an attribute member represented by the parent Attribute element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

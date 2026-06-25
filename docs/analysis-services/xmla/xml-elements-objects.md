@@ -2,7 +2,7 @@
 title: "Objects (XMLA) | Microsoft Docs"
 description: Learn how the Discover and Execute XMLA objects offer a standard way for applications to access information on an instance of Analysis Services.
 ms.date: 01/05/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 ---

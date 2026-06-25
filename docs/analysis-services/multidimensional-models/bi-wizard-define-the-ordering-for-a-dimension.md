@@ -2,7 +2,7 @@
 title: "Define the Ordering for a Dimension | Microsoft Docs"
 description: Add the attribute ordering enhancement to a cube or dimension to specify how the members of an attribute are ordered.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: concept-article
 

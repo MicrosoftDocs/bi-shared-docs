@@ -2,7 +2,7 @@
 title: "Define Named Calculations in a Data Source View (Analysis Services) | Microsoft Docs"
 description: Use a named calculation to extend the relational schema of tables or views in a data source view without changing the underlying data source.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 

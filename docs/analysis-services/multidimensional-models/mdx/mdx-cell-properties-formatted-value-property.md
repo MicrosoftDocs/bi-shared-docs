@@ -2,7 +2,7 @@
 title: "LANGUAGE and FORMAT_STRING on FORMATTED_VALUE | Microsoft Docs"
 description: Learn how the LANGUAGE and FORMAT_STRING cell property on FORMATTED_VALUE cell property.
 ms.date: 07/24/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: mdx
 ms.topic: reference
 

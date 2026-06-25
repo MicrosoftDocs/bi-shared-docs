@@ -1,12 +1,9 @@
 ---
 title: Azure Analysis Services authentication and user permissions| Microsoft Docs
 description: This article describes how Azure Analysis Services uses Microsoft Entra ID for identity management and user authentication.
-author: eric-urban
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: concept-article
 ms.date: 02/02/2022
-ms.author: eur
-ms.reviewer: minewiskan
 
 ---
 # Authentication and user permissions

@@ -2,7 +2,7 @@
 title: "BeginTransaction Element (XMLA) | Microsoft Docs"
 description: Learn how the BeginTransaction element begins a transaction on the current session with an instance of Analysis Services.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

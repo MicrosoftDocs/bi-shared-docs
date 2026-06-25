@@ -2,7 +2,7 @@
 title: "File Element (XMLA) | Microsoft Docs"
 description: Learn how the File element identifies a file to be used by the parent Backup or Restore command, or by the parent Location element. 
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

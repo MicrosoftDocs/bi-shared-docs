@@ -2,7 +2,7 @@
 title: "Create and manage measures in Analysis Services tabular models | Microsoft Docs"
 description: Learn how to create and manage measures by using a table's measure grid in Analysis Services tabular models.
 ms.date: 01/29/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

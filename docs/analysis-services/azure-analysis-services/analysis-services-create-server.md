@@ -1,12 +1,9 @@
 ---
 title: Quickstart - Create an Analysis Services server in Azure portal | Microsoft Docs
 description: This quickstart describes how to create an Azure Analysis Services server instance by using the Azure portal.
-author: eric-urban
-ms.author: eur
-ms.reviewer: minewiskan
 ms.date: 01/26/2023
 ms.topic: quickstart
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: mode-ui
 #Customer intent: As a BI developer, I want to create an Azure Analysis Services server by using the Azure portal.
 ---

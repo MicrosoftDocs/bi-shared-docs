@@ -2,7 +2,7 @@
 title: "Analysis Services references | Microsoft Docs"
 description: Learn about scripting and API languages used with Analysis Services.
 ms.date: 01/07/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: concept-article
 # monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

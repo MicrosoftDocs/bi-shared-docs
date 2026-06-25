@@ -2,11 +2,9 @@
 title: 'Quickstart: Create an Azure Analysis Services server using Terraform'
 description: 'In this article, you create an Azure Analysis Services server using Terraform'
 ms.topic: quickstart
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.date: 4/14/2023
 ms.custom: devx-track-terraform
-author: kfollis
-ms.author: kfollis
 content_well_notification: 
   - AI-contribution
 ai-usage: ai-assisted

@@ -2,7 +2,7 @@
 title: "Create and Manage a Local Partition (Analysis Services) | Microsoft Docs"
 description: Create additional partitions for a measure group to improve processing performance by allocating fact data across a corresponding number of physical data files.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 

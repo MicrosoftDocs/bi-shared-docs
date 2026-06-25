@@ -2,13 +2,10 @@
 title: "UpdateCulture command (TMSL) | Microsoft Docs"
 description: Learn about properties and usage of the UpdateCulture command, which updates the culture or collation of a tabular database.
 ms.date: 10/16/2025
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tmsl
 ms.topic: reference
-ms.author: kayu
 ms.reviewer: kayu
-author: kayu
-
 ---
 # UpdateCulture command (TMSL)
 

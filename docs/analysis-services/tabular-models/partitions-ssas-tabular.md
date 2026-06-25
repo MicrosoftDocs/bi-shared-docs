@@ -2,7 +2,7 @@
 title: "Partitions in Analysis Services tabular models | Microsoft Docs"
 description: Learn about partitions in Analysis Services tabular models, specifically benefits of partitions and details about partition deployment.
 ms.date: 10/19/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

@@ -2,7 +2,7 @@
 title: "Analysis Services Scripting Language XML Data Types (ASSL) | Microsoft Docs"
 description: An overview of the Data Types (ASSL) reference section.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: assl
 ms.topic: reference
 

@@ -2,7 +2,7 @@
 title: "Create and Run an MDX Script in SQL Server Data Tools | Microsoft Docs"
 description: Follow these instructions to create and run a Multidimensional Expressions (MDX) script in SQL Server Data Tools.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: multidimensional-models
 ms.topic: how-to
 

@@ -2,7 +2,7 @@
 title: "Data Mining Projects | Microsoft Docs"
 description: Learn how data mining projects are part of a SQL Server Analysis Services solution and design choices you can make to support testing a querying.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: concept-article
 

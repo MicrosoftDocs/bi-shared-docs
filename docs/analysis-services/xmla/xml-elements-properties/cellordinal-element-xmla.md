@@ -2,7 +2,7 @@
 title: "CellOrdinal Element (XMLA) | Microsoft Docs"
 description: Learn how the CellOrdinal element contains the ordinal position within a cube of a cell to be updated by an UpdateCells command.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

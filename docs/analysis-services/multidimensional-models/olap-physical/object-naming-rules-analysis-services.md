@@ -2,7 +2,7 @@
 title: "Object Naming Rules (Analysis Services) | Microsoft Docs"
 description: Learn object naming conventions, as well as the reserved words and characters that can't be used in any object name, in code, or script in Analysis Services.
 ms.date: 08/06/2019
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: concept-article
 

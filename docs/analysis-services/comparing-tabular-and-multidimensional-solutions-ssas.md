@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Comparing Analysis Services tabular and multidimensional models | Microsoft Docs"
 description: Describes the differences between Analysis Services multidimensional and tabular model solutions.
 ms.date: 01/19/2022
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.topic: product-comparison
 monikerRange: "asallproducts-allversions || >= sql-analysis-services-2016"
 ---

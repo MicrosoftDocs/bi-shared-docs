@@ -2,7 +2,7 @@
 title: "Globalization scenarios for Analysis Services | Microsoft Docs"
 description: In this article, learn details about globalization scenarios for SQL Server Analysis Services (SSAS).
 ms.date: 01/28/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
@@ -21,7 +21,7 @@ monikerRange: "asallproducts-allversions || azure-analysis-services-current || p
   
 -   Metadata, such as object names, can be translated. Although support varies by model type, both multidimensional and tabular models support the addition of translated strings inside the model. You can define multiple translations, and then use a locale identifier to determine which translation is returned to the client. See [Features](#bkmk_features) below for more details  
   
--   Error, warning, and informational messages returned by the [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] engine (msmdsrv) are localized into the 43 languages supported by Office and Office 365. No configuration is required to get messages in a specific language. The locale of the client application determines which strings are returned.  
+-   Error, warning, and informational messages returned by the [!INCLUDE[ssASnoversion](includes/ssasnoversion-md.md)] engine (msmdsrv) are localized into the 43 languages supported by Office and Microsoft 365. No configuration is required to get messages in a specific language. The locale of the client application determines which strings are returned.  
   
 -   Configuration file (msmdsrv.ini) and AMO PowerShell are in English only.  
   

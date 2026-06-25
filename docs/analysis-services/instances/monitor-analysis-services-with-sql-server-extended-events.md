@@ -2,7 +2,7 @@
 title: "Monitor Analysis Services with SQL Server Extended Events | Microsoft Docs"
 description: Learn how to monitor Analysis Services with SQL Server Extended Events, a tracing and performance monitoring system that uses very few system resources.
 ms.date: 02/22/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom:
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || >= sql-analysis-services-2016"

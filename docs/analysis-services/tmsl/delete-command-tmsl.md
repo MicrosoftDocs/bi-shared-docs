@@ -2,7 +2,7 @@
 title: "Delete command (TMSL) | Microsoft Docs"
 description: Use the Delete command to delete a database or an object in the current database and all child objects and collections.
 ms.date: 04/20/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tmsl
 ms.topic: reference
 ---

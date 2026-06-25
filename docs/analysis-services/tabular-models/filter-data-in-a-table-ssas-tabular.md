@@ -2,7 +2,7 @@
 title: "Filter data in an Analysis Services tabular model table | Microsoft Docs"
 description: Learn how to apply filters when you import data to control the rows that are loaded into a table.
 ms.date: 01/29/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: tabular-models
 ms.topic: how-to
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"

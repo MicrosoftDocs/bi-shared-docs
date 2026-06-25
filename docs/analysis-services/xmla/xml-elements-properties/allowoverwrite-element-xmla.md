@@ -2,7 +2,7 @@
 title: "AllowOverwrite Element (XMLA) | Microsoft Docs"
 description: Learn how the AllowOverwrite element determines whether the parent Backup or Restore command attempts to overwrite the target file or database.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 

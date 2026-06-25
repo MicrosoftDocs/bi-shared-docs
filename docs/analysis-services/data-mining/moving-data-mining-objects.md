@@ -2,7 +2,7 @@
 title: "Moving Data Mining Objects | Microsoft Docs"
 description: Learn how to use the tools and scripting languages provided by SQL Server Analysis Services to move data mining objects.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: how-to
 

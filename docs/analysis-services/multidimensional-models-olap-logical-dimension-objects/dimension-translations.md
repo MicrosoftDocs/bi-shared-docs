@@ -2,7 +2,7 @@
 title: "Dimension Translations | Microsoft Docs"
 description: Learn that dimension translations are a simple mechanism to change the displayed labels and captions from one language to another.
 ms.date: 05/02/2018
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: olap
 ms.topic: concept-article
 

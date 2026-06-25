@@ -2,7 +2,7 @@
 title: "XML for Analysis (XMLA) Compliance | Microsoft Docs"
 description: Learn about the level of compliance with the XML for Analysis 1.1 specification that is supported by Azure Analysis Services and SQL Server Analysis Services.
 ms.date: 01/05/2021
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 ---

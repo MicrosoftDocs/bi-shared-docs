@@ -2,7 +2,7 @@
 title: "Drill Through to Case Data from a Mining Model | Microsoft Docs"
 description: Learn how to drill through to case data from a mining model in SQL Server Analysis Services.
 ms.date: 10/31/2023
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: data-mining
 ms.topic: how-to
 

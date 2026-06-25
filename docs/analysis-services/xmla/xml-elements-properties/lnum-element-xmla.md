@@ -2,7 +2,7 @@
 title: "LNum Element (XMLA) | Microsoft Docs"
 description: Learn how the LNum element contains information about level ordinal positions for the parent HierarchyInfo or Member element.
 ms.date: 01/05/2020
-ms.service: analysis-services
+ms.service: azure-analysis-services
 ms.custom: xmla
 ms.topic: reference
 
