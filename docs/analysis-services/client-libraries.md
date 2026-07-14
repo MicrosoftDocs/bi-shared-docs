@@ -1,7 +1,7 @@
 ---
 title: "Analysis Services client libraries | Microsoft Docs"
 description: Download and learn how client libraries are necessary for client applications and tools to connect to Analysis Services.
-ms.date: 05/15/2026
+ms.date: 07/09/2026
 ms.service: azure-analysis-services
 ms.topic: concept-article
 monikerRange: "asallproducts-allversions || azure-analysis-services-current || power-bi-premium-current || >= sql-analysis-services-2016"
@@ -23,8 +23,8 @@ Client libraries are necessary for client applications and tools to connect to A
 
 |Download  | Version  |
 |---------|---------|
-|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    17.0.74.20        |
-|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     17.0.74.20           |
+|[MSOLAP (amd64)](https://go.microsoft.com/fwlink/?linkid=829576)    |    17.0.82.18        |
+|[MSOLAP (x86)](https://go.microsoft.com/fwlink/?linkid=829575)     |     17.0.82.18           |
 |[AMO](https://go.microsoft.com/fwlink/?linkid=829578)     |   19.84.1.0         |
 |[ADOMD](https://go.microsoft.com/fwlink/?linkid=829577)     |    19.84.1.0           |
 
@@ -46,8 +46,8 @@ Starting Feb. 2021, [.NET Core](/dotnet/core/about) runtime support is available
 
 |Package  | Version  |
 |---------|---------|
-|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices/)    |    19.114.0.0     |
-|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient/)     |   19.114.0.0     |
+|[AMO](https://www.nuget.org/packages/Microsoft.AnalysisServices/)    |    19.114.8.0     |
+|[ADOMD](https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient/)     |   19.114.8.0     |
 
 **Note:**
 
@@ -70,6 +70,11 @@ To minimize risk and potential security vulnerabilities, beginning June 30, 2021
 ## Considerations and limitations
 
 #### AMO and ADOMD
+
+Starting with version 19.114.8:
+- When you authenticate with a certificate specified by thumbprint, the client libraries now verify that the certificate is trusted and valid before use. Certificates that are untrusted, expired, or revoked are no longer accepted. This change affects connections to Azure Analysis Services or the Fabric XMLA endpoint as a service principal (SPN) using a certificate thumbprint.
+- TLS 1.1 and TLS 1.0 aren't supported over HTTP channels. TLS 1.2 is the minimum supported TLS version.
+- The MSO-ID (Microsoft online Live ID) identity provider isn't supported to authenticate federated HTTP connections. This limitation only impacts SQL Server Analysis Services for HTTP connections hosted on IIS.
 
 Starting with version 19.114.0: 
 - The MSAL dependency is upgraded. The minimum supported version is 4.83.3.
@@ -109,6 +114,8 @@ Version 19.14.0 of the .Net Core client libraries introduced preview support for
 Version 19.12.7.2 of the .Net Core client libraries introduced support for SQL Server Analysis Services. Lower preview versions only supported Azure Analysis Services and Power BI semantic models.
 
 #### AMO
+
+Starting with version 19.114.8, CaptureXmla (scripting) mode is prevented when establishing a connection to a SharePoint farm. Some of these connections pass security-related information over the XMLA channel, and it's considered unsafe to persist this information to the XMLA log when the AMO server is in scripting mode.
 
 Starting with version 19.98.0.3, the default compatibility level for tabular model databases is 1700. Databases created without explicitly specifying a compatibility level use level 1700, by default.
 
