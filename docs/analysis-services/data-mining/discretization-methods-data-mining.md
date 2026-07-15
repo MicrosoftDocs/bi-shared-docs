@@ -7,40 +7,41 @@ ms.custom: data-mining
 ms.topic: concept-article
 
 ---
-# Discretization Methods (Data Mining)
+# Discretization methods (data mining)
 [!INCLUDE[appliesto-sql2019-earlier](../includes/appliesto-sql2019-earlier.md)]
 
 [!INCLUDE[dm-dep-banner](../includes/dm-dep-banner.md)]
 
-  Some algorithms that are used to create data mining models in [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] require specific content types in order to function correctly. For example, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Naive Bayes algorithm cannot use continuous columns as input and cannot predict continuous values. Additionally, some columns may contain so many values that the algorithm cannot easily identify interesting patterns in the data from which to create a model.  
+  Some algorithms that create data mining models in [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] require specific content types to function correctly. For example, the [!INCLUDE[msCoName](../includes/msconame-md.md)] Naive Bayes algorithm can't use continuous columns as input and can't predict continuous values. Also, some columns contain so many values that the algorithm can't easily identify interesting patterns in the data to create a model from.  
   
- In these cases, you can discretize the data in the columns to enable the use of the algorithms to produce a mining model. *Discretization* is the process of putting values into buckets so that there are a limited number of possible states. The buckets themselves are treated as ordered and discrete values. You can discretize both numeric and string columns.  
+ In these cases, you can discretize the data in the columns to enable using the algorithms to produce a mining model. *Discretization* is the process of putting values into buckets so there are a limited number of possible states. The buckets themselves are treated as ordered and discrete values. You can discretize both numeric and string columns.  
   
- There are several methods that you can use to discretize data. If your data mining solution uses relational data, you can control the number of buckets to use for grouping data by setting the value of the <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn.DiscretizationBucketCount%2A> property. The default number of buckets is 5.  
+ Several methods are available to discretize data. If your data mining solution uses relational data, you can control the number of buckets to use for grouping data by setting the value of the <xref:Microsoft.AnalysisServices.ScalarMiningStructureColumn.DiscretizationBucketCount%2A> property. The default number of buckets is 5.  
   
- If your data mining solution uses data from an Online Analytical Processing (OLAP) cube, the data mining algorithm automatically computes the number of buckets to generate by using the following equation, where n is the number of distinct values of data in the column:  
+ If your data mining solution uses data from an Online Analytical Processing (OLAP) cube, the data mining algorithm automatically computes the number of buckets to generate by using the following equation, where `n` is the number of distinct values of data in the column:  
   
  `Number of Buckets = sqrt(n)`  
   
- If you do not want [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to calculate the number of buckets, you can use the <xref:Microsoft.AnalysisServices.DimensionAttribute.DiscretizationBucketCount%2A> property to manually specify the number of buckets.  
+ If you don't want [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] to calculate the number of buckets, use the <xref:Microsoft.AnalysisServices.DimensionAttribute.DiscretizationBucketCount%2A> property to manually specify the number of buckets.  
   
- The following table describes the methods that you can use to discretize data in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
+ The following table describes the methods you can use to discretize data in [!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)].  
   
 |Discretization method|Description|  
 |---------------------------|-----------------|  
 |**AUTOMATIC**|[!INCLUDE[ssASnoversion](../includes/ssasnoversion-md.md)] determines which discretization method to use.|  
-|**CLUSTERS**|The algorithm divides the data into groups by sampling the training data, initializing to a number of random points, and then running several iterations of the Microsoft Clustering algorithm using the Expectation Maximization (EM) clustering method. The **CLUSTERS** method is useful because it works on any distribution curve. However, it requires more processing time than the other discretization methods.<br /><br /> This method can only be used with numeric columns.|  
-|**EQUAL_AREAS**|The algorithm divides the data into groups that contain an equal number of values. This method is best used for normal distribution curves, but does not work well if the distribution includes a large number of values that occur in a narrow group in the continuous data. For example, if one-half of the items have a cost of 0, one-half the data will occur under a single point in the curve. In such a distribution, this method breaks the data up in an effort to establish equal discretization into multiple areas. This produces an inaccurate representation of the data.|  
+|**CLUSTERS**|The algorithm divides the data into groups by sampling the training data, initializing to a number of random points, and then running several iterations of the Microsoft Clustering algorithm using the Expectation Maximization (EM) clustering method. The **CLUSTERS** method is useful because it works on any distribution curve. However, it requires more processing time than the other discretization methods.<br /><br /> This method can be used only with numeric columns.|  
+|**EQUAL_AREAS**|The algorithm divides the data into groups that contain an equal number of values. This method is best used for normal distribution curves, but doesn't work well if the distribution includes a large number of values in a narrow group in the continuous data. For example, if one-half of the items have a cost of 0, one-half the data occurs under a single point in the curve. In such a distribution, this method breaks up the data in an effort to establish equal discretization into multiple areas. This process produces an inaccurate representation of the data.|
   
 ## Remarks  
   
--   You can use the **EQUAL_AREAS** method to discretize strings.  
+-   Use the **EQUAL_AREAS** method to discretize strings.
   
--   The **CLUSTERS** method uses a random sample of 1000 records to discretize data. Use the **EQUAL_AREAS** method if you do not want the algorithm to sample data.  
+-   The **CLUSTERS** method uses a random sample of 1,000 records to discretize data. Use the **EQUAL_AREAS** method if you don't want the algorithm to sample data.
+
   
   
   
-## See Also  
+## See also  
  [Content Types &#40;Data Mining&#41;](../../analysis-services/data-mining/content-types-data-mining.md)   
  [Content Types &#40;DMX&#41;](/sql/dmx/content-types-dmx)   
  [Data Mining Algorithms &#40;Analysis Services - Data Mining&#41;](../../analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining.md)   
